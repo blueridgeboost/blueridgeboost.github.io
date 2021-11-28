@@ -5,43 +5,6 @@
     <link>https://blueridgeboost.githup.io/categories/</link>
     <description>Recent content in Categories on Blue Ridge Boost</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://blueridgeboost.githup.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>lorem</title>
-      <link>https://blueridgeboost.githup.io/categories/lorem/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://blueridgeboost.githup.io/categories/lorem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>programming</title>
-      <link>https://blueridgeboost.githup.io/categories/programming/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://blueridgeboost.githup.io/categories/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pseudo</title>
-      <link>https://blueridgeboost.githup.io/categories/pseudo/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://blueridgeboost.githup.io/categories/pseudo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>starting</title>
-      <link>https://blueridgeboost.githup.io/categories/starting/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      
-      <guid>https://blueridgeboost.githup.io/categories/starting/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://blueridgeboost.githup.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
