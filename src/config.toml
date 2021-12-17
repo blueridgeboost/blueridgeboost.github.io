@@ -22,17 +22,39 @@ paginate = 10
 
 
 # Main menu
+
+[[menu.main]]
+    name       = "Morning Camp"
+    identifier = "menu.morningwintercamp"
+    url        = "/morningwintercamp"
+    weight     = 1
+
+[[menu.main]]
+    name       = "Afternoon Camp"
+    identifier = "menu.afternoonwintercamp"
+    url        = "/afternoonwintercamp"
+    weight     = 2
+
+
+[[menu.main]]
+    name       = "Tutoring"
+    identifier = "menu.tutoring"
+    url        = "/tutoring"
+    weight     = 4
+
+
 [[menu.main]]
     name       = "Classes"
     identifier = "menu.classes"
     url        = "/classes"
-    weight     = 1
-
-[[menu.main]]
-    name       = "Blog"
-    identifier = "menu.blog"
-    url        = "/blog/"
     weight     = 5
+    
+
+# [[menu.main]]
+#     name       = "Blog"
+#     identifier = "menu.blog"
+#     url        = "/blog/"
+#     weight     = 5
 
 [[menu.main]]
     identifier = "contact"
@@ -63,14 +85,14 @@ paginate = 10
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devcows", "hugo", "go"]
+    author = "MMM"
+    defaultKeywords = ["math", "computer science"]
     mainSections = ["blog"]
-    defaultDescription = "Site template made by devcows using hugo"
+    defaultDescription = "Website for Blue Ridge Boosters"
 
     # Social media
-    twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
-    default_sharing_image = "img/sharing-default.png"
+    ## twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
+    ## default_sharing_image = "img/sharing-default.png"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "violet"
@@ -109,7 +131,7 @@ paginate = 10
     enableRecaptchaInContactForm = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>Tutoring and group classes for ambitious achievers, led by Ana Nora Evans (Masters degrees in Math, Computer Science, and Teaching) in Charlottesville, Virginia.</p>"
+    about_us = "<p>Tutoring and group classes for ambitious achievers, led by Ana Nora Evans (Masters degrees in Mathematics and Computer Science from the University of Virginia) in Charlottesville, Virginia.</p>"
     copyright = ""
 
     # Format dates with Go's time formatting
@@ -134,7 +156,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Now enrolling for summer group classes! Contact us at ana@cvillemath.com</p>
+    text = """<p class="hidden-sm hidden-xs">Now enrolling for winter group classes! Contact us at ana@cvillemath.com</p>
       """
 
 # Enable and disable widgets for the right sidebar
