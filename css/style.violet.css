@@ -1741,8 +1741,8 @@ fieldset[disabled] .btn-template-primary.active {
 }
 #heading-breadcrumbs {
   background: url('../img/texture-violet.png') center center repeat;
-  padding: 20px 0;
-  margin-bottom: 40px;
+  padding: 0px 0;
+  margin-bottom: 10px;
 }
 #heading-breadcrumbs.no-mb {
   margin-bottom: 0;
