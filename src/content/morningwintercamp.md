@@ -33,10 +33,10 @@ Campers will spend three hours daily, from 10am to 1pm working as a group and in
  
 ### Topics
 
-The students will learn the basics of algorithimic thinking by programming the teacher to dance. We will use games to understand the basic logical operations including and, or and not. The culminating lesson teaches basic sorting algorithms.
+The students will learn the basics of algorithmic thinking by programming the teacher to dance. We will use games to understand the basic logical operations including and, or and not. The culminating lesson teaches basic sorting algorithms.
 
    
-In addition, students will start programming using a block-language. They create simple code that helps a monkey retrieve babanas stolen by a mean gorilla. Depending on the students background and pace, the campers may learn conditional statements and loops.
+In addition, students code using a block-language. They create programs to help a monkey retrieve its bananas that were stolen by a mean gorilla. Depending on the students background and pace, they may also learn conditional statements and loops.
    
 The instructor uses differentiated instruction to satisfy the intellectual needs of every camper.
 
@@ -44,14 +44,12 @@ The instructor uses differentiated instruction to satisfy the intellectual needs
 
 <a href="/images/nora.png"><img src="/images/nora-smaller.png" width="20%" alt="Nora" align="left" style="padding:20px;"></a>
 
-[Ana Nora Evans](//ananoraevans.org/) has taught math courses at the
-University of Virginia and Monticello High School, and tutored
-students in computing and math.
-
-She has a Masters degree in Mathematics from the University of
+[Ana Nora Evans](//ananoraevans.org/) has a Masters degree in Mathematics from the University of
 Virginia, a Masters degree in Computer Science from the University of
 Virginia, and will complete a Masters degree in Teaching in Spring
-2022.
+2022. Nora has previous experience leading programming and math lessons as a teaching assistant in Mathematics and Computer Science Department at the University of Virginia.
+
+Nora is an experienced software engineer with industry and research projects. She is a co-author of several research papers published in top conferences.
 
 ### COVID-19 Mitigation Protocols
 
