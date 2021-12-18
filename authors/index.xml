@@ -5,10 +5,6 @@
     <link>https://blueridgeboost.githup.io/authors/</link>
     <description>Recent content in Authors on Blue Ridge Boost</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://blueridgeboost.githup.io/authors/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://blueridgeboost.githup.io/authors/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
