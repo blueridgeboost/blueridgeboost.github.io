@@ -53,7 +53,7 @@ complete a Masters degree in Teaching in Spring 2022.
 
 1. Maximum class size is 4 students.
 1. All campers are required to provide COVID-19 vaccination proof.
-1. All members of the instructor's household are COVID-19 vaccinated and boosted.
+1. All members of the instructor's household are COVID-19 vaccinated (all adults are also boosted).
 1. Windows are kept open to ventilate the room.
 1. Temperature is checked at arrival.
 1. Surfaces are disinfected before and after camp.
