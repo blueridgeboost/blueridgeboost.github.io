@@ -4,7 +4,7 @@ title = "Morning Camp for 6-9 year olds"
 
 ### Camp at a glance
 
-   <a href="/images/learningroombright.png"><img src="/images/learningroombright-smaller.png" width="40%" alt="Learning Room at CvilleMath" align="right" style="padding:10px;"></a>
+   <a href="/images/learningroombright.png"><img src="/images/learningroombright-smaller.png" width="40%" alt="Learning Room at CvilleMath" align="right" style="padding:20px;"></a>
 
 **When**: Monday, December 27 - Friday, December 31, 2021, 10:00 am &ndash; 1:00 pm  
 **Where**: 1629 Appian Way, Charlottesville, Virginia (Pantops area)  
@@ -28,7 +28,7 @@ Campers will spend three hours daily, from 10am to 1pm working as a group and in
 1. **Choice time** (45 min). Campers may choose their activity from coding in Code Mokey, lego robots building and programming using WeDo Lego sets, MakeyMakey, and other programmable robots.
 1. **Pick up** at 1 pm.
 
-   <a href="/images/fractions.png"><img src="/images/fractions-smaller.png" width="40%" alt="Visualizing Fractions" align="right" style="padding:10px;"></a>
+   <a href="/images/fractions.png"><img src="/images/fractions-smaller.png" width="40%" alt="Visualizing Fractions" align="right" style="padding:20px;"></a>
  
 ### Topics
 
@@ -37,7 +37,17 @@ The students will learn the basics of algorithimic thinking by programming the t
    
 In addition, students will start programming using a block-language. They create simple code that helps a monkey retrieve babanas stolen by a mean gorilla. Depending on the students background and pace, the campers may learn conditional statements and loops.
    
-The instructor uses differentiated instruction to satisfy the intelectual needs of every camper.
+The instructor uses differentiated instruction to satisfy the intellectual needs of every camper.
+
+### Instructor
+
+<a href="/images/nora.png"><img src="/images/nora-smaller.png" width="20%" alt="Nora" align="left" style="padding:20px;"></a>
+
+Ana Nora Evans has taught math and computer science courses at the
+University of Virginia and Monticello High School. She has a Masters
+degree in Mathematics from the University of Virginia, a Masters
+degree in Computer Science from the University of Virginia, and will
+complete a Masters degree in Teaching in Spring 2022.
 
 ### COVID-19 Mitigation Protocols
 
