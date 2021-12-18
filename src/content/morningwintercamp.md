@@ -15,7 +15,7 @@ title = "Morning Camp for 6-9 year olds"
 
 ### Daily Schedule
 
-   <img src="../../images/learningroombright.png" width="400" alt="Learning Room at CvilleMath" align="right">
+   <a href="/images/learningroombright.png"><img src="/images/learningroombright-smaller.png" width="40%" alt="Learning Room at CvilleMath" align="right"></a>
 
 Campers will spend three hours daily, from 10am to 1pm working as a group and individually on fun programming challenges.
 
@@ -34,6 +34,8 @@ The students will learn the basics of algorithimic thinking by programming the t
 
 In addition, students will start programming using a block-language. They create simple code that helps a monkey retrieve babanas stolen by a mean gorilla. Depending on the students background and pace, the campers may learn conditional statements and loops.
 
+   <a href="/images/fractions.png"><img src="/images/fractions-smaller.png" width="40%" alt="Visualizing Fractions" align="right"></a>
+   
 The instructor uses differentiated instruction to satisfy the intelectual needs of every camper.
 
 ### COVID-19 Mitigation Protocols

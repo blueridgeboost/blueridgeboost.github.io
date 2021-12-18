@@ -5,7 +5,11 @@
     <link>https://blueridgeboost.githup.io/</link>
     <description>Recent content on Blue Ridge Boost</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://blueridgeboost.githup.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+	<atom:link href="https://blueridgeboost.githup.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Afternoon Camp for 9-12 year olds</title>
       <link>https://blueridgeboost.githup.io/afternoonwintercamp/</link>
@@ -65,7 +69,7 @@ What: Coding instruction using block languages (not video games!)
 Cost: $350 (early drop off at 9am is available for an additional $50)
 Sign Up: nora@cvillemath.com
 Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask for the duration of the camp.
-Daily Schedule Campers will spend three hours daily, from 10am to 1pm working as a group and individually on fun programming challenges.</description>
+Daily Schedule</description>
     </item>
     
     <item>
