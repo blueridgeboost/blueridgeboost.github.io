@@ -48,10 +48,13 @@ Depending on the students background and pace, they may also learn conditional s
 
 [Ana Nora Evans](//ananoraevans.org/) has a Masters degree in Mathematics from the University of
 Virginia, a Masters degree in Computer Science from the University of
-Virginia, and will complete a Masters degree in Teaching in Spring
-2022. Nora has previous experience leading programming and math lessons as a teaching assistant in Mathematics and Computer Science Department at the University of Virginia.
+Virginia, and will complete a Masters degree in Teaching in Spring 2022. 
 
-Nora is an experienced software engineer with industry and research projects. She is a co-author of several research papers published in top conferences.
+Nora has previous experience leading programming and math lessons as a teaching assistant in 
+Mathematics and Computer Science Department at the University of Virginia.
+
+Nora is an experienced software engineer with industry and research projects. She is a 
+co-author of several research papers published in top conferences.
 
 ### COVID-19 Mitigation Protocols
 
