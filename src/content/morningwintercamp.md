@@ -15,7 +15,7 @@ title = "Morning Camp for 6-9 year olds"
 
 ### Daily Schedule
 
-   <img src="/images/learningroombright.png" width="400" alt="Learning Room at CvilleMath" align="right">
+   <img src="../../images/learningroombright.png" width="400" alt="Learning Room at CvilleMath" align="right">
 
 Campers will spend three hours daily, from 10am to 1pm working as a group and individually on fun programming challenges.
 
