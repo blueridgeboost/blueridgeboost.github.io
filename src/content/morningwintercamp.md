@@ -2,13 +2,14 @@
 title = "Morning Camp for 6-9 year olds"
 +++
 
-### Camp at a glance
+<a href="/images/learningroombright.png"><img src="/images/learningroombright-smaller.png" width="40%" alt="Learning Room at CvilleMath" align="right" style="padding:20px;"></a>
 
-   <a href="/images/learningroombright.png"><img src="/images/learningroombright-smaller.png" width="40%" alt="Learning Room at CvilleMath" align="right" style="padding:20px;"></a>
+### Camp at a glance
 
 **When**: Monday, December 27 - Friday, December 31, 2021, 10:00 am &ndash; 1:00 pm  
 **Where**: 1629 Appian Way, Charlottesville, Virginia (Pantops area)  
 **What**: Coding instruction using block languages (not video games!)  
+**Who**: 6 &ndash; 9 years olds, no prior computer programming experience required  
 **Cost**: $350 (early drop off at 9am is available for an additional $50)
 
 **Sign Up**: <a href="mailto:nora@cvillemath.com"><em>nora@cvillemath.com</em></a>
@@ -43,16 +44,19 @@ The instructor uses differentiated instruction to satisfy the intellectual needs
 
 <a href="/images/nora.png"><img src="/images/nora-smaller.png" width="20%" alt="Nora" align="left" style="padding:20px;"></a>
 
-Ana Nora Evans has taught math and computer science courses at the
-University of Virginia and Monticello High School. She has a Masters
-degree in Mathematics from the University of Virginia, a Masters
-degree in Computer Science from the University of Virginia, and will
-complete a Masters degree in Teaching in Spring 2022.
+[Ana Nora Evans](//ananoraevans.org/) has taught math courses at the
+University of Virginia and Monticello High School, and tutored
+students in computing and math.
+
+She has a Masters degree in Mathematics from the University of
+Virginia, a Masters degree in Computer Science from the University of
+Virginia, and will complete a Masters degree in Teaching in Spring
+2022.
 
 ### COVID-19 Mitigation Protocols
 
 1. Maximum class size is 4 students.
-1. All campers are required to provide COVID-19 vaccination proof.
+1. All campers are required to provide proof of COVID-19 vaccination.
 1. All members of the instructor's household are COVID-19 vaccinated (all adults are also boosted).
 1. Windows are kept open to ventilate the room.
 1. Temperature is checked at arrival.
