@@ -83,7 +83,7 @@ unsafe= true
 [[menu.topbar]]
     weight = 5
     name = "Email"
-    url = "mailto:ana@cvillemath.com"
+    url = "mailto:nora@cvillemath.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
