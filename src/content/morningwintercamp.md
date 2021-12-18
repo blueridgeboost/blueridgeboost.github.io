@@ -42,9 +42,9 @@ In addition, students code using a block-language. They create programs to help 
 
 Depending on the students background and pace, they may also learn conditional statements and loops and may start coding using a text-based language. The instructor uses differentiated instruction practices to satisfy the intellectual needs of every camper.
 
-### Instructor
-
 <a href="/images/nora.png"><img src="/images/nora-smaller.png" width="20%" alt="Nora" align="left" style="padding:20px;"></a>
+
+### Instructor
 
 [Ana Nora Evans](//ananoraevans.org/) has a Masters degree in Mathematics from the University of
 Virginia, a Masters degree in Computer Science from the University of
