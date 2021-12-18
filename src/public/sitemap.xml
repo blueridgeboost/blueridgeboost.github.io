@@ -1,45 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://blueridgeboost.githup.io/afternoonwintercamp/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.githup.io/authors/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.githup.io/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.githup.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.githup.io/classes/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.githup.io/contact/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.githup.io/faq/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.githup.io/morningwintercamp/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.githup.io/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.githup.io/tutoring/</loc>
   </url>
-  
 </urlset>

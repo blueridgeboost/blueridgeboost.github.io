@@ -8,11 +8,12 @@ title = "Morning Camp for 6-9 year olds"
 
 **When**: Monday, December 27 - Friday, December 31, 2021, 10:00 am &ndash; 1:00 pm  
 **Where**: 1629 Appian Way, Charlottesville, Virginia (Pantops area)  
-**What**: Coding instruction using block languages (not video games!)  
-**Who**: 6 &ndash; 9 years olds, no prior computer programming experience required  
+**What**: Coding instruction using block languages (no video games!)  
+**Who**: 6 &ndash; 9 years olds, no prior computer programming experience required
+
 **Cost**: $350 (early drop off at 9am is available for an additional $50)
 
-**Sign Up**: <a href="mailto:nora@cvillemath.com"><em>nora@cvillemath.com</em></a>
+**Sign Up**: <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>
 
 **Conditions to attend**: proof of COVID-19 vaccination, commitment to wear a mask for the duration of the camp.
 
@@ -38,7 +39,7 @@ The students learn the basics of algorithmic thinking by programming the teacher
 The culminating lesson teaches basic sorting algorithms. 
 Successful coders need more than knowledge of programming languages, they must have well-developed computational thinking skills and deep knowledge of standard algorithms that can be used to solve a variety of problems. 
    
-In addition, students code using a block-language. They create programs to help a monkey retrieve its bananas that were stolen by a mean gorilla using commands to make it walk and turn. 
+In addition, students code using a block-language. They create programs to help a monkey retrieve its bananas that were stolen by a mean gorilla using commands to make it walk and turn or to help a beaver fix its den. Based on the student's previous exposure to coding and interest, they may choose one of the following sets of practice exercises: [Beaver Achiever](https://www.codemonkey.com/courses/beaver-achiever/), [Dodo Does Math](https://www.codemonkey.com/courses/dodo-does-math/), and [Coding Adventure](https://www.codemonkey.com/courses/coding-adventure/).
 
 Depending on the students background and pace, they may also learn conditional statements and loops and may start coding using a text-based language. The instructor uses differentiated instruction practices to satisfy the intellectual needs of every camper.
 
@@ -51,10 +52,12 @@ Virginia, a Masters degree in Computer Science from the University of
 Virginia, and will complete a Masters degree in Teaching in Spring 2022. 
 
 Nora has previous experience leading programming and math lessons as a teaching assistant in 
-Mathematics and Computer Science Department at the University of Virginia.
+Mathematics and Computer Science Department at the University of Virginia. She co-funded and organized a [math circle](https://cvillemathcircle.org/) for girls ages 3 to 9 for four years. Nora has classroom experience as a student-teacher at Monticello High School with Algebra 2, Math Analysis, and Geometry.
 
-Nora is an experienced software engineer with industry and research projects. She is a 
-co-author of several research papers published in top conferences.
+Nora is an experienced software engineer with industry and research experience. She is a 
+co-author of several research papers published in top conferences in computer security and software engineering.
+
+Nora is passionate about math and computing education, especially in attracting and retaining girls and women in STEM fields. The classroom environment and courses are designed to appeal to all students, not only gamers and boys.
 
 ### COVID-19 Mitigation Protocols
 

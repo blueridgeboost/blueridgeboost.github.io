@@ -6,65 +6,85 @@ In January and February, we offer week-end enrichment classes of up to 4 student
 
 ### Competition Math for Fourth and Fifth Graders
 
-**When**: TODO
-
-**Where**: 1629 Appian Way, Charlottesville, Virginia.
-
-**What**: Problem solving strategies for elementary school math competitions, focused on MOEMS.
+**When**: TODO    
+**Where**: 1629 Appian Way, Charlottesville, Virginia.    
+**What**: Problem solving strategies for elementary school math competitions, focused on MOEMS.     
+**Who**: Students at fourth or fifth grade-level math.    
 
 **Cost**: $40/session.
 
-**Conditions to attend**: proof of COVID-19 vaccination, commitment to wear a safe mask correctly for the duration of the camp.
+**Sign Up**: <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>
+
+**Conditions to attend**: proof of COVID-19 vaccination, commitment to wear a mask for the duration of the camp.
+
+### Towards the USA Computing Olympiad Bronze Level (recommended for students with some programming experience)
+
+**When**: TODO    
+**Where**: 1629 Appian Way, Charlottesville, Virginia.    
+**What**: Programming and algorithmic skills needed for USACO Bronze Level.    
+**Who**: Students with a good mathematical background and with come coding experience using Python, C++, or Java.     
+
+**Cost**: $50/session.
+
+**Sign Up**: <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>
+
+**Conditions to attend**: proof of COVID-19 vaccination, commitment to wear a mask for the duration of the camp.
+
 
 ### Block-language programming (recommended for grades 1-3)
 
-**When**: TODO
-
-**Where**: 1629 Appian Way, Charlottesville, Virginia.
-
-**What**: Each student is following a selection of instructor lessons, Scratch projects, Lego WeDo projects, and Cofee Script programming exercises.
-
-**Cost**: $50/session.
-
-**Conditions to attend**: proof of COVID-19 vaccination, commitment to wear a safe mask correctly for the duration of the camp.
-
-### Text language programming (reccommended for grades 3-5)
-
-**When**: TODO
-
-**Where**: 1629 Appian Way, Charlottesville, Virginia.
-
-**What**: TBD
+**When**: TODO    
+**Where**: 1629 Appian Way, Charlottesville, Virginia.    
+**What**: Each student follows a selection of instructor lessons, Scratch projects, Lego WeDo projects, and Cofee Script programming exercises.    
+**Who**: Any student interested in coding.
 
 **Cost**: $50/session.
 
-**Conditions to attend**: proof of COVID-19 vaccination, commitment to wear a safe mask correctly for the duration of the camp.
+**Sign Up**: <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>
+
+**Conditions to attend**: proof of COVID-19 vaccination, commitment to wear a mask for the duration of the camp.
+
+
+### Text language programming (recommended for grades 3-5)
+
+**When**: TODO    
+**Where**: 1629 Appian Way, Charlottesville, Virginia.    
+**What**: Coffe Script.
+**Who**: Any student interested in coding.
+
+**Cost**: $50/session.
+
+**Sign Up**: <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>
+
+**Conditions to attend**: proof of COVID-19 vaccination, commitment to wear a mask for the duration of the camp.
 
 
 ### Python programming (recommended for grades 5-7)
 
-**When**: TODO
+**When**: TODO    
+**Where**: 1629 Appian Way, Charlottesville, Virginia.    
+**What**: Python.
+**Who**: Any student interested in coding.
 
-**Where**: 1629 Appian Way, Charlottesville, Virginia.
+**Cost**: $50/session.
 
-**What**: Students 
+**Sign Up**: <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>
 
-**How much?**: $50/session.
+**Conditions to attend**: proof of COVID-19 vaccination, commitment to wear a mask for the duration of the camp.
 
-**Conditions to attend**: proof of COVID-19 vaccination, commitment to wear a safe mask correctly for the duration of the camp.
+### Instructor
 
+[Ana Nora Evans](//ananoraevans.org/) has a Masters degree in Mathematics from the University of
+Virginia, a Masters degree in Computer Science from the University of
+Virginia, and will complete a Masters degree in Teaching in Spring 2022. 
 
-### Towards the USA Computing Olympiad Bronze Level (recommended for students with some programming experience)
+Nora has previous experience leading programming and math lessons as a teaching assistant in 
+Mathematics and Computer Science Department at the University of Virginia. She co-funded and organized a [math circle](https://cvillemathcircle.org/) for girls ages 3 to 9 for four years. Nora has classroom experience as a student-teacher at Monticello High School with Algebra 2, Math Analysis, and Geometry.
 
-**When**: TODO
+Nora is an experienced software engineer with industry and research experience. She is a 
+co-author of several research papers published in top conferences in computer security and software engineering.
 
-**Where**: 1629 Appian Way, Charlottesville, Virginia.
-
-**What**: TBD
-
-**How much?**: $50/session.
-
-**Conditions to attend**: proof of COVID-19 vaccination, commitment to wear a safe mask correctly for the duration of the camp.
+Nora is passionate about math and computing education, especially in attracting and retaining girls and women in STEM fields. The classroom environment and courses are designed to appeal to all students, not only gamers and boys.
 
 
 

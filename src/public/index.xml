@@ -5,23 +5,20 @@
     <link>https://blueridgeboost.githup.io/</link>
     <description>Recent content on Blue Ridge Boost</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://blueridgeboost.githup.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://blueridgeboost.githup.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Afternoon Camp for 9-12 year olds</title>
       <link>https://blueridgeboost.githup.io/afternoonwintercamp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.githup.io/afternoonwintercamp/</guid>
-      <description>Camp at a glance When: Dec 27 - Dec 31, 2021, 2pm-4pm.
-Where: 1629 Appian Way, Charlottesville, Virginia.
-What: Coding instruction without video games using Python and CoffeScript.
-Cost: $350.
-Conditions to attend: proof of COVID-19 vaccination, commitment to wear a safe mask correctly for the duration of the camp.
-Daily Schedule Campers will spend two hours daily, from 2m to 4pm working together and individually on fun programming challenges.</description>
+      <description>Camp at a glance When: Monday, December 27 - Friday, December 31, 2021, 2:00 am – 4:00 pm
+Where: 1629 Appian Way, Charlottesville, Virginia (Pantops area)
+What: Coding instruction using Coffee Script or Python depending on student&amp;rsquo;s experience and preference (no video games!)
+Who: 9 – 12 years olds, no prior computer programming experience required
+Cost: $350
+Sign Up: nora@blueridgeboost.com
+Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask for the duration of the camp.</description>
     </item>
     
     <item>
@@ -31,11 +28,9 @@ Daily Schedule Campers will spend two hours daily, from 2m to 4pm working togeth
       
       <guid>https://blueridgeboost.githup.io/classes/</guid>
       <description>In January and February, we offer week-end enrichment classes of up to 4 students. Sign-up for as many as you like. Payment is required to reserve spot, no walk-ins accepted.
-Competition Math for Fourth and Fifth Graders When: TODO
-Where: 1629 Appian Way, Charlottesville, Virginia.
-What: Problem solving strategies for elementary school math competitions, focused on MOEMS.
+Competition Math for Fourth and Fifth Graders When: TODO Where: 1629 Appian Way, Charlottesville, Virginia. What: Problem solving strategies for elementary school math competitions, focused on MOEMS. Who: Students at fourth or fifth grade-level math.
 Cost: $40/session.
-Conditions to attend: proof of COVID-19 vaccination, commitment to wear a safe mask correctly for the duration of the camp.</description>
+Sign Up: nora@blueridgeboost.com</description>
     </item>
     
     <item>
@@ -65,10 +60,10 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a safe m
       <guid>https://blueridgeboost.githup.io/morningwintercamp/</guid>
       <description>Camp at a glance When: Monday, December 27 - Friday, December 31, 2021, 10:00 am – 1:00 pm
 Where: 1629 Appian Way, Charlottesville, Virginia (Pantops area)
-What: Coding instruction using block languages (not video games!)
+What: Coding instruction using block languages (no video games!)
 Who: 6 – 9 years olds, no prior computer programming experience required
 Cost: $350 (early drop off at 9am is available for an additional $50)
-Sign Up: nora@cvillemath.com
+Sign Up: nora@blueridgeboost.com
 Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask for the duration of the camp.</description>
     </item>
     
@@ -78,7 +73,10 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.githup.io/tutoring/</guid>
-      <description>We offer 1-1 tutoring for students from middle school to graduate student level in Mathematics and Computer Science. The cost per class is between $50 and $150 depedning on the complexity of the preparation and materials needed. For a quote and scheduling, please contact us at TODO.</description>
+      <description>We offer 1-1 tutoring for students from middle school to graduate student level in Mathematics and Computer Science, both in-person and online. The cost per class is between $50 and $150 depedning on the complexity of the preparation and materials needed.
+For a quote and scheduling, please contact us at nora@blueridgeboost.com.
+
+Instructor Ana Nora Evans has a Masters degree in Mathematics from the University of Virginia, a Masters degree in Computer Science from the University of Virginia, and will complete a Masters degree in Teaching in Spring 2022.</description>
     </item>
     
   </channel>

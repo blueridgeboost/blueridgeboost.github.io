@@ -83,7 +83,7 @@ unsafe= true
 [[menu.topbar]]
     weight = 5
     name = "Email"
-    url = "mailto:nora@cvillemath.com"
+    url = "mailto:nora@blueridgeboost.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
@@ -159,7 +159,7 @@ unsafe= true
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Now enrolling for winter group classes! Contact us at ana@cvillemath.com</p>
+    text = """<p class="hidden-sm hidden-xs">Now enrolling for winter group classes! Contact us at nora@blueridgeboost.com</p>
       """
 
 # Enable and disable widgets for the right sidebar
