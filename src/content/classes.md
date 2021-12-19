@@ -6,7 +6,7 @@ In January and February, we offer week-end enrichment classes of up to 4 student
 
 ### Competition Math for Fourth and Fifth Graders
 
-**When**: To Be Determined
+**When**: To Be Determined       
 **Where**: 1629 Appian Way, Charlottesville, Virginia.    
 **What**: Problem solving strategies for elementary school math competitions, focused on MOEMS.     
 **Who**: Students at fourth or fifth grade-level math.    
