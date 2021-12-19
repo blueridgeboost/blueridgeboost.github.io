@@ -6,12 +6,12 @@ In January and February, we offer week-end enrichment classes of up to 4 student
 
 ### Competition Math for Fourth and Fifth Graders
 
-**When**: TODO    
+**When**: To Be Determined
 **Where**: 1629 Appian Way, Charlottesville, Virginia.    
 **What**: Problem solving strategies for elementary school math competitions, focused on MOEMS.     
 **Who**: Students at fourth or fifth grade-level math.    
 
-**Cost**: $40/session.
+**Cost**: $40 for 60 minutes.
 
 **Sign Up**: <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>
 
@@ -19,12 +19,12 @@ In January and February, we offer week-end enrichment classes of up to 4 student
 
 ### Towards the USA Computing Olympiad Bronze Level (recommended for students with some programming experience)
 
-**When**: TODO    
+**When**: To Be Determined    
 **Where**: 1629 Appian Way, Charlottesville, Virginia.    
 **What**: Programming and algorithmic skills needed for USACO Bronze Level.    
-**Who**: Students with a good mathematical background and with come coding experience using Python, C++, or Java.     
+**Who**: Students with a good mathematical background and with some coding experience using Python, C++, or Java.     
 
-**Cost**: $50/session.
+**Cost**: $70 for 90 minutes.
 
 **Sign Up**: <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>
 
@@ -33,12 +33,12 @@ In January and February, we offer week-end enrichment classes of up to 4 student
 
 ### Block-language programming (recommended for grades 1-3)
 
-**When**: TODO    
+**When**: To Be Determined    
 **Where**: 1629 Appian Way, Charlottesville, Virginia.    
-**What**: Each student follows a selection of instructor lessons, Scratch projects, Lego WeDo projects, and Cofee Script programming exercises.    
+**What**: Each student follows a selection of instructor lessons, Scratch projects, Lego WeDo projects, and Coffee Script programming exercises.    
 **Who**: Any student interested in coding.
 
-**Cost**: $50/session.
+**Cost**: $50 for 60 minutes.
 
 **Sign Up**: <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>
 
@@ -47,12 +47,12 @@ In January and February, we offer week-end enrichment classes of up to 4 student
 
 ### Text language programming (recommended for grades 3-5)
 
-**When**: TODO    
+**When**: To Be Determined    
 **Where**: 1629 Appian Way, Charlottesville, Virginia.    
-**What**: Coffe Script.
+**What**: Coffee Script.
 **Who**: Any student interested in coding.
 
-**Cost**: $50/session.
+**Cost**: $50 for 60 minutes.
 
 **Sign Up**: <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>
 
@@ -61,12 +61,12 @@ In January and February, we offer week-end enrichment classes of up to 4 student
 
 ### Python programming (recommended for grades 5-7)
 
-**When**: TODO    
+**When**: To Be Determined    
 **Where**: 1629 Appian Way, Charlottesville, Virginia.    
 **What**: Python.
 **Who**: Any student interested in coding.
 
-**Cost**: $50/session.
+**Cost**: $70 for 90 minutes.
 
 **Sign Up**: <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>
 
