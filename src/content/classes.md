@@ -2,6 +2,10 @@
 title = "Classes"
 +++
 
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+    
 In January and February, we offer week-end enrichment classes of up to 4 students. Sign-up for as many as you like. Payment is required to reserve spot, no walk-ins accepted.
 
 ### Competition Math for Fourth and Fifth Graders
@@ -71,6 +75,15 @@ In January and February, we offer week-end enrichment classes of up to 4 student
 **Sign Up**: <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>
 
 **Conditions to attend**: proof of COVID-19 vaccination, commitment to wear a mask for the duration of the camp.
+
+    </div>
+    <div class="col-sm-5">
+
+
+ <center>
+<a href="/images/learningroombright.png"><img src="/images/learningroombright-smaller.png" width="95%" alt="Learning Room at CvilleMath" style="padding:20px;"></a>
+</center>
+
 
 ### Instructor
 

@@ -2,7 +2,10 @@
 title = "Morning Camp for 6-9 year olds"
 +++
 
-<a href="/images/learningroombright.png"><img src="/images/learningroombright-smaller.png" width="40%" alt="Learning Room at CvilleMath" align="right" style="padding:20px;"></a>
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+
 
 ### Camp at a glance
 
@@ -30,8 +33,6 @@ Campers will spend three hours daily, from 10am to 1pm working as a group and in
 1. **Choice time** (45 min). Campers may choose their activity from coding in Code Mokey, lego robots building and programming using WeDo Lego sets, MakeyMakey, and other programmable robots.
 1. **Pick up** at 1 pm.
 
-   <a href="/images/fractions.png"><img src="/images/fractions-smaller.png" width="40%" alt="Visualizing Fractions" align="right" style="padding:20px;"></a>
- 
 ### Topics
 
 The students learn the basics of algorithmic thinking by programming the teacher to dance. We use games to understand the logical operations including and, or and not. 
@@ -43,13 +44,32 @@ In addition, students code using a block-language. They create programs to help 
 
 Depending on the students background and pace, they may also learn conditional statements and loops and may start coding using a text-based language. The instructor uses differentiated instruction practices to satisfy the intellectual needs of every camper.
 
-<a href="/images/nora.png"><img src="/images/nora-smaller.png" width="20%" alt="Nora" align="left" style="padding:20px;"></a>
+### COVID-19 Mitigation Protocols
+
+1. Maximum class size is 4 students.
+1. All campers are required to provide proof of COVID-19 vaccination.
+1. All members of the instructor's household are COVID-19 vaccinated (all adults are also boosted).
+1. Windows are kept open to ventilate the room.
+1. Temperature is checked at arrival.
+1. Surfaces are disinfected before and after camp.
+
+    </div>
+    <div class="col-sm-5">
+
+ <center>
+<a href="/images/learningroombright.png"><img src="/images/learningroombright-smaller.png" width="95%" alt="Learning Room at CvilleMath" style="padding:20px;"></a>
+</center>
+
 
 ### Instructor
+
 
 [Ana Nora Evans](//ananoraevans.org/) has a Masters degree in Mathematics from the University of
 Virginia, a Masters degree in Computer Science from the University of
 Virginia, and will complete a Masters degree in Teaching in Spring 2022. 
+
+<center><a href="/images/nora.png"><img src="/images/nora-smaller.png" width="60%" alt="Nora" style="padding:20px;"></a>
+</center>
 
 Nora has previous experience leading programming and math lessons as a teaching assistant in 
 Mathematics and Computer Science Department at the University of Virginia. She co-funded and organized a [math circle](https://cvillemathcircle.org/) for girls ages 3 to 9 for four years. Nora has classroom experience as a student-teacher at Monticello High School with Algebra 2, Math Analysis, and Geometry.
@@ -59,13 +79,16 @@ co-author of several research papers published in top conferences in computer se
 
 Nora is passionate about math and computing education, especially in attracting and retaining girls and women in STEM fields. The classroom environment and courses are designed to appeal to all students, not only gamers and boys.
 
-### COVID-19 Mitigation Protocols
+<center>
+   <a href="/images/fractions.png"><img src="/images/fractions-smaller.png" width="95%" alt="Visualizing Fractions" style="padding:20px;"></a>
+ </center>
 
-1. Maximum class size is 4 students.
-1. All campers are required to provide proof of COVID-19 vaccination.
-1. All members of the instructor's household are COVID-19 vaccinated (all adults are also boosted).
-1. Windows are kept open to ventilate the room.
-1. Temperature is checked at arrival.
-1. Surfaces are disinfected before and after camp.
+
+
+  </div>
+  </div>
+</div>
+
+
 
 

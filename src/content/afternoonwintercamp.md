@@ -2,15 +2,17 @@
 title = "Afternoon Camp for 9-12 year olds"
 +++
 
-<a href="/images/learningroombright.png"><img src="/images/learningroombright-smaller.png" width="40%" alt="Learning Room at CvilleMath" align="right" style="padding:20px;"></a>
-
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
 
 ## Camp at a glance
 
-**When**: Monday, December 27 - Friday, December 31, 2021, 2:00 am &ndash; 4:00 pm  
+**When**: Monday, December 27 &ndash; Friday, December 31, 2021, 2:00 am &ndash; 4:00 pm  
 **Where**: 1629 Appian Way, Charlottesville, Virginia (Pantops area)  
+**Who**: 9 &ndash; 12 years olds, no prior computer programming experience required  
 **What**: Coding instruction using Coffee Script or Python depending on student's experience and preference (no video games!)  
-**Who**: 9 &ndash; 12 years olds, no prior computer programming experience required
+
 
 **Cost**: $350 
 
@@ -20,7 +22,7 @@ title = "Afternoon Camp for 9-12 year olds"
 
 ## Daily Schedule
 
-Campers will spend two hours daily, from 2m to 4pm working together and individually on fun programming challenges.
+Campers will spend two hours daily, from 2pm to 4pm working together and individually on fun programming challenges.
 
 1. **Drop Off** at 2 pm
 1. **First coding session** (55 minutes)
@@ -30,27 +32,13 @@ Campers will spend two hours daily, from 2m to 4pm working together and individu
 
 ## Topics
 
-Campers receive instruction in programming concepts including variables, objects, sequential execution, conditional statements, and loops. First, the instructor teaches the concepts in a mini-lesson individually or in small groups. Next, the students practice coding using the concepts learned.
+Campers receive instruction in programming concepts including
+variables, objects, sequential execution, conditional statements, and
+loops. First, the instructor will teach a concept in a mini-lesson
+individually or in small groups. Next, students will practice coding
+using the concepts learned.
 
 We use primarily the [Code Monkey](https://www.codemonkey.com/) platform on provided Chromebooks. Based on the student's experience and interest they may choose one or more of the following Code Monkey programming exercises: [Banana Tales](https://www.codemonkey.com/courses/banana-tales/), [Coding Chatbots](https://www.codemonkey.com/courses/coding-chatbots/), and [Game Builder](https://www.codemonkey.com/courses/game-builder/). 
-
-No typing experience necessary.
-
-<a href="/images/nora.png"><img src="/images/nora-smaller.png" width="20%" alt="Nora" align="left" style="padding:20px;"></a>
-
-### Instructor
-
-[Ana Nora Evans](//ananoraevans.org/) has a Masters degree in Mathematics from the University of
-Virginia, a Masters degree in Computer Science from the University of
-Virginia, and will complete a Masters degree in Teaching in Spring 2022. 
-
-Nora has previous experience leading programming and math lessons as a teaching assistant in 
-Mathematics and Computer Science Department at the University of Virginia. She co-funded and organized a [math circle](https://cvillemathcircle.org/) for girls ages 3 to 9 for four years. Nora has classroom experience as a student-teacher at Monticello High School with Algebra 2, Math Analysis, and Geometry.
-
-Nora is an experienced software engineer with industry and research experience. She is a 
-co-author of several research papers published in top conferences in computer security and software engineering.
-
-Nora is passionate about math and computing education, especially in attracting and retaining girls and women in STEM fields. The classroom environment and courses are designed to appeal to all students, not only gamers and boys.
 
 ### COVID-19 Mitigation Protocols
 
@@ -60,6 +48,42 @@ Nora is passionate about math and computing education, especially in attracting 
 1. Windows are kept open to ventilate the room.
 1. Temperature is checked at arrival.
 1. Surfaces are disinfected before and after camp.
+
+    </div>
+    <div class="col-sm-5">
+
+ <center>
+<a href="/images/learningroombright.png"><img src="/images/learningroombright-smaller.png" width="95%" alt="Learning Room at CvilleMath" style="padding:20px;"></a>
+</center>
+
+
+### Instructor
+
+
+[Ana Nora Evans](//ananoraevans.org/) has a Masters degree in Mathematics from the University of
+Virginia, a Masters degree in Computer Science from the University of
+Virginia, and will complete a Masters degree in Teaching in Spring 2022. 
+
+<center><a href="/images/nora.png"><img src="/images/nora-smaller.png" width="60%" alt="Nora" style="padding:20px;"></a>
+</center>
+
+Nora has previous experience leading programming and math lessons as a teaching assistant in 
+Mathematics and Computer Science Department at the University of Virginia. She co-funded and organized a [math circle](https://cvillemathcircle.org/) for girls ages 3 to 9 for four years. Nora has classroom experience as a student-teacher at Monticello High School with Algebra 2, Math Analysis, and Geometry.
+
+Nora is an experienced software engineer with industry and research experience. She is a 
+co-author of several research papers published in top conferences in computer security and software engineering.
+
+Nora is passionate about math and computing education, especially in attracting and retaining girls and women in STEM fields. The classroom environment and courses are designed to appeal to all students, not only gamers and boys.
+
+<center>
+   <a href="/images/fractions.png"><img src="/images/fractions-smaller.png" width="95%" alt="Visualizing Fractions" style="padding:20px;"></a>
+ </center>
+
+
+  </div>
+  </div>
+</div>
+
 
 
 
