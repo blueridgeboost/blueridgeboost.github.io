@@ -35,7 +35,7 @@ In January and February, we offer week-end enrichment classes of up to 4 student
 
 **When**: To Be Determined    
 **Where**: 1629 Appian Way, Charlottesville, Virginia.    
-**What**: Each student follows a selection of instructor lessons, Scratch projects, Lego WeDo projects, and Coffee Script programming exercises.    
+**What**: Each student follows a selection of instructor lessons, Scratch projects, Lego WeDo projects, and Coffee Script programming exercises.      
 **Who**: Any student interested in coding.
 
 **Cost**: $50 for 60 minutes.
@@ -49,7 +49,7 @@ In January and February, we offer week-end enrichment classes of up to 4 student
 
 **When**: To Be Determined    
 **Where**: 1629 Appian Way, Charlottesville, Virginia.    
-**What**: Coffee Script.
+**What**: Coffee Script.       
 **Who**: Any student interested in coding.
 
 **Cost**: $50 for 60 minutes.
@@ -63,7 +63,7 @@ In January and February, we offer week-end enrichment classes of up to 4 student
 
 **When**: To Be Determined    
 **Where**: 1629 Appian Way, Charlottesville, Virginia.    
-**What**: Python.
+**What**: Python.     
 **Who**: Any student interested in coding.
 
 **Cost**: $70 for 90 minutes.
