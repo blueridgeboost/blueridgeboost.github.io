@@ -64,7 +64,7 @@ In January and February, we offer week-end enrichment classes of up to 4 student
 **When**: To Be Determined    
 **Where**: 1629 Appian Way, Charlottesville, Virginia.    
 **What**: Python.     
-**Who**: Any student interested in coding.
+**Who**: Any student interested in coding.       
 
 **Cost**: $70 for 90 minutes.
 
