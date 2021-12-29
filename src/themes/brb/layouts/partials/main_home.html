@@ -1,0 +1,21 @@
+{{ if default true .Site.Params.mainHomepage.enable }}
+{{ if gt (len .Site.Data.carousel) 0 }}
+<section>
+    <div class="home-main">
+        <div class="dark-mask"></div>
+        <div class="container">
+	  {{ range sort .Site.Data.main_home "weight" }}
+	      <div class="item">
+                 <div class="row">
+                     <div class="col-sm-5 right">
+                       <h1>{{ .title }}</h1>
+                       {{ .description | safeHTML }}
+                     </div>
+		 </div>
+	     </div>
+	     {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

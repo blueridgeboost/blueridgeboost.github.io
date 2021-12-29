@@ -27,30 +27,49 @@ unsafe= true
 # Main menu
 
 [[menu.main]]
-    name       = "Morning Camp"
-    identifier = "menu.morningwintercamp"
-    url        = "/morningwintercamp"
+    name       = "Coding"
+    identifier = "menu.coding"
+    url        = "/coding"
     weight     = 1
 
 [[menu.main]]
-    name       = "Afternoon Camp"
-    identifier = "menu.afternoonwintercamp"
-    url        = "/afternoonwintercamp"
+    name       = "Computer Science"
+    identifier = "menu.apcs"
+    url        = "/apcs"
     weight     = 2
 
 
 [[menu.main]]
-    name       = "Tutoring"
-    identifier = "menu.tutoring"
-    url        = "/tutoring"
+    name       = "Algebra"
+    identifier = "menu.algebra"
+    url        = "/algebra"
     weight     = 4
+
+[[menu.main]]
+    name       = "Geometry"
+    identifier = "menu.geometry"
+    url        = "/geometry"
+    weight     = 5
 
 
 [[menu.main]]
-    name       = "Classes"
-    identifier = "menu.classes"
-    url        = "/classes"
-    weight     = 5
+    name       = "Calculus"
+    identifier = "menu.calculus"
+    url        = "/calculus"
+    weight     = 6
+
+# [[menu.main]]
+#     name       = "Tutoring"
+#     identifier = "menu.tutoring"
+#     url        = "/tutoring"
+#     weight     = 7
+
+
+# [[menu.main]]
+#     name       = "Classes"
+#     identifier = "menu.classes"
+#     url        = "/classes"
+#     weight     = 8
     
 
 # [[menu.main]]
@@ -63,7 +82,7 @@ unsafe= true
     identifier = "contact"
     name       = "Contact"
     url        = "/contact/"
-    weight     = 7
+    weight     = 10
 
 
 # Top bar social links menu
@@ -79,6 +98,12 @@ unsafe= true
 #    name = "Twitter"
 #    url = "http://twitter.com"
 #    pre = "<i class='fab fa-2x fa-twitter'></i>"
+
+[[menu.topbar]]
+    weight = 2
+    name = "Facebook"
+    url = "http://facebook.com/blueridgeboost"
+    pre = "<i class='fas fa-2x fa-facebook'></i>"
 
 [[menu.topbar]]
     weight = 5
@@ -134,7 +159,7 @@ unsafe= true
     enableRecaptchaInContactForm = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>Tutoring and group classes for ambitious achievers, led by Ana Nora Evans (Masters degrees in Mathematics and Computer Science from the University of Virginia) in Charlottesville, Virginia.</p>"
+    about_us = "<p>Enrichment and tutoring for ambitious achievers, led by Ana Nora Evans in Charlottesville, Virginia. We provide instruction in Math and Computer Science to any student interested in learning.</p>"
     copyright = ""
 
     # Format dates with Go's time formatting
@@ -159,7 +184,7 @@ unsafe= true
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Now enrolling for winter group classes! Contact us at nora@blueridgeboost.com</p>
+    text = """<p class="hidden-sm hidden-xs">Contact us at nora@blueridgeboost.com or on <a href="http://facebook.com/blueridgeboost"> Facebook</p> 
       """
 
 # Enable and disable widgets for the right sidebar
@@ -184,10 +209,13 @@ unsafe= true
     # All carousel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
     # For more informtion take a look at the README.
-    enable = true
+    enable = false
     auto_play = true
     slide_speed = 2000
     pagination_speed = 1000
+
+[params.mainHomepage]
+    enable = true
 
 [params.features]
     enable = false
