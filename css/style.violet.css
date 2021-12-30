@@ -10,6 +10,7 @@
   --link-hover-bg: #7f4daa;
   --navbar-focus: #cab3dd;
   --inverse-text: #fffaff;
+  --emphasis-text: #ccffff;
 }
 
 .clearfix:before,
@@ -798,6 +799,17 @@ fieldset[disabled] .btn-template-primary.active {
   height: 100%;
   position: relative;
 }
+
+hr.frontspacer {
+    width: 75%;
+    border-top: 3px solid var(--primary-accent-strong);
+    box-shadow: 0 0 5px 1px var(--primary-accent);
+}
+
+.spacer {
+    margin-top: 15px;
+}
+
 .jumbotron {
   padding: 30px;
   margin-bottom: 0;
@@ -3483,7 +3495,14 @@ address {
     color: var(--inverse-text);
     font-size: 2.5rem;
     font-weight: 700;
-    text-align: left;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hrpanel {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: var(--inverse-text);
 }
 
 .hppanel {
@@ -3494,6 +3513,10 @@ address {
 
 .hppanel a {
     color:  #444444;
+}
+
+.hrpanel a {
+    color:  var(--emphasis-text);
 }
 
 .panel {
@@ -3613,4 +3636,31 @@ a.list-group-item.active > .badge,
 div.hanging {
      padding-left: 25px;
      text-indent: -25px;
+}
+
+.rotatedsm {
+    margin-top: 3.7rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--emphasis-text);
+    transform: rotate(-50deg);
+}
+
+.rotated {
+    margin-top: 3rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: var(--emphasis-text);
+  transform: rotate(-50deg);
+  -webkit-transform: rotate(-50deg);
+
+  /* Firefox */
+  -moz-transform: rotate(60deg);
+
+  /* IE */
+  -ms-transform: rotate(60deg);
+
+  /* Opera */
+  -o-transform: rotate(60deg);
+
 }
