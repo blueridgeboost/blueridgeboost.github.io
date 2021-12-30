@@ -2,16 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blue Ridge Boost</title>
-    <link>https://blueridgeboost.githup.io/</link>
+    <link>https://blueridgeboost.com/</link>
     <description>Recent content on Blue Ridge Boost</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://blueridgeboost.githup.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+	<atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Afternoon Camp for 9-12 year olds</title>
-      <link>https://blueridgeboost.githup.io/afternoonwintercamp/</link>
+      <link>https://blueridgeboost.com/afternoonwintercamp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blueridgeboost.githup.io/afternoonwintercamp/</guid>
+      <guid>https://blueridgeboost.com/afternoonwintercamp/</guid>
       <description>Camp at a glance When: Monday, December 27 – Friday, December 31, 2021, 2:00 am – 4:00 pm
 Where: 1629 Appian Way, Charlottesville, Virginia (Pantops area)
 Who: 9 – 12 years olds, no prior computer programming experience required
@@ -23,39 +27,39 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask f
     
     <item>
       <title>Classes</title>
-      <link>https://blueridgeboost.githup.io/classes/</link>
+      <link>https://blueridgeboost.com/classes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blueridgeboost.githup.io/classes/</guid>
+      <guid>https://blueridgeboost.com/classes/</guid>
       <description>In January and February, we offer week-end enrichment classes of up to 4 students. Sign-up for as many as you like. Payment is required to reserve spot, no walk-ins accepted.
 Competition Math for Fourth and Fifth Graders When: To be scheduled Where: 1629 Appian Way, Charlottesville, Virginia (Pantops area). What: Problem solving strategies for elementary school math competitions, focused on MOEMS. Who: Students at fourth or fifth grade-level math. Cost: $40 for 60 minutes.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://blueridgeboost.githup.io/contact/</link>
+      <link>https://blueridgeboost.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blueridgeboost.githup.io/contact/</guid>
+      <guid>https://blueridgeboost.com/contact/</guid>
       <description>We are here to help you Please contact us with for any tutoring needs in math and computing.</description>
     </item>
     
     <item>
       <title>FAQ</title>
-      <link>https://blueridgeboost.githup.io/faq/</link>
+      <link>https://blueridgeboost.com/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blueridgeboost.githup.io/faq/</guid>
+      <guid>https://blueridgeboost.com/faq/</guid>
       <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
 1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
     </item>
     
     <item>
       <title>Morning Camp for 6-9 year olds</title>
-      <link>https://blueridgeboost.githup.io/morningwintercamp/</link>
+      <link>https://blueridgeboost.com/morningwintercamp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blueridgeboost.githup.io/morningwintercamp/</guid>
+      <guid>https://blueridgeboost.com/morningwintercamp/</guid>
       <description>Camp at a glance When: Monday, December 27 - Friday, December 31, 2021, 10:00 am – 1:00 pm
 Where: 1629 Appian Way, Charlottesville, Virginia (Pantops area)
 What: Coding instruction using block languages (no video games!)
@@ -67,10 +71,10 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask f
     
     <item>
       <title>Tutoring</title>
-      <link>https://blueridgeboost.githup.io/tutoring/</link>
+      <link>https://blueridgeboost.com/tutoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blueridgeboost.githup.io/tutoring/</guid>
+      <guid>https://blueridgeboost.com/tutoring/</guid>
       <description>Math and Computer Science We offer 1-1 tutoring for students from middle school to graduate student level in Mathematics and Computer Science, both in-person and online.
 The cost per class is between $50 and $150 depedning on the complexity of the preparation and materials needed.
 For a quote and scheduling, please contact us at nora@blueridgeboost.com.
