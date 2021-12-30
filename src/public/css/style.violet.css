@@ -252,6 +252,9 @@ ul.list-style-none {
   margin: 0;
   font-size: 12px;
 }
+#top a {
+    color: #e2d6ed;
+}
 #top .social {
   float: right;
   text-align: right;
@@ -3480,13 +3483,17 @@ address {
     color: var(--inverse-text);
     font-size: 2.5rem;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
 }
 
 .hppanel {
     margin-top: 20px;
     margin-bottom: 20px;
     color: var(--inverse-text);
+}
+
+.hppanel a {
+    color:  #444444;
 }
 
 .panel {

@@ -91,7 +91,7 @@ unsafe= true
     weight = 3
     name = "Facebook"
     url = "https://facebook.com/blueridgeboost"
-    pre = "<i class='fas fa-2x fa-facebook'></i>"
+    pre = "<i class='fab fa-2x fa-facebook'></i>"
 
 [[menu.topbar]]
     weight = 5
@@ -171,7 +171,7 @@ unsafe= true
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us at nora@blueridgeboost.com or on <a href="//facebook.com/blueridgeboost">Facebook</a>.</p> 
+    text = """<p class="hidden-sm hidden-xs">Contact us at <a mailto="nora@blueridgeboost.com">nora@blueridgeboost.com</a> or on <a class="top" href="//facebook.com/blueridgeboost">Facebook</a>.</p> 
       """
 
 # Enable and disable widgets for the right sidebar
