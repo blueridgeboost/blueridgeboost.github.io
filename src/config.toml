@@ -27,50 +27,29 @@ unsafe= true
 # Main menu
 
 [[menu.main]]
-    name       = "Coding"
-    identifier = "menu.coding"
-    url        = "/coding"
+    name       = "Computing"
+    identifier = "menu.computing"
+    url        = "/computing"
     weight     = 1
 
 [[menu.main]]
-    name       = "Computer Science"
-    identifier = "menu.apcs"
-    url        = "/apcs"
-    weight     = 2
-
-
-[[menu.main]]
-    name       = "Algebra"
-    identifier = "menu.algebra"
-    url        = "/algebra"
+    name       = "Math"
+    identifier = "menu.math"
+    url        = "/math"
     weight     = 4
 
 [[menu.main]]
-    name       = "Geometry"
-    identifier = "menu.geometry"
-    url        = "/geometry"
+    name       = "Classes"
+    identifier = "menu.classes"
+    url        = "/classes"
     weight     = 5
 
 
 [[menu.main]]
-    name       = "Calculus"
-    identifier = "menu.calculus"
-    url        = "/calculus"
-    weight     = 6
-
-# [[menu.main]]
-#     name       = "Tutoring"
-#     identifier = "menu.tutoring"
-#     url        = "/tutoring"
-#     weight     = 7
-
-
-# [[menu.main]]
-#     name       = "Classes"
-#     identifier = "menu.classes"
-#     url        = "/classes"
-#     weight     = 8
-    
+    name       = "Tutoring"
+    identifier = "menu.tutoring"
+    url        = "/tutoring"
+    weight     = 7    
 
 # [[menu.main]]
 #     name       = "Blog"
