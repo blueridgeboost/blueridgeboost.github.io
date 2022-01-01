@@ -5,7 +5,11 @@
     <link>https://blueridgeboost.com/</link>
     <description>Recent content on Blue Ridge Boost</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+	<atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Afternoon Camp for 9-12 year olds</title>
       <link>https://blueridgeboost.com/afternoonwintercamp/</link>
@@ -51,16 +55,6 @@ Competition Math for Fourth and Fifth Graders When: To be scheduled Where: 1629 
     </item>
     
     <item>
-      <title>Instructor</title>
-      <link>https://blueridgeboost.com/instructor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blueridgeboost.com/instructor/</guid>
-      <description>Ana Nora Evans graduated from Polytechnical University of Bucharest with a degree in Computer Sience. She earned Masters degrees in Mathematics, Computer Science from the University of Virginia. She will earn a Master of Teaching debgree in secondary math education in May 2022.
-Nora co-funded and organized a math circle for girls ages 3 to 9 for four years. She also has four years of experience tutoring elementary students in math and coding.</description>
-    </item>
-    
-    <item>
       <title>Morning Camp for 6-9 year olds</title>
       <link>https://blueridgeboost.com/morningwintercamp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -85,6 +79,16 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask f
 The cost per class is between $50 and $150 depedning on the complexity of the preparation and materials needed.
 For a quote and scheduling, please contact us at nora@blueridgeboost.com.
     Your Tutor Ana Nora Evans has a Masters degree in Mathematics from the University of Virginia, a Masters degree in Computer Science from the University of Virginia, and will complete a Masters degree in Teaching in Spring 2022.</description>
+    </item>
+    
+    <item>
+      <title>Your Instructor: Ana Nora Evans</title>
+      <link>https://blueridgeboost.com/instructor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/instructor/</guid>
+      <description>Nora is passionate about math and computing education, especially in attracting and retaining girls and women in STEM fields. The classroom environment and courses are designed to appeal to all students, not only gamers and boys.
+     Ana Nora Evans graduated from Polytechnical University of Bucharest, Romania with a degree in Computer Sience. She earned Masters degrees in Mathematics, Computer Science from the University of Virginia.</description>
     </item>
     
   </channel>
