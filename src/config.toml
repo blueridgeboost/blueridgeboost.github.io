@@ -27,28 +27,33 @@ unsafe= true
 # Main menu
 
 [[menu.main]]
-    name       = "Computing"
-    identifier = "menu.computing"
-    url        = "/computing"
+    name       = "Kids"
+    identifier = "menu.kids"
+    url        = "/kids"
     weight     = 1
 
 [[menu.main]]
-    name       = "Math"
-    identifier = "menu.math"
-    url        = "/math"
+    name       = "High School"
+    identifier = "menu.hs"
+    url        = "/hs"
     weight     = 4
+
+[[menu.main]]
+    name       = "College/Adults"
+    identifier = "menu.adults"
+    url        = "/adults"
+    weight     = 5
 
 [[menu.main]]
     name       = "Classes"
     identifier = "menu.classes"
     url        = "/classes"
-    weight     = 5
-
+    weight     = 6
 
 [[menu.main]]
-    name       = "Tutoring"
-    identifier = "menu.tutoring"
-    url        = "/tutoring"
+    name       = "Schedule"
+    identifier = "menu.schedule"
+    url        = "/schedule"
     weight     = 7    
 
 # [[menu.main]]
@@ -141,8 +146,13 @@ unsafe= true
     address = """<strong>Blue Ridge Boost</strong>
         <br>1629 Appian Way
         <br>Charlottesville, Virginia 22911
+        <br><strong>Email: </strong>  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>
       </p>
       """
+      
+    # bookclass = "<a href="https://blueridgeboost.youcanbook.me/">Book  classes </a>"
+    # calendar = "<a href="https://calendar.google.com/calendar/embed?src=c_qq9r0u5tfder0q6pg5063s1vto%40group.calendar.google.com&ctz=America%2FNew_York">Group Classes and Availability</a>"
+
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
