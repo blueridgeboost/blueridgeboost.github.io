@@ -5,9 +5,15 @@
                 <a class="navbar-brand home" href="{{ "/" | relURL }}">
                     {{ if default false .Site.Params.disabled_logo }}
                       <h4>{{ .Site.Params.logo_text }}</h4>
-                    {{ else }}
-                      <img src="{{ .Site.Params.logo | relURL }}" alt="{{ .Title }} logo" class="hidden-xs hidden-sm" />
-                      <img src="{{ .Site.Params.logo_small | relURL }}" alt="{{ .Title }} logo" class="visible-xs visible-sm" />
+                      {{ else }}
+		      <div class="row">
+			<div class="col-sm-4">
+                      <img src="{{ .Site.Params.logo | relURL }}" alt="{{ .Title }} logo" class="hidden-xs hidden-sm rounded-corners" />
+			</div>
+			<div class="col-sm-8">
+			  <h3>{{ .Site.Params.logo_text }}</h3>
+			</div>
+			</div>
                     {{ end }}
                     <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
                 </a>

@@ -137,11 +137,11 @@ unsafe= true
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    disabled_logo = true
+    disabled_logo = false
     logo_text = "Blue Ridge Boost"
 
-    logo = "img/logo.png"
-    logo_small = "img/logo-small.png"
+    logo = "/images/brblogo-square.png"
+    logo_small = "/images/brblogosquare-small.png"
     contact_url = "/contact"
     address = """<strong>Blue Ridge Boost</strong>
         <br>1629 Appian Way
