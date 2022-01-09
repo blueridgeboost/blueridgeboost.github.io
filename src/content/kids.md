@@ -4,7 +4,8 @@ title = "Kids"
 
 ## Computing
 
-Elementary and middle-school students learn to program using a graphical interface, but no gaming. We use the Code Monkey platform for coding practice and teach students the typical programming structures such as sequential execution, conditionals, and loops. Students also learn well-knows algorithms through play, before coding them.
+At Blue Ridge Boost, we teach computing using play and robots to visualize the programming concepts. The programming exercises use an attractive graphical interface to reinforce concepts through practice. We believe that students have to be exposed to the same programming concepts in a variety of situations and language variations. For this reason, students learn a few block languages to program WeDo Lego robots, mBot robots, help a beaver build its house. Younger students experiment with Makey Makey and Cubetto. Older students may use Python to program the mBots.
+
 
 ## Math
 

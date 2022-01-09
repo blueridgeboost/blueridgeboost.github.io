@@ -13,7 +13,7 @@ title = "Your Instructor: Ana Nora Evans"
 Nora is passionate about math and computing education, especially in
 attracting and retaining girls and women in STEM fields. The classroom
 environment and courses are designed to appeal to all students, not
-only gamers and boys.
+only cameo's and boys.
 
 <div class="bigspacer"></div>
 
