@@ -2555,7 +2555,7 @@ hr.frontspacer {
   margin: 0 0 20px;
 }
 #footer {
-  background: #555555;
+  background-image: url("/images/blueridge-background.jpg");
   padding: 50px 0;
   color: #999999;
 }
@@ -2972,7 +2972,7 @@ hr.frontspacer {
   text-decoration: none;
 }
 .navbar-brand img {
-  max-height: 42px;
+  max-height: 65px;
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
@@ -3668,3 +3668,9 @@ div.hanging {
   -o-transform: rotate(60deg);
 
 }
+
+img.rounded-corners {
+    border-radius: 50%;
+    box-shadow: 8px 8px 8px var(--navbar-border-top);
+}
+
