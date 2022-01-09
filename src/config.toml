@@ -1,4 +1,4 @@
-baseurl = "https://blueridgeboost.githup.io"
+baseurl = "https://blueridgeboost.com"
 title = "Blue Ridge Boost"
 theme = "brb"
 languageCode = "en-us"
@@ -27,31 +27,34 @@ unsafe= true
 # Main menu
 
 [[menu.main]]
-    name       = "Morning Camp"
-    identifier = "menu.morningwintercamp"
-    url        = "/morningwintercamp"
+    name       = "Kids"
+    identifier = "menu.kids"
+    url        = "/kids"
     weight     = 1
 
 [[menu.main]]
-    name       = "Afternoon Camp"
-    identifier = "menu.afternoonwintercamp"
-    url        = "/afternoonwintercamp"
-    weight     = 2
-
-
-[[menu.main]]
-    name       = "Tutoring"
-    identifier = "menu.tutoring"
-    url        = "/tutoring"
+    name       = "High School"
+    identifier = "menu.hs"
+    url        = "/hs"
     weight     = 4
 
+[[menu.main]]
+    name       = "College/Adults"
+    identifier = "menu.adults"
+    url        = "/adults"
+    weight     = 5
 
 [[menu.main]]
     name       = "Classes"
     identifier = "menu.classes"
     url        = "/classes"
-    weight     = 5
-    
+    weight     = 6
+
+[[menu.main]]
+    name       = "Schedule"
+    identifier = "menu.schedule"
+    url        = "/schedule"
+    weight     = 7    
 
 # [[menu.main]]
 #     name       = "Blog"
@@ -63,22 +66,16 @@ unsafe= true
     identifier = "contact"
     name       = "Contact"
     url        = "/contact/"
-    weight     = 7
+    weight     = 10
 
 
 # Top bar social links menu
 
-#[[menu.topbar]]
-#    weight = 1
-#    name = "Phone"
-#    url = "tel:+12 34 567 89 01"
-#    pre = "<i class='fas fa-2x fa-phone'></i>"
-
-#[[menu.topbar]]
-#    weight = 4
-#    name = "Twitter"
-#    url = "http://twitter.com"
-#    pre = "<i class='fab fa-2x fa-twitter'></i>"
+[[menu.topbar]]
+    weight = 3
+    name = "Facebook"
+    url = "https://facebook.com/blueridgeboost"
+    pre = "<i class='fab fa-2x fa-facebook'></i>"
 
 [[menu.topbar]]
     weight = 5
@@ -134,7 +131,7 @@ unsafe= true
     enableRecaptchaInContactForm = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>Tutoring and group classes for ambitious achievers, led by Ana Nora Evans (Masters degrees in Mathematics and Computer Science from the University of Virginia) in Charlottesville, Virginia.</p>"
+    about_us = "<p>Enrichment and tutoring for ambitious achievers, led by Ana Nora Evans in Charlottesville, Virginia. We provide instruction in Math and Computer Science to any student interested in learning.</p>"
     copyright = ""
 
     # Format dates with Go's time formatting
@@ -146,12 +143,16 @@ unsafe= true
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
     contact_url = "/contact"
-    address = """<p class="text-uppercase"><strong>Blue Ridge Boost</strong>
+    address = """<strong>Blue Ridge Boost</strong>
         <br>1629 Appian Way
-        <br>Charlottesville, VA
-        <br>22911
+        <br>Charlottesville, Virginia 22911
+        <br><strong>Email: </strong>  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>
       </p>
       """
+      
+    # bookclass = "<a href="https://blueridgeboost.youcanbook.me/">Book  classes </a>"
+    # calendar = "<a href="https://calendar.google.com/calendar/embed?src=c_qq9r0u5tfder0q6pg5063s1vto%40group.calendar.google.com&ctz=America%2FNew_York">Group Classes and Availability</a>"
+
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -159,7 +160,7 @@ unsafe= true
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Now enrolling for winter group classes! Contact us at nora@blueridgeboost.com</p>
+    text = """<p class="hidden-sm hidden-xs">Contact us at <a mailto="nora@blueridgeboost.com">nora@blueridgeboost.com</a> or on <a class="top" href="//facebook.com/blueridgeboost">Facebook</a>.</p> 
       """
 
 # Enable and disable widgets for the right sidebar
@@ -184,10 +185,13 @@ unsafe= true
     # All carousel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
     # For more informtion take a look at the README.
-    enable = true
+    enable = false
     auto_play = true
     slide_speed = 2000
     pagination_speed = 1000
+
+[params.mainHomepage]
+    enable = true
 
 [params.features]
     enable = false
