@@ -1,35 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://blueridgeboost.com/adults/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://blueridgeboost.com/afternoonwintercamp/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://blueridgeboost.com/authors/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://blueridgeboost.com/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://blueridgeboost.com/categories/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://blueridgeboost.com/contact/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://blueridgeboost.com/faq/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://blueridgeboost.com/schedule/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://blueridgeboost.com/hs/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://blueridgeboost.com/classes/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://blueridgeboost.com/kids/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://blueridgeboost.com/morningwintercamp/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://blueridgeboost.com/tags/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://blueridgeboost.com/tutoring/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://blueridgeboost.com/instructor/</loc>
   </url>
+  
 </urlset>
