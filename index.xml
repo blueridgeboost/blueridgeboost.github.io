@@ -5,11 +5,7 @@
     <link>https://blueridgeboost.com/</link>
     <description>Recent content on Blue Ridge Boost</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adults</title>
       <link>https://blueridgeboost.com/adults/</link>
@@ -94,6 +90,15 @@ Where: 1629 Appian Way, Charlottesville, Virginia (Pantops area). Conditions to 
     </item>
     
     <item>
+      <title>Math and Computer Science Tutoring</title>
+      <link>https://blueridgeboost.com/tutoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/tutoring/</guid>
+      <description>Click on a session to see availability and book it! window.addEventListener &amp;&amp; window.addEventListener(&#34;message&#34;, function(event){if (event.origin === &#34;https://blueridgeboost.youcanbook.me&#34;){document.getElementById(&#34;ycbmiframeblueridgeboost&#34;).style.height = event.data + &#34;px&#34;;}}, false); </description>
+    </item>
+    
+    <item>
       <title>Morning Camp for 6-9 year olds</title>
       <link>https://blueridgeboost.com/morningwintercamp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -106,18 +111,6 @@ Who: 6 – 9 years olds, no prior computer programming experience required
 Cost: $350 (early drop off at 9am is available for an additional $50)
 Sign Up: nora@blueridgeboost.com
 Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask for the duration of the camp.</description>
-    </item>
-    
-    <item>
-      <title>Tutoring</title>
-      <link>https://blueridgeboost.com/tutoring/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blueridgeboost.com/tutoring/</guid>
-      <description>Math and Computer Science We offer 1-1 tutoring for students from middle school to graduate student level in Mathematics and Computer Science, both in-person and online.
-The cost per class is between $50 and $150 depedning on the complexity of the preparation and materials needed.
-For a quote and scheduling, please contact us at nora@blueridgeboost.com.
-    Your Tutor Ana Nora Evans has a Masters degree in Mathematics from the University of Virginia, a Masters degree in Computer Science from the University of Virginia, and will complete a Masters degree in Teaching in Spring 2022.</description>
     </item>
     
     <item>
