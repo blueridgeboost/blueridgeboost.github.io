@@ -95,7 +95,7 @@ unsafe= true
     author = "MMM"
     defaultKeywords = ["math", "computer science"]
     mainSections = ["blog"]
-    defaultDescription = "Website for Blue Ridge Boosters"
+    defaultDescription = "Math and Computing Classes and Tutoring"
 
     # Social media
     ## twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
