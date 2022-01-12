@@ -36,13 +36,20 @@ unsafe= true
     name       = "High School"
     identifier = "menu.hs"
     url        = "/hs"
-    weight     = 4
+    weight     = 2
 
 [[menu.main]]
     name       = "College/Adults"
     identifier = "menu.adults"
     url        = "/adults"
-    weight     = 5
+    weight     = 3
+
+[[menu.main]]
+    name       = "Tutoring"
+    identifier = "menu.tutoring"
+    url        = "/tutoring"
+    weight     = 4
+
 
 [[menu.main]]
     name       = "Classes"
@@ -160,7 +167,7 @@ unsafe= true
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us at <a mailto="nora@blueridgeboost.com">nora@blueridgeboost.com</a> or on <a class="top" href="//facebook.com/blueridgeboost">Facebook</a>.</p> 
+    text = """<p class="hidden-sm hidden-xs">Contact us at <a mailto="nora@blueridgeboost.com">nora@blueridgeboost.com</a> or on <a class="top" href="//facebook.com/blueridgeboost">Facebook</a>. 
       """
 
 # Enable and disable widgets for the right sidebar
