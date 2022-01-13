@@ -167,7 +167,7 @@ unsafe= true
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us at <a mailto="nora@blueridgeboost.com">nora@blueridgeboost.com</a> or on <a class="top" href="//facebook.com/blueridgeboost">Facebook</a>. 
+    text = """<p class="hidden-sm hidden-xs"><a href="/tutoring">Book a 1-1 lesson!</a>
       """
 
 # Enable and disable widgets for the right sidebar
