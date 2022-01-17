@@ -1,18 +1,21 @@
 +++
-title = "In-Person Group Classes"
+title = "Virtual Group Classes"
 +++
 
 <div class="container">
   <div class="row">
     <div class="col-md-6">
 
-In January and February, we offer week-end enrichment classes of up to 4 students. Payment is required to reserve spot, no walk-ins accepted.
+In January and February, we offer week-end enrichment classes of up to 4 students. 
 
 **Sign Up**: <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>
 
+<!--
 <div class="hanging"><b>Where</b>: 1629 Appian Way, Charlottesville, Virginia (Pantops area).</div>
 
 <div class="hanging"><b>Conditions to attend</b>: proof of COVID-19 vaccination, commitment to wear a mask for the duration of the camp.</div>
+-->
+<div class="hanging"><b>Where</b>: Zoom meeting from the comfort of your home.</div>
 
 
 ### Coding (grades 1-3)
