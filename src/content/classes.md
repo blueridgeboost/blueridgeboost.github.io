@@ -18,19 +18,6 @@ In January and February, we offer week-end enrichment classes of up to 4 student
 <div class="hanging"><b>Where</b>: Zoom meeting from the comfort of your home.</div>
 
 
-### Coding (grades 1-3)
-
-<div class="hanging"><b>When</b>: Saturday 10am - 11am, January 22 - February 26</div>
-<div class="hanging"><b>What</b>: Each student follows a selection of instructor lessons, Scratch projects, Lego WeDo projects, and Coffee Script programming exercises.</div>
-
-1. **Algorithmic thinking** (20 min).  Students learn the basics of a computer program and how a program is executed through play.
-1. **Block-language programming** (20 min). Students solve instructor-selected exercises from [Code Monkey](https://www.codemonkey.com/), the  [Beaver Achiever](https://www.codemonkey.com/courses/beaver-achiever/) course, on provided Chromebooks.
-1. **Choice time** (20 min). students may choose their activity from coding in  [Code Monkey](https://www.codemonkey.com/), Lego robots building and programming using <a href="https://education.lego.com/en-us/products/lego-education-wedo-2-0-core-set/45300#wedo-20">WeDo Lego</a> sets, <a href="https://makeymakey.com/">Makey Makey</a>, <a href="https://www.makeblock.com/steam-kits/mbot">mBot</a>, and <a href="https://www.primotoys.com/">Cubetto</a>.
-1. **Work at home**. Students are able to use the programming interface from home to practice.
-
-<div class="hanging"><b>Who</b>: Any student interested in coding (prior experience not required).</div>
-
-**Cost**: $250 for six 1-hour sessions.
 
 ### Coding (grades 2-4)
 
@@ -63,7 +50,23 @@ In January and February, we offer week-end enrichment classes of up to 4 student
 
 **Cost**: $500 for six 2-hour sessions.
 
+
+### Coding (grades 1-3)
+
+<div class="hanging"><b>When</b>: Sunday 10am - 11am, January 23 - February 27</div>
+<div class="hanging"><b>What</b>: Each student follows a selection of instructor lessons, Scratch projects, Lego WeDo projects, and Coffee Script programming exercises.</div>
+
+1. **Algorithmic thinking** (20 min).  Students learn the basics of a computer program and how a program is executed through play.
+1. **Block-language programming** (20 min). Students solve instructor-selected exercises from [Code Monkey](https://www.codemonkey.com/), the  [Beaver Achiever](https://www.codemonkey.com/courses/beaver-achiever/) course, on provided Chromebooks.
+1. **Choice time** (20 min). students may choose their activity from coding in  [Code Monkey](https://www.codemonkey.com/), Lego robots building and programming using <a href="https://education.lego.com/en-us/products/lego-education-wedo-2-0-core-set/45300#wedo-20">WeDo Lego</a> sets, <a href="https://makeymakey.com/">Makey Makey</a>, <a href="https://www.makeblock.com/steam-kits/mbot">mBot</a>, and <a href="https://www.primotoys.com/">Cubetto</a>.
+1. **Work at home**. Students are able to use the programming interface from home to practice.
+
+<div class="hanging"><b>Who</b>: Any student interested in coding (prior experience not required).</div>
+
+**Cost**: $250 for six 1-hour sessions.
+
    </div>
+
    <div class="col-sm-6">
     <center>
 <a href="/images/learningroombright.png"><img src="/images/learningroombright-smaller.png" width="80%" alt="Learning Room at Blue Ridge Boost" style="padding:20px;"></a>
