@@ -45,14 +45,14 @@ unsafe= true
     weight     = 3
 
 [[menu.main]]
-    name       = "1-1 Math"
+    name       = "Math"
     identifier = "menu.mathtutoring"
     url        = "/mathtutoring"
     weight     = 4
 
 
 [[menu.main]]
-    name       = "1-1 Computer Science"
+    name       = "Computer Science"
     identifier = "menu.cstutoring"
     url        = "/cstutoring"
     weight     = 5
