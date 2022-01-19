@@ -31,6 +31,15 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask f
     </item>
     
     <item>
+      <title>Computer Science Sessions</title>
+      <link>https://blueridgeboost.com/cstutoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/cstutoring/</guid>
+      <description>Click on a session to see availability and book it! window.addEventListener &amp;&amp; window.addEventListener(&#34;message&#34;, function(event){if (event.origin === &#34;https://blueridgeboost-cs.youcanbook.me&#34;){document.getElementById(&#34;ycbmiframeblueridgeboost-cs&#34;).style.height = event.data + &#34;px&#34;;}}, false);</description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>https://blueridgeboost.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -79,12 +88,12 @@ Math  Algebra 1 Geometry Trigonometry Algebra 2 Math Analysis Computer Mathemati
     </item>
     
     <item>
-      <title>Math and Computer Science Tutoring</title>
-      <link>https://blueridgeboost.com/tutoring/</link>
+      <title>Math Sessions</title>
+      <link>https://blueridgeboost.com/mathtutoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blueridgeboost.com/tutoring/</guid>
-      <description>Click on a session to see availability and book it! window.addEventListener &amp;&amp; window.addEventListener(&#34;message&#34;, function(event){if (event.origin === &#34;https://blueridgeboost.youcanbook.me&#34;){document.getElementById(&#34;ycbmiframeblueridgeboost&#34;).style.height = event.data + &#34;px&#34;;}}, false); </description>
+      <guid>https://blueridgeboost.com/mathtutoring/</guid>
+      <description>Click on a session to see availability and book it! window.addEventListener &amp;&amp; window.addEventListener(&#34;message&#34;, function(event){if (event.origin === &#34;https://blueridgeboost-math.youcanbook.me&#34;){document.getElementById(&#34;ycbmiframeblueridgeboost-math&#34;).style.height = event.data + &#34;px&#34;;}}, false); </description>
     </item>
     
     <item>
@@ -110,7 +119,7 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask f
       <guid>https://blueridgeboost.com/classes/</guid>
       <description>In January and February, we offer week-end enrichment classes of up to 4 students.
 Sign Up: nora@blueridgeboost.com
-Where: 1629 Appian Way, Charlottesville, Virginia (Pantops area). Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask for the duration of the camp. -- Where: Zoom meeting from the comfort of your home. Coding (grades 1-3) When: Saturday 10am - 11am, January 22 - February 26 What: Each student follows a selection of instructor lessons, Scratch projects, Lego WeDo projects, and Coffee Script programming exercises.</description>
+Where: 1629 Appian Way, Charlottesville, Virginia (Pantops area). Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask for the duration of the camp. -- Where: Zoom meeting from the comfort of your home. Coding (grades 2-4) When: Saturday 11:30am - 12:30pm, January 22 - February 26 What: Coffee Script (an easy-to-learn first programming language that runs in your web browser) and Python (a powerful and widely used programming language)  Programming Constructs (30 min).</description>
     </item>
     
     <item>

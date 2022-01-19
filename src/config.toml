@@ -39,29 +39,37 @@ unsafe= true
     weight     = 2
 
 [[menu.main]]
-    name       = "College/Adults"
+    name       = "Adults"
     identifier = "menu.adults"
     url        = "/adults"
     weight     = 3
 
 [[menu.main]]
-    name       = "Tutoring"
-    identifier = "menu.tutoring"
-    url        = "/tutoring"
+    name       = "1-1 Math"
+    identifier = "menu.mathtutoring"
+    url        = "/mathtutoring"
     weight     = 4
 
 
 [[menu.main]]
-    name       = "Classes"
+    name       = "1-1 Computer Science"
+    identifier = "menu.cstutoring"
+    url        = "/cstutoring"
+    weight     = 5
+
+
+
+[[menu.main]]
+    name       = "Group Classes"
     identifier = "menu.classes"
     url        = "/classes"
     weight     = 6
 
-[[menu.main]]
-    name       = "Schedule"
-    identifier = "menu.schedule"
-    url        = "/schedule"
-    weight     = 7    
+# [[menu.main]]
+#     name       = "Schedule"
+#     identifier = "menu.schedule"
+#     url        = "/schedule"
+#     weight     = 7    
 
 # [[menu.main]]
 #     name       = "Blog"
