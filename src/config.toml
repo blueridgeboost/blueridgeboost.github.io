@@ -150,7 +150,7 @@ unsafe= true
     copyright = ""
 
     # Format dates with Go's time formatting
-    date_format = "January 2, 2006"
+    date_format = "2 January 2006"
 
     disabled_logo = false
     logo_text = "Blue Ridge Boost"
@@ -162,6 +162,7 @@ unsafe= true
         <br>1629 Appian Way
         <br>Charlottesville, Virginia 22911
         <br><strong>Email: </strong>  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>
+        <br><strong>Phone: </strong> ‪(434) 260-0636
       </p>
       """
       
