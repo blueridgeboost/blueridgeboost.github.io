@@ -5,18 +5,14 @@
     <link>https://blueridgeboost.com/</link>
     <description>Recent content on Blue Ridge Boost</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adults</title>
       <link>https://blueridgeboost.com/adults/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/adults/</guid>
-      <description>Math  Financial Mathematics Calculus Transition to Higher Mathematics Real Analysis Complex Variables and Analysis Linear Algebra Abstract Algebra General Topology  Computer Science  Coding with Java, Python, C/C++, Prolog, Lisp, Haskell, OCaml, and Rust. Introduction to Programming Data Structures and Algorithms Discrete Math Program and Data Representation Theory of Computation Algorithms Operating Systems Compilers Programming Languages  </description>
+      <description>Computer Science  Coding with Java, Python, C/C++, Prolog, Lisp, Haskell, OCaml, and Rust. Introduction to Programming Data Structures and Algorithms Discrete Math Program and Data Representation Theory of Computation Algorithms Operating Systems Compilers Programming Languages   Math  Financial Mathematics Calculus Transition to Higher Mathematics Real Analysis Complex Variables and Analysis Linear Algebra Abstract Algebra General Topology    </description>
     </item>
     
     <item>
@@ -77,8 +73,8 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/hs/</guid>
-      <description>For high school students, we offer 1-1 instruction, online or in-person, for all math and computer science classes, including AP.
-Math  Algebra 1 Geometry Trigonometry Algebra 2 Math Analysis Computer Mathematics Probability &amp;amp; Statistics Discrete Mathematics AP Calculus AB AP Calculus BC  Computing  Computer Science Foundations Computer Science Principles Computer Science Programming AP Computer Science Principles AP Computer Science (Java) Preparation for USA Computing Olympiad Bronze Level  </description>
+      <description>Computing At Blue Ridge Boost, we provide individiual tutoring sessions for high ability students in the following subjects:
+ AP Computer Science Principles (Python) AP Computer Science (Java) Preparation for USA Computing Olympiad Bronze Level   Math At Blue Ridge Boost, we teach problem solving skills, rather than drill and memorization. We also teach pre-algebra, algebra, geometry, pre-calculus, and calculus using the Art of Problem Solving textbooks, suplemented with Desmos activities to build a visual intuition, feedback on written solution to learn mathematical writing, and group work on performance tasks where the students apply the material learned in a novel situation.</description>
     </item>
     
     <item>
@@ -116,14 +112,14 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask f
     </item>
     
     <item>
-      <title>Virtual Group Classes</title>
+      <title>Virtual and In-Person Individual Classes</title>
       <link>https://blueridgeboost.com/classes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/classes/</guid>
-      <description>In January and February, we offer week-end enrichment classes of up to 4 students.
-Sign Up: nora@blueridgeboost.com
-Where: 1629 Appian Way, Charlottesville, Virginia (Pantops area). Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask for the duration of the camp. -- Where: Zoom meeting from the comfort of your home. Coding (grades 2-4) When: Saturday 11:30am - 12:30pm, January 22 - February 26 What: Coffee Script (an easy-to-learn first programming language that runs in your web browser) and Python (a powerful and widely used programming language)  Programming Constructs (30 min).</description>
+      <description>To sign up, please email: nora@blueridgeboost.com
+Where: Before August 15, Zoom meeting from the comfort of your home.
+After August 15, either Zoom meeting or at Blue Rigde Boost (1629 Appian Way, Charlottesville, Virginia).  When: at a time that works for you. Who: Any student interested in coding. Cost for six 1-hour sessions: $250 for elementary school, $350 for middle school, $400 for high school. Introduction to Coding At Blue Ridge Boost, we teach the same fundamental coding concepts to students of all ages.</description>
     </item>
     
     <item>

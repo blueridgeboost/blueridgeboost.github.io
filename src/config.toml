@@ -57,13 +57,18 @@ unsafe= true
     url        = "/cstutoring"
     weight     = 5
 
-
-
 [[menu.main]]
-    name       = "Group Classes"
+    name       = "Classes"
     identifier = "menu.classes"
     url        = "/classes"
     weight     = 6
+
+[[menu.main]]
+    name       = "Instructor"
+    identifier = "menu.instructor"
+    url        = "/instructor"
+    weight     = 7
+
 
 # [[menu.main]]
 #     name       = "Schedule"
@@ -176,7 +181,7 @@ unsafe= true
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs"><b>In January and February, all classes and tutoring sessions are virtual!</b>  </p>
+    text = """<p class="hidden-sm hidden-xs"><b>Virtual summer classes start on June 20! In-person classes resume on August 15!</b>  </p>
       """
 
 # Enable and disable widgets for the right sidebar

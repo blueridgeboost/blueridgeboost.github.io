@@ -1,27 +1,61 @@
 +++
-title = "Virtual Group Classes"
+title = "Virtual and In-Person Individual Classes"
 +++
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-6">
+**To sign up, please email**: <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>
 
-In January and February, we offer week-end enrichment classes of up to 4 students. 
+<div class="hanging"><b>Where</b>: <br>Before August 15, Zoom meeting from the comfort of your home.<br> After August 15, either Zoom meeting or at Blue Rigde Boost (1629 Appian Way, Charlottesville, Virginia). </div>
 
-**Sign Up**: <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>
+<div class="hanging"><b>When</b>: at a time that works for you.</div>
+
+<div class="hanging"><b>Who</b>: Any student interested in coding.</div>
+
+<div class="hanging"><b>Cost for six 1-hour sessions</b>: $250 for elementary school, $350 for middle school, $400 for high school.</div>
+
+### Introduction to Coding
+
+At Blue Ridge Boost, we teach the same fundamental coding concepts to students of all ages. The courses are structured around three 6-class sessions. Students may choose the starting point based on their prior exposure to coding. Topics included at each level are:
+1. The concept of program and algorithm, sequential execution and simple loops.
+2. Conditional loops and basic applications.
+3. Avanced control structures and sorting algorithms.
+
+The same coding concepts are presented at an age-appropriate level and programming language. Lower elementary school age students students learn a block programming language, upper-elementary students learm Coffee Script (an easy-to-learn first programming language that runs in your web browser), and the middle school students and high school students learn Python, a programming language widely used in industry. 
+
+Each session consists of a lesson and practice time under the guidance of the instructor. Students are encouraged to use the platform to practice at home between sessions. The platform depends on the student's interest and abilities. Each student is provided with an account on one of the following platforms: [Code Monkey](https://www.codemonkey.com/), [Codesters](https://www.codesters.com/), or [Brilliant](https://brilliant.org/).
+
+### Preparation for AP Computer Science
+
+Each session is designed for your student's needs and goals.
+
+### Math review and getting ahead
+
+Each session is designed for your student's needs and goals. We teach math using a problem solving approach with topics and problems selected from [Art of Problem Solving](https://artofproblemsolving.com/) and math contests. Besides traditional problem solving, we present the student with visual approaches to build intuition.
+
+### Preparation for AP Calculus
+
+Review and learn concepts needed for calculus readiness.
+
+
+
+
+
 
 <!--
+<div class="hanging"><b>Where</b>: Zoom meeting from the comfort of your home.</div>
+
 <div class="hanging"><b>Where</b>: 1629 Appian Way, Charlottesville, Virginia (Pantops area).</div>
 
 <div class="hanging"><b>Conditions to attend</b>: proof of COVID-19 vaccination, commitment to wear a mask for the duration of the camp.</div>
 -->
-<div class="hanging"><b>Where</b>: Zoom meeting from the comfort of your home.</div>
 
 
 
+<!--
 ### Coding (grades 2-4)
 
+
 <div class="hanging"><b>When</b>: Saturday 11:30am - 12:30pm, January 22 - February 26</div>
+
 <div class="hanging"><b>What</b>: Coffee Script (an easy-to-learn first programming language that runs in your web browser) and Python (a powerful and widely used programming language)</div>
 
 1. **Programming Constructs** (30 min).  Students basic programming constructs including conditionals, loops, and sorting algorithms.
@@ -88,10 +122,7 @@ In January and February, we offer week-end enrichment classes of up to 4 student
 <div class="hanging"><b>Who</b>: Students at or above fifth grade level math.</div>
 
 **Cost**: $300 for six sessions.
-
-  </div>
-  </div>
-</div>
+-->
 
 
 

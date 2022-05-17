@@ -5,10 +5,6 @@
     <link>https://blueridgeboost.com/categories/</link>
     <description>Recent content in Categories on Blue Ridge Boost</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://blueridgeboost.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://blueridgeboost.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
