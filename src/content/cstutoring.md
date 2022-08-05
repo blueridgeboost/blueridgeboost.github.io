@@ -1,5 +1,7 @@
 +++
 title = "Computer Science Sessions"
+description "Book a computer science session"
+keywords = ["Python tutor", "Java tutor", "Lisp tutor", "Prolog tutor", "Calculus tutor"]
 +++
 
 ### Click on a session to see availability and book it! ###

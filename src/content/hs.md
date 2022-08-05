@@ -1,5 +1,7 @@
 +++
 title = "High School"
+description = "High School Tutoring"
+keywords = ["AP Calculus", "math tutoring", "high school math tutor", "USACO tutoring"]
 +++
 
 
@@ -9,7 +11,7 @@ title = "High School"
 
 ## Computing
 
-At Blue Ridge Boost, we provide individiual tutoring sessions for high ability students in the following subjects:
+At Blue Ridge Boost, we provide individual tutoring sessions for high ability students in the following subjects:
 
 1. AP Computer Science Principles (Python)
 1. AP Computer Science (Java)
@@ -21,14 +23,6 @@ At Blue Ridge Boost, we provide individiual tutoring sessions for high ability s
 
 ## Math
 
-At Blue Ridge Boost, we teach problem solving skills, rather than drill and memorization. 
-We also teach pre-algebra, algebra, geometry, pre-calculus, and
-calculus using the Art of Problem Solving textbooks, suplemented with
-Desmos activities to build a visual intuition, feedback on written
-solution to learn mathematical writing, and group work on performance
-tasks where the students apply the material learned in a novel
-situation.
-
 A licensed, experienced teacher provides individual instruction in:
 1. Algebra 1
 1. Geometry
@@ -37,6 +31,7 @@ A licensed, experienced teacher provides individual instruction in:
 1. Math Analysis
 1. AP Calculus AB
 1. AP Calculus BC
+1. Math for SAT/ACT 
 
 </div>
 </div>

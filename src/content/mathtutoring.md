@@ -1,5 +1,7 @@
 +++
 title = "Math Sessions"
+description = "Book a math tutoring session"
+keywords = ["Calculus tutor", "Algebra tutor", "Geometry tutor"]
 +++
 
 ### Click on a session to see availability and book it! ###
