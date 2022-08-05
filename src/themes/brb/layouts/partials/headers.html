@@ -5,7 +5,7 @@
 <meta name="google-site-verification" content="7J0AUdtOJvfXltlw-UjRT-I-dmTj-KQn8sT5QYcVItY" />
 
 {{ $title_plain := .Title | markdownify | plainify }}
-<title>{{ $title_plain }}</title>
+<title>{{ $title_plain }} | Blue Ridge Boost</title>
 <meta name="author" content="{{ .Param "author" }}" />
 {{ $keywords := .Site.Params.defaultKeywords | default (slice "" | first 0) }}
 {{ if isset .Params "tags" }}{{ range .Params.tags }}{{ $keywords = $keywords | append . }}{{ end }}{{ end }}
