@@ -1,6 +1,6 @@
 +++
-title = "Adults"
-description = "Tutoring services for college students"
+title = "Computer Science and Math Tutoring in Charlottesville for Adults"
+description = ["Are you looking for tutoring services in Charlottesville? At Blue Ridge Boost, we offer  computer science and math tutoring for adults. Click for more information.", "Tutoring services for college students"]
 keywords = ["calculus tutor", "college math help"]
 +++
 <div class="container">

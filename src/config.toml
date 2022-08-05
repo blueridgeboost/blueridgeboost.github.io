@@ -120,7 +120,7 @@ unsafe= true
     author = "Nora Evans"
     defaultKeywords = ["math", "computer science"]
     mainSections = ["blog"]
-    defaultDescription = "Math and Coding Classes and Tutoring"
+    defaultDescription = "Here are all of the blog posts that have been written by Blue Ridge Boost."
 
     # Social media
     ## twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
