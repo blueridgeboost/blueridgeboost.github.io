@@ -13,17 +13,15 @@ PAGEDIR = $(BASEDIR)/content/
 LATEXIFY = python3 $(LATEXDIR)/utils/latexify.py
 
 html:
-	hugo --theme=$(THEME)
+	hugo --theme=$(THEME)  --destination ../public
 
 develop:
 	sleep 1 && echo "Opening local browser..." &&  open http://localhost:1313 &
-	hugo server --theme=$(THEME) --buildDrafts --watch
+	hugo server --theme=$(THEME) --buildDrafts --watch --destination ../public
 
 github: html
-#	cp -r ./docs/* ./public/docs/
-#	cp -r ./ps/* ./public/ps/
-	cp -r ./static ./public/
-	cp -r ./public/* ../
+	rm -rf ../public/*
+	hugo --destination ../public
 	git add -A :/; git commit -m "Rebuilt site" ; git push
 
 

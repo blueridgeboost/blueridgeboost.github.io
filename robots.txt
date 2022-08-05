@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://blueridgeboost.com/sitemap.xml
