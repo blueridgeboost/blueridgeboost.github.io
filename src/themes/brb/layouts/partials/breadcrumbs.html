@@ -1,8 +1,10 @@
+{{ $header := default .Title .Params.header | markdownify | plainify }}
+
 <div id="heading-breadcrumbs">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>{{ .Title }}</h1>
+                <h1>{{ $header }}</h1>
             </div>
         </div>
     </div>

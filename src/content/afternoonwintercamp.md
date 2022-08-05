@@ -1,5 +1,6 @@
 +++
 title = "Afternoon Camp for 9-12 year olds"
+description = ["Campers will spend two hours daily, from 2pm to 4pm working together and individually on fun programming challenges.", "coding camp in Charlottesville"]
 +++
 
 <div class="container">
