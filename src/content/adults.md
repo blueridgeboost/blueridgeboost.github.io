@@ -14,10 +14,6 @@ keywords = ["calculus tutor", "college math help"]
 1. Data Structures and Algorithms
 1. Discrete Math
 1. Program and Data Representation
-<!-- 1. Theory of Computation
-1. Algorithms
-1. Operating Systems
-1. Compilers -->
 1. Programming Languages
 
 </div>
@@ -31,7 +27,6 @@ keywords = ["calculus tutor", "college math help"]
 1. Transition to Higher Mathematics
 1. Real Analysis
 1. Complex Variables and Analysis
-<!-- 1. Linear Algebra -->
 1. Abstract Algebra
 1. General Topology
 

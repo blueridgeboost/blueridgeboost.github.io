@@ -193,7 +193,7 @@ unsafe= true
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs"><b>Virtual summer classes start on June 20! In-person classes resume on August 15!</b>  </p>
+    text = """<p class="hidden-sm hidden-xs"><b>Fall classes start in September!</b>  </p>
       """
 
 # Enable and disable widgets for the right sidebar
