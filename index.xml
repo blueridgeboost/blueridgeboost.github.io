@@ -7,15 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Adults</title>
-      <link>https://blueridgeboost.com/adults/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blueridgeboost.com/adults/</guid>
-      <description>Computer Science  Coding with Java, Python, C/C++, Prolog, Lisp, Haskell, OCaml, and Rust. Introduction to Programming Data Structures and Algorithms Discrete Math Program and Data Representation Theory of Computation Algorithms Operating Systems Compilers Programming Languages   Math  Financial Mathematics Calculus Transition to Higher Mathematics Real Analysis Complex Variables and Analysis Linear Algebra Abstract Algebra General Topology    </description>
-    </item>
-    
-    <item>
       <title>Afternoon Camp for 9-12 year olds</title>
       <link>https://blueridgeboost.com/afternoonwintercamp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -31,12 +22,21 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask f
     </item>
     
     <item>
+      <title>Computer Science and Math Tutoring in Charlottesville for Adults</title>
+      <link>https://blueridgeboost.com/adults/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/adults/</guid>
+      <description> Computer Science Coding with Java, Python, C/C++, Prolog, Lisp, and Rust. Introduction to Programming Data Structures and Algorithms Discrete Math Program and Data Representation Programming Languages Math Financial Mathematics Calculus Transition to Higher Mathematics Real Analysis Complex Variables and Analysis Abstract Algebra General Topology </description>
+    </item>
+    
+    <item>
       <title>Computer Science Sessions</title>
       <link>https://blueridgeboost.com/cstutoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/cstutoring/</guid>
-      <description>Click on a session to see availability and book it! window.addEventListener &amp;&amp; window.addEventListener(&#34;message&#34;, function(event){if (event.origin === &#34;https://blueridgeboost-cs.youcanbook.me&#34;){document.getElementById(&#34;ycbmiframeblueridgeboost-cs&#34;).style.height = event.data + &#34;px&#34;;}}, false);</description>
+      <description>Click on a session to see availability and book it! </description>
     </item>
     
     <item>
@@ -64,7 +64,7 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/schedule/</guid>
-      <description>Book 1-1 classes here!  </description>
+      <description> Book 1-1 classes here! </description>
     </item>
     
     <item>
@@ -73,8 +73,9 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/hs/</guid>
-      <description>Computing At Blue Ridge Boost, we provide individiual tutoring sessions for high ability students in the following subjects:
- AP Computer Science Principles (Python) AP Computer Science (Java) Preparation for USA Computing Olympiad Bronze Level   Math At Blue Ridge Boost, we teach problem solving skills, rather than drill and memorization. We also teach pre-algebra, algebra, geometry, pre-calculus, and calculus using the Art of Problem Solving textbooks, suplemented with Desmos activities to build a visual intuition, feedback on written solution to learn mathematical writing, and group work on performance tasks where the students apply the material learned in a novel situation.</description>
+      <description> Computing At Blue Ridge Boost, we provide individual tutoring sessions for high ability students in the following subjects:
+AP Computer Science Principles (Python) AP Computer Science (Java) Preparation for USA Computing Olympiad Bronze Level Math A licensed, experienced teacher provides individual instruction in:
+Algebra 1 Geometry Trigonometry Algebra 2 Math Analysis AP Calculus AB AP Calculus BC Math for SAT/ACT </description>
     </item>
     
     <item>
@@ -84,7 +85,7 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask f
       
       <guid>https://blueridgeboost.com/kids/</guid>
       <description>Computing At Blue Ridge Boost, we teach computing using play, starting with robots to visualize the programming concepts. The programming exercises use an attractive graphical interface to reinforce concepts through practice.
-   We believe that students have to be exposed to the same programming concepts in a variety of situations and language variations. For this reason, students learn a few block languages to program WeDo Lego robots, mBot robots, help a beaver build its house.</description>
+We believe that students have to be exposed to the same programming concepts in a variety of situations and language variations. For this reason, students learn a few block languages to program WeDo Lego robots, mBot robots, help a beaver build its house in the Code Monkey framework.</description>
     </item>
     
     <item>
@@ -93,7 +94,7 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/mathtutoring/</guid>
-      <description>Click on a session to see availability and book it! window.addEventListener &amp;&amp; window.addEventListener(&#34;message&#34;, function(event){if (event.origin === &#34;https://blueridgeboost-math.youcanbook.me&#34;){document.getElementById(&#34;ycbmiframeblueridgeboost-math&#34;).style.height = event.data + &#34;px&#34;;}}, false); </description>
+      <description>Click on a session to see availability and book it! </description>
     </item>
     
     <item>
@@ -119,7 +120,7 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask f
       <guid>https://blueridgeboost.com/classes/</guid>
       <description>To sign up, please email: nora@blueridgeboost.com
 Where: Before August 15, Zoom meeting from the comfort of your home.
-After August 15, either Zoom meeting or at Blue Rigde Boost (1629 Appian Way, Charlottesville, Virginia).  When: at a time that works for you. Who: Any student interested in coding. Cost for six 1-hour sessions: $250 for elementary school, $350 for middle school, $400 for high school. Introduction to Coding At Blue Ridge Boost, we teach the same fundamental coding concepts to students of all ages.</description>
+After August 15, either Zoom meeting or at Blue Rigde Boost (1629 Appian Way, Charlottesville, Virginia). When: at a time that works for you. Who: Any student interested in coding. Cost for six 1-hour sessions: $250 for elementary school, $350 for middle school, $400 for high school. Introduction to Coding At Blue Ridge Boost, we teach the same fundamental coding concepts to students of all ages.</description>
     </item>
     
     <item>
@@ -128,8 +129,7 @@ After August 15, either Zoom meeting or at Blue Rigde Boost (1629 Appian Way, Ch
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/instructor/</guid>
-      <description>Nora is passionate about math and computing education, especially in attracting and retaining girls and women in STEM fields. The classroom environment and courses are designed to appeal to all students, not only cameo&amp;rsquo;s and boys.
-     Ana Nora Evans graduated from Polytechnical University of Bucharest, Romania with a degree in Computer Sience. She earned Masters degrees in Mathematics, Computer Science from the University of Virginia.</description>
+      <description>Math Experience Master of Science - Mathematics from the University of Virginia Master of Teaching - Mathematics Calculus teacher at Renaissance School AP Summer Institute training in AP Calculus AB/BC Calculus and Abstract Algebra in-person tutoring for over a year internship at Monticello High School in Algebra 2, Precalculus, and Geometry co-founder and organizer of Cville Math Circle for preschool and elementary school age girls teaching assistant for graduate-level courses Financial Mathematics instructor at the University of Virginia Computer Science and Coding Experience Master in Computer Science co-author of several research articles several year of industry experience over a year of online tutoring on Wyzant in C, C++, Java, Python, List and Prolog.</description>
     </item>
     
   </channel>

@@ -2,8 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blueridgeboost.com/adults/</loc>
-  </url><url>
     <loc>https://blueridgeboost.com/afternoonwintercamp/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/authors/</loc>
@@ -11,6 +9,8 @@
     <loc>https://blueridgeboost.com/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/categories/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/adults/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/cstutoring/</loc>
   </url><url>

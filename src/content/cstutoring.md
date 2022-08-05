@@ -1,6 +1,6 @@
 +++
 title = "Computer Science Sessions"
-description "Book a computer science session"
+description = "Book a computer science session"
 keywords = ["Python tutor", "Java tutor", "Lisp tutor", "Prolog tutor", "Calculus tutor"]
 +++
 
