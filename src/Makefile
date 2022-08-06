@@ -11,17 +11,18 @@ LATEXDIR = $(BASEDIR)/latex
 DOCSDIR = $(BASEDIR)/docs
 PAGEDIR = $(BASEDIR)/content/
 LATEXIFY = python3 $(LATEXDIR)/utils/latexify.py
+DESTINATION = $(BASEDIR)/../docs
 
 html:
-	hugo --theme=$(THEME)  --destination ../public
+	hugo --theme=$(THEME)  --destination $(DOCSDIR)
 
 develop:
 	sleep 1 && echo "Opening local browser..." &&  open http://localhost:1313 &
-	hugo server --theme=$(THEME) --buildDrafts --watch --destination ../public
+	hugo server --theme=$(THEME) --buildDrafts --watch --destination $(DESTINATION)
 
 github: html
-	rm -rf ../public/*
-	hugo --destination ../public
+	rm -rf $(DESTINATION)/*
+	hugo --destination $(DESTINATION)
 	git add -A :/; git commit -m "Rebuilt site" ; git push
 
 
