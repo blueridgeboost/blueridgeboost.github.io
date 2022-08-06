@@ -23,6 +23,7 @@ develop:
 github: html
 	rm -rf $(DESTINATION)/*
 	hugo --destination $(DESTINATION)
+	cp ../CNAME $(DESTINATION)
 	git add -A :/; git commit -m "Rebuilt site" ; git push
 
 
