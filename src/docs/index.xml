@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blue Ridge Boost</title>
+    <title>Computer Science and AP Calculus Tutor Charlottesville</title>
     <link>https://blueridgeboost.com/</link>
-    <description>Recent content on Blue Ridge Boost</description>
+    <description>Recent content on Computer Science and AP Calculus Tutor Charlottesville</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>&gt;Coding For Kids in Charlottesville</title>
+      <link>https://blueridgeboost.com/kids/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/kids/</guid>
+      <description>Computing At Blue Ridge Boost, we teach computing using play, starting with robots to visualize the programming concepts. The programming exercises use an attractive graphical interface to reinforce concepts through practice.
+We believe that students have to be exposed to the same programming concepts in a variety of situations and language variations. For this reason, students learn a few block languages to program WeDo Lego robots, mBot robots, help a beaver build its house in the Code Monkey framework.</description>
+    </item>
+    
     <item>
       <title>Afternoon Camp for 9-12 year olds</title>
       <link>https://blueridgeboost.com/afternoonwintercamp/</link>
@@ -28,6 +38,26 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask f
       
       <guid>https://blueridgeboost.com/authors/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Coding Classes in Charlottesville</title>
+      <link>https://blueridgeboost.com/classes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/classes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Science and Math Tutoring</title>
+      <link>https://blueridgeboost.com/hs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/hs/</guid>
+      <description>Computing At Blue Ridge Boost, we provide individual tutoring sessions for high ability students in the following subjects:
+AP Computer Science Principles (Python) AP Computer Science (Java) Preparation for USA Computing Olympiad Bronze Level Math A licensed, experienced teacher provides individual instruction in:
+Algebra 1 Geometry Trigonometry Algebra 2 Math Analysis AP Calculus AB AP Calculus BC Math for SAT/ACT Book a computer science session now! Book a math session now!</description>
     </item>
     
     <item>
@@ -85,24 +115,12 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask f
     </item>
     
     <item>
-      <title>High School</title>
-      <link>https://blueridgeboost.com/hs/</link>
+      <title>Kids Coding Classes in Charlottesville</title>
+      <link>https://blueridgeboost.com/k2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blueridgeboost.com/hs/</guid>
-      <description> Computing At Blue Ridge Boost, we provide individual tutoring sessions for high ability students in the following subjects:
-AP Computer Science Principles (Python) AP Computer Science (Java) Preparation for USA Computing Olympiad Bronze Level Math A licensed, experienced teacher provides individual instruction in:
-Algebra 1 Geometry Trigonometry Algebra 2 Math Analysis AP Calculus AB AP Calculus BC Math for SAT/ACT </description>
-    </item>
-    
-    <item>
-      <title>Kids</title>
-      <link>https://blueridgeboost.com/kids/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blueridgeboost.com/kids/</guid>
-      <description>Computing At Blue Ridge Boost, we teach computing using play, starting with robots to visualize the programming concepts. The programming exercises use an attractive graphical interface to reinforce concepts through practice.
-We believe that students have to be exposed to the same programming concepts in a variety of situations and language variations. For this reason, students learn a few block languages to program WeDo Lego robots, mBot robots, help a beaver build its house in the Code Monkey framework.</description>
+      <guid>https://blueridgeboost.com/k2/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -130,14 +148,24 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask f
     </item>
     
     <item>
-      <title>Virtual and In-Person Individual Classes</title>
-      <link>https://blueridgeboost.com/classes/</link>
+      <title>Past Coding Classes Offered at Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/past_classes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blueridgeboost.com/classes/</guid>
-      <description>To sign up, please email: nora@blueridgeboost.com
-Where: Before August 15, Zoom meeting from the comfort of your home.
-After August 15, either Zoom meeting or at Blue Rigde Boost (1629 Appian Way, Charlottesville, Virginia). When: at a time that works for you. Who: Any student interested in coding. Cost for six 1-hour sessions: $250 for elementary school, $350 for middle school, $400 for high school. Introduction to Coding At Blue Ridge Boost, we teach the same fundamental coding concepts to students of all ages.</description>
+      <guid>https://blueridgeboost.com/past_classes/</guid>
+      <description>Where: Before August 15, Zoom meeting from the comfort of your home.
+When: at a time that works for you.Who: Any student interested in coding.Cost for six 1-hour sessions: $250 for elementary school, $350 for middle school, $400 for high school.Introduction to Coding At Blue Ridge Boost, we teach the same fundamental coding concepts to students of all ages. The courses are structured around three 6-class sessions.</description>
+    </item>
+    
+    <item>
+      <title>Preschool Coding Classes in Charlottesville</title>
+      <link>https://blueridgeboost.com/preschool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/preschool/</guid>
+      <description>Students learn fundamental coding concepts by helping a monkey collect bananas. The course is organized in 8-week sessions.
+Session 1. Sequencing and Loops Students build a foundation in coding and problem solving.
+Class size up to 6 students Duration 35 minutes Cost $120 for 8 sessions Lesson 1. What is coding? Students learn that coding is giving precise instructions to a computer. Each student creates their first program – a dance routine for the class to follow!</description>
     </item>
     
     <item>

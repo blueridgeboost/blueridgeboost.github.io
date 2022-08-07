@@ -1,5 +1,5 @@
 baseurl = "https://blueridgeboost.com"
-title = "Blue Ridge Boost"
+title = "Computer Science and AP Calculus Tutor Charlottesville"
 theme = "brb"
 languageCode = "en-us"
 
@@ -120,7 +120,7 @@ unsafe= true
     author = "Nora Evans"
     defaultKeywords = ["math", "computer science"]
     mainSections = ["blog"]
-    defaultDescription = "Math and Computing Classes and Tutoring in Charlottesville"
+    defaultDescription = "Learn coding with block languages, Python programming, AP computer science, AP Calculus, Algebra and more!"
     defaultTwiterDescription = "Math and Computing Classes and Tutoring in Charlottesville" 
 
     # Social media
