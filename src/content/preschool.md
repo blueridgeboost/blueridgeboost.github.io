@@ -4,27 +4,21 @@ heading = "Coding Group Classes for Preschools"
 description = "At Blue Ridge Boost, we teach the coding to preschoolers using an attractive graphical interface. Find out more about our in-person coding classes!"
 +++
 
-Students learn fundamental coding concepts by helping a [monkey collect bananas]("https://www.codemonkey.com/courses/codemonkey-jr"). The course is organized in 8-week sessions. 
+Students learn fundamental coding concepts by helping a [monkey collect bananas](https://www.codemonkey.com/courses/codemonkey-jr) on instructor-provided chromebooks. Small class size of up to 6 students ensures that each student gets the attention they need to be successful. <br>
 
-
-<div class="bigspacer"></div>
+Sessions contain 8 lessons. Each lesson is 35 minutes long. The cost per session is $120.
 
 <!-- [Session 1](#session-1-sequencing-and-loops) -->
-
-
-#### Session 1. Sequencing and Loops 
 
 <div class="container">
 
 <div class="row">
 
 <div class="col-sm-4 left">
-Students build a foundation in coding and problem solving.<br>
-<b>Class size</b> up to 6 students <br>
-<b>Duration</b> 35 minutes <br>
-<b>Cost</b> $120 for 8 sessions <br>
 
 <center>
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img  alt="Code written by kids!" src="/images/cmjr.png" width="95%" style="padding:20px;"></a>
+
 <a href="https://www.codemonkey.com/courses/codemonkey-jr"><img  alt="Code written by kids!" src="/images/cmjr1.jpg" width="95%" style="padding:20px;"></a>
 
 <a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr2.png" width="95%" style="padding:20px;"></a>
@@ -32,7 +26,11 @@ Students build a foundation in coding and problem solving.<br>
 
 </div>
 
-<div class="col-sm-6">
+<div class="col-sm-8">
+
+#### Session 1. Sequencing and Loops 
+
+Students build a foundation in coding and problem solving.<br>
 
 **Lesson 1.** What is coding? <br>
 Students learn that coding is giving precise instructions to a computer. Each student creates their first program – a dance routine for the class to follow!

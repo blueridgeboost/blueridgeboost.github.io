@@ -1181,6 +1181,7 @@ hr.frontspacer {
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
+
 .home-main .dark-mask {
   position: absolute;
   top: 0;
