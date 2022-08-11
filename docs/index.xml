@@ -13,7 +13,7 @@
       
       <guid>https://blueridgeboost.com/kids/</guid>
       <description>Computing At Blue Ridge Boost, we teach computing using play, starting with robots to visualize the programming concepts. The programming exercises use an attractive graphical interface to reinforce concepts through practice.
-We believe that students have to be exposed to the same programming concepts in a variety of situations and language variations. For this reason, students learn a few block languages to program WeDo Lego robots, mBot robots, help a beaver build its house in the Code Monkey framework.</description>
+   We believe that students have to be exposed to the same programming concepts in a variety of situations and language variations. For this reason, students learn a few block languages to program WeDo Lego robots, mBot robots, help a beaver build its house in the Code Monkey framework.</description>
     </item>
     
     <item>
@@ -47,8 +47,7 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask f
       
       <guid>https://blueridgeboost.com/k2/</guid>
       <description>Students learn fundamental coding concepts by helping a a beaver build a dam on instructor-provided chromebooks. Small class size of up to 8 students ensures that each student gets the attention they need to be successful. Sessions contain 8 lessons. Each lesson is 45 minutes long. The cost per session is $160.
-Session 1. Sequencing and Loops Students build a foundation in coding and problem solving.
-Lesson 1. What is coding?</description>
+Session 1. Sequencing and Loops Students build a foundation in coding and problem solving.</description>
     </item>
     
     <item>
@@ -78,8 +77,8 @@ For individual tutoring, please schedule your math lesson here and your coding l
       
       <guid>https://blueridgeboost.com/hs/</guid>
       <description>Computing At Blue Ridge Boost, we provide individual tutoring sessions for high ability students in the following subjects:
-AP Computer Science Principles (Python) AP Computer Science (Java) Preparation for USA Computing Olympiad Bronze Level Math A licensed, experienced teacher provides individual instruction in:
-Algebra 1 Geometry Trigonometry Algebra 2 Math Analysis AP Calculus AB AP Calculus BC Math for SAT/ACT Book a computer science session now! Book a math session now!</description>
+ AP Computer Science Principles (Python) AP Computer Science (Java) Preparation for USA Computing Olympiad Bronze Level   Math A licensed, experienced teacher provides individual instruction in:
+ Algebra 1 Geometry Trigonometry Algebra 2 Math Analysis AP Calculus AB AP Calculus BC Math for SAT/ACT    Book a computer science session now!</description>
     </item>
     
     <item>
@@ -88,7 +87,7 @@ Algebra 1 Geometry Trigonometry Algebra 2 Math Analysis AP Calculus AB AP Calcul
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/adults/</guid>
-      <description>Computer Science Coding with Java, Python, C/C++, Prolog, Lisp, and Rust. Introduction to Programming Data Structures and Algorithms Discrete Math Program and Data Representation Programming Languages Math Financial Mathematics Calculus Transition to Higher Mathematics Real Analysis Abstract Algebra General Topology Book a computer science session now! Book a math session now! Contact us if your needs are not met by one of the existing offerings.</description>
+      <description>Computer Science  Coding with Java, Python, C/C++, Prolog, Lisp, and Rust. Introduction to Programming Data Structures and Algorithms Discrete Math Program and Data Representation Programming Languages   Math  Financial Mathematics Calculus Transition to Higher Mathematics Real Analysis Abstract Algebra General Topology    Book a computer science session now!  Book a math session now!     Contact us if your needs are not met by one of the existing offerings.</description>
     </item>
     
     <item>
@@ -97,7 +96,7 @@ Algebra 1 Geometry Trigonometry Algebra 2 Math Analysis AP Calculus AB AP Calcul
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/cstutoring/</guid>
-      <description>Click on a session to see availability and book it! </description>
+      <description>Click on a session to see availability and book it! window.addEventListener &amp;&amp; window.addEventListener(&#34;message&#34;, function(event){if (event.origin === &#34;https://blueridgeboost-cs.youcanbook.me&#34;){document.getElementById(&#34;ycbmiframeblueridgeboost-cs&#34;).style.height = event.data + &#34;px&#34;;}}, false);</description>
     </item>
     
     <item>
@@ -133,7 +132,7 @@ Algebra 1 Geometry Trigonometry Algebra 2 Math Analysis AP Calculus AB AP Calcul
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/schedule/</guid>
-      <description> Book 1-1 classes here! </description>
+      <description>Book 1-1 classes here!  </description>
     </item>
     
     <item>
@@ -142,7 +141,7 @@ Algebra 1 Geometry Trigonometry Algebra 2 Math Analysis AP Calculus AB AP Calcul
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/mathtutoring/</guid>
-      <description>Click on a session to see availability and book it! </description>
+      <description>Click on a session to see availability and book it! window.addEventListener &amp;&amp; window.addEventListener(&#34;message&#34;, function(event){if (event.origin === &#34;https://blueridgeboost-math.youcanbook.me&#34;){document.getElementById(&#34;ycbmiframeblueridgeboost-math&#34;).style.height = event.data + &#34;px&#34;;}}, false); </description>
     </item>
     
     <item>
@@ -166,8 +165,8 @@ Conditions to attend: proof of COVID-19 vaccination, commitment to wear a mask f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/past_classes/</guid>
-      <description>Where: Before August 15, Zoom meeting from the comfort of your home.
-When: at a time that works for you.Who: Any student interested in coding.Cost for six 1-hour sessions: $250 for elementary school, $350 for middle school, $400 for high school.Introduction to Coding At Blue Ridge Boost, we teach the same fundamental coding concepts to students of all ages. The courses are structured around three 6-class sessions.</description>
+      <description>nora@blueridgeboost.com --Where: Before August 15, Zoom meeting from the comfort of your home.
+When: at a time that works for you.Who: Any student interested in coding.Cost for six 1-hour sessions: $250 for elementary school, $350 for middle school, $400 for high school.Introduction to Coding At Blue Ridge Boost, we teach the same fundamental coding concepts to students of all ages. The courses are structured around three 6-class sessions.</description>
     </item>
     
     <item>
@@ -177,8 +176,9 @@ When: at a time that works for you.Who: Any student interested in coding.Cost 
       
       <guid>https://blueridgeboost.com/preschool/</guid>
       <description>Students learn fundamental coding concepts by helping a monkey collect bananas on instructor-provided chromebooks. Small class size of up to 6 students ensures that each student gets the attention they need to be successful. Sessions contain 8 lessons. Each lesson is 35 minutes long. The cost per session is $120.
-Session 1. Sequencing and Loops Students build a foundation in coding and problem solving.
-Lesson 1. What is coding? Students learn that coding is giving precise instructions to a computer.</description>
+
+
+Session 1. Sequencing and Loops Students build a foundation in coding and problem solving.</description>
     </item>
     
     <item>
@@ -188,7 +188,9 @@ Lesson 1. What is coding? Students learn that coding is giving precise instructi
       
       <guid>https://blueridgeboost.com/python_ms/</guid>
       <description>Students learn to code instructor-provided chromebooks using Python, a widely used programming language in academia and industry. Previous experience with computer typing is recommended. Small class size of up to 8 students ensures that each student gets the attention they need to be successful. Sessions contain 8 lessons. Each lesson is 45 minutes long. The cost per session is $160.
-Session 1. Sequencing, Objects, Loops and Variables In the first 8-week session students learn objects and properties, lists and indexing, for loops, variables, and conditional statements.</description>
+
+
+Session 1. Sequencing, Objects, Loops and Variables In the first 8-week session students learn objects and properties, lists and indexing, for loops, variables, and conditional statements.</description>
     </item>
     
     <item>
@@ -197,7 +199,7 @@ Session 1. Sequencing, Objects, Loops and Variables In the first 8-week session 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/instructor/</guid>
-      <description>Math Experience Master of Science - Mathematics from the University of Virginia Master of Teaching - Mathematics Calculus teacher at Renaissance School AP Summer Institute training in AP Calculus AB/BC Calculus and Abstract Algebra in-person tutoring for over a year internship at Monticello High School in Algebra 2, Precalculus, and Geometry co-founder and organizer of Cville Math Circle for preschool and elementary school age girls teaching assistant for graduate-level courses Financial Mathematics instructor at the University of Virginia Computer Science and Coding Experience Master in Computer Science co-author of several research articles several year of industry experience over a year of online tutoring on Wyzant in C, C++, Java, Python, List and Prolog.</description>
+      <description>--    Math Experience  Master of Science - Mathematics from the University of Virginia Master of Teaching - Mathematics Calculus teacher at Renaissance School AP Summer Institute training in AP Calculus AB/BC Calculus and Abstract Algebra in-person tutoring for over a year internship at Monticello High School in Algebra 2, Precalculus, and Geometry co-founder and organizer of Cville Math Circle for preschool and elementary school age girls teaching assistant for graduate-level courses Financial Mathematics instructor at the University of Virginia  Computer Science and Coding Experience  Master in Computer Science co-author of several research articles several year of industry experience over a year of online tutoring on Wyzant in C, C++, Java, Python, List and Prolog.</description>
     </item>
     
   </channel>
