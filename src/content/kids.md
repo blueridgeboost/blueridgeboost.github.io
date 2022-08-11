@@ -1,7 +1,8 @@
 +++
-title = "Kids"
-description = "Kids Teaching Philosophy" 
-keywords = ["Scratch", "block programming", "Python", "problem solving", "coding for children", "kids coding", ]
+title = ">Coding For Kids in Charlottesville"
+header = "Kids"
+description = "At Blue Ridge Boost, we teach kids computing, coding, problem solving skills, Python, and more." 
+keywords = ["Scratch", "block programming", "Python",  "coding for children", "kids coding", ]
 +++
 
 <div class="container">
@@ -16,7 +17,7 @@ exercises use an attractive graphical interface to reinforce concepts
 through practice. 
 
 <center>
-<a href="/images/thoughtfulprogrammer.jpg"><img src="/images/thoughtfulprogrammer-small.jpg" width="98%" style="padding:20px;"></a>
+<a href="/images/thoughtfulprogrammer.jpg"><img src="/images/thoughtfulprogrammer-small.jpg" width="98%" style="padding:20px;" alt="Problem Solving for Kids"></a>
 </center>
 
 We believe that students have to be exposed to the same programming
@@ -27,7 +28,7 @@ experiment with [Makey Makey](https://makeymakey.com/) and [Cubetto](https://www
 to program the mBots.
 
 <center>
-<a href="/images/gui.jpg"><img src="/images/gui-small.jpg" width="90%" style="padding:20px;"></a>
+<a href="/images/gui.jpg"><img alt="Programing for kids" src="/images/gui-small.jpg" width="90%" style="padding:20px;"></a>
 </center>
 
 
@@ -35,7 +36,7 @@ to program the mBots.
 <div class="col-sm-6">
 
 <center>
-<a href="/images/mathtoys.jpg"><img src="/images/mathtoys-small.jpg" width="90%" style="padding:20px;"></a>
+<a href="/images/mathtoys.jpg"><img alt="Learning with blocks" src="/images/mathtoys-small.jpg" width="90%" style="padding:20px;"></a>
 </center>
 
 
@@ -51,7 +52,7 @@ tasks where the students apply the material learned in a novel
 situation.
 
 <center>
-<a href="/images/fractions.jpg"><img src="/images/fractions-small.jpg" width="98%" style="padding:20px;"></a>
+<a href="/images/fractions.jpg"><img alt="Math Lessons" src="/images/fractions-small.jpg" width="98%" style="padding:20px;"></a>
 </center>
 
 

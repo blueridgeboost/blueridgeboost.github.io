@@ -1,6 +1,7 @@
 +++
-title = "High School"
-description = "High School Tutoring"
+title = "Computer Science and Math Tutoring"
+header = "High School"
+description = "At Blue Ridge Boost, we provide individual tutoring sessions in AP Computer Science and math for high ability students."
 keywords = ["AP Calculus", "math tutoring", "high school math tutor", "USACO tutoring"]
 +++
 
@@ -35,3 +36,18 @@ A licensed, experienced teacher provides individual instruction in:
 
 </div>
 </div>
+
+<div class="row">
+<div class="col-sm-6">
+<h5><a href="/cstutoring">Book a computer science session now!</a></h5>
+</div>
+<div class="col-sm-6">
+<h5><a href="/mathtutoring">Book a math session now!</a></h5>
+</div>
+</div>
+
+</div>
+
+<div class="bigspacer"></div>
+
+[Contact us](/contact) if your needs are not met by one of the existing offerings.
