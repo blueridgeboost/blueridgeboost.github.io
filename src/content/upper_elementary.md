@@ -5,9 +5,9 @@ description = "At Blue Ridge Boost, we teach the same fundamental coding concept
 +++
 
 Students learn fundamental coding concepts using Coffee Script, a beginner friendly text-based coding language. The young coders use an attractive graphical interface to generate text by pressing buttons  on instructor-provided chromebooks. Some previous experience typing is helpful, but not necessary. <br>
-Small class size of up to 8 students ensures that each student gets the attention they need to be successful. <br>
+Small class size of up to 6 students ensures that each student gets the attention they need to be successful. <br>
 
-Sessions contain 8 lessons. Each lesson is 45 minutes long. The cost per session is $160.
+Sessions contain 8 lessons. Each lesson is 45 minutes long. The cost per session is $190.
 
 <div class="container">
 
