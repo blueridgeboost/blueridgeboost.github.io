@@ -4,9 +4,9 @@ heading = "Coding Group Classes for Preschools"
 description = "At Blue Ridge Boost, we teach the coding to preschoolers using an attractive graphical interface. Find out more about our in-person coding classes!"
 +++
 
-Students learn fundamental coding concepts by helping a [monkey collect bananas](https://www.codemonkey.com/courses/codemonkey-jr) on instructor-provided chromebooks. Small class size of up to 6 students ensures that each student gets the attention they need to be successful. <br>
+Students learn fundamental coding concepts by helping a [monkey collect bananas](https://www.codemonkey.com/courses/codemonkey-jr) on instructor-provided chromebooks. Small class size of up to 4 students ensures that each student gets the attention they need to be successful. <br>
 
-Sessions contain 8 lessons. Each lesson is 35 minutes long. The cost per session is $120.
+Sessions contain 8 lessons. Each lesson is 35 minutes long. The cost per session is $165.
 
 <!-- [Session 1](#session-1-sequencing-and-loops) -->
 

@@ -5,9 +5,9 @@ description = "At Blue Ridge Boost, we teach the same fundamental coding concept
 +++
 
 Students learn to code instructor-provided chromebooks using Python, a widely used programming language in academia and industry. Previous experience with computer typing is recommended. <br>
-Small class size of up to 8 students ensures that each student gets the attention they need to be successful. <br>
+Small class size of up to 6 students ensures that each student gets the attention they need to be successful. <br>
 
-Sessions contain 8 lessons. Each lesson is 45 minutes long. The cost per session is $160.
+Sessions contain 8 lessons. Each lesson is 45 minutes long. The cost per session is $190.
 
 <div class="container">
 
