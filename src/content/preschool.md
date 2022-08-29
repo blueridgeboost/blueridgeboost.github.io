@@ -4,31 +4,40 @@ heading = "Coding Group Classes for Preschools"
 description = "At Blue Ridge Boost, we teach the coding to preschoolers using an attractive graphical interface. Find out more about our in-person coding classes!"
 +++
 
-Students learn fundamental coding concepts by helping a [monkey collect bananas](https://www.codemonkey.com/courses/codemonkey-jr) on instructor-provided chromebooks. Small class size of up to 4 students ensures that each student gets the attention they need to be successful. <br>
-
-Sessions contain 8 lessons. Each lesson is 35 minutes long. The cost per session is $165.
-
-<!-- [Session 1](#session-1-sequencing-and-loops) -->
 
 <div class="container">
 
 <div class="row">
 
-<div class="col-sm-4 left">
 
-<center>
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img  alt="Code written by kids!" src="/images/cmjr.png" width="95%" style="padding:20px;"></a>
 
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img  alt="Code written by kids!" src="/images/cmjr1.jpg" width="95%" style="padding:20px;"></a>
+<div class="col-sm-10">
 
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr2.png" width="95%" style="padding:20px;"></a>
-</center>
+Students learn fundamental coding concepts by helping a [monkey collect bananas](https://www.codemonkey.com/courses/codemonkey-jr) on instructor-provided chromebooks. 
+
+
+**Maximum class size**: 4 students.
+
+**Duration**: 4 weeks.
+
+**Lesson length**: 35 minutes.
+
 
 </div>
 
-<div class="col-sm-8">
+</div></div>
 
-#### Session 1. Sequencing and Loops 
+
+<div class="container">
+
+<div class="row">
+
+
+<a name="session1"></a>
+
+<div class="col-sm-6">
+
+#### Session 1. Sequencing
 
 Students build a foundation in coding and problem solving.<br>
 
@@ -44,17 +53,59 @@ Students learn two new commands and how to code using advanced planning.
 **Lesson 4.** Increasingly complex programs <br>
 Students learn one more command, jump up, and use the commands they know to solve increasingly complex problems. 
 
-**Lesson 5.** Efficient programs<br>
+</div>
+<div class="col-sm-4 left">
+
+<center>
+
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img  alt="Code written by kids!" src="/images/cmjr1.png" width="75%" style="padding:10px;"></a>
+
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img  alt="Code written by kids!" src="/images/cmjr2.png" width="75%" style="padding:10px;"></a>
+
+</center>
+
+</div>
+</div>
+
+</div>
+
+
+<a name="session2"></a>
+
+<div class="container">
+
+<div class="row">
+
+
+<div class="col-sm-6">
+
+#### Session 2. Loops 
+
+Students learn loops, a fundamental coding concept.<br>
+
+**Lesson 1.** Efficient programs<br>
 Students learn that a problem may have multiple solutions and to judge which one is more efficient.
 
-**Lesson 6.** Programming repetition <br>
+**Lesson 2.** Programming repetition <br>
 Students learn to write concise code using loops. 
 
-**Lesson 7.** Longer loops<br>
+**Lesson 3.** Longer loops<br>
 Students continue their practice with repeat loops containing two or more commands.
 
-**Lesson 8.** What stops the loop? <br>
+**Lesson 4.** What stops the loop? <br>
 Students explore why some loops finish and others run forever (a deep question in theoretical computer science!)
+</div>
+
+<div class="col-sm-4 left">
+
+<center>
+
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr3.png" width="75%" style="padding:10px;"></a>
+
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr4.png" width="75%" style="padding:10px;"></a>
+
+</center>
+
 </div>
 
 </div>
