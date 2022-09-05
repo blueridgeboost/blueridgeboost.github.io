@@ -6,10 +6,16 @@
     <description>Recent content on Computer Science and AP Calculus Tutor Charlottesville</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Aug 2022 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Mon, 05 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Location in Downtown Charlottesville</title>
+      <link>https://blueridgeboost.com/blog/2022/09/05/post3/</link>
+      <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/blog/2022/09/05/post3/</guid>
+      <description>The new office is ready for students!
+      </description>
+    </item>
     
     <item>
       <title>New Location in Downtown Charlottesville</title>
@@ -82,6 +88,16 @@ Lesson 1. What is coding? Students learn that coding is giving precise instructi
     </item>
     
     <item>
+      <title>Coding and Computer Science Tutoring</title>
+      <link>https://blueridgeboost.com/cs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/cs/</guid>
+      <description>Experienced software engineer and tutor provides individual instruction.
+Book a session now! Adults/College  Coding with Java, Python, C/C++, Prolog, Lisp, and Rust. Introduction to Programming Data Structures and Algorithms Discrete Math Program and Data Representation Programming Languages  High School  AP Computer Science Principles (Python) AP Computer Science (Java) Preparation for USA Computing Olympiad Bronze Level  Children We believe that students have to be exposed to the same programming concepts in a variety of situations and language variations.</description>
+    </item>
+    
+    <item>
       <title>Coding Classes in Charlottesville</title>
       <link>https://blueridgeboost.com/classes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -89,9 +105,9 @@ Lesson 1. What is coding? Students learn that coding is giving precise instructi
       <guid>https://blueridgeboost.com/classes/</guid>
       <description>Fall classes start in September All classes are held at the Blue Ridge Boost office at 222 Court Square, Charlottesville.  To sign up, please email: nora@blueridgeboost.com.
 Pre-school to K Session 1 of Code Monkey Jr. ($85)
- Tuesdays, 10:00--10:35 am (9/13, 9/20, 9/27, 10/4)  Fridays, 11:00--11:35 am (9/16, 9/23, 9/30, 10/7)  Lower Elementary Session 1 of Beaver Achiever ($95)
+ Tuesdays, 10:00--10:35 am (9/20, 9/27, 10/4, 10/11)  Fridays, 11:00--11:35 am (9/23, 9/30, 10/7, 10/14)  Lower Elementary Session 1 of Beaver Achiever ($95)
  Saturdays, 10:00--10:45 am
-(9/18, 9/25, 10/9, 10/16)  Sundays, 2:00--2:45 pm</description>
+(9/24, 10/1, 10/8, 10/15)  Sundays, 2:00--2:45 pm</description>
     </item>
     
     <item>
@@ -172,6 +188,16 @@ Lessons 1 and 2. Basic coding Students learn that coding is giving precise instr
       
       <guid>https://blueridgeboost.com/mathtutoring/</guid>
       <description>Click on a session to see availability and book it! window.addEventListener &amp;&amp; window.addEventListener(&#34;message&#34;, function(event){if (event.origin === &#34;https://blueridgeboost-math.youcanbook.me&#34;){document.getElementById(&#34;ycbmiframeblueridgeboost-math&#34;).style.height = event.data + &#34;px&#34;;}}, false); </description>
+    </item>
+    
+    <item>
+      <title>Math Tutoring</title>
+      <link>https://blueridgeboost.com/math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/math/</guid>
+      <description>Experienced teacher provides individual instruction.
+Book a math session now! Adults/College  Financial Mathematics Calculus Transition to Higher Mathematics Real Analysis Abstract Algebra General Topology  High School  Algebra 1 Geometry Trigonometry Algebra 2 Math Analysis AP Calculus AB AP Calculus BC Math for SAT/ACT  Children At Blue Ridge Boost, we teach problem solving skills, rather than drill and memorization. For younger students, we offer math circle type classes, in which students solve challenging problems in groups.</description>
     </item>
     
     <item>

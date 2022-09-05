@@ -27,53 +27,54 @@ unsafe= true
 # Main menu
 
 [[menu.main]]
-    name       = "Private lessons"
+    name       = "Tutoring"
     identifier = "menu.individual"
     url        = ""
     weight     = 1
 
 [[menu.main]]
-    name       = "Kids"
-    url        = "/kids"
+    name       = "Math"
+    url        = "/math"
     weight     = 1
     parent     = "menu.individual"
     
 [[menu.main]]
-    name       = "High School"
-    url        = "/hs"
+    name       = "Coding"
+    url        = "/cs"
     weight     = 2
-    parent     = "menu.individual"
-
-[[menu.main]]
-    name       = "Adults"
-    url        = "/adults"
-    weight     = 3
     parent     = "menu.individual"
 
 [[menu.main]]
     name        = "Book now!"
     identifier  = "menu.book"
     url         = ""
-    weight      = 2
+    weight      = 4
 
 [[menu.main]]
-    name       = "Math"
+    name       = "Math Tutor"
     url        = "/mathtutoring"
     weight     = 1
     parent     = "menu.book"
 
 
 [[menu.main]]
-    name       = "Computer Science"
+    name       = "Computer Science Tutor"
     url        = "/cstutoring"
     weight     = 2
     parent     = "menu.book"
 
 [[menu.main]]
+    name       = "Coding Class"
+    url        = "/classes"
+    weight     = 3
+    parent     = "menu.book"
+
+
+[[menu.main]]
     name       = "Classes"
     identifier = "menu.classes"
     url        = "/classes"
-    weight     = 6
+    weight     = 2
 
 [[menu.main]]
     name       = "Instructor"

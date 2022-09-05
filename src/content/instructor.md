@@ -9,7 +9,7 @@ keywords = ["math tutor", "coding tutor", "AP Calculus tutor", "coding for kids"
 
 <div class="col-sm-3 left">
 
-<center><a href="/images/nora.png"><img src="/images/nora-smaller.png" width="95%" alt="Nora" style="padding:20px;"></a></center>
+<center><a href="/images/nora.png"><img src="/images/nora-new.png" width="95%" alt="Nora" style="padding:20px;"></a></center>
 
 <!-- <center><a href="/images/pythagora.png"><img src="/images/rulers.jpg" width="95%" alt="Geometry drawings" style="padding:20px;"></a></center> -->
 
