@@ -801,7 +801,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 hr.frontspacer {
-    width: 75%;
+    width: 65%;
     border-top: 3px solid var(--primary-accent-strong);
     box-shadow: 0 0 5px 1px var(--primary-accent);
 }
@@ -3500,7 +3500,7 @@ address {
     color: var(--inverse-text);
     font-size: 2.5rem;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
 }
 

@@ -195,7 +195,7 @@ unsafe= true
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs"><b>Fall classes start in September!</b>  </p>
+    text = """<p><b><font size="+1"><a href="/classes/">Fall classes start in September!</a></font></b>  </p>
       """
 
 # Enable and disable widgets for the right sidebar
