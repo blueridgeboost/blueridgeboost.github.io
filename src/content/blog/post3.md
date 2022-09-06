@@ -1,0 +1,29 @@
++++
+title = "New Location in Downtown Charlottesville"
+tags = ["classes", "programming", "coding"]
+categories = ["location"]
+authors = ["Nora Evans"]
+banner="/images/PXL_20220903_190032707.png"
+date="2022-09-05"
++++
+
+The new office is ready for students!
+
+<div class="container">
+<div class="row">
+
+<div class="col-sm-4 left">
+<center><a href="/images/PXL_20220903_190645853.png"><img src="/images/PXL_20220903_190645853.png" width="95%" alt="Coding" style="padding:20px;"></a></center>
+</div>
+
+<div class="col-sm-4 left">
+<center><a href="/images/PXL_20220903_185916855~2.png"><img src="/images/PXL_20220903_185916855~2.png" width="95%" alt="Math" style="padding:20px;"></a></center>
+</div>
+
+
+</div>
+</div>
+
+
+
+

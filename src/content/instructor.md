@@ -9,14 +9,11 @@ keywords = ["math tutor", "coding tutor", "AP Calculus tutor", "coding for kids"
 
 <div class="col-sm-3 left">
 
-<center><a href="/images/nora.png"><img src="/images/nora-smaller.png" width="95%" alt="Nora" style="padding:20px;"></a></center>
+<center><a href="/images/nora.png"><img src="/images/nora-new.png" width="95%" alt="Nora" style="padding:20px;"></a></center>
 
 <!-- <center><a href="/images/pythagora.png"><img src="/images/rulers.jpg" width="95%" alt="Geometry drawings" style="padding:20px;"></a></center> -->
 
-<center><a href="/images/coding_award.png"><img src="/images/coding_award.jpg" width="95%" alt="First Lego league Coding Award" style="padding:20px;"></a></center>
-
-<center><a href="/images/model_award.png"><img src="/images/model_award.jpg" width="95%" alt="First Lego league Model Award" style="padding:20px;"></a></center>
-
+<center><a href="/images/teamwork-award.png"><img src="/images/teamwork-award.jpg" width="95%" alt="Teamwork Award" style="padding:20px;"></a></center>
 </div>
 <div class="col-sm-6 middle">
 
@@ -44,13 +41,13 @@ keywords = ["math tutor", "coding tutor", "AP Calculus tutor", "coding for kids"
 </div>
 
 <div class="col-sm-3 right">
-<center><a href="/images/pythagora.png"><img src="/images/pythagora.jpg" width="95%" alt="Geometry puzzles at math circle" style="padding:20px;"></a></center>
+<center><a href="/images/pythagora.png"><img src="/images/pythagora.jpg" width="95%" alt="Geometry puzzles at math circle" style="padding:8px;"></a></center>
 
-<center><a href="/images/triangles.png"><img src="/images/triangles.jpg" width="95%" alt="Triangles Lesson" style="padding:20px;"></a></center>
+<center><a href="/images/triangles.png"><img src="/images/triangles.jpg" width="95%" alt="Triangles Lesson" style="padding:8px;"></a></center>
 
-<center><a href="/images/lego-league-outside.png"><img src="/images/lego-league-outside.jpg" width="95%" alt="First Lego League Lesson" style="padding:20px;"></a></center>
+<center><a href="/images/lego-league-outside.png"><img src="/images/lego-league-outside.jpg" width="95%" alt="First Lego League Lesson" style="padding:8px;"></a></center>
 
-<center><a href="/images/teamwork-award.png"><img src="/images/teamwork-award.jpg" width="95%" alt="Teamwork Award" style="padding:20px;"></a></center>
+
 </div>
 
   </div>

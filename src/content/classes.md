@@ -18,11 +18,11 @@ description = "At Blue Ridge Boost, we teach the same fundamental coding concept
 <a href="/preschool#session1">Session 1 of Code Monkey Jr.</a> ($85)<br>
 <p>
 Tuesdays, 10:00--10:35 am<Br>
-(9/13, 9/20, 9/27, 10/4)
+(9/20, 9/27, 10/4, 10/11)
 </p>
 <p>
 Fridays, 11:00--11:35 am <br>
-(9/16, 9/23, 9/30, 10/7)</td>
+(9/23, 9/30, 10/7, 10/14)</td>
 </div>
 <div class="col-sm-4" align="center">
 <b>Lower Elementary</b>
@@ -30,11 +30,11 @@ Fridays, 11:00--11:35 am <br>
 <a href="/k2#session1">Session 1 of Beaver Achiever</a> ($95)<br>
 <p>
 Saturdays, 10:00--10:45 am<br>
-(9/18, 9/25, 10/9, 10/16)
+(9/24, 10/1, 10/8, 10/15)
 </p>
 <p>
 Sundays, 2:00--2:45 pm<br>
-(9/19, 9/26, 10/10, 10/17)
+(9/25, 10/2, 10/9, 10/16)
 </p>
 </div>
 </div>
@@ -45,22 +45,22 @@ Sundays, 2:00--2:45 pm<br>
 <a href="/upper_elementary#session1">Session 1 of Coding Adventure</a> ($95)
 <p>
 Saturdays, noon--12:45 pm<br>
-(9/18, 9/25, 10/9, 10/16)
+(9/24, 10/1, 10/8, 10/15)
 </p>
 <p>
 Sundays, 4:00--4:45pm<br>
-(9/19, 9/26, 10/10, 10/17)<Br>
+(9/25, 10/2, 10/9, 10/16)<Br>
 </div>
 <div class="col-sm-4" align="center">
 <b>Middle School</b><br>
 <a href="/python_ms#session1">Session 1 of Banana Tales</a> ($95)<br>
 <p>
 Saturdays, 11:00--11:45 am<br>
-(9/18, 9/25, 10/9, 10/16)
+(9/24, 10/1, 10/8, 10/15)
 </p>
 <p>
 Sundays, 3:00--3:45 pm<br>
-(9/19, 9/26, 10/10, 10/17)
+(9/25, 10/2, 10/9, 10/16)
 </div>
 </div>
 
@@ -70,7 +70,7 @@ Sundays, 3:00--3:45 pm<br>
 For individual tutoring, please schedule your math lesson [here](/mathtutoring) and your coding lesson [here](/cstutoring).
 </p>
 <p>
-<img src="/images/inoffice.jpg" width=70%">
+<img src="/images/coding.png" width=70%">
 </div>
 </div>
 
