@@ -26,13 +26,13 @@ Experienced teacher provides individual instruction.
 
 #### High School
 
-1. Algebra 1
+1. Algebra 
 1. Geometry
 1. Trigonometry
-1. Algebra 2
 1. Math Analysis
 1. AP Calculus AB
 1. AP Calculus BC
+1. AP Statistics
 1. Math for SAT/ACT 
 
 #### Children

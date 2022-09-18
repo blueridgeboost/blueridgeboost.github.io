@@ -17,12 +17,15 @@ description = "At Blue Ridge Boost, we teach the same fundamental coding concept
 
 <a href="/preschool#session1">Session 1 of Code Monkey Jr.</a> ($85)<br>
 <p>
-Tuesdays, 10:00--10:35 am<Br>
+Tuesdays, 10:00--10:35 am   <Br>
 (9/20, 9/27, 10/4, 10/11)
+<br> <font color="red">No spaces left!</font>
 </p>
 <p>
-Fridays, 11:00--11:35 am <br>
-(9/23, 9/30, 10/7, 10/14)</td>
+Fridays, 11:00--11:35 am  <br> 
+(9/23, 9/30, 10/7, 10/14)
+<br><font color="red">No spaces left!</font> 
+</td>
 </div>
 <div class="col-sm-4" align="center">
 <b>Lower Elementary</b>
@@ -31,10 +34,12 @@ Fridays, 11:00--11:35 am <br>
 <p>
 Saturdays, 10:00--10:45 am<br>
 (9/24, 10/1, 10/8, 10/15)
+<br><font color="red">No spaces left!</font>
 </p>
 <p>
 Sundays, 2:00--2:45 pm<br>
 (9/25, 10/2, 10/9, 10/16)
+<br><font color="red">2 spaces left!</font>
 </p>
 </div>
 </div>
@@ -46,10 +51,12 @@ Sundays, 2:00--2:45 pm<br>
 <p>
 Saturdays, noon--12:45 pm<br>
 (9/24, 10/1, 10/8, 10/15)
+<br><font color="red">2 spaces left!</font>
 </p>
 <p>
 Sundays, 4:00--4:45pm<br>
-(9/25, 10/2, 10/9, 10/16)<Br>
+(9/25, 10/2, 10/9, 10/16)<br>
+<font color="red">4 spaces left!</font>
 </div>
 <div class="col-sm-4" align="center">
 <b>Middle School</b><br>
@@ -57,10 +64,12 @@ Sundays, 4:00--4:45pm<br>
 <p>
 Saturdays, 11:00--11:45 am<br>
 (9/24, 10/1, 10/8, 10/15)
+<br><font color="red">4 spaces left!</font>
 </p>
 <p>
 Sundays, 3:00--3:45 pm<br>
 (9/25, 10/2, 10/9, 10/16)
+<br><font color="red">4 spaces left!</font>
 </div>
 </div>
 
