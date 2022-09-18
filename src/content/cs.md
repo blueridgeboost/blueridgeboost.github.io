@@ -18,6 +18,7 @@ Experienced software engineer and tutor provides individual instruction.
 
 1. Coding with Java, Python, C/C++, Prolog, Lisp, and Rust.
 1. Introduction to Programming
+1. Sodtware Engineering
 1. Data Structures and Algorithms
 1. Discrete Math
 1. Program and Data Representation
