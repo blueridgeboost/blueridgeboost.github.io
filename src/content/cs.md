@@ -12,7 +12,7 @@ keywords = ["coding tutor", "Python tutor", "Java tutor", "APCS", "APCSP", "AP C
 
 
 Experienced software engineer and tutor provides individual instruction. 
-<h5><a href="/cstutoring">Book a session now!</a></h5>
+<h3><a href="/cstutoring">Book a session now!</a></h3>
 
 #### Adults/College
 
