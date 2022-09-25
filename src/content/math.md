@@ -12,7 +12,7 @@ keywords = ["calculus tutor", "algebra tutor", "geometry tutor", "prealgebra", "
 <div class="col-sm-6">
 
 Experienced teacher provides individual instruction. 
-<h5><a href="/mathtutoring">Book a math session now!</a></h5>
+<h3><a href="/mathtutoring">Book a math session now!</a></h3>
 
 #### Adults/College
 

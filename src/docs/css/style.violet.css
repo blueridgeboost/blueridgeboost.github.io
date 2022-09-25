@@ -3675,3 +3675,58 @@ img.rounded-corners {
     box-shadow: 8px 8px 8px var(--navbar-border-top);
 }
 
+
+.yellownote {
+   margin-left: 50px;
+   margin-right: 60px;
+   background: #FAFAE6;
+   margin-bottom: 10px;
+   padding: 12px;
+   text-align: center;
+   font-weight: 800;
+   font-size: 18px;
+}
+
+.purplenote {
+   margin-left: 50px;
+   margin-right: 60px;
+   background: var(--primary-accent-strong);
+   color: var(--inverse-text);
+   text-align: center;
+   font-weight: 900;
+   margin-bottom: 10px;
+   padding: 12px;
+   font-size: 18px;
+}
+
+.purplenote a {
+    color: var(--emphasis-text);
+}
+
+.lightnote {
+   margin-left: 50px;
+   margin-right: 60px;
+   background: var(--primary-accent);
+   color: var(--inverse-text);
+   text-align: center;
+   font-weight: 500;
+   margin-bottom: 10px;
+   padding: 12px;
+   font-size: 18px;
+}
+
+.button {
+    background-color: var(--primary-accent-strong);
+    color: var(--inverse-text);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button a {
+    color: var(--emphasis-text);
+}
