@@ -1,5 +1,5 @@
 +++
-title = "Your Instructor: Ana Nora Evans"
+title = "Your Instructor: Nora Evans"
 description = "Experienced math and coding teacher and tutor"
 keywords = ["math tutor", "coding tutor", "AP Calculus tutor", "coding for kids", "AP Statistics tutor", "AP Stats tutor"]
 +++
@@ -22,7 +22,8 @@ keywords = ["math tutor", "coding tutor", "AP Calculus tutor", "coding for kids"
 #### Math Experience
 * [Master of Science - Mathematics](http://records.ureg.virginia.edu/preview_program.php?catoid=38&poid=4093) from the [University of Virginia](https://www.virginia.edu/)
 * [Master of Teaching - Mathematics](https://education.virginia.edu/academics/master-teaching-mathematics)
-<!-- * Calculus teacher at [Renaissance School](https://renaissanceschool.org/) -->
+* Algebra teacher at [Peabody School](https://peabodyschool.org/)
+* AMC8 and MathCounts coach
 * AP Summer Institute training in [AP Calculus AB/BC](APSI_certificate.pdf)
 * Calculus and Abstract Algebra in-person tutoring for over a year
 * internship at [Monticello High School](https://mohs.k12albemarle.org/) in Algebra 2, Precalculus, and Geometry 
