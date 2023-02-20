@@ -6,7 +6,11 @@
     <description>Recent content on Computer Science and AP Calculus Tutor Charlottesville</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Sep 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Free trial coding classes </title>
       <link>https://blueridgeboost.com/blog/2022/09/17/post4/</link>
@@ -100,6 +104,18 @@ Lesson 1. What is coding? Students learn that coding is giving precise instructi
     </item>
     
     <item>
+      <title>Class Request Form</title>
+      <link>https://blueridgeboost.com/form/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/form/</guid>
+      <description>Please submit this form or email nora@blueridgeboost.com for more information or to join a class. 
+ Your email: 
+  Your name:    Which type of class are you interested in? Select and age range Kindergarten - Second Grade Second - Fifth Grade Middle School     Any other information that would be helpful (including scheduling preferences):
+  Send</description>
+    </item>
+    
+    <item>
       <title>Coding and Computer Science Tutoring</title>
       <link>https://blueridgeboost.com/cs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -115,15 +131,16 @@ Book a session now! Adults/College  Coding with Java, Python, C/C++, Prolog, Lis
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/classes/</guid>
-      <description>Free trial classes every Saturday at 10 am and every Sunday at 4:30 pm. Sign up here!    
+      <description>Free trial classes every Saturday at 10 am and every Sunday at 4:30 pm. Sign up for a free trial class here!    
 Kindergarten &amp;ndash; Second Grade 
-Block coding
-Choose your own time!  Sign up   Lego WeDo coding
-Sundays 1 pm - 1:50 pm.
- Email   Scratch
-Sundays 2 pm - 2:50 pm.  Email   Second Grade - Fifth Grade
+Block Coding
+Times by request  Lego WeDo coding
+Sundays, 1:00 – 1:50 pm
+ Scratch
+Sundays, 2:00 &amp;ndash; 2:50 pm  Second &amp;ndash; Fifth Grade
 
-Coffee Script  Sign up   Coffee Script</description>
+Coffee Script  Sundays, 11:00 &amp;ndash; 11:50 am
+Sundays, 3:30 &amp;ndash; 4:30 pm</description>
     </item>
     
     <item>

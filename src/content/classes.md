@@ -11,7 +11,8 @@ description = "At Blue Ridge Boost, we teach the same fundamental coding concept
 
 <div class="col-md-9" align="left">
 <div class="	      purplenote">
-Free trial classes every Saturday at 10 am and every Sunday at 4:30 pm. <br> <a href="https://trialcodingclasses.youcanbook.me/">Sign up here!</a> <br>
+Free trial classes every Saturday at 10 am and every Sunday at 4:30 pm. <br>
+<a href="https://trialcodingclasses.youcanbook.me/">Sign up for a free trial class here!</a> <br>
 </div>
 
 </div>
@@ -24,54 +25,32 @@ Free trial classes every Saturday at 10 am and every Sunday at 4:30 pm. <br> <a 
 <div class="col-sm-3" align="center">
 <b>Kindergarten &ndash; Second Grade</b>
 <p></p>
-<a href="/k2#session1">Block coding</a><br>
-Choose your own time!
+<a href="/k2#session1"><b>Block Coding</b></a><br>
+Times by request
 <p>
-<div class="button">
-<a href="https://lowerelementary.youcanbook.me/">Sign up</a>
+
+<b>Lego WeDo coding</b><br>
+Sundays, 1:00 &ndash; 1:50 pm
+
+<p>
+<b>Scratch</b><br>
+Sundays, 2:00 &ndash; 2:50 pm
 
 </div>
 
-<p>
-
-Lego WeDo coding<br>
-Sundays 1 pm - 1:50 pm.
-
-<p>
-
-<div class="button">
-<a href="mailto:nora@blueridgeboost.com">Email</a>
-
-</div>
-
-<p>
-Scratch<br>
-Sundays 2 pm - 2:50 pm.
-<p>
-<div class="button">
-<a href="mailto:nora@blueridgeboost.com">Email</a>
-</div>
 
 
-</div>
 
 <div class="col-sm-3" align="center">
-<b>Second Grade - Fifth Grade</b><br>
+<b>Second &ndash; Fifth Grade</b><br>
 <p></p>
-<a href="/upper_elementary#session2">Coffee Script</a> 
+<a href="/upper_elementary#session2"><b>Coffee Script</b></a> 
 <p>
-<div class="button">
-<a href="https://upperelementary.youcanbook.me/">Sign up</a>
-</div>
+Sundays, 11:00 &ndash; 11:50 am<br>
+Sundays, 3:30 &ndash; 4:30 pm<br>
+Other times by request
+<p>
 
-<p>
-Coffee Script<br>
-Sundays 11 am - 11:50 am.<br>
-Sundays 3:30 pm - 4:30 pm.
-<p>
-<div class="button">
-<a href="mailto:nora@blueridgeboost.com">Email</a>
-</div>
 </p>
 
 
@@ -79,21 +58,11 @@ Sundays 3:30 pm - 4:30 pm.
 <div class="col-sm-3" align="center">
 <b>Middle School</b><br>
 <p></p>
-<a href="/python_ms#session1">Python</a>
-Choose your own time!
+<a href="/python_ms#session1"><b>Python</b></a></br>
+Saturdays, 2:30 &ndash; 3:20 pm<br>
+Sundays, 12:00 &mdash; 12:50 pm<br>
+Other times by request<br>
 <p>
-<div class="button">
-<a href="https://middleschoolpython.youcanbook.me/">Sign up</a>
-</div>
-
-<p>
-Python<br>
-Saturdays 2:30-3:20.<br>
-Sundays 12:00 pm - 12:50 pm.
-<p>
-<div class="button">
-<a href="mailto:nora@blueridgeboost.com">Email</a>
-</div>
 </p>
 
 
@@ -106,6 +75,12 @@ Sundays 12:00 pm - 12:50 pm.
 <div class="row">
 <div class="col-md-9" align="center">
 
+<p></p>
+
+
+<div class="button">
+Email <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a> or <a href="/form">submit this form</a> to join or request a class!
+</div>
 <p></p>
 
 <div class="lightnote">
