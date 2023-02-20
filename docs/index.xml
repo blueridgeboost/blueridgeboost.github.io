@@ -6,7 +6,11 @@
     <description>Recent content on Computer Science and AP Calculus Tutor Charlottesville</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Sep 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Free trial coding classes </title>
       <link>https://blueridgeboost.com/blog/2022/09/17/post4/</link>
@@ -100,6 +104,18 @@ Lesson 1. What is coding? Students learn that coding is giving precise instructi
     </item>
     
     <item>
+      <title>Class Request Form</title>
+      <link>https://blueridgeboost.com/form/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/form/</guid>
+      <description>Please submit this form or email nora@blueridgeboost.com for more information or to join a class. 
+ Your email: 
+  Your name:    Which type of class are you interested in? Select and age range Kindergarten - Second Grade Second - Fifth Grade Middle School     Any other information that would be helpful (including scheduling preferences):
+  Send</description>
+    </item>
+    
+    <item>
       <title>Coding and Computer Science Tutoring</title>
       <link>https://blueridgeboost.com/cs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -115,14 +131,16 @@ Book a session now! Adults/College  Coding with Java, Python, C/C++, Prolog, Lis
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/classes/</guid>
-      <description>Free trial classes every Sunday at 1 pm. Sign up now! Click on Sign up below for available time slots for each level.    
+      <description>Free trial classes every Saturday at 10 am and every Sunday at 4:30 pm. Sign up for a free trial class here!    
 Kindergarten &amp;ndash; Second Grade 
-Session 1 of Beaver Achiever
- Sign up   Upper Elementary
+Block Coding
+Times by request  Lego WeDo coding
+Sundays, 1:00 – 1:50 pm
+ Scratch
+Sundays, 2:00 &amp;ndash; 2:50 pm  Second &amp;ndash; Fifth Grade
 
-Session 1 of Coding Adventure  Sign up   Middle School
-
-Session 1 of Banana Tales  Sign up</description>
+Coffee Script  Sundays, 11:00 &amp;ndash; 11:50 am
+Sundays, 3:30 &amp;ndash; 4:30 pm</description>
     </item>
     
     <item>
@@ -271,12 +289,12 @@ Lessons 1 and 2. Basic coding Students learn that coding is giving precise instr
     </item>
     
     <item>
-      <title>Your Instructor: Ana Nora Evans</title>
+      <title>Your Instructor: Nora Evans</title>
       <link>https://blueridgeboost.com/instructor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/instructor/</guid>
-      <description>--   Math Experience  Master of Science - Mathematics from the University of Virginia Master of Teaching - Mathematics   AP Summer Institute training in AP Calculus AB/BC Calculus and Abstract Algebra in-person tutoring for over a year internship at Monticello High School in Algebra 2, Precalculus, and Geometry co-founder and organizer of Cville Math Circle for preschool and elementary school age girls teaching assistant for graduate-level courses Financial Mathematics instructor at the University of Virginia  Computer Science and Coding Experience  Master in Computer Science co-author of several research articles several year of industry experience over a year of online tutoring on Wyzant in C, C++, Java, Python, List and Prolog.</description>
+      <description>--   Math Experience  Master of Science - Mathematics from the University of Virginia Master of Teaching - Mathematics Algebra teacher at Peabody School AMC8 and MathCounts coach AP Summer Institute training in AP Calculus AB/BC Calculus and Abstract Algebra in-person tutoring for over a year internship at Monticello High School in Algebra 2, Precalculus, and Geometry co-founder and organizer of Cville Math Circle for preschool and elementary school age girls teaching assistant for graduate-level courses Financial Mathematics instructor at the University of Virginia  Computer Science and Coding Experience  Master in Computer Science co-author of several research articles several year of industry experience over a year of online tutoring on Wyzant in C, C++, Java, Python, List and Prolog.</description>
     </item>
     
   </channel>

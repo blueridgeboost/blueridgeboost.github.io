@@ -3,8 +3,6 @@ title = "Coding Classes in Charlottesville"
 heading = "Coding Group Classes"
 description = "At Blue Ridge Boost, we teach the same fundamental coding concepts to students of all ages. Find out more about our in-person coding classes!"
 +++
-
-
  
 
 <div class="container">
@@ -13,49 +11,61 @@ description = "At Blue Ridge Boost, we teach the same fundamental coding concept
 
 <div class="col-md-9" align="left">
 <div class="	      purplenote">
-Free trial classes every Sunday at 1 pm. <a href="https://trialcodingclasses.youcanbook.me/">Sign up now!</a> <br>
-Click on <i>Sign up</i> below for available time slots for each level.
+Free trial classes every Saturday at 10 am and every Sunday at 4:30 pm. <br>
+<a href="https://trialcodingclasses.youcanbook.me/">Sign up for a free trial class here!</a> <br>
 </div>
 
 </div>
 </div>
 
 <p></p>
-
 
 
 <div class="row">
 <div class="col-sm-3" align="center">
 <b>Kindergarten &ndash; Second Grade</b>
 <p></p>
-<a href="/k2#session1">Session 1 of Beaver Achiever</a><br>
+<a href="/k2#session1"><b>Block Coding</b></a><br>
+Times by request
 <p>
 
-<div class="button">
-<a href="https://lowerelementary.youcanbook.me/">Sign up</a>
+<b>Lego WeDo coding</b><br>
+Sundays, 1:00 &ndash; 1:50 pm
+
+<p>
+<b>Scratch</b><br>
+Sundays, 2:00 &ndash; 2:50 pm
 
 </div>
 
-</div>
+
+
 
 <div class="col-sm-3" align="center">
-<b>Upper Elementary</b><br>
+<b>Second &ndash; Fifth Grade</b><br>
 <p></p>
-<a href="/upper_elementary#session2">Session 1 of Coding Adventure</a> 
+<a href="/upper_elementary#session2"><b>Coffee Script</b></a> 
 <p>
-<div class="button">
-<a href="https://upperelementary.youcanbook.me/">Sign up</a>
-</div>
+Sundays, 11:00 &ndash; 11:50 am<br>
+Sundays, 3:30 &ndash; 4:30 pm<br>
+Other times by request
+<p>
+
 </p>
+
+
 </div>
 <div class="col-sm-3" align="center">
 <b>Middle School</b><br>
 <p></p>
-<a href="/python_ms#session1">Session 1 of Banana Tales</a>
+<a href="/python_ms#session1"><b>Python</b></a></br>
+Saturdays, 2:30 &ndash; 3:20 pm<br>
+Sundays, 12:00 &mdash; 12:50 pm<br>
+Other times by request<br>
 <p>
-<div class="button">
-<a href="https://middleschoolpython.youcanbook.me/">Sign up</a>
-</div>
+</p>
+
+
 </div>
 </div>
 
@@ -65,6 +75,12 @@ Click on <i>Sign up</i> below for available time slots for each level.
 <div class="row">
 <div class="col-md-9" align="center">
 
+<p></p>
+
+
+<div class="button">
+Email <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a> or <a href="/form">submit this form</a> to join or request a class!
+</div>
 <p></p>
 
 <div class="lightnote">
