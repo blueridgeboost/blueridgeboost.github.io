@@ -34,8 +34,8 @@ Choose your own time!
 
 <p>
 
-Program robots using Scratch<br>
-Saturdays 12 pm - 12:50 pm.
+Lego WeDo coding<br>
+Sundays 1 pm - 1:50 pm.
 
 <p>
 
