@@ -14,7 +14,24 @@ keywords = ["calculus tutor", "algebra tutor", "geometry tutor", "prealgebra", "
 Experienced teacher provides individual instruction. 
 <h3><a href="/mathtutoring">Book a math session now!</a></h3>
 
-#### Adults/College
+#### High School
+
+1. Algebra 2
+1. Trigonometry
+1. Math Analysis (Precalculus)
+1. AP Calculus AB
+1. AP Calculus BC
+1. Math for SAT/ACT
+
+#### Middle School
+
+1. Integrated Math
+1. Algebra 1
+1. Geometry
+
+
+
+#### College
 
 1. Financial Mathematics
 1. Calculus
@@ -23,17 +40,6 @@ Experienced teacher provides individual instruction.
 1. Abstract Algebra
 1. General Topology
 
-
-#### High School
-
-1. Algebra 
-1. Geometry
-1. Trigonometry
-1. Math Analysis
-1. AP Calculus AB
-1. AP Calculus BC
-1. AP Statistics
-1. Math for SAT/ACT 
 
 #### Children
 
