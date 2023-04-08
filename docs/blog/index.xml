@@ -2,51 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Computer Science and AP Calculus Tutor Charlottesville</title>
-    <link>https://blueridgeboost.com/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blogs on Computer Science and AP Calculus Tutor Charlottesville</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blueridgeboost.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Free trial coding classes </title>
-      <link>https://blueridgeboost.com/blog/2022/09/17/post4/</link>
+      <link>http://localhost:1313/blog/2022/09/17/post4/</link>
       <pubDate>Sat, 17 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blueridgeboost.com/blog/2022/09/17/post4/</guid>
+      <guid>http://localhost:1313/blog/2022/09/17/post4/</guid>
       <description>Open house every Sunday at 1pm!
 Come in to see the space and meet the instructor!
-Bring in your child for demo sessions.
-  </description>
+Bring in your child for demo sessions.</description>
     </item>
     
     <item>
       <title>New Location in Downtown Charlottesville</title>
-      <link>https://blueridgeboost.com/blog/2022/09/05/post3/</link>
+      <link>http://localhost:1313/blog/2022/09/05/post3/</link>
       <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blueridgeboost.com/blog/2022/09/05/post3/</guid>
-      <description>The new office is ready for students!
-      </description>
+      <guid>http://localhost:1313/blog/2022/09/05/post3/</guid>
+      <description>The new office is ready for students!</description>
     </item>
     
     <item>
       <title>New Location in Downtown Charlottesville</title>
-      <link>https://blueridgeboost.com/blog/2022/08/29/post2/</link>
+      <link>http://localhost:1313/blog/2022/08/29/post2/</link>
       <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blueridgeboost.com/blog/2022/08/29/post2/</guid>
+      <guid>http://localhost:1313/blog/2022/08/29/post2/</guid>
       <description>Starting in September, Blue Ridge Boost is located at 222 Court Square, Charlottesville.
 To reach us, please walk around to the back of the building. Walk up the stairs to the secong floor and enter through the door on your left.
-The closest paid parking is the Market Street Garage. Free 2-hour parking is available throughout the Downtown area.
-      </description>
+The closest paid parking is the Market Street Garage. Free 2-hour parking is available throughout the Downtown area.</description>
     </item>
     
     <item>
       <title>Fall Classes</title>
-      <link>https://blueridgeboost.com/blog/2022/08/15/post1/</link>
+      <link>http://localhost:1313/blog/2022/08/15/post1/</link>
       <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blueridgeboost.com/blog/2022/08/15/post1/</guid>
+      <guid>http://localhost:1313/blog/2022/08/15/post1/</guid>
       <description>Fall classes coming soon!</description>
     </item>
     

@@ -1,7 +1,7 @@
 +++
 title = "Preschool Coding Classes in Charlottesville"
 heading = "Coding Group Classes for Preschools"
-description = "At Blue Ridge Boost, we teach the coding to preschoolers using an attractive graphical interface. Find out more about our in-person coding classes!"
+description = "At Blue Ridge Boost, we teach coding to preschoolers using an attractive graphical interface. Find out more about our in-person coding classes!"
 +++
 
 
@@ -13,7 +13,7 @@ description = "At Blue Ridge Boost, we teach the coding to preschoolers using an
 
 <div class="col-sm-10">
 
-Students learn fundamental coding concepts by helping a [monkey collect bananas](https://www.codemonkey.com/courses/codemonkey-jr) on instructor-provided chromebooks. 
+Students learn fundamental coding concepts by helping a [monkey collect bananas](https://www.codemonkey.com/courses/codemonkey-jr) on instructor-provided Chromebooks. 
 
 
 **Maximum class size**: 4 students.
@@ -39,7 +39,7 @@ Students learn fundamental coding concepts by helping a [monkey collect bananas]
 
 #### Session 1. Sequencing
 
-Students build a foundation in coding and problem solving.<br>
+Students build a foundation in coding and problem-solving.<br>
 
 **Lesson 1.** What is coding? <br>
 Students learn that coding is giving precise instructions to a computer. Each student creates their first program – a dance routine for the class to follow!
@@ -51,7 +51,7 @@ Introduces the coding platform Code Monkey. Students do their first coding exerc
 Students learn two new commands and how to code using advanced planning. 
 
 **Lesson 4.** Increasingly complex programs <br>
-Students learn one more command, jump up, and use the commands they know to solve increasingly complex problems. 
+Students learn one more command, jump, and use the commands they know to solve increasingly complex problems. 
 
 </div>
 <div class="col-sm-4 left">
@@ -84,7 +84,7 @@ Students learn one more command, jump up, and use the commands they know to solv
 Students learn loops, a fundamental coding concept.<br>
 
 **Lesson 1.** Efficient programs<br>
-Students learn that a problem may have multiple solutions and to judge which one is more efficient.
+Students learn that a problem may have multiple solutions and judge which one is more efficient.
 
 **Lesson 2.** Programming repetition <br>
 Students learn to write concise code using loops. 

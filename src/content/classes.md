@@ -10,7 +10,7 @@ description = "At Blue Ridge Boost, we teach the same fundamental coding concept
 <div class="row">
 
 <div class="col-md-9" align="left">
-<div class="	      purplenote">
+<div class="purplenote">
 Free trial classes every Saturday at 10 am and every Sunday at 4:30 pm. <br>
 <a href="https://trialcodingclasses.youcanbook.me/">Sign up for a free trial class here!</a> <br>
 </div>

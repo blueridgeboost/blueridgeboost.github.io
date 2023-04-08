@@ -26,23 +26,23 @@ unsafe= true
 
 # Main menu
 
-[[menu.main]]
-    name       = "Tutoring"
-    identifier = "menu.individual"
-    url        = ""
-    weight     = 1
+# [[menu.main]]
+#     name       = "Tutoring"
+#     identifier = "menu.individual"
+#     url        = ""
+#     weight     = 1
 
-[[menu.main]]
-    name       = "Math"
-    url        = "/math"
-    weight     = 1
-    parent     = "menu.individual"
+# [[menu.main]]
+#     name       = "Math"
+#     url        = "/math"
+#     weight     = 1
+#     parent     = "menu.individual"
     
-[[menu.main]]
-    name       = "Coding"
-    url        = "/cs"
-    weight     = 2
-    parent     = "menu.individual"
+# [[menu.main]]
+#     name       = "Coding"
+#     url        = "/cs"
+#     weight     = 2
+#     parent     = "menu.individual"
 
 [[menu.main]]
     name        = "Book now!"
@@ -71,7 +71,7 @@ unsafe= true
 
 
 [[menu.main]]
-    name       = "Classes"
+    name       = "Coding Classes"
     identifier = "menu.classes"
     url        = "/classes"
     weight     = 2
@@ -104,17 +104,17 @@ unsafe= true
 
 # Top bar social links menu
 
-[[menu.topbar]]
-    weight = 3
-    name = "Facebook"
-    url = "https://facebook.com/blueridgeboost"
-    pre = "<i class='fab fa-2x fa-facebook'></i>"
+# [[menu.topbar]]
+#     weight = 3
+#     name = "Facebook"
+#     url = "https://facebook.com/blueridgeboost"
+#     pre = "<i class='fab fa-2x fa-facebook'></i>"
 
-[[menu.topbar]]
-    weight = 5
-    name = "Email"
-    url = "mailto:nora@blueridgeboost.com"
-    pre = "<i class='fas fa-2x fa-envelope'></i>"
+# [[menu.topbar]]
+#     weight = 5
+#     name = "Email"
+#     url = "mailto:nora@blueridgeboost.com"
+#     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"

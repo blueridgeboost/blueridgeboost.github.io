@@ -27,7 +27,7 @@ keywords = ["math tutor", "coding tutor", "AP Calculus tutor", "coding for kids"
 * AP Summer Institute training in [AP Calculus AB/BC](APSI_certificate.pdf)
 * Calculus and Abstract Algebra in-person tutoring for over a year
 * internship at [Monticello High School](https://mohs.k12albemarle.org/) in Algebra 2, Precalculus, and Geometry 
-* co-founder and organizer of [Cville Math Circle](https://cvillemathcircle.org/) for preschool and elementary school age girls
+* co-founder and organizer of [Cville Math Circle](https://cvillemathcircle.org/) for preschool and elementary school-age girls
 * teaching assistant for graduate-level courses 
 * Financial Mathematics instructor at the University of Virginia
 
@@ -35,7 +35,7 @@ keywords = ["math tutor", "coding tutor", "AP Calculus tutor", "coding for kids"
 
 * [Master in Computer Science](https://engineering.virginia.edu/departments/computer-science/cs-graduate-program#accordion403360)
 * [co-author](https://scholar.google.com/citations?user=BTsjtmgAAAAJ&hl=en&oi=ao) of several research articles
-* several year of industry experience
+* several years of industry experience
 * over a year of online tutoring on [Wyzant](https://www.wyzant.com/Tutors/VA/Charlottesville/9957760/) in C, C++, Java, Python, List and Prolog.
 * teaching assistant at the University of Virginia 
 * [First Lego League](https://www.firstinspires.org/robotics/fll/what-is-first-lego-league) team lead and coach 

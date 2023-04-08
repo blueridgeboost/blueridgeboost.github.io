@@ -10,7 +10,7 @@ description = "At Blue Ridge Boost, we teach the same fundamental coding concept
 
 <div class="col-sm-10 left">
 
-Students learn fundamental coding concepts using Coffee Script, a beginner friendly text-based coding language. The young coders use an attractive graphical interface to generate text by pressing buttons  on instructor-provided chromebooks. Some previous experience typing is helpful, but not necessary. 
+Students learn fundamental coding concepts using Coffee Script, a beginner-friendly text-based coding language. The young coders use an attractive graphical interface to generate text by pressing buttons on instructor-provided Chromebooks. Some previous experience typing is helpful, but not necessary. 
 
 **Maximum class size**: 6 students.
 
@@ -34,7 +34,7 @@ Students learn fundamental coding concepts using Coffee Script, a beginner frien
 Students learn sequential execution, objects and properties.<br>
 
 **Lessons 1 and 2.** Basic coding <br>
-Students learn that coding is giving precise instructions to a computer. Students learn the concept of object and learn that each object can perform several actions.
+Students learn that coding is giving precise instructions to a computer. Students learn the concept of objects and learn that objects can perform several actions.
 
 **Lessons 3 and 4.** Planning <br>
 Students learn to use advanced planning to create efficient programs.

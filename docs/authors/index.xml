@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Computer Science and AP Calculus Tutor Charlottesville</title>
-    <link>https://blueridgeboost.com/authors/</link>
+    <link>http://localhost:1313/authors/</link>
     <description>Recent content in Authors on Computer Science and AP Calculus Tutor Charlottesville</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blueridgeboost.com/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nora Evans</title>
-      <link>https://blueridgeboost.com/authors/nora-evans/</link>
+      <link>http://localhost:1313/authors/nora-evans/</link>
       <pubDate>Sat, 17 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blueridgeboost.com/authors/nora-evans/</guid>
+      <guid>http://localhost:1313/authors/nora-evans/</guid>
       <description></description>
     </item>
     

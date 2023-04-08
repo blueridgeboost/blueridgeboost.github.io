@@ -2,97 +2,117 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blueridgeboost.com/authors/</loc>
+    <loc>http://localhost:1313/authors/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/categories/classes/</loc>
+    <loc>http://localhost:1313/categories/classes/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/blog/2022/09/17/post4/</loc>
+    <loc>http://localhost:1313/blog/2022/09/17/post4/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/authors/nora-evans/</loc>
+    <loc>http://localhost:1313/authors/nora-evans/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/tags/trial-classes/</loc>
+    <loc>http://localhost:1313/tags/trial-classes/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/tags/classes/</loc>
+    <loc>http://localhost:1313/tags/classes/</loc>
     <lastmod>2022-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/tags/coding/</loc>
+    <loc>http://localhost:1313/tags/coding/</loc>
     <lastmod>2022-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/categories/location/</loc>
+    <loc>http://localhost:1313/categories/location/</loc>
     <lastmod>2022-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/blog/2022/09/05/post3/</loc>
+    <loc>http://localhost:1313/blog/2022/09/05/post3/</loc>
     <lastmod>2022-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/tags/programming/</loc>
+    <loc>http://localhost:1313/tags/programming/</loc>
     <lastmod>2022-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/blog/2022/08/29/post2/</loc>
+    <loc>http://localhost:1313/blog/2022/08/29/post2/</loc>
     <lastmod>2022-08-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/categories/coding/</loc>
+    <loc>http://localhost:1313/categories/coding/</loc>
     <lastmod>2022-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/blog/2022/08/15/post1/</loc>
+    <loc>http://localhost:1313/blog/2022/08/15/post1/</loc>
     <lastmod>2022-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/kids/</loc>
+    <loc>http://localhost:1313/algebra1/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/afternoonwintercamp/</loc>
+    <loc>http://localhost:1313/algebra2/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/authors/</loc>
+    <loc>http://localhost:1313/amc/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/k2/</loc>
+    <loc>http://localhost:1313/calc/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/form/</loc>
+    <loc>http://localhost:1313/stats/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/cs/</loc>
+    <loc>http://localhost:1313/authors/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/classes/</loc>
+    <loc>http://localhost:1313/k2/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/upper_elementary/</loc>
+    <loc>http://localhost:1313/form/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/hs/</loc>
+    <loc>http://localhost:1313/classes/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/adults/</loc>
+    <loc>http://localhost:1313/upper_elementary/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/cstutoring/</loc>
+    <loc>http://localhost:1313/moems/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/contact/</loc>
+    <loc>http://localhost:1313/cstutoring/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/faq/</loc>
+    <loc>http://localhost:1313/csadults/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/schedule/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/mathtutoring/</loc>
+    <loc>http://localhost:1313/faq/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/math/</loc>
+    <loc>http://localhost:1313/geometry/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/morningwintercamp/</loc>
+    <loc>http://localhost:1313/spike/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/past_classes/</loc>
+    <loc>http://localhost:1313/wedo/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/preschool/</loc>
+    <loc>http://localhost:1313/mathtutoring/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/python_ms/</loc>
+    <loc>http://localhost:1313/math/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/instructor/</loc>
+    <loc>http://localhost:1313/elementary/</loc>
+  </url><url>
+    <loc>http://localhost:1313/mathadults/</loc>
+  </url><url>
+    <loc>http://localhost:1313/msmath/</loc>
+  </url><url>
+    <loc>http://localhost:1313/precalc/</loc>
+  </url><url>
+    <loc>http://localhost:1313/apcs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/apcsp/</loc>
+  </url><url>
+    <loc>http://localhost:1313/usaco/</loc>
+  </url><url>
+    <loc>http://localhost:1313/preschool/</loc>
+  </url><url>
+    <loc>http://localhost:1313/python_ms/</loc>
+  </url><url>
+    <loc>http://localhost:1313/scratch/</loc>
+  </url><url>
+    <loc>http://localhost:1313/instructor/</loc>
   </url>
 </urlset>
