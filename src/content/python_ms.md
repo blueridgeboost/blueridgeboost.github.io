@@ -10,7 +10,7 @@ description = "At Blue Ridge Boost, we teach the same fundamental coding concept
 
 <div class="col-sm-10 left">
 
-Students learn to code instructor-provided chromebooks using Python, a widely used programming language in academia and industry. Previous experience with computer typing is recommended.
+Students learn to code instructor-provided Chromebooks using Python, a widely used programming language in academia and industry. Previous experience with computer typing is recommended.
 
 **Maximum class size**: 6 students.
 
@@ -34,7 +34,7 @@ Students learn to code instructor-provided chromebooks using Python, a widely us
 In the first 4-week session students learn objects and properties, lists and indexing.<br>
 
 **Lessons 1 and 2.** Basic coding <br>
-Students learn that coding is giving precise instructions to a computer. Students learn the concept of object and learn that each object can perform several actions.
+Students learn that coding is giving precise instructions to a computer. Students learn the concept of objects and learn that objects can perform several actions.
 
 
 **Lessons 3 and 4.** Lists <br>

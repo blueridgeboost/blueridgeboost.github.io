@@ -1,5 +1,5 @@
 baseurl = "https://blueridgeboost.com"
-title = "Computer Science and AP Calculus Tutor Charlottesville"
+title = "Coding and Math Classes in Charlottesville! Prep for AP Computer Science and AP Calculus!"
 theme = "brb"
 languageCode = "en-us"
 
@@ -27,23 +27,24 @@ unsafe= true
 # Main menu
 
 [[menu.main]]
-    name       = "Tutoring"
-    identifier = "menu.individual"
-    url        = ""
+    name       = "Ongoing Classes"
+    identifier = "menu.classes"
+    url        = "/classes"
     weight     = 1
+
+
+[[menu.main]]
+    name       = "Coding"
+    identifier = "menu.coding"
+    url        = "/coding"
+    weight     = 2
 
 [[menu.main]]
     name       = "Math"
     url        = "/math"
-    weight     = 1
-    parent     = "menu.individual"
-    
-[[menu.main]]
-    name       = "Coding"
-    url        = "/cs"
     weight     = 2
-    parent     = "menu.individual"
-
+    identifier = "menu.math"
+    
 [[menu.main]]
     name        = "Book now!"
     identifier  = "menu.book"
@@ -58,7 +59,7 @@ unsafe= true
 
 
 [[menu.main]]
-    name       = "Computer Science Tutor"
+    name       = "Coding Tutor"
     url        = "/cstutoring"
     weight     = 2
     parent     = "menu.book"
@@ -71,23 +72,10 @@ unsafe= true
 
 
 [[menu.main]]
-    name       = "Classes"
-    identifier = "menu.classes"
-    url        = "/classes"
-    weight     = 2
-
-[[menu.main]]
     name       = "Instructor"
     identifier = "menu.instructor"
     url        = "/instructor"
     weight     = 7
-
-
-# [[menu.main]]
-#     name       = "Schedule"
-#     identifier = "menu.schedule"
-#     url        = "/schedule"
-#     weight     = 7    
 
 [[menu.main]]
     name       = "Blog"
@@ -122,7 +110,7 @@ unsafe= true
     defaultKeywords = ["math", "computer science"]
     mainSections = ["blog"]
     defaultDescription = "Learn coding with block languages, Python programming, AP computer science, AP Calculus, Algebra and more!"
-    defaultTwiterDescription = "Math and Computing Classes and Tutoring in Charlottesville" 
+    defaultTwiterDescription = "Math and Coding Classes and Tutoring in Charlottesville" 
 
     # Social media
     ## twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
@@ -187,7 +175,12 @@ unsafe= true
       
     # bookclass = "<a href="https://blueridgeboost.youcanbook.me/">Book  classes </a>"
     # calendar = "<a href="https://calendar.google.com/calendar/embed?src=c_qq9r0u5tfder0q6pg5063s1vto%40group.calendar.google.com&ctz=America%2FNew_York">Group Classes and Availability</a>"
+    enableGoogleMaps = true
+    googleMapsApiKey = "AIzaSyBL2kqnS9y3MQCq396JSgk7FHGEMmiu6sM"
 
+    latitude = "36.5251359"
+    longitude = "-90.9888306"
+    direction = "222 Court Square, Charlottesville, VA 22902"
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -195,7 +188,7 @@ unsafe= true
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p><b><font size="+1"><a href="/classes/">Classes enrolling now!</a></font></b>  </p>
+    text = """<p><b><font size="+1">Math review sessions start in August! </font></b>  </p>
       """
 
 # Enable and disable widgets for the right sidebar
@@ -220,7 +213,7 @@ unsafe= true
     # All carousel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
     # For more informtion take a look at the README.
-    enable = false
+    enable = true
     auto_play = true
     slide_speed = 2000
     pagination_speed = 1000

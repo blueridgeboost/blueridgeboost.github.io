@@ -1,9 +1,10 @@
-weight: 3
+weight: 5
 title: "Making Math Maestros"
 description: >
   <ul class="list-style-none">
-    <li>Group Enrichment Classes</li>
-    <li>Individual Tutoring</li>
-    <li>from middle school Algebra</li>
-    <li>to upper-level college math</li>
+    <li>From elementary school to upper-level college math</li>
+    <li>AP Calculus and AP Stats prep</li>
+    <li>Individualized study program</li>
+    <li>Experienced instructor and high-quality materials</li>
   </ul>
+image: "images/carousel/mathpuzzle.jpg"

@@ -1,62 +1,53 @@
 +++
-title = "Math Tutoring"
-description = "Individual sessions with experienced tutor!"
-keywords = ["calculus tutor", "algebra tutor", "geometry tutor", "prealgebra", "precalculus"]
+title = "Individualized Math Tutoring"
+header = "Math lessons in Charlottesville!"
+description = "Math Lessons and Tutoring" 
+keywords = ["AP Calculus", "Algebra", "Geometry",  "Singapore Math", "Math analysis", "precalc", "precalculus", "AP Stats" ]
 +++
 
+<div class="text-large">
 
-<div class="container">
+  <div class="row">
+     
+  <div class="col-sm-4 right">
+  <h3>Elementary (K-5)</h3>
+      <!-- <div class="hanging">Math Counts</div> -->
+      <div class="hanging"><a href="/elementary">Elementary Math</a></div>
+      <div class="hanging"><a href="/moems">Math Olympiad</a></div>
+      </div>
+  <div class="col-sm-4 right">
+<h3>Middle School (5-8th grade)</h3>
+<div class="hanging"><a href="/msmath">Middle School Math</a></div>
+<div class="hanging"><a href="/algebra1">Algebra 1</a></div>    
+      <div class="hanging"><a href="/geometry">Geometry</a></div>
+      <div class="hanging"><a href="/amc">AMC 8/10/12</a></div>
+    </div>
+    </div>
 
-<div class="row">
+  <div class="spacer">
+      <hr align="left" class="frontspacer"></hr>
+  </div>
+  <div class="row">
 
-<div class="col-sm-6">
-
-Experienced teacher provides individual instruction. 
-<h3><a href="/mathtutoring">Book a math session now!</a></h3>
-
-#### Adults/College
-
-1. Financial Mathematics
-1. Calculus
-1. Transition to Higher Mathematics
-1. Real Analysis
-1. Abstract Algebra
-1. General Topology
-
-
-#### High School
-
-1. Algebra 
-1. Geometry
-1. Trigonometry
-1. Math Analysis
-1. AP Calculus AB
-1. AP Calculus BC
-1. AP Statistics
-1. Math for SAT/ACT 
-
-#### Children
-
-At Blue Ridge Boost, we teach problem solving skills, rather than drill and memorization. For younger students, we offer math circle type classes, in which students solve challenging problems in groups.
-
-We also teach pre-algebra, algebra, and geometry using the [Art of Problem Solving](https://artofproblemsolving.com/) textbooks, 
-supplemented with
-interactive [Desmos](https://www.desmos.com/) activities to build a visual intuition, feedback on written
-solution to learn mathematical writing, and group work on performance
-tasks where the students apply the material learned in a novel
-situation.
-
-</div>
-
-<div class="col-sm-6">
-
-<center>
-<a href="/images/fractions.jpg"><img alt="Math Lessons" src="/images/fractions-small.jpg" width="90%" style="padding:20px;"></a>
-</center>
+  <div class="col-sm-4 right">
+      <h3>High School</h3>
+      <div class="hanging"><a href="/algebra2">Algebra 2</a></div>
+<div class="hanging"><a href="/precalc">Pre-calculus</a></div>
+      <div class="hanging"><a href="/calc">Prep for AP Calculus AB and BC</a></div>
+      <div class="hanging"><a href="/stats">Prep for AP Statistics</a></div>
+  </div>
+  <div class="col-sm-4 right">
+  <h3>College</h3>
+          <div class="hanging">Calculus</div>
+          <div class="hanging">Abstract Algebra</div>
+          <div class="hanging">Real Analysis</div>
+          <div class="hanging">General Topology</div>
+	</div>
+		</div>
+		</div>
 
 
-<center>
-<a href="/images/mathtoys.jpg"><img alt="Learning with blocks" src="/images/mathtoys-small.jpg" width="90%" style="padding:20px;"></a>
-</center>
+  <div class="spacer">
+      <hr align="left" class="frontspacer"></hr>
+  </div>
 
-</div></div></div>
