@@ -3,7 +3,7 @@ title = "New Location in Downtown Charlottesville"
 tags = ["classes", "programming", "coding"]
 categories = ["location"]
 authors = ["Nora Evans"]
-banner="/images/front-office.jpg"
+banner="/images/frontentrance.jpg"
 date="2022-08-29"
 +++
 

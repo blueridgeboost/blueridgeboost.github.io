@@ -2,17 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>coding on Coding and Math Classes in Charlottesville! Prep for AP Computer Science and AP Calculus!</title>
-    <link>http://localhost:1313/categories/coding/</link>
+    <link>https://blueridgeboost.com/categories/coding/</link>
     <description>Recent content in coding on Coding and Math Classes in Charlottesville! Prep for AP Computer Science and AP Calculus!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Aug 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blueridgeboost.com/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Fall Classes</title>
-      <link>http://localhost:1313/blog/2022/08/15/post1/</link>
+      <link>https://blueridgeboost.com/blog/2022/08/15/post1/</link>
       <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2022/08/15/post1/</guid>
+      <guid>https://blueridgeboost.com/blog/2022/08/15/post1/</guid>
       <description>Fall classes coming soon!</description>
     </item>
     
