@@ -71,6 +71,8 @@
   </url><url>
     <loc>http://localhost:1313/classes/</loc>
   </url><url>
+    <loc>http://localhost:1313/coding/</loc>
+  </url><url>
     <loc>http://localhost:1313/upper_elementary/</loc>
   </url><url>
     <loc>http://localhost:1313/moems/</loc>
@@ -85,13 +87,13 @@
   </url><url>
     <loc>http://localhost:1313/geometry/</loc>
   </url><url>
+    <loc>http://localhost:1313/math/</loc>
+  </url><url>
     <loc>http://localhost:1313/spike/</loc>
   </url><url>
     <loc>http://localhost:1313/wedo/</loc>
   </url><url>
     <loc>http://localhost:1313/mathtutoring/</loc>
-  </url><url>
-    <loc>http://localhost:1313/math/</loc>
   </url><url>
     <loc>http://localhost:1313/elementary/</loc>
   </url><url>
