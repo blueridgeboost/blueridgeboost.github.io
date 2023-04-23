@@ -1,6 +1,6 @@
 /* Themed colors */
 :root {
-  --primary-accent: #467fbf;
+  --primary-accent: #8FCAE7;
   --navbar-border-top: #294d76;
   --button-border: #336194;
   --link-focus: #2f5a89;
@@ -9,6 +9,17 @@
   --link-hover-bg: #36669c;
   --navbar-focus: #92b3d9;
 }
+
+/*  :root { */
+/*   --primary-accent: #467fbf; */
+/*   --navbar-border-top: #294d76; */
+/*   --button-border: #336194; */
+/*   --link-focus: #2f5a89; */
+/*   --form-shadow: rgba(70, 127, 191, 0.6); */
+/*   --pagination-bg: #b8cee6; */
+/*   --link-hover-bg: #36669c; */
+/*   --navbar-focus: #92b3d9; */
+/* } */
 
 .clearfix:before,
 .clearfix:after,
@@ -243,8 +254,8 @@ ul.list-style-none {
   }
 }
 #top {
-  background: #555555;
-  color: #eeeeee;
+  background: #005172;
+  color: #BED6DB
   padding: 10px 0;
 }
 #top p {
@@ -256,7 +267,7 @@ ul.list-style-none {
   text-align: right;
 }
 #top .social a {
-  color: #999999;
+    color: #8fcae7;
   display: inline-block;
   width: 24px;
   height: 24px;
@@ -1182,10 +1193,10 @@ fieldset[disabled] .btn-template-primary.active {
   background: #666;
 }
 .home-carousel .owl-theme .owl-controls .owl-page.active span {
-  background: #fff;
+  background: #003359
 }
 .home-carousel .owl-theme .owl-controls .owl-page:hover span {
-  background: #fff;
+    background: #003359;
 }
 @media (max-width: 767px) {
   .home-carousel {
@@ -1202,7 +1213,7 @@ fieldset[disabled] .btn-template-primary.active {
 .home-carousel h3,
 .home-carousel p,
 .home-carousel ul {
-  color: #fff;
+    color: #003359;
 }
 .home-carousel h1 {
   font-weight: 700;
@@ -3088,7 +3099,7 @@ fieldset[disabled] .btn-template-primary.active {
   color: #777777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #555555;
+  color: #003359;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -3172,7 +3183,7 @@ body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555555;
+  color: #bed6db;
 }
 a {
   color: var(--primary-accent);
@@ -3383,7 +3394,7 @@ h6,
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 900;
   line-height: 1.1;
-  color: #333333;
+  color: #003359;
 }
 h1,
 .h1,

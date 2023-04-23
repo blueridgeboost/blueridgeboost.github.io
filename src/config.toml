@@ -117,7 +117,7 @@ unsafe= true
     ## default_sharing_image = "img/sharing-default.png"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "violet"
+    style = "blue"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
