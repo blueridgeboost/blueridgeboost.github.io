@@ -5,4 +5,5 @@ description = "At Blue Ridge Boost, we teach kids math, problem-solving skills, 
 keywords = ["Lego", "Wedo", "robotics",  "coding for children", ]
 +++
 
-Coming soon!
+The course is split in four-week sessions. In each lesson we build and code a design model. Students learn to build logo robots that move and sense and code their behavior.
+

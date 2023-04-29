@@ -27,46 +27,51 @@ unsafe= true
 # Main menu
 
 [[menu.main]]
-    name       = "Ongoing Classes"
-    identifier = "menu.classes"
-    url        = "/classes"
+    name       = "Vision"
+    identifier = "menu.vision"
+    url        = "/vision/"
     weight     = 1
 
+[[menu.main]]
+    name       = "Ongoing Classes"
+    identifier = "menu.classes"
+    url        = "/classes/"
+    weight     = 2
 
 [[menu.main]]
     name       = "Coding"
     identifier = "menu.coding"
-    url        = "/coding"
-    weight     = 2
+    url        = "/coding/"
+    weight     = 3
 
 [[menu.main]]
     name       = "Math"
-    url        = "/math"
-    weight     = 2
+    url        = "/math/"
+    weight     = 4
     identifier = "menu.math"
     
 [[menu.main]]
     name        = "Book now!"
     identifier  = "menu.book"
     url         = ""
-    weight      = 4
+    weight      = 5
 
 [[menu.main]]
     name       = "Math Tutor"
-    url        = "/mathtutoring"
+    url        = "/mathtutoring/"
     weight     = 1
     parent     = "menu.book"
 
 
 [[menu.main]]
     name       = "Coding Tutor"
-    url        = "/cstutoring"
+    url        = "/cstutoring/"
     weight     = 2
     parent     = "menu.book"
 
 [[menu.main]]
     name       = "Coding Class"
-    url        = "/classes"
+    url        = "/classes/"
     weight     = 3
     parent     = "menu.book"
 
@@ -74,7 +79,7 @@ unsafe= true
 [[menu.main]]
     name       = "Instructor"
     identifier = "menu.instructor"
-    url        = "/instructor"
+    url        = "/instructor/"
     weight     = 7
 
 [[menu.main]]
@@ -188,7 +193,7 @@ unsafe= true
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p><b><font size="+1">Math review sessions start in August! </font></b>  </p>
+    text = """<p><b><font color="#fff" size="+1">Math review sessions start in August! </font></b>  </p>
       """
 
 # Enable and disable widgets for the right sidebar
@@ -247,7 +252,7 @@ unsafe= true
 [params.recent_posts]
     enable = true
     title = "From our blog"
-    subtitle = "Coming soon"
+    subtitle = ""
     hide_summary = false
 
 [params.footer.recent_posts]

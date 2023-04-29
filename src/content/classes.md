@@ -29,13 +29,10 @@ Free trial classes every Saturday at 10 am and every Sunday at 4:30 pm. <br>
 Times by request
 <p>
 
-<b>Lego WeDo coding</b><br>
-Sundays, 1:00 &ndash; 1:50 pm
-
 <p>
 <b>Scratch</b><br>
+Sundays, 1:00 &ndash; 1:50 pm <br>
 Sundays, 2:00 &ndash; 2:50 pm
-
 </div>
 
 
