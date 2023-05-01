@@ -13,9 +13,9 @@ description = "At Blue Ridge Boost, we teach coding to preschoolers using an att
 
 <div class="col-sm-10">
 
-Students learn fundamental coding concepts by helping a [monkey collect bananas](https://www.codemonkey.com/courses/codemonkey-jr) on instructor-provided Chromebooks. 
+Our youngest students learn fundamental coding concepts by helping a [monkey collect bananas](https://www.codemonkey.com/courses/codemonkey-jr) on instructor-provided Chromebooks. Students learn the basics of coding using left, right, jump up, jump left and jump right commands to guide a monkey to collect all bananas before opening a treasure chest. Students learn to code repetition by using loops and conditional loops. The course concludes with procedures.
 
-The classes run on 4 week-sessions and are adjusted to the pace of the student. 
+The classes run on 4 week-sessions. Each class is 30 minutes long. Classes are adjusted to the pace of the student with students typically needing six sessions to complete the course. 
 
 </div>
 
@@ -136,9 +136,9 @@ to get the monkey to the starting point.
 
 <center>
 
-<!-- <a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr3.png" width="75%" style="padding:10px;"></a>
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr4-1.png" width="75%" style="padding:10px;"></a>
 
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr4.png" width="75%" style="padding:10px;"></a> -->
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr5.png" width="75%" style="padding:10px;"></a> 
 
 </center>
 
@@ -175,9 +175,9 @@ which instructions are included within the loop.
 
 <center>
 
-<!-- <a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr3.png" width="75%" style="padding:10px;"></a>
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr6.png" width="75%" style="padding:10px;"></a>
 
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr4.png" width="75%" style="padding:10px;"></a> -->
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr7.png" width="75%" style="padding:10px;"></a>
 
 </center>
 
@@ -212,9 +212,9 @@ In this lesson, students will learn how to add more than two loops and how to us
 
 <center>
 
-<!-- <a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr3.png" width="75%" style="padding:10px;"></a>
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr8.png" width="75%" style="padding:10px;"></a>
 
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr4.png" width="75%" style="padding:10px;"></a> -->
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr9.png" width="75%" style="padding:10px;"></a> 
 
 </center>
 
@@ -249,9 +249,9 @@ Students will face challenges with validating the path and moving in both direct
 
 <center>
 
-<!-- <a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr3.png" width="75%" style="padding:10px;"></a>
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr10.png" width="75%" style="padding:10px;"></a>
 
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr4.png" width="75%" style="padding:10px;"></a> -->
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr11.png" width="75%" style="padding:10px;"></a>
 
 </center>
 

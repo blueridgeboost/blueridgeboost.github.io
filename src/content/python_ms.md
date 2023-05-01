@@ -8,15 +8,13 @@ description = "At Blue Ridge Boost, we teach the same fundamental coding concept
 
 <div class="row">
 
-<div class="col-sm-10 left">
+<div class="col-sm-12 left">
 
-Students learn to code instructor-provided Chromebooks using Python, a widely used programming language in academia and industry. Previous experience with computer typing is recommended.
+Are you a middle schooler interested in Python? Come and learn with us!
 
-**Maximum class size**: 6 students.
+Students learn Python using a combination of lessons that use the Code Monkey platform and Jupyter Notebooks created by the instructor.
 
-**Duration**: 4 weeks.
-
-**Lesson length**: 45 minutes.
+Classes run in 4 week-sessions. Each class is 50 minutes long. Classes are adjusted to the pace of the student with students typically needing between ten to fourteen sessions to complete the course depending on age and previous coding experience.
 
 </div></div></div>
 
@@ -29,56 +27,63 @@ Students learn to code instructor-provided Chromebooks using Python, a widely us
 
 <div class="col-sm-6">
 
-#### Session 1. Sequencing and Objects
+#### Session 1. Sequencing, Objects and For Loops
 
-In the first 4-week session students learn objects and properties, lists and indexing.<br>
+Students learn that coding is giving precise instructions to a computer, the concept of objects and that objects can perform several actions. In addition, students learn to create and manipulate lists, a fundamental concept in computing and use ``for`` commands to loop through lists. The first three lessons use the Code Monkey platform, and the fourth introduces students to Jupyter Notebooks.
 
-**Lessons 1 and 2.** Basic coding <br>
-Students learn that coding is giving precise instructions to a computer. Students learn the concept of objects and learn that objects can perform several actions.
+#### Session 2. More on Loops, Lists and Variables
 
+Students deepen their understanding of loops and learn to create complex programs by storing intermediate computations into variables. Two lessons use the Code Monkey platform and in the last two lessons students practice using Jupyter Notebooks with the ``range`` function and mathematical expressions.
 
-**Lessons 3 and 4.** Lists <br>
-Students learn to create and manipulate lists, a fundamental concept in computing.
+#### Session 3. Conditional Statements 
+ Students learn to write programs whose execution depends on the truth value of variables, including ``if``, ``if/else`` and ``while`` commands. Three lessons use Code Monkey and the fourth is instructor assigned practice using Jupyter Notebooks.
+
+#### Session 4. Boolean Operators
+
+Students learn to code using the Booleand operators ``and``, ``or``, and ``not``. Two lessons use Code Monkey and the fourth is instructor assigned practice using Jupyter Notebooks.
+
+#### Session 5. Functions
+
+Students learn to define and call functions. One lesson uses Code Monkey and the rest are created by instructor.
+
+#### Session 6. Classes
+
+Students learn to define classes. One lesson uses Code Monkey and the rest are created by instructor.
+
+#### Session 7. Input
+
+Students learn to create programs that ask for user input or read it from a file. One lesson uses Code Monkey and the rest are created by instructor.
+
+#### Session 8. Strings
+
+Students learn to work with String data. One lesson uses Code Monkey and the rest are created by instructor.
+
+#### Session 8. Dictionaries, Sets and Tuples
+
+Students learn to work with two new data structures, dictionary and set. Two lessons use Code Monkey and the rest are created by instructor.
+
+#### Session 9. 2D Lists
+
+Students learn to work with two dimensional lists. Two lessons use Code Monkey and the rest are created by instructor.
+
+#### Session 10. Search and Sorting
+
+Students learn to code sequential and binary search and study the bubble sort algorithm. Two lessons use Code Monkey and the rest are created by instructor.
 
 </div>
 
-<div class="col-sm-4 left">
+<div class="col-sm-6 left">
 
 <center>
-<a href="https://www.codemonkey.com/courses/banana-tales"><img  alt="Code sample" src="/images/cmbt1.png" width="95%" style="padding:20px;"></a>
-
-</center>
-
-</div>
-
-</div>
-
-</div>
-
-<a name="session2"></a>
-
-<div class="container">
-
-<div class="row">
-
-<div class="col-sm-6">
-
-#### Session 2. Loops and Variables 
-
-In the second 4-week session students for loops, variables, and conditional statements.<br>
-
-**Lessons 1 and 2.** Variables <br>
-Students learn to create complex programs by storing intermediate computations into variables. 
-
-**Lessons 3 and 4.** Conditionals <br>
-Students learn to write programs whose execution depends on the truth value of variables. 
-
-</div>
-
-<div class="col-sm-4 left">
-
-<center>
-<a href="https://www.codemonkey.com/courses/banana-tales"><img alt="Code written by kids!" src="/images/cmbt2.png" width="95%" style="padding:20px;"></a>
+<a href="https://www.codemonkey.com/courses/banana-tales"><img  alt="Code sample" src="/images/bt1.png" width="85%" style="padding:20px;"></a>
+<br>
+<a href="https://www.codemonkey.com/courses/banana-tales"><img  alt="Code sample" src="/images/bt2.png" width="95%" style="padding:20px;"></a>
+<br>
+<a href="https://www.codemonkey.com/courses/banana-tales"><img  alt="Code sample" src="/images/bt3.png" width="95%" style="padding:20px;"></a>
+<br>
+<a href="https://www.codemonkey.com/courses/banana-tales"><img  alt="Code sample" src="/images/bt4.png" width="95%" style="padding:20px;"></a>
+<br>
+<a href="https://www.codemonkey.com/courses/banana-tales"><img  alt="Code sample" src="/images/bt5.png" width="95%" style="padding:20px;"></a>
 </center>
 
 </div>
