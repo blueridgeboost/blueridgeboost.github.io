@@ -9,11 +9,9 @@ description = "Want to get ready for algebra 1? Need algebra 1 tutoring?"
 
 <div class="col-sm-8 left">
 
-#### Get Ready for Algebra 1
+#### Get Ready for Algebra 1! 
 
-**Summer classes in August!*
-
-Participate in a carefully developed curriculum to review pre-algebra including fractions, ratios, proportions, order of operations, and exponents.
+Join our summer classes in August, to participate in a carefully developed curriculum to review pre-algebra including fractions, ratios, proportions, order of operations, and exponents.
 
 #### Algebra 1 Remediation
 

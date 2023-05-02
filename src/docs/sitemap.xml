@@ -57,8 +57,6 @@
   </url><url>
     <loc>https://blueridgeboost.com/algebra2/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/amc/</loc>
-  </url><url>
     <loc>https://blueridgeboost.com/calc/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/stats/</loc>
@@ -116,6 +114,8 @@
     <loc>https://blueridgeboost.com/python_ms/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/scratch/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/amc/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/instructor/</loc>
   </url>

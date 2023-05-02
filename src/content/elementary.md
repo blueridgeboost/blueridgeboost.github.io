@@ -5,8 +5,9 @@ description = "At Blue Ridge Boost, we teach kids math, problem-solving skills, 
 keywords = ["Beast Academy", "Singapore Math", "multiplication",  "math for children", ]
 +++
 
-At Blue Ridge Boost, we teach problem-solving skills using a variety of math manipulatives,  Montessori materials, and math games. We can teach a variety of curricula, based on the Virginia Standards of Learning, Singapore Math and Beast Academy. 
+At Blue Ridge Boost, we teach problem-solving skills using a variety of math manipulatives,  Montessori materials, and math games. We teach a variety of curricula, based on the Virginia Standards of Learning, Common Core, Singapore Math and Beast Academy. 
 
+Experienced instructors are ready to help your child develop a good understanding of the content whether it is to keep up with classwork or expand knowledge beyond the school curriculum.
 
 <div class="col-sm-6">
 

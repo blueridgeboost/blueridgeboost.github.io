@@ -180,8 +180,7 @@ unsafe= true
       
     # bookclass = "<a href="https://blueridgeboost.youcanbook.me/">Book  classes </a>"
     # calendar = "<a href="https://calendar.google.com/calendar/embed?src=c_qq9r0u5tfder0q6pg5063s1vto%40group.calendar.google.com&ctz=America%2FNew_York">Group Classes and Availability</a>"
-    enableGoogleMaps = true
-    googleMapsApiKey = "AIzaSyBL2kqnS9y3MQCq396JSgk7FHGEMmiu6sM"
+    enableGoogleMaps = false
 
     latitude = "36.5251359"
     longitude = "-90.9888306"

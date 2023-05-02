@@ -11,9 +11,7 @@ description = "Want to get ready for geometry? Need geometry tutoring?"
 
 #### Get Ready for Geometry
 
-**Summer classes in August!** 
-
-Participate in a carefully developed curriculum to review Algebra 1 topics including linear equations, systems of linear equations, and the Pythagorean Theorem.
+Join our Summer classes in August to participate in a carefully developed curriculum to review Algebra 1 topics including linear equations, systems of linear equations, and the Pythagorean Theorem.
 
 #### Geometry Remediation
 
