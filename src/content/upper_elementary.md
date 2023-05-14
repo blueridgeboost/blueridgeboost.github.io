@@ -10,13 +10,10 @@ description = "At Blue Ridge Boost, we teach the same fundamental coding concept
 
 <div class="col-sm-10 left">
 
-Students learn fundamental coding concepts using Coffee Script, a beginner-friendly text-based coding language. The young coders use an attractive graphical interface to generate text by pressing buttons on instructor-provided Chromebooks. Some previous experience typing is helpful, but not necessary. 
+Students learn fundamental coding concepts using Coffee Script, a beginner-friendly text-based coding language. The young coders use an attractive graphical interface to generate text by pressing buttons on instructor-provided Chromebooks. Some previous experience typing is helpful but not necessary. 
 
-**Maximum class size**: 6 students.
 
-**Duration**: 4 weeks.
-
-**Lesson length**: 45 minutes.
+Classes run in four-week sessions. Each class is 50 minutes long. We adjust classes to the pace of each student. Students typically need between ten to fourteen sessions to complete the course, depending on age and previous coding experience.
 
 </div></div></div>
 
@@ -27,25 +24,52 @@ Students learn fundamental coding concepts using Coffee Script, a beginner-frien
 <div class="row">
 
 
-<div class="col-sm-6">
+<div class="col-sm-4">
 
-#### Session 1. Sequencing and Objects
+#### Session 1
 
-Students learn sequential execution, objects and properties.<br>
+Students learn that coding is giving precise instructions to a computer, using advanced planning to create efficient programs. Students study objects that can perform several actions.
 
-**Lessons 1 and 2.** Basic coding <br>
-Students learn that coding is giving precise instructions to a computer. Students learn the concept of objects and learn that objects can perform several actions.
+#### Session 2
 
-**Lessons 3 and 4.** Planning <br>
-Students learn to use advanced planning to create efficient programs.
+Students learn to code repetitions using loops and variables.
 
+#### Session 3
+
+Students learn to write complex code using variables and arrays and to use indexing to access array elements.
+
+#### Session 4
+Students learn to code ``for`` loops, variables, and indexing.
+
+#### Session 5
+Students learn functions! They practice writing function definitions and experiment with
+defining functions that call each other.
+
+#### Session 6
+Students learn conditional loops that repeat until a condition is satisfied.
+
+#### Session 7
+Students learn the conditional statements `if` and `if else`. Then, they practice using the new statements in conjunction with previously learned concepts, including loops and functions.
+
+#### Session 8
+Students learn the logical operators ``or`` and ``and`` and code conditional statements with compound conditions.
+
+#### Sessions 9 through end of course
+Students learn the ``not`` logical operator, concepts related to computer games, integer operators, return values from functions, event-driven programming, and more.
 </div>
 
-<div class="col-sm-4 left">
+<div class="col-sm-6 left">
 
 <center>
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img  alt="Code sample" src="/images/cmca1.png" width="95%" style="padding:20px;"></a>
-
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img  alt="Code sample" src="/images/ca1.png" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca2.png" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca3.png" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca4.png" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca5.png" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca6.png" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca7.png" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca8.png" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca9.png" width="75%" style="padding:20px;"></a>
 </center>
 
 </div>
@@ -53,37 +77,3 @@ Students learn to use advanced planning to create efficient programs.
 </div>
 
 </div>
-
-
-<a name="session2"></a>
-
-<div class="container">
-
-<div class="row">
-
-
-<div class="col-sm-6">
-
-#### Session 2. Loops and Variables 
-
-**Lessons 1 and 2.** Counter loops <br>
-Students learn to create and analyze programs with counter loops. 
-
-**Lessons 3 and 4.** Variables <br>
-Students learn to create complex programs by storing intermediate computations into variables. 
-
-</div>
-
-<div class="col-sm-4 left">
-
-<center>
-
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/cmca2.png" width="95%" style="padding:20px;"></a>
-</center>
-
-</div>
-
-</div>
-
-</div>
-

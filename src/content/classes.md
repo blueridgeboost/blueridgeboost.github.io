@@ -1,7 +1,7 @@
 +++
 title = "Coding Classes in Charlottesville"
-heading = "Coding Group Classes"
-description = "At Blue Ridge Boost, we teach the same fundamental coding concepts to students of all ages. Find out more about our in-person coding classes!"
+header = " "
+description = "At Blue Ridge Boost, we teach fundamental coding concepts to students of all ages. Find out more about our in-person coding classes!"
 +++
  
 
@@ -9,6 +9,7 @@ description = "At Blue Ridge Boost, we teach the same fundamental coding concept
 
 <div class="row">
 
+<!--
 <div class="col-md-9" align="left">
 <div class="purplenote">
 Free trial classes every Saturday at 10 am and every Sunday at 4:30 pm. <br>
@@ -17,6 +18,7 @@ Free trial classes every Saturday at 10 am and every Sunday at 4:30 pm. <br>
 
 </div>
 </div>
+-->
 
 <p></p>
 
@@ -29,13 +31,10 @@ Free trial classes every Saturday at 10 am and every Sunday at 4:30 pm. <br>
 Times by request
 <p>
 
-<b>Lego WeDo coding</b><br>
-Sundays, 1:00 &ndash; 1:50 pm
-
 <p>
 <b>Scratch</b><br>
+Sundays, 1:00 &ndash; 1:50 pm <br>
 Sundays, 2:00 &ndash; 2:50 pm
-
 </div>
 
 
@@ -72,26 +71,24 @@ Other times by request<br>
 <p></p>
 
 
+
 <div class="row">
 <div class="col-md-9" align="center">
 
 <p></p>
-
-
-<div class="button">
-Email <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a> or <a href="/form">submit this form</a> to join or request a class!
-</div>
-<p></p>
-
 <div class="lightnote">
 Four coding classes for only $95!<br>
 Small classes &mdash; no more than six students in a class.
 </div>
 
-<p>
+<div>
+<b>Free trial classes every Saturday at 10 am and every Sunday at 4:30 pm.</b><br>
+<a href="https://trialcodingclasses.youcanbook.me/">Sign up for a free trial class</a> or email <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a> to join or request a class!
+</div>
 
-For individual tutoring, please schedule your math lesson [here](/mathtutoring) and your coding lesson [here](/cstutoring).
-</p>
+
+
+<p>
 
 </p></p>
 

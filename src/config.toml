@@ -27,46 +27,57 @@ unsafe= true
 # Main menu
 
 [[menu.main]]
-    name       = "Ongoing Classes"
-    identifier = "menu.classes"
-    url        = "/classes"
+    name       = "Vision"
+    identifier = "menu.vision"
+    url        = "/vision/"
     weight     = 1
 
+[[menu.main]]
+    name       = "Open Classes"
+    identifier = "menu.classes"
+    url        = "/classes/"
+    weight     = 2
+
+[[menu.main]]
+    name       = "Camps"
+    identifier = "menu.aug23"
+    url        = "/aug23"
+    weight     = 2
 
 [[menu.main]]
     name       = "Coding"
     identifier = "menu.coding"
-    url        = "/coding"
-    weight     = 2
+    url        = "/coding/"
+    weight     = 3
 
 [[menu.main]]
     name       = "Math"
-    url        = "/math"
-    weight     = 2
+    url        = "/math/"
+    weight     = 4
     identifier = "menu.math"
     
 [[menu.main]]
     name        = "Book now!"
     identifier  = "menu.book"
     url         = ""
-    weight      = 4
+    weight      = 5
 
 [[menu.main]]
     name       = "Math Tutor"
-    url        = "/mathtutoring"
+    url        = "/mathtutoring/"
     weight     = 1
     parent     = "menu.book"
 
 
 [[menu.main]]
     name       = "Coding Tutor"
-    url        = "/cstutoring"
+    url        = "/cstutoring/"
     weight     = 2
     parent     = "menu.book"
 
 [[menu.main]]
     name       = "Coding Class"
-    url        = "/classes"
+    url        = "/classes/"
     weight     = 3
     parent     = "menu.book"
 
@@ -74,7 +85,7 @@ unsafe= true
 [[menu.main]]
     name       = "Instructor"
     identifier = "menu.instructor"
-    url        = "/instructor"
+    url        = "/instructor/"
     weight     = 7
 
 [[menu.main]]
@@ -117,7 +128,7 @@ unsafe= true
     ## default_sharing_image = "img/sharing-default.png"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "violet"
+    style = "blue"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -153,7 +164,7 @@ unsafe= true
     enableRecaptchaInContactForm = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>Enrichment and tutoring for ambitious achievers, led by Ana Nora Evans in Charlottesville, Virginia. We provide instruction in Math and Computer Science to any student interested in learning.</p>"
+    about_us = "<p>Enrichment and tutoring in Math and Computing for any student who wants to learn. <br>Led by Ana Nora Evans in Charlottesville, Virginia.</p>"
     copyright = ""
 
     # Format dates with Go's time formatting
@@ -162,8 +173,11 @@ unsafe= true
     disabled_logo = false
     logo_text = "Blue Ridge Boost"
 
-    logo = "/images/brblogo-square.png"
-    logo_small = "/images/brblogosquare-small.png"
+    # logo = "/images/brblogo-square.png"
+    # logo_small = "/images/brblogosquare-small.png"
+    logo = "/images/blue-ridge-highlands.jpg"
+    logo_small = "/images/blue-ridge-highlands.jpg"
+    
     contact_url = "/contact"
     address = """<strong>Blue Ridge Boost</strong>
         <br>222 Court Square
@@ -175,8 +189,7 @@ unsafe= true
       
     # bookclass = "<a href="https://blueridgeboost.youcanbook.me/">Book  classes </a>"
     # calendar = "<a href="https://calendar.google.com/calendar/embed?src=c_qq9r0u5tfder0q6pg5063s1vto%40group.calendar.google.com&ctz=America%2FNew_York">Group Classes and Availability</a>"
-    enableGoogleMaps = true
-    googleMapsApiKey = "AIzaSyBL2kqnS9y3MQCq396JSgk7FHGEMmiu6sM"
+    enableGoogleMaps = false
 
     latitude = "36.5251359"
     longitude = "-90.9888306"
@@ -188,7 +201,7 @@ unsafe= true
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p><b><font size="+1">Math review sessions start in August! </font></b>  </p>
+    text = """<p><b><font color="#fff" size="+1">Math review sessions start in August! </font></b>  </p>
       """
 
 # Enable and disable widgets for the right sidebar
@@ -247,7 +260,7 @@ unsafe= true
 [params.recent_posts]
     enable = true
     title = "From our blog"
-    subtitle = "Coming soon"
+    subtitle = ""
     hide_summary = false
 
 [params.footer.recent_posts]

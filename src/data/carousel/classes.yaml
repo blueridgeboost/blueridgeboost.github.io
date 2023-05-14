@@ -1,10 +1,10 @@
-weight: 2
+weight: 3
 title: "Coding Classes"
 description: >
   <ul class="list-style-none">
     <li>Preschool block coding</li>
     <li>Beginner Scratch, Lego WeDo</li>
-    <li>Internediate Coffee Script, Python</li>
+    <li>Intermediate Coffee Script, Python</li>
     <li>High school and adults Python, Java, Prolog, Lisp, Rust</li>
   </ul>
 image: "images/carousel/oncarpet.jpg"

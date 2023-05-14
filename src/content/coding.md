@@ -1,55 +1,45 @@
 +++
 title = "Coding Lessons"
-header = "Coding lessons in Charlottesville!"
+header = " "
 description = "Coding lessons and prep for AP Computer Science using Java" 
 keywords = ["APCSP", "AP", "AP Computer Science",  "Java", "Python", "Scratch", "WeDo", "Spike" ]
 +++
 
-<div class="text-large">
+<center>
   <div class="row">
-    <div class="col-sm-4 right">
-    <h3>Before First Grade</h3>
-    <div class="hanging"><a href="/preschool">Preschool Coding</a></div>
-    <div class="hanging"><a href="/k2">Block Languages using Code Monkey</a></div>
-    <div class="hanging"><a href="/wedo">Robotics with Lego WeDo 2.0</a></div>
-</div>
     <div class="col-sm-6 right">
-    <h3>K through 5th Grade</h3>
-      <div class="hanging"><a href="/scratch">Scratch</a></div>
-      <div class="hanging"><a href="/spike">Robotics with Lego Spike</a></div>
-      <div class="hanging"><a href="/upper_elementary">Coffee Script using Code Monkey</a></div>
-   </div>
- </div>
-     <div class="spacer">
-      <hr align="left" class="frontspacer"></hr>
-    </div>
-  <div class="row">
-    <div class="col-sm-4 right">
-    <h3>5th-8th grade</h3>
-  <div class="hanging"><a href="/python_ms">Python Programming</a></div>
-    </div>
-  <div class="col-sm-6 right">
-   <h3>High School</h3>
-    <div class="hanging"><a href="/apcsp">Prep for AP Computer Science Principles (Python)</a></div>
-    <div class="hanging"><a href="/apcs">Prep for AP Computer Science (Java)</a></div>
-    <div class="hanging"><a href="/usaco">USA Computing Olympiad Bronze</a></div>
-    </div>
-    </div>
-  
-<div class="spacer">
-    <hr align="left" class="frontspacer"></hr>
- </div>
+        <h2>Coding Lessons and Courses</h2>
 
-<div class="row">
-        <div class="col-sm-6 right">
-<h3>College-Level Courses</h3>
-  <div class="hanging">Intro to Programming</div>
-  <div class="hanging">Data Structures and Algorithms</div>
-  <div class="hanging">Discrete Math and Theory</div>
-  <div class="hanging">Programming Languages</div>
+  <div class="hangingspaced"><a href="/preschool">Preschool Coding</a></div>
+  <div class="hangingspaced"><a href="/k2">Block Languages using Code Monkey</a></div>
+  <div class="hangingspaced"><a href="/wedo">Robotics with Lego WeDo 2.0</a></div>
+  <div class="hangingspaced"><a href="/scratch">Scratch</a></div>
+  <div class="hangingspaced"><a href="/spike">Robotics with Lego Spike</a></div>
+  <div class="hangingspaced"><a href="/upper_elementary">Coffee Script using Code Monkey</a></div>
+  <div class="hangingspaced"><a href="/python_ms">Python Programming</a></div>
+  </div>
+
+<div class="col-sm-6 right">
+       <h2>Tutoring</h2>
+
+
+ <div class="hangingspaced"><a href="/apcsp">AP Computer Science Principles (Python)</a></div>
+ <div class="hangingspaced"><a href="/apcs">AP Computer Science (Java)</a></div>
+ <div class="hangingspaced"><a href="/usaco">USA Computing Olympiad Bronze</a></div>
+<!--<h3>College-Level Courses</h3>-->
+  <div class="hangingspaced">Intro to Programming</div>
+  <div class="hangingspaced">Data Structures and Algorithms</div>
+  <div class="hangingspaced">Discrete Math and Theory</div>
+  <div class="hangingspaced">Programming Languages</div>
 </div>
 </div>
 
-<div class="spacer">
-    <hr align="left" class="frontspacer"></hr>
- </div>
+
+<p><br></br></p>
+
+
+<img src="/images/carousel/dorinateaching.jpg" width="70%">
+
+<p><br></br></b>
+
+</center>

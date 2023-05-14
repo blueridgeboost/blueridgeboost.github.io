@@ -1,218 +1,120 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://blueridgeboost.com/authors/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/blog/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/categories/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/categories/classes/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/blog/2022/09/17/post4/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/authors/nora-evans/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/tags/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/tags/trial-classes/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/tags/classes/</loc>
     <lastmod>2022-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/tags/coding/</loc>
     <lastmod>2022-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/categories/location/</loc>
     <lastmod>2022-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/blog/2022/09/05/post3/</loc>
     <lastmod>2022-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/tags/programming/</loc>
     <lastmod>2022-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/blog/2022/08/29/post2/</loc>
     <lastmod>2022-08-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/categories/coding/</loc>
     <lastmod>2022-08-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/blog/2022/08/15/post1/</loc>
     <lastmod>2022-08-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://blueridgeboost.com/vision/</loc>
+  </url><url>
     <loc>https://blueridgeboost.com/algebra1/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/algebra2/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/amc/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/calc/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/stats/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/authors/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/k2/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/form/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/classes/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/coding/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/upper_elementary/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/moems/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/cstutoring/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/csadults/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/faq/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/geometry/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/math/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/spike/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/wedo/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/mathtutoring/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/elementary/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/mathadults/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/msmath/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/precalc/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/apcs/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/apcsp/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blueridgeboost.com/usaco/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/preschool/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://blueridgeboost.com/coding/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/upper_elementary/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/moems/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/cstutoring/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/contact/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/faq/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/geometry/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/math/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/spike/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/wedo/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/aug23/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/mathtutoring/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/elementary/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/msmath/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/precalc/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/apcs/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/apcsp/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/usaco/</loc>
+  </url><url>
     <loc>https://blueridgeboost.com/python_ms/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blueridgeboost.com/scratch/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://blueridgeboost.com/amc/</loc>
+  </url><url>
     <loc>https://blueridgeboost.com/instructor/</loc>
   </url>
-  
 </urlset>
