@@ -1,11 +1,13 @@
 +++
 title = "Scratch Coding for Children in Charlottesville"
-header = "Scratch Coding"
+header = " "
 description = "At Blue Ridge Boost, we teach kids math, problem-solving skills, and more." 
 keywords = ["Scratch", "coding",  "coding for children", ]
 +++
 
 <div class="container">
+
+# Scratch Coding
 
 <div class="row">
 

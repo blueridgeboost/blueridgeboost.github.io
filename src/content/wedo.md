@@ -1,11 +1,41 @@
 +++
 title = "Lego Robotics for Children in Charlottesville"
-header = "Build Lego robots and Code with WeDo 2.0"
+header = " "
 description = "At Blue Ridge Boost, we teach kids math, problem-solving skills, and more." 
 keywords = ["Lego", "Wedo", "robotics",  "coding for children", ]
 +++
 
-Come and learn to build and program Lego robots! In each lesson students build a Lego robot using a design model, improve and extend it, and then create a program using Scratch to control and move the robot. The robots use a medium power motor to act and a depth and a tilt sensor to sense. A Scratch program encodes the robots actions in response to sensing.
+<div class="container">
 
-The course is structured in four-week sessions. Students build and code between two and four design models. Depending on the student's interests and previous experience using Lego bricks and coding, the course length varies from one session to several sessions.
+# Build Lego Robots and Code with WeDo 2.0
 
+Come and learn to build and program Lego robots!
+
+In each lesson students build a Lego robot using a design model,
+improve and extend it, and then create a program using Scratch to
+control and move the robot. The robots use a medium power motor to act
+and a depth and a tilt sensor to sense. A Scratch program encodes the
+robots actions in response to sensing.
+
+##
+
+<center>
+<img src="/images/wedo.jpg" width="50%">
+</center>
+
+##
+
+The course is structured in four-week sessions. Students build and
+code between two and four design models. Depending on the student's
+interests and previous experience using Lego bricks and coding, the
+course length varies from one session to several sessions.
+
+##
+
+<center>
+<img src="/images/wedo2.jpg" width="65%">
+</center>
+
+##
+
+</div>

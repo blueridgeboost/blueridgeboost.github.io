@@ -1,11 +1,14 @@
 +++
 title = "Coding Group Classes for 4 to 6 year olds"
-heading = "Coding Group Classes for 4 to 6 year olds"
+header = " " 
 description = "At Blue Ridge Boost, we teach coding to preschoolers using an attractive graphical interface. Find out more about our in-person coding classes!"
 +++
 
 
 <div class="container">
+
+
+# Coding Group Classes for Early Coders
 
 <div class="row">
 
@@ -244,6 +247,8 @@ procedures in each challenge and the code in each procedure is getting longer.
 **Lesson 4.** Advanced Procedures <br>
 Students will face challenges with validating the path and moving in both directions to get to the bananas as well as the treasure chest.
 </div>
+
+<p><br></p>
 
 <div class="col-sm-4 left">
 

@@ -33,7 +33,7 @@ unsafe= true
     weight     = 1
 
 [[menu.main]]
-    name       = "Ongoing Classes"
+    name       = "Open Classes"
     identifier = "menu.classes"
     url        = "/classes/"
     weight     = 2
