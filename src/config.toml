@@ -158,7 +158,7 @@ unsafe= true
     enableRecaptchaInContactForm = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>Enrichment and tutoring for ambitious achievers, led by Ana Nora Evans in Charlottesville, Virginia. We provide instruction in Math and Computer Science to any student interested in learning.</p>"
+    about_us = "<p>Enrichment and tutoring in Math and Computing for any student who wants to learn. <br>Led by Ana Nora Evans in Charlottesville, Virginia.</p>"
     copyright = ""
 
     # Format dates with Go's time formatting
@@ -167,8 +167,11 @@ unsafe= true
     disabled_logo = false
     logo_text = "Blue Ridge Boost"
 
-    logo = "/images/brblogo-square.png"
-    logo_small = "/images/brblogosquare-small.png"
+    # logo = "/images/brblogo-square.png"
+    # logo_small = "/images/brblogosquare-small.png"
+    logo = "/images/blue-ridge-highlands.jpg"
+    logo_small = "/images/blue-ridge-highlands.jpg"
+    
     contact_url = "/contact"
     address = """<strong>Blue Ridge Boost</strong>
         <br>222 Court Square

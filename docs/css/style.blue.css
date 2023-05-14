@@ -557,7 +557,7 @@ ul.list-style-none {
 }
 .btn-template-main {
   color: var(--primary-accent);
-  background-color: #ffffff;
+  background-color: #eba378;
   border-color: var(--primary-accent);
 }
 .btn-template-main:hover,
@@ -794,6 +794,7 @@ fieldset[disabled] .btn-template-primary.active {
     right: 10%;
   }
 }
+
 #intro .container,
 #intro .row {
   height: 100%;
@@ -1789,7 +1790,7 @@ hr.frontspacer {
   text-transform: none;
   font-size: 30px;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.01em;
 }
 @media (max-width: 991px) {
   #heading-breadcrumbs h1 {
@@ -2556,9 +2557,9 @@ hr.frontspacer {
   margin: 0 0 20px;
 }
 #footer {
-  background-image: url("/images/blueridge-background.jpg");
-  padding: 50px 0;
-  color: #999999;
+  background-image: url("/images/blue-ridge-footer.jpg");
+  padding: 15px 0;
+  color: #eaa378;
 }
 #footer h1,
 #footer h2,
@@ -2581,6 +2582,15 @@ hr.frontspacer {
 #footer ul a {
   color: #999999;
 }
+
+#footer a .btn-template-main {
+    color: #000000;
+}
+    
+#footer a {
+  color: #EEFFFF;
+}
+
 #footer ul a:hover {
   color: var(--primary-accent);
   text-decoration: none;
@@ -3643,6 +3653,12 @@ div.hanging {
   text-indent: -25px;
 }
 
+div.hangingspaced {
+  padding-left: 25px;
+  text-indent: -25px;
+  margin-top: 1rem;
+}
+
 .rotatedsm {
  margin-top: 3.7rem;
  font-size: 1.5rem;
@@ -3704,14 +3720,14 @@ font-size: 18px;
 }
 
 .lightnote {
-margin-left: 50px;
-margin-right: 60px;
+margin-left: 100px;
+margin-right: 100px;
 background: var(--primary-accent);
 color: var(--inverse-text);
 text-align: center;
-font-weight: 500;
+font-weight: 300;
 margin-bottom: 10px;
-padding: 12px;
+padding: 10px;
 font-size: 18px;
 }
 
