@@ -16,9 +16,9 @@ description = "At Blue Ridge Boost, we teach coding to preschoolers using an att
 
 <div class="col-sm-10">
 
-Our youngest students learn fundamental coding concepts by helping a [monkey collect bananas](https://www.codemonkey.com/courses/codemonkey-jr) on instructor-provided Chromebooks. Students learn the basics of coding using left, right, jump up, jump left and jump right commands to guide a monkey to collect all bananas before opening a treasure chest. Students learn to code repetition by using loops and conditional loops. The course concludes with procedures.
+Our youngest students learn fundamental coding concepts by helping a [monkey collect bananas](https://www.codemonkey.com/courses/codemonkey-jr) on instructor-provided Chromebooks. Students learn the basics of coding using left, right, jump up, jump left, and jump right commands to guide a monkey to collect all bananas before opening a treasure chest. In addition, students learn to code repetition by using loops and conditional loops. The course concludes with procedures.
 
-The classes run on 4 week-sessions. Each class is 30 minutes long. Classes are adjusted to the pace of the student with students typically needing six sessions to complete the course. 
+The classes run in four week-sessions. Each class is 30 minutes long. We adjust the classes to the pace of each student. Students typically need six sessions to complete the course. 
 
 </div>
 
@@ -38,8 +38,7 @@ The classes run on 4 week-sessions. Each class is 30 minutes long. Classes are a
 
 Students build a foundation in coding and problem-solving.<br>
 
-**Lesson 1.** What is coding? <br>
-Students learn that coding is giving precise instructions to a computer. Each student creates their first program – a dance routine for the class to follow!
+**Lesson 1.** What is coding? <br>Students learn that coding is giving precise instructions to a computer. Then, each student creates their first program – a dance routine for the class to follow!
 
 **Lesson 2.** Program using the computer <br>
 Introduces the coding platform Code Monkey. Students do their first coding exercises on the computer, using commands to move left and right.
@@ -116,12 +115,12 @@ Students explore why some loops finish and others run forever (a deep question i
 #### Session 3. Advanced Sequencing and Looping
 
 **Lesson 1.** Back and Forth<br>
-Students need to plan their journey as they will need to go in one direction first and then
+Students learn to plan their journey as they must go in one direction first and then
 return to get to the treasure chest.
 
 **Lesson 2.** Where to first? <br>
 In this lesson, students will continue practicing solving challenges by planning their
-journey. They will need to decide where to move first to get all the bananas.
+journey. They must decide where to move first to get all the bananas.
 
 
 **Lesson 3.** Behind you, Monkey<br>
@@ -129,9 +128,7 @@ STudents complete the advanced sequencing chapter by coding increasingly complex
 
 
 **Lesson 4.** Loops Again <br>
-In this lesson, students will start the Advanced Loops chapter.
-Up until now, the students solved the challenges using a loop and blocks inside the
-loop. In this lesson, students will add blocks before the loop. They will need to see the pattern to use a loop. They will need to identify where the loop starts and how
+In this lesson, students will start the Advanced Loops chapter. Until now, the students solved the challenges using a loop and blocks inside it. In this lesson, students will add blocks before the loop. They will need to see the pattern to use a loop. They must identify where the loop starts and how
 to get the monkey to the starting point.
 </div>
 
@@ -170,8 +167,7 @@ conditional loops. Conditional loops are loops that repeat based on a certain co
 
 **Lesson 4.** Plan, Plan, Plan <br>
 In this lesson, students will continue practicing solving challenges by planning their
-journey. They will need to decide which instructions are before and after the loop and
-which instructions are included within the loop.
+journey. They must decide which instructions are before and after the loop and which inside the loop.
 </div>
 
 <div class="col-sm-4 left">
@@ -197,18 +193,16 @@ which instructions are included within the loop.
 #### Session 5. Advanced Conditional Looping
 
 **Lesson 1.** It is complicated<br>
-In this lesson, the loop is getting complicated – the basic step within the loop is
-composed of two instructions.
+Students learn to code loops whose bodies are composed of two instructions.
 
 **Lesson 2.** Two is a company <br>
-Up until now, the students solved the challenges using a single loop and blocks inside the loop. In this lesson, 
-students will learn how to implement two separate loops one after the other.
+Students learn how to implement two separate loops, one after the other.
 
 **Lesson 3.** Look Around<br>
-Students will use multiple loops as required for moving back and forth.
+Students use multiple loops to move back and forth.
 
 **Lesson 4.** Three is more fun <br>
-In this lesson, students will learn how to add more than two loops and how to use the same conditional loop for different parts of the solution.
+Students learn how to add more than two loops and use the same conditional loop for different parts of the solution.
 </div>
 
 <div class="col-sm-4 left">
@@ -234,18 +228,16 @@ In this lesson, students will learn how to add more than two loops and how to us
 #### Session 6. Procedures
 
 **Lesson 1.** What is a procedure?<br>
-In this lesson, students will learn how to write procedures and what characterizes a modular solution. 
+Students learn how to write procedures and what characterizes a modular solution. 
 
 **Lesson 2.** Can you do it? <br>
-In this lesson, the students will continue writing procedures and will see how simple
-the use of procedures is and the flexibility it gives the program.
+Students continue writing procedures.
 
 **Lesson 3.** You are the master<br>
-In this lesson, the challenges are getting complicated. Students need to use 2 or 3
-procedures in each challenge and the code in each procedure is getting longer.
+Students need to use several procedures in each challenge, and the code of each procedure is getting longer.
 
 **Lesson 4.** Advanced Procedures <br>
-Students will face challenges with validating the path and moving in both directions to get to the bananas as well as the treasure chest.
+Students face challenges with validating the path and moving in both directions to get to the bananas and the treasure chest.
 </div>
 
 <p><br></p>

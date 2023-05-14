@@ -10,10 +10,10 @@ description = "At Blue Ridge Boost, we teach the same fundamental coding concept
 
 <div class="col-sm-10 left">
 
-Students learn fundamental coding concepts using Coffee Script, a beginner-friendly text-based coding language. The young coders use an attractive graphical interface to generate text by pressing buttons on instructor-provided Chromebooks. Some previous experience typing is helpful, but not necessary. 
+Students learn fundamental coding concepts using Coffee Script, a beginner-friendly text-based coding language. The young coders use an attractive graphical interface to generate text by pressing buttons on instructor-provided Chromebooks. Some previous experience typing is helpful but not necessary. 
 
 
-The classes run in 4 week-sessions. Each class is 50 minutes long. Classes are adjusted to the pace of the student with students typically needing between ten to fourteen sessions to complete the course depending on age and previous coding experience.
+Classes run in four-week sessions. Each class is 50 minutes long. We adjust classes to the pace of each student. Students typically need between ten to fourteen sessions to complete the course, depending on age and previous coding experience.
 
 </div></div></div>
 
@@ -28,7 +28,7 @@ The classes run in 4 week-sessions. Each class is 50 minutes long. Classes are a
 
 #### Session 1
 
-Students learn that coding is giving precise instructions to a computer, use advanced planning to create efficient programs, and learn the concept of objects and learn that objects can perform several actions.
+Students learn that coding is giving precise instructions to a computer, using advanced planning to create efficient programs. Students study objects that can perform several actions.
 
 #### Session 2
 
@@ -36,10 +36,10 @@ Students learn to code repetitions using loops and variables.
 
 #### Session 3
 
-Students learn to write complex code using variables and arrays and to use indexing to access elements of the array.
+Students learn to write complex code using variables and arrays and to use indexing to access array elements.
 
 #### Session 4
-Students learn to code ``for`` loops, variables and indexing.
+Students learn to code ``for`` loops, variables, and indexing.
 
 #### Session 5
 Students learn functions! They practice writing function definitions and experiment with
@@ -49,7 +49,7 @@ defining functions that call each other.
 Students learn conditional loops that repeat until a condition is satisfied.
 
 #### Session 7
-Students learn the conditional statements ``if`` and ``if else``. They practice using the new statements in conjunction with previously learn concepts, including loops and functions.
+Students learn the conditional statements `if` and `if else`. Then, they practice using the new statements in conjunction with previously learned concepts, including loops and functions.
 
 #### Session 8
 Students learn the logical operators ``or`` and ``and`` and code conditional statements with compound conditions.

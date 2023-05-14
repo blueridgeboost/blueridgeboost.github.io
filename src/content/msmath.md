@@ -12,18 +12,16 @@ description = "Does your student need extra help in math? Does your student need
 At Blue Ridge Boost, a qualified and experienced teacher assesses your student's knowledge and builds an **individualized instruction** plan that targets weak areas while assisting with topics the student is learning. 
 
 #### Supplementing Classroom Instruction
+The instructor will work with the classroom teacher when available to match the teaching style and materials to maintain **consistency** in the presentation style. For example, in a tutoring session, the instructor **reviews** concepts your student learned in class and **assists with homework**. If the student needs extra practice, the instructor proposes new problems for the student to solve independently.
 
-The instructor will work with the classroom teacher when available to match the style of teaching and materials to maintain **consistency** in the style of presentation.
-In a tutoring session, the instructor **reviews** concepts your student learned in class and **assists with homework**. If the student needs help with some problems, then the instructor proposes new problems for the student to solve independently.
-
-When your student needs an alternate view of the topic or just wants to learn a topic not taught in class, our instructors create individualized lessons at the level needed by the student.
+When your student needs an alternate view or wants to learn a topic not taught in class, our instructors create individualized lessons at the level the student needs.
 
 
 #### Teaching New Topics
 
-Our instructors are qualified teachers with tutoring experience in middle school math, including algebra and geometry. We use a variety of texts and materials including the *Art of Problem Solving* curriculum and *All Things Algebra*.
+Our instructors are qualified teachers with tutoring experience in middle school math, including algebra and geometry. We use a variety of texts and materials, including the _Art_ of Problem Solving* curriculum and *All Things Algebra*.
 
-Students learn math by solving increasingly difficult problems. In a tutoring session, the student is taught how to approach a problem through a series of questions or direct instruction. After that, the student is presented with a set of problems that are small variations of the original, which will be solved with the instructor's assistance when needed. Students gain confidence to approach problems never seen before. 
+Students learn math by solving increasingly complex problems. In a tutoring session, the student learns how to approach a problem through questions or direct instruction. After that, the student solves problems that are variations of the original, which will be solved with the instructor's assistance when needed. As a result, students gain confidence to approach problems never seen before. 
 
 </div>
 

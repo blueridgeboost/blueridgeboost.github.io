@@ -14,7 +14,7 @@ Are you a middle schooler interested in Python? Come and learn with us!
 
 Students learn Python using a combination of lessons that use the Code Monkey platform and Jupyter Notebooks created by the instructor.
 
-Classes run in 4 week-sessions. Each class is 50 minutes long. Classes are adjusted to the pace of the student with students typically needing between ten to fourteen sessions to complete the course depending on age and previous coding experience.
+Classes run in four-week sessions. Each class is 50 minutes long. We adjust classes to the pace of each student. Students typically need between ten to fourteen sessions to complete the course, depending on age and previous coding experience.
 
 </div></div></div>
 
@@ -29,46 +29,52 @@ Classes run in 4 week-sessions. Each class is 50 minutes long. Classes are adjus
 
 #### Session 1. Sequencing, Objects and For Loops
 
-Students learn that coding is giving precise instructions to a computer, the concept of objects and that objects can perform several actions. In addition, students learn to create and manipulate lists, a fundamental concept in computing and use ``for`` commands to loop through lists. The first three lessons use the Code Monkey platform, and the fourth introduces students to Jupyter Notebooks.
+Students learn that coding means giving precise instructions to a computer, the concept of objects, and that objects can perform several actions. In addition, students learn to create and manipulate lists, a fundamental idea in computing, and use ``for`` commands to loop through lists. The first three lessons use the Code Monkey platform, and the fourth introduces students to Jupyter Notebooks.
 
 #### Session 2. More on Loops, Lists and Variables
 
-Students deepen their understanding of loops and learn to create complex programs by storing intermediate computations into variables. Two lessons use the Code Monkey platform and in the last two lessons students practice using Jupyter Notebooks with the ``range`` function and mathematical expressions.
+Students deepen their understanding of loops and learn to create complex programs by storing intermediate computations into variables. Two lessons use the Code Monkey platform, and in the last two lessons, students practice using Jupyter Notebooks with the ``range`` function and mathematical expressions.
 
 #### Session 3. Conditional Statements 
- Students learn to write programs whose execution depends on the truth value of variables, including ``if``, ``if/else`` and ``while`` commands. Three lessons use Code Monkey and the fourth is instructor assigned practice using Jupyter Notebooks.
+ Students learn to write programs whose execution depends on the truth value of variables, including ``if``, ``if/else``, and ``while`` commands. Three lessons use Code Monkey; the fourth is instructor-assigned practice using Jupyter Notebooks.
 
 #### Session 4. Boolean Operators
 
-Students learn to code using the Booleand operators ``and``, ``or``, and ``not``. Two lessons use Code Monkey and the fourth is instructor assigned practice using Jupyter Notebooks.
+Students learn to code using the Boolean operators ``and``, ``or``, and ``not``. Two lessons use Code Monkey; the fourth is instructor-assigned practice using Jupyter Notebooks.
 
 #### Session 5. Functions
 
-Students learn to define and call functions. One lesson uses Code Monkey and the rest are created by instructor.
+Students learn to define and call functions. One lesson uses Code Monkey, and the rest are created by instructor.
 
 #### Session 6. Classes
 
-Students learn to define classes. One lesson uses Code Monkey and the rest are created by instructor.
+Students learn to define classes. One lesson uses Code Monkey, and the rest instructor-assigned practice using Jupyter Notebooks.
+
 
 #### Session 7. Input
 
-Students learn to create programs that ask for user input or read it from a file. One lesson uses Code Monkey and the rest are created by instructor.
+Students learn to create programs that ask for user input or read it from a file. One lesson uses Code Monkey, and the rest are instructor-assigned practice using Jupyter Notebooks.
+
 
 #### Session 8. Strings
 
-Students learn to work with String data. One lesson uses Code Monkey and the rest are created by instructor.
+Students learn to work with String data. One lesson uses Code Monkey, and the rest are instructor-assigned practice using Jupyter Notebooks.
 
-#### Session 8. Dictionaries, Sets and Tuples
 
-Students learn to work with two new data structures, dictionary and set. Two lessons use Code Monkey and the rest are created by instructor.
+#### Session 8. Dictionaries, Sets, and Tuples
+
+Students learn to work with two new data structures, dictionary, and set. Two lesson use Code Monkey, and the rest are instructor-assigned practice using Jupyter Notebooks.
+
 
 #### Session 9. 2D Lists
 
-Students learn to work with two dimensional lists. Two lessons use Code Monkey and the rest are created by instructor.
+Students learn to work with two-dimensional lists.  Two lesson use Code Monkey, and the rest are instructor-assigned practice using Jupyter Notebooks.
+
 
 #### Session 10. Search and Sorting
 
-Students learn to code sequential and binary search and study the bubble sort algorithm. Two lessons use Code Monkey and the rest are created by instructor.
+Students learn to code sequential and binary search, and study the bubble sort algorithm.  Two lesson use Code Monkey, and the rest are instructor-assigned practice using Jupyter Notebooks.
+
 
 </div>
 

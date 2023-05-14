@@ -4,10 +4,10 @@ heading = "AP Calculus AB/BC Tutoring"
 description = ""
 +++
 
-#### Get Ready for AP Statistics! 
+#### Get Ready for AP Calculus AB/BC! 
 
-Join our summer classes in August, to participate in a carefully developed curriculum to review probabilities, statistics, and linear, quadratic and exponential functions.
+Join our summer classes in August to participate in a carefully developed curriculum to review linear, quadratic, polynomial, exponential, and trigonometric functions.
 
 #### Tutoring
 
-Contact us for problem solving sessions!
+Contact us for problem-solving sessions!

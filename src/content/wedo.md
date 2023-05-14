@@ -10,12 +10,9 @@ keywords = ["Lego", "Wedo", "robotics",  "coding for children", ]
 # Build Lego Robots and Code with WeDo 2.0
 
 Come and learn to build and program Lego robots!
-
-In each lesson students build a Lego robot using a design model,
+In each lesson, students build a Lego robot using a design model,
 improve and extend it, and then create a program using Scratch to
-control and move the robot. The robots use a medium power motor to act
-and a depth and a tilt sensor to sense. A Scratch program encodes the
-robots actions in response to sensing.
+control and move the robot. The robots use a medium power motor to act, depth, and tilt sensor to sense. A Scratch program encodes the robot's actions in response to sensing.
 
 ##
 

@@ -9,15 +9,11 @@ description = "Tutoring for high achieving students"
 <br>
 
 # History of Blue Ridge Boost
+During the COVID-19 pandemic, I spent significant time teaching and helping my children learn and discovered that I greatly enjoy teaching young students. As a result, I quit my Ph.D. program in Computer Science to pursue a degree in teaching at the University of Virginia, which I completed in May 2022. 
 
-During the COVID-19 pandemic, I spent significant time teaching and helping my children learn and discovered that I greatly enjoy teaching young students. I quit a my Ph.D. program in Computer Science to pursue a degree in teaching at the University of Virginia, which I completed in May 2022. 
+During the lockdown, my children tried a variety of challenging and exciting classes. Still, however good the instructors were, they could not compensate for the lack of face-to-face interaction.
 
-During the lockdown, I tried with my children a variety of challenging and interesting classes, but however good the instructors were, they could not compensate for the lack of face-to-face interaction.
-
-I wanted to offer an affordable in-person alternative to courses for
-advanced students that are ready for challeging content and founded
-Blue Ridge Boost to offer year-round in-person high-quality education
-in math and coding.
+I wanted to offer an affordable in-person alternative to courses for advanced students ready for challenging content. So I founded Blue Ridge Boost to offer year-round in-person high-quality education in math and coding.
 
 We started in 2021 with math and coding tutoring
 online in person from my home for advanced high school and college
@@ -31,8 +27,7 @@ office.
 
 # Mission
 
-Blue Ridge Boost is unique in that we offer affordable year-round
-high-quality coding and individual math and coding education.
+Blue Ridge Boost is unique in offering affordable year-round, high-quality coding and individual math and coding education.
 
 Our coding classes teach core coding concepts and are developed and
 selected by experienced educators and engineers. Our math classes

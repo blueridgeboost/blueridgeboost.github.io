@@ -12,13 +12,13 @@ description = "Get ready for AP Statistics"
 
 #### Get Ready for AP Statistics! 
 
-Join our summer classes in August, to participate in a carefully developed curriculum to review probabilities, statistics, and linear, quadratic and exponential functions.
+Join our summer classes in August to participate in a carefully developed curriculum to review probabilities, statistics, and linear, quadratic, and exponential functions.
 
 
 
 #### Tutoring
 
-Contact us for problem solving sessions!
+Contact us for problem-solving sessions!
 
 </div>
 

@@ -12,8 +12,7 @@ keywords = ["Scratch", "coding",  "coding for children", ]
 <div class="row">
 
 <div class="col-sm-6">
-
-Come learn Scratch with us! We teach Scratch using a project-based approach. You will learn to create games, including Make it Fly!, Dungeons, Pong, Dodge the Balls, Jumping game, Math facts practice, a clone of Crossy Road and much more.
+Learn Scratch with us! We teach Scratch using a project-based approach. You will learn to create games, including Make it Fly!, Dungeons, Pong, Dodge the Balls, Jumping game, Math facts practice, a clone of Crossy Road, and much more.
 
 </div>
 

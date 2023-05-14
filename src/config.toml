@@ -39,6 +39,12 @@ unsafe= true
     weight     = 2
 
 [[menu.main]]
+    name       = "Camps"
+    identifier = "menu.aug23"
+    url        = "/aug23"
+    weight     = 2
+
+[[menu.main]]
     name       = "Coding"
     identifier = "menu.coding"
     url        = "/coding/"

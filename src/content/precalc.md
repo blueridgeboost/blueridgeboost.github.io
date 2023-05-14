@@ -13,20 +13,22 @@ description = ""
 
 #### Get Ready for Math Analysis/Precalc! 
 
-Join our summer classes in August, to participate in a carefully developed curriculum to review **Algebra 2 and Trigonometry** including quadratic, exponential, polynomial and trigonometric functions.
+Join our summer classes in August to participate in a carefully developed curriculum to review **Algebra 2 and Trigonometry**, including quadratic, exponential, polynomial, and trigonometric functions.
 
 #### Precalc Remediation
 
-The instructor will work with the classroom teacher when available to match the style of teaching and materials to maintain **consistency** in the style of presentation.
-In a tutoring session, the instructor **reviews** concepts your student learned in class and assists with homework. If the student needs help with some problems, then the instructor proposes **new problems** for the student to solve independently.
+The instructor will work with the classroom teacher when available to match the teaching style and materials to maintain **consistency** in the presentation style. For example, in a tutoring session, the instructor **reviews** concepts your student learned in class and **assists with homework**. If the student needs extra practice, the instructor proposes new problems for the student to solve independently.
 
-When your student needs an alternate view of the topic or just wants to learn a topic not taught in class, our instructors create individualized lessons at the level needed by the student.
+When your student needs an alternate view or wants to learn a topic not taught in class, our instructors create individualized lessons at the level the student needs.
+
+
+When your student needs an alternate view or wants to learn a topic not taught in class, our instructors create individualized lessons at the level the student needs.
 
 #### Precalc for Advanced Students
 
-Our instructors are qualified teachers with tutoring experience in middle school math, including algebra and geometry. We use a variety of texts and materials including the *Art of Problem Solving* curriculum, and *Flamingo Math*.
+Our instructors are qualified teachers with tutoring experience in middle school math, including algebra and geometry. We use a variety of texts and materials, including the *Art of _Problem Solving_ curriculum and _Flamingo_ Math*.
 
-Students are presented with challenging problems for a deeper understanding of the subject. 
+Students learn by solving challenging problems for a deeper understanding of the subject. 
 
 </div>
 
