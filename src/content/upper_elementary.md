@@ -26,297 +26,50 @@ The classes run in 4 week-sessions. Each class is 50 minutes long. Classes are a
 
 <div class="col-sm-4">
 
-#### Lessons 1 and 2
+#### Session 1
 
-Students learn that coding is giving precise instructions to a computer. 
-Students learn to use advanced planning to create efficient programs.
+Students learn that coding is giving precise instructions to a computer, use advanced planning to create efficient programs, and learn the concept of objects and learn that objects can perform several actions.
 
-</div>
+#### Session 2
 
-<div class="col-sm-6 left">
+Students learn to code repetitions using loops and variables.
 
-<center>
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img  alt="Code sample" src="/images/ca1.png" width="75%" style="padding:20px;"></a>
+#### Session 3
 
-</center>
+Students learn to write complex code using variables and arrays and to use indexing to access elements of the array.
 
-</div>
-
-</div>
-
-</div>
-
-
-<a name="session2"></a>
-
-<div class="container">
-
-<div class="row">
-
-
-<div class="col-sm-4">
-
-#### Lessons 3 and 4
-
-Students learn the concept of objects and learn that objects can perform several actions.
-
-</div>
-
-<div class="col-sm-6 left">
-
-<center>
-
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca2.png" width="75%" style="padding:20px;"></a>
-</center>
-
-</div>
-
-</div>
-
-</div>
-
-
-<a name="session3"></a>
-
-<div class="container">
-
-<div class="row">
-
-
-<div class="col-sm-4">
-
-#### Lessons 5 and 6
-
-Students learn to code repetitions using loops.
-</div>
-
-<div class="col-sm-6 left">
-
-<center>
-
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca3.png" width="75%" style="padding:20px;"></a>
-</center>
-
-</div>
-
-</div>
-
-</div>
-
-<a name="session4"></a>
-
-<div class="container">
-
-<div class="row">
-
-
-<div class="col-sm-4">
-
-#### Lessons 7 through 10
-
-Students learn to code using variables.
-</div>
-
-<div class="col-sm-6 left">
-
-<center>
-
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca4.png" width="75%" style="padding:20px;"></a>
-</center>
-
-</div>
-
-</div>
-
-</div>
-
-<a name="session5"></a>
-
-<div class="container">
-
-<div class="row">
-
-
-<div class="col-sm-4">
-
-#### Lesson 11
-
-Students learn to code using arrays and to use indexing to access elements of the array.
-</div>
-
-<div class="col-sm-6 left">
-
-<center>
-
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca5.png" width="75%" style="padding:20px;"></a>
-</center>
-
-</div>
-
-</div>
-
-</div>
-
-<a name="session6"></a>
-
-<div class="container">
-
-<div class="row">
-
-
-<div class="col-sm-4">
-
-#### Lessons 12 through 16
-
+#### Session 4
 Students learn to code ``for`` loops, variables and indexing.
-</div>
 
-<div class="col-sm-6 left">
-
-<center>
-
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca6.png" width="75%" style="padding:20px;"></a>
-</center>
-
-</div>
-
-</div>
-
-</div>
-
-<a name="session7"></a>
-
-<div class="container">
-
-<div class="row">
-
-
-<div class="col-sm-4">
-
-
-#### Lessons 17 through 19
-
+#### Session 5
 Students learn functions! They practice writing function definitions and experiment with
 defining functions that call each other.
-</div>
 
-<div class="col-sm-6 left">
-
-<center>
-
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca7.png" width="75%" style="padding:20px;"></a>
-</center>
-
-</div>
-
-</div>
-
-</div>
-
-<a name="session8"></a>
-
-<div class="container">
-
-<div class="row">
-
-
-<div class="col-sm-4">
-
-
-#### Lessons 20 through 22
-
+#### Session 6
 Students learn conditional loops that repeat until a condition is satisfied.
-</div>
 
-<div class="col-sm-6 left">
-
-<center>
-
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca8.png" width="75%" style="padding:20px;"></a>
-</center>
-
-</div>
-
-</div>
-
-</div>
-
-<a name="session9"></a>
-
-<div class="container">
-
-<div class="row">
-
-
-<div class="col-sm-4">
-
-
-#### Lessons 23 through 24
-
+#### Session 7
 Students learn the conditional statements ``if`` and ``if else``. They practice using the new statements in conjunction with previously learn concepts, including loops and functions.
-</div>
 
-<div class="col-sm-6 left">
-
-<center>
-
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca9.png" width="75%" style="padding:20px;"></a>
-</center>
-
-</div>
-
-</div>
-
-</div>
-
-<a name="session10"></a>
-
-<div class="container">
-
-<div class="row">
-
-
-<div class="col-sm-4">
-
-
-#### Lessons 25 through 29
-
+#### Session 8
 Students learn the logical operators ``or`` and ``and`` and code conditional statements with compound conditions.
-</div>
 
-<div class="col-sm-6 left">
-
-<center>
-
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca10.png" width="75%" style="padding:20px;"></a>
-</center>
-
-</div>
-
-</div>
-
-</div>
-
-<a name="sessionpart3"></a>
-
-<div class="container">
-
-<div class="row">
-
-
-<div class="col-sm-4">
-
-
-#### Lessons 30 through 48
-
+#### Sessions 9 through end of course
 Students learn the ``not`` logical operator, concepts related to computer games, integer operators, return values from functions, event-driven programming, and more.
 </div>
 
 <div class="col-sm-6 left">
 
 <center>
-
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca11.png" width="75%" style="padding:20px;"></a>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img  alt="Code sample" src="/images/ca1.png" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca2.png" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca3.png" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca4.png" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca5.png" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca6.png" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca7.png" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca8.png" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca9.png" width="75%" style="padding:20px;"></a>
 </center>
 
 </div>
