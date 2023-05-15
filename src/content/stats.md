@@ -2,6 +2,7 @@
 title = "AP Statistics Tutoring in Charlottesville"
 heading = "AP Statistics Tutoring"
 description = "Get ready for AP Statistics"
+keywords=["Charlottesville math tutor", "Charlottesville statisctics tutor", "Charlottesville AP Stats tutor", "cvillemath", "math", "tutor", "private tutor", "UVA tutor", "math tutor", "GRE math tutor", "homeschool math tutor", "math teacher", "Charlottesville math", "Charlottesville"]
 +++
 
 <div class="container">

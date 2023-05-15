@@ -2,7 +2,7 @@
 title = "Scratch Coding for Children in Charlottesville"
 header = " "
 description = "At Blue Ridge Boost, we teach kids math, problem-solving skills, and more." 
-keywords = ["Scratch", "coding",  "coding for children", ]
+keywords = ["Scratch", "coding",  "coding for children", "APCSP", "AP", "AP Computer Science",  "Java", "Java tutor", "Charlottesville coding tutor", "Charlottesville Python tutor", "Charlottesville AP Computer Science tutor", "cvillecoding", "coding", "tutor", "private tutor", "UVA tutor", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
 +++
 
 <div class="container">
