@@ -1,7 +1,8 @@
 +++
 title = "Algebra 2 Tutoring in Charlottesville"
 heading = "Algebra 2"
-description = "Want to get ready for algebra 2? Need algebra tutoring?"
+description = "Want to get ready for Algebra 2? Need Algebra tutoring?"
+keywords=["Charlottesville math tutor", "Charlottesville algebra tutor", "Charlottesville AP Calculus tutor", "cvillemath", "math", "tutor", "private tutor", "UVA tutor", "math tutor", "GRE math tutor", "homeschool math tutor", "math teacher", "Charlottesville math", "Charlottesville"]
 +++
 
 <div class="container">

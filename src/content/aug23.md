@@ -2,6 +2,7 @@
 title = "Math and Coding Camp Charlottesville"
 header = " "
 description = ""
+keywords = ["coding camp", "math camp", "summer math",  "math review", "Charlottesville coding tutor", "Charlottesville Python tutor", "Charlottesville AP Computer Science tutor", "cvillecoding", "coding", "tutor", "private tutor", "UVA tutor", "computer science tutor", "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
 +++
  
 

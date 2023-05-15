@@ -14,9 +14,6 @@ Come in to see the space and meet the instructor!
 Bring in your child for demo sessions.
 
 
-</div>
-</div>
-
 
 
 

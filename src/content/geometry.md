@@ -2,6 +2,7 @@
 title = "Geometry Tutoring in Charlottesville"
 heading = "Geometry"
 description = "Want to get ready for geometry? Need geometry tutoring?"
+keywords=["Charlottesville math tutor", "Charlottesville geometry tutor", "Charlottesville AP Calculus tutor", "cvillemath", "math", "tutor", "private tutor", "UVA tutor", "math tutor", "GRE math tutor", "homeschool math tutor", "math teacher", "Charlottesville math", "Charlottesville"]
 +++
 <div class="container">
 

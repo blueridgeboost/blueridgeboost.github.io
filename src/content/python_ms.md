@@ -2,6 +2,7 @@
 title = "Python Classes in Charlottesville"
 heading = "Python coding for middle school"
 description = "At Blue Ridge Boost, we teach the same fundamental coding concepts to students of all ages. Find out more about our in-person coding classes!"
+keywords = ["APCSP", "AP", "AP Computer Science",  "Java", "Java tutor", "Charlottesville coding tutor", "Charlottesville Python tutor", "Charlottesville AP Computer Science tutor", "cvillecoding", "coding", "tutor", "private tutor", "UVA tutor", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
 +++
 
 <div class="container">
