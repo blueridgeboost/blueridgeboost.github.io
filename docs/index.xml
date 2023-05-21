@@ -34,7 +34,8 @@ Bring in your child for demo sessions.</description>
       <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/blog/2022/09/05/post3/</guid>
-      <description>The new office is ready for students!</description>
+      <description>The new office is ready for students!
+      </description>
     </item>
     
     <item>
@@ -45,7 +46,8 @@ Bring in your child for demo sessions.</description>
       <guid>https://blueridgeboost.com/blog/2022/08/29/post2/</guid>
       <description>Starting in September, Blue Ridge Boost is located at 222 Court Square, Charlottesville.
 To reach us, please walk around to the back of the building. Walk up the stairs to the secong floor and enter through the door on your left.
-The closest paid parking is the Market Street Garage. Free 2-hour parking is available throughout the Downtown area.</description>
+The closest paid parking is the Market Street Garage. Free 2-hour parking is available throughout the Downtown area.
+      </description>
     </item>
     
     <item>
@@ -104,7 +106,9 @@ Tutoring Contact us for problem-solving sessions!</description>
       
       <guid>https://blueridgeboost.com/stats/</guid>
       <description>Get Ready for AP Statistics! Join our summer classes in August to participate in a carefully developed curriculum to review probabilities, statistics, and linear, quadratic, and exponential functions.
-Tutoring Contact us for problem-solving sessions!</description>
+Tutoring Contact us for problem-solving sessions!
+ 
+   --   </description>
     </item>
     
     <item>
@@ -122,7 +126,7 @@ Tutoring Contact us for problem-solving sessions!</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/k2/</guid>
-      <description>Block Language Coding for Lower Elementary School Students Students learn fundamental coding concepts by helping [a beaver build a dam](https://www.codemonkey.com/courses/beaver-achiever/) on instructor-provided Chromebooks. First, students learn to code using simple commands to move left, right and drop logs. Next, students learn to code repetition using repeat loops executed a fixed or a variable number of times. In the second part of the course, students learn to code using conditional loops.</description>
+      <description>Block Language Coding for Lower Elementary School Students Students learn fundamental coding concepts by helping [a beaver build a dam](https://www.codemonkey.com/courses/beaver-achiever/) on instructor-provided Chromebooks. First, students learn to code using simple commands to move left, right and drop logs. Next, students learn to code repetition using repeat loops executed a fixed or a variable number of times. In the second part of the course, students learn to code using conditional loops. In the third part of the course, students learn to code using conditional statements with simple and compound conditions.</description>
     </item>
     
     <item>
@@ -131,8 +135,10 @@ Tutoring Contact us for problem-solving sessions!</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/form/</guid>
-      <description>Please submit this form or email nora@blueridgeboost.com for more information or to join a class.Your email:Your name:Which type of class are you interested in?Select and age rangeKindergarten - Second GradeSecond - Fifth GradeMiddle SchoolAny other information that would be helpful (including scheduling preferences):
-Send</description>
+      <description>Please submit this form or email nora@blueridgeboost.com for more information or to join a class. 
+ Your email: 
+  Your name:    Which type of class are you interested in? Select and age range Kindergarten - Second Grade Second - Fifth Grade Middle School     Any other information that would be helpful (including scheduling preferences):
+  Send</description>
     </item>
     
     <item>
@@ -141,17 +147,15 @@ Send</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/classes/</guid>
-      <description>Kindergarten &amp;ndash; Second GradeBlock Coding
-Times by requestScratch
-Sundays, 1:00 &amp;ndash; 1:50 pm Sundays, 2:00 &amp;ndash; 2:50 pmSecond &amp;ndash; Fifth Grade
-Coffee Script Sundays, 11:00 &amp;ndash; 11:50 am
+      <description>Free trial classes every Saturday at 10 am and every Sunday at 4:30 pm. Sign up for a free trial class here!    -- 
+Kindergarten &amp;ndash; Second Grade 
+Block Coding
+Times by request   Scratch
+Sundays, 1:00 &amp;ndash; 1:50 pm Sundays, 2:00 &amp;ndash; 2:50 pm  Second &amp;ndash; Fifth Grade
+
+Coffee Script  Sundays, 11:00 &amp;ndash; 11:50 am
 Sundays, 3:30 &amp;ndash; 4:30 pm
-Other times by requestMiddle School
-PythonSaturdays, 2:30 &amp;ndash; 3:20 pm
-Sundays, 12:00 &amp;mdash; 12:50 pm
-Other times by request
-Four coding classes for only $95!
-Small classes &amp;mdash; no more than six students in a class.</description>
+Other times by request   Middle School</description>
     </item>
     
     <item>
@@ -169,7 +173,10 @@ Small classes &amp;mdash; no more than six students in a class.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/coding/</guid>
-      <description>Coding Lessons and CoursesPreschool CodingBlock Languages using Code MonkeyRobotics with Lego WeDo 2.0ScratchRobotics with Lego SpikeCoffee Script using Code MonkeyPython ProgrammingTutoringAP Computer Science Principles (Python)AP Computer Science (Java)USA Computing Olympiad BronzeIntro to ProgrammingData Structures and AlgorithmsDiscrete Math and TheoryProgramming Languages</description>
+      <description> Coding Lessons and Courses Preschool Coding Block Languages using Code Monkey Robotics with Lego WeDo 2.0 Scratch Robotics with Lego Spike Coffee Script using Code Monkey Python Programming  Tutoring AP Computer Science Principles (Python) AP Computer Science (Java) USA Computing Olympiad Bronze College-Level Courses-- Intro to Programming Data Structures and Algorithms Discrete Math and Theory Programming Languages   
+
+
+ </description>
     </item>
     
     <item>
@@ -198,7 +205,7 @@ The content of the class depends on the target competition and the student&amp;r
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/cstutoring/</guid>
-      <description>Click on a session to see availability and book it! </description>
+      <description>Click on a session to see availability and book it! window.addEventListener &amp;&amp; window.addEventListener(&#34;message&#34;, function(event){if (event.origin === &#34;https://blueridgeboost-cs.youcanbook.me&#34;){document.getElementById(&#34;ycbmiframeblueridgeboost-cs&#34;).style.height = event.data + &#34;px&#34;;}}, false);</description>
     </item>
     
     <item>
@@ -235,7 +242,7 @@ Geometry Remediation The instructor will work with the classroom teacher when av
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/math/</guid>
-      <description>Elementary (K-5)Elementary MathMath OlympiadMiddle School (5-8th grade)Middle School MathAlgebra 1 GeometryAMC 8/10/12High SchoolAlgebra 2Pre-calculusPrep for AP Calculus AB and BCPrep for AP StatisticsCollegeCalculusAbstract AlgebraReal AnalysisGeneral Topology</description>
+      <description>Elementary (K-5) Math Counts -- Elementary Math Math Olympiad  Middle School (5-8th grade) Middle School Math Algebra 1 Geometry AMC 8/10/12     High School Algebra 2 Pre-calculus Prep for AP Calculus AB and BC Prep for AP Statistics  College Calculus Abstract Algebra Real Analysis General Topology      </description>
     </item>
     
     <item>
@@ -262,10 +269,12 @@ Geometry Remediation The instructor will work with the classroom teacher when av
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/aug23/</guid>
-      <description>Morning Coding and Math CampAges 6 to 10: Come to learn to code using Scratch or Coffee Script, build Lego robots and solve math puzzles!
+      <description>Morning Coding and Math Camp 
+Ages 6 to 10: Come to learn to code using Scratch or Coffee Script, build Lego robots and solve math puzzles!
 Session 1: 9 am to 1 pm, July 31st to August 4th
 Session 2: 9 am to 1 pm, August 7th to August 11th
-Afternoon Math Review!
+ Afternoon Math Review!
+
 Algebra 1: 1:30 to 3:30 pm, July 31st to August 4th Geometry: 2 to 4 pm, July 31st to August 4th Algebra 2: 1:30 to 3:30 pm, August 7th to August 11th Precalculus: 2 to 4 pm, August 7th to August 11th AP Calculus AB/BC: 1:30 to 3:30 pm, August 14th to August 18th AP Statistics: 2 to 4 pm, August 14th to August 18th</description>
     </item>
     
@@ -275,7 +284,7 @@ Algebra 1: 1:30 to 3:30 pm, July 31st to August 4th Geometry: 2 to 4 pm, July 31
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/mathtutoring/</guid>
-      <description>Click on a session to see availability and book it! </description>
+      <description>Click on a session to see availability and book it! window.addEventListener &amp;&amp; window.addEventListener(&#34;message&#34;, function(event){if (event.origin === &#34;https://blueridgeboost-math.youcanbook.me&#34;){document.getElementById(&#34;ycbmiframeblueridgeboost-math&#34;).style.height = event.data + &#34;px&#34;;}}, false); </description>
     </item>
     
     <item>
@@ -285,7 +294,8 @@ Algebra 1: 1:30 to 3:30 pm, July 31st to August 4th Geometry: 2 to 4 pm, July 31
       
       <guid>https://blueridgeboost.com/elementary/</guid>
       <description>At Blue Ridge Boost, we teach problem-solving skills using a variety of math manipulatives, Montessori materials, and math games. In addition, we use a variety of curricula based on the Virginia Standards of Learning, Common Core, Singapore Math, and Beast Academy.
-Experienced instructors are ready to help your child develop a good understanding of the content, whether to keep up with classwork or expand knowledge beyond the school curriculum.</description>
+Experienced instructors are ready to help your child develop a good understanding of the content, whether to keep up with classwork or expand knowledge beyond the school curriculum.
+        </description>
     </item>
     
     <item>
@@ -352,7 +362,7 @@ Classes run in four-week sessions. Each class is 50 minutes long. We adjust clas
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/scratch/</guid>
-      <description>Scratch Coding Learn Scratch with us! We teach Scratch using a project-based approach. You will learn to create games, including Make it Fly!, Dungeons, Pong, Dodge the Balls, Jumping game, Math facts practice, a clone of Crossy Road, and much more.</description>
+      <description>Scratch Coding Learn Scratch with us! We teach Scratch using a project-based approach. You will learn to create games, including Make it Fly!, Dungeons, Pong, Dodge the Balls, Jumping game, Math facts practice, a clone of Crossy Road, and much more.        </description>
     </item>
     
     <item>
@@ -371,7 +381,7 @@ The content of the class depends on the target competition and the student&amp;r
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/instructor/</guid>
-      <description>Math Experience Master of Science - Mathematics from the University of Virginia Master of Teaching - Mathematics Algebra teacher at Peabody School AMC8 and MathCounts coach AP Summer Institute training in AP Calculus AB/BC Calculus and Abstract Algebra in-person tutoring for over a year internship at Monticello High School in Algebra 2, Precalculus, and Geometry co-founder and organizer of Cville Math Circle for preschool and elementary school-age girls teaching assistant for graduate-level courses Financial Mathematics instructor at the University of Virginia Computer Science and Coding Experience Master in Computer Science co-author of several research articles several years of industry experience over a year of online tutoring on Wyzant in C, C++, Java, Python, List, and Prolog.</description>
+      <description>Math Experience  Master of Science - Mathematics from the University of Virginia Master of Teaching - Mathematics Algebra teacher at Peabody School AMC8 and MathCounts coach AP Summer Institute training in AP Calculus AB/BC Calculus and Abstract Algebra in-person tutoring for over a year internship at Monticello High School in Algebra 2, Precalculus, and Geometry co-founder and organizer of Cville Math Circle for preschool and elementary school-age girls teaching assistant for graduate-level courses Financial Mathematics instructor at the University of Virginia  Computer Science and Coding Experience  Master in Computer Science co-author of several research articles several years of industry experience over a year of online tutoring on Wyzant in C, C++, Java, Python, List, and Prolog.</description>
     </item>
     
   </channel>
