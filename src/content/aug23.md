@@ -20,7 +20,7 @@ keywords = ["coding camp", "math camp", "summer math",  "math review", "Charlott
 
 **Ages 6 to 10:** Come to learn to code using Scratch or Coffee Script, build Lego robots and solve math puzzles! The activities do not repeat; students may join us for one, two, or all three weeks!
 
-**Session 1**: 9 am to 1 pm, July 24th to August 29th 
+**Session 1**: 9 am to 1 pm, July 24th to August 28th 
 
 **Session 2**: 9 am to 1 pm, July 31st to August 4th 
 
