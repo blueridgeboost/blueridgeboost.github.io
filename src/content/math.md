@@ -1,7 +1,6 @@
 +++
-title = "Individualized Math Tutoring"
-header = "Math lessons in Charlottesville!"
-description = "Math Lessons and Tutoring" 
+title = "Individualized Math Tutoring | Blue Ridge Boost"
+description = "We teach elementary math, prealgebra, competition math, algebra, geometry, precalculus, AP calculus, AP statistics, and college math. Contact us to schedule your lesson!" 
 keywords = ["AP Calculus", "Algebra", "Geometry",  "Singapore Math", "Math analysis", "precalc", "precalculus", "AP Stats" ]
 +++
 

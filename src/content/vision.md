@@ -1,6 +1,6 @@
 +++
 title = "Vision and History | Blue Ridge Boost"
-description = "Math and coding tutoring and classes for high achieving students"
+description = "Math and coding tutoring and classes for high achieving students are available right here, in Charlottesville!"
 keywords = ["coding tutor", "math tutor", "coding classes"]
 +++
 

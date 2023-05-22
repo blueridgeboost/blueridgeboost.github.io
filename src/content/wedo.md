@@ -1,7 +1,6 @@
 +++
-title = "Lego Robotics for Children in Charlottesville"
-header = " "
-description = "At Blue Ridge Boost, we teach kids math, problem-solving skills, and more." 
+title = "Lego Robotics for Children in Charlottesville | Blue Ridge Boost"
+description = "At Blue Ridge Boost, we teach the fundametals of robotics using Lego WeDo. Schedule your free trial class today!" 
 keywords = ["Lego", "Wedo", "robotics",  "coding for children", "Spike", "APCSP", "AP", "AP Computer Science",  "Java", "Java tutor", "Charlottesville coding tutor", "Charlottesville Python tutor", "Charlottesville AP Computer Science tutor", "cvillecoding", "coding", "tutor", "private tutor", "UVA tutor", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
 +++
 

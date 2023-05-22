@@ -1,6 +1,6 @@
 +++
-title = "Your Instructor: Nora Evans"
-description = "Experienced math and coding teacher and tutor"
+title = "Your Instructor: Nora Evans | Blue Ridge Boost"
+description = "Experienced math and coding teacher and tutor is ready to help you or your child succeed."
 keywords = ["math tutor", "coding tutor", "AP Calculus tutor", "coding for kids", "AP Statistics tutor", "AP Stats tutor"]
 +++
 

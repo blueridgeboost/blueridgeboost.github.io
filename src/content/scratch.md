@@ -1,8 +1,7 @@
 +++
-title = "Scratch Coding for Children in Charlottesville"
-header = " "
-description = "At Blue Ridge Boost, we teach kids math, problem-solving skills, and more." 
-keywords = ["Scratch", "coding",  "coding for children", "APCSP", "AP", "AP Computer Science",  "Java", "Java tutor", "Charlottesville coding tutor", "Charlottesville Python tutor", "Charlottesville AP Computer Science tutor", "cvillecoding", "coding", "tutor", "private tutor", "UVA tutor", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
+title = "Scratch Coding for Children in Charlottesville | Blue Ridge Boost"
+description = "We teach Scratch coding classes using a project-based approach. Schedule your free trial class today!" 
+keywords = ["Scratch", "coding",  "coding for children",  "Charlottesville coding tutor", "Charlottesville Scratch tutor", "cvillecoding", "coding", "Scratch classes", "kids coding classes"]
 +++
 
 <div class="container">

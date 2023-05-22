@@ -1,7 +1,7 @@
 +++
-title = "Precalc Tutoring in Charlottesville"
-heading = "Pre-calculus Tutoring"
-description = ""
+title = "Precalc Tutoring in Charlottesville | Blue Ridge Boost"
+description = "A highly qualified teacher and tutor is here to teach precalculus (math analysis). Schedule your lesson today!"
+keywords = ["high school math tutor", "precalc tutor", "precalculus tutor", "math analysis tutor", "AP Precalc tutor", "AP Precalculus tutor", "math tutor", "math teacher"]
 +++
 
 

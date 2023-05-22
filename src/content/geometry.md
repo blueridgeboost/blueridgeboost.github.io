@@ -1,7 +1,6 @@
 +++
-title = "Geometry Tutoring in Charlottesville"
-heading = "Geometry"
-description = "Want to get ready for geometry? Need geometry tutoring?"
+title = "Geometry Tutoring in Charlottesville | Blue Ridge Boost"
+description = "Want to get ready for geometry? Need geometry tutoring? A highly qualified teacher and tutor is here to help."
 keywords=["Charlottesville math tutor", "Charlottesville geometry tutor", "Charlottesville AP Calculus tutor", "cvillemath", "math", "tutor", "private tutor", "UVA tutor", "math tutor", "GRE math tutor", "homeschool math tutor", "math teacher", "Charlottesville math", "Charlottesville"]
 +++
 <div class="container">

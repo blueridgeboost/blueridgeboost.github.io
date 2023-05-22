@@ -1,7 +1,6 @@
 +++
-title = "Coffee Script Classes in Charlottesville"
-heading = "Coffee Script coding for upper elementary school"
-description = "At Blue Ridge Boost, we teach the same fundamental coding concepts to students of all ages. Find out more about our in-person coding classes!"
+title = "Kids Classes in Charlottesville | Blue Ridge Boost"
+description = "We teach Coffee Script coding classes for children. Schedule your free trial class today!"
 +++
 
 <div class="container">

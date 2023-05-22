@@ -1,6 +1,6 @@
 +++
 title = "AP Calculus AB/BC Tutoring in Charlottesville | Blue Ridge Boost"
-description = "Highly qualified and experienced AP Calculus tutor!"
+description = "Contact us to learn from a highly qualified and experienced AP Calculus tutor."
 keywords=["Charlottesville math tutor", "Charlottesville calculus tutor", "Charlottesville AP Calculus tutor", "cvillemath"]
 +++
 

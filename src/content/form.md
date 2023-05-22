@@ -1,7 +1,6 @@
 +++
-title = "Class Request Form"
-heading = "Information Request Form"
-description = "form to request a class or for more information"
+title = "Class Request Form | Blue Ridge Boost"
+description = "Request a class or ask for more information. We love hearing from you!"
 +++
 
 <p>

@@ -1,6 +1,6 @@
 +++
 title = "Algebra 2 Tutoring in Charlottesville | Blue Ridge Boost"
-description = "Highly qualified and experienced algebra tutor!"
+description = "Contact us to work with a highly qualified and experienced algebra tutor and teacher!"
 keywords=["Charlottesville math tutor", "Charlottesville algebra tutor", "algebra tutor", "cvillemath", "math", "tutor", "private tutor", "UVA tutor", "math tutor", "GRE math tutor", "homeschool math tutor", "math teacher", "Charlottesville math", "Charlottesville"]
 +++
 
