@@ -1,5 +1,5 @@
 baseurl = "https://blueridgeboost.com"
-title = "Coding and Math Classes in Charlottesville! Prep for AP Computer Science and AP Calculus!"
+title = "Coding and Math Classes and Tutoring in Charlottesville"
 theme = "brb"
 languageCode = "en-us"
 
@@ -35,7 +35,7 @@ unsafe= true
 [[menu.main]]
     name       = "Open Classes"
     identifier = "menu.classes"
-    url        = "/classes/"
+    url        = "/coding_classes/"
     weight     = 2
 
 [[menu.main]]
@@ -71,13 +71,13 @@ unsafe= true
 
 [[menu.main]]
     name       = "Coding Tutor"
-    url        = "/cstutoring/"
+    url        = "/coding_tutor/"
     weight     = 2
     parent     = "menu.book"
 
 [[menu.main]]
     name       = "Coding Class"
-    url        = "/classes/"
+    url        = "/coding_classes/"
     weight     = 3
     parent     = "menu.book"
 
@@ -118,9 +118,15 @@ unsafe= true
 [params]
     viewMorePostLink = "/blog/"
     author = "Nora Evans"
-    defaultKeywords = ["math", "computer science"]
+    defaultKeywords = ["APCSP tutor", "AP tutor", "AP Computer Science tutor",  "Java", "Java tutor", 
+        "Charlottesville coding tutor", "Charlottesville Python tutor", 
+        "Charlottesville AP Computer Science tutor", 
+        "Charlottesville math tutor", "Charlottesville AP Calculus", "Charlottesville algebra tutor",
+        "cvillecoding", "coding", "tutor", "private tutor", 
+        "UVA tutor", "computer science tutor", "software engineering tutor", 
+        "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
     mainSections = ["blog"]
-    defaultDescription = "Learn coding with block languages, Python programming, AP computer science, AP Calculus, Algebra and more!"
+    defaultDescription = "Coding classes for children! Coding and math tutor for all ages!"
     defaultTwiterDescription = "Math and Coding Classes and Tutoring in Charlottesville" 
 
     # Social media
@@ -201,7 +207,7 @@ unsafe= true
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p><b><font color="#fff" size="+1">Math review sessions start in August! </font></b>  </p>
+    text = """<p><b><font color="#fff" size="+1">Morning summer camps! Afternoon math review!</font></b>  </p>
       """
 
 # Enable and disable widgets for the right sidebar

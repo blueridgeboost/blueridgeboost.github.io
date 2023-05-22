@@ -1,8 +1,7 @@
 +++
-title = "Math and Coding Camp Charlottesville"
-header = " "
-description = ""
-keywords = ["coding camp", "math camp", "summer math",  "math review", "Charlottesville coding tutor", "Charlottesville Python tutor", "Charlottesville AP Computer Science tutor", "cvillecoding", "coding", "tutor", "private tutor", "UVA tutor", "computer science tutor", "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
+title = "Math and Coding Camps in Charlottesville | Blue Ridge Boost"
+description = "Morning math and coding camps! Afternoon math review sessions!"
+keywords = ["coding camp", "math camp", "summer math", "summer camp",  "math review", "Charlottesville coding tutor"]
 +++
  
 
@@ -20,7 +19,7 @@ keywords = ["coding camp", "math camp", "summer math",  "math review", "Charlott
 
 **Ages 6 to 10:** Come to learn to code using Scratch or Coffee Script, build Lego robots and solve math puzzles! The activities do not repeat; students may join us for one, two, or all three weeks!
 
-**Session 1**: 9 am to 1 pm, July 24th to August 28th 
+**Session 1**: 9 am to 1 pm, July 24th to July 28th 
 
 **Session 2**: 9 am to 1 pm, July 31st to August 4th 
 

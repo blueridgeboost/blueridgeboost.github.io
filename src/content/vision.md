@@ -1,14 +1,14 @@
 +++
-title = ""
-heading = "Vision"
-description = "Tutoring for high achieving students"
+title = "Vision and History | Blue Ridge Boost"
+description = "Math and coding tutoring and classes for high achieving students"
+keywords = ["coding tutor", "math tutor", "coding classes"]
 +++
 
 <div class="container">
 
 <br>
 
-# History of Blue Ridge Boost
+## History of Blue Ridge Boost
 During the COVID-19 pandemic, I spent significant time teaching and helping my children learn and discovered that I greatly enjoy teaching young students. As a result, I quit my Ph.D. program in Computer Science to pursue a degree in teaching at the University of Virginia, which I completed in May 2022. 
 
 During the lockdown, my children tried a variety of challenging and exciting classes. Still, however good the instructors were, they could not compensate for the lack of face-to-face interaction.
