@@ -1,6 +1,6 @@
 +++
 title = "Math and Coding Camps in Charlottesville | Blue Ridge Boost"
-description = "Morning math and coding camps! Afternoon math review sessions!"
+description = "Morning math and coding camps! Afternoon math review sessions! Contact us to secure your spot today!"
 keywords = ["coding camp", "math camp", "summer math", "summer camp",  "math review", "Charlottesville coding tutor"]
 +++
  

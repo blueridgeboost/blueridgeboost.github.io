@@ -1,7 +1,7 @@
 +++
-title = "Math Sessions"
-description = "Book a math tutoring session"
-keywords = ["calculus tutor", "algebra tutor", "geometry tutor", "prealgebra", "precalculus"]
+title = "Math Tutoring in Charlottesville | Blue Ridge Boost"
+description = "A highly qualified teacher and tutor is here to help with prealgebra, algebra, geometry, precalculus, calculus, linear algebra, and more. Schedule your tutoring session today!"
+keywords = ["calculus tutor", "algebra tutor", "geometry tutor", "prealgebra tutor", "precalculus tutor", "college math tutor", "real analysis tutor", "linear algebra tutor", "abstract algebra tutor", "topology tutor"]
 +++
 
 ### Click on a session to see availability and book it! ###

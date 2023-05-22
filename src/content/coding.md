@@ -1,8 +1,7 @@
 +++
-title = "Coding Lessons"
-header = " "
-description = "Coding lessons and prep for AP Computer Science using Java" 
-keywords = ["APCSP", "AP", "AP Computer Science",  "Java", "Python", "Scratch", "WeDo", "Spike" ,"Java tutor", "Charlottesville coding tutor", "Charlottesville Python tutor", "Charlottesville AP Computer Science tutor", "cvillecoding", "coding", "tutor", "private tutor", "UVA tutor", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
+title = "Coding and Computer Science Tutor | Blue Ridge Boost"
+description = "Contact us to schedule join a coding class in block languages, Scratch, Coffee Script and Python. Schedule your private tutoring session for high-school and college Computer Science today!" 
+keywords = ["APCSP", "AP", "AP Computer Science",  "Java", "Python", "Scratch", "WeDo", "Spike", "Java tutor", "Charlottesville coding tutor", "Charlottesville Python tutor", "Charlottesville AP Computer Science tutor", "cvillecoding", "coding", "tutor", "private tutor", "UVA tutor", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
 +++
 
 <center>

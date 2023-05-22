@@ -1,6 +1,6 @@
 +++
-title = "Train for AMC and MathCounts in Person in Charlottesville"
-description = "MathCounts and AMC coaching and tutoring!"
+title = "AMC and MathCounts Coaching in Charlottesville | Blue Ridge Boost "
+description = "Contact us for MathCounts and AMC coaching and tutoring! We teach problem-solving techniques for typical AMC and MathCounts problems."
 keywords=["Charlottesville math tutor", "Charlottesville algebra tutor", "competition math tutor", "AMC8 coach", "AMC10 coach", "AMC12 coach", "MathCounts coach", "AMC8 tutor", "AMC10 tutor", "AMC12 tutor", "MathCounts tutor"]
 +++
 

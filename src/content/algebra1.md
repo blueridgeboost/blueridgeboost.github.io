@@ -1,6 +1,6 @@
 +++
 title = "Algebra Tutoring in Charlottesville | Blue Ridge Boost"
-description = "Highly qualified and experienced algebra tutor!"
+description = "Contact us to work with a highly qualified and experienced algebra tutor and teacher!"
 keywords=["Charlottesville algebra tutor", "algebra tutor", "Charlottesville math tutor", "homeschool math tutor", "math teacher", "Charlottesville math", "Charlottesville"]
 +++
 <div class="container">

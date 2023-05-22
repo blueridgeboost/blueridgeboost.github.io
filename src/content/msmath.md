@@ -1,7 +1,7 @@
 +++
-title = "Middle School Math Tutoring in Charlottesville"
-heading = "Middle School Math"
-description = "Does your student need extra help in math? Does your student needs more challenge than school provides?"
+title = "Middle School Math Tutoring in Charlottesville | Blue Ridge Boost"
+description = "Does your student need extra help in math? Does your student needs more challenge than school provides? Contact us today to get help!"
+keywords = ["middle school math tutor", "prealgebra tutor", "sixth grade math tutor", "seventh grade math tutor", "eight grade math tutor", "geometry tutor", "math tutor", "math teacher"]
 +++
 <div class="container">
 
