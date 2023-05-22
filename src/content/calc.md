@@ -1,7 +1,7 @@
 +++
-title = "AP Calculus AB/BC Tutoring in Charlottesville"
-heading = "AP Calculus AB/BC Tutoring"
-description = ""
+title = "AP Calculus AB/BC Tutoring in Charlottesville | Blue Ridge Boost"
+description = "Highly qualified and experienced AP Calculus tutor!"
+keywords=["Charlottesville math tutor", "Charlottesville calculus tutor", "Charlottesville AP Calculus tutor", "cvillemath"]
 +++
 
 #### Get Ready for AP Calculus AB/BC! 

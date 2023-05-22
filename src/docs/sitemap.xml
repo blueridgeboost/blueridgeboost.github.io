@@ -20,10 +20,10 @@
     <loc>https://blueridgeboost.com/authors/nora-evans/</loc>
     <lastmod>2023-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/blog/2023/05/21/post6/</loc>
+    <loc>https://blueridgeboost.com/tags/summer-camp/</loc>
     <lastmod>2023-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/tags/summer-camp/</loc>
+    <loc>https://blueridgeboost.com/blog/2023/05/21/post6/</loc>
     <lastmod>2023-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blueridgeboost.com/tags/</loc>
@@ -68,13 +68,15 @@
     <loc>https://blueridgeboost.com/blog/2022/08/15/post1/</loc>
     <lastmod>2022-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blueridgeboost.com/vision/</loc>
+    <loc>https://blueridgeboost.com/algebra2/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/algebra1/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/algebra2/</loc>
-  </url><url>
     <loc>https://blueridgeboost.com/calc/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/apcs/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/apcsp/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/stats/</loc>
   </url><url>
@@ -84,7 +86,7 @@
   </url><url>
     <loc>https://blueridgeboost.com/form/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/classes/</loc>
+    <loc>https://blueridgeboost.com/coding_classes/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/preschool/</loc>
   </url><url>
@@ -94,7 +96,7 @@
   </url><url>
     <loc>https://blueridgeboost.com/moems/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/cstutoring/</loc>
+    <loc>https://blueridgeboost.com/cs_tutor/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/contact/</loc>
   </url><url>
@@ -118,10 +120,6 @@
   </url><url>
     <loc>https://blueridgeboost.com/precalc/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/apcs/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/apcsp/</loc>
-  </url><url>
     <loc>https://blueridgeboost.com/usaco/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/python_ms/</loc>
@@ -129,6 +127,8 @@
     <loc>https://blueridgeboost.com/scratch/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/amc/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/vision/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/instructor/</loc>
   </url>

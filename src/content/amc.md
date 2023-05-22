@@ -1,7 +1,6 @@
 +++
-title = "Train for AMC in Person in Charlottesville"
-heading = "AMC"
-description = "Want to get ready for AMC?"
+title = "Train for AMC and MathCounts in Person in Charlottesville"
+description = "MathCounts and AMC coaching and tutoring!"
 keywords=["Charlottesville math tutor", "Charlottesville algebra tutor", "competition math tutor", "AMC8 coach", "AMC10 coach", "AMC12 coach", "MathCounts coach", "AMC8 tutor", "AMC10 tutor", "AMC12 tutor", "MathCounts tutor"]
 +++
 
