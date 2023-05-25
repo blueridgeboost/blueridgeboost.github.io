@@ -35,24 +35,24 @@ unsafe= true
 [[menu.main]]
     name       = "Open Classes"
     identifier = "menu.classes"
-    url        = "/coding_classes/"
+    url        = "/coding-classes/"
     weight     = 2
 
 [[menu.main]]
     name       = "Camps"
     identifier = "menu.aug23"
-    url        = "/aug23"
+    url        = "/summer-coding-camp-23/"
     weight     = 2
 
 [[menu.main]]
     name       = "Coding"
     identifier = "menu.coding"
-    url        = "/coding/"
+    url        = "/coding-class-and-tutor/"
     weight     = 3
 
 [[menu.main]]
     name       = "Math"
-    url        = "/math/"
+    url        = "/math-tutor/"
     weight     = 4
     identifier = "menu.math"
     
@@ -64,20 +64,20 @@ unsafe= true
 
 [[menu.main]]
     name       = "Math Tutor"
-    url        = "/mathtutoring/"
+    url        = "/book-math-tutor/"
     weight     = 1
     parent     = "menu.book"
 
 
 [[menu.main]]
     name       = "Coding Tutor"
-    url        = "/coding_tutor/"
+    url        = "/book-cs-tutor/"
     weight     = 2
     parent     = "menu.book"
 
 [[menu.main]]
     name       = "Coding Class"
-    url        = "/coding_classes/"
+    url        = "/coding-classes/"
     weight     = 3
     parent     = "menu.book"
 
