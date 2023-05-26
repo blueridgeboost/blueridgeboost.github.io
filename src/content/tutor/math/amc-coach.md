@@ -10,3 +10,7 @@ aliases=["/amc/"]
 An experienced instructor with MathCounts and AMC8 coaching experience teaches mini-lessons on topics commonly found in competition math problems and leads students in solving practice problems.
 
 The content of the class depends on the target competition and the student's background. Don't hesitate to get in touch with us for further information. 
+
+For more details on our services <a href="/contact/"> fill the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>. 
+
+<a href="/tutor/math/book-now/">Click here</a> to book a tutoring session.

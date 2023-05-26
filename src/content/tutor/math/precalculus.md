@@ -3,10 +3,8 @@ title = "Precalc Tutoring in Charlottesville | Blue Ridge Boost"
 description = "A highly qualified teacher and tutor is here to teach precalculus (math analysis). Schedule your lesson today!"
 keywords = ["high school math tutor", "precalc tutor", "precalculus tutor", "math analysis tutor", "AP Precalc tutor", "AP Precalculus tutor", "math tutor", "math teacher"]
 aliases=["/precalc/"]
+header = "Precalculus Tutoring in Charlottesville"
 +++
-
-
-# Precalculus Tutoring in Charlottesville
 
 We help your child succeed in precalculus and teach advanced concepts to students that are ready for a challenging curriculum. Our services include an Algebra 2 review before school starts, ongoing support with classroom content, and new topics and lessons.
 
@@ -21,6 +19,8 @@ We help your child succeed in precalculus and teach advanced concepts to student
 
 Join our summer classes in August to participate in a carefully developed curriculum to review **Algebra 2 and Trigonometry**, including quadratic, exponential, polynomial, and trigonometric functions.
 
+To secure your spot in one of our review sessions <a href="/contact/"> fill the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>.</b>
+
 #### Precalc Remediation
 
 The instructor will work with the classroom teacher when available to match the teaching style and materials to maintain **consistency** in the presentation style. For example, in a tutoring session, the instructor **reviews** concepts your student learned in class and **assists with homework**. If the student needs extra practice, the instructor proposes new problems for the student to solve independently.
@@ -30,11 +30,18 @@ When your student needs an alternate view or wants to learn a topic not taught i
 
 When your student needs an alternate view or wants to learn a topic not taught in class, our instructors create individualized lessons at the level the student needs.
 
+For more details on our services <a href="/contact/"> fill the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>. 
+
+<a href="/tutor/math/book-now/">Click here</a> to book a tutoring session.
+
 #### Precalc for Advanced Students
 
-Our instructors are qualified teachers with tutoring experience in middle school math, including algebra and geometry. We use a variety of texts and materials, including the *Art of _Problem Solving_ curriculum and _Flamingo_ Math*.
+Our instructors are qualified teachers with tutoring experience in middle school math, including algebra and geometry. We use a variety of texts and materials, including the *Art of Problem Solving curriculum and Flamingo Math*.
 
 Students learn by solving challenging problems for a deeper understanding of the subject. 
+
+<a href="/tutor/math/book-now/">Click here</a> to book a tutoring session.
+
 
 </div>
 

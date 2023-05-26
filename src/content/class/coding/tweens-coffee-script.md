@@ -2,6 +2,7 @@
 title = "Kids Classes in Charlottesville | Blue Ridge Boost"
 description = "We teach Coffee Script coding classes for children. Schedule your free trial class today!"
 aliases=["/upper_elementary/"]
+headder = "Coding Group Classes for Tweens (ages 8 to 12) in Charlottesville"
 +++
 
 <div class="container">
@@ -9,8 +10,6 @@ aliases=["/upper_elementary/"]
 <div class="row">
 
 <div class="col-sm-10 left">
-
-# Coding Group Classes for Tweens (ages 8 to 12) in Charlottesville
 
 Students learn fundamental coding concepts using Coffee Script, a beginner-friendly text-based coding language. The young coders use an attractive graphical interface to generate text by pressing buttons on instructor-provided Chromebooks. Some previous experience typing is helpful but not necessary. 
 

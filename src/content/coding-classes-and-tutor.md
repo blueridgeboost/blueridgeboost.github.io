@@ -3,11 +3,17 @@ title = "Coding and Computer Science Tutor | Blue Ridge Boost"
 description = "Contact us to schedule join a coding class in block languages, Scratch, Coffee Script and Python. Schedule your private tutoring session for high-school and college Computer Science today!" 
 keywords = ["APCSP", "AP", "AP Computer Science",  "Java", "Python", "Scratch", "WeDo", "Spike", "Java tutor", "Charlottesville coding tutor", "Charlottesville Python tutor", "Charlottesville AP Computer Science tutor", "cvillecoding", "coding", "tutor", "private tutor", "UVA tutor", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
 aliases=["/coding/"]
+header = "Coding Classes and Tutoring in Charlottesville"
 +++
 
-# Coding Classes and Tutoring in Charlottesville
-
 <center>
+
+<div>
+<!-- <b>Free trial coding classes every Saturday at 10 am and every Sunday at 4:30 pm.</b><br> -->
+<b>
+<a href="https://trialcodingclasses.youcanbook.me/">Sign up</a>  for a free trial coding class, <a href="/tutor/computer-science/book-now"">book</a>  a private tutoring session or email <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a> to join or request a class!  </b>
+</div>
+
   <div class="row">
     <div class="col-sm-6 right">
         <h2>Coding Classes</h2>

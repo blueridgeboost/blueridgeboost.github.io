@@ -2,6 +2,7 @@
 title = "Contact | Blue Ridge Boost"
 description = "Contact us for any learning needs in math and computing (coding classes, private lessons, and private tutoring)."
 id = "contact"
+header = "Contact Us"
 +++
 
 
