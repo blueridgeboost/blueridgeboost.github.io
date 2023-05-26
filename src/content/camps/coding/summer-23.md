@@ -71,7 +71,7 @@ Register By: July 15th, 2023. Capacity: 6 students. Cost: $300 per student <br>
 
 <p></p>
 <p>
-<img src="/images/coding.png" width=70%">
+<img src="/images/coding.png" width="70%" alt="Coding">
 </div>
 </div>
 

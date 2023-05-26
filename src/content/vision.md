@@ -19,8 +19,8 @@ students. In 2022, Blue Ridge Boost expanded to offer in-person coding
 classes for elementary and middle school students at our Downtown
 office.
 
-<center><img src="/images/openingbrb.jpg" align="center" height="280px"> &nbsp;&nbsp;
-<img src="/images/firstclass.jpg" align="center" height="280px">
+<center><img src="/images/openingbrb.jpg" align="center" height="280px" alt="BRB Office"> &nbsp;&nbsp;
+<img src="/images/firstclass.jpg" align="center" alt="First class" height="280px">
 </center>
 
 ## Mission
@@ -36,7 +36,7 @@ I envision Blue Ridge Boost as a place for bright students to thrive
 and achieve their potential.
 
 <center>
-<img src="/images/fullpotential.jpg" width=70%">
+<img src="/images/fullpotential.jpg" alt="Full potential" width=70%">
 </center>
 
 <p><br></br></p>
