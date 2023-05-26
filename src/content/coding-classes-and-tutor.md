@@ -12,13 +12,13 @@ aliases=["/coding/"]
     <div class="col-sm-6 right">
         <h2>Coding Classes</h2>
 
-  <div class="hangingspaced"><a href="/classes/coding/preschool-block-coding">Preschool Coding</a></div>
-  <div class="hangingspaced"><a href="/classes/coding/kids-block-coding">Block Languages using Code Monkey</a></div>
-  <div class="hangingspaced"><a href="/classes/coding/lego-wedo">Robotics with Lego WeDo 2.0</a></div>
-  <div class="hangingspaced"><a href="/classes/coding/scratch">Scratch</a></div>
-  <div class="hangingspaced"><a href="/classes/coding/lego-spike">Robotics with Lego Spike</a></div>
-  <div class="hangingspaced"><a href="/classes/coding/tweens-coffee-script">Coffee Script using Code Monkey</a></div>
-  <div class="hangingspaced"><a href="/classes/coding/middle-school-python">Python Programming</a></div>
+  <div class="hangingspaced"><a href="/class/coding/preschool-block-coding">Preschool Coding</a></div>
+  <div class="hangingspaced"><a href="/class/coding/kids-block-coding">Block Languages using Code Monkey</a></div>
+  <div class="hangingspaced"><a href="/class/coding/lego-wedo">Robotics with Lego WeDo 2.0</a></div>
+  <div class="hangingspaced"><a href="/class/coding/scratch">Scratch</a></div>
+  <div class="hangingspaced"><a href="/class/coding/lego-spike">Robotics with Lego Spike</a></div>
+  <div class="hangingspaced"><a href="/class/coding/tweens-coffee-script">Coffee Script using Code Monkey</a></div>
+  <div class="hangingspaced"><a href="/class/coding/middle-school-python">Python Programming</a></div>
   </div>
 
 <div class="col-sm-6 right">

@@ -1,7 +1,5 @@
 +++
 title = "New Location in Downtown Charlottesville"
-tags = ["classes", "programming", "coding"]
-categories = ["location"]
 authors = ["Nora Evans"]
 banner="/images/maxwellcleaningdoor.png"
 date="2022-09-05"
