@@ -54,7 +54,7 @@ header = "Coding Classes and Tutoring in Charlottesville"
 <p><br></br></p>
 
 
-<img src="/images/carousel/dorinateaching.jpg" width="70%">
+<img src="/images/carousel/dorinateaching.jpg" width="70%" alt="Scratch class">
 
 <p><br></br></b>
 

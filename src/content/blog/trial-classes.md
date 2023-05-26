@@ -3,6 +3,7 @@ title = "Free trial coding classes "
 authors = ["Nora Evans"]
 banner="/images/dorinateachingcrop.jpg"
 date="2022-09-17"
+alt="Coding class"
 aliases=["/blog/2022/09/17/post4/"]
 +++
 
