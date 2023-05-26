@@ -3,7 +3,10 @@ title = "Summer camp"
 authors = ["Nora Evans"]
 banner="/images/pythagora.jpg"
 date="2023-05-21"
+aliases=["/blog/2023/05/21/post6/"]
 +++
+
+# Summer Coding and Math Camps
 
 Join us for summer camps for students 6 to 10 years old from 9 am to 1 pm from July 24th to August 29th, July 31st to August 4th, and August 7th to August 11th!
 

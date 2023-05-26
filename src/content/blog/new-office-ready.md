@@ -3,9 +3,10 @@ title = "New Location in Downtown Charlottesville"
 authors = ["Nora Evans"]
 banner="/images/maxwellcleaningdoor.png"
 date="2022-09-05"
+aliases=["/blog/2022/09/05/post3/"]
 +++
 
-The new office is ready for students!
+# The new office is ready for students!
 
 <div class="container">
 <div class="row">
