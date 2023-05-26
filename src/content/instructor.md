@@ -24,7 +24,7 @@ aliases=["/instructor/"]
 * [Master of Teaching - Mathematics](https://education.virginia.edu/academics/master-teaching-mathematics)
 * Algebra teacher at [Peabody School](https://peabodyschool.org/)
 * AMC8 and MathCounts coach
-* AP Summer Institute training in [AP Calculus AB/BC](APSI_certificate.pdf)
+* AP Summer Institute training in AP Calculus AB/BC
 * Calculus and Abstract Algebra in-person tutoring for over a year
 * internship at [Monticello High School](https://mohs.k12albemarle.org/) in Algebra 2, Precalculus, and Geometry 
 * co-founder and organizer of [Cville Math Circle](https://cvillemathcircle.org/) for preschool and elementary school-age girls
