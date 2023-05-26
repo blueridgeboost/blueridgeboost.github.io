@@ -35,7 +35,7 @@ unsafe= true
 [[menu.main]]
     name       = "Open Classes"
     identifier = "menu.classes"
-    url        = "/classes/coding/ongoing/"
+    url        = "/class/coding/ongoing/"
     weight     = 2
 
 [[menu.main]]
@@ -77,7 +77,7 @@ unsafe= true
 
 [[menu.main]]
     name       = "Coding Class"
-    url        = "/classes/coding/ongoing/"
+    url        = "/class/coding/ongoing/"
     weight     = 3
     parent     = "menu.book"
 

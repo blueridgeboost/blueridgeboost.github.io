@@ -1,7 +1,5 @@
 +++
 title = "Summer camp"
-tags = ["summer camp"]
-categories = ["camps"]
 authors = ["Nora Evans"]
 banner="/images/pythagora.jpg"
 date="2023-05-21"

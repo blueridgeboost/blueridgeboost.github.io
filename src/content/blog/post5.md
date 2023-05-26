@@ -1,7 +1,5 @@
 +++
 title = "Summer Break"
-tags = ["summer"]
-categories = ["classes"]
 authors = ["Nora Evans"]
 banner="/images/vacation.jpg"
 date="2023-05-14"

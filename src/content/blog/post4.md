@@ -1,7 +1,5 @@
 +++
 title = "Free trial coding classes "
-tags = ["trial classes"]
-categories = ["classes"]
 authors = ["Nora Evans"]
 banner="/images/dorinateachingcrop.jpg"
 date="2022-09-17"
