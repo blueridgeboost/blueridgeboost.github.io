@@ -3,7 +3,10 @@ title = "Free trial coding classes "
 authors = ["Nora Evans"]
 banner="/images/dorinateachingcrop.jpg"
 date="2022-09-17"
+aliases=["/blog/2022/09/17/post4/"]
 +++
+
+# Free Trial Coding Classes
 
 Open house every Sunday at 1pm! 
 
