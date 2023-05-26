@@ -12,7 +12,7 @@ aliases=["/instructor/"]
 
 <center><a href="/images/nora.png"><img src="/images/nora-new.png" width="95%" alt="Nora" style="padding:20px;"></a></center>
 
-<center><a href="/images/teamwork-award.png"><img src="/images/teamwork-award.jpg" width="95%" alt="Teamwork Award" style="padding:20px;"></a></center>
+<center><a href="/images/teamwork-award.jpg"><img src="/images/teamwork-award.jpg" width="95%" alt="Teamwork Award" style="padding:20px;"></a></center>
 </div>
 <div class="col-sm-6 middle">
 
@@ -40,11 +40,11 @@ aliases=["/instructor/"]
 </div>
 
 <div class="col-sm-3 right">
-<center><a href="/images/pythagora.png"><img src="/images/pythagora.jpg" width="95%" alt="Geometry puzzles at math circle" style="padding:8px;"></a></center>
+<center><a href="/images/pythagora.jpg"><img src="/images/pythagora.jpg" width="95%" alt="Geometry puzzles at math circle" style="padding:8px;"></a></center>
 
-<center><a href="/images/triangles.png"><img src="/images/triangles.jpg" width="95%" alt="Triangles Lesson" style="padding:8px;"></a></center>
+<center><a href="/images/triangles.jpg"><img src="/images/triangles.jpg" width="95%" alt="Triangles Lesson" style="padding:8px;"></a></center>
 
-<center><a href="/images/lego-league-outside.png"><img src="/images/lego-league-outside.jpg" width="95%" alt="First Lego League Lesson" style="padding:8px;"></a></center>
+<center><a href="/images/lego-league-outside.jpg"><img src="/images/lego-league-outside.jpg" width="95%" alt="First Lego League Lesson" style="padding:8px;"></a></center>
 
 
 </div>
