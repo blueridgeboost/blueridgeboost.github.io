@@ -4,6 +4,7 @@ authors = ["Nora Evans"]
 banner="/images/pythagora.jpg"
 date="2023-05-21"
 aliases=["/blog/2023/05/21/post6/"]
+alt="Triangles"
 +++
 
 # Summer Coding and Math Camps
