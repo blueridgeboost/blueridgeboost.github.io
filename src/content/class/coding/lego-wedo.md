@@ -14,7 +14,7 @@ improve and extend it, and then create a program using Scratch to
 control and move the robot. The robots use a medium power motor to act, depth, and tilt sensor to sense. A Scratch program encodes the robot's actions in response to sensing.
 
 <center>
-<img src="/images/wedo.jpg" width="50%">
+<img src="/images/wedo.jpg" width="50%" alt="Wedo project">
 </center>
 
 ##
@@ -27,7 +27,7 @@ course length varies from one session to several sessions.
 ##
 
 <center>
-<img src="/images/wedo2.jpg" width="65%">
+<img src="/images/wedo2.jpg" width="65%" alt="Wedo project">
 </center>
 
 ##
