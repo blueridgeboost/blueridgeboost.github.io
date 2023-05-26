@@ -56,30 +56,30 @@ unsafe= true
     weight     = 4
     identifier = "menu.math"
     
-[[menu.main]]
-    name        = "Book now!"
-    identifier  = "menu.book"
-    url         = ""
-    weight      = 5
+# [[menu.main]]
+#     name        = "Book now!"
+#     identifier  = "menu.book"
+#     url         = ""
+#     weight      = 5
 
-[[menu.main]]
-    name       = "Math Tutor"
-    url        = "/tutor/math/book-now/"
-    weight     = 1
-    parent     = "menu.book"
+# [[menu.main]]
+#     name       = "Math Tutor"
+#     url        = "/tutor/math/book-now/"
+#     weight     = 1
+#     parent     = "menu.book"
 
 
-[[menu.main]]
-    name       = "Coding Tutor"
-    url        = "/tutor/computer-science/book-now/"
-    weight     = 2
-    parent     = "menu.book"
+# [[menu.main]]
+#     name       = "Coding Tutor"
+#     url        = "/tutor/computer-science/book-now/"
+#     weight     = 2
+#     parent     = "menu.book"
 
-[[menu.main]]
-    name       = "Coding Class"
-    url        = "/class/coding/ongoing/"
-    weight     = 3
-    parent     = "menu.book"
+# [[menu.main]]
+#     name       = "Coding Class"
+#     url        = "/class/coding/ongoing/"
+#     weight     = 3
+#     parent     = "menu.book"
 
 
 [[menu.main]]
@@ -207,8 +207,8 @@ unsafe= true
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p><b><font color="#fff" size="+1">Morning summer camps! Afternoon math review!</font></b>  </p>
-      """
+ #   text = """<p><b><font color="#fff" size="+1">Morning summer camps! Afternoon math review!</font></b>  </p>
+ #     """
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
