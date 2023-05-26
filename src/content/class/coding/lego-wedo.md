@@ -3,11 +3,10 @@ title = "Lego Robotics for Children in Charlottesville | Blue Ridge Boost"
 description = "At Blue Ridge Boost, we teach the fundamentals of robotics using Lego WeDo. Schedule your free trial class today!" 
 keywords = ["Lego", "Wedo", "robotics",  "coding for children", "Spike", "APCSP", "AP", "AP Computer Science",  "Java", "Java tutor", "Charlottesville coding tutor", "Charlottesville Python tutor", "Charlottesville AP Computer Science tutor", "cvillecoding", "coding", "tutor", "private tutor", "UVA tutor", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
 aliases=["/wedo/"]
+header = "Build Lego Robots and Code with WeDo 2.0"
 +++
 
 <div class="container">
-
-# Build Lego Robots and Code with WeDo 2.0
 
 Come and learn to build and program Lego robots!
 In each lesson, students build a Lego robot using a design model,

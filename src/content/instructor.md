@@ -3,9 +3,8 @@ title = "Your Instructor: Nora Evans | Blue Ridge Boost"
 description = "Experienced math and coding teacher and tutor is ready to help you or your child succeed."
 keywords = ["math tutor", "coding tutor", "AP Calculus tutor", "coding for kids", "AP Statistics tutor", "AP Stats tutor"]
 aliases=["/instructor/"]
+header = "Nora Evans"
 +++
-
-# Nora Evans
 
 <div class="container">
 <div class="row">
@@ -19,7 +18,15 @@ aliases=["/instructor/"]
 <div class="col-sm-6 middle">
 
 
-I am originally from Bucharest, Romania and earned a B.S. in Computer Science at the Polytechnical University of Bucharest. I moved to Charlottesville in the Fall of 2004 to pursue graduate school at the University of Virginia, where she earned a Master's in Computer Science, a Master of Science in Mathematics, and a Master of Teaching. I have several years of experience as a software engineer and am the author of several research papers in Computer Science. I am passionate about Math education, especially for girls and women, and I co-founded a Math Circle for girls and held lessons for four years until the COVID-19 pandemic. In January 2021, I decided to focus full-time on education. After completing my Master of Teaching, I joined the teaching faculty at Peabody School for the 2022-2023 academic year where I taught Algebra 1 and Algebra 2 to academically advanced middle school students. Currently, I am focusing full-time on coding and math classes at Blue Ridge Boost, which I founded in November 2021.
+I am originally from Bucharest, Romania and earned a B.S. in Computer Science at the Polytechnical University of Bucharest. I moved to Charlottesville in the Fall of 2004 to pursue graduate school at the University of Virginia, where I earned a Master's in Computer Science, a Master of Science in Mathematics, and a Master of Teaching. 
+
+I have several years of experience as a software engineer and am the author of several research papers in Computer Science. 
+
+I am passionate about Math education, especially for girls and women, and I co-founded a Math Circle for girls and held lessons for four years until the COVID-19 pandemic. 
+
+In January 2021, I decided to focus full-time on education. After completing my Master of Teaching, I joined the teaching faculty at the Peabody School for the 2022-2023 academic year where I taught Algebra 1 and Algebra 2 to academically advanced middle school students. 
+
+Currently, I am focusing full-time on coding and math classes at Blue Ridge Boost, which I founded in November 2021.
 
 ## Education 
 * [Master of Science - Mathematics](http://records.ureg.virginia.edu/preview_program.php?catoid=38&poid=4093) from the [University of Virginia](https://www.virginia.edu/)
@@ -40,7 +47,7 @@ I am originally from Bucharest, Romania and earned a B.S. in Computer Science at
 
 * [co-author](https://scholar.google.com/citations?user=BTsjtmgAAAAJ&hl=en&oi=ao) of several research articles
 * several years of industry experience as a Java software developer
-* over a year of online tutoring on [Wyzant](https://www.wyzant.com/Tutors/VA/Charlottesville/9957760/) in C, C++, Java, Python, List, and Prolog.
+* over two year of online tutoring on [Wyzant](https://www.wyzant.com/Tutors/VA/Charlottesville/9957760/) in C, C++, Java, Python, List, and Prolog.
 * teaching assistant at the University of Virginia 
 * [First Lego League](https://www.firstinspires.org/robotics/fll/what-is-first-lego-league) team lead and coach 
 </div>

@@ -2,9 +2,15 @@
 title = "Individualized Math Tutoring | Blue Ridge Boost"
 description = "We teach elementary math, prealgebra, competition math, algebra, geometry, precalculus, AP calculus, AP statistics, and college math. Contact us to schedule your lesson!" 
 keywords = ["AP Calculus", "Algebra", "Geometry",  "Singapore Math", "Math analysis", "precalc", "precalculus", "AP Stats" ]
+header = "Math Classes and Tutoring in Charlottesville"
 +++
 
-# Math Classes and Tutoring in Charlottesville
+<div><center>
+<!-- <b>Free trial coding classes every Saturday at 10 am and every Sunday at 4:30 pm.</b><br> -->
+<b>
+<a href="https://trialcodingclasses.youcanbook.me/"><a href="/tutor/computer-science/book-now"">Book</a>  a private tutoring session or email <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a> to set up a free evaluation!  </b> </center>
+</div>
+
 
 <div class="text-large">
 

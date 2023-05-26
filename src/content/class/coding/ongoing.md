@@ -3,17 +3,12 @@ title = "Coding Classes in Charlottesville | Blue Ridge Boost"
 description = "Learn block languages, Scratch, Coffee Script, Python, Java, and Rust! Build Lego robots and code with Scratch! Contact us to sign or and find out more details!"
 keywords = ["Charlottesville coding tutor", "Charlottesville Python tutor", "cvillecoding", "coding", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "children coding classes", "kids coding", "kids Python", "children Python", "children coding tutor"]
 aliases=["/classes/"]
+header = "Ongoing Coding Classes in Charlottesville"
 +++
- 
- # Ongoing Coding Classes in Charlottesville
 
 <div class="container">
 
 <div class="row">
-
-
-<p></p>
-
 
 <div class="row" align="center">
 <div class="col-sm-4" align="center">
@@ -74,8 +69,9 @@ Small classes &mdash; no more than six students in a class.
 </div>
 
 <div>
-<b>Free trial coding classes every Saturday at 10 am and every Sunday at 4:30 pm.</b><br>
-<a href="https://trialcodingclasses.youcanbook.me/">Sign up for a free trial coding class</a> or email <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a> to join or request a class!
+<!-- <b>Free trial coding classes every Saturday at 10 am and every Sunday at 4:30 pm.</b><br> -->
+<b>
+<a href="https://trialcodingclasses.youcanbook.me/">Sign up for a free trial coding class</a> or email <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a> to join or request a class!  </b>
 </div>
 
 

@@ -2,13 +2,11 @@
 title = "Vision and History | Blue Ridge Boost"
 description = "Math and coding tutoring and classes for high achieving students are available right here, in Charlottesville!"
 keywords = ["coding tutor", "math tutor", "coding classes"]
+header = "History of Blue Ridge Boost"
 +++
 
 <div class="container">
 
-<br>
-
-## History of Blue Ridge Boost
 During the COVID-19 pandemic, I spent significant time teaching and helping my children learn and discovered that I greatly enjoy teaching young students. As a result, I quit my Ph.D. program in Computer Science to pursue a degree in teaching at the University of Virginia, which I completed in May 2022. 
 
 During the lockdown, my children tried a variety of challenging and exciting classes. Still, however good the instructors were, they could not compensate for the lack of face-to-face interaction.
@@ -25,7 +23,7 @@ office.
 <img src="/images/firstclass.jpg" align="center" height="280px">
 </center>
 
-# Mission
+## Mission
 
 Blue Ridge Boost is unique in offering affordable year-round, high-quality coding and individual math and coding education.
 

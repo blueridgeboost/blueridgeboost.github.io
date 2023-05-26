@@ -3,9 +3,8 @@ title = "Python Classes in Charlottesville | Blue Ridge Boost"
 description = "A highly experienced software engineer and teacher teachis Python coding classes for middle schoolers. Schedule your free trial class today!"
 keywords = ["APCSP", "AP", "AP Computer Science", "Charlottesville Python tutor", "Charlottesville AP Computer Science tutor", "cvillecoding", "coding", "tutor", "private tutor", "UVA tutor", "computer science tutor",  "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
 aliases=["/python_ms/"]
+header = "Python Classess and Tutoring in Charlottesville"
 +++
-
-# Python Classess and Tutoring in Charlottesville
 
 <div class="container">
 

@@ -3,13 +3,11 @@ title = "Coding Group Classes for 4 to 6 year olds | Blue Ridge Boost"
 description = "At Blue Ridge Boost, we teach coding to preschoolers using an attractive graphical interface. Find out more about our in-person coding classes! Schedule your free trial class today!"
 keywords = ["kids coding classes", "preschool coding classes", "coding classes"]
 aliases=["/preschool/"]
+header = "Coding Group Classes for Early Coders"
 +++
 
 
 <div class="container">
-
-
-# Coding Group Classes for Early Coders
 
 <div class="row">
 

@@ -3,9 +3,8 @@ title = "Middle School Math Tutoring in Charlottesville | Blue Ridge Boost"
 description = "Does your student need extra help in math? Does your student needs more challenge than school provides? Contact us today to get help!"
 keywords = ["middle school math tutor", "prealgebra tutor", "sixth grade math tutor", "seventh grade math tutor", "eight grade math tutor", "geometry tutor", "math tutor", "math teacher"]
 aliases=["/msmath/"]
+header = "Middle School Math Tutoring in Charlottesville"
 +++
-
-# Middle School Math Tutoring in Charlottesville
 
 We help your child succeed in math and teach advanced concepts to students that are ready for a challenging curriculum. 
 
@@ -16,6 +15,11 @@ We help your child succeed in math and teach advanced concepts to students that 
 <div class="col-sm-8 left">
 
 At Blue Ridge Boost, a qualified and experienced teacher assesses your student's knowledge and builds an **individualized instruction** plan that targets weak areas while assisting with topics the student is learning. 
+
+For more details on our services <a href="/contact/"> fill the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>. 
+
+<a href="/tutor/math/book-now/">Click here</a> to book a tutoring session.
+
 
 #### Supplementing Classroom Instruction
 The instructor will work with the classroom teacher when available to match the teaching style and materials to maintain **consistency** in the presentation style. For example, in a tutoring session, the instructor **reviews** concepts your student learned in class and **assists with homework**. If the student needs extra practice, the instructor proposes new problems for the student to solve independently.
