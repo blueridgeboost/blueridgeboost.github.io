@@ -18,14 +18,14 @@ We help your child succeed in algebra and teach advanced concepts to students th
 
 Join our Summer classes in August to participate in a carefully developed curriculum to review Algebra 1 topics, including linear equations, systems of linear equations, and the Pythagorean Theorem.
 
-To secure your spot in one of our review sessions <a href="/contact/"> fill the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>.</b>
+To secure your spot in one of our review sessions, <a href="/contact/"> fill out the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>.</b>
 
 ## Geometry Remediation
 The instructor will work with the classroom teacher when available to match the teaching style and materials to maintain **consistency** in the presentation style. For example, in a tutoring session, the instructor **reviews** concepts your student learned in class and assists with homework. If the student needs extra practice, the instructor proposes **new problems** for the student to solve independently.
 
 When your student needs an alternate view or wants to learn a topic not taught in class, our instructors create individualized lessons at the level the student needs.
 
-For more details on our services <a href="/contact/"> fill the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>. 
+For more details on our services, <a href="/contact/"> fill out the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>. 
 
 ## Geometry for Advanced Students
 Students ready for a more challenging curriculum are taught logic, proof-based, and Euclidean geometry. 

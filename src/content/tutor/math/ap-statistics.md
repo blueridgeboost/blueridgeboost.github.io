@@ -1,7 +1,7 @@
 +++
 title = "AP Statistics Tutoring in Charlottesville | Blue Ridge Boost"
-description = "Get ready for AP Statistics with private tutor! Schedule your session today!"
-keywords=["Charlottesville math tutor", "Charlottesville statisctics tutor", "Charlottesville AP Stats tutor", "cvillemath", "math", "tutor", "private tutor", "homeschool math tutor", "math teacher", "Charlottesville math", "Charlottesville"]
+description = "Get ready for AP Statistics with a private tutor! Schedule your session today!"
+keywords=["Charlottesville math tutor", "Charlottesville statistics tutor", "Charlottesville AP Stats tutor", "cvillemath", "math", "tutor", "private tutor", "homeschool math tutor", "math teacher", "Charlottesville math", "Charlottesville"]
 aliases=["/stats/"]
 header = "AP Statistics Tutoring in Charlottesville"
 +++
@@ -16,7 +16,7 @@ header = "AP Statistics Tutoring in Charlottesville"
 
 Join our summer classes in August to participate in a carefully developed curriculum to review probabilities, statistics, and linear, quadratic, and exponential functions.
 
-To secure your spot in one of our review sessions <a href="/contact/"> fill the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>.</b>
+To secure your spot in one of our review sessions, <a href="/contact/">fill out the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>.</b>
 
 
 ## AP Statistics Private Tutoring

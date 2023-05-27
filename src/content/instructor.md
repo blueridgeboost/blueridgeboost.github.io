@@ -47,7 +47,7 @@ Currently, I am focusing full-time on coding and math classes at Blue Ridge Boos
 
 * [co-author](https://scholar.google.com/citations?user=BTsjtmgAAAAJ&hl=en&oi=ao) of several research articles
 * several years of industry experience as a Java software developer
-* over two year of online tutoring on [Wyzant](https://www.wyzant.com/Tutors/VA/Charlottesville/9957760/) in C, C++, Java, Python, List, and Prolog.
+* over two years of online tutoring on [Wyzant](https://www.wyzant.com/Tutors/VA/Charlottesville/9957760/) in C, C++, Java, Python, List, and Prolog.
 * teaching assistant at the University of Virginia 
 * [First Lego League](https://www.firstinspires.org/robotics/fll/what-is-first-lego-league) team lead and coach 
 </div>

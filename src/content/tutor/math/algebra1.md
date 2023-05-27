@@ -17,7 +17,7 @@ We help your child succeed in algebra and teach advanced concepts to students th
 
 Join our summer classes in August to participate in a carefully developed curriculum to review pre-algebra, including fractions, ratios, proportions, order of operations, and exponents.
 
-To secure your spot in one of our review sessions <a href="/contact/"> fill the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>.</b>
+To secure your spot in one of our review sessions <a href="/contact/">fill out the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>.</b>
 
 
 ## Algebra 1 Remediation
@@ -25,7 +25,7 @@ The instructor will work with the classroom teacher when available to match the 
 
 When your student needs an alternate view or wants to learn a topic not taught in class, our instructors create individualized lessons at the level the student needs.
 
-For more details on our services <a href="/contact/"> fill the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>. 
+For more details on our services, <a href="/contact/">fill out the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>. 
 
 <a href="/tutor/math/book-now/">Click here</a> to book a tutoring session.
 

@@ -10,7 +10,7 @@ At Blue Ridge Boost, we teach problem-solving skills using a variety of math man
 
 Experienced instructors are ready to help your child develop a good understanding of the content, whether to keep up with classwork or expand knowledge beyond the school curriculum.
 
-For more details on our services <a href="/contact/"> fill the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>. 
+For more details on our services, <a href="/contact/"> fill out the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>. 
 
 <a href="/tutor/math/book-now/">Click here</a> to book a tutoring session.
 

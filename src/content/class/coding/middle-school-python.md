@@ -46,7 +46,7 @@ Students learn to code using the Boolean operators ``and``, ``or``, and ``not``.
 
 #### Session 5. Functions
 
-Students learn to define and call functions. One lesson uses Code Monkey, and the rest are created by instructor.
+Students learn to define and call functions. One lesson uses Code Monkey, and the rest are created by the instructor.
 
 #### Session 6. Classes
 
@@ -65,7 +65,7 @@ Students learn to work with String data. One lesson uses Code Monkey, and the re
 
 #### Session 8. Dictionaries, Sets, and Tuples
 
-Students learn to work with two new data structures, dictionary, and set. Two lesson use Code Monkey, and the rest are instructor-assigned practice using Jupyter Notebooks.
+Students learn to work with two new data structures, dictionary and set. Two lesson use Code Monkey, and the rest are instructor-assigned practice using Jupyter Notebooks.
 
 
 #### Session 9. 2D Lists

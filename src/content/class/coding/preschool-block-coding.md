@@ -17,7 +17,7 @@ header = "Coding Group Classes for Early Coders"
 
 Our youngest students learn fundamental coding concepts by helping a [monkey collect bananas](https://www.codemonkey.com/courses/codemonkey-jr) on instructor-provided Chromebooks. Students learn the basics of coding using left, right, jump up, jump left, and jump right commands to guide a monkey to collect all bananas before opening a treasure chest. In addition, students learn to code repetition by using loops and conditional loops. The course concludes with procedures.
 
-The classes run in four week-sessions. Each class is 30 minutes long. We adjust the classes to the pace of each student. Students typically need six sessions to complete the course. 
+The classes run in four-week sessions. Each class is 30 minutes long. We adjust the classes to the pace of each student. Students typically need six sessions to complete the course. 
 
 </div>
 
