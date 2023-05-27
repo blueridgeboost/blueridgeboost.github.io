@@ -10,6 +10,6 @@ An experienced instructor teaches mini-lessons on topics commonly found in Math 
 
 The content of the class depends on the target competition and the student's background. Don't hesitate to get in touch with us for further information. 
 
-For more details on our services <a href="/contact/"> fill the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>. 
+For more details on our services, <a href="/contact/"> fill out the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>. 
 
 <a href="/tutor/math/book-now/">Click here</a> to book a tutoring session.

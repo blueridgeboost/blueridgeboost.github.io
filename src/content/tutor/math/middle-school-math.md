@@ -16,7 +16,7 @@ We help your child succeed in math and teach advanced concepts to students that 
 
 At Blue Ridge Boost, a qualified and experienced teacher assesses your student's knowledge and builds an **individualized instruction** plan that targets weak areas while assisting with topics the student is learning. 
 
-For more details on our services <a href="/contact/"> fill the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>. 
+For more details on our services, <a href="/contact/"> fill out the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>. 
 
 <a href="/tutor/math/book-now/">Click here</a> to book a tutoring session.
 

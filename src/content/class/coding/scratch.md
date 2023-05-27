@@ -2,7 +2,7 @@
 title = "Scratch Coding for Children in Charlottesville | Blue Ridge Boost"
 description = "We teach Scratch coding classes using a project-based approach. Schedule your free trial class today!" 
 aliases=["/scratch/"]
-header = "Scratch Coding and Tutoring in Charllottesville"
+header = "Scratch Coding and Tutoring in Charlottesville"
 +++
 
 <div class="container">
