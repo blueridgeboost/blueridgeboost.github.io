@@ -5,17 +5,9 @@ aliases=["/aug23/", "/morningwintercamp", "/morningwintercamp/"]
 header = "Summer Coding and Math Camps and Lessons"
 +++
 
-<p><b>
-To secure your spot <a href="/contact/"> fill the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>.</b>
-</p>
-
-
 <div class="container">
 
 <div class="row">
-
-<!-- <p></p> -->
-
 
 <div class="row">
 <div class="col-sm-6" align="left">
@@ -59,7 +51,9 @@ Join our review sessions to start the school year with confidence.
 <p></p>
 <div class="lightnote">
 Register By: July 15th, 2023. Capacity: 6 students. Cost: $300 per student <br>
-
+<a href="https://blue-ridge-boost-summer-camps-2023.cheddarup.com/" class="btn btn-small btn-template-main">Camp signup here!</a> 
+<a href="https://get-ready-for-the-next-school-year-with-math-reviews.cheddarup.com
+" class="btn btn-small btn-template-main">Review session signup here!</a> 
 </div>
 
 <p>
