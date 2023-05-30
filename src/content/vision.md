@@ -7,17 +7,14 @@ header = "History of Blue Ridge Boost"
 
 <div class="container">
 
-During the COVID-19 pandemic, I spent significant time teaching and helping my children learn and discovered that I greatly enjoy teaching young students. As a result, I quit my Ph.D. program in Computer Science to pursue a degree in teaching at the University of Virginia, which I completed in May 2022. 
+During the COVID-19 pandemic, I spent a significant amount of time teaching and helping my children learn and discovered that I greatly enjoy teaching young students. As a result, I quit my Ph.D. program in Computer Science to pursue a degree in teaching at the University of Virginia and launched Blue Ridge Boost. 
 
-During the lockdown, my children tried a variety of challenging and exciting classes. Still, however good the instructors were, they could not compensate for the lack of face-to-face interaction.
+During the lockdown, Maxwell and Dorina tried a variety of challenging and exciting classes from the <a href="https://cty.jhu.edu/">Center for Talented Youth at John Hopkins</a> and <a href="https://artofproblemsolving.com/">The Art Of Problem Solving</a>. Still, however good the instructors were, they could not compensate for the lack of face-to-face interaction.
 
-I wanted to offer an affordable in-person alternative to courses for advanced students ready for challenging content. So I founded Blue Ridge Boost to offer year-round in-person high-quality education in math and coding.
-
-We started in 2021 with math and coding tutoring
-online in person from my home for advanced high school and college
-students. In 2022, Blue Ridge Boost expanded to offer in-person coding
-classes for elementary and middle school students at our Downtown
-office.
+I founded Blue Ridge Boost in 2021 as an affordable in-person alternative to online, expensive courses for advanced students ready for challenging content. I started Blue Ridge Boost with math and coding tutoring online and in person from my home for advanced high school and college
+students. After graduation, in 2022, I expanded Blue Ridge Boost to offer in-person coding
+classes for elementary and middle school students at the Downtown
+office. In June 2023, after a year as an Algebra teacher at the Peabody School, I decided to focus all my attention and energy on Blue Ridge Boost. I plan to expand our course offerings in the Fall 2023 to unplugged coding for preschoolers and additional tutoring hours for college students.
 
 <center><img src="/images/openingbrb.jpg" align="center" height="280px" alt="BRB Office"> &nbsp;&nbsp;
 <img src="/images/firstclass.jpg" align="center" alt="First class" height="280px">
@@ -27,8 +24,8 @@ office.
 
 Blue Ridge Boost is unique in offering affordable year-round, high-quality coding and individual math and coding education.
 
-Our coding classes teach core coding concepts and are developed and
-selected by experienced educators and engineers. Our math classes
+Coding classes teach core coding concepts and are developed and
+selected by experienced educators and engineers. Math classes
 focus on understanding and helping students become independent
 learners.
 

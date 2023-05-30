@@ -19,7 +19,7 @@ We help your child succeed in precalculus and teach advanced concepts to student
 
 Join our summer classes in August to participate in a carefully developed curriculum to review **Algebra 2 and Trigonometry**, including quadratic, exponential, polynomial, and trigonometric functions.
 
-To secure your spot in one of our review sessions, <a href="/contact/"> fill out the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>.</b>
+<b>To secure your spot in one of our review sessions <a href="https://get-ready-for-the-next-school-year-with-math-reviews.cheddarup.com">signup here!</a></b> 
 
 #### Precalc Remediation
 

@@ -13,6 +13,9 @@ In each lesson, students build a Lego robot using a design model,
 improve and extend it, and then create a program using Scratch to
 control and move the robot. The robots use a medium power motor to act, depth, and tilt sensor to sense. A Scratch program encodes the robot's actions in response to sensing.
 
+<b><a href="https://trialcodingclasses.youcanbook.me/">Sign up here</a> for a free trial coding class!</b>
+
+
 <center>
 <img src="/images/wedo.jpg" width="50%" alt="Wedo project">
 </center>

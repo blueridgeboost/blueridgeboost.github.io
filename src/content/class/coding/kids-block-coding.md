@@ -14,6 +14,8 @@ header = "Block Language Coding for Children"
 
 The classes run in 4 week-sessions. Each class is 45 minutes long. We adjust to the student's pace, with students typically needing between four and six sessions to complete the course depending on age and previous coding experience.
 
+<b><a href="https://trialcodingclasses.youcanbook.me/">Sign up here</a> for a free trial coding class!</b>
+
 </div></div></div>
 
 <a name="session1"></a>

@@ -18,7 +18,7 @@ We help your child succeed in algebra and teach advanced concepts to students th
 
 Join our Summer classes in August to participate in a carefully developed curriculum to review Algebra 1 topics, including linear equations, systems of linear equations, and the Pythagorean Theorem.
 
-To secure your spot in one of our review sessions, <a href="/contact/"> fill out the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>.</b>
+<b>To secure your spot in one of our review sessions <a href="https://get-ready-for-the-next-school-year-with-math-reviews.cheddarup.com">signup here!</a></b> 
 
 ## Geometry Remediation
 The instructor will work with the classroom teacher when available to match the teaching style and materials to maintain **consistency** in the presentation style. For example, in a tutoring session, the instructor **reviews** concepts your student learned in class and assists with homework. If the student needs extra practice, the instructor proposes **new problems** for the student to solve independently.

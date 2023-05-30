@@ -16,7 +16,8 @@ Students learn fundamental coding concepts using Coffee Script, a beginner-frien
 
 Classes run in four-week sessions. Each class is 50 minutes long. We adjust classes to the pace of each student. Students typically need between ten to fourteen sessions to complete the course, depending on age and previous coding experience.
 
-Contact us to join a coding class or for private tutoring!
+<b><a href="https://trialcodingclasses.youcanbook.me/">Sign up here</a> for a free trial coding class!</b>
+    
 
 </div></div></div>
 

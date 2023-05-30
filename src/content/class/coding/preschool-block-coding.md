@@ -19,6 +19,9 @@ Our youngest students learn fundamental coding concepts by helping a [monkey col
 
 The classes run in four-week sessions. Each class is 30 minutes long. We adjust the classes to the pace of each student. Students typically need six sessions to complete the course. 
 
+<b><a href="https://trialcodingclasses.youcanbook.me/">Sign up here</a> for a free trial coding class!</b>
+
+
 </div>
 
 </div></div>
