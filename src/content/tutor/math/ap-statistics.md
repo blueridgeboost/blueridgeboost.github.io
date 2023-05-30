@@ -16,7 +16,7 @@ header = "AP Statistics Tutoring in Charlottesville"
 
 Join our summer classes in August to participate in a carefully developed curriculum to review probabilities, statistics, and linear, quadratic, and exponential functions.
 
-To secure your spot in one of our review sessions, <a href="/contact/">fill out the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>.</b>
+<b>To secure your spot in one of our review sessions <a href="https://get-ready-for-the-next-school-year-with-math-reviews.cheddarup.com">signup here!</a></b> 
 
 
 ## AP Statistics Private Tutoring

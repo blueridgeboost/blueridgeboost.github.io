@@ -14,7 +14,8 @@ Learn Scratch with us!
 
 We teach Scratch using a project-based approach. You will learn to create games, including Make it Fly!, Dungeons, Pong, Dodge the Balls, Jumping game, Math facts practice, a clone of Crossy Road, and much more.
 
-Contact us to join an ongoing class or for private tutoring!
+<b><a href="https://trialcodingclasses.youcanbook.me/">Sign up here</a> for a free trial coding class!</b>
+
 
 </div>
 

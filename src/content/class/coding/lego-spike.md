@@ -9,3 +9,5 @@ header = "Build Lego Robots and Code with Lego Spike"
 Come and learn to build and program Lego robots!
 
 Students learn to build robot attachments and code the Spike robot using Scratch.
+
+<b><a href="https://trialcodingclasses.youcanbook.me/">Sign up here</a> for a free trial coding class!</b>
