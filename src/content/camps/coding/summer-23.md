@@ -6,8 +6,11 @@ header = "Summer Coding and Math Camps and Lessons"
 +++
 
 <p><b>
-To secure your spot <a href="/contact/"> fill the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>.</b>
-</p>
+To secure your spot <a href="https://blue-ridge-boost-summer-camps-2023.cheddarup.com/">signup here</a>!
+
+<!-- 
+<a href="/contact/"> fill the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>.</b>
+</p> -->
 
 
 <div class="container">
