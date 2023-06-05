@@ -43,7 +43,7 @@ Students build a foundation in coding and problem-solving.<br>
 **Lesson 1.** What is coding? <br>Students learn that coding is giving precise instructions to a computer. Then, each student creates their first program – a dance routine for the class to follow!
 
 **Lesson 2.** Program using the computer <br>
-Introduces the coding platform Code Monkey. Students do their first coding exercises on the computer, using commands to move left and right.
+Introduces the coding platform Code Monkey&trade;. Students do their first coding exercises on the computer, using commands to move left and right.
 
 **Lesson 3.** Complex sequential programs <br>
 Students learn two new commands and how to code using advanced planning. 

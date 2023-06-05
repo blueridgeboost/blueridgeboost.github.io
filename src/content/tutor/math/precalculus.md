@@ -1,7 +1,7 @@
 +++
 title = "Precalc Tutoring in Charlottesville | Blue Ridge Boost"
 description = "A highly qualified teacher and tutor is here to teach precalculus (math analysis). Schedule your lesson today!"
-keywords = ["high school math tutor", "precalc tutor", "precalculus tutor", "math analysis tutor", "AP Precalc tutor", "AP Precalculus tutor", "math tutor", "math teacher"]
+keywords = ["high school math tutor", "precalc tutor", "precalculus tutor", "math analysis tutor", "AP&reg; Precalc tutor", "AP&reg; Precalculus tutor", "math tutor", "math teacher"]
 aliases=["/precalc/"]
 header = "Precalculus Tutoring in Charlottesville"
 +++
@@ -36,7 +36,7 @@ For more details on our services, <a href="/contact/"> fill out the contact form
 
 #### Precalc for Advanced Students
 
-Our instructors are qualified teachers with tutoring experience in middle school math, including algebra and geometry. We use a variety of texts and materials, including the *Art of Problem Solving curriculum and Flamingo Math*.
+Our instructors are qualified teachers with tutoring experience in middle school math, including algebra and geometry. We use a variety of texts and materials, including the *Art of Problem Solving curriculum*&reg; and *Flamingo Math*&reg;.
 
 Students learn by solving challenging problems for a deeper understanding of the subject. 
 

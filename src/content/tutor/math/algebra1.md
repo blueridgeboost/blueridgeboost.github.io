@@ -32,7 +32,7 @@ For more details on our services, <a href="/contact/">fill out the contact form<
 
 ## Algebra 1 for Advanced Students
 
-Our instructors are qualified teachers with tutoring experience in middle school math, including algebra and geometry. We use a variety of texts and materials, including the *Art of Problem Solving* curriculum, *Big Ideas Math* textbooks, and *All Things Algebra*.
+Our instructors are qualified teachers with tutoring experience in middle school math, including algebra and geometry. We use a variety of texts and materials, including the *Art of Problem Solving*&reg; curriculum, *Big Ideas Math*&reg; textbooks, and *All Things Algebra*&reg;.
 
 Students learn by solving challenging problems for a deeper understanding of the subject. 
 

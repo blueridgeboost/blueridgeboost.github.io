@@ -1,7 +1,7 @@
 +++
 title = "Coding and Computer Science Tutor | Blue Ridge Boost"
 description = "Contact us to schedule join a coding class in block languages, Scratch, Coffee Script and Python. Schedule your private tutoring session for high-school and college Computer Science today!" 
-keywords = ["APCSP", "AP", "AP Computer Science",  "Java", "Python", "Scratch", "WeDo", "Spike", "Java tutor", "Charlottesville coding tutor", "Charlottesville Python tutor", "Charlottesville AP Computer Science tutor", "cvillecoding", "coding", "tutor", "private tutor", "UVA tutor", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
+keywords = ["APCSP", "AP&reg;", "AP&reg; Computer Science",  "Java", "Python", "Scratch", "WeDo", "Spike", "Java tutor", "Charlottesville coding tutor", "Charlottesville Python tutor", "Charlottesville AP Computer Science tutor", "cvillecoding", "coding", "tutor", "private tutor", "UVA tutor", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
 aliases=["/coding/"]
 header = "Coding Classes and Tutoring in Charlottesville"
 +++
@@ -20,10 +20,10 @@ header = "Coding Classes and Tutoring in Charlottesville"
 
   <div class="hangingspaced"><a href="/class/coding/preschool-block-coding">Preschool Coding</a></div>
   <div class="hangingspaced"><a href="/class/coding/kids-block-coding">Block Languages using Code Monkey</a></div>
-  <div class="hangingspaced"><a href="/class/coding/lego-wedo">Robotics with Lego WeDo 2.0</a></div>
+  <div class="hangingspaced"><a href="/class/coding/lego-wedo">Robotics with Lego WeDo 2.0&reg;</a></div>
   <div class="hangingspaced"><a href="/class/coding/scratch">Scratch</a></div>
-  <div class="hangingspaced"><a href="/class/coding/lego-spike">Robotics with Lego Spike</a></div>
-  <div class="hangingspaced"><a href="/class/coding/tweens-coffee-script">Coffee Script using Code Monkey</a></div>
+  <div class="hangingspaced"><a href="/class/coding/lego-spike">Robotics with Lego Spike&reg;</a></div>
+  <div class="hangingspaced"><a href="/class/coding/tweens-coffee-script">Coffee Script using Code Monkey&reg;</a></div>
   <div class="hangingspaced"><a href="/class/coding/middle-school-python">Python Programming</a></div>
   </div>
 
@@ -31,8 +31,8 @@ header = "Coding Classes and Tutoring in Charlottesville"
        <h2>Coding Tutor</h2>
 
 
- <div class="hangingspaced"><a href="/tutor/computer-science/ap-computer-science-principles">AP Computer Science Principles (Python)</a></div>
- <div class="hangingspaced"><a href="/tutor/computer-science/ap-computer-science-java">AP Computer Science (Java)</a></div>
+ <div class="hangingspaced"><a href="/tutor/computer-science/ap-computer-science-principles">AP&reg; Computer Science Principles (Python)</a></div>
+ <div class="hangingspaced"><a href="/tutor/computer-science/ap-computer-science-java">AP&reg;Computer Science (Java)</a></div>
  <div class="hangingspaced"><a href="/tutor/computer-science/usaco-computing-olympiad">USA Computing Olympiad Bronze</a></div>
 <!--<h3>College-Level Courses</h3>-->
   <div class="hangingspaced">CS 1110	Introduction to Programming</div>
