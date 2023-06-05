@@ -44,9 +44,9 @@ Students learn by solving challenging problems for a deeper understanding of the
 <div class="col-sm-4">
 
 <center>
-<a href="https://artofproblemsolving.com/store/book/intro-algebra"><img alt="AOPS Algebra" src="/images/intro-algebra.gif" width="45%" style="padding:20px;"></a> <br>
-<a href="https://bim.easyaccessmaterials.com/index.php?level=11.00"><img alt="Algebra 1" src="/images/bim_alg1_cover.png" width="45%" style="padding:20px;"></a> <br>
-<a href="https://allthingsalgebra.com/"><img alt="All Things Algebra" src="/images/LogoATA.png" width="55%" style="padding:20px;"></a><br>
+<a href="https://artofproblemsolving.com/store/book/intro-algebra"><img alt="AOPS Algebra" src="/images/intro-algebra.webp" width="45%" style="padding:20px;"></a> <br>
+<a href="https://bim.easyaccessmaterials.com/index.php?level=11.00"><img alt="Algebra 1" src="/images/bim_alg1_cover.webp" width="45%" style="padding:20px;"></a> <br>
+<a href="https://allthingsalgebra.com/"><img alt="All Things Algebra" src="/images/LogoATA.webp" width="55%" style="padding:20px;"></a><br>
 </center>
 </div>
 

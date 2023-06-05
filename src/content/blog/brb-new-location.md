@@ -1,7 +1,7 @@
 +++
 title = "New Location in Downtown Charlottesville"
 authors = ["Nora Evans"]
-banner="/images/frontentrance.jpg"
+banner="/images/frontentrance.webp"
 alt="Front entrance"
 date="2022-08-29"
 aliases=["/blog/2022/08/29/post2/"]
@@ -19,11 +19,11 @@ The closest paid parking is the Market Street Garage. Free 2-hour parking is ava
 <div class="row">
 
 <div class="col-sm-4 left">
-<center><a href="/images/front-office-arrow.jpg"><img src="/images/front-office-arrow.jpg" width="95%" alt="Office Location Front" style="padding:20px;"></a></center>
+<center><a href="/images/front-office-arrow.webp"><img src="/images/front-office-arrow.webp" width="95%" alt="Office Location Front" style="padding:20px;"></a></center>
 </div>
 
 <div class="col-sm-4 left">
-<center><a href="/images/entrance-arrow.jpg"><img src="/images/entrance-arrow.jpg" width="95%" alt="Office Location Entrance" style="padding:20px;"></a></center>
+<center><a href="/images/entrance-arrow.webp"><img src="/images/entrance-arrow.webp" width="95%" alt="Office Location Entrance" style="padding:20px;"></a></center>
 </div>
 
 

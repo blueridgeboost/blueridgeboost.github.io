@@ -42,8 +42,8 @@ Students learn by solving challenging problems for a deeper understanding of the
 </div>
 
 <div class="col-sm-4">
-<a href="https://artofproblemsolving.com/store/book/intermediate-algebra"><img alt="AOPS Algebra" src="/images/intermediate-algebra.gif" width="45%" style="padding:20px;"></a> <br>
-<a href="https://bim.easyaccessmaterials.com/index.php?level=13.00"><img alt="Algebra 2" src="/images/bim_alg2_cover.png" width="45%" style="padding:20px;"></a> <br>
+<a href="https://artofproblemsolving.com/store/book/intermediate-algebra"><img alt="AOPS Algebra" src="/images/intermediate-algebra.webp" width="45%" style="padding:20px;"></a> <br>
+<a href="https://bim.easyaccessmaterials.com/index.php?level=13.00"><img alt="Algebra 2" src="/images/bim_alg2_cover.webp" width="45%" style="padding:20px;"></a> <br>
 <!-- <a href="https://allthingsalgebra.com/"><img alt="All Things Algebra" src="/images/LogoATA.png" width="55%" style="padding:20px;"></a><br> -->
 </div>
 

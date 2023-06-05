@@ -1,7 +1,7 @@
 +++
 title = "Summer Break"
 authors = ["Nora Evans"]
-banner="/images/vacation.jpg"
+banner="/images/vacation.webp"
 alt="Summer break"
 date="2023-05-14"
 aliases=["/blog/2023/05/14/post6/"]

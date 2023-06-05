@@ -38,7 +38,7 @@ Students ready for a more challenging curriculum are taught logic, proof-based, 
 <div class="col-sm-4">
 
 <center>
-<a href="https://artofproblemsolving.com/store/book/intro-geometry"><img alt="Geometry" src="/images/intro-geometry.gif" width="45%" style="padding:20px;"></a>
+<a href="https://artofproblemsolving.com/store/book/intro-geometry"><img alt="Geometry" src="/images/intro-geometry.webp" width="45%" style="padding:20px;"></a>
 </center>
 </div>
 

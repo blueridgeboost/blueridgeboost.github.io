@@ -65,15 +65,15 @@ Students learn the ``not`` logical operator, concepts related to computer games,
 <div class="col-sm-6 left">
 
 <center>
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img  alt="Code sample" src="/images/ca1.png" width="75%" style="padding:20px;"></a><br>
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca2.png" width="75%" style="padding:20px;"></a><br>
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca3.png" width="75%" style="padding:20px;"></a><br>
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca4.png" width="75%" style="padding:20px;"></a><br>
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca5.png" width="75%" style="padding:20px;"></a><br>
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca6.png" width="75%" style="padding:20px;"></a><br>
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca7.png" width="75%" style="padding:20px;"></a><br>
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca8.png" width="75%" style="padding:20px;"></a><br>
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca9.png" width="75%" style="padding:20px;"></a>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img  alt="Code sample" src="/images/ca1.webp" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca2.webp" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca3.webp" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca4.webp" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca5.webp" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca6.webp" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca7.webp" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca8.webp" width="75%" style="padding:20px;"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca9.webp" width="75%" style="padding:20px;"></a>
 </center>
 
 </div>

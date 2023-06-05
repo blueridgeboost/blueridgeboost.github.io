@@ -17,7 +17,7 @@ control and move the robot. The robots use a medium power motor to act, depth, a
 
 
 <center>
-<img src="/images/wedo.jpg" width="50%" alt="Wedo project">
+<img src="/images/wedo.webp" width="50%" alt="Wedo project">
 </center>
 
 ##
@@ -30,7 +30,7 @@ course length varies from one session to several sessions.
 ##
 
 <center>
-<img src="/images/wedo2.jpg" width="65%" alt="Wedo project">
+<img src="/images/wedo2.webp" width="65%" alt="Wedo project">
 </center>
 
 ##

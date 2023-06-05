@@ -745,7 +745,7 @@ fieldset[disabled] .btn-template-primary.active {
   background-color: #ffffff;
 }
 #intro {
-  background: url('../img/home.jpg') no-repeat center top;
+  background: url('../img/home.webp') no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1822,12 +1822,12 @@ hr.frontspacer {
   background: #fff;
 }
 .bar.background-image-fixed-1 {
-  background: url('../img/fixed-background-1.jpg') center top no-repeat;
+  background: url('../img/fixed-background-1.webp') center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 .bar.background-image-fixed-2 {
-  background: url('../img/fixed-background-2.jpg') center top no-repeat;
+  background: url('../img/fixed-background-2.webp') center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -2558,7 +2558,7 @@ hr.frontspacer {
   margin: 0 0 20px;
 }
 #footer {
-  background-image: url("/images/blue-ridge-footer.jpg");
+  background-image: url("/images/blue-ridge-footer.webp");
   padding: 15px 0;
   color: #eaa378;
 }

@@ -1,7 +1,7 @@
 +++
 title = "Python Classes in Charlottesville | Blue Ridge Boost"
 description = "A highly experienced software engineer and teacher teachis Python coding classes for middle schoolers. Schedule your free trial class today!"
-keywords = ["APCSP", "AP", "AP Computer Science", "Charlottesville Python tutor", "Charlottesville AP Computer Science tutor", "cvillecoding", "coding", "tutor", "private tutor", "UVA tutor", "computer science tutor",  "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
+keywords = ["Charlottesville Python tutor", "coding for middle school", "Python for middle school"]
 aliases=["/python_ms/"]
 header = "Python Classess and Tutoring in Charlottesville"
 +++
@@ -86,15 +86,15 @@ Students learn to code sequential and binary search, and study the bubble sort a
 <div class="col-sm-6 left">
 
 <center>
-<a href="https://www.codemonkey.com/courses/banana-tales"><img  alt="Code sample" src="/images/bt1.png" width="85%" style="padding:20px;"></a>
+<a href="https://www.codemonkey.com/courses/banana-tales"><img  alt="Code sample" src="/images/bt1.webp" width="85%" style="padding:20px;"></a>
 <br>
-<a href="https://www.codemonkey.com/courses/banana-tales"><img  alt="Code sample" src="/images/bt2.png" width="95%" style="padding:20px;"></a>
+<a href="https://www.codemonkey.com/courses/banana-tales"><img  alt="Code sample" src="/images/bt2.webp" width="95%" style="padding:20px;"></a>
 <br>
-<a href="https://www.codemonkey.com/courses/banana-tales"><img  alt="Code sample" src="/images/bt3.png" width="95%" style="padding:20px;"></a>
+<a href="https://www.codemonkey.com/courses/banana-tales"><img  alt="Code sample" src="/images/bt3.webp" width="95%" style="padding:20px;"></a>
 <br>
-<a href="https://www.codemonkey.com/courses/banana-tales"><img  alt="Code sample" src="/images/bt4.png" width="95%" style="padding:20px;"></a>
+<a href="https://www.codemonkey.com/courses/banana-tales"><img  alt="Code sample" src="/images/bt4.webp" width="95%" style="padding:20px;"></a>
 <br>
-<a href="https://www.codemonkey.com/courses/banana-tales"><img  alt="Code sample" src="/images/bt5.png" width="95%" style="padding:20px;"></a>
+<a href="https://www.codemonkey.com/courses/banana-tales"><img  alt="Code sample" src="/images/bt5.webp" width="95%" style="padding:20px;"></a>
 </center>
 
 </div>

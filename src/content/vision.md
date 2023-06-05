@@ -16,8 +16,8 @@ students. After graduation, in 2022, I expanded Blue Ridge Boost to offer in-per
 classes for elementary and middle school students at the Downtown
 office. In June 2023, after a year as an Algebra teacher at the Peabody School, I decided to focus all my attention and energy on Blue Ridge Boost. I plan to expand our course offerings in the Fall 2023 to unplugged coding for preschoolers and additional tutoring hours for college students.
 
-<center><img src="/images/openingbrb.jpg" align="center" height="280px" alt="BRB Office"> &nbsp;&nbsp;
-<img src="/images/firstclass.jpg" align="center" alt="First class" height="280px">
+<center><img src="/images/openingbrb.webp" align="center" height="280px" alt="BRB Office"> &nbsp;&nbsp;
+<img src="/images/firstclass.webp" align="center" alt="First class" height="280px">
 </center>
 
 ## Mission
@@ -33,7 +33,7 @@ I envision Blue Ridge Boost as a place for bright students to thrive
 and achieve their potential.
 
 <center>
-<img src="/images/fullpotential.jpg" alt="Full potential" width=70%">
+<img src="/images/fullpotential.webp" alt="Full potential" width=70%">
 </center>
 
 <p><br></br></p>

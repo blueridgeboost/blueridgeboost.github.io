@@ -38,8 +38,8 @@ Students learn math by solving increasingly complex problems. In a tutoring sess
 <div class="col-sm-4">
 
 <center>
-<a href="https://artofproblemsolving.com/store/book/prealgebra"><img alt="Prealgebra" src="/images/prealgebra.jpg" width="55%" style="padding:20px;"></a>
-<a href="https://bigideaslearning.com/programs/middle-school-modeling-real-life"><img alt="Middle School Math" src="/images/bim.png" width="90%" style="padding:20px;"></a>
+<a href="https://artofproblemsolving.com/store/book/prealgebra"><img alt="Prealgebra" src="/images/prealgebra.webp" width="55%" style="padding:20px;"></a>
+<a href="https://bigideaslearning.com/programs/middle-school-modeling-real-life"><img alt="Middle School Math" src="/images/bim.webp" width="90%" style="padding:20px;"></a>
 </center>
 </div>
 
