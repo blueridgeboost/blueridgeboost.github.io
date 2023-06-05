@@ -13,7 +13,7 @@ header = "Summer Coding and Math Camps and Lessons"
 <div class="col-sm-6" align="left">
 <h3>Morning Camps</h3>
 
-**Ages 6 to 10:** Come to learn to code using Scratch or Coffee Script, build Lego&reg robots and solve math puzzles! The activities do not repeat; students may join us for one, two, or all three weeks!
+**Ages 6 to 10:** Come to learn to code using Scratch or Coffee Script, build Lego&reg; robots and solve math puzzles! The activities do not repeat; students may join us for one, two, or all three weeks!
 
 **Session 1**: 9 am to 1 pm, July 24th to July 28th 
 

@@ -1,7 +1,7 @@
 +++
 title = "Individualized Math Tutoring | Blue Ridge Boost"
-description = "We teach elementary math, prealgebra, competition math, algebra, geometry, precalculus, AP calculus, AP statistics, and college math. Contact us to schedule your lesson!" 
-keywords = ["AP Calculus", "Algebra", "Geometry",  "Singapore Math", "Math analysis", "precalc", "precalculus", "AP Stats" ]
+description = "We teach elementary math, prealgebra, competition math, algebra, geometry, precalculus, AP&reg; calculus, AP&reg; statistics, and college math. Contact us to schedule your lesson!" 
+keywords = ["AP&reg; Calculus", "Algebra", "Geometry",  "Singapore Math&reg;", "Math analysis", "precalc", "precalculus", "AP&reg; Stats" ]
 header = "Math Classes and Tutoring in Charlottesville"
 aliases=["/mathadults/"]
 +++
@@ -40,8 +40,8 @@ aliases=["/mathadults/"]
       <h3>High School</h3>
       <div class="hanging"><a href="/tutor/math/algebra2">Algebra 2</a></div>
 <div class="hanging"><a href="/tutor/math/precalculus">Pre-calculus</a></div>
-      <div class="hanging"><a href="/tutor/math/ap-calculus">AP Calculus AB/BC</a></div>
-      <div class="hanging"><a href="/tutor/math/ap-statistics">AP Statistics</a></div>
+      <div class="hanging"><a href="/tutor/math/ap-calculus">AP&reg; Calculus AB/BC</a></div>
+      <div class="hanging"><a href="/tutor/math/ap-statistics">AP&reg; Statistics</a></div>
   </div>
   <div class="col-sm-3 right">
   <h3>College</h3>

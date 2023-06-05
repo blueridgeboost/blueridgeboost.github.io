@@ -1,6 +1,6 @@
 +++
 title = "Coding Classes in Charlottesville | Blue Ridge Boost"
-description = "Learn block languages, Scratch, Coffee Script, Python, Java, and Rust! Build Lego robots and code with Scratch! Contact us to sign or and find out more details!"
+description = "Learn block languages, Scratch, Coffee Script, Python, Java, and Rust! Build Lego&reg; robots and code with Scratch! Contact us to sign or and find out more details!"
 keywords = ["Charlottesville coding tutor", "Charlottesville Python tutor", "cvillecoding", "coding", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "children coding classes", "kids coding", "kids Python", "children Python", "children coding tutor"]
 aliases=["/classes/", "/hs/", "/kids/", "/adults/", "/kids"]
 header = "Ongoing Coding Classes in Charlottesville"

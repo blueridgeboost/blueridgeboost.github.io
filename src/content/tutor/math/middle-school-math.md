@@ -29,7 +29,7 @@ When your student needs an alternate view or wants to learn a topic not taught i
 
 #### Teaching New Topics
 
-Our instructors are qualified teachers with tutoring experience in middle school math, including algebra and geometry. We use a variety of texts and materials, including the _Art_ of Problem Solving* curriculum and *All Things Algebra*.
+Our instructors are qualified teachers with tutoring experience in middle school math, including algebra and geometry. We use a variety of texts and materials, including the *Art of Problem Solving*&reg; curriculum and *All Things Algebra*&reg;.
 
 Students learn math by solving increasingly complex problems. In a tutoring session, the student learns how to approach a problem through questions or direct instruction. After that, the student solves problems that are variations of the original, which will be solved with the instructor's assistance when needed. As a result, students gain confidence to approach problems never seen before. 
 

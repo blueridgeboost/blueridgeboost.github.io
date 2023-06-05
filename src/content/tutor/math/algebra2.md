@@ -1,7 +1,7 @@
 +++
 title = "Algebra 2 Tutoring in Charlottesville | Blue Ridge Boost"
 description = "Contact us to work with a highly qualified and experienced algebra tutor and teacher!"
-keywords=["Charlottesville math tutor", "Charlottesville algebra tutor", "algebra tutor", "cvillemath", "math", "tutor", "private tutor", "UVA tutor", "math tutor", "GRE math tutor", "homeschool math tutor", "math teacher", "Charlottesville math", "Charlottesville"]
+keywords=["Charlottesville math tutor", "Charlottesville algebra tutor", "algebra tutor", "cvillemath", "math", "tutor", "private tutor", "UVA tutor", "math tutor",  "homeschool math tutor", "math teacher", "Charlottesville math", "Charlottesville"]
 aliases=["/algebra2/"]
 header = "Algebra 2 Tutoring in Charlottesville"
 +++
@@ -32,7 +32,7 @@ For more details on our services, <a href="/contact/">fill out the contact form<
 
 ## Algebra 2 for Advanced Students
 
-Our instructors are qualified teachers with tutoring experience in middle school math, including algebra and geometry. We use a variety of texts and materials, including the *Art of Problem Solving* curriculum, *Big Ideas Math* textbooks, *All Things Algebra*, and *Flamingo Math*.
+Our instructors are qualified teachers with tutoring experience in middle school math, including algebra and geometry. We use a variety of texts and materials, including the *Art of Problem Solving*&reg; curriculum, *Big Ideas Math*&reg; textbooks, *All Things Algebra*&reg;, and *Flamingo Math*&reg;.
 
 Students learn by solving challenging problems for a deeper understanding of the subject. 
 
