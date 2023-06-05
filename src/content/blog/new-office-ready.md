@@ -1,7 +1,9 @@
 +++
 title = "New Location in Downtown Charlottesville"
 authors = ["Nora Evans"]
-banner="/images/maxwellcleaningdoor.webp"
+banner="maxwellcleaningdoor.webp"
+sizes="(min-width: 780px) 555px, 100vw"
+banner_width="3024"
 alt="New Location"
 date="2022-09-05"
 aliases=["/blog/2022/09/05/post3/"]

@@ -7,5 +7,7 @@ description: >
     <li>Math education for high-achieving students</li>
     <li>Tutoring from elementary school to college</li> 
   </ul>
-image: "images/carousel/dorinateaching.webp"
+image: "dorinateaching.webp"
+image_width: "3593"
+sizes: "(min-width: 780px) 555px, 100vw"
 alt: "Scratch class"
