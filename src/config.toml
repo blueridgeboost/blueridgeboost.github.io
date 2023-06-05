@@ -118,10 +118,8 @@ unsafe= true
 [params]
     viewMorePostLink = "/blog/"
     author = "Nora Evans"
-    defaultKeywords = ["APCSP tutor", "AP tutor", "AP Computer Science tutor",  "Java", "Java tutor", 
-        "Charlottesville coding tutor", "Charlottesville Python tutor", 
-        "Charlottesville AP Computer Science tutor", 
-        "Charlottesville math tutor", "Charlottesville AP Calculus", "Charlottesville algebra tutor",
+    defaultKeywords = ["Charlottesville coding tutor", "Charlottesville Python tutor", 
+        "Charlottesville math tutor", 
         "cvillecoding", "coding", "tutor", "private tutor", 
         "UVA tutor", "computer science tutor", "software engineering tutor", 
         "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
@@ -181,8 +179,8 @@ unsafe= true
 
     # logo = "/images/brblogo-square.png"
     # logo_small = "/images/brblogosquare-small.png"
-    logo = "/images/blue-ridge-highlands.jpg"
-    logo_small = "/images/blue-ridge-highlands.jpg"
+    logo = "/images/blue-ridge-highlands.webp"
+    logo_small = "/images/blue-ridge-highlands.webp"
     
     contact_url = "/contact"
     address = """<strong>Blue Ridge Boost</strong>

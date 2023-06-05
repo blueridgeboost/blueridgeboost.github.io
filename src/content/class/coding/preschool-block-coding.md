@@ -56,9 +56,9 @@ Students learn one more command, jump, and use the commands they know to solve i
 
 <center>
 
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img  alt="Code written by kids!" src="/images/cmjr1.png" width="75%" style="padding:10px;"></a>
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img  alt="Code written by kids!" src="/images/cmjr1.webp" width="75%" style="padding:10px;"></a>
 
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img  alt="Code written by kids!" src="/images/cmjr2.png" width="75%" style="padding:10px;"></a>
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img  alt="Code written by kids!" src="/images/cmjr2.webp" width="75%" style="padding:10px;"></a>
 
 </center>
 
@@ -98,9 +98,9 @@ Students explore why some loops finish and others run forever (a deep question i
 
 <center>
 
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr3.png" width="75%" style="padding:10px;"></a>
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr3.webp" width="75%" style="padding:10px;"></a>
 
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr4.png" width="75%" style="padding:10px;"></a>
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr4.webp" width="75%" style="padding:10px;"></a>
 
 </center>
 
@@ -138,9 +138,9 @@ to get the monkey to the starting point.
 
 <center>
 
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr4-1.png" width="75%" style="padding:10px;"></a>
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr4-1.webp" width="75%" style="padding:10px;"></a>
 
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr5.png" width="75%" style="padding:10px;"></a> 
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr5.webp" width="75%" style="padding:10px;"></a> 
 
 </center>
 
@@ -176,9 +176,9 @@ journey. They must decide which instructions are before and after the loop and w
 
 <center>
 
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr6.png" width="75%" style="padding:10px;"></a>
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr6.webp" width="75%" style="padding:10px;"></a>
 
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr7.png" width="75%" style="padding:10px;"></a>
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr7.webp" width="75%" style="padding:10px;"></a>
 
 </center>
 
@@ -211,9 +211,9 @@ Students learn how to add more than two loops and use the same conditional loop 
 
 <center>
 
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr8.png" width="75%" style="padding:10px;"></a>
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr8.webp" width="75%" style="padding:10px;"></a>
 
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr9.png" width="75%" style="padding:10px;"></a> 
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr9.webp" width="75%" style="padding:10px;"></a> 
 
 </center>
 
@@ -248,9 +248,9 @@ Students face challenges with validating the path and moving in both directions 
 
 <center>
 
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr10.png" width="75%" style="padding:10px;"></a>
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr10.webp" width="75%" style="padding:10px;"></a>
 
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr11.png" width="75%" style="padding:10px;"></a>
+<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr11.webp" width="75%" style="padding:10px;"></a>
 
 </center>
 

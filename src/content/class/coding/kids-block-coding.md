@@ -1,7 +1,7 @@
 +++
 title = "Block Language Classes for Six to Ten-Year-Olds | Blue Ridge Boost" 
 description = "At Blue Ridge Boost, we teach the same fundamental coding concepts to students of all ages. Find out more about our in-person coding classes!"
-keywords = ["APCSP", "AP", "AP Computer Science",  "Java", "Java tutor", "Charlottesville coding tutor", "Charlottesville Python tutor", "Charlottesville AP Computer Science tutor", "cvillecoding", "coding", "tutor", "private tutor", "UVA tutor", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
+keywords = ["kids coding classes", "coding for children"]
 aliases=["/k2/"]
 header = "Block Language Coding for Children"
 +++
@@ -46,7 +46,7 @@ Students learn to write concise code using loops.
 
 <div class="col-sm-6 left">
 <center>
-<a href="https://www.codemonkey.com/courses/beaver-achiever/"><img  alt="Beaver achiever!" src="/images/ba1.png" width="95%" style="padding:20px;"></a>
+<a href="https://www.codemonkey.com/courses/beaver-achiever/"><img  alt="Beaver achiever!" src="/images/ba1.webp" width="95%" style="padding:20px;"></a>
 </center>
 </div>
 
@@ -82,7 +82,7 @@ Students learn to create and analyze programs with counter loops.
 
 <div class="col-sm-6 left">
 <center>
-<a href="https://www.codemonkey.com/courses/beaver-achiever/"><img alt="Code written by kids!" src="/images/ba2.png" width="95%" style="padding:20px;"></a>
+<a href="https://www.codemonkey.com/courses/beaver-achiever/"><img alt="Code written by kids!" src="/images/ba2.webp" width="95%" style="padding:20px;"></a>
 </center>
 </div>
 
@@ -121,7 +121,7 @@ statements and practice more nested loops ``while`` helping the Beaver fix broke
 
 <div class="col-sm-6 left">
 <center>
-<a href="https://www.codemonkey.com/courses/beaver-achiever/"><img  alt="Beaver achiever!" src="/images/ba3.png" width="95%" style="padding:20px;"></a>
+<a href="https://www.codemonkey.com/courses/beaver-achiever/"><img  alt="Beaver achiever!" src="/images/ba3.webp" width="95%" style="padding:20px;"></a>
 </center> 
 </div>
 
@@ -163,7 +163,7 @@ Students learn to code using compound conditional statements.
 
 <div class="col-sm-6 left">
 <center>
-<a href="https://www.codemonkey.com/courses/beaver-achiever/"><img  alt="Beaver achiever!" src="/images/ba4.png" width="95%" style="padding:20px;"></a>
+<a href="https://www.codemonkey.com/courses/beaver-achiever/"><img  alt="Beaver achiever!" src="/images/ba4.webp" width="95%" style="padding:20px;"></a>
 </center> 
 </div>
 

@@ -11,9 +11,9 @@ header = "Nora Evans"
 
 <div class="col-sm-3 left">
 
-<center><a href="/images/nora.png"><img src="/images/nora-new.png" width="95%" alt="Nora" style="padding:20px;"></a></center>
+<center><a href="/images/nora.png"><img src="/images/nora-new.webp" width="95%" alt="Nora" style="padding:20px;"></a></center>
 
-<center><a href="/images/teamwork-award.jpg"><img src="/images/teamwork-award.jpg" width="95%" alt="Teamwork Award" style="padding:20px;"></a></center>
+<center><a href="/images/teamwork-award.webp"><img src="/images/teamwork-award.webp" width="95%" alt="Teamwork Award" style="padding:20px;"></a></center>
 </div>
 <div class="col-sm-6 middle">
 
@@ -53,11 +53,11 @@ Currently, I am focusing full-time on coding and math classes at Blue Ridge Boos
 </div>
 
 <div class="col-sm-3 right">
-<center><a href="/images/pythagora.jpg"><img src="/images/pythagora.jpg" width="95%" alt="Geometry puzzles at math circle" style="padding:8px;"></a></center>
+<center><a href="/images/pythagora.webp"><img src="/images/pythagora.webp" width="95%" alt="Geometry puzzles at math circle" style="padding:8px;"></a></center>
 
-<center><a href="/images/triangles.jpg"><img src="/images/triangles.jpg" width="95%" alt="Triangles Lesson" style="padding:8px;"></a></center>
+<center><a href="/images/triangles.webp"><img src="/images/triangles.webp" width="95%" alt="Triangles Lesson" style="padding:8px;"></a></center>
 
-<center><a href="/images/lego-league-outside.jpg"><img src="/images/lego-league-outside.jpg" width="95%" alt="First Lego League Lesson" style="padding:8px;"></a></center>
+<center><a href="/images/lego-league-outside.webp"><img src="/images/lego-league-outside.webp" width="95%" alt="First Lego League Lesson" style="padding:8px;"></a></center>
 
 
 </div>

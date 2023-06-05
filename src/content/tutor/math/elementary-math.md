@@ -18,7 +18,7 @@ For more details on our services, <a href="/contact/"> fill out the contact form
 <div class="col-sm-6">
 
 <center>
-<a href="/images/mathtoys.jpg"><img alt="Learning with blocks" src="/images/mathtoys-small.jpg" width="80%" style="padding:20px;"></a>
+<a href="/images/mathtoys.webp"><img alt="Learning with blocks" src="/images/mathtoys-small.webp" width="80%" style="padding:20px;"></a>
 </center>
 
 </div>
@@ -27,7 +27,7 @@ For more details on our services, <a href="/contact/"> fill out the contact form
 
 
 <center>
-<a href="/images/fractions.jpg"><img alt="Math Lessons" src="/images/fractions-small.jpg" width="80%" style="padding:20px;"></a>
+<a href="/images/fractions.webp"><img alt="Math Lessons" src="/images/fractions-small.webp" width="80%" style="padding:20px;"></a>
 </center>
 
 

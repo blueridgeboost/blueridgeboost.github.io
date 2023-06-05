@@ -33,8 +33,8 @@ Join our review sessions to start the school year with confidence.
 <a href="/tutor/math/geometry"><b>Geometry</b></a>: 2 to 4 pm, Monday, July 31st to Thursday, August 3rd <br>
 <a href="/tutor/math/algebra2"><b>Algebra 2</b>:</a> 1:30 to 3:30 pm, Monday, August 7th to Thursday, August 10th <br>
 <a href="/tutor/math/precalculus"><b>Precalculus</b></a>: 2 to 4 pm, Monday, August 7th to Thursday, August 10th <br> 
-<a href="/tutor/math/ap-calculus"><b>AP Calculus AB/BC</b></a>: 1:30 to 3:30 pm, Monday, August 14th to Thursday, August 17th <br>
-<a href="/tutor/math/ap-statistics"><b>AP Statistics</b></a>: 2 to 4 pm, Monday, August 14th to Thursday, August 17th
+<a href="/tutor/math/ap-calculus"><b>AP&reg; Calculus AB/BC</b></a>: 1:30 to 3:30 pm, Monday, August 14th to Thursday, August 17th <br>
+<a href="/tutor/math/ap-statistics"><b>AP&reg; Statistics</b></a>: 2 to 4 pm, Monday, August 14th to Thursday, August 17th
 <p>
 
 </p>
@@ -65,7 +65,7 @@ Register By: July 15th, 2023. Capacity: 6 students. Cost: $300 per student <br>
 
 <p></p>
 <p>
-<img src="/images/coding.png" width="70%" alt="Coding">
+<img src="/images/coding.webp" width="70%" alt="Coding">
 </div>
 </div>
 
