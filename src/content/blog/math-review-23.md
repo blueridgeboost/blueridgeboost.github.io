@@ -1,14 +1,14 @@
 +++
 title = "Math Review Sessions"
 authors = ["Nora Evans"]
-banner="/images/fractions.webp"
+banner="fractions.webp"
+sizes="(min-width: 1200px) 244px, (min-width: 1000px) 205px, 238px"
+banner_width="2404"
 alt="Math Review"
 date="2023-06-05"
+Summary="Get your child ready for the new school year with math review sessions!"
 +++
 
-# Math Review Schedule
-
-Get your child ready for the new school year with math review sessions!
 Join our review sessions to start the school year with confidence. 
 
 <a href="/tutor/math/algebra1"><b>Algebra 1</b></a>: 1:30 to 3:30 pm, Monday, July 31st to Thursday, August 3rd <br>

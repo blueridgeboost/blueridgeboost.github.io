@@ -83,7 +83,7 @@ Small classes &mdash; no more than six students in a class.
 
 <p></p>
 <p>
-<img src="/images/coding.webp" width="70%" alt="Coding">
+<!-- <img src="/images/coding.webp" width="70%" alt="Coding"> -->
 </div>
 </div>
 

@@ -180,7 +180,7 @@ unsafe= true
     # logo = "/images/brblogo-square.png"
     # logo_small = "/images/brblogosquare-small.png"
     logo = "/images/blue-ridge-highlands.webp"
-    logo_small = "/images/blue-ridge-highlands.webp"
+    logo_small = "/images/320_blue-ridge-highlands.webp"
     
     contact_url = "/contact"
     address = """<strong>Blue Ridge Boost</strong>

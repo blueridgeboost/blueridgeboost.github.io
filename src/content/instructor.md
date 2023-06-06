@@ -11,9 +11,19 @@ header = "Nora Evans"
 
 <div class="col-sm-3 left">
 
-<center><a href="/images/nora.png"><img src="/images/nora-new.webp" width="95%" alt="Nora" style="padding:20px;"></a></center>
+<center><a href="/images/nora-new.png">
+<img src="/images/nora-new.webp" 
+srcset="/images/nora-new.webp  600w, /images/1280_nora-new.webp 1280w, /images/640_nora-new.webp 640w, /images/320_nora-new.webp 320w"
+sizes="(min-width: 1200px) 209px, (min-width: 1000px) 162px, (min-width: 780px) 110px, calc(95vw - 97px)"
+width="95%" 
+alt="Nora" 
+style="padding:20px;"></a></center>
 
-<center><a href="/images/teamwork-award.webp"><img src="/images/teamwork-award.webp" width="95%" alt="Teamwork Award" style="padding:20px;"></a></center>
+<center><a href="/images/teamwork-award.webp">
+<img src="/images/teamwork-award.webp" 
+srcset="/images/teamwork-award.webp 1080w, /images/1280_teamwork-award.webp 1280w, /images/640_teamwork-award.webp 640w, /images/320_teamwork-award.webp 320w"
+sizes="(min-width: 1200px) 209px, (min-width: 1000px) 162px, (min-width: 780px) 110px, calc(95vw - 97px)"
+width="95%" alt="Teamwork Award" style="padding:20px;"></a></center>
 </div>
 <div class="col-sm-6 middle">
 
@@ -53,11 +63,23 @@ Currently, I am focusing full-time on coding and math classes at Blue Ridge Boos
 </div>
 
 <div class="col-sm-3 right">
-<center><a href="/images/pythagora.webp"><img src="/images/pythagora.webp" width="95%" alt="Geometry puzzles at math circle" style="padding:8px;"></a></center>
+<center><a href="/images/pythagora.webp">
+<img src="/images/pythagora.webp" 
+srcset="/images/pythagora.webp 4267w, /images/1280_pythagora.webp 1280w, /images/640_pythagora.webp 640w, /images/320_pythagora.webp 320w"
+sizes="(min-width: 1200px) 233px, (min-width: 1000px) 186px, (min-width: 780px) 134px, calc(95vw - 73px)"
+width="95%" alt="Geometry puzzles at math circle" style="padding:8px;"></a></center>
 
-<center><a href="/images/triangles.webp"><img src="/images/triangles.webp" width="95%" alt="Triangles Lesson" style="padding:8px;"></a></center>
+<center><a href="/images/triangles.webp">
+<img src="/images/triangles.webp" 
+srcset="/images/triangles.webp 1200w, /images/1280_triangles.webp 1280w, /images/640_triangles.webp 640w, /images/320_triangles.webp 320w"
+sizes="(min-width: 1200px) 233px, (min-width: 1000px) 186px, (min-width: 780px) 134px, calc(95vw - 73px)" 
+width="95%" alt="Triangles Lesson" style="padding:8px;"></a></center>
 
-<center><a href="/images/lego-league-outside.webp"><img src="/images/lego-league-outside.webp" width="95%" alt="First Lego League Lesson" style="padding:8px;"></a></center>
+<center><a href="/images/lego-league-outside.webp">
+<img src="/images/lego-league-outside.webp" 
+srcset="/images/lego-league-outside.webp 4032w, /images/1280_lego-league-outside.webp 1280w, /images/640_lego-league-outside.webp 640w, /images/320_lego-league-outside.webp 320w"
+sizes="(min-width: 1200px) 233px, (min-width: 1000px) 186px, (min-width: 780px) 134px, calc(95vw - 73px)"
+width="95%" alt="First Lego League Lesson" style="padding:8px;"></a></center>
 
 
 </div>
