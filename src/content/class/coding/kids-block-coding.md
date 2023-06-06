@@ -46,7 +46,12 @@ Students learn to write concise code using loops.
 
 <div class="col-sm-6 left">
 <center>
-<a href="https://www.codemonkey.com/courses/beaver-achiever/"><img  alt="Beaver achiever!" src="/images/ba1.webp" width="95%" style="padding:20px;"></a>
+<a href="https://www.codemonkey.com/courses/beaver-achiever/">
+<img  alt="Beaver achiever!" 
+src="/images/ba1.webp" 
+srcset="/images/ba1.webp 856w, /images/1280_ba1.webp 1280w, /images/640_ba1.webp 640w, /images/320_ba1.webp 320w"
+sizes="(min-width: 1200px) 487px, (min-width: 1000px) 392px, (min-width: 780px) 288px, calc(95vw - 97px)"
+width="95%" style="padding:20px;"></a>
 </center>
 </div>
 
@@ -82,7 +87,13 @@ Students learn to create and analyze programs with counter loops.
 
 <div class="col-sm-6 left">
 <center>
-<a href="https://www.codemonkey.com/courses/beaver-achiever/"><img alt="Code written by kids!" src="/images/ba2.webp" width="95%" style="padding:20px;"></a>
+<a href="https://www.codemonkey.com/courses/beaver-achiever/">
+<img alt="Code written by kids!" 
+src="/images/ba2.webp" 
+srcset="/images/ba2.webp 1009w, /images/1280_ba2.webp 1280w, /images/640_ba2.webp 640w, /images/320_ba2.webp 320w"
+sizes="(min-width: 1200px) 233px, (min-width: 1000px) 186px, (min-width: 780px) 134px, calc(95vw - 73px)"
+
+width="95%" style="padding:20px;"></a>
 </center>
 </div>
 
@@ -121,7 +132,12 @@ statements and practice more nested loops ``while`` helping the Beaver fix broke
 
 <div class="col-sm-6 left">
 <center>
-<a href="https://www.codemonkey.com/courses/beaver-achiever/"><img  alt="Beaver achiever!" src="/images/ba3.webp" width="95%" style="padding:20px;"></a>
+<a href="https://www.codemonkey.com/courses/beaver-achiever/">
+<img  alt="Beaver achiever!" 
+src="/images/ba3.webp" 
+srcset="/images/ba3.webp 1064w, /images/1280_ba3.webp 1280w, /images/640_ba3.webp 640w, /images/320_ba3.webp 320w"
+sizes="(min-width: 1200px) 487px, (min-width: 1000px) 392px, (min-width: 780px) 288px, calc(95vw - 97px)"
+width="95%" style="padding:20px;"></a>
 </center> 
 </div>
 
@@ -163,7 +179,12 @@ Students learn to code using compound conditional statements.
 
 <div class="col-sm-6 left">
 <center>
-<a href="https://www.codemonkey.com/courses/beaver-achiever/"><img  alt="Beaver achiever!" src="/images/ba4.webp" width="95%" style="padding:20px;"></a>
+<a href="https://www.codemonkey.com/courses/beaver-achiever/">
+<img  alt="Beaver achiever!" 
+src="/images/ba4.webp" 
+srcset="/images/ba4.webp 1083w, /images/1280_ba4.webp 1280w, /images/640_ba4.webp 640w, /images/320_ba4.webp 320w"
+sizes="(min-width: 1200px) 487px, (min-width: 1000px) 392px, (min-width: 780px) 288px, calc(95vw - 97px)"
+width="95%" style="padding:20px;"></a>
 </center> 
 </div>
 

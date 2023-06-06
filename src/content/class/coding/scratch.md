@@ -22,7 +22,10 @@ We teach Scratch using a project-based approach. You will learn to create games,
 
 <div class="col-sm-6 left">
 <center>
-<a href="https://scratch.mit.edu/projects/839752749/"><img  alt="Crossy Road!" src="/images/crossy-road.webp" width="50%" style="padding:20px;"></a>
+<a href="https://scratch.mit.edu/projects/839752749/"><img  alt="Crossy Road!" src="/images/crossy-road.webp" 
+srcset="/images/crossy-road.webp 740w, /images/1280_crossy-road.webp 1280w, /images/640_crossy-road.webp 640w, /images/320_crossy-road.webp 320w"
+sizes="(min-width: 1200px) 238px, (min-width: 1000px) 188px, (min-width: 780px) 133px, calc(50vw - 70px)"
+width="50%" style="padding:20px;"></a>
 </center>
 </div>
 

@@ -42,8 +42,13 @@ Students learn by solving challenging problems for a deeper understanding of the
 </div>
 
 <div class="col-sm-4">
-<a href="https://artofproblemsolving.com/store/book/intermediate-algebra"><img alt="AOPS Algebra" src="/images/intermediate-algebra.webp" width="45%" style="padding:20px;"></a> <br>
-<a href="https://bim.easyaccessmaterials.com/index.php?level=13.00"><img alt="Algebra 2" src="/images/bim_alg2_cover.webp" width="45%" style="padding:20px;"></a> <br>
+<a href="https://artofproblemsolving.com/store/book/intermediate-algebra">
+<img alt="AOPS Algebra" src="/images/intermediate-algebra.webp" 
+width="45%" style="padding:20px;"></a> <br>
+<a href="https://bim.easyaccessmaterials.com/index.php?level=13.00"><img alt="Algebra 2" src="/images/bim_alg2_cover.webp" 
+srcset="/images/bim_alg2_cover.webp 612w, /images/1280_bim_alg2_cover.webp 1280w, /images/640_bim_alg2_cover.webp 640w, /images/320_bim_alg2_cover.webp 320w"
+sizes="(min-width: 1200px) 122px, (min-width: 1000px) 92px, (min-width: 780px) 59px, calc(45vw - 67px)"
+width="45%" style="padding:20px;"></a> <br>
 <!-- <a href="https://allthingsalgebra.com/"><img alt="All Things Algebra" src="/images/LogoATA.png" width="55%" style="padding:20px;"></a><br> -->
 </div>
 
