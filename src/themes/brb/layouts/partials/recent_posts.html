@@ -23,8 +23,8 @@
                             <div class="image" style="overflow:hidden">
                                 {{ if isset .Params "banner" }}
                                 <img class="img-responsive" 
-                                    sizes="{{.Params.sizes}}" 
-                                    srcset="images/{{ .Params.banner }} {{.Params.banner_width}}w, images/1280_{{ .Params.banner }} 1280w, images/640_{{ .Params.banner}} 640w, images/320_{{ .Params.banner }} 320w " 
+                                    sizes="200px"
+                                    srcset="images/blog/{{ .Params.banner }} {{.Params.banner_width}}w, images/1280_{{ .Params.banner }} 1280w, images/640_{{ .Params.banner}} 640w, images/320_{{ .Params.banner }} 320w " 
                                     src="images/{{ .Params.banner }}" 
                                     width="200" height="100"
                                     alt="{{ .Params.alt }}">
