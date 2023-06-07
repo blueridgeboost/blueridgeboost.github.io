@@ -2,8 +2,7 @@
 title = "Summer camp"
 authors = ["Nora Evans"]
 banner="pythagora.webp"
-sizes="(min-width: 1200px) 255px, (min-width: 1000px) 205px, (min-width: 380px) 285px, calc(75vw + 15px)"
-banner_width="4267"
+banner_width="150"
 date="2023-05-21"
 aliases=["/blog/2023/05/21/post6/"]
 alt="Triangles"

@@ -2,8 +2,7 @@
 title = "Summer Break"
 authors = ["Nora Evans"]
 banner="vacation.webp"
-sizes="(min-width: 1200px) 255px, (min-width: 1000px) 205px, (min-width: 380px) 291px, calc(85vw - 15px)"
-banner_width="2554"
+banner_width="153"
 alt="Summer break"
 date="2023-05-14"
 aliases=["/blog/2023/05/14/post6/"]
