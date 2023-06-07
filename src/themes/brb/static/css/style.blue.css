@@ -1177,7 +1177,7 @@ hr.frontspacer {
 }
 .home-main {
   position: relative;
-  background: url('/images/learningroom-small.png') center center repeat;
+  background: url('/images/learningroom-small.webp') center center repeat;
   background-size: cover;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
