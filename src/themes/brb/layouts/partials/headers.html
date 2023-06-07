@@ -6,6 +6,8 @@
 
 <meta name="author" content="{{ .Param "author" }}" />
 
+<script src="https://kit.fontawesome.com/dbfdac2b7c.js" crossorigin="anonymous"></script>
+
 {{ $title_plain := .Title | markdownify | plainify }}
 {{ $keywords := .Site.Params.defaultKeywords | default (slice "" | first 0) }}
 {{ if isset .Params "tags" }}{{ range .Params.tags }}{{ $keywords = $keywords | append . }}{{ end }}{{ end }}
