@@ -42,18 +42,18 @@ unsafe= true
     name       = "Camps"
     identifier = "menu.aug23"
     url        = "/camps/coding/summer-23/"
-    weight     = 2
+    weight     = 3
 
 [[menu.main]]
     name       = "Coding"
     identifier = "menu.coding"
     url        = "/coding-classes-and-tutor/"
-    weight     = 3
+    weight     = 4
 
 [[menu.main]]
     name       = "Math"
     url        = "/math-classes-and-tutor/"
-    weight     = 4
+    weight     = 5
     identifier = "menu.math"
     
 # [[menu.main]]
