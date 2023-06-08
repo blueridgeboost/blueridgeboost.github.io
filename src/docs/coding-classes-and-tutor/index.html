@@ -31,12 +31,6 @@
 
 
 
-
-
-<link href="/css/owl.carousel.css" rel="stylesheet">
-<link href="/css/owl.theme.css" rel="stylesheet">
-
-
 <link rel="alternate" href="https://blueridgeboost.com/index.xml" type="application/rss+xml" title="Coding and Math Classes and Tutoring in Charlottesville">
 
 
@@ -164,7 +158,7 @@
         display: none;
         position: relative;
         width: 100%;
-        -ms-touch-action: pan-y
+        touch-action: pan-y
     }
 
     .fab,
@@ -916,16 +910,16 @@
 
     #top {
         background: #005172;
-        color: #bed6db padding: 10px 0
+        color: #bed6db padding: 10px 0;
     }
 
     #top a {
-        color: #e2d6ed
+        color: #e2d6ed;
     }
 
     #top .social {
         float: right;
-        text-align: right
+        text-align: right;
     }
 
     #top .social a {
@@ -1612,7 +1606,7 @@
             <div class="collapse clearfix" id="search">    
                 <form class="navbar-form" role="search">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search">
+                        <input type="text" class="form-control" id="searchtext" placeholder="Search">
                         <span class="input-group-btn">
                     <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
                 </span>
@@ -1770,6 +1764,10 @@
 <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
 
 
+<link href="/css/owl.carousel.css" rel="stylesheet">
+<link href="/css/owl.theme.css" rel="stylesheet">
+
+
 
 
 <link rel = "preload" href = "/css/fontawesome/css/fontawesome.css" type = "text/css" as = "style" 
@@ -1779,7 +1777,7 @@
 
 
 
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 
 
@@ -1805,8 +1803,38 @@
 
 
 
-<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script
+  src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
+  integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
+  crossorigin="anonymous"></script>
+
+<script>
+  jQuery.event.special.touchstart = {
+    setup: function( _, ns, handle ) {
+        this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });
+    }
+};
+jQuery.event.special.touchmove = {
+    setup: function( _, ns, handle ) {
+        this.addEventListener("touchmove", handle, { passive: !ns.includes("noPreventDefault") });
+    }
+};
+jQuery.event.special.wheel = {
+    setup: function( _, ns, handle ){
+        this.addEventListener("wheel", handle, { passive: true });
+    }
+};
+jQuery.event.special.mousewheel = {
+    setup: function( _, ns, handle ){
+        this.addEventListener("mousewheel", handle, { passive: true });
+    }
+};
+</script>
+
+<script src="https:////maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
@@ -1817,7 +1845,8 @@
 <script src="/js/front.js"></script>
 
 
-<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/owl.carousel.min.js" defer></script>
+
 
 
 
