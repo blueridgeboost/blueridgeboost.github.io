@@ -1,5 +1,3 @@
-<link rel="preload" fetchpriority="high" as="image" href="/images/carousel/640_dorinateaching.webp" type="image/webp">
-
 {{ if default true .Site.Params.CarouselHomepage.enable }}
 {{ if gt (len .Site.Data.carousel) 0 }}
 <section>
@@ -10,7 +8,29 @@
                 data-autoplay="{{ default true .Site.Params.CarouselHomepage.auto_play }}"
                 data-slide-speed="{{ default 2000 .Site.Params.CarouselHomepage.slide_speed }}"
                 data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_speed }}">
-                {{ range sort .Site.Data.carousel "weight" }}
+
+                {{ range first 1 (sort .Site.Data.carousel "weight") }}
+                <div class="item">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img class="img-responsive" 
+                            sizes="auto"
+                            srcset="images/carousel/{{ .image }} {{.image_width}}w, images/carousel/1280_{{ .image }} 1280w, images/carousel/640_{{ .image }} 640w, images/carousel/320_{{ .image }} 320w " 
+                            src="images/carousel/{{ .image }}" 
+                            alt="{{ .alt }}"
+                            width="600"
+                            height="300">
+
+                        </div>
+                        <div class="col-sm-6 right">
+                            <h1>{{ .title }}</h1>
+                            {{ .description | safeHTML }}
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+                
+                {{ range after 1 (sort .Site.Data.carousel "weight") }}
                 <div class="item">
                     <div class="row">
                         <div class="col-sm-6">
