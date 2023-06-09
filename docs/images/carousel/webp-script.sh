@@ -6,7 +6,7 @@ do
 done
 for file in *.jpg
 do
-        cwebp -q 50 "$file" -o "${file%.jpg}.webp"
+        cwebp -q 40 "$file" -o "${file%.jpg}.webp"
 	cwebp -q 10 "$file" -o "low-${file%.jpg}.webp"
 done
 for file in *.png
