@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm *_*
+
 ## define image directory
 DIR="."
 
@@ -13,7 +15,7 @@ resize() {
 }
 
 ## find all images
-for image in $(find ${DIR} -iregex ".*\.\(jpg\|gif\|png\|jpeg\)");
+for image in $(find ${DIR} -maxdepth 1 -iregex ".*\.\(jpg\|gif\|png\|jpeg\)");
 do
   ## get image width
   width=`convert $image -ping -format "%w" info:`
