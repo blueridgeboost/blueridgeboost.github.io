@@ -1,16 +1,16 @@
 for file in *.gif
 do
-	cwebp -q 80 "$file" -o "${file%.gif}.webp"
+	cwebp -q 50 "$file" -o "${file%.gif}.webp"
+	cwebp -q 10 "$file" -o "low-${file%.gif}.webp"
+
 done
 for file in *.jpg
 do
-        cwebp -q 80 "$file" -o "${file%.jpg}.webp"
+        cwebp -q 50 "$file" -o "${file%.jpg}.webp"
+	cwebp -q 10 "$file" -o "low-${file%.jpg}.webp"
 done
 for file in *.png
 do
-        cwebp -q 80 "$file" -o "${file%.png}.webp"
-done
-for file in *dorinateaching*.jpg
-do
-	 cwebp -q 30 "$file" -o "low-${file%.jpg}}.webp"
+        cwebp -q 50 "$file" -o "${file%.png}.webp"
+	cwebp -q 10 "$file" -o "low-${file%.png}.webp"
 done
