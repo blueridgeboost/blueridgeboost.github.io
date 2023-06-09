@@ -13,8 +13,8 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <img class="img-responsive lazyload" 
-                            sizes="{{.sizes}}" 
-                            srcset="images/carousel/{{ .image }} {{.image_width}}w, images/carousel/1280_{{ .image }} 1280w, images/carousel/640_{{ .image }} 640w, images/carousel/320_{{ .image }} 320w " 
+                            data-sizes="auto"
+                            data-srcset="images/carousel/{{ .image }} {{.image_width}}w, images/carousel/1280_{{ .image }} 1280w, images/carousel/640_{{ .image }} 640w, images/carousel/320_{{ .image }} 320w " 
                             data-src="images/carousel/{{ .image }}" 
                             alt="{{ .alt }}"
                             width="800"
