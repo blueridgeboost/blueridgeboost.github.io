@@ -272,7 +272,10 @@ ul.list-style-none {
 .box-image-text.blog .intro {
   text-align: left;
   margin-bottom: 20px;
-} 
+}    
+#footer a {
+  color: #EEFFFF;
+}
 .navbar {
   position: relative;
   min-height: 62px;
