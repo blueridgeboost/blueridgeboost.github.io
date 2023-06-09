@@ -395,19 +395,3 @@ img.rounded-corners {
  border-radius: 50%;
  box-shadow: 8px 8px 8px var(--navbar-border-top);
 }
-.box-image-text .image {
-  min-height: 190px;
-  max-height: 190px;
-}
-
-.box-image-text .image img {
-  max-height: 190px;
-  margin: auto;
-}
-
-.fab,
-.fa-brands {
-  font-weight: 400; }
-
-.fa-facebook:before {
-  content: "\f09a"; }
