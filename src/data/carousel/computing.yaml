@@ -7,6 +7,7 @@ description: >
     <li>College Computer Science Tutoring</li>
     <li>USA Computing Olympiad Training</li>
   </ul>
-image: "640_computingchampions.webp"
-image_width: "640"
+image: "computingchampions.webp"
+image_width: "3337"
+sizes: "(min-width: 780px) 555px, 100vw"
 alt: "Block puzzles"
