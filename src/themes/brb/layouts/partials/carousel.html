@@ -3,35 +3,52 @@
 <section>
     <div class="home-carousel">
         <div class="dark-mask"></div>
-        <div class="container">
-            <div class="homepage owl-carousel"
-                data-autoplay="{{ default true .Site.Params.CarouselHomepage.auto_play }}"
-                data-slide-speed="{{ default 2000 .Site.Params.CarouselHomepage.slide_speed }}"
-                data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_speed }}">
-                {{ range sort .Site.Data.carousel "weight" }}
-                <div class="item">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <img class="img-responsive lazyload" 
-                            sizes="{{.sizes}}" 
-                            srcset="images/carousel/{{ .image }} {{.image_width}}w, images/carousel/1280_{{ .image }} 1280w, images/carousel/640_{{ .image }} 640w, images/carousel/320_{{ .image }} 320w " 
-                            data-src="images/carousel/{{ .image }}" 
-                            alt="{{ .alt }}"
-                            width="800"
-                            height="400">
-
-                        </div>
-                        <div class="col-sm-6 right">
-                            <h1>{{ .title }}</h1>
-                            {{ .description | safeHTML }}
+        <div class="owl-carousel owl-theme owl-loaded">
+            <div class="owl-stage-outer">
+                <div class="owl-stage">
+                    {{ range sort .Site.Data.carousel "weight"}}
+                    <div class="owl-item">
+                        <div class="slide-owl-wrap">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                    <img 
+                                        src="images/carousel/{{ .image }}" 
+                                        alt="{{ .alt }}"
+                                        width="600"
+                                        height="300">
+                                    </div>
+                                    <div class="col-sm-6 right">
+                                        <h1>{{ .title }}</h1>
+                                        {{ .description | safeHTML }}
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    {{ end }}
                 </div>
-                {{ end }}
+
             </div>
-            <!-- /.project owl-slider -->
         </div>
     </div>
 </section>
+<script>
+    $(document).ready(function() {
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        items: 1,
+        loop: true,
+        margin: 20,
+        nav: false,
+        lazyLoadEager: 1,
+        autoplay: true,
+        autoplayTimeout: 8000,
+        lazyLoad: true,
+        lazyLoadEager: true,
+        autoplayHoverPause: true
+      });
+    })
+  </script>
 {{ end }}
 {{ end }}

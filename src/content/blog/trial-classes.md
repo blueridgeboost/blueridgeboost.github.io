@@ -2,7 +2,7 @@
 title = "Free trial coding classes "
 authors = ["Nora Evans"]
 banner="dorinateachingcrop.webp"
-banner_width="150"
+banner_width="300"
 date="2022-09-17"
 alt="Coding class"
 aliases=["/blog/2022/09/17/post4/"]

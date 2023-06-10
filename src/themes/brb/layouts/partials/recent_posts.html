@@ -22,12 +22,12 @@
                         <div class="top">
                             <div class="image" style="overflow:hidden">
                                 {{ if isset .Params "banner" }}
-                                <img class="img-responsive" 
-                                    sizes="200px"
-                                    srcset="images/blog/{{ .Params.banner }} {{.Params.banner_width}}w, images/1280_{{ .Params.banner }} 1280w, images/640_{{ .Params.banner}} 640w, images/320_{{ .Params.banner }} 320w " 
-                                    src="images/{{ .Params.banner }}" 
-                                    width="200" height="100"
-                                    alt="{{ .Params.alt }}">
+                                <img class="img-responsive lazyload" 
+                                            data-srcset="/images/blog/{{ .Params.banner }} {{.Params.banner_width}}w, /images/blog/1200_{{ .Params.banner }} 1200w, /images/blog/600_{{ .Params.banner}} 600w, /images/blog/300_{{ .Params.banner }} 300w " 
+                                            data-src="/images/blog/{{ .Params.banner }}" 
+                                            width="300" height="200"
+                                            data-sizes="auto"
+                                            alt="{{ .Params.alt }}">
                                 <!-- <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="{{ .Params.alt }}" > -->
                                 {{ else }}
                                 <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="">

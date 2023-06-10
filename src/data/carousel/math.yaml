@@ -9,6 +9,5 @@ description: >
     <li>AP Statistics prep</li>
   </ul>
 image: "mathpuzzle.webp"
-image_width: "4032"
-sizes: "(min-width: 780px) 555px, 100vw"
+image_width: "600"
 alt: "Math Circle"

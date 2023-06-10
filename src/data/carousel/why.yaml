@@ -9,6 +9,5 @@ description: >
     <li>Available to travel to your location</li>
   </ul>
 image: "brbwindow.webp"  
-image_width: "2183"
-sizes: "(min-width: 780px) 555px, 100vw"
-alt: "Blue Ridge Boost Office"
+image_width: "600"
+alt: "Blue Ridge Boost Office."

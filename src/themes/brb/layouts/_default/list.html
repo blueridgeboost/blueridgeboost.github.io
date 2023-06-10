@@ -31,7 +31,12 @@
                                   <div class="image">
                                       <a href="{{ .Permalink }}">
                                           {{ if .Params.banner }}
-                                          <img src="/images/blog/{{ .Params.banner | relURL }}" class="img-responsive" alt="">
+                                          <img class="img-responsive lazyload" 
+                                            data-srcset="/images/blog/{{ .Params.banner }} {{.Params.banner_width}}w, /images/blog/1200_{{ .Params.banner }} 1200w, /images/blog/600_{{ .Params.banner}} 600w, /images/blog/300_{{ .Params.banner }} 300w " 
+                                            data-src="/images/blog/{{ .Params.banner }}" 
+                                            width="300" height="200"
+                                            data-sizes="auto"
+                                            alt="{{ .Params.alt }}">
                                           {{ else }}
                                           <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="">
                                           {{ end }}

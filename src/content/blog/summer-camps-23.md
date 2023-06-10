@@ -2,7 +2,7 @@
 title = "Summer camp"
 authors = ["Nora Evans"]
 banner="pythagora.webp"
-banner_width="150"
+banner_width="300"
 date="2023-05-21"
 aliases=["/blog/2023/05/21/post6/"]
 alt="Triangles"

@@ -213,13 +213,7 @@ unsafe= true
     categories = false
     tags = false
     search = false
-
-[params.carouselCustomers]
-    items = 2
-    auto_play = false
-    slide_speed = 2000
-    pagination_speed = 1000
-
+    
 [params.carouselTestimonals]
     items = 4
     auto_play = false
@@ -232,7 +226,7 @@ unsafe= true
     # For more informtion take a look at the README.
     enable = true
     auto_play = true
-    slide_speed = 2000
+    slide_speed = 8000
     pagination_speed = 1000
 
 [params.mainHomepage]

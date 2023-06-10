@@ -1,10 +1,14 @@
 #!/bin/bash
 
+rm *_*
+
 ## define image directory
 DIR="."
 
 ## define image sizes
-sizes=(320 640 1280)
+sizes=(300 600 1200)
+
+rm *_*
 
 ## imagemagick function
 ## convert $1(image) $2(width) $3(newname)
@@ -13,7 +17,7 @@ resize() {
 }
 
 ## find all images
-for image in $(find ${DIR} -iregex ".*\.\(jpg\|gif\|png\|jpeg\)");
+for image in $(find ${DIR} -maxdepth 1 -iregex ".*\.\(jpg\|gif\|png\|jpeg\)");
 do
   ## get image width
   width=`convert $image -ping -format "%w" info:`
