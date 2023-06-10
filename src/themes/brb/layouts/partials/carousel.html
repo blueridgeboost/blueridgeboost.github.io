@@ -13,6 +13,7 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                     <img 
+                                        fetchpriority="{{ .fetchpriority }}"
                                         src="images/carousel/{{ .image }}" 
                                         alt="{{ .alt }}"
                                         width="600"
@@ -45,8 +46,8 @@
         autoplay: true,
         autoplayTimeout: 8000,
         lazyLoad: true,
-        lazyLoadEager: true,
-        autoplayHoverPause: true
+        autoplayHoverPause: true,
+        autoHeight: true
       });
     })
   </script>

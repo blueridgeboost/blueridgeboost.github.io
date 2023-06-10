@@ -8,6 +8,7 @@ description: >
     <li>Convenient Downtown location</li>
     <li>Available to travel to your location</li>
   </ul>
-image: "brbwindow.webp"  
+image: "600_brbwindow.webp"  
 image_width: "600"
 alt: "Blue Ridge Boost Office."
+fetchpriority: "low"

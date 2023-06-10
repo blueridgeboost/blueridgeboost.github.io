@@ -8,6 +8,7 @@ description: >
     <li>AP Calculus AB/BC prep</li>
     <li>AP Statistics prep</li>
   </ul>
-image: "mathpuzzle.webp"
+image: "600_mathpuzzle.webp"
 image_width: "600"
 alt: "Math Circle"
+fetchpriority: "low"
