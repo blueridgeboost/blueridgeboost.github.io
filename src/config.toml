@@ -232,7 +232,7 @@ unsafe= true
     # For more informtion take a look at the README.
     enable = true
     auto_play = true
-    slide_speed = 2000
+    slide_speed = 8000
     pagination_speed = 1000
 
 [params.mainHomepage]

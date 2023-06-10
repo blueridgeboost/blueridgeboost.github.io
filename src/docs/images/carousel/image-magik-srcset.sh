@@ -4,13 +4,15 @@
 DIR="."
 
 ## define image sizes
-sizes=(320 640 1280)
+sizes=(300 600 1200)
 
 ## imagemagick function
 ## convert $1(image) $2(width) $3(newname)
 resize() {
   convert $1 -thumbnail $2 $3
 }
+
+rm *_*
 
 ## find all images
 for image in $(find ${DIR} -iregex ".*\.\(jpg\|gif\|png\|jpeg\)");

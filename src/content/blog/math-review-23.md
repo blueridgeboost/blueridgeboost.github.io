@@ -2,8 +2,7 @@
 title = "Math Review Sessions"
 authors = ["Nora Evans"]
 banner="fractions.webp"
-sizes="(min-width: 1200px) 244px, (min-width: 1000px) 205px, 238px"
-banner_width="150"
+banner_width="300"
 alt="Math Review"
 date="2023-06-05"
 Summary="Get your child ready for the new school year with math review sessions!"

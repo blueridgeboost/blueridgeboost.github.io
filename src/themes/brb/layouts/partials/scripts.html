@@ -52,14 +52,6 @@
   <![endif]-->
 ` | safeHTML }}
 
-
-
-<!-- <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script> -->
-<script
-  src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
-  integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
-  crossorigin="anonymous"></script>
-
 <script>
   jQuery.event.special.touchstart = {
     setup: function( _, ns, handle ) {
@@ -97,8 +89,5 @@ jQuery.event.special.mousewheel = {
 <script src="//www.google.com/recaptcha/api.js" async defer></script>
 {{ end }}
 <script src="{{ "js/front.js" | relURL }}"></script>
-
-<!-- owl carousel -->
-<script src="{{ "js/owl.carousel.min.js" | relURL }}" defer></script>
 <script src="/js/lazysizes.min.js" async></script>
 

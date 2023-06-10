@@ -8,6 +8,5 @@ description: >
     <li>USA Computing Olympiad Training</li>
   </ul>
 image: "computingchampions.webp"
-image_width: "3337"
-sizes: "(min-width: 780px) 555px, 100vw"
+image_width: "600"
 alt: "Block puzzles"

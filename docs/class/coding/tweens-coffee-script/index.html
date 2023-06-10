@@ -50,6 +50,11 @@
 <meta name="twitter:description" content="Coding classes for children! Coding and math tutor for all ages!">
 
 
+<script
+  src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
+  integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
+  crossorigin="anonymous"></script>
+<script src="/js/owl.carousel.min.js" defer></script>
     <style>
     @font-face {
         font-family: Roboto;
@@ -1407,6 +1412,17 @@
         max-height: 190px;
         margin: auto
     }
+    .owl-carousel {
+        display: block;
+    }
+    
+    .owl-carousel .slide-owl-wrap:not(:first-child) {
+        display: none;
+    }
+    
+    .owl-carousel img {
+        width: 100%;
+    }
 </style>
   </head>
 
@@ -1854,14 +1870,6 @@ width="75%" style="padding:20px;"></a>
   <![endif]-->
 
 
-
-
-
-<script
-  src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
-  integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
-  crossorigin="anonymous"></script>
-
 <script>
   jQuery.event.special.touchstart = {
     setup: function( _, ns, handle ) {
@@ -1893,9 +1901,6 @@ jQuery.event.special.mousewheel = {
 
 
 <script src="/js/front.js"></script>
-
-
-<script src="/js/owl.carousel.min.js" defer></script>
 <script src="/js/lazysizes.min.js" async></script>
 
 
