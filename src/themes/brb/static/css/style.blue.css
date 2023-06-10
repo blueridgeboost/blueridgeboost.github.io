@@ -60,7 +60,6 @@ div.section {
   margin-bottom: 0;
   padding-bottom: 10px;
   vertical-align: middle;
-  letter-spacing: 0.06em;
 }
 ul.list-style-none {
   list-style: none;
@@ -123,7 +122,6 @@ ul.list-style-none {
 .btn {
   font-weight: 700;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  letter-spacing: 0.08em;
   padding: 6px 12px;
   font-size: 13px;
   line-height: 1.42857143;
@@ -183,7 +181,6 @@ ul.list-style-none {
   font-weight: 700;
   text-transform: none;
   font-size: 46px;
-  letter-spacing: 0.08em;
 }
 @media (max-width: 991px) {
   .home-carousel h1 {
@@ -196,7 +193,6 @@ ul.list-style-none {
   font-weight: 700;
   padding: 0;
   text-transform: none;
-  letter-spacing: 0.10em;
 }
 @media (max-width: 991px) {
   .home-carousel ul,
@@ -248,7 +244,6 @@ ul.list-style-none {
   line-height: 1.5;
   color: #555555;
   font-weight: 800;
-  letter-spacing: 0.03em;
 }
 .box-image-text .content p {
   color: #1E1E1E;
@@ -296,7 +291,6 @@ ul.list-style-none {
   color: #fff;
   text-transform: uppercase;
   font-size: 18px;
-  letter-spacing: 0.08em;
 }
 .box-image .name h3 a {
   color: #fff;
@@ -374,7 +368,6 @@ ul.list-style-none {
   color: #fff;
   text-transform: uppercase;
   font-size: 18px;
-  letter-spacing: 0.08em;
 }
 .box-image-text .top .name h3 a {
   color: #fff;
@@ -401,7 +394,6 @@ ul.list-style-none {
   line-height: 1.5;
   color: #555555;
   font-weight: 800;
-  letter-spacing: 0.08em;
 }
 .box-image-text .content p {
   color: #999999;
