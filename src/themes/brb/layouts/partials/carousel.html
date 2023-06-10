@@ -12,12 +12,20 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-sm-6">
+                                    {{ if gt .weight 1 }}
                                     <img 
-                                        fetchpriority="{{ .fetchpriority }}"
+                                        class="owl-lazy"
+                                        data-src="images/carousel/{{ .image }}" 
+                                        alt="{{ .alt }}"
+                                        width="600"
+                                        height="300">
+                                    {{ else }}
+                                    <img 
                                         src="images/carousel/{{ .image }}" 
                                         alt="{{ .alt }}"
                                         width="600"
                                         height="300">
+                                    {{ end }}
                                     </div>
                                     <div class="col-sm-6 right">
                                         <h1>{{ .title }}</h1>
