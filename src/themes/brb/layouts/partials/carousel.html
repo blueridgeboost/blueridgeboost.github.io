@@ -2,6 +2,7 @@
 {{ if gt (len .Site.Data.carousel) 0 }}
 <section>
     <div class="home-carousel">
+        <div class="dark-mask"></div>
         <div class="owl-carousel owl-theme owl-loaded">
             <div class="owl-stage-outer">
                 <div class="owl-stage">
@@ -11,10 +12,8 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-sm-6">
-                                    <img class="img-responsive lazyload" 
-                                        sizes="auto"
-                                        data-srcset="images/carousel/{{ .image }} {{.image_width}}w, images/carousel/300_{{ .image }} 320w " 
-                                        data-src="images/carousel/{{ .image }}" 
+                                    <img 
+                                        src="images/carousel/{{ .image }}" 
                                         alt="{{ .alt }}"
                                         width="600"
                                         height="300">
@@ -29,6 +28,7 @@
                     </div>
                     {{ end }}
                 </div>
+
             </div>
         </div>
     </div>
@@ -39,9 +39,13 @@
       owl.owlCarousel({
         items: 1,
         loop: true,
-        margin: 10,
-        autoplay: "{{ default 1000 .Site.Params.CarouselHomepage.pagination_speed }}",
-        autoplayTimeout: "{{ default 2000 .Site.Params.CarouselHomepage.slide_speed }}",
+        margin: 20,
+        nav: false,
+        lazyLoadEager: 1,
+        autoplay: true,
+        autoplayTimeout: 8000,
+        lazyLoad: true,
+        lazyLoadEager: true,
         autoplayHoverPause: true
       });
     })

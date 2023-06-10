@@ -155,16 +155,18 @@ ul.list-style-none {
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
+
 .home-carousel .owl-carousel {
   padding-top: 60px;
   padding-bottom: 20px;
 }
-.home-carousel .owl-theme .owl-controls .owl-page span {
+.home-carousel .owl-carousel button.owl-dot span {
   background: #666;
 }
-.home-carousel .owl-theme .owl-controls .owl-page.active span {
+.home-carousel .owl-carousel button.owl-dot.active span {
   background: #003359
 }
+
 @media (max-width: 767px) {
   .home-carousel {
     text-align: center !important;

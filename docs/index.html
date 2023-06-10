@@ -20,7 +20,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.90.1" />
+<meta name="generator" content="Hugo 0.111.3">
 
 
 <title>Coding and Math Classes and Tutoring in Charlottesville | Blue Ridge Boost</title>
@@ -1421,7 +1421,7 @@
     }
     
     .owl-carousel img {
-        width: 100%;
+        width: 90%;
     }
 </style>
   </head>
@@ -1630,6 +1630,7 @@
 
 <section>
     <div class="home-carousel">
+        <div class="dark-mask"></div>
         <div class="owl-carousel owl-theme owl-loaded">
             <div class="owl-stage-outer">
                 <div class="owl-stage">
@@ -1639,10 +1640,8 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-sm-6">
-                                    <img class="img-responsive lazyload" 
-                                        sizes="auto"
-                                        data-srcset="images/carousel/dorinateaching.webp 600w, images/carousel/300_dorinateaching.webp 320w " 
-                                        data-src="images/carousel/dorinateaching.webp" 
+                                    <img 
+                                        src="images/carousel/dorinateaching.webp" 
                                         alt="Scratch class"
                                         width="600"
                                         height="300">
@@ -1667,10 +1666,8 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-sm-6">
-                                    <img class="img-responsive lazyload" 
-                                        sizes="auto"
-                                        data-srcset="images/carousel/brbwindow.webp 600w, images/carousel/300_brbwindow.webp 320w " 
-                                        data-src="images/carousel/brbwindow.webp" 
+                                    <img 
+                                        src="images/carousel/brbwindow.webp" 
                                         alt="Blue Ridge Boost Office."
                                         width="600"
                                         height="300">
@@ -1696,10 +1693,8 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-sm-6">
-                                    <img class="img-responsive lazyload" 
-                                        sizes="auto"
-                                        data-srcset="images/carousel/oncarpet.webp 600w, images/carousel/300_oncarpet.webp 320w " 
-                                        data-src="images/carousel/oncarpet.webp" 
+                                    <img 
+                                        src="images/carousel/oncarpet.webp" 
                                         alt="Learning to code"
                                         width="600"
                                         height="300">
@@ -1724,10 +1719,8 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-sm-6">
-                                    <img class="img-responsive lazyload" 
-                                        sizes="auto"
-                                        data-srcset="images/carousel/computingchampions.webp 600w, images/carousel/300_computingchampions.webp 320w " 
-                                        data-src="images/carousel/computingchampions.webp" 
+                                    <img 
+                                        src="images/carousel/computingchampions.webp" 
                                         alt="Block puzzles"
                                         width="600"
                                         height="300">
@@ -1752,10 +1745,8 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-sm-6">
-                                    <img class="img-responsive lazyload" 
-                                        sizes="auto"
-                                        data-srcset="images/carousel/mathpuzzle.webp 600w, images/carousel/300_mathpuzzle.webp 320w " 
-                                        data-src="images/carousel/mathpuzzle.webp" 
+                                    <img 
+                                        src="images/carousel/mathpuzzle.webp" 
                                         alt="Math Circle"
                                         width="600"
                                         height="300">
@@ -1777,6 +1768,7 @@
                     </div>
                     
                 </div>
+
             </div>
         </div>
     </div>
@@ -1787,9 +1779,13 @@
       owl.owlCarousel({
         items: 1,
         loop: true,
-        margin: 10,
-        autoplay: "1000",
-        autoplayTimeout: "8000",
+        margin: 20,
+        nav: false,
+        lazyLoadEager: 1,
+        autoplay: true,
+        autoplayTimeout: 8000,
+        lazyLoad: true,
+        lazyLoadEager: true,
         autoplayHoverPause: true
       });
     })
@@ -2195,8 +2191,8 @@
 <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
 
 
-<link href="/css/owl.carousel.css" rel="stylesheet">
 <link href="/css/owl.theme.css" rel="stylesheet">
+<link href="/css/owl.carousel.css" rel="stylesheet">
 
 
 
