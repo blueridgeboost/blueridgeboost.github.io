@@ -3013,7 +3013,7 @@
 
 		// create DOM structure for absolute navigation
 		if (!settings.dotsData) {
-			this._templates = [ $('<button role="button" aria-pressed="false" name="Slide">')
+			this._templates = [ $('<button role="button" aria-pressed="false" aria-label="Access Slide" name="Slide">')
 				.addClass(settings.dotClass)
 				.append($('<span>'))
 				.prop('outerHTML') ];
