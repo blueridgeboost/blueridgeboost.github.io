@@ -2,7 +2,7 @@
 title = "New Location in Downtown Charlottesville"
 authors = ["Nora Evans"]
 banner="frontentrance.webp"
-banner_width="300"
+banner_width="2953"
 alt="Front entrance"
 date="2022-08-29"
 aliases=["/blog/2022/08/29/post2/"]

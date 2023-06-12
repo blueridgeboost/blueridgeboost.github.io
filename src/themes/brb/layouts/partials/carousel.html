@@ -13,18 +13,27 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                     {{ if gt .weight 1 }}
-                                    <img 
+                                    <!-- <img 
                                         class="owl-lazy"
                                         data-src="images/carousel/{{ .image }}" 
                                         alt="{{ .alt }}"
-                                        width="600"
-                                        height="300">
+                                        width="600" height="338"> -->
+                                    <img class="img-responsive owl-lazy" 
+                                        data-srcset="/images/carousel/{{ .image }} 338w, /images/carousel/1200_{{ .image }} 1200w, /images/carousel/600_{{ .image }} 600w, /images/carousel/300_{{ .image }} 300w " 
+                                        data-src="/images/carousel/{{ .image }}" 
+                                        data-sizes="auto"
+                                        width="600" height="338"
+                                        alt="{{ .Params.alt }}">
                                     {{ else }}
-                                    <img 
+                                    <img class="img-responsive" 
+                                        srcset="/images/carousel/{{ .image }} 338w, /images/carousel/1200_{{ .image }} 1200w, /images/carousel/600_{{ .image }} 600w, /images/carousel/300_{{ .image }} 300w " 
+                                        src="/images/carousel/{{ .image }}" 
+                                        width="600" height="338"
+                                        alt="{{ .Params.alt }}">
+                                    <!-- <img 
                                         src="images/carousel/{{ .image }}" 
                                         alt="{{ .alt }}"
-                                        width="600"
-                                        height="300">
+                                        width="600" height="338"> -->
                                     {{ end }}
                                     </div>
                                     <div class="col-sm-6 right">
