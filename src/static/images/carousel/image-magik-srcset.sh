@@ -17,6 +17,7 @@ rm *_*
 ## find all images
 for image in $(find ${DIR} -iregex ".*\.\(jpg\|gif\|png\|jpeg\)");
 do
+
   ## get image width
   width=`convert $image -ping -format "%w" info:`
 
@@ -25,7 +26,9 @@ do
   filename=$(basename "$image")
 
   ## set new image name
-  newname="$dir"/"$width"_"$filename"
+  newname="$width"_"$filename"
+
+  echo "$image $width $newname"
 
   ## resize image with original width
   resize "$image" $width "$newname"
@@ -34,7 +37,7 @@ do
   for size in ${sizes[@]}; do
 
     ## set new image name
-    newname="$dir"/"$size"_"$filename"
+    newname="$size"_"$filename"
 
     ## resize image with define widths
     resize "$image" $size "$newname"

@@ -7,7 +7,7 @@ description: >
     <li>Intermediate Coffee Script, Python</li>
     <li>High school and adults Python, Java, Prolog, Lisp, Rust</li>
   </ul>
-image: "600_oncarpet.webp"
+image: "oncarpet.webp"
 image_width: "600"
 alt: "Learning to code"
 fetchpriority: "low"
