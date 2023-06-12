@@ -3013,9 +3013,9 @@
 
 		// create DOM structure for absolute navigation
 		if (!settings.dotsData) {
-			this._templates = [ $('<button role="button">')
+			this._templates = [ $('<button role="button" aria-pressed="false">')
 				.addClass(settings.dotClass)
-				.append($('<span aria-label="Slide">'))
+				.append($('<span>'))
 				.prop('outerHTML') ];
 		}
 

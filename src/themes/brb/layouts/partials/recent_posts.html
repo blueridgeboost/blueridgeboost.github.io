@@ -42,7 +42,7 @@
                         </div>
 
                         <div class="content">
-                            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                             <p class="author-category">
 			    {{ if isset .Params "authors" }}
 			      {{ i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}<a href="{{ (printf "%s/%s" ("authors" | relLangURL) ($author | urlize)) }}">{{ $author }}</a>{{ end }}
