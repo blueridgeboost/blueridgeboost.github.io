@@ -1,12 +1,7 @@
-for file in *.gif
-do
-	cwebp -q 40 "$file" -o "${file%.gif}.webp"
-done
-for file in *.jpg
-do
-        cwebp -q 40 "$file" -o "${file%.jpg}.webp"
-done
-for file in *.png
-do
-        cwebp -q 40 "$file" -o "${file%.png}.webp"
+for file in `ls *.jpg`
+do 
+	for size in 300 600 1100 1440 1770 2048
+	do
+		cwebp.exe -q 80 -resize $size 0 $file -o "${size}_${file%.jpg}.webp"
+	done
 done
