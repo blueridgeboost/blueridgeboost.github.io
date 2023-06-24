@@ -17,7 +17,7 @@
     </item>
     
     <item>
-      <title>Summer camp</title>
+      <title>Summer Coding and Math Camps</title>
       <link>https://blueridgeboost.com/blog/2023/05/21/summer-camps-23/</link>
       <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
       
@@ -44,21 +44,21 @@
     </item>
     
     <item>
-      <title>New Location in Downtown Charlottesville</title>
+      <title>The new office is ready for students!</title>
       <link>https://blueridgeboost.com/blog/2022/09/05/new-office-ready/</link>
       <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/blog/2022/09/05/new-office-ready/</guid>
-      <description>The new office is ready for students! </description>
+      <description></description>
     </item>
     
     <item>
-      <title>New Location in Downtown Charlottesville</title>
+      <title>New Downtown Location</title>
       <link>https://blueridgeboost.com/blog/2022/08/29/brb-new-location/</link>
       <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/blog/2022/08/29/brb-new-location/</guid>
-      <description>New Downtown Location Starting in September, Blue Ridge Boost is located at 222 Court Square, Charlottesville.
+      <description>Starting in September, Blue Ridge Boost is located at 222 Court Square, Charlottesville.
 To reach us, please walk around to the back of the building. Walk up the stairs to the second floor and enter through the door on your left.
 The closest paid parking is the Market Street Garage. Free 2-hour parking is available throughout the Downtown area.</description>
     </item>
@@ -69,7 +69,7 @@ The closest paid parking is the Market Street Garage. Free 2-hour parking is ava
       <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/blog/2022/08/15/fall-coding-classes-2022/</guid>
-      <description>Fall classes coming soon! </description>
+      <description></description>
     </item>
     
     <item>
@@ -207,8 +207,7 @@ Small classes &amp;mdash; no more than six students in a class.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/class/coding/preschool-block-coding/</guid>
-      <description>Our youngest students learn fundamental coding concepts by helping a monkey collect bananas on instructor-provided Chromebooks. Students learn the basics of coding using left, right, jump up, jump left, and jump right commands to guide a monkey to collect all bananas before opening a treasure chest. In addition, students learn to code repetition by using loops and conditional loops. The course concludes with procedures.
-The classes run in four-week sessions.</description>
+      <description>Our youngest students learn fundamental coding concepts by helping a [monkey collect bananas](https://www.codemonkey.com/courses/codemonkey-jr) on instructor-provided Chromebooks. Students learn the basics of coding using left, right, jump up, jump left, and jump right commands to guide a monkey to collect all bananas before opening a treasure chest. In addition, students learn to code repetition by using loops and conditional loops. The course concludes with procedures.The classes run in four-week sessions.</description>
     </item>
     
     <item>
@@ -238,7 +237,8 @@ Click here to book a tutoring session.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/contact/</guid>
-      <description>Don&amp;rsquo;t hesitate to get in touch with us for any learning needs in math and computing. We offer online and in-person one-on-one instruction and in-person group classes for students from middle school to graduate student level in Mathematics and Computer Science.</description>
+      <description>Don&amp;rsquo;t hesitate to get in touch with us for any learning needs in math and computing. We offer online and in-person one-on-one instruction and in-person group classes for students from middle school to graduate student level in Mathematics and Computer Science.
+Contact formYour NameYour EmailYour Message&amp;nbsp; Send Message</description>
     </item>
     
     <item>
@@ -275,8 +275,7 @@ Get Ready for Geometry Join our Summer classes in August to participate in a car
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/class/coding/tweens-coffee-script/</guid>
-      <description>Students learn fundamental coding concepts using Coffee Script, a beginner-friendly text-based coding language. The young coders use an attractive graphical interface to generate text by pressing buttons on instructor-provided Chromebooks. Some previous experience typing is helpful but not necessary.
-Classes run in four-week sessions. Each class is 50 minutes long. We adjust classes to the pace of each student. Students typically need between ten to fourteen sessions to complete the course, depending on age and previous coding experience.</description>
+      <description>Students learn fundamental coding concepts using Coffee Script, a beginner-friendly text-based coding language. The young coders use an attractive graphical interface to generate text by pressing buttons on instructor-provided Chromebooks. Some previous experience typing is helpful but not necessary. Classes run in four-week sessions. Each class is 50 minutes long. We adjust classes to the pace of each student. Students typically need between ten to fourteen sessions to complete the course, depending on age and previous coding experience.</description>
     </item>
     
     <item>
@@ -285,8 +284,7 @@ Classes run in four-week sessions. Each class is 50 minutes long. We adjust clas
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/class/coding/lego-wedo/</guid>
-      <description>Come and learn to build and program Lego® robots! In each lesson, students build a Lego® robot using a design model, improve and extend it, and then create a program using Scratch to control and move the robot. The robots use a medium power motor to act, depth, and tilt sensor to sense. A Scratch program encodes the robot&amp;rsquo;s actions in response to sensing.
-Sign up here for a free trial coding class!</description>
+      <description>Come and learn to build and program Lego&amp;reg; robots!In each lesson, students build a Lego&amp;reg; robot using a design model,improve and extend it, and then create a program using Scratch tocontrol and move the robot. The robots use a medium power motor to act, depth, and tilt sensor to sense. A Scratch program encodes the robot&#39;s actions in response to sensing. Sign up for a free trial class!</description>
     </item>
     
     <item>
@@ -297,7 +295,7 @@ Sign up here for a free trial coding class!</description>
       <guid>https://blueridgeboost.com/class/coding/lego-spike/</guid>
       <description>Come and learn to build and program Lego® robots!
 Students learn to build robot attachments and code the Lego Spike® robot using Scratch.
-Sign up here for a free trial coding class!</description>
+Sign up for a free trial class!</description>
     </item>
     
     <item>
@@ -306,10 +304,7 @@ Sign up here for a free trial coding class!</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/camps/coding/summer-23/</guid>
-      <description>Morning CampsAges 6 to 10: Come to learn to code using Scratch or Coffee Script, build Lego® robots and solve math puzzles! The activities do not repeat; students may join us for one, two, or all three weeks!
-Session 1: 9 am to 1 pm, July 24th to July 28th
-Session 2: 9 am to 1 pm, July 31st to August 4th
-Session 3: 9 am to 1 pm, August 7th to August 11th</description>
+      <description>Morning CampsAges 6 to 10: Come to learn to code using Scratch or Coffee Script, build Lego&amp;reg; robots and solve math puzzles! The activities do not repeat; students may join us for one, two, or all three weeks! Session 1: 9 am to 1 pm, July 24th to July 28thSession 2: 9 am to 1 pm, July 31st to August 4th Session 3: 9 am to 1 pm, August 7th to August 11th Math ReviewJoin our review sessions to start the school year with confidence.</description>
     </item>
     
     <item>
@@ -371,8 +366,8 @@ Classes run in four-week sessions. Each class is 50 minutes long. We adjust clas
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/class/coding/scratch/</guid>
-      <description>Learn Scratch with us! We teach Scratch using a project-based approach. You will learn to create games, including Make it Fly!, Dungeons, Pong, Dodge the Balls, Jumping game, Math facts practice, a clone of Crossy Road, and much more.
-Sign up here for a free trial coding class!</description>
+      <description>Learn Scratch with us!We teach Scratch using a project-based approach. You will learn to create games, including Make it Fly!, Dungeons, Pong, Dodge the Balls, Jumping game, Math facts practice, a clone of Crossy Road, and much more.
+Sign up for a free trial class!</description>
     </item>
     
     <item>
@@ -391,8 +386,7 @@ Click here to book a tutoring session.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/vision/</guid>
-      <description>During the COVID-19 pandemic, I spent a significant amount of time teaching and helping my children learn and discovered that I greatly enjoy teaching young students. As a result, I quit my Ph.D. program in Computer Science to pursue a degree in teaching at the University of Virginia and launched Blue Ridge Boost.
-During the lockdown, Maxwell and Dorina tried a variety of challenging and exciting classes from the Center for Talented Youth at John Hopkins and The Art Of Problem Solving.</description>
+      <description>During the COVID-19 pandemic, I spent a significant amount of time teaching and helping my children learn and discovered that I greatly enjoy teaching young students. As a result, I quit my Ph.D. program in Computer Science to pursue a degree in teaching at the University of Virginia and launched Blue Ridge Boost. During the lockdown, Maxwell and Dorina tried a variety of challenging and exciting classes from the Center for Talented Youth at John Hopkins and The Art Of Problem Solving.</description>
     </item>
     
     <item>
@@ -401,8 +395,7 @@ During the lockdown, Maxwell and Dorina tried a variety of challenging and excit
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blueridgeboost.com/instructor/</guid>
-      <description>I am originally from Bucharest, Romania and earned a B.S. in Computer Science at the Polytechnical University of Bucharest. I moved to Charlottesville in the Fall of 2004 to pursue graduate school at the University of Virginia, where I earned a Master&amp;rsquo;s in Computer Science, a Master of Science in Mathematics, and a Master of Teaching.
-I have several years of experience as a software engineer and am the author of several research papers in Computer Science.</description>
+      <description>I am originally from Bucharest, Romania and earned a B.S. in Computer Science at the Polytechnical University of Bucharest. I moved to Charlottesville in the Fall of 2004 to pursue graduate school at the University of Virginia, where I earned a Master&#39;s in Computer Science, a Master of Science in Mathematics, and a Master of Teaching. I am passionate about math and computer science education, especially for girls and women, and I co-founded a Math Circle for girls and held lessons for four years until the COVID-19 pandemic.</description>
     </item>
     
   </channel>

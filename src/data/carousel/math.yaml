@@ -1,12 +1,20 @@
 weight: 5
 title: "Making Math Maestros"
-description: >
+description_small: >
   <ul class="list-style-none">
-    <li>Elementary and Middle School Math Olympiad</li>
-    <li>MathCounts training</li>
-    <li>AMC 8/10/12 training</li>
-    <li>AP Calculus AB/BC prep</li>
-    <li>AP Statistics prep</li>
+    <li>Math Olympiad </li>
+    <li>MathCounts</li>
+    <li>AMC 8/10/12</li>
+    <li>AP Calculus AB/BC</li>
+    <li>AP Statistics</li>
+  </ul>
+description_large: >
+  <ul class="list-style-none">
+    <li>Math Olympiad for Elementary and Middle School</li>
+    <li>MathCounts Coaching</li>
+    <li>AMC 8/10/12 Coaching</li>
+    <li>AP Calculus AB/BC Tutoring</li>
+    <li>AP Statistics Tutoring</li>
   </ul>
 image: "mathpuzzle.webp"
 image_width: "600"

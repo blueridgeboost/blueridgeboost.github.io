@@ -1,25 +1,15 @@
-<div class="container" id="contact">
+<!-- <h1>{{ i18n "contactForm" }}</h1> -->
 
+<div class="container" id="contact">
     <div class="row">
         <div class="col-md-8">
-
-            <section>
-
-                {{ .Content }}
-
-                {{ if isset .Site.Params "formspree_action" }}
-
-                <div class="heading">
-                  <h3>{{ i18n "contactForm" }}</h3>
-                </div>
-
+            {{ .Content }}
+            {{ if isset .Site.Params "formspree_action" }}
                 <div id="contact-message"></div>
-
-		<form
-		  action="https://formspree.io/f/myyawwzg"
-		  method="POST"
-		>
-                    <div class="row">
+                <form
+                    action="https://formspree.io/f/myyawwzg"
+                    method="POST">
+                <div class="row">
                         <div class="col-sm-6">
                             <div class="form-group">
                               <label for="name">{{ i18n "contactName" }}</label>

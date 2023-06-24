@@ -10,11 +10,11 @@ header = "Scratch Coding and Tutoring in Charlottesville"
 <div class="row">
 
 <div class="col-sm-6">
-Learn Scratch with us!  
+<b>Learn Scratch with us!</b>
 
 We teach Scratch using a project-based approach. You will learn to create games, including Make it Fly!, Dungeons, Pong, Dodge the Balls, Jumping game, Math facts practice, a clone of Crossy Road, and much more.
 
-<b><a href="https://trialcodingclasses.youcanbook.me/">Sign up here</a> for a free trial coding class!</b>
+<a class="btn btn-contact-us" href="https://trialcodingclasses.youcanbook.me/">Sign up for a free trial class!</a>
 
 
 </div>

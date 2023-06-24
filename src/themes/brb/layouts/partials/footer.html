@@ -1,61 +1,21 @@
-<footer id="footer">
-    <div class="container">
-
-	
-        <!-- /.col-md-4 -->
-
-        {{ if isset .Site.Params "address" }}
-        <div class="col-md-3 col-sm-4">
-
-            {{ .Site.Params.address | safeHTML }}
-
-            <hr class="hidden-md hidden-lg hidden-sm">
-
-        </div>
-        <!-- /.col-md-4 -->
-        {{ end }}
-
-        {{ if isset .Site.Params "about_us" }}
-        <div class="col-md-4 col-sm-6">
-	  
-            {{ .Site.Params.about_us | safeHTML }}
-
-            <hr class="hidden-md hidden-lg hidden-sm">
-            <a href="{{ default "/contact" .Site.Params.contact_url }}" class="btn btn-small btn-template-main">Contact Us</a>
-
-
-        </div>
-        <!-- /.col-md-4 -->
-        {{ end }}
-
-
-
-	
-    </div>
-    <!-- /.container -->
-</footer>
-
-<!-- /#footer -->
-
-<!-- *** FOOTER END *** -->
-
-<!-- *** COPYRIGHT ***
-_________________________________________________________ -->
-<!--
-<div id="copyright">
-    <div class="container">
-        <div class="col-md-12">
-            {{ if isset .Site.Params "copyright" }}
-            <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
+<footer id="footer" 
+    style="background-image: url(https://blueridgeboost.com/images/blue-ridge-footer.webp); color: var(--lightest-blue);">
+    <div class="container-fluid">
+        <div class="row">
+            {{ if isset .Site.Params "about_us" }}
+            <div class="col">
+                {{ .Site.Params.about_us | safeHTML }}
+                
+                <!-- <a href="{{ default "/contact" .Site.Params.contact_url }}" 
+                    class="btn btn-contact-us">Contact Us</a> -->
+            </div>
             {{ end }}
-            <p class="pull-right">
-              {{ i18n "templateBy" | markdownify }} <a href="https://bootstrapious.com/p/universal-business-e-commerce-template">Bootstrapious</a>.
-              {{ i18n "portedBy" | markdownify }} <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.
-            </p>
+
+            {{ if isset .Site.Params "address" }}
+                <div class="col text-start">
+                {{ .Site.Params.address | safeHTML }}
+                </div>
+            {{ end }}
         </div>
     </div>
-</div>
--->
-<!-- /#copyright -->
-
-<!-- *** COPYRIGHT END *** -->
+</footer>

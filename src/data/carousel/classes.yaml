@@ -1,12 +1,20 @@
 weight: 3
 title: "Coding Classes"
-description: >
+description_small: >
   <ul class="list-style-none">
     <li>Preschool block coding</li>
-    <li>Beginner Scratch, Lego WeDo</li>
+    <li>Beginner Scratch</li>
     <li>Intermediate Coffee Script, Python</li>
-    <li>High school and adults Python, Java, Prolog, Lisp, Rust</li>
+    <li>Advanced Python and Java</li>
   </ul>
+description_large: >
+  <ul class="list-style-none">
+    <li>Preschool block coding</li>
+    <li>Beginner block coding and Scratch</li>
+    <li>Intermediate Coffee Script, Python</li>
+    <li>Advanced Python and Java</li>
+  </ul>
+
 image: "oncarpet.webp"
 image_width: "600"
 alt: "Learning to code"

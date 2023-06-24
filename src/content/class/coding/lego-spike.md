@@ -10,4 +10,4 @@ Come and learn to build and program Lego&reg; robots!
 
 Students learn to build robot attachments and code the Lego Spike&reg; robot using Scratch.
 
-<b><a href="https://trialcodingclasses.youcanbook.me/">Sign up here</a> for a free trial coding class!</b>
+<a class="btn btn-contact-us" href="https://trialcodingclasses.youcanbook.me/">Sign up for a free trial class!</a>

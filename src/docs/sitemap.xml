@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blueridgeboost.com/authors/</loc>
-    <lastmod>2023-06-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blueridgeboost.com/blog/</loc>
     <lastmod>2023-06-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -12,9 +9,6 @@
     <lastmod>2023-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blueridgeboost.com/blog/2023/06/05/math-review-23/</loc>
-    <lastmod>2023-06-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blueridgeboost.com/authors/nora-evans/</loc>
     <lastmod>2023-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blueridgeboost.com/blog/2023/05/21/summer-camps-23/</loc>
@@ -54,8 +48,6 @@
     <loc>https://blueridgeboost.com/class/coding/kids-block-coding/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/camps/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/categories/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/form/</loc>
   </url><url>
@@ -98,8 +90,6 @@
     <loc>https://blueridgeboost.com/class/coding/middle-school-python/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/class/coding/scratch/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/tags/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/tutor/</loc>
   </url><url>

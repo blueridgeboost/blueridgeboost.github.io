@@ -13,10 +13,13 @@ PAGEDIR = $(BASEDIR)/content/
 LATEXIFY = python3 $(LATEXDIR)/utils/latexify.py
 DESTINATION = $(BASEDIR)/../docs
 
-html:
+sass:
+	 sass themes/brb/static/assets/sass/custom.scss themes/brb/static/css/style.blue.css
+
+html: sass
 	hugo --theme=$(THEME)  --destination $(DOCSDIR)
 
-develop:
+develop: sass
 	sleep 1 && echo "Opening local browser..." &&  open http://localhost:1313 &
 	hugo server --theme=$(THEME) --buildDrafts --watch --destination $(DESTINATION)
 

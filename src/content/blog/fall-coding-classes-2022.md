@@ -6,6 +6,5 @@ banner_width="500"
 alt="Blue Ridge Boost"
 date="2022-08-15"
 aliases=["/blog/2022/08/15/post1/"]
+header="Fall classes coming soon!"
 +++
-
-# Fall classes coming soon!

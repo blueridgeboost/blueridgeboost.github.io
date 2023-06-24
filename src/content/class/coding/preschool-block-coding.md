@@ -7,34 +7,16 @@ header = "Coding Group Classes for Early Coders"
 +++
 
 
-<div class="container">
-
-<div class="row">
-
-
-
-<div class="col-sm-10">
-
+<div class="container-fluid">
+    <div class="row">
 Our youngest students learn fundamental coding concepts by helping a [monkey collect bananas](https://www.codemonkey.com/courses/codemonkey-jr) on instructor-provided Chromebooks. Students learn the basics of coding using left, right, jump up, jump left, and jump right commands to guide a monkey to collect all bananas before opening a treasure chest. In addition, students learn to code repetition by using loops and conditional loops. The course concludes with procedures.
 
 The classes run in four-week sessions. Each class is 30 minutes long. We adjust the classes to the pace of each student. Students typically need six sessions to complete the course. 
 
 <b><a href="https://trialcodingclasses.youcanbook.me/">Sign up here</a> for a free trial coding class!</b>
-
-
-</div>
-
-</div></div>
-
-
-<div class="container">
-
-<div class="row">
-
-
-<a name="session1"></a>
-
-<div class="col-sm-6">
+    </div>
+    <div class="row flex-column flex-md-row">
+        <div class="col col-md-6 col-lg-8">
 
 #### Session 1. Sequencing
 
@@ -50,42 +32,20 @@ Students learn two new commands and how to code using advanced planning.
 
 **Lesson 4.** Increasingly complex programs <br>
 Students learn one more command, jump, and use the commands they know to solve increasingly complex problems. 
-
-</div>
-<div class="col-sm-4 left">
-
-<center>
-
-<a href="https://www.codemonkey.com/courses/codemonkey-jr">
-<img  alt="Code written by kids!" 
-src="/images/cmjr1.webp" 
-srcset="/images/cmjr1.webp 949w, /images/1280_cmjr1.webp 1280w, /images/640_cmjr1.webp 640w, /images/320_cmjr1.webp 320w"
-sizes="(min-width: 1200px) 250px, (min-width: 1000px) 200px, (min-width: 780px) 145px, calc(75vw - 65px)"
-width="75%" style="padding:10px;"></a>
-
-<a href="https://www.codemonkey.com/courses/codemonkey-jr">
-<img  alt="Code written by kids!" 
-src="/images/cmjr2.webp" 
-srcset="/images/cmjr2.webp 946w, /images/1280_cmjr2.webp 1280w, /images/640_cmjr2.webp 640w, /images/320_cmjr2.webp 320w"
-sizes="(min-width: 1200px) 250px, (min-width: 1000px) 200px, (min-width: 780px) 145px, calc(75vw - 65px)" 
-width="75%" style="padding:10px;"></a>
-
-</center>
-
-</div>
-</div>
-
-</div>
-
-
-<a name="session2"></a>
-
-<div class="container">
-
-<div class="row">
-
-
-<div class="col-sm-6">
+        </div>
+        <div class="col col-md-6 col-lg-3">
+            <a href="https://www.codemonkey.com/courses/codemonkey-jr">
+            <img  alt="Code written by kids!" 
+                src="/images/cmjr1.webp" 
+                class="img-fluid"></a>
+            <a class="d-none d-md-inline" href="https://www.codemonkey.com/courses/codemonkey-jr">
+            <img  alt="Code written by kids!" 
+                src="/images/cmjr2.webp" 
+                class="img-fluid"></a>
+        </div>
+    </div>
+    <div class="row flex-column flex-md-row">
+        <div class="col col-md-6 col-lg-8">
 
 #### Session 2. Loops 
 
@@ -102,34 +62,14 @@ Students continue their practice with repeat loops containing two or more comman
 
 **Lesson 4.** What stops the loop? <br>
 Students explore why some loops finish and others run forever (a deep question in theoretical computer science!)
-</div>
-
-<div class="col-sm-4 left">
-
-<center>
-
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr3.webp" 
-srcset="/images/cmjr3.webp 950w, /images/1280_cmjr3.webp 1280w, /images/640_cmjr3.webp 640w, /images/320_cmjr3.webp 320w"
-sizes="(min-width: 1200px) 250px, (min-width: 1000px) 200px, (min-width: 780px) 145px, calc(75vw - 65px)"
-width="75%" style="padding:10px;"></a>
-
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr4.webp" 
-srcset="/images/cmjr4.webp 947w, /images/1280_cmjr4.webp 1280w, /images/640_cmjr4.webp 640w, /images/320_cmjr4.webp 320w"
-sizes="(min-width: 1200px) 250px, (min-width: 1000px) 200px, (min-width: 780px) 145px, calc(75vw - 65px)"
-width="75%" style="padding:10px;"></a>
-
-</center>
-
-</div>
-
-</div>
-
-
-<div class="row">
-
-
-<div class="col-sm-6">
-
+        </div>
+        <div class="col col-md-6 col-lg-3">
+            <a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr3.webp" class="img-fluid"></a>
+            <a class="d-none d-md-inline" href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr4.webp" class="img-fluid"></a>
+        </div>
+    </div>
+    <div class="row flex-column flex-md-row">
+        <div class="col col-md-6 col-lg-8">
 #### Session 3. Advanced Sequencing and Looping
 
 **Lesson 1.** Back and Forth<br>
@@ -148,37 +88,14 @@ STudents complete the advanced sequencing chapter by coding increasingly complex
 **Lesson 4.** Loops Again <br>
 In this lesson, students will start the Advanced Loops chapter. Until now, the students solved the challenges using a loop and blocks inside it. In this lesson, students will add blocks before the loop. They will need to see the pattern to use a loop. They must identify where the loop starts and how
 to get the monkey to the starting point.
-</div>
-
-<div class="col-sm-4 left">
-
-<center>
-
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" 
-src="/images/cmjr4-1.webp" 
-srcset="/images/cmjr4-1.webp 1304w, /images/1280_cmjr4-1.webp 1280w, /images/640_cmjr4-1.webp 640w, /images/320_cmjr4-1.webp 320w"
-sizes="(min-width: 1200px) 250px, (min-width: 1000px) 200px, (min-width: 780px) 145px, calc(75vw - 65px)"
-width="75%" style="padding:10px;"></a>
-
-
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" 
-src="/images/cmjr5.webp" 
-srcset="/images/cmjr5.webp 1312w, /images/1280_cmjr5.webp 1280w, /images/640_cmjr5.webp 640w, /images/320_cmjr5.webp 320w"
-sizes="(min-width: 1200px) 250px, (min-width: 1000px) 200px, (min-width: 780px) 145px, calc(75vw - 65px)"
-width="75%" style="padding:10px;"></a> 
-
-</center>
-
-</div>
-
-</div>
-
-
-<div class="row">
-
-
-<div class="col-sm-6">
-
+        </div>
+        <div class="col col-md-6 col-lg-3">
+            <a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr4-1.webp" class="img-fluid"></a>
+            <a class="d-none d-md-inline" href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr5.webp" class="img-fluid"></a> 
+        </div>
+    </div>
+    <div class="row flex-column flex-md-row">
+        <div class="col col-md-6 col-lg-8">
 #### Session 4. Advanced and Conditional Looping
 
 **Lesson 1.** Until When<br>
@@ -195,36 +112,14 @@ conditional loops. Conditional loops are loops that repeat based on a certain co
 **Lesson 4.** Plan, Plan, Plan <br>
 In this lesson, students will continue practicing solving challenges by planning their
 journey. They must decide which instructions are before and after the loop and which inside the loop.
-</div>
-
-<div class="col-sm-4 left">
-
-<center>
-
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" 
-src="/images/cmjr6.webp" 
-srcset="/images/cmjr6.webp 1308w, /images/1280_cmjr6.webp 1280w, /images/640_cmjr6.webp 640w, /images/320_cmjr6.webp 320w"
-sizes="(min-width: 1200px) 250px, (min-width: 1000px) 200px, (min-width: 780px) 145px, calc(75vw - 65px)" 
-width="75%" style="padding:10px;"></a>
-
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" 
-src="/images/cmjr7.webp" 
-srcset="/images/cmjr7.webp 1307w, /images/1280_cmjr7.webp 1280w, /images/640_cmjr7.webp 640w, /images/320_cmjr7.webp 320w"
-sizes="(min-width: 1200px) 250px, (min-width: 1000px) 200px, (min-width: 780px) 145px, calc(75vw - 65px)"
-width="75%" style="padding:10px;"></a>
-
-</center>
-
-</div>
-
-</div>
-
-
-<div class="row">
-
-
-<div class="col-sm-6">
-
+        </div>
+        <div class="col col-md-6 col-lg-3">
+            <a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr6.webp" class="img-fluid"></a>
+            <a class="d-none d-md-inline" href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr7.webp" class="img-fluid"></a>
+        </div>
+    </div>
+    <div class="row flex-column flex-md-row">
+        <div class="col col-md-6 col-lg-8">
 #### Session 5. Advanced Conditional Looping
 
 **Lesson 1.** It is complicated<br>
@@ -238,34 +133,14 @@ Students use multiple loops to move back and forth.
 
 **Lesson 4.** Three is more fun <br>
 Students learn how to add more than two loops and use the same conditional loop for different parts of the solution.
-</div>
-
-<div class="col-sm-4 left">
-
-<center>
-
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr8.webp" 
-srcset="/images/cmjr8.webp 1308w, /images/1280_cmjr8.webp 1280w, /images/640_cmjr8.webp 640w, /images/320_cmjr8.webp 320w"
-sizes="(min-width: 1200px) 250px, (min-width: 1000px) 200px, (min-width: 780px) 145px, calc(75vw - 65px)"
-width="75%" style="padding:10px;"></a>
-
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr9.webp" 
-srcset="/images/cmjr9.webp 1315w, /images/1280_cmjr9.webp 1280w, /images/640_cmjr9.webp 640w, /images/320_cmjr9.webp 320w"
-sizes="(min-width: 1200px) 250px, (min-width: 1000px) 200px, (min-width: 780px) 145px, calc(75vw - 65px)"
-width="75%" style="padding:10px;"></a> 
-
-</center>
-
-</div>
-
-</div>
-
-
-<div class="row">
-
-
-<div class="col-sm-6">
-
+        </div>
+        <div class="col  col-md-6 col-lg-3">
+            <a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr8.webp" class="img-fluid"></a>
+            <a class="d-none d-md-inline" href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr9.webp" class="img-fluid"></a> 
+        </div>
+    </div>
+    <div class="row flex-column flex-md-row">
+        <div class="col col-md-6 col-lg-8">
 #### Session 6. Procedures
 
 **Lesson 1.** What is a procedure?<br>
@@ -279,28 +154,10 @@ Students need to use several procedures in each challenge, and the code of each 
 
 **Lesson 4.** Advanced Procedures <br>
 Students face challenges with validating the path and moving in both directions to get to the bananas and the treasure chest.
-</div>
-
-<p><br></p>
-
-<div class="col-sm-4 left">
-
-<center>
-
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr10.webp" 
-srcset="/images/cmjr10.webp 903w, /images/1280_cmjr10.webp 1280w, /images/640_cmjr10.webp 640w, /images/320_cmjr10.webp 320w"
-sizes="(min-width: 1200px) 250px, (min-width: 1000px) 200px, (min-width: 780px) 145px, calc(75vw - 65px)"
-width="75%" style="padding:10px;"></a>
-
-<a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr11.webp" 
-srcset="/images/cmjr11.webp 1066w, /images/1280_cmjr11.webp 1280w, /images/640_cmjr11.webp 640w, /images/320_cmjr11.webp 320w"
-sizes="(min-width: 1200px) 250px, (min-width: 1000px) 200px, (min-width: 780px) 145px, calc(75vw - 65px)"
-width="75%" style="padding:10px;"></a>
-
-</center>
-
-</div>
-
-</div>
-
+        </div>
+        <div class="col col-md-6 col-lg-3">
+            <a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr10.webp" class="img-fluid"></a>
+            <a class="d-none d-md-inline" href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr11.webp" class="img-fluid"></a>
+        </div>
+    </div>
 </div>
