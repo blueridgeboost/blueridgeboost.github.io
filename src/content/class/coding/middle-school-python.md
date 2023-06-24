@@ -18,7 +18,7 @@ Students learn Python using a combination of lessons that use the Code Monkey pl
 
 Classes run in four-week sessions. Each class is 50 minutes long. We adjust classes to the pace of each student. Students typically need between ten to fourteen sessions to complete the course, depending on age and previous coding experience.
 
-<b><a href="https://trialcodingclasses.youcanbook.me/">Sign up here</a> for a free trial coding class!</b>
+<a href="https://trialcodingclasses.youcanbook.me/">Sign up for a free trial class!</a>
 
 
 </div></div></div>

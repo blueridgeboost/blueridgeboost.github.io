@@ -1,11 +1,20 @@
 weight: 4
 title: "Crafting Computing Champions"
-description: >
+description_small: >
   <ul class="list-style-none">
-    <li>AP Computer Science Principles Prep</li>
-    <li>AP Computer Science A Prep</li>
-    <li>College Computer Science Tutoring</li>
+    <li>Computational Thinking</li>
+    <li>AP Computer Science</li>
+    <li>College Tutoring</li>
     <li>USA Computing Olympiad Training</li>
+    <li>Lisp, Rust, Prolog</li>
+  </ul>
+description_large: >
+  <ul class="list-style-none">
+    <li>Computational Thinking</li>
+    <li>AP Computer Science</li>
+    <li>College Tutoring</li>
+    <li>USA Computing Olympiad Training</li>
+    <li>Lisp, Rust, Prolog</li>
   </ul>
 image: "computingchampions.webp"
 image_width: "600"

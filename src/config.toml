@@ -6,9 +6,6 @@ languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
 
-# Enable comments by entering your Disqus shortname
-# disqusShortname = "devcows"
-
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = "G-JV87PS188M"
 
@@ -16,171 +13,86 @@ googleAnalytics = "G-JV87PS188M"
 summaryLength = 70
 
 # Define the number of posts per page
-paginate = 10
+paginate = 5
 
 [markup.goldmark.renderer]
 unsafe= true
 
 [menu]
-
-
-# Main menu
-
 [[menu.main]]
     name       = "Vision"
     identifier = "menu.vision"
     url        = "/vision/"
     weight     = 1
-
 [[menu.main]]
-    name       = "Open Classes"
+    name       = "Classes"
     identifier = "menu.classes"
     url        = "/class/coding/ongoing/"
     weight     = 2
-
 [[menu.main]]
     name       = "Camps"
     identifier = "menu.aug23"
     url        = "/camps/coding/summer-23/"
     weight     = 3
-
 [[menu.main]]
     name       = "Coding"
     identifier = "menu.coding"
     url        = "/coding-classes-and-tutor/"
     weight     = 4
-
 [[menu.main]]
     name       = "Math"
     url        = "/math-classes-and-tutor/"
     weight     = 5
     identifier = "menu.math"
-    
-# [[menu.main]]
-#     name        = "Book now!"
-#     identifier  = "menu.book"
-#     url         = ""
-#     weight      = 5
-
-# [[menu.main]]
-#     name       = "Math Tutor"
-#     url        = "/tutor/math/book-now/"
-#     weight     = 1
-#     parent     = "menu.book"
-
-
-# [[menu.main]]
-#     name       = "Coding Tutor"
-#     url        = "/tutor/computer-science/book-now/"
-#     weight     = 2
-#     parent     = "menu.book"
-
-# [[menu.main]]
-#     name       = "Coding Class"
-#     url        = "/class/coding/ongoing/"
-#     weight     = 3
-#     parent     = "menu.book"
-
-
 [[menu.main]]
     name       = "Instructor"
     identifier = "menu.instructor"
     url        = "/instructor/"
     weight     = 7
-
 [[menu.main]]
     name       = "Blog"
     identifier = "menu.blog"
     url        = "/blog/"
     weight     = 9
-
 [[menu.main]]
     identifier = "contact"
     name       = "Contact"
     url        = "/contact/"
     weight     = 10
-
-
 # Top bar social links menu
-
 [[menu.topbar]]
     weight = 3
     name = "Facebook"
     url = "https://facebook.com/blueridgeboost"
-    pre = "<i class='fab fa-2x fa-facebook'></i>"
+    pre = "<i class='fab fa-xl fa-facebook'></i>"
 
 [[menu.topbar]]
     weight = 5
     name = "Email"
     url = "mailto:nora@blueridgeboost.com"
-    pre = "<i class='fas fa-2x fa-envelope'></i>"
+    pre = "<i class='fas fa-xl fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
     author = "Nora Evans"
-    defaultKeywords = ["Charlottesville coding tutor", "Charlottesville Python tutor", 
+    defaultKeywords = [
+        "Charlottesville coding tutor", "Charlottesville Python tutor", 
         "Charlottesville math tutor", 
         "cvillecoding", "coding", "tutor", "private tutor", 
         "UVA tutor", "computer science tutor", "software engineering tutor", 
         "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
     mainSections = ["blog"]
+    
     defaultDescription = "Coding classes for children! Coding and math tutor for all ages!"
     defaultTwiterDescription = "Math and Coding Classes and Tutoring in Charlottesville" 
 
-    # Social media
-    ## twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
-    ## default_sharing_image = "img/sharing-default.png"
-
-    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "blue"
-
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 50 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - register your account to https://formspree.io/register
-    # - login and create new form
-    # - set your form's endpoint url under 'formspree_action' below
-    # - upload the generated site to your server
-    # - test a dummy email yourself
-    # - you're done. Happy mailing!
-    #
-    # Enable the contact form by entering your Formspree.io endpoint url
-    formspree_action = "https://formspree.io/sample/of/endpoint"
-    contact_form_ajax = false
-
-    # Formspree form supports Google reCAPTCHA Key (type v2).
-    # If you use this feature, you should enable reCAPTCHA feature in the Formspree dashboard.
-    #
-    # By default, Formspree use a redirect page for recaptcha widget.
-    # If you use a recaptcha widget in your contact page, you should do next steps.
-    # (if you don't want, skip these steps)
-    #
-    #   1. register your site on Google recaptcha admin page: https://www.google.com/recaptcha/admin
-    #   2. select reCAPTCHA v2 and checkbox widget type.
-    #   3. remember site key and secret key.
-    #   4. enter secret key into "Custom reCAPTCHA Key" field in your Formspree form setting page.
-    #   5. change `enableRecaptchaInContactForm` is to true
-    #   6. enter site key into `googleRecaptchaKey` to enable a recaptcha widget in your page.
-    #
-    enableRecaptchaInContactForm = false
-    googleRecaptchaKey = "site_key_for_google_recaptcha"
-
     about_us = "<p>Enrichment and tutoring in Math and Computing for any student who wants to learn. <br>Led by Ana Nora Evans in Charlottesville, Virginia.</p>"
-    copyright = ""
 
     # Format dates with Go's time formatting
     date_format = "2 January 2006"
 
-    disabled_logo = false
-    logo_text = "Blue Ridge Boost"
-
-    # logo = "/images/brblogo-square.png"
-    # logo_small = "/images/brblogosquare-small.png"
-    logo = "/images/blue-ridge-highlands.webp"
-    logo_small = "/images/320_blue-ridge-highlands.webp"
+    brand_img = "/images/brand/blue-ridge-highlands.webp"
+    brand = "Blue Ridge Boost"
     
     contact_url = "/contact"
     address = """<strong>Blue Ridge Boost</strong>
@@ -190,11 +102,7 @@ unsafe= true
         <br><strong>Phone: </strong> ‪(434) 260-0636
       </p>
       """
-      
-    # bookclass = "<a href="https://blueridgeboost.youcanbook.me/">Book  classes </a>"
-    # calendar = "<a href="https://calendar.google.com/calendar/embed?src=c_qq9r0u5tfder0q6pg5063s1vto%40group.calendar.google.com&ctz=America%2FNew_York">Group Classes and Availability</a>"
     enableGoogleMaps = false
-
     latitude = "36.5251359"
     longitude = "-90.9888306"
     direction = "222 Court Square, Charlottesville, VA 22902"
@@ -205,55 +113,16 @@ unsafe= true
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
- #   text = """<p><b><font color="#fff" size="+1">Morning summer camps! Afternoon math review!</font></b>  </p>
- #     """
-
-# Enable and disable widgets for the right sidebar
-[params.widgets]
-    categories = false
-    tags = false
-    search = false
-    
-[params.carouselTestimonals]
-    items = 4
-    auto_play = false
-    slide_speed = 2000
-    pagination_speed = 1000
+    text = "Afternoon math review in August!"
 
 [params.carouselHomepage]
     # All carousel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
     # For more informtion take a look at the README.
     enable = true
-    auto_play = true
-    slide_speed = 8000
-    pagination_speed = 1000
 
 [params.mainHomepage]
     enable = true
-
-[params.features]
-    enable = false
-    cols = 3 # Default: 3, Available values 2,3,4,6
-    # All features are defined in their own files. You can find example items
-    # at 'exampleSite/data/features'.
-    # For more informtion take a look at the README.
-
-[params.testimonials]
-    enable = false
-    # All testimonials are defined in their own files. You can find example items
-    # at 'exampleSite/data/testimonials'.
-    # For more informtion take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
-
-[params.see_more]
-    enable = false
-    icon = "far fa-file-alt"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
 
 [params.recent_posts]
     enable = true
@@ -261,10 +130,5 @@ unsafe= true
     subtitle = ""
     hide_summary = false
 
-[params.footer.recent_posts]
-    enable = false
-
 [taxonomies]
-  category = "categories"
-  tag = "tags"
-  author = "authors"
+  

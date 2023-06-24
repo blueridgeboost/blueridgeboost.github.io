@@ -1,131 +1,126 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-
   <head>
     {{ partial "headers.html" . }}
-    {{ partial "custom_headers.html" . }}
   </head>
-
   <body>
-
-    <div id="all">
-
-        {{ partial "top.html" . }}
-
+<div class="container-fluid p-2 p-lg-4">
+    <div class="row"> 
         {{ partial "nav.html" . }}
-
-        {{ partial "breadcrumbs.html" . }}
-
-        <div id="content">
-            <div class="container">
-                <div class="row">
-                    <!-- *** LEFT COLUMN *** -->
-
-                    <div class="col-md-9" id="blog-listing-medium">
-
-                        {{ $paginator := .Paginate (where .Data.Pages "Type" "blog") }}
-                        {{ range $paginator.Pages }}
-                        <section class="post">
-                            <div class="row">
-                                <div class="col-md-4">
-                                  <div class="image">
-                                      <a href="{{ .Permalink }}">
-                                          {{ if .Params.banner }}
-                                          <img class="img-responsive lazyload" 
-                                            data-srcset="/images/blog/{{ .Params.banner }} {{.Params.banner_width}}w, /images/blog/1200_{{ .Params.banner }} 1200w, /images/blog/600_{{ .Params.banner}} 600w, /images/blog/300_{{ .Params.banner }} 300w " 
-                                            data-src="/images/blog/{{ .Params.banner }}" 
-                                            width="300" height="200"
-                                            data-sizes="auto"
-                                            alt="{{ .Params.alt }}">
-                                          {{ else }}
-                                          <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="">
-                                          {{ end }}
-                                      </a>
-                                  </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-                                    <div class="clearfix">
-                                        <p class="author-category">
-                                          {{ if isset .Params "authors" }}
-					  {{ i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}<a href="{{ (printf "%s/%s" ("authors" | relLangURL) ($author | urlize)) }}">{{ $author }}</a>{{ end }}
-                                          {{ end }}
-                                          {{ if isset .Params "categories" }}
-                                          {{ if gt (len .Params.categories) 0 }}
-                                          in 
-                                          {{ range $index, $category := .Params.categories }}{{ if $index }}, {{ end }}
-                                              <a href="{{ "categories/" | relURL }}{{ . | urlize | lower }}">{{ $category }}</a>{{ end }}
-                                          {{ end }}
-                                          {{ end }}
-
-                                        </p>
-                                        {{ if isset .Params "date" }}
-
-                                        {{ $createdAt := .Date.Format .Site.Params.date_format }}
-                                        {{ range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
-                                            {{ $createdAt = replace $createdAt $month (i18n $month) }}
-                                        {{ end }}
-
-                                        <p class="date-comments">
-                                            <a href="{{ .Permalink }}"><i class="far fa-calendar"></i> {{ $createdAt }}</a>
-                                        </p>
-                                        {{ end }}
-                                    </div>
-                                    <p class="intro">{{ .Summary }}</p>
-                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
-                        {{ end }}
-
-                        <ul class="pager">
-                            {{ if .Paginator.HasPrev }}
-                            <li class="previous"><a href="{{ .Paginator.Prev.URL | relURL }}">&larr; {{ i18n "newer" }}</a></li>
-                            {{ else }}
-                            <li class="previous disabled"><a href="#">&larr; {{ i18n "newer" }}</a></li>
-                            {{ end }}
-
-                            {{ if .Paginator.HasNext }}
-                            <li class="next"><a href="{{ .Paginator.Next.URL | relURL }}">{{ i18n "older" }} &rarr;</a></li>
-                            {{ else }}
-                            <li class="next disabled"><a href="#">{{ i18n "older" }} &rarr;</a></li>
-                            {{ end }}
-                        </ul>
-                    </div>
-                    <!-- /.col-md-9 -->
-
-                    <!-- *** LEFT COLUMN END *** -->
-
-                    <!-- *** RIGHT COLUMN ***
-       _________________________________________________________ -->
-
-                    <div class="col-md-3">
-
-                        <!-- *** MENUS AND WIDGETS *** -->
-
-                        {{ partial "sidebar.html" . }}
-
-                        <!-- *** MENUS AND FILTERS END *** -->
-
-                    </div>
-                    <!-- /.col-md-3 -->
-
-                    <!-- *** RIGHT COLUMN END *** -->
-
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </div>
-        <!-- /#content -->
-
-        {{ partial "footer.html" . }}
-
     </div>
-    <!-- /#all -->
-
-    {{ partial "scripts.html" . }}
-
+    <div class="row px-4 pt-4">
+        <div class="vstack gap-3">
+            <div class="px-4">
+                {{ $header := default .Title .Params.header | markdownify | plainify }}
+                <h1>{{ $header }}</h1>
+            </div>
+            <div class="px-2">
+                <div class="container-fluid">
+                    {{ $paginator := .Paginate (where .Data.Pages "Type" "blog") }}
+                    {{ range $paginator.Pages }}
+                        <div class="row py-1">
+                            <div class="col-md-4">
+                                <a href="{{ .Permalink }}">
+                                    {{ if .Params.banner }}
+                                        <img class="img-fluid" 
+                                            src="/images/blog/{{ .Params.banner }}" 
+                                            width="300" height="200"
+                                            alt="{{ .Params.alt }}">
+                                    {{ else }}
+                                        <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="">
+                                    {{ end }}
+                                </a>
+                            </div>
+                            <div class="col-md-8">
+                                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                                {{ if isset .Params "date" }}
+                                    {{ $createdAt := .Date.Format .Site.Params.date_format }}
+                                    {{ range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
+                                        {{ $createdAt = replace $createdAt $month (i18n $month) }}
+                                    {{ end }}
+                                    <p class="date-comments">
+                                        <a href="{{ .Permalink }}"><i class="far fa-calendar"></i> {{ $createdAt }}</a>
+                                    </p>
+                                {{ end }}
+                                <p>{{ .Summary }}</p>
+                                <!-- <p><b><a href="{{ .Permalink }}">{{ i18n "continueReading" }}</a></b></p> -->
+                            </div>
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+            <div class="px-2">
+                <nav aria-label="Paginate">
+                    {{ $adjacent_links := 2 }}
+                    {{ $max_links := (add (mul $adjacent_links 2) 1) }}
+                    {{ $lower_limit := (add $adjacent_links 1) }}
+                    {{ $upper_limit := (sub $paginator.TotalPages $adjacent_links) }}
+                    {{ if gt $paginator.TotalPages 1 }}
+                        <ul class="pagination">
+                        {{ if ne $paginator.PageNumber 1 }}
+                            <li class="page-item">
+                                <a class="page-link" href="{{ $paginator.First.URL }}">  
+                                    First
+                                </a>
+                            </li>
+                        {{ end }}
+                        {{ if $paginator.HasPrev }}
+                            <li class="page-tem">
+                                <a href="{{ $paginator.Prev.URL }}" class="page-link">
+                                    Previous
+                                </a>
+                            </li>
+                        {{ end }}
+                        {{ range $paginator.Pagers }}
+                            {{ $.Scratch.Set "page_number_flag" false }}
+                            {{ if gt $paginator.TotalPages $max_links }}
+                                {{ if le $paginator.PageNumber $lower_limit }}
+                                    {{ if le .PageNumber $max_links }}
+                                        {{ $.Scratch.Set "page_number_flag" true }}
+                                    {{ end }}
+                                {{ else if ge $paginator.PageNumber $upper_limit }}
+                                    {{ if gt .PageNumber (sub $paginator.TotalPages $max_links) }}
+                                        {{ $.Scratch.Set "page_number_flag" true }}
+                                    {{ end }}
+                                {{ else }}
+                                    {{ if and ( ge .PageNumber (sub $paginator.PageNumber $adjacent_links) ) ( le .PageNumber (add $paginator.PageNumber $adjacent_links) ) }}
+                                        {{ $.Scratch.Set "page_number_flag" true }}
+                                    {{ end }}
+                                {{ end }}
+                            {{ else }}
+                                {{ $.Scratch.Set "page_number_flag" true }}
+                            {{ end }}
+                            {{ if eq ($.Scratch.Get "page_number_flag") true }}
+                                <li class="page-item {{ if eq . $paginator }} active {{ end }}">
+                                    <a href="{{ .URL }}" class="page-link">
+                                        {{ .PageNumber }}
+                                    </a>
+                                </li>
+                            {{ end }}
+                        {{ end }}
+                        {{ if $paginator.HasNext }}
+                            <li class="page-item">
+                            <a href="{{ $paginator.Next.URL }}" class="page-link">
+                                Next
+                            </a>
+                            </li>
+                        {{ end }}
+                        {{ if ne $paginator.PageNumber $paginator.TotalPages }}
+                            <li class="page-item">
+                            <a class="page-link" href="{{ $paginator.Last.URL }}">
+                                Last
+                            </a>
+                            </li>
+                        {{ end }}
+                        </ul><!-- .pagination -->
+                    {{ end }}
+                </nav>
+            </div>
+        </div>    
+    </div>
+    <div class="row">
+        {{ partial "footer.html" . }}
+    </div>
+</div>
   </body>
 </html>

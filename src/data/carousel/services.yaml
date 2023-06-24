@@ -1,11 +1,20 @@
 weight: 1
 title: "Services"
-description: >
+description_small: >
   <ul class="list-style-none">
-    <li>Affordable group coding classes</li>
-    <li>Individual coding lessons for all ages</li>
-    <li>Math education for high-achieving students</li>
-    <li>Tutoring from elementary school to college</li> 
+    <li>Affordable coding classes</li>
+    <li>Individual coding lessons</li>
+    <li>Math for high-achievers</li>
+    <li>Math Tutoring</li> 
+    <li>College Math Help</i>
+  </ul>
+description_large: >
+  <ul class="list-style-none">
+    <li>Affordable coding classes</li>
+    <li>Individual coding lessons</li>
+    <li>Math for high-achievers</li>
+    <li>K-12 Math Tutoring</li> 
+    <li>College Math Help</i>
   </ul>
 image: "dorinateaching.webp"
 image_width: "600"

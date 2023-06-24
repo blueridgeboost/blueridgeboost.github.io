@@ -6,66 +6,36 @@ aliases=["/k2/"]
 header = "Block Language Coding for Children"
 +++
 
-<div class="container">
-
-<div class="row">
-
-<div class="col-sm-12 left">Students ages six to ten learn fundamental coding concepts by helping a beaver build a dam on instructor-provided Chromebooks. First, students learn to code using simple commands to move left, right and drop logs. Next, students learn to code repetition using repeat loops executed a fixed or a variable number of times. In the second part of the course, students learn to code using conditional loops. In the third part of the course, students learn to code using conditional statements with simple and compound conditions.  
-
-The classes run in 4 week-sessions. Each class is 45 minutes long. We adjust to the student's pace, with students typically needing between four and six sessions to complete the course depending on age and previous coding experience.
-
-<b><a href="https://trialcodingclasses.youcanbook.me/">Sign up here</a> for a free trial coding class!</b>
-
-</div></div></div>
-
-<a name="session1"></a>
-
-<div class="container">
-
-<div class="row">
-
-<div class="col-sm-6">
-
-#### Session 1. Sequencing and Loops 
-
-Students build a foundation in coding and problem-solving.<br>
-
-**Lesson 1.** What is coding? <br>Students learn that coding is giving precise instructions to a computer. Then, each student creates their first program – a dance routine for the class to follow!
-
-**Lesson 2.** Program using the computer <br>
-Introduces the coding platform Code Monkey&trade;. Students do their first coding exercises, using commands to drop and move right.
-
-**Lesson 3.** Complex sequential programs <br>
-Students learn two new commands and how to code using advanced planning. 
-
-**Lesson 4.** Programming repetition <br>
-Students learn to write concise code using loops. 
-
-</div>
-
-
-<div class="col-sm-6 left">
-<center>
-<a href="https://www.codemonkey.com/courses/beaver-achiever/">
-<img  alt="Beaver achiever!" 
-src="/images/ba1.webp" 
-srcset="/images/ba1.webp 856w, /images/1280_ba1.webp 1280w, /images/640_ba1.webp 640w, /images/320_ba1.webp 320w"
-sizes="(min-width: 1200px) 487px, (min-width: 1000px) 392px, (min-width: 780px) 288px, calc(95vw - 97px)"
-width="95%" style="padding:20px;"></a>
-</center>
-</div>
-
-</div>
-
-</div>
-
-<a name="session2"></a>
-
-<div class="container">
-
-<div class="row">
-
-<div class="col-sm-6">
+<div class="container-fluid">
+    <div class="row px-1">
+        <div class="col-12 text-left">
+        <p>Students ages six to ten learn fundamental coding concepts by helping a beaver build a dam on instructor-provided Chromebooks. First, students learn to code using simple commands to move left, right and drop logs. Next, students learn to code repetition using repeat loops executed a fixed or a variable number of times. In the second part of the course, students learn to code using conditional loops. In the third part of the course, students learn to code using conditional statements with simple and compound conditions.  </p>
+        <p>The classes run in 4 week-sessions. Each class is 45 minutes long. We adjust to the student's pace, with students typically needing between four and six sessions to complete the course depending on age and previous coding experience. </p>
+        <a href="https://trialcodingclasses.youcanbook.me/" class="btn btn-contact-us">Sign up for a free trial class!</a>
+        </div>
+    </div>
+    <div class="row p-1 flex-column flex-lg-row">
+        <div class="col col-lg-8">
+            <a name="session1"></a>
+            <h3> Session 1. Sequencing and Loops </h3>
+            Students build a foundation in coding and problem-solving.<br>
+            <b>Lesson 1.</b> What is coding? <br>Students learn that coding is giving precise instructions to a computer. Then, each student creates their first program – a dance routine for the class to follow!<br>
+            <b>Lesson 2.</b> Program using the computer <br>
+            Introduces the coding platform Code Monkey&trade;. Students do their first coding exercises, using commands to drop and move right.<br>
+            <b>Lesson 3.</b> Complex sequential programs <br>
+            Students learn two new commands and how to code using advanced planning. <br>
+            <b>Lesson 4.</b> Programming repetition <br>
+            Students learn to write concise code using loops. 
+        </div>
+        <div class="col col-lg-4">
+            <a href="https://www.codemonkey.com/courses/beaver-achiever/">
+            <img  alt="Beaver achiever!" 
+            src="/images/ba1.webp" 
+            class="img-fluid"></a>
+        </div>
+    </div>
+    <div class="row p-1 flex-column flex-lg-row">
+        <div class="col col-lg-8">
 
 #### Session 2. Complex problems 
 
@@ -82,32 +52,16 @@ Students create complex programs with loops within loops.
 
 **Lesson 4.** Counter loops <br>
 Students learn to create and analyze programs with counter loops.
-</div>
-
-
-<div class="col-sm-6 left">
-<center>
-<a href="https://www.codemonkey.com/courses/beaver-achiever/">
-<img alt="Code written by kids!" 
-src="/images/ba2.webp" 
-srcset="/images/ba2.webp 1009w, /images/1280_ba2.webp 1280w, /images/640_ba2.webp 640w, /images/320_ba2.webp 320w"
-sizes="(min-width: 1200px) 233px, (min-width: 1000px) 186px, (min-width: 780px) 134px, calc(95vw - 73px)"
-
-width="95%" style="padding:20px;"></a>
-</center>
-</div>
-
-</div>
-
-</div>
-
-<a name="session1"></a>
-
-<div class="container">
-
-<div class="row">
-
-<div class="col-sm-6">
+        </div>
+        <div class="col col-lg-4">
+        <a href="https://www.codemonkey.com/courses/beaver-achiever/">
+            <img alt="Code written by kids!" 
+                src="/images/ba2.webp" 
+                class="img-fluid"></a>
+        </div>
+    </div>
+    <div class="row p-1 flex-column flex-lg-row">
+        <div class="col col-lg-8">
 
 #### Session 3. Conditional Loops 
 
@@ -126,32 +80,16 @@ consecutive and nested loops.
 **Lesson 4.** The Loop Master <br>
 In this lesson the students will learn how to implement ``while`` loops with multiple conditional
 statements and practice more nested loops ``while`` helping the Beaver fix broken tiles.
-
-</div>
-
-
-<div class="col-sm-6 left">
-<center>
-<a href="https://www.codemonkey.com/courses/beaver-achiever/">
-<img  alt="Beaver achiever!" 
-src="/images/ba3.webp" 
-srcset="/images/ba3.webp 1064w, /images/1280_ba3.webp 1280w, /images/640_ba3.webp 640w, /images/320_ba3.webp 320w"
-sizes="(min-width: 1200px) 487px, (min-width: 1000px) 392px, (min-width: 780px) 288px, calc(95vw - 97px)"
-width="95%" style="padding:20px;"></a>
-</center> 
-</div>
-
-</div>
-
-</div>
-
-<a name="session1"></a>
-
-<div class="container">
-
-<div class="row">
-
-<div class="col-sm-6">
+        </div>
+        <div class="col col-lg-4">
+            <a href="https://www.codemonkey.com/courses/beaver-achiever/">
+            <img  alt="Beaver achiever!" 
+            src="/images/ba3.webp" 
+            class="img-fluid"></a>
+        </div>
+    </div>
+    <div class="row p-1 flex-column flex-lg-row">
+        <div class="col col-lg-8">
 
 #### Session 4. If/Else Conditions  
 
@@ -171,23 +109,12 @@ Students learn the fundamentals of event-driven programming.
 
 **Lesson 4.** Group by Color <br>
 Students learn to code using compound conditional statements.
-
-<p><br>
-</p>
-</div>
-
-
-<div class="col-sm-6 left">
-<center>
-<a href="https://www.codemonkey.com/courses/beaver-achiever/">
-<img  alt="Beaver achiever!" 
-src="/images/ba4.webp" 
-srcset="/images/ba4.webp 1083w, /images/1280_ba4.webp 1280w, /images/640_ba4.webp 640w, /images/320_ba4.webp 320w"
-sizes="(min-width: 1200px) 487px, (min-width: 1000px) 392px, (min-width: 780px) 288px, calc(95vw - 97px)"
-width="95%" style="padding:20px;"></a>
-</center> 
-</div>
-
-</div>
-
+        </div>
+        <div class="col col-lg-4">
+            <a href="https://www.codemonkey.com/courses/beaver-achiever/">
+            <img  alt="Beaver achiever!" 
+            src="/images/ba4.webp" 
+            class="img-fluid"></a>
+        </div>
+    </div>
 </div>

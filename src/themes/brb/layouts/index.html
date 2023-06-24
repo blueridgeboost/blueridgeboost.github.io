@@ -3,32 +3,21 @@
 
   <head>
     {{ partial "headers.html" . }}
-    {{ partial "custom_headers.html" . }}
   </head>
 
   <body>
-    <div id="all">
+    
+    <div class="vstack">
 
-      {{ partial "top.html" . }}
+      <div class="p-0">{{ partial "nav.html" . }}</div>
 
-      {{ partial "nav.html" . }}
+      <div class="p-0">{{ partial "carousel.html" . }}</div>
 
-      {{ partial "carousel.html" . }}
+      <div class="p-0">{{ partial "recent_posts.html" . }}</div>
 
-      {{ partial "features.html" . }}
-
-      {{ partial "testimonials.html" . }}
-
-      {{ partial "see_more.html" . }}
-
-      {{ partial "recent_posts.html" . }}
-
-      {{ partial "clients.html" . }}
-
-      {{ partial "footer.html" . }}
-
+      <div class="p-0">{{ partial "footer.html" . }}</div>
+    
     </div>
-    <!-- /#all -->
 
     {{ partial "scripts.html" . }}
 

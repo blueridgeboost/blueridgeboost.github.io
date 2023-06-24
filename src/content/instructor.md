@@ -6,33 +6,29 @@ aliases=["/instructor/"]
 header = "Nora Evans"
 +++
 
-<div class="container">
-<div class="row">
-
-<div class="col-sm-3 left">
-
-<center><a href="/images/nora-new.png">
-<img src="/images/nora-new.webp" 
-srcset="/images/nora-new.webp  600w, /images/1280_nora-new.webp 1280w, /images/640_nora-new.webp 640w, /images/320_nora-new.webp 320w"
-sizes="(min-width: 1200px) 209px, (min-width: 1000px) 162px, (min-width: 780px) 110px, calc(95vw - 97px)"
-width="95%" 
-alt="Nora" 
-style="padding:20px;"></a></center>
-
-<center><a href="/images/teamwork-award.webp">
-<img src="/images/teamwork-award.webp" 
-srcset="/images/teamwork-award.webp 1080w, /images/1280_teamwork-award.webp 1280w, /images/640_teamwork-award.webp 640w, /images/320_teamwork-award.webp 320w"
-sizes="(min-width: 1200px) 209px, (min-width: 1000px) 162px, (min-width: 780px) 110px, calc(95vw - 97px)"
-width="95%" alt="Teamwork Award" style="padding:20px;"></a></center>
-</div>
-<div class="col-sm-6 middle">
-
-
+<div class="container-fluid">
+  <div class="row flex-column flex-md-row">
+    <div class="col col-md-4 col-lg-2">
+      <div clas="container-fluid flex-column">
+        <div class="py-1"><a href="/images/nora-new.png">
+        <img src="/images/nora-new.webp" alt="Nora" class="img-fluid"></a></div>
+        <div class="d-none d-md-block py-md-1"><a href="/images/teamwork-award.webp">
+        <img src="/images/teamwork-award.webp" alt="Teamwork Award" class="img-fluid"></a></div>
+        <div class="d-none d-md-block py-md-1">
+        <a href="/images/pythagora.webp">
+        <img src="/images/pythagora.webp" alt="Geometry puzzles at math circle" class="img-fluid"></a>
+        </div><div class="d-none d-md-block py-md-1"><a href="/images/triangles.webp">
+        <img src="/images/triangles.webp" alt="Triangles Lesson" class="img-fluid"></a>
+        </div><div class="d-none d-md-block py-md-1"><a href="/images/lego-league-outside.webp">
+        <img src="/images/lego-league-outside.webp" alt="First Lego League Lesson" class="img-fluid"></a></div>
+      </div>
+    </div>
+    <div class="col col-md-8 col-lg-9">
 I am originally from Bucharest, Romania and earned a B.S. in Computer Science at the Polytechnical University of Bucharest. I moved to Charlottesville in the Fall of 2004 to pursue graduate school at the University of Virginia, where I earned a Master's in Computer Science, a Master of Science in Mathematics, and a Master of Teaching. 
 
-I have several years of experience as a software engineer and am the author of several research papers in Computer Science. 
+<!-- I have several years of experience as a software engineer and am the author of several research papers in Computer Science.  -->
 
-I am passionate about Math education, especially for girls and women, and I co-founded a Math Circle for girls and held lessons for four years until the COVID-19 pandemic. 
+I am passionate about math and computer science education, especially for girls and women, and I co-founded a Math Circle for girls and held lessons for four years until the COVID-19 pandemic. 
 
 In January 2021, I decided to focus full-time on education. After completing my Master of Teaching, I joined the teaching faculty at the Peabody School for the 2022-2023 academic year where I taught Algebra 1 and Algebra 2 to academically advanced middle school students. 
 
@@ -60,29 +56,6 @@ Currently, I am focusing full-time on coding and math classes at Blue Ridge Boos
 * over two years of online tutoring on [Wyzant](https://www.wyzant.com/Tutors/VA/Charlottesville/9957760/) in C, C++, Java, Python, List, and Prolog.
 * teaching assistant at the University of Virginia 
 * [First Lego League](https://www.firstinspires.org/robotics/fll/what-is-first-lego-league) team lead and coach 
-</div>
-
-<div class="col-sm-3 right">
-<center><a href="/images/pythagora.webp">
-<img src="/images/pythagora.webp" 
-srcset="/images/pythagora.webp 4267w, /images/1280_pythagora.webp 1280w, /images/640_pythagora.webp 640w, /images/320_pythagora.webp 320w"
-sizes="(min-width: 1200px) 233px, (min-width: 1000px) 186px, (min-width: 780px) 134px, calc(95vw - 73px)"
-width="95%" alt="Geometry puzzles at math circle" style="padding:8px;"></a></center>
-
-<center><a href="/images/triangles.webp">
-<img src="/images/triangles.webp" 
-srcset="/images/triangles.webp 1200w, /images/1280_triangles.webp 1280w, /images/640_triangles.webp 640w, /images/320_triangles.webp 320w"
-sizes="(min-width: 1200px) 233px, (min-width: 1000px) 186px, (min-width: 780px) 134px, calc(95vw - 73px)" 
-width="95%" alt="Triangles Lesson" style="padding:8px;"></a></center>
-
-<center><a href="/images/lego-league-outside.webp">
-<img src="/images/lego-league-outside.webp" 
-srcset="/images/lego-league-outside.webp 4032w, /images/1280_lego-league-outside.webp 1280w, /images/640_lego-league-outside.webp 640w, /images/320_lego-league-outside.webp 320w"
-sizes="(min-width: 1200px) 233px, (min-width: 1000px) 186px, (min-width: 780px) 134px, calc(95vw - 73px)"
-width="95%" alt="First Lego League Lesson" style="padding:8px;"></a></center>
-
-
-</div>
-
+    </div>
   </div>
 </div>
