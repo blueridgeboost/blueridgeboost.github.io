@@ -1,0 +1,248 @@
+// Custom.scss
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "node_modules/bootstrap/scss/functions";
+
+$darkest-blue: #003359;
+$dark-blue: #005172;
+$lighter-blue: #8FCAE7;
+$light-blue: #BED6DB;
+$lightest-blue: #EEFFFF;
+
+$primary: $darkest-blue;
+
+$theme-colors: (
+  "primary": $primary,
+);
+
+$custom-colors: (
+  "darkest-blue": $darkest-blue,
+  "dark-blue": $dark-blue,
+  "lighter-blue": $lighter-blue,
+  "light-blue": $light-blue,
+  "lightest-blue": $lightest-blue
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+$theme-colors: map-remove($theme-colors, "info", "light", "dark");
+
+// 2. Include any default variable overrides here
+$enable-shadows: true;
+$enable-dark-mode: false;
+
+$body-color: #1E1E1E;
+$body-secondary-color: rgba($darkest-blue, 1);
+$body-secondary-bg: $lighter-blue;
+$body-emphasis-color: $darkest-blue;
+$body-text-align: left;
+
+// links
+$link-color: $darkest-blue;
+$link-decoration: none;
+$link-hover-decoration: webkit-transform(scale, 1.2);
+
+// headings
+$h1-font-size: 2rem;
+$h2-font-size: 1.75rem;
+$h3-font-size: 1.5rem;
+$h4-font-size: 1.25rem;
+$h5-font-size: 1.2rem;
+$h6-font-size: 1.1rem;
+;
+$headings-font-weight: 700;
+$headings-color: $darkest-blue;
+
+// fonts
+$font-family-sans-serif: "Roboto", "Helvetica", "Arial", "sans-serif";
+
+// navbar
+$navbar-light-color:  $darkest-blue;
+$navbar-light-hover-color: $darkest-blue;
+$navbar-light-active-color: $darkest-blue;
+$navbar-light-icon-color: $darkest-blue;
+$navbar-light-brand-color: $darkest-blue;
+$navbar-light-brand-hover-color: $darkest-blue;
+
+// thumbnail
+$thumbnail-padding: 0;
+$thumbnail-border-width: 0;
+$thumbnail-border-radius: 50%;
+$thumbnail-box-shadow: 8px 8px 8px $darkest-blue;
+
+
+
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/variables-dark";
+
+// 4. Include any default map overrides here
+
+// 5. Include remainder of required parts
+@import "node_modules/bootstrap/scss/maps";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/root";
+
+// 6. Optionally include any other parts as needed
+@import "node_modules/bootstrap/scss/utilities";
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/containers";
+@import "node_modules/bootstrap/scss/grid";
+@import "node_modules/bootstrap/scss/helpers";
+@import "node_modules/bootstrap/scss/carousel";
+@import "node_modules/bootstrap/scss/navbar";
+@import "node_modules/bootstrap/scss/transitions";
+@import "node_modules/bootstrap/scss/helpers/stacks";
+// @import "node_modules/bootstrap/scss/helpers";
+
+// 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "node_modules/bootstrap/scss/utilities/api";
+
+// 8. Add additional custom code here
+$fa-font-path: "/webfonts";
+
+@import "node_modules/fontawesome-free/scss/fontawesome.scss";
+@import "node_modules/fontawesome-free/scss/brands.scss";
+@import "node_modules/fontawesome-free/scss/solid.scss";
+ 
+
+
+#top {
+  background-color: $dark-blue;
+  color: $white;
+  display: flex;
+  align-items: center;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+  
+a.social {
+  color: $lighter-blue;
+  :hover {
+    color: var(--bs-white);
+  }
+}
+  
+.navbar {
+  z-index: 3;
+  overflow: visible;
+}  
+  
+.navbar .navbar-brand .img-thumbnail {
+  max-height: 50px;
+}
+  
+  // navbar toggler
+.navbar .navbar-toggler {
+  box-shadow: none; 
+  border: none;
+  color: var(--darkest-blue);
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: none;
+}
+  
+  .navbar-nav-scroll {
+    max-height: 3em;
+    overflow-y: visible;
+  }
+  
+  
+  .navbar-nav {
+    align-items: end;
+    background-color: $white;
+  }
+  
+  .navbar-nav .nav-link {
+    text-transform: none;
+    font-weight: bold;
+    color: $dark-blue;
+    letter-spacing: 0.03em;
+  }
+  
+  .nav-link:hover {
+    background: $dark-blue;
+    color: $white;
+  } 
+  
+  .navbar-nav .nav-link.active {
+    text-decoration: none;
+    background: $dark-blue;
+    color: $white;
+  }
+  
+  
+  #home-carousel {
+    background-color: $lighter-blue;
+    color: $darkest-blue;
+  }
+  
+  #home-carousel .carousel-item {
+    transition: transform 2s ease-in-out;
+  }
+  
+  #home-carousel .carousel-control-prev,
+  #home-carousel .carousel-control-next {
+    width: 5%;
+    color: $dark-blue;
+  }
+  
+  #home-carousel .carousel-control-prev:hover, 
+  #home-carousel .carousel-control-prev:focus,
+  #home-carousel .carousel-control-next:hover,
+  #home-carousel .carousel-control-next:focus {
+    color: $darkest-blue;
+  }
+  
+  
+  #home-carousel .carousel-indicators {
+    margin-bottom: 0;
+  }
+  
+  #home-carousel .carousel-indicators [data-bs-target] {
+    opacity: 1;
+    border-radius: 0%; 
+    width: 20px;
+    height: 20px;
+    background-color: $light-blue;
+    margin: 0px 7px !important;
+  }
+  
+  #home-carousel .carousel-indicators .active{
+    opacity: 1;
+    background-color: $darkest-blue;
+    margin: 0px 7px !important;
+  }
+  
+  #home-carousel .text-slide {
+    max-height: 15rem !important;
+    height: 15rem !important;
+    overflow: hidden;
+  }
+
+  #brbfooter {
+    background-image: url("/images/blue-ridge-footer.webp"); 
+    color: $lightest-blue;
+  }
+  
+  ul.list-style-none {
+      list-style-type: none;
+    }
+  
+  
+  .btn-contact-us {
+    color: $lightest-blue;
+    font-size: 1.5em;
+    background-color: $darkest-blue;
+    border-color: $darkest-blue;
+  }
+  
+  .lightnote {
+    background: $dark-blue;
+    color: $lightest-blue;
+    font-weight: 500;
+  }
+  
+  .darknote {
+    background: $lightest-blue;
+    font-weight: 500;
+  }

@@ -1,0 +1,155 @@
+baseurl = "https://blueridgeboost.com"
+title = "Coding and Math Classes and Tutoring in Charlottesville"
+theme = "brb"
+languageCode = "en-us"
+
+disableLiveReload = true
+enableRobotsTXT = true
+cleanDestinationDir = true
+
+defaultContentLanguage = "en"
+googleAnalytics = "G-JV87PS188M"
+
+# Define the number of posts per page
+paginate = 5
+# number of words of summarized post content (default 70)
+summaryLength = 70
+
+
+
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[menu]
+[[menu.main]]
+    name       = "Vision"
+    identifier = "menu.vision"
+    url        = "/vision/"
+    weight     = 1
+[[menu.main]]
+    name       = "Classes"
+    identifier = "menu.classes"
+    url        = "/class/coding/ongoing/"
+    weight     = 2
+[[menu.main]]
+    name       = "Camps"
+    identifier = "menu.aug23"
+    url        = "/camps/coding/summer-23/"
+    weight     = 3
+[[menu.main]]
+    name       = "Coding"
+    identifier = "menu.coding"
+    url        = "/coding-classes-and-tutor/"
+    weight     = 4
+[[menu.main]]
+    name       = "Math"
+    url        = "/math-classes-and-tutor/"
+    weight     = 5
+    identifier = "menu.math"
+[[menu.main]]
+    name       = "Instructor"
+    identifier = "menu.instructor"
+    url        = "/instructor/"
+    weight     = 7
+[[menu.main]]
+    name       = "Blog"
+    identifier = "menu.blog"
+    url        = "/blog/"
+    weight     = 9
+[[menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "/contact/"
+    weight     = 10
+# Top bar social links menu
+[[menu.topbar]]
+    weight = 3
+    name = "Facebook"
+    url = "https://facebook.com/blueridgeboost"
+    pre = "<i class='fab fa-2x fa-facebook'></i>"
+
+[[menu.topbar]]
+    weight = 5
+    name = "Email"
+    url = "mailto:nora@blueridgeboost.com"
+    pre = "<i class='fas fa-2x fa-envelope'></i>"
+
+[params]
+    viewMorePostLink = "/blog/"
+    author = "Nora Evans"
+    defaultKeywords = [
+        "Charlottesville coding tutor", "Charlottesville Python tutor", 
+        "Charlottesville math tutor", 
+        "cvillecoding", "coding", "tutor", "private tutor", 
+        "UVA tutor", "computer science tutor", "software engineering tutor", 
+        "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
+    mainSections = ["blog"]
+    
+    defaultDescription = "Coding classes for children! Coding and math tutor for all ages!"
+    defaultTwiterDescription = "Math and Coding Classes and Tutoring in Charlottesville" 
+
+    about_us = "<p>Enrichment and tutoring in Math and Computing for any student who wants to learn. <br>Led by Ana Nora Evans in Charlottesville, Virginia.</p>"
+
+    # Format dates with Go's time formatting
+    date_format = "2 January 2006"
+
+    brand_img = "/images/brand/blue-ridge-highlands.webp"
+    brand = "Blue Ridge Boost"
+    
+    contact_url = "/contact"
+    address = """<strong>Blue Ridge Boost</strong>
+        <br>222 Court Square
+        <br>Charlottesville, Virginia 22902
+        <br><strong>Email: </strong>  <a href="mailto:nora@blueridgeboost.com" style="color:#EEFFFF"><em>nora@blueridgeboost.com</em></a>
+        <br><strong>Phone: </strong> ‪(434) 260-0636
+      </p>
+      """
+    enableGoogleMaps = false
+    latitude = "36.5251359"
+    longitude = "-90.9888306"
+    direction = "222 Court Square, Charlottesville, VA 22902"
+
+[permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
+
+# Enable or disable top bar with social icons
+[params.topbar]
+    enable = true
+    text = "Afternoon math review in August!"
+
+[params.carouselHomepage]
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more informtion take a look at the README.
+    enable = true
+
+[params.mainHomepage]
+    enable = true
+
+[params.recent_posts]
+    enable = true
+    title = "From our blog"
+    subtitle = ""
+    hide_summary = false
+
+[taxonomies]
+
+[build]
+  writeStats = true
+
+[module]
+    [[module.mounts]]
+      source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      target = "assets/js/bootstrap.bundle.min.js"
+
+    [[module.mounts]]
+      source = "node_modules/fontawesome-free/"
+      target = "assets/fontawesome/"
+
+    [[module.mounts]]
+        source = "assets"
+        target = "assets"
+
+  
+  
