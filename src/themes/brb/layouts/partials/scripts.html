@@ -5,11 +5,11 @@
 {{ $fa_solid := resources.Get "fontawesome/js/solid.js" }}
 {{ $fa := resources.Get "fontawesome/js/fontawesome.js" }}
 
-{{ $options := (dict "minify" "true" "sourceMap" "external") }}
+{{ $options := (dict "sourceMap" "external") }}
 
-{{ $js := slice $fa_brands $fa_solid $fa $bootstrap | resources.Concat "js/bundle.js" | js.Build $options }}
+{{ $js := slice $fa_brands $fa_solid $fa $bootstrap | resources.Concat "js/bundle.js" | js.Build $options | minify }}
 {{ $securejs := $js | resources.Fingerprint }}
-<script defer type="text/javascript" src="{{ $js.RelPermalink }}" integrity="{{ $securejs.Data.Integrity }}"></script>
+<script defer type="text/javascript" src="{{ $securejs.RelPermalink }}" integrity="{{ $securejs.Data.Integrity }}"></script>
 
 
 <!-- Google tag (gtag.js) -->
