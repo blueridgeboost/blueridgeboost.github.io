@@ -5,12 +5,13 @@
 {{ $fa_solid := resources.Get "fontawesome/js/solid.js" }}
 {{ $fa := resources.Get "fontawesome/js/fontawesome.js" }}
 
-{{ $options := (dict "sourceMap" "external") }}
-
-{{ $js := slice $fa_brands $fa_solid $fa $bootstrap | resources.Concat "js/bundle.js" | js.Build $options | minify }}
-{{ $securejs := $js | resources.Fingerprint }}
-<script defer type="text/javascript" src="{{ $securejs.RelPermalink }}" integrity="{{ $securejs.Data.Integrity }}"></script>
-
+{{ if hugo.IsProduction }} 
+  {{ $js := slice $fa_brands $fa_solid $fa $bootstrap | resources.Concat "js/bundle.min.js" | js.Build  }}
+  <script defer type="text/javascript" src="{{ $js.RelPermalink }}"></script>
+{{ else }}
+  {{ $js := slice $fa_brands $fa_solid $fa $bootstrap | resources.Concat "js/bundle.js" | js.Build  }}
+  <script defer type="text/javascript" src="{{ $js.RelPermalink }}"></script>
+{{ end }}
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.Config.Services.GoogleAnalytics.ID }}"></script>

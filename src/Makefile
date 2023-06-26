@@ -7,18 +7,24 @@ GITHUB_PAGES_BRANCH=gh-pages
 
 DESTINATION = ../docs
 
+develop: 
+	sleep 1 && echo "Opening local browser..." &&  open http://localhost:1313 &
+	hugo server  --buildDrafts --watch --destination $(DESTINATION)
+
 clean:
 	rm -rf $(DESTINATION)
 
 html: 
-	hugo  --destination $(DESTINATION)
+	hugo  --destination $(DESTINATION) --minify
 
 copy:
 	cp ../CNAME $(DESTINATION)
 
-develop: 
-	sleep 1 && echo "Opening local browser..." &&  open http://localhost:1313 &
-	hugo server  --buildDrafts --watch --destination $(DESTINATION)
+minify:
+	mv $(DESTINATION)/js/bundle.min.js $(DESTINATION)/js/bundle.js
+	uglifyjs $(DESTINATION)/js/bundle.js \
+         -o $(DESTINATION)/js/bundle.min.js -c -m \
+         --source-map "root='http://blueridgeboost.com/js',url='bundle.min.js.map'"
 
 compress:
 	find ../docs/ -type f -name *.html -exec gzip -k "{}" \;

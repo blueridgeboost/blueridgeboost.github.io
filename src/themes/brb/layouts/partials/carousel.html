@@ -22,7 +22,7 @@
                     <div class="col-6">
                         <img class="d-block w-100 img-fluid" 
                             src="/images/carousel/{{ .image }}" 
-                            width="40vh" height="auto"
+                            class="aspect-ratio: 16 / 9;"
                             srcset="/images/carousel/600_{{ .image }} 600w, /images/carousel/1100_{{ .image }} 1100w, /images/carousel/1440_{{ .image }} 1440w, /images/carousel/1770_{{ .image }} 1770w, /images/carousel/2048_{{ .image }} 2048w"
                             sizes="(min-width: 1000px) calc(50vw - 60px), 50vw"
                             alt="{{ .Params.alt }}">
@@ -38,7 +38,7 @@
                 <div class="row">
                     <div class="col">
                         <img class="d-block w-100 img-fluid" 
-                            width="100%" height="auto"
+                            class="aspect-ratio: 16 / 9;"
                             src="/images/carousel/{{ .image }}" 
                             srcset="/images/carousel/300_{{ .image }} 300w, /images/carousel/400_{{ .image }} 400w, /images/carousel/500_{{ .image }} 500w, /images/carousel/600_{{ .image }} 600w"
                             sizes="calc(100vw - 24px)"
