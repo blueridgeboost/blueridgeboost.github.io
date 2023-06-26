@@ -148,6 +148,10 @@ unsafe= true
       target = "assets/fontawesome/"
 
     [[module.mounts]]
+      source = "node_modules/lazysizes/"
+      target = "assets/lazysizes/"
+
+    [[module.mounts]]
         source = "assets"
         target = "assets"
 
