@@ -3,7 +3,7 @@
     <b>{{ .Site.Params.topbar.text | safeHTML }}</b>
   </div>
   {{ range .Site.Menus.topbar.ByWeight }}
-    <div class="px-1">
+    <div class="px-2">
       <a href="{{ .URL | safeURL }}" 
         class="social"
         target="_blank"
@@ -30,7 +30,7 @@
     <button class="navbar-toggler d-md-none col-1 p-0 m-0 b-0 d-flex justify-content-end align-items-center" 
       type="button" 
       data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
-      aria-controls="bdNavbar" aria-label="Toggle navigation">
+       aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"><i class="fas fa-align-justify navbar-toggler-icon"></i></span>
     </button>
     <!-- menu -->
@@ -85,5 +85,3 @@
     </div> 
   </nav>
 </div>
-
-      

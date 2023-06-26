@@ -1,21 +1,18 @@
-<footer id="footer" 
-    style="background-image: url(https://blueridgeboost.com/images/blue-ridge-footer.webp); color: var(--lightest-blue);">
-    <div class="container-fluid">
-        <div class="row">
-            {{ if isset .Site.Params "about_us" }}
-            <div class="col">
-                {{ .Site.Params.about_us | safeHTML }}
-                
-                <!-- <a href="{{ default "/contact" .Site.Params.contact_url }}" 
-                    class="btn btn-contact-us">Contact Us</a> -->
-            </div>
-            {{ end }}
-
-            {{ if isset .Site.Params "address" }}
-                <div class="col text-start">
-                {{ .Site.Params.address | safeHTML }}
-                </div>
-            {{ end }}
+<div class="container-fluid" id="brbfooter">
+    <div class="row">
+        {{ if isset .Site.Params "about_us" }}
+        <div class="col">
+            {{ .Site.Params.about_us | safeHTML }}
+            
+            <!-- <a href="{{ default "/contact" .Site.Params.contact_url }}" 
+                class="btn btn-contact-us">Contact Us</a> -->
         </div>
+        {{ end }}
+
+        {{ if isset .Site.Params "address" }}
+            <div class="col text-start">
+            {{ .Site.Params.address | safeHTML }}
+            </div>
+        {{ end }}
     </div>
-</footer>
+</div>
