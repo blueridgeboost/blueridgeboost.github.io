@@ -36,7 +36,7 @@
 
 {{ if hugo.IsProduction }} 
   {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "expanded") }}
-  {{ $css := resources.Get "sass/main.scss" | toCSS  $options | resources.PostCSS | resources.Fingerprint | resources.PostProcess }}
+  {{ $css := resources.Get "sass/main.scss" | toCSS  $options | resources.PostCSS | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="$css.Data.Integrity"/>
 {{ else }}
   {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "expanded") }}
