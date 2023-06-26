@@ -38,10 +38,14 @@
       "ul"
     ],
     "classes": [
+      "/",
+      "16",
+      "9;",
       "active",
       "align-items-center",
       "align-items-end",
       "align-items-start",
+      "aspect-ratio:",
       "author-category",
       "b-0",
       "box",

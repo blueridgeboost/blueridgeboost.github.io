@@ -12,9 +12,6 @@
           img-src 'self' data:;
           connect-src 'self' *.google-analytics.com; 
           " /> 
-
-  <!-- font-src 'self' fonts.googleapis.com;   -->
-
 {{ $title_plain := .Title | markdownify | plainify }}
 <title>{{ $title_plain }}</title>
 <meta name="author" content="{{ .Param "author" }}" />
@@ -55,13 +52,13 @@
   }
 </style>
 
+{{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "expanded") }}
+{{ $css := resources.Get "sass/main.scss" | toCSS  $options | resources.PostCSS }}
 {{ if hugo.IsProduction }} 
   {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed") }}
   {{ $css := resources.Get "sass/main.scss" | toCSS  $options | resources.PostCSS | resources.Fingerprint | resources.PostProcess }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="$css.Data.Integrity"/>
 {{ else }} 
-  {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "expanded") }}
-  {{ $css := resources.Get "sass/main.scss" | toCSS  $options | resources.PostCSS }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}"/>
 {{ end }}
 
