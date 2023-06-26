@@ -2297,7 +2297,7 @@ progress {
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
-  width: 30px;
+  width: 50px;
   height: 15px;
   padding: 0;
   margin-right: 10px;
@@ -13771,6 +13771,12 @@ a.social :hover {
 
 #home-carousel .carousel-indicators {
   margin-bottom: 0;
+}
+
+#home-carousel .carousel-indicators .active {
+  opacity: 1;
+  background-color: #003359;
+  margin: 0px 7px !important;
 }
 
 #home-carousel .text-slide {
