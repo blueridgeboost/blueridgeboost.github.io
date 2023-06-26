@@ -1178,6 +1178,12 @@ a.social :hover {
   margin-bottom: 0;
 }
 
+#home-carousel .carousel-indicators .active {
+  opacity: 1;
+  background-color: #003359;
+  margin: 0px 7px !important;
+}
+
 #home-carousel .text-slide {
   max-height: 15rem !important;
   height: 15rem !important;

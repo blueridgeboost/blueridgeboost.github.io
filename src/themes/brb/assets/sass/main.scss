@@ -68,7 +68,7 @@ $thumbnail-border-radius: 50%;
 $thumbnail-box-shadow: 8px 8px 8px $darkest-blue;
 
 // carousel 
-$carousel-indicator-width: 30px;
+$carousel-indicator-width: 50px;
 $carousel-indicator-height: 15px;
 $carousel-indicator-hit-area-height: 30px;
 $carousel-indicator-spacer: 10px;
@@ -204,21 +204,12 @@ a.social {
   #home-carousel .carousel-indicators {
     margin-bottom: 0;
   }
-  
-  // #home-carousel .carousel-indicators [data-bs-target] {
-  //   opacity: 1;
-  //   border-radius: 0%; 
-  //   width: 20px;
-  //   height: 20px;
-  //   background-color: $light-blue;
-  //   margin: 0px 7px !important;
-  // }
-  
-  // #home-carousel .carousel-indicators .active{
-  //   opacity: 1;
-  //   background-color: $darkest-blue;
-  //   margin: 0px 7px !important;
-  // }
+
+  #home-carousel .carousel-indicators .active{
+    opacity: 1;
+    background-color: $darkest-blue;
+    margin: 0px 7px !important;
+  }
   
   #home-carousel .text-slide {
     max-height: 15rem !important;
