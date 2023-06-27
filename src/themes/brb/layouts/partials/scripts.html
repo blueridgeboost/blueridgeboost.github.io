@@ -1,16 +1,13 @@
 <!-- JavaScript and dependencies -->
 
 {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
-{{ $fa_brands := resources.Get "fontawesome/js/brands.js" }}
-{{ $fa_solid := resources.Get "fontawesome/js/solid.js" }}
-{{ $fa := resources.Get "fontawesome/js/fontawesome.js" }}
 {{ $ls := resources.Get "lazysizes/lazysizes.js" }}
 
 {{ if hugo.IsProduction }} 
-  {{ $js := slice $fa_brands $fa_solid $fa $bootstrap $ls | resources.Concat "js/bundle.min.js" | js.Build  }}
+  {{ $js := slice $bootstrap $ls | resources.Concat "js/bundle.min.js" | js.Build  }}
   <script defer type="text/javascript" src="{{ $js.RelPermalink }}"></script>
 {{ else }}
-  {{ $js := slice $fa_brands $fa_solid $fa $bootstrap $ls | resources.Concat "js/bundle.js" | js.Build  }}
+  {{ $js := slice $bootstrap $ls | resources.Concat "js/bundle.js" | js.Build  }}
   <script defer type="text/javascript" src="{{ $js.RelPermalink }}"></script>
 {{ end }}
 
