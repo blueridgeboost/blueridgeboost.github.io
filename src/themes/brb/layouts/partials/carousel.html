@@ -20,13 +20,13 @@
             <div class="container-fluid d-none d-md-inline">
                 <div class="row px-lg-5 align-items-center">
                     <div class="col-6">
-                        {{ if eq 1 $index }}
+                        {{ if (eq 0 $index) }}
                             <img class="d-block w-100 img-fluid" 
                                 src="/images/carousel/{{ .image }}" 
                                 style="aspect-ratio: 16 / 9;"
                                 srcset="/images/carousel/600_{{ .image }} 600w, /images/carousel/1100_{{ .image }} 1100w, /images/carousel/1440_{{ .image }} 1440w, /images/carousel/1770_{{ .image }} 1770w, /images/carousel/2048_{{ .image }} 2048w"
                                 sizes="(min-width: 1000px) calc(50vw - 60px), 50vw"
-                                alt="{{ .Params.alt }}" />
+                                alt="{{ .Params.alt }}" >
                         {{ else }}
                             <img class="d-block w-100 img-fluid lazyload" 
                                 style="aspect-ratio: 16 / 9;"
@@ -34,7 +34,7 @@
                                 data-src="/images/carousel/{{ .image }}" 
                                 data-srcset="/images/carousel/600_{{ .image }} 600w, /images/carousel/1100_{{ .image }} 1100w, /images/carousel/1440_{{ .image }} 1440w, /images/carousel/1770_{{ .image }} 1770w, /images/carousel/2048_{{ .image }} 2048w"
                                 sizes="(min-width: 1000px) calc(50vw - 60px), 50vw"
-                                alt="{{ .Params.alt }}" />
+                                alt="{{ .Params.alt }}" >
                         {{ end }}
                     </div>
                     <div class="col-6 text-start text-slide ps-lg-5 align-items-center">
@@ -47,7 +47,7 @@
             <div class="container-fluid d-md-none">
                 <div class="row">
                     <div class="col">
-                        {{ if eq 1 $index }}
+                        {{ if (eq 0 $index) }}
                             <img class="d-block w-100 img-fluid" 
                                 style="aspect-ratio: 16 / 9;"
                                 src="/images/carousel/{{ .image }}" 
