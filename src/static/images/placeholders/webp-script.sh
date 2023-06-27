@@ -1,3 +1,4 @@
+rm *_*
 for file in `ls *.png`
 do 
 	 cwebp.exe -resize $size 0 $file -o "${file%.png}.webp"
