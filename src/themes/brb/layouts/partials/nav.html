@@ -2,14 +2,22 @@
   <div class="flex-grow-1">
     <b>{{ .Site.Params.topbar.text | safeHTML }}</b>
   </div>
-  {{ range .Site.Menus.topbar.ByWeight }}
     <div class="px-2">
-      <a href="{{ .URL | safeURL }}" 
+      <a href="https://facebook.com/blueridgeboost" 
         class="social"
         target="_blank"
-        aria-label="{{ .Name }}"> {{ .Pre }} </a> 
+        aria-label="Facebook"> 
+        <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512">
+          <style>svg{fill:#8FCAE7}</style><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg> </a> 
     </div>
-  {{ end }}
+    <div class="px-2">
+      <a href="mailto:nora@blueridgeboost.com" 
+        class="social"
+        target="_blank"
+        aria-label="Email"> 
+        <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512">
+          <style>svg{fill:#8FCAE7}</style><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+    </div>
 </div>
 
 <nav class="navbar navbar-expand-md navbar-nav-scroll p-0" id="navbar" aria-label="Main navigation">
@@ -17,6 +25,7 @@
     <a class="navbar-brand col-2 col-md-1 p-0 ps-1 m-0 b-0" href="/" aria-label="{{ .Site.Params.brand }}">
         <img src="{{ .Site.Params.brand_img | relURL }}" 
         class="img-thumbnail"
+        style="aspect-ratio: 3 / 2;"
         alt="{{ .Site.Params.brand }}"/>
     </a>
 
