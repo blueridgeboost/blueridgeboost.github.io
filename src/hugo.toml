@@ -62,18 +62,6 @@ unsafe= true
     name       = "Contact"
     url        = "/contact/"
     weight     = 10
-# Top bar social links menu
-[[menu.topbar]]
-    weight = 3
-    name = "Facebook"
-    url = "https://facebook.com/blueridgeboost"
-    pre = "<i class='fab fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
-    weight = 5
-    name = "Email"
-    url = "mailto:nora@blueridgeboost.com"
-    pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
