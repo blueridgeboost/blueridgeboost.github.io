@@ -17,7 +17,7 @@
                     <a href="{{ .Permalink }}">
                     {{ if isset .Params "banner" }}
                         <img class="img-fluid lazyload" 
-                            src = "/images/blog/brblogo-square.webp"
+                            src = "images/placeholders/placeholder-2-1.webp"
                             data-src="/images/blog/{{ .Params.banner }}" 
                             data-srcset="/images/blog/300_{{ .Params.banner }} 300w, /images/blog/600_{{ .Params.banner }} 600w, /images/blog/1100_{{ .Params.banner }} 1100w, /images/blog/1440_{{ .Params.banner }} 1440w, /images/blog/1770_{{ .Params.banner }} 1770w, /images/blog/2048_{{ .Params.banner }} 2048w"
                             sizes="(min-width: 980px) 200px, calc(17.22vw + 35px)"
@@ -52,7 +52,6 @@
             </div>
         </div>
         {{ end }}
-
     </div>
 </div>
 {{ end }}
