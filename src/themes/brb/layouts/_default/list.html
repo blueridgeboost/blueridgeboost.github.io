@@ -39,7 +39,7 @@
                                         {{ $createdAt = replace $createdAt $month (i18n $month) }}
                                     {{ end }}
                                     <p class="date-comments">
-                                        <a href="{{ .Permalink }}"><i class="far fa-calendar"></i> {{ $createdAt }}</a>
+                                        <a href="{{ .Permalink }}">{{ $createdAt }}</a>
                                     </p>
                                 {{ end }}
                                 <p>{{ .Summary }}</p>
