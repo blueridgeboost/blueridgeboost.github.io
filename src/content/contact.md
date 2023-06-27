@@ -40,7 +40,7 @@ and Computer Science.
     </div>
     <div class="row">
         <div class="col-sm-12 text-center">
-            <button type="submit" class="btn btn-template-main"><i class="far fa-envelope"></i> &nbsp; Send Message</button>
+            <button type="submit" class="btn btn-template-main"> &nbsp; Send Message</button>
         </div>
     </div>
 </div>                
