@@ -27,6 +27,7 @@ $theme-colors: map-remove($theme-colors, "info", "light", "dark");
 // 2. Include any default variable overrides here
 $enable-shadows: true;
 $enable-dark-mode: false;
+$enable-grid-classes: true;
 
 $body-color: #1E1E1E;
 $body-secondary-color: rgba($darkest-blue, 1);

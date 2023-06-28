@@ -1,5 +1,5 @@
 +++
-title = "Free trial coding classes "
+title = "Free trial classes"
 authors = ["Nora Evans"]
 banner="dorinateachingcrop.webp"
 banner_width="300"

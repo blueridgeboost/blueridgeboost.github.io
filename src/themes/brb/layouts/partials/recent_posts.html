@@ -43,9 +43,8 @@
                     {{ end }}
                     </p>
                     {{ if not .Site.Params.recent_posts.hide_summary }}
-                        <p>{{ .Summary }}</p>
-                        <p class="d-none d-lg-inline">
-                            <b><a href="{{ .Permalink }}">{{ i18n "continueReading" }}</a></b>
+                        <p>{{ .Summary }}
+                            <b><a href="{{ .Permalink }}" style="font-size: large;">...</a></b>
                         </p>
                     {{ end }}
                 </div>
