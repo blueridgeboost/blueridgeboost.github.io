@@ -1,5 +1,5 @@
 +++
-title = "Math Review Sessions"
+title = "Math Review"
 authors = ["Nora Evans"]
 banner="fractions.webp"
 banner_width="3315"

@@ -1,5 +1,5 @@
 +++
-title = "Summer Coding and Math Camps"
+title = "Summer Camps"
 authors = ["Nora Evans"]
 banner="pythagora.webp"
 banner_width="300"
