@@ -7694,9 +7694,10 @@ ul.list-style-none {
 
 .btn-contact-us {
   color: #EEFFFF;
-  font-size: 1.5em;
+  font-size: 1.2em;
   background-color: #003359;
   border-color: #003359;
+  padding: 0.5em;
 }
 
 .lightnote {

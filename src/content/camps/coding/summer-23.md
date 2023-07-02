@@ -21,11 +21,11 @@ header = "Summer Coding and Math Camps and Lessons"
                     <div class="col-sm">
                         <h3>Math Review</h3>
                         Join our review sessions to start the school year with confidence. <br>
-                        <a href="/tutor/math/algebra1"><b>Algebra 1</b></a>: 1:30 to 3:30 pm, Monday, July 31st to Thursday, August 3rd <br>
-                        <a href="/tutor/math/geometry"><b>Geometry</b></a>: 2 to 4 pm, Monday, July 31st to Thursday, August 3rd <br>
-                        <a href="/tutor/math/algebra2"><b>Algebra 2</b>:</a> 1:30 to 3:30 pm, Monday, August 7th to Thursday, August 10th <br>
-                        <a href="/tutor/math/precalculus"><b>Precalculus</b></a>: 2 to 4 pm, Monday, August 7th to Thursday, August 10th <br> 
-                        <a href="/tutor/math/ap-calculus"><b>AP&reg; Calculus AB/BC</b></a>: 1:30 to 3:30 pm, Monday, August 14th to Thursday, August 17th <br>
+                        <a href="/tutor/math/algebra1"><b>Algebra 1</b></a>: 1:00 to 2:30 pm, Monday, July 31st to Friday, August 4 <br>
+                        <a href="/tutor/math/geometry"><b>Geometry</b></a>: 2:30 to 4:00 pm, Monday, July 31st to Friday, August 4 <br>
+                        <a href="/tutor/math/algebra2"><b>Algebra 2</b>:</a> 1:00 to 2:30 pm, Monday, August 7th to Friday, August 11 <br>
+                        <a href="/tutor/math/precalculus"><b>Precalculus</b></a>: 2:30 to 4:00 pm, Monday, August 7th to Friday, August 11 <br> 
+                        <a href="/tutor/math/ap-calculus"><b>AP&reg; Calculus AB/BC</b></a>: 12 to 2 pm, Monday, August 14th to Thursday, August 17th <br>
                         <a href="/tutor/math/ap-statistics"><b>AP&reg; Statistics</b></a>: 2 to 4 pm, Monday, August 14th to Thursday, August 17th
                     </div>
                 </div>
