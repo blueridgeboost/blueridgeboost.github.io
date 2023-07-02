@@ -5,19 +5,28 @@ keywords=["Charlottesville algebra tutor", "algebra tutor", "Charlottesville mat
 aliases=["/algebra1/"]
 header = "Algebra 1 Tutoring in Charlottesville"
 +++
+
 <div class="container">
-
-<div class="row">
-
-<div class="col-sm-8 left">
-
 We help your child succeed in algebra and teach advanced concepts to students that are ready for a challenging curriculum. Our services include a prealgebra review before school starts, ongoing support with classroom content, and new topics and lessons.
+<br>
 
 ## Get Ready for Algebra 1! 
 
-Join our summer classes in August to participate in a carefully developed curriculum to review pre-algebra, including fractions, ratios, proportions, order of operations, and exponents.
+ <a class="btn btn-contact-us" href="https://get-ready-for-the-next-school-year-with-math-reviews.cheddarup.com">Signup here</a> to join our summer classes in August to participate in a carefully developed curriculum to review pre-algebra. </br>
 
-<b>To secure your spot in one of our review sessions <a href="https://get-ready-for-the-next-school-year-with-math-reviews.cheddarup.com">signup here!</a></b> 
+At Blue Ridge Boost, we strongly believe that math is not a spectator sport. Children learn math and become independent, confident mathematicians by solving a variety of problems. Our lessons are short and teach algebraic thinking rather than drill and kill. The problems are selected from a variety of sources, including <a href="https://www.doe.virginia.gov/teaching-learning-assessment/k-12-standards-instruction/mathematics/instructional-resources/algebra-readiness-initiative">VDOE Algebra Readiness Initiative, Khan Academy Get Ready for Algebra 1</a>, <a href="https://bim.easyaccessmaterials.com/protected/content/srh/hs/">Big Ideas Math HS Skills Review Handbook</a>, and <a href="https://artofproblemsolving.com/store/book/prealgebra">Art of Problem Solving Prealgebra</a>.
+
+Each day students solve problems from the following topics.
+
+<b>Day 1: Number Sense.</b> Review negative numbers, decimals and fractions and order of operations with an emphasis on the properties of addition and multiplication. 
+
+<b>Day 2: Linear relationships.</b> Students practice ratios, percentages and proportions problems, and learn to recognize and graph linear relationships. 
+
+<b>Day 3: Patterns and functions.</b> Students practice pattern recognition and learn to distinguish between non-function and function relations.
+
+<b>Day 4: Equations and inequalities.</b> Students practice solving linear equations and inequalities. 
+
+<b>Day 5: Exponents and radicals.</b> Students review the laws of exponents and simplification of radicals.  
 
 
 ## Algebra 1 Remediation
@@ -27,7 +36,7 @@ When your student needs an alternate view or wants to learn a topic not taught i
 
 For more details on our services, <a href="/contact/">fill out the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>. 
 
-<a href="/tutor/math/book-now/">Click here</a> to book a tutoring session.
+<a class="btn btn-contact-us" href="/tutor/math/book-now/">Click here</a> to book a tutoring session.
 
 
 ## Algebra 1 for Advanced Students
@@ -36,27 +45,5 @@ Our instructors are qualified teachers with tutoring experience in middle school
 
 Students learn by solving challenging problems for a deeper understanding of the subject. 
 
-<a href="/tutor/math/book-now/">Click here</a> to book a tutoring session.
-
-
+<a class="btn btn-contact-us" href="/tutor/math/book-now/">Click here</a> to book a tutoring session.
 </div>
-
-<div class="col-sm-4">
-
-<center>
-<a href="https://artofproblemsolving.com/store/book/intro-algebra"><img alt="AOPS Algebra" src="/images/intro-algebra.webp" 
-width="45%" style="padding:20px;"></a> <br>
-<a href="https://bim.easyaccessmaterials.com/index.php?level=11.00"><img alt="Algebra 1" 
-src="/images/bim_alg1_cover.webp" 
-srcset="/images/bim_alg1_cover.webp 612w, /images/1280_bim_alg1_cover.webp 1280w, /images/640_bim_alg1_cover.webp 640w, /images/320_bim_alg1_cover.webp 320w"
-sizes="(min-width: 1200px) 122px, (min-width: 1000px) 92px, (min-width: 780px) 59px, calc(45vw - 67px)"
-width="45%" style="padding:20px;"></a> <br>
-<a href="https://allthingsalgebra.com/"><img alt="All Things Algebra" 
-srcset="/images/LogoATA.webp 450w, /images/1280_LogoATA.webp 1280w, /images/640_LogoATA.webp 640w, /images/320_LogoATA.webp 320w"
-sizes="(min-width: 1200px) 158px, (min-width: 1000px) 121px, (min-width: 780px) 81px, calc(55vw - 73px)"
-src="/images/LogoATA.webp" width="55%" style="padding:20px;"></a><br>
-</center>
-</div>
-
-</div></div>
-
