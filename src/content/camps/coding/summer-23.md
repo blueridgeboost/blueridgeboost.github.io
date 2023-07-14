@@ -17,6 +17,7 @@ header = "Summer Coding and Math Camps and Lessons"
                         <p><b>Session 1</b>: 9 am to 1 pm, July 24th to July 28th<br/>
                         <b>Session 2</b>: 9 am to 1 pm, July 31st to August 4th <br />
                         <b>Session 3</b>: 9 am to 1 pm, August 7th to August 11th </p>
+                        <p><b><a href="/camps/coding/schedule-23/">Click here for daily schedule and activities!</a></b></p>
                     </div>
                     <div class="col-sm">
                         <h3>Math Review</h3>
@@ -35,17 +36,18 @@ header = "Summer Coding and Math Camps and Lessons"
     <div class="row  justify-content-center">
             <div class="vstack gap-3 px-2 text-center">  
                 <div class="p-2">
-                    <div class="lightnote">
+                    <div class="darknote">
                         <p>Register By: July 15th, 2023. Capacity: 6 students. Cost: $300 per student </p>
                     </div>
-                        <div class="container">
-                        <div class="row">
-                        <div class="col">
+                    <div class="d-flex justify-content-evenly flex-wrap">
+                        <div class="p-2">
                         <a href="https://blue-ridge-boost-summer-camps-2023.cheddarup.com/" class="btn btn-contact-us">Camp signup here!</a> 
-                        </div> <div class="col">
+                        </div> <div class="p-2">
                         <a href="https://get-ready-for-the-next-school-year-with-math-reviews.cheddarup.com
                         " class="btn btn-contact-us">Review session signup here!</a> 
                         </div>
+                        <div class="p-2">
+                        <a href="/contact" class="btn btn-contact-us">Contact us for financial aid!</a></div>
                     </div>
                 </div>
                 <div class="p-2">

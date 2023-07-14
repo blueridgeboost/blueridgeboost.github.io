@@ -144,99 +144,112 @@ a.social {
   background-image: none;
 }
   
-  .navbar-nav-scroll {
-    max-height: 3em;
-    overflow-y: visible;
-  }
-  
-  
-  .navbar-nav {
-    align-items: end;
-    background-color: $white;
-  }
-  
-  .navbar-nav .nav-link {
-    text-transform: none;
-    font-weight: bold;
-    color: $dark-blue;
-    letter-spacing: 0.03em;
-  }
-  
-  .nav-link:hover {
-    background: $dark-blue;
-    color: $white;
-  } 
-  
-  .navbar-nav .nav-link.active {
-    text-decoration: none;
-    background: $dark-blue;
-    color: $white;
-  }
-  
-  
-  #home-carousel {
-    background-color: $lighter-blue;
-    color: $darkest-blue;
-  }
-  
-  #home-carousel .carousel-item {
-    transition: transform 2s ease-in-out;
-  }
-  
-  #home-carousel .carousel-control-prev,
-  #home-carousel .carousel-control-next {
-    width: 5%;
-    color: $dark-blue;
-  }
-  
-  #home-carousel .carousel-control-prev:hover, 
-  #home-carousel .carousel-control-prev:focus,
-  #home-carousel .carousel-control-next:hover,
-  #home-carousel .carousel-control-next:focus {
-    color: $darkest-blue;
-  }
-  
-  #home-carousel .carousel-indicators {
-    margin-bottom: 0;
+.navbar-nav-scroll {
+  max-height: 3em;
+  overflow-y: visible;
+}
+
+
+.navbar-nav {
+  align-items: end;
+  background-color: $white;
+}
+
+.navbar-nav .nav-link {
+  text-transform: none;
+  font-weight: bold;
+  color: $dark-blue;
+  letter-spacing: 0.03em;
+}
+
+.nav-link:hover {
+  background: $dark-blue;
+  color: $white;
+} 
+
+.navbar-nav .nav-link.active {
+  text-decoration: none;
+  background: $dark-blue;
+  color: $white;
+}
+
+
+#home-carousel {
+  background-color: $lighter-blue;
+  color: $darkest-blue;
+}
+
+#home-carousel .carousel-item {
+  transition: transform 2s ease-in-out;
+}
+
+#home-carousel .carousel-control-prev,
+#home-carousel .carousel-control-next {
+  width: 5%;
+  color: $dark-blue;
+}
+
+#home-carousel .carousel-control-prev:hover, 
+#home-carousel .carousel-control-prev:focus,
+#home-carousel .carousel-control-next:hover,
+#home-carousel .carousel-control-next:focus {
+  color: $darkest-blue;
+}
+
+#home-carousel .carousel-indicators {
+  margin-bottom: 0;
+}
+
+#home-carousel .carousel-indicators .active{
+  opacity: 1;
+  background-color: $darkest-blue;
+  margin: 0px 7px !important;
+}
+
+#home-carousel .text-slide {
+  max-height: 15rem !important;
+  height: 15rem !important;
+  overflow: hidden;
+}
+
+#brbfooter {
+  background-image: url("/images/blue-ridge-footer.webp"); 
+  color: $lightest-blue;
+}
+
+ul.list-style-none {
+    list-style-type: none;
   }
 
-  #home-carousel .carousel-indicators .active{
-    opacity: 1;
-    background-color: $darkest-blue;
-    margin: 0px 7px !important;
-  }
-  
-  #home-carousel .text-slide {
-    max-height: 15rem !important;
-    height: 15rem !important;
-    overflow: hidden;
-  }
 
-  #brbfooter {
-    background-image: url("/images/blue-ridge-footer.webp"); 
-    color: $lightest-blue;
-  }
-  
-  ul.list-style-none {
-      list-style-type: none;
-    }
-  
-  
-  .btn-contact-us {
-    color: $lightest-blue;
-    font-size: 1.2em;
-    background-color: $darkest-blue;
-    border-color: $darkest-blue;
-    padding: 0.5em;
-  }
-  
-  .lightnote {
-    background: $dark-blue;
-    color: $lightest-blue;
-    font-weight: 500;
-  }
-  
-  .darknote {
-    background: $lightest-blue;
-    font-weight: 500;
-  }
+.btn-contact-us {
+  color: $lightest-blue;
+  font-size: 1.2em;
+  background-color: $darkest-blue;
+  border-color: $darkest-blue;
+  padding: 0.5em;
+}
+
+.darknote {
+  background: $dark-blue;
+  font-weight: 500;
+  color: $white;
+}
+
+.darknote a {
+  color: $lightest-blue;
+}
+
+div.row.table-header {
+  background-color: $dark-blue;
+  font-weight: 700;
+  color: $white;
+}
+
+div.row.table-dark-row {
+  background-color: $lightest-blue;
+}
+
+div.row a {
+  font-weight: 500;
+}
