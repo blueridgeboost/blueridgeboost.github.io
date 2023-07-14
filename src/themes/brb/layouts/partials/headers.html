@@ -9,7 +9,7 @@
           script-src 'unsafe-inline' 'self' www.googletagmanager.com www.google.com googleads.g.doubleclick.net localhost:1313;
           style-src 'self' 'unsafe-inline' fonts.googleapis.com;
           font-src  'self' fonts.gstatic.com;
-          img-src 'self' data:;
+          img-src 'self' www.google.com data:;
           connect-src 'self' *.google-analytics.com; 
           " /> 
 {{ $title_plain := .Title | markdownify | plainify }}
