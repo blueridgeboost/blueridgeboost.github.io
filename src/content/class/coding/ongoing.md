@@ -47,16 +47,14 @@ header = "Ongoing Coding Classes in Charlottesville"
     <div class="row  justify-content-center">
         <div class="col col-md-8">
             <div class="vstack gap-3 px-2 pb-2 text-center">  
-                <div class="px-2">
-                    <div class="lightnote">
+                <div class="px-2 darknote">
                         Four coding classes for only $95!<br>
                         Small classes &mdash; no more than six students in a class.
-                    </div>
                 </div>
                 <div class="px-2 darknote">
                         <b><a href="https://trialcodingclasses.youcanbook.me/">Sign up for a free trial coding class</a> or email <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a> to join or request a class!  </b>
                 </div>
-                <div class="px-2 lightnote">
+                <div class="px-2 darknote">
                     All coding classes are held at the Blue Ridge Boost office at <a href="https://www.google.com/maps/place/222+Court+Square,+Charlottesville,+VA+22902/@38.0310664,-78.4791609,17z/data=!3m1!4b1!4m5!3m4!1s0x89b38627a3559ba7:0x8f9b07d311b4dd9b!8m2!3d38.0310622!4d-78.4769669">222 Court Square, Charlottesville</a>. 
                 </div>
             </div>

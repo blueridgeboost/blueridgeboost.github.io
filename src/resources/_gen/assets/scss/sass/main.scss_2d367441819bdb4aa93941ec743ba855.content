@@ -7700,13 +7700,26 @@ ul.list-style-none {
   padding: 0.5em;
 }
 
-.lightnote {
+.darknote {
   background: #005172;
-  color: #EEFFFF;
   font-weight: 500;
+  color: #fff;
 }
 
-.darknote {
-  background: #EEFFFF;
+.darknote a {
+  color: #EEFFFF;
+}
+
+div.row.table-header {
+  background-color: #005172;
+  font-weight: 700;
+  color: #fff;
+}
+
+div.row.table-dark-row {
+  background-color: #EEFFFF;
+}
+
+div.row a {
   font-weight: 500;
 }
