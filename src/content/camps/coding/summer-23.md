@@ -14,9 +14,9 @@ header = "Summer Coding and Math Camps and Lessons"
                         <h3>Morning Camps</h3>
                         <b>Ages 6 to 10:</b> Come to learn to code using Scratch or Coffee Script, build Lego&reg; robots and solve math puzzles! <br>
                         The activities do not repeat; students may join us for one, two, or all three weeks! 
-                        <p><b>Session 1</b>: 9 am to 1 pm, July 24th to July 28th<br/>
-                        <b>Session 2</b>: 9 am to 1 pm, July 31st to August 4th <br />
-                        <b>Session 3</b>: 9 am to 1 pm, August 7th to August 11th </p>
+                        <p><b>Session 1</b>: 9 am to 1 pm, July 24th to July 28th (2 spots remaining) <br/>
+                        <b>Session 2</b>: 9 am to 1 pm, July 31st to August 4th (2 spots remaining) <br />
+                        <b>Session 3</b>: 9 am to 1 pm, August 7th to August 11th (Full)  </p>
                         <p><b><a href="/camps/coding/schedule-23/">Click here for daily schedule and activities!</a></b></p>
                     </div>
                     <div class="col-sm">
