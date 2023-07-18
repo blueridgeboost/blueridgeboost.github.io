@@ -6,7 +6,9 @@ aliases=["/classes/", "/hs/", "/kids/", "/adults/", "/kids"]
 header = "Ongoing Coding Classes in Charlottesville"
 +++
 
-<div class="container">
+## Fall Class Schedule Coming Soon
+
+<!-- <div class="container">
     <div class="row"> 
         <div class="col">
             <div class="container text-center">
@@ -60,6 +62,6 @@ header = "Ongoing Coding Classes in Charlottesville"
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 

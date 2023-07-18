@@ -37,7 +37,7 @@ header = "Summer Coding and Math Camps and Lessons"
             <div class="vstack gap-3 px-2 text-center">  
                 <div class="p-2">
                     <div class="darknote">
-                        <p>Register By: July 15th, 2023. Capacity: 6 students. Cost: $300 per student </p>
+                        <p>Capacity: 6 students. Cost: $300 per student </p>
                     </div>
                     <div class="d-flex justify-content-evenly flex-wrap">
                         <div class="p-2">
