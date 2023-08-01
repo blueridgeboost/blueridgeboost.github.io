@@ -15,8 +15,8 @@ header = "Summer Coding and Math Camps and Lessons"
                         <b>Ages 6 to 10:</b> Come to learn to code using Scratch or Coffee Script, build Lego&reg; robots and solve math puzzles! <br>
                         The activities do not repeat; students may join us for one, two, or all three weeks! 
                         <p><b>Session 1</b>: 9 am to 1 pm, July 24th to July 28th (2 spots remaining) <br/>
-                        <b>Session 2</b>: 9 am to 1 pm, July 31st to August 4th (2 spots remaining) <br />
-                        <b>Session 3</b>: 9 am to 1 pm, August 7th to August 11th (Full)  </p>
+                        <b>Session 2</b>: 9 am to 1 pm, July 31st to August 4th (full) <br />
+                        <b>Session 3</b>: 9 am to 1 pm, August 7th to August 11th (1 spot remaining)  </p>
                         <p><b><a href="/camps/coding/schedule-23/">Click here for daily schedule and activities!</a></b></p>
                     </div>
                     <div class="col-sm">
@@ -37,7 +37,7 @@ header = "Summer Coding and Math Camps and Lessons"
             <div class="vstack gap-3 px-2 text-center">  
                 <div class="p-2">
                     <div class="darknote">
-                        <p>Register By: July 15th, 2023. Capacity: 6 students. Cost: $300 per student </p>
+                        <p>Capacity: 6 students. Cost: $300 per student </p>
                     </div>
                     <div class="d-flex justify-content-evenly flex-wrap">
                         <div class="p-2">
