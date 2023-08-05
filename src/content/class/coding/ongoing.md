@@ -71,7 +71,8 @@ header = "Ongoing Coding Classes in Charlottesville"
                             <a href="/class/coding/tweens-coffee-script"><b>Coffee Script Advanced</b></a> <br>
                             Class meets weekly for one hour from September to December.<br>
                             Four monthly payments of $115.<br>
-                            <a href="https://coffee-script-advanced-sundays-copy.cheddarup.com">Sign up for Sundays, 11:00 &ndash; 11:50 am</a><br>
+                            <a href="https://coffee-script-advanced-saturdays.cheddarup.com">Sign up for Saturdays, 1:30 &ndash; 2:20 pm</a><br>
+                            <!-- <a href="https://coffee-script-advanced-sundays.cheddarup.com">Sign up for Sundays, 11:00 &ndash; 11:50 am</a><br> -->
                             </p>
                             <p><a href="/class/coding/fll-discover"><b>First Lego League Explore</b></a> Team 2 (eight to ten-year-olds)<br>
                             Class meets weekly between Labor Day and March 31.<br>
