@@ -12,7 +12,7 @@ We help your child succeed in geometry and teach advanced concepts to students t
 
 ## Get Ready for Geometry
 
- <a class="btn btn-contact-us" href="https://get-ready-for-the-next-school-year-with-math-reviews.cheddarup.com">Signup here</a> to join our summer classes in August to participate in a carefully developed curriculum to review middle-school Geometry and Algebra 1. </br>
+ <!-- <a class="btn btn-contact-us" href="https://get-ready-for-the-next-school-year-with-math-reviews.cheddarup.com">Signup here</a> to join our summer classes in August to participate in a carefully developed curriculum to review middle-school Geometry and Algebra 1. </br> -->
 
 At Blue Ridge Boost, we strongly believe that math is not a spectator sport. Children learn math and become independent, confident mathematicians by solving a variety of problems. Our lessons are short and teach algebraic thinking rather than drill and kill. The problems are selected from a variety of sources, including <a href="https://bim.easyaccessmaterials.com/protected/content/srh/hs/">Big Ideas Math HS Skills Review Handbook</a> and <a href="https://artofproblemsolving.com/store/book/intro-algebra">Art of Problem Solving Algebra</a>.
 
@@ -39,7 +39,7 @@ For more details on our services, <a href="/contact/"> fill out the contact form
 ## Geometry for Advanced Students
 Students ready for a more challenging curriculum are taught logic, proof-based, and Euclidean geometry. 
 
-<a href="/tutor/math/book-now/">Click here</a> to book a tutoring session.
+<a href="https://blueridgeboost-math.youcanbook.me/">Click here</a> to book a tutoring session.
 
 </div>
 

@@ -7,9 +7,9 @@ header = "Coding Classes and Tutoring in Charlottesville"
 +++
 
 <div class="container">
-  <div class="row justify-content-center"> 
+  <div class="row justify-content-center p-2 m-2 b-2"> 
     <div class="col">
-      <b> <a href="https://trialcodingclasses.youcanbook.me/">Sign up</a>  for a free trial coding class, <a href="/tutor/computer-science/book-now"">book</a>  a private tutoring session or email <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a> to join or request a class!  </b>
+      <b> <a href="https://trialcodingclasses.youcanbook.me/" class="btn btn-contact-us-small">Sign up</a>  for a free trial coding class, <a href="https://blueridgeboost-cs.youcanbook.me" class="btn btn-contact-us-small">book</a>  a private tutoring session or email <a href="mailto:nora@blueridgeboost.com" class="btn btn-contact-us-small"><em>nora@blueridgeboost.com</em></a> to join or request a class!  </b>
     </div>
   </div>
   <div class="row"> 

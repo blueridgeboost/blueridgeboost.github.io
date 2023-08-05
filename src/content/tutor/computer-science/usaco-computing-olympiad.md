@@ -8,4 +8,4 @@ header = "USA Computing Olympiad Coach and Tutor in Charlottesville"
 
 <a href="/contact/">Contact us</a> to get coaching for USA Computing Olympiad!
 
-<a href="/tutor/computer-science/book-now/">Click here</a> to book a tutoring session.
+<a href="https://blueridgeboost-cs.youcanbook.me/">Click here</a> to book a tutoring session.
