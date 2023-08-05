@@ -10,14 +10,13 @@ header = "Block Language Coding for Children"
     <div class="row px-1">
         <div class="col-12 text-left">
         <p>Students ages six to ten learn fundamental coding concepts by helping a beaver build a dam on instructor-provided Chromebooks. First, students learn to code using simple commands to move left, right and drop logs. Next, students learn to code repetition using repeat loops executed a fixed or a variable number of times. In the second part of the course, students learn to code using conditional loops. In the third part of the course, students learn to code using conditional statements with simple and compound conditions.  </p>
-        <p>The classes run in 4 week-sessions. Each class is 45 minutes long. We adjust to the student's pace, with students typically needing between four and six sessions to complete the course depending on age and previous coding experience. </p>
-        <a href="https://trialcodingclasses.youcanbook.me/" class="btn btn-contact-us">Sign up for a free trial class!</a>
+        <p>The classes run in semester sessions. Each class is 45 minutes long. We adjust to the student's pace, with students typically needing between four and six months to complete the course depending on age and previous coding experience. </p>
         </div>
     </div>
     <div class="row p-1 flex-column flex-lg-row">
         <div class="col col-lg-8">
             <a name="session1"></a>
-            <h3> Session 1. Sequencing and Loops </h3>
+            <h3>Unit 1. Sequencing and Loops </h3>
             Students build a foundation in coding and problem-solving.<br>
             <b>Lesson 1.</b> What is coding? <br>Students learn that coding is giving precise instructions to a computer. Then, each student creates their first program – a dance routine for the class to follow!<br>
             <b>Lesson 2.</b> Program using the computer <br>
@@ -37,7 +36,7 @@ header = "Block Language Coding for Children"
     <div class="row p-1 flex-column flex-lg-row">
         <div class="col col-lg-8">
 
-#### Session 2. Complex problems 
+#### Unit 2. Complex problems 
 
 Students build a foundation in coding and problem-solving.<br>
 
@@ -63,9 +62,9 @@ Students learn to create and analyze programs with counter loops.
     <div class="row p-1 flex-column flex-lg-row">
         <div class="col col-lg-8">
 
-#### Session 3. Conditional Loops 
+#### Unit 3. Conditional Loops 
 
-In this session, the students learn conditional loops, which repeat based on a given condition, and master using loops, combinations between loops, nested loops, and more.<br>
+In this unit, the students learn conditional loops, which repeat based on a given condition, and master using loops, combinations between loops, nested loops, and more.<br>
 
 **Lesson 1.** Let’s Build Our House <br>
 Students learn the concept of until loops and practice coding with them.
@@ -91,7 +90,7 @@ statements and practice more nested loops ``while`` helping the Beaver fix broke
     <div class="row p-1 flex-column flex-lg-row">
         <div class="col col-lg-8">
 
-#### Session 4. If/Else Conditions  
+#### Unit 4. If/Else Conditions  
 
 Students will learn about conditional statements that can decide whether or not to execute code
 based on whether a given condition is valid.
