@@ -8,4 +8,4 @@ header = "AP&reg; Computer Science A/B Java Tutor in Charlottesville"
 
 <a href="/contact/">Contact us</a> to set up private lessons with an experienced Java engineer and tutor. 
 
-<a href="/tutor/computer-science/book-now/">Click here</a> to book a tutoring session.
+<a href="https://blueridgeboost-cs.youcanbook.me/">Click here</a> to book a tutoring session.

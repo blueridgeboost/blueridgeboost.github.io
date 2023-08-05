@@ -7700,6 +7700,15 @@ ul.list-style-none {
   padding: 0.5em;
 }
 
+.btn-contact-us-small {
+  color: #EEFFFF;
+  font-size: 1em;
+  background-color: #003359;
+  border-color: #003359;
+  padding: 0.2em;
+  border-top: 0.5em;
+}
+
 .darknote {
   background: #005172;
   font-weight: 500;

@@ -38,16 +38,15 @@ header = "Summer Coding and Math Camps and Lessons"
                 <div class="p-2">
                     <div class="darknote">
                         <p>Capacity: 6 students. Cost: $300 per student </p>
+                        <p>Registration closed!</a>
                     </div>
                     <div class="d-flex justify-content-evenly flex-wrap">
-                        <div class="p-2">
-                        <a href="https://blue-ridge-boost-summer-camps-2023.cheddarup.com/" class="btn btn-contact-us">Camp signup here!</a> 
+                        <!-- <div class="p-2">
+                        <a href="https://blue-ridge-boost-summer-camps-2023.cheddarup.com/" class="btn btn-contact-us">Camp signup here!</a>  -->
                         <!-- </div> <div class="p-2">
                         <a href="https://get-ready-for-the-next-school-year-with-math-reviews.cheddarup.com
                         " class="btn btn-contact-us">Review session signup here!</a> 
                         </div> -->
-                        <div class="p-2">
-                        <a href="/contact" class="btn btn-contact-us">Contact us for financial aid!</a></div>
                     </div>
                 </div>
                 <div class="p-2">

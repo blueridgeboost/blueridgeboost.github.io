@@ -7,9 +7,9 @@ aliases=["/mathadults/"]
 +++
 
 <div class="container">
-  <div class="row justify-content-center"> 
+  <div class="row justify-content-center p-2 m-2 b-2"> 
     <div class="col">
-      <b><a href="https://trialcodingclasses.youcanbook.me/"><a href="/tutor/computer-science/book-now"">Book</a>  a private tutoring session or email <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a> to set up a free evaluation!  </b> 
+      <b><a href="https://blueridgeboost-math.youcanbook.me/" class="btn btn-contact-us-small">Book</a>  a private tutoring session or email <a href="mailto:nora@blueridgeboost.com" class="btn btn-contact-us-small"><em>nora@blueridgeboost.com</em></a> to set up a free evaluation!  </b> 
     </div>
   </div>
   <div class="row"> 

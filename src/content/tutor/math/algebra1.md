@@ -12,7 +12,7 @@ We help your child succeed in algebra and teach advanced concepts to students th
 
 ## Get Ready for Algebra 1! 
 
- <a class="btn btn-contact-us" href="https://get-ready-for-the-next-school-year-with-math-reviews.cheddarup.com">Signup here</a> to join our summer classes in August to participate in a carefully developed curriculum to review pre-algebra. </br>
+ <!-- <a class="btn btn-contact-us" href="https://get-ready-for-the-next-school-year-with-math-reviews.cheddarup.com">Signup here</a> to join our summer classes in August to participate in a carefully developed curriculum to review pre-algebra. </br> -->
 
 At Blue Ridge Boost, we strongly believe that math is not a spectator sport. Children learn math and become independent, confident mathematicians by solving a variety of problems. Our lessons are short and teach algebraic thinking rather than drill and kill. The problems are selected from a variety of sources, including <a href="https://www.doe.virginia.gov/teaching-learning-assessment/k-12-standards-instruction/mathematics/instructional-resources/algebra-readiness-initiative">VDOE Algebra Readiness Initiative, Khan Academy Get Ready for Algebra 1</a>, <a href="https://bim.easyaccessmaterials.com/protected/content/srh/hs/">Big Ideas Math HS Skills Review Handbook</a>, and <a href="https://artofproblemsolving.com/store/book/prealgebra">Art of Problem Solving Prealgebra</a>.
 
@@ -36,7 +36,7 @@ When your student needs an alternate view or wants to learn a topic not taught i
 
 For more details on our services, <a href="/contact/">fill out the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>. 
 
-<a class="btn btn-contact-us" href="/tutor/math/book-now/">Click here</a> to book a tutoring session.
+<a class="btn btn-contact-us" href="https://blueridgeboost-math.youcanbook.me/">Click here</a> to book a tutoring session.
 
 
 ## Algebra 1 for Advanced Students
@@ -45,5 +45,5 @@ Our instructors are qualified teachers with tutoring experience in middle school
 
 Students learn by solving challenging problems for a deeper understanding of the subject. 
 
-<a class="btn btn-contact-us" href="/tutor/math/book-now/">Click here</a> to book a tutoring session.
+<a class="btn btn-contact-us" href="https://blueridgeboost-math.youcanbook.me/">Click here</a> to book a tutoring session.
 </div>

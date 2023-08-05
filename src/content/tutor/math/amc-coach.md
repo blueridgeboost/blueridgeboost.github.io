@@ -13,4 +13,4 @@ The content of the class depends on the target competition and the student's bac
 
 For more details on our services, <a href="/contact/"> fill out the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>. 
 
-<a href="/tutor/math/book-now/">Click here</a> to book a tutoring session.
+<a href="https://blueridgeboost-math.youcanbook.me/">Click here</a> to book a tutoring session.

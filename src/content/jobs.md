@@ -11,8 +11,8 @@ header = "Opportunities at Blue Ridge Boost"
         <div class="col">
             We are looking for the following roles:
             <ol>
-                <li><b>FLL Challenge Coach</b>. The ideal candidate has competition experience either as a coach or competitor.
-                <li><b>Lead teacher for preschool and kindergarten</b>. The ideal candidate has experience working with this age group and has availability after school and on weekends.
+                <li><b>FLL Challenge Coach for the 2023-2024 season</b>. The ideal candidate has competition experience either as a coach or competitor. The team meetings are Mondays and Sundays, from 4 pm to 6 pm. The workload is four hours per week.
+                <li><b>Lead teacher for preschool and kindergarten</b>. The ideal candidate has experience working with this age group and has availability after school and on weekends. 
                 <li><b>Lead teacher for elementary school</b>. The ideal candidate has experience working with this age group, has some coding experience, and has availability after school and on weekends.
             </ol>
         </div>
