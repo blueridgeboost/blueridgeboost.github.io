@@ -11,7 +11,7 @@ header = "Coding Group Classes for Early Coders"
     <div class="row">
 Our youngest students learn fundamental coding concepts by helping a [monkey collect bananas](https://www.codemonkey.com/courses/codemonkey-jr) on instructor-provided Chromebooks. Students learn the basics of coding using left, right, jump up, jump left, and jump right commands to guide a monkey to collect all bananas before opening a treasure chest. In addition, students learn to code repetition by using loops and conditional loops. The course concludes with procedures.
 
-The classes are organized in four-lesson units. Each class is 30 minutes long. We adjust the classes to the pace of each student. Students typically need 4-6 months to complete the course. 
+The classes are organized into four-lesson units. Each class is 30 minutes long. We adjust the classes to the pace of each student. Students typically need 4-6 months to complete the course. 
 
 <b><a href="https://trialcodingclasses.youcanbook.me/">Sign up here</a> for a free trial coding class!</b>
     </div>
@@ -111,7 +111,7 @@ conditional loops. Conditional loops are loops that repeat based on a certain co
 
 **Lesson 4.** Plan, Plan, Plan <br>
 In this lesson, students will continue practicing solving challenges by planning their
-journey. They must decide which instructions are before and after the loop and which inside the loop.
+journey. They must decide which instructions are before, after, and inside the loop.
         </div>
         <div class="col col-md-6 col-lg-3">
             <a href="https://www.codemonkey.com/courses/codemonkey-jr"><img alt="Code written by kids!" src="/images/cmjr6.webp" class="img-fluid"></a>
