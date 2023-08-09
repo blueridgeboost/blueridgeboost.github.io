@@ -18,8 +18,8 @@ header = "STEM with First Lego League Challenge"
     <div class="row">
         <div class="col-6">
             <p>At Blue Ridge Boost students works in pairs using one SPIKE Prime set to ensure each student has the time and the tools to share their ideas and to experiment.</p>
-            <p><b>The preparation class progresses at a slower pace than the competition-level and teaches students to build and experiment with robots to complete the same missions as the competition class.</b></p>
-            <p><b>The students in the FLL Challenge class must commit to attend most of the sessions and to participate in competition, usually in November and December in Richmond.</b></p>
+            <p><b>The preparation class progresses at a slower pace than the competition level and teaches students to build and experiment with robots to complete the same missions as the competition class.</b></p>
+            <p><b>The students in the FLL Challenge class must commit to attending most of the sessions and to participate in a competition, usually in November and December in Richmond.</b></p>
         </div>
     <!-- <div class="row">
         <div class="col-6">

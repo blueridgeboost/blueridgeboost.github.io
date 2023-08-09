@@ -10,8 +10,8 @@ header = "Learn Math and Science with Lego STEAM Park"
     <div class="row">
         <div class="col">
             <p></p>
-            <p>Come and learn to math and science with <a href="https://education.lego.com/en-us/products/steam-park-by-lego-education/45024">Lego STEAM Park</a>! Small class sizes with a maximum of four students sharing one set gives the learners the opportunity to engage with all the components.</p>
-            <p>The STEAM Park unit enables students to delve into the world around them by constructing interactive models using functional components. The lessons encourage students to adopt a scientific mindset as they build and test models, experiment, and seek answers to questions. Along the way, thought-provoking questions will prompt students to apply various science, technology, engineering, art, and math skills. The ultimate goal is cultivating problem-solving abilities by enhancing creativity, collaboration, and communication skills.</p>
+            <p>Come and learn to math and science with <a href="https://education.lego.com/en-us/products/steam-park-by-lego-education/45024">Lego STEAM Park</a>! Small class sizes with a maximum of four students sharing one set allow the learners to engage with all the components.</p>
+            <p>The STEAM Park unit enables students to delve into the world around them by constructing interactive models using functional components. The lessons encourage students to adopt a scientific mindset as they build and test models, experiment, and seek answers to questions. Along the way, thought-provoking questions will prompt students to apply various science, technology, engineering, art, and math skills. The ultimate goal is to cultivate problem-solving abilities by enhancing creativity, collaboration, and communication skills.</p>
         </div>
     <div class="row">
         <div class="col-6">
