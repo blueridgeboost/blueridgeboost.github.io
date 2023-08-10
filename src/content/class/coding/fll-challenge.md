@@ -10,14 +10,13 @@ header = "STEM with First Lego League Challenge"
     <div class="row">
         <div class="col">
             <p></p>
-            <p>The <a href="https://www.firstlegoleague.org/about#">FIRST LEGO League</a> Challenge The curriculum immerses students in research, problem-solving, coding, and engineering, providing them with a diverse range of challenging and relevant learning experiences. Students are tasked with developing innovative solutions to real-world problems, and designing, building, and coding a LEGO robot that can tackle themed challenge missions.
-            </p>
-            <p>The 2023-2024 art-themed MASTERPIECE materials will help students imagine and innovate new ways to create and communicate art across the globe. </a>
+            <p>The <a href="https://www.firstlegoleague.org/about#">FIRST LEGO League</a> Challenge curriculum immerses students in research, problem-solving, coding, and engineering, providing diverse, challenging, and relevant learning experiences. Students are tasked with developing innovative solutions to real-world problems and designing, building, and coding a LEGO robot that can tackle themed challenge missions.</p>>
+            <p>The 2023-2024 art-themed MASTERPIECE materials will help students imagine and innovate new ways to create and communicate art globally.</a>
         </div>
     </div>
     <div class="row">
         <div class="col-6">
-            <p>At Blue Ridge Boost students works in pairs using one SPIKE Prime set to ensure each student has the time and the tools to share their ideas and to experiment.</p>
+            <p>At Blue Ridge Boost, students work in pairs using one SPIKE Prime set to ensure each student has the time and the tools to share their ideas and experiment.</p>
             <p><b>The preparation class progresses at a slower pace than the competition level and teaches students to build and experiment with robots to complete the same missions as the competition class.</b></p>
             <p><b>The students in the FLL Challenge class must commit to attending most of the sessions and to participate in a competition, usually in November and December in Richmond.</b></p>
         </div>
