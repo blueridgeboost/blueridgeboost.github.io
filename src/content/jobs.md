@@ -28,7 +28,7 @@ header = "Opportunities at Blue Ridge Boost"
                     <li>time commitment two to six hours per week.
                 </ul>
                 Pay range: $20 to $30 per hour. 
-                <li><b>Lead teacher for elementary school</b>. <br> 
+                <li><b>Lead teacher for elementary school coding classes</b>. <br> 
                 The ideal candidate:
                 <ul>
                     <li>has experience working with this age group, 
