@@ -19,21 +19,25 @@ header = "Opportunities at Blue Ridge Boost"
                     <li>can attend the team meetings on Mondays and Sundays, from 4 pm to 6 pm. 
                 </ul>
                 Pay range: $20 to $30 per hour. 
-                <li><b>Lead teacher for preschool and kindergarten</b>.<br> 
+                <li><b>Lead teacher for preschool and kindergarten coding classes</b>.<br> 
                 The ideal candidate:
                 <ul>
                     <li>has experience working with young children.
                     <li>has availability on weekday mornings, after school, or on weekends.
                     <li>is qualified to teach following a lesson plan one or more of our PK-K classes, including <a href="/class/coding/preschool-block-coding/">Block Coding</a>, <a href="https://education.lego.com/en-us/lessons/preschool-coding-express">Coding Express</a>, <a href="https://education.lego.com/en-us/lessons/preschool-steam-park">STEAM Park</a>, <a href="https://education.lego.com/en-us/lessons/preschool-storytales">lego story hour</a>, and <a href="/class/coding/fll-discover/">FLL Discover</a>. 
+                    <li>time commitment two to six hours per week.
                 </ul>
-                <li><b>Lead teacher for elementary school</b>. <br> 
+                Pay range: $20 to $30 per hour. 
+                <li><b>Lead teacher for elementary school coding classes</b>. <br> 
                 The ideal candidate:
                 <ul>
                     <li>has experience working with this age group, 
                     <li>has some coding experience, 
                     <li>and has availability after school and on weekends.
                     <li>is qualified to teach one or more of our <a href="/class/coding/ongoing/">classes</a>.
+                    <li>time commitment two to six hours per week.
                 </ul>
+                Pay range: $20 to $30 per hour. 
             </ol>
         </div>
     </div>
