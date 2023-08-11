@@ -3,7 +3,7 @@ title = "First Lego League"
 authors = ["Nora Evans"]
 banner="FIRST_Vertical_RGB.webp"
 banner_width="300"
-date="2023-08-11"
+date="2023-08-12"
 alt="FLL Challenge"
 aliases=[]
 Summary="Join Our Teams!"
@@ -36,7 +36,7 @@ Summary="Join Our Teams!"
             Seven monthly payments of $115.<br>
             <a href="https://fll-explore-team-1.cheddarup.com"> Sign up for Saturdays, 3:30 &ndash; 4:30 pm</a></p>
         </div>
-        <div class="col">
+        <!-- <div class="col">
             <p><a href="/class/coding/fll-discover"><b>First Lego League Discover (five and six-year-olds)</b></a><br>
             Class meets weekly between Labor Day and Thanksgiving Day.<br>
             Three monthly payments of $115.<br>
@@ -45,7 +45,7 @@ Summary="Join Our Teams!"
             Class meets weekly between Labor Day and Thanksgiving Day.<br>
             Three monthly payments of $115.<br>
             Times coming soon!</p>
-        </div>
+        </div> -->
     </div>
 </div>
 
