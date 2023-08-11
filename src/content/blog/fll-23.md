@@ -6,7 +6,7 @@ banner_width="300"
 date="2023-08-12"
 alt="FLL Challenge"
 aliases=[]
-Summary="Join Our Teams!"
+Summary="Join Our Lego Teams!"
 +++
 
 <div class="container">
