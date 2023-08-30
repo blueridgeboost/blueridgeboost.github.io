@@ -7610,7 +7610,7 @@ a.social :hover {
 .navbar .navbar-toggler {
   box-shadow: none;
   border: none;
-  color: var(--darkest-blue);
+  color: #003359;
 }
 
 .navbar .navbar-toggler .navbar-toggler-icon {
