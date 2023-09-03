@@ -7,11 +7,18 @@ aliases=["/mathadults/"]
 +++
 
 <div class="container">
-  <div class="row justify-content-center p-2 m-2 b-2"> 
-    <div class="col">
-      <b><a href="https://blueridgeboost-math.youcanbook.me/" class="btn btn-contact-us-small">Book</a>  a private tutoring session or email <a href="mailto:nora@blueridgeboost.com" class="btn btn-contact-us-small"><em>nora@blueridgeboost.com</em></a> to set up a free evaluation!  </b> 
+
+  <div class="row  justify-content-center">
+        <div class="col col-md-8">
+            <div class="vstack gap-3 px-2 pb-2 text-center">  
+                <div class="px-2 darknote">
+                <b><a href="https://blueridgeboost-math.youcanbook.me/" class="btn ">Book</a>  a private tutoring session or email <a href="mailto:nora@blueridgeboost.com" class="btn"><em>nora@blueridgeboost.com</em></a> to set up a free evaluation!</b><br>
+                To set-up tutoring using a VDOE K-12 Acceleration Grant, please book a meet-and-greet session. Multiple students may form study groups and split the cost of a session.<br>
+                Math tutoring sessions may be virtual or at the Blue Ridge Boost office at <a href="https://www.google.com/maps/place/222+Court+Square,+Charlottesville,+VA+22902/@38.0310664,-78.4791609,17z/data=!3m1!4b1!4m5!3m4!1s0x89b38627a3559ba7:0x8f9b07d311b4dd9b!8m2!3d38.0310622!4d-78.4769669">222 Court Square, Charlottesville</a>. 
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
   <div class="row"> 
     <div class="col">
       <div class="container text-start">

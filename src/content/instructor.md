@@ -32,7 +32,7 @@ I am passionate about math and computer science education, especially for girls 
 
 In January 2021, I decided to focus full-time on education. After completing my Master of Teaching, I joined the teaching faculty at the Peabody School for the 2022-2023 academic year where I taught Algebra 1 and Algebra 2 to academically advanced middle school students. 
 
-Currently, I am focusing full-time on coding and math classes at Blue Ridge Boost, which I founded in November 2021.
+Currently, I teach one Calculus section, Math 1210-400, at the University of Virginia and I focus on expanding the coding and math classes offered at Blue Ridge Boost.
 
 ## Education 
 * [Master of Science - Mathematics](http://records.ureg.virginia.edu/preview_program.php?catoid=38&poid=4093) from the [University of Virginia](https://www.virginia.edu/)
@@ -48,6 +48,7 @@ Currently, I am focusing full-time on coding and math classes at Blue Ridge Boos
 * co-founder and organizer of [Cville Math Circle](https://cvillemathcircle.org/) for preschool and elementary school-age girls
 * teaching assistant for graduate-level courses 
 * Financial Mathematics instructor at the University of Virginia
+* Lecturer at the University of Virginia (part-time)
 
 ## Computer Science and Coding Experience
 
