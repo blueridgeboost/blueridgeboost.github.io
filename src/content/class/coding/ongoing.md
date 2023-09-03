@@ -77,11 +77,11 @@ header = "Ongoing Coding Classes in Charlottesville"
                             Four monthly payments of $115.<br>
                             <a href="https://coffee-script-beginner-saturdays.cheddarup.com">Signup for Saturdays, 12:30 &ndash; 1:20 pm</a><br>
                             <a href="https://coffee-script-beginner-sundays.cheddarup.com">Signup for Sundays, 11:00 &ndash; 11:50 am</a></p>
-                            <a href="/class/coding/tweens-coffee-script"><b>Coffee Script Advanced</b></a> <br>
+                            <!-- <a href="/class/coding/tweens-coffee-script"><b>Coffee Script Advanced</b></a> <br>
                             Class meets weekly for one hour from September 9 to December 9.<br>
                             No meetings on November 25.<br>
                             Four monthly payments of $115.<br>
-                            <a href="https://coffee-script-advanced-saturdays.cheddarup.com">Sign up for Saturdays, 1:30 &ndash; 2:20 pm</a><br>
+                            <a href="https://coffee-script-advanced-saturdays.cheddarup.com">Sign up for Saturdays, 1:30 &ndash; 2:20 pm</a><br> -->
                             </p>
                             <p><a href="/class/coding/fll-explore"><b>First Lego League Explore</b></a> Team 2 (eight to ten-year-olds)<br>
                             Class meets weekly between September 10 and March 31.<br>
@@ -118,7 +118,7 @@ header = "Ongoing Coding Classes in Charlottesville"
             </div>
         </div>
     </div>
-    <div class="row"> 
+    <!-- <div class="row"> 
         <div class="col">
             <div class="container text-center">
                 <div class="row">
@@ -153,7 +153,7 @@ header = "Ongoing Coding Classes in Charlottesville"
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- <div class="row  justify-content-center">
         <div class="col col-md-8">
             <div class="vstack gap-3 px-2 pb-2 text-center">  
