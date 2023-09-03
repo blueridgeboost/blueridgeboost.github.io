@@ -10,6 +10,7 @@ header = "Coding Classes and Tutoring in Charlottesville"
   <div class="row justify-content-center p-2 m-2 b-2"> 
     <div class="col">
       <b> <a href="https://trialcodingclasses.youcanbook.me/" class="btn btn-contact-us-small">Sign up</a>  for a free trial coding class, <a href="https://blueridgeboost-cs.youcanbook.me" class="btn btn-contact-us-small">book</a>  a private tutoring session or email <a href="mailto:nora@blueridgeboost.com" class="btn btn-contact-us-small"><em>nora@blueridgeboost.com</em></a> to join or request a class!  </b>
+      <p>Coding classes are NOT eligible for VDOE K-12 Acceleration Grants. Please get in touch with us for scholarships based on financial need!</p>
     </div>
   </div>
   <div class="row"> 
