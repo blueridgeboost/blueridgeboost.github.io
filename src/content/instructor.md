@@ -60,3 +60,27 @@ Currently, I teach one Calculus section, Math 1210-400, at the University of Vir
     </div>
   </div>
 </div>
+
+<div>
+<style>
+  .Teacher{
+    border: 5px outset clear;
+    background-color: white;
+    text-align: center;
+  }
+  </style>
+</div>
+<div>
+<body>
+<h1>Instructor</h1>
+<div class="Teacher">
+  <h2>Ransford Dunu</h2>
+  </div>
+  <div>
+  <img src="Ransford Dunu.jpeg" alt="Picture of Teacher Ransford Dunu">
+  <p>I am originally from Koforidua, Ghana. I moved to Charlottesville, Virginia with my parents when I was 11 months old. I am currently working torward my Associate's Degree in Mechanical Engineering with a minor in computer science.</p>
+  </div>
+  
+<p>I have experience in teaching teens and kids how to code. Through NSBE(Nation Society of Black Engineers) and Mrs.Early from Albemarle High School I was able to teach middle schoolers how to code a Sphero to get out of a maze. During that time I helped the students to understand critical thinking and problem-solving skills to be able to guide the Sphero out of not just one maze but an array of mazes with the same code.
+ </p>
+  </body>

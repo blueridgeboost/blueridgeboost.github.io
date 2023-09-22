@@ -40,6 +40,7 @@
       "ul"
     ],
     "classes": [
+      "Teacher",
       "active",
       "align-items-center",
       "align-items-end",
