@@ -257,6 +257,11 @@ div.row.table-header {
 
 div.row.table-dark-row {
   background-color: $lightest-blue;
+  text-align: center;
+}
+
+div.row.table-light-row {
+  text-align: center;
 }
 
 div.row a {

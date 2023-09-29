@@ -3,7 +3,7 @@ title = "Coding Classes in Charlottesville | Blue Ridge Boost"
 description = "Learn block languages, Scratch, Coffee Script, Python, Java, and Rust! Build Lego&reg; robots and code with Scratch! Contact us to sign or and find out more details!"
 keywords = ["Charlottesville coding tutor", "Charlottesville Python tutor", "cvillecoding", "coding", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "children coding classes", "kids coding", "kids Python", "children Python", "children coding tutor"]
 aliases=["/classes/", "/hs/", "/kids/", "/adults/", "/kids"]
-header = "Ongoing Coding Classes in Charlottesville"
+header = "Spring Coding Classes in Charlottesville"
 +++
 
 
@@ -12,9 +12,7 @@ header = "Ongoing Coding Classes in Charlottesville"
         <div class="col">
             <div class="vstack gap-3 px-2 pb-2 text-center">  
                 <div class="px-2 darknote">
-                        <b>If you are unsure that our classes are a good fit for your student please sign up for a <a href="https://trialcodingclasses.youcanbook.me/">meet-and-greet session</a> or email <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>.</b> <br>
-                        Coding classes are NOT eligible for VDOE K-12 Acceleration Grants. Please get in touch with us for scholarships based on financial need.<br>
-                     All coding classes are held at the Blue Ridge Boost office at <a href="https://www.google.com/maps/place/222+Court+Square,+Charlottesville,+VA+22902/@38.0310664,-78.4791609,17z/data=!3m1!4b1!4m5!3m4!1s0x89b38627a3559ba7:0x8f9b07d311b4dd9b!8m2!3d38.0310622!4d-78.4769669">222 Court Square, Charlottesville</a>. 
+                    Fall classes sign-up is closed. Check-out our Spring Classes.
                 </div>
             </div>
         </div>
@@ -30,21 +28,17 @@ header = "Ongoing Coding Classes in Charlottesville"
                         Class meets weekly from October 2 to December 11. <br>
                         No meeting on November 20.<br>
                         Three monthly payments of $85.<br>
-                        <a href="https://code-monkey-jr-mondays.cheddarup.com">Sign up for Mondays, 9:30 am &ndash; 10:00 am</a></p>
+                        Mondays, 9:30 am &ndash; 10:00 am</p> 
                         <p><a href="/class/coding/steam-park"><b>Lego Education STEAM Park</b></a><br>
                         Class meets weekly from October 4 to November 29. <br>
                         No meeting on November 22.<br>
                         Two monthly payments of $115. <br>
-                        <a href="https://steam-park-wednesdays.cheddarup.com">Sign up for Wednesdays, 10 am &ndash; 11 am.</a></p>
-                        <!-- <p>Lego Education Coding Express<br>
-                        Class meets weekly in November and December.<br>
-                        Two monthly payments of $115.<br>
-                        Times coming soon!</p> -->
-                        <p><a href="/class/coding/fll-discover"><b>First Lego League Discover</b></a> (four and five-year-olds)<br>
+                        Wednesdays, 10 am &ndash; 11 am.</p> 
+                        <p><a href="/class/coding/fll-discover"><b>First Lego League Discover</b></a><br>
                         Class meets weekly from October 4 to November 29. <br>
                         No meeting on November 22.<br>
                         Two monthly payments of $115. <br>
-                        <a href="https://fll-discover-team-wednesdays.cheddarup.com">Sign up for Wednesdays, 11 am &ndash; 12 pm.</a></p>
+                        Wednesdays, 11 am &ndash; 12 pm.</p> 
                     </div>
                     <div class="col-sm">
                         <h3>Kindergarten to Second Grade</h3>
@@ -52,18 +46,18 @@ header = "Ongoing Coding Classes in Charlottesville"
                         Class meets weekly from September 9 to December 10.<br>
                         No meetings on November 25 and 26.<br>
                         Three monthly payments of $115.<br>
-                        <a href="https://block-coding-saturdays.cheddarup.com">Signup for Saturdays, 11:30 am &ndash; 12:20 pm</a><br>
-                        <a href="https://block-coding-sundays.cheddarup.com">Signup for Sundays, 10:00 am &ndash; 10:50 am</a></p>
-                        <p><a href="/class/coding/fll-discover"><b>First Lego League Discover (five and six-year-olds)</b></a><br>
+                        Saturdays, 11:30 am &ndash; 12:20 pm<br>
+                        Sundays, 10:00 am &ndash; 10:50 am</p>
+                        <a href="/class/coding/fll-discover"><b>First Lego League Discover </b></a><br>
                         Class meets weekly from October 7 to December 9. <br>
                         No meeting on November 25.<br>
                         Two monthly payments of $115. <br>
-                        <a href="https://fll-discover-team-saturdays.cheddarup.com">Sign up for Saturdays, 10:30 am &ndash; 11:20 am.</a></p>
-                        <p><a href="/class/coding/fll-explore"><b>First Lego League Explore</b></a> Team 1 (six and seven-year-olds)<br>
+                        Saturdays, 10:30 am &ndash; 11:20 am.</p>
+                        <p><a href="/class/coding/fll-explore"><b>First Lego League Explore</b></a><br>
                         Class meets weekly between September 9 and March 30.<br>
                         No classes on November 25, December 16, 23, and 30. <br>
                         Seven monthly payments of $115.<br>
-                        <a href="https://fll-explore-team-1.cheddarup.com"> Sign up for Saturdays, 3:30 pm &ndash; 4:30 pm</a></p>
+                        Saturdays, 3:30 pm &ndash; 4:30 pm</p>
                     </div>
                 </div>
                 <div class="row">
@@ -74,24 +68,24 @@ header = "Ongoing Coding Classes in Charlottesville"
                             Class meets weekly for one hour from September 9 to December 10.<br>
                             No meetings on November 25 and 26.<br>
                             Four monthly payments of $115.<br>
-                            <a href="https://coffee-script-beginner-saturdays.cheddarup.com">Signup for Saturdays, 12:30 &ndash; 1:20 pm</a><br>
-                            <a href="https://coffee-script-beginner-sundays.cheddarup.com">Signup for Sundays, 11:00 &ndash; 11:50 am</a></p>
-                            <!-- <a href="/class/coding/tweens-coffee-script"><b>Coffee Script Advanced</b></a> <br>
+                            Saturdays, 12:30 &ndash; 1:20 pm<br>
+                            Sundays, 11:00 &ndash; 11:50 am</p>
+                            <a href="/class/coding/tweens-coffee-script"><b>Coffee Script Advanced</b></a> <br>
                             Class meets weekly for one hour from September 9 to December 9.<br>
                             No meetings on November 25.<br>
                             Four monthly payments of $115.<br>
-                            <a href="https://coffee-script-advanced-saturdays.cheddarup.com">Sign up for Saturdays, 1:30 &ndash; 2:20 pm</a><br> -->
+                            Saturdays, 1:30 &ndash; 2:20 pm<br> 
                             </p>
                             <p><a href="/class/coding/fll-explore"><b>First Lego League Explore</b></a> Team 2 (eight to ten-year-olds)<br>
                             Class meets weekly between September 10 and March 31.<br>
                             No classes on November 26, December 17, 24, and 31. <br>
                             Seven monthly payments of $115.<br>
-                            <a href="https://fll-explore-team-2.cheddarup.com">Signup for Sundays, 2 &ndash; 2:50 pm</a></p>
+                            Sundays, 2 &ndash; 2:50 pm</p>
                             <p><a href="/class/coding/fll-challenge"><b>Preparation for First Lego League Challenge</b></a>(eight to ten-year-olds)<br>
                             Class meets weekly between September 10 and March 31.<br>
                             No classes on November 26, December 17, 24, and 31. <br>
                             Seven monthly payments of $115.<br>
-                            <a href="https://intro-fll-challenge.cheddarup.com">Signup for Sundays, 3 &ndash; 3:50 pm</a></p>
+                            Sundays, 3 &ndash; 3:50 pm</p>
                     </div>
                     <div class="col-sm">
                         <h3>Fifth to Eight Grade</h3>
@@ -100,18 +94,18 @@ header = "Ongoing Coding Classes in Charlottesville"
                             Class meets weekly for one hour from September 9 to December 10.<br>
                             No meetings on November 25 and 26.<br>
                             Four monthly payments of $115.<br>
-                            <a href="https://python-beginner-saturdays.cheddarup.com">Signup for Saturdays, 2:30 &ndash; 3:20 pm</a><br>
-                            <a href="https://python-beginner-sundays.cheddarup.com">Signup for Sundays, 1:00 &ndash; 1:50 pm</a><br></p>
+                            aturdays, 2:30 &ndash; 3:20 pm<br>
+                            Sundays, 1:00 &ndash; 1:50 pm<br></p>
                             <a href="/class/coding/python"><b>Python Advanced</b></a></br>
                             Class meets weekly for one hour from September 10 to December 10.<br>
                             No meetings on November 26.<br>
                             Four monthly payments of $115.<br>
-                            <a href="https://python-advanced-sundays.cheddarup.com">Signup for Sundays, 12:00 &mdash; 12:50 pm</a></p>
-                            <p><a href="/class/coding/fll-challenge"><b>First Lego League Challenge</b></a> (nine to thirteen-year-olds)<br>
+                            Sundays, 12:00 &mdash; 12:50 pm</p>
+                            <p><a href="/class/coding/fll-challenge"><b>First Lego League Challenge</b></a><br>
                             The class meets twice weekly from August 28 to December 11.<br>
                             No meeting on November 20 and 26.<br>
                             Four monthly payments of $195.<br>
-                            <a href="https://fll-challenge-competition.cheddarup.com">Sign up for Mondays, 4 &ndash; 6 pm, and Sundays 4 &ndash; 6 pm</a></p>
+                            Mondays, 4 &ndash; 6 pm, and Sundays 4 &ndash; 6 pm</p>
                     </div>
                 </div>
             </div>

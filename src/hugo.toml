@@ -16,8 +16,6 @@ paginate = 5
 summaryLength = 70
 
 
-
-
 [markup.goldmark.renderer]
 unsafe= true
 
@@ -28,40 +26,51 @@ unsafe= true
     url        = "/vision/"
     weight     = 1
 [[menu.main]]
-    name       = "Classes"
-    identifier = "menu.classes"
+    name       = "Fall Classes"
+    identifier = "menu.fall"
     url        = "/class/coding/ongoing/"
     weight     = 2
 [[menu.main]]
-    name       = "Camps"
-    identifier = "menu.aug23"
-    url        = "/camps/coding/summer-23/"
+    name       = "Winter Classes"
+    identifier = "menu.winter"
+    url        = "/class/coding/winter-24/"
     weight     = 3
 [[menu.main]]
-    name       = "Coding"
-    identifier = "menu.coding"
-    url        = "/coding-classes-and-tutor/"
+    name       = "Summer Camps"
+    identifier = "menu.summer"
+    url        = "/camps/coding/summer-23/"
     weight     = 4
+
 [[menu.main]]
-    name       = "Math"
-    url        = "/math-classes-and-tutor/"
+    name       = "Computing Tutor"
+    identifier = "menu.tutoring.coding"
+    url        = "/coding-classes-and-tutor/"
     weight     = 5
-    identifier = "menu.math"
+
 [[menu.main]]
-    name       = "Instructor"
+    name       = "Math Tutor"
+    url        = "/math-classes-and-tutor/"
+    weight     = 6
+    identifier = "menu.tutoring.math"
+
+[[menu.main]]
+    name       = "Instructors"
     identifier = "menu.instructor"
     url        = "/instructor/"
     weight     = 7
+
 [[menu.main]]
     name       = "Jobs"
     identifier = "menu.jobs"
     url        = "/jobs/"
-    weight     = 7
+    weight     = 8
+
 [[menu.main]]
     name       = "Blog"
     identifier = "menu.blog"
     url        = "/blog/"
     weight     = 9
+
 [[menu.main]]
     identifier = "contact"
     name       = "Contact"
