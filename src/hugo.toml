@@ -38,24 +38,24 @@ unsafe= true
 [[menu.main]]
     name       = "Spring"
     identifier = "menu.spring"
-    url        = "/class/coding/spring/"
+    url        = "/spring/"
     weight     = 4
 [[menu.main]]
     name       = "Summer"
     identifier = "menu.summer"
-    url        = "/camps/coding/summer/"
+    url        = "/summer/"
     weight     = 5
 
 [[menu.main]]
     name       = "Computing Tutor"
     identifier = "menu.tutoring.coding"
-    url        = "/coding-classes-and-tutor/"
-    weight     = 5
+    url        = "/coding-tutor/"
+    weight     = 6
 
 [[menu.main]]
     name       = "Math Tutor"
-    url        = "/math-classes-and-tutor/"
-    weight     = 6
+    url        = "/math-tutor/"
+    weight     = 7
     identifier = "menu.tutoring.math"
 
 # [[menu.main]]

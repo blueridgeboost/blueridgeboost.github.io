@@ -31,7 +31,7 @@ header = "Fall Classes in Charlottesville"
                 </div>
                 <div class="row">
                     <div class="col-sm">
-                        Students from schools that do not have a math olupiad team can participate in the five contests which will be administered monthly starting in November.<br>
+                        Students from schools that do not have a math olympiad team can participate in the five contests which will be administered monthly starting in November.<br>
                         <p></p>
                     </div>
                 </div>
