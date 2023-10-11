@@ -26,20 +26,25 @@ unsafe= true
     url        = "/vision/"
     weight     = 1
 [[menu.main]]
-    name       = "Fall Classes"
+    name       = "Fall"
     identifier = "menu.fall"
-    url        = "/class/coding/ongoing/"
+    url        = "/fall"
     weight     = 2
 [[menu.main]]
-    name       = "Winter Classes"
+    name       = "Winter"
     identifier = "menu.winter"
-    url        = "/class/coding/winter-24/"
+    url        = "/winter/"
     weight     = 3
 [[menu.main]]
-    name       = "Summer Camps"
-    identifier = "menu.summer"
-    url        = "/camps/coding/summer-23/"
+    name       = "Spring"
+    identifier = "menu.spring"
+    url        = "/class/coding/spring/"
     weight     = 4
+[[menu.main]]
+    name       = "Summer"
+    identifier = "menu.summer"
+    url        = "/camps/coding/summer/"
+    weight     = 5
 
 [[menu.main]]
     name       = "Computing Tutor"
@@ -53,23 +58,23 @@ unsafe= true
     weight     = 6
     identifier = "menu.tutoring.math"
 
-[[menu.main]]
-    name       = "Instructors"
-    identifier = "menu.instructor"
-    url        = "/instructor/"
-    weight     = 7
+# [[menu.main]]
+#     name       = "Instructors"
+#     identifier = "menu.instructor"
+#     url        = "/instructor/"
+#     weight     = 7
 
-[[menu.main]]
-    name       = "Jobs"
-    identifier = "menu.jobs"
-    url        = "/jobs/"
-    weight     = 8
+# [[menu.main]]
+#     name       = "Jobs"
+#     identifier = "menu.jobs"
+#     url        = "/jobs/"
+#     weight     = 8
 
-[[menu.main]]
-    name       = "Blog"
-    identifier = "menu.blog"
-    url        = "/blog/"
-    weight     = 9
+# [[menu.main]]
+#     name       = "Blog"
+#     identifier = "menu.blog"
+#     url        = "/blog/"
+#     weight     = 9
 
 [[menu.main]]
     identifier = "contact"
