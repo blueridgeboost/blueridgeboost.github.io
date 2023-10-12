@@ -1,56 +1,20 @@
 +++
-title = "Your Instructor: Nora Evans | Blue Ridge Boost"
+title = "Your Instructors | Blue Ridge Boost"
 description = "Experienced math and coding teacher and tutor is ready to help you or your child succeed."
 keywords = ["math tutor", "coding tutor", "AP Calculus tutor", "coding for kids", "AP Statistics tutor", "AP Stats tutor"]
 aliases=["/instructor/"]
-header = "Nora Evans"
+header = "Blue Ridge Boost Instructors"
 +++
 
-<div class="container-fluid">
-  <div class="row flex-column flex-md-row">
-    <div class="col col-md-4 col-lg-2">
-      <div clas="container-fluid flex-column">
-        <div class="py-1"><a href="/images/nora-new.png">
-        <img src="/images/nora-new.webp" alt="Nora" class="img-fluid"></a></div>
-        <div class="d-none d-md-block py-md-1"><a href="/images/teamwork-award.webp">
-        <img src="/images/teamwork-award.webp" alt="Teamwork Award" class="img-fluid"></a></div>
-        <div class="d-none d-md-block py-md-1">
-        <a href="/images/pythagora.webp">
-        <img src="/images/pythagora.webp" alt="Geometry puzzles at math circle" class="img-fluid"></a>
-        </div><div class="d-none d-md-block py-md-1"><a href="/images/triangles.webp">
-        <img src="/images/triangles.webp" alt="Triangles Lesson" class="img-fluid"></a>
-        </div><div class="d-none d-md-block py-md-1"><a href="/images/lego-league-outside.webp">
-        <img src="/images/lego-league-outside.webp" alt="First Lego League Lesson" class="img-fluid"></a></div>
-      </div>
+## Coding Instructors 
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="/images/evansnora.webp" alt="Nora" class="img-fluid">      
     </div>
-    <div class="col col-md-8 col-lg-9">
-I am originally from Bucharest, Romania and earned a B.S. in Computer Science at the Polytechnical University of Bucharest. I moved to Charlottesville in the Fall of 2004 to pursue graduate school at the University of Virginia, where I earned a Master's in Computer Science, a Master of Science in Mathematics, and a Master of Teaching. 
-
-<!-- I have several years of experience as a software engineer and am the author of several research papers in Computer Science.  -->
-
-I am passionate about math and computer science education, especially for girls and women, and I co-founded a Math Circle for girls and held lessons for four years until the COVID-19 pandemic. 
-
-In January 2021, I decided to focus full-time on education. After completing my Master of Teaching, I joined the teaching faculty at the Peabody School for the 2022-2023 academic year where I taught Algebra 1 and Algebra 2 to academically advanced middle school students. 
-
-Currently, I teach one Calculus section, Math 1210-400, at the University of Virginia and I focus on expanding the coding and math classes offered at Blue Ridge Boost.
-
-## Education 
-* [Master of Science - Mathematics](http://records.ureg.virginia.edu/preview_program.php?catoid=38&poid=4093) from the [University of Virginia](https://www.virginia.edu/)
-* [Master of Teaching - Mathematics](https://education.virginia.edu/academics/master-teaching-mathematics)
-* [Master in Computer Science](https://engineering.virginia.edu/departments/computer-science/cs-graduate-program#accordion403360)
-
-## Math Experience
-* Algebra teacher at [Peabody School](https://peabodyschool.org/)
-* AMC8 and MathCounts coach for the 2022-2023 season
-* AP Summer Institute training in AP Calculus AB/BC (May 2022)
-* Calculus and Abstract Algebra in-person tutoring for over a year
-* internship at [Monticello High School](https://mohs.k12albemarle.org/) in Algebra 2, Precalculus, and Geometry 
-* co-founder and organizer of [Cville Math Circle](https://cvillemathcircle.org/) for preschool and elementary school-age girls
-* teaching assistant for graduate-level courses 
-* Financial Mathematics instructor at the University of Virginia
-* Lecturer at the University of Virginia (part-time)
-
-## Computer Science and Coding Experience
+    <div class="col-sm-9">
+      <h3>Nora Evans</h3>
+      I am originally from Bucharest, Romania and earned a B.Sc. in Computer Science at the Polytechnical University of Bucharest. I moved to Charlottesville in the Fall of 2004 to pursue graduate school at the University of Virginia, where I earned a Master's in Computer Science, a Master of Science in Mathematics, and a Master of Teaching. I am passionate about math and computer science education, especially for girls and women, and I co-founded a Math Circle for girls and held lessons for four years until the COVID-19 pandemic. 
 
 * [co-author](https://scholar.google.com/citations?user=BTsjtmgAAAAJ&hl=en&oi=ao) of several research articles
 * several years of industry experience as a Java software developer
@@ -59,28 +23,60 @@ Currently, I teach one Calculus section, Math 1210-400, at the University of Vir
 * [First Lego League](https://www.firstinspires.org/robotics/fll/what-is-first-lego-league) team lead and coach 
     </div>
   </div>
+  <div class="row">
+    <div class="col-sm-3">
+      <!-- <img src="Ransford Dunu.jpeg" alt="Picture of Teacher Ransford Dunu"> -->
+    </div>
+    <div class="col-sm-9">
+      <h3>Ransford Dunu</h3>
+      <p>I am originally from Koforidua, Ghana. I moved to Charlottesville, Virginia with my parents when I was 11 months old. I am currently working toward my Associate's Degree in Mechanical Engineering with a minor in Computer Science.</p>
+      <p>I have experience in teaching teens and kids how to code. Through NSBE(Nation Society of Black Engineers) and Mrs. Early from Albemarle High School I was able to teach middle schoolers how to code a Sphero to get out of a maze. During that time I helped the students to understand critical thinking and problem-solving skills to be able to guide the Sphero out of not just one maze but an array of mazes with the same code.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-3">
+    </div>
+    <div class="col-sm-9">
+    <h3>Saumya Sharma</h3>
+  </div>
+</div>
 </div>
 
-<div>
-<style>
-  .Teacher{
-    border: 5px outset clear;
-    background-color: white;
-    text-align: center;
-  }
-  </style>
+## Math Teachers and Tutors
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="/images/evansnora.webp" alt="Nora" class="img-fluid">      
+    </div>
+    <div class="col-sm-9">
+      <h3>Nora Evans</h3>
+
+* Lecturer at the University of Virginia (part-time) currently
+* Algebra teacher at [Peabody School](https://peabodyschool.org/) 2022-2023
+* AMC8 and MathCounts coach for the 2022-2023 season
+* AP Summer Institute training in AP Calculus AB/BC (May 2022)
+* Calculus and Abstract Algebra in-person tutoring for over a year
+* internship at [Monticello High School](https://mohs.k12albemarle.org/) in Algebra 2, Precalculus, and Geometry 
+* co-founder and organizer of [Cville Math Circle](https://cvillemathcircle.org/) for preschool and elementary school-age girls
+* teaching assistant for graduate-level courses 
+* Financial Mathematics instructor at the University of Virginia  
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-3">
+    </div>
+    <div class="col-sm-9">
+      <h3>Lucy Berndt</h3>
+      My name is Lucy Berndt and I am so excited to be joining the team at Blue Ridge Boost. With over 30 years of teaching and tutoring, I bring a lot of experience to the table. My undergraduate degree is from UVA where I earned a BS in Math Education. I am licensed to teach k-12 and believe it or not, I have taught in one form or another grades kindergarten to twelveth. <br>
+I love working with children. I love seeing the light that goes on or the smile on their face when they get the concept. I particularly like tutoring because I know that I will make a difference in their lives. I try to make my tutoring session catered to the individual. I try very hard to make math not only understandable but fun.
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-3">
+    </div>
+    <div class="col-sm-9">
+      <h3>Fritz Knapp</h3>
+    </div>
+  </div>
 </div>
-<div>
-<body>
-<h1>Instructor</h1>
-<div class="Teacher">
-  <h2>Ransford Dunu</h2>
-  </div>
-  <div>
-  <img src="Ransford Dunu.jpeg" alt="Picture of Teacher Ransford Dunu">
-  <p>I am originally from Koforidua, Ghana. I moved to Charlottesville, Virginia with my parents when I was 11 months old. I am currently working torward my Associate's Degree in Mechanical Engineering with a minor in computer science.</p>
-  </div>
-  
-<p>I have experience in teaching teens and kids how to code. Through NSBE(Nation Society of Black Engineers) and Mrs.Early from Albemarle High School I was able to teach middle schoolers how to code a Sphero to get out of a maze. During that time I helped the students to understand critical thinking and problem-solving skills to be able to guide the Sphero out of not just one maze but an array of mazes with the same code.
- </p>
-  </body>

@@ -2,7 +2,7 @@
 title = "Math and Coding Camps in Charlottesville | Blue Ridge Boost"
 description = "Morning math and coding camps! Afternoon math review sessions! Contact us to secure your spot today!"
 aliases=["/aug23/", "/morningwintercamp", "/morningwintercamp/"]
-header = "Summer Coding and Math Camps and Lessons"
+header = "Summer 23 Coding and Math Camps and Lessons"
 +++
 
 <div class="container">

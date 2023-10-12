@@ -30,9 +30,15 @@ header = "Fall Classes in Charlottesville"
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm">
+                    <div class="col-sm px-3">
                         Students from schools that do not have a math olympiad team can participate in the five contests which will be administered monthly starting in November.<br>
                         <p></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <p><a href="/class/math/amc-coach/"><b>AMC 8(grades 5, 6,7, and 8)</b></a><br>
+                        October 28 to January 31.</p>
                     </div>
                 </div>
             </div>

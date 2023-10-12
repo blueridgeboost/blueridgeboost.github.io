@@ -5,6 +5,8 @@ keywords = ["Charlottesville coding tutor", "Charlottesville Python tutor", "cvi
 header = "Winter 24 Coding Classes"
 +++
 
+<p></p>
+
 <div class="container">
     <div class="row  justify-content-center">
         <div class="col">
