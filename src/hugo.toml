@@ -16,8 +16,6 @@ paginate = 5
 summaryLength = 70
 
 
-
-
 [markup.goldmark.renderer]
 unsafe= true
 
@@ -28,40 +26,56 @@ unsafe= true
     url        = "/vision/"
     weight     = 1
 [[menu.main]]
-    name       = "Classes"
-    identifier = "menu.classes"
-    url        = "/class/coding/ongoing/"
+    name       = "Fall"
+    identifier = "menu.fall"
+    url        = "/fall"
     weight     = 2
 [[menu.main]]
-    name       = "Camps"
-    identifier = "menu.aug23"
-    url        = "/camps/coding/summer-23/"
+    name       = "Winter"
+    identifier = "menu.winter"
+    url        = "/winter/"
     weight     = 3
 [[menu.main]]
-    name       = "Coding"
-    identifier = "menu.coding"
-    url        = "/coding-classes-and-tutor/"
+    name       = "Spring"
+    identifier = "menu.spring"
+    url        = "/spring/"
     weight     = 4
 [[menu.main]]
-    name       = "Math"
-    url        = "/math-classes-and-tutor/"
+    name       = "Summer"
+    identifier = "menu.summer"
+    url        = "/summer/"
     weight     = 5
-    identifier = "menu.math"
+
 [[menu.main]]
-    name       = "Instructor"
+    name       = "Computing Tutor"
+    identifier = "menu.tutoring.coding"
+    url        = "/computing-tutor/"
+    weight     = 6
+
+[[menu.main]]
+    name       = "Math Tutor"
+    url        = "/math-tutor/"
+    weight     = 7
+    identifier = "menu.tutoring.math"
+
+[[menu.main]]
+    name       = "Instructors"
     identifier = "menu.instructor"
     url        = "/instructor/"
-    weight     = 7
-[[menu.main]]
-    name       = "Jobs"
-    identifier = "menu.jobs"
-    url        = "/jobs/"
-    weight     = 7
-[[menu.main]]
-    name       = "Blog"
-    identifier = "menu.blog"
-    url        = "/blog/"
-    weight     = 9
+    weight     = 8
+
+# [[menu.main]]
+#     name       = "Jobs"
+#     identifier = "menu.jobs"
+#     url        = "/jobs/"
+#     weight     = 8
+
+# [[menu.main]]
+#     name       = "Blog"
+#     identifier = "menu.blog"
+#     url        = "/blog/"
+#     weight     = 9
+
 [[menu.main]]
     identifier = "contact"
     name       = "Contact"
