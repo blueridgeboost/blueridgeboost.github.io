@@ -60,7 +60,7 @@ header = "Summer Camp Weekly Schedule"
 <div class="vstack gap-1">
 <div class="pt-1 text-center">
 
-## Team Building Activities
+<h2 id="team-building-activities">Team Building Activities</h2>
 </div>
 
 <div class="px-2 px-lg-4 text-left">
@@ -81,14 +81,14 @@ We start each camp day with a team-building activity. The daily activities are l
 
 <div class="pt-1 text-center">
 
-## Coding with Code Monkey
+<h2 id="">Coding with Code Monkey
 
 </div>
 <div class="px-2 px-lg-4 text-left">
 
 Students 8 and younger learn <a href="https://www.codemonkey.com/courses/beaver-achiever/">block coding</a>. Students older than 8 or students with block coding experience, learn to code using the <a href="https://www.codemonkey.com/courses/coding-adventure/">Coffee Script</a>. Campers complete one section for each week they attend.
 
-### Coding Week 1
+<h3> Coding Week 1 </h3>
 
 <div class="container">
     <div class="row table-header">
@@ -123,7 +123,7 @@ Students 8 and younger learn <a href="https://www.codemonkey.com/courses/beaver-
     </div>
 </div>
 
-### Coding Week 2
+<h3> Coding Week 2 </h3>
 
 <div class="container">
     <div class="row table-header">
@@ -158,7 +158,7 @@ Students 8 and younger learn <a href="https://www.codemonkey.com/courses/beaver-
     </div>
 </div>
 
-### Coding Week 3
+<h3> Coding Week 3 </h3>
 
 <div class="container">
     <div class="row table-header">
@@ -197,7 +197,7 @@ Students 8 and younger learn <a href="https://www.codemonkey.com/courses/beaver-
 
 <div class="pt-1 text-center">
 
-## Lego Coding and Building
+<h2 id="lego-coding-and-building"> Lego Coding and Building </h2>
 
 </div>
 
@@ -205,7 +205,7 @@ Students 8 and younger learn <a href="https://www.codemonkey.com/courses/beaver-
 
 Students work each week to build a project: <a href="#lego-wedo">a Moon base</a>, <a href="#lego-spike-week-1">an outdoor adventure</a>, and <a href="#lego-spike-week-2">an amusement park ride</a>.
 
-### Lego WeDo 
+<h3> Lego WeDo </h3>
 
 Each day campers complete one or more mini-lessons and work toward the culminating project, a moon base. For each mini-lesson, we focus on the building and coding parts and shorten the research and note-taking so that we can complete the activity in 60 to 90 minutes.
 
@@ -255,7 +255,7 @@ Each day campers complete one or more mini-lessons and work toward the culminati
     </div>
 </div>
 
-### Lego Spike Week 1
+<h3> Lego Spike Week 1 <h3>
 
 Each day campers complete one or more mini-lessons and work toward the culminating project, an outdoor activity space. For each mini-lesson, we focus on the building and coding parts and shorten the research and note-taking so that we can complete the activity in 60 to 90 minutes. Students eight or younger use Spike Essential sets and older students use Spike Prime.
 
@@ -309,7 +309,7 @@ Each day campers complete one or more mini-lessons and work toward the culminati
     </div>
 </div>
 
-### Lego Spike Week 2
+<h3> Lego Spike Week 2 </h3>
 
 
 Each day campers complete one or more mini-lessons and work toward the culminating project, an amusement park. For each mini-lesson, we focus on the building and coding parts and shorten the research and note-taking so that we can complete the activity in 60 to 90 minutes. Students eight or younger use Spike Essential sets and older students use Spike Prime.
@@ -366,7 +366,7 @@ Each day campers complete one or more mini-lessons and work toward the culminati
 
 <div class="pt-1 text-center">
 
-## Math Puzzles
+<h2 id="math-puzzles"> Math Puzzles </h2>
 
 </div>
 <div class="px-2 px-lg-4 text-left">

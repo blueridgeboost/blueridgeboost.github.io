@@ -20,16 +20,13 @@ At Blue Ridge Boost, a qualified and experienced teacher assesses your student's
 
 For more details on our services, <a href="/contact/"> fill out the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>. 
 
-<a href="https://blueridgeboost-math.youcanbook.me/">Click here</a> to book a tutoring session.
-
-
-#### Supplementing Classroom Instruction
+<h4> Supplementing Classroom Instruction </h4>
 The instructor will work with the classroom teacher when available to match the teaching style and materials to maintain **consistency** in the presentation style. For example, in a tutoring session, the instructor **reviews** concepts your student learned in class and **assists with homework**. If the student needs extra practice, the instructor proposes new problems for the student to solve independently.
 
 When your student needs an alternate view or wants to learn a topic not taught in class, our instructors create individualized lessons at the level the student needs.
 
 
-#### Teaching New Topics
+<h4> Teaching New Topics </h4>
 
 Our instructors are qualified teachers with tutoring experience in middle school math, including algebra and geometry. We use a variety of texts and materials, including the *Art of Problem Solving*&reg; curriculum and *All Things Algebra*&reg;.
 

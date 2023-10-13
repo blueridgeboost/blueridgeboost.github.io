@@ -8,7 +8,7 @@ header = "Math Olympiad in Charlottesville"
 
 An experienced instructor teaches mini-lessons on topics commonly found in [Math Olympiad](https://moems.org/) contests and leads students in solving carefuly selected practice problems.
 
-## Math Olympiad Program Goals
+<h2> Math Olympiad Program Goals </h2>
 
 1. To stimulate enthusiasm and a love for mathematics
 2. To introduce mathematical concepts

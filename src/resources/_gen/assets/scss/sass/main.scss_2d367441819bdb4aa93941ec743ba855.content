@@ -91,6 +91,7 @@
   --bs-link-hover-color-rgb: 0, 41, 71;
   --bs-link-hover-decoration: webkit-transform(scale, 1.2);
   --bs-code-color: #d63384;
+  --bs-highlight-color: #1E1E1E;
   --bs-highlight-bg: #fff3cd;
   --bs-border-width: 1px;
   --bs-border-style: solid;
@@ -259,6 +260,7 @@ small, .small {
 
 mark, .mark {
   padding: 0.1875em;
+  color: var(--bs-highlight-color);
   background-color: var(--bs-highlight-bg);
 }
 
@@ -483,8 +485,8 @@ legend + * {
 }
 
 [type="search"] {
-  outline-offset: -2px;
   -webkit-appearance: textfield;
+  outline-offset: -2px;
 }
 
 /* rtl:raw:
@@ -1818,32 +1820,32 @@ progress {
 
 .text-bg-primary {
   color: #fff !important;
-  background-color: RGBA(0, 51, 89, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(var(--bs-primary-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-darkest-blue {
   color: #fff !important;
-  background-color: RGBA(0, 51, 89, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(var(--bs-darkest-blue-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-dark-blue {
   color: #fff !important;
-  background-color: RGBA(0, 81, 114, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(var(--bs-dark-blue-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-lighter-blue {
   color: #000 !important;
-  background-color: RGBA(143, 202, 231, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(var(--bs-lighter-blue-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-light-blue {
   color: #000 !important;
-  background-color: RGBA(190, 214, 219, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(var(--bs-light-blue-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-lightest-blue {
   color: #000 !important;
-  background-color: RGBA(238, 255, 255, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(var(--bs-lightest-blue-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
 .link-primary {
@@ -2126,7 +2128,7 @@ progress {
 .vr {
   display: inline-block;
   align-self: stretch;
-  width: 1px;
+  width: var(--bs-border-width);
   min-height: 1em;
   background-color: currentcolor;
   opacity: 0.25;
@@ -3023,15 +3025,15 @@ progress {
 }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: var(--bs-box-shadow) !important;
 }
 
 .shadow-sm {
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  box-shadow: var(--bs-box-shadow-sm) !important;
 }
 
 .shadow-lg {
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  box-shadow: var(--bs-box-shadow-lg) !important;
 }
 
 .shadow-none {
