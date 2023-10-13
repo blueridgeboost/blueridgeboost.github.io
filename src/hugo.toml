@@ -47,16 +47,10 @@ unsafe= true
     weight     = 5
 
 [[menu.main]]
-    name       = "Computing Tutor"
-    identifier = "menu.tutoring.coding"
-    url        = "/computing-tutor/"
+    name       = "Tutor"
+    identifier = "menu.tutoring"
+    url        = "/tutoring/"
     weight     = 6
-
-[[menu.main]]
-    name       = "Math Tutor"
-    url        = "/math-tutor/"
-    weight     = 7
-    identifier = "menu.tutoring.math"
 
 [[menu.main]]
     name       = "Instructors"
