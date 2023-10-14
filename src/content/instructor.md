@@ -6,8 +6,14 @@ aliases=["/instructor/"]
 header = "Blue Ridge Boost Instructors"
 +++
 
-<h2> Coding Instructors </h2>
 <div class="container">
+  <div class="row py-2">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-10">
+    <h2> Coding Instructors </h2>
+    <p></p>
+    </div>
   <div class="row py-2">
     <div class="col-sm-2">
       <img src="/images/evansnora.webp" alt="Nora" class="img-fluid">      
