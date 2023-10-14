@@ -14,35 +14,35 @@ header = "Coding Group Classes for Tweens (ages 8 to 12) in Charlottesville"
     <div class="row flex-column flex-md-row">
         <div class="col col-md-6 col-lg-8">
                         
-#### Unit 1
+<h4> Unit 1</h4>
 
 Students learn that coding is giving precise instructions to a computer, using advanced planning to create efficient programs. Students study objects that can perform several actions.
 
-#### Unit 2
+<h4> Unit 2</h4>
 
 Students learn to code repetitions using loops and variables.
 
-#### Unit 3
+<h4> Unit 3</h4>
 
 Students learn to write complex code using variables and arrays and to use indexing to access array elements.
 
-#### Unit 4
+<h4> Unit 4</h4>
 Students learn to code ``for`` loops, variables, and indexing.
 
-#### Unit 5
+<h4> Unit 5</h4>
 Students learn functions! They practice writing function definitions and experiment with
 defining functions that call each other.
 
-#### Unit 6
+<h4> Unit 6</h4>
 Students learn conditional loops that repeat until a condition is satisfied.
 
-#### Unit 7
+<h4> Unit 7 </h4>
 Students learn the conditional statements `if` and `if else`. Then, they practice using the new statements in conjunction with previously learned concepts, including loops and functions.
 
-#### Unit 8
+<h4> Unit 8 </h4>
 Students learn the logical operators ``or`` and ``and`` and code conditional statements with compound conditions.
 
-#### Unit 9 through end of course
+<h4> Unit 9 through end of course </h4>
 Students learn the ``not`` logical operator, concepts related to computer games, integer operators, return values from functions, event-driven programming, and more.
         </div>
         <div class="col col-md-6 col-lg-3">

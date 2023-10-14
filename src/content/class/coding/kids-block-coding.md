@@ -36,7 +36,7 @@ header = "Block Language Coding for Children"
     <div class="row p-1 flex-column flex-lg-row">
         <div class="col col-lg-8">
 
-#### Unit 2. Complex problems 
+<h4> Unit 2. Complex problems </h4>
 
 Students build a foundation in coding and problem-solving.<br>
 
@@ -62,7 +62,7 @@ Students learn to create and analyze programs with counter loops.
     <div class="row p-1 flex-column flex-lg-row">
         <div class="col col-lg-8">
 
-#### Unit 3. Conditional Loops 
+<h4> Unit 3. Conditional Loops </h4>
 
 In this unit, the students learn conditional loops, which repeat based on a given condition, and master using loops, combinations between loops, nested loops, and more.<br>
 
@@ -90,7 +90,7 @@ statements and practice more nested loops ``while`` helping the Beaver fix broke
     <div class="row p-1 flex-column flex-lg-row">
         <div class="col col-lg-8">
 
-#### Unit 4. If/Else Conditions  
+<h4> Unit 4. If/Else Conditions </h4>
 
 Students will learn about conditional statements that can decide whether or not to execute code
 based on whether a given condition is valid.

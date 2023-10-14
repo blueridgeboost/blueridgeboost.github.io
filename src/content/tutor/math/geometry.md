@@ -10,7 +10,7 @@ header = "Geometry Tutoring in Charlottesville"
 We help your child succeed in geometry and teach advanced concepts to students that are ready for a challenging curriculum. Our services include algebra and middle school geometry review before school starts, ongoing support with classroom content, and new topics and lessons.
 
 
-## Get Ready for Geometry
+<h2> Get Ready for Geometry </h2>
 
  <!-- <a class="btn btn-contact-us" href="https://get-ready-for-the-next-school-year-with-math-reviews.cheddarup.com">Signup here</a> to join our summer classes in August to participate in a carefully developed curriculum to review middle-school Geometry and Algebra 1. </br> -->
 
@@ -29,17 +29,15 @@ Each day students solve problems from the following topics.
 <b>Day 5: Geometry.</b> Students review the definition and properties of parallel lines, mid-point formula, classification of polygons, and area and perimeter of shapes. 
 
 
-## Geometry Remediation
+<h2> Geometry Remediation </h2>
 The instructor will work with the classroom teacher when available to match the teaching style and materials to maintain **consistency** in the presentation style. For example, in a tutoring session, the instructor **reviews** concepts your student learned in class and assists with homework. If the student needs extra practice, the instructor proposes **new problems** for the student to solve independently.
 
 When your student needs an alternate view or wants to learn a topic not taught in class, our instructors create individualized lessons at the level the student needs.
 
 For more details on our services, <a href="/contact/"> fill out the contact form</a> or email  <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a>. 
 
-## Geometry for Advanced Students
+<h2> Geometry for Advanced Students </h2>
 Students ready for a more challenging curriculum are taught logic, proof-based, and Euclidean geometry. 
-
-<a href="https://blueridgeboost-math.youcanbook.me/">Click here</a> to book a tutoring session.
 
 </div>
 

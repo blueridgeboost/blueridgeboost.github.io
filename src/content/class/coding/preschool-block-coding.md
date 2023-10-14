@@ -12,13 +12,11 @@ header = "Coding Group Classes for Early Coders"
 Our youngest students learn fundamental coding concepts by helping a [monkey collect bananas](https://www.codemonkey.com/courses/codemonkey-jr) on instructor-provided Chromebooks. Students learn the basics of coding using left, right, jump up, jump left, and jump right commands to guide a monkey to collect all bananas before opening a treasure chest. In addition, students learn to code repetition by using loops and conditional loops. The course concludes with procedures.
 
 The classes are organized into four-lesson units. Each class is 30 minutes long. We adjust the classes to the pace of each student. Students typically need 4-6 months to complete the course. 
-
-<b><a href="https://trialcodingclasses.youcanbook.me/">Sign up here</a> for a free trial coding class!</b>
     </div>
     <div class="row flex-column flex-md-row">
         <div class="col col-md-6 col-lg-8">
 
-#### Unit 1. Sequencing
+<h4> Unit 1. Sequencing </h4>
 
 Students build a foundation in coding and problem-solving.<br>
 
@@ -47,7 +45,7 @@ Students learn one more command, jump, and use the commands they know to solve i
     <div class="row flex-column flex-md-row">
         <div class="col col-md-6 col-lg-8">
 
-#### Unit 2. Loops 
+<h4> Unit 2. Loops </h4>
 
 Students learn loops, a fundamental coding concept.<br>
 
@@ -70,7 +68,7 @@ Students explore why some loops finish and others run forever (a deep question i
     </div>
     <div class="row flex-column flex-md-row">
         <div class="col col-md-6 col-lg-8">
-#### Unit 3. Advanced Sequencing and Looping
+<h4> Unit 3. Advanced Sequencing and Looping </h4>
 
 **Lesson 1.** Back and Forth<br>
 Students learn to plan their journey as they must go in one direction first and then
@@ -96,7 +94,7 @@ to get the monkey to the starting point.
     </div>
     <div class="row flex-column flex-md-row">
         <div class="col col-md-6 col-lg-8">
-#### Unit 4. Advanced and Conditional Looping
+<h4> Unit 4. Advanced and Conditional Looping </h4>
 
 **Lesson 1.** Until When<br>
 In this lesson, students will continue solving challenges using loops. They will need to
@@ -120,7 +118,7 @@ journey. They must decide which instructions are before, after, and inside the l
     </div>
     <div class="row flex-column flex-md-row">
         <div class="col col-md-6 col-lg-8">
-#### Unit 5. Advanced Conditional Looping
+<h4> Unit 5. Advanced Conditional Looping </h4>
 
 **Lesson 1.** It is complicated<br>
 Students learn to code loops whose bodies are composed of two instructions.
@@ -141,7 +139,7 @@ Students learn how to add more than two loops and use the same conditional loop 
     </div>
     <div class="row flex-column flex-md-row">
         <div class="col col-md-6 col-lg-8">
-#### Unit 6. Procedures
+<h4> Unit 6. Procedures </h4>
 
 **Lesson 1.** What is a procedure?<br>
 Students learn how to write procedures and what characterizes a modular solution. 
