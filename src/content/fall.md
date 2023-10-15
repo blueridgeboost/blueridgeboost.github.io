@@ -1,5 +1,5 @@
 +++
-title = "Coding Classes in Charlottesville | Blue Ridge Boost"
+title = "Math and Coding Classes in Charlottesville | Blue Ridge Boost"
 description = "Learn block languages, Scratch, Coffee Script, Python, Java, and Rust! Build Lego&reg; robots and code with Scratch! Contact us to sign or and find out more details!"
 keywords = ["Charlottesville coding tutor", "Charlottesville Python tutor", "cvillecoding", "coding", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "children coding classes", "kids coding", "kids Python", "children Python", "children coding tutor"]
 aliases=["/classes/", "/hs/", "/kids/", "/adults/", "/kids", "/class/coding/ongoing/"]
@@ -11,7 +11,7 @@ header = "Fall Classes in Charlottesville"
         <div class="col">
             <div class="vstack gap-3 px-2 pb-2 text-center">  
                 <div class="px-2 darknote">
-                    Fall 23 math classes sign-up will open soon.
+                    <a href="https://competition-math-23-24.cheddarup.com">Sign-up here for a two-week trial of Competition Math class.</a>
                 </div>
             </div>
         </div>
@@ -21,12 +21,13 @@ header = "Fall Classes in Charlottesville"
             <div class="container text-center">
                 <div class="row">
                     <div class="col-sm">
-                        <p><a href="/class/math/math-olympiad/"><b>Math Olympiad for Elementary School (grades 4,5, and 6)</b></a><br>
-                        October 28 to March 31.</p>
+                        <p><a href="/class/math/math-olympiad/"><b>Math Olympiad for Elementary School (grades 4,  5, and 6)</b></a><br>
+                        Saturdays 12:30 to 1:20. October 28 to March 31.  20 lessons for $495. <br>
+                        </p>
                     </div>
                     <div class="col-sm">
                         <p><a href="/class/math/math-olympiad/"><b>Math Olympiad for Middle School (grades 6,7, and 8)</b></a><br>
-                        October 28 to March 31.</p>
+                        Saturdays 1:30 to 2:20. October 28 to March 31. 20 lessons for $495.</p>
                     </div>
                 </div>
                 <div class="row">
@@ -38,7 +39,8 @@ header = "Fall Classes in Charlottesville"
                 <div class="row">
                     <div class="col-sm">
                         <p><a href="/class/math/amc-coach/"><b>AMC 8(grades 5, 6,7, and 8)</b></a><br>
-                        October 28 to January 31.</p>
+                        Saturdays 2:30 to 3:20. October 28 to January 31. 10 classes for $245.<br>
+                        Competition Window: January 18, 2024 at 8:00 AM ET through January 24, 2024 at 11:59 PM ET</p>
                     </div>
                 </div>
             </div>
