@@ -53,6 +53,12 @@ unsafe= true
     weight     = 6
 
 [[menu.main]]
+    name       = "Chess Club"
+    identifier = "menu.chess"
+    url        = "/chess/"
+    weight     = 7
+
+[[menu.main]]
     name       = "Instructors"
     identifier = "menu.instructor"
     url        = "/instructor/"

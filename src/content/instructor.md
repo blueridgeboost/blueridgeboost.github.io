@@ -41,9 +41,12 @@ header = "Blue Ridge Boost Instructors"
   </div>
   <div class="row">
     <div class="col-sm-2">
+      <p></p>
+      <img src="/images/saumya.png" alt="Saumya" class="img-fluid"> 
     </div>
     <div class="col-sm-10">
     <h3>Saumya Sharma</h3>
+    <p>I am from NoVa  and am a current 3rd year at the University of Virginia working towards a degree in Global Public Health and a minor in Computer Science. As a member of the community, I have valued tutoring and working with students as a way to help bring the community forward by being involved in it. I was on a FIRST Tech Challenge (FTC) robotics team for 3 years and have continued my appreciation for Computer Science during my time at UVA.</p>
   </div>
 </div>
 </div>
