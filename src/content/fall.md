@@ -11,7 +11,7 @@ header = "Fall Classes in Charlottesville"
         <div class="col">
             <div class="vstack gap-3 px-2 pb-2 text-center">  
                 <div class="px-2 darknote">
-                    <a href="https://competition-math-23-24.cheddarup.com">Sign-up here for a two-week trial of Competition Math class.</a>
+                    <a href="https://competition-math-23-24.cheddarup.com">Sign-up here for a two-week trial of Competition Math class.</a> <br> Commitment for the entire duration of the program is required after the first two weeks.
                 </div>
             </div>
         </div>

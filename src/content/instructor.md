@@ -41,9 +41,12 @@ header = "Blue Ridge Boost Instructors"
   </div>
   <div class="row">
     <div class="col-sm-2">
+      <p></p>
+      <img src="/images/saumya.png" alt="Saumya" class="img-fluid"> 
     </div>
     <div class="col-sm-10">
     <h3>Saumya Sharma</h3>
+    <p>I am from NoVa  and am a current 3rd year at the University of Virginia working towards a degree in Global Public Health and a minor in Computer Science. As a member of the community, I have valued tutoring and working with students as a way to help bring the community forward by being involved in it. I was on a FIRST Tech Challenge (FTC) robotics team for 3 years and have continued my appreciation for Computer Science during my time at UVA.</p>
   </div>
 </div>
 </div>
@@ -92,6 +95,14 @@ I love working with children. I love seeing the light that goes on or the smile 
     <div class="col-sm-10">
       <h3>Fritz Knapp</h3>
       Fritz Knapp is a graduate of William & Mary in Biology, and has taught math, science, English, and health/PE for over 20 years. He recently returned from teaching ESL in Casablanca, Morocco.
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-10">
+      <h3>Charlie Conneen</h3>
+      My name is Charlie, I'm a UVa graduate with an MS in Mathematics. I have 6 years of experience teaching and tutoring all grades from elementary school to college-level and beyond, working to meet a variety of learning targets. Whether your student has fallen behind and needs coaching, or is striving to learn beyond the curriculum and requires a mentor, I'm here to help!
     </div>
   </div>
 </div>

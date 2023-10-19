@@ -13,8 +13,9 @@ header = "Winter 24 Coding Classes"
             <div class="vstack gap-3 px-2 pb-2 text-center">  
                 <div class="px-2 darknote">
                     Winter Coding Classes. January 9 to February 25. Cost $235 for 8 classes. <br>
-                    <a href="https://winter-24.cheddarup.com">Sign-up here for a two-week trial.<br>
-                    More classes will be added soon!</a>
+                    <a href="https://winter-24.cheddarup.com">Sign-up here for a two-week trial.</a><br>
+                    Commitment for the entire duration of the program is required after the first two weeks.<br> 
+                    More classes will be added soon!
                 </div>
             </div>
                 </div>
