@@ -67,6 +67,9 @@ header = "Winter 24 Coding Classes"
                             <a href="https://assets.education.lego.com/v3/assets/blt293eea581807678a/bltc96b6cfe095f5e45/64e327bcea7fb3ad9e12d2b7/Intro_to_Python_Course_TG_Course_1.pdf?locale=en-us"><b>Python Programming with Spike Prime (Part 1)</b></a></br>
                             Sundays, 4:00 &mdash; 5:30 pm<br>
                             Grades 5 to 8. Teacher: TBD.</p>
+                            <b>Proof-based Geometry</b></br>
+                            Mondays, 4:30 &mdash; 6:00 pm<br>
+                            Grades 6 to 8. Teacher: Nora Evans.</p>
                     </div>
                 </div>
             </div>
