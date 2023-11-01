@@ -15,8 +15,7 @@ header = "Build Lego&reg; Robots and Code with Lego WeDo 2.0&reg;"
             In each lesson, students build a Lego&reg; robot using a design model,
             improve and extend it, and then create a program using Scratch to
             control and move the robot. The robots use a medium power motor to act, depth, and tilt sensor to sense. A Scratch program encodes the robot's actions in response to sensing. </p>
-            <a class="btn btn-contact-us" href="https://trialcodingclasses.youcanbook.me/">Sign up for a free trial class!</a> 
-            <p>The course is structured in four-week sessions. Students build and code between two and four design models. Depending on the student's interests and previous experience using Lego bricks and coding, the course length varies from one session to several sessions.
+            Each class students build and code a model of a Lego robot. 
         </div> 
         <div class="col col-lg-2">
             <div class="v-stack">

@@ -8,7 +8,7 @@ header = "Charlottesville Kids&#39; Chess Club"
 <div class="container">
     <div class="row  justify-content-center">
         <div class="col darknote">
-            <a href="https://charlottesville-kids-chess-club.cheddarup.com">Sign-up here for one of our chess club meetings!</a>
+            <a href="https://charlottesville-kids-chess-club.cheddarup.com">Sign-up here</a> for one of our chess club meetings!
         </div>
     </div>
     <div class="row">
