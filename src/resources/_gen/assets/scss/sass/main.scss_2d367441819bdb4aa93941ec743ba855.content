@@ -7718,7 +7718,8 @@ ul.list-style-none {
 }
 
 .darknote a {
-  color: #EEFFFF;
+  color: #1E1E1E;
+  background-color: #BED6DB;
 }
 
 div.row.table-header {

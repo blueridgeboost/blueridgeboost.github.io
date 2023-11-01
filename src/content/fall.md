@@ -11,7 +11,8 @@ header = "Fall Classes in Charlottesville"
         <div class="col">
             <div class="vstack gap-3 px-2 pb-2 text-center">  
                 <div class="px-2 darknote">
-                    <a href="https://competition-math-23-24.cheddarup.com">Sign-up here for a two-week trial of Competition Math class.</a> <br> Commitment for the entire duration of the program is required after the first two weeks.
+                    <a href="https://competition-math-23-24.cheddarup.com">Sign-up here</a> for a two-week trial of Competition Math class. <br> Commitment for the entire duration of the program is required after the first two weeks. 
+                    <a href="https://competition-math-23.cheddarup.com">Sign up here</a> for the remainder of the program.
                 </div>
             </div>
         </div>
@@ -23,11 +24,14 @@ header = "Fall Classes in Charlottesville"
                     <div class="col-sm">
                         <p><a href="/class/math/math-olympiad/"><b>Math Olympiad for Elementary School (grades 4,  5, and 6)</b></a><br>
                         Saturdays 12:30 to 1:20. October 28 to March 31.  20 lessons for $495. <br>
+                        Advanced third graders are also welcome.
                         </p>
                     </div>
                     <div class="col-sm">
                         <p><a href="/class/math/math-olympiad/"><b>Math Olympiad for Middle School (grades 6,7, and 8)</b></a><br>
-                        Saturdays 1:30 to 2:20. October 28 to March 31. 20 lessons for $495.</p>
+                        Saturdays 1:30 to 2:20. October 28 to March 31. 20 lessons for $495.<br>
+                        Advanced fifth graders are also welcome.
+                        </p>
                     </div>
                 </div>
                 <div class="row">
