@@ -7694,6 +7694,14 @@ ul.list-style-none {
   list-style-type: none;
 }
 
+.btn-sign-up {
+  color: aqua;
+  font-size: 1.2em;
+  background-color: #003359;
+  border-color: #003359;
+  padding: 0.5em;
+}
+
 .btn-contact-us {
   color: #EEFFFF;
   font-size: 1.2em;

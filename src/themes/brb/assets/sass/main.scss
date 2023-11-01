@@ -221,6 +221,13 @@ ul.list-style-none {
     list-style-type: none;
   }
 
+  .btn-sign-up {
+    color: aqua;
+    font-size: 1.2em;
+    background-color: $darkest-blue;
+    border-color: $darkest-blue;
+    padding: 0.5em;
+  }
 
 .btn-contact-us {
   color: $lightest-blue;

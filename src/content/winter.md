@@ -12,10 +12,9 @@ header = "Winter 24 Coding Classes"
         <div class="col">
             <div class="vstack gap-3 px-2 pb-2 text-center">  
                 <div class="px-2 darknote">
-                    Winter Coding Classes. January 9 to February 25. Cost $235 for 8 one-hour classes, $295 for 8 90-minute classes.<br>
-                    <a href="https://winter-24.cheddarup.com">Sign-up here for a two-week trial.</a><br>
-                    Commitment for the entire duration of the program is required after the first two weeks.<br> 
-                    More classes will be added soon!
+                    Winter Coding Classes. January 6 to February 25.<br>
+                    <!-- <a href="https://winter-24.cheddarup.com">Sign-up here for a two-week trial for only $50.</a><br> -->
+                    Signup for a two-week trail or the entire class. Commitment for the entire duration of the program is required to continue after the first two classes.
                 </div>
             </div>
                 </div>
@@ -28,9 +27,10 @@ header = "Winter 24 Coding Classes"
                 <div class="row">
                     <div class="col-sm">
                         <p></p>
-                        <p><a href="/class/coding/kids-block-coding"><b>Block Coding Jr</b></a><br>
+                        <p><a href=""><b>Block Coding Jr</b></a><br>
                         Saturdays, 10:00 am &ndash; 10:50 am. <br>
-                         Grades PK and K. Teacher: Ransford Dunu.</p>
+                        Grades PK and K. Teacher: Ransford Dunu.<br>
+                        <a href="https://winter-24-block-coding-jr.cheddarup.com" class="btn-small">Sign up here</a></p>
                         <p><a href="/class/coding/lego-wedo"><b>Robotics introduction with LEGO WeDo 2.0</b></a><br>
                         Saturdays, 11:00 am &ndash; 12:20 pm. <b>(90-minute class)</b><br>
                         Grades K and 1. Teacher: Ransford Dunu.</p>
@@ -45,7 +45,9 @@ header = "Winter 24 Coding Classes"
                             <p></p>
                             <p><a href="/class/coding/tweens-coffee-script"><b>Coffee Script Beginner (Part 1)</b></a> <br>
                             Saturdays, 1:30 am &ndash; 2:20 pm.<br>
-                            Grades 3 to 5. Teacher: Ransford Dunu.<br></p>
+                            Grades 3 to 5. Teacher: Ransford Dunu.<br>
+                           <a href="https://winter-24-coffee-script-part1.cheddarup.com" class="btn-small">Sign up here</a>
+                            </p>
                             <p><a href="/class/coding/tweens-coffee-script"><b>Coffee Script Beginner (Part 2)</b></a> <br>
                             Sundays, 11:00 am &ndash; 11:50 pm.<br>
                             Grades 3 to 5. Teacher: TBD.</p>
