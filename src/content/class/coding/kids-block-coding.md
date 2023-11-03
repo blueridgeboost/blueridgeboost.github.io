@@ -9,6 +9,8 @@ header = "Block Language Coding for Children"
 <div class="container-fluid">
     <div class="row px-1">
         <div class="col-12 text-left">
+        <p><a href="https://winter-24-block-coding.cheddarup.com" class="btn-small">
+                        <button class="button-8" role="button">Sign Up</button></a></p>
         <p>Students ages six to ten learn fundamental coding concepts by helping a beaver build a dam on instructor-provided Chromebooks. First, students learn to code using simple commands to move left, right and drop logs. Next, students learn to code repetition using repeat loops executed a fixed or a variable number of times. In the second part of the course, students learn to code using conditional loops. In the third part of the course, students learn to code using conditional statements with simple and compound conditions.  </p>
         <p>The classes run in semester sessions. Each class is 45 minutes long. We adjust to the student's pace, with students typically needing between four and six months to complete the course depending on age and previous coding experience. </p>
         </div>

@@ -1,6 +1,6 @@
 +++
-title = "Kids Classes in Charlottesville | Blue Ridge Boost"
-description = "We teach Coffee Script coding classes for children. Schedule your free trial class today!"
+title = "Text Coding Classes in Charlottesville | Blue Ridge Boost"
+description = "We teach Coffee Script coding classes for children."
 aliases=["/upper_elementary/"]
 header = "Coding Group Classes for Tweens (ages 8 to 12) in Charlottesville"
 +++
@@ -9,11 +9,13 @@ header = "Coding Group Classes for Tweens (ages 8 to 12) in Charlottesville"
     <div class="row">
         <p>Students learn fundamental coding concepts using Coffee Script, a beginner-friendly text-based coding language. The young coders use an attractive graphical interface to generate text by pressing buttons on instructor-provided Chromebooks. Some previous experience typing is helpful but not necessary. </p>
         <p> Classes run in semester-long sessions. Each class is 50 minutes long. We adjust classes to the pace of each student.</p>
-        <a href="https://trialcodingclasses.youcanbook.me/">Sign up for a free trial class!</a>
+        <p><a href="https://winter-24-coffee-script-part1.cheddarup.com">
+  <button class="button-8" role="button">Sign Up for Part 1</button></a> &nbsp; <a href="https://winter-24-coffee-script-part2.cheddarup.com">
+  <button class="button-8" role="button">Sign Up for Part 2</button></a> </p>
     </div>
     <div class="row flex-column flex-md-row">
         <div class="col col-md-6 col-lg-8">
-                        
+<p></p>                        
 <h4> Unit 1</h4>
 
 Students learn that coding is giving precise instructions to a computer, using advanced planning to create efficient programs. Students study objects that can perform several actions.
@@ -47,14 +49,9 @@ Students learn the ``not`` logical operator, concepts related to computer games,
         </div>
         <div class="col col-md-6 col-lg-3">
 
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img  alt="Code sample" src="/images/ca1.webp" class="img-fluid"></a><br>
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca2.webp" class="img-fluid"></a><br>
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca3.webp" class="img-fluid"></a><br>
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca4.webp" class="img-fluid"></a><br>
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca5.webp" class="img-fluid"></a><br>
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca6.webp" class="img-fluid"></a><br>
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca7.webp" class="img-fluid"></a><br>
-<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca8.webp"class="img-fluid"></a><br>
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca2.webp" class="img-fluid"></a><br><p></p> 
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca6.webp" class="img-fluid"></a><br><p></p> 
+<a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca7.webp" class="img-fluid"></a><br><p></p> 
 <a href="https://www.codemonkey.com/courses/coding-adventure/"><img alt="Code written by kids!" src="/images/ca9.webp" class="img-fluid"></a>
         </div>
     </div>
