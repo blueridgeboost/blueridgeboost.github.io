@@ -123,7 +123,6 @@ unsafe= true
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = "We are an approved vendor for Virginia K-12 Acceleration Grants!"
 
 [params.carouselHomepage]
     # All carousel items are defined in their own files. You can find example items

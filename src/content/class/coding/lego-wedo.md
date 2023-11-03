@@ -11,7 +11,10 @@ header = "Build Lego&reg; Robots and Code with Lego WeDo 2.0&reg;"
     <div class="flex-column flex-lg-row">
         <div class="d-none d-lg-block col-lg-1"></div>
         <div class="col col-lg-8">
-            <p>Come and learn to build and program Lego&reg; robots!
+            <p>Come and learn to build and program Lego&reg; robot!
+            <a href="https://winter-24-lego-wedo.cheddarup.com" class="btn-small">
+                        <button class="button-8" role="button">Sign Up</button></a>
+            <br>
             In each lesson, students build a Lego&reg; robot using a design model,
             improve and extend it, and then create a program using Scratch to
             control and move the robot. The robots use a medium power motor to act, depth, and tilt sensor to sense. A Scratch program encodes the robot's actions in response to sensing. </p>

@@ -30,48 +30,76 @@ header = "Winter 24 Coding Classes"
                         <p><a href=""><b>Block Coding Jr</b></a><br>
                         Saturdays, 10:00 am &ndash; 10:50 am. <br>
                         Grades PK and K. Teacher: Ransford Dunu.<br>
-                        <a href="https://winter-24-block-coding-jr.cheddarup.com" class="btn-small">Sign up here</a></p>
+                        <a href="https://winter-24-block-coding-jr.cheddarup.com" class="btn-small">
+                        <button class="button-8" role="button">Sign Up</button></a></p>
                         <p><a href="/class/coding/lego-wedo"><b>Robotics introduction with LEGO WeDo 2.0</b></a><br>
                         Saturdays, 11:00 am &ndash; 12:20 pm. <b>(90-minute class)</b><br>
-                        Grades K and 1. Teacher: Ransford Dunu.</p>
+                        Grades K and 1. Teacher: Ransford Dunu.<br>
+                        <a href="https://winter-24-lego-wedo.cheddarup.com" class="btn-small">
+                        <button class="button-8" role="button">Sign Up</button></a></p>
                         <p><a href="/class/coding/kids-block-coding"><b>Block Coding with Code Monkey</b></a><br>
-                        Saturdays, 12:30 am &ndash; 1:20 pm.<br>
-                        Grades 1 and 2. Teacher: Ransford Dunu.</p>
+                        Saturdays, 12:30 pm &ndash; 1:20 pm.<br>
+                        Grades 1 and 2. Teacher: Ransford Dunu.<br> 
+                        <a href="https://winter-24-block-coding.cheddarup.com" class="btn-small">
+                        <button class="button-8" role="button">Sign Up</button></a></p>
                         <p><a href="/class/coding/scratch"><b>Block Coding with Scratch</b></a><br>
                         Sundays, 10:00 am &ndash; 10:50 pm.<br>
-                        Grades 1 and 2. Teacher: TBD.</p>
+                        Grades 1 and 2. Teacher: TBD.<br> 
+                        <a href="https://winter-24-scratch.com" class="btn-small">
+                        <button class="button-8" role="button">Sign Up</button></a></p>
                     </div>
                     <div class="col-sm">
                             <p></p>
                             <p><a href="/class/coding/tweens-coffee-script"><b>Coffee Script Beginner (Part 1)</b></a> <br>
-                            Saturdays, 1:30 am &ndash; 2:20 pm.<br>
+                            Saturdays, 1:30 pm &ndash; 2:20 pm.<br>
                             Grades 3 to 5. Teacher: Ransford Dunu.<br>
-                           <a href="https://winter-24-coffee-script-part1.cheddarup.com" class="btn-small">Sign up here</a>
+
+<a href="https://winter-24-coffee-script-part1.cheddarup.com">
+  <button class="button-8" role="button">Sign Up</button></a>
                             </p>
                             <p><a href="/class/coding/tweens-coffee-script"><b>Coffee Script Beginner (Part 2)</b></a> <br>
                             Sundays, 11:00 am &ndash; 11:50 pm.<br>
-                            Grades 3 to 5. Teacher: TBD.</p>
+                            Grades 3 to 5. Teacher: TBD.<br>
+                            <a href="https://winter-24-coffee-script-part2.cheddarup.com">
+  <button class="button-8" role="button">Sign Up</button></a></p>
                             <p><a href="https://www.cs2n.org/u/track_progress?id=729"><b>Coding and Computational Thinking with LEGO SPIKE Prime (Part 1)</b></a> <br>
-                            Saturdays, 3:30 am &ndash; 5:00 pm.<br>
-                            Grades 3 to 5. Teacher: TBD.</p>
+                            Saturdays, 3:30 pm &ndash; 5:00 pm.<br>
+                            Grades 3 to 5. Teacher: TBD.<br>
+                            <a href="https://winter-24-spike.cheddarup.com">
+  <button class="button-8" role="button">Sign Up</button></a></p>
+                            <p><a href="https://www.cs2n.org/u/track_progress?id=655"><b>Coding and Computational Thinking with VEX IQ (2nd Gen) (Part 1)</b></a> <br>
+                            Mondays, 4:30 pm &ndash; 6:00 pm.<br>
+                            Grades 2 to 5. Teacher: TBD.<br>
+                            <a href="https://winter-24-vexiq.cheddarup.com">
+  <button class="button-8" role="button">Sign Up</button></a></p>
                     </div>
                     <div class="col-sm">
                             <p></p>
                             <p><a href="/class/coding/middle-school-python"><b>Python Beginner (Part 1)</b></a></br>
                             Saturdays,  2:30 &ndash; 3:20 pm.<br>
-                            Grades 5 to 8. Teacher: Ransford Dunu.</p>
+                            Grades 5 to 8. Teacher: Ransford Dunu.<br>
+                            <a href="https://winter-24-beginner-python-part1.cheddarup.com">
+  <button class="button-8" role="button">Sign Up</button></a></p>
                             <p><a href="/class/coding/middle-school-python"><b>Python Beginner (Part 2)</b></a></br>
                             Sundays, 1:00 &ndash; 1:50 pm.<br>
-                            Grades 5 to 8. Teacher: TBD.</p>
+                            Grades 5 to 8. Teacher: TBD.<br>
+                            <a href="https://winter-24-beginner-python-part2.cheddarup.com">
+  <button class="button-8" role="button">Sign Up</button></a></p>
                             <a href="/class/coding/python"><b>Python Advanced (Part 2)</b></a></br>
                             Sundays, 12:00 &mdash; 12:50 pm<br>
-                            Grades 5 to 8. Teacher: TBD.</p>
+                            Grades 5 to 8. Teacher: TBD.<br>
+                            <a href="https://winter-24-advanced-python-part2.cheddarup.com">
+  <button class="button-8" role="button">Sign Up</button></a></p>
                             <a href="https://assets.education.lego.com/v3/assets/blt293eea581807678a/bltc96b6cfe095f5e45/64e327bcea7fb3ad9e12d2b7/Intro_to_Python_Course_TG_Course_1.pdf?locale=en-us"><b>Python Programming with Spike Prime (Part 1)</b></a></br>
                             Sundays, 4:00 &mdash; 5:30 pm<br>
-                            Grades 5 to 8. Teacher: TBD.</p>
+                            Grades 5 to 8. Teacher: TBD.<br>
+                            <a href="https://winter-24-python-spike.cheddarup.com">
+  <button class="button-8" role="button">Sign Up</button></a></p>
                             <b>Proof-based Geometry</b></br>
                             Mondays, 4:30 &mdash; 6:00 pm<br>
-                            Grades 6 to 8. Teacher: Nora Evans.</p>
+                            Grades 6 to 8. Teacher: Nora Evans.<br>
+                            <a href="https://winter-24-geometry.cheddarup.com">
+  <button class="button-8" role="button">Sign Up</button></a></p>
                     </div>
                 </div>
             </div>

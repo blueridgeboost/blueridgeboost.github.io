@@ -9,7 +9,9 @@ header = "Coding Group Classes for Tweens (ages 8 to 12) in Charlottesville"
     <div class="row">
         <p>Students learn fundamental coding concepts using Coffee Script, a beginner-friendly text-based coding language. The young coders use an attractive graphical interface to generate text by pressing buttons on instructor-provided Chromebooks. Some previous experience typing is helpful but not necessary. </p>
         <p> Classes run in semester-long sessions. Each class is 50 minutes long. We adjust classes to the pace of each student.</p>
-        Sign up here for the Winter session: <a href="https://winter-24-coffee-script-part1.cheddarup.com" class="btn-sign-up">Part 1</a>
+        <p><a href="https://winter-24-coffee-script-part1.cheddarup.com">
+  <button class="button-8" role="button">Sign Up for Part 1</button></a> &nbsp; <a href="https://winter-24-coffee-script-part2.cheddarup.com">
+  <button class="button-8" role="button">Sign Up for Part 2</button></a> </p>
     </div>
     <div class="row flex-column flex-md-row">
         <div class="col col-md-6 col-lg-8">

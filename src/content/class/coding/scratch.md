@@ -12,6 +12,9 @@ header = "Scratch Coding and Tutoring in Charlottesville"
 <div class="col">
 <b>Learn Scratch with us!</b>
 
+<p><a href="https://winter-24-scratch.com" class="btn-small">
+                        <button class="button-8" role="button">Sign Up</button></a></p>
+
 We teach Scratch using a project-based approach. You will learn to create games, including Make it Fly!, Dungeons, Pong, Dodge the Balls, Jumping game, Math facts practice, a clone of Crossy Road, and much more.
 
 </div>
