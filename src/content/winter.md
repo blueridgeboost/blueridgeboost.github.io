@@ -14,7 +14,7 @@ header = "Winter 24 Coding Classes"
                 <div class="px-2 darknote">
                     Winter Coding Classes. January 6 to February 25.<br>
                     <!-- <a href="https://winter-24.cheddarup.com">Sign-up here for a two-week trial for only $50.</a><br> -->
-                    Signup for a two-week trail or the entire class. Commitment for the entire duration of the program is required to continue after the first two classes.
+                    Signup for a two-week trial or the entire class. Commitment for the entire duration of the program is required to continue after the first two classes.
                 </div>
             </div>
                 </div>
