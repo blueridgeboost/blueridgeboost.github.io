@@ -41,9 +41,9 @@ unsafe= true
     url        = "/spring/"
     weight     = 4
 [[menu.main]]
-    name       = "Summer"
-    identifier = "menu.summer"
-    url        = "/summer/"
+    name       = "Camps"
+    identifier = "menu.camps"
+    url        = "/camps/"
     weight     = 5
 
 [[menu.main]]
