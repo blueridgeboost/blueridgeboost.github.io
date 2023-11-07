@@ -69,7 +69,7 @@ header = "Winter 24 Coding Classes"
   <button class="button-8" role="button">Sign Up</button></a></p>
                             <p><a href="https://www.cs2n.org/u/track_progress?id=655"><b>Coding and Computational Thinking with VEX IQ (2nd Gen) (Part 1)</b></a> <br>
                             Mondays, 4:30 pm &ndash; 6:00 pm.<br>
-                            Grades 2 to 5. Teacher: TBD.<br>
+                            Grades 2 to 5. Teacher: Saumya.<br>
                             <a href="https://winter-24-vexiq.cheddarup.com">
   <button class="button-8" role="button">Sign Up</button></a></p>
                     </div>
