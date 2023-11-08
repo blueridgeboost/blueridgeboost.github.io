@@ -23,7 +23,7 @@ Teamwork and collaboration are at the heart of our winter camp experience. Stude
 
 <h3>Dates, Times, and Flexibility</h3>
 
-Our Lego Robotics Winter Camp will take place from0 <b>December 18 to December 22</b>, offering flexible options to suit every schedule. Participants can choose between <b>half-day sessions from 8:30 a.m. to 1 p.m. or full-day sessions from 8:30 a.m. to 5 p.m.</b> Whether you can join us for <b>one, two, three, four, or all five days</b>, there's an option that fits your needs.
+Our Lego Robotics Winter Camp will take place from <b>December 18 to December 22</b>, offering flexible options to suit every schedule. Participants can choose between <b>half-day sessions from 8:30 a.m. to 1 p.m. or full-day sessions from 8:30 a.m. to 5 p.m.</b> Whether you can join us for <b>one, two, three, four, or all five days</b>, there's an option that fits your needs.
 The cost of the camp is <b>$75 per day for the half-day session and $115 per day for the full-day session</b>.
 
 <a href="https://winter-camp-24.cheddarup.com"><button class="button-8" role="button">Book Your Spot Today</button></a>
