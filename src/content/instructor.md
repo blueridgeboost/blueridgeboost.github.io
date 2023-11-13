@@ -81,16 +81,6 @@ header = "Blue Ridge Boost Instructors"
   </div>
   <div class="row">
     <div class="col-sm-2">
-      <img src="/images/lucy.jpg" alt="Lucy Berndt" class="img-fluid">
-    </div>
-    <div class="col-sm-10">
-      <h3>Lucy Berndt</h3>
-      My name is Lucy Berndt and I am so excited to be joining the team at Blue Ridge Boost. With over 30 years of teaching and tutoring, I bring a lot of experience to the table. My undergraduate degree is from UVA where I earned a BS in Math Education. I am licensed to teach k-12 and believe it or not, I have taught in one form or another grades kindergarten to twelveth. <br>
-I love working with children. I love seeing the light that goes on or the smile on their face when they get the concept. I particularly like tutoring because I know that I will make a difference in their lives. I try to make my tutoring session catered to the individual. I try very hard to make math not only understandable but fun.
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-2">
     </div>
     <div class="col-sm-10">
       <h3>Fritz Knapp</h3>
