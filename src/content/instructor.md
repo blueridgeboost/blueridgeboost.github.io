@@ -83,14 +83,6 @@ header = "Blue Ridge Boost Instructors"
     <div class="col-sm-2">
     </div>
     <div class="col-sm-10">
-      <h3>Fritz Knapp</h3>
-      Fritz Knapp is a graduate of William & Mary in Biology, and has taught math, science, English, and health/PE for over 20 years. He recently returned from teaching ESL in Casablanca, Morocco.
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-2">
-    </div>
-    <div class="col-sm-10">
       <h3>Charlie Conneen</h3>
       My name is Charlie, I'm a UVa graduate with an MS in Mathematics. I have 6 years of experience teaching and tutoring all grades from elementary school to college-level and beyond, working to meet a variety of learning targets. Whether your student has fallen behind and needs coaching, or is striving to learn beyond the curriculum and requires a mentor, I'm here to help!
     </div>

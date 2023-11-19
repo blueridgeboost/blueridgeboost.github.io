@@ -11,8 +11,7 @@ header = "Fall Classes in Charlottesville"
         <div class="col">
             <div class="vstack gap-3 px-2 pb-2 text-center">  
                 <div class="px-2 darknote">
-                    <a href="https://competition-math-23-24.cheddarup.com">Sign-up here</a> for a two-week trial of Competition Math class. <br> Commitment for the entire duration of the program is required after the first two weeks. 
-                    <a href="https://competition-math-23.cheddarup.com">Sign up here</a> for the remainder of the program.
+                    Signup for a two-week trial or the entire class. Commitment for the entire duration of the program is required to continue after the first two classes.
                 </div>
             </div>
         </div>
@@ -24,27 +23,27 @@ header = "Fall Classes in Charlottesville"
                     <div class="col-sm">
                         <p><a href="/class/math/math-olympiad/"><b>Math Olympiad for Elementary School (grades 4,  5, and 6)</b></a><br>
                         Saturdays 12:30 to 1:20. October 28 to March 31.  20 lessons for $495. <br>
-                        Advanced third graders are also welcome.
+                        Advanced third graders are also welcome.<br>
+                        <a href="https://competition-math-grades-4-to-6.cheddarup.com" class="btn-small">
+                        <button class="button-8" role="button">Sign Up</button></a>
                         </p>
                     </div>
                     <div class="col-sm">
                         <p><a href="/class/math/math-olympiad/"><b>Math Olympiad for Middle School (grades 6,7, and 8)</b></a><br>
                         Saturdays 1:30 to 2:20. October 28 to March 31. 20 lessons for $495.<br>
-                        Advanced fifth graders are also welcome.
+                        Advanced fifth graders are also welcome.<br>
+                        <a href="https://competition-math-grades-6-to-8.cheddarup.com" class="btn-small">
+                        <button class="button-8" role="button">Sign Up</button></a>
                         </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm px-3">
-                        Students from schools that do not have a math olympiad team can participate in the five contests which will be administered monthly starting in November.<br>
-                        <p></p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm">
                         <p><a href="/class/math/amc-coach/"><b>AMC 8(grades 5, 6,7, and 8)</b></a><br>
                         Saturdays 2:30 to 3:20. October 28 to January 31. 10 classes for $245.<br>
-                        Competition Window: January 18, 2024 at 8:00 AM ET through January 24, 2024 at 11:59 PM ET</p>
+                        Competition Window: January 18, 2024 at 8:00 AM ET through January 24, 2024 at 11:59 PM ET<br>
+                        <a href="https://competition-math-amc8.cheddarup.com" class="btn-small">
+                        <button class="button-8" role="button">Sign Up</button></a></p>
                     </div>
                 </div>
             </div>
