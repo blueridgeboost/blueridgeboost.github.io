@@ -7,28 +7,20 @@ header = "Build Lego&reg; Robots and Code with Lego WeDo 2.0&reg;"
 +++
 
 
-<div class="container-fluid">
-    <div class="flex-column flex-lg-row">
+<div class="container px-2">
+    <div class="row">
         <div class="d-none d-lg-block col-lg-1"></div>
-        <div class="col col-lg-8">
+        <div class="col col-lg-5">
             <p>Come and learn to build and program Lego&reg; robot!
+            Through a combination of hands-on building and programming, your children will embark on a thrilling journey of discovery. We carefully selected eight robots that will engage their imaginations and ignite their passion for STEM.<br>
+            Our course utilizes the LEGO Education WeDo 2.0 Core Set 45300, a powerful tool that combines the joy of LEGO building with the fundamentals of coding. With 8 different building instructions at their fingertips, your children will construct fascinating models, each with its own special features and functions.<p></p>
             <a href="https://winter-24-lego-wedo.cheddarup.com" class="btn-small">
                         <button class="button-8" role="button">Sign Up</button></a>
-            <br>
-            In each lesson, students build a Lego&reg; robot using a design model,
-            improve and extend it, and then create a program using Scratch to
-            control and move the robot. The robots use a medium power motor to act, depth, and tilt sensor to sense. A Scratch program encodes the robot's actions in response to sensing. </p>
-            Each class students build and code a model of a Lego robot. 
+            <p></p>
         </div> 
-        <div class="col col-lg-2">
-            <div class="v-stack">
-                <div class="p-1">
-                    <img src="/images/wedo.webp" class="img-fluid" height="100px" alt="Wedo project"/>
-                </div>
-                <div class="col p-1">
-                    <img src="/images/wedo2.webp" class="img-fluid" height="100px" alt="Wedo project"/>
-                </div>
-            </div>
+        <div class="col col-lg-5">
+                <img src="/images/WeDoCourse.png" class="img-fluid" height="100px" alt="Wedo project"/>
         </div>
+        <div class="d-none d-lg-block col-lg-1"></div>
     </div>
 </div>

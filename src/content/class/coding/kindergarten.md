@@ -9,9 +9,12 @@ header = "Coding Group Classes for Early Coders"
 
 <div class="container-fluid">
     <div class="row">
-Our youngest students learn fundamental coding concepts by helping a [monkey collect bananas](https://www.codemonkey.com/courses/codemonkey-jr) on instructor-provided Chromebooks. Students learn the basics of coding using left, right, jump up, jump left, and jump right commands to guide a monkey to collect all bananas before opening a treasure chest. In addition, students learn to code repetition by using loops and conditional loops. The course concludes with procedures.
+Our youngest students learn fundamental coding concepts by helping a monkey collect bananas on instructor-provided Chromebooks. Students learn the basics of coding using left, right, jump up, jump left, and jump right commands to guide a monkey to collect all bananas before opening a treasure chest. In addition, students learn to code repetition by using loops and conditional loops. The course concludes with procedures.
 
-The classes are organized into four-lesson units. Each class is 30 minutes long. We adjust the classes to the pace of each student. Students typically need 4-6 months to complete the course. 
+Each class is 50 minutes long. We adjust the classes to the pace of each student. Students typically need 4-6 months to complete the course.
+
+<a href="https://winter-24-block-coding-jr.cheddarup.com" class="btn-small">
+                        <button class="button-8" role="button">Sign Up</button></a><p></p>
     </div>
     <div class="row flex-column flex-md-row">
         <div class="col col-md-6 col-lg-8">
