@@ -68,12 +68,12 @@ header = "Winter 24 Math and Coding Classes"
                                 <a href="https://winter-24-coffee-script-part2.cheddarup.com">
                                 <button class="button-8" role="button">Sign Up</button></a>
                             </p>
-                            <p><a href="https://www.cs2n.org/u/track_progress?id=729"><b>Coding and Computational Thinking with LEGO SPIKE Prime (Part 1)</b></a> <br>
+                            <p><a href="/class/coding/computational-thinking-spike"><b>Coding and Computational Thinking with LEGO SPIKE Prime (Part 1)</b></a> <br>
                             Saturdays, 3:30 pm &ndash; 5:00 pm.<br>
                             Grades 3 to 5. Teacher: TBD.<br>
                             <a href="https://winter-24-spike.cheddarup.com">
   <button class="button-8" role="button">Sign Up</button></a></p>
-                            <p><a href="https://www.cs2n.org/u/track_progress?id=655"><b>Coding and Computational Thinking with VEX IQ (2nd Gen) (Part 1)</b></a> <br>
+                            <p><a href="/class/coding/computational-thinking-vexiq"><b>Coding and Computational Thinking with VEX IQ (2nd Gen) (Part 1)</b></a> <br>
                             Mondays, 4:30 pm &ndash; 6:00 pm.<br>
                             Grades 2 to 5. Teacher: Saumya.<br>
                             <a href="https://winter-24-vexiq.cheddarup.com">
@@ -130,12 +130,12 @@ header = "Winter 24 Math and Coding Classes"
                 <div class="row">
                     <div class="col-sm">
                         <p></p>
-                        <p><b>First Grade Challenging Problems (Singapore Math)</b></br>
+                        <p><b><a href="/class/math/challenging-math">First Grade Challenging Problems (Singapore Math)</a></b></br>
                             Friday, 3:00 &mdash; 3:50 pm<br>
                             Teacher: Nora Evans.<br>
                             <a href="https://winter-24-first-grade.cheddarup.com">
                             <button class="button-8" role="button">Sign Up</button></a></p>
-                        <p><b>Second Grade Challenging Problems (Singapore Math)</b></br>
+                        <p><b><a href="/class/math/challenging-math">Second Grade Challenging Problems (Singapore Math)</a></b></br>
                             Friday, 4:00 &mdash; 4:50 pm<br>
                             Teacher: Nora Evans.<br>
                             <a href="https://winter-24-second-grade.cheddarup.com">
@@ -143,17 +143,17 @@ header = "Winter 24 Math and Coding Classes"
                     </div>
                     <div class="col-sm">
                         <p></p>
-                        <p><b>Third Grade Challenging Problems (Singapore Math)</b></br>
+                        <p><b><a href="/class/math/challenging-math">Third Grade Challenging Problems (Singapore Math)</a></b></br>
                             Wednesday, 4:30 &mdash; 4:20 pm<br>
                             Teacher: Nora Evans.<br>
                             <a href="https://winter-24-third-grade.cheddarup.com">
                             <button class="button-8" role="button">Sign Up</button></a></p>
-                        <p><b>Fourth Grade Challenging Problems (Singapore Math)</b></br>
+                        <p><b><a href="/class/math/challenging-math">Fourth Grade Challenging Problems (Singapore Math)</a></b></br>
                             Wednesday, 5:30 &mdash; 6:20 pm<br>
                             Teacher: Nora Evans.<br>
                             <a href="https://winter-24-fourth-grade.cheddarup.com">
                             <button class="button-8" role="button">Sign Up</button></a></p>
-                        <p><b>Fifth Grade Challenging Word Problems (Singapore Math)</b></br>
+                        <p><b><a href="/class/math/challenging-math">Fifth Grade Challenging Word Problems (Singapore Math)</a></b></br>
                             Friday, 5:00 &mdash; 5:50 pm<br>
                             Teacher: Nora Evans.<br>
                             <a href="https://winter-24-fifth-grade.cheddarup.com">
