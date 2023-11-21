@@ -46,7 +46,7 @@ header = "Winter 24 Math and Coding Classes"
                         <p><a href="/class/coding/scratch"><b>Block Coding with Scratch</b></a><br>
                         Sundays, 10:00 am &ndash; 10:50 pm.<br>
                         Grades 1 and 2. Teacher: TBD.<br> 
-                        <a href="https://winter-24-scratch.com" class="btn-small">
+                        <a href="https://winter-24-scratch.cheddarup.com" class="btn-small">
                         <button class="button-8" role="button">Sign Up</button></a></p>
                         <a href="/class/coding/fundamentals-coding-spike"><b>Fundamentals of Coding with SPIKE Essential</b></a></br>
                             Fridays, 4:30 &mdash; 6:30 pm<br>
