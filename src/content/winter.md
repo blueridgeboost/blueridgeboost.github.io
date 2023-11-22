@@ -68,12 +68,12 @@ header = "Winter 24 Math and Coding Classes"
                                 <a href="https://winter-24-coffee-script-part2.cheddarup.com">
                                 <button class="button-8" role="button">Sign Up</button></a>
                             </p>
-                            <p><a href="https://www.cs2n.org/u/track_progress?id=729"><b>Coding and Computational Thinking with LEGO SPIKE Prime (Part 1)</b></a> <br>
+                            <p><a href="/class/coding/computational-thinking-spike"><b>Coding and Computational Thinking with LEGO SPIKE Prime (Part 1)</b></a> <br>
                             Saturdays, 3:30 pm &ndash; 5:00 pm.<br>
                             Grades 3 to 5. Teacher: TBD.<br>
                             <a href="https://winter-24-spike.cheddarup.com">
   <button class="button-8" role="button">Sign Up</button></a></p>
-                            <p><a href="https://www.cs2n.org/u/track_progress?id=655"><b>Coding and Computational Thinking with VEX IQ (2nd Gen) (Part 1)</b></a> <br>
+                            <p><a href="/class/coding/computational-thinking-vexiq"><b>Coding and Computational Thinking with VEX IQ (2nd Gen) (Part 1)</b></a> <br>
                             Mondays, 4:30 pm &ndash; 6:00 pm.<br>
                             Grades 2 to 5. Teacher: Saumya.<br>
                             <a href="https://winter-24-vexiq.cheddarup.com">
@@ -116,7 +116,7 @@ header = "Winter 24 Math and Coding Classes"
         <div class="col">
             <div class="vstack gap-3 px-2 pb-2 text-center">  
                 <div class="px-2 darknote">
-                    Cost $115/month. Sign up for one or more months.<br>
+                    Challenging Math Problems. Cost $115/month. Sign up for one or more months.<br>
                     We accept Virginia K-12 Acceleration Grants for the math classes.
                 </div>
             </div>
@@ -130,12 +130,12 @@ header = "Winter 24 Math and Coding Classes"
                 <div class="row">
                     <div class="col-sm">
                         <p></p>
-                        <p><b>First Grade Challenging Problems (Singapore Math)</b></br>
+                        <p><b><a href="/class/math/challenging-math">First Grade Challenging Problems (Singapore Math)</a></b></br>
                             Friday, 3:00 &mdash; 3:50 pm<br>
                             Teacher: Nora Evans.<br>
                             <a href="https://winter-24-first-grade.cheddarup.com">
                             <button class="button-8" role="button">Sign Up</button></a></p>
-                        <p><b>Second Grade Challenging Problems (Singapore Math)</b></br>
+                        <p><b><a href="/class/math/challenging-math">Second Grade Challenging Problems (Singapore Math)</a></b></br>
                             Friday, 4:00 &mdash; 4:50 pm<br>
                             Teacher: Nora Evans.<br>
                             <a href="https://winter-24-second-grade.cheddarup.com">
@@ -143,17 +143,17 @@ header = "Winter 24 Math and Coding Classes"
                     </div>
                     <div class="col-sm">
                         <p></p>
-                        <p><b>Third Grade Challenging Problems (Singapore Math)</b></br>
+                        <p><b><a href="/class/math/challenging-math">Third Grade Challenging Problems (Singapore Math)</a></b></br>
                             Wednesday, 4:30 &mdash; 4:20 pm<br>
                             Teacher: Nora Evans.<br>
                             <a href="https://winter-24-third-grade.cheddarup.com">
                             <button class="button-8" role="button">Sign Up</button></a></p>
-                        <p><b>Fourth Grade Challenging Problems (Singapore Math)</b></br>
+                        <p><b><a href="/class/math/challenging-math">Fourth Grade Challenging Problems (Singapore Math)</a></b></br>
                             Wednesday, 5:30 &mdash; 6:20 pm<br>
                             Teacher: Nora Evans.<br>
                             <a href="https://winter-24-fourth-grade.cheddarup.com">
                             <button class="button-8" role="button">Sign Up</button></a></p>
-                        <p><b>Fifth Grade Challenging Word Problems (Singapore Math)</b></br>
+                        <p><b><a href="/class/math/challenging-math">Fifth Grade Challenging Word Problems (Singapore Math)</a></b></br>
                             Friday, 5:00 &mdash; 5:50 pm<br>
                             Teacher: Nora Evans.<br>
                             <a href="https://winter-24-fifth-grade.cheddarup.com">
@@ -166,6 +166,50 @@ header = "Winter 24 Math and Coding Classes"
                             Grades 6 to 8. Teacher: Nora Evans.<br>
                             <a href="https://winter-24-geometry.cheddarup.com">
                             <button class="button-8" role="button">Sign Up</button></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row  justify-content-center">
+        <div class="col">
+            <div class="vstack gap-3 px-2 pb-2 text-center">  
+                <div class="px-2 darknote">
+                    Competition Math<br>
+                    Signup for a two-week trial or the entire class. Commitment for the entire duration of the program is required to continue after the first two classes.<br>
+                    We accept Virginia K-12 Acceleration Grants for the math classes.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row"> 
+        <div class="col">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm">
+                        <p><a href="/class/math/math-olympiad/"><b>Math Olympiad for Elementary School (grades 4,  5, and 6)</b></a><br>
+                        Saturdays 12:30 to 1:20, ending March 31.  20 lessons for $495. <br>
+                        Advanced third graders are also welcome.<br>
+                        <a href="https://competition-math-grades-4-to-6.cheddarup.com" class="btn-small">
+                        <button class="button-8" role="button">Sign Up</button></a>
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <p><a href="/class/math/math-olympiad/"><b>Math Olympiad for Middle School (grades 6,7, and 8)</b></a><br>
+                        Saturdays 1:30 to 2:20, ending March 31. 20 lessons for $495.<br>
+                        Advanced fifth graders are also welcome.<br>
+                        <a href="https://competition-math-grades-6-to-8.cheddarup.com" class="btn-small">
+                        <button class="button-8" role="button">Sign Up</button></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <p><a href="/class/math/amc-coach/"><b>AMC 8(grades 5, 6,7, and 8)</b></a><br>
+                        Saturdays 2:30 to 3:20, ending January 31. 10 classes for $245.<br>
+                        Competition Window: January 18, 2024 at 8:00 AM ET through January 24, 2024 at 11:59 PM ET<br>
+                        <a href="https://competition-math-amc8.cheddarup.com" class="btn-small">
+                        <button class="button-8" role="button">Sign Up</button></a></p>
                     </div>
                 </div>
             </div>
