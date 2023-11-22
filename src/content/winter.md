@@ -116,7 +116,7 @@ header = "Winter 24 Math and Coding Classes"
         <div class="col">
             <div class="vstack gap-3 px-2 pb-2 text-center">  
                 <div class="px-2 darknote">
-                    Cost $115/month. Sign up for one or more months.<br>
+                    Challenging Math Problems. Cost $115/month. Sign up for one or more months.<br>
                     We accept Virginia K-12 Acceleration Grants for the math classes.
                 </div>
             </div>
@@ -166,6 +166,50 @@ header = "Winter 24 Math and Coding Classes"
                             Grades 6 to 8. Teacher: Nora Evans.<br>
                             <a href="https://winter-24-geometry.cheddarup.com">
                             <button class="button-8" role="button">Sign Up</button></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row  justify-content-center">
+        <div class="col">
+            <div class="vstack gap-3 px-2 pb-2 text-center">  
+                <div class="px-2 darknote">
+                    Competition Math<br>
+                    Signup for a two-week trial or the entire class. Commitment for the entire duration of the program is required to continue after the first two classes.<br>
+                    We accept Virginia K-12 Acceleration Grants for the math classes.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row"> 
+        <div class="col">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm">
+                        <p><a href="/class/math/math-olympiad/"><b>Math Olympiad for Elementary School (grades 4,  5, and 6)</b></a><br>
+                        Saturdays 12:30 to 1:20, ending March 31.  20 lessons for $495. <br>
+                        Advanced third graders are also welcome.<br>
+                        <a href="https://competition-math-grades-4-to-6.cheddarup.com" class="btn-small">
+                        <button class="button-8" role="button">Sign Up</button></a>
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <p><a href="/class/math/math-olympiad/"><b>Math Olympiad for Middle School (grades 6,7, and 8)</b></a><br>
+                        Saturdays 1:30 to 2:20, ending March 31. 20 lessons for $495.<br>
+                        Advanced fifth graders are also welcome.<br>
+                        <a href="https://competition-math-grades-6-to-8.cheddarup.com" class="btn-small">
+                        <button class="button-8" role="button">Sign Up</button></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <p><a href="/class/math/amc-coach/"><b>AMC 8(grades 5, 6,7, and 8)</b></a><br>
+                        Saturdays 2:30 to 3:20, ending January 31. 10 classes for $245.<br>
+                        Competition Window: January 18, 2024 at 8:00 AM ET through January 24, 2024 at 11:59 PM ET<br>
+                        <a href="https://competition-math-amc8.cheddarup.com" class="btn-small">
+                        <button class="button-8" role="button">Sign Up</button></a></p>
                     </div>
                 </div>
             </div>
