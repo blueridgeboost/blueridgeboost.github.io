@@ -3,7 +3,7 @@ title: "Why Blue Ridge Boost?"
 description_small: >
   <ul class="list-style-none">
     <li>Small classes</li>
-    <li>Highly qualified instructor</li>
+    <li><a href="/instructor">Highly-qualified instructors</a></li>
     <li>Flexible schedule</li>
     <li>Convenient location</li>
     <li>Travel to your location</li>
@@ -11,12 +11,12 @@ description_small: >
 description_large: >
   <ul class="list-style-none">
     <li>Small in-person classes</li>
-    <li>Highly qualified instructor</li>
+    <li><a href="/instructor">Highly-qualified instructors</a></li>
     <li>Flexible schedule</li>
     <li>Convenient Downtown Charlottesville location</li>
     <li>Available to travel to your location</li>
   </ul>
-image: "brbwindow.webp"  
+image: "whybrb-2023-11-19.webp"
 image_width: "600"
-alt: "Blue Ridge Boost Office."
+alt: "Blue Ridge Boost Office"
 fetchpriority: "low"

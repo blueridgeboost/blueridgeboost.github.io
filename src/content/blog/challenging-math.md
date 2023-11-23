@@ -1,7 +1,7 @@
 +++
 title = "Challenging math classes"
 authors = ["Nora Evans"]
-banner="fll-outside-vertical-PXL_20231111_213035950-EDIT.webp"
+banner="singapore-math.webp"
 banner_width="300"
 date="2023-11-13"
 alt="FLL Challenge"

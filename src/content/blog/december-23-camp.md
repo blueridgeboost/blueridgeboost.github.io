@@ -1,7 +1,7 @@
 +++
-title = "Winter Camp December 18 to 22"
+title = "Winter Camp Dec 18 to 22"
 authors = ["Nora Evans"]
-banner="fll-outside-vertical-PXL_20231111_213035950-EDIT.webp"
+banner="ransford-award-PXL_20231112_212120885.webp"
 banner_width="300"
 date="2023-11-23"
 alt="FLL Challenge"

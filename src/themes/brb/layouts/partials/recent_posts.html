@@ -2,12 +2,6 @@
 {{ if .Site.Params.recent_posts.enable }}
 
 <div class="container-fluid p-3">
-    <div class="row text-center">
-        <div class="col">
-            <h2>From our <a href="/blog">Blog</a></h2>
-            <p> {{ .Site.Params.recent_posts.subtitle | markdownify }} </p>
-        </div>
-    </div>
     <div class="row text-start">
         {{ $posts := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
         {{ range first 5 $posts.Pages }}
@@ -31,15 +25,12 @@
                 <div class="p-0">
                     <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                     <p class="author-category">
-                    {{ if isset .Params "authors" }}
-                    {{ i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}<a href="{{ (printf "%s/%s" ("authors" | relLangURL) ($author | urlize)) }}">{{ $author }}</a>{{ end }}
-                    {{ end }}
                     {{ if .Params.date }}
                         {{ $createdAt := .Date.Format .Site.Params.date_format }}
                         {{ range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
                             {{ $createdAt = replace $createdAt $month (i18n $month) }}
                         {{ end }}
-                        {{ i18n "publishedOn" }} {{ $createdAt }}
+                        {{ $createdAt }}
                     {{ end }}
                     </p>
                     {{ if not .Site.Params.recent_posts.hide_summary }}

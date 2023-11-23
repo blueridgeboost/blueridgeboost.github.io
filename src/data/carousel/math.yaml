@@ -1,12 +1,12 @@
-weight: 5
+weight: 4
 title: "Making Math Maestros"
 description_small: >
   <ul class="list-style-none">
-    <li>Math Olympiad </li>
-    <li>MathCounts</li>
-    <li>AMC 8/10/12</li>
-    <li>AP Calculus AB/BC</li>
-    <li>AP Statistics</li>
+    <li><a href="/competition-math/">Math Olympiad</a></li>
+    <!-- <li>MathCounts</li>-->
+    <li><a href="/competition-math">AMC 8/10/12</a></li>
+    <li><a href="/tutoring">AP Calculus AB/BC</a></li>
+    <li><a href="/tutoring">AP Statistics</a></li>
   </ul>
 description_large: >
   <ul class="list-style-none">
@@ -16,7 +16,7 @@ description_large: >
     <li>AP Calculus AB/BC Tutoring</li>
     <li>AP Statistics Tutoring</li>
   </ul>
-image: "mathpuzzle.webp"
+image: "ransford-teaching-PXL_20231105_224540147-EDIT.webp"
 image_width: "600"
 alt: "Math Circle"
 fetchpriority: "low"

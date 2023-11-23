@@ -1,4 +1,4 @@
-weight: 4
+weight: 5
 title: "Crafting Computing Champions"
 description_small: >
   <ul class="list-style-none">
@@ -6,7 +6,6 @@ description_small: >
     <li>AP Computer Science</li>
     <li>College Tutoring</li>
     <li>USA Computing Olympiad Training</li>
-    <li>Lisp, Rust, Prolog</li>
   </ul>
 description_large: >
   <ul class="list-style-none">
@@ -14,9 +13,8 @@ description_large: >
     <li>AP Computer Science</li>
     <li>College Tutoring</li>
     <li>USA Computing Olympiad Training</li>
-    <li>Lisp, Rust, Prolog</li>
   </ul>
-image: "fll-tropy-outside-16_9-PXL_20231111_213035950-EDIT.jpg"
+image: "fll-tropy-outside-16_9-PXL_20231111_213035950-EDIT.webp"
 image_width: "600"
 alt: "Block puzzles"
 fetchpriority: "low"

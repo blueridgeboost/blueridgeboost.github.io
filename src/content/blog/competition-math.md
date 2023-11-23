@@ -1,7 +1,7 @@
 +++
 title = "New math classes"
 authors = ["Nora Evans"]
-banner="fll-outside-vertical-PXL_20231111_213035950-EDIT.webp"
+banner="20230810_095842.webp"
 banner_width="300"
 date="2023-11-12"
 alt="FLL Challenge"

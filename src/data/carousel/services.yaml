@@ -2,22 +2,19 @@ weight: 1
 title: "Services"
 description_small: >
   <ul class="list-style-none">
-    <li>Affordable coding classes</li>
-    <li>Individual coding lessons</li>
-    <li>Math for high-achievers</li>
-    <li>Math Tutoring</li> 
-    <li>College Math Help</i>
-    <li>Learn problem-solving with a Competition Math Class<li>
+    <li><a href="/winter/">Affordable coding classes</a></li>
+    <li><a href="/tutoring">Individual coding lessons</a></li>
+    <li><a href="/comptition-math">Math for high-achievers</a></li>
+    <li><a href="/tutoring">Math Tutoring</a></li> 
   </ul>
 description_large: >
   <ul class="list-style-none">
-    <li>Affordable coding classes</li>
-    <li>Individual coding lessons</li>
-    <li>Math for high-achievers</li>
-    <li>K-12 Math Tutoring</li> 
-    <li>College Math Help</li>
+    <li><a href="/winter/">Affordable coding classes</a></li>
+    <li><a href="/tutoring">Individual coding lessons</a></li>
+    <li><a href="/comptition-math">Math for high-achievers</a></li>
+    <li><a href="/tutoring">Math Tutoring</a></li> 
   </ul>
-image: "dorinateaching.webp"
+image: "at-fll-competition.webp"
 image_width: "600"
 alt: "Scratch class"
 fetchpriority: high
