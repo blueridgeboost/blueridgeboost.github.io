@@ -1,11 +1,10 @@
 +++
 title = "Lego League Competition"
 authors = ["Nora Evans"]
-banner="fll-outside-vertical-PXL_20231111_213035950-EDIT.jpg"
+banner="fll-outside-vertical-PXL_20231111_213035950-EDIT.webp"
 banner_width="300"
-date="2023-11-12"
+date="2023-11-11"
 alt="FLL Challenge"
-aliases=[]
 Summary="Lego League Competition"
 +++
 
