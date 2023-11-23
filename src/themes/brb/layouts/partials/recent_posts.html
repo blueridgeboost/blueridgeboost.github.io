@@ -4,14 +4,14 @@
 <div class="container-fluid p-3">
     <div class="row text-center">
         <div class="col">
-            <h2>{{ .Site.Params.recent_posts.title | markdownify }}</h2>
+            <h2>From our <a href="/blog">Blog</a></h2>
             <p> {{ .Site.Params.recent_posts.subtitle | markdownify }} </p>
         </div>
     </div>
     <div class="row text-start">
         {{ $posts := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
-        {{ range first 4 $posts.Pages }}
-        <div class="col-md-3 col-sm-6">
+        {{ range first 5 $posts.Pages }}
+        <div class="col-md-2 col-sm-4">
             <div class="vstack gap-1">
                 <div class="d-none d-md-inline">
                     <a href="{{ .Permalink }}">
@@ -51,7 +51,13 @@
             </div>
         </div>
         {{ end }}
+    	<div class="col-md-1 col-sm-2">
+	  <div style="padding: 70px 10px;">
+	    <h2><a href="/blog">More...</a></h2>
+	    </div>
     </div>
+
+
 </div>
 {{ end }}
 {{ end }}
