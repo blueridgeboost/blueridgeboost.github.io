@@ -8,7 +8,12 @@
         <div class="col-md-2 col-sm-4">
             <div class="vstack gap-1">
                 <div class="d-none d-md-inline">
-                    <a href="{{ .Permalink }}">
+                    {{ if isset .Params "link" }}
+                        <a href="{{ .Params.link }}">
+                    {{ else }}
+                        <a href="{{ .Permalink }}">
+                    {{ end }}
+
                     {{ if isset .Params "banner" }}
                         <img class="img-fluid lazyload" 
                             src = "images/placeholders/placeholder-3-2.webp"

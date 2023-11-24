@@ -23,7 +23,7 @@ header = "Winter 24 Math and Coding Classes"
             <div class="row">
                 <div class="col-4"><b><a id="monday">Monday</a></b> 4:30 &mdash; 5:25</div>
                 <div class="col-8">
-                    <p><a href="/class/coding/tweens-coffee-script"><b>Coffee Script Beginner (Part 1)</b></a> <br>
+                    <p><a href="/class/coding/tweens-coffee-script"><b>Coffee Script (Part 1)</b></a> <br>
                                         <span class="gr35">Grades 3 to 5</span>. Teacher: Ransford.<br>
                                         <a href="https://winter-24-coffee-script-part1.cheddarup.com">
                                         <button class="button-8" role="button">Sign Up</button></a>
@@ -33,7 +33,7 @@ header = "Winter 24 Math and Coding Classes"
             <div class="row">
                 <div class="col-4"><b>Monday</b> 5:30 &mdash; 6:25</div>
                 <div class="col-8">
-                    <p><a href="/class/coding/middle-school-python"><b>Python Beginner (Part 1)</b></a></br>
+                    <p><a href="/class/coding/middle-school-python"><b>Python (Part 1)</b></a></br>
                         <span class="gr35">Grades 5</span> and <span class="gr68">6</span>. Teacher: Ransford.<br>
                         <a href="https://winter-24-beginner-python-part1.cheddarup.com"><button class="button-8" role="button">Sign Up</button></a></p>
                 </div>
@@ -41,7 +41,7 @@ header = "Winter 24 Math and Coding Classes"
         </div>
         <div class="col-3">
             <p></p>
-            <p><b>Proof-based Geometry</b></br>
+            <p><b>Geometry</b></br>
                 The class ends at 6:00 pm<br>
                 Grades <span class="gr68">7 and 8</span>. Teacher: Nora.<br>
                 <a href="https://winter-24-geometry.cheddarup.com">
@@ -49,7 +49,7 @@ header = "Winter 24 Math and Coding Classes"
         </div>
         <div class="col-3 align-middle">
             <p></p>
-            <p><a href="/class/coding/computational-thinking-vexiq"><b>Coding and Computational Thinking with VEX IQ</b></a> <br>
+            <p><a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
                 The class ends at 6:00 pm.<br>
                 Grades <span class="gr35">3 to 5</span>. Teacher: Saumya.<br>
                 <button class="button-8" role="button">Sign Up</button></a>
@@ -73,7 +73,7 @@ header = "Winter 24 Math and Coding Classes"
             <div class="row">
                 <div class="col-4"><b><a id="wednesday">Wednesday</a></b> 4:30 &mdash; 5:25</div>
                 <div class="col-8">
-                    <p><a href="/class/coding/kids-block-coding"><b>Block Coding with Code Monkey</b></a><br>
+                    <p><a href="/class/coding/kids-block-coding"><b>Block Coding</b></a><br>
                         Grades <span class="grK2">1 and 2</span>. Teacher: TBD.<br> 
                         <a href="https://winter-24-block-coding.cheddarup.com" class="btn-small">
                         <button class="button-8" role="button">Sign Up</button></a></p>
@@ -81,7 +81,7 @@ header = "Winter 24 Math and Coding Classes"
             </div>
         </div>
         <div class="col-3">
-            <p><b><a href="/class/math/challenging-math">Third Grade Challenging Problems (Singapore Math)</a></b></br>
+            <p><b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
                 <span class="gr35">Grade 3</span>. Teacher: Nora.<br>
                 <a href="https://winter-24-third-grade.cheddarup.com"><button class="button-8" role="button">Sign Up</button></a>
             </p>
@@ -93,7 +93,7 @@ header = "Winter 24 Math and Coding Classes"
             <div class="row">
                 <div class="col-4"><b>Wednesday</b> 5:30 &mdash; 6:25</div>
                 <div class="col-8">
-                    <p><a href="/class/coding/python"><b>Python Advanced (Part 1)</b></a></br>
+                    <p><a href="/class/coding/python"><b>Python (Part 1)</b></a></br>
                         Grades <span class="gr68">7 and 8</span>. Teacher: TBD.<br>
                         <a href="https://winter-24-advanced-python-part1.cheddarup.com">
   <button class="button-8" role="button">Sign Up</button></a></p>
@@ -101,7 +101,7 @@ header = "Winter 24 Math and Coding Classes"
             </div>
         </div>
         <div class="col-3">
-            <p><b><a href="/class/math/challenging-math">Fourth Grade Challenging Problems (Singapore Math)</a></b></br>
+            <p><b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
                 <span class="gr35">Grade 4</span>. Teacher: Nora.<br>
                 <a href="https://winter-24-fourth-grade.cheddarup.com"><button class="button-8" role="button">Sign Up</button></a>
             </p>            
@@ -129,7 +129,7 @@ header = "Winter 24 Math and Coding Classes"
             <div class="row">
                 <div class="col-4"><b><a id="friday">Friday</a></b> 3:00 &mdash; 3:55</div>
                 <div class="col-8">
-                    <p><b><a href="/class/math/challenging-math">First Grade Challenging Problems (Singapore Math)</a></b></br>
+                    <p><b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
                         <span class="grK2">Grade 1</span>. Teacher: Nora.<br>
                         <a href="https://winter-24-first-grade.cheddarup.com">
                             <button class="button-8" role="button">Sign Up</button></a>
@@ -145,7 +145,7 @@ header = "Winter 24 Math and Coding Classes"
             <div class="row">
                 <div class="col-4"><b>Friday</b> 4:00 &mdash; 4:55</div>
                 <div class="col-8">
-                    <p><b><a href="/class/math/challenging-math">Second Grade Challenging Problems (Singapore Math)</a></b></br>
+                    <p><b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
                             <span class="grK2">Grade 2</span>. Teacher: Saumya.<br>
                             <a href="https://winter-24-second-grade.cheddarup.com">
                             <button class="button-8" role="button">Sign Up</button></a></p>
@@ -154,7 +154,7 @@ header = "Winter 24 Math and Coding Classes"
             <div class="row">
                 <div class="col-4"><b>Friday</b> 5:00 &mdash; 5:55</div>
                 <div class="col-8">
-                    <p><b><a href="/class/math/challenging-math">Fifth Grade Challenging Word Problems (Singapore Math)</a></b></br>
+                    <p><b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
                     <span class="gr35">Grade 5</span>. Teacher: Saumya.<br>
                     <a href="https://winter-24-fifth-grade.cheddarup.com"><button class="button-8" role="button">Sign Up</button></a></p>
                 </div>
@@ -211,7 +211,7 @@ header = "Winter 24 Math and Coding Classes"
             <div class="row">
                 <div class="col-4"><p></p><b>Saturday</b> 12:30 &mdash; 1:25<p></p></div>
                 <div class="col-8">
-                    <p><a href="/class/coding/kids-block-coding"><b>Block Coding with Code Monkey</b></a><br>
+                    <p><a href="/class/coding/kids-block-coding"><b>Block Coding</b></a><br>
                         Grades <span class="grK2">K and 1</span>. Teacher: Ransford.<br>
                         <a href="https://winter-24-block-coding.cheddarup.com" class="btn-small">
                         <button class="button-8" role="button">Sign Up</button></a></p>
@@ -234,7 +234,7 @@ header = "Winter 24 Math and Coding Classes"
             <div class="row">
                 <div class="col-4"><p></p><b>Saturday</b> 1:30 &mdash; 2:25<p></p></div>
                 <div class="col-8">
-                    <p><a href="/class/coding/tweens-coffee-script"><b>Coffee Script Beginner (Part 1)</b></a> <br>
+                    <p><a href="/class/coding/tweens-coffee-script"><b>Coffee Script (Part 1)</b></a> <br>
                         Grades <span class="gr35">3 to 5</span>. Teacher: Ransford.<br>
                         <a href="https://winter-24-coffee-script-part1.cheddarup.com">
                                 <button class="button-8" role="button">Sign Up</button></a>
@@ -258,7 +258,7 @@ header = "Winter 24 Math and Coding Classes"
             <div class="row">
                 <div class="col-4"><p></p><b>Saturday</b> 2:30 &mdash; 3:25<p></p></div>
                 <div class="col-8">
-                    <p><a href="/class/coding/middle-school-python"><b>Python Beginner (Part 1)</b></a></br>
+                    <p><a href="/class/coding/middle-school-python"><b>Python (Part 1)</b></a></br>
                             <span class="gr35">Grades 5</span>, and <span class="gr68">6</span>. Teacher: Ransford.<br>
                             <a href="https://winter-24-beginner-python-part1.cheddarup.com">
                                 <button class="button-8" role="button">Sign Up</button></a></p>
@@ -266,7 +266,7 @@ header = "Winter 24 Math and Coding Classes"
             </div>
         </div>
         <div class="col-3">
-            <p><a href="/class/math/amc-coach/"><b>AMC 8 Problems</b></a><br>
+            <p><a href="/class/math/amc-coach/"><b>AMC 8 Practice</b></a><br>
                         Class currently running. <br>
                         Ends January 31. 10 classes for $245.<br>
                         Competition Window: January 18, 2024 through January 24, 2024<br>
@@ -288,7 +288,7 @@ header = "Winter 24 Math and Coding Classes"
             </div>
         </div>
         <div class="col-3">
-            <p><a href="/class/coding/computational-thinking-spike"><b>Coding and Computational Thinking with LEGO SPIKE Prime</b></a> <br>
+            <p><a href="/class/coding/computational-thinking-spike"><b>Coding and Lego Robotics</b></a> <br>
                 The class ends at 5:00 pm.<br>
                 Grades 3 to 5. Teacher: Charlie.<br>
                 <a href="https://winter-24-spike.cheddarup.com"><button class="button-8" role="button">Sign Up</button></a></p>
@@ -330,7 +330,7 @@ header = "Winter 24 Math and Coding Classes"
             <div class="row">
                 <div class="col-4"><p></p><b>Sunday</b> 11:00 &mdash; 11:55<p></p></div>
                 <div class="col-8">
-                    <p><a href="/class/coding/tweens-coffee-script"><b>Coffee Script Beginner (Part 2)</b></a> <br>
+                    <p><a href="/class/coding/tweens-coffee-script"><b>Coffee Script (Part 2)</b></a> <br>
                         Grades <span class="35">3 to 5</span>. Teacher: Jared.<br>
                         <a href="https://winter-24-coffee-script-part2.cheddarup.com">
                         <button class="button-8" role="button">Sign Up</button></a>
@@ -346,7 +346,7 @@ header = "Winter 24 Math and Coding Classes"
             <div class="row">
                 <div class="col-4"><p></p><b>Sunday</b> 12:00 &mdash; 12:55<p></p></div>
                 <div class="col-8">
-                    <a href="/class/coding/python"><b>Python Advanced (Part 2)</b></a></br>
+                    <a href="/class/coding/python"><b>Python (Part 2)</b></a></br>
                             Grades <span class="gr68">7 and 8</span>. Teacher: Jared.<br>
                             <a href="https://winter-24-advanced-python-part2.cheddarup.com">
   <button class="button-8" role="button">Sign Up</button></a></p>
@@ -361,8 +361,8 @@ header = "Winter 24 Math and Coding Classes"
             <div class="row">
                 <div class="col-4"><p></p><b>Sunday</b> 1:00 &mdash; 1:55<p></p></div>
                 <div class="col-8">
-                    <a href="/class/coding/middle-school-python"><b>Python Beginner(Part 2)</b></a></br>
-                            Grades <span class="gr35">5</span>, and <span class="gr68">5 and 6</span>. Teacher: Jared.<br>
+                    <a href="/class/coding/middle-school-python"><b>Python (Part 2)</b></a></br>
+                            Grades <span class="gr35">5</span>, and <span class="gr68">6</span>. Teacher: Jared.<br>
                             <a href="https://winter-24-python-part2.cheddarup.com"><button class="button-8" role="button">Sign Up</button></a></p>
                 </div>
             </div>
@@ -390,7 +390,7 @@ header = "Winter 24 Math and Coding Classes"
             <div class="row">
                 <div class="col-4"><p></p><b>Sunday</b> 3:00 &mdash; 3:55<p></p></div>
                 <div class="col-8">
-                    <p><a href="/class/coding/fll-challenge"><b>Preparation for First Lego League Challenge</b></a><br>
+                    <p><a href="/class/coding/fll-challenge"><b>Intro to FLL Challenge</b></a><br>
                     Sign-up closed.</p>
                 </div>
             </div>
@@ -403,7 +403,7 @@ header = "Winter 24 Math and Coding Classes"
             <div class="row">
                 <div class="col-4"><p></p><b>Sunday</b> 4:00 &mdash; 4:35<p></p></div>
                 <div class="col-8">
-                    <p><a href="/class/coding/python-spike/"><b>Python Programming with Spike Prime (Part 1)</b></a></br>
+                    <p><a href="/class/coding/python-spike/"><b>Python for Robotics</b></a></br>
                             Class ends 5:30 pm<br>
                             Grades <span class="gr68">6 to 8</span>. Teacher: Nora.<br>
                             <a href="https://winter-24-python-spike.cheddarup.com">

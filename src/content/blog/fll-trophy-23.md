@@ -1,11 +1,11 @@
 +++
-title = "Lego League Competition"
+title = "Congratulations!"
 authors = ["Nora Evans"]
 banner="electricxylophone.webp"
 banner_width="300"
 date="2023-11-11"
 alt="FLL Challenge"
-Summary="BRB Team wins the Innovation Project Award!"
+Summary="Our team, Computery Composers, wins the Innovation Project Award!"
 +++
 
 <div class="container">
