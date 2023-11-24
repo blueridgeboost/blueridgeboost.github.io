@@ -16,6 +16,7 @@ header = "Blue Ridge Boost Instructors"
     </div>
   <div class="row py-2">
     <div class="col-sm-2">
+      <a id="nora"></a>
       <img src="/images/evansnora.webp" alt="Nora" class="img-fluid">      
     </div>
     <div class="col-sm-10">
@@ -30,7 +31,7 @@ header = "Blue Ridge Boost Instructors"
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-2">
+    <div class="col-sm-2"><a id="ransford"></a>
       <img src="/images/ransford.jpg" alt="Ransford" class="img-fluid">      
     </div>
     <div class="col-sm-10">
@@ -40,7 +41,7 @@ header = "Blue Ridge Boost Instructors"
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-2">
+    <div class="col-sm-2"><a id="saumya"></a>
       <p></p>
       <img src="/images/saumya.png" alt="Saumya" class="img-fluid"> 
     </div>

@@ -279,6 +279,48 @@ ul.list-style-none {
   }
 
   
+  .button-8s {
+    background-color: #e1ecf4;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: $dark-blue;
+    cursor: pointer;
+    display: inline-block;
+    font-family: $font-family-sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.1;
+    margin: 0;
+    outline: none;
+    padding: 4px .5em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+  
+  .button-8:hover,
+  .button-8:focus {
+    background-color: #b3d3ea;
+    color: #2c5777;
+  }
+  
+  .button-8:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  }
+  
+  .button-8:active {
+    background-color: #a0c7e4;
+    box-shadow: none;
+    color: $dark-blue;
+  }
+
   
 .btn-contact-us {
   color: $lightest-blue;
@@ -304,8 +346,20 @@ ul.list-style-none {
 }
 
 .darknote a {
-  color: #1E1E1E;
-  background-color: #BED6DB;
+  color: #BED6DB;
+}
+
+
+.daybar {
+  background: $dark-blue;
+  font-weight: 500;
+  color: $white;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.daybar a {
+  color: $white;
 }
 
 div.row.table-header {
@@ -332,13 +386,52 @@ div.row a {
 }
 
 .gr35 {
-  background-color: gold;
+  background-color: lemonchiffon;
 }
 
 .gr68 {
-  background-color: greenyellow;
+  background-color: lightskyblue;
 }
 
 div.row.dark-row {
   background-color: $lightest-blue;
 }
+
+
+.gr35shade {
+  background-color: lemonchiffon;
+}
+
+.gr56shade {
+  background-color: peachpuff;
+}
+
+.gr68shade {
+  background-color: lightskyblue;
+}
+
+
+.daycontainer {
+  display: grid; 
+  text-align: center;
+  align-items: stretch;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
+  grid-template-rows: 2em 1fr 1fr 1fr 1fr; 
+  gap: 5px 5px; 
+  grid-template-areas: 
+    "Mondays Mondays Mondays Mondays"
+    "time1 class1 longclass longclass2"
+    "time2 class1 longclass longclass2"
+    "time3 class2 longclass longclass2"
+    "time4 class2 . ."
+    ". . . ."; 
+}
+.time1 { grid-area: time1; }
+.time2 { grid-area: time2; }
+.time3 { grid-area: time3; }
+.time4 { grid-area: time4; }
+.class1 { grid-area: class1; }
+.class2 { grid-area: class2; }
+.dayheader { grid-area: Mondays; }
+.longclass { grid-area: longclass; }
+.longclass2 { grid-area: longclass2; }
