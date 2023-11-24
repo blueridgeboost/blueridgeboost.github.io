@@ -42,4 +42,7 @@ compress:
 github: clean html copy minify compress
 	git add -A :/; git commit -m "Rebuilt site" ; git push
 
+githubdev: clean html copy 
+	git add -A :/; git commit -m "Rebuilt site" ; git push
+
 .PHONY: html clean develop

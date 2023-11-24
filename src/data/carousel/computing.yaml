@@ -1,22 +1,20 @@
-weight: 4
+weight: 5
 title: "Crafting Computing Champions"
 description_small: >
   <ul class="list-style-none">
-    <li>Computational Thinking</li>
-    <li>AP Computer Science</li>
-    <li>College Tutoring</li>
+    <li><a href="/class/coding/computational-thinking-spike/">Computational Thinking</a></li>
+    <li><a href="/class/coding/fll-explore/">First Lego League Explore</a></li>
+    <li><a href="/class/coding/fll-challenge/">First Lego League Challenge</a></li>
     <li>USA Computing Olympiad Training</li>
-    <li>Lisp, Rust, Prolog</li>
   </ul>
 description_large: >
   <ul class="list-style-none">
-    <li>Computational Thinking</li>
-    <li>AP Computer Science</li>
-    <li>College Tutoring</li>
+    <li><a href="/class/coding/computational-thinking-spike/">Computational Thinking</a></li>
+    <li><a href="/class/coding/fll-explore/">First Lego League Explore</a></li>
+    <li><a href="/class/coding/fll-challenge/">First Lego League Challenge</a></li>
     <li>USA Computing Olympiad Training</li>
-    <li>Lisp, Rust, Prolog</li>
   </ul>
-image: "computingchampions.webp"
+image: "fll-tropy-outside-16_9-PXL_20231111_213035950-EDIT.webp"
 image_width: "600"
 alt: "Block puzzles"
 fetchpriority: "low"

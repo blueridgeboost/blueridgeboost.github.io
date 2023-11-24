@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blueridgeboost.com/blog/</loc>
-    <lastmod>2023-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blueridgeboost.com/</loc>
-    <lastmod>2023-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blueridgeboost.com/blog/2023/11/12/fll-trophy-23/</loc>
+    <lastmod>2023-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blueridgeboost.com/blog/2023/08/12/fll-23/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
@@ -42,7 +45,7 @@
   </url><url>
     <loc>https://blueridgeboost.com/tutor/math/algebra1/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/tutor/math/amc-coach/</loc>
+    <loc>https://blueridgeboost.com/class/math/amc-coach/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/tutor/math/ap-calculus/</loc>
   </url><url>
@@ -56,21 +59,23 @@
   </url><url>
     <loc>https://blueridgeboost.com/class/coding/kids-block-coding/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/camps/</loc>
+    <loc>https://blueridgeboost.com/class/math/challenging-math/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/chess/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/form/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/class/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/coding-classes-and-tutor/</loc>
+    <loc>https://blueridgeboost.com/camps/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/class/coding/ongoing/</loc>
+    <loc>https://blueridgeboost.com/spring/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/class/coding/preschool-block-coding/</loc>
+    <loc>https://blueridgeboost.com/winter/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/camps/coding/schedule-23/</loc>
+    <loc>https://blueridgeboost.com/class/coding/kindergarten/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/tutor/math/math-olympiad/</loc>
+    <loc>https://blueridgeboost.com/class/math/math-olympiad/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/tutor/computer-science/book-now/</loc>
   </url><url>
@@ -82,21 +87,27 @@
   </url><url>
     <loc>https://blueridgeboost.com/class/coding/fll-challenge/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/math-classes-and-tutor/</loc>
-  </url><url>
     <loc>https://blueridgeboost.com/class/coding/fll-discover/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/class/coding/fll-explore/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/class/coding/tweens-coffee-script/</loc>
+    <loc>https://blueridgeboost.com/class/coding/python-spike/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/class/coding/steam-park/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/class/coding/computational-thinking-spike/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/class/coding/computational-thinking-vexiq/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/class/coding/fundamentals-coding-spike/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/class/coding/lego-wedo/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/class/coding/lego-spike/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/camps/coding/summer-23/</loc>
+    <loc>https://blueridgeboost.com/fall/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/tutoring/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/tutor/math/elementary-math/</loc>
   </url><url>
@@ -111,6 +122,8 @@
     <loc>https://blueridgeboost.com/class/coding/python/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/class/coding/scratch/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/class/coding/tweens-coffee-script/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/tutor/</loc>
   </url><url>

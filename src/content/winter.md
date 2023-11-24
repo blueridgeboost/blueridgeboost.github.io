@@ -14,7 +14,7 @@ header = "Winter 24 Math and Coding Classes"
                 <div class="px-2 darknote">
                     Winter Coding Classes. January 6 to February 25.<br>
                     Signup for a two-week trial or the entire class. Commitment for the entire duration of the program is required to continue after the first two classes.<br>
-                    We accept Virginia K-12 Acceleration Grants for the math classes. Coding classes are not an allowed expense.
+                    We accept Virginia K-12 Acceleration Grants for math classes. Coding classes are not an allowed expense.
                 </div>
             </div>
                 </div>
@@ -102,7 +102,7 @@ header = "Winter 24 Math and Coding Classes"
                             Grades 5 to 8. Teacher: TBD.<br>
                             <a href="https://winter-24-advanced-python-part2.cheddarup.com">
   <button class="button-8" role="button">Sign Up</button></a></p>
-                            <a href="https://assets.education.lego.com/v3/assets/blt293eea581807678a/bltc96b6cfe095f5e45/64e327bcea7fb3ad9e12d2b7/Intro_to_Python_Course_TG_Course_1.pdf?locale=en-us"><b>Python Programming with Spike Prime (Part 1)</b></a></br>
+                            <a href="/class/coding/python-spike/"><b>Python Programming with Spike Prime (Part 1)</b></a></br>
                             Sundays, 4:00 &mdash; 5:30 pm<br>
                             Grades 5 to 8. Teacher: TBD.<br>
                             <a href="https://winter-24-python-spike.cheddarup.com">
@@ -117,7 +117,7 @@ header = "Winter 24 Math and Coding Classes"
             <div class="vstack gap-3 px-2 pb-2 text-center">  
                 <div class="px-2 darknote">
                     Challenging Math Problems. Cost $115/month. Sign up for one or more months.<br>
-                    We accept Virginia K-12 Acceleration Grants for the math classes.
+                    We accept Virginia K-12 Acceleration Grants for math classes.
                 </div>
             </div>
                 </div>

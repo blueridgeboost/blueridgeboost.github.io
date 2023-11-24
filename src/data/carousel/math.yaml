@@ -1,22 +1,20 @@
-weight: 5
+weight: 4
 title: "Making Math Maestros"
 description_small: >
   <ul class="list-style-none">
-    <li>Math Olympiad </li>
-    <li>MathCounts</li>
-    <li>AMC 8/10/12</li>
-    <li>AP Calculus AB/BC</li>
-    <li>AP Statistics</li>
+    <li><a href="/class/math/math-olympiad/">Math Olympiad</a></li>
+    <li><a href="/class/math/amc-coach">AMC8 Coaching and Testing</a></li>
+    <li><a href="/class/math/challenging-math/">Challenging Math</a>
+    <li><a href="/tutoring">Advanced Math Tutoring</a></li>
   </ul>
 description_large: >
   <ul class="list-style-none">
-    <li>Math Olympiad for Elementary and Middle School</li>
-    <li>MathCounts Coaching</li>
-    <li>AMC 8/10/12 Coaching</li>
-    <li>AP Calculus AB/BC Tutoring</li>
-    <li>AP Statistics Tutoring</li>
+    <li><a href="/class/math/math-olympiad/">Math Olympiad</a></li>
+    <li><a href="/class/math/amc-coach">AMC8 Coaching and Testing</a></li>
+    <li><a href="/class/math/challenging-math/">Challenging Math</a>
+    <li><a href="/tutoring">Advanced Math Tutoring</a></li>
   </ul>
-image: "mathpuzzle.webp"
+image: "ransford-teaching-PXL_20231105_224540147-EDIT.webp"
 image_width: "600"
 alt: "Math Circle"
 fetchpriority: "low"

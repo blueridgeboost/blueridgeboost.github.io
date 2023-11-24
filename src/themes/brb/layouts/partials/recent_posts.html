@@ -2,16 +2,10 @@
 {{ if .Site.Params.recent_posts.enable }}
 
 <div class="container-fluid p-3">
-    <div class="row text-center">
-        <div class="col">
-            <h2>{{ .Site.Params.recent_posts.title | markdownify }}</h2>
-            <p> {{ .Site.Params.recent_posts.subtitle | markdownify }} </p>
-        </div>
-    </div>
     <div class="row text-start">
         {{ $posts := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
-        {{ range first 4 $posts.Pages }}
-        <div class="col-md-3 col-sm-6">
+        {{ range first 5 $posts.Pages }}
+        <div class="col-md-2 col-sm-4">
             <div class="vstack gap-1">
                 <div class="d-none d-md-inline">
                     <a href="{{ .Permalink }}">
@@ -29,19 +23,20 @@
                     </a>
                 </div>
                 <div class="p-0">
-                    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                    <p class="author-category">
-                    {{ if isset .Params "authors" }}
-                    {{ i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}<a href="{{ (printf "%s/%s" ("authors" | relLangURL) ($author | urlize)) }}">{{ $author }}</a>{{ end }}
+                    {{ if isset .Params "link" }}
+                    <h3><a href="{{ .Params.link }}">{{ .Title }}</a></h3>
+                    {{ else }}
+                        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                     {{ end }}
+                    <!-- <p class="author-category">
                     {{ if .Params.date }}
                         {{ $createdAt := .Date.Format .Site.Params.date_format }}
                         {{ range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
                             {{ $createdAt = replace $createdAt $month (i18n $month) }}
                         {{ end }}
-                        {{ i18n "publishedOn" }} {{ $createdAt }}
+                        {{ $createdAt }}
                     {{ end }}
-                    </p>
+                    </p> -->
                     {{ if not .Site.Params.recent_posts.hide_summary }}
                         <p>{{ .Summary }}
                             <b><a href="{{ .Permalink }}" style="font-size: large;">...</a></b>
@@ -51,7 +46,13 @@
             </div>
         </div>
         {{ end }}
+    	<!-- <div class="col-md-1 col-sm-2">
+	  <div style="padding: 70px 10px;">
+	    <h2><a href="/blog">More...</a></h2>
+	    </div> -->
     </div>
+
+
 </div>
 {{ end }}
 {{ end }}
