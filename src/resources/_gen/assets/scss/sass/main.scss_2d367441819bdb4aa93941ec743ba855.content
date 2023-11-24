@@ -7795,3 +7795,19 @@ div.row.table-light-row {
 div.row a {
   font-weight: 500;
 }
+
+.grK2 {
+  background-color: pink;
+}
+
+.gr35 {
+  background-color: gold;
+}
+
+.gr68 {
+  background-color: greenyellow;
+}
+
+div.row.dark-row {
+  background-color: #EEFFFF;
+}
