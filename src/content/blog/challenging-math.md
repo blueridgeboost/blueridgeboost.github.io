@@ -5,6 +5,7 @@ banner="singapore-math.webp"
 banner_width="300"
 date="2023-11-13"
 alt="FLL Challenge"
+link="/class/math/challenging-math"
 Summary="Hone your problem-solving skills."
 +++
 

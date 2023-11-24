@@ -5,7 +5,7 @@ banner="electricxylophone.webp"
 banner_width="300"
 date="2023-11-11"
 alt="FLL Challenge"
-Summary="Lego League Competition"
+Summary="BRB Team wins the Innovation Project Award!"
 +++
 
 <div class="container">

@@ -2,19 +2,17 @@ weight: 4
 title: "Making Math Maestros"
 description_small: >
   <ul class="list-style-none">
-    <li><a href="/competition-math/">Math Olympiad</a></li>
-    <!-- <li>MathCounts</li>-->
-    <li><a href="/competition-math">AMC 8/10/12</a></li>
-    <li><a href="/tutoring">AP Calculus AB/BC</a></li>
-    <li><a href="/tutoring">AP Statistics</a></li>
+    <li><a href="/class/math/math-olympiad/">Math Olympiad</a></li>
+    <li><a href="/class/math/amc-coach">AMC8 Coaching and Testing</a></li>
+    <li><a href="/class/math/challenging-math/">Challenging Math</a>
+    <li><a href="/tutoring">Advanced Math Tutoring</a></li>
   </ul>
 description_large: >
   <ul class="list-style-none">
-    <li>Math Olympiad for Elementary and Middle School</li>
-    <li>MathCounts Coaching</li>
-    <li>AMC 8/10/12 Coaching</li>
-    <li>AP Calculus AB/BC Tutoring</li>
-    <li>AP Statistics Tutoring</li>
+    <li><a href="/class/math/math-olympiad/">Math Olympiad</a></li>
+    <li><a href="/class/math/amc-coach">AMC8 Coaching and Testing</a></li>
+    <li><a href="/class/math/challenging-math/">Challenging Math</a>
+    <li><a href="/tutoring">Advanced Math Tutoring</a></li>
   </ul>
 image: "ransford-teaching-PXL_20231105_224540147-EDIT.webp"
 image_width: "600"

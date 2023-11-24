@@ -2,17 +2,20 @@ weight: 3
 title: "Coding Classes"
 description_small: >
   <ul class="list-style-none">
-    <li>Preschool block coding</li>
-    <li>Beginner Scratch</li>
-    <li>Intermediate Coffee Script, Python</li>
-    <li>Advanced Python and Java</li>
+    <li><a href="/class/coding/kids-block-coding/">Block coding</a></li>
+    <li><a href="/class/coding/computational-thinking-vexiq/">Robotics</a></li> 
+    <li><a href="/class/coding/tweens-coffee-script/">Coffee Script</a></li>
+    <li><a href="/class/coding/middle-school-python/">Python</a></li>
   </ul>
 description_large: >
   <ul class="list-style-none">
-    <li>Preschool block coding</li>
-    <li>Beginner block coding and Scratch</li>
-    <li>Intermediate Coffee Script, Python</li>
-    <li>Advanced Python and Java</li>
+    <li><a href="/class/coding/kids-block-coding/">Block coding</a>.</li>
+    <li><a href="/class/coding/fundamentals-coding-spike/">Lego Robotics grades K-2</a>  
+      <a href="/class/coding/computational-thinking-spike/">and 3-5</a>.</li>
+    <li><a href="/class/coding/computational-thinking-vexiq/">Vex Robotics</a>.</li>
+    <li><a href="/class/coding/tweens-coffee-script/">Intermediate Coffee Script.</a></li>
+    <li><a href="/class/coding/middle-school-python/">Python beginner</a> 
+      <a href="/class/coding/python/">and advanced</a>.</li>
   </ul>
 
 image: "dorinateaching.webp"

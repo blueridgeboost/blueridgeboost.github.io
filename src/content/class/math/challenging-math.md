@@ -20,7 +20,7 @@ header="Challenging Math Problems"
     <div class="row">
         <div class="col"><a href="https://winter-24-first-grade.cheddarup.com"><button class="button-8" role="button">First Grade Sign Up</button></a></div>
         <div class="col"><a href="https://winter-24-second-grade.cheddarup.com"><button class="button-8" role="button">Second Grade Sign Up</button></a></div>
-        <div class="col"><a href="https://winter-24-third-grade.cheddarup.com"><button class="button-8" role="button">Thisrd Grade Sign Up</button></a></div>
+        <div class="col"><a href="https://winter-24-third-grade.cheddarup.com"><button class="button-8" role="button">Third Grade Sign Up</button></a></div>
         <div class="col"><a href="https://winter-24-fourth-grade.cheddarup.com"><button class="button-8" role="button">Fourth Grade Sign Up</button></a></div>
         <div class="col"><a href="https://winter-24-fifth-grade.cheddarup.com"><button class="button-8" role="button">Fifth Grade Sign Up</button></a></div>
     </div>

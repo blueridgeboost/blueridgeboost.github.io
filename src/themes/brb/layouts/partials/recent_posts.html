@@ -23,8 +23,12 @@
                     </a>
                 </div>
                 <div class="p-0">
-                    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                    <p class="author-category">
+                    {{ if isset .Params "link" }}
+                    <h3><a href="{{ .Params.link }}">{{ .Title }}</a></h3>
+                    {{ else }}
+                        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                    {{ end }}
+                    <!-- <p class="author-category">
                     {{ if .Params.date }}
                         {{ $createdAt := .Date.Format .Site.Params.date_format }}
                         {{ range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
@@ -32,7 +36,7 @@
                         {{ end }}
                         {{ $createdAt }}
                     {{ end }}
-                    </p>
+                    </p> -->
                     {{ if not .Site.Params.recent_posts.hide_summary }}
                         <p>{{ .Summary }}
                             <b><a href="{{ .Permalink }}" style="font-size: large;">...</a></b>
@@ -42,10 +46,10 @@
             </div>
         </div>
         {{ end }}
-    	<div class="col-md-1 col-sm-2">
+    	<!-- <div class="col-md-1 col-sm-2">
 	  <div style="padding: 70px 10px;">
 	    <h2><a href="/blog">More...</a></h2>
-	    </div>
+	    </div> -->
     </div>
 
 

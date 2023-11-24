@@ -5,6 +5,7 @@ banner="fll-team-planning-PXL_20231023_215903360.MP.webp"
 banner_width="300"
 date="2023-11-13"
 alt="FLL Challenge"
+link="/winter/"
 Summary="Sign up for winter session opened."
 +++
 
