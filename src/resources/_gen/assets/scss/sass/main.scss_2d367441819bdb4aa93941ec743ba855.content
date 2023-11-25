@@ -8313,28 +8313,32 @@ div.row.dark-row {
   background-color: #EEFFFF;
 }
 
+.chessshade {
+  background-color: tan;
+}
+
 .grshade {
-  background-color: greenyellow;
+  background-color: Lavender;
 }
 
 .grK2shade {
-  background-color: pink;
+  background-color: mistyrose;
 }
 
 .gr35shade {
-  background-color: lemonchiffon;
-}
-
-.gr56shade {
   background-color: peachpuff;
 }
 
+.gr56shade {
+  background-color: lightgoldenrodyellow;
+}
+
 .gr68shade {
-  background-color: lightskyblue;
+  background-color: #95dcb8;
 }
 
 .gr78shade {
-  background-color: #0bfafa;
+  background-color: #95dcb8;
 }
 
 .above-md {

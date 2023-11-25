@@ -17,7 +17,7 @@ header = "Winter 24 Classes"
         </div>
         <div class="col-12 p-2">
             <center>
-            Classes by grade level: <a href="/class/kindergarten/">K</a>, <a href="/class/first-grade/">1</a>, <a href="/class/second-grade/">2</a>, <a href="/class/third-grade/">3</a>, <a href="/class/fourth-grade/">4</a>, <a href="/class/fifth-grade/">5</a>, <a href="/class/sixth-grade/">6</a>, <a href="/class/seventh-grade/">7</a>, <a href="/class/eighth-grade/">8</a><br>
+            Classes by grade level: <span class="grK2shade"><a href="/class/kindergarten/">K</a>, <a href="/class/first-grade/">1</a>, <a href="/class/second-grade/">2</a></span>, <span class="gr35shade"><a href="/class/third-grade/">3</a>, <a href="/class/fourth-grade/">4</a></span>, <span class="gr56shade"><a href="/class/fifth-grade/">5</a>, <a href="/class/sixth-grade/">6</a></span>, <span class="gr78shade"><a href="/class/seventh-grade/">7</a>, <a href="/class/eighth-grade/">8</a></span> &middot; <span class="grshade">Tutoring</span> &middot; <span class="chessshade">Chess</span><br>
             <span class="below-md">
                 Classes by day of the week: <a href="#monday">Monday</a>, <a href="#tuesday">Tuesday</a>, <a href="#wednesday">Wednesday</a>,  <a href="#thursday">Thursday</a>,  <a href="#friday">Friday</a>,  <a href="#saturday">Saturday</a>,  <a href="#sunday">Sunday</a>.
             </span>
@@ -91,7 +91,7 @@ header = "Winter 24 Classes"
                 </div>
                 <div style="grid-area: time2;"><b>5:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>6:30</div>
                 <div class="gr78shade" style="grid-area: class4;">
-                    <a href="/class/coding/python"><b>Python (Part 1)</b></a></br>
+                    <a href="/class/coding/python"><b>Python 1</b></a></br>
                     Grades 7 &ndash; 8<br> 
                     Teacher: TBD<br>
                     <a href="https://winter-24-advanced-python-part1.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
@@ -107,7 +107,7 @@ header = "Winter 24 Classes"
             <div class="tuesday" style="grid-area: thursday;">
                 <div class="daybar" style="grid-area: day;"><a id="thursday">Thursday</a></div>
                 <div style="grid-area: time1;"><b>4:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>6:30</div>
-                <div class="grshade" style="grid-area: class1;">
+                <div class="chessshade" style="grid-area: class1;">
                     <b><a href="/chess">Charlotesville Kids' Chess Club</a></b></br>
                     Grades K &ndash; 8<br> 
                     Teacher: Tex<br>
@@ -194,7 +194,7 @@ header = "Winter 24 Classes"
                         <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr35shade" style="grid-area: class5;">
-                    <a href="/class/coding/tweens-coffee-script"><b>Coffee Script (Part 1)</b></a> <br>
+                    <a href="/class/coding/tweens-coffee-script"><b>Coffee Script 1</b></a> <br>
                         Grades 3 &ndash; 5<br> 
                         Teacher: <a href="/instructor#ransford">Ransford</a><br>
                         <a href="https://winter-24-coffee-script-part1.cheddarup.com">
@@ -208,7 +208,7 @@ header = "Winter 24 Classes"
                         <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr56shade" style="grid-area: class7;">
-                    <a href="/class/coding/middle-school-python"><b>Python (Part 1)</b></a></br>
+                    <a href="/class/coding/middle-school-python"><b>Python 1</b></a></br>
                         Grades 5 &ndash; 6<br> 
                         Teacher: <a href="/instructor#ransford">Ransford</a><br>
                         <a href="https://winter-24-beginner-python-part1.cheddarup.com">
@@ -269,13 +269,13 @@ header = "Winter 24 Classes"
                     <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr67shade" style="grid-area: class3;">
-                    <a href="/class/coding/python"><b>Python (Part 2)</b></a></br>
+                    <a href="/class/coding/python"><b>Python 2</b></a></br>
                     Grades 7 &ndash; 8<br>. 
                     Teacher: Jared<br>
                     <a href="https://winter-24-advanced-python-part2.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr56shade" style="grid-area: class4;">
-                    <a href="/class/coding/python"><b>Python (Part 2)</b></a></br>
+                    <a href="/class/coding/python"><b>Python 2</b></a></br>
                     Grades 5 &ndash; 6<br>. 
                     Teacher: Jared<br>
                     <a href="https://winter-24-python-part2.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
