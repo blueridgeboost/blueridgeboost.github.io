@@ -9,6 +9,7 @@ $light-blue: #BED6DB;
 $lightest-blue: #EEFFFF;
 
 $primary: $darkest-blue;
+$enable-cssgrid: true;
 
 $theme-colors: (
   "primary": $primary,
@@ -292,7 +293,8 @@ ul.list-style-none {
     font-size: 1em;
     font-weight: 600;
     line-height: 1.1;
-    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
     outline: none;
     padding: 4px .5em;
     position: relative;
@@ -381,22 +383,17 @@ div.row a {
   font-weight: 500;
 }
 
-.grK2 {
-  background-color: pink;
-}
-
-.gr35 {
-  background-color: lemonchiffon;
-}
-
-.gr68 {
-  background-color: lightskyblue;
-}
-
 div.row.dark-row {
   background-color: $lightest-blue;
 }
 
+.grshade {
+  background-color: greenyellow;
+}
+
+.grK2shade {
+  background-color: pink;
+}
 
 .gr35shade {
   background-color: lemonchiffon;
@@ -410,28 +407,154 @@ div.row.dark-row {
   background-color: lightskyblue;
 }
 
+.gr78shade {
+  background-color: rgb(11, 250, 250);
+}
 
-.daycontainer {
+.above-md {
+  display: none;
+}
+
+.below-md {
+  display: inline;
+}
+
+.monday { 
   display: grid; 
   text-align: center;
-  align-items: stretch;
+  align-items: stretch center;
   grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
-  grid-template-rows: 2em 1fr 1fr 1fr 1fr; 
-  gap: 5px 5px; 
+  grid-template-rows: 2em auto; 
+  gap: 5px 5px;
   grid-template-areas: 
-    "Mondays Mondays Mondays Mondays"
-    "time1 class1 longclass longclass2"
-    "time2 class1 longclass longclass2"
-    "time3 class2 longclass longclass2"
-    "time4 class2 . ."
-    ". . . ."; 
+    "day day day day"
+    "time1 class1 class2 class3"
+    "time2 class1 class2 class3"
+    "time3 class4 class2 class3"
+    "time4 class4 . ."; 
 }
-.time1 { grid-area: time1; }
-.time2 { grid-area: time2; }
-.time3 { grid-area: time3; }
-.time4 { grid-area: time4; }
-.class1 { grid-area: class1; }
-.class2 { grid-area: class2; }
-.dayheader { grid-area: Mondays; }
-.longclass { grid-area: longclass; }
-.longclass2 { grid-area: longclass2; }
+
+.tuesday { 
+  display: grid; 
+  text-align: center;
+  // align-items: stretch;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
+  grid-template-rows: 2em auto; 
+  gap: 5px 5px;
+  grid-template-areas: 
+    "day day day day"
+    "time1 class1 class1 class1"; 
+}
+
+.wednesday { 
+  display: grid; 
+  text-align: center;
+  // align-items: stretch;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
+  grid-template-rows: 2em auto; 
+  gap: 5px 5px;
+  grid-template-areas: 
+    "day day day day"
+    "time1 class1 class2 class3" 
+    "time2 class4 class5 class3"; 
+}
+
+.friday { 
+  display: grid; 
+  text-align: center;
+  // align-items: stretch;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
+  grid-template-rows: 2em auto; 
+  gap: 5px 5px;
+  grid-template-areas: 
+    "day day day day"
+    "time1 class1 . . " 
+    "time2 class1 . . " 
+    "time3 class2 class3 class4"
+    "time4 class2 class3 class4"
+    "time5 class5 class3 class4"
+    "time6 class5 . . ";   
+}
+
+.saturday { 
+  display: grid; 
+  text-align: center;
+  // align-items: stretch;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
+  grid-template-rows: 2em auto; 
+  gap: 5px 5px;
+  grid-template-areas: 
+    "day day day day"
+    "time1 class1 t1 t1" 
+    "time2 class2 t2 t2" 
+    "time3 class3 class4 t3"
+    "time4 class5 class6 t4"
+    "time5 class7 class8 t5"
+    "time6 class9 class10 class10"
+    "time7 class9 . . ";
+}
+.sunday { 
+  display: grid; 
+  text-align: center;
+  // align-items: stretch;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
+  grid-template-rows: 2em auto; 
+  gap: 5px 5px;
+  grid-template-areas: 
+    "day day day day"
+    "time1 class1 t1 t1" 
+    "time2 class2 t2 t2" 
+    "time3 class3 t3 t3"
+    "time4 class4 t4 t4"
+    "time5 class5 class5 t5"
+    "time6 class6 t6 t6"
+    "time7 class7 t7 t7";
+}
+
+.schedule {
+  display: grid;
+  gap: 5px 5px;
+  align-items: start;
+  grid-template-columns: 1fr; 
+  grid-template-areas: 
+      "monday"
+      "tuesday"
+      "wednesday"
+      "thursday"
+      "friday"
+      "saturday"
+      "sunday";
+}
+
+@include media-breakpoint-up  (md) {
+  .monday 
+  .tuesday
+  .wednesday
+  .friday
+  {
+    grid-template-columns: 0.7fr 1.1fr 1.1fr 1.1fr; 
+  }  
+  .above-md {
+    display: inline;
+  }
+  .below-md {
+    display: none;
+  }
+  .schedule {
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-areas: 
+      "monday tuesday wednesday"
+      "thursday thursday thursday"
+      "friday saturday sunday";
+  }
+}
+
+@include media-breakpoint-up  (lg) {
+  .schedule {
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-areas: 
+      "monday tuesday wednesday"
+      "monday thursday wednesday"
+      "friday saturday sunday";
+  }
+}

@@ -3,7 +3,7 @@ title = "Learn to Code with Lego&reg; Spike for Children in Charlottesville | Bl
 description = "Come to learn with us to build and code Lego&reg; robots using Spike Lego&reg;."
 keywords = ["Lego Spike", "robotics",  "coding for children", "robotics for children"]
 aliases=["/spike/"]
-header = "Coding and Computational Thinking with LEGO SPIKE"
+header = "Coding and LEGO Robotics"
 +++
 
 <p></p>
