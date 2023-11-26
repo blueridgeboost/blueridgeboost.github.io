@@ -10,7 +10,8 @@ header = "Seventh Grade Classes"
             <center>
             Classes run from January 3 to February 25. <span class="below-md"><br></span>
             Try any class for two weeks for only $50. <span class="below-md"><br></span>
-            Eight 60-minute classes for $235, 90-minute for $295.
+            Eight 60-minute classes for $235, 90-minute for $295.<br>
+            <a href="/discounts">Discounts</a> available for multiple classes and for sibligs.
             </center>
         </div>
     </div>
@@ -30,6 +31,14 @@ header = "Seventh Grade Classes"
                     Teacher: TBD<br>
                     <a href="https://winter-24-advanced-python-part1.cheddarup.com">
                                 <button class="button-8s" role="button">Sign Up</button></a>
+                </div>
+                <div>
+                    <a href="/class/coding/c++vexv5"><b>C++ with the VexV5 robot</b></a> <br>
+                        Grades 7&ndash;8<br>
+                        Friday</a></b> 4:30 &mdash; 6:00<br>
+                        Teacher: <a href="/instructor#saumya">Saumya</a><br>
+                        <a href="https://winter-24-vexv5.cheddarup.com">
+                        <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
                     <a href="/class/math/math-olympiad/"><b>Math Olympiad</b></a><br>

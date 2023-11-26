@@ -13,7 +13,8 @@ header = "Winter 24 Classes"
             <center>
             Classes run from January 3 to February 25. <span class="below-md"><br></span>
             Try any class for two weeks for only $50. <span class="below-md"><br></span>
-            Eight 60-minute classes for $235, 90-minute for $295.
+            Eight 60-minute classes for $235, 90-minute for $295. <br>
+            <a href="/discounts">Discounts</a> available for multiple classes and for sibligs.
             </center>
         </div>
         <div class="col-12 p-2">
@@ -142,7 +143,11 @@ header = "Winter 24 Classes"
                     <a href="https://friday-make-up.cheddarup.com/"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr78shade" style="grid-area: class4;">
-                    Coming soon!
+                    <a href="/class/coding/c++vexv5"><b>C++ with the VexV5 robot</b></a> <br>
+                        Grades 7&ndash;8<br>
+                        Teacher: <a href="/instructor#saumya">Saumya</a><br>
+                        <a href="https://winter-24-vexv5.cheddarup.com">
+                        <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div style="grid-area: time4;"><b>4:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>5:00</div>
                 <div style="grid-area: time5;"><b>5:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>5:30</div>
@@ -300,7 +305,7 @@ header = "Winter 24 Classes"
                 <div class="grK2shade" style="grid-area: class8;">
                     <a href="/class/coding/fundamentals-coding-spike"><b>Fundamentals of Coding</b></a></br>
                     Grades K &ndash; 2<br>
-                    Teacher: <a href="/instructor#nora">Nora</a><br>
+                    Teacher: TBD<br>
                     <a href="https://fundamentals-of-coding-with-lego-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
             </div>
