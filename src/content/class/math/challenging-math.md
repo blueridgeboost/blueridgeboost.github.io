@@ -16,6 +16,10 @@ header="Challenging Math Problems"
             The problems are carefully selected from the Singapore Math's <a href="https://www.singaporemath.com/collections/challenging-word-problems">``Challenging Word Problems"</a> series, Beast Academy and math competitions.
             <p></p>
         </div> 
+        <div class="col-2">
+            <a href="https://www.singaporemath.com/collections/challenging-word-problems/products/challenging-word-problems-common-core-edition-grade-1"><img alt="First Grade" src="/images/sm-1.webp" class="img-fluid"></a><br>
+            <a href="https://www.singaporemath.com/collections/challenging-word-problems/products/challenging-word-problems-common-core-edition-grade-2"><img alt="First Grade" src="/images/sm-2.webp" class="img-fluid"></a>
+        </div>
     </div>
     <div class="row">
         <div class="col"><a href="https://winter-24-first-grade.cheddarup.com"><button class="button-8" role="button">First Grade Sign Up</button></a></div>

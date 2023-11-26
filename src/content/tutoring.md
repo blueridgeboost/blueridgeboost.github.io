@@ -6,15 +6,12 @@ aliases=["/coding/", "/coding-classes-and-tutor/"]
 header = "Tutoring in Charlottesville"
 +++
 
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-6">
-      <h3>Math</h3>
-      <p>Email <a href="mailto:nora@blueridgeboost.com"><em>nora@blueridgeboost.com</em></a> to set up a free evaluation an we will match you with one of our wonderful <a href="/instructor#math-teachers-and-tutors">instructors</a>.</p>
-    </div>
-    <div class="col-6">
-      <h3>Coding and Computer Science</h3>
-      <p><a href="https://blueridgeboost-cs.youcanbook.me" class="btn">Book</a>  a private tutoring session or email <a href="mailto:nora@blueridgeboost.com" class="btn"><em>nora@blueridgeboost.com</em></a>. Well qualified tutors are eager to help.</p>
+<div class="container px-2">
+  <div class="row  justify-content-center">
+    <div class="col-12 p-2 darknote">
+        <center>
+        <a href="https://blueridgeboost.youcanbook.me"><button class="button-8s" role="button">Book</button></a> a session with one of our wonderful <a href="/instructor">instructors</a> to get help with one of the subjects below.
+        </center>
     </div>
   </div>
   <div class="row"> 

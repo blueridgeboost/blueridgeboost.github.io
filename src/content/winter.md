@@ -12,7 +12,8 @@ header = "Winter 24 Classes"
         <div class="col-12 p-2 darknote">
             <center>
             Classes run from January 3 to February 25. <span class="below-md"><br></span>
-            Try any class for two weeks for only $50.
+            Try any class for two weeks for only $50. <span class="below-md"><br></span>
+            Eight 60-minute classes for $235, 90-minute for $295.
             </center>
         </div>
         <div class="col-12 p-2">
@@ -51,6 +52,7 @@ header = "Winter 24 Classes"
                     <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
                         Grades 3&ndash;5<br>
                         Teacher: <a href="/instructor#saumya">Saumya</a><br>
+                        <a href="https://winter-24-vexiq.cheddarup.com">
                         <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div style="grid-area: time4;"><b>6:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>6:30</div>
@@ -204,7 +206,7 @@ header = "Winter 24 Classes"
                     <a href="/class/math/math-olympiad/"><b>Math Olympiad</b></a><br>
                         Grades 6 &ndash; 8<br> 
                         Teacher: <a href="/instructor#charlie">Charlie<br>
-                        <a href="https://competition-math-grades-6-to-6.cheddarup.com" class="btn-small">
+                        <a href="https://competition-math-grades-6-to-8.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr56shade" style="grid-area: class7;">
@@ -262,13 +264,13 @@ header = "Winter 24 Classes"
                         <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr35shade" style="grid-area: class2;">
-                    <a href="/class/coding/tweens-coffee-script"><b>Coffee Script 1</b></a> <br>
+                    <a href="/class/coding/tweens-coffee-script"><b>Coffee Script 2</b></a> <br>
                     Grades 3&ndash;5<br>
                     Teacher: <a href="/instructor#jared">Jared</a><br>
-                    <a href="https://winter-24-coffee-script-part1.cheddarup.com">
+                    <a href="https://winter-24-coffee-script-part2.cheddarup.com">
                     <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
-                <div class="gr67shade" style="grid-area: class3;">
+                <div class="gr78shade" style="grid-area: class3;">
                     <a href="/class/coding/python"><b>Python 2</b></a></br>
                     Grades 7 &ndash; 8<br>. 
                     Teacher: Jared<br>

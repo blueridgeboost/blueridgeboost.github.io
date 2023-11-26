@@ -4,59 +4,48 @@ description = "Learn block languages, Scratch, Coffee Script, Python, Java, and 
 keywords = ["Charlottesville coding tutor", "Charlottesville Python tutor", "cvillecoding", "coding", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "children coding classes", "kids coding", "kids Python", "children Python", "children coding tutor"]
 header = "Second Grade Classes"
 +++
-<div class="container">
-    <div class="row"> 
-        <div class="col-sm">
-            <p></p>
-            <p><a href="/class/coding/kids-block-coding"><b>Block Coding with Code Monkey</b></a><br>
-            <b><a id="wednesday">Wednesday</a></b> 4:30 &mdash; 5:25<br>
-            <b>Saturday</b> 12:30 &mdash; 1:25<br>
-            Grades <span class="grK2">1 and 2</span>. Teacher: TBD.<br> 
-            <a href="https://winter-24-block-coding.cheddarup.com" class="btn-small">
-            <button class="button-8" role="button">Sign Up</button></a></p>
-        </div>
-        <div class="col-sm">
-            <p></p>
-            <p><b><a href="/class/math/challenging-math">Second Grade Challenging Problems (Singapore Math)</a></b></br>
-                <b>Friday</b> 4:00 &mdash; 4:55<br>
-                <span class="grK2">Grade 2</span>. Teacher: Saumya.<br>
-                <a href="https://winter-24-second-grade.cheddarup.com">
-                <button class="button-8" role="button">Sign Up</button></a></p>
-            </div>
-        <div class="col-sm">
-            <p></p>
-            <p><a href="/class/coding/fundamentals-coding-spike"><b>Fundamentals of Coding</b></a></br>
-                <b>Fridays</b>, 4:00 &mdash; 5:30 pm. <b>(90-minute class)</b><br>
-                Grades <span class="grK2">K to 2</span>. Teacher: Nora.<br>
-                <a href="https://fundamentals-of-coding-with-lego-spike.cheddarup.com"><button class="button-8" role="button">Sign Up</button></a></p>  
-        </div>
-    </div>
-    <div class="row"> 
-        <div class="col-sm">
-            <p></p>
-            <p><a href="/class/coding/scratch"><b>Coding with Scratch</b></a><br>
-            <b>Sundays</b> 10:00 &mdash; 10:55<br>
-            Grades <span class="grK2">1 and 2</span>. Teacher: Jared.<br> 
-            <a href="https://winter-24-scratch.cheddarup.com" class="btn-small">
-            <button class="button-8" role="button">Sign Up</button></a></p>
-        </div>
-        <div class="col-sm">
-            <p></p>
-            <p>
-                <b>Make up for all classes</b></br>
-                <b>Fridays</b>, 4:00 &mdash; 6:00.<br>
-                Grades <span class="grK2">K to 2</span>, <span class="gr35">3 to 5</span>, <span class="gr68">and 6 to 9</span>.Teacher: Ransford.<br>
-                <a href="https:///friday-make-up.cheddarup.com/"><button class="button-8" role="button">Sign Up</button></a>
-            </p>
+<div class="container px-2">
+    <div class="row  justify-content-center">
+        <div class="col-12 p-2 darknote">
+            <center>
+            Classes run from January 3 to February 25. <span class="below-md"><br></span>
+            Try any class for two weeks for only $50. <span class="below-md"><br></span>
+            Eight 60-minute classes for $235, 90-minute for $295.
+            </center>
         </div>
     </div>
     <div class="row">
-        <div class="col-12 text-center">
-            <p><b><a href="/chess">Charlotesville Kids' Chess Club (free, sign up required)</a></b></br>
-                <b>Thursdays</b>, 4:00 &mdash; 6:00.<br>
-                Grade <span class="grK2">K to 2</span>, <span class="gr35">3 to 5</span>, <span class="gr68">and 6 to 8</span>. Teacher: Tex.<br>
-                <a href="https://charlottesville-kids-chess-club.cheddarup.com/"><button class="button-8" role="button">Sign Up</button></a>
-            </p>
+        <div class="col-12">
+            <div class="d-flex flex-wrap justify-content-evenly gap-3">
+                <div>
+                    <a href="/class/coding/kids-block-coding"><b>Block Coding with Code Monkey</b></a><br>
+                    <b>Wednesday</b> 4:30 &mdash; 5:30<br>
+                    <b>Saturday</b> 12:30 &mdash; 1:30<br>
+                    Teacher: Ransford<br> 
+                    <a href="https://winter-24-block-coding.cheddarup.com" class="btn-small">
+                        <button class="button-8s" role="button">Sign Up</button></a>
+                </div>
+                <div>
+                    <b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
+                    <b>Friday</b> 4:00 &mdash; 4:55<br>
+                    Teacher: Saumya<br>
+                    <a href="https://winter-24-second-grade.cheddarup.com">
+                        <button class="button-8s" role="button">Sign Up</button></a>
+                </div>
+                <div>
+                    <a href="/class/coding/fundamentals-coding-spike"><b>Fundamentals of Coding</b></a></br>
+                    <b>Friday</b>, 4:00 &mdash; 5:30<br>
+                    Teacher: Nora<br>
+                    <a href="https://fundamentals-of-coding-with-lego-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>  
+                </div>
+                <div>
+                    <a href="/class/coding/scratch"><b>Scratch</b></a><br>
+                    <b>Sunday</b> 10:00 &mdash; 11:00<br>
+                    Teacher: Jared<br> 
+                    <a href="https://winter-24-scratch.cheddarup.com" class="btn-small">
+                        <button class="button-8s" role="button">Sign Up</button></a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
