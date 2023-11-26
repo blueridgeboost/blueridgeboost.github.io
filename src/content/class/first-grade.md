@@ -34,8 +34,8 @@ header = "First Grade Classes"
                 </div>
                 <div>
                     <a href="/class/coding/fundamentals-coding-spike"><b>Fundamentals of Coding</b></a></br>
-                    <b>Friday</b>, 4:00 &mdash; 5:30<br>
-                    Teacher: Nora<br>
+                    <b>Sunday</b>, 4:00 &mdash; 5:30<br>
+                    Teacher: TBD<br>
                     <a href="https://fundamentals-of-coding-with-lego-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>  
                 </div>
                 <div>
@@ -51,6 +51,12 @@ header = "First Grade Classes"
                     Teacher: Jared<br> 
                     <a href="https://winter-24-scratch.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
+                </div>
+                <div>
+                    <a href="/class/coding/fundamentals-coding-spike"><b>Fundamentals of Coding</b></a></br>
+                    <b>Sunday</b>, 4:00 &mdash; 5:30<br>
+                    Teacher: TBD<br>
+                    <a href="https://fundamentals-of-coding-with-lego-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>  
                 </div>
             </div>
         </div>

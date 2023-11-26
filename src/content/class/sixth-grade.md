@@ -25,6 +25,12 @@ header = "Sixth Grade Classes"
                     <a href="https://winter-24-beginner-python-part1.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
+                    <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
+                    <b>Monday</b>, 4:30 &ndash; 6:00<br>
+                    Teacher: Saumya<br>
+                        <a href="https://winter-24-vexiq.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
+                </div>
+                <div>
                     <a href="/class/math/math-olympiad/"><b>Math Olympiad</b></a><br>
                     <b>Saturday</b>, 1:30 &ndash; 2:25<br>
                     20 lessons for $495. <br>
