@@ -40,7 +40,7 @@ header = "Fifth Grade Classes"
                 <div>
                     <b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
                     <b>Friday</b> 5:00 &mdash; 5:55<br>
-                    Teacher: Saumya.<br>
+                    Teacher: Nora.<br>
                     <a href="https://winter-24-fifth-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>

@@ -50,7 +50,7 @@ header = "Winter 24 Classes"
                 </div>
                 <div class="gr35shade" style="grid-area: class3;">
                     <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
-                        Grades 3&ndash;5<br>
+                        Grades 3&ndash;6<br>
                         Teacher: <a href="/instructor#saumya">Saumya</a><br>
                         <a href="https://winter-24-vexiq.cheddarup.com">
                         <button class="button-8s" role="button">Sign Up</button></a>
@@ -132,7 +132,7 @@ header = "Winter 24 Classes"
                 <div class="grK2shade" style="grid-area: class2;">
                     <b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
                         Grade 2<br>
-                        Teacher: <a href="/instructor#saumya">Saumya</a><br>
+                        Teacher: <a href="/instructor#saumya">Nora</a><br>
                         <a href="https://winter-24-second-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="grshade" style="grid-area: class3;">
@@ -141,18 +141,15 @@ header = "Winter 24 Classes"
                     Teacher: <a href="/instructor#ransford">Ransford</a><br>
                     <a href="https://friday-make-up.cheddarup.com/"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
-                <div class="grK2shade" style="grid-area: class4;">
-                    <a href="/class/coding/fundamentals-coding-spike"><b>Fundamentals of Coding</b></a></br>
-                    Grades K &ndash; 2<br>
-                    Teacher: <a href="/instructor#nora">Nora</a><br>
-                    <a href="https://fundamentals-of-coding-with-lego-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
+                <div class="gr78shade" style="grid-area: class4;">
+                    Coming soon!
                 </div>
                 <div style="grid-area: time4;"><b>4:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>5:00</div>
                 <div style="grid-area: time5;"><b>5:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>5:30</div>
                 <div class="gr35shade" style="grid-area: class5;">
                     <b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
                         Grade 5<br>
-                        Teacher: <a href="/instructor#saumya">Saumya</a><br>
+                        Teacher: <a href="/instructor#saumya">Nora</a><br>
                         <a href="https://winter-24-fifth-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div style="grid-area: time6;"><b>5:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>6:00</div>
@@ -299,6 +296,12 @@ header = "Winter 24 Classes"
                             Grades <span class="gr68">6 to 8</span>. Teacher: Nora.<br>
                             <a href="https://winter-24-python-spike.cheddarup.com">
   <button class="button-8s" role="button">Sign Up</button></a>
+                </div>
+                <div class="grK2shade" style="grid-area: class8;">
+                    <a href="/class/coding/fundamentals-coding-spike"><b>Fundamentals of Coding</b></a></br>
+                    Grades K &ndash; 2<br>
+                    Teacher: <a href="/instructor#nora">Nora</a><br>
+                    <a href="https://fundamentals-of-coding-with-lego-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
             </div>
         </div>
