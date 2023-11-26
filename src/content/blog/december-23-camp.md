@@ -1,5 +1,5 @@
 +++
-title = "Winter Camp Dec 18 to 22"
+title = "Winter Camp"
 authors = ["Nora Evans"]
 banner="ransford-award-PXL_20231112_212120885.webp"
 banner_width="300"
@@ -8,11 +8,3 @@ alt="FLL Challenge"
 link="/camps/"
 Summary="Sign up for winter camp <a href='https://winter-camp-24.cheddarup.com/'>opened</a>."
 +++
-
-<div class="container">
-    <div class="row">
-        <div class="col">
-            Check out our <a href="/camps/">winter camp</a>! 
-        </div>
-    </div>
-</div>

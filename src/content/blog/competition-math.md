@@ -1,11 +1,11 @@
 +++
-title = "New math classes"
+title = "Competition math"
 authors = ["Nora Evans"]
 banner="moems-logo.webp"
 banner_width="300"
 date="2023-11-12"
 alt="FLL Challenge"
-Summary="Competition math classes"
+Summary="Learn math in a new way with math olympiad problems."
 +++
 
 <div class="container">

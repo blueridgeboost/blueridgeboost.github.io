@@ -9,6 +9,7 @@ $light-blue: #BED6DB;
 $lightest-blue: #EEFFFF;
 
 $primary: $darkest-blue;
+$enable-cssgrid: true;
 
 $theme-colors: (
   "primary": $primary,
@@ -279,6 +280,49 @@ ul.list-style-none {
   }
 
   
+  .button-8s {
+    background-color: #e1ecf4;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: $dark-blue;
+    cursor: pointer;
+    display: inline-block;
+    font-family: $font-family-sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: none;
+    padding: 4px .5em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+  
+  .button-8:hover,
+  .button-8:focus {
+    background-color: #b3d3ea;
+    color: #2c5777;
+  }
+  
+  .button-8:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  }
+  
+  .button-8:active {
+    background-color: #a0c7e4;
+    box-shadow: none;
+    color: $dark-blue;
+  }
+
   
 .btn-contact-us {
   color: $lightest-blue;
@@ -304,8 +348,20 @@ ul.list-style-none {
 }
 
 .darknote a {
-  color: #1E1E1E;
-  background-color: #BED6DB;
+  color: #BED6DB;
+}
+
+
+.daybar {
+  background: $dark-blue;
+  font-weight: 500;
+  color: $white;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.daybar a {
+  color: $white;
 }
 
 div.row.table-header {
@@ -325,4 +381,184 @@ div.row.table-light-row {
 
 div.row a {
   font-weight: 500;
+}
+
+div.row.dark-row {
+  background-color: $lightest-blue;
+}
+
+.chessshade {
+  background-color: tan;
+}
+
+.grshade {
+  background-color: Lavender;
+}
+
+.grK2shade {
+  background-color: mistyrose;
+}
+
+.gr35shade {
+  background-color: peachpuff;
+}
+
+.gr56shade {
+  background-color: lightgoldenrodyellow;
+}
+
+.gr68shade {
+  background-color: #95dcb8;
+}
+
+.gr78shade {
+  background-color: #95dcb8;
+}
+
+.above-md {
+  display: none;
+}
+
+.below-md {
+  display: inline;
+}
+
+.monday { 
+  display: grid; 
+  text-align: center;
+  align-items: stretch center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
+  grid-template-rows: 2em auto; 
+  gap: 5px 5px;
+  grid-template-areas: 
+    "day day day day"
+    "time1 class1 class2 class3"
+    "time2 class1 class2 class3"
+    "time3 class4 class2 class3"
+    "time4 class4 . ."; 
+}
+
+.tuesday { 
+  display: grid; 
+  text-align: center;
+  // align-items: stretch;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
+  grid-template-rows: 2em auto; 
+  gap: 5px 5px;
+  grid-template-areas: 
+    "day day day day"
+    "time1 class1 class1 class1"; 
+}
+
+.wednesday { 
+  display: grid; 
+  text-align: center;
+  // align-items: stretch;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
+  grid-template-rows: 2em auto; 
+  gap: 5px 5px;
+  grid-template-areas: 
+    "day day day day"
+    "time1 class1 class2 class3" 
+    "time2 class4 class5 class3"; 
+}
+
+.friday { 
+  display: grid; 
+  text-align: center;
+  // align-items: stretch;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
+  grid-template-rows: 2em auto; 
+  gap: 5px 5px;
+  grid-template-areas: 
+    "day day day day"
+    "time1 class1 . . " 
+    "time2 class1 . . " 
+    "time3 class2 class3 class4"
+    "time4 class2 class3 class4"
+    "time5 class5 class3 class4"
+    "time6 class5 . . ";   
+}
+
+.saturday { 
+  display: grid; 
+  text-align: center;
+  // align-items: stretch;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
+  grid-template-rows: 2em auto; 
+  gap: 5px 5px;
+  grid-template-areas: 
+    "day day day day"
+    "time1 class1 t1 t1" 
+    "time2 class2 t2 t2" 
+    "time3 class3 class4 t3"
+    "time4 class5 class6 t4"
+    "time5 class7 class8 t5"
+    "time6 class9 class10 class10"
+    "time7 class9 . . ";
+}
+.sunday { 
+  display: grid; 
+  text-align: center;
+  // align-items: stretch;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
+  grid-template-rows: 2em auto; 
+  gap: 5px 5px;
+  grid-template-areas: 
+    "day day day day"
+    "time1 class1 t1 t1" 
+    "time2 class2 t2 t2" 
+    "time3 class3 t3 t3"
+    "time4 class4 t4 t4"
+    "time5 class5 class5 t5"
+    "time6 class6 t6 t6"
+    "time7 class7 t7 t7";
+}
+
+.schedule {
+  display: grid;
+  gap: 5px 5px;
+  align-items: start;
+  grid-template-columns: 1fr; 
+  grid-template-areas: 
+      "monday"
+      "tuesday"
+      "wednesday"
+      "thursday"
+      "friday"
+      "saturday"
+      "sunday";
+}
+
+@include media-breakpoint-up  (md) {
+  .monday 
+  .tuesday
+  .wednesday
+  .friday
+  {
+    grid-template-columns: 0.7fr 1.1fr 1.1fr 1.1fr; 
+  }  
+  .above-md {
+    display: inline;
+  }
+  .below-md {
+    display: none;
+  }
+  .schedule {
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-areas: 
+      "monday tuesday wednesday"
+      "thursday thursday thursday"
+      "friday saturday sunday";
+  }
+}
+
+@include media-breakpoint-up  (lg) {
+  .schedule {
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-areas: 
+      "monday tuesday wednesday"
+      "monday thursday wednesday"
+      "friday saturday sunday";
+  }
 }
