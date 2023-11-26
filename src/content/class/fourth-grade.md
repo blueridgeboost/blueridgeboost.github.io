@@ -47,13 +47,13 @@ header = "Fourth Grade Classes"
                 </div>
                 <div>
                     <a href="/class/coding/computational-thinking-spike"><b>Coding and Lego Robotics</b></a> <br>
-                    <b>Saturdays</b>, 3:30 &ndash; 5:00<br>
+                    <b>Saturday</b>, 3:30 &ndash; 5:00<br>
                     Teacher: TBD<br>
                     <a href="https://winter-24-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
                     <a href="/class/coding/tweens-coffee-script"><b>Coffee Script 2</b></a> <br>
-                    <b>Saturdays</b>, 11:00 &ndash; 12:00<br>
+                    <b>Sunday</b>, 11:00 &ndash; 12:00<br>
                     Teacher: Jared<br>
                     <a href="https://winter-24-coffee-script-part2.cheddarup.com">
                             <button class="button-8s" role="button">Sign Up</button></a>
