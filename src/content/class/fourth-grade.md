@@ -10,7 +10,8 @@ header = "Fourth Grade Classes"
             <center>
             Classes run from January 3 to February 25. <span class="below-md"><br></span>
             Try any class for two weeks for only $50. <span class="below-md"><br></span>
-            Eight 60-minute classes for $235, 90-minute for $295.
+            Eight 60-minute classes for $235, 90-minute for $295.<br>
+            <a href="/discounts">Discounts</a> available for multiple classes and for sibligs.
             </center>
         </div>
     </div>
