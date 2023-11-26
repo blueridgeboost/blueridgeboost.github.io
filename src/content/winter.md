@@ -132,7 +132,7 @@ header = "Winter 24 Classes"
                 <div class="grK2shade" style="grid-area: class2;">
                     <b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
                         Grade 2<br>
-                        Teacher: <a href="/instructor#saumya">Saumya</a><br>
+                        Teacher: <a href="/instructor#saumya">Nora</a><br>
                         <a href="https://winter-24-second-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="grshade" style="grid-area: class3;">
@@ -149,7 +149,7 @@ header = "Winter 24 Classes"
                 <div class="gr35shade" style="grid-area: class5;">
                     <b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
                         Grade 5<br>
-                        Teacher: <a href="/instructor#saumya">Saumya</a><br>
+                        Teacher: <a href="/instructor#saumya">Nora</a><br>
                         <a href="https://winter-24-fifth-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div style="grid-area: time6;"><b>5:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>6:00</div>

@@ -28,7 +28,7 @@ header = "Second Grade Classes"
                 <div>
                     <b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
                     <b>Friday</b> 4:00 &mdash; 4:55<br>
-                    Teacher: Saumya<br>
+                    Teacher: Nora<br>
                     <a href="https://winter-24-second-grade.cheddarup.com">
                         <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
