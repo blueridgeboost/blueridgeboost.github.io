@@ -185,7 +185,7 @@ header = "Winter 24 Classes"
                 </div>
                 <div class="grK2shade" style="grid-area: class3;">
                     <a href="/class/coding/kids-block-coding"><b>Block Coding</b></a><br>
-                        Grades K &ndash; 1<br> 
+                        Grades 1 &ndash; 2<br> 
                         Teacher: <a href="/instructor#ransford">Ransford</a><br>
                         <a href="https://winter-24-block-coding.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a></p>
