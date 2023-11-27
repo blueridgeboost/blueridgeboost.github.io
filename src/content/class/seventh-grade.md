@@ -19,7 +19,7 @@ header = "Seventh Grade Classes"
         <div class="col-12">
             <div class="d-flex flex-wrap justify-content-evenly gap-3">
                 <div> 
-                    <b>Proof-based Geometry</b></br>
+                    <b><a href="/class/math/geometry/"> Geometry </a> </b></br>
                     Monday</a></b> 4:30 &mdash; 6:00<br>
                     Teacher: Nora<br>
                     <a href="https://winter-24-geometry.cheddarup.com">
