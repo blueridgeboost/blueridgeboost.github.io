@@ -27,19 +27,19 @@ header = "Fourth Grade Classes"
                 </div>
                 <div>
                     <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
-                    <b>Monday</b>, 4:30 &ndash; 6:00<br>
+                    <b>Monday</b> 4:30 &ndash; 6:00<br>
                     Teacher: Saumya<br>
                         <a href="https://winter-24-vexiq.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
                     <b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
-                    <b>Wednesday</b>, 5:30 &ndash; 6:30<br>
+                    <b>Wednesday</b> 5:30 &ndash; 6:30<br>
                     Teacher: Nora<br>
                     <a href="https://winter-24-fourth-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
                     <a href="/class/math/math-olympiad/"><b>Math Olympiad</b></a><br>
-                    <b>Saturday</b>, 12:30 am &ndash; 1:30 pm<br>
+                    <b>Saturday</b> 12:30 &ndash; 1:30<br>
                     20 lessons for $495. <br>
                     Teacher: Charlie<br>
                     <a href="https://competition-math-grades-4-to-6.cheddarup.com" class="btn-small">
@@ -47,13 +47,13 @@ header = "Fourth Grade Classes"
                 </div>
                 <div>
                     <a href="/class/coding/computational-thinking-spike"><b>Coding and Lego Robotics</b></a> <br>
-                    <b>Saturday</b>, 3:30 &ndash; 5:00<br>
+                    <b>Saturday</b> 3:30 &ndash; 5:00<br>
                     Teacher: TBD<br>
                     <a href="https://winter-24-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
                     <a href="/class/coding/tweens-coffee-script"><b>Coffee Script 2</b></a> <br>
-                    <b>Sunday</b>, 11:00 &ndash; 12:00<br>
+                    <b>Sunday</b> 11:00 &ndash; 12:00<br>
                     Teacher: Jared<br>
                     <a href="https://winter-24-coffee-script-part2.cheddarup.com">
                             <button class="button-8s" role="button">Sign Up</button></a>

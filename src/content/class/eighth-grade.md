@@ -51,7 +51,7 @@ header = "Eighth Grade Classes"
                 </div>
                 <div>
                     <a href="/class/math/amc-coach/"><b>AMC 8 Problems</b></a><br>
-                    <b>Saturdays</b>, 2:30 am &ndash; 3:25 pm.<br>
+                    <b>Saturday</b> 2:30 am &ndash; 3:25 pm.<br>
                     10 classes for $245.<br>
                     Teacher: Charlie<br>
                     <a href="https://competition-math-amc8.cheddarup.com" class="btn-small">
@@ -59,7 +59,7 @@ header = "Eighth Grade Classes"
                 </div>
                 <div>
                     <a href="/class/coding/python"><b>Python 2</b></a></br>
-                    <b>Sunday</b>, 12:00 &ndash; 12:55<br>
+                    <b>Sunday</b> 12:00 &ndash; 12:55<br>
                     Teacher: Jared<br>
                     <a href="https://winter-24-advanced-python-part2.cheddarup.com"> <button class="button-8s" role="button">Sign Up</button></a></p>
                 </div>  
