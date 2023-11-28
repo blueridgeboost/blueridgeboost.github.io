@@ -28,7 +28,7 @@ header = "First Grade Classes"
                 </div>
                 <div>
                     <a href="/class/coding/lego-wedo"><b>Intro to Robotics</b></a><br>
-                    <b>Saturday</b>, 11:00 &ndash; 12:30<br>
+                    <b>Saturday</b> 11:00 &ndash; 12:30<br>
                     Teacher: Ransford<br>
                     <a href="https://winter-24-lego-wedo.cheddarup.com" class="btn-small">
                     <button class="button-8s" role="button">Sign Up</button></a>  
@@ -49,7 +49,7 @@ header = "First Grade Classes"
                 </div>
                 <div>
                     <a href="/class/coding/fundamentals-coding-spike"><b>Fundamentals of Coding</b></a></br>
-                    <b>Sunday</b>, 4:00 &mdash; 5:30<br>
+                    <b>Sunday</b> 4:00 &mdash; 5:30<br>
                     Teacher: TBD<br>
                     <a href="https://fundamentals-of-coding-with-lego-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>  
                 </div>

@@ -14,7 +14,7 @@ header = "History of Blue Ridge Boost"
             </p>
         </div>
         <div class="col-4 justify-middle">
-            <img src="/images/firstclass-280.webp" 
+            <img src="/images/firstclass.webp"
                 alt="First class" 
                 class="img-fluid" 
                 height="100px" >
