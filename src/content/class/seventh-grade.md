@@ -28,7 +28,7 @@ header = "Seventh Grade Classes"
                 </div>
                 <div>
                     <a href="/class/coding/python"><b>Python 1</b></a></br>
-                    <b>Wednesdays</b> 5:30 &ndash; 6:25<br>
+                    <b>Wednesdays</b> 5:30 &ndash; 6:30<br>
                     Teacher: TBD<br>
                     8 classes for $235<br>
                     <a href="https://winter-24-advanced-python-part1.cheddarup.com">
@@ -44,7 +44,7 @@ header = "Seventh Grade Classes"
                 </div>
                 <div>
                     <a href="/class/math/math-olympiad/"><b>Math Olympiad</b></a><br>
-                    <b>Saturdays</b> 1:30 &ndash; 2:25<br>
+                    <b>Saturdays</b> 1:30 &ndash; 2:30<br>
                     Teacher: Charlie<br>
                     20 classes for $495<br>
                     <a href="https://competition-math-grades-6-to-6.cheddarup.com" class="btn-small">
@@ -52,7 +52,7 @@ header = "Seventh Grade Classes"
                 </div>
                 <div>
                     <a href="/class/math/amc-coach/"><b>AMC 8 Problems</b></a><br>
-                    <b>Saturdays</b> 2:30 &ndash; 3:25<br>
+                    <b>Saturdays</b> 2:30 &ndash; 3:30<br>
                     Teacher: Charlie<br>
                     10 classes for $245<br>
                     <a href="https://competition-math-amc8.cheddarup.com" class="btn-small">
@@ -60,7 +60,7 @@ header = "Seventh Grade Classes"
                 </div>
                 <div>
                     <a href="/class/coding/python"><b>Python 2</b></a></br>
-                    <b>Sundays</b> 12:00 &ndash; 12:55<br>
+                    <b>Sundays</b> 12:00 &ndash; 1:00<br>
                     Teacher: Jared<br>
                     8 classes for $235<br>
                     <a href="https://winter-24-advanced-python-part2.cheddarup.com"> <button class="button-8s" role="button">Sign Up</button></a></p>

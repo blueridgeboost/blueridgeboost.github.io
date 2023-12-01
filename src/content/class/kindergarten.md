@@ -20,7 +20,7 @@ header = "Kindergarten Classes"
             <div class="d-flex flex-wrap justify-content-evenly gap-3">
                 <div>
                     <a href="/class/coding/kindergarten"><b>Block Coding Jr</b></a><br>
-                    <b>Saturday</b> 10:00 &ndash; 10:55<br>
+                    <b>Saturday</b> 10:00 &ndash; 11:00<br>
                     Teacher: Ransford.<br>
                     <a href="https://winter-24-block-coding-jr.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
