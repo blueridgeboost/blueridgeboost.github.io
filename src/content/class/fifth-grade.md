@@ -42,10 +42,10 @@ header = "Fifth Grade Classes"
                         <a href="https://winter-24-vexiq.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
-                    <b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
+                    <b><a href="/class/math/challenging-math">Challenging Math Problems</a></b></br>
                     <b>Fridays</b> 5:00 &ndash; 5:55<br>
                     Teacher: Nora<br>
-                    8 classes for $235<br>
+                    4 classes for $115<br>
                     <a href="https://winter-24-fifth-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
