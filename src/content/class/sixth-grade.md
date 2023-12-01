@@ -10,56 +10,61 @@ header = "Sixth Grade Classes"
             <center>
             Classes run from January 3 to February 25. <span class="below-md"><br></span>
             Try any class for two weeks for only $50. <span class="below-md"><br></span>
-            Eight 60-minute classes for $235, 90-minute for $295.<br>
-            <a href="/discounts">Discounts</a> available for multiple classes and for sibligs.
+            <a href="/discounts">Discounts</a> available for multiple classes and for siblings.
             </center>
         </div>
     </div>
+    <p><br></p>
     <div class="row">
         <div class="col-12">
             <div class="d-flex flex-wrap justify-content-evenly gap-3">
                 <div>
                     <a href="/class/coding/middle-school-python"><b>Python 1</b></a></br>
-                    <b>Monday</b> 5:30 &mdash; 6:25<br>
-                    <b>Saturday</b> 2:30 &mdash; 3:25<br>
-                    Teacher: Ransford.<br>
+                    <b>Mondays</b> 5:30 &mdash; 6:25<br>
+                    <b>Saturdays</b> 2:30 &mdash; 3:25<br>
+                    Teacher: Ransford<br>
+                    8 classes for $235<br>
                     <a href="https://winter-24-beginner-python-part1.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
                     <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
-                    <b>Monday</b> 4:30 &ndash; 6:00<br>
+                    <b>Mondays</b> 4:30 &ndash; 6:00<br>
                     Teacher: Saumya<br>
+                    8 classes for $295<br>
                         <a href="https://winter-24-vexiq.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
                     <a href="/class/math/math-olympiad/"><b>Math Olympiad</b></a><br>
-                    <b>Saturday</b> 1:30 &ndash; 2:25<br>
-                    20 lessons for $495. <br>
+                    <b>Saturdays</b> 1:30 &ndash; 2:25<br>
                     Teacher: Charlie<br>
+                    20 lessons for $495<br>
                     <a href="https://competition-math-grades-6-to-6.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
                     <a href="/class/math/amc-coach/"><b>AMC 8 Problems</b></a><br>
-                    <b>Saturdays</b> 2:30 am &ndash; 3:25 pm.<br>
-                    10 classes for $245.<br>
+                    <b>Saturdays</b> 2:30 &ndash; 3:25<br>
                     Teacher: Charlie<br>
+                    10 classes for $245<br>
                     <a href="https://competition-math-amc8.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
                     <a href="/class/coding/middle-school-python"><b>Python 2</b></a></br>
-                    <b>Sunday</b> 1:00 &mdash; 1:55<br>
+                    <b>Sundays</b> 1:00 &mdash; 1:55<br>
                     Teacher: Jared<br>
+                    8 classes for $235<br>
                     <a href="https://winter-24-python-part2.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
                     <a href="/class/coding/python-spike/"><b>Python for Robotics</b></a></br>
-                    <b>Sunday</b> 4:00 &mdash; 5:30<br>
+                    <b>Sundays</b> 4:00 &mdash; 5:30<br>
                     Teacher: Nora<br>
+                    8 classes for $295<br>
                     <a href="https://winter-24-python-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
             </div>
         </div>
     </div>
+    <p></br></p>
 </div>
