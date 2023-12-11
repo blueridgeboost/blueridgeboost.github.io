@@ -56,18 +56,18 @@ header = "Fifth Grade Classes"
                     <a href="https://competition-math-grades-4-to-6.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
-                <div>
+                <!-- <div>
                     <a href="/class/math/amc-coach/"><b>AMC 8 Problems</b></a><br>
                     <b>Saturdays</b> 2:30 &ndash; 3:30<br>
                     Teacher: Charlie<br>
                     10 classes for $245<br>
                     <a href="https://competition-math-amc8.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
-                </div>
+                </div> -->
                 <div>
                     <a href="/class/coding/computational-thinking-spike"><b>Coding and Lego Robotics</b></a> <br>
                     <b>Saturdays</b> 3:30 &ndash; 5:00<br>
-                    Teacher: TBD<br>
+                    Teacher: Nora<br>
                     8 classes for $295<br>
                     <a href="https://winter-24-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>

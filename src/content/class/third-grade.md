@@ -48,7 +48,7 @@ header = "Third Grade Classes"
                 <div>
                     <a href="/class/coding/computational-thinking-spike"><b>Coding and Lego Robotics</b></a> <br>
                     <b>Saturday</b> 3:30 &ndash; 5:00<br>
-                    Teacher: TBD<br>
+                    Teacher: Nora<br>
                     <a href="https://winter-24-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>

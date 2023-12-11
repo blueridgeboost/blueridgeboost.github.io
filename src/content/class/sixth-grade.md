@@ -41,14 +41,14 @@ header = "Sixth Grade Classes"
                     <a href="https://competition-math-grades-6-to-6.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
-                <div>
+                <!-- <div>
                     <a href="/class/math/amc-coach/"><b>AMC 8 Problems</b></a><br>
                     <b>Saturdays</b> 2:30 &ndash; 3:30<br>
                     Teacher: Charlie<br>
                     10 classes for $245<br>
                     <a href="https://competition-math-amc8.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
-                </div>
+                </div> -->
                 <div>
                     <a href="/class/coding/middle-school-python"><b>Python 2</b></a></br>
                     <b>Sundays</b> 1:00 &mdash; 2:00<br>

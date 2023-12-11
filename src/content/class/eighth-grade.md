@@ -30,14 +30,14 @@ header = "Eighth Grade Classes"
                 <div>
                     <a href="/class/coding/python"><b>Python 1</b></a></br>
                     <b>Wednesdays</b> 5:30 &ndash; 6:30<br>
-                    Teacher: TBD<br>
+                    Teacher: Jared<br>
                     8 classes for $235<br>
                     <a href="https://winter-24-advanced-python-part1.cheddarup.com">
                                 <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
                     <a href="/class/coding/c++vexv5"><b>C++ with the VexV5 robot</b></a> <br>
-                        <b>Fridays</b> 4:30 &mdash; 6:00<br>
+                        <b>Fridays</b> 5:30 &mdash; 7:00<br>
                         Teacher: <a href="/instructor#saumya">Saumya</a><br>
                         8 classes for $295<br>
                         <a href="https://winter-24-vexv5.cheddarup.com">
@@ -51,14 +51,14 @@ header = "Eighth Grade Classes"
                     <a href="https://competition-math-grades-6-to-6.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
-                <div>
+                <!-- <div>
                     <a href="/class/math/amc-coach/"><b>AMC 8 Problems</b></a><br>
                     <b>Saturdays</b> 2:30 &ndash; 3:30<br>
                     Teacher: Charlie<br>
                     10 classes for $245<br>
                     <a href="https://competition-math-amc8.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
-                </div>
+                </div> -->
                 <div>
                     <a href="/class/coding/python"><b>Python 2</b></a></br>
                     <b>Sunday</b> 12:00 &ndash; 1:00<br>
