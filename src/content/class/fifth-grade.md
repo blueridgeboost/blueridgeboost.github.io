@@ -20,16 +20,16 @@ header = "Fifth Grade Classes"
             <div class="d-flex flex-wrap justify-content-evenly gap-3">
                 <div>
                     <a href="/class/coding/tweens-coffee-script"><b>Coffee Script 1</b></a> <br>
-                    <b>Mondays</b> 4:30 &ndash; 5:25<br>
-                    <b>Saturdays</b> 1:30 &ndash; 2:25<br>
+                    <b>Mondays</b> 4:30 &ndash; 5:30<br>
+                    <b>Saturdays</b> 1:30 &ndash; 2:30<br>
                     Teacher: Ransford<br>
                     8 classes for $235<br>
                     <a href="https://winter-24-coffee-script-part1.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
                     <a href="/class/coding/middle-school-python"><b>Python 1</b></a></br>
-                    <b>Mondays</b> 5:30 &ndash; 6:25<br>
-                    <b>Saturdays</b> 2:30 &ndash; 3:25<br>
+                    <b>Mondays</b> 5:30 &ndash; 6:30<br>
+                    <b>Saturdays</b> 2:30 &ndash; 3:30<br>
                     Teacher: Ransford<br>
                     8 classes for $235<br>
                     <a href="https://winter-24-beginner-python-part1.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
@@ -43,31 +43,31 @@ header = "Fifth Grade Classes"
                 </div>
                 <div>
                     <b><a href="/class/math/challenging-math">Challenging Math Problems</a></b></br>
-                    <b>Fridays</b> 5:00 &ndash; 5:55<br>
+                    <b>Fridays</b> 5:00 &ndash; 6:00<br>
                     Teacher: Nora<br>
                     4 classes for $115<br>
                     <a href="https://winter-24-fifth-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
                     <a href="/class/math/math-olympiad/"><b>Math Olympiad</b></a><br>
-                    <b>Saturdays</b> 12:30 &ndash; 1:25<br>
+                    <b>Saturdays</b> 12:30 &ndash; 1:30<br>
                     Teacher: Charlie<br>
                     20 classes for $495<br>
                     <a href="https://competition-math-grades-4-to-6.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
-                <div>
+                <!-- <div>
                     <a href="/class/math/amc-coach/"><b>AMC 8 Problems</b></a><br>
-                    <b>Saturdays</b> 2:30 &ndash; 3:25<br>
+                    <b>Saturdays</b> 2:30 &ndash; 3:30<br>
                     Teacher: Charlie<br>
                     10 classes for $245<br>
                     <a href="https://competition-math-amc8.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
-                </div>
+                </div> -->
                 <div>
                     <a href="/class/coding/computational-thinking-spike"><b>Coding and Lego Robotics</b></a> <br>
                     <b>Saturdays</b> 3:30 &ndash; 5:00<br>
-                    Teacher: TBD<br>
+                    Teacher: Nora<br>
                     8 classes for $295<br>
                     <a href="https://winter-24-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -81,7 +81,7 @@ header = "Fifth Grade Classes"
                 </div>
                 <div>
                     <a href="/class/coding/middle-school-python"><b>Python 2</b></a></br>
-                    <b>Sundays</b> 1:00 &mdash; 1:55<br>
+                    <b>Sundays</b> 1:00 &mdash; 2:00<br>
                     Teacher: Jared<br>
                     8 classes for $235<br>
                     <a href="https://winter-24-python-part2.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>

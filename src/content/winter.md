@@ -79,7 +79,7 @@ header = "Winter 24 Classes"
                 <div class="grK2shade" style="grid-area: class1;">
                     <a href="/class/coding/kids-block-coding"><b>Block Coding</b></a><br>
                         Grades 1 &ndash; 2<br>
-                        Teacher: TBD<br> 
+                        Teacher: Jared<br> 
                         <a href="https://winter-24-block-coding.cheddarup.com" class="btn-small">
                                 <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -96,7 +96,7 @@ header = "Winter 24 Classes"
                 <div class="gr78shade" style="grid-area: class4;">
                     <a href="/class/coding/python"><b>Python 1</b></a></br>
                     Grades 7 &ndash; 8<br> 
-                    Teacher: TBD<br>
+                    Teacher: Jared<br>
                     <a href="https://winter-24-advanced-python-part1.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr35shade" style="grid-area: class5;">
@@ -113,7 +113,7 @@ header = "Winter 24 Classes"
                 <div class="chessshade" style="grid-area: class1;">
                     <b><a href="/chess">Charlotesville Kids' Chess Club</a></b></br>
                     Grades K &ndash; 8<br> 
-                    Teacher: Tex<br>
+                    Teacher: Tex, Jared, Nora<br>
                     <a href="https://charlottesville-kids-chess-club.cheddarup.com/"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
             </div>
@@ -158,6 +158,8 @@ header = "Winter 24 Classes"
                         <a href="https://winter-24-fifth-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div style="grid-area: time6;"><b>5:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>6:00</div>
+                <div style="grid-area: time7;"><b>6:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>6:30</div>
+                <div style="grid-area: time8;"><b>6:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>7:00</div>
             </div>
             <!-- saturday -->
             <div class="saturday" style="grid-area: saturday;">
@@ -214,27 +216,27 @@ header = "Winter 24 Classes"
                 <div class="gr56shade" style="grid-area: class7;">
                     <a href="/class/coding/middle-school-python"><b>Python 1</b></a></br>
                         Grades 5 &ndash; 6<br> 
-                        Teacher: <a href="/instructor#ransford">Ransford</a><br>
+                        Teacher: <a href="/instructor#ransford">Ransford</a> and Cyrus<br>
                         <a href="https://winter-24-beginner-python-part1.cheddarup.com">
                                 <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
-                <div class="gr68shade" style="grid-area: class8;">
+                <!-- <div class="gr68shade" style="grid-area: class8;">
                     <a href="/class/math/amc-coach/"><b>AMC 8 Practice</b></a><br>
                     Grades 5 &ndash; 8<br> 
                     Teacher: <a href="/instructor#charlie">Charlie<br>
                     <a href="https://competition-math-amc8.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
-                </div>
+                </div> -->
                 <div class="gr35shade" style="grid-area: class9;">
                     <a href="/class/coding/computational-thinking-spike"><b>Coding and Lego Robotics</b></a> <br>
                     Grades 3 &ndash; 5<br> 
-                    Teacher: TBD<br>
+                    Teacher: Nora<br>
                 <a href="https://winter-24-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div style="grid-area: class10;">
-                    <a href="/class/coding/fll-explore"><b>FLL Expore</b></a></br>
+                    <a href="/class/coding/fll-explore"><b>FLL Explore</b></a></br>
                     Grades 1 &ndash; 4. <br> 
-                            Teachers: Ransford and Nora.<br>
+                            Teachers: Ransford and Cyrus.<br>
                             Sign-up closed.
                 </div>
                 <div class="grshade" style="grid-area: t1;"><b><a href="/tutoring">Math Tutoring</a></b></div>
@@ -285,14 +287,14 @@ header = "Winter 24 Classes"
                     <a href="https://winter-24-python-part2.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div style="grid-area: class5;">
-                    <a href="/class/coding/fll-explore"><b>FLL Expore</b></a></br>
+                    <a href="/class/coding/fll-explore"><b>FLL Explore</b></a></br>
                     Grades 1 &ndash; 4</span>. <br> 
-                    Teachers: Ransford, Jared, and Nora.<br>
+                    Teachers: Ransford, Jared, and Cyrus.<br>
                     Sign-up closed.
                 </div>
                 <div style="grid-area: class6;">
                     <p><a href="/class/coding/fll-challenge"><b>Intro to FLL Challenge</b></a><br>
-                    Teachers: Ransford, and Nora.<br>
+                    Teachers: Ransford, and Cyrus.<br>
                     Sign-up closed.</p>
                 </div>
                 <div class="gr68shade" style="grid-area: class7;">
@@ -305,7 +307,7 @@ header = "Winter 24 Classes"
                 <div class="grK2shade" style="grid-area: class8;">
                     <a href="/class/coding/fundamentals-coding-spike"><b>Fundamentals of Coding</b></a></br>
                     Grades K &ndash; 2<br>
-                    Teacher: TBD<br>
+                    Teacher: Ransford<br>
                     <a href="https://fundamentals-of-coding-with-lego-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
             </div>

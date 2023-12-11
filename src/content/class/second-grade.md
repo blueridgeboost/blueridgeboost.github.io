@@ -28,7 +28,7 @@ header = "Second Grade Classes"
                 </div>
                 <div>
                     <b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
-                    <b>Friday</b> 4:00 &mdash; 4:55<br>
+                    <b>Friday</b> 4:00 &mdash; 5:00<br>
                     Teacher: Nora<br>
                     <a href="https://winter-24-second-grade.cheddarup.com">
                         <button class="button-8s" role="button">Sign Up</button></a>
@@ -43,7 +43,7 @@ header = "Second Grade Classes"
                 <div>
                     <a href="/class/coding/fundamentals-coding-spike"><b>Fundamentals of Coding</b></a></br>
                     <b>Sunday</b> 4:00 &mdash; 5:30<br>
-                    Teacher: TBD<br>
+                    Teacher: Ransford<br>
                     <a href="https://fundamentals-of-coding-with-lego-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>  
                 </div>
             </div>
