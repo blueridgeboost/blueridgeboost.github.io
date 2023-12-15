@@ -20,14 +20,15 @@ header = "Third Grade Classes"
             <div class="d-flex flex-wrap justify-content-evenly gap-3">
                 <div>
                     <a href="/class/coding/tweens-coffee-script"><b>Coffee Script 1</b></a> <br>
-                    <b>Monday</b> 4:30 &mdash; 5:30<br>
+                    <b>Monday</b> 4:30 &mdash; 5:30 or<br>
                     <b>Saturday</b> 1:30 &mdash; 2:30<br>
                     Teacher: Ransford<br>
                     <a href="https://winter-24-coffee-script-part1.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
                     <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
-                    <b>Monday</b> 4:30 &ndash; 6:00<br>
+                    <b>Monday</b> 4:30 &ndash; 6:00 or<br>
+                    <b>Friday</b> 4:30 &ndash; 6:00<br>
                     Teacher: Saumya<br>
                         <a href="https://winter-24-vexiq.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>

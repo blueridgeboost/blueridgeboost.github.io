@@ -157,6 +157,13 @@ header = "Winter 24 Classes"
                         Teacher: <a href="/instructor#saumya">Nora</a><br>
                         <a href="https://winter-24-fifth-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
+                <div class="gr35shade" style="grid-area: class6;">
+                    <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
+                        Grades 3&ndash;6<br>
+                        Teacher: <a href="/instructor#ransford">Ransford</a><br>
+                        <a href="https://winter-24-vexiq.cheddarup.com">
+                        <button class="button-8s" role="button">Sign Up</button></a>
+                </div>
                 <div style="grid-area: time6;"><b>5:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>6:00</div>
                 <div style="grid-area: time7;"><b>6:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>6:30</div>
                 <div style="grid-area: time8;"><b>6:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>7:00</div>
@@ -182,6 +189,13 @@ header = "Winter 24 Classes"
                     <a href="/class/coding/lego-wedo"><b>Intro to Robotics</b></a><br>
                         Grades K &ndash; 1<br> 
                         Teacher: <a href="/instructor#ransford">Ransford</a><br>
+                        <a href="https://winter-24-lego-wedo.cheddarup.com" class="btn-small">
+                        <button class="button-8s" role="button">Sign Up</button></a>
+                </div>
+                <div class="grK2shade" style="grid-area: class11;">
+                    <a href="/class/coding/lego-wedo"><b>Intro to Robotics</b></a><br>
+                        Grades K &ndash; 1<br> 
+                        Teacher: <a href="/instructor#ransford">TBD</a><br>
                         <a href="https://winter-24-lego-wedo.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -267,6 +281,12 @@ header = "Winter 24 Classes"
                         <a href="https://winter-24-scratch.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
+                <div class="grK2shade" style="grid-area: class9;">
+                    <a href="/class/coding/scratch"><b>Scratch</b></a><br>
+                        Grades 1 &ndash; 2. Teacher: TBD.<br> 
+                        <a href="https://winter-24-scratch.cheddarup.com" class="btn-small">
+                        <button class="button-8s" role="button">Sign Up</button></a>
+                </div>
                 <div class="gr35shade" style="grid-area: class2;">
                     <a href="/class/coding/tweens-coffee-script"><b>Coffee Script 2</b></a> <br>
                     Grades 3&ndash;5<br>
@@ -295,7 +315,7 @@ header = "Winter 24 Classes"
                 <div style="grid-area: class6;">
                     <p><a href="/class/coding/fll-challenge"><b>Intro to FLL Challenge</b></a><br>
                     Teachers: Ransford, and Cyrus.<br>
-                    Sign-up closed.</p>
+                    Sign-up closed.</p> 
                 </div>
                 <div class="gr68shade" style="grid-area: class7;">
                     <p><a href="/class/coding/python-spike/"><b>Python for Robotics</b></a></br>

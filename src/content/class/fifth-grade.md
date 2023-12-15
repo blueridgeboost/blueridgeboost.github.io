@@ -20,7 +20,7 @@ header = "Fifth Grade Classes"
             <div class="d-flex flex-wrap justify-content-evenly gap-3">
                 <div>
                     <a href="/class/coding/tweens-coffee-script"><b>Coffee Script 1</b></a> <br>
-                    <b>Mondays</b> 4:30 &ndash; 5:30<br>
+                    <b>Mondays</b> 4:30 &ndash; 5:30 or<br>
                     <b>Saturdays</b> 1:30 &ndash; 2:30<br>
                     Teacher: Ransford<br>
                     8 classes for $235<br>
@@ -28,7 +28,7 @@ header = "Fifth Grade Classes"
                 </div>
                 <div>
                     <a href="/class/coding/middle-school-python"><b>Python 1</b></a></br>
-                    <b>Mondays</b> 5:30 &ndash; 6:30<br>
+                    <b>Mondays</b> 5:30 &ndash; 6:30 or<br>
                     <b>Saturdays</b> 2:30 &ndash; 3:30<br>
                     Teacher: Ransford<br>
                     8 classes for $235<br>
@@ -36,7 +36,8 @@ header = "Fifth Grade Classes"
                 </div>
                 <div>
                     <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
-                    <b>Mondays</b> 4:30 &ndash; 6:00<br>
+                    <b>Mondays</b> 4:30 &ndash; 6:00 or<br>
+                    <b>Friday</b> 4:30 &ndash; 6:00<br>
                     Teacher: Saumya<br>
                     8 classes for $295<br>
                         <a href="https://winter-24-vexiq.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>

@@ -475,11 +475,11 @@ div.row.dark-row {
     "time1 class1 . . " 
     "time2 class1 . . " 
     "time3 class2 class3 ."
-    "time4 class2 class3 ."
-    "time5 class5 class3 ."
-    "time6 class5 class3 class4"
-    "time7 . . class4"
-    "time8 . . class4";   
+    "time4 class2 class3 class6"
+    "time5 class5 class3 class6"
+    "time6 class5 class4 class6"
+    "time7 . class4 ."
+    "time8 . class4 .";   
 }
 
 .saturday { 
@@ -492,7 +492,7 @@ div.row.dark-row {
   grid-template-areas: 
     "day day day day"
     "time1 class1 t1 t1" 
-    "time2 class2 t2 t2" 
+    "time2 class2 class11 t2" 
     "time3 class3 class4 t3"
     "time4 class5 class6 t4"
     "time5 class7 t5 t5"
@@ -508,7 +508,7 @@ div.row.dark-row {
   gap: 5px 5px;
   grid-template-areas: 
     "day day day day"
-    "time1 class1 t1 t1" 
+    "time1 class1 class9 t1" 
     "time2 class2 t2 t2" 
     "time3 class3 t3 t3"
     "time4 class4 t4 t4"
