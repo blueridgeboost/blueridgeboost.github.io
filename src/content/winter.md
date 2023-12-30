@@ -113,7 +113,7 @@ header = "Winter 24 Classes"
                 <div class="chessshade" style="grid-area: class1;">
                     <b><a href="/chess">Charlotesville Kids' Chess Club</a></b></br>
                     Grades K &ndash; 8<br> 
-                    Teacher: Tex, Jared, Nora<br>
+                    Teacher: Tex, Nora<br>
                     <a href="https://charlottesville-kids-chess-club.cheddarup.com/"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
             </div>
@@ -230,7 +230,7 @@ header = "Winter 24 Classes"
                 <div class="gr56shade" style="grid-area: class7;">
                     <a href="/class/coding/middle-school-python"><b>Python 1</b></a></br>
                         Grades 5 &ndash; 6<br> 
-                        Teacher: <a href="/instructor#ransford">Ransford</a> and Cyrus<br>
+                        Teacher: <a href="/instructor#ransford">Ransford</a><br>
                         <a href="https://winter-24-beginner-python-part1.cheddarup.com">
                                 <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
