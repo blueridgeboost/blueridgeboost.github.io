@@ -37,7 +37,7 @@ header = "Winter 24 Classes"
                 <div class="gr35shade" style="grid-area: class1;">
                     <a href="/class/coding/tweens-coffee-script"><b>Coffee Script 1</b></a> <br>
                     Grades 3&ndash;5<br>
-                    Teacher: <a href="/instructor#ransford">Ransford</a><br>
+                    Teacher: <a href="/instructor#jared">Jared</a><br>
                     <a href="https://winter-24-coffee-script-part1.cheddarup.com">
                     <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -60,7 +60,7 @@ header = "Winter 24 Classes"
                 <div class="gr56shade" style="grid-area: class4;">
                     <a href="/class/coding/middle-school-python"><b>Python 1</b></a></br>
                     Grades 5 &ndash; 6<br>
-                    Teacher: <a href="/instructor#ransford">Ransford</a><br>
+                    Teacher: <a href="/instructor#jared">Jared</a><br>
                     <a href="https://winter-24-beginner-python-part1.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
             </div>
@@ -79,7 +79,7 @@ header = "Winter 24 Classes"
                 <div class="grK2shade" style="grid-area: class1;">
                     <a href="/class/coding/kids-block-coding"><b>Block Coding</b></a><br>
                         Grades 1 &ndash; 2<br>
-                        Teacher: Jared<br> 
+                        Teacher: <a href="/instructor#jared">Jared</a><br>
                         <a href="https://winter-24-block-coding.cheddarup.com" class="btn-small">
                                 <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -96,7 +96,7 @@ header = "Winter 24 Classes"
                 <div class="gr78shade" style="grid-area: class4;">
                     <a href="/class/coding/python"><b>Python 1</b></a></br>
                     Grades 7 &ndash; 8<br> 
-                    Teacher: Jared<br>
+                    Teacher: <a href="/instructor#jared">Jared</a><br>
                     <a href="https://winter-24-advanced-python-part1.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr35shade" style="grid-area: class5;">
@@ -142,13 +142,13 @@ header = "Winter 24 Classes"
                     Teacher: <a href="/instructor#ransford">Ransford</a><br>
                     <a href="https://friday-make-up.cheddarup.com/"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
-                <div class="gr78shade" style="grid-area: class4;">
+                <!-- <div class="gr78shade" style="grid-area: class4;">
                     <a href="/class/coding/c++vexv5"><b>C++ with the VexV5 robot</b></a> <br>
                         Grades 7&ndash;8<br>
                         Teacher: <a href="/instructor#saumya">Saumya</a><br>
                         <a href="https://winter-24-vexv5.cheddarup.com">
                         <button class="button-8s" role="button">Sign Up</button></a>
-                </div>
+                </div> -->
                 <div style="grid-area: time4;"><b>4:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>5:00</div>
                 <div style="grid-area: time5;"><b>5:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>5:30</div>
                 <div class="gr35shade" style="grid-area: class5;">
@@ -160,13 +160,13 @@ header = "Winter 24 Classes"
                 <div class="gr35shade" style="grid-area: class6;">
                     <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
                         Grades 3&ndash;6<br>
-                        Teacher: <a href="/instructor#ransford">Ransford</a><br>
+                        Teacher: <a href="/instructor#saumya">Saumya</a><br>
                         <a href="https://winter-24-vexiq.cheddarup.com">
                         <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div style="grid-area: time6;"><b>5:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>6:00</div>
-                <div style="grid-area: time7;"><b>6:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>6:30</div>
-                <div style="grid-area: time8;"><b>6:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>7:00</div>
+                <!-- <div style="grid-area: time7;"><b>6:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>6:30</div>
+                <div style="grid-area: time8;"><b>6:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>7:00</div> -->
             </div>
             <!-- saturday -->
             <div class="saturday" style="grid-area: saturday;">
@@ -195,7 +195,7 @@ header = "Winter 24 Classes"
                 <div class="grK2shade" style="grid-area: class11;">
                     <a href="/class/coding/lego-wedo"><b>Intro to Robotics</b></a><br>
                         Grades K &ndash; 1<br> 
-                        Teacher: <a href="/instructor#ransford">TBD</a><br>
+                        Teacher: <a href="/instructor#cyrus">Cyrus</a><br>
                         <a href="https://winter-24-lego-wedo.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -283,7 +283,7 @@ header = "Winter 24 Classes"
                 </div>
                 <div class="grK2shade" style="grid-area: class9;">
                     <a href="/class/coding/scratch"><b>Scratch</b></a><br>
-                        Grades 1 &ndash; 2. Teacher: TBD.<br> 
+                        Grades 1 &ndash; 2. Teacher: Cyrus.<br> 
                         <a href="https://winter-24-scratch.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -309,12 +309,12 @@ header = "Winter 24 Classes"
                 <div style="grid-area: class5;">
                     <a href="/class/coding/fll-explore"><b>FLL Explore</b></a></br>
                     Grades 1 &ndash; 4</span>. <br> 
-                    Teachers: Ransford, Jared, and Cyrus.<br>
+                    Teachers: Ransford, and Jared.<br>
                     Sign-up closed.
                 </div>
                 <div style="grid-area: class6;">
                     <p><a href="/class/coding/fll-challenge"><b>Intro to FLL Challenge</b></a><br>
-                    Teachers: Ransford, and Cyrus.<br>
+                    Teachers: Ransford, and Jared.<br>
                     Sign-up closed.</p> 
                 </div>
                 <div class="gr68shade" style="grid-area: class7;">
