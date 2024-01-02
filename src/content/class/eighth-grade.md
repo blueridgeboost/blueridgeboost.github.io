@@ -35,7 +35,7 @@ header = "Eighth Grade Classes"
                     <a href="https://winter-24-advanced-python-part1.cheddarup.com">
                                 <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
-                <div>
+                <!-- <div>
                     <a href="/class/coding/c++vexv5"><b>C++ with the VexV5 robot</b></a> <br>
                         <b>Fridays</b> 5:30 &mdash; 7:00<br>
                         Teacher: <a href="/instructor#saumya">Saumya</a><br>
@@ -50,7 +50,7 @@ header = "Eighth Grade Classes"
                     20 classes for $495<br>
                     <a href="https://competition-math-grades-6-to-6.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
-                </div>
+                </div> -->
                 <!-- <div>
                     <a href="/class/math/amc-coach/"><b>AMC 8 Problems</b></a><br>
                     <b>Saturdays</b> 2:30 &ndash; 3:30<br>

@@ -34,14 +34,14 @@ header = "Sixth Grade Classes"
                     8 classes for $295<br>
                         <a href="https://winter-24-vexiq.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
-                <div>
+                <!-- <div>
                     <a href="/class/math/math-olympiad/"><b>Math Olympiad</b></a><br>
                     <b>Saturdays</b> 1:30 &ndash; 2:30<br>
                     Teacher: Charlie<br>
                     20 lessons for $495<br>
                     <a href="https://competition-math-grades-6-to-6.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
-                </div>
+                </div> -->
                 <!-- <div>
                     <a href="/class/math/amc-coach/"><b>AMC 8 Problems</b></a><br>
                     <b>Saturdays</b> 2:30 &ndash; 3:30<br>

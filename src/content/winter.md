@@ -53,8 +53,9 @@ header = "Winter 24 Classes"
                     <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
                         Grades 3&ndash;6<br>
                         Teacher: <a href="/instructor#saumya">Saumya</a><br>
-                        <a href="https://winter-24-vexiq.cheddarup.com">
-                        <button class="button-8s" role="button">Sign Up</button></a>
+                        No spots left! Please join the Friday class.
+                        <!-- <a href="https://winter-24-vexiq.cheddarup.com">
+                        <button class="button-8s" role="button">Sign Up</button></a> -->
                 </div>
                 <div style="grid-area: time4;"><b>6:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>6:30</div>
                 <div class="gr56shade" style="grid-area: class4;">
@@ -209,9 +210,10 @@ header = "Winter 24 Classes"
                 <div class="gr35shade" style="grid-area: class4;">
                     <a href="/class/math/math-olympiad/"><b>Math Olympiad</b></a><br>
                         Grades 3 &ndash; 6 <br> 
-                        Teacher: <a href="/instructor#charlie">Charlie<br>
-                        <a href="https://competition-math-grades-4-to-6.cheddarup.com" class="btn-small">
-                        <button class="button-8s" role="button">Sign Up</button></a>
+                        Teacher: <a href="/instructor#charlie">Charlie</a><br>
+                        Signup closed.
+                        <!-- <a href="https://competition-math-grades-4-to-6.cheddarup.com" class="btn-small">
+                        <button class="button-8s" role="button">Sign Up</button></a> -->
                 </div>
                 <div class="gr35shade" style="grid-area: class5;">
                     <a href="/class/coding/tweens-coffee-script"><b>Coffee Script 1</b></a> <br>
@@ -223,9 +225,10 @@ header = "Winter 24 Classes"
                 <div class="gr68shade" style="grid-area: class6;">
                     <a href="/class/math/math-olympiad/"><b>Math Olympiad</b></a><br>
                         Grades 6 &ndash; 8<br> 
-                        Teacher: <a href="/instructor#charlie">Charlie<br>
-                        <a href="https://competition-math-grades-6-to-8.cheddarup.com" class="btn-small">
-                        <button class="button-8s" role="button">Sign Up</button></a>
+                        Teacher: <a href="/instructor#charlie">Charlie</a><br>
+                        Signup closed.
+                        <!-- <a href="https://competition-math-grades-6-to-8.cheddarup.com" class="btn-small">
+                        <button class="button-8s" role="button">Sign Up</button></a> -->
                 </div>
                 <div class="gr56shade" style="grid-area: class7;">
                     <a href="/class/coding/middle-school-python"><b>Python 1</b></a></br>
