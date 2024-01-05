@@ -121,19 +121,19 @@ header = "Winter 24 Classes"
             <!-- Friday -->
             <div class="friday" style="grid-area: friday;">
                 <div class="daybar" style="grid-area: day;"><a id="friday">Friday</a></div>
-                <div style="grid-area: time1;"><b>3:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>3:30</div>
+                <!-- <div style="grid-area: time1;"><b>3:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>3:30</div>
                 <div class="grK2shade" style="grid-area: class1;">
                     <b><a href="/class/math/challenging-math">Challenging Problems</a></b><br>
                         Grade 1<br>
                         Teacher: <a href="/instructor#nora">Nora</a><br>
                         <a href="https://winter-24-first-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
-                <div style="grid-area: time2;"><b>3:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>4:00</div>
+                <div style="grid-area: time2;"><b>3:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>4:00</div> -->
                 <!-- 4:00 -->
                 <div style="grid-area: time3;"><b>4:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>4:30</div>
                 <div class="grK2shade" style="grid-area: class2;">
                     <b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
-                        Grade 2<br>
+                        Grades 1 and 2<br>
                         Teacher: <a href="/instructor#saumya">Nora</a><br>
                         <a href="https://winter-24-second-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
