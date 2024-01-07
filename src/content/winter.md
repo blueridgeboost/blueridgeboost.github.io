@@ -35,14 +35,6 @@ header = "Winter 24 Classes"
                 <div class="daybar" style="grid-area: day;"><a id="monday">Monday</a></div>
                 <div style="grid-area: time1;"><b>4:30</b><span class="above-md">&ndash;5:00</span></div>
                 <div style="grid-area: time2;"><b>5:00</b><span class="above-md">&ndash;5:30</span></div>
-                <div class="gr35shade" style="grid-area: class1;">
-                    <a href="/class/coding/tweens-coffee-script"><b>Coffee Script 1</b></a> <br>
-                    Grades 3&ndash;5<br>
-                    Teacher: <a href="/instructor#jared">Jared</a><br>
-                    Starts on January 8.<br>
-                    <a href="https://winter-24-coffee-script-part1.cheddarup.com">
-                    <button class="button-8s" role="button">Sign Up</button></a>
-                </div>
                 <div style="grid-area: time3;"><b>5:30</b><span class="above-md">&ndash;6:00</span></div>
                 <div class="gr78shade" style="grid-area: class2;">
                         <b><a href="/class/math/geometry/"> Geometry </a> </b></br>
@@ -55,18 +47,9 @@ header = "Winter 24 Classes"
                 <div class="gr35shade" style="grid-area: class3;">
                     <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
                         Grades 3&ndash;6<br>
-                        Teacher: <a href="/instructor#saumya">Saumya</a><br>
-                        <b>Starts on January 15.</b>
-                        <!-- <a href="https://winter-24-vexiq.cheddarup.com">
-                        <button class="button-8s" role="button">Sign Up</button></a> -->
-                </div>
-                <div style="grid-area: time4;"><b>6:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>6:30</div>
-                <div class="gr56shade" style="grid-area: class4;">
-                    <a href="/class/coding/middle-school-python"><b>Python 1</b></a></br>
-                    Grades 5 &ndash; 6<br>
-                    Teacher: <a href="/instructor#jared">Jared</a><br>
-                    Starts on January 8.<br>
-                    <a href="https://winter-24-beginner-python-part1.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
+                        Teachers: <a href="/instructor#saumya">Saumya</a> and Jared<br>
+                        <b>Starts on January 15.</b><br>
+                        Sign-up closed.
                 </div>
             </div>
             <!-- Tuesday -->
@@ -314,7 +297,7 @@ header = "Winter 24 Classes"
                     <a href="/class/coding/tweens-coffee-script"><b>Coffee Script 2</b></a> <br>
                     Grades 3&ndash;5<br>
                     Teacher: <a href="/instructor#jared">Jared</a><br>
-                    Starts on January 7.<br>
+                    <b>Starts on January 15.</b><br>
                     <a href="https://winter-24-coffee-script-part2.cheddarup.com">
                     <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
