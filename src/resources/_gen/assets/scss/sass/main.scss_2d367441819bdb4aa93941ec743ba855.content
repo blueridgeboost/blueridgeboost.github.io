@@ -8356,7 +8356,7 @@ div.row.dark-row {
   grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
   grid-template-rows: 2em auto;
   gap: 5px 5px;
-  grid-template-areas: "day day day day" "time1 class1 class2 class3" "time2 class1 class2 class3" "time3 class4 class2 class3" "time4 class4 . .";
+  grid-template-areas: "day day day day" "time1 class2 class3 class3" "time2 class2 class3 class3" "time3 class2 class3 class3";
 }
 
 .tuesday {
