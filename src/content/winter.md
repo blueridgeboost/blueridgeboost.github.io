@@ -11,7 +11,7 @@ header = "Winter 24 Classes"
     <div class="row  justify-content-center">
         <div class="col-12 p-2 darknote">
             <center>
-            <div style="color:rgb(234, 181, 181)">Due to the "winter storm" on January 6 and some issues with the space we are working diligently to address the start date of some classes moved a week later. The new start days are marked in bold.</div>
+            <div>Due to the "winter storm" on January 6 and some issues with the office space some classes start date moved a week later. </div>
             <!-- Classes run from January 3 to February 25. <span class="below-md"><br></span> -->
             Try any class for two weeks for only $50. <span class="below-md"><br></span>
             Eight 60-minute classes for $235, 90-minute for $295. <br>
@@ -40,7 +40,7 @@ header = "Winter 24 Classes"
                         <b><a href="/class/math/geometry/"> Geometry </a> </b></br>
                         Grades 7 &ndash; 8<br>
                         Teacher: <a href="/instructor#nora">Nora</a><br>
-                        Starts on January 8.<br>
+                        Started on January 8.<br>
                         <a href="https://winter-24-geometry.cheddarup.com">
                         <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -68,7 +68,7 @@ header = "Winter 24 Classes"
                     <a href="/class/coding/kids-block-coding"><b>Block Coding</b></a><br>
                         Grades 1 &ndash; 2<br>
                         Teacher: <a href="/instructor#jared">Jared</a><br>
-                        Starts on January 3.<br>
+                        Started on January 3.<br>
                         <a href="https://winter-24-block-coding.cheddarup.com" class="btn-small">
                                 <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -76,7 +76,7 @@ header = "Winter 24 Classes"
                     <b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
                         Grade 3<br>
                         Teacher: <a href="/instructor#nora">Nora</a><br>
-                        Starts on January 3.<br>
+                        Started on January 3.<br>
                         <a href="https://winter-24-third-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="grshade" style="grid-area: class3;">
@@ -87,14 +87,14 @@ header = "Winter 24 Classes"
                     <a href="/class/coding/python"><b>Python 1</b></a></br>
                     Grades 7 &ndash; 8<br> 
                     Teacher: <a href="/instructor#jared">Jared</a><br>
-                    Starts on January 3.<br>
+                    Started on January 3.<br>
                     <a href="https://winter-24-advanced-python-part1.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr35shade" style="grid-area: class5;">
                     <b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
                     Grade 4 <br> 
                     Teacher: <a href="/instructor#nora">Nora</a><br>
-                    Starts on January 3.<br>
+                    Started on January 3.<br>
                     <a href="https://winter-24-fourth-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
             </div>
@@ -297,7 +297,7 @@ header = "Winter 24 Classes"
                     <a href="/class/coding/tweens-coffee-script"><b>Coffee Script 2</b></a> <br>
                     Grades 3&ndash;5<br>
                     Teacher: <a href="/instructor#jared">Jared</a><br>
-                    <b>Starts on January 15.</b><br>
+                    <b>Starts on January 14.</b><br>
                     <a href="https://winter-24-coffee-script-part2.cheddarup.com">
                     <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -305,14 +305,14 @@ header = "Winter 24 Classes"
                     <a href="/class/coding/python"><b>Python 2</b></a></br>
                     Grades 7 &ndash; 8<br>. 
                     Teacher: Jared<br>
-                    Starts on January 7.<br>
+                    Starts on January 14.<br>
                     <a href="https://winter-24-advanced-python-part2.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr56shade" style="grid-area: class4;">
                     <a href="/class/coding/python"><b>Python 2</b></a></br>
                     Grades 5 &ndash; 6<br>. 
                     Teacher: Jared<br>
-                    Starts on January 7.<br>
+                    Starts on January 14.<br>
                     <a href="https://winter-24-python-part2.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div style="grid-area: class5;">
@@ -331,7 +331,7 @@ header = "Winter 24 Classes"
                             Class ends 5:30 pm<br>
                             Grades 6 to 8. <br>
                             Teacher: Nora.<br>
-                            Starts on January 7.<br>
+                            Starts on January 14.<br>
                             <a href="https://winter-24-python-spike.cheddarup.com">
   <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -339,7 +339,7 @@ header = "Winter 24 Classes"
                     <a href="/class/coding/fundamentals-coding-spike"><b>Fundamentals of Coding</b></a></br>
                     Grades K &ndash; 2<br>
                     Teacher: Ransford<br>
-                    <b>Starts on January 15.</b><br>
+                    <b>Starts on January 14.</b><br>
                     <a href="https://fundamentals-of-coding-with-lego-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
             </div>
