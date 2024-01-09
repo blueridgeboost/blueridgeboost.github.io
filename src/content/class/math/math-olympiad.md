@@ -16,16 +16,16 @@ header = "Math Olympiad in Charlottesville"
                         <p><a href="/class/math/math-olympiad/"><b>Math Olympiad for Elementary School (grades 4,  5, and 6)</b></a><br>
                         Saturdays 12:30 to 1:20, ending March 31.  20 lessons for $495. <br>
                         Advanced third graders are also welcome.<br>
-                        <a href="https://competition-math-grades-4-to-6.cheddarup.com" class="btn-small">
-                        <button class="button-8" role="button">Sign Up</button></a>
+                        <!-- <a href="https://competition-math-grades-4-to-6.cheddarup.com" class="btn-small">
+                        <button class="button-8" role="button">Sign Up</button></a> -->
                         </p>
                     </div>
                     <div class="col-sm">
                         <p><a href="/class/math/math-olympiad/"><b>Math Olympiad for Middle School (grades 6,7, and 8)</b></a><br>
                         Saturdays 1:30 to 2:20, ending March 31. 20 lessons for $495.<br>
                         Advanced fifth graders are also welcome.<br>
-                        <a href="https://competition-math-grades-6-to-8.cheddarup.com" class="btn-small">
-                        <button class="button-8" role="button">Sign Up</button></a>
+                        <!-- <a href="https://competition-math-grades-6-to-8.cheddarup.com" class="btn-small">
+                        <button class="button-8" role="button">Sign Up</button></a> -->
                         </p>
                     </div>
                 </div>
