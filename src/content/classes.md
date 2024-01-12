@@ -12,11 +12,11 @@ header = "Winter 24 Classes"
     <div class="row  justify-content-center">
         <div class="col-12 p-2 darknote">
             <center>
-            <div>Due to the "winter storm" on January 6 and some issues with the office space some classes' start date moved a week later. </div>
+            <div>Sign-up is closed. We will start more classes once we move to a bigger space, hopefully February 1.</div>
             <!-- Classes run from January 3 to February 25. <span class="below-md"><br></span> -->
-            Try any class for two weeks for only $50. <span class="below-md"><br></span>
+            <!-- Try any class for two weeks for only $50. <span class="below-md"><br></span>
             Eight 60-minute classes for $235, 90-minute for $295. <br>
-            <a href="/discounts">Discounts</a> available for multiple classes and for sibligs.
+            <a href="/discounts">Discounts</a> available for multiple classes and for sibligs. -->
             </center>
         </div>
         <div class="col-12 p-2">
