@@ -486,11 +486,11 @@ div.row.dark-row {
   gap: 5px 5px;
   grid-template-areas: 
     "day day day day"
-    "time1 class1 t1 t1" 
-    "time2 class2 t2 t2" 
+    "time1 class1 class1 t1" 
+    "time2 class2 class2 t2" 
     "time3 class3 class4 t3"
     "time4 class5 class6 t4"
-    "time5 class7 t5 t5"
+    "time5 class7 class7 t5"
     "time6 class9 class10 class10"
     "time7 class9 . . ";
 }
@@ -503,7 +503,7 @@ div.row.dark-row {
   gap: 5px 5px;
   grid-template-areas: 
     "day day day day"
-    "time1 class1 class9 t1" 
+    "time1 class1 class1 t1" 
     "time2 class2 t2 t2" 
     "time3 class3 t3 t3"
     "time4 class4 t4 t4"

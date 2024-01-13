@@ -26,7 +26,6 @@ header = "Winter 24 Classes"
                 Classes by day of the week: <a href="#monday">Monday</a>, <a href="#tuesday">Tuesday</a>, <a href="#wednesday">Wednesday</a>,  <a href="#thursday">Thursday</a>,  <a href="#friday">Friday</a>,  <a href="#saturday">Saturday</a>,  <a href="#sunday">Sunday</a>.
             </span>
             </center>
-            <!-- <p></br><p> -->
         </div>
     </div>
     <div class="row">
@@ -37,14 +36,6 @@ header = "Winter 24 Classes"
                 <div style="grid-area: time1;"><b>4:30</b><span class="above-md">&ndash;5:00</span></div>
                 <div style="grid-area: time2;"><b>5:00</b><span class="above-md">&ndash;5:30</span></div>
                 <div style="grid-area: time3;"><b>5:30</b><span class="above-md">&ndash;6:00</span></div>
-                <!-- <div class="gr78shade" style="grid-area: class2;">
-                        <b><a href="/class/math/geometry/"> Geometry </a> </b></br>
-                        Grades 7 &ndash; 8<br>
-                        Teacher: <a href="/instructor#nora">Nora</a><br>
-                        Started on January 8.<br>
-                        <a href="https://winter-24-geometry.cheddarup.com">
-                        <button class="button-8s" role="button">Sign Up</button></a>
-                </div> -->
                 <div class="gr35shade" style="grid-area: class3;">
                     <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
                         Grades 3&ndash;6<br>
@@ -69,17 +60,14 @@ header = "Winter 24 Classes"
                     <a href="/class/coding/kids-block-coding"><b>Block Coding</b></a><br>
                         Grades 1 &ndash; 2<br>
                         Teacher: <a href="/instructor#jared">Jared</a><br>
-                        Started on January 3.<br>
-                        <!-- <a href="https://winter-24-block-coding.cheddarup.com" class="btn-small">
-                                <button class="button-8s" role="button">Sign Up</button></a> -->
-                        Sign-up closed.
+                        <a href="https://winter-24-block-coding.cheddarup.com" class="btn-small">
+                                <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr35shade" style="grid-area: class2;">
                     <b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
                         Grade 3<br>
                         Teacher: <a href="/instructor#nora">Nora</a><br>
-                        Started on January 3.<br>
-                        Sign-up closed.
+                        <a href="https://winter-24-third-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>    
                 </div>
                 <div class="grshade" style="grid-area: class3;">
                     <b><a href="/tutoring">Math Tutoring</a></b>
@@ -89,17 +77,13 @@ header = "Winter 24 Classes"
                     <a href="/class/coding/python"><b>Python 1</b></a></br>
                     Grades 7 &ndash; 8<br> 
                     Teacher: <a href="/instructor#jared">Jared</a><br>
-                    Started on January 3.<br>
-                    <!-- <a href="https://winter-24-advanced-python-part1.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a> -->
-                    Sign-up closed.
+                    <a href="https://winter-24-advanced-python-part1.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr35shade" style="grid-area: class5;">
                     <b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
                     Grade 4 <br> 
                     Teacher: <a href="/instructor#nora">Nora</a><br>
-                    Started on January 3.<br>
-                    <!-- <a href="https://winter-24-fourth-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a> -->
-                    Sign-up closed.
+                    <a href="https://winter-24-fourth-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
             </div>
             <!-- Thursday -->
@@ -110,21 +94,12 @@ header = "Winter 24 Classes"
                     <b><a href="/chess">Charlotesville Kids' Chess Club</a></b></br>
                     Grades K &ndash; 8<br> 
                     Teacher: Tex, Nora<br>
-                    <!-- <a href="https://charlottesville-kids-chess-club.cheddarup.com/"><button class="button-8s" role="button">Sign Up</button></a> -->
-                    Sign-up closed.
+                    <a href="https://charlottesville-kids-chess-club.cheddarup.com/"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
             </div>
             <!-- Friday -->
             <div class="friday" style="grid-area: friday;">
                 <div class="daybar" style="grid-area: day;"><a id="friday">Friday</a></div>
-                <!-- <div style="grid-area: time1;"><b>3:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>3:30</div>
-                <div class="grK2shade" style="grid-area: class1;">
-                    <b><a href="/class/math/challenging-math">Challenging Problems</a></b><br>
-                        Grade 1<br>
-                        Teacher: <a href="/instructor#nora">Nora</a><br>
-                        <a href="https://winter-24-first-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
-                </div>
-                <div style="grid-area: time2;"><b>3:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>4:00</div> -->
                 <!-- 4:00 -->
                 <div style="grid-area: time3;"><b>4:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>4:30</div>
                 <div class="grK2shade" style="grid-area: class2;">
@@ -132,8 +107,7 @@ header = "Winter 24 Classes"
                         Grades 1 and 2<br>
                         Teacher: <a href="/instructor#saumya">Nora</a><br>
                         Starts on January 5.<br>
-                        <!-- <a href="https://winter-24-second-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a> -->
-                        Sign-up closed.
+                        <a href="https://winter-24-second-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="grshade" style="grid-area: class3;">
                     <b>Make up</b>  </br>
@@ -141,35 +115,23 @@ header = "Winter 24 Classes"
                     Teacher: <a href="/instructor#ransford">Ransford</a><br>
                     <a href="https://friday-make-up.cheddarup.com/"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
-                <!-- <div class="gr78shade" style="grid-area: class4;">
-                    <a href="/class/coding/c++vexv5"><b>C++ with the VexV5 robot</b></a> <br>
-                        Grades 7&ndash;8<br>
-                        Teacher: <a href="/instructor#saumya">Saumya</a><br>
-                        <a href="https://winter-24-vexv5.cheddarup.com">
-                        <button class="button-8s" role="button">Sign Up</button></a>
-                </div> -->
                 <div style="grid-area: time4;"><b>4:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>5:00</div>
                 <div style="grid-area: time5;"><b>5:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>5:30</div>
                 <div class="gr35shade" style="grid-area: class5;">
                     <b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
                         Grade 5<br>
                         Teacher: <a href="/instructor#saumya">Nora</a><br>
-                        Starts on January 5.<br>
-                        <!-- <a href="https://winter-24-fifth-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a> -->
-                        Sign-up closed.
+                        <a href="https://winter-24-fifth-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr35shade" style="grid-area: class6;">
                     <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
                         Grades 3&ndash;6<br>
                         Teacher: <a href="/instructor#saumya">Saumya</a><br>
                         <b>Starts on January 12.</b><br>
-                        <!-- <a href="https://winter-24-vexiq.cheddarup.com">
-                        <button class="button-8s" role="button">Sign Up</button></a> -->
-                        Sign-up closed.
+                        <a href="https://winter-24-vexiq.cheddarup.com">
+                        <button class="button-8s" role="button">Sign Up</button></a> 
                 </div>
                 <div style="grid-area: time6;"><b>5:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>6:00</div>
-                <!-- <div style="grid-area: time7;"><b>6:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>6:30</div>
-                <div style="grid-area: time8;"><b>6:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>7:00</div> -->
             </div>
             <!-- saturday -->
             <div class="saturday" style="grid-area: saturday;">
@@ -185,16 +147,14 @@ header = "Winter 24 Classes"
                     <a href="/class/coding/kindergarten"><b>Block Coding Jr</b></a><br>
                         Grades PK &ndash; K<br> 
                         Teacher: <a href="/instructor#ransford">Ransford</a><br>
-                        <b>Starts on January 13.</b><br>
-                        <!-- <a href="https://winter-24-block-coding-jr.cheddarup.com" class="btn-small">
-                        <button class="button-8s" role="button">Sign Up</button></a> -->
-                        Sign-up closed.
+                        <b>Started on January 13.</b><br>
+                        <a href="https://winter-24-block-coding-jr.cheddarup.com" class="btn-small">
+                        <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="grK2shade" style="grid-area: class2;">
                     <a href="/class/coding/lego-wedo"><b>Intro to Robotics</b></a><br>
                         Grades K &ndash; 1<br> 
                         Teacher: <a href="/instructor#ransford">Ransford</a><br>
-                        <b>Starts on January 13.</b><br>
                         <!-- <a href="https://winter-24-lego-wedo.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a> -->
                         Sign-up closed.
@@ -203,16 +163,14 @@ header = "Winter 24 Classes"
                     <a href="/class/coding/kids-block-coding"><b>Block Coding</b></a><br>
                         Grades 1 &ndash; 2<br> 
                         Teacher: <a href="/instructor#ransford">Ransford</a><br>
-                        <b>Starts on January 13.</b><br>
-                        <!-- <a href="https://winter-24-block-coding.cheddarup.com" class="btn-small">
-                        <button class="button-8s" role="button">Sign Up</button></a></p> -->
-                        Sign-up closed.
+                        <b>Started on January 13.</b><br>
+                        <a href="https://winter-24-block-coding.cheddarup.com" class="btn-small">
+                        <button class="button-8s" role="button">Sign Up</button></a></p>
                 </div>
                 <div class="gr35shade" style="grid-area: class4;">
                     <a href="/class/math/math-olympiad/"><b>Math Olympiad</b></a><br>
                         Grades 3 &ndash; 6 <br> 
                         Teacher: <a href="/instructor#charlie">Charlie</a><br>
-                        January 6 class on Zoom.
                         <!-- <a href="https://competition-math-grades-4-to-6.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a> -->
                 </div>
@@ -220,40 +178,27 @@ header = "Winter 24 Classes"
                     <a href="/class/coding/tweens-coffee-script"><b>Coffee Script 1</b></a> <br>
                         Grades 3 &ndash; 5<br> 
                         Teacher: <a href="/instructor#ransford">Ransford</a><br>
-                        <b>Starts on January 13.</b><br>
-                        <!-- <a href="https://winter-24-coffee-script-part1.cheddarup.com">
-                                <button class="button-8s" role="button">Sign Up</button></a> -->
-                        Sign-up closed.
+                        <b>Started on January 13.</b><br>
+                        <a href="https://winter-24-coffee-script-part1.cheddarup.com">
+                                <button class="button-8s" role="button">Sign Up</button></a> 
                 </div>
                 <div class="gr68shade" style="grid-area: class6;">
                     <a href="/class/math/math-olympiad/"><b>Math Olympiad</b></a><br>
                         Grades 6 &ndash; 8<br> 
                         Teacher: <a href="/instructor#charlie">Charlie</a><br>
-                        January 6 class on Zoom.
-                        <!-- <a href="https://competition-math-grades-6-to-8.cheddarup.com" class="btn-small">
-                        <button class="button-8s" role="button">Sign Up</button></a> -->
                 </div>
                 <div class="gr56shade" style="grid-area: class7;">
                     <a href="/class/coding/middle-school-python"><b>Python 1</b></a></br>
                         Grades 5 &ndash; 6<br> 
                         Teacher: <a href="/instructor#ransford">Ransford</a><br>
-                        <b>Starts on January 13.</b><br>
-                        <!-- <a href="https://winter-24-beginner-python-part1.cheddarup.com">
-                                <button class="button-8s" role="button">Sign Up</button></a> -->
-                        Sign-up closed.
+                        <b>Started on January 13.</b><br>
+                        <a href="https://winter-24-beginner-python-part1.cheddarup.com">
+                                <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
-                <!-- <div class="gr68shade" style="grid-area: class8;">
-                    <a href="/class/math/amc-coach/"><b>AMC 8 Practice</b></a><br>
-                    Grades 5 &ndash; 8<br> 
-                    Teacher: <a href="/instructor#charlie">Charlie<br>
-                    <a href="https://competition-math-amc8.cheddarup.com" class="btn-small">
-                        <button class="button-8s" role="button">Sign Up</button></a>
-                </div> -->
                 <div class="gr35shade" style="grid-area: class9;">
                     <a href="/class/coding/computational-thinking-spike"><b>Coding and Lego Robotics</b></a> <br>
                     Grades 3 &ndash; 5<br> 
                     Teacher: Nora<br>
-                    <b>Starts on January 13.</b><br>
                 <!-- <a href="https://winter-24-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a> 
                 -->
                     Sign-up closed.
@@ -289,14 +234,6 @@ header = "Winter 24 Classes"
                 <div class="grK2shade" style="grid-area: class1;">
                     <a href="/class/coding/scratch"><b>Scratch</b></a><br>
                         Grades 1 &ndash; 2. Teacher: Jared.<br> 
-                        <b>Starts on January 14.</b><br>
-                        <!-- <a href="https://winter-24-scratch.cheddarup.com" class="btn-small">
-                        <button class="button-8s" role="button">Sign Up</button></a> -->
-                        Sign-up closed.
-                </div>
-                <div class="grK2shade" style="grid-area: class9;">
-                    <a href="/class/coding/scratch"><b>Scratch</b></a><br>
-                        Grades 1 &ndash; 2. Teacher: Cyrus.<br> 
                         <b>Starts on January 14.</b><br>
                         <!-- <a href="https://winter-24-scratch.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a> -->
