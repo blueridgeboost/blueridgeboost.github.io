@@ -15,7 +15,8 @@ aliases=["/summer/"]
             <div class="vstack gap-3 px-2 pb-2 text-center">  
                 <div class="px-2 darknote">
                     We plan to offer instructional programs in robotics, coding, and math from June 10 until August 16. <br>
-                    Ages: six to twelve.
+                    Ages: six to twelve.<br>
+                    Children can attend a maximum of 25 days of the summer program.
                 </div>
             </div>
         </div>
