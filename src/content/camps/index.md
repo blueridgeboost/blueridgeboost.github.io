@@ -14,7 +14,8 @@ aliases=["/summer/"]
         <div class="col">
             <div class="vstack gap-3 px-2 pb-2 text-center">  
                 <div class="px-2 darknote">
-                    We plan to offer instructional programs in robotics, coding, and math from June 10 until August 16.
+                    We plan to offer instructional programs in robotics, coding, and math from June 10 until August 16. <br>
+                    Ages: six to twelve.
                 </div>
             </div>
         </div>
