@@ -16,7 +16,8 @@ aliases=["/summer/"]
                 <div class="px-2 darknote">
                     We plan to offer instructional programs in robotics, coding, and math from June 10 until August 16. <br>
                     Ages: six to twelve.<br>
-                    Children can attend a maximum of 25 days of the summer program.
+                    Children can attend a maximum of 25 days of the summer program.<br>
+                    Please note that our program is operating under the  Single Focus Instructional Program (22.1-289.030 A.1) provision and we are exempt from the requirements for child day programs.
                 </div>
             </div>
         </div>
