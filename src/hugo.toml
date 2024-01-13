@@ -36,7 +36,7 @@ unsafe= true
     url        = "/upcoming/"
     weight     = 4
 [[menu.main]]
-    name       = "Camps"
+    name       = "Summer"
     identifier = "menu.camps"
     url        = "/camps/"
     weight     = 5
