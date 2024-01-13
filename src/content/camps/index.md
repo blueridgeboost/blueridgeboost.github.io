@@ -2,7 +2,7 @@
 title = "Coding Classes in Charlottesville | Blue Ridge Boost"
 description = "Learn block languages, Scratch, Coffee Script, Python, Java, and Rust! Build Lego&reg; robots and code with Scratch! Contact us to sign or and find out more details!"
 keywords = ["Charlottesville coding tutor", "Charlottesville Python tutor", "cvillecoding", "coding", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "children coding classes", "kids coding", "kids Python", "children Python", "children coding tutor"]
-header = "Camps"
+header = "Summer"
 aliases=["/summer/"]
 +++
 
@@ -14,17 +14,14 @@ aliases=["/summer/"]
         <div class="col">
             <div class="vstack gap-3 px-2 pb-2 text-center">  
                 <div class="px-2 darknote">
-                    Summer camp schedules and sign-ups will be posted in February. 
-                </div>
-                <div>
-                    We will run camps from June 10 until August 16. The cost for a week at half-day is $325 and full-day $445.
+                    We plan to offer instructional programs in robotics, coding, and math from June 10 until August 16.
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container">
+<!-- <div class="container">
     <div class="row  justify-content-center">
         <div class="col">
             <div class="vstack gap-3 px-2 pb-2 text-center">  
@@ -40,4 +37,4 @@ aliases=["/summer/"]
             </div>
         </div>
     </div>
-</div>
+</div> -->
