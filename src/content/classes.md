@@ -139,8 +139,7 @@ header = "Winter 24 Classes"
                     <b>Make up</b>  </br>
                     Grades K &ndash; 8<br> 
                     Teacher: <a href="/instructor#ransford">Ransford</a><br>
-                    <!-- <a href="https://friday-make-up.cheddarup.com/"><button class="button-8s" role="button">Sign Up</button></a> -->
-                    Sign-up closed.
+                    <a href="https://friday-make-up.cheddarup.com/"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <!-- <div class="gr78shade" style="grid-area: class4;">
                     <a href="/class/coding/c++vexv5"><b>C++ with the VexV5 robot</b></a> <br>
@@ -195,15 +194,6 @@ header = "Winter 24 Classes"
                     <a href="/class/coding/lego-wedo"><b>Intro to Robotics</b></a><br>
                         Grades K &ndash; 1<br> 
                         Teacher: <a href="/instructor#ransford">Ransford</a><br>
-                        <b>Starts on January 13.</b><br>
-                        <!-- <a href="https://winter-24-lego-wedo.cheddarup.com" class="btn-small">
-                        <button class="button-8s" role="button">Sign Up</button></a> -->
-                        Sign-up closed.
-                </div>
-                <div class="grK2shade" style="grid-area: class11;">
-                    <a href="/class/coding/lego-wedo"><b>Intro to Robotics</b></a><br>
-                        Grades K &ndash; 1<br> 
-                        Teacher: <a href="/instructor#cyrus">Cyrus</a><br>
                         <b>Starts on January 13.</b><br>
                         <!-- <a href="https://winter-24-lego-wedo.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a> -->
@@ -271,7 +261,7 @@ header = "Winter 24 Classes"
                 <div style="grid-area: class10;">
                     <a href="/class/coding/fll-explore"><b>FLL Explore</b></a></br>
                     Grades 1 &ndash; 4. <br> 
-                            Teachers: Ransford and Cyrus.<br>
+                            Teachers: Ransford.<br>
                             <b>January 6 class canceled.</b>
                 </div>
                 <div class="grshade" style="grid-area: t1;"><b><a href="/tutoring">Math Tutoring</a></b></div>
