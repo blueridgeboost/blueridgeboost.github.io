@@ -53,7 +53,7 @@ header = "Tutoring in Charlottesville"
   </div>
   <div class="row justify-content-center">
     <div class="col-12 text-center darknote" >
-      Tutoring sessions may be virtual or in person at the Blue Ridge Boost office at <a href="https://www.google.com/maps/place/222+Court+Square,+Charlottesville,+VA+22902/@38.0310664,-78.4791609,17z/data=!3m1!4b1!4m5!3m4!1s0x89b38627a3559ba7:0x8f9b07d311b4dd9b!8m2!3d38.0310622!4d-78.4769669">222 Court Square, Charlottesville</a>.
+      Tutoring sessions may be virtual or in person at the Blue Ridge Boost office at 2171 Ivy Road, Charlottesville.
     </div>
   </div>
 </div>
