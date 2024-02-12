@@ -10,7 +10,7 @@ header = "Tutoring in Charlottesville"
   <div class="row  justify-content-center">
     <div class="col-12 p-2 darknote">
         <center>
-        <a href="https://blueridgeboost.youcanbook.me"><button class="button-8s" role="button">Book</button></a> a session with one of our wonderful <a href="/instructor">instructors</a> to get help with one of the subjects below.
+        <a href="https://math-tutoring-evaluation.cheddarup.com"><button class="button-8s" role="button">Book</button></a> a session with one of our wonderful <a href="/instructor">instructors</a> to get help with one of the subjects below.
         </center>
     </div>
   </div>
