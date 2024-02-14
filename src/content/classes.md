@@ -177,11 +177,11 @@ header = "Winter 24 Classes"
                     Teacher: <a href="/instructor#charlie">Charlie</a><br>
                     <b>Ends March 2.</b>
                 </div>
-                <div class="grshade" style="grid-area: t1;"><b><a href="/tutoring">Math Tutoring</a></b></div>
-                <div class="grshade" style="grid-area: t2;"><b><a href="/tutoring">Math Tutoring</a></b></div>
-                <div class="grshade" style="grid-area: t3;"><b><a href="/tutoring">Math Tutoring</a></b></div>
-                <div class="grshade" style="grid-area: t4;"><b><a href="/tutoring">Math Tutoring</a></b></div>
-                <div class="grshade" style="grid-area: t5;"><b><a href="/tutoring">Math Tutoring</a></b></div>
+                <div class="grshade" style="grid-area: t1;"><b><a href="/tutoring">Math Tutoring Available</a></b></div>
+                <div class="grshade" style="grid-area: t2;"><b><a href="/tutoring">Math Tutoring Available</a></b></div>
+                <div class="grshade" style="grid-area: t3;"><b><a href="/tutoring">Math Tutoring Available</a></b></div>
+                <div class="grshade" style="grid-area: t4;"><b><a href="/tutoring">Math Tutoring Available</a></b></div>
+                <div class="grshade" style="grid-area: t5;"><b><a href="/tutoring">Math Tutoring Available</a></b></div>
             </div>
             <!-- sunday -->
             <div class="sunday" style="grid-area: sunday;">
@@ -193,12 +193,12 @@ header = "Winter 24 Classes"
                 <div style="grid-area: time5;"><b>2:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>3:00</div>
                 <div style="grid-area: time6;"><b>3:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>4:00</div>
                 <div style="grid-area: time7;"><b>4:00</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>5:30</div>
-                <div class="grshade" style="grid-area: t1;"><b><a href="/tutoring">Math Tutoring</a></b></div>
-                <div class="grshade" style="grid-area: t2;"><b><a href="/tutoring">Math Tutoring</a></b></div>
-                <div class="grshade" style="grid-area: t3;"><b><a href="/tutoring">Math Tutoring</a></b></div>
-                <div class="grshade" style="grid-area: t4;"><b><a href="/tutoring">Math Tutoring</a></b></div>
-                <div class="grshade" style="grid-area: t5;"><b><a href="/tutoring">Math Tutoring</a></b></div>
-                <div class="grshade" style="grid-area: t6;"><b><a href="/tutoring">Math Tutoring</a></b></div>
+                <div class="grshade" style="grid-area: t1;"><b><a href="/tutoring">Math Tutoring Available</a></b></div>
+                <div class="grshade" style="grid-area: t2;"><b><a href="/tutoring">Math Tutoring Available</a></b></div>
+                <div class="grshade" style="grid-area: t3;"><b><a href="/tutoring">Math Tutoring Available</a></b></div>
+                <div class="grshade" style="grid-area: t4;"><b><a href="/tutoring">Math Tutoring Available</a></b></div>
+                <!-- <div class="grshade" style="grid-area: t5;"><b><a href="/tutoring">Math Tutoring Available</a></b></div> -->
+                <div class="grshade" style="grid-area: t6;"><b><a href="/tutoring">Math Tutoring Available</a></b></div>
                 <div class="grK2shade" style="grid-area: class1;">
                     <a href="/class/coding/scratch"><b>Scratch</b></a><br>
                         Grades 1 &ndash; 2. Teacher: Jared.<br> 
@@ -230,6 +230,12 @@ header = "Winter 24 Classes"
                     Grades 1 &ndash; 4</span>. <br> 
                     Teachers: Ransford, and Jared.<br>
                     <b>Ends March 31.</b>
+                </div>
+                 <div class="grK2shade" style="grid-area: class9;">
+                    <b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
+                        Grade 1<br>
+                        Teacher: <a href="/instructor#nora">Nora</a><br>
+                        <a href="https://winter-24-first-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>    
                 </div>
                 <div style="grid-area: class6;">
                     <p><a href="/class/coding/fll-challenge"><b>Intro to FLL Challenge</b></a><br>
