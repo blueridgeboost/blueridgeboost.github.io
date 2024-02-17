@@ -20,10 +20,10 @@ header = "AI Explorers: Middle School Edition"
         <p>Become an AI Inventor: Get hands-on with tools that let you train AI models without writing any code.</p>
         <p>Showcase Your Creations: Impress your friends and family by showcasing the AI projects and games you've created.</p>
         <h3>Course Details:</h3>
-        Age Group: Designed for grades 5-6<br>
         Duration: 12 weeks, 1 session per week<br>
         Skill Level: Beginners - no prior experience necessary!<br>
         Tools: Safe, student-friendly AI platforms<br>
+        <a href="https://spring-24-ai56.cheddarup.com"><button class="button-8s" role="button">Sign Up Grades 5 and 6</button></a> &nbsp; &nbsp; <a href="https://spring-24-ai78.cheddarup.com"><button class="button-8s" role="button">Sign Up Grades 7 and 8</button></a>
         </div>
     </div>
 </div>

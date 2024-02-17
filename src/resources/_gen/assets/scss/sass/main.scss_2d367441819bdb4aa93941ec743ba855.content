@@ -8298,11 +8298,11 @@ div.row.table-header {
 
 div.row.table-dark-row {
   background-color: #EEFFFF;
-  text-align: center;
+  text-align: left;
 }
 
 div.row.table-light-row {
-  text-align: center;
+  text-align: left;
 }
 
 div.row a {
@@ -8446,7 +8446,7 @@ div.row.dark-row {
   grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
   grid-template-rows: 2em auto;
   gap: 5px 5px;
-  grid-template-areas: "day day day day" "time1 class1 class1 class2"  "time2 class3 class3 class4" "time3 class6 class6 class5";
+  grid-template-areas: "day day day day" "time1 class1 class7 class2"  "time2 class3 class8 class4" "time3 class6 class6 class5";
 }
 
 .uthursday {
@@ -8464,7 +8464,7 @@ div.row.dark-row {
   grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
   grid-template-rows: 2em auto;
   gap: 5px 5px;
-  grid-template-areas: "day day day day" "time1 class1 class2 class7" "time2 class1 class2 class7" "time3 class1 class2 class5" "time4 class3 class4 class5" "time5 class3 class4 class6" "time6 class3 class4 class6";
+  grid-template-areas: "day day day day" "time1 class1 class2 class7" "time2 class1 class2 class7" "time3 class1 class2 class7" "time4 class3 class4 ." "time5 class3 class4 ." "time6 class3 class4 .";
 }
 
 .usaturday {
@@ -8473,7 +8473,7 @@ div.row.dark-row {
   grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
   grid-template-rows: 2em auto;
   gap: 5px 5px;
-  grid-template-areas: "day day day day" "time1 class1 class2 class3" "time2 class4 class5 class6" "time3 class4 . ." "time4 class7 class8 class9" "time5 class7 class10 class11" "time6 class12 class10 class11" "time7 class12 class13 class14" "time8 class15 class16 class17" "time9 class15 . .";
+  grid-template-areas: "day day day day" "time1 class1 class2 class3" "time2 class4 class5 class6" "time3 class4 class8 class6" "time4 class7 class8 class9" "time5 class7 class10 class11" "time6 class12 class10 class11" "time7 class12 class13 class14" "time8 class15 class16 class17" "time9 class15 . .";
 }
 
 .usunday {

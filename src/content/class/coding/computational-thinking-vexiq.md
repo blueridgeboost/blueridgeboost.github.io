@@ -15,7 +15,7 @@ header = "Coding and Computational Thinking with VexIQ"
             It's amazing to see the "lightbulb" moment when their code controls the robot. Through hands-on projects, coding comes alive and they gain skills in critical thinking, teamwork, and engineering. Lessons also inspire creativity, perseverance, and spark interests that last.</p><p>
             Sign up today to provide an inspiring introduction to computational thinking. We guarantee your child will love attending our robotics coding class each week. Join us to ignite that early passion that just may shape their future career path. The potential for discovery has never been more hands-on!</p><p>
             Highly-qualified instructors deliver an <a href="https://www.cs2n.org/u/track_progress?id=655">award wining curriculum</a> developed by the <a href="https://www.cmu.edu/roboticsacademy/">Carnegie Mellon Robotics Academy</a>!</p>
-            <p><a href="https://spring-24-coding-and-vex-robotics-grades-3-to-5.cheddarup.com"><button class="button-8" role="button">Sign Up</button></a></p>
+            <p><a href="https://spring-24-coding-and-vex-robotics-grades-3-to-5.cheddarup.com"><button class="button-8" role="button">Sign Up Grades 3 and 4</button></a> &nbsp; &nbsp; <a href="https://spring-24-coding-and-vex-robotics-grades-5-to-6.cheddarup.com"><button class="button-8" role="button">Sign Up Grades 5 and 6</button></a></p>
         </div>
         <div class="col-4">
             <a href="https://www.vexrobotics.com/228-8899.html"><img alt="VexIQ" src="/images/vex_iq.webp" class="img-fluid"></a>
