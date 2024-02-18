@@ -12,7 +12,7 @@ header = "Fundamentals of Coding with SPIKE Essential"
     <div class="row">
         <div class="col">
             <p>This class is intended for students with no previous exposure to Lego robots.</p>
-            <p><a href="https://fundamentals-of-coding-with-lego-spike.cheddarup.com"><button class="button-8" role="button">Sign Up</button></a></p>
+            <p><a href="https://spring-24-fundamentals-of-coding-with-lego-spike.cheddarup.com"><button class="button-8" role="button">Sign Up</button></a></p>
             <h2>Introducing the Next Generation of Coders!</h2>
             <p>The Fundamentals of Coding with <a href="https://education.lego.com/en-us/products/lego-education-spike-essential-set/45345/">SPIKE Essential</a> is the fun and engaging way to teach your elementary students essential STEM skills.</p><p>
             Through interactive projects and robotics using the LEGO SPIKE Essential kit, children will learn programming basics like sequences, algorithms, conditional logic, and repetition. They will apply these concepts by building real-world machines like excavators and cranes.</p><p>
