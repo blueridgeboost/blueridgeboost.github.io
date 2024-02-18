@@ -18,10 +18,7 @@ Students learn Python using a combination of lessons that use the Code Monkey pl
 
 Classes run in semester-long sessions. Each class is 50 minutes long. We adjust classes to the pace of each student.
 
-<p><a href="https://winter-24-beginner-python-part1.cheddarup.com/">
-                <button class="button-8" role="button">Part 1 Sign Up</button></a> &nbsp; 
-    <a href="https://winter-24-beginner-python-part2.cheddarup.com/"> &nbsp;&nbsp;&nbsp;&nbsp;
-                <button class="button-8" role="button">Part 2 Sign Up</button></a> 
+<p><a href="https://spring-24-python-grades-5-to-6.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
 </p>
 
 

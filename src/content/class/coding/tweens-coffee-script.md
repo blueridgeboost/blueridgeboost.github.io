@@ -9,9 +9,8 @@ header = "Coding Group Classes for Grades Thirds to Fifth in Charlottesville"
     <div class="row">
         <div class="col col-md-6 col-lg-8">
             <p>Students are introduced to essential coding principles through CoffeeScript, a user-friendly text-based programming language. To facilitate learning, young coders utilize an appealing graphical interface on instructor-provided Chromebooks. While prior typing experience can be advantageous, it is not a prerequisite. Classes are conducted in semester-long sessions, with each session lasting 55 minutes. We tailor the pace of the classes to accommodate the individual progress of each student.</p>
-            <p><a href="https://winter-24-coffee-script-part1.cheddarup.com">
-                <button class="button-8" role="button">Part 1 Sign Up</button></a> &nbsp; <a href="https://winter-24-coffee-script-part2.cheddarup.com"> &nbsp;&nbsp;&nbsp;&nbsp;
-                <button class="button-8" role="button">Part 2 Sign Up</button></a> 
+            <p><a href="https://spring-24-coffee-script.cheddarup.com"><button class="button-8s" role="button">Sign Up for Coding</button></a> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://spring-24-games-coffee-script.cheddarup.com"><button class="button-8s" role="button">Sign Up for Game Making</button></a>
             </p>
             <p><b>Unit 1:</b> In the first unit, students discover that coding involves providing precise instructions to a computer and employing strategic planning to develop efficient programs. They explore objects capable of executing multiple actions.</p>
             <p><b>Unit 2:</b> During the second unit, students delve into coding repetitions using loops and variables.</p>

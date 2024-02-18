@@ -11,7 +11,7 @@ header = "Python (Advanced)"
         <div class="col-sm-12 left">
             We are teaching Python using a <a href="https://blueridgeboost.com/pythonbook/">Blue Ridge Boost version of the textbook <a href="https://buildmedia.readthedocs.org/media/pdf/howtothink/latest/howtothink.pdf"><em>How to Think Like a Computer Scientist, Learning with Python 3</em></a>.
             <p></p>
-            <a href="https://winter-24-advanced-python-part1.cheddarup.com"><button class="button-8s" role="button">Part 1 Sign Up</button></a> &nbsp; &nbsp; &nbsp; <a href="https://winter-24-advanced-python-part2.cheddarup.com"><button class="button-8s" role="button">Part 2 Sign Up</button></a><br>
+            <a href="https://spring-24-python-grades-7-to-8.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a><br>
             <b>Who should take this class?</b> <br> 
             Students that:
             <ul> 

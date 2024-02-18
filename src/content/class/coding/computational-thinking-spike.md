@@ -17,7 +17,7 @@ header = "Coding and LEGO Robotics"
             Your child will be amazed by watching their programming come alive through the robot's movements and reactions. They'll gain skills in tinkering, troubleshooting, and the design process. All while having fun building, coding, and problem-solving with LEGO bricks.</p><p>
             Sign up today and discover how our coding and robotics class fosters creativity, collaboration, and perseverance in an inspirational way. Your child will learn strategies to solve all kinds of challenges - from virtual code blocks to real-world tasks. Join us to start them on the path of programming the future!
             Highly-qualified instructors deliver an <a href="https://www.cs2n.org/u/track_progress?id=729">award wining curriculum</a> developed by the <a href="https://www.cmu.edu/roboticsacademy/">Carnegie Mellon Robotics Academy</a>!</p>
-            <p><a href="https://winter-24-spike.cheddarup.com/  "><button class="button-8" role="button">Sign Up</button></a></p>
+            <p><a href="https://spring-24-coding-and-lego-robotics.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a></p>
         </div>
     </div>
 </div>

@@ -627,10 +627,10 @@ div.row.dark-row {
   gap: 5px 5px;
   grid-template-areas: 
   "day day day day"
-  "time1 class1 class2 class3"
-  "time2 class4 class5 class6"
-  "time3 class4 class8 class6"
-  "time4 class7 class8 class9"
+  "time1 class1 class1 class3"
+  "time2 class4 class4 class6"
+  "time3 class4 class4 class6"
+  "time4 class7 class9 class9"
   "time5 class7 class10 class11"
   "time6 class12 class10 class11"
   "time7 class12 class13 class14"
@@ -647,15 +647,15 @@ div.row.dark-row {
   gap: 5px 5px;
   grid-template-areas: 
     "day day day day"
-    "time1 class1 class2 class3" 
-    "time2 class4 class5 class6" 
-    "time3 class4 class7 class8"
-    "time4 class9 class7 class8"
-    "time5 class9 class10 class11"
-    "time6 class12 . class13"
-    "time7 class12 class15 class13"
-    "time8 class14 class15 class16"
-    "time9 class17 class18 class19";
+    "time1 class1 class1 class1" 
+    "time2 class4 class5 class13" 
+    "time3 class4 class7 class20"
+    "time4 class9 class7 class20"
+    "time5 class9 class10 class21"
+    "time6 class12 class15 class22"
+    "time7 class14 class15 class22"
+    "time8 class14 . ."
+    "time9 class19 class18 class17";
 }
 
 
