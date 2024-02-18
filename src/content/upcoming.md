@@ -254,10 +254,10 @@ header = "Spring 24 Classes"
                     <b><a href="/tutoring">Tutoring Available</a></b>
                 </div>
                 <div class="gr56shade" style="grid-area: class7;">
-                    <a href="/class/coding/cs-sphero-art"><b>Computer Science Sphero Art</b></a> <br>
+                    <a href="/class/coding/cs-sphero-art"><b>Art with Sphero</b></a> <br>
                     Grades 5 &ndash; 6<br> 
                     Teacher: Ransford<br>
-                    <a href="https://shttps://sprin5-24-sphero-art56.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
+                    <a href="https://blueridgeboost.com/class/coding/cs-sphero-art/"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr35shade" style="grid-area: class8;">
                     <b><a href="/tutoring">Programming Fundamentals with Sphero Bots</a></b>
