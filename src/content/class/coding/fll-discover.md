@@ -9,7 +9,7 @@ header = "STEM with First Lego League Discover"
 <div class="container">
     <div class="row">
         <div class="col">
-            <p></p>
+            <p><a href="https://spring-24-fundamentals-of-coding-with-lego-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a></p>
             <p>The <a href="https://www.firstlegoleague.org/about#">FIRST LEGO League</a> Discover is a fun and engaging STEM program designed for teams of children aged 4-6, which nurtures their innate curiosity and fosters lifelong learning habits. By the end of the program, children emerge with greater confidence, better equipped to tackle upcoming challenges, and with a newfound passion for learning. 
             </p>
             <p>Every year, a fresh and thrilling Challenge is unveiled, and each team of eight kids commences their exploration of the real-world theme with an exclusive LEGO Education Discover Set. This year’s challenge is called MASTERPIECES. Children will learn about how people’s passion for the arts is shared through STEM.

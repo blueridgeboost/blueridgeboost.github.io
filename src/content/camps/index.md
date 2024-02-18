@@ -15,7 +15,8 @@ aliases=["/summer/"]
             <div class="vstack gap-3 px-2 pb-2 text-center">  
                 <div class="px-2 darknote">
                     We offer instructional programs in robotics, coding, and math during days off from school, Spring and Summer breaks. <br>
-                    Ages: six to twelve. Children can attend a maximum of 25 days in a three month period.
+                    Ages: six to twelve. Children can attend a maximum of 25 days in a three month period.<br>
+                    Registration will open on February 26.
                 </div>
             </div>
         </div>
@@ -81,7 +82,7 @@ aliases=["/summer/"]
         <div class="col-2">Week</div>
         <div class="col-3">Ages 6 and 7</div>
         <div class="col-3">Ages 8 and 9</div>
-        <div class="col-3">Ages 10 to 12</div>
+        <div class="col-3">Ages 10 to 13</div>
     </div>
     <div class="row">
         <div class="col-2">June 10 - 14</div>
@@ -89,46 +90,46 @@ aliases=["/summer/"]
         <div class="col-3">Let the games begin with Lego Spike Prime (Introductory)</div>
         <div class="col-3">Python (Code Monkey)</div>
     </div>
-    <div class="row">
+    <div class="row table-dark-row">
         <div class="col-2">June 17 - 21</div>
         <div class="col-3">Solving problems wherever we go with Spike Essential (Advanced) </div>
-        <div class="col-3">Space Adventure - Robotics with LEGO SPIKE Prime</div>
-        <div class="col-3">Robot Olympics with VEX IQ</div>
+        <div class="col-3">STEM Gadgets and Games</div>
+        <div class="col-3">Roblox</div>
     </div>
     <div class="row">
         <div class="col-2">June 24 - 28</div>
         <div class="col-3">Safari Camp (Lego WeDo)</div>
-        <div class="col-3">STEM Gadgets and Games</div>
+        <div class="col-3">Roblox</div>
         <div class="col-3">Search and rescue with VEX IQ</div>
     </div>
-    <div class="row">
+    <div class="row table-dark-row">
         <div class="col-2">July 8 - 12</div>
         <div class="col-3">Living in Space with Lego WeDo (Advanced)</div>
         <div class="col-3">Mission to Mars with VEX Go</div>
-        <div class="col-3">Make your own games</div>
+        <div class="col-3">Minecraft</div>
     </div>
     <div class="row">
         <div class="col-2">July 15 - 19</div>
         <div class="col-3">Space Race with VEX123</div>
-        <div class="col-3">Ready, set, GO Camp with VEX Go</div>
-        <div class="col-3">Carnival games with VEX IQ</div>
+        <div class="col-3">Minecraft</div>
+        <div class="col-3">Make your own games</div>
     </div>
-    <div class="row">
+    <div class="row table-dark-row">
         <div class="col-2">July 22 - 26</div>
         <div class="col-3">Move it! Shake it! with VEX123</div>
         <div class="col-3">Adventures in Engineering</div>
         <div class="col-3">On the move with VEX IQ</div>
     </div>
     <div class="row">
-        <div class="col-2">July 30 - August 2</div>
+        <div class="col-2">July 29 - August 2</div>
         <div class="col-3">Math Camp</div>
-        <div class="col-3">Coding Camp (build your games with Code Monkey)</div>
+        <div class="col-3">Ready, set, GO Camp with VEX Go</div>
         <div class="col-3">Math Camp</div>
     </div>
-    <div class="row">
+    <div class="row table-dark-row">
         <div class="col-2">August 5 - 9</div>
         <div class="col-3">Coding Camp (Code Monkey, Scratch Jr)</div>
-        <div class="col-3">Math Camp</div>
+        <div class="col-3">Space Adventure</div>
         <div class="col-3">Let's Compete with Lego Spike Prime</div>
     </div>
     <div class="row">
