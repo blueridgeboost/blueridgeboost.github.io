@@ -12,20 +12,20 @@ header = "Spring 24 Classes"
     <div class="row  justify-content-center">
         <div class="col-12 p-2 darknote">
             <center>
-            <div>Sign-up for classes starting in March and ending ing May is open.</div>
+            <div>Sign-up for classes starting in March and ending in May is open.</div>
             Try any class for two weeks for only $50. <span class="below-md"><br></span>
             Twelve 60-minute classes for $355, 90-minute for $525. <br>
             <a href="/discounts">Discounts</a> available for multiple classes and for sibligs.
             </center>
         </div>
-        <!-- <div class="col-12 p-2">
+        <div class="col-12 p-2">
             <center>
             Classes by grade level: <span class="grK2shade"><a href="/class/kindergarten/">K</a>, <a href="/class/first-grade/">1</a>, <a href="/class/second-grade/">2</a></span>, <span class="gr35shade"><a href="/class/third-grade/">3</a>, <a href="/class/fourth-grade/">4</a></span>, <span class="gr56shade"><a href="/class/fifth-grade/">5</a>, <a href="/class/sixth-grade/">6</a></span>, <span class="gr78shade"><a href="/class/seventh-grade/">7</a>, <a href="/class/eighth-grade/">8</a></span> &middot; <span class="grshade">Tutoring</span> &middot; <span class="chessshade">Chess</span><br>
             <span class="below-md">
                 Classes by day of the week: <a href="#monday">Monday</a>, <a href="#tuesday">Tuesday</a>, <a href="#wednesday">Wednesday</a>,  <a href="#thursday">Thursday</a>,  <a href="#friday">Friday</a>,  <a href="#saturday">Saturday</a>,  <a href="#sunday">Sunday</a>.
             </span>
             </center>
-        </div> -->
+        </div>
     </div>
     <div class="row">
         <div class="upcomingschedule">
@@ -406,9 +406,9 @@ header = "Spring 24 Classes"
                     Teacher: Jared<br>
                     <a href="https://spring-24-roblox56.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
-                <div class="grshade" style="grid-area: class16;">
+                <!-- <div class="grshade" style="grid-area: class16;">
                     <b><a href="/tutoring">Tutoring Available</a></b>
-                </div>
+                </div> -->
                 <div class="gr35shade" style="grid-area: class17;">
                     <a href="/class/coding/roblox-coding"><b>Roblox Coding</b></a> <br>
                     Grades 3 &ndash; 5<br> 
