@@ -15,8 +15,10 @@ aliases=["/summer/"]
             <div class="vstack gap-3 px-2 pb-2 text-center">  
                 <div class="px-2 darknote">
                     We offer instructional programs in robotics, coding, and math during days off from school, Spring and Summer breaks. <br>
-                    Ages: six to twelve. Children can attend a maximum of 25 days in a three month period.<br>
-                    Registration will open on February 26.
+                    Ages: six to twelve. Children can attend a maximum of 25 days in three months.<br>
+                    Registration will open on February 26. <br>
+                    Pay in full before April 30: $325 for half-day and $445 for full-day.<br>
+                    Or a non-refundable deposit of $100 now, and on June 1 pay $255 for half-day and $385 for full-day.  
                 </div>
             </div>
         </div>
