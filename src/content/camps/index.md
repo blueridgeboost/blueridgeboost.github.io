@@ -2,8 +2,8 @@
 title = "Coding Classes in Charlottesville | Blue Ridge Boost"
 description = "Learn block languages, Scratch, Coffee Script, Python, Java, and Rust! Build Lego&reg; robots and code with Scratch! Contact us to sign or and find out more details!"
 keywords = ["Charlottesville coding tutor", "Charlottesville Python tutor", "cvillecoding", "coding", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "children coding classes", "kids coding", "kids Python", "children Python", "children coding tutor"]
-header = "Summer"
-aliases=["/summer/"]
+header = "Summer 2024"
+aliases=["/summer/", "/rams-expo/"]
 +++
 
 <p></p>
@@ -14,11 +14,13 @@ aliases=["/summer/"]
         <div class="col">
             <div class="vstack gap-3 px-2 pb-2 text-center">  
                 <div class="px-2 darknote">
-                    We offer instructional programs in robotics, coding, and math during days off from school, Spring and Summer breaks. <br>
-                    Ages: six to twelve. Children can attend a maximum of 25 days in three months.<br>
-                    Registration will open on February 26. <br>
+                    We offer instructional programs in robotics, coding, and math during the 2024 Summer break. Children can attend a maximum of 25 days in three months.<br>
                     Pay in full before April 30: $325 for half-day and $445 for full-day.<br>
-                    Or a non-refundable deposit of $100 now, and on June 1 pay $255 for half-day and $385 for full-day.  
+                    Early bird full-day signups <a href="https://summer-24-ages-6-to-7-full-day.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-8-to-10-full-day.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-10-to-13-full-day.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a><br>
+                    Early bird half-day signups <a href="https://summer-24-ages-6-and-7-half-day.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-8-to-10-half-day.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-10-to-13-half-day.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a><br>
+                    Or a non-refundable deposit of $100 now, and on June 1 pay $255 for half-day and $385 for full-day.  <br>
+                    Full-day signups <a href="https://summer-24-ages-6-and-7-full-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-8-to-10-half-day.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-10-to-13-full-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a><br>
+                    Half-day signups <a href="https://summer-24-ages-6-and-7-half-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-8-and-9-half-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-10-to-13-half-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a>
                 </div>
             </div>
         </div>

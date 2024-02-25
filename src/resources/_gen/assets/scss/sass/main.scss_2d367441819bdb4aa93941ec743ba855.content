@@ -8321,6 +8321,18 @@ div.row.dark-row {
   background-color: Lavender;
 }
 
+.grPKKshade {
+  background-color: #eec2e8;
+}
+
+.gr12shade {
+  background-color: mistyrose;
+}
+
+.gr34shade {
+  background-color: peachpuff;
+}
+
 .grK2shade {
   background-color: mistyrose;
 }
