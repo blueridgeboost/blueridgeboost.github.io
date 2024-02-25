@@ -8322,7 +8322,7 @@ div.row.dark-row {
 }
 
 .grPKKshade {
-  background-color: #ec81de;
+  background-color: #eec2e8;
 }
 
 .gr12shade {
@@ -8331,10 +8331,6 @@ div.row.dark-row {
 
 .gr34shade {
   background-color: peachpuff;
-}
-
-.grK2shade {
-  background-color: mistyrose;
 }
 
 .grK2shade {
