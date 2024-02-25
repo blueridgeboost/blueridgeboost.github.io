@@ -57,13 +57,14 @@
 
 {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "expanded") }}
 {{ $css := resources.Get "sass/main.scss" | toCSS  $options | resources.PostCSS }}
-{{ if hugo.IsProduction }} 
+<!-- {{ if hugo.IsProduction }} 
   {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed") }}
   {{ $css := resources.Get "sass/main.scss" | toCSS  $options | resources.PostCSS | resources.Fingerprint | resources.PostProcess }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="$css.Data.Integrity"/>
 {{ else }} 
   <link rel="stylesheet" href="{{ $css.RelPermalink }}"/>
-{{ end }}
+{{ end }} -->
+<link rel="stylesheet" href="{{ $css.RelPermalink }}"/>
 
  
 <!-- Favicon and Apple touch icons-->
