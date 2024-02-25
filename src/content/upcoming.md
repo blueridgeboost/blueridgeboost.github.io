@@ -20,7 +20,7 @@ header = "Spring 24 Classes"
         </div>
         <div class="col-12 p-2">
             <center>
-            Classes by grade level: <span class="grK2shade"><a href="/class/kindergarten/">K</a>, <a href="/class/first-grade/">1</a>, <a href="/class/second-grade/">2</a></span>, <span class="gr35shade"><a href="/class/third-grade/">3</a>, <a href="/class/fourth-grade/">4</a></span>, <span class="gr56shade"><a href="/class/fifth-grade/">5</a>, <a href="/class/sixth-grade/">6</a></span>, <span class="gr78shade"><a href="/class/seventh-grade/">7</a>, <a href="/class/eighth-grade/">8</a></span> &middot; <span class="grshade">Tutoring</span> &middot; <span class="chessshade">Chess</span><br>
+            Classes by grade level: <span class="grPKKshade"><a href="/class/kindergarten/">K</a></span>, <span class="gr12shade"><a href="/class/first-grade/">1</a>, <a href="/class/second-grade/">2</a> </span>, <span class="gr34shade"><a href="/class/third-grade/">3</a>, <a href="/class/fourth-grade/">4</a></span>, <span class="gr56shade"><a href="/class/fifth-grade/">5</a>, <a href="/class/sixth-grade/">6</a></span>, <span class="gr78shade"><a href="/class/seventh-grade/">7</a>, <a href="/class/eighth-grade/">8</a></span> &middot; <span class="grshade">Tutoring</span> &middot; <span class="chessshade">Chess</span><br>
             <span class="below-md">
                 Classes by day of the week: <a href="#monday">Monday</a>, <a href="#tuesday">Tuesday</a>, <a href="#wednesday">Wednesday</a>,  <a href="#thursday">Thursday</a>,  <a href="#friday">Friday</a>,  <a href="#saturday">Saturday</a>,  <a href="#sunday">Sunday</a>.
             </span>
