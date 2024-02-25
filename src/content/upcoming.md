@@ -102,7 +102,7 @@ header = "Spring 24 Classes"
             </div>
             <!-- Wednesday -->
             <div class="uwednesday" style="grid-area: uwednesday;">
-                <div class="daybar" style="grid-area: day;"><a id="uwednesday">Wednesday</a></div>
+                <div class="daybar" style="grid-area: day;"><a id="wednesday">Wednesday</a></div>
                 <div style="grid-area: time1;"><b>4:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>5:30</div>
                 <div style="grid-area: time2;"><b>5:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>6:30</div>
                 <div style="grid-area: time3;"><b>6:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>7:30</div>
@@ -153,7 +153,7 @@ header = "Spring 24 Classes"
             </div>
             <!-- Thursday -->
             <div class="uthursday" style="grid-area: uthursday;">
-                <div class="daybar" style="grid-area: day;"><a id="uthursday">Thursday</a></div>
+                <div class="daybar" style="grid-area: day;"><a id="thursday">Thursday</a></div>
                 <div style="grid-area: time1;"><b>4:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>6:30</div>
                 <div class="chessshade" style="grid-area: class1;">
                     <b><a href="/chess">Charlotesville Kids' Chess Club</a></b></br>
@@ -167,7 +167,7 @@ header = "Spring 24 Classes"
             </div>
             <!-- Friday -->
             <div class="ufriday" style="grid-area: ufriday;">
-                <div class="daybar" style="grid-area: day;"><a id="ufriday">Friday</a></div>
+                <div class="daybar" style="grid-area: day;"><a id="friday">Friday</a></div>
                 <div style="grid-area: time1;"><b>4:30</b><span class="above-md">&ndash;5:00</span></div>
                 <div style="grid-area: time2;"><b>5:00</b><span class="above-md">&ndash;5:30</span></div>
                 <div style="grid-area: time3;"><b>5:30</b><span class="above-md">&ndash;6:00</span></div>
