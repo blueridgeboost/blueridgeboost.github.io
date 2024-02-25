@@ -15,7 +15,7 @@ clean:
 	rm -rf $(DESTINATION)
 
 html: 
-	hugo  --destination $(DESTINATION) --minify
+	hugo  --destination $(DESTINATION) 
 
 copy:
 	cp ../CNAME $(DESTINATION)
