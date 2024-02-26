@@ -60,7 +60,7 @@ header = "Spring 24 Classes"
                     <b><a href="/tutoring">Tutoring Available</a></b>
                 </div>
                 <div class="gr78shade" style="grid-area: class4;">
-                    <a href="/class/coding/ai56"><b>C++ Coding with VEX V5 Robots</b></a> <br>
+                    <a href="/class/coding/c++vexv5"><b>C++ Coding with VEX V5 Robots</b></a> <br>
                         Grades 7&ndash;8<br>
                         Teachers: <a href="/instructor#">TBD</a><br>  
                     <a href="https://spring-24-c-and-vex-robotics-grades-7-to-8.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
