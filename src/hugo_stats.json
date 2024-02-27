@@ -1,6 +1,7 @@
 {
   "htmlElements": {
     "tags": [
+      "<a",
       "a",
       "b",
       "body",

@@ -8,9 +8,9 @@ header = "Second Grade Classes"
     <div class="row  justify-content-center">
         <div class="col-12 p-2 darknote">
             <center>
-            Classes run from January 3 to February 25. <span class="below-md"><br></span>
+            Classes run in March, April, and May. <span class="below-md"><br></span>
             Try any class for two weeks for only $50. <span class="below-md"><br></span>
-            Eight 60-minute classes for $235, 90-minute for $295.<br>
+            Twelve 60-minute classes for $355, 90-minute for $525.<br>
             <a href="/discounts">Discounts</a> available for multiple classes and for sibligs.
             </center>
         </div>
@@ -20,8 +20,8 @@ header = "Second Grade Classes"
             <div class="d-flex flex-wrap justify-content-evenly gap-3">
                 <div>
                     <a href="/class/coding/kids-block-coding"><b>Block Coding with Code Monkey</b></a><br>
-                    <b>Wednesday</b> 4:30 &mdash; 5:30<br>
-                    <b>Saturday</b> 12:30 &mdash; 1:30<br>
+                    <b>Wednesday</b> 4:30 &mdash; 5:30. Starts March 6.<br> 
+                    <b>Saturday</b> 12:30 &mdash; 1:30. Starts March 9.<br>
                     Teacher: Ransford<br> 
                     <a href="https://winter-24-block-coding.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
@@ -35,7 +35,8 @@ header = "Second Grade Classes"
                 </div>
                 <div>
                     <a href="/class/coding/scratch"><b>Scratch</b></a><br>
-                    <b>Sunday</b> 10:00 &mdash; 11:00<br>
+                    <b>Sunday</b> 10:00 &mdash; 11:00<br> 
+                    Starts March 10.<br>
                     Teacher: Jared<br> 
                     <a href="https://winter-24-scratch.cheddarup.com" class="btn-small">
                         <button class="button-8s" role="button">Sign Up</button></a>
@@ -43,6 +44,7 @@ header = "Second Grade Classes"
                 <div>
                     <a href="/class/coding/fundamentals-coding-spike"><b>Fundamentals of Coding</b></a></br>
                     <b>Sunday</b> 4:00 &mdash; 5:30<br>
+                    Starts March 10.<br>
                     Teacher: Ransford<br>
                     <a href="https://fundamentals-of-coding-with-lego-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>  
                 </div>

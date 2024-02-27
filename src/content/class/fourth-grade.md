@@ -8,9 +8,9 @@ header = "Fourth Grade Classes"
     <div class="row  justify-content-center">
         <div class="col-12 p-2 darknote">
             <center>
-            Classes run from January 3 to February 25. <span class="below-md"><br></span>
+            Classes run in March, April, and May. <span class="below-md"><br></span>
             Try any class for two weeks for only $50. <span class="below-md"><br></span>
-            Eight 60-minute classes for $235, 90-minute for $295.<br>
+            Twelve 60-minute classes for $355, 90-minute for $525.<br>
             <a href="/discounts">Discounts</a> available for multiple classes and for sibligs.
             </center>
         </div>
@@ -19,46 +19,68 @@ header = "Fourth Grade Classes"
         <div class="col-12">
             <div class="d-flex flex-wrap justify-content-evenly gap-3">
                 <div>
-                    <a href="/class/coding/tweens-coffee-script"><b>Coffee Script 1</b></a> <br>
-                    <b>Monday</b> 4:30 &mdash; 5:30 or<br>
-                    <b>Saturday</b> 1:30 &mdash; 2:30<br>
-                    Teacher: Ransford<br>
-                    <a href="https://winter-24-coffee-script-part1.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
-                </div>
-                <div>
                     <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
-                    <b>Monday</b> 4:30 &ndash; 6:00 or<br>
-                    <b>Friday</b> 4:30 &ndash; 6:00<br>
-                    Teacher: Saumya<br>
-                        <a href="https://winter-24-vexiq.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
+                        <b>Monday</b> 4:30 &ndash; 6:00. Starts on March 11.<br>
+                        <b>Friday</b> 4:30 &ndash; 6:00. Starts on March 15.<br>
+                        Teacher: <a href="/instructor#saumya">Saumya</a><br>
+                        <a href="https://spring-24-coding-and-vex-robotics-grades-3-to-5.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
                     <b><a href="/class/math/challenging-math">Challenging Problems</a></b></br>
-                    <b>Wednesday</b> 5:30 &ndash; 6:30<br>
-                    Teacher: Nora<br>
-                    <a href="https://winter-24-fourth-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
+                    <b>Tuesday</b> 5:30 &ndash; 6:30<br>
+                    Starts March 4.<br>
+                    Teacher: Oana<br>
+                    <a href="https://winter-24-third-grade.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
-                    <a href="/class/math/math-olympiad/"><b>Math Olympiad</b></a><br>
-                    <b>Saturday</b> 12:30 &ndash; 1:30<br>
-                    20 lessons for $495. <br>
-                    Teacher: Charlie<br>
-                    <a href="https://competition-math-grades-4-to-6.cheddarup.com" class="btn-small">
-                        <button class="button-8s" role="button">Sign Up</button></a>
+                    <a href="/class/coding/sphero-battle-bots"><b>Sphero Battle Bots</b></a> <br>
+                        <b>Friday</b> 6:00 &ndash; 7:30<br>
+                        Starts March 15.<br>
+                        Teacher: <a href="/instructor#ransford">Ransford</a><br>
+                        <a href="https://spring-24-battle-bots34.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
+                </div>
+                <div>
+                    <a href="/class/coding/tweens-coffee-script"><b>Coffee Script</b></a> <br>
+                        <b>Saturday</b> 1:30 &ndash; 2:30<br> 
+                        Starts March 9.<br>
+                        Teacher: <a href="/instructor#ransford">TBD</a><br>
+                        <a href="https://spring-24-coffee-script.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
+                </div>
+                <div>
+                    <a href="/class/coding/cs-sphero-science"><b>Learn Science with Sphero Bots</b></a> <br>
+                    <b>Saturday</b> 2:00 &ndash; 3:30<br> 
+                    Starts March 9.<br>
+                    Teacher: Ransford<br>
+                    <a href="https://spring-24-cs-sphero-science34.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
                     <a href="/class/coding/computational-thinking-spike"><b>Coding and Lego Robotics</b></a> <br>
                     <b>Saturday</b> 3:30 &ndash; 5:00<br>
+                    Starts March 9.<br>
                     Teacher: Nora<br>
-                    <a href="https://winter-24-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
+                    <a href="https://spring-24-cs-sphero-science34.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
-                    <a href="/class/coding/tweens-coffee-script"><b>Coffee Script 2</b></a> <br>
+                    <a href="/class/coding/tweens-coffee-script"><b>Make your own games</b></a> <br>
                     <b>Sunday</b> 11:00 &ndash; 12:00<br>
-                    Teacher: Jared<br>
-                    <a href="https://winter-24-coffee-script-part2.cheddarup.com">
-                            <button class="button-8s" role="button">Sign Up</button></a>
+                    Starts March 10.<br>
+                    Teacher: <a href="/instructor/">TBD</a><br>
+                    <a href="https://spring-24-games-coffee-script.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
+                <div>
+                    <a href="/class/coding/vex-go"><b>Vex G0 STEM Labs</b></a> <br>
+                    <b>Sunday</b> 11:00 &ndash; 12:30<br>
+                    Starts March 10.<br> 
+                    Teacher: Jared<br>
+                    <a href="https://spring-24-vex-go.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
+                </div>
+                <div>
+                    <a href="/class/coding/roblox-coding"><b>Roblox Coding</b></a> <br>
+                    <b>Sunday</b> 4:00 &ndash; 5:30<br>
+                    Starts March 10.<br> 
+                    Teacher: Jared<br>
+                    <a href="https://spring-24-roblox35.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>   
+                </div>            
             </div>
         </div>
     </div>

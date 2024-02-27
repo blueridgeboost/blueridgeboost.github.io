@@ -227,7 +227,7 @@ header = "Spring 24 Classes"
                 <div style="grid-area: time8;"><b>3:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>4:30</div>
                 <div style="grid-area: time9;"><b>4:30</b><span class="below-md"><br></span>&ndash;<span class="below-md"><br></span>5:00</div> 
                 <div class="grPKKshade" style="grid-area: class1;">
-                    <a href="/class/coding/vex123"><b>Vex 123</b></a><br>
+                    <a href="/class/coding/vex123"><b>Intro to Robotics with Vex 123</b></a><br>
                         Grades PK &ndash; K<br> 
                         Teacher: <a href="/instructor#ransford">Ransford</a><br>
                         <a href="https://spring-24-vex123.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
@@ -417,7 +417,7 @@ header = "Spring 24 Classes"
                     <a href="/class/coding/roblox-coding"><b>Roblox Coding</b></a> <br>
                     Grades 3 &ndash; 4<br> 
                     Teacher: Jared<br>
-                    <a href="https://whttps://spring-24-roblox35.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>   
+                    <a href="https://spring-24-roblox35.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>   
                 </div>
                 <div class="gr68shade" style="grid-area: class18;">
                     <p><a href="/class/coding/python-spike/"><b>Python for Robotics</b></a></br>
@@ -426,7 +426,7 @@ header = "Spring 24 Classes"
                             Teacher: Nora.<br>
                 </div>
                 <div class="grK2shade" style="grid-area: class19;">
-                    <a href=""><b>Intro to Robotics</b></a></br>
+                    <a href="/class/coding/lego-wedo/"><b>Intro to Robotics with Lego WeDO</b></a></br>
                     Grades K &ndash; 2<br>
                     Teacher: Ransford<br>
                     <a href="https://spring-24-intro-to-robotics.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
