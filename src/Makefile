@@ -15,7 +15,7 @@ clean:
 	rm -rf $(DESTINATION)
 
 html: 
-	hugo  --destination $(DESTINATION) --minify
+	hugo  --destination $(DESTINATION) 
 
 copy:
 	cp ../CNAME $(DESTINATION)
@@ -39,7 +39,8 @@ compress:
 	find ../docs/ -type f -name *.svg -exec brotli -f -o "{}.br" "{}" \;
 
 
-github: clean html copy minify compress
+github: clean html copy 
+#minify compress
 	git add -A :/; git commit -m "Rebuilt site" ; git push
 
 githubdev: clean html copy 
