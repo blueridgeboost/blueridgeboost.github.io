@@ -8,9 +8,9 @@ header = "Kindergarten Classes"
     <div class="row  justify-content-center">
         <div class="col-12 p-2 darknote">
             <center>
-            Classes run from January 3 to February 25. <span class="below-md"><br></span>
+            Classes run in March, April, and May. <span class="below-md"><br></span>
             Try any class for two weeks for only $50. <span class="below-md"><br></span>
-            Eight 60-minute classes for $235, 90-minute for $295.<br>
+            Twelve 60-minute classes for $355, 90-minute for $525.<br>
             <a href="/discounts">Discounts</a> available for multiple classes and for sibligs.
             </center>
         </div>
@@ -19,24 +19,25 @@ header = "Kindergarten Classes"
         <div class="col-12">
             <div class="d-flex flex-wrap justify-content-evenly gap-3">
                 <div>
-                    <a href="/class/coding/kindergarten"><b>Block Coding Jr</b></a><br>
-                    <b>Saturday</b> 10:00 &ndash; 11:00<br>
-                    Teacher: Ransford.<br>
-                    <a href="https://winter-24-block-coding-jr.cheddarup.com" class="btn-small">
-                        <button class="button-8s" role="button">Sign Up</button></a>
+                    <a href="/class/coding/vex123"><b>Intro to Robotics with Vex 123</b></a><br>
+                        <b>Saturday</b> 10:00 &ndash; 11:00<br>
+                        Starts March 9.<br>
+                        Teacher: <a href="/instructor#ransford">Ransford</a><br>
+                        <a href="https://spring-24-vex123.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
-                    <a href="/class/coding/lego-wedo"><b>Intro to Robotics</b></a><br>
-                    <b>Saturday</b> 11:00 &ndash; 12:30<br>
-                    Teacher: Ransford<br>
-                    <a href="https://winter-24-lego-wedo.cheddarup.com" class="btn-small">
-                    <button class="button-8s" role="button">Sign Up</button></a>  
+                    <a href="/class/coding/fll-discover"><b>FLL Discover</b></a><br>
+                        <b>Sunday</b> 1:00 &ndash; 11:00<br> 
+                        Starts March 10.<br>
+                        Teacher: <a href="/instructor#">Christina</a><br>
+                        <a href="https://spring-24-fll-discover.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
-                    <a href="/class/coding/fundamentals-coding-spike"><b>Fundamentals of Coding</b></a></br>
-                    <b>Sunday</b> 4:00 &mdash; 5:30<br>
+                   <a href="/class/coding/lego-wedo/"><b>Intro to Robotics with Lego WeDO</b></a></br>
+                    <b>Sunday</b> 4:00 &ndash; 5:30<br> 
+                    Starts March 10.<br>
                     Teacher: Ransford<br>
-                    <a href="https://fundamentals-of-coding-with-lego-spike.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>  
+                    <a href="https://spring-24-intro-to-robotics.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
             </div>
         </div>
