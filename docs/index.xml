@@ -1,24 +1,353 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Coding and Math Classes and Tutoring in Charlottesville</title><link>https://blueridgeboost.com/</link><description>Recent content on Coding and Math Classes and Tutoring in Charlottesville</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 02 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml"/><item><title>We moved to 2171 Ivy Road</title><link>https://blueridgeboost.com/blog/2024/02/02/2171-ivy-rd/</link><pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/blog/2024/02/02/2171-ivy-rd/</guid><description>Come see us</description></item><item><title>Winter Camp</title><link>https://blueridgeboost.com/blog/2023/11/23/december-23-camp/</link><pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/blog/2023/11/23/december-23-camp/</guid><description>Sign up for winter camp &lt;a href='https://winter-camp-24.cheddarup.com/'>opened&lt;/a>.</description></item><item><title>Challenging math</title><link>https://blueridgeboost.com/blog/2023/11/13/challenging-math/</link><pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/blog/2023/11/13/challenging-math/</guid><description>Learn essential problem-solving skills.</description></item><item><title>Winter session</title><link>https://blueridgeboost.com/blog/2023/11/13/winter-24-classes/</link><pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/blog/2023/11/13/winter-24-classes/</guid><description>Registration for winter session opened.</description></item><item><title>Competition math</title><link>https://blueridgeboost.com/blog/2023/11/12/competition-math/</link><pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/blog/2023/11/12/competition-math/</guid><description>Learn math in a new way with math olympiad problems.</description></item><item><title>Congratulations!</title><link>https://blueridgeboost.com/blog/2023/11/11/fll-trophy-23/</link><pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/blog/2023/11/11/fll-trophy-23/</guid><description>Our team, Computery Composers, wins the Innovation Project Award!</description></item><item><title>First Lego League</title><link>https://blueridgeboost.com/blog/2023/08/12/fll-23/</link><pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/blog/2023/08/12/fll-23/</guid><description>Join Our Lego Teams!</description></item><item><title>Last Week of Summer Camps</title><link>https://blueridgeboost.com/blog/2023/08/11/end-summer-camps-23/</link><pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/blog/2023/08/11/end-summer-camps-23/</guid><description>The fun does not have to stop.</description></item><item><title>Free trial classes</title><link>https://blueridgeboost.com/blog/2023/08/05/trial-classes-booking/</link><pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/blog/2023/08/05/trial-classes-booking/</guid><description>Book a trial class today!</description></item><item><title>Math Review</title><link>https://blueridgeboost.com/blog/2023/06/05/math-review-23/</link><pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/blog/2023/06/05/math-review-23/</guid><description>Get your child ready for the new school year with math review sessions!</description></item><item><title>Summer Camps</title><link>https://blueridgeboost.com/blog/2023/05/21/summer-camps-23/</link><pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/blog/2023/05/21/summer-camps-23/</guid><description>Coding and math camp in the last week of July and the first two weeks of August.</description></item><item><title>Summer Break</title><link>https://blueridgeboost.com/blog/2023/05/14/summer-break-23/</link><pubDate>Sun, 14 May 2023 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/blog/2023/05/14/summer-break-23/</guid><description>Blue Ridge Boost will be closed from June 5th to July 23rd.</description></item><item><title>Free trial classes</title><link>https://blueridgeboost.com/blog/2022/09/17/trial-classes/</link><pubDate>Sat, 17 Sep 2022 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/blog/2022/09/17/trial-classes/</guid><description>Open house every Sunday at 1 pm!</description></item><item><title>The new office is ready for students!</title><link>https://blueridgeboost.com/blog/2022/09/05/new-office-ready/</link><pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/blog/2022/09/05/new-office-ready/</guid><description/></item><item><title>New Downtown Location</title><link>https://blueridgeboost.com/blog/2022/08/29/brb-new-location/</link><pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/blog/2022/08/29/brb-new-location/</guid><description>Starting in September, Blue Ridge Boost is located at 222 Court Square, Charlottesville.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding and Math Classes and Tutoring in Charlottesville</title>
+    <link>https://blueridgeboost.com/</link>
+    <description>Recent content on Coding and Math Classes and Tutoring in Charlottesville</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We moved to 2171 Ivy Road</title>
+      <link>https://blueridgeboost.com/blog/2024/02/02/2171-ivy-rd/</link>
+      <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/blog/2024/02/02/2171-ivy-rd/</guid>
+      <description>Come see us</description>
+    </item>
+    
+    <item>
+      <title>Winter Camp</title>
+      <link>https://blueridgeboost.com/blog/2023/11/23/december-23-camp/</link>
+      <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/blog/2023/11/23/december-23-camp/</guid>
+      <description>Sign up for winter camp &lt;a href=&#39;https://winter-camp-24.cheddarup.com/&#39;&gt;opened&lt;/a&gt;.</description>
+    </item>
+    
+    <item>
+      <title>Challenging math</title>
+      <link>https://blueridgeboost.com/blog/2023/11/13/challenging-math/</link>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/blog/2023/11/13/challenging-math/</guid>
+      <description>Learn essential problem-solving skills.</description>
+    </item>
+    
+    <item>
+      <title>Winter session</title>
+      <link>https://blueridgeboost.com/blog/2023/11/13/winter-24-classes/</link>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/blog/2023/11/13/winter-24-classes/</guid>
+      <description>Registration for winter session opened.</description>
+    </item>
+    
+    <item>
+      <title>Competition math</title>
+      <link>https://blueridgeboost.com/blog/2023/11/12/competition-math/</link>
+      <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/blog/2023/11/12/competition-math/</guid>
+      <description>Learn math in a new way with math olympiad problems.</description>
+    </item>
+    
+    <item>
+      <title>Congratulations!</title>
+      <link>https://blueridgeboost.com/blog/2023/11/11/fll-trophy-23/</link>
+      <pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/blog/2023/11/11/fll-trophy-23/</guid>
+      <description>Our team, Computery Composers, wins the Innovation Project Award!</description>
+    </item>
+    
+    <item>
+      <title>First Lego League</title>
+      <link>https://blueridgeboost.com/blog/2023/08/12/fll-23/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/blog/2023/08/12/fll-23/</guid>
+      <description>Join Our Lego Teams!</description>
+    </item>
+    
+    <item>
+      <title>Last Week of Summer Camps</title>
+      <link>https://blueridgeboost.com/blog/2023/08/11/end-summer-camps-23/</link>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/blog/2023/08/11/end-summer-camps-23/</guid>
+      <description>The fun does not have to stop.</description>
+    </item>
+    
+    <item>
+      <title>Free trial classes</title>
+      <link>https://blueridgeboost.com/blog/2023/08/05/trial-classes-booking/</link>
+      <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/blog/2023/08/05/trial-classes-booking/</guid>
+      <description>Book a trial class today!</description>
+    </item>
+    
+    <item>
+      <title>Math Review</title>
+      <link>https://blueridgeboost.com/blog/2023/06/05/math-review-23/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/blog/2023/06/05/math-review-23/</guid>
+      <description>Get your child ready for the new school year with math review sessions!</description>
+    </item>
+    
+    <item>
+      <title>Summer Camps</title>
+      <link>https://blueridgeboost.com/blog/2023/05/21/summer-camps-23/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/blog/2023/05/21/summer-camps-23/</guid>
+      <description>Coding and math camp in the last week of July and the first two weeks of August.</description>
+    </item>
+    
+    <item>
+      <title>Summer Break</title>
+      <link>https://blueridgeboost.com/blog/2023/05/14/summer-break-23/</link>
+      <pubDate>Sun, 14 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/blog/2023/05/14/summer-break-23/</guid>
+      <description>Blue Ridge Boost will be closed from June 5th to July 23rd.</description>
+    </item>
+    
+    <item>
+      <title>Free trial classes</title>
+      <link>https://blueridgeboost.com/blog/2022/09/17/trial-classes/</link>
+      <pubDate>Sat, 17 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/blog/2022/09/17/trial-classes/</guid>
+      <description>Open house every Sunday at 1 pm!</description>
+    </item>
+    
+    <item>
+      <title>The new office is ready for students!</title>
+      <link>https://blueridgeboost.com/blog/2022/09/05/new-office-ready/</link>
+      <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/blog/2022/09/05/new-office-ready/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>New Downtown Location</title>
+      <link>https://blueridgeboost.com/blog/2022/08/29/brb-new-location/</link>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/blog/2022/08/29/brb-new-location/</guid>
+      <description>Starting in September, Blue Ridge Boost is located at 222 Court Square, Charlottesville.
 To reach us, please walk around to the back of the building. Walk up the stairs to the second floor and enter through the door on your left.
-The closest paid parking is the Market Street Garage. Free 2-hour parking is available throughout the Downtown area.</description></item><item><title>Fall Classes</title><link>https://blueridgeboost.com/blog/2022/08/15/fall-coding-classes-2022/</link><pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/blog/2022/08/15/fall-coding-classes-2022/</guid><description/></item><item><title> Programming Fundametals with Sphero Bots | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/programming-fundamentals-bolt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/programming-fundamentals-bolt/</guid><description>Under Construction!</description></item><item><title>Algebra 2 Tutoring in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/tutor/math/algebra2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/tutor/math/algebra2/</guid><description>We help your child succeed in algebra and teach advanced concepts to students that are ready for a challenging curriculum. Our services include an Algebra 1 review before school starts, ongoing support with classroom content, and new topics and lessons.
-Get Ready for Algebra 2! Join our summer classes in August, to participate in a carefully developed curriculum to review Algebra 1, including linear functions, linear equations and systems of equations, exponent laws, quadratic functions, and polynomials.</description></item><item><title>Algebra Tutoring in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/tutor/math/algebra1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/tutor/math/algebra1/</guid><description>We help your child succeed in algebra and teach advanced concepts to students that are ready for a challenging curriculum. Our services include a prealgebra review before school starts, ongoing support with classroom content, and new topics and lessons. Get Ready for Algebra 1! At Blue Ridge Boost, we strongly believe that math is not a spectator sport. Children learn math and become independent, confident mathematicians by solving a variety of problems.</description></item><item><title>Algorithms | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/algorithms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/algorithms/</guid><description>Unlock the Secrets of Algorithms 🚀 Are you fascinated by the digital world and the incredible technologies that power it? Have you ever wondered how search engines find information so quickly or how machine learning algorithms make predictions with stunning accuracy? If you&amp;rsquo;re ready to dive into the inner workings of algorithms and discover their immense impact on our daily lives, then look no further! Introducing our comprehensive course: &amp;ldquo;Unlocking the Secrets of Algorithms: An Accessible Introduction.</description></item><item><title>AMC and MathCounts Coaching in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/math/amc-coach/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/math/amc-coach/</guid><description>Through a combination of hands-on building and programming, your children will embark on a thrilling journey of discovery. We carefully selected eight robots that will engage their imaginations and ignite their passion for STEM.
-Our course utilizes the LEGO Education WeDo 2.0 Core Set 45300, a powerful tool that combines the joy of LEGO building with the fundamentals of coding. With 8 different building instructions at their fingertips, your children will construct fascinating models, each with its own special features and functions.</description></item><item><title>AP&amp;reg; Calculus AB/BC Tutoring in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/tutor/math/ap-calculus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/tutor/math/ap-calculus/</guid><description>Get Ready for AP Calculus AB/BC! Join our summer classes in August to participate in a carefully developed curriculum to review linear, quadratic, polynomial, exponential, and trigonometric functions.
-AP Calculus AB/BC Private Tutor Contact us to set up lessons and problem-solving sessions for AP Calculus AB/BC!</description></item><item><title>AP&amp;reg; Computer Science Principles | Blue Ridge Boost</title><link>https://blueridgeboost.com/tutor/computer-science/ap-computer-science-principles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/tutor/computer-science/ap-computer-science-principles/</guid><description>Contact us to set up private lessons with an experienced software engineer and tutor.
-Click here to book a tutoring session.</description></item><item><title>AP&amp;reg; Computer Science Tutor in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/tutor/computer-science/ap-computer-science-java/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/tutor/computer-science/ap-computer-science-java/</guid><description>Contact us to set up private lessons with an experienced Java engineer and tutor.
-Click here to book a tutoring session.</description></item><item><title>AP&amp;reg; Statistics Tutoring in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/tutor/math/ap-statistics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/tutor/math/ap-statistics/</guid><description>Get Ready for AP Statistics! Join our summer classes in August to participate in a carefully developed curriculum to review probabilities, statistics, and linear, quadratic, and exponential functions.
-AP Statistics Private Tutoring Contact us to set up lessons and problem-solving sessions for AP Statistics!</description></item><item><title>Artificial Intelligence | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/ai/</guid><description>Hey Middle Schoolers! Are you ready to become a tech wizard? Join our thrilling AI Explorers course, where you'll unlock the mysteries of Artificial Intelligence (AI) and learn how it's changing the world around us!
+The closest paid parking is the Market Street Garage. Free 2-hour parking is available throughout the Downtown area.</description>
+    </item>
+    
+    <item>
+      <title>Fall Classes</title>
+      <link>https://blueridgeboost.com/blog/2022/08/15/fall-coding-classes-2022/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/blog/2022/08/15/fall-coding-classes-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Programming Fundametals with Sphero Bots | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/programming-fundamentals-bolt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/programming-fundamentals-bolt/</guid>
+      <description>Under Construction!</description>
+    </item>
+    
+    <item>
+      <title>Algebra 2 Tutoring in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/tutor/math/algebra2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/tutor/math/algebra2/</guid>
+      <description>We help your child succeed in algebra and teach advanced concepts to students that are ready for a challenging curriculum. Our services include an Algebra 1 review before school starts, ongoing support with classroom content, and new topics and lessons.
+Get Ready for Algebra 2! Join our summer classes in August, to participate in a carefully developed curriculum to review Algebra 1, including linear functions, linear equations and systems of equations, exponent laws, quadratic functions, and polynomials.</description>
+    </item>
+    
+    <item>
+      <title>Algebra Tutoring in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/tutor/math/algebra1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/tutor/math/algebra1/</guid>
+      <description>We help your child succeed in algebra and teach advanced concepts to students that are ready for a challenging curriculum. Our services include a prealgebra review before school starts, ongoing support with classroom content, and new topics and lessons. Get Ready for Algebra 1! At Blue Ridge Boost, we strongly believe that math is not a spectator sport. Children learn math and become independent, confident mathematicians by solving a variety of problems.</description>
+    </item>
+    
+    <item>
+      <title>Algorithms | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/algorithms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/algorithms/</guid>
+      <description>Unlock the Secrets of Algorithms 🚀 Are you fascinated by the digital world and the incredible technologies that power it? Have you ever wondered how search engines find information so quickly or how machine learning algorithms make predictions with stunning accuracy? If you&amp;rsquo;re ready to dive into the inner workings of algorithms and discover their immense impact on our daily lives, then look no further! Introducing our comprehensive course: &amp;ldquo;Unlocking the Secrets of Algorithms: An Accessible Introduction.</description>
+    </item>
+    
+    <item>
+      <title>AMC and MathCounts Coaching in Charlottesville | Blue Ridge Boost </title>
+      <link>https://blueridgeboost.com/class/math/amc-coach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/math/amc-coach/</guid>
+      <description>Through a combination of hands-on building and programming, your children will embark on a thrilling journey of discovery. We carefully selected eight robots that will engage their imaginations and ignite their passion for STEM.
+Our course utilizes the LEGO Education WeDo 2.0 Core Set 45300, a powerful tool that combines the joy of LEGO building with the fundamentals of coding. With 8 different building instructions at their fingertips, your children will construct fascinating models, each with its own special features and functions.</description>
+    </item>
+    
+    <item>
+      <title>AP&amp;reg; Calculus AB/BC Tutoring in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/tutor/math/ap-calculus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/tutor/math/ap-calculus/</guid>
+      <description>Get Ready for AP Calculus AB/BC! Join our summer classes in August to participate in a carefully developed curriculum to review linear, quadratic, polynomial, exponential, and trigonometric functions.
+AP Calculus AB/BC Private Tutor Contact us to set up lessons and problem-solving sessions for AP Calculus AB/BC!</description>
+    </item>
+    
+    <item>
+      <title>AP&amp;reg; Computer Science Principles | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/tutor/computer-science/ap-computer-science-principles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/tutor/computer-science/ap-computer-science-principles/</guid>
+      <description>Contact us to set up private lessons with an experienced software engineer and tutor.
+Click here to book a tutoring session.</description>
+    </item>
+    
+    <item>
+      <title>AP&amp;reg; Computer Science Tutor in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/tutor/computer-science/ap-computer-science-java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/tutor/computer-science/ap-computer-science-java/</guid>
+      <description>Contact us to set up private lessons with an experienced Java engineer and tutor.
+Click here to book a tutoring session.</description>
+    </item>
+    
+    <item>
+      <title>AP&amp;reg; Statistics Tutoring in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/tutor/math/ap-statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/tutor/math/ap-statistics/</guid>
+      <description>Get Ready for AP Statistics! Join our summer classes in August to participate in a carefully developed curriculum to review probabilities, statistics, and linear, quadratic, and exponential functions.
+AP Statistics Private Tutoring Contact us to set up lessons and problem-solving sessions for AP Statistics!</description>
+    </item>
+    
+    <item>
+      <title>Artificial Intelligence | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/ai/</guid>
+      <description>Hey Middle Schoolers! Are you ready to become a tech wizard? Join our thrilling AI Explorers course, where you&#39;ll unlock the mysteries of Artificial Intelligence (AI) and learn how it&#39;s changing the world around us!
 Why Join AI Explorers? Super Fun Learning: Say goodbye to boring lectures! Our classes are jam-packed with cool activities, games, and challenges.
-Learn the Jargon: We explain tricky AI concepts in a way that's super easy to understand.</description></item><item><title>Authors | Blue Ridge Boost</title><link>https://blueridgeboost.com/authors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/authors/</guid><description/></item><item><title>Battle Bots | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/sphero-battle-bots/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/sphero-battle-bots/</guid><description>Under Construction!</description></item><item><title>Block Language Classes for Six to Ten-Year-Olds | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/kids-block-coding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/kids-block-coding/</guid><description>Sign Up
-Students ages six to ten learn fundamental coding concepts by helping a beaver build a dam on instructor-provided Chromebooks. First, students learn to code using simple commands to move left, right and drop logs. Next, students learn to code repetition using repeat loops executed a fixed or a variable number of times. In the second part of the course, students learn to code using conditional loops. In the third part of the course, students learn to code using conditional statements with simple and compound conditions.</description></item><item><title>Challenging Math Problems | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/math/challenging-math/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/math/challenging-math/</guid><description>Looking for engaging math challenges for your advanced learner? Join our Challenging Problems class provides for real-world, open-ended math problems that will stimulate your child's problem-solving skills and strategic thinking.
+Learn the Jargon: We explain tricky AI concepts in a way that&#39;s super easy to understand.</description>
+    </item>
+    
+    <item>
+      <title>Authors | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/authors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/authors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Battle Bots | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/sphero-battle-bots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/sphero-battle-bots/</guid>
+      <description>Under Construction!</description>
+    </item>
+    
+    <item>
+      <title>Block Language Classes for Six to Ten-Year-Olds | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/kids-block-coding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/kids-block-coding/</guid>
+      <description>Sign Up
+Students ages six to ten learn fundamental coding concepts by helping a beaver build a dam on instructor-provided Chromebooks. First, students learn to code using simple commands to move left, right and drop logs. Next, students learn to code repetition using repeat loops executed a fixed or a variable number of times. In the second part of the course, students learn to code using conditional loops. In the third part of the course, students learn to code using conditional statements with simple and compound conditions.</description>
+    </item>
+    
+    <item>
+      <title>Challenging Math Problems | Blue Ridge Boost </title>
+      <link>https://blueridgeboost.com/class/math/challenging-math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/math/challenging-math/</guid>
+      <description>Looking for engaging math challenges for your advanced learner? Join our Challenging Problems class provides for real-world, open-ended math problems that will stimulate your child&#39;s problem-solving skills and strategic thinking.
 Beyond simply getting the right answer, these problems encourage explanation of reasoning and discussion of various solution strategies. Your child will get practice communicating their mathematical thinking both verbally and in writing.
-What's more, the multi-step word problems can be scaffolded based on your child's abilities.</description></item><item><title>Charlottesville Kids' Chess Club | Blue Ridge Boost</title><link>https://blueridgeboost.com/chess/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/chess/</guid><description>Sign-up here for one of our chess club meetings! Joins us for two hours of fun, every Thursday, from 4:30 to 6:30. All levels from novice to expert are welcome. The club is free, but sign up is required as we have limited space. Please cancel your sign-up if your plans change and you can not make it. Parking is available at the Market St Parking Garage (first hour is free).</description></item><item><title>Class Request Form | Blue Ridge Boost</title><link>https://blueridgeboost.com/form/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/form/</guid><description> Please submit this form or email nora@blueridgeboost.com for more information or to join a class. Your email: Your name: Which type of class are you interested in? Select and age range Kindergarten - Second Grade Second - Fifth Grade Middle School Any other information that would be helpful (including scheduling preferences):
-Send</description></item><item><title>Code your Own Roblox Game | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/roblox-coding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/roblox-coding/</guid><description>Under Construction!</description></item><item><title>Coding and Computational Thinking with VEX V5&amp;reg; | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/c++vexv5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/c++vexv5/</guid><description>Learn C++ with the VexV5 robot! Are you searching for an engaging and educational program that will ignite your child's passion for robotics and programming? Look no further! We proudly present "Coding and Computational Thinking with VEX V5," an introductory-level curriculum designed to inspire young minds and unlock their potential in the world of technology.
+What&#39;s more, the multi-step word problems can be scaffolded based on your child&#39;s abilities.</description>
+    </item>
+    
+    <item>
+      <title>Charlottesville Kids&#39; Chess Club | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/chess/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/chess/</guid>
+      <description>Sign-up here for one of our chess club meetings! Joins us for two hours of fun, every Thursday, from 4:30 to 6:30. All levels from novice to expert are welcome. The club is free, but sign up is required as we have limited space. Please cancel your sign-up if your plans change and you can not make it. Parking is available at the Market St Parking Garage (first hour is free).</description>
+    </item>
+    
+    <item>
+      <title>Class Request Form | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/form/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/form/</guid>
+      <description> Please submit this form or email nora@blueridgeboost.com for more information or to join a class. Your email: Your name: Which type of class are you interested in? Select and age range Kindergarten - Second Grade Second - Fifth Grade Middle School Any other information that would be helpful (including scheduling preferences):
+Send </description>
+    </item>
+    
+    <item>
+      <title>Code your Own Roblox Game | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/roblox-coding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/roblox-coding/</guid>
+      <description>Under Construction!</description>
+    </item>
+    
+    <item>
+      <title>Coding and Computational Thinking with VEX V5&amp;reg; | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/c&#43;&#43;vexv5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/c&#43;&#43;vexv5/</guid>
+      <description>Learn C++ with the VexV5 robot! Are you searching for an engaging and educational program that will ignite your child&#39;s passion for robotics and programming? Look no further! We proudly present &#34;Coding and Computational Thinking with VEX V5,&#34; an introductory-level curriculum designed to inspire young minds and unlock their potential in the world of technology.
 Sign Up
-Developed by Carnegie Mellon University, this cutting-edge curriculum takes a hands-on approach to teaching core robotics concepts using the VEX V5 system.</description></item><item><title>Coding Classes in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/camps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/camps/</guid><description>We offer instructional programs in robotics, coding, and math during the 2024 Summer break. Children can attend a maximum of 25 days in three months.
+Developed by Carnegie Mellon University, this cutting-edge curriculum takes a hands-on approach to teaching core robotics concepts using the VEX V5 system.</description>
+    </item>
+    
+    <item>
+      <title>Coding Classes in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/camps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/camps/</guid>
+      <description>We offer instructional programs in robotics, coding, and math during the 2024 Summer break. Children can attend a maximum of 25 days in three months.
 Pay in full before April 30: $325 for half-day and $445 for full-day.
 Early bird full-day signups Ages 6 and 7 &amp;nbsp;&amp;nbsp;&amp;nbsp; Ages 8 and 9 &amp;nbsp;&amp;nbsp;&amp;nbsp; Ages 10 to 13
-Early bird half-day signups Ages 6 and 7 &amp;nbsp;&amp;nbsp;&amp;nbsp; Ages 8 and 9 &amp;nbsp;&amp;nbsp;&amp;nbsp; Ages 10 to 13</description></item><item><title>Coding Classes in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/classes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/classes/</guid><description>Monday 4:30&amp;ndash;5:00 5:00&amp;ndash;5:30 5:30&amp;ndash;6:00 6:00&amp;ndash;6:30 6:30&amp;ndash;7:30 Coding and Vex Robotics Grades 3&amp;ndash;6
+Early bird half-day signups Ages 6 and 7 &amp;nbsp;&amp;nbsp;&amp;nbsp; Ages 8 and 9 &amp;nbsp;&amp;nbsp;&amp;nbsp; Ages 10 to 13</description>
+    </item>
+    
+    <item>
+      <title>Coding Classes in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/classes/</guid>
+      <description>Monday 4:30&amp;ndash;5:00 5:00&amp;ndash;5:30 5:30&amp;ndash;6:00 6:00&amp;ndash;6:30 6:30&amp;ndash;7:30 Coding and Vex Robotics Grades 3&amp;ndash;6
 Teachers: Saumya and Jared
 Ends March 4. Challenging Problems Grade 3
 Teacher: Nora
@@ -29,15 +358,87 @@ Grades 1 &amp;ndash; 2
 Teacher: Jared
 Ends February 28. Math Tutoring Available Math Tutoring Available Math Tutoring Available Thursday 4:30
 &amp;ndash;
-6:30 Charlotesville Kids' Chess Club Grades K &amp;ndash; 8</description></item><item><title>Coding Classes in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/upcoming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/upcoming/</guid><description>Sign-up for classes starting in March and ending in May is open. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525. Discounts available for multiple classes and for sibligs. Classes by grade level: Kindergarten, 1, 2 , 3, 4, 5, 6, 7, 8 &amp;middot; Tutoring &amp;middot; Chess
-Classes by day of the week: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday. Monday 4:30&amp;ndash;5:00 5:00&amp;ndash;5:30 5:30&amp;ndash;6:00 6:00&amp;ndash;6:30 6:30&amp;ndash;7:00 7:00&amp;ndash;7:30 Coding and Vex Robotics Grades 3&amp;ndash;4</description></item><item><title>Coding Group Classes for 4 to 6 year olds | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/kindergarten/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/kindergarten/</guid><description>Our youngest students learn fundamental coding concepts by helping a monkey collect bananas on instructor-provided Chromebooks. Students learn the basics of coding using left, right, jump up, jump left, and jump right commands to guide a monkey to collect all bananas before opening a treasure chest. In addition, students learn to code repetition by using loops and conditional loops. The course concludes with procedures. Each class is 50 minutes long.</description></item><item><title>Competition Math for Elementary and Middle School | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/math/math-olympiad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/math/math-olympiad/</guid><description>Math Olympiad for Elementary School (grades 4, 5, and 6)
+6:30 Charlotesville Kids&#39; Chess Club Grades K &amp;ndash; 8</description>
+    </item>
+    
+    <item>
+      <title>Coding Classes in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/upcoming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/upcoming/</guid>
+      <description>Sign-up for classes starting in March and ending in May is open. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525. Discounts available for multiple classes and for sibligs. Classes by grade level: Kindergarten, 1, 2 , 3, 4, 5, 6, 7, 8 &amp;middot; Tutoring &amp;middot; Chess
+Classes by day of the week: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday. Monday 4:30&amp;ndash;5:00 5:00&amp;ndash;5:30 5:30&amp;ndash;6:00 6:00&amp;ndash;6:30 6:30&amp;ndash;7:00 7:00&amp;ndash;7:30 Coding and Vex Robotics Grades 3&amp;ndash;4</description>
+    </item>
+    
+    <item>
+      <title>Coding Group Classes for 4 to 6 year olds | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/kindergarten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/kindergarten/</guid>
+      <description>Our youngest students learn fundamental coding concepts by helping a monkey collect bananas on instructor-provided Chromebooks. Students learn the basics of coding using left, right, jump up, jump left, and jump right commands to guide a monkey to collect all bananas before opening a treasure chest. In addition, students learn to code repetition by using loops and conditional loops. The course concludes with procedures. Each class is 50 minutes long.</description>
+    </item>
+    
+    <item>
+      <title>Competition Math for Elementary and Middle School | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/math/math-olympiad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/math/math-olympiad/</guid>
+      <description>Math Olympiad for Elementary School (grades 4, 5, and 6)
 Saturdays 12:30 to 1:20, ending March 31. 20 lessons for $495. Advanced third graders are also welcome.
 Math Olympiad for Middle School (grades 6,7, and 8)
 Saturdays 1:30 to 2:20, ending March 31. 20 lessons for $495.
 Advanced fifth graders are also welcome.
-An experienced instructor teaches mini-lessons on topics commonly found in Math Olympiad contests and leads students in solving carefully selected practice problems.</description></item><item><title>Computer Science Tutor | Blue Ridge Boost</title><link>https://blueridgeboost.com/tutor/computer-science/book-now/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/tutor/computer-science/book-now/</guid><description>Book here!</description></item><item><title>Contact | Blue Ridge Boost</title><link>https://blueridgeboost.com/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/contact/</guid><description> Don't hesitate to get in touch with us for any learning needs in math and computing. We offer online and in-person one-on-one instruction and in-person group classes for students from middle school to graduate student level in Mathematics and Computer Science. Name Your Email Your Message &amp;nbsp; Send Message</description></item><item><title>Cybersecurity | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/cybersecurity5to6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/cybersecurity5to6/</guid><description>Are you a middle school student with a passion for technology and a desire to protect your digital world? Look no further! Our cutting-edge labs are specifically designed to introduce you to the exciting and ever-growing field of cybersecurity.
+An experienced instructor teaches mini-lessons on topics commonly found in Math Olympiad contests and leads students in solving carefully selected practice problems.</description>
+    </item>
+    
+    <item>
+      <title>Computer Science Tutor | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/tutor/computer-science/book-now/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/tutor/computer-science/book-now/</guid>
+      <description>Book here!</description>
+    </item>
+    
+    <item>
+      <title>Contact | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/contact/</guid>
+      <description> Don&#39;t hesitate to get in touch with us for any learning needs in math and computing. We offer online and in-person one-on-one instruction and in-person group classes for students from middle school to graduate student level in Mathematics and Computer Science. Name Your Email Your Message &amp;nbsp; Send Message </description>
+    </item>
+    
+    <item>
+      <title>Cybersecurity | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/cybersecurity5to6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/cybersecurity5to6/</guid>
+      <description>Are you a middle school student with a passion for technology and a desire to protect your digital world? Look no further! Our cutting-edge labs are specifically designed to introduce you to the exciting and ever-growing field of cybersecurity.
 Sign Up
-At CyberSec Explorers, we have two primary goals in mind. First and foremost, we want to equip you with the knowledge and skills to navigate the digital landscape safely and ethically.</description></item><item><title>Data Science | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/datascience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/datascience/</guid><description>Welcome to the incredible realm of Data Science designed exclusively for young minds! Prepare yourself for an exciting journey where you'll learn how to collect, store, and present data in the most amazing and engaging ways imaginable! Our exceptional course is here to teach you a variety of techniques to analyze data and make it easily comprehensible. With each lesson, you'll delve deeper into the world of data science, guided by our expert instructors who will ensure that you grasp each concept with ease.</description></item><item><title>Eighth Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/eighth-grade/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/eighth-grade/</guid><description>Classes run in March, April, and May. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525.
+At CyberSec Explorers, we have two primary goals in mind. First and foremost, we want to equip you with the knowledge and skills to navigate the digital landscape safely and ethically.</description>
+    </item>
+    
+    <item>
+      <title>Data Science | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/datascience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/datascience/</guid>
+      <description>Welcome to the incredible realm of Data Science designed exclusively for young minds! Prepare yourself for an exciting journey where you&#39;ll learn how to collect, store, and present data in the most amazing and engaging ways imaginable! Our exceptional course is here to teach you a variety of techniques to analyze data and make it easily comprehensible. With each lesson, you&#39;ll delve deeper into the world of data science, guided by our expert instructors who will ensure that you grasp each concept with ease.</description>
+    </item>
+    
+    <item>
+      <title>Eighth Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/eighth-grade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/eighth-grade/</guid>
+      <description>Classes run in March, April, and May. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525.
 Discounts available for multiple classes and for sibligs. C++ Coding with VEX V5 Robots Monday 6:00 &amp;ndash; 7:30
 Starts March 11.
 Teachers: TBD
@@ -45,14 +446,32 @@ Sign Up Data Science Wednesday 5:30 &amp;ndash; 6:30
 Starts March 13.
 Teacher: Oana
 Sign Up &lt;Artificial Intelligence Wednesday 6:30 &amp;ndash; 7:30
-Starts March 13.</description></item><item><title>Fifth Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/fifth-grade/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/fifth-grade/</guid><description>Classes run in March, April, and May. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525.
+Starts March 13.</description>
+    </item>
+    
+    <item>
+      <title>Fifth Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/fifth-grade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/fifth-grade/</guid>
+      <description>Classes run in March, April, and May. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525.
 Discounts available for multiple classes and for sibligs. Coding and Vex Robotics Monday 4:30 &amp;ndash; 6:00. Starts March 11.
 Friday 4:30 &amp;ndash; 6:00. Starts March 15.
 Teacher: Jared
 Sign Up Cybersecurity Labs with Sphero Monday 4:30 &amp;ndash; 6:00.
 Starts March 11.
 Teacher: Jared
-Sign Up Data Science Wednesday 4:30 &amp;ndash; 5:30.</description></item><item><title>First Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/first-grade/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/first-grade/</guid><description>Classes run in March, April, and May. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525.
+Sign Up Data Science Wednesday 4:30 &amp;ndash; 5:30.</description>
+    </item>
+    
+    <item>
+      <title>First Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/first-grade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/first-grade/</guid>
+      <description>Classes run in March, April, and May. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525.
 Discounts available for multiple classes and for sibligs. Block Coding with Code Monkey
 Wednesday 4:30 &amp;mdash; 5:30. Starts March 6.
 Saturday 12:30 &amp;mdash; 1:30. Starts March 9.
@@ -61,19 +480,91 @@ Sign Up Intro to Robotics
 Saturday 11:00 &amp;ndash; 12:30
 Starts March 9.
 Teacher: Ransford
-Sign Up Challenging Problems Friday 3:00 &amp;mdash; 4:00</description></item><item><title>Fourth Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/fourth-grade/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/fourth-grade/</guid><description>Classes run in March, April, and May. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525.
+Sign Up Challenging Problems Friday 3:00 &amp;mdash; 4:00</description>
+    </item>
+    
+    <item>
+      <title>Fourth Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/fourth-grade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/fourth-grade/</guid>
+      <description>Classes run in March, April, and May. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525.
 Discounts available for multiple classes and for sibligs. Coding and Vex Robotics Monday 4:30 &amp;ndash; 6:00. Starts on March 11.
 Friday 4:30 &amp;ndash; 6:00. Starts on March 15.
 Teacher: Saumya
 Sign Up Challenging Problems Tuesday 5:30 &amp;ndash; 6:30
 Starts March 4.
 Teacher: Oana
-Sign Up Sphero Battle Bots Friday 6:00 &amp;ndash; 7:30</description></item><item><title>Frequently Asked Questions | Blue Ridge Boost</title><link>https://blueridgeboost.com/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/faq/</guid><description>Coming soon &amp;hellip;</description></item><item><title>Geometry Tutoring in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/tutor/math/geometry/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/tutor/math/geometry/</guid><description>We help your child succeed in geometry and teach advanced concepts to students that are ready for a challenging curriculum. Our services include algebra and middle school geometry review before school starts, ongoing support with classroom content, and new topics and lessons.
-Get Ready for Geometry At Blue Ridge Boost, we strongly believe that math is not a spectator sport. Children learn math and become independent, confident mathematicians by solving a variety of problems.</description></item><item><title>Get ready for FLL Challenge | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/fll-challenge/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/fll-challenge/</guid><description>The FIRST LEGO League Challenge curriculum immerses students in research, problem-solving, coding, and engineering, providing diverse, challenging, and relevant learning experiences. Students are tasked with developing innovative solutions to real-world problems and designing, building, and coding a LEGO robot that can tackle themed challenge missions.
-> The 2023-2024 art-themed MASTERPIECE materials will help students imagine and innovate new ways to create and communicate art globally. At Blue Ridge Boost, students work in pairs using one SPIKE Prime set to ensure each student has the time and the tools to share their ideas and experiment.</description></item><item><title>Intro to Proofs with Euclidean Geometry in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/math/geometry/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/math/geometry/</guid><description>Sign Up
+Sign Up Sphero Battle Bots Friday 6:00 &amp;ndash; 7:30</description>
+    </item>
+    
+    <item>
+      <title>Frequently Asked Questions | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/faq/</guid>
+      <description>Coming soon &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Geometry Tutoring in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/tutor/math/geometry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/tutor/math/geometry/</guid>
+      <description>We help your child succeed in geometry and teach advanced concepts to students that are ready for a challenging curriculum. Our services include algebra and middle school geometry review before school starts, ongoing support with classroom content, and new topics and lessons.
+Get Ready for Geometry At Blue Ridge Boost, we strongly believe that math is not a spectator sport. Children learn math and become independent, confident mathematicians by solving a variety of problems.</description>
+    </item>
+    
+    <item>
+      <title>Get ready for FLL Challenge | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/fll-challenge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/fll-challenge/</guid>
+      <description>The FIRST LEGO League Challenge curriculum immerses students in research, problem-solving, coding, and engineering, providing diverse, challenging, and relevant learning experiences. Students are tasked with developing innovative solutions to real-world problems and designing, building, and coding a LEGO robot that can tackle themed challenge missions.
+&gt; The 2023-2024 art-themed MASTERPIECE materials will help students imagine and innovate new ways to create and communicate art globally. At Blue Ridge Boost, students work in pairs using one SPIKE Prime set to ensure each student has the time and the tools to share their ideas and experiment.</description>
+    </item>
+    
+    <item>
+      <title>Intro to Proofs with Euclidean Geometry in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/math/geometry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/math/geometry/</guid>
+      <description>Sign Up
 In this Euclidean Geometry class, students will embark on a journey to explore the fundamental principles and concepts of geometry. The course begins by introducing the axioms, which serve as the building blocks upon which the entire study of geometry is constructed.
-Students will delve into the intricacies of points, understanding them as the fundamental entities that define the geometric space. They will learn how points can be located and identified, and how they interact within various geometric configurations.</description></item><item><title>Join our First Lego League Discover Class | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/fll-discover/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/fll-discover/</guid><description>Sign Up
-The FIRST LEGO League Discover is a fun and engaging STEM program designed for teams of children aged 4-6, which nurtures their innate curiosity and fosters lifelong learning habits. By the end of the program, children emerge with greater confidence, better equipped to tackle upcoming challenges, and with a newfound passion for learning. Every year, a fresh and thrilling Challenge is unveiled, and each team of eight kids commences their exploration of the real-world theme with an exclusive LEGO Education Discover Set.</description></item><item><title>Join our First Lego League Explore Team | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/fll-explore/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/fll-explore/</guid><description>The FIRST LEGO League Explore is an educational program where teams of six students aged 6-10 concentrate on the basics of engineering. They delve into real-world problems, learn to design, code, and develop novel solutions using LEGO bricks powered by LEGO Education SPIKE Essential. The 2023-2024 art-themed MASTERPIECE materials will help students imagine and innovate new ways to create and communicate art across the globe. At Blue Ridge Boost students works in pairs using one SPIKE Essential set to ensure each student has the time and the tools to share their ideas and to experiment.</description></item><item><title>Kindergarten Coding and Math Classes in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/kindergarten/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/kindergarten/</guid><description>Classes run in March, April, and May. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525.
+Students will delve into the intricacies of points, understanding them as the fundamental entities that define the geometric space. They will learn how points can be located and identified, and how they interact within various geometric configurations.</description>
+    </item>
+    
+    <item>
+      <title>Join our First Lego League Discover Class | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/fll-discover/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/fll-discover/</guid>
+      <description>Sign Up
+The FIRST LEGO League Discover is a fun and engaging STEM program designed for teams of children aged 4-6, which nurtures their innate curiosity and fosters lifelong learning habits. By the end of the program, children emerge with greater confidence, better equipped to tackle upcoming challenges, and with a newfound passion for learning. Every year, a fresh and thrilling Challenge is unveiled, and each team of eight kids commences their exploration of the real-world theme with an exclusive LEGO Education Discover Set.</description>
+    </item>
+    
+    <item>
+      <title>Join our First Lego League Explore Team | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/fll-explore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/fll-explore/</guid>
+      <description>The FIRST LEGO League Explore is an educational program where teams of six students aged 6-10 concentrate on the basics of engineering. They delve into real-world problems, learn to design, code, and develop novel solutions using LEGO bricks powered by LEGO Education SPIKE Essential. The 2023-2024 art-themed MASTERPIECE materials will help students imagine and innovate new ways to create and communicate art across the globe. At Blue Ridge Boost students works in pairs using one SPIKE Essential set to ensure each student has the time and the tools to share their ideas and to experiment.</description>
+    </item>
+    
+    <item>
+      <title>Kindergarten Coding and Math Classes in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/kindergarten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/kindergarten/</guid>
+      <description>Classes run in March, April, and May. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525.
 Discounts available for multiple classes and for sibligs. Intro to Robotics with Vex 123
 Saturday 10:00 &amp;ndash; 11:00
 Starts March 9.
@@ -82,32 +573,239 @@ Sign Up FLL Discover
 Sunday 1:00 &amp;ndash; 11:00
 Starts March 10.
 Teacher: Christina
-Sign Up Intro to Robotics with Lego WeDO Sunday 4:00 &amp;ndash; 5:30</description></item><item><title>Learn Python with Lego&amp;reg; Spike for Children in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/python-spike/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/python-spike/</guid><description>Introducing Coding with LEGO and Python! Is your child curious about computer science but struggling to see how coding relates to the real world? This new LEGO SPIKE Prime Python course is the perfect hands-on introduction.
-Through building and programming LEGO robots, your child will learn important coding concepts like loops, conditionals, variables, and functions - all while solving fun challenges like making their bots follow lines, play sounds, and more.</description></item><item><title>Learn Science with Sphero Bots | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/cs-sphero-science/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/cs-sphero-science/</guid><description>Under Construction!</description></item><item><title>Learn through play using Lego&amp;reg; STEAM Park | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/steam-park/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/steam-park/</guid><description>Come and learn to math and science with Lego STEAM Park! Small class sizes with a maximum of four students sharing one set allow the learners to engage with all the components.
-The STEAM Park unit enables students to delve into the world around them by constructing interactive models using functional components. The lessons encourage students to adopt a scientific mindset as they build and test models, experiment, and seek answers to questions.</description></item><item><title>Learn to Code with Lego&amp;reg; Spike for Children in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/computational-thinking-spike/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/computational-thinking-spike/</guid><description>Introducing Your Child to Coding and Robotics Are you looking for a fun, hands-on way to spark your child's interest in technology? Our new coding and robotics class uses LEGO SPIKE Prime programmable robots and the visual programming language Scratch to teach important computer science skills.
-Through a series of real-world projects, your child will learn computational thinking patterns like conditional logic, iteration, and problem-solving. They'll enjoy bringing their virtual programs to life by making the robot sort, move, and respond to its environment.</description></item><item><title>Learn to Code with VEX 123&amp;reg; | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/vex123/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/vex123/</guid><description>Learn to Code with VEX 123 Robots Introducing VEX 123: The Interactive Robot Experience that Takes Learning Beyond the Screen!
+Sign Up Intro to Robotics with Lego WeDO Sunday 4:00 &amp;ndash; 5:30</description>
+    </item>
+    
+    <item>
+      <title>Learn Python with Lego&amp;reg; Spike for Children in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/python-spike/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/python-spike/</guid>
+      <description>Introducing Coding with LEGO and Python! Is your child curious about computer science but struggling to see how coding relates to the real world? This new LEGO SPIKE Prime Python course is the perfect hands-on introduction.
+Through building and programming LEGO robots, your child will learn important coding concepts like loops, conditionals, variables, and functions - all while solving fun challenges like making their bots follow lines, play sounds, and more.</description>
+    </item>
+    
+    <item>
+      <title>Learn Science with Sphero Bots | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/cs-sphero-science/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/cs-sphero-science/</guid>
+      <description>Under Construction!</description>
+    </item>
+    
+    <item>
+      <title>Learn through play using Lego&amp;reg; STEAM Park | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/steam-park/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/steam-park/</guid>
+      <description>Come and learn to math and science with Lego STEAM Park! Small class sizes with a maximum of four students sharing one set allow the learners to engage with all the components.
+The STEAM Park unit enables students to delve into the world around them by constructing interactive models using functional components. The lessons encourage students to adopt a scientific mindset as they build and test models, experiment, and seek answers to questions.</description>
+    </item>
+    
+    <item>
+      <title>Learn to Code with Lego&amp;reg; Spike for Children in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/computational-thinking-spike/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/computational-thinking-spike/</guid>
+      <description>Introducing Your Child to Coding and Robotics Are you looking for a fun, hands-on way to spark your child&#39;s interest in technology? Our new coding and robotics class uses LEGO SPIKE Prime programmable robots and the visual programming language Scratch to teach important computer science skills.
+Through a series of real-world projects, your child will learn computational thinking patterns like conditional logic, iteration, and problem-solving. They&#39;ll enjoy bringing their virtual programs to life by making the robot sort, move, and respond to its environment.</description>
+    </item>
+    
+    <item>
+      <title>Learn to Code with VEX 123&amp;reg; | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/vex123/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/vex123/</guid>
+      <description>Learn to Code with VEX 123 Robots Introducing VEX 123: The Interactive Robot Experience that Takes Learning Beyond the Screen!
 Sign Up
-Say goodbye to traditional computer-based learning and get ready to embark on an extraordinary hands-on journey with VEX 123. This interactive and programmable robot takes Computer Science and Computational Thinking out of the virtual realm and places them right into the eager hands of students like you!</description></item><item><title>Learn to Code with VexIQ&amp;reg; | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/computational-thinking-vexiq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/computational-thinking-vexiq/</guid><description>Using VEX IQ robotics kits and the visual programming software VEXcode, students will bring codes to life as they learn programming basics like loops and conditionals. They'll have a blast watching their robots complete challenges like following a line, sorting objects, and more - all through their own code.
-Your child will be fully engaged as they progress through our step-by-step lessons at their own pace. From basic movements to fully automated solutions, each project builds on the last.</description></item><item><title>Learn to Codi with Lego&amp;reg; Spike for Children in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/fundamentals-coding-spike/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/fundamentals-coding-spike/</guid><description>This class is intended for students with no previous exposure to Lego robots.
+Say goodbye to traditional computer-based learning and get ready to embark on an extraordinary hands-on journey with VEX 123. This interactive and programmable robot takes Computer Science and Computational Thinking out of the virtual realm and places them right into the eager hands of students like you!</description>
+    </item>
+    
+    <item>
+      <title>Learn to Code with VexIQ&amp;reg; | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/computational-thinking-vexiq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/computational-thinking-vexiq/</guid>
+      <description>Using VEX IQ robotics kits and the visual programming software VEXcode, students will bring codes to life as they learn programming basics like loops and conditionals. They&#39;ll have a blast watching their robots complete challenges like following a line, sorting objects, and more - all through their own code.
+Your child will be fully engaged as they progress through our step-by-step lessons at their own pace. From basic movements to fully automated solutions, each project builds on the last.</description>
+    </item>
+    
+    <item>
+      <title>Learn to Codi with Lego&amp;reg; Spike for Children in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/fundamentals-coding-spike/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/fundamentals-coding-spike/</guid>
+      <description>This class is intended for students with no previous exposure to Lego robots.
 Sign Up
 Introducing the Next Generation of Coders! The Fundamentals of Coding with SPIKE Essential is the fun and engaging way to teach your elementary students essential STEM skills.
-Through interactive projects and robotics using the LEGO SPIKE Essential kit, children will learn programming basics like sequences, algorithms, conditional logic, and repetition. They will apply these concepts by building real-world machines like excavators and cranes.</description></item><item><title>Lego&amp;reg; Robotics for Children in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/lego-wedo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/lego-wedo/</guid><description>Come and learn to build and program Lego&amp;reg; robot! Through a combination of hands-on building and programming, your children will embark on a thrilling journey of discovery. We carefully selected eight robots that will engage their imaginations and ignite their passion for STEM.
-Our course utilizes the LEGO Education WeDo 2.0 Core Set 45300, a powerful tool that combines the joy of LEGO building with the fundamentals of coding. With 8 different building instructions at their fingertips, your children will construct fascinating models, each with its own special features and functions.</description></item><item><title>Lego&amp;reg; Spike Robotics for Children in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/lego-spike/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/lego-spike/</guid><description>Come and learn to build and program Lego® robots!
-Students learn to build robot attachments and code the Lego Spike® robot using Scratch.</description></item><item><title>Loyalty discounts | Blue Ridge Boost</title><link>https://blueridgeboost.com/discounts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/discounts/</guid><description>At Blue Ridge Boost, we understand the importance of nurturing your child's thirst for knowledge and their eagerness to learn. That's why we're excited to introduce two incredible discount codes that can be applied to all our classes, providing your children with even more opportunities to explore and grow.
-Discount Code: CURIOSITY50 If your child is eager to enroll in multiple classes within the same session, we have a fantastic offer for you.</description></item><item><title>Make Art with Sphero Bots | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/cs-sphero-art/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/cs-sphero-art/</guid><description>Is your student interested in art? Let's combine art and computer science to unlock their potential in both fields! Sign Up
-The Computer Science Foundations: Make Art with Sphero Bots is a unique program designed to introduce middle school students to the exciting world where technology meets art. In this course, students will learn how to combine programming concepts with artistic expression using Sphero robots and the power of coding.</description></item><item><title>Make Art with Sphero Bots | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/vex-go/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/vex-go/</guid><description>Under Construction!</description></item><item><title>Math and Coding Classes in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/fall/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/fall/</guid><description>Signup for a two-week trial or the entire class. Commitment for the entire duration of the program is required to continue after the first two classes.
+Through interactive projects and robotics using the LEGO SPIKE Essential kit, children will learn programming basics like sequences, algorithms, conditional logic, and repetition. They will apply these concepts by building real-world machines like excavators and cranes.</description>
+    </item>
+    
+    <item>
+      <title>Lego&amp;reg; Robotics for Children in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/lego-wedo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/lego-wedo/</guid>
+      <description>Come and learn to build and program Lego&amp;reg; robot! Through a combination of hands-on building and programming, your children will embark on a thrilling journey of discovery. We carefully selected eight robots that will engage their imaginations and ignite their passion for STEM.
+Our course utilizes the LEGO Education WeDo 2.0 Core Set 45300, a powerful tool that combines the joy of LEGO building with the fundamentals of coding. With 8 different building instructions at their fingertips, your children will construct fascinating models, each with its own special features and functions.</description>
+    </item>
+    
+    <item>
+      <title>Lego&amp;reg; Spike Robotics for Children in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/lego-spike/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/lego-spike/</guid>
+      <description>Come and learn to build and program Lego® robots!
+Students learn to build robot attachments and code the Lego Spike® robot using Scratch.</description>
+    </item>
+    
+    <item>
+      <title>Loyalty discounts | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/discounts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/discounts/</guid>
+      <description>At Blue Ridge Boost, we understand the importance of nurturing your child&#39;s thirst for knowledge and their eagerness to learn. That&#39;s why we&#39;re excited to introduce two incredible discount codes that can be applied to all our classes, providing your children with even more opportunities to explore and grow.
+Discount Code: CURIOSITY50 If your child is eager to enroll in multiple classes within the same session, we have a fantastic offer for you.</description>
+    </item>
+    
+    <item>
+      <title>Make Art with Sphero Bots | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/cs-sphero-art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/cs-sphero-art/</guid>
+      <description>Is your student interested in art? Let&#39;s combine art and computer science to unlock their potential in both fields! Sign Up
+The Computer Science Foundations: Make Art with Sphero Bots is a unique program designed to introduce middle school students to the exciting world where technology meets art. In this course, students will learn how to combine programming concepts with artistic expression using Sphero robots and the power of coding.</description>
+    </item>
+    
+    <item>
+      <title>Make Art with Sphero Bots | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/vex-go/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/vex-go/</guid>
+      <description>Under Construction!</description>
+    </item>
+    
+    <item>
+      <title>Math and Coding Classes in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/fall/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/fall/</guid>
+      <description>Signup for a two-week trial or the entire class. Commitment for the entire duration of the program is required to continue after the first two classes.
 We accept Virginia K-12 Acceleration Grants for the math classes. Math Olympiad for Elementary School (grades 4, 5, and 6)
 Saturdays 12:30 to 1:20, ending March 31. 20 lessons for $495. Advanced third graders are also welcome.
-Sign Up Math Olympiad for Middle School (grades 6,7, and 8)</description></item><item><title>Math and Computer Science Tutor | Blue Ridge Boost</title><link>https://blueridgeboost.com/tutoring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/tutoring/</guid><description>Book a session with one of our wonderful instructors to get help with one of the subjects below. Elementary Math Math Olympiad Coaching Middle School Math Algebra 1 Geometry AMC 8/10/12 Coaching Algebra 2 Pre-calculus AP&amp;reg; Calculus AB/BC AP&amp;reg; Statistics College Calculus Abstract Algebra Real Analysis General Topology AP&amp;reg; Computer Science Principles (Python) AP&amp;reg;Computer Science (Java) USA Computing Olympiad Bronze CS 1110	Introduction to Programming CS 2100	Data Structures and Algorithms 1 CS 2120	Discrete Mathematics and Theory 1 CS 3120	Discrete Mathematics and Theory 2 CS 3100	Data Structures and Algorithms 2 CS 3140	Software Development Essentials CS 3240	Advanced Software Development Techniques CS 3250	Software Testing CS 3710	Introduction to Cybersecurity CS 4620	Compilers CS 4630	Defense Against the Dark Arts CS 4750	Database Systems Tutoring sessions may be virtual or in person at the Blue Ridge Boost office at 2171 Ivy Road, Charlottesville.</description></item><item><title>Math Tutoring for Children in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/tutor/math/elementary-math/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/tutor/math/elementary-math/</guid><description>At Blue Ridge Boost, we teach problem-solving skills using a variety of math manipulatives, Montessori materials, and math games. In addition, we use a variety of curricula based on the Virginia Standards of Learning, Common Core, Singapore Math®, and Beast Academy®.
-Experienced instructors are ready to help your child develop a good understanding of the content, whether to keep up with classwork or expand knowledge beyond the school curriculum.</description></item><item><title>Math Tutoring in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/tutor/math/book-now/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/tutor/math/book-now/</guid><description>Book here!</description></item><item><title>Middle School Math Tutoring in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/tutor/math/middle-school-math/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/tutor/math/middle-school-math/</guid><description>We help your child succeed in math and teach advanced concepts to students that are ready for a challenging curriculum.
+Sign Up Math Olympiad for Middle School (grades 6,7, and 8)</description>
+    </item>
+    
+    <item>
+      <title>Math and Computer Science Tutor | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/tutoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/tutoring/</guid>
+      <description>Book a session with one of our wonderful instructors to get help with one of the subjects below. Elementary Math Math Olympiad Coaching Middle School Math Algebra 1 Geometry AMC 8/10/12 Coaching Algebra 2 Pre-calculus AP&amp;reg; Calculus AB/BC AP&amp;reg; Statistics College Calculus Abstract Algebra Real Analysis General Topology AP&amp;reg; Computer Science Principles (Python) AP&amp;reg;Computer Science (Java) USA Computing Olympiad Bronze CS 1110	Introduction to Programming CS 2100	Data Structures and Algorithms 1 CS 2120	Discrete Mathematics and Theory 1 CS 3120	Discrete Mathematics and Theory 2 CS 3100	Data Structures and Algorithms 2 CS 3140	Software Development Essentials CS 3240	Advanced Software Development Techniques CS 3250	Software Testing CS 3710	Introduction to Cybersecurity CS 4620	Compilers CS 4630	Defense Against the Dark Arts CS 4750	Database Systems Tutoring sessions may be virtual or in person at the Blue Ridge Boost office at 2171 Ivy Road, Charlottesville.</description>
+    </item>
+    
+    <item>
+      <title>Math Tutoring for Children in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/tutor/math/elementary-math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/tutor/math/elementary-math/</guid>
+      <description>At Blue Ridge Boost, we teach problem-solving skills using a variety of math manipulatives, Montessori materials, and math games. In addition, we use a variety of curricula based on the Virginia Standards of Learning, Common Core, Singapore Math®, and Beast Academy®.
+Experienced instructors are ready to help your child develop a good understanding of the content, whether to keep up with classwork or expand knowledge beyond the school curriculum.</description>
+    </item>
+    
+    <item>
+      <title>Math Tutoring in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/tutor/math/book-now/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/tutor/math/book-now/</guid>
+      <description>Book here!</description>
+    </item>
+    
+    <item>
+      <title>Middle School Math Tutoring in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/tutor/math/middle-school-math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/tutor/math/middle-school-math/</guid>
+      <description>We help your child succeed in math and teach advanced concepts to students that are ready for a challenging curriculum.
 We help your child succeed in math and teach advanced concepts to students that are ready for a challenging curriculum.
-At Blue Ridge Boost, a qualified and experienced teacher assesses your student&amp;rsquo;s knowledge and builds an individualized instruction plan that targets weak areas while assisting with topics the student is learning.</description></item><item><title>Middle School Python Classes in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/middle-school-python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/middle-school-python/</guid><description>Are you a middle schooler (grades 5 or 6) interested in Python? Come and learn with us!
+At Blue Ridge Boost, a qualified and experienced teacher assesses your student&amp;rsquo;s knowledge and builds an individualized instruction plan that targets weak areas while assisting with topics the student is learning.</description>
+    </item>
+    
+    <item>
+      <title>Middle School Python Classes in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/middle-school-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/middle-school-python/</guid>
+      <description>Are you a middle schooler (grades 5 or 6) interested in Python? Come and learn with us!
 Students learn Python using a combination of lessons that use the Code Monkey platform and Jupyter Notebooks created by the instructor.
 Classes run in semester-long sessions. Each class is 50 minutes long. We adjust classes to the pace of each student.
-Sign Up Unit 1. Sequencing, Objects and For Loops Students learn that coding means giving precise instructions to a computer, the concept of objects, and that objects can perform several actions.</description></item><item><title>Office expansion</title><link>https://blueridgeboost.com/blog/1/01/01/office-expansion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/blog/1/01/01/office-expansion/</guid><description>A new bigger and brighter room awaits Lego masters</description></item><item><title>Precalc Tutoring in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/tutor/math/precalculus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/tutor/math/precalculus/</guid><description>We help your child succeed in precalculus and teach advanced concepts to students that are ready for a challenging curriculum. Our services include an Algebra 2 review before school starts, ongoing support with classroom content, and new topics and lessons.
-Get Ready for Math Analysis/Precalc! Join our summer classes in August to participate in a carefully developed curriculum to review Algebra 2 and Trigonometry, including quadratic, exponential, polynomial, and trigonometric functions.</description></item><item><title>Python Classes in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/python/</guid><description>We are teaching Python using a Blue Ridge Boost version of the textbook How to Think Like a Computer Scientist, Learning with Python 3. Sign Up
-Who should take this class? Students that: pass the pretest have had some previous exposure to text-based programming languages, are mature enough to read a textbook, and are willing to commit at least an hour of outside class work time. Students are expected to read the book chapter at home.</description></item><item><title>Scratch Coding for Children in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/scratch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/scratch/</guid><description>Learn Scratch with us! Sign Up
-Coding games is a fun and interactive way for kids to learn the foundations of computer programming. The class uses a project-based approach to introduce essential coding concepts through building a series of playable games. Each one teaches an important programming technique or concept. Students first follow steps to create a basic version, then are challenged to extend it on their own. This learn-by-doing method helps cement understanding through hands-on application.</description></item><item><title>Second Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/second-grade/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/second-grade/</guid><description>Classes run in March, April, and May. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525.
+Sign Up Unit 1. Sequencing, Objects and For Loops Students learn that coding means giving precise instructions to a computer, the concept of objects, and that objects can perform several actions.</description>
+    </item>
+    
+    <item>
+      <title>Office expansion</title>
+      <link>https://blueridgeboost.com/blog/1/01/01/office-expansion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/blog/1/01/01/office-expansion/</guid>
+      <description>A new bigger and brighter room awaits Lego masters</description>
+    </item>
+    
+    <item>
+      <title>Precalc Tutoring in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/tutor/math/precalculus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/tutor/math/precalculus/</guid>
+      <description>We help your child succeed in precalculus and teach advanced concepts to students that are ready for a challenging curriculum. Our services include an Algebra 2 review before school starts, ongoing support with classroom content, and new topics and lessons.
+Get Ready for Math Analysis/Precalc! Join our summer classes in August to participate in a carefully developed curriculum to review Algebra 2 and Trigonometry, including quadratic, exponential, polynomial, and trigonometric functions.</description>
+    </item>
+    
+    <item>
+      <title>Python Classes in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/python/</guid>
+      <description>We are teaching Python using a Blue Ridge Boost version of the textbook How to Think Like a Computer Scientist, Learning with Python 3. Sign Up
+Who should take this class? Students that: pass the pretest have had some previous exposure to text-based programming languages, are mature enough to read a textbook, and are willing to commit at least an hour of outside class work time. Students are expected to read the book chapter at home.</description>
+    </item>
+    
+    <item>
+      <title>Scratch Coding for Children in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/scratch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/scratch/</guid>
+      <description>Learn Scratch with us! Sign Up
+Coding games is a fun and interactive way for kids to learn the foundations of computer programming. The class uses a project-based approach to introduce essential coding concepts through building a series of playable games. Each one teaches an important programming technique or concept. Students first follow steps to create a basic version, then are challenged to extend it on their own. This learn-by-doing method helps cement understanding through hands-on application.</description>
+    </item>
+    
+    <item>
+      <title>Second Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/second-grade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/second-grade/</guid>
+      <description>Classes run in March, April, and May. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525.
 Discounts available for multiple classes and for sibligs. Block Coding with Code Monkey
 Wednesday 4:30 &amp;mdash; 5:30. Starts March 6.
 Saturday 12:30 &amp;mdash; 1:30. Starts March 9.
@@ -115,7 +813,16 @@ Teacher: Ransford
 Sign Up Challenging Problems Friday 4:00 &amp;mdash; 5:00
 Teacher: Nora
 Sign Up Scratch
-Sunday 10:00 &amp;mdash; 11:00</description></item><item><title>Seventh Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/seventh-grade/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/seventh-grade/</guid><description>Classes run in March, April, and May. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525.
+Sunday 10:00 &amp;mdash; 11:00</description>
+    </item>
+    
+    <item>
+      <title>Seventh Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/seventh-grade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/seventh-grade/</guid>
+      <description>Classes run in March, April, and May. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525.
 Discounts available for multiple classes and for sibligs. C++ Coding with VEX V5 Robots Monday 6:00 &amp;ndash; 7:30
 Starts March 11.
 Teachers: TBD
@@ -123,630 +830,88 @@ Sign Up Data Science Wednesday 5:30 &amp;ndash; 6:30
 Starts March 13.
 Teacher: Oana
 Sign Up &lt;Artificial Intelligence Wednesday 6:30 &amp;ndash; 7:30
-Starts March 13.</description></item><item><title>Sixth Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/sixth-grade/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/sixth-grade/</guid><description>Classes run from January 3 to February 25. Try any class for two weeks for only $50. Discounts available for multiple classes and for siblings. Coding and Vex Robotics Monday 4:30 &amp;ndash; 6:00. Starts March 11.
+Starts March 13.</description>
+    </item>
+    
+    <item>
+      <title>Sixth Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/sixth-grade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/sixth-grade/</guid>
+      <description>Classes run from January 3 to February 25. Try any class for two weeks for only $50. Discounts available for multiple classes and for siblings. Coding and Vex Robotics Monday 4:30 &amp;ndash; 6:00. Starts March 11.
 Friday 4:30 &amp;ndash; 6:00. Starts March 15.
 Teacher: Jared
 Sign Up Cybersecurity Labs with Sphero Monday 4:30 &amp;ndash; 6:00.
 Starts March 11.
 Teacher: Jared
 Sign Up Data Science Wednesday 4:30 &amp;ndash; 5:30.
-Starts March 13.</description></item><item><title>Text Coding Classes in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/coding/tweens-coffee-script/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/coding/tweens-coffee-script/</guid><description>Students are introduced to essential coding principles through CoffeeScript, a user-friendly text-based programming language. To facilitate learning, young coders utilize an appealing graphical interface on instructor-provided Chromebooks. While prior typing experience can be advantageous, it is not a prerequisite. Classes are conducted in semester-long sessions, with each session lasting 55 minutes. We tailor the pace of the classes to accommodate the individual progress of each student.
-Sign Up for Coding &amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Sign Up for Game Making Unit 1: In the first unit, students discover that coding involves providing precise instructions to a computer and employing strategic planning to develop efficient programs.</description></item><item><title>Third Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title><link>https://blueridgeboost.com/class/third-grade/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/class/third-grade/</guid><description>Classes run in March, April, and May. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525.
+Starts March 13.</description>
+    </item>
+    
+    <item>
+      <title>Text Coding Classes in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/coding/tweens-coffee-script/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/coding/tweens-coffee-script/</guid>
+      <description>Students are introduced to essential coding principles through CoffeeScript, a user-friendly text-based programming language. To facilitate learning, young coders utilize an appealing graphical interface on instructor-provided Chromebooks. While prior typing experience can be advantageous, it is not a prerequisite. Classes are conducted in semester-long sessions, with each session lasting 55 minutes. We tailor the pace of the classes to accommodate the individual progress of each student.
+Sign Up for Coding &amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Sign Up for Game Making Unit 1: In the first unit, students discover that coding involves providing precise instructions to a computer and employing strategic planning to develop efficient programs.</description>
+    </item>
+    
+    <item>
+      <title>Third Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/class/third-grade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blueridgeboost.com/class/third-grade/</guid>
+      <description>Classes run in March, April, and May. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525.
 Discounts available for multiple classes and for sibligs. Coding and Vex Robotics Monday 4:30 &amp;ndash; 6:00. Starts on March 11.
 Friday 4:30 &amp;ndash; 6:00. Starts on March 15.
 Teacher: Saumya
 Sign Up Challenging Problems Monday 4:30 &amp;ndash; 5:30
 Starts March 4.
 Teacher: Oana
-Sign Up Sphero Battle Bots Friday 6:00 &amp;ndash; 7:30</description></item><item><title>USA Computing Olympiad Coaching | Blue Ridge Boost</title><link>https://blueridgeboost.com/tutor/computer-science/usaco-computing-olympiad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/tutor/computer-science/usaco-computing-olympiad/</guid><description>Contact us to get coaching for USA Computing Olympiad!
-Click here to book a tutoring session.</description></item><item><title>Vision and History | Blue Ridge Boost</title><link>https://blueridgeboost.com/vision/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/vision/</guid><description>During the COVID-19 pandemic, I spent a significant amount of time teaching and helping my children learn and discovered that I greatly enjoy teaching young students. As a result, I quit my Ph.D. program in Computer Science to pursue a degree in teaching at the University of Virginia and launched Blue Ridge Boost. During the lockdown, Maxwell and Dorina tried a variety of challenging and exciting classes from the Center for Talented Youth at John Hopkins and The Art Of Problem Solving.</description></item><item><title>We are hiring! | Blue Ridge Boost</title><link>https://blueridgeboost.com/jobs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/jobs/</guid><description>We are looking for the following roles: Lead teacher for preschool and kindergarten coding classes.
-The ideal candidate: has experience working with young children. has availability after school, or on weekends. is qualified to teach following a lesson plan one or more of our PK-K classes, including Block Coding, Coding Express, STEAM Park, lego story hour, and FLL Discover. time commitment two to six hours per week. Pay range: $20 to $30 per hour.</description></item><item><title>Your Instructors | Blue Ridge Boost</title><link>https://blueridgeboost.com/instructor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/instructor/</guid><description>Coding Instructors Nora Evans I am originally from Bucharest, Romania and earned a B.Sc. in Computer Science at the Polytechnical University of Bucharest. I moved to Charlottesville in the Fall of 2004 to pursue graduate school at the University of Virginia, where I earned a Master's in Computer Science, a Master of Science in Mathematics, and a Master of Teaching. Some of my accomplishments include: co-author of several research articles several years of industry experience as a Java software developer over two years of online tutoring on Wyzant in C, C++, Java, Python, List, and Prolog.</description></item></channel></rss>
-=======
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Coding and Math Classes and Tutoring in Charlottesville</title>
-    <link>https://blueridgeboost.com/</link>
-    <description>Recent content on Coding and Math Classes and Tutoring in Charlottesville</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 02 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>We moved to 2171 Ivy Road</title>
-      <link>https://blueridgeboost.com/blog/2024/02/02/2171-ivy-rd/</link>
-      <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/blog/2024/02/02/2171-ivy-rd/</guid>
-      <description>Come see us</description>
+Sign Up Sphero Battle Bots Friday 6:00 &amp;ndash; 7:30</description>
     </item>
-    <item>
-      <title>Winter Camp</title>
-      <link>https://blueridgeboost.com/blog/2023/11/23/december-23-camp/</link>
-      <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/blog/2023/11/23/december-23-camp/</guid>
-      <description>Sign up for winter camp &lt;a href=&#39;https://winter-camp-24.cheddarup.com/&#39;&gt;opened&lt;/a&gt;.</description>
-    </item>
-    <item>
-      <title>Challenging math</title>
-      <link>https://blueridgeboost.com/blog/2023/11/13/challenging-math/</link>
-      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/blog/2023/11/13/challenging-math/</guid>
-      <description>Learn essential problem-solving skills.</description>
-    </item>
-    <item>
-      <title>Winter session</title>
-      <link>https://blueridgeboost.com/blog/2023/11/13/winter-24-classes/</link>
-      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/blog/2023/11/13/winter-24-classes/</guid>
-      <description>Registration for winter session opened.</description>
-    </item>
-    <item>
-      <title>Competition math</title>
-      <link>https://blueridgeboost.com/blog/2023/11/12/competition-math/</link>
-      <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/blog/2023/11/12/competition-math/</guid>
-      <description>Learn math in a new way with math olympiad problems.</description>
-    </item>
-    <item>
-      <title>Congratulations!</title>
-      <link>https://blueridgeboost.com/blog/2023/11/11/fll-trophy-23/</link>
-      <pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/blog/2023/11/11/fll-trophy-23/</guid>
-      <description>Our team, Computery Composers, wins the Innovation Project Award!</description>
-    </item>
-    <item>
-      <title>First Lego League</title>
-      <link>https://blueridgeboost.com/blog/2023/08/12/fll-23/</link>
-      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/blog/2023/08/12/fll-23/</guid>
-      <description>Join Our Lego Teams!</description>
-    </item>
-    <item>
-      <title>Last Week of Summer Camps</title>
-      <link>https://blueridgeboost.com/blog/2023/08/11/end-summer-camps-23/</link>
-      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/blog/2023/08/11/end-summer-camps-23/</guid>
-      <description>The fun does not have to stop.</description>
-    </item>
-    <item>
-      <title>Free trial classes</title>
-      <link>https://blueridgeboost.com/blog/2023/08/05/trial-classes-booking/</link>
-      <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/blog/2023/08/05/trial-classes-booking/</guid>
-      <description>Book a trial class today!</description>
-    </item>
-    <item>
-      <title>Math Review</title>
-      <link>https://blueridgeboost.com/blog/2023/06/05/math-review-23/</link>
-      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/blog/2023/06/05/math-review-23/</guid>
-      <description>Get your child ready for the new school year with math review sessions!</description>
-    </item>
-    <item>
-      <title>Summer Camps</title>
-      <link>https://blueridgeboost.com/blog/2023/05/21/summer-camps-23/</link>
-      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/blog/2023/05/21/summer-camps-23/</guid>
-      <description>Coding and math camp in the last week of July and the first two weeks of August.</description>
-    </item>
-    <item>
-      <title>Summer Break</title>
-      <link>https://blueridgeboost.com/blog/2023/05/14/summer-break-23/</link>
-      <pubDate>Sun, 14 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/blog/2023/05/14/summer-break-23/</guid>
-      <description>Blue Ridge Boost will be closed from June 5th to July 23rd.</description>
-    </item>
-    <item>
-      <title>Free trial classes</title>
-      <link>https://blueridgeboost.com/blog/2022/09/17/trial-classes/</link>
-      <pubDate>Sat, 17 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/blog/2022/09/17/trial-classes/</guid>
-      <description>Open house every Sunday at 1 pm!</description>
-    </item>
-    <item>
-      <title>The new office is ready for students!</title>
-      <link>https://blueridgeboost.com/blog/2022/09/05/new-office-ready/</link>
-      <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/blog/2022/09/05/new-office-ready/</guid>
-      <description> </description>
-    </item>
-    <item>
-      <title>New Downtown Location</title>
-      <link>https://blueridgeboost.com/blog/2022/08/29/brb-new-location/</link>
-      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/blog/2022/08/29/brb-new-location/</guid>
-      <description>Starting in September, Blue Ridge Boost is located at 222 Court Square, Charlottesville.&#xA;To reach us, please walk around to the back of the building. Walk up the stairs to the second floor and enter through the door on your left.&#xA;The closest paid parking is the Market Street Garage. Free 2-hour parking is available throughout the Downtown area.</description>
-    </item>
-    <item>
-      <title>Fall Classes</title>
-      <link>https://blueridgeboost.com/blog/2022/08/15/fall-coding-classes-2022/</link>
-      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/blog/2022/08/15/fall-coding-classes-2022/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title> Programming Fundametals with Sphero Bots | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/programming-fundamentals-bolt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/programming-fundamentals-bolt/</guid>
-      <description>Under Construction!</description>
-    </item>
-    <item>
-      <title>Algebra 2 Tutoring in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/tutor/math/algebra2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/tutor/math/algebra2/</guid>
-      <description>We help your child succeed in algebra and teach advanced concepts to students that are ready for a challenging curriculum. Our services include an Algebra 1 review before school starts, ongoing support with classroom content, and new topics and lessons.&#xA;Get Ready for Algebra 2! Join our summer classes in August, to participate in a carefully developed curriculum to review Algebra 1, including linear functions, linear equations and systems of equations, exponent laws, quadratic functions, and polynomials.</description>
-    </item>
-    <item>
-      <title>Algebra Tutoring in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/tutor/math/algebra1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/tutor/math/algebra1/</guid>
-      <description>We help your child succeed in algebra and teach advanced concepts to students that are ready for a challenging curriculum. Our services include a prealgebra review before school starts, ongoing support with classroom content, and new topics and lessons. Get Ready for Algebra 1! At Blue Ridge Boost, we strongly believe that math is not a spectator sport. Children learn math and become independent, confident mathematicians by solving a variety of problems.</description>
-    </item>
-    <item>
-      <title>Algorithms | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/algorithms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/algorithms/</guid>
-      <description>Under Construction!</description>
-    </item>
-    <item>
-      <title>AMC and MathCounts Coaching in Charlottesville | Blue Ridge Boost </title>
-      <link>https://blueridgeboost.com/class/math/amc-coach/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/math/amc-coach/</guid>
-      <description>Through a combination of hands-on building and programming, your children will embark on a thrilling journey of discovery. We carefully selected eight robots that will engage their imaginations and ignite their passion for STEM.&#xA;Our course utilizes the LEGO Education WeDo 2.0 Core Set 45300, a powerful tool that combines the joy of LEGO building with the fundamentals of coding. With 8 different building instructions at their fingertips, your children will construct fascinating models, each with its own special features and functions.</description>
-    </item>
-    <item>
-      <title>AP&amp;reg; Calculus AB/BC Tutoring in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/tutor/math/ap-calculus/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/tutor/math/ap-calculus/</guid>
-      <description>Get Ready for AP Calculus AB/BC! Join our summer classes in August to participate in a carefully developed curriculum to review linear, quadratic, polynomial, exponential, and trigonometric functions.&#xA;AP Calculus AB/BC Private Tutor Contact us to set up lessons and problem-solving sessions for AP Calculus AB/BC!</description>
-    </item>
-    <item>
-      <title>AP&amp;reg; Computer Science Principles | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/tutor/computer-science/ap-computer-science-principles/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/tutor/computer-science/ap-computer-science-principles/</guid>
-      <description>Contact us to set up private lessons with an experienced software engineer and tutor.&#xA;Click here to book a tutoring session.</description>
-    </item>
-    <item>
-      <title>AP&amp;reg; Computer Science Tutor in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/tutor/computer-science/ap-computer-science-java/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/tutor/computer-science/ap-computer-science-java/</guid>
-      <description>Contact us to set up private lessons with an experienced Java engineer and tutor.&#xA;Click here to book a tutoring session.</description>
-    </item>
-    <item>
-      <title>AP&amp;reg; Statistics Tutoring in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/tutor/math/ap-statistics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/tutor/math/ap-statistics/</guid>
-      <description>Get Ready for AP Statistics! Join our summer classes in August to participate in a carefully developed curriculum to review probabilities, statistics, and linear, quadratic, and exponential functions.&#xA;AP Statistics Private Tutoring Contact us to set up lessons and problem-solving sessions for AP Statistics!</description>
-    </item>
-    <item>
-      <title>Artificial Intelligence | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/ai/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/ai/</guid>
-      <description>Hey Middle Schoolers! Are you ready to become tech wizards? Join our thrilling AI Explorers course, where you&#39;ll unlock the mysteries of Artificial Intelligence (AI) and learn how it&#39;s changing the world around us!&#xA;Why Join AI Explorers? Super Fun Learning: Say goodbye to boring lectures! Our classes are jam-packed with cool activities, games, and challenges.&#xA;Learn the Jargon: We explain tricky AI concepts in a way that&#39;s super easy to understand.</description>
-    </item>
-    <item>
-      <title>Authors | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/authors/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/authors/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Battle Bots | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/sphero-battle-bots/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/sphero-battle-bots/</guid>
-      <description>Under Construction!</description>
-    </item>
-    <item>
-      <title>Block Language Classes for Six to Ten-Year-Olds | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/kids-block-coding/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/kids-block-coding/</guid>
-      <description>Sign Up&#xA;Students ages six to ten learn fundamental coding concepts by helping a beaver build a dam on instructor-provided Chromebooks. First, students learn to code using simple commands to move left, right and drop logs. Next, students learn to code repetition using repeat loops executed a fixed or a variable number of times. In the second part of the course, students learn to code using conditional loops. In the third part of the course, students learn to code using conditional statements with simple and compound conditions.</description>
-    </item>
-    <item>
-      <title>Challenging Math Problems | Blue Ridge Boost </title>
-      <link>https://blueridgeboost.com/class/math/challenging-math/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/math/challenging-math/</guid>
-      <description>Looking for engaging math challenges for your advanced learner? Join our Challenging Problems class provides for real-world, open-ended math problems that will stimulate your child&#39;s problem-solving skills and strategic thinking.&#xA;Beyond simply getting the right answer, these problems encourage explanation of reasoning and discussion of various solution strategies. Your child will get practice communicating their mathematical thinking both verbally and in writing.&#xA;What&#39;s more, the multi-step word problems can be scaffolded based on your child&#39;s abilities.</description>
-    </item>
-    <item>
-      <title>Charlottesville Kids&#39; Chess Club | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/chess/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/chess/</guid>
-      <description>Sign-up here for one of our chess club meetings! Joins us for two hours of fun, every Thursday, from 4:30 to 6:30. All levels from novice to expert are welcome. The club is free, but sign up is required as we have limited space. Please cancel your sign-up if your plans change and you can not make it. Parking is available at the Market St Parking Garage (first hour is free).</description>
-    </item>
-    <item>
-      <title>Class Request Form | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/form/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/form/</guid>
-      <description> Please submit this form or email nora@blueridgeboost.com for more information or to join a class. Your email: Your name: Which type of class are you interested in? Select and age range Kindergarten - Second Grade Second - Fifth Grade Middle School Any other information that would be helpful (including scheduling preferences):&#xA;Send </description>
-    </item>
-    <item>
-      <title>Code your Own Roblox Game | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/roblox-coding/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/roblox-coding/</guid>
-      <description>Under Construction!</description>
-    </item>
-    <item>
-      <title>Coding and Computational Thinking with VEX V5&amp;reg; | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/c&#43;&#43;vexv5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/c&#43;&#43;vexv5/</guid>
-      <description>Learn C++ with the VexV5 robot! Are you searching for an engaging and educational program that will ignite your child&#39;s passion for robotics and programming? Look no further! We proudly present &#34;Coding and Computational Thinking with VEX V5,&#34; an introductory-level curriculum designed to inspire young minds and unlock their potential in the world of technology.&#xA;Sign Up&#xA;Developed by Carnegie Mellon University, this cutting-edge curriculum takes a hands-on approach to teaching core robotics concepts using the VEX V5 system.</description>
-    </item>
-    <item>
-      <title>Coding Classes in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/camps/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/camps/</guid>
-      <description>We offer instructional programs in robotics, coding, and math during the 2024 Summer break. Children can attend a maximum of 25 days in three months.&#xA;Pay in full before April 30: $325 for half-day and $445 for full-day.&#xA;Early bird full-day signups Ages 6 and 7 &amp;nbsp;&amp;nbsp;&amp;nbsp; Ages 8 and 9 &amp;nbsp;&amp;nbsp;&amp;nbsp; Ages 10 to 13&#xA;Early bird half-day signups Ages 6 and 7 &amp;nbsp;&amp;nbsp;&amp;nbsp; Ages 8 and 9 &amp;nbsp;&amp;nbsp;&amp;nbsp; Ages 10 to 13</description>
-    </item>
-    <item>
-      <title>Coding Classes in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/</guid>
-      <description>Monday 4:30&amp;ndash;5:00 5:00&amp;ndash;5:30 5:30&amp;ndash;6:00 6:00&amp;ndash;6:30 6:30&amp;ndash;7:30 Coding and Vex Robotics Grades 3&amp;ndash;6&#xA;Teachers: Saumya and Jared&#xA;Ends March 4. Challenging Problems Grade 3&#xA;Teacher: Nora&#xA;Sign Up Math Tutoring Available Tuesday 5:30&#xA;&amp;ndash;&#xA;7:30 Math Tutoring Available Wednesday 4:30&amp;ndash;5:30 5:30&amp;ndash;6:30 6:30&amp;ndash;7:30 Block Coding&#xA;Grades 1 &amp;ndash; 2&#xA;Teacher: Jared&#xA;Ends February 28. Math Tutoring Available Math Tutoring Available Math Tutoring Available Thursday 4:30&#xA;&amp;ndash;&#xA;6:30 Charlotesville Kids&#39; Chess Club Grades K &amp;ndash; 8</description>
-    </item>
-    <item>
-      <title>Coding Classes in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/upcoming/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/upcoming/</guid>
-      <description>Sign-up for classes starting in March and ending in May is open. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525. Discounts available for multiple classes and for sibligs. Classes by grade level: Kindergarten, 1, 2 , 3, 4, 5, 6, 7, 8 &amp;middot; Tutoring &amp;middot; Chess&#xA;Classes by day of the week: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday. Monday 4:30&amp;ndash;5:00 5:00&amp;ndash;5:30 5:30&amp;ndash;6:00 6:00&amp;ndash;6:30 6:30&amp;ndash;7:00 7:00&amp;ndash;7:30 Coding and Vex Robotics Grades 3&amp;ndash;4</description>
-    </item>
-    <item>
-      <title>Coding Group Classes for 4 to 6 year olds | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/kindergarten/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/kindergarten/</guid>
-      <description>Our youngest students learn fundamental coding concepts by helping a monkey collect bananas on instructor-provided Chromebooks. Students learn the basics of coding using left, right, jump up, jump left, and jump right commands to guide a monkey to collect all bananas before opening a treasure chest. In addition, students learn to code repetition by using loops and conditional loops. The course concludes with procedures. Each class is 50 minutes long.</description>
-    </item>
-    <item>
-      <title>Competition Math for Elementary and Middle School | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/math/math-olympiad/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/math/math-olympiad/</guid>
-      <description>Math Olympiad for Elementary School (grades 4, 5, and 6)&#xA;Saturdays 12:30 to 1:20, ending March 31. 20 lessons for $495. Advanced third graders are also welcome.&#xA;Math Olympiad for Middle School (grades 6,7, and 8)&#xA;Saturdays 1:30 to 2:20, ending March 31. 20 lessons for $495.&#xA;Advanced fifth graders are also welcome.&#xA;An experienced instructor teaches mini-lessons on topics commonly found in Math Olympiad contests and leads students in solving carefully selected practice problems.</description>
-    </item>
-    <item>
-      <title>Computer Science Tutor | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/tutor/computer-science/book-now/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/tutor/computer-science/book-now/</guid>
-      <description>Book here!</description>
-    </item>
-    <item>
-      <title>Contact | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/contact/</guid>
-      <description> Don&#39;t hesitate to get in touch with us for any learning needs in math and computing. We offer online and in-person one-on-one instruction and in-person group classes for students from middle school to graduate student level in Mathematics and Computer Science. Name Your Email Your Message &amp;nbsp; Send Message </description>
-    </item>
-    <item>
-      <title>Cybersecurity | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/cybersecurity5to6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/cybersecurity5to6/</guid>
-      <description>Introducing: CyberSec Explorers - Unleash Your Digital Superpowers! Sign Up&#xA;Are you a middle school student with a passion for technology and a desire to protect your digital world? Look no further! Our cutting-edge labs are specifically designed to introduce you to the exciting and ever-growing field of cybersecurity.&#xA;At CyberSec Explorers, we have two primary goals in mind. First and foremost, we want to equip you with the knowledge and skills to navigate the digital landscape safely and ethically.</description>
-    </item>
-    <item>
-      <title>Data Science | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/datascience/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/datascience/</guid>
-      <description>Welcome to the incredible realm of Data Science designed exclusively for young minds! Prepare yourself for an exciting journey where you&#39;ll learn how to collect, store, and present data in the most amazing and engaging ways imaginable! Our exceptional course is here to teach you a variety of techniques to analyze data and make it easily comprehensible. With each lesson, you&#39;ll delve deeper into the world of data science, guided by our expert instructors who will ensure that you grasp each concept with ease.</description>
-    </item>
-    <item>
-      <title>Eighth Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/eighth-grade/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/eighth-grade/</guid>
-      <description>Classes run from January 3 to February 25. Try any class for two weeks for only $50. Discounts available for multiple classes and for siblings. Geometry Mondays 4:30 &amp;ndash; 6:00&#xA;Teacher: Nora&#xA;8 classes for $295&#xA;Sign Up Python 1 Wednesdays 5:30 &amp;ndash; 6:30&#xA;Teacher: Jared&#xA;8 classes for $235&#xA;Sign Up Python 2 Sunday 12:00 &amp;ndash; 1:00&#xA;Teacher: Jared&#xA;8 classes for $235&#xA;Sign Up&#xA;Python for Robotics Sundays 4:00 &amp;mdash; 5:30</description>
-    </item>
-    <item>
-      <title>Fifth Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/fifth-grade/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/fifth-grade/</guid>
-      <description>Classes run from January 3 to February 25. Try any class for two weeks for only $50. Discounts available for multiple classes and for siblings. Coffee Script 1 Mondays 4:30 &amp;ndash; 5:30 or&#xA;Saturdays 1:30 &amp;ndash; 2:30&#xA;Teacher: Ransford&#xA;8 classes for $235&#xA;Sign Up Python 1 Mondays 5:30 &amp;ndash; 6:30 or&#xA;Saturdays 2:30 &amp;ndash; 3:30&#xA;Teacher: Ransford&#xA;8 classes for $235&#xA;Sign Up Coding and Vex Robotics Mondays 4:30 &amp;ndash; 6:00 or</description>
-    </item>
-    <item>
-      <title>First Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/first-grade/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/first-grade/</guid>
-      <description>Classes run from January 3 to February 25. Try any class for two weeks for only $50. Eight 60-minute classes for $235, 90-minute for $295.&#xA;Discounts available for multiple classes and for sibligs. Block Coding with Code Monkey&#xA;Wednesday 4:30 &amp;mdash; 5:30&#xA;Saturday 12:30 &amp;mdash; 1:30&#xA;Teacher: Ransford.&#xA;Sign Up Intro to Robotics&#xA;Saturday 11:00 &amp;ndash; 12:30&#xA;Teacher: Ransford&#xA;Sign Up Challenging Problems Friday 3:00 &amp;mdash; 4:00&#xA;Teacher: Nora</description>
-    </item>
-    <item>
-      <title>Fourth Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/fourth-grade/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/fourth-grade/</guid>
-      <description>Classes run from January 3 to February 25. Try any class for two weeks for only $50. Eight 60-minute classes for $235, 90-minute for $295.&#xA;Discounts available for multiple classes and for sibligs. Coffee Script 1 Monday 4:30 &amp;mdash; 5:30 or&#xA;Saturday 1:30 &amp;mdash; 2:30&#xA;Teacher: Ransford&#xA;Sign Up Coding and Vex Robotics Monday 4:30 &amp;ndash; 6:00 or&#xA;Friday 4:30 &amp;ndash; 6:00&#xA;Teacher: Saumya&#xA;Sign Up Challenging Problems Wednesday 5:30 &amp;ndash; 6:30</description>
-    </item>
-    <item>
-      <title>Frequently Asked Questions | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/faq/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/faq/</guid>
-      <description>Coming soon &amp;hellip;</description>
-    </item>
-    <item>
-      <title>Geometry Tutoring in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/tutor/math/geometry/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/tutor/math/geometry/</guid>
-      <description>We help your child succeed in geometry and teach advanced concepts to students that are ready for a challenging curriculum. Our services include algebra and middle school geometry review before school starts, ongoing support with classroom content, and new topics and lessons.&#xA;Get Ready for Geometry At Blue Ridge Boost, we strongly believe that math is not a spectator sport. Children learn math and become independent, confident mathematicians by solving a variety of problems.</description>
-    </item>
-    <item>
-      <title>Get ready for FLL Challenge | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/fll-challenge/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/fll-challenge/</guid>
-      <description>The FIRST LEGO League Challenge curriculum immerses students in research, problem-solving, coding, and engineering, providing diverse, challenging, and relevant learning experiences. Students are tasked with developing innovative solutions to real-world problems and designing, building, and coding a LEGO robot that can tackle themed challenge missions.&#xA;&gt; The 2023-2024 art-themed MASTERPIECE materials will help students imagine and innovate new ways to create and communicate art globally. At Blue Ridge Boost, students work in pairs using one SPIKE Prime set to ensure each student has the time and the tools to share their ideas and experiment.</description>
-    </item>
-    <item>
-      <title>Intro to Proofs with Euclidean Geometry in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/math/geometry/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/math/geometry/</guid>
-      <description>Sign Up&#xA;In this Euclidean Geometry class, students will embark on a journey to explore the fundamental principles and concepts of geometry. The course begins by introducing the axioms, which serve as the building blocks upon which the entire study of geometry is constructed.&#xA;Students will delve into the intricacies of points, understanding them as the fundamental entities that define the geometric space. They will learn how points can be located and identified, and how they interact within various geometric configurations.</description>
-    </item>
-    <item>
-      <title>Join our First Lego League Discover Class | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/fll-discover/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/fll-discover/</guid>
-      <description>Sign Up&#xA;The FIRST LEGO League Discover is a fun and engaging STEM program designed for teams of children aged 4-6, which nurtures their innate curiosity and fosters lifelong learning habits. By the end of the program, children emerge with greater confidence, better equipped to tackle upcoming challenges, and with a newfound passion for learning. Every year, a fresh and thrilling Challenge is unveiled, and each team of eight kids commences their exploration of the real-world theme with an exclusive LEGO Education Discover Set.</description>
-    </item>
-    <item>
-      <title>Join our First Lego League Explore Team | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/fll-explore/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/fll-explore/</guid>
-      <description>The FIRST LEGO League Explore is an educational program where teams of six students aged 6-10 concentrate on the basics of engineering. They delve into real-world problems, learn to design, code, and develop novel solutions using LEGO bricks powered by LEGO Education SPIKE Essential. The 2023-2024 art-themed MASTERPIECE materials will help students imagine and innovate new ways to create and communicate art across the globe. At Blue Ridge Boost students works in pairs using one SPIKE Essential set to ensure each student has the time and the tools to share their ideas and to experiment.</description>
-    </item>
-    <item>
-      <title>Kindergarten Coding and Math Classes in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/kindergarten/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/kindergarten/</guid>
-      <description>Classes run in March, April, and May. Try any class for two weeks for only $50. Twelve 60-minute classes for $355, 90-minute for $525.&#xA;Discounts available for multiple classes and for sibligs. Intro to Robotics with Vex 123&#xA;Saturday 10:00 &amp;ndash; 11:00&#xA;Starts March 9.&#xA;Teacher: Ransford&#xA;Sign Up FLL Discover&#xA;Sunday 1:00 &amp;ndash; 11:00&#xA;Starts March 10.&#xA;Teacher: Christina&#xA;Sign Up Intro to Robotics with Lego WeDO Sunday 4:00 &amp;ndash; 5:30</description>
-    </item>
-    <item>
-      <title>Learn Python with Lego&amp;reg; Spike for Children in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/python-spike/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/python-spike/</guid>
-      <description>Introducing Coding with LEGO and Python! Is your child curious about computer science but struggling to see how coding relates to the real world? This new LEGO SPIKE Prime Python course is the perfect hands-on introduction.&#xA;Through building and programming LEGO robots, your child will learn important coding concepts like loops, conditionals, variables, and functions - all while solving fun challenges like making their bots follow lines, play sounds, and more.</description>
-    </item>
-    <item>
-      <title>Learn Science with Sphero Bots | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/cs-sphero-science/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/cs-sphero-science/</guid>
-      <description>Under Construction!</description>
-    </item>
-    <item>
-      <title>Learn through play using Lego&amp;reg; STEAM Park | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/steam-park/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/steam-park/</guid>
-      <description>Come and learn to math and science with Lego STEAM Park! Small class sizes with a maximum of four students sharing one set allow the learners to engage with all the components.&#xA;The STEAM Park unit enables students to delve into the world around them by constructing interactive models using functional components. The lessons encourage students to adopt a scientific mindset as they build and test models, experiment, and seek answers to questions.</description>
-    </item>
-    <item>
-      <title>Learn to Code with Lego&amp;reg; Spike for Children in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/computational-thinking-spike/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/computational-thinking-spike/</guid>
-      <description>Introducing Your Child to Coding and Robotics Are you looking for a fun, hands-on way to spark your child&#39;s interest in technology? Our new coding and robotics class uses LEGO SPIKE Prime programmable robots and the visual programming language Scratch to teach important computer science skills.&#xA;Through a series of real-world projects, your child will learn computational thinking patterns like conditional logic, iteration, and problem-solving. They&#39;ll enjoy bringing their virtual programs to life by making the robot sort, move, and respond to its environment.</description>
-    </item>
-    <item>
-      <title>Learn to Code with VEX 123&amp;reg; | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/vex123/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/vex123/</guid>
-      <description>Learn to Code with VEX 123 Robots Introducing VEX 123: The Interactive Robot Experience that Takes Learning Beyond the Screen!&#xA;Sign Up&#xA;Say goodbye to traditional computer-based learning and get ready to embark on an extraordinary hands-on journey with VEX 123. This interactive and programmable robot takes Computer Science and Computational Thinking out of the virtual realm and places them right into the eager hands of students like you!</description>
-    </item>
-    <item>
-      <title>Learn to Code with VexIQ&amp;reg; | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/computational-thinking-vexiq/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/computational-thinking-vexiq/</guid>
-      <description>Using VEX IQ robotics kits and the visual programming software VEXcode, students will bring codes to life as they learn programming basics like loops and conditionals. They&#39;ll have a blast watching their robots complete challenges like following a line, sorting objects, and more - all through their own code.&#xA;Your child will be fully engaged as they progress through our step-by-step lessons at their own pace. From basic movements to fully automated solutions, each project builds on the last.</description>
-    </item>
-    <item>
-      <title>Learn to Codi with Lego&amp;reg; Spike for Children in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/fundamentals-coding-spike/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/fundamentals-coding-spike/</guid>
-      <description>This class is intended for students with no previous exposure to Lego robots.&#xA;Sign Up&#xA;Introducing the Next Generation of Coders! The Fundamentals of Coding with SPIKE Essential is the fun and engaging way to teach your elementary students essential STEM skills.&#xA;Through interactive projects and robotics using the LEGO SPIKE Essential kit, children will learn programming basics like sequences, algorithms, conditional logic, and repetition. They will apply these concepts by building real-world machines like excavators and cranes.</description>
-    </item>
-    <item>
-      <title>Lego&amp;reg; Robotics for Children in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/lego-wedo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/lego-wedo/</guid>
-      <description>Come and learn to build and program Lego&amp;reg; robot! Through a combination of hands-on building and programming, your children will embark on a thrilling journey of discovery. We carefully selected eight robots that will engage their imaginations and ignite their passion for STEM.&#xA;Our course utilizes the LEGO Education WeDo 2.0 Core Set 45300, a powerful tool that combines the joy of LEGO building with the fundamentals of coding. With 8 different building instructions at their fingertips, your children will construct fascinating models, each with its own special features and functions.</description>
-    </item>
-    <item>
-      <title>Lego&amp;reg; Spike Robotics for Children in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/lego-spike/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/lego-spike/</guid>
-      <description>Come and learn to build and program Lego® robots!&#xA;Students learn to build robot attachments and code the Lego Spike® robot using Scratch.</description>
-    </item>
-    <item>
-      <title>Loyalty discounts | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/discounts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/discounts/</guid>
-      <description>At Blue Ridge Boost, we understand the importance of nurturing your child&#39;s thirst for knowledge and their eagerness to learn. That&#39;s why we&#39;re excited to introduce two incredible discount codes that can be applied to all our classes, providing your children with even more opportunities to explore and grow.&#xA;Discount Code: CURIOSITY50 If your child is eager to enroll in multiple classes within the same session, we have a fantastic offer for you.</description>
-    </item>
-    <item>
-      <title>Make Art with Sphero Bots | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/cs-sphero-art/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/cs-sphero-art/</guid>
-      <description>Under Construction!</description>
-    </item>
-    <item>
-      <title>Make Art with Sphero Bots | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/vex-go/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/vex-go/</guid>
-      <description>Under Construction!</description>
-    </item>
-    <item>
-      <title>Math and Coding Classes in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/fall/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/fall/</guid>
-      <description>Signup for a two-week trial or the entire class. Commitment for the entire duration of the program is required to continue after the first two classes.&#xA;We accept Virginia K-12 Acceleration Grants for the math classes. Math Olympiad for Elementary School (grades 4, 5, and 6)&#xA;Saturdays 12:30 to 1:20, ending March 31. 20 lessons for $495. Advanced third graders are also welcome.&#xA;Sign Up Math Olympiad for Middle School (grades 6,7, and 8)</description>
-    </item>
-    <item>
-      <title>Math and Computer Science Tutor | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/tutoring/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/tutoring/</guid>
-      <description>Book a session with one of our wonderful instructors to get help with one of the subjects below. Elementary Math Math Olympiad Coaching Middle School Math Algebra 1 Geometry AMC 8/10/12 Coaching Algebra 2 Pre-calculus AP&amp;reg; Calculus AB/BC AP&amp;reg; Statistics College Calculus Abstract Algebra Real Analysis General Topology AP&amp;reg; Computer Science Principles (Python) AP&amp;reg;Computer Science (Java) USA Computing Olympiad Bronze CS 1110&#x9;Introduction to Programming CS 2100&#x9;Data Structures and Algorithms 1 CS 2120&#x9;Discrete Mathematics and Theory 1 CS 3120&#x9;Discrete Mathematics and Theory 2 CS 3100&#x9;Data Structures and Algorithms 2 CS 3140&#x9;Software Development Essentials CS 3240&#x9;Advanced Software Development Techniques CS 3250&#x9;Software Testing CS 3710&#x9;Introduction to Cybersecurity CS 4620&#x9;Compilers CS 4630&#x9;Defense Against the Dark Arts CS 4750&#x9;Database Systems Tutoring sessions may be virtual or in person at the Blue Ridge Boost office at 2171 Ivy Road, Charlottesville.</description>
-    </item>
-    <item>
-      <title>Math Tutoring for Children in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/tutor/math/elementary-math/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/tutor/math/elementary-math/</guid>
-      <description>At Blue Ridge Boost, we teach problem-solving skills using a variety of math manipulatives, Montessori materials, and math games. In addition, we use a variety of curricula based on the Virginia Standards of Learning, Common Core, Singapore Math®, and Beast Academy®.&#xA;Experienced instructors are ready to help your child develop a good understanding of the content, whether to keep up with classwork or expand knowledge beyond the school curriculum.</description>
-    </item>
-    <item>
-      <title>Math Tutoring in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/tutor/math/book-now/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/tutor/math/book-now/</guid>
-      <description>Book here!</description>
-    </item>
-    <item>
-      <title>Middle School Math Tutoring in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/tutor/math/middle-school-math/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/tutor/math/middle-school-math/</guid>
-      <description>We help your child succeed in math and teach advanced concepts to students that are ready for a challenging curriculum.&#xA;We help your child succeed in math and teach advanced concepts to students that are ready for a challenging curriculum.&#xA;At Blue Ridge Boost, a qualified and experienced teacher assesses your student&amp;rsquo;s knowledge and builds an individualized instruction plan that targets weak areas while assisting with topics the student is learning.</description>
-    </item>
-    <item>
-      <title>Middle School Python Classes in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/middle-school-python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/middle-school-python/</guid>
-      <description>Are you a middle schooler (grades 5 or 6) interested in Python? Come and learn with us!&#xA;Students learn Python using a combination of lessons that use the Code Monkey platform and Jupyter Notebooks created by the instructor.&#xA;Classes run in semester-long sessions. Each class is 50 minutes long. We adjust classes to the pace of each student.&#xA;Sign Up Unit 1. Sequencing, Objects and For Loops Students learn that coding means giving precise instructions to a computer, the concept of objects, and that objects can perform several actions.</description>
-    </item>
-    <item>
-      <title>Office expansion</title>
-      <link>https://blueridgeboost.com/blog/1/01/01/office-expansion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/blog/1/01/01/office-expansion/</guid>
-      <description>A new bigger and brighter room awaits Lego masters</description>
-    </item>
-    <item>
-      <title>Precalc Tutoring in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/tutor/math/precalculus/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/tutor/math/precalculus/</guid>
-      <description>We help your child succeed in precalculus and teach advanced concepts to students that are ready for a challenging curriculum. Our services include an Algebra 2 review before school starts, ongoing support with classroom content, and new topics and lessons.&#xA;Get Ready for Math Analysis/Precalc! Join our summer classes in August to participate in a carefully developed curriculum to review Algebra 2 and Trigonometry, including quadratic, exponential, polynomial, and trigonometric functions.</description>
-    </item>
-    <item>
-      <title>Python Classes in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/python/</guid>
-      <description>We are teaching Python using a Blue Ridge Boost version of the textbook How to Think Like a Computer Scientist, Learning with Python 3. Sign Up&#xA;Who should take this class? Students that: pass the pretest have had some previous exposure to text-based programming languages, are mature enough to read a textbook, and are willing to commit at least an hour of outside class work time. Students are expected to read the book chapter at home.</description>
-    </item>
-    <item>
-      <title>Scratch Coding for Children in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/scratch/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/scratch/</guid>
-      <description>Learn Scratch with us! Sign Up&#xA;Coding games is a fun and interactive way for kids to learn the foundations of computer programming. The class uses a project-based approach to introduce essential coding concepts through building a series of playable games. Each one teaches an important programming technique or concept. Students first follow steps to create a basic version, then are challenged to extend it on their own. This learn-by-doing method helps cement understanding through hands-on application.</description>
-    </item>
-    <item>
-      <title>Second Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/second-grade/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/second-grade/</guid>
-      <description>Classes run from January 3 to February 25. Try any class for two weeks for only $50. Eight 60-minute classes for $235, 90-minute for $295.&#xA;Discounts available for multiple classes and for sibligs. Block Coding with Code Monkey&#xA;Wednesday 4:30 &amp;mdash; 5:30&#xA;Saturday 12:30 &amp;mdash; 1:30&#xA;Teacher: Ransford&#xA;Sign Up Challenging Problems Friday 4:00 &amp;mdash; 5:00&#xA;Teacher: Nora&#xA;Sign Up Scratch&#xA;Sunday 10:00 &amp;mdash; 11:00&#xA;Teacher: Jared&#xA;Sign Up Fundamentals of Coding Sunday 4:00 &amp;mdash; 5:30</description>
-    </item>
-    <item>
-      <title>Seventh Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/seventh-grade/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/seventh-grade/</guid>
-      <description>Classes run from January 3 to February 25. Try any class for two weeks for only $50. Discounts available for multiple classes and for siblings. Geometry Mondays 4:30 &amp;ndash; 6:00&#xA;Teacher: Nora&#xA;8 classes for $295&#xA;Sign Up Python 1 Wednesdays 5:30 &amp;ndash; 6:30&#xA;Teacher: Jared&#xA;8 classes for $235&#xA;Sign Up Python 2 Sundays 12:00 &amp;ndash; 1:00&#xA;Teacher: Jared&#xA;8 classes for $235&#xA;Sign Up&#xA;Python for Robotics Sundays 4:00 &amp;mdash; 5:30</description>
-    </item>
-    <item>
-      <title>Sixth Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/sixth-grade/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/sixth-grade/</guid>
-      <description>Classes run from January 3 to February 25. Try any class for two weeks for only $50. Discounts available for multiple classes and for siblings. Python 1 Mondays 5:30 &amp;mdash; 6:30 or&#xA;Saturdays 2:30 &amp;mdash; 3:30&#xA;Teacher: Ransford&#xA;8 classes for $235&#xA;Sign Up Coding and Vex Robotics Mondays 4:30 &amp;ndash; 6:00 or&#xA;Friday 4:30 &amp;ndash; 6:00&#xA;Teacher: Saumya&#xA;8 classes for $295&#xA;Sign Up Python 2 Sundays 1:00 &amp;mdash; 2:00</description>
-    </item>
-    <item>
-      <title>Text Coding Classes in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/coding/tweens-coffee-script/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/coding/tweens-coffee-script/</guid>
-      <description>Students are introduced to essential coding principles through CoffeeScript, a user-friendly text-based programming language. To facilitate learning, young coders utilize an appealing graphical interface on instructor-provided Chromebooks. While prior typing experience can be advantageous, it is not a prerequisite. Classes are conducted in semester-long sessions, with each session lasting 55 minutes. We tailor the pace of the classes to accommodate the individual progress of each student.&#xA;Sign Up for Coding &amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Sign Up for Game Making Unit 1: In the first unit, students discover that coding involves providing precise instructions to a computer and employing strategic planning to develop efficient programs.</description>
-    </item>
-    <item>
-      <title>Third Grade Coding and Math Classes in Charlottesville | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/class/third-grade/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/class/third-grade/</guid>
-      <description>Classes run from January 3 to February 25. Try any class for two weeks for only $50. Eight 60-minute classes for $235, 90-minute for $295.&#xA;Discounts available for multiple classes and for sibligs. Coffee Script 1 Monday 4:30 &amp;mdash; 5:30 or&#xA;Saturday 1:30 &amp;mdash; 2:30&#xA;Teacher: Ransford&#xA;Sign Up Coding and Vex Robotics Monday 4:30 &amp;ndash; 6:00 or&#xA;Friday 4:30 &amp;ndash; 6:00&#xA;Teacher: Saumya&#xA;Sign Up Challenging Problems Wednesday 4:30 &amp;ndash; 5:30</description>
-    </item>
+    
     <item>
       <title>USA Computing Olympiad Coaching | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/tutor/computer-science/usaco-computing-olympiad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://blueridgeboost.com/tutor/computer-science/usaco-computing-olympiad/</guid>
-      <description>Contact us to get coaching for USA Computing Olympiad!&#xA;Click here to book a tutoring session.</description>
+      <description>Contact us to get coaching for USA Computing Olympiad!
+Click here to book a tutoring session.</description>
     </item>
+    
     <item>
       <title>Vision and History | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/vision/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://blueridgeboost.com/vision/</guid>
       <description>During the COVID-19 pandemic, I spent a significant amount of time teaching and helping my children learn and discovered that I greatly enjoy teaching young students. As a result, I quit my Ph.D. program in Computer Science to pursue a degree in teaching at the University of Virginia and launched Blue Ridge Boost. During the lockdown, Maxwell and Dorina tried a variety of challenging and exciting classes from the Center for Talented Youth at John Hopkins and The Art Of Problem Solving.</description>
     </item>
+    
     <item>
       <title>We are hiring! | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/jobs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://blueridgeboost.com/jobs/</guid>
-      <description>We are looking for the following roles: Lead teacher for preschool and kindergarten coding classes.&#xA;The ideal candidate: has experience working with young children. has availability after school, or on weekends. is qualified to teach following a lesson plan one or more of our PK-K classes, including Block Coding, Coding Express, STEAM Park, lego story hour, and FLL Discover. time commitment two to six hours per week. Pay range: $20 to $30 per hour.</description>
+      <description>We are looking for the following roles: Lead teacher for preschool and kindergarten coding classes.
+The ideal candidate: has experience working with young children. has availability after school, or on weekends. is qualified to teach following a lesson plan one or more of our PK-K classes, including Block Coding, Coding Express, STEAM Park, lego story hour, and FLL Discover. time commitment two to six hours per week. Pay range: $20 to $30 per hour.</description>
     </item>
+    
     <item>
       <title>Your Instructors | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/instructor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://blueridgeboost.com/instructor/</guid>
       <description>Coding Instructors Nora Evans I am originally from Bucharest, Romania and earned a B.Sc. in Computer Science at the Polytechnical University of Bucharest. I moved to Charlottesville in the Fall of 2004 to pursue graduate school at the University of Virginia, where I earned a Master&#39;s in Computer Science, a Master of Science in Mathematics, and a Master of Teaching. Some of my accomplishments include: co-author of several research articles several years of industry experience as a Java software developer over two years of online tutoring on Wyzant in C, C++, Java, Python, List, and Prolog.</description>
     </item>
+    
   </channel>
 </rss>
->>>>>>> master
