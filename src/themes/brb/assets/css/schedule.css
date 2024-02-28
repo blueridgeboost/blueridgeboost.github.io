@@ -187,9 +187,6 @@
     "time1 class1 class7 class2" 
     "time2 class3 class8 class4"
     "time3 class6 class6 class5"; 
-}
-
-.uthursday { 
   display: grid; 
   text-align: center;
   grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
