@@ -58,13 +58,15 @@
 {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "expanded") }}
 {{ $css := resources.Get "sass/main.scss" | toCSS  $options }}
 {{ $schedulecss := resources.Get "css/schedule.css"}}
-{{ if hugo.IsProduction }} 
+<!-- {{ if hugo.IsProduction }} 
   {{ $allcss := slice $css $schedulecss | resources.Concat "css/styles.css" | resources.PostCSS | resources.Fingerprint | resources.PostProcess }}  
   <link rel="stylesheet" href="{{ $allcss.RelPermalink }}" integrity="$allcss.Data.Integrity"/>
 {{ else }} 
   {{ $allcss := slice $css $schedulecss | resources.Concat "css/styles.css" | resources.PostCSS }}  
   <link rel="stylesheet" href="{{ $allcss.RelPermalink }}"/>
-{{ end }}
+{{ end }} -->
+{{ $allcss := slice $css $schedulecss | resources.Concat "css/styles.css" | resources.PostCSS }}  
+<link rel="stylesheet" href="{{ $allcss.RelPermalink }}"/>
  
 <!-- Favicon and Apple touch icons-->
 <link rel="shortcut icon" href="{{ "images/favicon.ico" | relURL }}" type="image/x-icon" />
