@@ -1350,7 +1350,6 @@ div.row a {
     grid-template-areas: "umonday utuesday uwednesday" "umonday uthursday uwednesday" "ufriday usaturday usunday";
   }
 }
-
 .chessshade {
   background-color: tan;
 }
@@ -1541,4 +1540,3 @@ div.row a {
     "time2 class3 class8 class4"
     "time3 class6 class6 class5"; 
 }
-
