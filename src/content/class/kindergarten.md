@@ -22,21 +22,18 @@ header = "Kindergarten Classes"
                     <a href="/class/coding/vex123"><b>Intro to Robotics with Vex 123</b></a><br>
                         <b>Saturday</b> 10:00 &ndash; 11:00<br>
                         Starts March 9.<br>
-                        Teacher: <a href="/instructor#ransford">Ransford</a><br>
                         <a href="https://spring-24-vex123.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
                     <a href="/class/coding/fll-discover"><b>FLL Discover</b></a><br>
                         <b>Sunday</b> 1:00 &ndash; 11:00<br> 
                         Starts March 10.<br>
-                        Teacher: <a href="/instructor#">Christina</a><br>
                         <a href="https://spring-24-fll-discover.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div>
                    <a href="/class/coding/lego-wedo/"><b>Intro to Robotics with Lego WeDO</b></a></br>
                     <b>Sunday</b> 4:00 &ndash; 5:30<br> 
                     Starts March 10.<br>
-                    Teacher: Ransford<br>
                     <a href="https://spring-24-intro-to-robotics.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
             </div>

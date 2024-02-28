@@ -1,6 +1,7 @@
 {
   "htmlElements": {
     "tags": [
+      "<a",
       "a",
       "b",
       "body",
@@ -231,6 +232,7 @@
       "thursday",
       "top",
       "tuesday",
+      "unlock-the-secrets-of-algorithms-",
       "wednesday"
     ]
   }

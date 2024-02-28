@@ -1,14 +1,14 @@
 +++
 title = "Artificial Intelligence | Blue Ridge Boost"
 description = "Embark on an Adventure into the World of Artificial Intelligence!"
-keywords = ["ai", "articifical intelligence"]
+keywords = ["ai", "artificial intelligence"]
 header = "AI Explorers: Middle School Edition"
 +++
 
 <div class="container"> 
     <div class="row">
         <div class="col">
-        <p>Hey Middle Schoolers! Are you ready to become tech wizards? Join our thrilling AI Explorers course, where you'll unlock the mysteries of Artificial Intelligence (AI) and learn how it's changing the world around us!</p>
+        <p>Hey Middle Schoolers! Are you ready to become a tech wizard? Join our thrilling AI Explorers course, where you'll unlock the mysteries of Artificial Intelligence (AI) and learn how it's changing the world around us!</p>
         <h2>Why Join AI Explorers?</h2>
         <p><b>Super Fun Learning:</b> Say goodbye to boring lectures! Our classes are jam-packed with cool activities, games, and challenges.</p>
         <p><b>Learn the Jargon:</b> We explain tricky AI concepts in a way that's super easy to understand.</p>
@@ -28,7 +28,7 @@ header = "AI Explorers: Middle School Edition"
     </div>
     <div class="row">
         <div class="col">
-        <p>The class is structured in twelve lessons.</p>
+        <p>The class is structured into twelve lessons.</p>
         <p><b>Lesson 1 - Introduction to AI and Ethical Considerations</b> provides an overview of artificial intelligence (AI) and its practical applications. It explains that AI is about making machines think and act like humans and gives examples such as voice recognition and self-driving cars. The lesson also explores the benefits and drawbacks of AI. It emphasizes the need for responsible AI usage, as AI lacks human emotions and common sense. The lesson highlights the advantages of AI, such as increased efficiency and personalized services, but also acknowledges concerns like job automation and privacy. Students learn about the importance of ethical considerations when using AI.</p>
         <p><b>Lesson 2 - Using AI - Language Model</b> introduces generative AI and AI language models. These models learn from large amounts of text data and can generate new text based on what they have learned. An example is GPT-3, which can create original stories based on given prompts. Students learn about the capabilities and applications of AI language models in generating text.</p>
         <p><b>Lesson 3 - Using AI - Image Model</b> explores AI image generation models and their applications. These models learn to create new images by training on examples and can also transform images. They have various uses, such as creating characters for entertainment, aiding architects, and assisting doctors. However, the lesson also addresses the potential misuse of this technology, such as in deepfakes, emphasizing the importance of responsible usage and ethical considerations.</p>
