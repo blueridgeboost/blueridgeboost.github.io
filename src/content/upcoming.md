@@ -20,7 +20,7 @@ header = "Spring 24 Classes"
         </div>
         <div class="col-12 p-2">
             <center>
-            Classes by grade level: <span class="grPKKshade"><a href="/class/kindergarten/">Kindergarten</a></span>, <span class="gr12shade"><a href="/class/first-grade/">1</a>, <a href="/class/second-grade/">2</a> </span>, <span class="gr34shade"><a href="/class/third-grade/">3</a>, <a href="/class/fourth-grade/">4</a></span>, <span class="gr56shade"><a href="/class/fifth-grade/">5</a>, <a href="/class/sixth-grade/">6</a></span>, <span class="gr78shade"><a href="/class/seventh-grade/">7</a>, <a href="/class/eighth-grade/">8</a></span> &middot; <span class="grshade">Tutoring</span> &middot; <span class="chessshade">Chess</span><br>
+            Classes by grade level: <span class="grPKKshade"><a href="/class/kindergarten/">Kindergarten</a></span>, <span class="gr12shade"><a href="/class/first-grade/">First</a>, <a href="/class/second-grade/">Second</a> </span>, <span class="gr34shade"><a href="/class/third-grade/">Third</a>, <a href="/class/fourth-grade/">Fourth</a></span>, <span class="gr56shade"><a href="/class/fifth-grade/">Fifth</a>, <a href="/class/sixth-grade/">Sixth</a></span>, <span class="gr78shade"><a href="/class/seventh-grade/">Seventh</a>, <a href="/class/eighth-grade/">Eight</a></span> &middot; <span class="grshade">Tutoring</span> &middot; <span class="chessshade">Chess</span><br>
             <span class="below-md">
                 Classes by day of the week: <a href="#monday">Monday</a>, <a href="#tuesday">Tuesday</a>, <a href="#wednesday">Wednesday</a>,  <a href="#thursday">Thursday</a>,  <a href="#friday">Friday</a>,  <a href="#saturday">Saturday</a>,  <a href="#sunday">Sunday</a>.
             </span>
@@ -363,7 +363,7 @@ header = "Spring 24 Classes"
                     <a href="/class/coding/python"><b>Python</b></a></br>
                     Grades 5 &ndash; 6<br>
                     Teacher: TBD<br>
-                    <a href="https://python-grades-5-to-6.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
+                    <a href="https://spring-24-python-grades-5-to-6.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <!-- <div class="grshade" style="grid-area: class11;">
                     <b><a href="/tutoring">Tutoring Available</a></b>

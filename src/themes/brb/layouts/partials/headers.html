@@ -56,16 +56,15 @@
 </style>
 
 {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "expanded") }}
-{{ $css := resources.Get "sass/main.scss" | toCSS  $options | resources.PostCSS }}
-<!-- {{ if hugo.IsProduction }} 
-  {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed") }}
-  {{ $css := resources.Get "sass/main.scss" | toCSS  $options | resources.PostCSS | resources.Fingerprint | resources.PostProcess }}
-  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="$css.Data.Integrity"/>
+{{ $css := resources.Get "sass/main.scss" | toCSS  $options }}
+{{ $schedulecss := resources.Get "css/schedule.css"}}
+{{ if hugo.IsProduction }} 
+  {{ $allcss := slice $css $schedulecss | resources.Concat "css/styles.css" | resources.PostCSS | resources.Fingerprint | resources.PostProcess }}  
+  <link rel="stylesheet" href="{{ $allcss.RelPermalink }}" integrity="$allcss.Data.Integrity"/>
 {{ else }} 
-  <link rel="stylesheet" href="{{ $css.RelPermalink }}"/>
-{{ end }} -->
-<link rel="stylesheet" href="{{ $css.RelPermalink }}"/>
-
+  {{ $allcss := slice $css $schedulecss | resources.Concat "css/styles.css" | resources.PostCSS }}  
+  <link rel="stylesheet" href="{{ $allcss.RelPermalink }}"/>
+{{ end }}
  
 <!-- Favicon and Apple touch icons-->
 <link rel="shortcut icon" href="{{ "images/favicon.ico" | relURL }}" type="image/x-icon" />

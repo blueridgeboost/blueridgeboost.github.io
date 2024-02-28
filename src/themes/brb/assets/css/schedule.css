@@ -146,20 +146,7 @@
       "time7 class7 class8 t7";
   }
   
-  .schedule {
-    display: grid;
-    gap: 5px 5px;
-    align-items: start;
-    grid-template-columns: 1fr; 
-    grid-template-areas: 
-        "monday"
-        "tuesday"
-        "wednesday"
-        "thursday"
-        "friday"
-        "saturday"
-        "sunday";
-  }
+
   
   .umonday { 
     display: grid; 
@@ -270,70 +257,3 @@
       "time9 class19 class18 class17";
   }
   
-  .upcomingschedule {
-    display: grid;
-    gap: 5px 5px;
-    align-items: start;
-    grid-template-columns: 1fr; 
-    grid-template-areas: 
-        "umonday"
-        "utuesday"
-        "uwednesday"
-        "uthursday"
-        "ufriday"
-        "usaturday"
-        "usunday";
-  }
-  
-  @include media-breakpoint-up  (md) {
-    .monday 
-    .umonday
-    .tuesday
-    .utuesday
-    .thursday
-    .uthursday
-    .wednesday
-    .uwednesday
-    .friday
-    .ufriday
-    {
-      grid-template-columns: 0.7fr 1.1fr 1.1fr 1.1fr; 
-    }  
-    .above-md {
-      display: inline;
-    }
-    .below-md {
-      display: none;
-    }
-    .schedule {
-      grid-template-columns: 1fr 1fr 1fr; 
-      grid-template-areas: 
-        "monday tuesday wednesday"
-        "thursday thursday thursday"
-        "friday saturday sunday";
-    }
-    .upcomingschedule{
-      grid-template-columns: 1fr 1fr 1fr; 
-      grid-template-areas: 
-        "umonday utuesday uwednesday"
-        "uthursday uthursday uthursday"
-        "ufriday usaturday usunday";
-    }
-  }
-  
-  @include media-breakpoint-up  (lg) {
-    .schedule {
-      grid-template-columns: 1fr 1fr 1fr; 
-      grid-template-areas: 
-        "monday tuesday wednesday"
-        "monday thursday wednesday"
-        "friday saturday sunday";
-    }
-    .upcomingschedule {
-      grid-template-columns: 1fr 1fr 1fr; 
-      grid-template-areas: 
-        "umonday utuesday uwednesday"
-        "umonday uthursday uwednesday"
-        "ufriday usaturday usunday";
-    }
-  }
