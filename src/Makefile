@@ -19,6 +19,7 @@ html:
 
 copy:
 	cp ../CNAME $(DESTINATION)
+	cat temp.css >> ../docs/css/styles.css 
 
 minify:
 	mv $(DESTINATION)/js/bundle.min.js $(DESTINATION)/js/bundle.js
