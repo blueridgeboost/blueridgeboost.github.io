@@ -1307,14 +1307,6 @@ div.row a {
   font-weight: 500;
 }
 
-.schedule {
-  display: grid;
-  gap: 5px 5px;
-  align-items: start;
-  grid-template-columns: 1fr;
-  grid-template-areas: "monday" "tuesday" "wednesday" "thursday" "friday" "saturday" "sunday";
-}
-
 .upcomingschedule {
   display: grid;
   gap: 5px 5px;
@@ -1330,10 +1322,6 @@ div.row a {
   .below-md {
     display: none;
   }
-  .schedule {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "monday tuesday wednesday" "thursday thursday thursday" "friday saturday sunday";
-  }
   .upcomingschedule {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "umonday utuesday uwednesday" "uthursday uthursday uthursday" "ufriday usaturday usunday";
@@ -1341,10 +1329,6 @@ div.row a {
 }
 
 @media (min-width: 992px) {
-  .schedule {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "monday tuesday wednesday" "monday thursday wednesday" "friday saturday sunday";
-  }
   .upcomingschedule {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "umonday utuesday uwednesday" "umonday uthursday uwednesday" "ufriday usaturday usunday";
@@ -1373,17 +1357,9 @@ div.row a {
 .grK2shade {
   background-color: mistyrose;
 }
-
-.gr35shade {
-  background-color: peachpuff;
-}
   
 .gr56shade {
   background-color: lightgoldenrodyellow;
-}
-
-.gr68shade {
-  background-color: #95dcb8;
 }
 
 .gr78shade {
@@ -1436,66 +1412,6 @@ div.row a {
     "time1 class1 class1 class2" 
     "time2 class3 class3 class3"
     "time3 class4 class4 class4"
-}
-  
-.thursday { 
-  display: grid; 
-  text-align: center;
-  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
-  grid-template-rows: 2em auto; 
-  gap: 5px 5px;
-  grid-template-areas: 
-    "day day day day"
-    "time1 class1 class1 class2"; 
-}
-  
-.friday { 
-  display: grid; 
-  text-align: center;
-  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
-  grid-template-rows: 2em auto; 
-  gap: 5px 5px;
-  grid-template-areas: 
-    "day day day day"
-    "time3 . . class3"
-    "time4 class1 class6 class3"
-    "time5 class1 class6 class3"
-    "time6 class2 class6 class3"  
-    "time7 class2 . .";
-}
-  
-.saturday { 
-  display: grid; 
-  text-align: center;
-  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
-  grid-template-rows: 2em auto; 
-  gap: 5px 5px;
-  grid-template-areas: 
-    "day day day day"
-    "time1 class1 class1 t1" 
-    "time2 class2 class2 t2" 
-    "time3 class3 class4 t3"
-    "time4 class5 class6 t4"
-    "time5 class7 class7 t5"
-    "time6 class9 class10 class11"
-    "time7 class9 . . ";
-}
-
-.sunday { 
-  display: grid; 
-  text-align: center;
-  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
-  grid-template-rows: 2em auto; 
-  gap: 5px 5px;
-  grid-template-areas: 
-    "day day day day"
-    "time1 class1 class1 t1" 
-    "time2 class2 class2 t2" 
-    "time3 class3 class3 t3"
-    "time4 class4 class4 t4"
-    "time5 class5 class5 class9"
-    "time6 class6 class6 t6"
-    "time7 class7 class8 t7";
 }
   
 .umonday { 
