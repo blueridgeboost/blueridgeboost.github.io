@@ -23,28 +23,28 @@ header = "Coding and LEGO Robotics"
     <div class="row">
         <div class="col">
         The course takes six to nine months to complete.<br>
-        <p><b>Unit 1: Getting Started with SPIKE Prime (3.0)</b><br> 
+        <p><b>Unit 1: Getting Started with SPIKE Prime  </b><br> 
         In this unit, you will learn how to quickly get started with the LEGO SPIKE Prime system and LEGO Education SPIKE programming environment.  
         </p>
-        <p><b>Programming the Hub with SPIKE Prime (3.0)</b><br> 
+        <p><b>Programming the Hub with SPIKE Prime  </b><br> 
         In this unit, you will learn how to control the Light Matrix with sequential programming. You will program the lights to make shapes and display text to give your robot the ability to communicate with the outside world! 
         </p>
-        <p><b>Unit 3: Robot Movement with SPIKE Prime (3.0)</b><br> 
+        <p><b>Unit 3: Robot Movement with SPIKE Prime  </b><br> 
         In this unit, you will learn how to control the basic movement of your SPIKE Prime robot through sequential programming. You will program your robot to perform simple maneuvers and manipulate objects in its environment.
         </p>
-        <p><b>Unit 4: Wait Until & Sensors with SPIKE Prime (3.0)</b><br> 
+        <p><b>Unit 4: Wait Until & Sensors with SPIKE Prime  </b><br> 
         In this unit, you will learn how to use the sensors on the SPIKE Prime robot. You will program your robot to perform simple sensing behaviors and respond to objects in its environment.
         </p>
-        <p><b>Unit 5:Loops with SPIKE Prime (3.0)</b><br> 
+        <p><b>Unit 5:Loops with SPIKE Prime  </b><br> 
         In Loops with SPIKE Prime, you will learn how to program the robot to repeat sequences of commands. 
         </p>
-        <p><b>Unit 6: Discrete Decisions with SPIKE Prime (3.0)</b><br> 
+        <p><b>Unit 6: Discrete Decisions with SPIKE Prime  </b><br> 
         In this unit, you will learn how to program the robot to make one-time decisions, repeated decisions, and detect obstacles.
         </p>
-        <p><b>Unit 7: Capstone: Subterranean Challenge with SPIKE Prime (3.0)</b><br> 
+        <p><b>Unit 7: Capstone: Subterranean Challenge with SPIKE Prime  </b><br> 
         In this unit, you will demonstrate your ability to decompose an open-ended problem into small pieces, and then iterate on a robust solution to the problem. 
         </p>
-        <p><b>Unit 8: Continuous Decisions with SPIKE Prime (3.0)</b><br> 
+        <p><b>Unit 8: Continuous Decisions with SPIKE Prime  </b><br> 
         In this unit, you will learn how to program your robot to detect obstacles and line track with the use of continuous decisions.  
         </p>
         </div>
