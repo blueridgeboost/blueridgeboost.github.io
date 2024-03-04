@@ -299,7 +299,7 @@ header = "Spring 24 Classes"
                     Teacher: <a href="/instructor#charlie">Charlie</a><br>
                     <a href="https://spring-24-algorithms.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
-                <div class="gr35shade" style="grid-area: class15;">
+                <div class="gr34shade" style="grid-area: class15;">
                     <a href="/class/coding/computational-thinking-spike"><b>Coding and Lego Robotics</b></a> <br>
                     Grades 3 &ndash; 4<br> 
                     <b>Starts March 9.</b><br> 
