@@ -1,6 +1,6 @@
 +++
 title = "Algorithms | Blue Ridge Boost"
-description = "Join the Sphero Batlle Bots"
+description = "Become a better coder with algorithms"
 keywords = ["computer science", "algorithms"]
 header = "Algorithms"
 +++
