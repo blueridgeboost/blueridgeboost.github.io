@@ -2,25 +2,55 @@
 title = "Coding Classes in Charlottesville | Blue Ridge Boost"
 description = "Learn block languages, Scratch, Coffee Script, Python, Java, and Rust! Build Lego&reg; robots and code with Scratch! Contact us to sign or and find out more details!"
 keywords = ["Charlottesville coding tutor", "Charlottesville Python tutor", "cvillecoding", "coding", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "children coding classes", "kids coding", "kids Python", "children Python", "children coding tutor"]
-header = "Summer 2024"
+header = "Camps, Day-off school, Parents Night Out"
 aliases=["/summer/", "/rams-expo/"]
 +++
 
 <p></p>
-
 
 <div class="container">
     <div class="row  justify-content-center">
         <div class="col">
             <div class="vstack gap-3 px-2 pb-2 text-center">  
                 <div class="px-2 darknote">
-                    We offer instructional programs in robotics, coding, and math during the 2024 Summer break. Children can attend a maximum of 25 days in three months.<br>
+                    We offer instructional programs in robotics, coding, and math during the 2024 Spring and Summer breaks, and days off school. Children can attend a maximum of 25 days in three months.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row  justify-content-center">
+        <div class="col">
+            <h2><center>Spring '24</center></h2>
+        </div>
+    </div>
+    <div class="row  justify-content-center">
+        <div class="col"><center>
+            Spring break Camp, $325 for half-day and $445 for full-day. <a href="https://spring-break-24.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a></center>
+        </div>
+    </div>
+    <div class="row  justify-content-center">
+        <div class="col"><center>
+            Day-off school, $75 for half-day and $115 for full-day. <a href="https://march-29-2024.cheddarup.com"><button class="button-8s" role="button">March 29</button></a> &nbsp;&nbsp;&nbsp;  <a href="https://April-29-2024.cheddarup.com"><button class="button-8s" role="button">April 29</button></a></center>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row  justify-content-center">
+        <div class="col">
+            <h2><center>Summer '24</center></h2>
+        </div>
+    </div>
+    <div class="row  justify-content-center">
+        <div class="col">
+            <div class="vstack gap-3 px-2 pb-2 text-center">  
+                <div class="px-2 darknote">
                     Pay in full before April 30: $325 for half-day and $445 for full-day.<br>
-                    Early bird full-day signups <a href="https://summer-24-ages-6-to-7-full-day.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-8-to-10-full-day.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-10-to-13-full-day.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a><br>
-                    Early bird half-day signups <a href="https://summer-24-ages-6-and-7-half-day.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-8-to-10-half-day.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-10-to-13-half-day.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a><br>
+                    Summer Camp early bird full-day signups <a href="https://summer-24-ages-6-to-7-full-day.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-8-to-10-full-day.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-10-to-13-full-day.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a><br>
+                    Summer Camp early bird half-day signups <a href="https://summer-24-ages-6-and-7-half-day.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-8-to-10-half-day.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-10-to-13-half-day.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a><br>
                     Or a non-refundable deposit of $100 now, and on June 1 pay $255 for half-day and $385 for full-day.  <br>
-                    Full-day signups <a href="https://summer-24-ages-6-and-7-full-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-8-to-10-half-day.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-10-to-13-full-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a><br>
-                    Half-day signups <a href="https://summer-24-ages-6-and-7-half-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-8-and-9-half-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-10-to-13-half-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a>
+                    Summer Camp full-day signups <a href="https://summer-24-ages-6-and-7-full-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-8-to-10-half-day.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-10-to-13-full-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a><br>
+                    Summer Camp half-day signups <a href="https://summer-24-ages-6-and-7-half-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-8-and-9-half-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a> &nbsp;&nbsp;&nbsp; <a href="https://summer-24-ages-10-to-13-half-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a>
                 </div>
             </div>
         </div>

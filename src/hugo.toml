@@ -26,15 +26,10 @@ unsafe= true
     url        = "/vision/"
     weight     = 1
 [[menu.main]]
-    name       = "Ongoing Classes"
+    name       = "Classes"
     identifier = "menu.classes"
     url        = "/classes/"
     weight     = 3
-[[menu.main]]
-    name       = "Upcoming"
-    identifier = "menu.upcoming"
-    url        = "/upcoming/"
-    weight     = 4
 [[menu.main]]
     name       = "Camps"
     identifier = "menu.camps"
@@ -54,22 +49,22 @@ unsafe= true
     weight     = 7
 
 [[menu.main]]
+    name       = "Scholarships"
+    identifier = "menu.scholarships"
+    url        = "/scholarships/"
+    weight     = 8
+
+#[[menu.main]]
+#    name       = "Parents Night Out"
+#    identifier = "menu.pno"
+#    url        = "/parents-night-out/"
+#    weight     = 8
+
+[[menu.main]]
     name       = "Instructors"
     identifier = "menu.instructor"
     url        = "/instructor/"
-    weight     = 8
-
-# [[menu.main]]
-#     name       = "Jobs"
-#     identifier = "menu.jobs"
-#     url        = "/jobs/"
-#     weight     = 8
-
-# [[menu.main]]
-#     name       = "Blog"
-#     identifier = "menu.blog"
-#     url        = "/blog/"
-#     weight     = 9
+    weight     = 9
 
 [[menu.main]]
     identifier = "contact"
