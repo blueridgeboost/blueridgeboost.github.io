@@ -345,7 +345,7 @@ header = "Spring 24 Classes"
                     <a href="https://spring-24-vex-go.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr34shade" style="grid-area: class5;">
-                    <a href="/class/coding/tweens-coffee-script"><b>Make your own games</b></a> <br>
+                    <a href="class/coding/coffee-script-games"><b>Make your own games</b></a> <br>
                     Grades 3&ndash;4<br>
                     <b>Starts March 10.</b><br> 
                     Teacher: <a href="/instructor/">TBD</a><br>
