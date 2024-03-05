@@ -468,6 +468,11 @@ textarea {
   width: 66.66666667%;
 }
 
+.col-9 {
+  flex: 0 0 auto;
+  width: 75%;
+}
+
 .col-10 {
   flex: 0 0 auto;
   width: 83.33333333%;

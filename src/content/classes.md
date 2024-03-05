@@ -2,7 +2,7 @@
 title = "Coding Classes in Charlottesville | Blue Ridge Boost"
 description = "Learn block languages, Scratch, Coffee Script, Python, Java, and Rust! Build Lego&reg; robots and code with Scratch! Contact us to sign or and find out more details!"
 keywords = ["Charlottesville coding tutor", "Charlottesville Python tutor", "cvillecoding", "coding", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "children coding classes", "kids coding", "kids Python", "children Python", "children coding tutor"]
-aliases=[ "/hs/", "/kids/", "/adults/", "/kids", "/class/coding/ongoing/", "/fall", "/winter"]
+aliases=[ "/hs/", "/kids/", "/adults/", "/kids", "/class/coding/ongoing/", "/fall", "/winter", "/upcoming/"]
 header = "Spring 24 Classes"
 +++
 
@@ -16,6 +16,7 @@ header = "Spring 24 Classes"
             Try any class for two weeks for only $50. <span class="below-md"><br></span>
             Twelve 60-minute classes for $355, 90-minute for $525. <br>
             <a href="/discounts">Discounts</a> available for multiple classes and for sibligs.
+            <p>No classes on Easter and Memorial Day weekends.</p>
             </center>
         </div>
         <div class="col-12 p-2">
