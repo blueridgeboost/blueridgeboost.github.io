@@ -25,12 +25,26 @@ aliases=["/summer/", "/rams-expo/"]
     </div>
     <div class="row  justify-content-center">
         <div class="col"><center>
-            Spring break Camp, $325 for half-day and $445 for full-day. <a href="https://spring-break-24.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a></center>
+            <b>Spring Break Camp</b>, $325 for half-day and $445 for full-day. <a href="https://spring-break-24.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a></center>
         </div>
     </div>
     <div class="row  justify-content-center">
         <div class="col"><center>
-            Day-off school, $75 for half-day and $115 for full-day. <a href="https://march-29-2024.cheddarup.com"><button class="button-8s" role="button">March 29</button></a> &nbsp;&nbsp;&nbsp;  <a href="https://April-29-2024.cheddarup.com"><button class="button-8s" role="button">April 29</button></a></center>
+            <b>Day-off School Camp</b>, $75 for half-day and $115 for full-day. <a href="https://march-29-2024.cheddarup.com"><button class="button-8s" role="button">March 29</button></a> &nbsp;&nbsp;&nbsp;  <a href="https://April-29-2024.cheddarup.com"><button class="button-8s" role="button">April 29</button></a></center>
+        </div>
+    </div>
+    <div class="vstack gap-3 px-2 pb-2 text-center">  
+        <div class="px-2 darknote">
+            <center>Join us for an evening of games, chess, robotics, and coding. Free pizza included.<br>
+            Drop-off: 5:30 p.m. Pick-up: 8:30 p.m.<br>
+            </center>
+        </div>
+    </div>
+    <div class="row  justify-content-center">
+        <div class="col"><center>
+            <b>Parents' Night Out</b>, $40/child, ages six to ten. Saturday, March 16 from 5:30 to 8:30.  <a href="https://pno-march-16.cheddarup.com"><button class="button-8s" role="button">March 23</button></a>.<br>
+            <b>Girls' Night In</b>, free event, <b>girls only</b>. Saturday, March 23 from 5:30 to 8:30.  <a href="https://girls-night-in-march-23.cheddarup.com"><button class="button-8s" role="button">March 23</button></a>.<br>
+            </center>
         </div>
     </div>
 </div>
