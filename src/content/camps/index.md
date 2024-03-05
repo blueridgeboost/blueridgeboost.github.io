@@ -42,8 +42,8 @@ aliases=["/summer/", "/rams-expo/"]
     </div>
     <div class="row  justify-content-center">
         <div class="col"><center>
-            <b>Parents' Night Out</b>, $40/child, ages six to ten. Saturday, March 16 from 5:30 to 8:30.  <a href="https://pno-march-16.cheddarup.com"><button class="button-8s" role="button">March 23</button></a>.<br>
-            <b>Girls' Night In</b>, free event, <b>girls only</b>. Saturday, March 23 from 5:30 to 8:30.  <a href="https://girls-night-in-march-23.cheddarup.com"><button class="button-8s" role="button">March 23</button></a>.<br>
+            <b>Parents' Night Out</b>, $40/child, ages six to ten,  <a href="https://pno-march-16.cheddarup.com"><button class="button-8s" role="button">Saturday, March 16</button></a> &nbsp;&nbsp;&nbsp;
+            <b>Girls' Night In</b>, free event, <b>girls only</b>.  <a href="https://girls-night-in-march-23.cheddarup.com"><button class="button-8s" role="button">Saturday, March 23</button></a><br>
             </center>
         </div>
     </div>
