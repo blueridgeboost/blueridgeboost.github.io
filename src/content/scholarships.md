@@ -18,7 +18,7 @@ header = "Scholarships at Blue Ridge Boost"
         <div class="col-3">
         </div>
         <div class="col-9">
-        <p>The Aicha Amira Wade Memorial Scholarship is awarded to three elementary school girls to advance their education in computing. Each awards cover full tuition for one or more classes at Blue Ridge Boost. </p>
+        <p>The Aicha Amira Wade Memorial Scholarship is awarded to three elementary school girls to advance their education in computing. Each award covers full tuition for one or more classes at Blue Ridge Boost. </p>
         <p>
         Girls ages five to ten must submit a completed scholarship application and one letter of recommendation from a teacher.</p>
         <p><a href="https://aicha-amira-wade-memorial-scholarship.cheddarup.com"><button class="button-8s" role="button">Apply Here</button></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://letter-of-recommendation.cheddarup.com"><button class="button-8s" role="button">Teachers Submit Recommendation Here</button></a> </p>
@@ -31,7 +31,7 @@ header = "Scholarships at Blue Ridge Boost"
         <div class="col-3">
         </div>
         <div class="col-9">
-        <p>The Marieme Imane Wade Memorial Scholarship is awarded to three middle school girls to advance their education in computing. The awards cover full tuition for one or more classes at Blue Ridge Boost. </p>
+        <p>The Marieme Imane Wade Memorial Scholarship is awarded to three middle school girls to advance their education in computing. Each award covers full tuition for one or more classes at Blue Ridge Boost. </p>
         <p>
         Girls ages ten to fourteen must submit a completed scholarship application and one letter of recommendation from a teacher.</p>
         <p><a href="https://marieme-imane-wade-memorial-scholarship.cheddarup.com"><button class="button-8s" role="button">Apply Here</button></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://letter-of-recommendation.cheddarup.com"><button class="button-8s" role="button">Teachers Submit Recommendation Here</button></a></p>
@@ -44,7 +44,7 @@ header = "Scholarships at Blue Ridge Boost"
         <div class="col-3">
         </div>
         <div class="col-9">
-            <p>The Omar Wade Memorial Scholarship is awarded to elementary, middle, and high school students from underrepresented groups to advance their education in computing. The awards cover full tuition for one or more classes or camps at Blue Ridge Boost. </p>
+            <p>The Omar Wade Memorial Scholarship is awarded to elementary, middle, and high school students from underrepresented groups to advance their education in computing. Each award cover full tuition for one or more classes or camps at Blue Ridge Boost. </p>
         <p>
         To be eligible, students must submit a completed scholarship application and one letter of recommendation from a teacher.</p>
         <p><a href="https://omar-wade-memorial-scholarship.cheddarup.com"><button class="button-8s" role="button">Apply Here</button></a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://letter-of-recommendation.cheddarup.com"><button class="button-8s" role="button">Teachers Submit Recommendation Here</button></a></p>
