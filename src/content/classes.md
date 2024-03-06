@@ -14,7 +14,7 @@ header = "Spring 24 Classes"
             <center>
             <div>Sign-up for classes starting in March or April and ending in May is open.</div>
             Try any class for two weeks for only $50. <span class="below-md"><br></span>
-            Twelve 60-minute classes for $355, 90-minute for $525. Eight 60-minute classes for $235, 90-minute for $345.<br>
+            <!-- Twelve 60-minute classes for $355, 90-minute for $525. Eight 60-minute classes for $235, 90-minute for $345.<br> -->
             <a href="/discounts">Discounts</a> available for multiple classes and for sibligs.
             <p>No classes on Easter and Memorial Day weekends.</p>
             </center>
@@ -66,7 +66,7 @@ header = "Spring 24 Classes"
                     <a href="/class/coding/c++vexv5"><b>C++ Coding with VEX V5 Robots</b></a> <br>
                         Grades 7&ndash;8<br>
                         <b>Starts March 11.</b> Cost $525.<br>
-                        Teachers: <a href="/instructor#">TBD</a><br>  
+                        Teachers: <a href="/instructor#nora">Nora</a><br>  
                     <a href="https://spring-24-c-and-vex-robotics-grades-7-to-8.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr56shade" style="grid-area: class7;">
@@ -179,12 +179,14 @@ header = "Spring 24 Classes"
             <!-- Friday -->
             <div class="ufriday" style="grid-area: ufriday;">
                 <div class="daybar" style="grid-area: day;"><a id="friday">Friday</a></div>
-                <div style="grid-area: time1;"><b>4:30</b><span class="above-md">&ndash;5:00</span></div>
-                <div style="grid-area: time2;"><b>5:00</b><span class="above-md">&ndash;5:30</span></div>
-                <div style="grid-area: time3;"><b>5:30</b><span class="above-md">&ndash;6:00</span></div>
-                <div style="grid-area: time4;"><b>6:00</b><span class="above-md">&ndash;6:30</span></div>
-                <div style="grid-area: time5;"><b>6:30</b><span class="above-md">&ndash;7:00</span></div>
-                <div style="grid-area: time6;"><b>7:00</b><span class="above-md">&ndash;7:30</span></div>
+                <div style="grid-area: time1;"><b>4:30</b><span class="below-md">&ndash;5:00</span></div>
+                <div style="grid-area: time2;"><b>5:00</b><span class="below-md">&ndash;5:30</span></div>
+                <div style="grid-area: time3;"><b>5:30</b><span class="below-md">&ndash;6:00</span></div>
+                <div style="grid-area: time4;"><b>6:00</b><span class="below-md">&ndash;6:30</span></div>
+                <div style="grid-area: time5;"><b>6:30</b><span class="below-md">&ndash;7:00</span></div>
+                <div style="grid-area: time6;"><b>7:00</b><span class="below-md">&ndash;7:30</span></div>
+                <div style="grid-area: time7;"><b>7:30</b><span class="below-md">&ndash;8:00</span></div>
+                <div style="grid-area: time8;"><b>8:00</b><span class="below-md">&ndash;8:30</span></div>
                 <div class="grshade" style="grid-area: class1;">
                     <b>Make up</b>  </br>
                     Grades K &ndash; 8<br> 
@@ -194,30 +196,23 @@ header = "Spring 24 Classes"
                 <div class="gr34shade" style="grid-area: class2;">
                     <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
                         Grades 3&ndash;4<br>
-                        <b>Starts April 12.</b><br>
+                        <b>Starts April 12.</b> Cost $345.<br>
                         Teacher: <a href="/instructor#ransford">Ransford</a><br>
                     <a href="https://spring-24-coding-and-vex-robotics-grades-3-to-5.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr56shade" style="grid-area: class7;">
                     <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
                         Grades 5&ndash;6<br>
-                        <b>Starts April 12.</b><br>
+                        <b>Starts April 12.</b> Cost $345.<br>
                         Teacher: <a href="/instructor#saumya">Saumya</a><br>
                         <a href="https://spring-24-coding-and-vex-robotics-grades-5-to-6.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr34shade" style="grid-area: class3;">
                     <a href="/class/coding/sphero-battle-bots"><b>Sphero Battle Bots</b></a> <br>
-                        Grades 3&ndash;4<br>
-                        <b>Starts March 15.</b><br>
+                        Grades 3&ndash;6<br>
+                        <b>Starts March 15.</b> Cost $50 per session.<br>
                         Teacher: <a href="/instructor#ransford">Ransford</a><br>
-                        <a href="https://spring-24-battle-bots34.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
-                </div>
-                <div class="gr56shade" style="grid-area: class4;">
-                    <a href="/class/coding/computational-thinking-vexiq"><b>Sphero Battle Bots</b></a> <br>
-                        Grades 5&ndash;6<br>
-                        <b>Starts March 15.</b><br>
-                        Teacher: <a href="/instructor#">TBD</a><br>
-                    <a href="https://spring-24-battle-bots56.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
+                        <a href="https://spring-24-battle-bots.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
             </div>
             <!-- saturday -->
@@ -238,7 +233,7 @@ header = "Spring 24 Classes"
                         <b>Starts March 9.</b><br>
                         Teacher: <a href="/instructor#ransford">Ransford</a><br>
                         <a href="https://spring-24-vex123.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
-                </div>
+                </div>  
                 <div class="grshade" style="grid-area: class3;">
                     <b><a href="/tutoring">Tutoring Available</a></b>
                 </div>
