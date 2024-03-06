@@ -12,9 +12,9 @@ header = "Spring 24 Classes"
     <div class="row  justify-content-center">
         <div class="col-12 p-2 darknote">
             <center>
-            <div>Sign-up for classes starting in March and ending in May is open.</div>
+            <div>Sign-up for classes starting in March or April and ending in May is open.</div>
             Try any class for two weeks for only $50. <span class="below-md"><br></span>
-            Twelve 60-minute classes for $355, 90-minute for $525. <br>
+            Twelve 60-minute classes for $355, 90-minute for $525. Eight 60-minute classes for $235, 90-minute for $345.<br>
             <a href="/discounts">Discounts</a> available for multiple classes and for sibligs.
             <p>No classes on Easter and Memorial Day weekends.</p>
             </center>
@@ -42,14 +42,14 @@ header = "Spring 24 Classes"
                 <div class="gr34shade" style="grid-area: class3;">
                     <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
                         Grades 3&ndash;4<br>
-                        <b>Starts March 11.</b><br>
+                        <b>Starts March 11.</b> Cost $355.<br>
                         Teacher: <a href="/instructor#saumya">Saumya</a><br>
                         <a href="https://spring-24-coding-and-vex-robotics-grades-3-to-5.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr56shade" style="grid-area: class6;">
                     <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
                         Grades 5&ndash;6<br>
-                        <b>Starts March 11.</b><br>
+                        <b>Starts March 11.</b> Cost $525.<br>
                         Teacher: <a href="/instructor#jared">Jared</a><br>
                         <a href="https://spring-24-coding-and-vex-robotics-grades-5-to-6.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -65,14 +65,14 @@ header = "Spring 24 Classes"
                 <div class="gr78shade" style="grid-area: class4;">
                     <a href="/class/coding/c++vexv5"><b>C++ Coding with VEX V5 Robots</b></a> <br>
                         Grades 7&ndash;8<br>
-                        <b>Starts March 11.</b><br>
+                        <b>Starts March 11.</b> Cost $525.<br>
                         Teachers: <a href="/instructor#">TBD</a><br>  
                     <a href="https://spring-24-c-and-vex-robotics-grades-7-to-8.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr56shade" style="grid-area: class7;">
                     <a href="/class/coding/cybersecurity5to6"><b>Cybersecurity Labs with Sphero</b></a></br>
                     Grades 5 &ndash; 6<br> 
-                    <b>Starts March 11.</b><br>
+                    <b>Starts April 8.</b> Cost $345.<br>
                     Teacher: <a href="/instructor#jared">Jared</a><br>
                     <a href="https://spring-24-cybersecurity-grades-5-to-6.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -114,7 +114,7 @@ header = "Spring 24 Classes"
                 <div class="grK2shade" style="grid-area: class1;">
                     <a href="/class/coding/kids-block-coding"><b>Block Coding</b></a><br>
                         Grades 1 &ndash; 2<br>
-                        <b>Starts March 6.</b><br>
+                        <b>Starts March 6.</b> Cost $355.<br>
                         Teacher: <a href="/instructor#">Christina</a><br>
                         <a href="https://spring-24-block-coding-grades-1-and-2.cheddarup.com" class="btn-small">
                                 <button class="button-8s" role="button">Sign Up</button></a>
@@ -122,7 +122,7 @@ header = "Spring 24 Classes"
                 <div class="gr12shade" style="grid-area: class2;">
                     <a href="/class/coding/scratch"><b>Scratch</b></a><br>
                         Grades 1 &ndash; 2<br>
-                        <b>Starts March 6.</b><br>
+                        <b>Starts March 6.</b> Cost $355.<br>
                         Teacher: <a href="/instructor#jared">Jared</a><br>
                         <a href="https://spring-24-scratch-grades-1-to-3.cheddarup.com class="btn-small">
                                 <button class="button-8s" role="button">Sign Up</button></a>
@@ -136,28 +136,28 @@ header = "Spring 24 Classes"
                 <div class="gr56shade" style="grid-area: class3;">
                     <a href="/class/coding/ai"><b>Artificial Intelligence</b></a></br>
                     Grades 5 &ndash; 6<br> 
-                    <b>Starts March 13.</b><br>
+                    <b>Starts March 13.</b> Cost $355.<br>
                     Teacher: <a href="/instructor#">TBD</a><br>
                     <a href="https://spring-24-ai56.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr78shade" style="grid-area: class6;">
                     <a href="/class/coding/ai"><b>Artificial Intelligence</b></a></br>
                     Grades 7 &ndash; 8<br> 
-                    <b>Starts March 13.</b><br>
+                    <b>Starts March 13.</b> Cost $355.<br>
                     Teacher: <a href="/instructor#">TBD</a><br>
                     <a href="https://spring-24-ai78.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr56shade" style="grid-area: class7;">
                     <a href="/class/coding/datascience"><b>Data Science</b></a></br>
                     Grades 5 &ndash; 6<br> 
-                    <b>Starts March 13.</b><br>
+                    <b>Starts April 10.</b> Cost $235.<br>
                     Teacher: <a href="/instructor#">Oana</a><br>
                     <a href="https://spring-24-ds56.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr78shade" style="grid-area: class8;">
                     <a href="/class/coding/datascience"><b>Data Science</b></a></br>
                     Grades 7 &ndash; 8<br> 
-                    <b>Starts March 13.</b><br>
+                    <b>Starts April 10.</b> Cost $235.<br>
                     Teacher: <a href="/instructor#">Oana</a><br>
                     <a href="https://spring-24-ds78.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -194,13 +194,14 @@ header = "Spring 24 Classes"
                 <div class="gr34shade" style="grid-area: class2;">
                     <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
                         Grades 3&ndash;4<br>
-                        <b>Starts March 13.</b><br>
+                        <b>Starts April 12.</b><br>
                         Teacher: <a href="/instructor#ransford">Ransford</a><br>
                     <a href="https://spring-24-coding-and-vex-robotics-grades-3-to-5.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr56shade" style="grid-area: class7;">
                     <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
                         Grades 5&ndash;6<br>
+                        <b>Starts April 12.</b><br>
                         Teacher: <a href="/instructor#saumya">Saumya</a><br>
                         <a href="https://spring-24-coding-and-vex-robotics-grades-5-to-6.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -287,7 +288,7 @@ header = "Spring 24 Classes"
                 <div class="gr56shade" style="grid-area: class13;">
                     <a href="/class/coding/middle-school-python"><b>Python</b></a></br>
                         Grades 5 &ndash; 6<br> 
-                        <b>Starts March 9.</b><br>
+                        <b>Starts March 9.</b> Cost $355.<br>
                         Teacher: <a href="/instructor#ransford">TBD</a><br>
                         <a href="https://spring-24-python-grades-5-to-6.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -295,7 +296,7 @@ header = "Spring 24 Classes"
                     <a href="/class/coding/algorithms"><b>
                     Algorithms</b></a></br>
                     Grades 7 &ndash; 8<br>
-                    <b>Starts March 9.</b><br>  
+                    <b>Starts March 9.</b> Cost $355.<br>  
                     Teacher: <a href="/instructor#charlie">Charlie</a><br>
                     <a href="https://spring-24-algorithms.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -315,7 +316,7 @@ header = "Spring 24 Classes"
                 <div class="gr78shade" style="grid-area: class17;">
                     <a href="/class/coding/python"><b>Python</b></a></br>
                     Grades 7 &ndash; 8<br> 
-                    <b>Starts March 9.</b><br> 
+                    <b>Starts March 9.</b> Cost $355.<br> 
                     Teacher: <a href="/instructor#charlie">Charlie</a><br>
                     <a href="https://spring-24-python-grades-7-to-8.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -393,7 +394,7 @@ header = "Spring 24 Classes"
                 <div class="gr12shade" style="grid-area: class20;">
                     <a href="/class/coding/kids-block-coding"><b>Block Coding</b></a><br>
                         Grades 1 &ndash; 2<br> 
-                        <b>Starts March 10.</b><br> 
+                        <b>Starts March 10.</b> Cost $355.<br> 
                         Teacher: <a href="/instructor#">Christina</a><br>
                         <a href="https://spring-24-block-coding-grades-1-and-2.cheddarup.com" class="btn-small">
                                 <button class="button-8s" role="button">Sign Up</button></a>
@@ -401,7 +402,7 @@ header = "Spring 24 Classes"
                 <div class="grPKKshade" style="grid-area: class21;">
                     <a href="/class/coding/fll-discover"><b>FLL Discover</b></a><br>
                         Grades PK &ndash; K<br> 
-                        <b>Starts March 10.</b><br> 
+                        <b>Starts March 10.</b> Cost $355.<br> 
                         Teacher: <a href="/instructor#">Christina</a><br>
                         <a href="https://spring-24-fll-discover.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
