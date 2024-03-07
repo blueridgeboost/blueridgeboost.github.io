@@ -1,7 +1,7 @@
 <div class="container-fluid" id="brbfooter">
     <div class="row">
         {{ if isset .Site.Params "about_us" }}
-        <div class="col">
+        <div class="col-md-8">
             {{ .Site.Params.about_us | safeHTML }}
             
             <!-- <a href="{{ default "/contact" .Site.Params.contact_url }}" 

@@ -218,6 +218,9 @@ a.social {
 }
 
 #brbfooter {
+  margin-top: 10px;
+  padding-top: 12px;
+  text-wrap: pretty;
   background-image: url("/images/blue-ridge-footer.webp"); 
   color: $lightest-blue;
 }
@@ -364,6 +367,16 @@ ul.list-style-none {
   color: $white;
 }
 
+.buttons {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  display: block;
+  font-size: 1.2em;
+  margin-top: 12pt;
+  margin-bottom: 12pt;
+}
+
 div.row.table-header {
   background-color: $dark-blue;
   font-weight: 700;
@@ -468,4 +481,8 @@ div.row.dark-row {
       "umonday uthursday uwednesday"
       "ufriday usaturday usunday";
   }
+}
+
+p {
+  text-wrap: pretty;
 }
