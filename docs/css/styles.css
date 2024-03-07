@@ -226,10 +226,24 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
-
+pre,
 code {
   font-family: var(--bs-font-monospace);
   font-size: 1em;
+}
+
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+  font-size: 0.875em;
+}
+
+pre code {
+  font-size: inherit;
+  color: inherit;
+  word-break: normal;
 }
 
 code {
@@ -526,6 +540,10 @@ textarea {
     flex: 0 0 auto;
     width: 33.33333333%;
   }
+  .col-md-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
   .col-md-6 {
     flex: 0 0 auto;
     width: 50%;
@@ -537,6 +555,9 @@ textarea {
   .col-md-10 {
     flex: 0 0 auto;
     width: 83.33333333%;
+  }
+  .offset-md-1 {
+    margin-left: 8.33333333%;
   }
 }
 
@@ -561,6 +582,10 @@ textarea {
     flex: 0 0 auto;
     width: 41.66666667%;
   }
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
   .col-lg-8 {
     flex: 0 0 auto;
     width: 66.66666667%;
@@ -568,6 +593,9 @@ textarea {
   .col-lg-9 {
     flex: 0 0 auto;
     width: 75%;
+  }
+  .offset-lg-2 {
+    margin-left: 16.66666667%;
   }
 }
 
@@ -979,6 +1007,10 @@ textarea {
   padding-bottom: 0.5rem !important;
 }
 
+.pt-1 {
+  padding-top: 0.25rem !important;
+}
+
 .pt-3 {
   padding-top: 1rem !important;
 }
@@ -1032,6 +1064,9 @@ textarea {
   .d-md-inline {
     display: inline !important;
   }
+  .d-md-block {
+    display: block !important;
+  }
   .d-md-none {
     display: none !important;
   }
@@ -1056,6 +1091,10 @@ textarea {
   }
   .p-lg-4 {
     padding: 1.5rem !important;
+  }
+  .px-lg-4 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
   }
   .px-lg-5 {
     padding-right: 3rem !important;
