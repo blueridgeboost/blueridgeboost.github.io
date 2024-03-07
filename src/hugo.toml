@@ -30,6 +30,7 @@ unsafe= true
     identifier = "menu.classes"
     url        = "/classes/"
     weight     = 3
+    
 [[menu.main]]
     name       = "Camps"
     identifier = "menu.camps"
@@ -37,7 +38,13 @@ unsafe= true
     weight     = 5
 
 [[menu.main]]
-    name       = "Tutor"
+    name       = "Nights"
+    identifier = "menu.nights"
+    url        = "/nights/"
+    weight     = 5
+
+[[menu.main]]
+    name       = "Tutoring"
     identifier = "menu.tutoring"
     url        = "/tutoring/"
     weight     = 6
@@ -135,6 +142,10 @@ unsafe= true
   writeStats = true
 
 [module]
+    [[module.mounts]]
+      source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      target = "assets/js/bootstrap.bundle.min.js"
+
     [[module.mounts]]
       source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
       target = "assets/js/bootstrap.bundle.min.js"

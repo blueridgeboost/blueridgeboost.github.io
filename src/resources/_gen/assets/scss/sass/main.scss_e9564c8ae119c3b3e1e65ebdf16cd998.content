@@ -8149,6 +8149,9 @@ a.social :hover {
 }
 
 #brbfooter {
+  margin-top: 10px;
+  padding-top: 12px;
+  text-wrap: pretty;
   background-image: url("/images/blue-ridge-footer.webp");
   color: #EEFFFF;
 }
@@ -8290,6 +8293,16 @@ ul.list-style-none {
   color: #fff;
 }
 
+.buttons {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  display: block;
+  font-size: 1.2em;
+  margin-top: 12pt;
+  margin-bottom: 12pt;
+}
+
 div.row.table-header {
   background-color: #005172;
   font-weight: 700;
@@ -8327,6 +8340,134 @@ div.row.dark-row {
   align-items: start;
   grid-template-columns: 1fr;
   grid-template-areas: "umonday" "utuesday" "uwednesday" "uthursday" "ufriday" "usaturday" "usunday";
+}
+
+.monday {
+  display: grid;
+  text-align: center;
+  align-items: stretch center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time1 class3 class3 class1" "time2 class3 class3 class1" "time3 class3 class3 class2" "time4 . . class2" "time5 . . class2";
+}
+
+.tuesday {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time1 class1 class1 class1";
+}
+
+.wednesday {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time1 class1 class1 class2"  "time2 class3 class3 class3" "time3 class4 class4 class4";
+}
+
+.thursday {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time1 class1 class1 class2";
+}
+
+.friday {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time3 . . class3" "time4 class1 class6 class3" "time5 class1 class6 class3" "time6 class2 class6 class3"   "time7 class2 . .";
+}
+
+.saturday {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time1 class1 class1 t1"  "time2 class2 class2 t2"  "time3 class3 class4 t3" "time4 class5 class6 t4" "time5 class7 class7 t5" "time6 class9 class10 class11" "time7 class9 . . ";
+}
+
+.sunday {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time1 class1 class1 t1"  "time2 class2 class2 t2"  "time3 class3 class3 t3" "time4 class4 class4 t4" "time5 class5 class5 class9" "time6 class6 class6 t6" "time7 class7 class8 t7";
+}
+
+.umonday {
+  display: grid;
+  text-align: center;
+  align-items: stretch center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time1 class3 class6 class1" "time2 class3 class6 class1" "time3 class3 class6 class2" "time4 class4 class7 class2" "time5 class4 class7 class5" "time6 class4 class7 class5";
+}
+
+.utuesday {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time1 class2 class2 class2" "time2 class3 class3 class4" "time3 class5 class5 class5";
+}
+
+.uwednesday {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time1 class1 class7 class2"  "time2 class3 class8 class4" "time3 class6 class6 class5";
+}
+
+.ufriday {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time1 class1 . ." "time2 class1 class2 class7" "time3 class1 class2 class7" "time4 class1 class2 class7";
+}
+
+.usaturday {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time1 class1 class1 class3" "time2 class4 class4 class6" "time3 class4 class4 class6" "time4 class7 class9 class9" "time5 class7 class10 class11" "time6 class12 class10 class11" "time7 class12 class13 class14" "time8 class15 class16 class17" "time9 class15 . .";
+}
+
+.usunday {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time1 class1 class1 class1"  "time2 class4 class5 class13"  "time3 class4 class7 class20" "time4 class9 class7 class20" "time5 class9 class10 class21" "time6 class12 class15 class22" "time7 class14 class15 class22" "time8 class14 . ." "time9 class19 class18 class17";
+}
+
+.uthursday {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time1 class1 class1 class2";
 }
 
 @media (min-width: 768px) {
@@ -8367,4 +8508,8 @@ div.row.dark-row {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "umonday utuesday uwednesday" "umonday uthursday uwednesday" "ufriday usaturday usunday";
   }
+}
+
+p {
+  text-wrap: pretty;
 }
