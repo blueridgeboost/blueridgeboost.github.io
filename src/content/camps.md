@@ -17,10 +17,12 @@ aliases=["/summer/", "/rams-expo/"]
         </div>
     </div>
     <div class="row  justify-content-center">
-        <div class="col">
-            <h2><center>Spring Break</center></h2>
-           Half&nbsp;days:&nbsp;$325; Full&nbsp;days:&nbsp;$445<br> 
-           <div class="buttons"><a href="https://spring-break-24.cheddarup.com"><button class="button-8s" role="button">1 &ndash; 5 April</button></a></div>
+        <div class="col"><center>
+            <h2>Spring Break</h2>
+            <a href="/camp/sphero-bolt">Robotics with Spehro Bots</a><br>
+            1 &ndash; 5 April; 8:30 am to 1 pm or 5:30 pm</br> 
+            Half&nbsp;days:&nbsp;$325; Full&nbsp;days:&nbsp;$445;<br> 
+           <div class="buttons"><a href="https://spring-break-24.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a></div></center>
         </div>
         <div class="col">
             <h2><center>School Days Off</center></h2>

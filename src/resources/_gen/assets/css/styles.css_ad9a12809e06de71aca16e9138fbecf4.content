@@ -226,24 +226,10 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
-pre,
+
 code {
   font-family: var(--bs-font-monospace);
   font-size: 1em;
-}
-
-pre {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  overflow: auto;
-  font-size: 0.875em;
-}
-
-pre code {
-  font-size: inherit;
-  color: inherit;
-  word-break: normal;
 }
 
 code {
@@ -1100,6 +1086,14 @@ a.social :hover {
   color: var(--bs-white);
 }
 
+a.darklink {
+  color: #8FCAE7;
+}
+
+a.darklink :hover {
+  color: #BED6DB;
+}
+
 .navbar {
   z-index: 3;
   overflow: visible;
@@ -1195,6 +1189,21 @@ a.social :hover {
 
 ul.list-style-none {
   list-style-type: none;
+}
+
+.padded {
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.paddedlft {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.padimage {
+  margin: 20px;
+  border-radius: 25px;
 }
 
 /* CSS */
@@ -1347,6 +1356,62 @@ div.row a {
   grid-template-areas: "umonday" "utuesday" "uwednesday" "uthursday" "ufriday" "usaturday" "usunday";
 }
 
+.monday {
+  display: grid;
+  text-align: center;
+  align-items: stretch center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time1 class3 class3 class1" "time2 class3 class3 class1" "time3 class3 class3 class2" "time4 . . class2" "time5 . . class2";
+}
+
+.tuesday {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time1 class1 class1 class1";
+}
+
+.wednesday {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time1 class1 class1 class2"  "time2 class3 class3 class3" "time3 class4 class4 class4";
+}
+
+.umonday {
+  display: grid;
+  text-align: center;
+  align-items: stretch center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time1 class3 class6 class1" "time2 class3 class6 class1" "time3 class3 class6 class2" "time4 class4 class7 class2" "time5 class4 class7 class5" "time6 class4 class7 class5";
+}
+
+.utuesday {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time1 class2 class2 class2" "time2 class3 class3 class4" "time3 class5 class5 class5";
+}
+
+.uwednesday {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 2em auto;
+  gap: 5px 5px;
+  grid-template-areas: "day day day day" "time1 class1 class7 class2"  "time2 class3 class8 class4" "time3 class6 class6 class5";
+}
+
 @media (min-width: 768px) {
   .above-md {
     display: inline;
@@ -1410,85 +1475,3 @@ p {
   display: inline;
 }
   
-.monday { 
-  display: grid; 
-  text-align: center;
-  align-items: stretch center;
-  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
-  grid-template-rows: 2em auto; 
-  gap: 5px 5px;
-  grid-template-areas: 
-    "day day day day"
-    "time1 class3 class3 class1"
-    "time2 class3 class3 class1"
-    "time3 class3 class3 class2"
-    "time4 . . class2"
-    "time5 . . class2"; 
-}
-  
-.tuesday { 
-  display: grid; 
-  text-align: center;
-  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
-  grid-template-rows: 2em auto; 
-  gap: 5px 5px;
-  grid-template-areas: 
-    "day day day day"
-  "time1 class1 class1 class1"; 
-}
-  
-.wednesday { 
-  display: grid; 
-  text-align: center;
-  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
-  grid-template-rows: 2em auto; 
-  gap: 5px 5px;
-  grid-template-areas: 
-    "day day day day"
-    "time1 class1 class1 class2" 
-    "time2 class3 class3 class3"
-    "time3 class4 class4 class4"
-}
-  
-.umonday { 
-  display: grid; 
-  text-align: center;
-  align-items: stretch center;
-  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
-  grid-template-rows: 2em auto; 
-  gap: 5px 5px;
-  grid-template-areas: 
-    "day day day day"
-    "time1 class3 class6 class1"
-    "time2 class3 class6 class1"
-    "time3 class3 class6 class2"
-    "time4 class4 class7 class2"
-    "time5 class4 class7 class5"
-    "time6 class4 class7 class5"; 
-}
-  
-.utuesday { 
-  display: grid; 
-  text-align: center;
-  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
-  grid-template-rows: 2em auto; 
-  gap: 5px 5px;
-  grid-template-areas: 
-    "day day day day"
-    "time1 class2 class2 class2"
-    "time2 class3 class3 class4"
-    "time3 class5 class5 class5"; 
-}
-  
-.uwednesday { 
-  display: grid; 
-  text-align: center;
-  grid-template-columns: 0.2fr 1.2fr 1.2fr 1.2fr; 
-  grid-template-rows: 2em auto; 
-  gap: 5px 5px;
-  grid-template-areas: 
-    "day day day day"
-    "time1 class1 class7 class2" 
-    "time2 class3 class8 class4"
-    "time3 class6 class6 class5"; 
-}
