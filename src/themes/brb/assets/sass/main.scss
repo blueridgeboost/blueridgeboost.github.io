@@ -130,6 +130,12 @@ a.social {
   }
 }
   
+a.darklink {
+  color: $lighter-blue;
+  :hover { 
+    color: $light-blue;
+  }
+}
 .navbar {
   z-index: 3;
   overflow: visible;
@@ -238,7 +244,21 @@ ul.list-style-none {
     
   }
 
-  
+  .padded {
+    margin-top: 20px;
+    margin-right: 40px;
+  }
+
+  .paddedlft {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  .padimage {
+    margin: 20px;
+    border-radius: 25px;
+  }
+
   /* CSS */
   .button-8 {
     background-color: #e1ecf4;

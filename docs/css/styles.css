@@ -1086,6 +1086,14 @@ a.social :hover {
   color: var(--bs-white);
 }
 
+a.darklink {
+  color: #8FCAE7;
+}
+
+a.darklink :hover {
+  color: #BED6DB;
+}
+
 .navbar {
   z-index: 3;
   overflow: visible;
@@ -1181,6 +1189,21 @@ a.social :hover {
 
 ul.list-style-none {
   list-style-type: none;
+}
+
+.padded {
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.paddedlft {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.padimage {
+  margin: 20px;
+  border-radius: 25px;
 }
 
 /* CSS */

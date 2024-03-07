@@ -2,8 +2,9 @@
     <div class="row">
         {{ if isset .Site.Params "about_us" }}
         <div class="col-md-8">
+            <div class="paddedlft">
             {{ .Site.Params.about_us | safeHTML }}
-            
+            </div>
             <!-- <a href="{{ default "/contact" .Site.Params.contact_url }}" 
                 class="btn btn-contact-us">Contact Us</a> -->
         </div>
