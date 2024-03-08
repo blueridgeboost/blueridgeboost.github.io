@@ -239,7 +239,7 @@ header = "Spring 24 Classes"
                 <div class="gr56shade" style="grid-area: class7;">
                     <a href="/class/coding/cs-sphero-art"><b>Art with Sphero</b></a> <br>
                     Grades 5 &ndash; 6<br> 
-                    <b>Starts March 9.</b><br>
+                    <b>Starts April 13.</b><br>
                     Teacher: Ransford<br>
                     <a href="https://sprin5-24-sphero-art56.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -252,7 +252,7 @@ header = "Spring 24 Classes"
                 <div class="gr34shade" style="grid-area: class10;">
                     <a href="/class/coding/tweens-coffee-script"><b>Coffee Script</b></a> <br>
                         Grades 3 &ndash; 4<br> 
-                        <b>Starts March 9.</b><br>
+                        <b>Starts April 13.</b><br>
                         Teacher: <a href="/instructor#ransford">TBD</a><br>
                         <a href="https://spring-24-coffee-script.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -265,7 +265,7 @@ header = "Spring 24 Classes"
                 <div class="gr34shade" style="grid-area: class12;">
                     <a href="/class/coding/cs-sphero-science"><b>Learn Science with Sphero Bots</b></a> <br>
                     Grades 3 &ndash; 4<br> 
-                    <b>Starts March 9.</b><br>
+                    <b>Starts April 13.</b><br>
                     Teacher: Ransford<br>
                     <a href="https://spring-24-cs-sphero-science34.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -326,7 +326,7 @@ header = "Spring 24 Classes"
                 <div class="gr34shade" style="grid-area: class4;">
                     <a href="/class/coding/vex-go"><b>Vex G0 STEM Labs</b></a> <br>
                     Grades 3 &ndash; 4<br> 
-                    <b>Starts March 10.</b><br> 
+                    <b>Starts April 14.</b><br> 
                     Teacher: Jared<br>
                     <a href="https://spring-24-vex-go.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -340,7 +340,7 @@ header = "Spring 24 Classes"
                 <div class="gr78shade" style="grid-area: class7;">
                     <a href="/class/coding/python"><b>Python</b></a></br>
                     Grades 7 &ndash; 8<br> 
-                    <b>Starts March 10.</b><br> 
+                    <b>Starts April 14.</b><br> 
                     Teacher: TBD<br>
                     <a href="https://spring-24-python-grades-7-to-8.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -354,9 +354,9 @@ header = "Spring 24 Classes"
                 <div class="gr56shade" style="grid-area: class10;">
                     <a href="/class/coding/python"><b>Python</b></a></br>
                     Grades 5 &ndash; 6<br>
-                    <b>Starts March 10.</b><br> 
+                    <b>Starts April 13.</b><br> 
                     Teacher: TBD<br>
-                    <a href="https://spring-24-python-grades-5-to-6.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
+                    <a href="https://april-24-python-grades-5-to-6.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div style="grid-area: class12;">
                     <a href="/class/coding/fll-explore"><b>FLL Explore</b></a></br>
@@ -393,7 +393,7 @@ header = "Spring 24 Classes"
                 <div class="gr34shade" style="grid-area: class22;">
                     <b><a href="/class/coding/programming-fundamentals-bolt">Programming Fundamentals with Sphero Bots</a></b><br>
                     Grades 3 &ndash; 4 <br> 
-                    <b>Starts March 10.</b><br> 
+                    <b>Starts April 14.</b><br> 
                     Teacher: Christina<br>
                     <a href="https://spring-24-programming-fundamentals.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
