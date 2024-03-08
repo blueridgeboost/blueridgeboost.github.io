@@ -50,7 +50,7 @@ header = "Spring 24 Classes"
                     <a href="/class/coding/computational-thinking-vexiq"><b>Coding and Vex Robotics</b></a> <br>
                         Grades 5&ndash;6<br>
                         <b>Starts March 11.</b> Cost $525.<br>
-                        Teacher: <a href="/instructor#jared">Jared</a><br>
+                        Teacher: <a href="/instructor#">TBD</a><br>
                         <a href="https://spring-24-coding-and-vex-robotics-grades-5-to-6.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr34shade" style="grid-area: class1;">
@@ -73,7 +73,7 @@ header = "Spring 24 Classes"
                     <a href="/class/coding/cybersecurity5to6"><b>Cybersecurity Labs with Sphero</b></a></br>
                     Grades 5 &ndash; 6<br> 
                     <b>Starts April 8.</b> Cost $345.<br>
-                    Teacher: <a href="/instructor#jared">Jared</a><br>
+                    Teacher: <a href="/instructor#">TBD</a><br>
                     <a href="https://spring-24-cybersecurity-grades-5-to-6.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="grshade" style="grid-area: class5;">
@@ -137,14 +137,14 @@ header = "Spring 24 Classes"
                     <a href="/class/coding/ai"><b>Artificial Intelligence</b></a></br>
                     Grades 5 &ndash; 6<br> 
                     <b>Starts March 13.</b> Cost $355.<br>
-                    Teacher: <a href="/instructor#">TBD</a><br>
+                    Teacher: <a href="/instructor#nora">Nora</a><br>
                     <a href="https://spring-24-ai56.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr78shade" style="grid-area: class6;">
                     <a href="/class/coding/ai"><b>Artificial Intelligence</b></a></br>
                     Grades 7 &ndash; 8<br> 
                     <b>Starts March 13.</b> Cost $355.<br>
-                    Teacher: <a href="/instructor#">TBD</a><br>
+                    Teacher: <a href="/instructor#nora">Nora</a><br>
                     <a href="https://spring-24-ai78.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr56shade" style="grid-area: class7;">
@@ -240,13 +240,13 @@ header = "Spring 24 Classes"
                     <a href="/class/coding/cs-sphero-art"><b>Art with Sphero</b></a> <br>
                     Grades 5 &ndash; 6<br> 
                     <b>Starts April 13.</b><br>
-                    Teacher: Ransford<br>
+                    Teacher: TBD<br>
                     <a href="https://sprin5-24-sphero-art56.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr34shade" style="grid-area: class9;">
                     <a href="/class/math/math-olympiad/"><b>Math Olympiad</b></a><br>
                         Grades 3 &ndash; 6 <br>
-                        Teacher: <a href="/instructor#charlie">Charlie</a><br>
+                        Teacher: <a href="/instructor#nora">Nora</a><br>
                         <b>Ends March 31.</b>
                 </div>
                 <div class="gr34shade" style="grid-area: class10;">
@@ -259,21 +259,21 @@ header = "Spring 24 Classes"
                 <div class="gr68shade" style="grid-area: class11;">
                     <a href="/class/math/math-olympiad/"><b>Math Olympiad</b></a><br>
                         Grades 7 &ndash; 8<br> 
-                        Teacher: <a href="/instructor#charlie">Charlie</a><br>
+                        Teacher: <a href="/instructor#nora">Nora</a><br>
                         <b>Ends March 31.</b>
                 </div>
                 <div class="gr34shade" style="grid-area: class12;">
                     <a href="/class/coding/cs-sphero-science"><b>Learn Science with Sphero Bots</b></a> <br>
                     Grades 3 &ndash; 4<br> 
                     <b>Starts April 13.</b><br>
-                    Teacher: Ransford<br>
+                    Teacher: TBD<br>
                     <a href="https://spring-24-cs-sphero-science34.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr56shade" style="grid-area: class13;">
                     <a href="/class/coding/middle-school-python"><b>Python</b></a></br>
                         Grades 5 &ndash; 6<br> 
                         <b>Starts March 9.</b> Cost $355.<br>
-                        Teacher: <a href="/instructor#ransford">TBD</a><br>
+                        Teacher: <a href="/instructor#ransford">Ransford</a><br>
                         <a href="https://spring-24-python-grades-5-to-6.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr78shade" style="grid-area: class14;">
@@ -281,7 +281,7 @@ header = "Spring 24 Classes"
                     Algorithms</b></a></br>
                     Grades 7 &ndash; 8<br>
                     <b>Starts March 9.</b> Cost $355.<br>  
-                    Teacher: <a href="/instructor#charlie">Charlie</a><br>
+                    Teacher: <a href="/instructor#nora">Nora</a><br>
                     <a href="https://spring-24-algorithms.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr34shade" style="grid-area: class15;">
@@ -301,7 +301,7 @@ header = "Spring 24 Classes"
                     <a href="/class/coding/python"><b>Python</b></a></br>
                     Grades 7 &ndash; 8<br> 
                     <b>Starts March 9.</b> Cost $355.<br> 
-                    Teacher: <a href="/instructor#charlie">Charlie</a><br>
+                    Teacher: <a href="/instructor#nora">Nora</a><br>
                     <a href="https://spring-24-python-grades-7-to-8.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
             </div>
