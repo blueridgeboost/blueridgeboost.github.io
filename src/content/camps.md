@@ -19,7 +19,7 @@ aliases=["/summer/", "/rams-expo/"]
     <div class="row  justify-content-center">
         <div class="col"><center>
             <h2>Spring Break</h2>
-            <a href="/camp/sphero-bolt">Robotics with Spehro Bots</a><br>
+            <a href="/camp/sphero-bolt">Robotics with Sphero Bots</a><br>
             1 &ndash; 5 April; 8:30 am to 1 pm or 5:30 pm</br> 
             Half&nbsp;days:&nbsp;$325; Full&nbsp;days:&nbsp;$445;<br> 
            <div class="buttons"><a href="https://spring-break-24.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a></div></center>
@@ -171,13 +171,13 @@ aliases=["/summer/", "/rams-expo/"]
 <p>
 <h3>Summer Camp Full-Day Signups</h3> 
 
-<b>Early Bird Discounts:</b> Pay in full before 30 April, $445:</b>
+<b>Early Bird Discounts:</b> Pay in full before 30 April, $445/week:</b>
 <div class="buttons"> 
 <a href="https://summer-24-ages-6-to-7-full-day.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button></a>
 <a href="https://summer-24-ages-8-to-10-full-day.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a>
 <a href="https://summer-24-ages-10-to-13-full-day.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a><br>
 </div>
-<b>Reserve and Pay Later:</b> Pay $100 now, and $385 later:</b>
+<b>Reserve and Pay Later:</b> Pay $100 now, and $385 later, total $485/week:</b>
 <div class="buttons">
 <a href="https://summer-24-ages-6-and-7-full-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button></a>  <a href="https://summer-24-ages-8-to-10-half-day.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a> <a href="https://summer-24-ages-10-to-13-full-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a><br>
 </div>
@@ -186,11 +186,11 @@ aliases=["/summer/", "/rams-expo/"]
 </p>
 <h3>Summer Camp Half-Day Signups</h3>
 
-<B>Early Bird Discounts:</b> Pay in full before 30 April, $325:
+<B>Early Bird Discounts:</b> Pay in full before 30 April, $325/week:
 <div class="buttons"> <a href="https://summer-24-ages-6-and-7-half-day.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button>
 <a href="https://summer-24-ages-8-to-10-half-day.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a> <a href="https://summer-24-ages-10-to-13-half-day.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a>
 </div>
-<b>Reserve and Pay Later:</b> Pay $100 now to reserve, $255 later:
+<b>Reserve and Pay Later:</b> Pay $100 now to reserve, $255 later, total $355/week:
 <div class="buttons"> 
 <a href="https://summer-24-ages-6-and-7-half-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button></a>
  <a href="https://summer-24-ages-8-and-9-half-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a>
