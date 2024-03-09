@@ -10,14 +10,14 @@ header = "Special Nights"
 <div class="container">
     <div class="row  justify-content-center">
         <div class="col">
-            <h2><center>Sphero Battle Bots</center></h2>
+            <h2><center>Sphero Battle Bots on Fridays</center></h2>
             Construct an indomitable battle shell and ready your Sphero for the ultimate Battle Bots championship showdown!<br>
             Free pizza included.<br>
             <br>
             Drop-off: 6:00 pm<br> 
             Pick-up: 8:30 pm<br>
             $45/child, ages six to thirteen 
-            <div class="buttons"><a href="https://pno-march-16.cheddarup.com"><button class="button-8s" role="button">Saturday, 16 March</button></a>
+            <div class="buttons"><a href="https://spring-24-battle-bots.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
             </div>
         </div>
         <div class="col">
