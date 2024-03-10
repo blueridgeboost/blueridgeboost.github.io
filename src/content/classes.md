@@ -196,7 +196,7 @@ header = "Spring 24 Classes"
                         Teacher: <a href="/instructor#nora">Nora</a><br>
                         <b>Ends March 31.</b>
                 </div>
-                <div class="gr68shade" style="grid-area: class11;">
+                <div class="gr78shade" style="grid-area: class11;">
                     <a href="/class/math/math-olympiad/"><b>Math Olympiad</b></a><br>
                         Grades 7 &ndash; 8<br> 
                         Teacher: <a href="/instructor#nora">Nora</a><br>
@@ -257,7 +257,7 @@ header = "Spring 24 Classes"
                         <a href="https://spring-24-scratch.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr34shade" style="grid-area: class5;">
-                    <a href="class/coding/coffee-script-games"><b>Make your own games</b></a> <br>
+                    <a href="/class/coding/coffee-script-games"><b>Make your own games</b></a> <br>
                     Grades 3&ndash;4<br>
                     <b>Starts March 10.</b><br> 
                     Teacher: <a href="/instructor/#jared">Jared</a><br>
