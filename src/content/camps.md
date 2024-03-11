@@ -6,22 +6,23 @@ header = "Camps"
 aliases=["/summer/", "/rams-expo/"]
 +++
 
-<p></p>
-
 <div class="container">
     <div class="row  justify-content-center">
         <div class="col">
             <div class="vstack gap-3 px-2 pb-2 text-center">  
-                    We offer instructional programs in robotics, coding, and math during the 2024 Spring and Summer breaks, and days off school.</br>  
+                <div class="lightnote">
+                    We offer instructional programs in robotics, coding, and math during the 2024 Spring and Summer breaks, and days off school.
+                </div>
             </div>
         </div>
     </div>
+    <div class="smallgap"></div>
     <div class="row  justify-content-center">
         <div class="col"><center>
             <h2>Spring Break</h2>
             <a href="/camp/sphero-bolt">Robotics with Sphero Bots</a><br>
             1 &ndash; 5 April; 8:30 am to 1 pm or 5:30 pm</br> 
-            Half&nbsp;days:&nbsp;$325; Full&nbsp;days:&nbsp;$445;<br> 
+            Half&nbsp;days:&nbsp;$325; Full&nbsp;days:&nbsp;$445<br> 
            <div class="buttons"><a href="https://spring-break-24.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a></div></center>
         </div>
         <div class="col">

@@ -8,11 +8,14 @@
   <body>
     <div class="vstack">
       <div class="p-0">{{ partial "nav.html" . }}</div>
+      <div class="gap"></div>
       <div class="p-0 text-center">
           {{ $header := default .Title .Params.header | markdownify | plainify }}
           <h1>{{ $header }}</h1>
       </div>
+      <div class="smallgap"></div>
       <div class="p-0">{{ .Content }}</div>
+      <div class="gap"></div>
       <div class="p-0"> 
         {{ partial "footer.html" . }}
       </div>

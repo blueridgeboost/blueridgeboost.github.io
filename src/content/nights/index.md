@@ -5,24 +5,28 @@ keywords = ["Charlottesville coding tutor", "Charlottesville Python tutor", "cvi
 header = "Special Nights"
 +++
 
-<p></p>
-
+<div class="lightnote">
+    <center>
+    Evenings of Robotics, Coding, Games, and Fun!
+    </center>
+    </div>
+<div class="gap"></gap>
 <div class="container">
     <div class="row  justify-content-center">
         <div class="col">
-            <h2><center>Sphero Battle Bots on Fridays</center></h2>
+            <h2><center>Sphero Battle Bots</center></h2>
             Construct an indomitable battle shell and ready your Sphero for the ultimate Battle Bots championship showdown!<br>
             Free pizza included.<br>
             <br>
             Drop-off: 6:00 pm<br> 
             Pick-up: 8:30 pm<br>
             $45/child, ages six to thirteen 
-            <div class="buttons"><a href="https://spring-24-battle-bots.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
+            <div class="buttons"><a href="https://spring-24-battle-bots.cheddarup.com"><button class="button-8s" role="button">Sign-Up for Fridays</button></a>
             </div>
         </div>
         <div class="col">
-            <h2><center>Parent's Night Out</center></h2>
-            Join us for an evening of games, chess, robotics, and coding.<br>
+            <h2><center>Parents' Night Out</center></h2>
+            Drop off your kids for an evening of games, chess, robotics, and coding.
             Free pizza included.<br>
             <br>
             Drop-off: 5:30 pm<br> 
