@@ -2,21 +2,23 @@
 title = "Coding Classes in Charlottesville | Blue Ridge Boost"
 description = "Learn block languages, Scratch, Coffee Script, Python, Java, and Rust! Build Lego&reg; robots and code with Scratch! Contact us to sign or and find out more details!"
 keywords = ["Charlottesville coding tutor", "Charlottesville Python tutor", "cvillecoding", "coding", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "children coding classes", "kids coding", "kids Python", "children Python", "children coding tutor"]
-aliases=[ "/hs/", "/kids/", "/adults/", "/kids", "/class/coding/ongoing/", "/fall", "/winter", "/upcoming/"]
+aliases=[ "/hs/", "/kids/", "/adults/", "/kids"]
 header = "Spring 24 Classes"
 +++
-
-<p></p>
 
 <div class="container px-2">
     <div class="row  justify-content-center">
         <div class="col-12 p-2 darknote">
             <center>
-            <div>Sign-up for classes starting in March or April and ending in May is open.</div>
+            <div>Sign-up is open now for classes starting in March or April and ending in May.</div>
+            </center>
+        </div>
+        <div class="col-12 p-2 lightnote">
+            <center>
             Try any class for two weeks for only $50. <span class="below-md"><br></span>
             Twelve 60-minute classes for $355, 90-minute for $525. Eight 60-minute classes for $235, 90-minute for $345.<br>
-            <a href="/discounts">Discounts</a> available for multiple classes and for sibligs.
-            <p>No classes on Easter and Memorial Day weekends.</p>
+            <a href="/discounts">Discounts</a> available for multiple classes and for siblings.<br>
+            No classes on Easter and Memorial Day weekends.
             </center>
         </div>
         <div class="col-12 p-2">

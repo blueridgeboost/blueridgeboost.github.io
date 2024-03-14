@@ -6,22 +6,23 @@ header = "Camps"
 aliases=["/summer/", "/rams-expo/"]
 +++
 
-<p></p>
-
 <div class="container">
     <div class="row  justify-content-center">
         <div class="col">
             <div class="vstack gap-3 px-2 pb-2 text-center">  
-                    We offer instructional programs in robotics, coding, and math during the 2024 Spring and Summer breaks, and days off school.</br>  
+                <div class="lightnote">
+                    We offer instructional programs in robotics, coding, and math during the 2024 Spring and Summer breaks, and days off school.
+                </div>
             </div>
         </div>
     </div>
+    <div class="smallgap"></div>
     <div class="row  justify-content-center">
         <div class="col"><center>
             <h2>Spring Break</h2>
             <a href="/camp/sphero-bolt">Robotics with Sphero Bots</a><br>
-            1 &ndash; 5 April; 8:30 am to 1 pm or 5:30 pm</br> 
-            Half&nbsp;days:&nbsp;$325; Full&nbsp;days:&nbsp;$445;<br> 
+            1 &ndash; 5 April; 8:30 am to 1 pm or 5:00 pm</br> 
+            Half&nbsp;days:&nbsp;$325; Full&nbsp;days:&nbsp;$445<br> 
            <div class="buttons"><a href="https://spring-break-24.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a></div></center>
         </div>
         <div class="col">
@@ -179,7 +180,7 @@ aliases=["/summer/", "/rams-expo/"]
 </div>
 <b>Reserve and Pay Later:</b> Pay $100 now, and $385 later, total $485/week:</b>
 <div class="buttons">
-<a href="https://summer-24-ages-6-and-7-full-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button></a>  <a href="https://summer-24-ages-8-to-10-half-day.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a> <a href="https://summer-24-ages-10-to-13-full-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a><br>
+<a href="https://summer-24-ages-6-and-7-full-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button></a>  <a href="https://summer-24-ages-8-and-9-full-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a> <a href="https://summer-24-ages-10-to-13-full-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a><br>
 </div>
 <p align="center">
 <br>

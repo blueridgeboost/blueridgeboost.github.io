@@ -10,13 +10,11 @@ description_small: >
   </ul>
 description_large: >
   <ul class="list-style-none">
-    <li>Small in-person classes. Instructors to students ratio of 1 to 6.</li>
+    <li>Small in-person classes</li>
     <li><a href="/instructor">Highly-qualified instructors</a></li>
     <li>Flexible schedule. Weekends and after-school hours.</li>
-    <li>Convenient Downtown Charlottesville location.</li>
-    <li>Available to travel to your location.</li>
   </ul>
-image: "whybrb-2023-11-19.webp"
+image: "vex_class.webp"
 image_width: "600"
-alt: "Blue Ridge Boost Office"
+alt: "Blue Ridge Boost Vex Robotics Class"
 fetchpriority: "low"

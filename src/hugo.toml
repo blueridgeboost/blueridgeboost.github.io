@@ -26,16 +26,16 @@ unsafe= true
     url        = "/vision/"
     weight     = 1
 [[menu.main]]
-    name       = "Ongoing Classes"
+    name       = "Classes"
     identifier = "menu.classes"
     url        = "/classes/"
     weight     = 3
 
-[[menu.main]]
-    name       = "Upcoming"
-    identifier = "menu.upcoming"
-    url        = "/upcoming/"
-    weight     = 3    
+#[[menu.main]]
+#    name       = "Upcoming"
+#    identifier = "menu.upcoming"
+#    url        = "/upcoming/"
+#    weight     = 3    
 
 [[menu.main]]
     name       = "Camps"
@@ -56,7 +56,7 @@ unsafe= true
     weight     = 6
 
 [[menu.main]]
-    name       = "Chess Club"
+    name       = "Chess"
     identifier = "menu.chess"
     url        = "/chess/"
     weight     = 7
