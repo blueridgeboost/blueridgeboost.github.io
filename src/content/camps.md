@@ -180,7 +180,7 @@ aliases=["/summer/", "/rams-expo/"]
 </div>
 <b>Reserve and Pay Later:</b> Pay $100 now, and $385 later, total $485/week:</b>
 <div class="buttons">
-<a href="https://summer-24-ages-6-and-7-full-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button></a>  <a href="https://summer-24-ages-8-to-10-half-day.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a> <a href="https://summer-24-ages-10-to-13-full-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a><br>
+<a href="https://summer-24-ages-6-and-7-full-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button></a>  <a href="https://summer-24-ages-8-and-9-full-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a> <a href="https://summer-24-ages-10-to-13-full-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a><br>
 </div>
 <p align="center">
 <br>

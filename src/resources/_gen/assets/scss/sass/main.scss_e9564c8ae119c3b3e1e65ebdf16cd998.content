@@ -8300,8 +8300,22 @@ ul.list-style-none {
   color: #fff;
 }
 
+.lightnote {
+  background: #BED6DB;
+  font-weight: 300;
+  color: #000;
+}
+
 .darknote a {
   color: #BED6DB;
+}
+
+.gap {
+  padding: 0.8em;
+}
+
+.smallgap {
+  padding: 0.4em;
 }
 
 .daybar {
