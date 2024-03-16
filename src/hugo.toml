@@ -31,11 +31,11 @@ unsafe= true
     url        = "/classes/"
     weight     = 3
 
-#[[menu.main]]
-#    name       = "Upcoming"
-#    identifier = "menu.upcoming"
-#    url        = "/upcoming/"
-#    weight     = 3    
+[[menu.main]]
+    name       = "Upcoming"
+    identifier = "menu.upcoming"
+    url        = "/upcoming/"
+    weight     = 3    
 
 [[menu.main]]
     name       = "Camps"

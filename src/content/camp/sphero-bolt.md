@@ -12,7 +12,7 @@ header = "Robotics Camp with Sphero Bolt"
         <div class="col-4">
             <p></p>
             <p>🌟 Join the Exciting Sphero BOLT Camp! 🌟 </p>
-            <p> 1 &ndash; 5 April; 8:30 am to 1 pm or 5:30 pm</br> 
+            <p> 1 &ndash; 5 April; 8:30 am to 1 pm or 5:00 pm</br> 
             Half&nbsp;days:&nbsp;$325; Full&nbsp;days:&nbsp;$445;<br> 
             <a href="https://spring-break-24.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a></p>
         </div>

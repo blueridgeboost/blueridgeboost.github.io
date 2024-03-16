@@ -9,11 +9,15 @@ header = "Spring 24 Classes"
     <div class="row  justify-content-center">
         <div class="col-12 p-2 darknote">
             <center>
-            <div>Sign-up for classes starting in April and ending in May is open.</div>
-            Try any class for two weeks for only $50. <span class="above-md"><br></span>
+            <div>Sign-up is open now for classes starting in April and ending in May.</div>
+            </center>
+        </div>
+        <div class="col-12 p-2 lightnote">
+            <center>
+            Try any class for two weeks for only $50. <span class="below-md"><br></span>
             Eight 60-minute classes for $235, 90-minute for $345.<br>
-            <a href="/discounts">Discounts</a> available for multiple classes and for sibligs. 
-            <p>No classes on Memorial Day weekend.</p>
+            <a href="/discounts">Discounts</a> available for multiple classes (CURIOSITY50) and for siblings (SIBLINGS10).<br>
+            No classes on Memorial Day weekend.
             </center>
         </div>
         <div class="col-12 p-2">
