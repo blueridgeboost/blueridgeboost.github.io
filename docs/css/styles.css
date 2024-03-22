@@ -1430,9 +1430,6 @@ div.row a {
 .ufriday {
     grid-template-columns: 0.7fr 1.1fr 1.1fr 1.1fr;
   }
-  .above-md {
-    display: inline;
-  }
   .below-md {
     display: none;
   }
@@ -1492,10 +1489,6 @@ p {
   background-color: #95dcb8;
 }
   
-.above-md {
-  display: none;
-}
-  
 .below-md {
   display: inline;
 }
@@ -1513,9 +1506,9 @@ p {
     "time1 class3 class6 class1"
     "time2 class3 class6 class1"
     "time3 class3 class6 ."
-    "time4 class4 . ."
-    "time5 class4 . ."
-    "time6 class4 . ."; 
+    "time4 class4 class4 class4"
+    "time5 class4 class4 class4"
+    "time6 class4 class4 class4"; 
 }
   
 .tuesday { 
@@ -1526,10 +1519,10 @@ p {
   gap: 5px 5px;
   grid-template-areas: 
     "day day day day"
-    "time1 class2 class2 class2"
-    "time2 class2 class2 class2"
-    "time3 class3 class3 class3"
-    "time4 class3 class3 class3"; 
+    "time1 . . ."
+  "time2 . . ."
+  "time3 class3 class2 class2"
+  "time4 class3 class2 class2"
 }
   
 .wednesday { 
@@ -1641,10 +1634,10 @@ p {
   gap: 5px 5px;
   grid-template-areas: 
   "day day day day"
-  "time1 class2 class2 class2"
-  "time2 class2 class2 class2"
-  "time3 class3 class3 class3"
-  "time4 class3 class3 class3"; 
+  "time1 . . ."
+  "time2 . . ."
+  "time3 class3 class2 class2"
+  "time4 class3 class2 class2"; 
 }
   
 .uwednesday { 

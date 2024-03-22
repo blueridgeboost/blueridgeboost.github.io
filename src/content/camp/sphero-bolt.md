@@ -1,6 +1,6 @@
 +++
 title = "Robotics Camp with Sphero Bolt | Blue Ridge Boost"
-description = "The Sphero BOLT Summer Camp Guide offers a comprehensive program that fosters critical thinking, creative confidence, teamwork, and coding skills in campers."
+description = "The Sphero BOLT Spring Camp Guide offers a comprehensive program that fosters critical thinking, creative confidence, teamwork, and coding skills in campers."
 keywords = ["spring break camp", "summer camp"]
 header = "Robotics Camp with Sphero Bolt"
 +++
@@ -18,9 +18,9 @@ header = "Robotics Camp with Sphero Bolt"
         </div>
         <div class="col-8">
             <p>
-            Looking for an unforgettable camp experience for your children aged six to thirteen? Look no further! Introducing the Sphero BOLT Summer Camp Guide, where your campers will embark on an incredible journey of increasingly complex challenges that will boost their critical thinking, creative confidence, teamwork, and coding skills. </p>
+            Looking for an unforgettable camp experience for your children aged six to thirteen? Look no further! Introducing the Sphero BOLT Spring Camp, where your campers will embark on an incredible journey of increasingly complex challenges that will boost their critical thinking, creative confidence, teamwork, and coding skills. </p>
             <p>
-            With the Sphero BOLT robot as their companion, your campers will dive into hands-on activities that will ignite their imagination and expand their technological prowess. They'll learn to leverage the power of the Sphero BOLT and unlock its full potential through exciting challenges.</p>
+            With the Sphero BOLT robot as their companion, your campers will dive into hands-on activities that will ignite their imagination and expand their technological prowess. They will learn to leverage the power of the Sphero BOLT and unlock its full potential through exciting challenges.</p>
         </div>
     </div>
     <div class="row pb-1">
