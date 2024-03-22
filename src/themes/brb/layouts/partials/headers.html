@@ -56,9 +56,9 @@
 </style>
 
 {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "expanded") }}
-{{ $css := resources.Get "sass/main.scss" | toCSS  $options }}
+{{ $css := resources.Get "sass/main.scss" | toCSS  $options | resources.PostCSS }}
 {{ $schedulecss := resources.Get "css/schedule.css"}}
-{{ $allcss := slice $css $schedulecss | resources.Concat "css/styles.css" | resources.PostCSS }}  
+{{ $allcss := slice $css $schedulecss | resources.Concat "css/styles.css" }}  
 <link rel="stylesheet" href="{{ $allcss.RelPermalink }}"/>
  
 <!-- Favicon and Apple touch icons-->

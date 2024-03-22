@@ -115,9 +115,9 @@ aliases=["/summer/", "/rams-expo/"]
     </div>
     <div class="row">
         <div class="col-2"><b>June 10&ndash;14</b></div>
-        <div class="col-3"><a href="/camp/Ages-6-7/lego-spike-essential-intro/">Programming outdoor fun with Lego Spike Essential</a> (Introductory)</div>
-        <div class="col-3"><a href="/camp/Ages-8-9/lego-spike-prime-intro/">Let the games begin with Lego Spike Prime </a>(Introductory)</div>
-        <div class="col-3"><a href="/camp/Ages-10-13/python-middle-school/">Python (Code Monkey)</a></div>
+        <div class="col-3"><a href="/camp/ages-6-7/lego-spike-essential-intro/">Programming outdoor fun with Lego Spike Essential</a> (Introductory)</div>
+        <div class="col-3"><a href="/camp/ages-8-9/lego-spike-prime-intro/">Let the games begin with Lego Spike Prime </a>(Introductory)</div>
+        <div class="col-3"><a href="/camp/ages-10-13/python-middle-school/">Python (Code Monkey)</a></div>
     </div>
     <div class="row table-dark-row">
         <div class="col-2"><b>June 17&ndash;21</b></div>
