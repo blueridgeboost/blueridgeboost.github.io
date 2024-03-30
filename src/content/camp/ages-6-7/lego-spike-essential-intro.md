@@ -1,8 +1,8 @@
 +++
-title = "Robotics Camp with Lego Spike Essential | Blue Ridge Boost"
+title = "Programming Outdoor Fun with Lego Spike Essential | Blue Ridge Boost"
 description = "The Lego Spike Essential Summer Camp Guide offers a comprehensive program that fosters critical thinking, creative confidence, teamwork, and coding skills in campers."
 keywords = ["summer camp"]
-header = "Robotics Camp with Lego Spike Essential Introductory"
+header = "Programming Outdoor Fun with Lego Spike Essential"
 +++
 
 <p></p>
@@ -28,7 +28,21 @@ header = "Robotics Camp with Lego Spike Essential Introductory"
         </div>
     </div>
     <div class="row pb-1">
-        <div class="col">
+        <div class="col-3">
+            <div class="v-stack p-2">
+                <p></p>
+                <div><img src="/images/camps/spike-essential-intro/U1L2_web_thumbnail.webp" alt="Arctic Ride" class="img-fluid"> </div>
+                <p></p>
+                <div><img src="/images/camps/spike-essential-intro/U1L4_web_thumbnail.webp" alt="Animal Alarm" class="img-fluid"> </div>
+                <p></p>
+                <div><img src="/images/camps/spike-essential-intro/U1L5_web_thumbnail.webp" alt="Underwater Quest" class="img-fluid"> </div>
+                <p></p>
+                <div><img src="/images/camps/spike-essential-intro/U1L6_web_thumbnail.webp" alt="Snack Stand" class="img-fluid"> </div>
+                <p></p>
+                <div><img src="/images/camps/spike-essential-intro/U2L1_web_thumbnail.webp" alt="The Fast Lane" class="img-fluid"> </div>
+            </div>
+        </div>
+        <div class="col-6">
             <div class="container p-0 m-0 b-0">
                 <h3 align="center">Daily Schedule</h3>
                 <div class="row py-1 table-header">
@@ -42,11 +56,11 @@ header = "Robotics Camp with Lego Spike Essential Introductory"
                 <div class="row py-1 table-dark-row">
                     <div class="col-2 text-center">&nbsp;9:00 &ndash; &nbsp;10:30	</div>
                     <div class="col-10 ">Guided Learning Session<br>
-                        <b>Monday: </b> Tutorial Activities: The Motor, Arctic Ride—Make the Snowmobile Go <br>
-                        <b>Tuesday: </b><br>
-                        <b>Wednesday: </b><br>
-                        <b>Thursday: </b><br>
-                        <b>Friday: </b><br>
+                        <b>Monday: </b> <a href="https://education.lego.com/en-us/lessons/spikeessential-great-adventures/spikeessential-arctic-ride/">Arctic Ride—Make the Snowmobile Go</a> <br>
+                        <b>Tuesday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-great-adventures/spikeessential-animal-alarm/">Animal Alarm—Blue Creature</a><br>
+                        <b>Wednesday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-great-adventures/spikeessential-treehouse-camp/">Treehouse Camp</a><br>
+                        <b>Thursday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-amazing-amusement-park/spikeessential-snack-stand/">Snack Stand</a><br>
+                        <b>Friday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-amazing-amusement-park/spikeessential-the-spinning-ferris-wheel/">The Spinning Ferris Wheel</a><br>
                     </div>
                 </div>
                 <div class="row py-1">
@@ -55,12 +69,15 @@ header = "Robotics Camp with Lego Spike Essential Introductory"
                 </div>
                 <div class="row py-1 table-dark-row">
                     <div class="col-2 text-center">11:00 &ndash; 12:30</div>	
-                    <div class="col-10">Free Exploration Session<br>
-                        <b>Monday: </b> Suggested activity: Leo’s Next Ride (lesson Step 8)<br>
-                        <b>Tuesday: </b><br>
-                        <b>Wednesday: </b><br>
-                        <b>Thursday: </b><br>
-                        <b>Friday: </b><br>
+                    <div class="col-10">Free Exploration Session <br>
+                    Campers may choose one of the following activities:
+                    <ul>
+                        <li>Build their own robots using the Lego Spike set.</li>
+                        <li>Read an article or a book about computer programming.</li>
+                        <li>Design a team badge</li>
+                        <li>Record daily activities in a journal</li>
+                        <li>Play STEM games.</li>
+                    </ul>
                     </div>
                 </div>
                 <div class="row py-1">
@@ -70,11 +87,11 @@ header = "Robotics Camp with Lego Spike Essential Introductory"
                 <div class="row py-1 table-dark-row">
                     <div class="col-2 text-center">1:00 &ndash; 2:30</div>	
                     <div class="col-10">Guided Learning Session<br>
-                        <b>Monday: </b><br>
-                        <b>Tuesday: </b><br>
-                        <b>Wednesday: </b><br>
-                        <b>Thursday: </b><br>
-                        <b>Friday: </b><br>
+                        <b>Monday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-amazing-amusement-park/spikeessential-classic-carousel/">Classic Carousel</a><br>
+                        <b>Tuesday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-great-adventures/spikeessential-underwater-quest/">Underwater Quest</a><br>
+                        <b>Wednesday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-amazing-amusement-park/spikeessential-the-perfect-swing/">The Perfect Swing</a><br>
+                        <b>Thursday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-amazing-amusement-park/spikeessential-twirling-teacups/">Twirling Teacups</a><br>
+                        <b>Friday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-amazing-amusement-park/spikeessential-the-most-amazing-amusement-park/">The Most Amazing Amusement Park</a><br>
                     </div>
                 </div>
                 <div class="row py-1">
@@ -90,6 +107,21 @@ header = "Robotics Camp with Lego Spike Essential Introductory"
                     <div class="col-10">Full-day dismissal</div>
                 </div>
             </div>
+        </div>
+        <div class="col-3">
+            <div class="v-stack p-2">
+                <p></p>
+                <div><img src="/images/camps/spike-essential-intro/U2L2_web_thumbnail.webp" alt="The Classic Carrousel" class="img-fluid"> </div>
+                <p></p>
+                <div><img src="/images/camps/spike-essential-intro/U2L3_web_thumbnail.webp" alt="The Perfect Swing" class="img-fluid"> </div>
+                <p></p>
+                <div><img src="/images/camps/spike-essential-intro/U2L4_web_thumbnail.webp" alt="The Twirling Tea CUps" class="img-fluid"> </div>
+                <p></p>
+                <div><img src="/images/camps/spike-essential-intro/U2L6_web_thumbnail.webp" alt="The Ferris Wheel" class="img-fluid"> </div>
+                <p></p>
+                <div><img src="/images/camps/spike-essential-intro/U2L7_web_thumbnail.webp" alt="The Amazing Amusement Park" class="img-fluid"> </div>
+            </div>
+        </div>
         </div> <!-- inner container -->
     </div>
 </div> <!-- outer container -->

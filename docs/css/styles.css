@@ -1553,10 +1553,10 @@ p {
   gap: 5px 5px;
   grid-template-areas: 
   "day day day day"
-  "time1 class1 class1 class1"
-  "time2 class1 class1 class1"
-  "time3 class1 class1 class1"
-  "time4 class1 class1 class1"
+  "time1 class1 . ."
+  "time2 class1 class2 class7"
+  "time3 class1 class2 class7"
+  "time4 class1 class2 class7"
   "time5 class10 class10 class10"
   "time6 class10 class10 class10"
   "time7 class10 class10 class10"
@@ -1574,13 +1574,11 @@ p {
   "day day day day"
   "time1 class1 class1 class1"
   "time2 class4 class4 class4"
-  "time3 class4 class4 class4"
   "time4 class9 class9 class9"
   "time5 class11 class11 class11"
-  "time6 class11 class11 class11"
   "time7 class13 class13 class14"
-  "time8 class15 class16 class17"
-  "time9 class15 . .";
+  "time8 class15 class15 class17"
+  "time9 class15 class15 .";
 }
   
 .sunday { 
@@ -1592,13 +1590,13 @@ p {
   grid-template-areas: 
     "day day day day"
     "time1 class1 class1 class1" 
-    "time2 class5 class5 class13" 
-    "time3 . . class20"
-    "time4 class9 class9 class20"
-    "time5 class9 class9 class21"
-    "time6 class12 class15 class15"
-    "time7 class14 class15 class15"
-    "time8 class14 . ."
+    "time2 class5 class5 class5" 
+    "time3 . class13 class20"
+    "time4 class9 class13 class20"
+    "time5 class9 class21 class21"
+    "time6 class15 class12 class12"
+    "time7 class15 class2 class2"
+    "time8 . class2 class2"
     "time9 class19 class18 class17";
 }
 

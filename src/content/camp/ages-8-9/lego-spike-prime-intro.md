@@ -21,6 +21,8 @@ header = "Let the Games Begin!"
             </p>
         </div>
         <div class="col-8">
+        <p>This 5-day camp is designed to immerse students in an engaging STEAM-centric environment, offering practical experiences that enhance their skills in the areas of science, technology, engineering, the arts, and mathematics. The program emphasizes the development of 21st-century competencies, including social and emotional learning, foundational principles of computational thinking, beginner-level coding, mathematics, and language arts.</p>
+            <p>Throughout the camp, each day will feature collaborative team-building exercises and designated times for physical activities, fostering both mental and physical well-being. Additionally, participants will be briefed as a team on challenges that are in line with educational standards.</p>
         </div>
     </div>
     <div class="row pb-1">
@@ -38,7 +40,8 @@ header = "Let the Games Begin!"
                 <div class="row py-1 table-dark-row">
                     <div class="col-2 text-center">&nbsp;9:00 &ndash; &nbsp;10:30	</div>
                     <div class="col-10 ">Guided Learning Session<br>
-                        <b>Monday: </b> <br>
+                        <b>Monday: </b>Learn to code the motors and sensors. Program a team cheer and program the hub to spell the team's name using the lights on the hub and
+display a team logo after the team's name scrolls across.<br>
                         <b>Tuesday: </b><br>
                         <b>Wednesday: </b><br>
                         <b>Thursday: </b><br>
@@ -66,7 +69,7 @@ header = "Let the Games Begin!"
                 <div class="row py-1 table-dark-row">
                     <div class="col-2 text-center">1:00 &ndash; 2:30</div>	
                     <div class="col-10">Guided Learning Session<br>
-                        <b>Monday: </b><br>
+                        <b>Monday: </b><a href="https://education.lego.com/en-us/lessons/maker-elementary/make-a-game/">Create a Game</a><br>
                         <b>Tuesday: </b><br>
                         <b>Wednesday: </b><br>
                         <b>Thursday: </b><br>
