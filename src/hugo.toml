@@ -32,12 +32,6 @@ unsafe= true
     weight     = 3
 
 [[menu.main]]
-    name       = "Upcoming"
-    identifier = "menu.upcoming"
-    url        = "/upcoming/"
-    weight     = 3    
-
-[[menu.main]]
     name       = "Camps"
     identifier = "menu.camps"
     url        = "/camps/"
