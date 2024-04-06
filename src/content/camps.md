@@ -19,17 +19,27 @@ aliases=["/summer/", "/rams-expo/"]
     <div class="smallgap"></div>
     <div class="row  justify-content-center">
         <div class="col"><center>
-            <h2>Spring Break</h2>
-            <a href="/camp/sphero-bolt">Robotics with Sphero Bots</a><br>
-            1 &ndash; 5 April; 8:30 am to 1 pm or 5:00 pm</br> 
-            Half&nbsp;days:&nbsp;$325; Full&nbsp;days:&nbsp;$445<br> 
-           <div class="buttons"><a href="https://spring-break-24.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a></div></center>
+            <h2>Summer Math Bootcamps</h2>
+            <a href="">AOPS Intro to Counting and Probability</a><br>
+            5 &ndash; 9 August; 1:00 pm to 5:30 pm</br> 
+            <!-- <div class="buttons"><a href="https://spring-break-24.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a></div> -->
+            <a href="https://artofproblemsolving.com/store/book/intro-number-theory">AOPS Intro to Number Theory</a><br>
+            12 &ndash; 16 August; 1:00 pm to 5:30 pm</br> 
+            Signups will open soon!
+            </center>
         </div>
-        <div class="col">
-            <h2><center>School Days Off</center></h2>
+        <div class="col"><center>
+            <h2>Summer High School Bootcamps</h2>
+            <a href="">Calculus</a><br>
+            29 July &ndash; 2 August; 1:00 pm to 5:30 pm</br> 
+            <!-- <div class="buttons"><a href="https://spring-break-24.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a></div> -->
+            <b>C++, Java, and R coding classes coming soon!</b><br> 
+            </center>
+        </div>
+        <div class="col"><center>
+            <h2>School Days Off</h2>
             Half&nbsp;day: $75; Full&nbsp;day: $115<br> 
-            <div class="buttons"><a href="https://march-29-2024.cheddarup.com"><button class="button-8s" role="button">Friday, 29 March</button></a><br>
-            <a href="https://April-29-2024.cheddarup.com"><button class="button-8s" role="button">Monday, 29 April</button></a></div>
+            <a href="https://April-29-2024.cheddarup.com"><button class="button-8s" role="button">Monday, 29 April</button></a></div></center>
         </div>
     </div>
 </div>
@@ -120,7 +130,7 @@ aliases=["/summer/", "/rams-expo/"]
         Instructors: Sarah, TBD</div>
         <div class="col-3"><b>Lego Robotics</b>: <a href="/camp/ages-8-9/lego-spike-prime-intro/">Let the games begin</a><br>
         Instructors: Christina, TBD</div>
-        <div class="col-3"><b>Coding</b>: Python <a href="/camp/ages-10-13/python-middle-school/">Beginners</a>, <a href="https://codehs.com/uploads/a1b13e8ac32256074175107c8441dbe7">Intermediate</a><br>
+        <div class="col-3"><b>Coding</b>: Python <a href="/camp/ages-10-13/python-middle-school/">Beginners</a>, <a href="https://codehs.com/uploads/a1b13e8ac32256074175107c8441dbe7">Intermediate (Modules 1, 2, 3, and 4)</a><br>
         Instructors: TBD, Carter, Tracey</div>
     </div>
     <div class="row table-dark-row">
@@ -130,17 +140,17 @@ aliases=["/summer/", "/rams-expo/"]
         Instructors: Sarah, TBD</div>
         <div class="col-3"><b>Vex Robotics</b>: <a href="https://camps.vex.com/run-a-camp/stem-gadgets-and-games-camp">STEM Gadgets and Games</a><br>
         Instructors: Christina, TBD</div>
-        <div class="col-3"><b>Coding</b>: Roblox</b> <a href="https://codehs.com/uploads/d91cf67dc0a1f13a216dedb7362ab4a5">Beginners</a>, <a href="https://codehs.com/uploads/71cfbd350132a41d1084a79f42eb35f9">Advanced</a> <br>
+        <div class="col-3"><b>Coding</b>: Roblox</b> <a href="https://codehs.com/uploads/d91cf67dc0a1f13a216dedb7362ab4a5">Beginners</a>, <a href="https://codehs.com/uploads/71cfbd350132a41d1084a79f42eb35f9">Advanced (Modules 1, 2, 3, and 4)</a> <br>
         Instructors: TBD, TBD, Carter</div>
     </div>
     <div class="row">
         <div class="col-2"><b>June 24&ndash;28</b><br>Coordinator: Ransford</div>
-        <div class="col-3"><b>Robotics</b>: Safari Camp<br>
+        <div class="col-3"><b>Lego Robotics</b>: Safari Camp<br>
         <b>Coding</b>: Beaver Achiever and Scratch Jr.<br>
         Instructors: Sarah, TBD</div>
-        <div class="col-3"><b>Coding</b>: <a href="https://codehs.com/uploads/d91cf67dc0a1f13a216dedb7362ab4a5">Roblox</a><br>
+        <div class="col-3"><b>Coding</b>: Roblox Beginner, <a href="https://codehs.com/uploads/d91cf67dc0a1f13a216dedb7362ab4a5">Advanced</a><br>
         Instructors: Christina, Carter, TBD</div>
-        <div class="col-3"><b>Robotics</b>: <a href="https://camps.vex.com/run-a-camp/search-and-rescue-camp">Search And Rescue</a><br> 
+        <div class="col-3"><b>Vex Robotics</b>: <a href="https://camps.vex.com/run-a-camp/search-and-rescue-camp">Search And Rescue</a><br> 
         <b>Coding</b>: <a href="https://codehs.com/uploads/99b1ac9b3a786b672ec506cfc462aaf5">Web Design</a> <br>
         Instructors: TBD, TBD, TBD, Tracey
         </div>
@@ -151,51 +161,59 @@ aliases=["/summer/", "/rams-expo/"]
         Instructors: Sarah, TBD</div>
         <div class="col-3"><b>Vex Robotics</b>: <a href="https://camps.vex.com/run-a-camp/mission-to-mars">Mission to Mars</a><br>
         Instructors: Christina, TBD</div>
-        <div class="col-3"><b>Coding</b>: Minecraft <br> <a href="https://codehs.com/uploads/8dba2cd1be481145472397cda6ffcde8">Introduction to Game Design</a> <br>
+        <div class="col-3"><b>Coding</b>: Minecraft <br> <a href="https://codehs.com/uploads/8dba2cd1be481145472397cda6ffcde8">Introduction to Game Design (JavaScript)</a> <br>
         Instructors: TBD, TBD, Carter, Tracey</div>
     </div>
     <div class="row">
         <div class="col-2"><b>July 15&ndash;19</b><br>Coordinator: Ransford</div>
-        <div class="col-3"><a href="https://camps.vex.com/run-a-camp/123-space-race-camp">Space Race</a><br>
-        Instructors: TBD, TBD</div>
-        <div class="col-3">Minecraft<br>
+        <div class="col-3"><b>Vex Robotics:</b> <a href="https://camps.vex.com/run-a-camp/123-space-race-camp">Space Race</a><br>
+        Instructors: Sarah, TBD</div>
+        <div class="col-3"><b>Coding:</b> Minecraft<br>
         Instructors: Christina, Carter</div>
-        <div class="col-3">Make your own games. <a href="https://www.codemonkey.com/courses/game-builder">Beginers</a>, <a href="https://codehs.com/uploads/8dba2cd1be481145472397cda6ffcde8">Advanced</a><br>
+        <div class="col-3"><b>Coding:</b> <a href="https://www.codemonkey.com/courses/game-builder">Make your own games  (Beginners)</a><br>
+        <a href="https://codehs.com/uploads/8dba2cd1be481145472397cda6ffcde8">Introduction to Game Design (JavaScript)</a><br>
         Instructors: TBD, TBD, Tracey</div>
     </div>
     <div class="row table-dark-row">
         <div class="col-2"><b>July 22&ndash;26</b><br>Coordinator: Ransford</div>
-        <div class="col-3">Move it! Shake it! with VEX123</div>
-        <div class="col-3">Adventures in Engineering<br>
+        <div class="col-3"><b>Vex Robotics:</b> <a href="https://camps.vex.com/run-a-camp/123-move-it-shake-it-camp">Move it! Shake it!</a><br>
+        Instructors: TBD, TBD</div>
+        <div class="col-3"><b>Vex Robotics:</b> <a href="https://camps.vex.com/run-a-camp/adventures-in-engineering-camp">Adventures in Engineering</a><br>
         Instructors: Christina, TBD</div>
-        <div class="col-3">On the move with VEX IQ<br>
+        <div class="col-3"><b>Vex Robotics:</b> <a href="https://camps.vex.com/run-a-camp/on-the-move-camp">On the move</a><br>
+        <b>Coding: </b> <a href="https://codehs.com/uploads/700ed8146df634c2d1d05e5d621cc4b6">Introduction to Computer Science in C++</a><br>
         Instructors: TBD, TBD, Carter, Tracey</div>
     </div>
     <div class="row">
         <div class="col-2"><b>July 29&ndash;August 2</b><br>Coordinator: Ransford</div>
-        <div class="col-3">Math Camp</div>
-        <div class="col-3">Ready, set, GO Camp with VEX Go<br>
+        <div class="col-3"><b>Math Camp: </b> <a href="https://beastacademy.com/">Beast Academy 1/2</a>
+        <br>Instructors: Sarah, TBD
+        </div>
+        <div class="col-3"><b>Vex Robotics:</b><a href="https://camps.vex.com/run-a-camp/ready-set-go-camp ">Ready, set, GO</a><br>
         Instructors: Christina, TBD</div>
-        <div class="col-3">Math Camp<br>
-        Instructors: TBD, Carter, Tracey</div>
+        <div class="col-3"><b>Math Camp</b>: <a href="https://artofproblemsolving.com/store/book/aops-vol1">AOPS Contest Math</a><br>
+        <b>Coding:</b><a href="https://codehs.com/uploads/6e072b1e99eee8faaf2144b0dfbc7574">Intro to Programming with Karel the Dog</a><br>
+        Instructors: Nora, Carter, Tracey</div>
     </div>
     <div class="row table-dark-row">
         <div class="col-2"><b>August 5&ndash;9</b><br>
         Coordinator: Nora</div>
-        <div class="col-3">Coding Camp (Code Monkey, Scratch Jr)</div>
-        <div class="col-3">Space Adventure
+        <div class="col-3"><b>Coding:</b> <a href="/class/coding/kindergarten">Code Monkey</a>, Scratch Jr
+        <br>Instructors: Sarah, TBD</div>
+        <div class="col-3"><b>Lego Robotics:</b> <a href="https://www.fllcasts.com/courses/226-robotics-with-lego-spike-prime-level-a1">Space Adventure</a><br>
         Instructors: TBD</div>
-        <div class="col-3">Let's Compete with Lego Spike Prime<br>
-        Instructors: TBD, Carter, Tracey</div>
+        <div class="col-3"><b>Lego Robotics:</b> <a href="https://assets.education.lego.com/v3/assets/blt293eea581807678a/blt06538c349bfd32f1/637348fca32209106e8b1352/SPIKE_Prime_Lets_Compete_Adv_2022.pdf?locale=en-us">Let's Compete with Lego Spike Prime</a><br>
+        Instructors: Nora, Carter, Tracey</div>
     </div>
     <div class="row">
         <div class="col-2"><b>August 12&ndash;16</b>
         <br>Coordinator: Nora</div>
-        <div class="col-3">Star Camp (Lego WeDo)</div>
-        <div class="col-3">Coding Camp (Scratch)<br>
+        <div class="col-3"><b>Lego Robotics:</b> <a href="https://assets.education.lego.com/v3/assets/blt293eea581807678a/blt1950fff047eafcaa/5f84018bed5ccb12e433c501/pdf-wedo_living-in-space_adv.pdf?locale=en-us">Living in Space</a>
+        <br>Instructors: Sarah, TBD</div>
+        <div class="col-3"><b>Coding:</b> <a href="/class/coding/scratch">Scratch</a><br>
         Instructors: TBD, TBD</div>
         <div class="col-3">FLL Challenge Bootcamp<br>
-        Instructors: TBD, Carter, Tracey</div>
+        Instructors: Nora, Carter, Tracey</div>
     </div>
 </div>
 <p></p>
