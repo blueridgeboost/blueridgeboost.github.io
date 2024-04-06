@@ -208,7 +208,7 @@ header = "Spring 24 Classes"
                         <a href="https://geometry-grades-6-to-8.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr56shade" style="grid-area: class13;">
-                    <a href="/class/coding/middle-school-python"><b>Python</b></a></br>
+                    <a href="/class/coding/middle-school-python"><b>Ransford</b></a></br>
                         Grades 5 &ndash; 6<br> 
                         Teacher: <a href="/instructor#nora">Nora</a><br>
                         <a href="https://spring-24-python-grades-5-to-6.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
@@ -217,7 +217,7 @@ header = "Spring 24 Classes"
                     <a href="/class/coding/algorithms"><b>
                     Algorithms</b></a></br>
                     Grades 7 &ndash; 8<br>
-                    Teacher: <a href="/instructor#saumya">Saumya</a><br>
+                    Teacher: <a href="/instructor#saumya">Ransford</a><br>
                     <a href="https://spring-24-algorithms.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr34shade" style="grid-area: class15;">
@@ -229,7 +229,7 @@ header = "Spring 24 Classes"
                 <div class="gr78shade" style="grid-area: class17;">
                     <a href="/class/coding/python"><b>Python</b></a></br>
                     Grades 7 &ndash; 8<br> 
-                    Teacher: <a href="/instructor#saumya">Saumya</a><br>
+                    Teacher: <a href="/instructor#saumya">Nora</a><br>
                     <a href="https://spring-24-python-grades-7-to-8.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
             </div>
