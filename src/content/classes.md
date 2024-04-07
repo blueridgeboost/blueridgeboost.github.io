@@ -208,22 +208,22 @@ header = "Spring 24 Classes"
                         <a href="https://geometry-grades-6-to-8.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr56shade" style="grid-area: class13;">
-                    <a href="/class/coding/middle-school-python"><b>Ransford</b></a></br>
+                    <a href="/class/coding/middle-school-python"><b>Python</b></a></br>
                         Grades 5 &ndash; 6<br> 
-                        Teacher: <a href="/instructor#nora">Nora</a><br>
+                        Teacher: <a href="/instructor#ransford">Ransford</a><br>
                         <a href="https://spring-24-python-grades-5-to-6.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr78shade" style="grid-area: class14;">
                     <a href="/class/coding/algorithms"><b>
                     Algorithms</b></a></br>
                     Grades 7 &ndash; 8<br>
-                    Teacher: <a href="/instructor#saumya">Ransford</a><br>
+                    Teacher: <a href="/instructor#nora">Nora</a><br>
                     <a href="https://spring-24-algorithms.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr34shade" style="grid-area: class15;">
                     <a href="/class/coding/computational-thinking-spike"><b>Coding and Lego Robotics</b></a> <br>
                     Grades 3 &ndash; 4<br> 
-                    Teacher: Nora<br>
+                    Teacher: Ransford<br>
                     <a href="https://spring-24-coding-and-lego-robotics.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr78shade" style="grid-area: class17;">
@@ -265,6 +265,7 @@ header = "Spring 24 Classes"
                 <div class="gr12shade" style="grid-area: class12;">
                     <b><a href="/class/coding/programming-fundamentals-bolt">Programming Fundamentals with Sphero Bots</a></b><br>
                     Grades 1 &ndash; 2 <br> 
+                    <b>Starts April 20</b><br>
                     Teacher: Christina<br>
                     <a href="https://spring-24-programming-fundamentals.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div> 
@@ -284,6 +285,7 @@ header = "Spring 24 Classes"
                 <div class="grPKKshade" style="grid-area: class21;">
                     <a href="/class/coding/kindergarten"><b>Block Coding</b></a><br>
                         Grades PK &ndash; K<br> 
+                        <b>Starts April 20</b><br>
                         Teacher: <a href="/instructor#">Christina</a><br>
                         <a href="https://block-coding-jr-pre-k-and-kindergarten.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -314,6 +316,7 @@ header = "Spring 24 Classes"
                  <div class="gr34shade" style="grid-area: class2;">
                     <a href="/class/coding/vex-go"><b>Vex G0 STEM Labs</b></a> <br>
                     Grades 3 &ndash; 4<br> 
+                    <b>Starts April 20</b><br>
                     Teacher: Christina<br>
                     <a href="https://spring-24-vex-go.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
