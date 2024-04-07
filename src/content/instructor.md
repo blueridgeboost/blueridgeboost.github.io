@@ -49,7 +49,57 @@ header = "Blue Ridge Boost Instructors"
     <h3>Saumya Sharma</h3>
     <p>I am from NoVa  and am a current 3rd year at the University of Virginia working towards a degree in Global Public Health and a minor in Computer Science. As a member of the community, I have valued tutoring and working with students as a way to help bring the community forward by being involved in it. I was on a FIRST Tech Challenge (FTC) robotics team for 3 years and have continued my appreciation for Computer Science during my time at UVA.</p>
   </div>
-</div>
+  <div class="row">
+    <div class="col-sm-2"><a id="jared"></a>
+      <p></p>
+      <!-- <img src="" alt="Jared" class="img-fluid">  -->
+    </div>
+    <div class="col-sm-10">
+      <h3>Jared Hull</h3>
+      <p>My name is Jared, and I am currently attending PVCC. I plan on transferring to UVa to major in aerospace/mechanical engineering with a minor in computer science.<br>
+      I have experience tutoring kids and teens since high school and have always taken pride in helping others in any subject, but mostly math and coding, whether it be C++, Java, or Python. I am great at helping students think critically and develop their problem-solving skills, which are quite important, especially for coding.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2"><a id="akhil"></a>
+      <p></p>
+      <!-- <img src="" alt="Akhil" class="img-fluid">  -->
+    </div>
+    <div class="col-sm-10">
+      <h3>TBD</h3>
+      <p></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2"><a id="carter"></a>
+      <p></p>
+      <!-- <img src="" alt="Carter" class="img-fluid">  -->
+    </div>
+    <div class="col-sm-10">
+      <h3>TBD</h3>
+      <p></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2"><a id="scarlett"></a>
+      <p></p>
+      <!-- <img src="" alt="Scarlett" class="img-fluid">  -->
+    </div>
+    <div class="col-sm-10">
+      <h3>TBD</h3>
+      <p></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2"><a id="tracey"></a>
+      <p></p>
+      <!-- <img src="" alt="Tracey" class="img-fluid">  -->
+    </div>
+    <div class="col-sm-10">
+      <h3>TBD</h3>
+      <p></p>
+    </div>
+  </div>
 </div>
 
 <p></p>
@@ -80,12 +130,12 @@ header = "Blue Ridge Boost Instructors"
 * Financial Mathematics instructor at the University of Virginia  
     </div>
   </div>
-  <div class="row">
+  <!-- <div class="row">
     <div class="col-sm-2">
     </div>
     <div class="col-sm-10">
       <h3>Charlie Conneen</h3>
       My name is Charlie, I'm a UVa graduate with an MS in Mathematics. I have 6 years of experience teaching and tutoring all grades from elementary school to college-level and beyond, working to meet a variety of learning targets. Whether your student has fallen behind and needs coaching, or is striving to learn beyond the curriculum and requires a mentor, I'm here to help!
     </div>
-  </div>
+  </div> -->
 </div>
