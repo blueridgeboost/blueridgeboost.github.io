@@ -62,7 +62,7 @@ header = "Spring 24 Classes"
                 <div class="gr78shade" style="grid-area: class4;">
                     <a href="/class/coding/c++vexv5"><b>C++ Coding with VEX V5 Robots</b></a> <br>
                         Grades 7&ndash;8<br>
-                        Teacher: <a href="/instructor#nora">Nora</a><br>  
+                        Teacher: <a href="/instructor#nora">Akhil</a><br>  
                     <a href="https://spring-24-c-and-vex-robotics-grades-7-to-8.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
             </div>
@@ -105,7 +105,7 @@ header = "Spring 24 Classes"
                 <div class="gr12shade" style="grid-area: class2;">
                     <a href="/class/coding/scratch"><b>Scratch</b></a><br>
                         Grades 1 &ndash; 2<br>
-                        Teacher: <a href="/instructor#jared">Jared</a><br>
+                        Teacher: <a href="/instructor#nora">Nora</a><br>
                         <a href="https://scratch-wednesdays-grades-1-and-2.cheddarup.com" class="btn-small">
                                 <button class="button-8s" role="button">Sign Up</button></a>
                 </div>
@@ -259,7 +259,7 @@ header = "Spring 24 Classes"
                 <div class="gr56shade" style="grid-area: class9;">
                     <a href="/class/coding/roblox-coding"><b>Roblox Coding</b></a> <br>
                     Grades 5 &ndash; 6<br> 
-                    Teacher: Jared<br>
+                    Teacher: Akhil<br>
                     <a href="https://spring-24-roblox56.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr12shade" style="grid-area: class12;">
@@ -292,13 +292,13 @@ header = "Spring 24 Classes"
                 <div class="gr56shade" style="grid-area: class15;">
                     <a href="/class/coding/roblox-coding"><b>Roblox Coding</b></a> <br>
                     Grades 5 &ndash; 6<br> 
-                    Teacher: Jared<br>
+                    Teacher: Akhil<br>
                     <a href="https://spring-24-roblox56.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>
                 </div>
                 <div class="gr34shade" style="grid-area: class17;">
                     <a href="/class/coding/roblox-coding"><b>Roblox Coding</b></a> <br>
                     Grades 3 &ndash; 4<br> 
-                    Teacher: Jared<br>
+                    Teacher: Akhil<br>
                     <a href="https://spring-24-roblox35.cheddarup.com"><button class="button-8s" role="button">Sign Up</button></a>   
                 </div>
                 <div class="gr78shade" style="grid-area: class18;">
