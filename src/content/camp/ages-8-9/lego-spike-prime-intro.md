@@ -54,8 +54,8 @@ display a team logo after the team's name scrolls across.<br>
                 </div>
                 <div class="row py-1 table-dark-row">
                     <div class="col-2 text-center">11:00 &ndash; 12:30</div>	
-                    <div class="col-10">Free Exploration Session<br>
-                        <b>Monday: </b> Suggested activity: Leo’s Next Ride (lesson Step 8)<br>
+                    <div class="col-10">Free Exploration Session (Suggested activities)<br>
+                        <b>Monday: </b>Create a light and sound show using the hub.<br>
                         <b>Tuesday: </b><br>
                         <b>Wednesday: </b><br>
                         <b>Thursday: </b><br>
