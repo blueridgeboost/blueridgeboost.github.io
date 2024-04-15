@@ -21,13 +21,17 @@ header = "Blue Ridge Boost Instructors"
     </div>
     <div class="col-sm-10">
       <h3>Nora Evans</h3>
+      <b>Founder and owner. Coding, robotics and math teacher.</b><br>
       I am originally from Bucharest, Romania and earned a B.Sc. in Computer Science at the Polytechnical University of Bucharest. I moved to Charlottesville in the Fall of 2004 to pursue graduate school at the University of Virginia, where I earned a Master's in Computer Science, a Master of Science in Mathematics, and a Master of Teaching. Some of my accomplishments include:
 
-* [co-author](https://scholar.google.com/citations?user=BTsjtmgAAAAJ&hl=en&oi=ao) of several research articles
+* [co-author](https://scholar.google.com/citations?user=BTsjtmgAAAAJ&hl=en&oi=ao) of several research articles in computer science
 * several years of industry experience as a Java software developer
-* over two years of online tutoring on [Wyzant](https://www.wyzant.com/Tutors/VA/Charlottesville/9957760/) in C, C++, Java, Python, List, and Prolog.
-* teaching assistant at the University of Virginia 
-* [First Lego League](https://www.firstinspires.org/robotics/fll/what-is-first-lego-league) team lead and coach 
+* [First Lego League](https://www.firstinspires.org/robotics/fll/what-is-first-lego-league) team lead and coach
+* Calculus lecturer at the University of Virginia 2023-2024
+* Algebra teacher at [Peabody School](https://peabodyschool.org/) 2022-2023
+* AMC8 and MathCounts coach for the 2022-2023 season
+* student-teacher at [Monticello High School](https://mohs.k12albemarle.org/) in Algebra 2, Precalculus, and Geometry 
+* co-founder and organizer of [Cville Math Circle](https://cvillemathcircle.org/) for preschool and elementary school-age girls
     </div>
   </div>
   <div class="row">
@@ -36,6 +40,7 @@ header = "Blue Ridge Boost Instructors"
     </div>
     <div class="col-sm-10">
       <h3>Ransford Dunu</h3>
+      <b>Camp Coordinator. Coding and robotics teacher.</b><br>
       <p>I am originally from Koforidua, Ghana. I moved to Charlottesville, Virginia with my parents when I was 11 months old. I am currently working toward my Associate's Degree in Mechanical Engineering with a minor in Computer Science.</p>
       <p>I have experience in teaching teens and kids how to code. Through NSBE(Nation Society of Black Engineers) and Mrs. Early from Albemarle High School I was able to teach middle schoolers how to code a Sphero to get out of a maze. During that time I helped the students to understand critical thinking and problem-solving skills to be able to guide the Sphero out of not just one maze but an array of mazes with the same code.</p>
     </div>
@@ -47,27 +52,56 @@ header = "Blue Ridge Boost Instructors"
     </div>
     <div class="col-sm-10">
     <h3>Saumya Sharma</h3>
+    <b>Coding and robotics teacher.</b><br>
     <p>I am from NoVa  and am a current 3rd year at the University of Virginia working towards a degree in Global Public Health and a minor in Computer Science. As a member of the community, I have valued tutoring and working with students as a way to help bring the community forward by being involved in it. I was on a FIRST Tech Challenge (FTC) robotics team for 3 years and have continued my appreciation for Computer Science during my time at UVA.</p>
   </div>
   <div class="row">
-    <div class="col-sm-2"><a id="jared"></a>
+    <div class="col-sm-2"><a id="christina"></a>
       <p></p>
-      <!-- <img src="" alt="Jared" class="img-fluid">  -->
+      <img src="/images/christina.png" alt="Christina" class="img-fluid"> 
     </div>
-    <!-- <div class="col-sm-10">
-      <h3>Jared Hull</h3>
-      <p>My name is Jared, and I am currently attending PVCC. I plan on transferring to UVa to major in aerospace/mechanical engineering with a minor in computer science.<br>
-      I have experience tutoring kids and teens since high school and have always taken pride in helping others in any subject, but mostly math and coding, whether it be C++, Java, or Python. I am great at helping students think critically and develop their problem-solving skills, which are quite important, especially for coding.</p>
-    </div> -->
+    <div class="col-sm-10">
+    <h3>Christina Fowler</h3>
+    <b>Coding and math teacher. Math tutor. Lead camp instructor ages 8 and 9.</b><br>
+    <p>I am from Northern Virginia and graduated from JMU with my Master's in Teaching. I have taught 3rd grade for the past 5 years now. Outside of teaching, I enjoy tutoring students in elementary math and leading coding/robotics classes.</p>
+  </div>
+  <div class="row">
+    <div class="col-sm-2"><a id="hillary"></a>
+      <p></p>
+      <img src="/images/HillaryHan.jpg" alt="Hillary" class="img-fluid"> 
+    </div>
+    <div class="col-sm-10">
+    <h3>Hillary Han</h3>
+    <b>Math teacher.</b><br>
+    <p>I am originally from China and earned Bachelor's and Ph.D. degrees in Applied Mathematics at Northeastern University and Nankai University. After completing my doctoral studies, I worked as a postdoctoral researcher at the University of Southern Denmark. I was responsible for teaching three graduate courses (Combinatorics, Algebra and Analytic Combinatorics) and was a teaching assistant for some undergraduate courses. I moved to Virginia with my family in the Spring of 2015.<br>
+    Some of my accomplishments and work experience include<ul>
+      <li>First author of several research articles;
+      <li>Substitute Teacher at Albemarle County Public Schools;
+      <li>Mathematics Adjunct Faculty at Piedmont Virginia Community College;
+      <li>Online Mathematics Tutor at Cignition.
+    </ul>
+</p>
   </div>
   <div class="row">
     <div class="col-sm-2"><a id="akhil"></a>
       <p></p>
-      <!-- <img src="" alt="Akhil" class="img-fluid">  -->
+      <img src="/images/akhil.jpg" alt="Akhil" class="img-fluid">
+    </div>
+      <div class="col-sm-10">
+      <h3>Akhil Marri</h3>
+      <b>Coding and robotics teacher. Lead Instructor Camp Ages 10 to 13.</b><br>
+      <p>I am from Charlottesville, Virginia, and will be attending Stanford this fall to work towards a degree in Mechanical or Electrical Engineering. With a background as an Eagle Scout, I've honed my skills in teaching and mentoring, particularly with younger individuals and teenagers. I have a passion for STEM and more specifically robotics. During high school, I founded an FTC team where my role as co-captain and Engineering Lead propelled our team to be ranked #1 in Virginia.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2"><a id="scarlett"></a>
+      <p></p>
+      <img src="/images/scarlett.jpg" alt="Scarlett" class="img-fluid"> 
     </div>
     <div class="col-sm-10">
-      <h3>TBD</h3>
-      <p></p>
+      <h3>Scarlett Morse</h3>
+      <b>Instructor Camp Ages 10 to 13.</b><br>
+      <p>I have lived in Pennsylvania, Virginia, and France, and am currently a senior at Albemarle High School in the Math, Engineering, and Science Academy. Next year, I plan on going to either UVA or McGill to study math and computer science, environmental science, political science, and French. I run Mathemagicians, a math club at the Northside Library for teens interested in STEM, and did an internship at a pharmacy in Arzens, France working with a shelf-stocking robot. Whether tutoring peers and neighbors in math or tinkering with 3d printers and welding equipment, I love sharing my interest in technology and science with others!</p>
     </div>
   </div>
   <div class="row">
@@ -76,17 +110,8 @@ header = "Blue Ridge Boost Instructors"
       <!-- <img src="" alt="Carter" class="img-fluid">  -->
     </div>
     <div class="col-sm-10">
-      <h3>TBD</h3>
-      <p></p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-2"><a id="scarlett"></a>
-      <p></p>
-      <!-- <img src="" alt="Scarlett" class="img-fluid">  -->
-    </div>
-    <div class="col-sm-10">
-      <h3>TBD</h3>
+      <h3>Carter Earles</h3>
+      <b>Instructor Camp Ages 10 to 13.</b><br>
       <p></p>
     </div>
   </div>
@@ -96,7 +121,41 @@ header = "Blue Ridge Boost Instructors"
       <!-- <img src="" alt="Tracey" class="img-fluid">  -->
     </div>
     <div class="col-sm-10">
-      <h3>TBD</h3>
+      <h3>Tracey Dunu</h3>
+      <b>Instructor Camp Ages 8 and 9.</b><br>
+      <p></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2"><a id="shylean"></a>
+      <p></p>
+      <!-- <img src="" alt="Shylean" class="img-fluid">  -->
+    </div>
+    <div class="col-sm-10">
+      <h3>Shylean Sabwa</h3>
+      <b>Instructor Camp Ages 6 and 7.</b><br>
+      <p></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2"><a id="sarah"></a>
+      <p></p>
+      <!-- <img src="" alt="Shylean" class="img-fluid">  -->
+    </div>
+    <div class="col-sm-10">
+      <h3>Sarah Hicks</h3>
+      <b>Lead Instructor Camp Ages 6 and 7.</b><br>
+      <p></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2"><a id="michelle"></a>
+      <p></p>
+      <!-- <img src="" alt="Shylean" class="img-fluid">  -->
+    </div>
+    <div class="col-sm-10">
+      <h3>Michelle Krentz</h3>
+      <b>Instructor Camp Ages 6 and 7.</b><br>
       <p></p>
     </div>
   </div>
@@ -104,7 +163,7 @@ header = "Blue Ridge Boost Instructors"
 
 <p></p>
 
-<div class="container py-2">
+<!-- <div class="container py-2">
   <div class="row py-2">
     <div class="col-sm-2">
     </div>
@@ -129,7 +188,7 @@ header = "Blue Ridge Boost Instructors"
 * teaching assistant for graduate-level courses 
 * Financial Mathematics instructor at the University of Virginia  
     </div>
-  </div>
+  </div> -->
   <!-- <div class="row">
     <div class="col-sm-2">
     </div>
@@ -138,4 +197,4 @@ header = "Blue Ridge Boost Instructors"
       My name is Charlie, I'm a UVa graduate with an MS in Mathematics. I have 6 years of experience teaching and tutoring all grades from elementary school to college-level and beyond, working to meet a variety of learning targets. Whether your student has fallen behind and needs coaching, or is striving to learn beyond the curriculum and requires a mentor, I'm here to help!
     </div>
   </div> -->
-</div>
+<!-- </div> -->
