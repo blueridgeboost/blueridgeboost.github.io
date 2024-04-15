@@ -148,6 +148,17 @@ header = "Blue Ridge Boost Instructors"
       <p></p>
     </div>
   </div>
+  <div class="row">
+    <div class="col-sm-2"><a id="michelle"></a>
+      <p></p>
+      <!-- <img src="" alt="Shylean" class="img-fluid">  -->
+    </div>
+    <div class="col-sm-10">
+      <h3>Michelle Krentz</h3>
+      <b>Instructor Camp Ages 6 and 7.</b><br>
+      <p></p>
+    </div>
+  </div>
 </div>
 
 <p></p>
