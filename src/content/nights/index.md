@@ -32,7 +32,7 @@ header = "Special Nights"
             Drop-off: 5:30 pm<br> 
             Pick-up: 8:30 pm<br>
             $45/child, ages six to thirteen
-            <div class="buttons"><a href="https://pno-april-13.cheddarup.com"><button class="button-8s" role="button">Saturday, 13 April</button></a>
+            <div class="buttons"><a href="https://parents-night-out-may-11.cheddarup.com"><button class="button-8s" role="button">Saturday, 11 May</button></a>
             </div>
         </div>
         <div class="col">
@@ -42,7 +42,7 @@ header = "Special Nights"
             Drop-off: 5:30 pm<br> 
             Pick-up: 8:30 pm<br>
             <b>Free!</b> Grades 3 &ndash; 8
-            <div class="buttons"><a href="https://girls-night-in-march-23.cheddarup.com"><button class="button-8s" role="button">Saturday, 23 March</button></a><br>
+            <div class="buttons"><a href="https://girls-night-in-may-18.cheddarup.com"><button class="button-8s" role="button">Saturday, 18 May</button></a><br>
             </div>
         </div>
     </div>
