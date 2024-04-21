@@ -2,7 +2,7 @@
 title = "Camps | Blue Ridge Boost"
 description = "Learn block languages, Scratch, Coffee Script, Python, Java, and Rust! Build Lego&reg; robots and code with Scratch! Contact us to sign or and find out more details!"
 keywords = ["Charlottesville coding tutor", "Charlottesville Python tutor", "cvillecoding", "coding", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "children coding classes", "kids coding", "kids Python", "children Python", "children coding tutor"]
-header = "Camps"
+header = "Summer 24 Camps"
 aliases=["/summer/", "/rams-expo/"]
 +++
 
@@ -54,7 +54,7 @@ aliases=["/summer/", "/rams-expo/"]
 <div class="container">
     <div class="row  justify-content-center">
         <div class="col">
-            <h2><center>Summer 2024</center></h2>
+            <h2><center>Elementary and Middle School</center></h2>
         </div>
     </div>
     <div class="row">
@@ -99,7 +99,7 @@ aliases=["/summer/", "/rams-expo/"]
                 </div>
                 <div class="row py-1">
                     <div class="col-5 text-center">12:30 &ndash; 1:00</div>
-                    <div class="col-7">Lunch/Half-day dismissal</div>
+                    <div class="col-7">Lunch/Half-day morning dismissal/Afternoon arrival</div>
                 </div>
                 <div class="row py-1 table-dark-row">
                     <div class="col-5 text-center">1:00 &ndash; 2:30</div>	
@@ -121,6 +121,7 @@ aliases=["/summer/", "/rams-expo/"]
         </div> <!-- inner container -->
     </div>
 </div> <!-- outer container -->
+
 <p></p>
 <h3 align="center">A Different Theme Each Week</h3>
 <div class="container">
@@ -157,19 +158,20 @@ aliases=["/summer/", "/rams-expo/"]
         Instructors: <a href="/instructor#sarah">Sarah</a>, <a href="/instructor#michelle">Michelle</a></div>
         <div class="col-3"><b>Coding</b>: <a href="https://codehs.com/uploads/d91cf67dc0a1f13a216dedb7362ab4a5">Creating a Game in Roblox</a><br>
         Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#tracey">Tracey</a></div>
-        <div class="col-3"><b>Vex Robotics</b>: <a href="https://camps.vex.com/run-a-camp/search-and-rescue-camp">Search And Rescue</a><br> 
-        <b>Coding</b>: <a href="https://codehs.com/uploads/d0e419afa5dcd7390aaa6aba70bb3e23">Web Design</a> <br>
+        <div class="col-3"><b>Vex Robotics Mornings</b>: <a href="https://camps.vex.com/run-a-camp/search-and-rescue-camp">Search And Rescue</a><br> 
+        <b>Coding Afternoons</b>: <a href="https://codehs.com/uploads/d0e419afa5dcd7390aaa6aba70bb3e23">Web Design</a> <br>
         Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#carter">Carter</a></div>
         </div>
     </div>
     <div class="row table-dark-row">
         <div class="col-2"><b>July 8&ndash;12</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
         <div class="col-3"><b>Lego Robotics</b>: <a href="https://assets.education.lego.com/v3/assets/blt293eea581807678a/blt1950fff047eafcaa/5f84018bed5ccb12e433c501/pdf-wedo_living-in-space_adv.pdf?locale=en-us">Living in Space</a><br>
-        Instructors: <a href="/instructor#sarah">Sarah</a>, <a href="/instructor#shylean">Shylean</a></div>
+        Instructors: <a href="/instructor#sarah">Sarah</a></div>
         <div class="col-3"><b>Vex Robotics</b>: <a href="https://camps.vex.com/run-a-camp/mission-to-mars">Mission to Mars</a><br>
         Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#tracey">Tracey</a></div>
-        <div class="col-3"><b>Coding</b>: Minecraft <br> <a href="https://codehs.com/uploads/8dba2cd1be481145472397cda6ffcde8">Introduction to Game Design (JavaScript)</a> <br>
-        Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#carter">Carter</a>, <a href="/instructor#scarlett">Scarlett</a></div>
+        <div class="col-3"><b>Coding Morning</b>: Minecraft<br> 
+        <b>Coding Afternoon</b> <a href="https://codehs.com/uploads/8dba2cd1be481145472397cda6ffcde8">Introduction to Game Design with JavaScript</a> <br>
+        Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#scarlett">Scarlett</a></div>
     </div>
     <div class="row">
         <div class="col-2"><b>July 15&ndash;19</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
@@ -177,18 +179,18 @@ aliases=["/summer/", "/rams-expo/"]
         Instructors: <a href="/instructor#sarah">Sarah</a>, <a href="/instructor#tracey">Tracey</a></div>
         <div class="col-3"><b>Coding:</b> Minecraft<br>
         Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#carter">Carter</a></div>
-        <div class="col-3"><b>Coding:</b> <a href="https://www.codemonkey.com/courses/game-builder">Make your own games  (Beginners)</a><br>
+        <div class="col-3"><b>Coding:</b> <a href="https://www.codemonkey.com/courses/game-builder">Make your own games (Beginners)</a><br>
         <a href="https://codehs.com/uploads/8dba2cd1be481145472397cda6ffcde8">Introduction to Game Design (JavaScript)</a><br>
         Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#scarlett">Scarlett</a></div>
     </div>
     <div class="row table-dark-row">
         <div class="col-2"><b>July 22&ndash;26</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
         <div class="col-3"><b>Vex Robotics:</b> <a href="https://camps.vex.com/run-a-camp/123-move-it-shake-it-camp">Move it! Shake it!</a><br>
-        Instructors: <a href="/instructor#ransford">Ransford</a>, <a href="/instructor#shylean">Shylean</a></div>
+        Instructors: <a href="/instructor#ransford">Ransford</a></div>
         <div class="col-3"><b>Vex Robotics:</b> <a href="https://camps.vex.com/run-a-camp/adventures-in-engineering-camp">Adventures in Engineering</a><br>
         Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#tracey">Tracey</a></div>
-        <div class="col-3"><b>Vex Robotics:</b> <a href="https://camps.vex.com/run-a-camp/on-the-move-camp">On the move</a><br>
-        <b>Coding: </b> <a href="https://codehs.com/uploads/700ed8146df634c2d1d05e5d621cc4b6">Introduction to Computer Science in C++</a><br>
+        <div class="col-3"><b>Vex Robotics (Morning):</b> <a href="https://camps.vex.com/run-a-camp/on-the-move-camp">On the move</a><br>
+        <b>Coding (Afternoon): </b> <a href="https://codehs.com/uploads/700ed8146df634c2d1d05e5d621cc4b6">Introduction to Computer Science in C++</a><br>
         Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#carter">Carter</a>, <a href="/instructor#scarlett">Scarlett</a></div>
     </div>
     <div class="row">
@@ -198,16 +200,17 @@ aliases=["/summer/", "/rams-expo/"]
         </div>
         <div class="col-3"><b>Vex Robotics:</b><a href="https://camps.vex.com/run-a-camp/ready-set-go-camp ">Ready, set, GO</a><br>
         Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#carter">Carter</a></div>
-        <div class="col-3"><b>Math Camp</b>: <a href="https://artofproblemsolving.com/store/book/aops-vol1">Contest Math</a><br>
+        <div class="col-3"><b>Math Camp (Morning)</b>: <a href="https://artofproblemsolving.com/store/book/aops-vol1">Contest Math</a><br>
+        <b>Coding (Afternoon):</b><a href="https://codehs.com/uploads/f2d9dbb4255ffeef85ca15b66c0a7fb6">Game Design in Unity</a> (Advanced)<br>
         Instructors: Nora<br>
-        <b>Coding:</b><a href="https://codehs.com/uploads/6e072b1e99eee8faaf2144b0dfbc7574">Intro to Programming with Karel the Dog</a><br>
+        <b>Coding (Full-Day):</b><a href="https://codehs.com/uploads/6e072b1e99eee8faaf2144b0dfbc7574">Intro to Programming with Karel the Dog (Beginners)</a><br>
         Instructors:  <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#scarlett">Scarlett</a></div>
     </div>
     <div class="row table-dark-row">
         <div class="col-2"><b>August 5&ndash;9</b><br>
         Coordinator: <a href="/instructor#nora">Nora</a></div>
         <div class="col-3"><b>Coding:</b> <a href="/class/coding/kindergarten">Code Monkey</a>, Scratch Jr
-        <br>Instructors: <a href="/instructor#sarah">Sarah</a>, <a href="/instructor#shylean">Shylean</a></div>
+        <br>Instructors: <a href="/instructor#sarah">Sarah</a></div>
         <div class="col-3"><b>Lego Robotics:</b> <a href="https://www.fllcasts.com/courses/226-robotics-with-lego-spike-prime-level-a1">Space Adventure</a><br>
         Instructors: <a href="/instructor#nora">Nora</a>, <a href="/instructor#tracey">Tracey</a></div>
         <div class="col-3"><b>Lego Robotics:</b> <a href="https://assets.education.lego.com/v3/assets/blt293eea581807678a/blt06538c349bfd32f1/637348fca32209106e8b1352/SPIKE_Prime_Lets_Compete_Adv_2022.pdf?locale=en-us">Let's Compete with Lego Spike Prime</a><br>
@@ -217,13 +220,15 @@ aliases=["/summer/", "/rams-expo/"]
         <div class="col-2"><b>August 12&ndash;16</b>
         <br>Coordinator: <a href="/instructor#nora">Nora</a></div>
         <div class="col-3"><b>Lego Robotics:</b> <a href="https://assets.education.lego.com/v3/assets/blt293eea581807678a/blt1950fff047eafcaa/5f84018bed5ccb12e433c501/pdf-wedo_living-in-space_adv.pdf?locale=en-us">Living in Space</a>
-        <br>Instructors: <a href="/instructor#sarah">Sarah</a>, <a href="/instructor#shylean">Shylean</a></div>
+        <br>Instructors: <a href="/instructor#sarah">Sarah</a></div>
         <div class="col-3"><b>Coding:</b> <a href="/class/coding/scratch">Scratch</a><br>
-        Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#scarlett">Scarlett</a>, <a href="/instructor#tracey">Tracey</a></div>
+        Instructors: <a href="/instructor#scarlett">Scarlett</a>, <a href="/instructor#tracey">Tracey</a></div>
         <div class="col-3">FLL Challenge Bootcamp<br>
-        Instructors: <a href="/instructor#nora">Nora</a>, <a href="/instructor#carter">Carter</a></div>
+        Instructors: <a href="/instructor#nora">Nora</a>, <a href="/instructor#akhil">Akhil</a></div>
     </div>
 </div>
+
+
 <p></p>
 <p>
 <h3>Summer Camp Full-Day Signups</h3> 
@@ -241,7 +246,7 @@ aliases=["/summer/", "/rams-expo/"]
 <p align="center">
 <br>
 </p>
-<h3>Summer Camp Half-Day Signups</h3>
+<h3>Summer Camp Half-Day Mornings Signups</h3>
 
 <B>Early Bird Discounts:</b> Pay in full before 30 April, $325/week:
 <div class="buttons"> <a href="https://summer-24-ages-6-and-7-half-day.cheddarup.com"><button class="button-8s" role="button">Ages 6 and 7</button>
@@ -253,26 +258,19 @@ aliases=["/summer/", "/rams-expo/"]
  <a href="https://summer-24-ages-8-and-9-half-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 8 and 9</button></a>
 <a href="https://summer-24-ages-10-to-13-half-day-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a>
                 </div>
+
+
+<p align="center">
+<br>
+</p>
+<h3>Summer Camp Half-Day Afternoon Signups</h3>
+
+<B>Early Bird Discounts:</b> Pay in full before 30 April, $325/week:
+ <a href="https://summer-24-ages-10-to-13-half-day-afternoon.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a>
+<br>
+<b>Reserve and Pay Later:</b> Pay $100 now to reserve, $255 later, total $355/week:
+<a href="https://summer-24-ages-10-to-13-half-day-afernoon-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a>
             </div>
         </div>
     </div>
 </div>
-
-
-<!-- <div class="container">
-    <div class="row  justify-content-center">
-        <div class="col">
-            <div class="vstack gap-3 px-2 pb-2 text-center">  
-                <div class="px-2 darknote">
-                    Past offerings
-                </div>
-                <div class="px-2">
-                    <a href="/camps/winter-23/">Winter 23</a>
-                </div>
-                <div class="px-2">
-                    <a href="/camps/coding/summer-23/">Summer 23</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>  -->
