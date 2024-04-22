@@ -85,10 +85,10 @@ aliases=["/summer/", "/rams-expo/"]
             <p align="center"></p>
             <h3>Summer Camp Half-Day Afternoon Signups</h3>
             <B>Early Bird Discounts:</b> Pay in full before 30 April, $325/week:
-            <a href="https://summer-24-ages-10-to-13-half-day-afternoon.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a>
+            <a href="https://ages-10-to-13-half-day-afternoon.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a>
             <br>
             <b>Reserve and Pay Later:</b> Pay $100 now to reserve, $255 later, total $355/week:
-            <a href="https://summer-24-ages-10-to-13-half-day-afernoon-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a>
+            <a href="https://ages-10-to-13-half-day-afternoon-deposit.cheddarup.com"><button class="button-8s" role="button">Ages 10 to 13</button></a>
         </div>
     </div>
     <div class="row">
