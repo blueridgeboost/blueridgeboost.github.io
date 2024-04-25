@@ -167,7 +167,7 @@ aliases=["/summer/", "/rams-expo/"]
                     Instructors: <a href="/instructor#sarah">Sarah</a>, <a href="/instructor#michelle">Michelle</a></div>
                     <div class="col-3"><b>Lego Robotics</b>: <a href="/camp/ages-8-9/lego-spike-prime-intro/">Let the games begin</a><br>
                     Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#tracey">Tracey</a></div>
-                    <div class="col-3"><b>Coding</b>: Python <a href="/camp/ages-10-13/python-middle-school/">Beginners</a>, <a href="https://codehs.com/uploads/a1b13e8ac32256074175107c8441dbe7">Intermediate (Modules 1, 2, 3, and 4)</a><br>
+                    <div class="col-3"><b>Coding</b>:  <a href="/camp/ages-10-13/python-middle-school/">Python</a><br>
                     Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#carter">Carter</a>, <a href="/instructor#scarlett">Scarlett</a> </div>
                 </div>
                 <div class="row table-dark-row">
