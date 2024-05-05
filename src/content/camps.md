@@ -177,7 +177,7 @@ aliases=["/summer/", "/rams-expo/"]
                     Instructors: <a href="/instructor#sarah">Sarah</a></div>
                     <div class="col-3"><b>Vex Robotics</b>: <a href="https://camps.vex.com/run-a-camp/stem-gadgets-and-games-camp">STEM Gadgets and Games</a><br>
                     Instructors: <a href="/instructor#christina">Christina</a></div>
-                    <div class="col-3"><b>Coding</b>: Roblox</b> <a href="https://codehs.com/uploads/d91cf67dc0a1f13a216dedb7362ab4a5">Beginners</a>, <a href="https://codehs.com/uploads/71cfbd350132a41d1084a79f42eb35f9">Advanced (Modules 1, 2, 3, and 4)</a> <br>
+                    <div class="col-3"><b>Coding</b>: </b> <a href="/camp/ages-10-13/roblox-beginners/">Roblox Beginners and Advanced</a><br>
                     Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#carter">Carter</a></div>
                 </div>
                 <div class="row">
