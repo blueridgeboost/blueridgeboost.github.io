@@ -14,10 +14,7 @@ header = "Programming Outdoor Fun with Lego Spike Essential"
             <p> 10 &ndash; 14 June; 8:30 am to 1 pm or 5:00 pm</br> 
             Ages 6 and 7.<br>
             <p>
-                <b>Early Bird Discounts:</b><br> 
                 <a href="https://summer-24-ages-6-to-7-full-day.cheddarup.com"><button class="button-8s" role="button">Full-Day Sign Up</button></a>  <a href="https://summer-24-ages-6-and-7-half-day.cheddarup.com"><button class="button-8s" role="button">Half-Day Sign Up</button></a> <br>
-                <b>Reserve and Pay Later:</b><br>
-                <a href="https://summer-24-ages-6-and-7-full-day-deposit.cheddarup.com"><button class="button-8s" role="button">Full-Day Sign Up</button></a> <a href="https://summer-24-ages-6-and-7-half-day-deposit.cheddarup.com"><button class="button-8s" role="button">Half-Day Sign Up</button></a>
             </p>
         </div>
         <div class="col-8">
