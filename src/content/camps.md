@@ -148,28 +148,28 @@ aliases=["/summer/", "/rams-expo/"]
                     <div class="col-3"><b>June 24&ndash;28</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Lego Robotics</b>: <a href="/camp/ages-6-7/safari/">Safari Camp</a><br>
                     <b>Coding</b>: Code Monkey Jr. and Scratch Jr.<br>
-                    Instructors: <a href="/instructor#sarah">Sarah</a>, <a href="/instructor#michelle">Michelle</a></div>
+                    Instructors: <a href="/instructor#sarah">Sarah</a>, <a href="/instructor#michelle">Michelle</a>, Noah</div>
                     <div class="col-4"><b>Coding</b>: <a href="https://codehs.com/uploads/d91cf67dc0a1f13a216dedb7362ab4a5">Creating a Game in Roblox</a><br>
                     Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#tracey">Tracey</a></div>
                 </div>
                 <div class="row table-dark-row">
                     <div class="col-3"><b>July 8&ndash;12</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Lego Robotics</b>: <a href="/camp/ages-6-7/exploring-space">Exploring Space</a><br>
-                    Instructors: <a href="/instructor#sarah">Sarah</a></div>
+                    Instructors: <a href="/instructor#sarah">Sarah</a>, Noah</div>
                     <div class="col-4"><b>Vex Robotics</b>: <a href="https://camps.vex.com/run-a-camp/mission-to-mars">Mission to Mars</a><br>
                     Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#tracey">Tracey</a></div>
                 </div>
                 <div class="row">
                     <div class="col-3"><b>July 15&ndash;19</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Vex Robotics:</b> <a href="/camp/ages-6-7/vex-space-race">Space Race in the mornings and Art in the afternoons</a><br>
-                    Instructors: <a href="/instructor#sarah">Sarah</a>, <a href="/instructor#tracey">Tracey</a></div>
+                    Instructors: <a href="/instructor#sarah">Sarah</a>, Noah </div>
                     <div class="col-4"><b>Coding:</b> Minecraft<br>
                     Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#carter">Carter</a></div>
                 </div>
                 <div class="row table-dark-row">
                     <div class="col-3"><b>July 22&ndash;26</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Vex Robotics:</b> <a href="/camp/ages-6-7/vex-space-race">Move it! Shake it!</a><br>
-                    Instructors: <a href="/instructor#ransford">Ransford</a></div>
+                    Instructors: <a href="/instructor#ransford">Ransford, Noah</a></div>
                     <div class="col-4"><b>Vex Robotics:</b> <a href="https://camps.vex.com/run-a-camp/adventures-in-engineering-camp">Adventures in Engineering</a><br>
                     Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#tracey">Tracey</a></div>
                 </div>
@@ -179,13 +179,13 @@ aliases=["/summer/", "/rams-expo/"]
                     <br>Instructors: <a href="/instructor#sarah">Sarah</a>, <a href="/instructor#tracey">Tracey</a>
                     </div>
                     <div class="col-4"><b>Vex Robotics:</b><a href="https://camps.vex.com/run-a-camp/ready-set-go-camp ">Ready, set, GO</a><br>
-                    Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#carter">Carter</a></div>
+                    Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#carter">Carter, Noah</a></div>
                 </div>
                 <div class="row table-dark-row">
                     <div class="col-3"><b>August 5&ndash;9</b><br>
                     Coordinator: <a href="/instructor#nora">Nora</a></div>
                     <div class="col-5"><b>Coding:</b> <a href="/class/coding/kindergarten">Code Monkey</a>, Scratch Jr
-                    <br>Instructors: <a href="/instructor#sarah">Sarah</a></div>
+                    <br>Instructors: <a href="/instructor#sarah">Sarah</a>, Noah</div>
                     <div class="col-4"><b>Lego Robotics:</b> <a href="https://www.fllcasts.com/courses/226-robotics-with-lego-spike-prime-level-a1">Space Adventure</a><br>
                     Instructors: <a href="/instructor#nora">Nora</a>, <a href="/instructor#tracey">Tracey</a></div>
                 </div>
@@ -193,7 +193,7 @@ aliases=["/summer/", "/rams-expo/"]
                     <div class="col-3"><b>August 12&ndash;16</b>
                     <br>Coordinator: <a href="/instructor#nora">Nora</a></div>
                     <div class="col-5"><b>Lego Robotics:</b> <a href="https://assets.education.lego.com/v3/assets/blt293eea581807678a/blt1950fff047eafcaa/5f84018bed5ccb12e433c501/pdf-wedo_living-in-space_adv.pdf?locale=en-us">Living in Space</a>
-                    <br>Instructors: <a href="/instructor#sarah">Sarah</a></div>
+                    <br>Instructors: <a href="/instructor#sarah">Sarah</a>, Noah</div>
                     <div class="col-4"><b>Coding:</b> <a href="/class/coding/scratch">Scratch</a><br>
                     Instructors: <a href="/instructor#scarlett">Scarlett</a>, <a href="/instructor#tracey">Tracey</a></div>
                 </div>
@@ -311,7 +311,7 @@ aliases=["/summer/", "/rams-expo/"]
                     Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#scarlett">Scarlett</a></div>
                     <div class="col-4"><b>Coding:</b> <a href="https://www.codemonkey.com/courses/game-builder">Make your own games (Beginners)</a><br>
                     <a href="https://codehs.com/uploads/8dba2cd1be481145472397cda6ffcde8">Introduction to Game Design (JavaScript)</a><br>
-                    Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#scarlett">Scarlett</a></div>
+                    Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#scarlett">Scarlett</a>, <a href="/instructor#tracey">Tracey</a></div>
                 </div>
                 <div class="row table-dark-row">
                     <div class="col-3"><b>July 22&ndash;26</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
