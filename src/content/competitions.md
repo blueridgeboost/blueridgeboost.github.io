@@ -13,7 +13,7 @@ header = "Spring 24 Classes"
             FIRST Tech Challenge students learn to think like engineers. Teams design, build, and code robots to compete in an alliance format against other teams. Robots are built from a reusable platform, powered by Android technology, and can be coded using a variety of levels of Java-based programming.<br>
             The competition is open to students grades 7 to 12.<br>
             Team members are encouraged to attend meetings on <b>August 5-9</b> and <b>12-16</b> from 1:00 pm to 5:00 pm.<br>
-            The team will meet twice a week and on school day of. Times will be established based on the members availability.<br>
+            The team will meet twice a week and on school days off. Times will be established based on the members availability.<br>
             Cost: 8 payments of $195 due on August 15, September 15, October 15, November 15, December 15, January 15, February 15, and March 15.<br>
             Please indicate your interest in joining the team.<br>
             <a href="https://first-tech-challenge.cheddarup.com"><button class="button-8s" role="button">Sign up</button></a>
