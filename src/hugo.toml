@@ -29,14 +29,17 @@ unsafe= true
     name       = "Classes"
     identifier = "menu.classes"
     url        = "/classes/"
-    weight     = 3
-
+    weight     = 2
 [[menu.main]]
     name       = "Camps"
     identifier = "menu.camps"
     url        = "/camps/"
-    weight     = 5
-
+    weight     = 3
+[[menu.main]]
+    name       = "Competitions"
+    identifier = "menu.competition"
+    url        = "/competitions/"
+    weight     = 3
 [[menu.main]]
     name       = "Nights"
     identifier = "menu.nights"
