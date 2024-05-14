@@ -3,7 +3,7 @@ title = "Math and Robotics Competion Teams | Blue Ridge Boost"
 description = "Join one of our teams, today!"
 keywords = ["Charlottesville coding tutor", "Charlottesville Python tutor", "cvillecoding", "coding", "computer science tutor", "software engineering tutor", "CS tutor", "coding teacher", "Charlottesville coding", "children coding classes", "kids coding", "kids Python", "children Python", "children coding tutor"]
 aliases=[]
-header = "Spring 24 Classes"
+header = "24-25 Competitions"
 +++
 
 <div class="container">
