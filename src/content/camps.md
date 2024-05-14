@@ -148,7 +148,7 @@ aliases=["/summer/", "/rams-expo/"]
                     <div class="col-3"><b>June 24&ndash;28</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Lego Robotics</b>: <a href="/camp/ages-6-7/safari/">Safari Camp</a><br>
                     <b>Coding</b>: Code Monkey Jr. and Scratch Jr.<br>
-                    Instructors: <a href="/instructor#sarah">Sarah</a>, <a href="/instructor#michelle">Michelle</a>, Noah</div>
+                    Instructors: <a href="/instructor#sarah">Sarah</a>, <a href="/instructor#michelle">Michelle</a></div>
                     <div class="col-4"><b>Coding</b>: <a href="https://codehs.com/uploads/d91cf67dc0a1f13a216dedb7362ab4a5">Creating a Game in Roblox</a><br>
                     Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#tracey">Tracey</a></div>
                 </div>
@@ -179,7 +179,7 @@ aliases=["/summer/", "/rams-expo/"]
                     <br>Instructors: <a href="/instructor#sarah">Sarah</a>, <a href="/instructor#tracey">Tracey</a>
                     </div>
                     <div class="col-4"><b>Vex Robotics:</b> <a href="https://camps.vex.com/run-a-camp/ready-set-go-camp ">Ready, set, GO</a><br>
-                    Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#carter">Carter, Noah</a></div>
+                    Instructors: <a href="/instructor#christina">Christina</a>, Noah</div>
                 </div>
                 <div class="row table-dark-row">
                     <div class="col-3"><b>August 5&ndash;9</b><br>
@@ -368,7 +368,7 @@ aliases=["/summer/", "/rams-expo/"]
         <div class="col-5">
             <b>Math Workshops, $395/week</b><br>
             <a href="">Calculus</a><br>
-            29 July &ndash; 2 August; 1:00 pm to 5:30 pm</br> 
+            29 July &ndash; 2 August; 1:30 pm to 5:30 pm</br> 
             Teacher: <a href="/instructor#hillary">Hillary</a><br>
         </div>
         <div class="col-7">
@@ -377,12 +377,12 @@ aliases=["/summer/", "/rams-expo/"]
                 <div class="row">
                     <div class="col">
                         <a href="">Java for AP Computer Science</a><br>
-                        5 &ndash; 9 August; 1:00 pm to 5:30 pm</br> 
+                        5 &ndash; 9 August; 1:30 pm to 5:30 pm</br> 
                         Teacher: <a href="/instructor#nora">Nora</a><br>
                     </div>
                     <div class="col">
                         <a href="">Data Structures and Algorithms in Java</a><br>
-                        12 &ndash; 16 August; 1:00 pm to 5:30 pm</br>
+                        12 &ndash; 16 August; 1:30 pm to 5:30 pm</br>
                         Teacher: <a href="/instructor#nora">Nora</a><br>
                     </div>
                 </div>
