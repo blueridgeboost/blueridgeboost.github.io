@@ -55,10 +55,15 @@ header = "Programming Outdoor Fun with Lego Spike Essential"
                     <div class="col-2 text-center">&nbsp;9:00 &ndash; &nbsp;10:30	</div>
                     <div class="col-10 ">Guided Learning Session<br>
                         <b>Monday: </b> <a href="https://education.lego.com/en-us/lessons/spikeessential-great-adventures/spikeessential-arctic-ride/">Arctic Ride—Make the Snowmobile Go</a> <br>
+                        Leo is going on an Arctic adventure to see polar bears. How can he use his snowmobile to get there?<br>
                         <b>Tuesday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-great-adventures/spikeessential-animal-alarm/">Animal Alarm—Blue Creature</a><br>
+                        Leo doesn't want to miss any of the animals walking by his campsite while he's asleep. How can his animal alarm help him?<br>
                         <b>Wednesday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-great-adventures/spikeessential-treehouse-camp/">Treehouse Camp</a><br>
+                        Sofie is looking forward to seeing the moon from her treehouse! How can she open the treehouse roof for a great view of the sky?<br>
                         <b>Thursday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-amazing-amusement-park/spikeessential-snack-stand/">Snack Stand</a><br>
+                        Oh, no! Daniel dropped his snack. Help him get a new one from the snack stand.<br>
                         <b>Friday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-amazing-amusement-park/spikeessential-the-spinning-ferris-wheel/">The Spinning Ferris Wheel</a><br>
+                        The team wants to ride the Ferris Wheel together. How can you help them?
                     </div>
                 </div>
                 <div class="row py-1">
@@ -86,10 +91,15 @@ header = "Programming Outdoor Fun with Lego Spike Essential"
                     <div class="col-2 text-center">1:00 &ndash; 2:30</div>	
                     <div class="col-10">Guided Learning Session<br>
                         <b>Monday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-amazing-amusement-park/spikeessential-classic-carousel/">Classic Carousel</a><br>
+                        Create a new spinning ride for Sofie to try!<br>
                         <b>Tuesday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-great-adventures/spikeessential-underwater-quest/">Underwater Quest</a><br>
+                        Maria is curious to explore life below the sea. How can she get the submarine in and out of the water?<br>
                         <b>Wednesday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-amazing-amusement-park/spikeessential-the-perfect-swing/">The Perfect Swing</a><br>
+                        Maria doesn’t want a ride that goes too fast. Do you think the swing will be a perfect fit?<br>
                         <b>Thursday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-amazing-amusement-park/spikeessential-twirling-teacups/">Twirling Teacups</a><br>
+                        Round and round! Sofie and Leo are excited to try this new spinning ride today.<br>
                         <b>Friday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-amazing-amusement-park/spikeessential-the-most-amazing-amusement-park/">The Most Amazing Amusement Park</a><br>
+                        It’s time to create your very own amusement park ride!
                     </div>
                 </div>
                 <div class="row py-1">
