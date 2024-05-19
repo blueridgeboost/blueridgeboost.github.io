@@ -141,7 +141,7 @@ aliases=["/summer/", "/rams-expo/"]
                     <br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Lego Robotics</b>: <a href="/camp/ages-6-7/lego-spike-essential-advanced/">Solving Problems Wherever We Go</a><br>
                     Instructors: <a href="/instructor#sarah">Sarah</a>, <a href="/instructor#ransford">Ransford</a></div>
-                    <div class="col-4"><b>Vex Robotics</b>: <a href="https://camps.vex.com/run-a-camp/stem-gadgets-and-games-camp">STEM Gadgets and Games</a><br>
+                    <div class="col-4"><b>Vex Robotics</b>: <a href="/camp/ages-8-9/vex-gadgets-and-games/">STEM Gadgets and Games</a><br>
                     Instructors: <a href="/instructor#christina">Christina</a></div>
                 </div>
                 <div class="row">
