@@ -55,6 +55,11 @@ header = "24-25 Competitions"
     </div>
     <div class="row">
         <div class="col">
+            <h2>Math Olympiad for Elementary and Middle Schools</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
             <h2>First Lego League Explore</h2>
             The team sigups will open in November. The teams will meet in January through April.
         </div>

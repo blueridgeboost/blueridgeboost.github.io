@@ -10,14 +10,16 @@ header = "Space Race and Art with Vex123"
 <div class="container">
     <div class="row pb-1">
         <div class="col-4">
-            <p></p>
-            <p> 15 &ndash; 19 July; 8:30 am to 1 pm or 5:00 pm</br> 
             Ages 6 and 7.<br>
-            <p>
-                <a href="https://summer-24-ages-6-to-7-full-day.cheddarup.com"><button class="button-8s" role="button">Full-Day Sign Up</button></a>  <a href="https://summer-24-ages-6-and-7-half-day.cheddarup.com"><button class="button-8s" role="button">Half-Day Sign Up</button></a> <br>
+            <p> One Payment: &nbsp;
+                <a href="https://summer-24-ages-6-to-7-full-day.cheddarup.com"><button class="button-8s" role="button">Full-Day</button></a>  <a href="https://summer-24-ages-6-and-7-half-day.cheddarup.com"><button class="button-8s" role="button">Half-Day</button></a>
+            </p>
+            <p> Three Payments: &nbsp;
+                <a href="https://summer-24-ages-6-and-7-full-day-3-payments.cheddarup.com"><button class="button-8s" role="button">Full-Day</button></a>  <a href="https://summer-24-ages-6-and-7-half-day-3-payments.cheddarup.com"><button class="button-8s" role="button">Half-Day</button></a> <br>
             </p>
         </div>
         <div class="col-8">
+            <p><b>15 &ndash; 19 July; 8:30 am to 1 pm or 5:00 pm; Ages 6 and 7</b></p>
             <p>In the morning, campers are introduced to the Vex123 Robot, through an engaging narrative, and they learn essential protocols for interacting with the robot. Participants then envision their robot as a Mars rover, embarking on various missions such as programming it to gather samples and bring them back to base camp for shipment to Earth. Additionally, campers will utilize the Eye Sensor to identify objects and prepare the landing zone for upcoming missions. </p>
             <p>In the afternoon, students will use the Art Ring accessory to attach various craft materials, such as pipe cleaners, paper, or feathers, transforming the 123 Robot into different characters for coding projects. 
         </div>
