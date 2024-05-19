@@ -10,14 +10,15 @@ header = "Exploring Space"
 <div class="container">
     <div class="row pb-1">
         <div class="col-4">
-            <p></p>
-            <p> 10 &ndash; 14 June; 8:30 am to 1 pm or 5:00 pm</br> 
-            Ages 6 and 7.<br>
-            <p>
-                <a href="https://summer-24-ages-6-to-7-full-day.cheddarup.com"><button class="button-8s" role="button">Full-Day Sign Up</button></a>  <a href="https://summer-24-ages-6-and-7-half-day.cheddarup.com"><button class="button-8s" role="button">Half-Day Sign Up</button></a> <br>
+            <p> One Payment: &nbsp;
+                <a href="https://summer-24-ages-6-to-7-full-day.cheddarup.com"><button class="button-8s" role="button">Full-Day</button></a>  <a href="https://summer-24-ages-6-and-7-half-day.cheddarup.com"><button class="button-8s" role="button">Half-Day</button></a>
+            </p>
+            <p> Three Payments: &nbsp;
+                <a href="https://summer-24-ages-6-and-7-full-day-3-payments.cheddarup.com"><button class="button-8s" role="button">Full-Day</button></a>  <a href="https://summer-24-ages-6-and-7-half-day-3-payments.cheddarup.com"><button class="button-8s" role="button">Half-Day</button></a> <br>
             </p>
         </div>
         <div class="col-8">
+            <p> <b>10 &ndash; 14 June; 8:30 am to 1 pm or 5:00 pm. Ages 6 and 7.</b></p>
             <p>Each day, students will participate in team building activities and opportunities for physical activity as well as receive a mission briefing for daily challenges aligned to standards. Daily challenges will help students develop skills and knowledge to complete the culminating project, to design a base in space. </p>
         </div>
     </div>

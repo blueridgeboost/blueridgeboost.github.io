@@ -10,14 +10,15 @@ header = "Safari"
 <div class="container">
     <div class="row pb-1">
         <div class="col-4">
-            <p></p>
-            <p> 24 &ndash; 28 June; 8:30 am to 1 pm or 5:00 pm</br> 
-            Ages 6 and 7.<br>
-            <p>
-                <a href="https://summer-24-ages-6-to-7-full-day.cheddarup.com"><button class="button-8s" role="button">Full-Day Sign Up</button></a>  <a href="https://summer-24-ages-6-and-7-half-day.cheddarup.com"><button class="button-8s" role="button">Half-Day Sign Up</button></a> <br>
+            <p> One Payment: &nbsp;
+                <a href="https://summer-24-ages-6-to-7-full-day.cheddarup.com"><button class="button-8s" role="button">Full-Day</button></a>  <a href="https://summer-24-ages-6-and-7-half-day.cheddarup.com"><button class="button-8s" role="button">Half-Day</button></a>
+            </p>
+            <p> Three Payments: &nbsp;
+                <a href="https://summer-24-ages-6-and-7-full-day-3-payments.cheddarup.com"><button class="button-8s" role="button">Full-Day</button></a>  <a href="https://summer-24-ages-6-and-7-half-day-3-payments.cheddarup.com"><button class="button-8s" role="button">Half-Day</button></a> <br>
             </p>
         </div>
         <div class="col-8">
+            <p><b>24 &ndash; 28 June; 8:30 am to 1 pm or 5:00 pm<; Ages 6 and 7.</b></p>
             <p>This 5-day camp is designed to immerse students in the worderful world of animals. Students learn to work together to create Lego models of animals.
             </p>
         </div>
