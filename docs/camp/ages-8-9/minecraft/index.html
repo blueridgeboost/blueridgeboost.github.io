@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta
+  http-equiv="Content-Security-Policy"
+  content="
+          default-src 'self'; 
+          script-src 'unsafe-inline' 'self' www.googletagmanager.com www.google.com googleads.g.doubleclick.net localhost:1313;
+          style-src 'self' 'unsafe-inline' fonts.googleapis.com;
+          font-src  'self' fonts.gstatic.com;
+          img-src 'self' www.google.com data:;
+          connect-src 'self' *.google-analytics.com; 
+          " /> 
+
+<title>Intro to Computer Science with Minecraft | Blue Ridge Boost</title>
+<meta name="author" content="Nora Evans" />
+
+
+
+
+<meta name="keywords" content="Charlottesville coding tutor, Charlottesville Python tutor, Charlottesville math tutor, cvillecoding, coding, tutor, private tutor, UVA tutor, computer science tutor, software engineering tutor, CS tutor, coding teacher, Charlottesville coding, Charlottesville, summer camp">
+
+
+<meta name="description" content="Learn how to code in Minecraft!.">
+
+<meta name="generator" content="Hugo 0.112.7">
+
+
+<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800&display=swap">
+
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<link rel="preconnect" href="https://www.google-analytics.com">
+
+<style>
+#home-carousel .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 50px;
+    height: 15px;
+    padding: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #003359;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+  }
+</style>
+
+
+
+
+  
+<link rel="stylesheet" href="/css/styles.css"/>
+ 
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+
+
+<link rel="alternate" href="https://blueridgeboost.com/index.xml" type="application/rss+xml" title="Coding and Math Classes and Tutoring in Charlottesville">
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:title" content="Intro to Computer Science with Minecraft | Blue Ridge Boost">
+
+<meta name="twitter:description" content="Learn how to code in Minecraft!.">
+
+  </head>
+
+  <body>
+    <div class="vstack">
+      <div class="p-0"><div class="m-0 b-0 p-1" id="top"> 
+  <div class="flex-grow-1">
+    We have moved to <b>2171 Ivy Road</b> &middot; Now enrolling <a href="/camps" class="darklink">Spring Break</a>, <a href="/camps" class="darklink">Summer</a>, and <a href="/camps" class="darklink">School Days Off Camps!</a>
+  </div>
+    <div class="px-2">
+      <a href="https://facebook.com/blueridgeboost" 
+        class="social"
+        target="_blank"
+        aria-label="Facebook"> 
+        <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512" fill="#8FCAE7">
+          <path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg> </a> 
+    </div>
+    <div class="px-2">
+      <a href="mailto:nora@blueridgeboost.com" 
+        class="social"
+        target="_blank"
+        aria-label="Email"> 
+        <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512" fill="#8FCAE7">
+          <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-md navbar-nav-scroll p-0" id="navbar" aria-label="Main navigation">
+  <div class="container-fluid p-0 m-0 b-0">
+    <a class="navbar-brand col-2 col-md-1 p-0 ps-1 m-0 b-0" href="/" aria-label="Blue Ridge Boost">
+        <img src="/images/brand/blue-ridge-highlands.webp" 
+        class="img-thumbnail"
+        height="150px" width="75px"
+        alt="Blue Ridge Boost"/>
+    </a>
+
+    
+    <a class="navbar-brand col-8 d-md-none d-lg-inline col-lg-2 p-0 ps-lg-2 m-0 b-0" href="/" aria-label="Blue Ridge Boost">
+      <h3>Blue Ridge Boost</h3>
+    </a>
+    
+    
+    
+    <button class="navbar-toggler d-md-none col-1 p-0 m-0 b-0 d-flex justify-content-end align-items-center" 
+      type="button" 
+      data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+       aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" fill="#003359">
+            
+            <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+      </span>
+    </button>
+    
+    
+  
+    <div class="navbar-collapse collapse col-md-10 col-lg-9" id="navbarSupportedContent">
+      <div class="container-fluid d-flex justify-content-end">
+        <ul class="navbar-nav px-3 px-md-0">
+          
+                      
+          
+          
+          
+
+          
+
+          
+
+          
+
+            
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/vision/">Vision</a>
+              </li>
+            
+          
+          
+          
+
+          
+
+          
+
+          
+
+            
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/classes/">Classes</a>
+              </li>
+            
+          
+          
+          
+
+          
+
+          
+
+          
+
+            
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/camps/">Camps</a>
+              </li>
+            
+          
+          
+          
+
+          
+
+          
+
+          
+
+            
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/competitions/">Competitions</a>
+              </li>
+            
+          
+          
+          
+
+          
+
+          
+
+          
+
+            
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/nights/">Nights</a>
+              </li>
+            
+          
+          
+          
+
+          
+
+          
+
+          
+
+            
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/tutoring/">Tutoring</a>
+              </li>
+            
+          
+          
+          
+
+          
+
+          
+
+          
+
+            
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/chess/">Chess</a>
+              </li>
+            
+          
+          
+          
+
+          
+
+          
+
+          
+
+            
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/scholarships/">Scholarships</a>
+              </li>
+            
+          
+          
+          
+
+          
+
+          
+
+          
+
+            
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/instructor/">Instructors</a>
+              </li>
+            
+          
+          
+          
+
+          
+
+          
+
+          
+
+            
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/contact/">Contact</a>
+              </li>
+            
+          
+        </ul>
+      </div>
+    </div> 
+  </nav>
+</div></div>
+      <div class="gap"></div>
+      <div class="p-0 text-center">
+          
+          <h1>Minecraft Coding Camp</h1>
+      </div>
+      <div class="smallgap"></div>
+      <div class="p-0"><p></p>
+<div class="container">
+    <div class="row pb-1">
+        <div class="col-4">
+            <p> One Payment: &nbsp;
+                <a href="https://summer-24-ages-8-to-10-full-day.cheddarup.com"><button class="button-8s" role="button">Full-Day</button></a>  <a href="https://summer-24-ages-8-to-10-half-day.cheddarup.com"><button class="button-8s" role="button">Half-Day</button></a>
+            </p>
+            <p> Three Payments: &nbsp;
+                <a href="https://summer-24-ages-8-and-9-full-day-3-payments.cheddarup.com"><button class="button-8s" role="button">Full-Day</button></a>  <a href="https://summer-24-ages-8-and-9-half-day-3-payments.cheddarup.com"><button class="button-8s" role="button">Half-Day</button></a> <br>
+            </p>
+        </div>
+        <div class="col-8">
+            <p><b>17 &ndash; 21 June; 8:30 am to 1 pm or 5:00 pm; Ages 8 and 9.</b></p>
+            <p><i>Introduction to Computer Science with MakeCode for Minecraft</i> is an educational course designed to merge the creative allure of Minecraft with the foundational principles of computer science. Using Microsoft's MakeCode, a block-based coding platform, students are empowered to write code that manipulates and interacts with the Minecraft world. This course provides an engaging, interactive environment where learners of all ages can develop computational thinking skills, understand coding logic, and apply problem-solving techniques in real-time. By integrating a popular gaming platform with educational content, the course not only makes learning to code accessible and enjoyable but also fosters creativity and collaboration among students.</p>
+        </div>
+    </div>
+    <div class="row pb-1">
+        <div class="col">
+            <div class="container p-0 m-0 b-0">
+                <h3 align="center">Daily Schedule</h3>
+                <div class="row py-1 table-header">
+                    <div class="col-2 text-center">Time</div>	
+                    <div class="col-10">Session</div>
+                </div>
+                <div class="row py-1">
+                    <div class="col-2 text-center">8:30 &ndash; &nbsp;9:00</div>
+                    <div class="col-10">Arrival</div>
+                </div>
+                <div class="row py-1 table-dark-row">
+                    <div class="col-2 text-center">9:00 &ndash; &nbsp;10:30</div>
+                    <div class="col-10 ">
+                        <b>Monday: </b><a href="https://minecraft.makecode.com/courses/csintro/events">Events</a><br>
+                        Campers will explore events and event handlers, crucial concepts in all programming languages. We will begin with a fun activity to understand cause and effect, then apply what we have learned by using MakeCode in Minecraft. Finally, campers will create your own MakeCode projects, using events to drive different parts of your program.<br>
+                        <b>Tuesday: </b><a href="https://minecraft.makecode.com/courses/csintro/coordinates">Coordinates</a><br>
+                        Campers will focus on navigating the Minecraft world using the three-coordinate grid system (X, Y, Z) and understanding the concepts of relative and world positions. We will guide the campers through creating a compass rose to aid in your navigation. Additionally, we will introduce a tool that enables  copy and paste of entire structures within the Minecraft environment.<br>
+                        <b>Wednesday: </b><a href="https://minecraft.makecode.com/courses/csintro/variables">Variables</a><br>
+                        Campers will delve into the concept of variables, crucial tools for storing information and enhancing the flexibility of programs. Building on our previous discussion about events, campers will use variables to pass extra information when an event is triggered. To conclude, campers will be tasked with writing their own program that employs variables to tailor its functionality.<br>
+                        <b>Thursday: </b><a href="https://minecraft.makecode.com/courses/csintro/iteration">Iteration</a><br>
+                        In this lesson, campers will dive into the power of repetition in coding, get acquainted with the Agent—a helpful robot—and create some fun dance moves. They will then program the Agent to perform a unique task they design themselves.<br>
+                        <b>Friday: </b><a href="https://minecraft.makecode.com/courses/csintro/conditionals">Conditionals</a><br>
+                        Campers will learn that computer programs are composed of instructions that manage how to handle input and produce output. These instructions are set into motion by events or commands, which dictate the actions within the Minecraft world. An essential part of their programming experience involves learning WHEN to execute a specific task. This decision-making process uses 'conditionals', which require a particular Condition or Rule to be met before an action is initiated.
+                    </div>
+                </div>
+                <div class="row py-1">
+                    <div class="col-2 text-center">&nbsp;10:30 &ndash; 11:00 </div>
+                    <div class="col-10">Snack</div>
+                </div>
+                <div class="row py-1 table-dark-row">
+                    <div class="col-2 text-center">11:00 &ndash; 12:30</div>	
+                    <div class="col-10">Free Exploration Session. Suggested activities:<br>
+                        <b>Monday: </b><a href="https://minecraft.makecode.com/">Mobs Tutorials</a><br>
+                        The Mobs Tutorials from Microsoft offer campers a hands-on introduction to interacting with and controlling various mobs (mobile entities) within Minecraft. These tutorials teach campers about mob behavior, how to program them, and ways to customize their actions, enhancing their understanding of entity management in the game's dynamic environment.<br>
+                        <b>Tuesday: </b><a href="https://minecraft.makecode.com/">Super Powers Tutorials</a><br>
+                        The Super Powers tutorial from Microsoft provides campers with the opportunity to explore and activate unique abilities within Minecraft. This tutorial teaches them how to imbue their characters with special powers, such as increased speed or strength, using coding techniques to enhance gameplay and creativity within the virtual world.<br>
+                        <b>Wednesday: </b><a href="https://minecraft.makecode.com/">Agent Tutorials</a><br>
+                        The Agent Tutorials from Microsoft guide campers through the process of programming and interacting with the Agent, a robot helper in Minecraft. These tutorials help campers learn how to control the Agent to perform tasks like building, mining, and farming, effectively using coding to automate and simplify tasks within the game's environment.<br>
+                        <b>Thursday: </b><a href="https://minecraft.makecode.com/">Position Tutorials</a><br>
+                        The Position Tutorials from Microsoft enable campers to master spatial awareness and navigation within Minecraft. These tutorials educate campers on how to use coordinates to pinpoint and modify locations, understand relative and absolute positioning, and strategically manipulate the game environment, enhancing their ability to plan and execute projects within the virtual world.<br>
+                        <b>Friday: </b><a href="https://minecraft.makecode.com/">Building Tutorials</a>
+                        The Building Tutorials from Microsoft equip campers with the skills to construct intricate structures and designs in Minecraft. These tutorials teach campers the fundamentals of architectural design, efficient material use, and creative building techniques, enabling them to transform their imaginative ideas into impressive constructions within the game's virtual landscape.<br>
+                    </div>
+                </div>
+                <div class="row py-1">
+                    <div class="col-2 text-center">12:30 &ndash; 1:00</div>
+                    <div class="col-10">Lunch/Half-day dismissal</div>
+                </div>
+                <div class="row py-1 table-dark-row">
+                    <div class="col-2 text-center">1:00 &ndash; &nbsp;2:30</div>
+                    <div class="col-10 ">Guided Learning Session<br>
+                        <b>Monday: </b><a href="https://minecraft.makecode.com/">Overworld Tutorials</a><br>
+                        The Overworld Tutorials from Microsoft introduce campers to the expansive Overworld realm in Minecraft. These tutorials guide campers through exploring diverse biomes, understanding environmental dynamics, and mastering survival skills. Campers learn to utilize resources effectively, navigate challenges, and build structures, enhancing their ability to thrive and create in Minecraft's primary setting.<br>
+                        <b>Tuesday: </b><a href="https://minecraft.makecode.com/">Extension Tutorials</a><br>
+                        The Extension Tutorials from Microsoft help campers learn how to expand the functionality of Minecraft through additional features and customizations. These tutorials teach them how to install and use extensions, enabling enhanced gameplay, new tools, and personalized modifications, allowing for a more tailored and enriched gaming experience in Minecraft's versatile environment.<br>
+                        <b>Wednesday: </b><a href="https://minecraft.makecode.com/courses/csintro/functions">Functions</a><br>
+                        Campers will learn that in programming, certain tasks or procedures are often repeated within the same program. Instead of rewriting the same lines of code every time they are needed, campers can group these instructions into a function. By creating a function for frequently used instructions, their code becomes more efficient. Once a function is written, campers can simply 'call' it from anywhere in their program to perform the task. Functions are typically named after the task they perform, which also makes the code clearer and easier to understand.<br>
+                        <b>Thursday: </b><a href="https://minecraft.makecode.com/courses/csintro/arrays">Arrays</a><br>
+                        Campers will discover that in computer science, an array acts as a series of storage spaces. Previously, they learned about using variables to store information. Unlike variables that hold a single value, arrays can store multiple values and are accessed as a single object, the array itself. This lesson will expand on the concept of storing information for later use, but with multiple values. Campers will explore the usefulness of arrays as collections of related items and learn how to utilize array operations to add and retrieve items, which helps in organizing and recalling information.<br>
+                        <b>Friday: </b>Creative Game Development Time<br>
+                    </div>
+                </div>
+                <div class="row py-1">
+                    <div class="col-2 text-center">&nbsp;2:30 &ndash; 3:00 </div>
+                    <div class="col-10">Snack</div>
+                </div>
+                <div class="row py-1 table-dark-row">
+                    <div class="col-2 text-center">3:00 &ndash; 4:30</div>	
+                    <div class="col-10">Free Exploration Session. Campers may continue to work one their work from earlier sessions, explore Lego and Vex robotics, read a book, or solve math and logic puzzles.</div>
+                </div>
+                <div class="row py-1">
+                    <div class="col-2 text-center">4:30 &ndash; 5:00</div>
+                    <div class="col-10">Dismissal</div>
+                </div>
+            </div>
+        </div> <!-- inner container -->
+    </div>
+</div> <!-- outer container --></div>
+      <div class="gap"></div>
+      <div class="p-0"> 
+        <div class="container-fluid" id="brbfooter">
+    <div class="row">
+        
+        <div class="col-md-8">
+            <div class="paddedlft">
+            <p>Enrichment and tutoring in Math and Computing for any student who wants to learn. <br>Led by Ana Nora Evans in Charlottesville, Virginia.</p>
+            </div>
+            
+        </div>
+        
+
+        
+            <div class="col text-start">
+            <strong>Blue Ridge Boost</strong>
+        <br>2171 Ivy Road
+        <br>Charlottesville, Virginia 22902
+        <br><strong>Email: </strong>  <a href="mailto:nora@blueridgeboost.com" style="color:#EEFFFF"><em>nora@blueridgeboost.com</em></a>
+        <br><strong>Phone: </strong> ‪(434) 260-0636
+      </p>
+      
+            </div>
+        
+    </div>
+</div>
+
+      </div>
+    </div>
+    
+
+
+
+
+ 
+  
+  <script defer type="text/javascript" src="/js/bundle.min.js"></script>
+
+
+
+<script defer type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-JV87PS188M"></script>
+<script defer>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', "G-JV87PS188M");
+</script>
+
+  </body>
+</html>
