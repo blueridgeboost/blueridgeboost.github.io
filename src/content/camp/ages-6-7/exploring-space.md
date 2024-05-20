@@ -52,10 +52,15 @@ header = "Exploring Space"
                     <div class="col-2 text-center">&nbsp;9:00 &ndash; &nbsp;10:30	</div>
                     <div class="col-10 ">Guided Learning Session<br>
                         <b>Monday: </b> <a href="https://education.lego.com/en-us/lessons/wedo-2-mini-lessons/glowing-snail/">Glowing Snail</a>, <a href="https://education.lego.com/en-us/lessons/wedo-2-mini-lessons/cooling-fan/">Cooling Fan</a>, <a href="https://education.lego.com/en-us/lessons/wedo-2-mini-lessons/spy-robot/">Spy Robot</a> <br>
+                        Students are introduced to building and coding using the Light Block, the Motor Power Block, and  the Motion Sensor Block.<br>
                         <b>Tuesday: </b> Milo <a href="https://education.lego.com/en-us/lessons/wedo-2-science/getting-started-project-a/">A</a>, <a href="https://education.lego.com/en-us/lessons/wedo-2-science/getting-started-project-b/">B</a>, <a href="https://education.lego.com/en-us/lessons/wedo-2-science/getting-started-project-c/">C</a><br>
+                        Campers discover ways that scientists and engineers can use rovers to explore places where humans cannot go. Campers build Milo, the Science Rover and code it to move and react to obstacles.<br>
                         <b>Wednesday: </b><a href="https://education.lego.com/en-us/lessons/wedo-2-computational-thinking/moonbase/">Moon Base</a><br>
+                        Campers will build a robot that can drive and turn, and then they will program it to move on a surface.<br>
                         <b>Thursday: </b><a href="https://education.lego.com/en-us/lessons/wedo-2-science/robust-structures/">Robust Structures</a><br>
+                        Investigating what characteristics of a building would help make it resistant to an earthquake, using an earthquake simulator constructed from LEGO bricks.<br>
                         <b>Friday: </b> <a href="https://education.lego.com/en-us/lessons/wedo-2-science/space-exploration/">Space Exploration</a><br>
+                        Design a LEGO prototype of a rover that would be ideal for exploring distant planets.<br>
                     </div>
                 </div>
                 <div class="row py-1">
@@ -83,9 +88,13 @@ header = "Exploring Space"
                     <div class="col-2 text-center">1:00 &ndash; 2:30</div>	
                     <div class="col-10">Guided Learning Session<br>
                         <b>Monday: </b> <a href="https://education.lego.com/en-us/lessons/wedo-2-science/pulling/">Pulling</a><br>
+                        Campers investigate the effects of balanced and unbalanced forces on the movement of an object.<br>
                         <b>Tuesday: </b>Milo <a href="https://education.lego.com/en-us/lessons/wedo-2-science/getting-started-project-d/">D</a><br>
+                        Campers explore the importance of collaborating during projects. Teams pair up their Milo robots to work together to complete tasks.<br>
                         <b>Wednesday: </b><a href="https://education.lego.com/en-us/lessons/wedo-2-science/drop-and-rescue/">Drop And Rescue</a><br>
+                        Campers design a device to reduce the impact on humans, animals, and the environment after an area has been damaged by a weather-related hazard.<br>
                         <b>Thursday: </b><a href="https://education.lego.com/en-us/lessons/wedo-2-science/sort-to-recycle/">Recycling Truck</a><br>
+                        Campers design a device that sorts objects using their physical properties, including shape and size.<br>
                         <b>Friday: </b>Culminating Project<br>
                     </div>
                 </div>

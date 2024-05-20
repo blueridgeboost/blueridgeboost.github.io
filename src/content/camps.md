@@ -124,82 +124,97 @@ aliases=["/summer/", "/rams-expo/"]
         <h3 align="center">A Different Theme Each Week</h3>
             <div class="container">
                 <div class="row table-header">
-                    <div class="col-3">Week</div>
+                    <div class="col-2">Week</div>
                     <div class="col-5">Ages 6 and 7</div>
-                    <div class="col-4">Ages 8 and 9</div>
+                    <div class="col-5">Ages 8 and 9</div>
                 </div>
                 <div class="row table-light-row">
-                    <div class="col-3"><b>June 10&ndash;14</b><br>
+                    <div class="col-2"><b>June 10&ndash;14</b><br>
                     Coordinator: <a href="/instructor#nora">Nora</a></div>
                     <div class="col-5"><b>Lego Robotics</b>: <a href="/camp/ages-6-7/lego-spike-essential-intro/">Programming outdoor fun</a><br>
                     Instructors: <a href="/instructor#sarah">Sarah</a>,  <a href="/instructor#tracey">Tracey</a><br>
                     Campers use Lego bricks, small motors, a light matrix, and color sensors from the Lego Spike Essential kit to create models of outdoor activities. They use a icon blocks programming language to code their creations.</div>
-                    <div class="col-4"><b>Lego Robotics</b>: <a href="/camp/ages-8-9/lego-spike-prime-intro/">Let the games begin</a><br>
+                    <div class="col-5"><b>Lego Robotics</b>: <a href="/camp/ages-8-9/lego-spike-prime-intro/">Let the games begin</a><br>
                     Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#carter">Carter</a><br>
                     Campers use Lego bricks, medium and large motors, color, force, and distance sensors from the Lego Spike Prime kit to create games. They use a word blocks programming language to code their creations.</div>
                 </div>
                 <div class="row table-dark-row">
-                    <div class="col-3"><b>June 17&ndash;21</b>
+                    <div class="col-2"><b>June 17&ndash;21</b>
                     <br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Lego Robotics</b>: <a href="/camp/ages-6-7/lego-spike-essential-advanced/">Solving Problems Wherever We Go</a><br>
                     Instructors: <a href="/instructor#sarah">Sarah</a>, <a href="/instructor#ransford">Ransford</a><br>
                     Campers use Lego bricks, small motors, a light matrix, and color sensors from the Lego Spike Essential kit to create models of outdoor activities. They use a icon blocks programming language to code their creations.
                     </div>
-                    <div class="col-4"><b>Vex Robotics</b>: <a href="/camp/ages-8-9/vex-gadgets-and-games/">STEM Gadgets and Games</a><br>
+                    <div class="col-5"><b>Vex Robotics</b>: <a href="/camp/ages-8-9/vex-gadgets-and-games/">STEM Gadgets and Games</a><br>
                     Instructors: <a href="/instructor#christina">Christina</a><br>
                     In Gadgets and Games camp, campers explore designing and building with VEX GO to create structures and gadgets that use motion and force. Campers will learn about the mechanisms that make their favorite gadgets, games, and toys work by building and designing them.</div>
                 </div>
                 <div class="row">
-                    <div class="col-3"><b>June 24&ndash;28</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
+                    <div class="col-2"><b>June 24&ndash;28</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Lego Robotics</b>: <a href="/camp/ages-6-7/safari/">Safari Camp</a><br>
+                    Campers use the bricks, medium motors, distance and tilt sensors a Lego WeDo set to create models of animals. Campers use a block coding language to bring their creations to life. <br>
                     <b>Coding</b>: Code Monkey Jr. and Scratch Jr.<br>
+                    Campers use icon block coding to help a monkey find the bananas a big bad gorilla hid in the jungle.<br>
                     Instructors: <a href="/instructor#sarah">Sarah</a>,  <a href="/instructor#tracey">Tracey</a></div>
-                    <div class="col-4"><b>Coding</b>: <a href="https://codehs.com/uploads/d91cf67dc0a1f13a216dedb7362ab4a5">Creating a Game in Roblox</a><br>
-                    Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#scarlett">Scarlett</a></div>
+                    <div class="col-5"><b>Coding</b>: <a href="/camp/ages-8-9/roblox-beginners/">Creating a Game in Roblox</a><br>
+                    Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#scarlett">Scarlett</a>
+                    This week-long camp is designed to introduce students to the metaverse world of Roblox. Students will learn about the platform, explore the Roblox Studio game engine used to create games for Roblox, build an obstacle course ("obby"), add provided code scripts to the obbies, customize their game, and then publish their creations to Roblox for their friends and family to enjoy.
+                    </div>
                 </div>
                 <div class="row table-dark-row">
-                    <div class="col-3"><b>July 8&ndash;12</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
+                    <div class="col-2"><b>July 8&ndash;12</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Lego Robotics</b>: <a href="/camp/ages-6-7/exploring-space">Exploring Space</a><br>
+                    Campers use the Lego WeDo robotics kit to build and code models of various activities performed in space exploration.<br>
                     Instructors: <a href="/instructor#sarah">Sarah</a>, Noah</div>
-                    <div class="col-4"><b>Vex Robotics</b>: <a href="https://camps.vex.com/run-a-camp/mission-to-mars">Mission to Mars</a><br>
+                    <div class="col-5"><b>Vex Robotics</b>: <a href="/camp/ages-8-9/vex-mission-to-mars/">Mission to Mars</a><br>
+                    In Mission to Mars, campers will first explore designing and building with VEX GO to create tools and devices for their astronaut to complete a mission to Mars. Then, they will build the Code Base and code it to collect geological samples and clear an area for a future Mars landing.<br>
                     Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#tracey">Tracey</a></div>
                 </div>
                 <div class="row">
-                    <div class="col-3"><b>July 15&ndash;19</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
+                    <div class="col-2"><b>July 15&ndash;19</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Vex Robotics:</b> <a href="/camp/ages-6-7/vex-space-race">Space Race in the mornings and Art in the afternoons</a><br>
+                    In Space Race Camp, campers meet “VEX,” the 123 Robot through a fun and interactive story and establish a set of rules and practices for working with the robot. Then, campers imagine their robot as a Mars rover and complete several missions including coding their robot to collect samples and return them to base camp for delivering to Earth. Then, campers will use the Eye Sensor to detect objects and clear the landing area for future missions.<br>
+                    In the afternoons, the campers use the Art Ring and craft materials to transform the Vex123 robot into a variety of animals.<br>
                     Instructors: <a href="/instructor#sarah">Sarah</a>, Noah </div>
-                    <div class="col-4"><b>Coding:</b> Minecraft<br>
+                    <div class="col-5"><b>Coding:</b> <a href="/camp/ages-8-9/minecraft/">Minecraft</a><br>
+                    <i>Introduction to Computer Science with MakeCode for Minecraft</i> is an educational course designed to merge the creative allure of Minecraft with the foundational principles of computer science. Using Microsoft's MakeCode, a block-based coding platform, students are empowered to write code that manipulates and interacts with the Minecraft world. This course provides an engaging, interactive environment where learners of all ages can develop computational thinking skills, understand coding logic, and apply problem-solving techniques in real-time. By integrating a popular gaming platform with educational content, the course not only makes learning to code accessible and enjoyable but also fosters creativity and collaboration among students. <br>
                     Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#carter">Carter</a></div>
                 </div>
                 <div class="row table-dark-row">
-                    <div class="col-3"><b>July 22&ndash;26</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
+                    <div class="col-2"><b>July 22&ndash;26</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Vex Robotics:</b> <a href="/camp/ages-6-7/vex-move-it-shake-it">Move it! Shake it!</a><br>
+                    Campers will discover that in computer science, an array acts as a series of storage spaces. Previously, they learned about using variables to store information. Unlike variables that hold a single value, arrays can store multiple values and are accessed as a single object, the array itself. This lesson will expand on the concept of storing information for later use, but with multiple values. Campers will explore the usefulness of arrays as collections of related items and learn how to utilize array operations to add and retrieve items, which helps in organizing and recalling information.<br>
                     Instructors: <a href="/instructor#ransford">Ransford, Noah</a></div>
-                    <div class="col-4"><b>Vex Robotics:</b> <a href="https://camps.vex.com/run-a-camp/adventures-in-engineering-camp">Adventures in Engineering</a><br>
+                    <div class="col-5"><b>Vex Robotics:</b> <a href="https://camps.vex.com/run-a-camp/adventures-in-engineering-camp">Adventures in Engineering</a><br>
+                    Campers will engage in designing and building with VEX GO to bring their creative ideas to life! Through a series of activities and challenges, they will ideate, iterate, design, build, and test their creations. This hands-on experience will deepen their understanding of the design process and the mechanisms and mechanics that underpin how things function.<br>
                     Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#tracey">Tracey</a></div>
                 </div>
                 <div class="row">
-                    <div class="col-3"><b>July 29&ndash;August 2</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
+                    <div class="col-2"><b>July 29&ndash;August 2</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Math:</b> <a href="/camp/ages-6-7/math-camp">Puzzles and more.</a>
+                    In the morning, campers unlock the World of Math with <a href="https://beastacademy.com/books/puzzles1">Beast Academy Puzzles 1</a>! In the afternoon, students will tacke a diverse range of questions, varying in both difficulty and type from <a href="https://www.singaporemath.com/products/intensive-practice-u-s-edition-1a">Singapore Math Intensive Practice 1A</a>.
                     <br>Instructors: <a href="/instructor#sarah">Sarah</a>, <a href="/instructor#tracey">Tracey</a>
                     </div>
-                    <div class="col-4"><b>Vex Robotics:</b> <a href="https://camps.vex.com/run-a-camp/ready-set-go-camp ">Ready, set, GO</a><br>
+                    <div class="col-5"><b>Vex Robotics:</b> <a href="https://camps.vex.com/run-a-camp/ready-set-go-camp ">Ready, set, GO</a><br>
+                    Campers will engage in building and racing various cars to explore the concepts of forces and speed! They will start by constructing a Super Car and experimenting with ways to enhance its distance and speed. Over the course of 3 and 5-day camps, they will expand on this foundation by assembling different models of the Super Car. This progression will allow them to investigate the dynamics of how these models move, culminating in coding and operating both the Code Super Car and the Code Base.<br>
                     Instructors: <a href="/instructor#christina">Christina</a>, Noah</div>
                 </div>
                 <div class="row table-dark-row">
-                    <div class="col-3"><b>August 5&ndash;9</b><br>
+                    <div class="col-2"><b>August 5&ndash;9</b><br>
                     Coordinator: <a href="/instructor#nora">Nora</a></div>
-                    <div class="col-5"><b>Coding:</b> <a href="/class/coding/kindergarten">Code Monkey</a>, Scratch Jr
-                    <br>Instructors: <a href="/instructor#sarah">Sarah</a>, Noah</div>
-                    <div class="col-4"><b>Lego Robotics:</b> <a href="https://www.fllcasts.com/courses/226-robotics-with-lego-spike-prime-level-a1">Space Adventure</a><br>
+                    <div class="col-5"><b>Coding:</b> <a href="/class/coding/kindergarten">Code Monkey</a>, Scratch Jr<br>
+                     Students learn the basics of coding using left, right, jump up, jump left, and jump right commands to guide a monkey to collect all bananas before opening a treasure chest. In addition, students learn to code repetition by using loops and conditional loops. The course concludes with procedures.<br>
+                    Instructors: <a href="/instructor#sarah">Sarah</a>, Noah</div>
+                    <div class="col-5"><b>Lego Robotics:</b> <a href="https://www.fllcasts.com/courses/226-robotics-with-lego-spike-prime-level-a1">Space Adventure</a><br>
+                    Campers will embark on a "space adventure" using robots, where they construct various robotic structures designed for this level. They will learn to control the motors to enable the robots to execute precise movements around models of the "earth," "moon," and "sun." After encountering various obstacles, campers will utilize a force sensor to navigate past them successfully. Throughout this adventure, they will also discover fascinating facts about the solar system and space vehicles.<br>
                     Instructors: <a href="/instructor#nora">Nora</a>, <a href="/instructor#tracey">Tracey</a></div>
                 </div>
                 <div class="row">
-                    <div class="col-3"><b>August 12&ndash;16</b>
+                    <div class="col-2"><b>August 12&ndash;16</b>
                     <br>Coordinator: <a href="/instructor#nora">Nora</a></div>
                     <div class="col-5"><b>Lego Robotics:</b> <a href="https://assets.education.lego.com/v3/assets/blt293eea581807678a/blt1950fff047eafcaa/5f84018bed5ccb12e433c501/pdf-wedo_living-in-space_adv.pdf?locale=en-us">Living in Space</a>
                     <br>Instructors: <a href="/instructor#sarah">Sarah</a>, Noah</div>
-                    <div class="col-4"><b>Coding:</b> <a href="/class/coding/scratch">Scratch</a><br>
+                    <div class="col-5"><b>Coding:</b> <a href="/class/coding/scratch">Scratch</a><br>
                     Instructors: <a href="/instructor#scarlett">Scarlett</a>, <a href="/instructor#tracey">Tracey</a></div>
                 </div>
             </div>

@@ -108,7 +108,17 @@ header = "Programming Outdoor Fun with Lego Spike Essential"
                 </div>
                 <div class="row py-1 table-dark-row">
                     <div class="col-2 text-center">3:00  &ndash;  4:30	</div>
-                    <div class="col-10">Choice Activity</div>
+                    <div class="col-10">Choice Activity<br>
+                    Campers may choose one of the following activities:
+                    <ul>
+                        <li>Build their own robots using the Lego Spike set.</li>
+                        <li>Explore various robotics kits.</li>
+                        <li>Read an article or a book about computer programming.</li>
+                        <li>Math and logic puzzles</li>
+                        <li>Coding</li>
+                        <li>Play strategy games.</li>
+                    </ul>
+                    </div>
                 </div>
                 <div class="row py-1">
                     <div class="col-2 text-center">4:30  &ndash;  5:00	</div>

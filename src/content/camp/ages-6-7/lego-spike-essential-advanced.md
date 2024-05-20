@@ -53,10 +53,15 @@ header = "Solving Problems Wherever We Go"
                     <div class="col-2 text-center">&nbsp;9:00 &ndash; &nbsp;10:30	</div>
                     <div class="col-10 ">Guided Learning Session<br>
                         <b>Monday: </b> <a href="https://education.lego.com/en-us/lessons/spikeessential-happy-traveler/spikeessential-taxi-taxi/">Taxi! Taxi!</a> <br>
+                        Leo needs help getting to the art museum. Hail a taxi, and let’s go!<br>
                         <b>Tuesday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-quirky-creations/spikeessential-big-little-helper/">Big little helper</a><br>
+                        Daniel’s locker is overflowing. How can he get all his things home?<br>
                         <b>Wednesday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-happy-traveler/spikeessential-swamp-boat/">Swamp Boat</a><br>
+                        Sofie found crocodile eggs! Could there be crocodiles nearby?<br>
                         <b>Thursday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-crazy-carnival-games/spikeessential-avoid-the-edge/">Avoid the Edge</a><br>
+                        Challenge yourself to use different bats to make the ball stop at the target!<br>
                         <b>Friday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-crazy-carnival-games/spikessential-junior-pinball/">Junior Pinball</a><br>
+                        Try Sofie’s junior pinball game and upgrade it to make it more unpredictable!
                     </div>
                 </div>
                 <div class="row py-1">
@@ -84,10 +89,15 @@ header = "Solving Problems Wherever We Go"
                     <div class="col-2 text-center">1:00 &ndash; 2:30</div>	
                     <div class="col-10">Guided Learning Session<br>
                         <b>Monday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-crazy-carnival-games/spikeessential-mini-mini-golf/">Mini Mini-Golf</a><br>
+                        Test your skills with Sofie’s mini-golf game!<br>
                         <b>Tuesday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-crazy-carnival-games/spikeessential-bowling-fun/">Bowling Fun</a><br>
+                        Have fun with Daniel’s bowling game! Can you get a strike?<br>
                         <b>Wednesday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-quirky-creations/spikeessential-trash-monster-machine/">Trash Monster 2.0</a><br>
+                        Help Sofie create a new way for her friends to throw out their trash.<br>
                         <b>Thursday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-quirky-creations/spikeessential-winning-goal/">Winning Goal</a><br>
+                        How can Maria’s soccer game be more like a computer game?<br>
                         <b>Friday: </b><a href="https://education.lego.com/en-us/lessons/spikeessential-crazy-carnival-games/spikeessential-creative-carnival-games/">Creative Carnival Games</a><br>
+                        It’s time to create a new game for the school carnival!
                     </div>
                 </div>
                 <div class="row py-1">
