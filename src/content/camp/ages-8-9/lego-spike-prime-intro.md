@@ -18,7 +18,7 @@ header = "Let the Games Begin!"
             </p>
         </div>
         <div class="col-8">
-        <p><b> 10 &ndash; 14 June; 8:30 am to 1 pm or 5:00 pm<; Ages 8 and 9.</b></p>
+        <p><b> 10 &ndash; 14 June; 8:30 am to 1 pm or 5:00 pm; Ages 8 and 9.</b></p>
         <p>This 5-day camp is designed to immerse students in an engaging STEAM-centric environment, offering practical experiences that enhance their skills in the areas of science, technology, engineering, the arts, and mathematics. The program emphasizes the development of 21st-century competencies, including social and emotional learning, foundational principles of computational thinking, beginner-level coding, mathematics, and language arts.</p>
             <p>Throughout the camp, each day will feature collaborative team-building exercises and designated times for physical activities, fostering both mental and physical well-being. Additionally, participants will be briefed as a team on challenges that are in line with educational standards.</p>
         </div>
