@@ -347,7 +347,7 @@ aliases=["/summer/", "/rams-expo/"]
                 </div>
                 <div class="row table-dark-row">
                     <div class="col-2"><b>July 8&ndash;12</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
-                    <div class="col-5"><b>Coding</b>: Minecraft<br> 
+                    <div class="col-5"><b>Coding</b>: <a href="/camp/ages-10-13/minecraft/">Minecraft</a><br> 
                     Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#scarlett">Scarlett</a><br>
                     <i>Introduction to Computer Science with MakeCode for Minecraft</i> is an educational course designed to merge the creative allure of Minecraft with the foundational principles of computer science. Using Microsoft's MakeCode, a block-based coding platform, students are empowered to write code that manipulates and interacts with the Minecraft world. This course provides an engaging, interactive environment where learners of all ages can develop computational thinking skills, understand coding logic, and apply problem-solving techniques in real-time. By integrating a popular gaming platform with educational content, the course not only makes learning to code accessible and enjoyable but also fosters creativity and collaboration among students.
                     </div>
