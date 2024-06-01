@@ -1,5 +1,5 @@
 +++
-title = "Programming Outdoor Fun with Lego Spike Essential | Blue Ridge Boost"
+title = "Solving Problems Wherever We Go | Blue Ridge Boost"
 description = "The Lego Spike Essential Summer Camp Guide offers a comprehensive program that fosters critical thinking, creative confidence, teamwork, and coding skills in campers."
 keywords = ["summer camp"]
 header = "Solving Problems Wherever We Go"

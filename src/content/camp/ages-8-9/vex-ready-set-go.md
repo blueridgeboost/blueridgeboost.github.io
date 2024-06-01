@@ -1,5 +1,5 @@
 +++
-title = "Robotics Camp with Vex GO | Blue Ridge Boost"
+title = "Ready, Set, GO! | Blue Ridge Boost"
 description = "The Ready, Set, Go camp offers a comprehensive program that fosters critical thinking, creative confidence, teamwork, and coding skills in campers."
 keywords = ["summer camp"]
 header = "Ready, Set, GO!"

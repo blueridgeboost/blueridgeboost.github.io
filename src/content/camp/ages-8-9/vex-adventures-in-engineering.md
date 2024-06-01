@@ -1,5 +1,5 @@
 +++
-title = "Robotics Camp with Vex GO | Blue Ridge Boost"
+title = "Vex Adventures in Engineering | Blue Ridge Boost"
 description = "The Aventures in Engineering offers a comprehensive program that fosters critical thinking, creative confidence, teamwork, and coding skills in campers."
 keywords = ["summer camp"]
 header = "Adventures in Engineering"

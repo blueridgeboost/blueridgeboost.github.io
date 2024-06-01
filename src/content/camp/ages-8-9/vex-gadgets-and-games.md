@@ -1,5 +1,5 @@
 +++
-title = "Robotics Camp with Vex GO | Blue Ridge Boost"
+title = "Gadgets and Games Camp with Vex GO | Blue Ridge Boost"
 description = "The Gadgets and Games Camp Guide offers a comprehensive program that fosters critical thinking, creative confidence, teamwork, and coding skills in campers."
 keywords = ["summer camp"]
 header = "Gadgets and Games"
