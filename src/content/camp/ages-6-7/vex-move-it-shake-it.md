@@ -1,8 +1,8 @@
 +++
-title = "Vex123 Space Race | Blue Ridge Boost"
+title = "Vex123 Move it! Shake it! | Blue Ridge Boost"
 description = "The Vex123 Space Race offers a comprehensive program that fosters critical thinking, creative confidence, teamwork, and coding skills in campers."
 keywords = ["summer camp"]
-header = "Space Race and Art with Vex123"
+header = "Move it! Shake it!"
 +++
 
 <p></p>

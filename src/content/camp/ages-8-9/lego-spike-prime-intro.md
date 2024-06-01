@@ -1,5 +1,5 @@
 +++
-title = "Robotics Camp with Lego Spike Prime | Blue Ridge Boost"
+title = "Let the Games Begin! Camp with Lego Spike Prime | Blue Ridge Boost"
 description = "The Lego Spike Prime Summer Camp Guide offers a comprehensive program that fosters critical thinking, creative confidence, teamwork, and coding skills in campers."
 keywords = ["summer camp"]
 header = "Let the Games Begin!"

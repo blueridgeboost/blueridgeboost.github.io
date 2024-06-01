@@ -1,5 +1,5 @@
 +++
-title = "Robotics Camp with Vex GO | Blue Ridge Boost"
+title = "Mission to Mars Camp with Vex GO | Blue Ridge Boost"
 description = "The Mission to Mars Camp offers a comprehensive program that fosters critical thinking, creative confidence, teamwork, and coding skills in campers."
 keywords = ["summer camp"]
 header = "Mission to Mars"
