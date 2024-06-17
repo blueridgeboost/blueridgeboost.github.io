@@ -128,7 +128,7 @@ aliases=["/summer/", "/rams-expo/"]
                     <div class="col-5">Ages 6 and 7</div>
                     <div class="col-5">Ages 8 and 9</div>
                 </div>
-                <div class="row table-light-row">
+                <!-- <div class="row table-light-row">
                     <div class="col-2"><b>June 10&ndash;14</b><br>
                     Coordinator: <a href="/instructor#nora">Nora</a></div>
                     <div class="col-5"><b>Lego Robotics</b>: <a href="/camp/ages-6-7/lego-spike-essential-intro/">Programming outdoor fun</a><br>
@@ -138,12 +138,12 @@ aliases=["/summer/", "/rams-expo/"]
                     Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#carter">Carter</a><br>
                     Campers will dive into a variety of hands-on, interactive sessions where they will code motors and sensors, synchronize robotic movements to music, and construct and race their own robotic models. The curriculum combines guided learning with free exploration periods, allowing children to apply their skills creatively as they design and build everything from dancing robots to encrypted safes. 
                     </div>
-                </div>
+                </div> -->
                 <div class="row table-dark-row">
                     <div class="col-2"><b>June 17&ndash;21</b>
-                    <br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
+                    <br>Coordinator: <a href="/instructor#nora">Nora</a></div>
                     <div class="col-5"><b>Lego Robotics</b>: <a href="/camp/ages-6-7/lego-spike-essential-advanced/">Solving Problems Wherever We Go</a><br>
-                    Instructors: <a href="/instructor#sarah">Sarah</a>, <a href="/instructor#ransford">Ransford</a><br>
+                    Instructor: <a href="/instructor#sarah">Sarah</a><br>
                     Campers use Lego bricks, medium and large motors, color, force, and distance sensors from the Lego Spike Essential kit to model solutions to problems. From helping Leo hail a taxi to the art museum to designing their own amusement park rides, your child will dive into a world of hands-on learning. They'll tackle daily guided sessions like "Avoid the Edge" and "Junior Pinball," and enjoy creative freedom in activities like building robots and designing team badges.
                     </div>
                     <div class="col-5"><b>Vex Robotics</b>: <a href="/camp/ages-8-9/vex-gadgets-and-games/">STEM Gadgets and Games</a><br>
@@ -159,7 +159,7 @@ aliases=["/summer/", "/rams-expo/"]
                     <br>
                     </div>
                     <div class="col-5"><b>Coding</b>: <a href="/camp/ages-8-9/roblox-beginners/">Creating a Game in Roblox</a><br>
-                    Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#scarlett">Scarlett</a><br>
+                    Instructors: <a href="/instructor#christina">Christina</a><br>
                     This week-long camp is designed to introduce students to the metaverse world of Roblox. Students will learn about the platform, explore the Roblox Studio game engine used to create games for Roblox, build an obstacle course ("obby"), add provided code scripts to the obbies, customize their game, and then publish their creations to Roblox for their friends and family to enjoy.
                     </div>
                 </div>
@@ -309,7 +309,7 @@ aliases=["/summer/", "/rams-expo/"]
                     <div class="col-5">Morning</div>
                     <div class="col-5">Afternoon</div>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-2"><b>June 10&ndash;14</b><br>
                     Coordinator: <a href="/instructor#nora">Nora</a></div>
                     <div class="col-5"><b>Coding</b>:  <a href="/camp/ages-10-13/python-middle-school/">Python</a><br>
@@ -322,10 +322,10 @@ aliases=["/summer/", "/rams-expo/"]
                     <div class="col-10">
                         This summer, introduce your child aged 10 to 13 to the exciting world of coding with our Python Camp, running from June 10-14. Whether they are beginners or have some experience, our camp offers tailored learning paths using the Code Monkey Curriculum for novices and CodeHS for those with prior coding experience. Students can choose from morning, afternoon, or full-day sessions to fit their schedule. Each session is designed to progressively build skills from basic concepts to more advanced topics, ensuring a comprehensive learning experience.
                     </div>
-                </div>
+                </div> -->
                 <div class="row table-dark-row">
                     <div class="col-2"><b>June 17&ndash;21</b>
-                    <br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
+                    <br>Coordinator: <a href="/instructor#nora">Nora</a></div>
                     <div class="col-5"><b>Coding</b>: </b> <a href="/camp/ages-10-13/roblox-beginners/">Roblox Beginners and Advanced</a><br>
                     Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#carter">Carter</a></div>
                     <div class="col-5"><b>Coding</b>: </b> <a href="/camp/ages-10-13/roblox-beginners/">Roblox Beginners and Advanced</a><br>

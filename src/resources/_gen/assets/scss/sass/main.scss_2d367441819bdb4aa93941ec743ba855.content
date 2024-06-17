@@ -1389,10 +1389,6 @@ div.row.table-dark-row {
   text-align: left;
 }
 
-div.row.table-light-row {
-  text-align: left;
-}
-
 div.row a {
   font-weight: 500;
 }
