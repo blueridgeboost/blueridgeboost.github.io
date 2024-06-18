@@ -37,22 +37,22 @@ header = "Intro to Counting and Probability"
                     <div class="col-5">Casework, Constructions, and Restriction</div>
                 </div>
                 <div class="row py-1 table-dark-row">
-                    <div class="col-2 text-center">2</div>
+                    <div class="col-2 text-center">Tuesday</div>
                     <div class="col-5">Overcounting and Combinations</div>
                     <div class="col-5">Combinations and Distinguishability</div>
                 </div>
                 <div class="row py-1">
-                    <div class="col-2 text-center">3</div>
+                    <div class="col-2 text-center">Wednesday</div>
                     <div class="col-5">Introduction to Probability</div>
                     <div class="col-5">Probability and Arithmetic</div>
                 </div>
                 <div class="row py-1 table-dark-row">
-                    <div class="col-2 text-center">4</div>
+                    <div class="col-2 text-center">Thursday</div>
                     <div class="col-5">Geometric Probability, Think About It!, and Expected Value</div>
                     <div class="col-5">Pascal’sTriangle and Identities</div>
                 </div>
                 <div class="row py-1 table-dark-row">
-                    <div class="col-2 text-center">5</div>
+                    <div class="col-2 text-center">Friday</div>
                     <div class="col-5">The Hockey Stick Identity</div>
                     <div class="col-5">The Binomial Theorem</div>
                 </div>
