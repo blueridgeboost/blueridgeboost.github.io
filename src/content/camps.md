@@ -139,7 +139,7 @@ aliases=["/summer/", "/rams-expo/"]
                     Campers will dive into a variety of hands-on, interactive sessions where they will code motors and sensors, synchronize robotic movements to music, and construct and race their own robotic models. The curriculum combines guided learning with free exploration periods, allowing children to apply their skills creatively as they design and build everything from dancing robots to encrypted safes. 
                     </div>
                 </div> -->
-                <div class="row table-dark-row">
+                <!-- <div class="row table-dark-row">
                     <div class="col-2"><b>June 17&ndash;21</b>
                     <br>Coordinator: <a href="/instructor#nora">Nora</a></div>
                     <div class="col-5"><b>Lego Robotics</b>: <a href="/camp/ages-6-7/lego-spike-essential-advanced/">Solving Problems Wherever We Go</a><br>
@@ -149,7 +149,7 @@ aliases=["/summer/", "/rams-expo/"]
                     <div class="col-5"><b>Vex Robotics</b>: <a href="/camp/ages-8-9/vex-gadgets-and-games/">STEM Gadgets and Games</a><br>
                     Instructors: <a href="/instructor#christina">Christina</a><br>
                     Campers engage in building structures such as spaceships and lunar rovers, and delve into labs that explore simple machines and magnetism. For example, they build four different simple machines to understand mechanical advantages and create magnet cars to navigate through challenge courses. These activities not only foster problem-solving skills but also encourage creativity as campers design their own games and participate in extension activities like the Battle Boats game and the Pendulum Game STEM Lab. </div>
-                </div>
+                </div> -->
                 <div class="row">
                     <div class="col-2"><b>June 24&ndash;28</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Lego Robotics</b>: <a href="/camp/ages-6-7/safari/">Safari Camp</a>/ <b>Coding</b>: Code Monkey Jr. and Scratch Jr.<br>
@@ -283,7 +283,7 @@ aliases=["/summer/", "/rams-expo/"]
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <a href="">AOPS Intro to Counting and Probability</a><br>
+                        <a href="/workshops/intro-to-counting-and-probability/">AOPS Intro to Counting and Probability</a><br>
                         5 &ndash; 9 August; 1:30 pm to 5:30 pm</br> 
                     </div>
                     <div class="col">
@@ -323,7 +323,7 @@ aliases=["/summer/", "/rams-expo/"]
                         This summer, introduce your child aged 10 to 13 to the exciting world of coding with our Python Camp, running from June 10-14. Whether they are beginners or have some experience, our camp offers tailored learning paths using the Code Monkey Curriculum for novices and CodeHS for those with prior coding experience. Students can choose from morning, afternoon, or full-day sessions to fit their schedule. Each session is designed to progressively build skills from basic concepts to more advanced topics, ensuring a comprehensive learning experience.
                     </div>
                 </div> -->
-                <div class="row table-dark-row">
+                <!-- <div class="row table-dark-row">
                     <div class="col-2"><b>June 17&ndash;21</b>
                     <br>Coordinator: <a href="/instructor#nora">Nora</a></div>
                     <div class="col-5"><b>Coding</b>: </b> <a href="/camp/ages-10-13/roblox-beginners/">Roblox Beginners and Advanced</a><br>
@@ -336,7 +336,7 @@ aliases=["/summer/", "/rams-expo/"]
                     <div class="col-10">
                     🎮 Explore Game Development at Middle School Roblox Coding Camp! The camp offers both half-day (morning or afternoon) and full-day sessions where students can learn to build and script games. Beginners will start with basic Roblox building techniques and advance to scripting, while those with prior experience will delve into the more complex Roblox curriculum. Each day is structured to ensure comprehensive learning and hands-on practice, culminating in creative game development sessions where students can bring their unique ideas to life. 
                     </div>
-                </div>
+                </div> -->
                 <div class="row">
                     <div class="col-2"><b>June 24&ndash;28</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Vex Robotics</b>: <a href="/camp/ages-10-13/vex-search-and-rescue">Search And Rescue</a><br>
