@@ -287,7 +287,7 @@ aliases=["/summer/", "/rams-expo/"]
                         5 &ndash; 9 August; 1:30 pm to 5:30 pm</br> 
                     </div>
                     <div class="col">
-                        <a href="https://artofproblemsolving.com/store/book/intro-number-theory">AOPS Intro to Number Theory</a><br>
+                        <a href="/workshops/intro-to-number-theory/">AOPS Intro to Number Theory</a><br>
                         12 &ndash; 16 August; 1:30 pm to 5:30 pm</br>
                     </div>
                 </div>
