@@ -479,7 +479,7 @@ aliases=["/summer/", "/rams-expo/"]
     <div class="row pb-1">
         <div class="col-5">
             <b>Math Workshops, $395/week</b><br>
-            <a href="">Calculus</a><br>
+            <a href="/workshops/intro-to-calculus">Intro to Calculus</a><br>
             29 July &ndash; 2 August; 1:30 pm to 5:30 pm</br> 
             Teacher: <a href="/instructor#hillary">Hillary</a><br>
         </div>

@@ -13,7 +13,7 @@ header = "Special Nights"
 <div class="gap"></gap>
 <div class="container">
     <div class="row  justify-content-center">
-        <div class="col">
+        <!-- <div class="col">
             <h2><center>Sphero Battle Bots</center></h2>
             Construct an indomitable battle shell and ready your Sphero for the ultimate Battle Bots championship showdown!<br>
             Free pizza included.<br>
@@ -22,8 +22,7 @@ header = "Special Nights"
             Pick-up: 8:30 pm<br>
             $45/child, ages six to thirteen <br>
             <b>The event will restart in September.</b>
-            <!-- <div class="buttons"><a href="https://spring-24-battle-bots.cheddarup.com"><button class="button-8s" role="button">Sign-Up for Fridays</button></a> -->
-            <!-- </div> -->
+            <div class="buttons"><a href="https://spring-24-battle-bots.cheddarup.com"><button class="button-8s" role="button">Sign-Up for Fridays</button></a> 
         </div>
         <div class="col">
             <h2><center>Parents' Night Out</center></h2>
@@ -33,9 +32,7 @@ header = "Special Nights"
             Drop-off: 5:30 pm<br> 
             Pick-up: 8:30 pm<br>
             $45/child, ages six to thirteen<br>
-            <b>The event will restart in September.</b>
-            <!-- <div class="buttons"><a href="https://parents-night-out-may-11.cheddarup.com"><button class="button-8s" role="button">Saturday, 11 May</button></a> -->
-            <!-- </div> -->
+            <div class="buttons"><a href="https://parents-night-out-may-11.cheddarup.com"><button class="button-8s" role="button">Saturday, 11 May</button></a> </div>        
         </div>
         <div class="col">
             <h2><center>Girls' Night In</center></h2>
@@ -46,7 +43,7 @@ header = "Special Nights"
             <b>Free!</b> Grades 3 &ndash; 8
             <div class="buttons"><a href="https://girls-night-in-may-18.cheddarup.com"><button class="button-8s" role="button">Saturday, 1 June</button></a><br>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
 
