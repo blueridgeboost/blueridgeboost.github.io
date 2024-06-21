@@ -1356,18 +1356,6 @@ ul.list-style-none {
   padding: 0.4em;
 }
 
-.daybar {
-  background: #005172;
-  font-weight: 500;
-  color: #fff;
-  text-align: center;
-  font-size: 1.2em;
-}
-
-.daybar a {
-  color: #fff;
-}
-
 .buttons {
   margin: auto;
   width: 50%;
@@ -1393,28 +1381,9 @@ div.row a {
   font-weight: 500;
 }
 
-.schedule {
-  display: grid;
-  gap: 5px 5px;
-  align-items: start;
-  grid-template-columns: 1fr;
-  grid-template-areas: "monday" "tuesday" "wednesday" "thursday" "friday" "saturday" "sunday";
-}
-
 @media (min-width: 768px) {
   .below-md {
     display: none;
-  }
-  .schedule {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "monday tuesday wednesday" "thursday thursday thursday" "friday saturday sunday";
-  }
-}
-
-@media (min-width: 992px) {
-  .schedule {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "monday tuesday wednesday" "monday thursday wednesday" "friday saturday sunday";
   }
 }
 
