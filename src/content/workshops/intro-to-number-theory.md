@@ -2,7 +2,7 @@
 title = "Intro to Number Theory Workshop | Blue Ridge Boost"
 description = "!"
 keywords = ["MathCounts Coach", "MathCounts tutor", "MathCounts", "AMC8 Coach", "AMC8 tutor", "AMC8", "AMC10 Coach", "AMC10 tutor", "AMC10", "math olympiad Coach", "math olympiad tutor", "math olympiad", "MOEMS Coach", "MOEMS tutor", "MOEMS"]
-aliases=["/moems/"]
+aliases=[]
 header = "Intro to Number Theory"
 +++
 

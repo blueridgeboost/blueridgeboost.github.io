@@ -488,12 +488,12 @@ aliases=["/summer/", "/rams-expo/"]
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <a href="">Java for AP Computer Science</a><br>
+                        <a href="/workshops/java">Java for AP Computer Science</a><br>
                         5 &ndash; 9 August; 1:30 pm to 5:30 pm</br> 
                         Teacher: <a href="/instructor#nora">Nora</a><br>
                     </div>
                     <div class="col">
-                        <a href="">Data Structures and Algorithms in Java</a><br>
+                        <a href="/workshops/java">Data Structures and Algorithms in Java</a><br>
                         12 &ndash; 16 August; 1:30 pm to 5:30 pm</br>
                         Teacher: <a href="/instructor#nora">Nora</a><br>
                     </div>
