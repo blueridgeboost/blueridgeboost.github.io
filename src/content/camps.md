@@ -150,7 +150,7 @@ aliases=["/summer/", "/rams-expo/"]
                     Instructors: <a href="/instructor#christina">Christina</a><br>
                     Campers engage in building structures such as spaceships and lunar rovers, and delve into labs that explore simple machines and magnetism. For example, they build four different simple machines to understand mechanical advantages and create magnet cars to navigate through challenge courses. These activities not only foster problem-solving skills but also encourage creativity as campers design their own games and participate in extension activities like the Battle Boats game and the Pendulum Game STEM Lab. </div>
                 </div> -->
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-2"><b>June 24&ndash;28</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Lego Robotics</b>: <a href="/camp/ages-6-7/safari/">Safari Camp</a>/ <b>Coding</b>: Code Monkey Jr. and Scratch Jr.<br>
                     Instructors: <a href="/instructor#sarah">Sarah</a>,  <a href="/instructor#tracey">Tracey</a><br>
@@ -162,11 +162,11 @@ aliases=["/summer/", "/rams-expo/"]
                     Instructors: <a href="/instructor#christina">Christina</a><br>
                     This week-long camp is designed to introduce students to the metaverse world of Roblox. Students will learn about the platform, explore the Roblox Studio game engine used to create games for Roblox, build an obstacle course ("obby"), add provided code scripts to the obbies, customize their game, and then publish their creations to Roblox for their friends and family to enjoy.
                     </div>
-                </div>
+                </div> -->
                 <div class="row table-dark-row">
                     <div class="col-2"><b>July 8&ndash;12</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Lego Robotics</b>: <a href="/camp/ages-6-7/exploring-space">Exploring Space</a><br>
-                    Instructors: <a href="/instructor#sarah">Sarah</a>, Ransford<br>
+                    Instructors: <a href="/instructor#sarah">Sarah</a>, Noah, Ransford<br>
                     Each day, campers embark on a new space-themed challenge, from creating interactive models like glowing snails and spy robots to constructing and coding a rover named Milo for obstacle navigation. Highlights include building a moon base, designing earthquake-resistant structures using an earthquake simulator, and conceptualizing rovers suited for extraterrestrial terrains.<br>
                     </div>
                     <div class="col-5"><b>Vex Robotics</b>: <a href="/camp/ages-8-9/vex-mission-to-mars/">Mission to Mars</a><br>
@@ -177,19 +177,19 @@ aliases=["/summer/", "/rams-expo/"]
                 <div class="row">
                     <div class="col-2"><b>July 15&ndash;19</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Vex Robotics:</b> <a href="/camp/ages-6-7/vex-space-race">Space Race in the mornings and Art in the afternoons</a><br>
-                    Instructors: <a href="/instructor#sarah">Sarah</a>, Ransford<br>
+                    Instructors: <a href="/instructor#sarah">Sarah</a>, Tracey<br>
                     In Space Race Camp, campers meet “VEX,” the 123 Robot through a fun and interactive story and establish a set of rules and practices for working with the robot. Then, campers imagine their robot as a Mars rover and complete several missions including coding their robot to collect samples and return them to base camp for delivering to Earth. Then, campers will use the Eye Sensor to detect objects and clear the landing area for future missions.<br>
                     In the afternoons, the campers use the Art Ring and craft materials to transform the Vex123 robot into a variety of animals.<br>
                     </div>
                     <div class="col-5"><b>Coding:</b> <a href="/camp/ages-8-9/minecraft/">Minecraft</a><br>
-                    Instructors: <a href="/instructor#christina">Christina</a>, <a href="/instructor#carter">Carter</a><br>
+                    Instructors: <a href="/instructor#christina">Christina</a>, Tracey<br>
                     <i>Introduction to Computer Science with MakeCode for Minecraft</i> is an educational course designed to merge the creative allure of Minecraft with the foundational principles of computer science. Using Microsoft's MakeCode, a block-based coding platform, students are empowered to write code that manipulates and interacts with the Minecraft world. This course provides an engaging, interactive environment where learners of all ages can develop computational thinking skills, understand coding logic, and apply problem-solving techniques in real-time. By integrating a popular gaming platform with educational content, the course not only makes learning to code accessible and enjoyable but also fosters creativity and collaboration among students. <br>
                     </div>
                 </div>
                 <div class="row table-dark-row">
                     <div class="col-2"><b>July 22&ndash;26</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Vex Robotics</b>: <a href="/camp/ages-6-7/vex-move-it-shake-it">Move it! Shake it!</a><br>
-                    Instructors: <a href="/instructor#ransford">Ransford</a>, Scarlett, Carter<br>
+                    Instructors: <a href="/instructor#ransford">Ransford</a>, Noah<br>
                     Campers begin by programming robots to navigate simple paths, progress to coding dance movements for robots, transforming them into animated characters like partying peacocks, and culminate in a challenging bowling game where robots aim to knock down pins and crash into towers. These activities are designed not only to teach the basics of motion control and programming but also to foster essential skills such as creativity, problem-solving, and teamwork.<br>
                     </div>
                     <div class="col-5"><b>Vex Robotics</b>: <a href="/camp/ages-8-9/vex-adventures-in-engineering/">Adventures in Engineering</a><br>
@@ -200,12 +200,12 @@ aliases=["/summer/", "/rams-expo/"]
                 <div class="row">
                     <div class="col-2"><b>July 29&ndash;August 2</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Math</b>: <a href="/camp/ages-6-7/math-camp">Puzzles and more.</a><br>
-                    Instructors: <a href="/instructor#sarah">Sarah</a>, <a href="/instructor#tracey">Tracey</a><br>
+                    Instructors: <a href="/instructor#sarah">Sarah</a>, Noah<br>
                     In the morning, campers unlock the World of Math with <a href="https://beastacademy.com/books/puzzles1">Beast Academy Puzzles 1</a>! In the afternoon, students will tacke a diverse range of questions, varying in both difficulty and type from <a href="https://www.singaporemath.com/products/intensive-practice-u-s-edition-1a">Singapore Math Intensive Practice 1A</a>.
                     <br>
                     </div>
                     <div class="col-5"><b>Vex Robotics</b>: <a href="/camp/ages-8-9/vex-ready-set-go/">Ready, set, GO</a><br>
-                    Instructors: <a href="/instructor#christina">Christina</a><br>
+                    Instructors: <a href="/instructor#christina">Christina</a>, Tracey<br>
                     Campers will engage in building and racing various cars to explore the concepts of forces and speed! They will start by constructing a Super Car and experimenting with ways to enhance its distance and speed. Over the course of the camp, they will expand on this foundation by assembling different models of the Super Car. This progression will allow them to investigate the dynamics of how these models move, culminating in coding and operating both the Code Super Car and the Code Base.<br>
                     </div>
                 </div>
@@ -217,7 +217,7 @@ aliases=["/summer/", "/rams-expo/"]
                      Students learn the basics of coding using left, right, jump up, jump left, and jump right commands to guide a monkey to collect all bananas before opening a treasure chest. In addition, students learn to code repetition by using loops and conditional loops. The course concludes with procedures.<br>
                     </div>
                     <div class="col-5"><b>Lego Robotics</b>: <a href="/camp/ages-8-9/space-adventure/">Space Adventure</a><br>
-                    Instructors: <a href="/instructor#nora">Nora</a>, <a href="/instructor#tracey">Tracey</a><br>
+                    Instructors: Scarlet, Noah<br>
                     Campers will embark on a "space adventure" using robots, where they construct various robotic structures designed for this level. They will learn to control the motors to enable the robots to execute precise movements around models of the "earth," "moon," and "sun." After encountering various obstacles, campers will utilize a force sensor to navigate past them successfully. Throughout this adventure, they will also discover fascinating facts about the solar system and space vehicles.<br>
                     </div>
                 </div>
@@ -229,7 +229,7 @@ aliases=["/summer/", "/rams-expo/"]
                     Perfect for kids aged 6-7, this exciting camp combines the creative power of LEGO with the thrilling world of space exploration. Campers will build and program their own space-themed robots using LEGO WeDo kits, engage in team missions that simulate real-life space challenges, and learn about the science of space travel from expert STEM educators. Sign up now to give your young astronaut a summer filled with innovation, teamwork, and interstellar adventure! 🚀🛠️<br>
                     </div>
                     <div class="col-5"><b>Coding</b>: <a href="/camp/ages-8-9/scratch/">Scratch</a><br>
-                    Instructors: <a href="/instructor#scarlett">Scarlett</a><br>
+                    Instructors: <a href="/instructor#scarlett">Scarlett</a>, Noah<br>
                     Ignite Creativity with Scratch Camp! This summer, give your child aged 8-9 the opportunity to dive into the world of coding with our Scratch Camp. Using Scratch, a kid-friendly programming language from MIT, campers will learn to code their own games, animations, and stories. Our experienced instructors will guide them through the fundamentals of coding while fostering critical thinking and creativity. oin us for a summer of fun, learning, and digital creation. <br>
                     </div>
                 </div>
@@ -337,31 +337,31 @@ aliases=["/summer/", "/rams-expo/"]
                     🎮 Explore Game Development at Middle School Roblox Coding Camp! The camp offers both half-day (morning or afternoon) and full-day sessions where students can learn to build and script games. Beginners will start with basic Roblox building techniques and advance to scripting, while those with prior experience will delve into the more complex Roblox curriculum. Each day is structured to ensure comprehensive learning and hands-on practice, culminating in creative game development sessions where students can bring their unique ideas to life. 
                     </div>
                 </div> -->
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-2"><b>June 24&ndash;28</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Vex Robotics</b>: <a href="/camp/ages-10-13/vex-search-and-rescue">Search And Rescue</a><br>
-                    Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#carter">Carter</a><br>
+                    Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#carter">Carter</a>, Scarlet<br>
                     <p>At the Search and Rescue Camp, your camper has the exciting opportunity to dive into multiple roles: a coder, a rescuer, and a creative thinker, all while engaging in fun STEM activities using VEX IQ!<br>
                     In this camp, students work together to tackle various challenges, discovering the intricate workings of a search and rescue robot. They'll ignite their love for learning through a dynamic mix of game-based engineering and coding projects that perfectly meld creativity, imagination, and STEM education.</p></div> 
                     <div class="col-5"><b>Coding</b>: <a href="/camp/ages-10-13/web-design-middle-school">Web Design</a> <br>
                     Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#carter">Carter</a><br>
                     <p>Explore the world of web development at our Web Design Camp! This summer, campers will master HTML and CSS, gaining the skills to build and style their own web pages. They'll create a personalized homepage to display their projects, learning through hands-on activities and real-world applications. Our camp provides the perfect environment for young enthusiasts to develop their coding skills and unleash their creativity. Don't miss out on this opportunity for your child to become a young web designer.</p></div>
-                </div>
+                </div> -->
                 <div class="row table-dark-row">
                     <div class="col-2"><b>July 8&ndash;12</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Coding</b>: <a href="/camp/ages-10-13/minecraft/">Minecraft</a><br> 
-                    Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#scarlett">Scarlett</a><br>
+                    Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#scarlett">Scarlett</a>, Carter<br>
                     <i>Introduction to Computer Science with MakeCode for Minecraft</i> is an educational course designed to merge the creative allure of Minecraft with the foundational principles of computer science. Using Microsoft's MakeCode, a block-based coding platform, students are empowered to write code that manipulates and interacts with the Minecraft world. This course provides an engaging, interactive environment where learners of all ages can develop computational thinking skills, understand coding logic, and apply problem-solving techniques in real-time. By integrating a popular gaming platform with educational content, the course not only makes learning to code accessible and enjoyable but also fosters creativity and collaboration among students.
                     </div>
                     <div class="col-5"><b>Coding</b>: <a href="/camp/ages-10-13/game-design/">Introduction to Game Design with JavaScript</a> <br>
-                    Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#scarlett">Scarlett</a><br>
+                    Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#scarlett">Scarlett</a>, Carter<br>
                     Ignite your child’s passion for gaming and programming with our CodeHS Introduction to Game Design Camp! This unique camp offers middle school students the opportunity to delve into game design using the p5play JavaScript library. Throughout the camp, students will learn key programming concepts such as variables, functions, and conditionals, all while creating their very own video games. From brainstorming game mechanics to coding interactive features, campers will enjoy a hands-on experience that culminates in designing and sharing their custom games. No prior programming experience is needed, just a love for games and a curiosity to learn.</div>
                 </div>
                 <div class="row">
                     <div class="col-2"><b>July 15&ndash;19</b><br>Coordinator: <a href="/instructor#ransford">Ransford</a></div>
                     <div class="col-5"><b>Coding</b>: <a href="https://www.codemonkey.com/courses/game-builder">Make your own games (Beginners)</a><br>
                     <a href="https://codehs.com/uploads/8dba2cd1be481145472397cda6ffcde8">Introduction to Game Design (JavaScript)</a><br>
-                    Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#scarlett">Scarlett</a></div>
+                    Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#scarlett">Scarlett</a>, Carter</div>
                     <div class="col-4"><b>Coding</b>: <a href="https://www.codemonkey.com/courses/game-builder">Make your own games (Beginners)</a><br>
                     <a href="https://codehs.com/uploads/8dba2cd1be481145472397cda6ffcde8">Introduction to Game Design (JavaScript)</a><br>
                     Instructors: <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#scarlett">Scarlett</a>, <a href="/instructor#tracey">Tracey</a></div>
@@ -392,19 +392,18 @@ aliases=["/summer/", "/rams-expo/"]
                     Explore the rich world of problem-solving with the "Art of Problem Solving, Volume 1: The Basics" book, a comprehensive resource designed to stretch and enhance the mathematical abilities of students in middle and high school. Perfect for ambitious students preparing for competitive math contests like MathCounts or the AMC 8/10, this book not only builds a solid foundation in essential mathematical skills but also fosters a lifelong love for problem-solving and critical thinking.</div>
                     <div class="col-4">
                     <b>Coding (Advanced)</b>: <a href="https://codehs.com/uploads/f2d9dbb4255ffeef85ca15b66c0a7fb6">Game Design in Unity</a> <br>
-                    Instructors:  <a href="/instructor#akhil">Akhil</a><br>
-                    Instructors:  Nora, <a href="/instructor#scarlett">Scarlett</a><br>
+                    Instructors:  <a href="/instructor#akhil">Akhil</a>, Carter, Scarlett<br>
                     This course aims to impart fundamental skills in game design using the Unity game engine, the world's most widely accessed and preferred editing platform. It prepares students for both the workforce and higher educational pursuits by teaching them the game design planning process, acquainting them with industry-related careers, and enhancing their proficiency in navigating Unity to create 3D games. </div>
                 </div>
                 <div class="row">
                     <div class="col-2"></div>
                     <div class="col-5">
                     <b>Coding (Beginners)</b>: <a href="https://codehs.com/uploads/6e072b1e99eee8faaf2144b0dfbc7574">Intro to Programming with Karel the Dog</a><br>
-                    Instructors:  <a href="/instructor#akhil">Akhil</a>, <a href="/instructor#scarlett">Scarlett</a><br>
+                    Instructors:  <a href="/instructor#akhil">Akhil</a>, Carter, Scarlet<br>
                     </div>
                     <div class="col-5">
                     <b>Coding (Beginners)</b>: <a href="https://codehs.com/uploads/6e072b1e99eee8faaf2144b0dfbc7574">Intro to Programming with Karel the Dog</a><br>
-                    Instructors:  Nora, <a href="/instructor#scarlett">Scarlett</a><br>
+                    Instructors:  <a href="/instructor#akhil">Akhil</a>, Carter, Scarlet<br>
                     </div>
                 </div>
                 <div class="row">
@@ -420,7 +419,7 @@ aliases=["/summer/", "/rams-expo/"]
                     <div class="col-2"><b>August 5&ndash;9</b><br>
                     Coordinator: <a href="/instructor#nora">Nora</a></div>
                     <div class="col-5"><b>Robotics:</b> FLL and FTC Preseason<br>
-                    Instructor: <a href="/instructor#akhil">Akhil</a><br>
+                    Instructor: <a href="/instructor#akhil">Akhil</a>, Nora<br>
                     </div>
                     <div class="col-5"><b>Robotics:</b> FLL and FTC Preseason<br>
                     Instructors: <a href="/instructor#akhil">Akhil</a><br>
@@ -438,11 +437,11 @@ aliases=["/summer/", "/rams-expo/"]
                     </div>
                     <div class="col-5">
                     <b>Lego Robotics:</b> <a href="https://assets.education.lego.com/v3/assets/blt293eea581807678a/blt06538c349bfd32f1/637348fca32209106e8b1352/SPIKE_Prime_Lets_Compete_Adv_2022.pdf?locale=en-us">Let's Compete with Lego Spike Prime</a><br>
-                    Instructor: <a href="/instructor#scarlett">Scarlett</a>
+                    Instructors: Akhil, Nora
                     </div>
                     <div class="col-5">
                     <b>Lego Robotics:</b> <a href="https://assets.education.lego.com/v3/assets/blt293eea581807678a/blt06538c349bfd32f1/637348fca32209106e8b1352/SPIKE_Prime_Lets_Compete_Adv_2022.pdf?locale=en-us">Let's Compete with Lego Spike Prime</a><br>
-                    Instructor: <a href="/instructor#scarlett">Scarlett</a>
+                    Instructors: Akhil
                     </div>
                 </div>
                 <div class="row table-dark-row">
@@ -456,7 +455,7 @@ aliases=["/summer/", "/rams-expo/"]
                     <div class="col-2"><b>August 12&ndash;16</b><br>
                     Coordinator: <a href="/instructor#nora">Nora</a></div>
                     <div class="col-5"><b>Robotics:</b> FLL and FTC preseason<br>
-                    Instructor: <a href="/instructor#akhil">Akhil</a><br>
+                    Instructor: <a href="/instructor#akhil">Akhil</a>, Nora<br>
                     </div>
                     <div class="col-5"><b>Robotics:</b> FLL and FTC preseason<br>
                     Instructors: <a href="/instructor#akhil">Akhil</a></div>
