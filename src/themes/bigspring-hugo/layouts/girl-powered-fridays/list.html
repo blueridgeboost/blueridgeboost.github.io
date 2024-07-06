@@ -8,12 +8,14 @@
 
     <div class="container">
         {{ $events := where site.RegularPages "Section" .Params.section }}
-        {{range sort $events  .Params.weight "asc" }}
+        {{ range sort $events .Params.weight "asc" }}
         <div class="row" id="{{ .Params.event_id }}">
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        {{ .Params.description }}
+                        <div class="eventdescription mtgbtnwidth">
+                            {{ .Params.description }}
+                        </div>
                     </div>
                 </div>
                 {{ partial "one-time-meetings.html" . }}

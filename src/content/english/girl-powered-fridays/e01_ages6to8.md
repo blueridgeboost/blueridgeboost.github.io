@@ -2,10 +2,10 @@
 draft: false
 title: "Girl Powered Fridays | Blue Ridge Boost"
 page_title: "Girl Powered Fridays"
-description: "Events for girls ages six to eight"
+description: "Events for girls ages 6 to 8"
 event_id: "grk2"
 weight: "1"
-data_item_name: "Girl Powered Fridays, ages six to eight"
+data_item_name: "Girl Powered Fridays, ages 6 to 8"
 compact: false
 
 meetings: 

@@ -80,6 +80,12 @@ body.dark {
   }
 }
 
+.eventdescription {
+  font-size:larger;
+  text-align: center;
+  font-weight: 1000;
+}
+
 .btn-description {
   font-size:larger;
   text-align: center;
@@ -93,4 +99,13 @@ body.dark {
 .mtgbtnwidth {
   width: 250px;
   display: inline-block;
+}
+
+.bigimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 60%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
