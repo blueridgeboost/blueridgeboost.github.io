@@ -2,9 +2,9 @@
 ####################### Banner #########################
 banner:
   title : "Blue Ridge Boost"
-  subtitle : "A locally owned education company specializing in computer science, math, and robotics"
+  subtitle : "A locally-owned education company specializing in computer science, math, and robotics."
   image : "images/banner-art.svg"
-  content : "We teach weekly afternoon and weekend classes, coach robotics teams, host math competitions and a weekly chess club. We organize one day camps for the days off school and week-long camps during the breaks. To learn more about our services select one of the button below."
+  content : "We teach weekly afternoon and weekend classes, coach robotics teams, host math competitions and a free weekly chess club. We hold one-day camps for the days off school and week-long camps during summer and breaks."
   buttons:
   - enable : true
     label : "Computer Coding"

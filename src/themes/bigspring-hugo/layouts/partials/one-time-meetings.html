@@ -11,13 +11,13 @@
                 {{ $meeting_time := time.AsTime .meeting }}
                 {{ if ge (sub ($meeting_time.Unix) (now.Unix)) 0 }}        
                 <div class="">
-                    <button class="snipcart-add-item"
+                    <button class="snipcart-add-item btn btn-outline-primary m-2"
                     data-item-id= "{{ .data_item_id }}"
                     data-item-price="{{ $price }}"
                     data-item-description="{{ .meeting }}"
                     data-item-name="{{ $data_item_name }}"
                     data-item-max-quantity="{{ $data_item_max_quantity }}">
-                    Add to cart {{ .meeting }}
+                    {{ .meeting }}
                     </button>
                 </div>
                 {{ end }}
@@ -26,25 +26,24 @@
         </div>
     </div>
 {{ else }}
+    <div class="buttonlist">
     {{ range .Params.meetings }}
-    {{ $meeting_time := time.AsTime .meeting }}
-    {{ if ge (sub ($meeting_time.Unix) (now.Unix)) 0 }}
-    <div class="row">
-        <div class="col-2">
-            <div class="">
-                <button class="snipcart-add-item"
-                data-item-id= "{{ .data_item_id }}"
-                data-item-price="{{ $price }}"
-                data-item-description="{{ .meeting }}"
-                data-item-name="{{ $data_item_name }}"
-                data-item-max-quantity="{{ $data_item_max_quantity }}">
-                Add to cart {{ .meeting }}
+        {{ $meeting_time := time.AsTime .meeting }}
+        {{ if ge (sub ($meeting_time.Unix) (now.Unix)) 0 }}
+        <div class="row">
+            <div class="col-4">
+                <button class="snipcart-add-item btn btn-outline-primary m-2"
+                    data-item-id= "{{ .data_item_id }}"
+                    data-item-price="{{ $price }}"
+                    data-item-description="{{ .meeting }}"
+                    data-item-name="{{ $data_item_name }}"
+                    data-item-max-quantity="{{ $data_item_max_quantity }}">
+                    {{ time.Format "2 January 2006" $meeting_time }} 
                 </button>
             </div>
-        </div>
-        <div class="col-10">{{ .data_item_description }}</div>
-    </div>    
+            <div class="col-4"><span class="btn-description">{{ .data_item_description }}</span></div>
+        </div>    
+        {{ end }} 
     {{ end }}
-    {{ end }}
-    {{ end }}
+{{ end }}    
 </div>
