@@ -3,7 +3,6 @@
 ###
 
 GITHUB_PAGES_BRANCH=gh-pages
-# THEME = brb
 
 DESTINATION = ../docs
 
@@ -19,28 +18,9 @@ html:
 
 copy:
 	cp ../CNAME $(DESTINATION)
-	cat temp.css >> ../docs/css/styles.css 
-
-minify:
-	mv $(DESTINATION)/js/bundle.min.js $(DESTINATION)/js/bundle.js
-	uglifyjs $(DESTINATION)/js/bundle.js\
-         -o $(DESTINATION)/js/bundle.min.js -c -m \
-         --source-map "root='http://blueridgeboost.com/js',url='bundle.min.js.map'"
-
-compress:
-	find ../docs/ -type f -name *.html -exec gzip -k "{}" \;
-	find ../docs/ -type f -name *.html -exec brotli -f -o "{}.br" "{}" \;
-	find ../docs/ -type f -name *.js -exec gzip -k "{}" \;
-	find ../docs/ -type f -name *.js -exec brotli -f -o "{}.br" "{}" \;
-	find ../docs/ -type f -name *.css -exec gzip -k "{}" \;
-	find ../docs/ -type f -name *.css -exec brotli -f -o "{}.br" "{}" \;
-	find ../docs/ -type f -name *.xml -exec gzip -k "{}" \;
-	find ../docs/ -type f -name *.xml -exec brotli -f -o "{}.br" "{}" \;
-	find ../docs/ -type f -name *.svg -exec gzip -k "{}" \;
-	find ../docs/ -type f -name *.svg -exec brotli -f -o "{}.br" "{}" \;
 
 
-github: clean html copy minify compress
+github: clean html copy 
 	git add -A :/; git commit -m "Rebuilt site" ; git push
 
 githubdev: clean html copy 

@@ -1,0 +1,75 @@
+---
+title: "Charlottesville Kid's Chess Club | Blue Ridge Boost"
+page_title: "Charlottesville Kid's Chess Club"
+# meta description
+description: "All levels welcome. Ages six to twelve. Join us to learn and play chess!"
+draft: false
+
+drop_off: "5:30 p.m."
+pick_up: "8:30 p.m."
+intro: "The Charlottesville Kids' Chess Club invites all the children ages six to twelve to two hours of fun, 
+                    Thursdays from 4:30 to 6:30. The meetings are held at Blue Ridge Boost. 
+                    Students may be dropped off as long as the pick-up is before the end of the club meeting.
+        
+        The first hour is dedicated to two-player chess. For the second hour, partipants may choose between 
+                    standard two-player chess and chess variants, including dice chess and four player chess."
+
+price: "0"
+data_item_name: "Charlottesville Kids' Chess Club"
+data_item_max_quantity: "1"
+compact: true
+
+meetings: 
+- meeting: "2024-09-05"
+  data_item_id: "chess-9-5-2024"
+- meeting: "2024-09-12"
+  data_item_id: "chess-9-12-2024"
+- meeting: "2024-09-19"
+  data_item_id: "chess-9-19-2024"
+- meeting: "2024-09-26"
+  data_item_id: "chess-9-26-2024"
+- meeting: "2024-10-03"
+  data_item_id: "chess-10-03-2024"
+- meeting: "2024-10-10"
+  data_item_id: "chess-10-10-2024"
+- meeting: "2024-10-17"
+  data_item_id: "chess-10-17-2024"
+- meeting: "2024-11-07"
+  data_item_id: "chess-11-7-2024"
+- meeting: "2024-11-14"
+  data_item_id: "chess-11-14-2024"
+- meeting: "2024-11-21"
+  data_item_id: "chess-11-21-2024"
+- meeting: "2024-12-04"
+  data_item_id: "chess-12-4-2024"
+- meeting: "2024-12-11"
+  data_item_id: "chess-12-11-2024"
+- meeting: "2025-01-09"
+  data_item_id: "chess-1-9-2024"
+- meeting: "2025-01-16"
+  data_item_id: "chess-1-16-2025"
+- meeting: "2025-01-23"
+  data_item_id: "chess-1-23-2025"
+- meeting: "2025-01-30"
+  data_item_id: "chess-1-30-2025"
+- meeting: "2025-02-06"
+  data_item_id: "chess-2-6-2025"
+- meeting: "2025-02-13"
+  data_item_id: "chess-2-13-2025"
+- meeting: "2025-02-20"
+  data_item_id: "chess-2-20-2025"
+- meeting: "2025-02-27"
+  data_item_id: "chess-2-27-2025"
+- meeting: "2025-02-27"
+  data_item_id: "chess-3-6-2025"
+- meeting: "2025-03-06"
+  data_item_id: "chess-3-20-2025"
+- meeting: "2025-03-20"
+  data_item_id: "chess-3-27-2025"
+- meeting: "2025-04-10"
+  data_item_id: "chess-4-10-2025"
+- meeting: "2025-04-17"
+  data_item_id: "chess-4-17-2025"
+- meeting: "2025-04-24"
+  data_item_id: "chess-4-24-2025"
+---

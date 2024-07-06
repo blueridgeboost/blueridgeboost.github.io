@@ -1,165 +1,81 @@
-baseurl = "https://blueridgeboost.com"
-title = "Coding and Math Classes and Tutoring in Charlottesville"
-theme = "brb"
-languageCode = "en-us"
-
-disableLiveReload = true
-enableRobotsTXT = true
-cleanDestinationDir = true
-
-defaultContentLanguage = "en"
-googleAnalytics = "G-JV87PS188M"
-
-# Define the number of posts per page
-paginate = 5
-# number of words of summarized post content (default 70)
-summaryLength = 70
+# DON'T REMOVE THIS FILE.
+# This file is for render site varibles and plugins
+#
+# The actual configuration files are stored in the `config/_default/` folder.
 
 
-[markup.goldmark.renderer]
-unsafe= true
+######################### site variables ##############################
+# customize your color and font from here.
+[params.variables]
+color_primary = "#0AA8A7"
+color_secondary = "#376f92"
+body_color = "#fff"
+text_color = "#777"
+text_dark = "#222"
+text_light = "#959595"
+border_color = "#ECECEC"
+dark_body_color = "#1E262C"
+dark_text_color = "#cbcbcb"
+dark_text_light = "#959595"
+dark_text_dark = "#fff"
+dark_border_color = "#4e4e4e"
+black = "#101418"
+white = "#fff"
+light = "#EDF6F5"
+dark = "#1b2229"
 
-[menu]
-[[menu.main]]
-    name       = "Vision"
-    identifier = "menu.vision"
-    url        = "/vision/"
-    weight     = 1
-[[menu.main]]
-    name       = "Classes"
-    identifier = "menu.classes"
-    url        = "/classes/"
-    weight     = 2
-[[menu.main]]
-    name       = "Camps"
-    identifier = "menu.camps"
-    url        = "/camps/"
-    weight     = 3
-[[menu.main]]
-    name       = "Competitions"
-    identifier = "menu.competition"
-    url        = "/competitions/"
-    weight     = 3
-[[menu.main]]
-    name       = "Nights"
-    identifier = "menu.nights"
-    url        = "/nights/"
-    weight     = 5
+# font variables
+# base font size for full website, 
+font_size = "16px" # default is 16px
 
-[[menu.main]]
-    name       = "Tutoring"
-    identifier = "menu.tutoring"
-    url        = "/tutoring/"
-    weight     = 6
+# Font Scale Sizes
+# "minorSecond": 1.067,
+# "majorSecond": 1.125,
+# "minorThird": 1.2,
+# "majorThird": 1.25,
+# "perfectFourth": 1.333,
+# "augmentedFourth": 1.414,
+# "perfectFifth": 1.5,
+# "goldenRatio": 1.618
+font_scale = "1.25" # default is "majorThird": 1.25
 
-[[menu.main]]
-    name       = "Chess"
-    identifier = "menu.chess"
-    url        = "/chess/"
-    weight     = 7
+# go to https://fonts.google.com/ to find the font you want to use. select your font and copy only the bold part from the URL. and paste it here.
+# example: "Work+Sans:wght@400;500;600"
+font_primary = "Urbanist:wght@500;600;700"
+font_primary_type = "sans-serif"           # [serif/sans-serif]
+font_secondary = "Poppins:wght@400;500"
+font_secondary_type = "sans-serif"         # [serif/sans-serif]
+font_icon = "Font Awesome 6 Free"          # https://fontawesome.com/v5.15/icons/
 
-[[menu.main]]
-    name       = "Scholarships"
-    identifier = "menu.scholarships"
-    url        = "/scholarships/"
-    weight     = 8
 
-#[[menu.main]]
-#    name       = "Parents Night Out"
-#    identifier = "menu.pno"
-#    url        = "/parents-night-out/"
-#    weight     = 8
+############################# Plugins ##############################
 
-[[menu.main]]
-    name       = "Instructors"
-    identifier = "menu.instructor"
-    url        = "/instructor/"
-    weight     = 9
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/swiper/swiper-bundle.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/brands.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/solid.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/regular.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/icons.css"
+# [[params.plugins.css]]
+# link = "plugins/glightbox/glightbox.css"
 
-[[menu.main]]
-    identifier = "contact"
-    name       = "Contact"
-    url        = "/contact/"
-    weight     = 10
-
-[params]
-    viewMorePostLink = "/blog/"
-    author = "Nora Evans"
-    defaultKeywords = [
-        "Charlottesville coding tutor", "Charlottesville Python tutor", 
-        "Charlottesville math tutor", 
-        "cvillecoding", "coding", "tutor", "private tutor", 
-        "UVA tutor", "computer science tutor", "software engineering tutor", 
-        "CS tutor", "coding teacher", "Charlottesville coding", "Charlottesville"]
-    mainSections = ["blog"]
-    
-    defaultDescription = "Coding classes for children! Coding and math tutor for all ages!"
-    defaultTwiterDescription = "Math and Coding Classes and Tutoring in Charlottesville" 
-
-    about_us = "<p>Enrichment and tutoring in Math and Computing for any student who wants to learn. <br>Led by Ana Nora Evans in Charlottesville, Virginia.</p>"
-
-    # Format dates with Go's time formatting
-    date_format = "2 January 2006"
-
-    brand_img = "/images/brand/blue-ridge-highlands.webp"
-    brand = "Blue Ridge Boost"
-    
-    contact_url = "/contact"
-    address = """<strong>Blue Ridge Boost</strong>
-        <br>2171 Ivy Road
-        <br>Charlottesville, Virginia 22902
-        <br><strong>Email: </strong>  <a href="mailto:nora@blueridgeboost.com" style="color:#EEFFFF"><em>nora@blueridgeboost.com</em></a>
-        <br><strong>Phone: </strong> ‪(434) 260-0636
-      </p>
-      """
-    enableGoogleMaps = false
-    latitude = "36.5251359"
-    longitude = "-90.9888306"
-    direction = "222 Court Square, Charlottesville, VA 22902"
-
-[permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
-
-# Enable or disable top bar with social icons
-[params.topbar]
-    enable = true
-
-[params.carouselHomepage]
-    # All carousel items are defined in their own files. You can find example items
-    # at 'exampleSite/data/carousel'.
-    # For more informtion take a look at the README.
-    enable = true
-
-[params.mainHomepage]
-    enable = true
-
-[params.recent_posts]
-    enable = true
-    title = "From our blog"
-    subtitle = ""
-    hide_summary = false
-
-[taxonomies]
-
-[build]
-  writeStats = true
-
-[module]
-    [[module.mounts]]
-      source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-      target = "assets/js/bootstrap.bundle.min.js"
-
-    [[module.mounts]]
-      source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-      target = "assets/js/bootstrap.bundle.min.js"
-      
-    [[module.mounts]]
-      source = "node_modules/lazysizes/"
-      target = "assets/lazysizes/"
-
-    [[module.mounts]]
-        source = "assets"
-        target = "assets"
-
-  
-  
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/swiper/swiper-bundle.js"
+[[params.plugins.js]]
+link = "plugins/webfont/webfont-loader-2.js"
+[[params.plugins.js]]
+link = "plugins/cookie.js"
+[[params.plugins.js]]
+link = "plugins/lazy-loader.js"
+[[params.plugins.js]]
+link = "js/tab.js"
+# [[params.plugins.js]]
+# link = "plugins/glightbox/glightbox.js"
+# [[params.plugins.js]]
+# link = "js/gallery-slider.js"

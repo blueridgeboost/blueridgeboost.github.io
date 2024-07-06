@@ -1,0 +1,50 @@
+{{ $price := .Params.price | default "0" }}
+{{ $data_item_name := .Params.data_item_name | default "Missing Name" }}
+{{ $data_item_max_quantity :=  .Params.data_item_max_quantity | default "3" }}    
+    
+<div class="container">
+    {{if .Params.compact}}
+    <div class="row">
+        <div class="col">
+            <div class="d-flex flex-wrap gap-3">
+                {{ range .Params.meetings }}
+                {{ $meeting_time := time.AsTime .meeting }}
+                {{ if ge (sub ($meeting_time.Unix) (now.Unix)) 0 }}        
+                <div class="">
+                    <button class="snipcart-add-item"
+                    data-item-id= "{{ .data_item_id }}"
+                    data-item-price="{{ $price }}"
+                    data-item-description="{{ .meeting }}"
+                    data-item-name="{{ $data_item_name }}"
+                    data-item-max-quantity="{{ $data_item_max_quantity }}">
+                    Add to cart {{ .meeting }}
+                    </button>
+                </div>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+{{ else }}
+    {{ range .Params.meetings }}
+    {{ $meeting_time := time.AsTime .meeting }}
+    {{ if ge (sub ($meeting_time.Unix) (now.Unix)) 0 }}
+    <div class="row">
+        <div class="col-2">
+            <div class="">
+                <button class="snipcart-add-item"
+                data-item-id= "{{ .data_item_id }}"
+                data-item-price="{{ $price }}"
+                data-item-description="{{ .meeting }}"
+                data-item-name="{{ $data_item_name }}"
+                data-item-max-quantity="{{ $data_item_max_quantity }}">
+                Add to cart {{ .meeting }}
+                </button>
+            </div>
+        </div>
+        <div class="col-10">{{ .data_item_description }}</div>
+    </div>    
+    {{ end }}
+    {{ end }}
+    {{ end }}
+</div>

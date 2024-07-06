@@ -1,0 +1,26 @@
+{{define "main"}}
+
+{{ partial "page-header.html" . }}
+
+<section id="girl_powered_fridays" class="section">
+
+    {{ partial "one-time-class" . }}
+
+    <div class="container">
+        {{ $events := where site.RegularPages "Section" .Params.section }}
+        {{range sort $events  .Params.weight "asc" }}
+        <div class="row" id="{{ .Params.event_id }}">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        {{ .Params.description }}
+                    </div>
+                </div>
+                {{ partial "one-time-meetings.html" . }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
+
+{{end}}

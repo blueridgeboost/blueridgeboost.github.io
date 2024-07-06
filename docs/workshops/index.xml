@@ -1,65 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Workshops on Coding and Math Classes and Tutoring in Charlottesville</title>
-    <link>https://blueridgeboost.com/workshops/</link>
-    <description>Recent content in Workshops on Coding and Math Classes and Tutoring in Charlottesville</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://blueridgeboost.com/workshops/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Intro to AP Computer Science | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/workshops/java/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blueridgeboost.com/workshops/java/</guid>
-      <description>5 July &amp;ndash; 9 August; 1:30 pm to 5:30 pm. An introduction to the Java programming language
-The workshop is recommended to students with prior coding experience. 12 July &amp;ndash; 16 August; 1:30 pm to 5:30 pm. Basic Data Structure in Java
-The workshop is recommended to students who already know the basics of the Java language or complete the previous week workshop.
-Teacher: Nora.Payment is due on the first day of class.</description>
-    </item>
-    
-    <item>
-      <title>Intro to Calculus | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/workshops/intro-to-calculus/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blueridgeboost.com/workshops/intro-to-calculus/</guid>
-      <description>29 July &amp;ndash; 2 August; 1:30 pm to 5:30 pm.
-High-school students planing to take AP Calculus AB.
-Use the test linked here to decide if you are ready for the class. Each learning session consists of a short lesson followed by problem-solving.Teacher: Hillary
-Minimum enrollment: 5 students, Maxium 10 students.
-Payment is due on the first day of class.
-Sign up
-Daily ScheduleDay	TopicsMondayTrig Functions, Logarithms, and ExponentialsTuesdaySets and FunctionsWednesdayLimitsThursdayContinuityFridayReview</description>
-    </item>
-    
-    <item>
-      <title>Intro to Counting and Probability Workshop | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/workshops/intro-to-counting-and-probability/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blueridgeboost.com/workshops/intro-to-counting-and-probability/</guid>
-      <description>5 &amp;ndash; 9 August; 1:30 pm to 5:30 pm. Advanced middle-school students.
-Use the test linked here to decide if you are ready for the class. Use the test linked here to decide if you already know the content.
-Each learning session consists of a short lesson followed by problem-solving.Teacher: Hillary
-Minimum enrollment: 5 students, Maxium 10 students.
-Payment is due on the first day of class.
-Sign up</description>
-    </item>
-    
-    <item>
-      <title>Intro to Number Theory Workshop | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/workshops/intro-to-number-theory/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blueridgeboost.com/workshops/intro-to-number-theory/</guid>
-      <description>12 &amp;ndash; 16 August; 1:30 pm to 5:30 pm. Advanced middle-school students.
-Use the test linked here to decide if you are ready for the class. Use the test linked here to decide if you already know the content.
-Each learning session consists of a short lesson followed by problem-solving.Teacher: Hillary
-Minimum enrollment: 5 students, Maxium 10 students.
-Payment is due on the first day of class.
-Sign up</description>
-    </item>
-    
-  </channel>
-</rss>

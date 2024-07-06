@@ -1,0 +1,31 @@
+<div class="row" id="{{ .Params.event_id }}">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                {{ .Params.description }}
+            </div>
+        </div>
+        {{ range .Params.meetings }}
+            <!-- past check -->
+            {{ $meeting_time := time.AsTime .meeting }}
+            <div class="row">
+                <div class="col">
+                {{ if ge (sub ($meeting_time.Unix) (now.Unix)) 0 }}
+                    
+                    <button class="snipcart-add-item"
+                        data-item-id= "{{ .data_item_id }}"
+                        data-item-price="0"
+                        data-item-description="{{ .data_item_description }}"
+                        data-item-name="Girl Powered Fridays"
+                        data-item-max-quantity="1">
+                        Add to cart
+                    </button>
+
+                    {{ .meeting }}. {{ .data_item_description }}
+                    
+                {{ end }}
+                </div>
+            </div>
+        {{ end }}
+    </div>
+</div>

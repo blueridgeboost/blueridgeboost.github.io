@@ -1,0 +1,27 @@
+{{define "main"}}
+
+{{ partial "page-header.html" . }}
+
+<section id="instructors" class="section">
+  <h2>Leadership</h2>
+
+  {{if .Params.owner.enable}}
+    {{partial "instructor.html" .Params.owner }}
+  {{end}}
+
+  {{if .Params.coordinator.enable}}
+    {{partial "instructor.html" .Params.coordinator }}
+  {{end}}
+
+
+  <h2>Instructors</h2>
+
+  {{ range .Params.instructors }}
+    {{if .enable}}
+      {{partial "instructor.html" . }}
+    {{end}}
+  {{end}}
+
+</section>
+
+{{end}}

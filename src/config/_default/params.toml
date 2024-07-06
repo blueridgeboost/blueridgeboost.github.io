@@ -1,0 +1,120 @@
+math=true
+
+#################### default parameters ################################
+# favicon
+favicon = "images/brand/blue-ridge-highlands-cropped.png"
+# logo
+logo = "images/brand/blue-ridge-highlands-cropped.png"
+logo_darkmode = "#"
+# use `px` or `x` with logo_width, example: "100px".
+# Note: logo_width is not work with .svg file
+logo_width = "80px"
+# if logo_webp set false, will not generate WEBP version of logo | default is true
+logo_webp = true
+# logo text will only show when logo is missing.
+logo_text = "Blue Ridge Boost"
+# theme-mode
+theme_switcher = false
+theme_default = "system" # available options [light/dark/system]
+# Main Sections
+mainSections = []
+# contact form action
+contact_form_action = "https://formspree.io/f/myyawwzg" 
+# contact form works with [https://airform.io/] or [https://formspree.io]
+# google tag manager, see https://developers.google.com/tag-manager/
+google_tag_manager = "G-JV87PS188M" # example: G-XXXXXXXXXX
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
+custom_script = ""
+# copyright
+theme_copyright = true
+copyright = "Copyright by Blue Ridge Boost"
+
+# Preloader
+[preloader]
+enable = true
+preloader = "" # use jpg, png, svg or gif format. example - "images/preloader.gif"
+
+# Navigation button
+[navigation_button]
+enable = false
+label = "Get a Demo"
+link = "get-demo/"
+
+# Crisp Chat
+[crisp_chat]
+enable = false
+crisp_website_id = "9aa449e1-9999-422a-938f-8567982eec6d" # replace this code with yours
+# Check this video tutorial to get your crisp website ID - https://www.youtube.com/watch?v=nW5UX6iVdFc
+
+# seo meta data for OpenGraph / Twitter Card
+[metadata]
+keywords = ["Charlottesville coding for kids", 
+        "Charlottesville Python classes", 
+        "Charlottesville robotics", 
+        "cvillecoding", "coding", "summer camps"]
+description = "Computer coding, robotics, math, and chess"
+author = "Blue Ridge Boost"
+image = "images/brand/blue-ridge-highlands-cropped.png"                           
+# this image will be used as fallback if a page has no image of its own
+
+# matomo tracking: see https://matomo.org/
+[matomo]
+enable = false
+url = ""       # your matomo url
+id = ""        # your matomo id
+
+# baidu analytics: see https://tongji.baidu.com/
+[baidu]
+enable = false
+analytics_id = "" # Your ID
+
+# plausible analytics: see https://plausible.io/
+[plausible]
+enable = false
+domain = ""    # yourdomain.com
+
+# counter analytics: see https://counter.dev/setup.html
+[counter]
+enable = false
+username = ""  # your username
+
+# site verifications
+[site_verification]
+google = "GT-TXZCPHS"   # Your verification code
+bing = ""     # Your verification code
+baidu = ""    # Your verification code
+facebook = "" # Your verification code
+mastodon = "" # Your verification code
+
+# cookies
+[cookies]
+enable = true
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+############################# social site ########################
+[[social]]
+title = "facebook"
+icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://facebook.com/blueridgeboost"
+
+[[social]]
+title = "twitter"
+icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://x.com/blueridgeboost"
+
+[[social]]
+title = "instagram"
+icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://x.com/blueridgeboost"
+
+[[social]]
+title = "github"
+icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://github.com/blueridgeboost"
+
+[[social]]
+title = "linkedin"
+icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.linkedin.com/company/blue-ridge-boost/"

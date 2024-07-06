@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            {{ .Params.intro | markdownify }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <b>Minium enrollment: </b> {{ .Params.min_enrollment | default "4" }}. Maximum enrollment  {{ .Params.max_enrollment | default "12" }}.<br>
+            We will email you three days before the event if the minimum enrollment is met. 
+            In the event that it does not, we will fully refund your payment.<br>
+            <b>Drop off after {{ .Params.drop_off }}. Pick  before {{ .Params.pick_up }}.</b><br>
+            <b>Cost:</b> ${{.Params.price}}.<br>
+            To sign up add the desired dates to cart and checkout. <br>
+            {{ if eq .Params.price "0" }}
+                Should your plans change, please cancel the order.<br>
+                Please consider making a donation for the volunteers helping us.
+            {{ end }}
+        </div>
+    </div>
+</div>
