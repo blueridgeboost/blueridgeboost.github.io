@@ -7739,6 +7739,19 @@ body.dark {
   body.dark .h6 {
     color: #fff; }
 
+.btn-description {
+  font-size: larger;
+  text-align: center;
+  color: #005172;
+  font-weight: 1000;
+  padding-top: 5px;
+  margin-bottom: 25px;
+  width: 250px; }
+
+.mtgbtnwidth {
+  width: 250px;
+  display: inline-block; }
+
 body {
   background-color: #fff;
   overflow-x: hidden; }
