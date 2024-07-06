@@ -108,6 +108,3 @@ suffixes = ["webmanifest"]
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
 rel = "manifest"
-
-[params.variable]
-color_primary = "orange"

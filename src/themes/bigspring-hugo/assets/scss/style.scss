@@ -17,7 +17,6 @@ $white: {{.white | default "#fff"}};
 $light: {{.light | default "#EDF6F5"}};
 $dark: {{.dark | default "#1b2229"}};
 
-
 // Font Variables
 $font-size: {{.font_size | default "32px"}};
 $font-scale: {{.font_scale | default "1.25"}};
