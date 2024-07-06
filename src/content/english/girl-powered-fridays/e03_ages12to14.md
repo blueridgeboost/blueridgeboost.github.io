@@ -2,7 +2,7 @@
 draft: false
 title: "Girl Powered Fridays"
 page_title: "Girl Powered Fridays"
-description: "Events for girls ages twelve to fourteen"
+description: "Events for girls ages 12 to 14"
 event_id: "gr68"
 meetings:
 - meeting: "2024-10-11"
