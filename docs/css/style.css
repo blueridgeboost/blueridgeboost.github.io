@@ -18932,6 +18932,12 @@ body.dark {
   padding-top: 10px;
   padding-bottom: 10px; }
 
+.larger {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-large; }
+
 body {
   background-color: #fff;
   overflow-x: hidden; }
