@@ -15,6 +15,7 @@
     "theme-setup": "node ./scripts/themeSetup.js",
     "format": "prettier -w ."
   },
+  
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "postcss": "^8.4.38",
