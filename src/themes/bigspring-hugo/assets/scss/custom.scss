@@ -6,3 +6,17 @@
     font-size:larger;
     font-weight: 1000;
 }
+
+   
+.card-body {
+    font-size: 0.9rem;
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    background-color:rgb(247, 248, 212); 
+}
+  
+  .card-title {
+    margin-bottom: var(--bs-card-title-spacer-y);
+    color: var(--bs-card-title-color); }
+  }
+

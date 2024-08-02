@@ -1,5 +1,5 @@
 html {
-  font-size: $font-size;
+  font-size: 1.5rem;
 }
 
 body {
@@ -139,4 +139,91 @@ body.dark {
   margin-left: auto;
   margin-right: auto;
   font-size: x-large;
+}
+
+.filter-range {
+  background-color: azure;
+  padding-top: 0px;
+  padding-left: 8px;
+  padding-bottom: 0px;
+  margin-left: 25px;
+  text-indent: 0px;
+}
+
+.filter-range p {
+  margin-bottom: 0rem;
+  margin-left: 25px;
+  text-indent: -5px;
+}
+
+
+.filter-box {
+  padding-right: 1.0rem;
+  padding-left: 0.2rem;
+}
+
+input[type=checkbox] {
+  transform: scale(1.5);
+}
+
+.class-cards {
+  padding-top: 0.5rem;
+  margin: 0 auto;
+  width: 95%;
+}
+
+span.level-elite {
+  color: goldenrod;
+}
+
+span.level-elite a {
+    color: gold;
+}
+
+span.level-cadets {
+  color: green;
+}
+
+span.level-cadets a {
+    color: green;
+}
+
+span.level-sculptors {
+  color: blue;
+}
+
+span.level-sculptors a {
+    color: blue;
+}
+
+span.level-architects {
+  color: violet;
+}
+
+span.level-architects a {
+    color: violet;
+}
+
+span.level-forgers {
+  color: purple;
+}
+
+span.level-forgers a {
+    color: purple;
+}
+
+span.level-competition {
+  color: gold;
+}
+
+span.level-competition a {
+    color: gold;
+}
+
+span.level-rookies {
+  color: pink;
+}
+
+span.level-rookies a {
+    color: pink;
 }

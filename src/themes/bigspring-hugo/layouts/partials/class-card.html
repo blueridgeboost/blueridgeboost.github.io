@@ -1,14 +1,52 @@
 {{ $id := .Params.product_id }}
 
-<div class="card m-2 content-item" id = "class-{{ $id }}"
+<div
+    id = "class-{{ $id }}"
     data-day='{{ delimit .Params.day_tags "#" }}' 
     data-grade='{{ delimit .Params.grade_tags "#" }}' 
     data-subject='{{ delimit .Params.subject_tags "#" }}'
     >
     <div class="card-body">
         <p><b><a href="{{ .RelPermalink }}">{{ .Params.page_title }}</a></b></p>
-        <b>{{.Params.start_time}} to {{.Params.end_time}} on {{ range .Params.day_tags }} {{.}} &nbsp; {{end}}.</b> <br>
-        {{.Params.difficulty}}<br>
+        <b>{{.Params.start_time}} &ndash; {{.Params.end_time}} on 
+            {{ range .Params.day_tags }} {{.}} {{end}}
+        </b> <br>
+        {{ if eq .Params.difficulty "Bot Builders Elite" }}
+            <span class="level-elite"><a href="#elite">
+                {{ .Params.difficulty }}
+            </a></span>
+        {{ else if eq .Params.difficulty "Code Cadets" }}
+            <span class="level-cadets"><a href="#cadets">
+                {{ .Params.difficulty }}                
+            </a></span>
+        {{ else if eq .Params.difficulty "Skill Sculptors" }}
+            <span class="level-sculptors"><a href="#sculptors">
+                {{ .Params.difficulty }}                
+            </a></span>
+        {{ else if eq .Params.difficulty "Algorithm Architects" }}
+            <span class="level-architects"><a href="#architects">
+                {{ .Params.difficulty }}                
+            </a></span>
+        {{ else if eq .Params.difficulty "Foundation Forgers" }}
+            <span class="level-forgers"><a href="#forgers">
+                {{ .Params.difficulty }}                
+            </a></span>
+        {{ else if eq .Params.difficulty "Competition" }}
+            <span class="level-competition"><a href="#competition">
+                {{ .Params.difficulty }}                
+            </a></span>            
+        {{ else if eq .Params.difficulty "Robo Rookies" }}
+            <span class="level-rookies"><a href="#rookies">
+                {{ .Params.difficulty }}                
+            </a></span>            
+
+        {{ else }}
+            <a href="#levels">
+            {{ .Params.difficulty }}
+            </a>
+        {{ end }}
+        
+        <br>
         Grades: {{ with .Params.grade_tags }}
             {{ if gt (len .) 0 }}
                 {{ index . 0 }}
