@@ -3,7 +3,20 @@
         <div class="row">
         <div class="col-1 d-none d-xl-block"></div>
         <div class="col-xl-3 col-lg-4 col-md-12">
-            <a href="{{ .Params.product_id }}" class=" btn btn-primary m-2">Add to Cart</a>
+            {{ $id := .Params.product_id }}
+            <form id="camp-{{ $id }}">
+                <div class="radio-group" >
+                    {{ range .Params.payment }}
+                    <label> <input type="radio" name="payment-{{ $id }}" value="{{.name}}" > {{.name}} (${{.price}}) </label>
+                    {{ end }}
+                </div>
+            </form>
+            <div class="spacybutton">
+            <a href="javascript: ecwid_add_product_to_cart(
+                        {{ $id }},
+                        get_class_options( {{ $id }} ) );"
+                class="btn-small btn-primary">Add to Cart</a>
+            </div>
         </div>
         <div class="col-xl-7 col-lg-8 col-md-12">
             {{.Params.summary | markdownify}} 
