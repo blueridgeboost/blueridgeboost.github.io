@@ -6,23 +6,11 @@
 
     {{ partial "one-time-class" . }}
 
-    <div class="container">
-        {{ $events := where site.RegularPages "Section" .Params.section }}
-        {{ range sort $events .Params.weight "asc" }}
-        <div class="row" id="{{ .Params.event_id }}">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="eventdescription mtgbtnwidth">
-                            {{ .Params.description }}
-                        </div>
-                    </div>
-                </div>
-                {{ partial "one-time-meetings.html" . }}
-            </div>
-        </div>
-        {{ end }}
-    </div>
+    {{ $events := where site.RegularPages "Section" .Params.section }}
+    {{ range sort $events .Params.weight "asc" }}
+        {{ partial "gpf-meetings.html" . }}
+    {{ end }}
+    
 </section>
 
 {{end}}

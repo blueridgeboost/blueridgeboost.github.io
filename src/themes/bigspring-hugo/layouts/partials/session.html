@@ -1,0 +1,28 @@
+<div class="container m-2 p-2">
+    <div class="row alt-table-header"><div class = "col-12"><center>{{ .title }}</center></div></div>
+    <div class="row alt-light-row">
+        <div class="col-12">
+            <b>Monday.</b> {{ .monday | markdownify }}
+        </div>
+    </div>
+    <div class="row alt-dark-row">
+        <div class="col-12">
+            <b>Tuesday.</b> {{ .tuesday | markdownify }}
+        </div>
+    </div>
+    <div class="row alt-light-row">
+        <div class="col-12">
+            <b>Wednesday.</b> {{ .wednesday | markdownify }}
+        </div>
+    </div>
+    <div class="row alt-dark-row">
+        <div class="col-12">
+            <b>Thursday.</b> {{ .thursday | markdownify }}
+        </div>
+    </div>
+    <div class="row alt-light-row">
+        <div class="col-12 ">
+            <b>Friday.</b> {{ .friday | markdownify }}
+        </div>
+    </div>
+</div>

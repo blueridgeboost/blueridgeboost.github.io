@@ -1,0 +1,37 @@
+{{ $id := .Params.product_id }}
+
+<div class="card m-2 content-item" id = "class-{{ $id }}"
+    data-day='{{ delimit .Params.day_tags "#" }}' 
+    data-grade='{{ delimit .Params.grade_tags "#" }}' 
+    data-subject='{{ delimit .Params.subject_tags "#" }}'
+    >
+    <div class="card-body">
+        <p><b><a href="{{ .RelPermalink }}">{{ .Params.page_title }}</a></b></p>
+        <b>{{.Params.start_time}} to {{.Params.end_time}} on {{ range .Params.day_tags }} {{.}} &nbsp; {{end}}.</b> <br>
+        {{.Params.difficulty}}<br>
+        Grades: {{ with .Params.grade_tags }}
+            {{ if gt (len .) 0 }}
+                {{ index . 0 }}
+                {{ if gt (len .) 1 }}
+                    to {{ index . (sub (len .) 1) }}
+                {{ end }}
+            {{ end }}
+        {{ end }}<br>
+
+        {{/*  <p>{{ .summary | markdownify }} </p>  */}}
+
+        <form id="camp-{{ $id }}">
+            <div class="radio-group" >
+                {{ range .Params.payment }}
+                <label> <input type="radio" name="payment-{{ $id }}" value="{{.name}}" > {{.name}} (${{.price}}) </label>
+                {{ end }}
+            </div>
+        </form>
+        <div class="spacybutton">
+        <a href="javascript: ecwid_add_product_to_cart(
+                    {{ $id }},
+                    get_class_options( {{ $id }} ) );"
+            class="btn-small btn-primary">Add to Cart</a>
+        </div>
+    </div>
+</div>

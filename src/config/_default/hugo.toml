@@ -108,3 +108,9 @@ suffixes = ["webmanifest"]
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
 rel = "manifest"
+
+############################# Taxonomies #############################
+[taxonomies]
+  day_tag = "day_tags"
+  grade_tag = "grade_tags"
+  subject_tag = "subject_tags"

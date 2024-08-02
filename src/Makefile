@@ -18,6 +18,7 @@ html:
 
 copy:
 	cp ../CNAME $(DESTINATION)
+#	cp -r data/.well-known $(DESTINATION)
 
 
 github: clean html copy 

@@ -1,0 +1,22 @@
+<div>
+<b>Filter by day:</b> 
+    {{ range $tag := (slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" "Saturday" "Sunday") }}
+    <label>
+        <input type="checkbox" class="day-filter" value="{{ $tag }}" onchange="filterClasses()"> {{ $tag }}
+    </label>
+    {{ end }}
+<br>
+<b>Filter by grade:</b>
+    {{ range $tag := (slice "PreK" "K" "1st" "2nd" "3rd" "4th" "5th" "6th" "7th" "8th" "9th" "10th" "11th" "12th") }}
+    <label>
+        <input type="checkbox" class="grade-filter" value="{{ $tag }}" onchange="filterClasses()"> {{ $tag }}
+    </label>
+    {{ end }}
+<br>
+<b>Filter by subject:</b>
+    {{ range $tag := (slice "Math" "Computer Coding" "Robotics") }}
+    <label>
+        <input type="checkbox" class="subject-filter" value="{{ $tag }}" onchange="filterClasses()"> {{ $tag }}
+    </label>
+    {{ end }}
+</div>

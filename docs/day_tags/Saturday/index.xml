@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Saturday on Computer Science - Robotics - Math - Computer Coding - Chess in Charlottesville </title>
+    <link>https://blueridgeboost.com/day_tags/Saturday/</link>
+    <description>Recent content in Saturday on Computer Science - Robotics - Math - Computer Coding - Chess in Charlottesville </description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 12 Jul 2021 00:00:00 -0400</lastBuildDate>
+    <atom:link href="https://blueridgeboost.com/day_tags/Saturday/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Girl Powered First Tech Challenge | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Girl_Powered_FTC/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
+      <guid>https://blueridgeboost.com/classes/Girl_Powered_FTC/</guid>
+      <description>This is an inclusive STEM class with a focus on empowering girls. While all genders are welcome and encouraged to participate, we strive to maintain a majority female enrollment to address historical underrepresentation in STEM fields. Our goal is to create a supportive environment that inspires girls to explore and excel in science, technology, engineering, and mathematics.</description>
+    </item>
+    <item>
+      <title>Girl Powered Vex IQ Team! | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Girl_Powered_Vex_IQ_Team/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
+      <guid>https://blueridgeboost.com/classes/Girl_Powered_Vex_IQ_Team/</guid>
+      <description>Calling all creative, curious, and tech-savvy girls and their supporters! We&#39;re forming a new majority-girl VEX IQ robotics team and we want YOU to be part of it!&#xA;What is VEX IQ?&#xD;An exciting robotics competition for elementary and middle school students&#xD;Design, build, and program your own robot&#xD;Compete in fun challenges&#xD;No experience needed! We&#39;re looking for:&#xD;Future engineers and inventors&#xD;Coders and problem-solvers&#xD;Team players and leaders&#xD;Girls who love to learn and have fun!</description>
+    </item>
+    <item>
+      <title>Java for FTC: Robot Programming Essentials | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Java_for_FTC_Robot_Programming_Essentials/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
+      <guid>https://blueridgeboost.com/classes/Java_for_FTC_Robot_Programming_Essentials/</guid>
+      <description>The FIRST Tech Challenge (FTC) OnBot Java Course is designed to introduce students to the fundamentals of programming in Java within the context of robot development and competition. This course covers essential programming concepts such as variables, control structures, and object-oriented programming, as well as specific skills needed to program FTC robots using the OnBot Java environment. Students will learn how to write, test, and debug code for various robot functions like movement, sensor integration, and autonomous navigation. The course emphasizes hands-on learning, problem-solving, and teamwork, preparing participants for success in FTC competitions and beyond.</description>
+    </item>
+  </channel>
+</rss>

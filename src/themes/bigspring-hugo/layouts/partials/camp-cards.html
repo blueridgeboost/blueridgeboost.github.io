@@ -1,0 +1,55 @@
+<div class="container">
+    {{ range .  }}
+        <div class="row">
+            <div class="col-1 d-none d-xl-block"></div>
+            <div class="col-xl-10 col-lg-12">
+                <div class="d-flex flex-wrap flex-lg-nowrap justify-content-evenly align-items-center">
+                    <div class="p-2 flex-shrink-1">
+                        {{ if isset .Params "icon" }}
+                            <a href="{{ .RelPermalink }}">
+                                {{ partial "image" (dict "Src" .Params.icon "Alt" .Params.page_title "Size" "400x300") }}
+                            </a>
+                        {{ end }}
+                    </div>
+                    <div class="p-2">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center flex-wrap">
+                                <div class="p-2 flex-grow-1">
+                                    <a href="{{ .RelPermalink }}">
+                                        <h5 class="card-title">{{ .Params.camp_name | markdownify }}</h5>
+                                    </a>
+                                </div>
+                                <div class="p-2">
+                                    {{ $id := .Params.product_id }}
+                                    {{range .Params.camp_options}}
+                                        <a href="javascript: ecwid_add_product_to_cart(
+                                            { id : {{ $id }},
+                                                quantity: 1, 
+                                                options: {
+                                                    type: '{{ . }}',
+                                                } 
+                                            });"
+                                            class=" btn-small btn-primary m-2">{{ . }}</a> &nbsp;
+                                    {{ end }}
+                                </div>
+                            </div>
+                            <div class="container"> 
+                                <p class="card-text"> 
+                                {{ if eq .Params.camp_type "Workshop" }}
+                                    <b>{{ .Params.ages }}</b> <br>
+                                {{ else }}
+                                    <b>Ages {{ .Params.ages }} </b> &mdash; 
+                                {{ end }}
+                                {{ time.Format "Mon, 2 Jan 06" (time.AsTime .Params.start_date) }} to 
+                                {{ time.Format "Mon, 2 Jan 06" (time.AsTime .Params.end_date) }}</p>
+                                <p>
+                                    {{ .Params.summary | markdownify }}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    {{ end }}
+</div>

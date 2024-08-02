@@ -10,19 +10,27 @@
     weight      = 2
 
 [[main]]
+    name        = "Events"
+    weight      = "3"
+
+
+[[main]]
     name       = "Parents Night Out"
     url        = "/parents-night-out/"
     weight     = 3
+    parent     = "Events"
 
 [[main]]
     name       = "Girl Powered Fridays"
     url        = "/girl-powered-fridays/"
     weight     = 4
+    parent     = "Events"
 
 [[main]]
     name       = "Chess Club"
     url        = "/chess/"
     weight     = 5
+    parent     = "Events"
 
 [[main]]
     name       = "Scholarships"
@@ -45,6 +53,24 @@
     name       = "Instructors"
     url        = "/instructors/"
     weight     = 2
+
+[[main]]
+    parent     = "About Us"
+    name       = "Terms and Conditions"
+    url        = "/terms/"
+    weight     = 3
+
+[[main]]
+    parent     = "About Us"
+    name       = "Privacy Policy"
+    url        = "/privacy-policy/"
+    weight     = 4
+
+[[main]]
+    parent     = "About Us"
+    name       = "Refund Policy"
+    url        = "/refund-policy/"
+    weight     = 4
 
 
 [[main]]

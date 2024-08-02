@@ -32,30 +32,28 @@ img {
   height: auto;
 }
 
-a,
-a:hover,
-a:focus {
-  text-decoration: none;
-}
+// a,
+// a:hover,
+// a:visited,
+// a:focus {
+//   text-decoration: none;
+//   color: $darkest-blue;
+// }
 
-a.text-dark:hover {
-  color: $color-primary !important;
-}
+// a.text-dark:hover {
+//   color: $color-primary !important;
+// }
 
-a,
-button,
-select {
-  cursor: pointer;
-  transition: 0.2s ease;
+// a,
+// button,
+// select {
+//   cursor: pointer;
+//   transition: 0.2s ease;
 
-  &:focus {
-    outline: 0;
-  }
-}
-
-a:hover {
-  color: $color-primary;
-}
+//   &:focus {
+//     outline: 0;
+//   }
+// }
 
 .section {
   padding-top: 0.2rem;
@@ -322,7 +320,7 @@ form label {
     margin-top: 1.4rem;
     margin-bottom: 0.7rem;
   }
-
+  
   b,
   strong {
     font-weight: 500;
@@ -431,4 +429,20 @@ form label {
       margin-bottom: 0 !important;
     }
   }
+}
+
+
+
+div.row.alt-table-header {
+  background-color: $darkest-blue;
+  font-weight: 700;
+  color: $white;
+}
+  
+div.row.alt-dark-row {
+  background-color: $lightest-blue;
+}
+
+div.row.alt-light-row {
+  background-color: $white;
 }
