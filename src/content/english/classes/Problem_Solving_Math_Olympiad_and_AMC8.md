@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Problem Solving: Math Olympiad, and AMC8 | Blue Ridge Boost"
-page_title: "Problem Solving: Math Olympiad, and AMC8"
+page_title: "Problem Solving"
+page_subtitle: "Math Olympiad and AMC8"
 description: ""
 summary: ""
 section: "classes"

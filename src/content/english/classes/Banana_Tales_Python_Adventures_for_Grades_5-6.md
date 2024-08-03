@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Banana Tales: Python Adventures for Grades 5-6 | Blue Ridge Boost"
-page_title: "Banana Tales: Python Adventures for Grades 5-6"
+page_title: "Banana Tales"
+page_subtitle: "Python Adventures for Grades 5-6"
 description: "Game-based learning with interactive challenges"
 
 summary: "Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, functions, and introduces more complex topics like classes, string manipulation, and sorting algorithms. With step-by-step instructions, interactive quizzes, and a supportive learning environment, this course provides a fun and effective way for 5th and 6th graders to develop their programming skills."

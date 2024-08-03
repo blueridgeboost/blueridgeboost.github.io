@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Algebra 1 and 2 Boost | Blue Ridge Boost"
-page_title: "Algebra 1 and 2 Boost"
+page_title: "Algebra Boost"
+page_subtitle: "Algebra 1 and Algebra 2"
 description: "This class is suitable for students who need reinforcement of classroom concepts though extra practice with typical grade-level problems."
 summary: "This class is suitable for students who need reinforcement of classroom concepts though extra practice with typical grade-level problems."
 section: "classes"

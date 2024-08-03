@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Algebra 1 and 2 Mastery| Blue Ridge Boost"
-page_title: "Algebra 1 and 2 Mastery"
+page_title: "Algebra Mastery"
+page_subtitle: "Algebra 1 and Algebra 2"
 description: ""
 summary: ""
 section: "classes"

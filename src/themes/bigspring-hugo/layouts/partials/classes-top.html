@@ -1,31 +1,53 @@
 <section class="section">
     <div class="container">
         <div class="row">
-        <div class="col-1 d-none d-xl-block"></div>
-        <div class="col-xl-3 col-lg-4 col-md-12">
+        <div class="col-xl-1 col-lg-1 col-md-1"></div>
+        <div class="col-xl-7 col-lg-8 col-md-12">
+            {{.Params.summary | markdownify}} 
+        </div>
+        <div class="col-xl-4 col-lg-5 col-md-12">
             {{ $id := .Params.product_id }}
+            <div class="card"
+                style="padding: 0.5rem; background-color:aliceblue"
+                id = "class-{{ $id }}"
+                data-day='{{ delimit .Params.day_tags "#" }}' 
+                data-grade='{{ delimit .Params.grade_tags "#" }}' 
+                data-subject='{{ delimit .Params.subject_tags "#" }}'
+            >
             <form id="camp-{{ $id }}">
                 <div class="radio-group" >
+                    {{ $first := true }}
                     {{ range .Params.payment }}
-                    <label> <input type="radio" name="payment-{{ $id }}" value="{{.name}}" > {{.name}} (${{.price}}) </label>
+                    <label> 
+                        {{ if $first }}
+                            <input type="radio" name="payment-{{ $id }}" value="{{.name}}" checked> 
+                            {{ $first = false }}
+                        {{ else }}
+                            <input type="radio" name="payment-{{ $id }}" value="{{.name}}"> 
+                        {{ end }}
+                        {{.name}} (${{.price}}) 
+                    </label>
                     {{ end }}
                 </div>
             </form>
+            <center>
             <div class="spacybutton">
             <a href="javascript: ecwid_add_product_to_cart(
                         {{ $id }},
                         get_class_options( {{ $id }} ) );"
                 class="btn-small btn-primary">Add to Cart</a>
             </div>
+            </center>
         </div>
-        <div class="col-xl-7 col-lg-8 col-md-12">
-            {{.Params.summary | markdownify}} 
-        </div>
-        </div>  
+    </div>
+        <div class="container">
         <div class="row">
         <div class="col-lg-10 mx-auto">
-            <div class="content">{{ .Content }}</div>
+            <div class="class-content">
+                <p></p>
+                {{ .Content }}</div>
         </div>
         </div>
+    </div>
     </div>
 </section>

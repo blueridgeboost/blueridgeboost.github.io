@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Math Mastery for First and Second Graders | Blue Ridge Boost"
-page_title: "Math Mastery for First and Second Graders"
+page_title: "Math Mastery"
+page_subtitle: "For First and Second Graders"
 description: ""
 summary: ""
 section: "classes"

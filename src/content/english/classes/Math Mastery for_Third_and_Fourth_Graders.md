@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Math Mastery for Third and Fourth Graders | Blue Ridge Boost"
-page_title: "Math Mastery for Third and Fourth Graders"
+page_title: "Math Mastery"
+page_subtitle: "For Third and Fourth Graders"
 description: ""
 summary: ""
 section: "classes"

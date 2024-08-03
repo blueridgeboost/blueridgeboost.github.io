@@ -3,6 +3,7 @@ date: "2021-07-12"
 draft: false
 title: "Girl-Powered Drone Squad | Blue Ridge Boost"
 page_title: "Girl-Powered Drone Squad"
+page_subtitle: "Aerial Drone Competition"
 description: "Join Our Rookie Girl Powered Aerial Drone Team!"
 summary: "Calling All Future Female Drone Pilots and Engineers! Join our Girl-Powered Aerial Drone Competition Team! We're forming an all-girl team for the REC Foundation Aerial Drone Competition"
 section: "classes"

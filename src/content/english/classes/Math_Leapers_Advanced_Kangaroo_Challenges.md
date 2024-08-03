@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Math Leapers: Advanced Kangaroo Challenges | Blue Ridge Boost"
-page_title: "Math Leapers: Advanced Kangaroo Challenges"
+page_title: "Math Leapers"
+page_subtitle: "Advanced Kangaroo Challenges"
 description: "Preparation class for the Kangaroo Math Competition for third and fourth graders."
 summary: "Preparation class for the Kangaroo Math Competition. The Kangaroo Mathematics Competition, set for Thursday, March 20, 2025."
 section: "classes"

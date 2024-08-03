@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Middle School Competition Robotics Team | Blue Ridge Boost"
-page_title: "Middle School Competition Robotics Team"
+page_title: "First Lego League/VEX IQ"
+page_subtitle: "Middle School Competition Robotics"
 
 description: "First Lego League Challenge/VEX IQ Robotics Competition"
 summary: ""

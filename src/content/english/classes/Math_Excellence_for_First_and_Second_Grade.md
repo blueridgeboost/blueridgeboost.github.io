@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Math Excellence for First and Second Grade| Blue Ridge Boost"
-page_title: "Math Excellence for First and Second Grade"
+page_title: "Math Excellence"
+page_subtitle: "For First and Second Graders"
 description: ""
 summary: ""
 section: "classes"

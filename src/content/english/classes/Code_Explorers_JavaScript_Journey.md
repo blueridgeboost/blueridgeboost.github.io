@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Code Explorers: JavaScript Journey | Blue Ridge Boost"
-page_title: "Code Explorers: JavaScript Journey"
+page_title: "Code Explorers"
+page_subtitle: "JavaScript Journey"
 description: "Embark on a coding adventure with JavaScript for middle schoolers."
 summary: '"Code Explorers: JavaScript Journey" is an engaging introductory class designed to introduce middle school students to the world of JavaScript programming. This course takes students on an exciting adventure through the fundamentals of coding, using JavaScript as the vehicle for exploration. Through hands-on projects, interactive exercises, and creative problem-solving, students will discover the power of programming while building a solid foundation in JavaScript concepts. The class aims to spark curiosity, foster logical thinking, and empower young learners to create their own web-based projects, setting them on a path to become the next generation of digital innovators.'
 section: "classes"

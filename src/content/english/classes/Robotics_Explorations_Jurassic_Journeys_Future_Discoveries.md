@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Robotics Explorations: Jurassic Journeys & Future Discoveries | Blue Ridge Boost"
-page_title: "Robotics Explorations: Jurassic Journeys & Future Discoveries"
+page_title: "Robotics Explorations"
+page_subtitle: "Jurassic Journeys & Discoveries"
 description: "Sphero Indie Global Challenge (Fall) and First Lego League Discovery (Spring)"
 summary: "Embark on an exciting year-long journey where young learners explore basic robotics concepts through themed challenges, including Jurassic adventures with Sphero indi in the fall and collaborative Lego projects in the spring, fostering critical thinking, teamwork, and creativity."
 

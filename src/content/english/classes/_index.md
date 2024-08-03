@@ -11,41 +11,50 @@ section: "classes"
 ---
 
 <a name="levels"></a>
-<h5>Math Levels Description</h5>
 
-<a name="forgers">
-<b>Foundation Forgers</b>. Suitable for students needing more practice with typical grade-level problems.<br>
+<h3>Math Levels</h3>
+<p>
+<a name="forgers"><span class="level-forgers">
+<b>Foundation Forgers.</b></span> Suitable for students needing more practice with typical grade-level problems.
+</p>
+<p>
+<a name="sculptors"><span class="level-sculptors">
+<b>Skill Sculptors.</b></span> Ideal for students who enjoy grade-level math and aspire to enhance their skills.
+</p>
+<p>
+<a name="maestros"><span class="level-maestros">
+<b>Math Maestros.</b></span> Ideal for students who excel in math and are ready for a challenge.
+</p>
+<p>
+<a name="competition"><span class="level-competition">
+<b>Competition.</b></span> Perfect for students who love math and enjoy tackling challenging problems.
+</p>
 
-<a name="sculptors">
-<b>Skill Sculptors</b>. Ideal for students who enjoy grade-level math and aspire to enhance their skills.<br>
+<h3>Robotics Levels</h3>
 
-<a name="maestros">
-<b>Math Maestros</b>. Ideal for students who excel in math and are ready for a challenge.<br>
-
-<a name="competition">
-<b>Competition</b>. Perfect for students who love math and enjoy tackling challenging problems.<br>
-
-
-<h5>Robotics Levels Description</h5>
-
+<p>
 <a name="rookies">
-<b>Robo Rookies</b>. Ideal for students with little or no exposure to robotics.<br>
+<span class="level-rookies"><b>Robo Rookies.</b></span> Ideal for students with little or no exposure to robotics.
+</p>
+<p>
+<a name="elite"><span class="level-elite">
+<b>Bot Builders Elite.</b></span> Designed for students with robotics experience seeking to elevate their skills through complex challenges.
+</p>
+<p>
+<a name="researchers"><span class="level-researchers">
+<b>Robo Researchers.</b></span> Ideal for ambitious students who embrace innovation, thrive on challenges, and have a passion for tinkering and coding.
+</p>
 
-<a name="elite">
-<b>Bot Builders Elite</b>. Designed for students with robotics experience seeking to elevate their skills through complex challenges.<br>
-
-<a name="researchers">
-<b>Robo Researchers</b>. Ideal for ambitious students who embrace innovation, thrive on challenges, and have a passion for tinkering and coding.<br>
-
-<h5>Computer Coding Levels Description</h5>
-
-<a name="cadets">
-<b>Code Cadets</b>. Perfect for those writing their first lines of code and learning programming basics.<br>
-
-<a name="sorcerers">
-<b>Syntax Sorcerers</b>. For students who have mastered the basics and are ready to craft more complex programs.<br>
-
-<a name="architects">
-<b>Algorithm Architects</b>. Designed for experienced coders ready to build sophisticated applications and tackle advanced concepts.<br>
-
-
+<h3>Computer Coding Levels</h3>
+<p>
+<a name="cadets"><span class="level-cadets">
+<b>Code Cadets.</b></span> Perfect for those writing their first lines of code and learning programming basics.
+</p>
+<p>
+<a name="sorcerers"><span class="level-sorcerers">
+<b>Syntax Sorcerers.</b></span> For students who have mastered the basics and are ready to craft more complex programs.
+</p>
+<p>
+<a name="architects"><span class="level-architects">
+<b>Algorithm Architects.</b></span> Designed for experienced coders ready to build sophisticated applications and tackle advanced concepts.
+</p>

@@ -105,11 +105,6 @@ icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
 link = "https://x.com/blueridgeboost"
 
 [[social]]
-title = "instagram"
-icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "https://x.com/blueridgeboost"
-
-[[social]]
 title = "github"
 icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
 link = "https://github.com/blueridgeboost"

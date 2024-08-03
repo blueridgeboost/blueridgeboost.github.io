@@ -173,11 +173,11 @@ input[type=checkbox] {
 }
 
 span.level-elite {
-  color: goldenrod;
+  color: blue;
 }
 
 span.level-elite a {
-    color: gold;
+    color: blue;
 }
 
 span.level-cadets {
@@ -196,6 +196,14 @@ span.level-sculptors a {
     color: blue;
 }
 
+span.level-sorcerers {
+  color: blue;
+}
+
+span.level-sorcerers a {
+    color: blue;
+}
+
 span.level-architects {
   color: violet;
 }
@@ -205,25 +213,41 @@ span.level-architects a {
 }
 
 span.level-forgers {
-  color: purple;
+  color: green;
 }
 
 span.level-forgers a {
-    color: purple;
+    color: green;
+}
+
+span.level-maestros {
+  color: violet;
+}
+
+span.level-maestros a {
+    color: violet;
 }
 
 span.level-competition {
-  color: gold;
+  color: goldenrod;
 }
 
 span.level-competition a {
-    color: gold;
+    color: goldenrod;
+}
+
+span.level-researchers {
+  color: violet;
+}
+
+span.level-researchers a {
+    color: violet;
 }
 
 span.level-rookies {
-  color: pink;
+  color: green;
 }
 
 span.level-rookies a {
-    color: pink;
+    color: green;
 }

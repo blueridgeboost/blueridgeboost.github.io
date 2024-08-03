@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Math Excellence for Third and Fourth Grade| Blue Ridge Boost"
-page_title: "Math Excellence for Third and Fourth Grade"
+page_title: "Math Excellence"
+page_subtitle: "For Third and Fourth Graders"
 description: ""
 summary: ""
 section: "classes"

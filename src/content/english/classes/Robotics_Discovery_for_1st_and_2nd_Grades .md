@@ -2,8 +2,9 @@
 date: "2021-07-12"
 draft: false
 title: "Robotics Discovery for 1st and 2nd Grades | Blue Ridge Boost"
-page_title: "Robotics Discovery for 1st and 2nd Grades"
-description: "Engaging introduction to robotics for students in grades 3 and 4."
+page_title: "Robotics Discovery"
+page_subtitle: "For 1st and 2nd Graders"
+description: "Engaging introduction to robotics for students in grades 1 and 2."
 summary: "This class offers a fun and gentle introduction to robotics for students in 1st and 2nd grade, progressively building skills and knowledge through Vex 123, Lego Spike Essential, and Sphero Indie Robotics modules over the academic year."
 
 section: "classes"

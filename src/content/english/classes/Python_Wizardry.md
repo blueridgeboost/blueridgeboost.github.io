@@ -3,9 +3,10 @@ date: "2021-07-12"
 draft: false
 section: "classes"
 title: "Advanced Python | Blue Ridge Boost"
-page_title: "Python Wizardry: Unlocking Advanced Features"
+page_title: "Python Wizardry"
+page_subtitle: "Unlocking Advanced Features"
 description: "Python Wizardry: Unlocking Advanced Features"
-summary: "Are you ready to take your Python skills to the next level? Join our in-depth course designed to guide you through some of the most powerful and essential concepts in Python programming. This course is perfect for developers who have a basic understanding of Python and are eager to explore advanced topics."
+summary: "<center><em>Are you ready to take your Python skills to the next level?</em></center> Join our in-depth course designed to guide you through some of the most powerful and essential concepts in Python programming. This course is perfect for developers who have a basic understanding of Python and are eager to explore advanced topics."
 
 product_id: "682778870"
 
@@ -29,8 +30,9 @@ start_time: "6:30 PM"
 end_time: "7:30 PM"
 ---
 
-<h3>You Will Learn</h3>
-<ul>
+<p>
+You will learn:
+<ul class="learn-list">
 	<li><strong>Recursion:</strong> Understand the principles of recursion and how to implement recursive functions. Master the art of solving complex problems by breaking them down into simpler sub-problems.</li>
 	<li><strong>Classes and Objects:</strong> Get introduced to Object-Oriented Programming (OOP) in Python. Learn how to create classes and objects, and understand their importance in writing robust, reusable code. Dive deeper with advanced concepts like class inheritance, polymorphism, and encapsulation.</li>
 	<li><strong>Collections of Objects:</strong> Explore the power of collections in Python. Learn how to organize and manage groups of objects using lists, sets, and dictionaries.</li>

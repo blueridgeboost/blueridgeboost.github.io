@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Python Fundamentals: Coding from the Ground Up | Blue Ridge Boost"
-page_title: "Python Fundamentals: Coding from the Ground Up"
+page_title: "Python Fundamentals"
+page_subtitle: "Coding from the Ground Up"
 description: "A year-long course teaches middle school students Python basics through interactive projects with a virtual character named Tracy."
 
 summary: "This course is a comprehensive, year-long program designed for middle school students with no prior coding experience. It introduces fundamental programming concepts using Python through interactive exercises and projects centered around controlling a virtual character named Tracy. The course covers commands, functions, loops, variables, conditionals, and lists, progressing to more complex tasks like user interaction and creating visual projects."

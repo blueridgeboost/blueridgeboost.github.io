@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Math Hoppers: Kangaroo Math for Young Explorers | Blue Ridge Boost"
-page_title: "Math Hoppers: Kangaroo Math for Young Explorers"
+page_title: "Math Hoppers"
+page_subtitle: "Kangaroo Math for Young Explorers"
 description: "Kangaroo Competition Math"
 summary: "The Kangaroo Mathematics Competition, set for Thursday, March 20, 2025, is an international event testing students' math skills. Preparation involves practicing past papers, reviewing key concepts, and improving time management. The multiple-choice test covers various math topics."
 section: "classes"

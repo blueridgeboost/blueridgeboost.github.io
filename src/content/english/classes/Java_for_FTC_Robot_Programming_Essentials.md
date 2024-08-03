@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Java for FTC: Robot Programming Essentials | Blue Ridge Boost"
-page_title: "Java for FTC: Robot Programming Essentials"
+page_title: "Java for FTC"
+page_subtitle: "Robot Programming Essentials"
 description: "Learn to code robots in Java."
 summary: "The FIRST Tech Challenge (FTC) OnBot Java Course is designed to introduce students to the fundamentals of programming in Java within the context of robot development and competition. This course covers essential programming concepts such as variables, control structures, and object-oriented programming, as well as specific skills needed to program FTC robots using the OnBot Java environment. Students will learn how to write, test, and debug code for various robot functions like movement, sensor integration, and autonomous navigation. The course emphasizes hands-on learning, problem-solving, and teamwork, preparing participants for success in FTC competitions and beyond."
 section: "classes"

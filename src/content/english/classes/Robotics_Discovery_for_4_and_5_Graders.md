@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Robotics Discovery for 4 and 5 Grades | Blue Ridge Boost"
-page_title: "Robotics Discovery for 4 and 5 Grades"
+page_title: "Robotics Discovery"
+page_subtitle: "For Fourth and Fifth Graders"
 description: "Engaging introduction to robotics for students in grades 4 and 5."
 summary: ""
 

@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Intro to Block Coding | Blue Ridge Boost"
-page_title: "Kids Coding Course: Building with Beavers"
+page_title: "Kids Coding Course"
+page_subtitle: "Building with Beavers"
 description: "Kids Coding Course: Building with Beavers"
 summary: "Students learn sequencing, repetition, problem-solving, and conditional logic while developing practical coding skills. The course employs a hands-on, gamified approach that gradually increases in complexity, allowing each child to advance at their own speed. By the end, students can create sophisticated programs, having built a strong foundation in coding and computational thinking."
 section: "classes"

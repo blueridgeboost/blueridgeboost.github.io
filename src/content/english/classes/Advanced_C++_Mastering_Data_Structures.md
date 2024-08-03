@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Advanced C++: Mastering Data Structures | Blue Ridge Boost"
-page_title: "Advanced C++: Mastering Data Structures"
+page_title: "Advanced C++"
+page_subtitle: "Mastering Data Structures"
 description: "Comprehensive C++ data structures course covering basics to advanced topics. Includes fundamentals, STL containers, recursion, pointers, linked lists, and graphs. Features practical assignments and a real-world final project."
 summary: "This course includes C++ fundamentals, basic data structures, file and error handling, STL containers, recursion, pointers, linked lists, and graphs. Each module has examples and assignments. A final project integrates multiple data structures to solve a real-world problem. The course prepares students for complex programming challenges in academic and professional settings."
 section: "classes"

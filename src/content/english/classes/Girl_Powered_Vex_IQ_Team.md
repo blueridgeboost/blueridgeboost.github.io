@@ -1,8 +1,9 @@
 ---
 date: "2021-07-12"
 draft: false
-title: "Girl Powered Vex IQ Team! | Blue Ridge Boost"
-page_title: "Join Our Rookie Girl Powered Vex IQ Team!"
+title: "Girl-Powered Vex IQ Team! | Blue Ridge Boost"
+page_title: "Girl-Powered Vex IQ"
+page_subtitle: "Vex IQ Robotics"
 description: ""
 summary: ""
 section: "classes"

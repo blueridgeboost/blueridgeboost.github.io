@@ -4,41 +4,15 @@
       <div class="col-xl-11">
         <div class="section pt-0">
           <div class="row gy-4">
-            <div class="col-lg-3 col-sm-6">
-              {{ if site.Menus.footer_left }}
-              <div class="h5 mb-4">{{ site.Params.footer_menu_left }}</div>
-              <ul class="list-unstyled footer-list">
-                {{ range site.Menus.footer_left }}
-                <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
-                {{ end }}
-              </ul>
-              {{ end }}
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              {{ if site.Menus.footer_middle }}
-              <div class="h5 mb-4">{{ site.Params.footer_menu_middle }}</div>
-              <ul class="list-unstyled footer-list">
-                {{ range site.Menus.footer_middle }}
-                <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
-                {{ end }}
-              </ul>
-              {{ end }}
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              {{ if site.Menus.footer_right }}
-              <div class="h5 mb-4">{{ site.Params.footer_menu_right }}</div>
-              <ul class="list-unstyled footer-list">
-                {{ range site.Menus.footer_right }}
-                <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
-                {{ end }}
-              </ul>
-              {{ end }}
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <a class="d-block h5 mb-3" href="{{ site.BaseURL | absLangURL}}">
-                {{ partial "logo.html" }}
-              </a>
+            <div class="col-lg-7 col-sm-14">
               <p class="mb-4">{{ site.Params.footer_content | markdownify }}</p>
+            </div>
+            <div class="col-lg-1 col-sm-2"></div>
+            <div class="col-lg-4 col-sm-8">
+              <div class="small-spacer"></div>
+              <a class="d-block h5 mb-3" href="{{ site.BaseURL | absLangURL}}">
+                Blue Ridge Boost &nbsp; {{ partial "logo.html" }} 
+              </a>
               {{ with site.Params.social }}
               <ul class="list-inline social-icons">
                 {{ range . }}
@@ -50,7 +24,7 @@
             </div>
           </div>
         </div>
-        {{ if site.Params.theme_copyright }}
+        {{ if false }} 
         <div class="border-top border-default text-center py-4">
           <small class="content"> {{site.Params.copyright}} | Theme by <a target="_blank" rel="noopener noreferrer" href="https://gethugothemes.com/">GetHugoThemes</a>
           </small>

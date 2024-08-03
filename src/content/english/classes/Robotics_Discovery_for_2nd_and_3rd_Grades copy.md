@@ -2,9 +2,10 @@
 date: "2021-07-12"
 draft: false
 title: "Robotics Discovery for 2nd and 3rd Grades | Blue Ridge Boost"
-page_title: "Robotics Discovery for 2nd and 3rd Grades"
-description: "Engaging introduction to robotics for students in grades 3 and 4."
-summary: "This class offers a progressive, hands-on introduction to robotics for students in grades 3 and 4, covering Vex GO, Lego Spike Essential, and Sphero Bolt Robotics throughout the academic year, while developing problem-solving, critical thinking, and teamwork skills."
+page_title: "Robotics Discovery"
+page_subtitle: "For 2nd and 3rd Graders"
+description: "Engaging introduction to robotics for students in grades 2 and 3."
+summary: "This class offers a progressive, hands-on introduction to robotics for students in grades 2 and 3, covering Vex GO, Lego Spike Essential, and Sphero Bolt Robotics throughout the academic year, while developing problem-solving, critical thinking, and teamwork skills."
 
 section: "classes"
 product_id: "682660858"

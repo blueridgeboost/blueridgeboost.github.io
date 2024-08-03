@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "React Native Mobile App Development for High School Students | Blue Ridge Boost"
-page_title: "React Native Mobile App Development for High School Students"
+page_title: "Mobile App Development"
+page_subtitle: "Build Apps using React Native" 
 description: "Learn to design and build mobile apps using React Native, a powerful framework used by top tech companies, in this comprehensive high school course."
 summary: 'The "React Native Mobile App Development for High School Students" course is designed to equip students with the skills to create dynamic and scalable mobile applications. Over the course of a year, students will delve into the React Native framework, learning to use components, stylesheets, state management, and more to build apps that run seamlessly on their smartphones. With a mix of web-based and hands-on activities, including collaborative exercises and digital presentations, students will gain practical experience in mobile app development. This course is ideal for those with prior knowledge in JavaScript and web design, providing an engaging and comprehensive introduction to the world of mobile app creation.'
 

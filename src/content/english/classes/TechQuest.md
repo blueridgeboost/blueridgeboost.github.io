@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "TechQuest: Fall Bots & Spring Bricks | Blue Ridge Boost"
-page_title: "TechQuest: Fall Bots & Spring Bricks"
+page_title: "TechQuest"
+page_subtitle: "Fall Bots & Spring Bricks"
 description: "Vex GO Competition Robotics (Fall) and First Lego League Explore (Spring)"
 summary: ""
 

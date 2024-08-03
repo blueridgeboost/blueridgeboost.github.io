@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Math Boost for Third, Fourth, and Fifth Graders | Blue Ridge Boost"
-page_title: "Math Boost for Third, Fourth, and Fifth Graders"
+page_title: "Math Boost"
+page_subtitle: "For Third, Fourth, and Fifth Graders"
 description: "This class is suitable for students who need reinforcement of classroom concepts though extra practice with typical grade-level problems."
 summary: "This class is suitable for students who need reinforcement of classroom concepts though extra practice with typical grade-level problems."
 section: "classes"

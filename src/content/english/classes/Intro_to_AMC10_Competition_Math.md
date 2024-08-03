@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Intro to AMC10 Competition Math | Blue Ridge Boost"
-page_title: "Intro to AMC10 Competition Math"
+page_title: "Intro to AMC10"
+page_subtitle: "Competition Math"
 description: "An introductory class for students just starting their AMC10 competition journey."
 summary: ""
 section: "classes"

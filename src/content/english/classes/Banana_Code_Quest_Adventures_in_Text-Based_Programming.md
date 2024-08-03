@@ -2,7 +2,8 @@
 date: "2021-07-12"
 draft: false
 title: "Banana Code Quest: Adventures in Text-Based Programming | Blue Ridge Boost"
-page_title: "Banana Code Quest: Adventures in Text-Based Programming"
+page_title: "Banana Code Quest"
+page_subtitle: "Adventures in Text Programming"
 
 description: "Learn to code with Code Monkey's Banana Tales."
 summary: "Banana Code Quest is a gamified coding course designed to teach young students real-world coding from the very first challenge. Through engaging puzzles and adventures, students help a monkey catch bananas and outsmart various animals, all while learning fundamental and advanced coding concepts in a fun and interactive way."
@@ -41,19 +42,6 @@ end_time: "5:30"
             <li><strong>Part 3: Logic & Events</strong> – Wraps up with complex coding challenges.</li>
         </ul>
     </li>
-</ul>
-
-<h4>Key Features</h4>
-<ul>
-  <li><strong>Real Coding Language</strong>: Students will code using CoffeeScript, a language similar to JavaScript but with a friendlier syntax, making it perfect for kids.</li>
-  <li><strong>Fun-Filled Challenges</strong>: The course includes a series of puzzles where students write code to help the monkey achieve various tasks.</li>
-  <li><strong>Structured Learning</strong>: The course is divided into three parts:
-      <ul>
-          <li><strong>Part 1: Fundamentals</strong> – Introduces the basics of coding.</li>
-          <li><strong>Part 2: Functions & Conditions</strong> – Covers more advanced concepts.</li>
-          <li><strong>Part 3: Logic & Events</strong> – Wraps up with complex coding challenges.</li>
-      </ul>
-  </li>
 </ul>
 
 <h4>Coding Concepts Covered</h4>
