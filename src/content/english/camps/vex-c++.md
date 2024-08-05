@@ -10,6 +10,8 @@ section: "camps"
 camp_type: "5-day Camp"
 camp_name: "Morning Vex Robotics, Afternoon C++"
 
+enabled: true
+
 camp_options: 
 - "AM"
 - "PM"

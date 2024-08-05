@@ -9,6 +9,8 @@ summary: "Ignite Creativity with Scratch Camp! This summer, give your child aged
 
 section: "camps"
 
+enabled: true
+
 camp_type: "5-day Camp"
 camp_name: "Scratch Camp"
 

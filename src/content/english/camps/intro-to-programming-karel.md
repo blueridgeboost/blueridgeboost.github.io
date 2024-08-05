@@ -10,6 +10,8 @@ section: "camps"
 camp_type: "5-day Camp"
 camp_name: "Intro to Programming with Karel the Dog"
 
+enabled: true
+
 camp_options: 
 - "AM"
 - "PM"

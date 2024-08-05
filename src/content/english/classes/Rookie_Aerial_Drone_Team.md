@@ -2,7 +2,7 @@
 date: "2021-07-12"
 draft: false
 title: "Rookie Aerial Drone Team | Blue Ridge Boost"
-page_title: "Aerial Drone Team"
+page_title: "Aerial Drones"
 page_subtitle: "Join Our Rookie Aerial Drone Team!"
 description: "TODO"
 summary: ""

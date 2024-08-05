@@ -16,7 +16,7 @@ banner:
     link : "chess/"
   - enable : true
     label : "Parents Night Out"
-    link : "parents-nights-out/"
+    link : "parents-night-out/"
   - enable : true
     label : "Girl Powered Fridays"
     link : "girl-powered-fridays/"

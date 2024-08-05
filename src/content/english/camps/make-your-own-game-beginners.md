@@ -15,6 +15,8 @@ Skills Developed
     </ul>
 "
 
+enabled: true
+
 section: "camps"
 camp_type: "5-day Camp"
 camp_name: "Make your own games"

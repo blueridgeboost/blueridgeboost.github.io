@@ -9,6 +9,8 @@ summary: "Campers engage in a day of math exploration, starting with Beast Acade
 
 section: "camps"
 
+enabled: true
+
 camp_type: "5-day Camp"
 camp_name: "Math Camp"
 

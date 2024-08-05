@@ -12,6 +12,8 @@ section: "camps"
 camp_type: "5-day Camp"
 camp_name: "Living in Space"
 
+enabled: true
+
 camp_options: 
 - "AM"
 - "PM"
@@ -24,7 +26,7 @@ end_date: "2024-08-16"
 
 icon: "/images/camps/icons/living-in-space.png"
 
-product_id: "680633823"
+product_id: "106136041"
 
 am_sessions:
     text: "Mornings"

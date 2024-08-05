@@ -12,6 +12,8 @@ section: "camps"
 camp_type: "5-day Camp"
 camp_name: "Adventures in Engineering"
 
+enabled: true
+
 camp_options: 
 - "AM"
 - "PM"

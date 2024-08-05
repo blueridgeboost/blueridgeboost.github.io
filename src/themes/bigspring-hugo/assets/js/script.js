@@ -23,16 +23,44 @@ function filterClasses() {
 }
 document.addEventListener('DOMContentLoaded', filterClasses);
 
+function ecwid_add_option_to_cart( product_id, product_options ) {
+    if (typeof Ecwid == 'undefined' ||  !Ecwid.OnPageLoaded) {
+        Ecwid.OnPageLoaded.add(function () {
+            aux_ecwid_add_option_to_cart(product_id, product_options);
+        });
+    } else {
+        aux_ecwid_add_option_to_cart(product_id, product_options)
+    }
+}
+
+function aux_ecwid_add_option_to_cart( product_id, product_options ) {
+    alert(product_id);
+    alert(product_options);
+    Ecwid.Cart.addProduct({
+        id: product_id,
+        quantity: 1,   
+        options: product_options, 
+        selectedPrice: 0, 
+        callback: function(success, product, cart, error){
+            if (!success) {
+                console.error(product.name);
+                console.error(product.id);
+                console.error(product_options);
+                console.error(error) // error message or null
+            }
+        }
+    });
+    Ecwid.openPage('cart');
+}
 
 function ecwid_add_product_to_cart( product_id, product_options ) {
-    if (typeof Ecwid == 'undefined') {
-        Ecwid.OnAPILoaded.add(function () {
+    if (typeof Ecwid == 'undefined' ||  !Ecwid.OnPageLoaded) {
+        Ecwid.OnPageLoaded.add(function () {
             aux_ecwid_add_product_to_cart(product_id, product_options);
         });
     } else {
         aux_ecwid_add_product_to_cart(product_id, product_options)
     }
-            
 }
 
 function aux_ecwid_add_product_to_cart( product_id, product_options ) {
@@ -43,8 +71,10 @@ function aux_ecwid_add_product_to_cart( product_id, product_options ) {
         selectedPrice: 0, 
         callback: function(success, product, cart, error){
             if (!success) {
-                console.log(product.name);
-                console.log(error) // error message or null
+                console.error(product.name);
+                console.error(product.id);
+                console.error(product_options);
+                console.error(error) // error message or null
             }
         }
     });
@@ -66,6 +96,9 @@ function get_radio_selected(name) {
 function get_camp_options(id) {
     camp_type = get_radio_selected("type-"+id);
     payment_type = get_radio_selected("payment-"+id);
+    if (payment_type == "None") {
+        payment_type = "Now";
+    }
     var ret_value = {
         "Type": camp_type,
         "Payment Type": payment_type,

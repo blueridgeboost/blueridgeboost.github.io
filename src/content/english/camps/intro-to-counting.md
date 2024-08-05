@@ -7,6 +7,8 @@ description: "Are you eager for a different kind of math? The Intro to Counting 
 
 section: "camps"
 
+enabled: false
+
 camp_type: "Workshop"
 
 camp_options: 

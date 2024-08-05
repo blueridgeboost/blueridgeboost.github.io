@@ -9,6 +9,8 @@ summary: "Campers will embark on an immersive Space Odyssey using advanced robot
 
 section: "camps"
 
+enabled: true
+
 camp_type: "5-day Camp"
 camp_name: "Space Adventure"
 

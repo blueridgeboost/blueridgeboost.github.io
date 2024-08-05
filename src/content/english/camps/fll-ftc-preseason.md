@@ -16,6 +16,8 @@ section: "camps"
 camp_type: "5-day Camp"
 camp_name: "Intro to Competition Robotics. FLL/FTC Preseason."
 
+enabled: true
+
 camp_options: 
 - "AM"
 - "PM"

@@ -12,6 +12,8 @@ The culmination of the program involves a dynamic bowling activity where student
 
 section: "camps"
 
+enabled: true
+
 camp_type: "5-day Camp"
 camp_name: "Vex123 Move it! Shake it!"
 

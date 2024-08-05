@@ -9,6 +9,8 @@ section: "camps"
 
 camp_type: "Workshop"
 
+enabled: false
+
 camp_options: 
 - "PM"
 

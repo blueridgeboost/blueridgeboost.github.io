@@ -11,6 +11,8 @@ section: "camps"
 camp_type: "5-day Camp"
 camp_name: "Game Design in Unity"
 
+enabled: true
+
 camp_options: 
 - "PM"
 
