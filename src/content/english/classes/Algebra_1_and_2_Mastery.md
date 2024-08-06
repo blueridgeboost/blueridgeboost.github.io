@@ -5,7 +5,12 @@ title: "Algebra 1 and 2 Mastery| Blue Ridge Boost"
 page_title: "Algebra Mastery"
 page_subtitle: "Algebra 1 and Algebra 2"
 description: ""
-summary: ""
+summary: "<p>This class is designed for students performing in the top half of their grade level who occasionally need assistance with challenging homework problems.</p>
+        <b>Focus:</b>
+        <ul>
+            <li><strong>Enhancing algebraic skills:</strong> The class will delve deeper into algebraic concepts, providing students with the tools and techniques to tackle more complex problems.</li>
+            <li><strong>Deepening understanding:</strong> Beyond simply solving problems, the class will emphasize understanding the 'why' behind the solutions, fostering a deeper comprehension of algebraic principles.</li>
+        </ul>"
 section: "classes"
 
 product_id: "680173016"
@@ -30,3 +35,11 @@ start_time: "7:00"
 end_time: "8:00"
 
 ---
+
+<b>Who should join?</b>
+        <p>This class is ideal for students who are generally doing well in their algebra class but:</p>
+        <ul>
+            <li>Find some homework problems particularly difficult.</li>
+            <li>Want to explore algebraic concepts in greater depth.</li>
+            <li>Are looking for a challenge beyond their regular coursework.</li>
+        </ul>

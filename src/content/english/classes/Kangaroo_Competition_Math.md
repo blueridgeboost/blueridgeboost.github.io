@@ -5,7 +5,7 @@ title: "Math Hoppers: Kangaroo Math for Young Explorers | Blue Ridge Boost"
 page_title: "Math Hoppers"
 page_subtitle: "Kangaroo Math for Young Explorers"
 description: "Kangaroo Competition Math"
-summary: "The Kangaroo Mathematics Competition, set for Thursday, March 20, 2025, is an international event testing students' math skills. Preparation involves practicing past papers, reviewing key concepts, and improving time management. The multiple-choice test covers various math topics."
+summary: "The Kangaroo Mathematics Competition, set for Thursday, March 20, 2025, is an international event testing students' math skills. Preparation involves practicing past papers, reviewing key concepts, and improving time management. The multiple-choice test covers various math topics. The class will continue for the duration of the school year to prepare students for the next year's competition."
 section: "classes"
 
 product_id: "680172023"
@@ -56,6 +56,32 @@ end_time: "5:00"
 <h4>Preparation</h4>
 
 Blue Ridge Boost classes are structured a problem-solving sessions. Students work through problem sets under the expert guidance of enthusiatic teachers. Ocassionally, there will be mini-lessons to introduce students to concepts not covered in school.
+
+<div class="section">
+    <h4>Topics Covered</h4>
+    <ul>
+        <li>Counting and Number Recognition</li>
+        <li>Basic Addition and Subtraction</li>
+        <li>Understanding Patterns</li>
+        <li>Shapes and Spatial Understanding</li>
+        <li>Simple Word Problems</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h4>Sample Problems</h4>
+    <p>Here are some examples of the types of problems students might encounter in the Math Kangaroo competition for grades 1 and 2:</p>
+    <ul>
+        <li><strong>Example 1:</strong> If you have 3 apples and you get 2 more from a friend, how many apples do you have in total?</li>
+        <li><strong>Example 2:</strong> What shape has 4 equal sides and 4 equal angles?</li>
+        <li><strong>Example 3:</strong> Fill in the blank: 2, 4, 6, __, 10.</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h4>Resources</h4>
+    <p>For more information and resources, visit the <a href="https://mathkangaroo.org">Math Kangaroo official website</a>.</p>
+</div>
 
 <h4>Conclusion</h4>
 <p>Kangaroo Math for first and second graders is an excellent opportunity for young students to challenge themselves, improve their math skills, and have fun with math. It's a great way to introduce them to the joy of problem-solving and the excitement of participating in a global event.</p>

@@ -28,13 +28,7 @@
                                             <div class="p-2">
                                                 {{ $id := .Params.product_id }}
                                                 {{range .Params.camp_options}}
-                                                    <a href="javascript: ecwid_add_option_to_cart( 
-                                                        {{ $id }},
-                                                        {
-                                                                'Type': '{{ . }}',
-                                                                'Payment Type': 'Now'
-                                                            } 
-                                                        );"
+                                                    <a href="javascript: ecwid_add_product_to_cart('{{ $id }}', { 'Type': '{{ . }}' });"
                                                         class=" btn-small btn-primary m-2">{{ . }}</a> &nbsp;
                                                 {{ end }}
                                             </div>

@@ -23,38 +23,64 @@ function filterClasses() {
 }
 document.addEventListener('DOMContentLoaded', filterClasses);
 
-function ecwid_add_option_to_cart( product_id, product_options ) {
-    if (typeof Ecwid == 'undefined' ||  !Ecwid.OnPageLoaded) {
-        Ecwid.OnPageLoaded.add(function () {
-            aux_ecwid_add_option_to_cart(product_id, product_options);
-        });
-    } else {
-        aux_ecwid_add_option_to_cart(product_id, product_options)
-    }
-}
+// function ecwid_add_payment_to_cart( product_id, payment_type ) {
+//     if (typeof Ecwid == 'undefined' ||  !Ecwid.OnPageLoaded) {
+//         Ecwid.OnPageLoaded.add(function () {
+//             aux_ecwid_add_option_to_cart(product_id, payment_type);
+//         });
+//     } else {
+//         aux_ecwid_add_option_to_cart(product_id, payment_type)
+//     }
+// }
 
-function aux_ecwid_add_option_to_cart( product_id, product_options ) {
-    alert(product_id);
-    alert(product_options);
-    Ecwid.Cart.addProduct({
-        id: product_id,
-        quantity: 1,   
-        options: product_options, 
-        selectedPrice: 0, 
-        callback: function(success, product, cart, error){
-            if (!success) {
-                console.error(product.name);
-                console.error(product.id);
-                console.error(product_options);
-                console.error(error) // error message or null
-            }
-        }
-    });
-    Ecwid.openPage('cart');
-}
+// function aux_ecwid_add_option_to_cart( product_id, payment_type ) {
+//     Ecwid.Cart.addProduct({
+//         id: product_id,
+//         quantity: 1,   
+//         options: {
+//             "Payment Type": payment_type,
+//         }, 
+//         selectedPrice: 0, 
+//         callback: function(success, product, cart, error){
+//             if (!success) {
+//                 console.error(error) // error message or null
+//             }
+//         }
+//     });
+//     Ecwid.openPage('cart');
+// }
+
+
+// function ecwid_add_option_to_cart( product_id, product_option ) {
+//     if (typeof Ecwid == 'undefined' ||  !Ecwid.OnPageLoaded) {
+//         Ecwid.OnPageLoaded.add(function () {
+//             aux_ecwid_add_option_to_cart(product_id, product_option);
+//         });
+//     } else {
+//         aux_ecwid_add_option_to_cart(product_id, product_option)
+//     }
+// }
+
+// function aux_ecwid_add_option_to_cart( product_id, product_option ) {
+//     Ecwid.Cart.addProduct({
+//         id: product_id,
+//         quantity: 1,   
+//         options: {
+//             "Type": product_option,
+//             "Payment Type": "Now",
+//         }, 
+//         selectedPrice: 0, 
+//         callback: function(success, product, cart, error){
+//             if (!success) {
+//                 console.error(error) // error message or null
+//             }
+//         }
+//     });
+//     Ecwid.openPage('cart');
+// }
 
 function ecwid_add_product_to_cart( product_id, product_options ) {
-    if (typeof Ecwid == 'undefined' ||  !Ecwid.OnPageLoaded) {
+    if (typeof Ecwid == 'undefined' ||  !Ecwid.Cart) {
         Ecwid.OnPageLoaded.add(function () {
             aux_ecwid_add_product_to_cart(product_id, product_options);
         });
@@ -71,9 +97,6 @@ function aux_ecwid_add_product_to_cart( product_id, product_options ) {
         selectedPrice: 0, 
         callback: function(success, product, cart, error){
             if (!success) {
-                console.error(product.name);
-                console.error(product.id);
-                console.error(product_options);
                 console.error(error) // error message or null
             }
         }

@@ -27,7 +27,7 @@ topic: "Robotics"
 ages: "10 to 13"
 start_date: "2024-08-12" 
 end_date: "2024-08-26"
-product_id: "680153604"
+product_id: "680899915"
 icon: "/images/camps/icons/FIRST-Icon.png"
 
 ---

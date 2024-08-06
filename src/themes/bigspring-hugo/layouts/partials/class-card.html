@@ -18,67 +18,7 @@
         </h6>
     </div>
     <div class="card-body">
-        {{.Params.start_time}} &ndash; {{.Params.end_time}} on 
-            {{ range .Params.day_tags }} {{.}}s {{end}}
-        <br> 
-        {{ if eq .Params.difficulty "Bot Builders Elite" }}
-            <span class="level-elite"><a href="#elite">
-                {{ .Params.difficulty }}
-            </a></span>
-        {{ else if eq .Params.difficulty "Code Cadets" }}
-            <span class="level-cadets"><a href="#cadets">
-                {{ .Params.difficulty }}                
-            </a></span>
-        {{ else if eq .Params.difficulty "Skill Sculptors" }}
-            <span class="level-sculptors"><a href="#sculptors">
-                {{ .Params.difficulty }}                
-            </a></span>
-        {{ else if eq .Params.difficulty "Algorithm Architects" }}
-            <span class="level-architects"><a href="#architects">
-                {{ .Params.difficulty }}                
-            </a></span>
-        {{ else if eq .Params.difficulty "Foundation Forgers" }}
-            <span class="level-forgers"><a href="#forgers">
-                {{ .Params.difficulty }}                
-            </a></span>
-        {{ else if eq .Params.difficulty "Competition" }}
-            <span class="level-competition"><a href="#competition">
-                {{ .Params.difficulty }}                
-            </a></span>            
-        {{ else if eq .Params.difficulty "Robo Rookies" }}
-            <span class="level-rookies"><a href="#rookies">
-                {{ .Params.difficulty }}                
-            </a></span>            
-        {{ else if eq .Params.difficulty "Math Maestros" }}
-            <span class="level-maestros"><a href="#maestros">
-                {{ .Params.difficulty }}                
-            </a></span>            
-        {{ else if eq .Params.difficulty "Robo Researchers" }}
-            <span class="level-researchers"><a href="#researchers">
-                {{ .Params.difficulty }}                
-            </a></span>            
-        {{ else if eq .Params.difficulty "Syntax Sorcerers" }}
-            <span class="level-sorcerers"><a href="#sorcerers">
-                {{ .Params.difficulty }}                
-            </a></span>            
-        {{ else }}
-            <a href="#levels">
-                <font size="+3">
-                {{ .Params.difficulty }}
-            </font>
-            </a>
-        {{ end }}
-        <br>
-        Grades: {{ with .Params.grade_tags }}
-            {{ if gt (len .) 0 }}
-                {{ index . 0 }}
-                {{ if gt (len .) 1 }}
-                    to {{ index . (sub (len .) 1) }}
-                {{ end }}
-            {{ end }}
-        {{ end }}<br>
-        </p>
-        {{/*  <p>{{ .summary | markdownify }} </p>  */}}
+        {{ partial "class-info.html" . }}
     </div>
     <div class="card-footer">
         <form id="camp-{{ $id }}">
@@ -100,9 +40,7 @@
             </div>
         <center>
         <div class="spacybutton">
-            <a href="javascript: ecwid_add_product_to_cart(
-                        {{ $id }},
-                        get_class_options( {{ $id }} ) );"
+            <a href="javascript: ecwid_add_product_to_cart( {{ $id }}, get_class_options( {{ $id }} ) );"
                 class="btn-small btn-primary">Add to Cart</a>
             </div>
         </center>

@@ -26,7 +26,7 @@ end_date: "2024-08-16"
 
 icon: "/images/camps/icons/living-in-space.png"
 
-product_id: "106136041"
+product_id: "680633823"
 
 am_sessions:
     text: "Mornings"

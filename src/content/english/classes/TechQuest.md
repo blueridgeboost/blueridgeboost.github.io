@@ -5,7 +5,7 @@ title: "TechQuest: Fall Bots & Spring Bricks | Blue Ridge Boost"
 page_title: "TechQuest"
 page_subtitle: "Fall Bots & Spring Bricks"
 description: "Vex GO Competition Robotics (Fall) and First Lego League Explore (Spring)"
-summary: ""
+summary: "This inclusive STEM class is dedicated to empowering all students, warmly welcoming and encouraging participation from all genders."
 
 section: "classes"
 product_id: "682765853"

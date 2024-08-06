@@ -6,6 +6,7 @@
             {{.Params.summary | markdownify}} 
         </div>
         <div class="col-xl-4 col-lg-5 col-md-12">
+            {{ partial "class-info.html" . }}
             {{ $id := .Params.product_id }}
             <div class="card"
                 style="padding: 0.5rem; background-color:aliceblue"

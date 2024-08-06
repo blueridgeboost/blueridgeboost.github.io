@@ -6,7 +6,7 @@ page_title: "First Lego League/VEX IQ"
 page_subtitle: "Middle School Competition Robotics"
 
 description: "First Lego League Challenge/VEX IQ Robotics Competition"
-summary: ""
+summary: "<p>First Lego League (FLL) is a Lego robotics competion for students grades 4 to 8. Teams engage in research, problem-solving, coding and engineering – building and programming a LEGO robot that navigates the missions of a robot game. As part of Challenge, teams also participate in a research project to identify and solve a relevant real-world problem. </p> Team members must be willing to work on all aspects of the competition and demostrate the <b>FIRST core values</b>.<br>"
 
 section: "classes"
 product_id: "682662301"
@@ -29,9 +29,6 @@ end_time: "6:30"
 
 ---
 
-<p>First Lego League (FLL) is a Lego robotics competion for students grades 4 to 8. Teams engage in research, problem-solving, coding and engineering – building and programming a LEGO robot that navigates the missions of a robot game. As part of Challenge, teams also participate in a research project to identify and solve a relevant real-world problem. </p>
-            
-Team members must be willing to work on all aspects of the competition and demostrate the <b>FIRST core values</b>.<br>
 <div class="container">
     <div class="row">
         <div class="col">

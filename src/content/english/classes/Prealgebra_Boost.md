@@ -5,7 +5,7 @@ title: "Prealgebra Boost | Blue Ridge Boost"
 page_title: "Prealgebra Boost"
 page_subtitle: "For Fifth, Sixth, and Seventh Graders"
 description: ""
-summary: ""
+summary: "This class is tailored for students who have been recommended for additional support and are facing challenges in their regular classroom. It offers reinforcement of key concepts through extra practice with typical grade-level problems, ensuring that students can grasp and master the material at their own pace. Additionally, students will have the opportunity to work on materials recommended by their classroom teacher and tackle problems suggested by Blue Ridge Boost instructors, providing a tailored and comprehensive approach to meet their individual learning needs."
 section: "classes"
 
 day_tags: ["Monday"]
@@ -29,3 +29,4 @@ end_date: "2025-06-02"
 start_time: "6:00"
 end_time: "7:00"
 ---
+

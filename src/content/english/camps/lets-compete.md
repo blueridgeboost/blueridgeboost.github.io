@@ -19,8 +19,8 @@ camp_options:
 
 topic: "Lego Robotics"
 ages: "10 to 13"
-start_date: "2024-07-29" 
-end_date: "2024-08-02"
+start_date: "2024-08-05" 
+end_date: "2024-08-09"
 product_id: "680153604"
 icon: "/images/camps/icons/competition-ready.webp"
 
