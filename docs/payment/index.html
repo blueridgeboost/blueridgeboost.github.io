@@ -4,7 +4,7 @@
 <head>
 	
 	<meta charset="utf-8">
-<title>6th</title>
+<title>Payment | Blue Ridge Boost</title>
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
@@ -59,7 +59,7 @@
 
 
 
-  <base href="https://blueridgeboost.com/grade_tags/6th/" />
+  <base href="https://blueridgeboost.com/payment/" />
 
 
 
@@ -122,13 +122,13 @@
 
 
 
-<meta property="og:title" content="6th" />
+<meta property="og:title" content="Payment | Blue Ridge Boost" />
 <meta property="og:description" content="Computer coding, robotics, math, and chess" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://blueridgeboost.com/grade_tags/6th/" />
+<meta property="og:url" content="https://blueridgeboost.com/payment/" />
 
 
-<meta name="twitter:title" content="6th" />
+<meta name="twitter:title" content="Payment | Blue Ridge Boost" />
 <meta name="twitter:description" content="Computer coding, robotics, math, and chess" />
 
 
@@ -552,7 +552,7 @@
       <div class="row">
         <div class="col-12">
           <center>
-          <h1 class="h2 mb-3"></h1>
+          <h1 class="h2 mb-3">Payment</h1>
           
         </center>
         </div>
@@ -561,31 +561,86 @@
   </div>
 </section>
 
-<section class="section mt-4">
-  <div class="container">
-    <div class="row gx-md-5 gy-6">
-      
-      
-      
-      
-      
-      <div class="col-12 pt-5">
+<script src="https://js.stripe.com/v3/"></script>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            
+        </div>
+        <div class="col">
+            
+            <form id="payment-form">
+                <div id="card-element"></div>
+                <button type="submit" id="submit">Pay</button>
+                <div id="card-errors" role="alert"></div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    
+    const stripe = Stripe( "pk_live_51LlfyyJwWazCoBaGS2YMewCdzzsSVkToK2XxGc0tYE4GbdoFRzacEpR8s2OHuXkkLAGntZSKfBfptYqYVPngZRUv00EfrsA9rG" );
+    const elements = stripe.elements();
+    
+    
+    const card = elements.create('card');
+    
+    
+    card.mount('#card-element');
+    
+    
+    card.on('change', ({error}) => { 
+        const displayError = document.getElementById('card-errors');
+        if (error) {
+            displayError.textContent = error.message;
+        } else {
+            displayError.textContent = '';
+        }
+    });
+
+    
+    const form = document.getElementById('payment-form');
+    
+    form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+
+        document.getElementById('myButton').addEventListener('click', function() {
+            cartId = Ecwid.Cart.get()["cartId"];
+            orderId = Ecwid.Cart.get()["orderId"];
+            fetch( "https://ehjuwj11tk.execute-api.us-east-1.amazonaws.com", {
+                method: "POST",
+                body: JSON.stringify( {"cartId": cartId, "orderId": orderId} )
+            }) 
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('response').innerText = data;
+                })
+                .catch(error => console.error('Error:', error));
+        });
+
+        
+        
+        
+        
+        
+        
         
 
-
-
-
-
-
-
-
-
-
-      </div>
-      
-    </div>
-  </div>
-</section>
+        if (error) {
+            
+            const displayError = document.getElementById('card-errors');
+            displayError.textContent = error.message;
+        } else {
+            
+            if (paymentIntent.status === 'succeeded') {
+                console.log('Payment succeeded!');
+                
+            }
+        }
+    });
+</script>
 
 
 	</main>

@@ -1,5 +1,8 @@
 math=true
 
+stripeAPIKey = "pk_test_51LlfyyJwWazCoBaGwMb1x9VVwXXNrfuGe181QyocfUtIpma9Pw2n4uvws4lZViGrdLZMzG7l6KRC1AKenFg6SrDo00ZMIkZeiH"
+paymentURL = "https://ehjuwj11tk.execute-api.us-east-1.amazonaws.com"
+
 #################### default parameters ################################
 # favicon
 favicon = "images/brand/blue-ridge-highlands-cropped.png"
