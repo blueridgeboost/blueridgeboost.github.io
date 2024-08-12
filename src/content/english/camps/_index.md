@@ -104,15 +104,10 @@ one_day_camps:
   topic: "Lego Robotics"
   schools: 
     - "ACPS"
-- product_id: "680905401"
+- product_id: "680904446"
   start_date: "2024-09-23"
   topic: "Lego Robotics"
   schools: 
     - "ACPS"     
-- product_id: "680904446"
-  start_date: "2024-09-27"
-  topic: "Sphero Robotics"
-  schools: 
-    - "CCS"
 ---
 

@@ -21,7 +21,7 @@
         {{ partial "class-info.html" . }}
     </div>
     <div class="card-footer">
-        <form id="camp-{{ $id }}">
+        <form id="class-{{ $id }}">
             <div class="radio-group" >
                 {{ $first := true }}
                 {{ range .Params.payment }}

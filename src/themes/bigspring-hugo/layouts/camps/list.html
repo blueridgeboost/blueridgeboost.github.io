@@ -16,6 +16,10 @@
       Thank you for your support in complying with the 
       <a href="https://law.lis.virginia.gov/vacode/title22.1/chapter14.1/section22.1-289.030/">licensing regulations</a>. </p>
   </div>
+  <div class="container" id="camp1" >
+    <h4>1-Day Camps &ndash; Ages 6 to 13</h4>
+    {{ partial "1-day-camp-cards.html" .Params }}
+  </div>
   <div class="container">
     <div class="container">
       <div class="row">
@@ -93,11 +97,6 @@
     {{ $pages10 := where $pages "Params.ages" "10 to 13" }}
     {{ $pages10 := where $pages10 "Params.camp_type" "5-day Camp" }}
     {{ partial "camp-cards.html" $pages10 }}
-  </div>
-
-  <div class="container" id="camp1" >
-    <h4>1-Day Camps &ndash; Ages 6 to 13</h4>
-    {{ partial "1-day-camp-cards.html" .Params }}
   </div>
 
   <div class="container" id="workshops">

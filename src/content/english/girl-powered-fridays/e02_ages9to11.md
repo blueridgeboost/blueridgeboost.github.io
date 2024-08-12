@@ -4,7 +4,7 @@ title: "Girl Powered Fridays"
 page_title: "Girl Powered Fridays"
 description: "Free STEM events for girls ages 9 to 11"
 weight: "2"
-ages: "Events for girls ages six to eight"
+ages: "Events for girls ages nine to eleven"
 
 meetings:
 - meeting: "2024-09-27"

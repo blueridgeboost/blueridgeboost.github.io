@@ -34,11 +34,11 @@ function ecwid_add_product_to_cart( product_id, product_options ) {
 }
 
 function aux_ecwid_add_product_to_cart( product_id, product_options ) {
+    alert("Adding to cart: " + product_id + " with options: " + JSON.stringify(product_options));
     Ecwid.Cart.addProduct({
         id: product_id,
         quantity: 1,   
         options: product_options, 
-        selectedPrice: 0, 
         callback: function(success, product, cart, error){
             if (!success) {
                 console.error(error) // error message or null
@@ -48,33 +48,42 @@ function aux_ecwid_add_product_to_cart( product_id, product_options ) {
     Ecwid.openPage('cart');
 }
 
-function get_radio_selected(name) {
-    const radioButtons = document.querySelectorAll(`input[name="${name}"]`);
-    let camp_type = "None";
+function get_radio_selected( formId, name) {
+    const form = document.getElementById(formId);
+    if (!form) {
+        console.error(`Form with ID "${formId}" not found.`);
+        return "None";
+    }
+    // Use querySelectorAll to find all radio buttons with the given name within the form.
+    const radioButtons = form.querySelectorAll(`input[type="radio"][name="${name}"]`);
+    let value = "None";
     for (const radioButton of radioButtons) {
         if (radioButton.checked) {
-            camp_type = radioButton.value;
+            value = radioButton.value;
             break;
         }
     }
-    return camp_type;
+    return value;
 }
 
 function get_camp_options(id) {
-    camp_type = get_radio_selected("type-"+id);
-    payment_type = get_radio_selected("payment-"+id);
+    camp_type = get_radio_selected( "camp-"+id,"type-"+id);
+    payment_type = get_radio_selected("camp-"+id, "payment-"+id);
     if (payment_type == "None") {
         payment_type = "Now";
     }
+    if (camp_type == "None") {
+        camp_type = "Full-Day";
+    }
     var ret_value = {
-        "Type": camp_type,
         "Payment Type": payment_type,
+        "Type": camp_type,
     };
     return ret_value;
 }
 
 function get_class_options(id) {
-    payment_type = get_radio_selected("payment-"+id);
+    payment_type = get_radio_selected( "class-"+id, "payment-"+id);
     var ret_value = {
         "Payment Type": payment_type,
     };

@@ -7,6 +7,8 @@
         <li>ACPS &ndash; Albermarle Public Schools</li>
         <li>CCS &ndash; Charlottesville City Schools</li>
     </ul>
+    <b>Signups are available through our <a href="https://store.blueridgeboost.com/products/camps">web store</a>!</b>
+    <p></p>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-4 row-cols-xl-4 g-4">
         {{ range sort .one_day_camps "start_date" "ASC" }}
         <div class="card m-2">
@@ -17,7 +19,7 @@
                 Topic: {{ .topic }}<br>
                 Schools: {{ range .schools }}{{ . }}  {{end}}<br>
 
-                <form id="camp-{{ $id }}">
+                {{/*  <form id="camp-{{ $id }}">
                     <div class="radio-group">
                         <label> <input type="radio" name="type-{{ $id }}" value="AM"> AM ($75) </label>
                         <label> <input type="radio" name="type-{{ $id }}" value="Full-Day" checked="checked"> Full-Day ($115) </label>
@@ -29,12 +31,12 @@
                     </div>
                 </form>
                 <div class="spacybutton">
-                <a href="javascript: ecwid_add_product_to_cart(
+                    <a href="javascript: ecwid_add_product_to_cart(
                             {{ $id }},
                             get_camp_options( {{ $id }} ) );"
                     class="btn-small btn-primary">Add to Cart</a>
                 </div>
-            </div>
+            </div>  */}}
         </div>
         {{ end }}
     </div>
