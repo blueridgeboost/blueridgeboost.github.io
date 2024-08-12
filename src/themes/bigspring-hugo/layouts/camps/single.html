@@ -1,0 +1,58 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-1 d-none d-xl-block"></div>
+      <div class="col-xl-3 col-lg-4 col-md-12">
+        {{ $start_time := time.AsTime .Params.start_date }}
+        {{ $end_time := time.AsTime .Params.end_date }}
+        <b>{{ time.Format "2 January" $start_time }} &ndash;  {{ time.Format "2 January" $end_time }}</b><br>
+        {{ if eq .Params.camp_type "Workshop" }}
+            <b>{{ .Params.ages }}</b> <br>
+        {{ else }}
+            <b>Ages {{ .Params.ages }} </b> <br> 
+        {{ end }}
+        Topic: {{ .Params.topic }}  <br>
+        Half-Day $355/week &ndash; All-Day $485/week.<br>
+        <a href="{{ .Params.product_id }}" class=" btn btn-primary m-2">Add to Cart</a>
+      </div>
+      <div class="col-xl-7 col-lg-8 col-md-12">
+          {{.Params.summary | markdownify}} 
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1 d-none d-xl-block"></div>
+        {{ if and (isset .Params "am_session") (isset .Params "pm_session") }}
+          <div class="col-xl-5 col-lg-6 col-md-12"> 
+            {{ partial "session.html" .Params.am_session }}
+          </div>
+          <div class="col-xl-5 col-lg-6 col-md-12"> 
+            {{ partial "session.html" .Params.pm_session }}
+          </div>
+        {{ else }}
+          {{ if isset .Params "am_session" }}
+            <div class="col-xl-5 col-lg-6 col-12">
+              {{ partial "session.html" .Params.am_session }}
+            </div>
+          {{ else }}
+            {{ if isset .Params "pm_session" }}
+            <div class="col-xl-5 col-lg-6 col-12">
+              {{ partial "session.html" .Params.pm_session }}
+            </div>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="content">{{ .Content }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{end}}

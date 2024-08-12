@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="d-flex flex-wrap gap-3 justify-content-around">
+                {{ range .Params.meetings }}
+                {{ $meeting_time := time.AsTime .meeting }}
+                {{ if ge (sub ($meeting_time.Unix) (now.Unix)) 0 }} 
+                    <a href="javascript: ecwid_add_product_to_cart({{ .product_id }}, {});"
+                        class=" btn btn-primary m-2 mtgbtnwidth">
+                        {{ time.Format "Mon, 2 Jan 06" $meeting_time }}
+                        {{ if ( isset . "data_item_description" ) }}
+                            <br>{{ .data_item_description }}
+                        {{ end }}
+                    </a>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>   
+</div>

@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            {{ .Params.intro | markdownify }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            {{ $price := .Params.price | default "0" }}
+            <p>
+                <b>Drop off</b> at {{ .Params.drop_off }}. <b>Pick up before</b> {{ .Params.pick_up }}. 
+                <b>Cost:</b> ${{ $price }}.
+                <b>Minimum enrollment: </b> {{ .Params.min_enrollment | default "4" }}. <b>Maximum enrollment:</b>  {{ .Params.max_enrollment | default "12" }}. 
+            </p>
+            <p>
+                {{ if eq $price "0" }}
+                    Should your plans change, please cancel your sign-up to free the spot. <b>
+                    Please consider making a donation for the volunteers helping us.</b>
+                {{ else }}
+                    In the event that minimum enrollment is not met three days before the event, we will fully refund your payment.
+                {{ end }}
+            </p>
+            <p>Click on one of the dates below to add the date to the shopping cart. Do not forget to complete the signup by checking out.</p>
+        </div>
+    </div>
+</div>

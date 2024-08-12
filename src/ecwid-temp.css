@@ -1,0 +1,95 @@
+/* Do not display category name */
+.ec-store__category-page .page-title__name.ec-header-h1 {display:none;}
+
+/* Fonts */
+.ecwid div, .ecwid span, .ecwid a, .ecwid p, .ecwid h1 {
+font-family: "Roboto", "Helvetica", "Arial", "sans-serif" !important;
+}
+
+
+/*Product titles on catalog page*/
+/*Change font color*/
+/* .ec-size .ec-store .grid-product__title-inner {
+    color: black;
+}   */
+/*Product price on catalog page*/
+/*Change font color*/
+/* .ec-size .ec-store .grid-product__price-amount {
+    color: blue;
+} */
+/*Change font size*/
+/* .ec-size .ec-store .grid-product__price-value.ec-price-item { 
+    font-size: 20px !important; 
+} */
+ 
+/* Disable zoom effect for product thumbnails */
+.ec-size .ec-store .grid-product__wrap-inner:hover .grid-product__picture {
+    transform: none;
+}
+/* Hide category thumbnail images and titles */
+.ec-size .ec-store .grid__categories {
+    display: none;
+}
+/* Hide category cards in the store front page */
+.ec-size .ec-store.ec-store__category-page--0 .ec-grid .grid__categories {
+    display: none;
+}
+
+/* Buttons */
+.ec-size .ec-store .form-control--primary .form-control__button,
+.ec-size .ec-store .form-control--primary .form-control__button:hover,
+.ec-size .ec-store .form-control--secondary .form-control__button,
+.ec-size .ec-store .form-control--secondary .form-control__button:hover,
+.ec-size .ec-store .details-product-purchase__add-buttons .form-control__button,
+.ec-size .ec-store .details-product-purchase__add-buttons .form-control__button:hover 
+.ec-size .ec-store .grid-product__buy-now .form-control__button,
+.ec-size .ec-store .grid-product__buy-now .form-control__button:hover,
+.ec-size .ec-store .ec-form__row--continue .form-control__button,
+.ec-size .ec-store .ec-form__row--continue .form-control__button:hover,
+.ec-size .ec-store .ec-cart-step--payment .form-control__button,
+.ec-size .ec-store .ec-cart-step--payment .form-control__button:hover,
+.ecsp .ecwid-btn--primary,
+.ecsp .ecwid-btn--primary:hover,
+.ecwid .ecwid-btn--primary,
+.ecwid .ecwid-btn--primary:hover
+{ 
+    background-color: #005172; 
+    color: white;
+    font-weight: 500;
+    line-height: 1;
+    border-radius: 50px;
+    border: 2px solid;
+    transition: 0.3s ease;
+    padding: 0.9em 1.6em;
+    font-size: 1em;
+}
+
+.ec-size .ec-store .ec-confirmation__continue .form-control__button,
+.ec-size .ec-store .ec-confirmation__continue .form-control__button:hover,
+.form-control--primary.form-control--flexible.details-product-purchase__checkout .form-control__button,
+.form-control--primary.form-control--flexible.details-product-purchase__checkout .form-control__button:hover,
+.ec-size .ec-store .ec-confirmation__continue .form-control__button,
+.ec-size .ec-store .ec-confirmation__continue .form-control__button:hover
+{ 
+    background-color: white; 
+    color: #005172;
+    font-weight: 500;
+    line-height: 1;
+    border-radius: 50px;
+    border: 2px solid;
+    transition: 0.3s ease;
+    padding: 0.9em 1.6em;
+    font-size: 1em;
+}
+
+.grid-product__wrap {
+    display: flex;
+  }
+.grid-product__price {
+    flex: 1 0 auto;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}

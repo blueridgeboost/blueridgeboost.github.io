@@ -1,36 +1,26 @@
 {
-  "name": "brb",
-  "version": "1.0.0",
-  "description": "Blue Ridge Boost",
-  "main": "index.html",
-  "directories": {
-    "doc": "docs"
-  },
+  "name": "bigspring",
+  "version": "3.3.2",
+  "license": "UNLICENSED",
+  "author": "gethugothemes",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "hugo server",
+    "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
+    "test": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
+    "dev:example": "cd exampleSite; hugo server --themesDir ../..",
+    "build:example": "cd exampleSite; hugo --themesDir ../.. --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
+    "test:example": "cd exampleSite; hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
+    "update-modules": "node ./scripts/clearModules.js && hugo mod clean --all && hugo mod get -u ./... && hugo mod tidy",
+    "project-setup": "node ./scripts/projectSetup.js",
+    "theme-setup": "node ./scripts/themeSetup.js",
+    "format": "prettier -w ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/blueridgeboost/blueridgeboost.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/blueridgeboost/blueridgeboost.github.io/issues"
-  },
-  "homepage": "https://github.com/blueridgeboost/blueridgeboost.github.io#readme",
-  "dependencies": {
-    "@fullhuman/postcss-purgecss": "^5.0.0",
-    "bootstrap": "^5.3.3",
-    "fontawesome-free": "^1.0.4",
-    "lazysizes": "^5.3.2",
-    "uglify-js": "^3.17.4",
-    "uglifyjs": "^2.4.11"
-  },
+  
   "devDependencies": {
-    "autoprefixer": "^10.4.17",
-    "clean-css": "^5.3.2",
-    "postcss": "^8.4.35",
-    "postcss-cli": "^11.0.0"
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-go-template": "0.0.15"
   }
 }

@@ -1,0 +1,120 @@
+{{define "main"}}
+
+{{ partial "page-header.html" . }}
+
+<section class="section">
+  <div class="container">
+    <p>Blue Ridge Boosts offers instructional programs in robotics, coding, and math during the school breaks 
+      and days off school.  
+    Join us for an exhilarating exploration of robotics, coding, chess, and math. Teamwork and collaboration 
+      are at the heart of our camp experience. Students will have the opportunity to work together, share ideas, 
+      and solve challenges. Through hands-on activities and group projects, students will develop critical 
+      thinking skills and learn the importance of effective communication.</p>
+    <p>Blue Ridge Boost is a single focus instructional program, not a day care program. 
+      As such, <b>students must be at least six years old for camps.</b> 
+      All ages may attend classes, but only those six and older can be dropped off. 
+      Thank you for your support in complying with the 
+      <a href="https://law.lis.virginia.gov/vacode/title22.1/chapter14.1/section22.1-289.030/">licensing regulations</a>. </p>
+  </div>
+  <div class="container" id="camp1" >
+    <h4>1-Day Camps &ndash; Ages 6 to 13</h4>
+    {{ partial "1-day-camp-cards.html" .Params }}
+  </div>
+  <div class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col-2"><h3>Camps</h3></div>
+        <div class="col-5"></div>
+        <div class="col-5"><a href="#workshops"><h5>Jump to Workshops</h5></a></div>
+      </div>
+    </div>
+    <p><b>Flexibile options:</b>To accomodate a variety of schedules, we offer AM, PM, and All Day camps. 
+      AM 8:30 to 12:30. / PM 1:00 to 5:00. / All-Day 8:30 to 5:00. <br>
+      <b>Daily activities:</b> Each morning and afternoon is divided into two 90-minute sections: one for guided 
+      learning and one for free choice. During the guided learning session, students work on an assigned project, 
+      with encouragement to extend their work if they finish early. 
+      The free-choice session allows students to select from various activities, including:
+      <ol>
+        <li>Continuing work on the guided session project</li>
+        <li>Reading</li>
+        <li>Solving math puzzles</li>
+        <li>Playing educational games</li>
+        <li>Engaging in chess</li>
+      </ol>
+      In a full day, students participate in two guided learning sessions and two free-choice sessions, providing a 
+      balanced mix of structured learning and self-directed exploration.
+      
+      This structure aims to:
+      <ul>
+        <li>Foster a blend of focused skill development and creative exploration</li>
+        <li>Accommodate different learning paces and styles</li>
+        <li>Encourage self-motivation and decision-making skills</li>
+        <li>Promote a love for learning through diverse activities </li>
+      </ul>
+    </p>
+               
+      <p> <b>Cost:</b>
+          5-day AM/PM $355/week &ndash; All-Day $485/week.
+          1-day AM/PM $75/day &ndash; All-Day $115/day.</p>
+
+      <div class="mb-5">
+        <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#ages67" class="btn btn-outline-primary m-2">5-Day Ages 6 and 7</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#ages89" class="btn btn-outline-primary m-2">5-Day Ages 8 and 9</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#ages10" class="btn btn-outline-primary m-2">5-Day Ages 10 to 13</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#camp1" class="btn btn-outline-primary m-2">1-Day Ages 6 to 13</a>
+              </li>
+        </ul>
+      </div>
+  </div>
+
+  {{ $pages := where site.RegularPages "Section" .Params.section }}  
+  {{ $pages:= sort $pages "Params.start_date" "ASC" }}
+  
+  <div class="container" id="ages67" >
+    <h4>5-Day Camps &ndash; Ages 6 and 7</h4>
+    {{ $pages67 := where $pages "Params.ages" "6 and 7" }}
+    {{ $pages67 := where $pages67 "Params.camp_type" "5-day Camp" }}
+    {{ partial "camp-cards.html" $pages67 }}
+  </div>
+
+  <div class="container" id="ages89" >
+    <h4>5-Day Camps &ndash; Ages 8 and 9</h4>
+    {{ $pages89 := where $pages "Params.ages" "8 and 9" }}
+    {{ $pages89 := where $pages89 "Params.camp_type" "5-day Camp" }}
+    {{ partial "camp-cards.html" $pages89 }}
+  </div>
+  
+  <div class="container" id="ages10" >
+    <h4>5-Day Camps &ndash; Ages 10 to 13</h4>
+    {{ $pages10 := where $pages "Params.ages" "10 to 13" }}
+    {{ $pages10 := where $pages10 "Params.camp_type" "5-day Camp" }}
+    {{ partial "camp-cards.html" $pages10 }}
+  </div>
+
+  <div class="container" id="workshops">
+    <h2>5-Day Workshops</h2>
+    <p><b>Learning Experience:</b>Blue Ridge Boost workshops are an intensive learning experience focused on one specific topic. 
+      At Blue Ridge Boost, we are strong believers a student learns 
+      by doing the work, rather than by watching a teacher doing it. Students should expect short lessons to 
+      introduce the fundamental notions, and then to be asked to try problems that they did not see before. 
+      Instructors are ready to help with suggestions and clarifying questions.</p>
+    <p><b>Daily activities:</b> Each worskhop has two learning sessions. A learning session consists of a mini-lesson, 
+      followed by practice. </p>
+    <p><b>Cost:</b> $395/week; 1:30 to 5:30.</p>  
+  </div>
+
+  <div class="container" id="workshops">
+    {{ $pages1 := where $pages "Params.camp_type" "Workshop" }}
+    {{ partial "camp-cards.html" $pages1 }}
+  </div>
+  
+</section>
+{{ end }}

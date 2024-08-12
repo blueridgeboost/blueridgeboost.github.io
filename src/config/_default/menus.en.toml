@@ -1,0 +1,150 @@
+# main menu
+[[main]]
+    name       = "Classes"
+    url        = "/classes/"
+    weight     = 1
+
+[[main]]
+    name        = "Camps"
+    url         = "camps/"
+    weight      = 2
+
+[[main]]
+    name        = "Events"
+    weight      = "3"
+
+
+[[main]]
+    name       = "Parents Night Out"
+    url        = "/parents-night-out/"
+    weight     = 3
+    parent     = "Events"
+
+[[main]]
+    name       = "Girl Powered Fridays"
+    url        = "/girl-powered-fridays/"
+    weight     = 4
+    parent     = "Events"
+
+[[main]]
+    name       = "Chess Club"
+    url        = "/chess/"
+    weight     = 5
+    parent     = "Events"
+
+[[main]]
+    name       = "Scholarships"
+    url        = "/scholarships/"
+    weight     = 6
+
+[[main]]
+    name        = "About Us"
+    hasChildren = true
+    weight      = 7
+
+[[main]]
+    parent     = "About Us"
+    name       = "Vision"
+    url        = "/vision/"
+    weight     = 1
+
+[[main]]
+    parent     = "About Us"
+    name       = "Instructors"
+    url        = "/instructors/"
+    weight     = 2
+
+[[main]]
+    parent     = "About Us"
+    name       = "Terms and Conditions"
+    url        = "/terms/"
+    weight     = 3
+
+[[main]]
+    parent     = "About Us"
+    name       = "Privacy Policy"
+    url        = "/privacy-policy/"
+    weight     = 4
+
+[[main]]
+    parent     = "About Us"
+    name       = "Refund Policy"
+    url        = "/refund-policy/"
+    weight     = 4
+
+
+[[main]]
+    name       = "Contact"
+    url        = "/contact/"
+    weight     = 8
+
+
+# [[main]]
+# parent = "Pages"
+# name = "Terms & Conditions"
+# url = "/terms-conditions"
+# weight = 24
+
+# # footer menu left
+# [[footer_left]]
+# name = "About Us"
+# url = "/about"
+# weight = 1
+
+# [[footer_left]]
+# name = "Team"
+# url = "/team"
+# weight = 2
+
+# [[footer_left]]
+# name = "How It Works"
+# url = "/how-it-works"
+# weight = 3
+
+# [[footer_left]]
+# name = "Career"
+# url = "/career"
+# weight = 4
+
+
+# # footer menu middle
+# [[footer_middle]]
+# name = "CRM"
+# url = "/products/product-1"
+# weight = 1
+
+# [[footer_middle]]
+# name = "Help Desk"
+# url = "/products/product-2"
+# weight = 2
+
+# [[footer_middle]]
+# name = "Workplace"
+# url = "/products/product-3"
+# weight = 3
+
+# [[footer_middle]]
+# name = "Analytics"
+# url = "/products/product-4"
+# weight = 4
+
+# # footer menu right
+# [[footer_right]]
+# name = "FAQ"
+# url = "/faq"
+# weight = 1
+
+# [[footer_right]]
+# name = "Contact"
+# url = "/contact"
+# weight = 2
+
+# [[footer_right]]
+# name = "Privacy Policy"
+# url = "/privacy-policy"
+# weight = 3
+
+# [[footer_right]]
+# name = "Terms & Conditions"
+# url = "/terms-conditions"
+# weight = 4

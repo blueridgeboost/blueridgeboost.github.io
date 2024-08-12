@@ -1,0 +1,16 @@
+{{define "main"}}
+
+{{ partial "page-header.html" . }}
+
+<section id="girl_powered_fridays" class="section">
+
+    {{ partial "one-time-class" . }}
+
+    {{ $events := where site.RegularPages "Section" .Params.section }}
+    {{ range sort $events .Params.weight "asc" }}
+        {{ partial "gpf-meetings.html" . }}
+    {{ end }}
+    
+</section>
+
+{{end}}
