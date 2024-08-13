@@ -19,7 +19,7 @@ payment:
   - name: "4-class package"
     price: "235"
   - name: "12-class package"
-    price: "585"
+    price: "637"
 
 difficulty: "Math Maestros"
 

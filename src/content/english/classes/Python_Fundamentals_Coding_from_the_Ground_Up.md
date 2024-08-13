@@ -21,7 +21,7 @@ payment:
   - name: "4-class package"
     price: "169"
   - name: "12-class package"
-    price: "387"
+    price: "483"
 
 difficulty: "Code Cadets"
 
