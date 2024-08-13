@@ -25,7 +25,7 @@ payment:
   - name: "4-class package"
     price: "219"
   - name: "12-class package"
-    price: "537"
+    price: "637"
 
 difficulty: "Skill Sculptors"
 

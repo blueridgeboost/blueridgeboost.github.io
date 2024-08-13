@@ -19,7 +19,7 @@ payment:
   - name: "4-class package"
     price: "275"
   - name: "12-class package"
-    price: "705"
+    price: "805"
 
 difficulty: "Competition"
 

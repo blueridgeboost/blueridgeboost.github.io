@@ -1,7 +1,7 @@
 ---
 date: "2021-07-12"
 draft: false
-title: "Algebra EXcellence | Blue Ridge Boost"
+title: "Algebra Excellence | Blue Ridge Boost"
 page_title: "Algebra Excellence"
 page_subtitle: "For Middle Schoolers"
 description: ""
@@ -15,11 +15,11 @@ subject_tags: ["Math"]
 
 payment:
   - name: "Monthly Subscription"
-    price: "195"
+    price: "179"
   - name: "4-class package"
     price: "235"
   - name: "12-class package"
-    price: "585"
+    price: "637"
 
 difficulty: "Math Maestros"
 

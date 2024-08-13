@@ -20,7 +20,7 @@ payment:
   - name: "4-class package"
     price: "195"
   - name: "12-class package"
-    price: "465"
+    price: "482"
 
 difficulty: "Foundation Forgers"
 
