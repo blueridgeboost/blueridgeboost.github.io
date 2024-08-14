@@ -6,6 +6,8 @@ description: "Free STEM events for girls ages 9 to 11"
 weight: "2"
 ages: "Events for girls ages nine to eleven"
 
+category: "gpf"
+
 meetings:
 - meeting: "2024-09-27"
   data_item_description: "Coding"

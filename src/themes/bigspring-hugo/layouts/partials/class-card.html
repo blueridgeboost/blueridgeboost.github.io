@@ -1,4 +1,12 @@
-{{ $id := .Params.product_id }}
+
+{{ $productID := .Params.product_id }}
+{{ $id := "" }}
+
+{{ if hugo.IsServer }}
+  {{ $id = index .Site.Params.ecwid_production_to_test $productID }}
+{{ else }}
+  {{ $id = $productID }}
+{{ end }}
 
 <div
     class = "card"
@@ -40,7 +48,7 @@
             </div>
         <center>
         <div class="spacybutton">
-            <a href="javascript: ecwid_add_product_to_cart( {{ $id }}, get_class_options( {{ $id }} ) );"
+            <a href="javascript: ecwid_add_product_to_cart( {{ $id }}, get_class_options( {{ $id }} ), {{ .Params.ecwid_category_classes }} );"
                 class="btn-small btn-primary">Add to Cart</a>
             </div>
         </center>
