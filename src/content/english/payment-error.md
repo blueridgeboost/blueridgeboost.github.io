@@ -5,6 +5,7 @@ page_title: "Order Processing Update"
 description: "Payment Error"
 draft: false
 ---
+
 <p>Dear Blue Ridge Boost Customer,</p>
 <p>We regret to inform you that we encountered an error while processing your order. We understand this is inconvenient, and we appreciate your patience.</p>
 <p>Our team is working diligently to resolve the issue. We will update you on the status of your order as soon as possible.</p>
