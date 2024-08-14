@@ -135,11 +135,19 @@
       <!-- Shopping Cart -->
       <div class="ec-cart-widget" data-icon="CART" data-fixed="TRUE" data-fixed-position="TOP_RIGHT"></div>
       <div>
+       {{ if hugo.IsProduction }}
+          <script data-cfasync="false" 
+            type="text/javascript" 
+            src="https://app.ecwid.com/script.js?106136041&data_platform=code&data_date=2024-07-22" 
+            charset="utf-8">
+          </script>
+        {{ else }}
         <script data-cfasync="false" 
           type="text/javascript" 
-          src="https://app.ecwid.com/script.js?106136041&data_platform=code&data_date=2024-07-22" 
+          src="https://app.ecwid.com/script.js?107344503&data_platform=code&data_date=2024-08-12" 
           charset="utf-8">
         </script>
+        {{ end }}
         <script type="text/javascript">Ecwid.init();</script>
       </div>
     </nav>

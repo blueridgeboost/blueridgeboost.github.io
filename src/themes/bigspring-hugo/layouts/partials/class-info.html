@@ -1,6 +1,7 @@
 {{.Params.start_time}} &ndash; {{.Params.end_time}} on 
     {{ range .Params.day_tags }} {{.}}s {{end}}
 <br> 
+{{ .Params.start_date  | time | dateFormat "Jan 2, 06"}} to {{ .Params.end_date | time | dateFormat "Jan 2, 06" }} <br>
 {{ if eq .Params.difficulty "Bot Builders Elite" }}
     <span class="level-elite"><a href="#elite">
         {{ .Params.difficulty }}

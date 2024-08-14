@@ -23,22 +23,23 @@ function filterClasses() {
 }
 document.addEventListener('DOMContentLoaded', filterClasses);
 
-function ecwid_add_product_to_cart( product_id, product_options ) {
+function ecwid_add_product_to_cart( product_id, product_options, category_id ) {
     if (typeof Ecwid == 'undefined' ||  !Ecwid.Cart) {
         Ecwid.OnPageLoaded.add(function () {
-            aux_ecwid_add_product_to_cart(product_id, product_options);
+            aux_ecwid_add_product_to_cart(product_id, product_options, category_id);
         });
     } else {
-        aux_ecwid_add_product_to_cart(product_id, product_options)
+        aux_ecwid_add_product_to_cart(product_id, product_options, category_id)
     }
 }
 
-function aux_ecwid_add_product_to_cart( product_id, product_options ) {
-    // alert("Adding to cart: " + product_id + " with options: " + JSON.stringify(product_options));
+function aux_ecwid_add_product_to_cart( product_id, product_options, category_id ) {
+    //alert("Adding to cart: " + product_id + " with options: " + JSON.stringify(product_options));
     Ecwid.Cart.addProduct({
         id: product_id,
         quantity: 1,   
         options: product_options, 
+        category_id: category_id,
         callback: function(success, product, cart, error){
             if (!success) {
                 console.error(error) // error message or null

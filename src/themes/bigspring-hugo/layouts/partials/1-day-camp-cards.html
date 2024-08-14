@@ -12,7 +12,11 @@
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-4 row-cols-xl-4 g-4">
         {{ range sort .one_day_camps "start_date" "ASC" }}
         <div class="card m-2">
-            {{ $id := .product_id }}
+            {{ if .Site.IsServer }}
+                {{ $id := index .Site.Params.ecwid_production_to_test .product_id }}
+            {{ else }}
+                {{ $id := .product_id }}
+            {{ end }}
             <div class="card-body">
                 
                 <b>{{ time.Format "Mon, 2 Jan 06" (time.AsTime .start_date) }}</b><br>
