@@ -10,7 +10,7 @@ summary: "This class offers a fun and gentle introduction to robotics for studen
 section: "classes"
 product_id: "682756993"
 
-day_tags: ["Thursday"]
+day_tags: ["Tuesday"]
 grade_tags: ["1st", "2nd"]
 subject_tags: ["Robotics"]
 
@@ -24,8 +24,8 @@ payment:
   
 difficulty: "Robo Rookies"
 
-start_date: "2024-09-04"
-end_date: "2025-06-04"
+start_date: "2024-09-03"
+end_date: "2025-06-03"
 start_time: "3:30"
 end_time: "4:30"
 
