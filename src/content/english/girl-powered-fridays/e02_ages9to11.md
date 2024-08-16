@@ -19,7 +19,7 @@ meetings:
   data_item_description: "Vex Robotics"
   product_id: "680166641"
 - meeting: "2025-03-07"
-  data_item_description: "Shpero Robotics"
+  data_item_description: "Sphero Robotics"
   product_id: "680166643"
 - meeting: "2025-05-02"
   data_item_description: "Aerial Drones"

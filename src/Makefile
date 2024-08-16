@@ -8,7 +8,7 @@ DESTINATION = ../docs
 
 develop: 
 	sleep 1 && echo "Opening local browser..." &&  open http://localhost:1313 &
-	hugo server  --buildDrafts --watch --destination $(DESTINATION)
+	hugo server  --disableFastRender --buildDrafts --watch --destination $(DESTINATION)
 
 clean:
 	rm -rf $(DESTINATION)

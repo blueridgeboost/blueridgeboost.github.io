@@ -18,8 +18,54 @@
   </div>
   <div class="container" id="camp1" >
     <h4>1-Day Camps &ndash; Ages 6 to 13</h4>
-    {{ partial "1-day-camp-cards.html" .Params }}
-  </div>
+    {{/*  {{ partial "1-day-camp-cards.html" .Params }}  */}}
+    <div class="container">
+      Options: AM ($75) <span>&#183;</span> <!-- PM ($75) <span>&#183;</span> --> Full-Day ($115)</p>
+      <b>Children that are not yet 6 year old may not attend camps.</b><br>
+      <div> Campers may attend at most 25 days in any three months, because Blue Ridge Boost is a 
+                      single focus instructional program, not a daycare program.</div>
+      <ul>
+          <li>ACPS &ndash; Albermarle Public Schools</li>
+          <li>CCS &ndash; Charlottesville City Schools</li>
+      </ul>
+      {{/*  <b>Signups are available through our <a href="https://store.blueridgeboost.com/products/camps">web store</a>!</b>  */}}
+      <p></p>
+      {{ $ids :=  .Site.Params.ecwid_production_to_test }}
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+          {{ range sort .Params.one_day_camps "start_date" "ASC" }}
+          <div class="card m-2">     
+              {{ $id := .product_id }}       
+              {{ if hugo.IsServer }}
+                  {{ $id = index $ids .product_id }}
+              {{ end }}
+              <div class="card-body">
+                  <b>{{ time.Format "Mon, 2 Jan 06" (time.AsTime .start_date) }}</b><br>
+                  Topic: {{ .topic }}<br>
+                  Schools: {{ range .schools }}{{ . }}  {{end}}<br>
+                  <form id="camp-{{ $id }}">
+                      <div class="radio-group">
+                          <label> <input type="radio" name="type-{{ $id }}" value="AM"> AM ($75) </label>
+                          <label> <input type="radio" name="type-{{ $id }}" value="Full-Day" checked="checked"> Full-Day ($115) </label>
+                      </div>
+                      <div class="radio-group" >
+                          <label> <input type="radio" name="payment-{{ $id }}" value="Now" checked="checked"> Now </label>
+                          <label> <input type="radio" name="payment-{{ $id }}" value="Non-refund​able deposit"> Deposit </label>
+                          {{/*  <label> <input type="radio" name="payment-{{ $id }}" value="3 Installmen​ts"> 3 Installments </label>  */}}
+                      </div>
+                  </form>
+                  <div class="spacybutton">
+                      <a href="javascript: ecwid_add_product_to_cart(
+                              {{ $id }},
+                              get_camp_options( {{ $id }} ), {{ .Site.Params.ecwid_category_camps }} );"
+                      class="btn-small btn-primary">Add to Cart</a>
+                  </div>
+              </div>
+          </div>
+          {{ end }}
+      </div>
+  </div>  
+</div>
+{{/*    
   <div class="container">
     <div class="container">
       <div class="row">
@@ -83,9 +129,9 @@
     {{ $pages67 := where $pages "Params.ages" "6 and 7" }}
     {{ $pages67 := where $pages67 "Params.camp_type" "5-day Camp" }}
     {{ partial "camp-cards.html" $pages67 }}
-  </div>
+  </div>  */}}
 
-  <div class="container" id="ages89" >
+  {{/*  <div class="container" id="ages89" >
     <h4>5-Day Camps &ndash; Ages 8 and 9</h4>
     {{ $pages89 := where $pages "Params.ages" "8 and 9" }}
     {{ $pages89 := where $pages89 "Params.camp_type" "5-day Camp" }}
@@ -114,7 +160,7 @@
   <div class="container" id="workshops">
     {{ $pages1 := where $pages "Params.camp_type" "Workshop" }}
     {{ partial "camp-cards.html" $pages1 }}
-  </div>
+  </div>  */}}
   
 </section>
 {{ end }}

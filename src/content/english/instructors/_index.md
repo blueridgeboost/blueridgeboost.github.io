@@ -12,7 +12,7 @@ owner:
   name: "Nora Evans"
   role: "Founder and CEO. Coding, robotics and math teacher."
   photo: "/images/instructors/evansnora.png"
-  bio: "Nora is originally from Bucharest, Romania and earned a B.Sc. in Computer Science at the Polytechnical University of Bucharest. Nors moved to Charlottesville in the Fall of 2004 to pursue graduate school at the University of Virginia, where I earned a Master's in Computer Science in 2006, a Master of Science in Mathematics in 2014, and a Master of Teaching in 2022. Some of Nora's accomplishments include:  [co-author](https://scholar.google.com/citations?user=BTsjtmgAAAAJ&hl=en&oi=ao) of several research articles in computer science and several years of industry experience as a Java software developer. Nora has extensive teaching experience as Lecturer in the Mathematics Department, Algera teacher at Peabody School, math student-teacher at Monticello High School, teaching and research assistant in the Computer Science Department.
+  bio: "Nora is originally from Bucharest, Romania and earned a B.Sc. in Computer Science at the Polytechnic University of Bucharest. Nora moved to Charlottesville in the Fall of 2004 to pursue graduate school at the University of Virginia, where I earned a Master's in Computer Science in 2006, a Master of Science in Mathematics in 2014, and a Master of Teaching in 2022. Some of Nora's accomplishments include:  [co-author](https://scholar.google.com/citations?user=BTsjtmgAAAAJ&hl=en&oi=ao) of several research articles in computer science and several years of industry experience as a Java software developer. Nora has extensive teaching experience as Lecturer in the Mathematics Department, Algebra teacher at Peabody School, math student-teacher at Monticello High School, teaching and research assistant in the Computer Science Department.
   
   At Blue Ridge Boost, Nora selects and develop class content, coaches the robotics competition teams, and teaches advanced math and computer science classes.
   "
@@ -26,7 +26,7 @@ coordinator:
   
   Ransford has experience in teaching teens and kids how to code. Through NSBE(Nation Society of Black Engineers) and Mrs. Early from Albemarle High School Ranford taught middle schoolers to code a Sphero bots. During that time I helped the students to understand critical thinking and problem-solving skills to be able to guide the Sphero out of not just one maze but an array of mazes with the same code.
   
-  At Blue Ridge Boost, Ransford teaches coding and robotics classes for elementary and middle school students both in classes and camp. Ransford also serves as coodinator for camps.
+  At Blue Ridge Boost, Ransford teaches coding and robotics classes for elementary and middle school students both in classes and camp. Ransford also serves as coordinator for camps.
   "
 
 instructors:
@@ -45,32 +45,14 @@ instructors:
   bio: "Christina is from Northern Virginia and graduated from JMU with my Master's in Teaching. Christina taught 3rd grade for the past 5 years and is joining Walker Upper Elementary as a fifth grade teacher. 
 
     At Blue Ridge Boost, Christina teaches coding, math, and robotics to elementary school students."
-
-- enable : true
-  name : "Hillary Han"
-  role: "Lead Instructor Math Workshops. Math teacher."
-  photo: "/images/instructors/hillary.png"
-  bio: "Hillary is originally from China and earned Bachelor's and Ph.D. degrees in Applied Mathematics at Northeastern University and Nankai University. After completing my doctoral studies, Hillary worked as a postdoctoral researcher at the University of Southern Denmark and taught three graduate courses (Combinatorics, Algebra and Analytic Combinatorics. Hillary moved to Virginia with her family in the Spring of 2015. 
-
-  Hillary's research in mathemtics has been published in several research articles. Hillary has experience teaching math in US as a substiture teacher in Albemarle County Public Schools, adjunct faculty at Piedmont Virginia Community College, and online mathematics tutor at Cignition.
-
-  At Blue Ridge Boost, Hillary teaches advanced math classes."
     
-- enable : true
+- enable : false
   name : "Akhil Marri"
   photo: "/images/instructors/akhil.png"
   role: "Lead Instructor Camp Ages 10 to 13. Coding and robotics teacher."
   bio: "Akhil is from Charlottesville, Virginia, and will be attending Stanford this fall to work towards a degree in Mechanical or Electrical Engineering. With a background as an Eagle Scout, Akhil honed his skills in teaching and mentoring, particularly with younger individuals and teenagers. Akhil has a passion for STEM and more specifically robotics. During high school, Akhil founded an FTC team where his role as co-captain and Engineering Lead propelled the team to be ranked #1 in Virginia.
 
   At Blue Ridge Boost, Akhil teaches advanced robotics and coding classes and lead the camp for ages ten to thirteen. Akhil is integral to our efforts to launch the FTC and Aerial Robotics teams."
-
-- enable : true
-  name: "Sarah Hicks"
-  role: "Lead Instructor Camp Ages 6 and 7."
-  photo:  "/images/instructors/sarah.png"
-  bio: "Sarah Hicks is a native of Nelson County, Virginia. Sarah will be graduating with a Bachelor’s in Elementary Education in December from Liberty University. Throughout this program, Sarah worked with students ages 5-12 in a classroom setting. 
-
-  At Blue Ridge Boost, Sarah is the camp leader for our youngest students."
 
 - enable : true
   name: "Scarlett Morse"

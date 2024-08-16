@@ -29,7 +29,7 @@ icon: "/images/camps/icons/java-logo.jpg"
 data_single_product_id: "680150487"
 pm_session:
     title: 'Daily Topics'
-    monday: 'Primititive Types'
+    monday: 'Primitive Types'
     tuesday: 'Using Objects'
     wednesday: 'Boolean Expressions and if Statements, Part 1'
     thursday: 'Boolean Expressions and if Statements, Part 2'

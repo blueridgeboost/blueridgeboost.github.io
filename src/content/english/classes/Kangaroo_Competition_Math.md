@@ -55,7 +55,7 @@ end_time: "5:00"
 
 <h4>Preparation</h4>
 
-Blue Ridge Boost classes are structured a problem-solving sessions. Students work through problem sets under the expert guidance of enthusiatic teachers. Ocassionally, there will be mini-lessons to introduce students to concepts not covered in school.
+Blue Ridge Boost classes are structured a problem-solving sessions. Students work through problem sets under the expert guidance of enthusiastic teachers. Occasionally, there will be mini-lessons to introduce students to concepts not covered in school.
 
 <div class="section">
     <h4>Topics Covered</h4>

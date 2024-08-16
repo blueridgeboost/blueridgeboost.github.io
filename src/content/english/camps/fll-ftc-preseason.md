@@ -1,7 +1,7 @@
 ---
 date: "2021-07-12"
 draft: false
-title: "FLL/FTC Preason"
+title: "FLL/FTC Preseason"
 page_title: "Intro to Competition Robotics"
 description: "Are you curious about robotics, science, and teamwork? Join the Blue Ridge Boost teams for a week-long introduction to FIRST LEGO League Challenge (FLL Challenge) and FIRST Tech Challenge (FTC)."
 summary: "Are you curious about robotics, science, and teamwork? Join the Blue Ridge Boost teams for a week-long introduction to FIRST LEGO League Challenge (FLL Challenge) and FIRST Tech Challenge (FTC).

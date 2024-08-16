@@ -3,7 +3,7 @@ date: "2021-07-12"
 draft: false
 title: "Make your own games | Blue Ridge Boost"
 page_title: "Make your own games"
-description: "Learn to code by desiging your own games!"
+description: "Learn to code by designing your own games!"
 summary: "Make Your Own Games camp is an immersive week-long adventure where kids aged 10-13 can dive into the exciting world of game design using CodeMonkey's Game Builder course. This camp is designed to teach fundamental coding and game design concepts through engaging, hands-on activities and projects. <br>
 Skills Developed
     <ul>
@@ -77,5 +77,5 @@ pm_session:
 ---
 
 <div class="container">
-The camp activities are apapted from the CodeHS course <a href="https://codehs.com/syllabus/21074">Introduction to Game Design with p5play</a>. 
+The camp activities are adapted from the CodeHS course <a href="https://codehs.com/syllabus/21074">Introduction to Game Design with p5play</a>. 
 </div>
