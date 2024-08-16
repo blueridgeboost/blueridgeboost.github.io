@@ -13,7 +13,7 @@ intro: "The Charlottesville Kids' Chess Club invites all the children ages six t
 <b>Schedule.</b> The first hour is dedicated to two-player chess. For the second hour, partipants may choose between 
                     standard two-player chess and chess variants, including dice chess and four player chess."
 
-category: "chess"
+category_id: "chess"
 
 meetings: 
 - meeting: "2024-09-12"

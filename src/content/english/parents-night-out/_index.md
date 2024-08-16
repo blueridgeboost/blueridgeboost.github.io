@@ -23,7 +23,7 @@ Ages: 6-10 years<br>
 Where: Blue Ridge Boost
 "
 
-category: "pno"
+category_id: "pno"
 
 meetings: 
 - meeting: "2024-09-20"

@@ -5,7 +5,7 @@ page_title: "Girl Powered Fridays"
 description: "Free STEM events for girls ages 12 to 14"
 ages: "Events for girls ages twelve to fourteen"
 
-category: "gpf"
+category_id: "gpf"
 
 meetings:
 - meeting: "2024-10-11"

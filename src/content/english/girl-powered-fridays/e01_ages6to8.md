@@ -6,7 +6,7 @@ description: "Free STEM events for girls ages 6 to 8"
 weight: "1"
 ages: "Events for girls ages six to eight"
 
-category: "gpf"
+category_id: "gpf"
 meetings: 
 - meeting: "2024-09-13"
   data_item_description: "Block Coding"
