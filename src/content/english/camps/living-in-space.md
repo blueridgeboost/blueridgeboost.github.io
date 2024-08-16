@@ -34,7 +34,7 @@ am_sessions:
     tuesday: "Cosmic Chase. Organize a race of two starfighters right on your desk. You’ll build the entire construction from scratch, yet you won’t be able to predict the outcome of this race. How come? Randomness at work."
     wednesday: "Moon Lander. What’s so difficult about landing on celestial bodies? Create your own lander to find out what were the main challenges to landing on the Moon and learn about the most famous landing in the man’s history executed by Apollo 11."
     thursday: "Space Shuttle. Become a shuttle pilot for a day and learn what dangers await astronauts in space. Start with printing a map to the stars, build your space flight simulator, activate it with code and make sure to avoid obstacles in front of you."
-    friday: "Plannetary Walker. Examine unknown surface from a safe distance. Hop on the surface walker, which steadily advances forward - unless there’s an obstacle in its way. Can you think of an animal that walks in a similar manner?"
+    friday: "Planetary Walker. Examine unknown surface from a safe distance. Hop on the surface walker, which steadily advances forward - unless there’s an obstacle in its way. Can you think of an animal that walks in a similar manner?"
 
 pm_sessions:
     text: "Afternoons"

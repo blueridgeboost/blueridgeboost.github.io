@@ -43,5 +43,5 @@ pm_session:
 
 <div class="container">
 The morning camp activities are developed by VEX Robotics. <a href="https://www.vexrobotics.com/copyright-notice">Copyright 2021 Innovation First, Inc. (dba VEX Robotics) All rights reserved.</a><br>
-The afternoon camp activities are apapted from the CodeHS course <a href="https://codehs.com/course/intro_cpp/overview">Introduction to Computer Science in C++</a>. 
+The afternoon camp activities are adapted from the CodeHS course <a href="https://codehs.com/course/intro_cpp/overview">Introduction to Computer Science in C++</a>. 
 </div>

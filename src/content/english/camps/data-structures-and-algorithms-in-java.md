@@ -16,7 +16,7 @@ camp_options:
 
 topic: "Math"
 
-ages: "Experience with Java synthax and commands is required."
+ages: "Experience with Java syntax and commands is required."
 
 summary: "Elevate your programming skills with our intensive Java course! Dive deep into the world of Data Structures and Algorithms, essential knowledge for any serious programmer."
 

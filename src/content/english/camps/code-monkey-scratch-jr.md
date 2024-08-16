@@ -2,7 +2,7 @@
 date: "2021-07-12"
 draft: false
 title: "Learn to code with Code Monkey Jr | Blue Ridge Boost"
-page_title: "Coding with Code Monjey Jr. and Scratch Jr."
+page_title: "Coding with Code Monkey Jr. and Scratch Jr."
 description: "A comprehensive learning experience, combining structured morning sessions using Code Monkey Jr with creative afternoon projects using PBS KIDS ScratchJr"
 
 summary: "The coding camp offers a comprehensive learning experience, combining structured morning sessions using Code Monkey Jr with creative afternoon projects using PBS KIDS ScratchJr. Mornings focus on fundamental coding concepts, progressing from basic sequencing to loops, advanced loops, conditional looping, and procedures. Afternoons engage campers in themed projects inspired by popular PBS shows, exploring topics like animal abilities, odd patterns, plant growth, decision-making, and space exploration. This balanced approach allows children to build strong coding foundations while applying their skills to fun, interactive projects, fostering both technical knowledge and creativity throughout the week."
@@ -12,7 +12,7 @@ enabled: true
 section: "camps"
 
 camp_type: "5-day Camp"
-camp_name: "Coding with Code Monjey Jr. and Scratch Jr."
+camp_name: "Coding with Code Monkey Jr. and Scratch Jr."
 
 camp_options: 
 - "AM"

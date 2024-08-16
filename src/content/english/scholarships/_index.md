@@ -12,7 +12,7 @@ scholarships:
     name: "Aicha Amira Wade Scholarship"
     photo: "/images/scholarships/aicha.jpg"
     apply: "https://forms.gle/s4nb6kJ6wNB7FDN56"
-    awardees: "Charlotte, Marim, Atyia, Malva"
+    awardees: "Charlotte, Miriam, Atyia, Malva"
     alt: "Aicha Amira Wade"
     text: "The Aicha Amira Wade Memorial Scholarship is awarded elementary school girls to advance their education in computing. Each award covers full tuition for one or more classes at Blue Ridge Boost."
 

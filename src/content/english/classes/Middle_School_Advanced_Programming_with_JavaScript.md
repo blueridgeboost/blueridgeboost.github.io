@@ -4,7 +4,7 @@ draft: false
 title: "Middle School Advanced Programming with JavaScript | Blue Ridge Boost"
 page_title: "Advanced JavaScript"
 page_subtitle: "Programming for Middle Schoolers"
-description: "High school-level content for advanced midleschoolers."
+description: "High school-level content for advanced middle schoolers."
 summary: "The advanced middle school JavaScript course is designed to take students with a basic understanding of programming to the next level. The curriculum focuses on enhancing logical thinking and problem-solving skills through hands-on programming practice."
 section: "classes"
 product_id: "682778864"

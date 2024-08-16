@@ -6,7 +6,7 @@ page_title: "First Lego League/VEX IQ"
 page_subtitle: "Middle School Competition Robotics"
 
 description: "First Lego League Challenge/VEX IQ Robotics Competition"
-summary: "<p>First Lego League (FLL) is a Lego robotics competion for students grades 4 to 8. Teams engage in research, problem-solving, coding and engineering – building and programming a LEGO robot that navigates the missions of a robot game. As part of Challenge, teams also participate in a research project to identify and solve a relevant real-world problem. </p> Team members must be willing to work on all aspects of the competition and demostrate the <b>FIRST core values</b>.<br>"
+summary: "<p>First Lego League (FLL) is a Lego robotics competition for students grades 4 to 8. Teams engage in research, problem-solving, coding and engineering – building and programming a LEGO robot that navigates the missions of a robot game. As part of Challenge, teams also participate in a research project to identify and solve a relevant real-world problem. </p> Team members must be willing to work on all aspects of the competition and demonstrate the <b>FIRST core values</b>.<br>"
 
 section: "classes"
 product_id: "682662301"
@@ -48,7 +48,7 @@ All team members are expected to attend regularly the team meetings held on <br>
 <div class="container">
     <div class="row">
         <div class="col">
-            <b>August 5-9</b> and <b>12-16</b> from 9:00 am to 1:00 pm. You do not need to signup for camps.<br>
+            <b>August 5-9</b> and <b>12-16</b> from 9:00 am to 1:00 pm. You do not need to sign up for camps.<br>
             <b>School days-off</b> from 9 am to 1 pm on September 23, October 24 and 25, November 4 and 5.<br>
             <b>Mondays and Wednesdays from 5 to 6:30</b> August 19, 21; September 4, 9, 11, 16, 18, 25, 30; October 2, 7, 9, 14, 16, 21, 28, 30.
         </div>

@@ -10,10 +10,10 @@ section: "chess-club"
 drop_off: "4:30 p.m."
 pick_up: "6:30 p.m."
 intro: "The Charlottesville Kids' Chess Club invites all the children ages six to twelve to two hours of chess. The meetings are held at Blue Ridge Boost. <br>
-<b>Schedule.</b> The first hour is dedicated to two-player chess. For the second hour, partipants may choose between 
+<b>Schedule.</b> The first hour is dedicated to two-player chess. For the second hour, participants may choose between 
                     standard two-player chess and chess variants, including dice chess and four player chess."
 
-category: "chess"
+category_id: "chess"
 
 meetings: 
 - meeting: "2024-09-12"
