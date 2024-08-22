@@ -1,3 +1,12 @@
+{{ $productID := .Params.product_id }}
+{{ $id := "" }}
+
+{{ if hugo.IsServer }}
+  {{ $id = index .Site.Params.ecwid_production_to_test $productID }}
+{{ else }}
+  {{ $id = $productID }}
+{{ end }}
+
 <section class="section">
     <div class="container">
         <div class="row">
@@ -7,7 +16,6 @@
         </div>
         <div class="col-xl-4 col-lg-5 col-md-12">
             {{ partial "class-info.html" . }}
-            {{ $id := .Params.product_id }}
             <div class="card"
                 style="padding: 0.5rem; background-color:aliceblue"
                 id = "class-{{ $id }}"
