@@ -23,17 +23,17 @@ function filterClasses() {
 }
 document.addEventListener('DOMContentLoaded', filterClasses);
 
-function ecwid_add_product_to_cart( product_id, product_options, category_id ) {
+function ecwid_add_product_to_cart( product_id, product_options ) {
     if (typeof Ecwid == 'undefined' ||  !Ecwid.Cart) {
         Ecwid.OnPageLoaded.add(function () {
-            aux_ecwid_add_product_to_cart(product_id, product_options, category_id);
+            aux_ecwid_add_product_to_cart(product_id, product_options);
         });
     } else {
-        aux_ecwid_add_product_to_cart(product_id, product_options, category_id)
+        aux_ecwid_add_product_to_cart(product_id, product_options);
     }
 }
 
-function aux_ecwid_add_product_to_cart( product_id, product_options, category_id ) {
+function aux_ecwid_add_product_to_cart( product_id, product_options ) {
     //alert("Adding to cart: " + product_id + " with options: " + JSON.stringify(product_options));
     Ecwid.Cart.addProduct({
         id: product_id,
