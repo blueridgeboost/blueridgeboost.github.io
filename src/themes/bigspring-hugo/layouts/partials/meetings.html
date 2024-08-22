@@ -1,3 +1,5 @@
+
+
 <div class="container">
     <div class="row">
         <div class="col">
@@ -11,7 +13,14 @@
                     {{ $category_id = .Site.Params.ecwid_category_gpf }}
                 {{ end }}
                 {{ range .Params.meetings }}
-                {{ $id := .product_id }}
+                {{ $productID := .Params.product_id }}
+                {{ $id := "" }}
+
+                {{ if hugo.IsServer }}
+                {{ $id = index .Site.Params.ecwid_production_to_test $productID }}
+                {{ else }}
+                {{ $id = $productID }}
+                {{ end }}
                 {{ if hugo.IsServer }}
                     {{ $id = index .Site.Params.ecwid_production_to_test $id }}
                 {{ end }}
