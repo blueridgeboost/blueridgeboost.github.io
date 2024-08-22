@@ -39,8 +39,9 @@ function aux_ecwid_add_product_to_cart( product_id, product_options, category_id
         id: product_id,
         quantity: 1,   
         options: product_options, 
-        category_id: category_id,
-        recurring_charge: null,
+        categoryIds: [category_id],
+        defaultCategoryId: category_id,
+        recurringChargeSettings: null,
         callback: function(success, product, cart, error){
             if (!success) {
                 console.error(error) // error message or null
