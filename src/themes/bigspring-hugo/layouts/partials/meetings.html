@@ -1,28 +1,15 @@
-
-
+{{ $params := .Site.Params.ecwid_production_to_test }}
 <div class="container">
     <div class="row">
         <div class="col">
             <div class="d-flex flex-wrap gap-3 justify-content-around">
-                {{ $category_id := 0 }}
-                {{ if eq .Params.category_id "pno" }}
-                    {{ $category_id = .Site.Params.ecwid_category_pno }}
-                {{ else if eq .Params.category_id "chess" }}
-                    {{ $category_id = .Site.Params.ecwid_category_chess }}
-                {{ else if eq .Params.category_id "gfp" }}
-                    {{ $category_id = .Site.Params.ecwid_category_gpf }}
-                {{ end }}
                 {{ range .Params.meetings }}
-                {{ $productID := .Params.product_id }}
+                {{ $productID := .product_id }}
                 {{ $id := "" }}
-
                 {{ if hugo.IsServer }}
-                {{ $id = index .Site.Params.ecwid_production_to_test $productID }}
+                    {{ $id = index $params $productID }}
                 {{ else }}
-                {{ $id = $productID }}
-                {{ end }}
-                {{ if hugo.IsServer }}
-                    {{ $id = index .Site.Params.ecwid_production_to_test $id }}
+                    {{ $id = $productID }}
                 {{ end }}
                 {{ $meeting_time := time.AsTime .meeting }}
                 {{ if ge (sub ($meeting_time.Unix) (now.Unix)) 0 }} 
