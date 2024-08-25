@@ -10,7 +10,7 @@ section: "classes"
 product_id: "680173014"
 
 day_tags: ["Monday"]
-grade_tags: ["3th", "4th", "5th"]
+grade_tags: ["3rd", "4th", "5th"]
 subject_tags: ["Math"]
 
 payment:
