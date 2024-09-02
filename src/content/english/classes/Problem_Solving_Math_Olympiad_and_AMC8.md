@@ -9,7 +9,7 @@ summary: "MOEMS is a challenging and engaging math competition for elementary an
 section: "classes"
 product_id: "680173015"
 
-day_tags: ["Tuesday"]
+day_tags: ["Saturday"]
 grade_tags: ["5th", "6th"]
 subject_tags: ["Math"]
 
@@ -25,8 +25,8 @@ difficulty: "Competition"
 
 start_date: "2024-09-03"
 end_date: "2025-06-03"
-start_time: "6:00"
-end_time: "7:00"
+start_time: "1:00"
+end_time: "2:00"
 
 ---
 
