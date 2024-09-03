@@ -50,3 +50,10 @@ end_time: "4:30"
   <li>Apply learned skills to program spherical robots</li>
   <li>Engage in creative problem-solving challenges</li>
 </ul>
+
+<div class="details">
+    <h2>Important Information</h2>
+    <p><strong>Arrival Time:</strong> 3:30 PM</p>
+    <p><strong>Entry Point:</strong> Door labeled "Robotics Classroom"</p>
+    <p><strong>Teacher:</strong> <a href="/instructors#ransford">Ransford</a></p>
+</div>
