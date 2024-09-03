@@ -56,3 +56,29 @@ end_time: "5:30"
 </ul>
 
 <p class="highlight">Join us on this exciting journey from basic commands to creating sophisticated programs!</p>
+
+<h3>Important Information</h3>
+<p><strong>Arrival Time:</strong> 4:30 PM</p>
+<p><strong>Entry Point:</strong> Door labeled "Coding Classroom"</p>
+<p><strong>Teacher:</strong> Kha</p>
+
+<h4>Session 01</h4>
+<ul>
+  <li><strong>Introduction to computers</strong>
+      <ul>
+          <li>What are computers?</li>
+          <li>How do we use them in the classroom and at home?</li>
+      </ul>
+  </li>
+  <li><strong>Unplugged coding activity</strong>
+      <ul>
+          <li>Learning the importance of clear and precise instructions</li>
+      </ul>
+  </li>
+  <li><strong>Online coding platform orientation</strong>
+      <ul>
+          <li>Getting familiar with the platform</li>
+          <li>Completing initial exercises</li>
+      </ul>
+  </li>
+</ul>

@@ -8,7 +8,7 @@ description: "Engaging introduction to robotics for students in grades 4 and 5."
 summary: "This class offers a progressive, hands-on introduction to robotics for students in grades 4 and 5, covering Vex GO, Lego Spike Prime, and Sphero Bolt Robotics throughout the academic year, while developing problem-solving, critical thinking, and teamwork skills."
 
 section: "classes"
-product_id: "682660858"
+product_id: "682765880"
 
 day_tags: ["Tuesday"]
 grade_tags: ["4th", "5th"]
