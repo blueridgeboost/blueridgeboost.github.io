@@ -11,7 +11,7 @@ summary: "This course is a comprehensive, year-long program designed for middle 
 section: "classes"
 product_id: "682778194"
 
-day_tags: ["Tuesday"]
+day_tags: ["Sunday"]
 grade_tags: ["7th", "8th"]
 subject_tags: ["Computer Coding"]
 
@@ -25,10 +25,10 @@ payment:
 
 difficulty: "Code Cadets"
 
-start_date: "2024-09-03"
+start_date: "2024-09-08"
 end_date: "2025-06-03"
-start_time: "5:30"
-end_time: "6:30"
+start_time: "2:30"
+end_time: "3:30"
 
 ---
 
