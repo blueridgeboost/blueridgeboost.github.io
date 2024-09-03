@@ -26,8 +26,8 @@ difficulty: "Code Cadets"
 
 start_date: "2024-09-04"
 end_date: "2025-06-04"
-start_time: "6:30"
-end_time: "7:30"
+start_time: "5:30"
+end_time: "6:30"
 
 ---
 
