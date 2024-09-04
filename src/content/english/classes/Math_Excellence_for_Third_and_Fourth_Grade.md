@@ -16,10 +16,10 @@ subject_tags: ["Math"]
 payment:
   - name: "Monthly Subscription"
     price: "129"
-  - name: "4-class package"
-    price: "169"
-  - name: "12-class package"
-    price: "483"
+  # - name: "4-class package"
+  #   price: "169"
+  # - name: "12-class package"
+  #   price: "483"
 
 difficulty: "Math Maestros"
 

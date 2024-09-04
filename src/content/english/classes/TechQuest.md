@@ -17,10 +17,10 @@ subject_tags: ["Robotics"]
 payment:
   - name: "Monthly Subscription"
     price: "155"
-  - name: "4-class package"
-    price: "195"
-  - name: "12-class package"
-    price: "465"
+  # - name: "4-class package"
+  #   price: "195"
+  # - name: "12-class package"
+  #   price: "465"
 
 difficulty: "Bot Builders Elite"
 

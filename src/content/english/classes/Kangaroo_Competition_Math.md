@@ -10,24 +10,24 @@ section: "classes"
 
 product_id: "680172023"
 
-day_tags: ["Tuesday"]
+day_tags: ["Saturday"]
 grade_tags: ["1st", "2nd"]
 subject_tags: ["Math"]
 
 payment:
   - name: "Monthly Subscription"
     price: "155"
-  - name: "4-class package"
-    price: "195"
-  - name: "12-class package"
-    price: "465"
+#   - name: "4-class package"
+#     price: "195"
+#   - name: "12-class package"
+#     price: "465"
 
 difficulty: "Competition"
 
-start_date: "2024-09-03"
+start_date: "2024-09-14"
 end_date: "2025-06-03"
-start_time: "4:00"
-end_time: "5:00"
+start_time: "12:00"
+end_time: "1:00"
 
 ---
     
