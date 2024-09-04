@@ -16,17 +16,17 @@ subject_tags: ["Math"]
 payment:
   - name: "Monthly Subscription"
     price: "155"
-  - name: "4-class package"
-    price: "195"
-  - name: "12-class package"
-    price: "465"
+#   - name: "4-class package"
+#     price: "195"
+#   - name: "12-class package"
+#     price: "465"
 
 difficulty: "Competition"
 
 start_date: "2024-09-03"
 end_date: "2025-06-03"
-start_time: "5:00"
-end_time: "6:00"
+start_time: "5:30"
+end_time: "6:30"
 
 ---
 

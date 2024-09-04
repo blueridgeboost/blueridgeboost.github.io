@@ -17,14 +17,14 @@ subject_tags: ["Computer Coding"]
 payment:
   - name: "Monthly Subscription"
     price: "129"
-  - name: "4-class package"
-    price: "169"
-  - name: "12-class package"
-    price: "483"
+#   - name: "4-class package"
+#     price: "169"
+#   - name: "12-class package"
+#     price: "483"
 
 difficulty: "Code Cadets"
 
-start_date: "2024-09-11"
+start_date: "2024-09-18"
 end_date: "2025-06-02"
 start_time: "5:30"
 end_time: "6:30"

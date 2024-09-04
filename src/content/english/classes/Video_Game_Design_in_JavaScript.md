@@ -17,10 +17,10 @@ product_id: "682778867"
 payment:
   - name: "Monthly Subscription"
     price: "179"
-  - name: "4-class package"
-    price: "219"
-  - name: "12-class package"
-    price: "637"
+  # - name: "4-class package"
+  #   price: "219"
+  # - name: "12-class package"
+  #   price: "637"
 
 difficulty: "Code Cadets"
 

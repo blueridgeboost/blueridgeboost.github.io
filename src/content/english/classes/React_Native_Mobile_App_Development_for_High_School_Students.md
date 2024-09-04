@@ -13,15 +13,15 @@ product_id: "682778196"
 payment:
   - name: "Monthly Subscription"
     price: "179"
-  - name: "4-class package"
-    price: "219"
-  - name: "12-class package"
-    price: "637"
+  # - name: "4-class package"
+  #   price: "219"
+  # - name: "12-class package"
+  #   price: "637"
 
 difficulty: "Syntax Sorcerers"
 
-start_date: "2024-09-04"
-end_date: "2025-06-04"
+start_date: "2024-10-03"
+end_date: "2025-10-03"
 start_time: "5:30"
 end_time: "6:30"
 

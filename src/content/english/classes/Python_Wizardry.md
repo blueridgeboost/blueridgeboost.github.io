@@ -13,10 +13,10 @@ product_id: "682778870"
 payment:
   - name: "Monthly Subscription"
     price: "179"
-  - name: "4-class package"
-    price: "219"
-  - name: "12-class package"
-    price: "637"
+  # - name: "4-class package"
+  #   price: "219"
+  # - name: "12-class package"
+  #   price: "637"
 
 difficulty: "Algorithm Architects"
 
@@ -24,7 +24,7 @@ day_tags: ["Sunday"]
 grade_tags: ["7th", "8th", "9th", "10th", "11th", "12th"]
 subject_tags: ["Computer Coding"]
 
-start_date: "2024-09-08"
+start_date: "2024-10-06"
 end_date: "2025-06-08"
 start_time: "6:30 PM"
 end_time: "7:30 PM"

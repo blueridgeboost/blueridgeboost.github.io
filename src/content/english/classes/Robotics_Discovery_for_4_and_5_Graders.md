@@ -17,10 +17,10 @@ subject_tags: ["Robotics"]
 payment:
   - name: "Monthly Subscription"
     price: "129"
-  - name: "4-class package"
-    price: "169"
-  - name: "12-class package"
-    price: "483"
+  # - name: "4-class package"
+  #   price: "169"
+  # - name: "12-class package"
+  #   price: "483"
   
 difficulty: "Robo Rookies"
 
@@ -28,6 +28,8 @@ start_date: "2024-09-03"
 end_date: "2025-06-03"
 start_time: "5:30"
 end_time: "6:30"
+
+inventory: "0"
 
 ---
 
