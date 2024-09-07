@@ -14,7 +14,8 @@ Blue Ridge Boost LLC accepts the following payment methods:
 4. Checks (personal or cashier's)
 
 ## Payment Due Date
-All payments for classes are due upon registration. Your child's spot in the class will not be reserved until payment is received in full.
+All payments for classes are due upon registration. Your child's spot in the class will not be reserved until payment is received in full. Subscriptions will be charged on the first day of classes or current date, if the 
+classes are in progress.
 
 ## Recurring Payments (Subscriptions)
 For your convenience, we offer subscription-based enrollment. By enrolling in a subscription, you authorize Blue Ridge Boost LLC to automatically charge your chosen payment method on a recurring basis (e.g., monthly or quarterly). Subscription payments will be processed on the same day of each billing period.

@@ -10,7 +10,7 @@ summary: "This class offers a progressive, hands-on introduction to robotics for
 section: "classes"
 product_id: "682660858"
 
-day_tags: ["Sunday"]
+day_tags: ["Sundays"]
 grade_tags: ["2nd", "3rd"]
 subject_tags: ["Robotics"]
 
