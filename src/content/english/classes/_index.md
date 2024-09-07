@@ -10,6 +10,27 @@ section: "classes"
 
 ---
 
+
+<p>
+    <b>Math.</b>
+    Long-term success in math comes from understanding fundamental concepts and gaining experience and confidence by solving 
+    well-chosen problems. Our classes teach students to think like mathematicians and to 
+    developing foundational skills and the ability to approach challenges creatively.
+</p>  
+<p>
+    <b>Computer Coding.</b>
+    In our coding programs, students learn to think like programmers as they 
+    explore programming languages. Developing algorithmic thinking is at the 
+    core all of our classes, regardless of the student's age or experience.
+</p>  
+<p>
+    <b>Robotics.</b>
+    Our robotics classes bring engineering and programming to life. Students 
+    build and program their own robots, learning about mechanics, electronics, 
+    and automation. These classes encourage teamwork, innovation, and practical 
+    applications of STEM concepts.
+</p>
+
 <a name="levels"></a>
 
 <h3>Math Levels</h3>

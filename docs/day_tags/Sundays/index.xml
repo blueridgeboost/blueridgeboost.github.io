@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sundays on Computer Science - Robotics - Math - Computer Coding - Chess in Charlottesville </title>
+    <link>https://blueridgeboost.com/day_tags/Sundays/</link>
+    <description>Recent content in Sundays on Computer Science - Robotics - Math - Computer Coding - Chess in Charlottesville </description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 12 Jul 2021 00:00:00 -0400</lastBuildDate>
+    <atom:link href="https://blueridgeboost.com/day_tags/Sundays/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics Discovery for 2nd and 3rd Grades | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Robotics_Discovery_for_2nd_and_3rd_Grades/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
+      <guid>https://blueridgeboost.com/classes/Robotics_Discovery_for_2nd_and_3rd_Grades/</guid>
+      <description>This class offers a progressive, hands-on introduction to robotics for students in grades 2 and 3, covering Vex GO, Lego Spike Essential, and Sphero Bolt Robotics throughout the academic year, while developing problem-solving, critical thinking, and teamwork skills.</description>
+    </item>
+  </channel>
+</rss>
