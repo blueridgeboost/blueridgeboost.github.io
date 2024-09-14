@@ -1,16 +1,11 @@
-{{ $params := .Site.Params.ecwid_production_to_test }}
+{{ $params := .Site.Params.ecwid_ids }}
 <div class="container">
     <div class="row">
         <div class="col">
             <div class="d-flex flex-wrap gap-3 justify-content-around">
                 {{ range .Params.meetings }}
                 {{ $productID := .product_id }}
-                {{ $id := "" }}
-                {{ if hugo.IsServer }}
-                    {{ $id = index $params $productID }}
-                {{ else }}
-                    {{ $id = $productID }}
-                {{ end }}
+                {{ $id := index $params $productID }}
                 {{ $meeting_time := time.AsTime .meeting }}
                 {{ if ge (sub ($meeting_time.Unix) (now.Unix)) 0 }} 
                     <a href="javascript: ecwid_add_product_to_cart({{ $id }}, {});"
