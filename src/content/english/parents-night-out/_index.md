@@ -45,7 +45,7 @@ meetings:
 - meeting: "2025-04-13"
   product_id: "pno-2025-04-13"
 - meeting: "2025-05-09"
-  product_id: "pno2025-05-09"
+  product_id: "pno-2025-05-09"
 ---
 
 

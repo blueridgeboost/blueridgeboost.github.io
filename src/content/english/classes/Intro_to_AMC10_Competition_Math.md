@@ -7,7 +7,7 @@ page_subtitle: "Competition Math"
 description: "An introductory class for students just starting their AMC10 competition journey."
 summary: "The AMC 10 (American Mathematics Competitions 10) is a prestigious mathematics contest in the United States designed for students aged 10 through 16, or those enrolled in grades 10 and below. This challenging competition aims to cultivate problem-solving skills, foster mathematical creativity, and promote a deeper understanding of advanced mathematical concepts. With its rigorous content spanning algebra, geometry, number theory, and combinatorics, the AMC 10 serves as a gateway to higher-level math competitions. For students embarking on their competitive mathematics journey, the Blue Ridge Boost class offers a solid foundation, introducing key strategies and fundamental topics essential for success in the AMC 10 and beyond. Students enrolled in the class have the option to take the 2024 contests at Blue Ridge Boost. The class will continue for the duration of the school year to prepare students for the next year's competition."
 section: "classes"
-product_id: "680170560"
+product_id: "Intro-to-AMC10"
 
 day_tags: ["Wednesday"]
 grade_tags: ["7th", "8th", "9th", "10th"]

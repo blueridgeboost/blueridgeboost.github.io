@@ -8,7 +8,7 @@ description: "Kids Coding Course: Building with Beavers"
 summary: "Students learn sequencing, repetition, problem-solving, and conditional logic while developing practical coding skills. The course employs a hands-on, gamified approach that gradually increases in complexity, allowing each child to advance at their own speed. By the end, students can create sophisticated programs, having built a strong foundation in coding and computational thinking."
 section: "classes"
 
-product_id: "682778866"
+product_id: "Kids-Coding-Course"
 
 day_tags: ["Tuesday"]
 grade_tags: ["1st", "2nd"]

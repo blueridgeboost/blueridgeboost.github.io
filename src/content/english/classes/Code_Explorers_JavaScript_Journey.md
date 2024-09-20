@@ -7,7 +7,7 @@ page_subtitle: "JavaScript Journey"
 description: "Embark on a coding adventure with JavaScript for middle schoolers."
 summary: '"Code Explorers: JavaScript Journey" is an engaging introductory class designed to introduce middle school students to the world of JavaScript programming. This course takes students on an exciting adventure through the fundamentals of coding, using JavaScript as the vehicle for exploration. Through hands-on projects, interactive exercises, and creative problem-solving, students will discover the power of programming while building a solid foundation in JavaScript concepts. The class aims to spark curiosity, foster logical thinking, and empower young learners to create their own web-based projects, setting them on a path to become the next generation of digital innovators.'
 section: "classes"
-product_id: "682778862"
+product_id: "Code-Explorers"
 
 
 day_tags: ["Monday"]
@@ -24,7 +24,7 @@ payment:
 
 difficulty: "Code Cadets"
 
-start_date: "2024-09-18"
+start_date: ""
 end_date: "2025-06-02"
 start_time: "5:30"
 end_time: "6:30"

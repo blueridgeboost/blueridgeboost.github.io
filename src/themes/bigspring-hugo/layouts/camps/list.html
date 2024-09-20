@@ -2,6 +2,9 @@
 
 {{ partial "page-header.html" . }}
 
+{{ $params := .Site.Params.ecwid_ids }}
+{{ $inventory := .Site.Params.inventory }}
+
 <section class="section">
   <div class="container">
     <p>Blue Ridge Boosts offers instructional programs in robotics, coding, and math during the school breaks 
@@ -12,7 +15,7 @@
       thinking skills and learn the importance of effective communication.</p>
     <p>Blue Ridge Boost is a single focus instructional program, not a day care program. 
       As such, <b>students must be at least six years old for camps.</b> 
-      All ages may attend classes, but only those six and older can be dropped off. 
+      {{/*  All ages may attend classes, but only those six and older can be dropped off.   */}}
       Thank you for your support in complying with the 
       <a href="https://law.lis.virginia.gov/vacode/title22.1/chapter14.1/section22.1-289.030/">licensing regulations</a>. </p>
   </div>
@@ -20,45 +23,52 @@
     <h4>1-Day Camps &ndash; Ages 6 to 13</h4>
     {{/*  {{ partial "1-day-camp-cards.html" .Params }}  */}}
     <div class="container">
-      Options: AM ($75) <span>&#183;</span> <!-- PM ($75) <span>&#183;</span> --> Full-Day ($115)</p>
+      {{/*  Options: AM ($75) <span>&#183;</span> <!-- PM ($75) <span>&#183;</span> --> Full-Day ($115)</p>
       <b>Children that are not yet 6 year old may not attend camps.</b><br>
       <div> Campers may attend at most 25 days in any three months, because Blue Ridge Boost is a 
-                      single focus instructional program, not a daycare program.</div>
-      <ul>
+                      single focus instructional program, not a daycare program.</div>  */}}
+      <ul style="display: flex; list-style-type: none; padding: 0;">
           <li>ACPS &ndash; Albermarle Public Schools</li>
           <li>CCS &ndash; Charlottesville City Schools</li>
+          <li>STAB &ndash; St. Anne's Belfield</li>
+          <li>PS &ndash; Peabody School</li>
       </ul>
       {{/*  <b>Signups are available through our <a href="https://store.blueridgeboost.com/products/camps">web store</a>!</b>  */}}
       <p></p>
-      {{ $ids :=  .Site.Params.ecwid_production_to_test }}
       <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
           {{ range sort .Params.one_day_camps "start_date" "ASC" }}
-          <div class="card m-2">     
-              {{ $id := .product_id }}       
-              {{ if hugo.IsServer }}
-                  {{ $id = index $ids .product_id }}
-              {{ end }}
+          {{/*  <div class="card m-2 h-100">       */}}
+            <div class="col d-flex">
+              <div class="card flex-fill">
+            {{ $productID := .product_id }}
+            {{ $id := index $params $productID }}
+            {{ $spaces := index $inventory $productID }}
               <div class="card-body">
-                  <b>{{ time.Format "Mon, 2 Jan 06" (time.AsTime .start_date) }}</b><br>
+                  <b>{{ time.Format "January 2, 2006" (time.AsTime .start_date) }}</b><br>
                   Topic: {{ .topic }}<br>
-                  Schools: {{ range .schools }}{{ . }}  {{end}}<br>
-                  <form id="camp-{{ $id }}">
-                      <div class="radio-group">
-                          <label> <input type="radio" name="type-{{ $id }}" value="AM"> AM ($75) </label>
-                          <label> <input type="radio" name="type-{{ $id }}" value="Full-Day" checked="checked"> Full-Day ($115) </label>
-                      </div>
-                      <div class="radio-group" >
-                          <label> <input type="radio" name="payment-{{ $id }}" value="Now" checked="checked"> Now </label>
-                          <label> <input type="radio" name="payment-{{ $id }}" value="Non-refund​able deposit"> Deposit </label>
-                          {{/*  <label> <input type="radio" name="payment-{{ $id }}" value="3 Installmen​ts"> 3 Installments </label>  */}}
-                      </div>
-                  </form>
-                  <div class="spacybutton">
-                      <a href="javascript: ecwid_add_product_to_cart(
-                              {{ $id }},
-                              get_camp_options( {{ $id }} ) );"
-                      class="btn-small btn-primary">Add to Cart</a>
-                  </div>
+                  Schools: {{ $sortedSchools := sort .schools }}
+                  {{ range $sortedSchools }}
+                    {{ . }}
+                  {{ end }}<br>
+                  {{ if gt $spaces 0 }}
+                    {{ $spaces }} spaces available<br>
+                    <form id="camp-{{ $id }}">
+                        <div class="radio-group">
+                            <label> <input type="radio" name="type-{{ $id }}" value="AM"> AM ($75) </label>
+                            <label> <input type="radio" name="type-{{ $id }}" value="Full-Day" checked="checked"> Full-Day ($115) </label>
+                        </div>
+                    </form>
+                    
+                        <div class="spacybutton">
+                            <a href="javascript: ecwid_add_product_to_cart(
+                                    {{ $id }},
+                                    get_camp_options( {{ $id }} ) );"
+                            class="btn-small btn-primary">Add to Cart</a>
+                        </div>
+                  {{ else }}
+                      No spaces available!
+                  {{ end }}
+              </div>
               </div>
           </div>
           {{ end }}

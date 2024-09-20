@@ -8,11 +8,11 @@ description: "Comprehensive C++ data structures course covering basics to advanc
 summary: "This course includes C++ fundamentals, basic data structures, file and error handling, STL containers, recursion, pointers, linked lists, and graphs. Each module has examples and assignments. A final project integrates multiple data structures to solve a real-world problem. The course prepares students for complex programming challenges in academic and professional settings."
 section: "classes"
 
-day_tags: ["Wednesday"]
+day_tags: ["Saturday"]
 grade_tags: ["9th", "10th", "11th", "12th"]
 subject_tags: ["Computer Coding"]
 
-product_id: "682774193"
+product_id: "Advanced-C-Plus-Plus"
 
 payment:
   - name: "Monthly Subscription"
@@ -24,10 +24,10 @@ payment:
 
 difficulty: "Algorithm Architects"
 
-start_date: "2024-10-03"
+start_date: ""
 end_date: "2025-06-04"
-start_time: "6:30"
-end_time: "7:30"
+start_time: "3:30"
+end_time: "5:00"
 ---
 
 <h3>Module 1: C++ Basics</h3>

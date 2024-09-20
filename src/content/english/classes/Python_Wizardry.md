@@ -8,7 +8,7 @@ page_subtitle: "Unlocking Advanced Features"
 description: "Python Wizardry: Unlocking Advanced Features"
 summary: "<center><em>Are you ready to take your Python skills to the next level?</em></center> Join our in-depth course designed to guide you through some of the most powerful and essential concepts in Python programming. This course is perfect for developers who have a basic understanding of Python and are eager to explore advanced topics."
 
-product_id: "682778870"
+product_id: "Python-Wizardry"
 
 payment:
   - name: "Monthly Subscription"
@@ -24,10 +24,10 @@ day_tags: ["Sunday"]
 grade_tags: ["7th", "8th", "9th", "10th", "11th", "12th"]
 subject_tags: ["Computer Coding"]
 
-start_date: "2024-10-06"
+start_date: ""
 end_date: "2025-06-08"
-start_time: "6:30 PM"
-end_time: "7:30 PM"
+start_time: "3:30 PM"
+end_time: "5:00 PM"
 ---
 
 <p>

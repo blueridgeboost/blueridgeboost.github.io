@@ -9,6 +9,13 @@
     <lastBuildDate>Mon, 12 Jul 2021 00:00:00 -0400</lastBuildDate>
     <atom:link href="https://blueridgeboost.com/day_tags/Saturday/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Advanced C&#43;&#43;: Mastering Data Structures | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Advanced_C&#43;&#43;_Mastering_Data_Structures/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
+      <guid>https://blueridgeboost.com/classes/Advanced_C&#43;&#43;_Mastering_Data_Structures/</guid>
+      <description>This course includes C++ fundamentals, basic data structures, file and error handling, STL containers, recursion, pointers, linked lists, and graphs. Each module has examples and assignments. A final project integrates multiple data structures to solve a real-world problem. The course prepares students for complex programming challenges in academic and professional settings.</description>
+    </item>
+    <item>
       <title>Advanced Problem Solving: Math Olympiad, and AMC8 | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Advanced_Problem_Solving_Math_Olympiad_and_AMC8/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>

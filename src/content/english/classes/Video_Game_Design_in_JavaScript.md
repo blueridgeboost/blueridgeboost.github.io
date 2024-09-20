@@ -12,7 +12,7 @@ day_tags: ["Tuesday"]
 grade_tags: ["9th", "10th", "11th", "12th"]
 subject_tags: ["Computer Coding"]
 
-product_id: "682778867"
+product_id: "Video-Game-Design"
 
 payment:
   - name: "Monthly Subscription"

@@ -7,7 +7,7 @@ page_subtitle: "Vex IQ Robotics"
 description: ""
 summary: ""
 section: "classes"
-product_id: "682774101"
+product_id: "Girl-Powered-VEX-IQ-Robotics-Explorers"
 
 day_tags: ["Saturday"]
 grade_tags: ["6th", "7th", "8th"]
@@ -19,7 +19,7 @@ payment:
   
 difficulty: "Bot Builders Elite"
 
-start_date: "2024-09-14"
+start_date: ""
 end_date: "2025-06-02"
 start_time: "3:30"
 end_time: "5:00"

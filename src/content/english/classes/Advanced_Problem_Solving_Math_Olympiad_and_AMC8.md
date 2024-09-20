@@ -7,7 +7,7 @@ page_subtitle: "Math Olympiad and AMC8"
 description: ""
 summary: "MOEMS is a challenging and engaging math competition for middle schoolers, featuring five monthly contests from November to March that focus on problem-solving and mathematical creativity. Similarly, the AMC 8 is a 40-minute math competition designed for students in grade 8 and below, covering a range of middle school math topics, including some concepts from introductory algebra. At Blue Ridge Boost, students participate in weekly problem-solving sessions to prepare for these competitions, and they have the option to take the tests if they choose to do so."
 section: "classes"
-product_id: "682761974"
+product_id: "Advanced-Problem-Solving"
 
 day_tags: ["Saturday"]
 grade_tags: ["7th", "8th"]

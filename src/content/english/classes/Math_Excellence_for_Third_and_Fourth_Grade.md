@@ -7,7 +7,7 @@ page_subtitle: "For Third and Fourth Graders"
 description: ""
 summary: "In our advanced math class, we harness the engaging and comprehensive materials from Beast Academy to cultivate a deep understanding and passion for mathematics. Each student embarks on a personalized mathematical journey under the guidance of an expert Blue Ridge Boost instructor."
 section: "classes"
-product_id: "680170559"
+product_id: "Math-Excellence-3-4"
 
 day_tags: ["Thursday"]
 grade_tags: ["3rd", "4th"]

@@ -7,7 +7,7 @@ page_subtitle: ""
 description: ""
 summary: ""
 section: "classes"
-product_id: "692381694"
+product_id: "Sphero-Time-Travelers"
 
 day_tags: ["Saturday"]
 grade_tags: ["4th", "5th"]
@@ -19,7 +19,7 @@ payment:
   
 difficulty: "Bot Builders Elite"
 
-start_date: "2024-09-14"
+start_date: ""
 end_date: "2025-06-02"
 start_time: "2:00"
 end_time: "3:00"

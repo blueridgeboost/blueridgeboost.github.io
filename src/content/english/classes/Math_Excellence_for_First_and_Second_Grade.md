@@ -7,7 +7,7 @@ page_subtitle: "For First and Second Graders"
 description: ""
 summary: "In our advanced math class, we harness the engaging and comprehensive materials from Beast Academy to cultivate a deep understanding and passion for mathematics. Each student embarks on a personalized mathematical journey under the guidance of an expert Blue Ridge Boost instructor."
 section: "classes"
-product_id: "680173018"
+product_id: "Math-Excellence-1-2"
 
 day_tags: ["Thursday"]
 grade_tags: ["1st", "2nd"]

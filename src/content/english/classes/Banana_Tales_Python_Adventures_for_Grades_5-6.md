@@ -9,7 +9,7 @@ description: "Game-based learning with interactive challenges"
 summary: "Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, functions, and introduces more complex topics like classes, string manipulation, and sorting algorithms. With step-by-step instructions, interactive quizzes, and a supportive learning environment, this course provides a fun and effective way for 5th and 6th graders to develop their programming skills."
 
 section: "classes"
-product_id: "682778868"
+product_id: "Banana-Tales"
 
 day_tags: ["Wednesday"]
 grade_tags: ["5th", "6th"]
