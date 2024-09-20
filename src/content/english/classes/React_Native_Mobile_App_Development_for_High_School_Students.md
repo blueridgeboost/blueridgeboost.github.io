@@ -8,7 +8,7 @@ description: "Learn to design and build mobile apps using React Native, a powerf
 summary: 'The "React Native Mobile App Development for High School Students" course is designed to equip students with the skills to create dynamic and scalable mobile applications. Over the course of a year, students will delve into the React Native framework, learning to use components, stylesheets, state management, and more to build apps that run seamlessly on their smartphones. With a mix of web-based and hands-on activities, including collaborative exercises and digital presentations, students will gain practical experience in mobile app development. This course is ideal for those with prior knowledge in JavaScript and web design, providing an engaging and comprehensive introduction to the world of mobile app creation.'
 
 section: "classes"
-product_id: "682778196"
+product_id: "Mobile-App-Development"
 
 payment:
   - name: "Monthly Subscription"
@@ -20,7 +20,7 @@ payment:
 
 difficulty: "Syntax Sorcerers"
 
-start_date: "2024-10-03"
+start_date: ""
 end_date: "2025-10-03"
 start_time: "5:30"
 end_time: "6:30"

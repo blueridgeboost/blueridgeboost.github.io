@@ -8,7 +8,7 @@ description: "Join Our Rookie Girl Powered Aerial Drone Team!"
 summary: "Calling All Future Female Drone Pilots and Engineers! Join our Girl-Powered Aerial Drone Competition Team! We're forming an all-girl team for the REC Foundation Aerial Drone Competition"
 section: "classes"
 
-product_id: "682778765"
+product_id: "Girl-Powered-Drone-Squad"
 
 day_tags: ["Sunday"]
 grade_tags: ["5th", "6th", "7th", "8th", "9th", "10th", "11th"]

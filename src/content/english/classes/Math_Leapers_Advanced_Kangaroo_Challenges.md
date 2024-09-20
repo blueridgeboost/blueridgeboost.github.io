@@ -7,7 +7,7 @@ page_subtitle: "Advanced Kangaroo Challenges"
 description: "Preparation class for the Kangaroo Math Competition for third and fourth graders."
 summary: "The Math Kangaroo competition is an international mathematical competition where students from grades 1 through 12 participate. The curriculum for grades 3 and 4 focuses on enhancing mathematical skills through engaging and challenging problems, building on the foundational knowledge acquired in earlier grades. The Kangaroo Mathematics Competition, set for Thursday, March 20, 2025.  The class will continue for the duration of the school year to prepare students for the next year's competition."
 section: "classes"
-product_id: "680172024"
+product_id: "Math-Leapers"
 
 day_tags: ["Tuesday"]
 grade_tags: ["3rd", "4th"]

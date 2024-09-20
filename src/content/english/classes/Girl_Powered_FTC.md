@@ -8,7 +8,7 @@ description: "Join Our Rookie Girl-Powered Team: FIRST Tech Challenge Adventure 
 summary: "This is an inclusive STEM class with a focus on empowering girls. While all genders are welcome and encouraged to participate, we strive to maintain a majority female enrollment to address historical underrepresentation in STEM fields. Our goal is to create a supportive environment that inspires girls to explore and excel in science, technology, engineering, and mathematics."
 
 section: "classes"
-product_id: "682774096"
+product_id: "Girl-Powered-First-Tech-Challenge"
 
 day_tags: ["Saturday"]
 grade_tags: ["7th", "8th", "9th", "10th", "11th"]

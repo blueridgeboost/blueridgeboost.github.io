@@ -9,7 +9,7 @@ description: "A year-long course teaches middle school students Python basics th
 summary: "This course is a comprehensive, year-long program designed for middle school students with no prior coding experience. It introduces fundamental programming concepts using Python through interactive exercises and projects centered around controlling a virtual character named Tracy. The course covers commands, functions, loops, variables, conditionals, and lists, progressing to more complex tasks like user interaction and creating visual projects."
 
 section: "classes"
-product_id: "682778194"
+product_id: "Python-Fundamentals"
 
 day_tags: ["Sunday"]
 grade_tags: ["7th", "8th"]

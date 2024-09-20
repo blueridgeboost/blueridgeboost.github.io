@@ -8,7 +8,7 @@ page_subtitle: "Adventures in Text Programming"
 description: "Learn to code with Code Monkey's Banana Tales."
 summary: "Banana Code Quest is a gamified coding course designed to teach young students real-world coding from the very first challenge. Through engaging puzzles and adventures, students help a monkey catch bananas and outsmart various animals, all while learning fundamental and advanced coding concepts in a fun and interactive way."
 section: "classes"
-product_id: "682778861"
+product_id: "Banana-Code-Quest"
 
 day_tags: ["Monday"]
 grade_tags: ["3rd", "4th"]

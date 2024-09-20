@@ -51,18 +51,25 @@
       <description>The Vex Adventures in Engineering camp offers an engaging hands-on experience where campers design and build with VEX GO kits. Through a series of STEM lab units and activities, participants learn about simple machines, energy transfer, and the mechanics of movement. They engage in building and testing structures like inclined planes, levers, spring cars, and gears, deepening their understanding of engineering principles and the design process.</description>
     </item>
     <item>
-      <title>Algebra 1 and 2 Mastery| Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Algebra_1_and_2_Mastery/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Algebra_1_and_2_Mastery/</guid>
-      <description>&lt;p&gt;This class is designed for students performing in the top half of their grade level who occasionally need assistance with challenging homework problems.&lt;/p&gt; &lt;b&gt;Focus:&lt;/b&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Enhancing algebraic skills:&lt;/strong&gt; The class will delve deeper into algebraic concepts, providing students with the tools and techniques to tackle more complex problems.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Deepening understanding:&lt;/strong&gt; Beyond simply solving problems, the class will emphasize understanding the &#39;why&#39; behind the solutions, fostering a deeper comprehension of algebraic principles.&lt;/li&gt; &lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Algebra Excellence | Blue Ridge Boost</title>
+      <title>Algebra 1 Excellence | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Algebra_1_Excellence/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
       <guid>https://blueridgeboost.com/classes/Algebra_1_Excellence/</guid>
       <description>This class is ideal for students looking to go beyond the typical school curriculum. Based on the renowned textbook by Art of Problem Solving founder Richard Rusczyk, the course emphasizes learning through problem-solving with instructors available to provide clarifying explanations. Instead of traditional lecturing, most of the class time is dedicated to tackling challenging problems. Students will be encouraged to write complete and clear solutions to exercises, an important skill in communicating mathematics effectively.</description>
+    </item>
+    <item>
+      <title>Algebra 1 Mastery| Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Algebra_Mastery/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
+      <guid>https://blueridgeboost.com/classes/Algebra_Mastery/</guid>
+      <description>&lt;p&gt;This class is designed for students performing in the top half of their grade level who occasionally need assistance with challenging homework problems.&lt;/p&gt; &lt;b&gt;Focus:&lt;/b&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Enhancing algebraic skills:&lt;/strong&gt; The class will delve deeper into algebraic concepts, providing students with the tools and techniques to tackle more complex problems.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Deepening understanding:&lt;/strong&gt; Beyond simply solving problems, the class will emphasize understanding the &#39;why&#39; behind the solutions, fostering a deeper comprehension of algebraic principles.&lt;/li&gt; &lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Algebra Boost | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Algebra_Boost/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
+      <guid>https://blueridgeboost.com/classes/Algebra_Boost/</guid>
+      <description>This class is designed for students seeking reinforcement of classroom concepts through additional practice with grade-appropriate problems. &lt;br&gt; During a typical session, students will receive assistance with homework assignments and review concepts learned in school. As time allows, instructors will provide similar problems to further solidify understanding and boost confidence.</description>
     </item>
     <item>
       <title>Banana Code Quest: Adventures in Text-Based Programming | Blue Ridge Boost</title>
@@ -231,6 +238,27 @@
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
       <guid>https://blueridgeboost.com/camps/make-your-own-game-beginners/</guid>
       <description>Make Your Own Games camp is an immersive week-long adventure where kids aged 10-13 can dive into the exciting world of game design using CodeMonkey&amp;rsquo;s Game Builder course. This camp is designed to teach fundamental coding and game design concepts through engaging, hands-on activities and projects. &lt;br&gt; Skills Developed &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Coding:&lt;/strong&gt; Learn to code using CoffeeScript, a simple yet powerful language.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Game Design:&lt;/strong&gt; Understand the principles of game mechanics, user interface design, and animation.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Problem-Solving:&lt;/strong&gt; Develop critical thinking and problem-solving skills through coding challenges.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Collaboration:&lt;/strong&gt; Work in teams to create and refine game projects.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Creativity:&lt;/strong&gt; Use imagination to design unique games and animations.&lt;/li&gt; &lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Math Boost for Fifth and Sixth Graders | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Math_Boost_for_Fifth_and_Sixth_Graders/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
+      <guid>https://blueridgeboost.com/classes/Math_Boost_for_Fifth_and_Sixth_Graders/</guid>
+      <description>This class is tailored for students who have been recommended for additional support and are facing challenges in their regular classroom. It offers reinforcement of key concepts through extra practice with typical grade-level problems, ensuring that students can grasp and master the material at their own pace. Additionally, students will have the opportunity to work on materials recommended by their classroom teacher and tackle problems suggested by Blue Ridge Boost instructors, providing a tailored and comprehensive approach to meet their individual learning needs.</description>
+    </item>
+    <item>
+      <title>Math Boost for First and Second Graders | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Math_Boost_for_First_and_Second_Graders/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
+      <guid>https://blueridgeboost.com/classes/Math_Boost_for_First_and_Second_Graders/</guid>
+      <description>This class is tailored for students who have been recommended for additional support and are facing challenges in their regular classroom. It offers reinforcement of key concepts through extra practice with typical grade-level problems, ensuring that students can grasp and master the material at their own pace. Additionally, students will have the opportunity to work on materials recommended by their classroom teacher and tackle problems suggested by Blue Ridge Boost instructors, providing a tailored and comprehensive approach to meet their individual learning needs.</description>
+    </item>
+    <item>
+      <title>Math Boost for Third, Fourth, and Fifth Graders | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Math_Boost_for_Third_and_Fourth_Graders/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
+      <guid>https://blueridgeboost.com/classes/Math_Boost_for_Third_and_Fourth_Graders/</guid>
+      <description>This class is tailored for students who have been recommended for additional support and are facing challenges in their regular classroom. It offers reinforcement of key concepts through extra practice with typical grade-level problems, ensuring that students can grasp and master the material at their own pace. Additionally, students will have the opportunity to work on materials recommended by their classroom teacher and tackle problems suggested by Blue Ridge Boost instructors, providing a tailored and comprehensive approach to meet their individual learning needs.</description>
     </item>
     <item>
       <title>Math Camp | Blue Ridge Boost</title>

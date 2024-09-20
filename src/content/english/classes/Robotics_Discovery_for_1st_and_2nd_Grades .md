@@ -8,7 +8,7 @@ description: "Engaging introduction to robotics for students in grades 1 and 2."
 summary: "This class offers a fun and gentle introduction to robotics for students in 1st and 2nd grade, progressively building skills and knowledge through Vex 123, Lego Spike Essential, and Sphero Indie Robotics modules over the academic year."
 
 section: "classes"
-product_id: "682756993"
+product_id: "Robotics-Discovery-1-2"
 
 day_tags: ["Tuesday"]
 grade_tags: ["1st", "2nd"]

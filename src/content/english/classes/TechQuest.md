@@ -8,7 +8,7 @@ description: "Vex GO Competition Robotics (Fall) and First Lego League Explore (
 summary: "This inclusive STEM class is dedicated to empowering all students, warmly welcoming and encouraging participation from all genders."
 
 section: "classes"
-product_id: "682765853"
+product_id: "TechQuest"
 
 day_tags: ["Wednesday"]
 grade_tags: ["3rd", "4th"]

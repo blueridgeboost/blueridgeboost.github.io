@@ -8,7 +8,7 @@ description: "Kangaroo Competition Math"
 summary: "The Kangaroo Mathematics Competition, set for Thursday, March 20, 2025, is an international event testing students' math skills. Preparation involves practicing past papers, reviewing key concepts, and improving time management. The multiple-choice test covers various math topics. The class will continue for the duration of the school year to prepare students for the next year's competition."
 section: "classes"
 
-product_id: "680172023"
+product_id: "Math-Hoppers"
 
 day_tags: ["Saturday"]
 grade_tags: ["1st", "2nd"]
@@ -24,7 +24,7 @@ payment:
 
 difficulty: "Competition"
 
-start_date: "2024-09-14"
+start_date: ""
 end_date: "2025-06-03"
 start_time: "12:00"
 end_time: "1:00"

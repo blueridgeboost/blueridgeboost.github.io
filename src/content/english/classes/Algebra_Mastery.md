@@ -1,9 +1,9 @@
 ---
 date: "2021-07-12"
 draft: false
-title: "Algebra 1 and 2 Mastery| Blue Ridge Boost"
+title: "Algebra 1 Mastery| Blue Ridge Boost"
 page_title: "Algebra Mastery"
-page_subtitle: "Algebra 1 and Algebra 2"
+page_subtitle: "Algebra 1"
 description: ""
 summary: "<p>This class is designed for students performing in the top half of their grade level who occasionally need assistance with challenging homework problems.</p>
         <b>Focus:</b>
@@ -13,7 +13,7 @@ summary: "<p>This class is designed for students performing in the top half of t
         </ul>"
 section: "classes"
 
-product_id: "680173016"
+product_id: "Algebra-Mastery"
 
 day_tags: ["Wednesday"]
 grade_tags: ["7th", "8th", "9th", "10th"]
@@ -29,7 +29,7 @@ payment:
 
 difficulty: "Skill Sculptors"
 
-start_date: "2024-09-04"
+start_date: ""
 end_date: "2025-06-04"
 start_time: "7:00"
 end_time: "8:00"

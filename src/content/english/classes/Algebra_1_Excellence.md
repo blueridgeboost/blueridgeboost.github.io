@@ -1,15 +1,15 @@
 ---
 date: "2021-07-12"
 draft: false
-title: "Algebra Excellence | Blue Ridge Boost"
-page_title: "Algebra Excellence"
+title: "Algebra 1 Excellence | Blue Ridge Boost"
+page_title: "Algebra 1 Excellence"
 page_subtitle: "For Middle Schoolers"
 description: ""
 summary: "This class is ideal for students looking to go beyond the typical school curriculum. Based on the renowned textbook by Art of Problem Solving founder Richard Rusczyk, the course emphasizes learning through problem-solving with instructors available to provide clarifying explanations. Instead of traditional lecturing, most of the class time is dedicated to tackling challenging problems. Students will be encouraged to write complete and clear solutions to exercises, an important skill in communicating mathematics effectively."
 section: "classes"
-product_id: "680173267"
+product_id: "Algebra-Mastery"
 
-day_tags: ["Thursday"]
+day_tags: ["Sunday"]
 grade_tags: ["6th", "7th", "8th"]
 subject_tags: ["Math"]
 
@@ -23,10 +23,10 @@ payment:
 
 difficulty: "Math Maestros"
 
-start_date: "2024-09-05"
+start_date: ""
 end_date: "2025-06-05"
-start_time: "7:00"
-end_time: "8:00"
+start_time: "1:00"
+end_time: "2:30"
 
 ---
 

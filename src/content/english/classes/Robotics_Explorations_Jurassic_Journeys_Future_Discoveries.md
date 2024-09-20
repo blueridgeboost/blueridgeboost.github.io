@@ -8,7 +8,7 @@ description: "Sphero Indie Global Challenge (Fall) and First Lego League Discove
 summary: "Embark on an exciting year-long journey where young learners explore basic robotics concepts through themed challenges, including Jurassic adventures with Sphero indi in the fall and collaborative Lego projects in the spring, fostering critical thinking, teamwork, and creativity."
 
 section: "classes"
-product_id: "682761958"
+product_id: "Robotics-Explorations"
 
 day_tags: ["Thursday"]
 grade_tags: ["1st"]

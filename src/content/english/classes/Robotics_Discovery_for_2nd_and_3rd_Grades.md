@@ -8,7 +8,7 @@ description: "Engaging introduction to robotics for students in grades 2 and 3."
 summary: "This class offers a progressive, hands-on introduction to robotics for students in grades 2 and 3, covering Vex GO, Lego Spike Essential, and Sphero Bolt Robotics throughout the academic year, while developing problem-solving, critical thinking, and teamwork skills."
 
 section: "classes"
-product_id: "682660858"
+product_id: "Robotics-Discovery-2-3"
 
 day_tags: ["Sundays"]
 grade_tags: ["2nd", "3rd"]

@@ -8,7 +8,7 @@ description: ""
 summary: "This advanced mathematics class is designed for curious students ranking in the top 50% of their class who are eager to explore math beyond the typical school curriculum. Utilizing the renowned Dimensions Singapore Math curriculum, our year-long program emphasizes deep conceptual understanding, critical thinking, problem-solving strategies, and practical application of mathematical principles."
 section: "classes"
 
-product_id: "680173527"
+product_id: "Math-Mastery-1-2"
 
 day_tags: ["Wednesday"]
 grade_tags: ["1st", "2nd"]

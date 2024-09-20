@@ -7,7 +7,7 @@ page_subtitle: "For Fifth and Sixth Graders"
 description: ""
 summary: "Prealgebra prepares students for the rigors of algebra and teaches problem-solving techniques for prestigious middle school math contests such as MATHCOUNTS, MOEMS, and the AMC 8. The course challenges students at a much deeper level than a traditional middle school prealgebra course. Instead of traditional lecturing, most of the class time is dedicated to tackling challenging problems. Students will be encouraged to write complete and clear solutions to exercises, an important skill in communicating mathematics effectively."
 section: "classes"
-product_id: "680173526"
+product_id: "Prealgebra-Excellence"
 
 day_tags: ["Thursday"]
 grade_tags: ["5th", "6th"]

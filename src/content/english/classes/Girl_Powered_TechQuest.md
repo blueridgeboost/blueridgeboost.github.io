@@ -8,7 +8,7 @@ description: "Vex GO Competition Robotics (Fall) and First Lego League Explore (
 summary: "This inclusive STEM class is dedicated to empowering girls, while warmly welcoming and encouraging participation from all genders. Scholarships are available to ensure that financial limitations do not prevent students from joining."
 
 section: "classes"
-product_id: "682660851"
+product_id: "Girl-Powered-TechQuest"
 
 day_tags: ["Monday"]
 grade_tags: ["3rd", "4th"]
@@ -24,7 +24,7 @@ payment:
 
 difficulty: "Bot Builders Elite"
 
-start_date: "2024-10-15"
+start_date: ""
 end_date: "2025-06-02"
 start_time: "4:30"
 end_time: "6:00"

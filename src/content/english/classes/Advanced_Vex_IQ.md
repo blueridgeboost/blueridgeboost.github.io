@@ -7,7 +7,7 @@ page_subtitle: "Vex IQ Robotics"
 description: ""
 summary: ""
 section: "classes"
-product_id: "692381657"
+product_id: "Vex-IQ-Rapid-Relay"
 
 day_tags: ["Saturday"]
 grade_tags: ["5th", "6th"]

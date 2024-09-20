@@ -1,12 +1,8 @@
+{{ $params := .Site.Params.ecwid_ids }}
+{{ $inventory := .Site.Params.inventory }}
 
-{{ $productID := .Params.product_id }}
-{{ $id := "" }}
-
-{{ if hugo.IsServer }}
-  {{ $id = index .Site.Params.ecwid_production_to_test $productID }}
-{{ else }}
-  {{ $id = $productID }}
-{{ end }}
+ {{ $id := index $params .Params.product_id }}
+ {{ $spaces := index $inventory .Params.product_id }}
 
 <div
     class = "card"
@@ -47,10 +43,16 @@
                 {{ end }}
             </div>
         <center>
-        <div class="spacybutton">
-            <a href="javascript: ecwid_add_product_to_cart( {{ $id }}, get_class_options( {{ $id }} ));"
-                class="btn-small btn-primary">Add to Cart</a>
-            </div>
+        {{ if gt $spaces 0 }}
+            {{ $spaces }} spaces available<br>
+            <div class="spacybutton">
+                <a href="javascript: ecwid_add_product_to_cart( {{ $id }}, get_class_options( {{ $id }} ));"
+                    class="btn-small btn-primary">Add to Cart</a>
+                </div>
+        {{ else }}
+            No spaces available!
+        {{ end }}
+        
         </center>
         </form>
 
