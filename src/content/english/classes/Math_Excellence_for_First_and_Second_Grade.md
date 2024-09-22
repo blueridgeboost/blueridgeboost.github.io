@@ -23,7 +23,7 @@ payment:
 
 difficulty: "Math Maestros"
 
-start_date: "2024-09-05"
+start_date: ""
 end_date: "2025-06-05"
 start_time: "4:00"
 end_time: "5:00"

@@ -2,7 +2,7 @@
 date: "2021-07-12"
 draft: false
 title: "Prealgebra Mastery| Blue Ridge Boost"
-page_title: "Prealgebra Mastery"
+page_title: "Math Mastery"
 page_subtitle: "For Fifth and Sixth Graders" 
 description: ""
 summary: "This advanced mathematics class is designed for curious students ranking in the top 50% of their class who are eager to explore math beyond the typical school curriculum. Utilizing the renowned Dimensions Singapore Math curriculum, our year-long program emphasizes deep conceptual understanding, critical thinking, problem-solving strategies, and practical application of mathematical principles."
@@ -24,7 +24,7 @@ payment:
 
 difficulty: "Skill Sculptors"
 
-start_date: "2024-09-04"
+start_date: ""
 end_date: "2025-06-04"
 start_time: "6:00"
 end_time: "7:00"

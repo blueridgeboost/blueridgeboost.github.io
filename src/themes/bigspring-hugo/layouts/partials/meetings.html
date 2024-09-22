@@ -1,4 +1,6 @@
 {{ $params := .Site.Params.ecwid_ids }}
+{{ $inventory := .Site.Params.inventory }}
+ 
 <div class="container">
     <div class="row">
         <div class="col">
@@ -6,15 +8,27 @@
                 {{ range .Params.meetings }}
                 {{ $productID := .product_id }}
                 {{ $id := index $params $productID }}
+                {{ $spaces := index $inventory $productID}}
                 {{ $meeting_time := time.AsTime .meeting }}
                 {{ if ge (sub ($meeting_time.Unix) (now.Unix)) 0 }} 
-                    <a href="javascript: ecwid_add_product_to_cart({{ $id }}, {});"
-                        class=" btn btn-primary m-2 mtgbtnwidth">
-                        {{ time.Format "Mon, 2 Jan 06" $meeting_time }}
-                        {{ if ( isset . "data_item_description" ) }}
-                            <br>{{ .data_item_description }}
-                        {{ end }}
-                    </a>
+                    {{ if gt $spaces 0}}
+                        <a href="javascript: ecwid_add_product_to_cart({{ $id }}, {});"
+                            class=" btn btn-primary m-2 mtgbtnwidth">
+                            {{ time.Format "Mon, 2 Jan 06" $meeting_time }}
+                            {{ if ( isset . "data_item_description" ) }}
+                                <br>{{ .data_item_description }}
+                            {{ end }}
+                        </a>
+                    {{ else }}
+                        <a href=""
+                            class=" btn btn-primary m-2 mtgbtnwidth">
+                            {{ time.Format "Mon, 2 Jan 06" $meeting_time }}
+                            {{ if ( isset . "data_item_description" ) }}
+                                <br>{{ .data_item_description }}
+                            {{ end }}
+                            <br>Full
+                        </a>
+                    {{ end }}
                 {{ end }}
                 {{ end }}
             </div>

@@ -3,7 +3,7 @@ date: "2021-07-12"
 draft: false
 title: "Algebra 1 Mastery| Blue Ridge Boost"
 page_title: "Algebra Mastery"
-page_subtitle: "Algebra 1"
+page_subtitle: "Extra Practice"
 description: ""
 summary: "<p>This class is designed for students performing in the top half of their grade level who occasionally need assistance with challenging homework problems.</p>
         <b>Focus:</b>

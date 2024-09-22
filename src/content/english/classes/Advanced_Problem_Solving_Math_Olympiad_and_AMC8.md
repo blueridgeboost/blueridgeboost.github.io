@@ -23,7 +23,7 @@ payment:
 
 difficulty: "Competition"
 
-start_date: "2024-09-14"
+start_date: ""
 end_date: "2025-06-03"
 start_time: "2:00"
 end_time: "3:00"

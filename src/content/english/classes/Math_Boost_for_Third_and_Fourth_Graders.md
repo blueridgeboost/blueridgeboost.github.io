@@ -19,7 +19,7 @@ payment:
 
 difficulty: "Foundation Forgers"
 
-start_date: "2024-09-09"
+start_date: ""
 end_date: "2025-06-02"
 start_time: "5:00"
 end_time: "6:00"

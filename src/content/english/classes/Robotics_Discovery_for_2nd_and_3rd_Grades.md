@@ -10,7 +10,7 @@ summary: "This class offers a progressive, hands-on introduction to robotics for
 section: "classes"
 product_id: "Robotics-Discovery-2-3"
 
-day_tags: ["Sundays"]
+day_tags: ["Sunday"]
 grade_tags: ["2nd", "3rd"]
 subject_tags: ["Robotics"]
 
@@ -24,7 +24,7 @@ payment:
   
 difficulty: "Robo Rookies"
 
-start_date: "2024-09-15"
+start_date: ""
 end_date: "2025-06-09"
 start_time: "2:30"
 end_time: "3:30"
