@@ -24,7 +24,7 @@ payment:
 
 difficulty: "Skill Sculptors"
 
-start_date: "2024-09-04"
+start_date: ""
 end_date: "2025-06-04"
 start_time: "4:00"
 end_time: "5:00"

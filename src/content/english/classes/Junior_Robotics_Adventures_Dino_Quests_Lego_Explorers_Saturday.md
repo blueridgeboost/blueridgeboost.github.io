@@ -21,7 +21,7 @@ payment:
 
 difficulty: "Robo Rookies"
 
-start_date: "2024-09-14"
+start_date: ""
 end_date: "2025-06-03"
 start_time: "1:00"
 end_time: "2:00"

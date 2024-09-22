@@ -24,7 +24,7 @@ payment:
 
 difficulty: "Code Cadets"
 
-start_date: "2024-09-09"
+start_date: ""
 end_date: "2025-06-02"
 start_time: "4:30"
 end_time: "5:30"

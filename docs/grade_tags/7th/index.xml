@@ -37,13 +37,6 @@
       <description>&lt;p&gt;This class is designed for students performing in the top half of their grade level who occasionally need assistance with challenging homework problems.&lt;/p&gt; &lt;b&gt;Focus:&lt;/b&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Enhancing algebraic skills:&lt;/strong&gt; The class will delve deeper into algebraic concepts, providing students with the tools and techniques to tackle more complex problems.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Deepening understanding:&lt;/strong&gt; Beyond simply solving problems, the class will emphasize understanding the &#39;why&#39; behind the solutions, fostering a deeper comprehension of algebraic principles.&lt;/li&gt; &lt;/ul&gt;</description>
     </item>
     <item>
-      <title>First Tech Challenge | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/ftc/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/ftc/</guid>
-      <description>The FIRST Tech Challenge is an exciting robotics program for students in grades 7-12, allowing teams of up to 15 members to design, build, program, and operate robots in a head-to-head competition structured in an alliance format. However, it’s way more than just building robots. Guided by dedicated adult coaches and mentors, students not only develop essential STEM skills but also engage in practicing core engineering principles. Throughout the process, they learn the importance of hard work, innovation, and teamwork. This hands-on experience helps students realize the value of collaboration and creativity, preparing them for future challenges in both academic and professional settings.</description>
-    </item>
-    <item>
       <title>Girl-Powered Drone Squad | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Girl_Powered_Drone_Squad/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
@@ -72,11 +65,11 @@
       <description>The AMC 10 (American Mathematics Competitions 10) is a prestigious mathematics contest in the United States designed for students aged 10 through 16, or those enrolled in grades 10 and below. This challenging competition aims to cultivate problem-solving skills, foster mathematical creativity, and promote a deeper understanding of advanced mathematical concepts. With its rigorous content spanning algebra, geometry, number theory, and combinatorics, the AMC 10 serves as a gateway to higher-level math competitions. For students embarking on their competitive mathematics journey, the Blue Ridge Boost class offers a solid foundation, introducing key strategies and fundamental topics essential for success in the AMC 10 and beyond. Students enrolled in the class have the option to take the 2024 contests at Blue Ridge Boost. The class will continue for the duration of the school year to prepare students for the next year&amp;rsquo;s competition.</description>
     </item>
     <item>
-      <title>Java for FTC: Robot Programming Essentials | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Java_for_FTC_Robot_Programming_Essentials/</link>
+      <title>Java for AP Computer Science | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Java_for_APCS/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Java_for_FTC_Robot_Programming_Essentials/</guid>
-      <description>The FIRST Tech Challenge (FTC) OnBot Java Course is designed to introduce students to the fundamentals of programming in Java within the context of robot development and competition. This course covers essential programming concepts such as variables, control structures, and object-oriented programming, as well as specific skills needed to program FTC robots using the OnBot Java environment. Students will learn how to write, test, and debug code for various robot functions like movement, sensor integration, and autonomous navigation. The course emphasizes hands-on learning, problem-solving, and teamwork, preparing participants for success in FTC competitions and beyond.</description>
+      <guid>https://blueridgeboost.com/classes/Java_for_APCS/</guid>
+      <description>Struggling with AP Computer Science coding exercises? Our expert instructors are ready to guide you. Learn to think like a computer scientist and accelerate your coding skills. From basic concepts to advanced algorithms, we&amp;rsquo;ll help you master AP Computer Science and prepare for your future in tech. Start your journey to coding excellence today!</description>
     </item>
     <item>
       <title>Middle School Advanced Programming with JavaScript | Blue Ridge Boost</title>
