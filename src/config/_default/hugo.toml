@@ -5,7 +5,6 @@ theme = "bigspring-hugo"
 timeZone = "America/New_York"
 paginate = 6 
 summaryLength = 70 
-googleAnalytics = "G-JV87PS188M"
 disableLanguages = [
 ] 
 hasCJKLanguage = false
