@@ -8,11 +8,6 @@ draft: false
 section: "camps"
   
 one_day_camps: 
-- product_id: "one-day-2024-09-23"
-  start_date: "2024-09-23"
-  topic: "Lego Robotics"
-  schools: 
-    - "ACPS"
 - product_id: "one-day-2024-10-24"
   start_date: "2024-10-24"
   topic: "Lego Robotics"
