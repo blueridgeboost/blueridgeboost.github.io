@@ -10,6 +10,9 @@ banner:
   - enable : true
     label : "Camps"
     link : "camps/"
+  - enable : true
+    label : "Tutoring"
+    link : "tutoring/"
   bottom_buttons:
   - enable : true
     label : "Chess"
