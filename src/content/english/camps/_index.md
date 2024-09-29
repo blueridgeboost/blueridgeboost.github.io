@@ -136,12 +136,6 @@ one_day_camps:
   topic: "Coding"
   schools: 
     - "ACPS"
-- product_id: "one-day-2024-09-27"
-  start_date: "2024-09-27"
-  topic: "Lego Robotics"
-  schools: 
-    - "CCS"
-    - "PS"
 - product_id: "one-day-2024-10-18"
   start_date: "2024-10-18"
   topic: "Lego Robotics"

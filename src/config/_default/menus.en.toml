@@ -11,7 +11,7 @@
 
 [[main]]
     name        = "Events"
-    weight      = "3"
+    weight      = 3
 
 
 [[main]]
@@ -33,8 +33,8 @@
     parent     = "Events"
 
 [[main]]
-    name       = "Scholarships"
-    url        = "/scholarships/"
+    name       = "Tutoring"
+    url        = "/tutoring/"
     weight     = 6
 
 [[main]]
@@ -56,21 +56,28 @@
 
 [[main]]
     parent     = "About Us"
+    name       = "Scholarships"
+    url        = "/scholarships/"
+    weight     = 3
+
+
+[[main]]
+    parent     = "About Us"
     name       = "Terms and Conditions"
     url        = "/terms/"
-    weight     = 3
+    weight     = 4
 
 [[main]]
     parent     = "About Us"
     name       = "Privacy Policy"
     url        = "/privacy-policy/"
-    weight     = 4
+    weight     = 5
 
 [[main]]
     parent     = "About Us"
     name       = "Refund Policy"
     url        = "/refund-policy/"
-    weight     = 4
+    weight     = 6
 
 
 [[main]]
