@@ -40,7 +40,10 @@
       "span",
       "strong",
       "style",
+      "table",
+      "td",
       "title",
+      "tr",
       "ul"
     ],
     "classes": [
@@ -461,6 +464,7 @@
       "mce-EMAIL",
       "mce-FNAME",
       "mce-LNAME",
+      "mce-MMERGE10",
       "mce-MMERGE7",
       "mce-MMERGE8",
       "mce-MMERGE9",
