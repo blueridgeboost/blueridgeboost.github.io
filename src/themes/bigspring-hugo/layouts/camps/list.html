@@ -71,7 +71,11 @@
                     {{ . }}
                   {{ end }}<br>
                   {{ if gt $spaces 0 }}
-                    {{ $spaces }} spaces available<br>
+                    {{ if lt $spaces 5 }}
+                      Only {{ $spaces }} spaces left!<br>
+                    {{ else }}
+                      Spaces available!<br>
+                    {{ end }}
                     <form id="camp-{{ $id }}">
                         <div class="radio-group">
                             <label> <input type="radio" name="type-{{ $id }}" value="AM"> AM ($75) </label>

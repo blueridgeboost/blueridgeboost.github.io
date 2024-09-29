@@ -7,7 +7,7 @@ draft: false
 ---
 
 ## History of Blue Ridge Boost
-During the COVID-19 pandemic, I spent a significant amount of time teaching and helping my children learn and discovered that I During the COVID-19 pandemic, I spent a significant amount of time teaching and helping my children learn, and I discovered that I greatly enjoy teaching young students. This newfound passion led me to quit my Ph.D. program in Computer Science to pursue a degree in teaching at the University of Virginia, and I subsequently launched Blue Ridge Boost.
+During the COVID-19 pandemic, I spent a significant amount of time teaching and helping my children learn, and I discovered that I greatly enjoy teaching young students. This newfound passion led me to quit my Ph.D. program in Computer Science to pursue a degree in teaching at the University of Virginia, and I subsequently launched Blue Ridge Boost.
 
 During the lockdown, Maxwell and Dorina enrolled in various challenging and exciting classes offered by the Center for Talented Youth at Johns Hopkins and The Art of Problem Solving. Despite the quality of the instructors, the lack of face-to-face interaction was a significant drawback.
 
