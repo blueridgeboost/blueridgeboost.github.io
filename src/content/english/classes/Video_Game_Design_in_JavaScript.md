@@ -4,7 +4,7 @@ draft: false
 title: "Video Game Design in JavaScript | Blue Ridge Boost"
 page_title: "Video Game Design"
 page_subtitle: "Building Games in JavaScript"
-description: "TODO"
+description: "Building Games in JavaScript"
 summary: "The video game design curriculum teaches the foundations of creating video games in JavaScript. While this course is introductory, it requires a good mathematical background and analytical thinking. Its curriculum teaches the foundations of computer science and basic programming, with an emphasis on helping students develop logical thinking and problem-solving skills. Once students complete the course, they will have learned material equivalent to a semester college introductory course in Computer Science and be able to program in JavaScript."
 section: "classes"
 
@@ -26,8 +26,8 @@ difficulty: "Code Cadets"
 
 start_date: "2024-09-04"
 end_date: "2025-06-04"
-start_time: "6:00"
-end_time: "7:00"
+start_time: "5:30"
+end_time: "6:30"
 
 ---
 
