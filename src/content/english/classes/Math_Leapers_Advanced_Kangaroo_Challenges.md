@@ -9,7 +9,7 @@ summary: "The Math Kangaroo competition is an international mathematical competi
 section: "classes"
 product_id: "Math-Leapers"
 
-day_tags: ["Tuesday"]
+day_tags: ["Saturday"]
 grade_tags: ["3rd", "4th"]
 subject_tags: ["Math"]
 
@@ -24,9 +24,9 @@ payment:
 difficulty: "Competition"
 
 start_date: ""
-end_date: "2025-06-03"
-start_time: "5:30"
-end_time: "6:30"
+end_date: "2025-03-20"
+start_time: "12:00"
+end_time: "1:00"
 
 ---
 

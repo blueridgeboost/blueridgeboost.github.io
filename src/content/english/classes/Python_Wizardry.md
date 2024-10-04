@@ -24,8 +24,8 @@ day_tags: ["Sunday"]
 grade_tags: ["7th", "8th", "9th", "10th", "11th", "12th"]
 subject_tags: ["Computer Coding"]
 
-start_date: ""
-end_date: "2025-06-08"
+start_date: "2024-10-19"
+end_date: "2025-02-22"
 start_time: "3:30 PM"
 end_time: "5:00 PM"
 ---

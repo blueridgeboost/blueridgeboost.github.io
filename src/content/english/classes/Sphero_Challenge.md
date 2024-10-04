@@ -19,8 +19,8 @@ payment:
   
 difficulty: "Bot Builders Elite"
 
-start_date: ""
-end_date: "2025-06-02"
+start_date: "2024-10-19"
+end_date: "2025-02-22"
 start_time: "2:00"
 end_time: "3:00"
 

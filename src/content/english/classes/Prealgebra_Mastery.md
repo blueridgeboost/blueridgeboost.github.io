@@ -10,7 +10,7 @@ section: "classes"
 
 product_id: "Prealgebra-Mastery"
 
-day_tags: ["Sunday"]
+day_tags: ["Wednesday"]
 grade_tags: ["5th", "6th"]
 subject_tags: ["Math"]
 
@@ -26,8 +26,8 @@ difficulty: "Skill Sculptors"
 
 start_date: ""
 end_date: "2025-06-04"
-start_time: "1:00"
-end_time: "2:00"
+start_time: "6:00"
+end_time: "7:00"
 
 ---
 

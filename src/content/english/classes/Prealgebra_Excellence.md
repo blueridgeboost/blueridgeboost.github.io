@@ -9,7 +9,7 @@ summary: "Prealgebra prepares students for the rigors of algebra and teaches pro
 section: "classes"
 product_id: "Prealgebra-Excellence"
 
-day_tags: ["Thursday"]
+day_tags: ["Sunday"]
 grade_tags: ["5th", "6th"]
 subject_tags: ["Math"]
 
@@ -23,10 +23,10 @@ payment:
 
 difficulty: "Math Maestros"
 
-start_date: "2024-09-05"
+start_date: ""
 end_date: "2025-06-05"
-start_time: "6:00"
-end_time: "7:00"
+start_time: "1:30"
+end_time: "2:30"
 
 ---
 

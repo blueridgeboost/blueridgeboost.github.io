@@ -168,7 +168,6 @@ one_day_camps:
   topic: "Lego Robotics"
   schools: 
     - "PS"
-    - "STAB"
 - product_id: "one-day-2024-10-30"
   start_date: "2024-10-30"
   topic: "Lego Robotics"
