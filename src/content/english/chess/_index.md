@@ -15,14 +15,6 @@ intro: "The Charlottesville Kids' Chess Club invites all the children ages six t
 category_id: "chess"
 
 meetings: 
-- meeting: "2024-09-12"
-  product_id: "chess-2024-09-12"
-- meeting: "2024-09-19"
-  product_id: "chess-2024-09-19"
-- meeting: "2024-09-26"  
-  product_id: "chess-2024-09-26"
-- meeting: "2024-10-03"
-  product_id: "chess-2024-10-03"
 - meeting: "2024-10-10"
   product_id: "chess-2024-10-10"
 - meeting: "2024-10-17"

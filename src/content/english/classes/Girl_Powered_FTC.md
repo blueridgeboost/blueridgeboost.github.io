@@ -16,7 +16,7 @@ subject_tags: ["Robotics"]
 
 payment:
   - name: "Monthly Subscription"
-    price: "195"
+    price: "0"
   
 difficulty: "Bot Builders Elite"
 
