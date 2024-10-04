@@ -3,9 +3,9 @@ date: "2021-07-12"
 draft: false
 title: "Rookie Aerial Drone Team | Blue Ridge Boost"
 page_title: "Aerial Drones"
-page_subtitle: "Join Our Rookie Aerial Drone Team!"
+page_subtitle: "Join Our Aerial Drone Team!"
 description: ""
-summary: "Calling All Future Drone Pilots and Engineers! Join our Aerial Drone Competition Team! We're forming a team for the REC Foundation Aerial Drone Competition."
+summary: "Calling All Future Drone Pilots and Engineers! We're forming a team for the REC Foundation Aerial Drone Competition."
 section: "classes"
 product_id: "Aerial-Drones-2"
 
