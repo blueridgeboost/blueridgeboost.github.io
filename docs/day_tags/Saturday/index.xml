@@ -9,13 +9,6 @@
     <lastBuildDate>Mon, 12 Jul 2021 00:00:00 -0400</lastBuildDate>
     <atom:link href="https://blueridgeboost.com/day_tags/Saturday/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Advanced C&#43;&#43;: Mastering Data Structures | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Advanced_C&#43;&#43;_Mastering_Data_Structures/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Advanced_C&#43;&#43;_Mastering_Data_Structures/</guid>
-      <description>This course includes C++ fundamentals, basic data structures, file and error handling, STL containers, recursion, pointers, linked lists, and graphs. Each module has examples and assignments. A final project integrates multiple data structures to solve a real-world problem. The course prepares students for complex programming challenges in academic and professional settings.</description>
-    </item>
-    <item>
       <title>Advanced Problem Solving: Math Olympiad, and AMC8 | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Advanced_Problem_Solving_Math_Olympiad_and_AMC8/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
@@ -58,13 +51,6 @@
       <description>This class is perfect for students who want to strengthen their understanding of classroom concepts through additional practice with engaging grade-level problems.</description>
     </item>
     <item>
-      <title>Java for AP Computer Science | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Java_for_APCS/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Java_for_APCS/</guid>
-      <description>Struggling with AP Computer Science coding exercises? Our expert instructors are ready to guide you. Learn to think like a computer scientist and accelerate your coding skills. From basic concepts to advanced algorithms, we&amp;rsquo;ll help you master AP Computer Science and prepare for your future in tech. Start your journey to coding excellence today!</description>
-    </item>
-    <item>
       <title>Junior Robotics Adventures: Dino Quests &amp; Lego Explorers | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Junior_Robotics_Adventures_Dino_Quests_Lego_Explorers_Saturday/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
@@ -91,13 +77,6 @@
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
       <guid>https://blueridgeboost.com/classes/Problem_Solving_Math_Olympiad_and_AMC8/</guid>
       <description>MOEMS is a challenging and engaging math competition for elementary and middle schoolers, featuring five monthly contests from November to March that focus on problem-solving and mathematical creativity. Similarly, the AMC 8 is a 40-minute math competition designed for students in grade 8 and below, covering a range of middle school math topics, including some concepts from introductory algebra. At Blue Ridge Boost, students participate in weekly problem-solving sessions to prepare for these competitions, and they have the option to take the tests if they choose to do so.</description>
-    </item>
-    <item>
-      <title>Sphero Time Travelers| Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Sphero_Challenge/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Sphero_Challenge/</guid>
-      <description>Embark on an exciting journey through time with the Sphero Global Challenge! This engaging program is designed for students aged 9-11 to develop crucial skills while having fun with technology.&#xA;Using BOLT robots and the Sphero Global Challenge Blueprint Kit, you&amp;rsquo;ll dive into a world of coding, problem-solving, and teamwork. As you tackle various missions set in different historical periods, you&amp;rsquo;ll:&#xA;Master programming concepts and techniques Enhance your critical thinking and problem-solving abilities Improve communication and collaboration skills Learn about different historical eras in an interactive way Boost your creativity by finding innovative solutions to challenges Whether you&amp;rsquo;re a beginner or have some coding experience, the missions are designed to help you grow and learn at your own pace.</description>
     </item>
     <item>
       <title>Vex IQ Rapid Relay | Blue Ridge Boost</title>

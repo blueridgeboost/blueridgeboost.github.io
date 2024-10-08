@@ -13,13 +13,13 @@ day_tags: ["Saturday"]
 grade_tags: ["5th", "6th"]
 subject_tags: ["Robotics"]
 
-payment:
-  - name: "Monthly Subscription"
-    price: "195"
+class_type: "subscription"
+
+price: "195"
   
 difficulty: "Bot Builders Elite"
 
-start_date: "2024-09-14"
+start_date: ""
 end_date: "2025-06-02"
 start_time: "3:30"
 end_time: "5:00"

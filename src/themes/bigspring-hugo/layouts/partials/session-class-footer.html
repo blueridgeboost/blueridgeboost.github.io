@@ -1,0 +1,50 @@
+{{ $params := .Site.Params.ecwid_ids }}
+{{ $inventory := .Site.Params.inventory }}
+{{ $categories := .Site.Params.ecwid_categories }}
+{{ $prices := .Site.Params.prices }}
+
+{{ $id := index $params .Params.product_id }}
+{{ $spaces := index $inventory .Params.product_id }}
+{{ $price := index $prices .Params.product_id }}
+{{ $ecwid_category := index $categories .Params.product_id }}
+
+<!-- Generate Options -->
+{{ $displayButton := false }}
+{{ range $spaces }}
+    {{ $vi := index . 1}}
+    {{ if gt $vi 0 }}
+        {{ $displayButton = true }}
+    {{ end }}
+{{ end }}
+
+{{ if $displayButton }}
+    <form id="class-{{ $id }}">
+    <center>
+    {{ $first := true }}
+    <div class="radio-group" >
+        {{ range $spaces }}
+            {{ $vi := index . 1}}
+            {{ $variant := index . 0}}
+            {{ if gt $vi 0 }}
+                <label>
+                {{ if $first }}
+                    <input type="radio" name="payment-{{ $id }}" value="{{$variant}}" checked >
+                    {{ $first = false }}
+                {{ else }}
+                    <input type="radio" name="payment-{{ $id }}" value="{{$variant}}">
+                {{ end }}
+                {{$variant}} (${{$price}}) 
+                </label> 
+            {{ end }}
+        {{ end }}
+    </div>
+    <div class="spacybutton">
+        <a href="javascript: ecwid_add_product_to_cart( {{ $id }}, get_class_options({{ $id }}));"
+            class="btn-small btn-primary">Add to Cart</a>
+    </div>
+    </center>
+    </form>
+
+{{ else }}
+    No spaces available!
+{{ end }}

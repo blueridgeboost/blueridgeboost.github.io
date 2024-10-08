@@ -13,15 +13,14 @@ summary: "<p>This class is designed for students performing in the top half of t
         </ul>"
 section: "classes"
 
+class_type: "session"
+
 product_id: "Algebra-Mastery"
 
 day_tags: ["Wednesday"]
 grade_tags: ["7th", "8th", "9th", "10th"]
 subject_tags: ["Math"]
 
-payment:
-  - name: "Monthly Subscription"
-    price: "179"
   # - name: "4-class package"
   #   price: "219"
   # - name: "12-class package"

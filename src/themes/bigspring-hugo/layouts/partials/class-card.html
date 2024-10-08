@@ -1,8 +1,12 @@
 {{ $params := .Site.Params.ecwid_ids }}
 {{ $inventory := .Site.Params.inventory }}
+{{ $categories := .Site.Params.ecwid_categories }}
+{{ $prices := .Site.Params.prices }}
 
- {{ $id := index $params .Params.product_id }}
- {{ $spaces := index $inventory .Params.product_id }}
+{{ $id := index $params .Params.product_id }}
+{{ $spaces := index $inventory .Params.product_id }}
+{{ $price := index $prices .Params.product_id }}
+{{ $ecwid_category := index $categories .Params.product_id }}
 
 <div
     class = "card"
@@ -25,55 +29,10 @@
         {{ partial "class-info.html" . }}
     </div>
     <div class="card-footer">
-        {{ if lt $spaces 1 }}
-            No spaces available!
+        {{ if eq $ecwid_category "Subscription Classes" }}
+            {{ partial "subscription-class-footer.html" . }}
         {{ else }}
-            {{ $displayButton := false }}
-            {{ if eq .Params.start_date "" }}
-                <!-- Output if start_date is not set -->
-                {{ $displayButton = true }}
-            {{ else }}
-                <!-- Output if start_date is set -->
-                {{ $startDate := .Params.start_date | time }}
-                {{ $twoWeeksLater := $startDate.Add (time.Duration "hour" (mul 14 24)) }}
-                {{ $currentTime := now }}
-                {{ if lt $twoWeeksLater $currentTime }}
-                <!-- Output if start_date is in the past -->
-                    Signups Closed
-                    {{ $displayButton = false }}
-                {{ else }}
-                    {{ $displayButton = true }}
-                {{ end }}
-            {{ end }}
-            {{/*  <h1> {{ $displayButton }} </h1>  */}}
-            {{ if eq $displayButton true }}
-                <!-- Output if start_date is not in the past -->                
-                <form id="class-{{ $id }}">
-                    <div class="radio-group" >
-                        {{ $first := true }}
-                        {{ range .Params.payment }}
-                        <label>
-                            {{ if $first }}
-                                <input type="radio" name="payment-{{ $id }}" value="{{.name}}"
-                                checked >
-                                {{ $first = false }}
-                            {{ else }}
-                            <input type="radio" name="payment-{{ $id }}" value="{{.name}}"
-                                    >
-                            {{ end }}
-                            {{.name}} (${{.price}}) 
-                        </label>
-                        {{ end }}
-                    </div>
-                    <center>
-                    {{/*  {{ $spaces }} spaces available<br>  */}}
-                    <div class="spacybutton">
-                        <a href="javascript: ecwid_add_product_to_cart( {{ $id }}, get_class_options( {{ $id }} ));"
-                            class="btn-small btn-primary">Add to Cart</a>
-                    </div>
-                    </center>
-                </form>
-            {{ end }}
+            {{ partial "session-class-footer.html" .}}
         {{ end }}
     </div>
 </div>

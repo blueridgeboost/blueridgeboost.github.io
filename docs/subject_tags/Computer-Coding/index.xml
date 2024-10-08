@@ -9,20 +9,6 @@
     <lastBuildDate>Mon, 12 Jul 2021 00:00:00 -0400</lastBuildDate>
     <atom:link href="https://blueridgeboost.com/subject_tags/Computer-Coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Advanced C&#43;&#43;: Mastering Data Structures | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Advanced_C&#43;&#43;_Mastering_Data_Structures/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Advanced_C&#43;&#43;_Mastering_Data_Structures/</guid>
-      <description>This course includes C++ fundamentals, basic data structures, file and error handling, STL containers, recursion, pointers, linked lists, and graphs. Each module has examples and assignments. A final project integrates multiple data structures to solve a real-world problem. The course prepares students for complex programming challenges in academic and professional settings.</description>
-    </item>
-    <item>
-      <title>Advanced Python | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Python_Wizardry/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Python_Wizardry/</guid>
-      <description>&lt;center&gt;&lt;em&gt;Are you ready to take your Python skills to the next level?&lt;/em&gt;&lt;/center&gt; Join our in-depth course designed to guide you through some of the most powerful and essential concepts in Python programming. This course is perfect for developers who have a basic understanding of Python and are eager to explore advanced topics.</description>
-    </item>
-    <item>
       <title>Banana Code Quest: Adventures in Text-Based Programming | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Banana_Code_Quest_Adventures_in_Text-Based_Programming/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
@@ -37,13 +23,6 @@
       <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, functions, and introduces more complex topics like classes, string manipulation, and sorting algorithms. With step-by-step instructions, interactive quizzes, and a supportive learning environment, this course provides a fun and effective way for 5th and 6th graders to develop their programming skills.</description>
     </item>
     <item>
-      <title>Code Explorers: JavaScript Journey | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Code_Explorers_JavaScript_Journey/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Code_Explorers_JavaScript_Journey/</guid>
-      <description>&amp;ldquo;Code Explorers: JavaScript Journey&amp;rdquo; is an engaging introductory class designed to introduce middle school students to the world of JavaScript programming. This course takes students on an exciting adventure through the fundamentals of coding, using JavaScript as the vehicle for exploration. Through hands-on projects, interactive exercises, and creative problem-solving, students will discover the power of programming while building a solid foundation in JavaScript concepts. The class aims to spark curiosity, foster logical thinking, and empower young learners to create their own web-based projects, setting them on a path to become the next generation of digital innovators.</description>
-    </item>
-    <item>
       <title>Intro to Block Coding | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Kids_Coding_Course_Building_with_Beavers/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
@@ -51,32 +30,11 @@
       <description>Students learn sequencing, repetition, problem-solving, and conditional logic while developing practical coding skills. The course employs a hands-on, gamified approach that gradually increases in complexity, allowing each child to advance at their own speed. By the end, students can create sophisticated programs, having built a strong foundation in coding and computational thinking.</description>
     </item>
     <item>
-      <title>Java for AP Computer Science | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Java_for_APCS/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Java_for_APCS/</guid>
-      <description>Struggling with AP Computer Science coding exercises? Our expert instructors are ready to guide you. Learn to think like a computer scientist and accelerate your coding skills. From basic concepts to advanced algorithms, we&amp;rsquo;ll help you master AP Computer Science and prepare for your future in tech. Start your journey to coding excellence today!</description>
-    </item>
-    <item>
-      <title>Middle School Advanced Programming with JavaScript | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Middle_School_Advanced_Programming_with_JavaScript/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Middle_School_Advanced_Programming_with_JavaScript/</guid>
-      <description>The advanced middle school JavaScript course is designed to take students with a basic understanding of programming to the next level. The curriculum focuses on enhancing logical thinking and problem-solving skills through hands-on programming practice.</description>
-    </item>
-    <item>
       <title>Python Fundamentals: Coding from the Ground Up | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Python_Fundamentals_Coding_from_the_Ground_Up/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
       <guid>https://blueridgeboost.com/classes/Python_Fundamentals_Coding_from_the_Ground_Up/</guid>
       <description>This course is a comprehensive, year-long program designed for middle school students with no prior coding experience. It introduces fundamental programming concepts using Python through interactive exercises and projects centered around controlling a virtual character named Tracy. The course covers commands, functions, loops, variables, conditionals, and lists, progressing to more complex tasks like user interaction and creating visual projects.</description>
-    </item>
-    <item>
-      <title>React Native Mobile App Development for High School Students | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/React_Native_Mobile_App_Development_for_High_School_Students/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/React_Native_Mobile_App_Development_for_High_School_Students/</guid>
-      <description>The &amp;ldquo;React Native Mobile App Development for High School Students&amp;rdquo; course is designed to equip students with the skills to create dynamic and scalable mobile applications. Over the course of a year, students will delve into the React Native framework, learning to use components, stylesheets, state management, and more to build apps that run seamlessly on their smartphones. With a mix of web-based and hands-on activities, including collaborative exercises and digital presentations, students will gain practical experience in mobile app development. This course is ideal for those with prior knowledge in JavaScript and web design, providing an engaging and comprehensive introduction to the world of mobile app creation.</description>
     </item>
     <item>
       <title>Video Game Design in JavaScript | Blue Ridge Boost</title>
