@@ -25,7 +25,7 @@ payment:
 difficulty: "Competition"
 
 start_date: ""
-end_date: "2025-06-03"
+end_date: "2025-03-20"
 start_time: "12:00"
 end_time: "1:00"
 

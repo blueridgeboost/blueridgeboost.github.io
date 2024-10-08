@@ -9,20 +9,6 @@
     <lastBuildDate>Mon, 12 Jul 2021 00:00:00 -0400</lastBuildDate>
     <atom:link href="https://blueridgeboost.com/grade_tags/9th/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Advanced C&#43;&#43;: Mastering Data Structures | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Advanced_C&#43;&#43;_Mastering_Data_Structures/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Advanced_C&#43;&#43;_Mastering_Data_Structures/</guid>
-      <description>This course includes C++ fundamentals, basic data structures, file and error handling, STL containers, recursion, pointers, linked lists, and graphs. Each module has examples and assignments. A final project integrates multiple data structures to solve a real-world problem. The course prepares students for complex programming challenges in academic and professional settings.</description>
-    </item>
-    <item>
-      <title>Advanced Python | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Python_Wizardry/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Python_Wizardry/</guid>
-      <description>&lt;center&gt;&lt;em&gt;Are you ready to take your Python skills to the next level?&lt;/em&gt;&lt;/center&gt; Join our in-depth course designed to guide you through some of the most powerful and essential concepts in Python programming. This course is perfect for developers who have a basic understanding of Python and are eager to explore advanced topics.</description>
-    </item>
-    <item>
       <title>Algebra 1 Mastery| Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Algebra_Mastery/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
@@ -121,25 +107,11 @@
       <description>The AMC 10 (American Mathematics Competitions 10) is a prestigious mathematics contest in the United States designed for students aged 10 through 16, or those enrolled in grades 10 and below. This challenging competition aims to cultivate problem-solving skills, foster mathematical creativity, and promote a deeper understanding of advanced mathematical concepts. With its rigorous content spanning algebra, geometry, number theory, and combinatorics, the AMC 10 serves as a gateway to higher-level math competitions. For students embarking on their competitive mathematics journey, the Blue Ridge Boost class offers a solid foundation, introducing key strategies and fundamental topics essential for success in the AMC 10 and beyond. Students enrolled in the class have the option to take the 2024 contests at Blue Ridge Boost. The class will continue for the duration of the school year to prepare students for the next year&amp;rsquo;s competition.</description>
     </item>
     <item>
-      <title>Java for AP Computer Science | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Java_for_APCS/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Java_for_APCS/</guid>
-      <description>Struggling with AP Computer Science coding exercises? Our expert instructors are ready to guide you. Learn to think like a computer scientist and accelerate your coding skills. From basic concepts to advanced algorithms, we&amp;rsquo;ll help you master AP Computer Science and prepare for your future in tech. Start your journey to coding excellence today!</description>
-    </item>
-    <item>
       <title>Precalculus Practice | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Precalculus_Practice/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
       <guid>https://blueridgeboost.com/classes/Precalculus_Practice/</guid>
       <description>This class is designed for students seeking reinforcement of classroom concepts through additional practice with grade-appropriate problems. &lt;br&gt; During a typical session, students will receive assistance with homework assignments and review concepts learned in school. As time allows, instructors will provide similar problems to further solidify understanding and boost confidence.</description>
-    </item>
-    <item>
-      <title>React Native Mobile App Development for High School Students | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/React_Native_Mobile_App_Development_for_High_School_Students/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/React_Native_Mobile_App_Development_for_High_School_Students/</guid>
-      <description>The &amp;ldquo;React Native Mobile App Development for High School Students&amp;rdquo; course is designed to equip students with the skills to create dynamic and scalable mobile applications. Over the course of a year, students will delve into the React Native framework, learning to use components, stylesheets, state management, and more to build apps that run seamlessly on their smartphones. With a mix of web-based and hands-on activities, including collaborative exercises and digital presentations, students will gain practical experience in mobile app development. This course is ideal for those with prior knowledge in JavaScript and web design, providing an engaging and comprehensive introduction to the world of mobile app creation.</description>
     </item>
     <item>
       <title>Rookie Aerial Drone Team | Blue Ridge Boost</title>

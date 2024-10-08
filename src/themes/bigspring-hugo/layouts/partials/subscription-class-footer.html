@@ -1,0 +1,43 @@
+{{ $params := .Site.Params.ecwid_ids }}
+{{ $inventory := .Site.Params.inventory }}
+{{ $categories := .Site.Params.ecwid_categories }}
+{{ $prices := .Site.Params.prices }}
+
+{{ $id := index $params .Params.product_id }}
+{{ $spaces := index $inventory .Params.product_id }}
+{{ $price := index $prices .Params.product_id }}
+{{ $ecwid_category := index $categories .Params.product_id }}
+
+{{ if lt $spaces 1 }}
+    No spaces available!
+{{ else }}
+    {{ $displayButton := false }}
+    {{ if eq .Params.start_date "" }}
+        <!-- Output if start_date is not set -->
+        {{ $displayButton = true }}
+    {{ else }}
+        <!-- Output if start_date is set -->
+        {{ $startDate := .Params.start_date | time }}
+        {{ $twoWeeksLater := $startDate.Add (time.Duration "hour" (mul 14 24)) }}
+        {{ $currentTime := now }}
+        {{ if lt $twoWeeksLater $currentTime }}
+            <!-- Output if start_date is in the past -->
+                Signups Closed
+                {{ $displayButton = false }}
+        {{ else }}
+            {{ $displayButton = true }}
+        {{ end }}
+    {{ end }}
+    {{ if eq $displayButton true }}
+        Monthly Subscription  (${{$price}})                
+        <form id="class-{{ $id }}">
+            <center>
+            {{/*  {{ $spaces }} spaces available<br>  */}}
+            <div class="spacybutton">
+                <a href="javascript: ecwid_add_product_to_cart( {{ $id }}, {});"
+                    class="btn-small btn-primary">Add to Cart</a>
+            </div>
+            </center>
+        </form>
+    {{ end }}
+{{ end }}

@@ -9,20 +9,6 @@
     <lastBuildDate>Mon, 12 Jul 2021 00:00:00 -0400</lastBuildDate>
     <atom:link href="https://blueridgeboost.com/day_tags/Sunday/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Advanced Python | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Python_Wizardry/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Python_Wizardry/</guid>
-      <description>&lt;center&gt;&lt;em&gt;Are you ready to take your Python skills to the next level?&lt;/em&gt;&lt;/center&gt; Join our in-depth course designed to guide you through some of the most powerful and essential concepts in Python programming. This course is perfect for developers who have a basic understanding of Python and are eager to explore advanced topics.</description>
-    </item>
-    <item>
-      <title>Algebra 1 Excellence | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Algebra_1_Excellence/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Algebra_1_Excellence/</guid>
-      <description>This class is ideal for students looking to go beyond the typical school curriculum. Based on the renowned textbook by Art of Problem Solving founder Richard Rusczyk, the course emphasizes learning through problem-solving with instructors available to provide clarifying explanations. Instead of traditional lecturing, most of the class time is dedicated to tackling challenging problems. Students will be encouraged to write complete and clear solutions to exercises, an important skill in communicating mathematics effectively.</description>
-    </item>
-    <item>
       <title>Calculus AB Mastery | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Calculus_AB_Mastery/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
@@ -37,11 +23,11 @@
       <description>Calling All Future Female Drone Pilots and Engineers! Join our Girl-Powered Aerial Drone Competition Team! We&amp;rsquo;re forming an all-girl team for the REC Foundation Aerial Drone Competition</description>
     </item>
     <item>
-      <title>Prealgebra Mastery| Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Prealgebra_Mastery/</link>
+      <title>Prealgebra EXcellence | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Prealgebra_Excellence/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Prealgebra_Mastery/</guid>
-      <description>This advanced mathematics class is designed for curious students ranking in the top 50% of their class who are eager to explore math beyond the typical school curriculum. Utilizing the renowned Dimensions Singapore Math curriculum, our year-long program emphasizes deep conceptual understanding, critical thinking, problem-solving strategies, and practical application of mathematical principles.</description>
+      <guid>https://blueridgeboost.com/classes/Prealgebra_Excellence/</guid>
+      <description>Prealgebra prepares students for the rigors of algebra and teaches problem-solving techniques for prestigious middle school math contests such as MATHCOUNTS, MOEMS, and the AMC 8. The course challenges students at a much deeper level than a traditional middle school prealgebra course. Instead of traditional lecturing, most of the class time is dedicated to tackling challenging problems. Students will be encouraged to write complete and clear solutions to exercises, an important skill in communicating mathematics effectively.</description>
     </item>
     <item>
       <title>Python Fundamentals: Coding from the Ground Up | Blue Ridge Boost</title>

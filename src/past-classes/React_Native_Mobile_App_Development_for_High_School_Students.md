@@ -20,8 +20,8 @@ payment:
 
 difficulty: "Syntax Sorcerers"
 
-start_date: ""
-end_date: "2025-10-03"
+start_date: "2024-10-19"
+end_date: "2025-02-22"
 start_time: "5:30"
 end_time: "6:30"
 

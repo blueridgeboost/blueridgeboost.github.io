@@ -88,7 +88,7 @@ function get_camp_options(id) {
 function get_class_options(id) {
     payment_type = get_radio_selected( "class-"+id, "payment-"+id);
     var ret_value = {
-        "Payment Type": payment_type,
+        "Session": payment_type,
     };
     return ret_value;
 }
