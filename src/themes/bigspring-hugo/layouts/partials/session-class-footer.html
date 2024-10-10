@@ -25,6 +25,12 @@
         {{ range $spaces }}
             {{ $vi := index . 1}}
             {{ $variant := index . 0}}
+            {{ $vp:= 0}}
+            {{ range $price }}
+                {{ if eq (index . 0) $variant }}
+                    {{ $vp = index . 1}}
+                {{ end }}
+            {{ end}}
             {{ if gt $vi 0 }}
                 <label>
                 {{ if $first }}
@@ -33,7 +39,7 @@
                 {{ else }}
                     <input type="radio" name="payment-{{ $id }}" value="{{$variant}}">
                 {{ end }}
-                {{$variant}} (${{$price}}) 
+                {{$variant}} (${{$vp}}) 
                 </label> 
             {{ end }}
         {{ end }}

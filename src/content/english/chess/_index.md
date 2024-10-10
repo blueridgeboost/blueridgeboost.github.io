@@ -4,28 +4,23 @@ page_title: "Charlottesville Kid's Chess Club"
 # meta description
 description: "All levels welcome. Ages six to twelve. Join us to learn and play chess!"
 draft: false
-
 section: "chess-club"
-
-drop_off: "4:30 p.m."
-pick_up: "6:30 p.m."
-intro: "The Charlottesville Kids' Chess Club invites all the children ages six to twelve to two hours of chess. The meetings are held at Blue Ridge Boost. <br>
-<b>Schedule.</b> The first hour is dedicated to two-player chess. For the second hour, participants may choose between standard two-player chess and chess variants, including dice chess and four player chess.<br>
-<h2>The club meetings are temporarily suspended.<h2>"
-
-category_id: "chess"
-
+chess_classes:
+- meeting: "2024-11-16"
+  product_id: "Chess-Tactics-And-Games-Nov-16"
+  product_title: "Tactics and Games"
+  product_subtitle: "November 16, 2024"
+- meeting: "2024-12-07"
+  product_id: "Chess-Tactics-And-Games-Dec-7"
+  product_title: "Tactics and Games"
+  product_subtitle: "December 7, 2024"
 meetings: 
-# - meeting: "2024-10-10"
-#   product_id: "chess-2024-10-10"
-# - meeting: "2024-10-17"
-#   product_id: "chess-2024-10-17"
-# - meeting: "2024-11-07"
-#   product_id: "chess-2024-11-07"
-# - meeting: "2024-11-14"
-#   product_id: "chess-2024-11-14"
-# - meeting: "2024-11-21"
-#   product_id: "chess-2024-11-21"
+- meeting: "2024-11-07"
+  product_id: "chess-2024-11-07"
+- meeting: "2024-11-14"
+  product_id: "chess-2024-11-14"
+- meeting: "2024-11-21"
+  product_id: "chess-2024-11-21"
 # - meeting: "2024-12-04"
 #   product_id: "chess-2024-12-04"
 # - meeting: "2024-12-11"

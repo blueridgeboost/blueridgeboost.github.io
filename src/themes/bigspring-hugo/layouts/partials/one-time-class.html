@@ -9,12 +9,10 @@
             {{ $price := .Params.price | default "0" }}
             <p>
                 <b>Drop off</b> at {{ .Params.drop_off }}. <b>Pick up before</b> {{ .Params.pick_up }}. 
-                <b>Cost:</b> ${{ $price }}.
             </p>
             <p>
                 {{ if eq $price "0" }}
                     Should your plans change, please cancel your sign-up to free the spot. <b>
-                    Please consider making a donation for the volunteers helping us.</b>
                 {{ end }}
             </p>
             <p>Click on one of the dates below to add the date to the shopping cart. Do not forget to complete the signup by checking out.</p>

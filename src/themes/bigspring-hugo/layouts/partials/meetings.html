@@ -1,5 +1,7 @@
 {{ $params := .Site.Params.ecwid_ids }}
 {{ $inventory := .Site.Params.inventory }}
+{{ $categories := .Site.Params.ecwid_categories }}
+{{ $prices := .Site.Params.prices }}    
  
 <div class="container">
     <div class="row">
@@ -16,7 +18,7 @@
                     {{ if gt $spaces 0}}
                         <a href="javascript: ecwid_add_product_to_cart({{ $id }}, {});"
                             class=" btn btn-primary m-2 mtgbtnwidth">
-                            {{ time.Format "Mon, 2 Jan 06" $meetingTime }}
+                            {{ time.Format "Monday, January 02" $meetingTime }} <br> ${{ index $prices $productID }}
                             {{ if ( isset . "data_item_description" ) }}
                                 <br>{{ .data_item_description }}
                             {{ end }}
@@ -24,11 +26,11 @@
                     {{ else }}
                         <a href=""
                             class=" btn btn-primary m-2 mtgbtnwidth">
-                            {{ time.Format "Mon, 2 Jan 06" $meetingTime }}
+                            {{ time.Format "Monday, January 02" $meetingTime }} <br> ${{ index $prices $productID }}
                             {{ if ( isset . "data_item_description" ) }}
                                 <br>{{ .data_item_description }}
                             {{ end }}
-                            <br>Full
+                            <br>No spaces available!
                         </a>
                     {{ end }}
                 {{ end }}

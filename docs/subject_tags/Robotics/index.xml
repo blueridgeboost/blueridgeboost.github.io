@@ -9,6 +9,27 @@
     <lastBuildDate>Mon, 12 Jul 2021 00:00:00 -0400</lastBuildDate>
     <atom:link href="https://blueridgeboost.com/subject_tags/Robotics/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Block Coding with Minecraft Part 1 | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Block_Coding_With_Minecraft/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
+      <guid>https://blueridgeboost.com/classes/Block_Coding_With_Minecraft/</guid>
+      <description>This six-class sequence introduces the students to fundamental computer science concepts, including events and coordinates. Students will use a coding environment embedded in Minecraft Education to code their own commands, which they will then use in the game.</description>
+    </item>
+    <item>
+      <title>Fundamentals of Coding with SPIKE Essential Part 1 | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Fundamentals-Spike-Part-1/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
+      <guid>https://blueridgeboost.com/classes/Fundamentals-Spike-Part-1/</guid>
+      <description>This four-class sequence introduces the students to the world of robotics and coding. Students will construct Lego models that use motors and lights and create code to bring their creations to life. This class is suitable for students with no previous experience using Lego robots.</description>
+    </item>
+    <item>
+      <title>Fundamentals of Coding with SPIKE Essential Part 1 | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Fundamentals-Spike-Part-2/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
+      <guid>https://blueridgeboost.com/classes/Fundamentals-Spike-Part-2/</guid>
+      <description>This four-class sequence introduces the students to sensors used in robotics and coding robots to respond to stimuli in the environment. Students will construct Lego models that use motors, color sensors, and gyros and create code to bring their creations to life. This class is suitable for students with some previous experience using Lego robots.</description>
+    </item>
+    <item>
       <title>Girl-Powered Drone Squad | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Girl_Powered_Drone_Squad/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
