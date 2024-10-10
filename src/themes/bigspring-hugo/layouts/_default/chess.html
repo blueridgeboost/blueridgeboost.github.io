@@ -2,9 +2,101 @@
 
 {{ partial "page-header.html" . }}
 
+{{ $params := .Site.Params.ecwid_ids }}
+{{ $inventory := .Site.Params.inventory }}
+{{ $categories := .Site.Params.ecwid_categories }}
+{{ $prices := .Site.Params.prices }}                        
+
 <section id="chess" class="section">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>Group Chess Classes</h3>
+            </div>
+            <div class="col-12">
+                <p>
+                    We are excited to start a chess program for our more dedicated players, who are ready to learn more about the game and improve their skills. <br>
+                    The classes start at 10 am with a 45 minutes lesson, followed by three 15-minute games. The pickup time is 12:00.<br>
+                    The classes are held at Blue Ridge Boost and are taught by Daniel Wurtzer. <br>
+                </p>
+                <div class="class-cards">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3">
+                        {{ range .Params.chess_classes }}
+                            {{ $id := index $params .product_id }}
+                            {{ $spaces := index $inventory .product_id }}
+                            {{ $price := index $prices .product_id }}
+                            {{ $ecwid_category := index $categories .product_id }}
+                            <div class = "card">
+                                <div class="card-header">
+                                        <h5 class="card-title">
+                                        <a href="{{ .RelPermalink }}"><b>
+                                        {{ .product_title }}
+                                        </b></a>
+                                        </h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">
+                                        {{ .product_subtitle }}
+                                        </h6>
+                                    </div>
+                                    <div class="card-body">
+                                        Saturday, 10:00 AM - 12:00 AM<br>
+                                        Cost: ${{ $price }}
+                                    </div>
+                                    <div class="card-footer">
+                                        {{ if gt $spaces 0 }}
+                                            <form id="class-{{ $id }}">
+                                                <center>
+                                                {{/*  {{ $spaces }} spaces available<br>  */}}
+                                                <div class="spacybutton">
+                                                    <a href="javascript: ecwid_add_product_to_cart( {{ $id }}, {});"
+                                                        class="btn-small btn-primary">Add to Cart</a>
+                                                </div>
+                                                </center>
+                                            </form>
+                                        {{ else }}
+                                            No spaces available!
+                                        {{ end }}
+                                    </div>
+                                </div>
+                        
+                        {{ end }}
+                    </div>
+                </div>
+                
+        </div>
         
-    {{ partial "one-time-class.html" . }}
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p></p>
+                <h2>Chess Club Game Time</h2>
+                <p>Welcome children ages 6-12 for exciting chess sessions! Join us for two hours of strategic fun at Blue Ridge Boost.</p>
+            </div>
+    
+    Our club offers:
+    <ul>
+        <li>A friendly environment for chess enthusiasts</li>
+        <li>Opportunities to play with like-minded peers</li>
+        <li>Basic guidance for beginners learning the rules</li>
+    </ul>
+    
+    <p>Please note: This club is best suited for children who genuinely enjoy chess and can engage in focused gameplay. 
+        While we provide a supportive atmosphere, we do not offer formal instruction. 
+        If your child has a short attention span or limited interest in chess, this may not be the ideal activity for them.</p>
+        <p><b>Schedule.</b> The first hour is dedicated to two-player chess. 
+For the second hour, participants may choose between standard two-player chess and chess variants, including dice chess and four player chess.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                {{ $price := .Params.price | default "0" }}
+                <p>
+                    <b>Drop off</b> at 4:30. <b>Pick up before</b> 6:30. 
+                </p>
+                <p>Click on one of the dates below to add the date to the shopping cart. Do not forget to complete the signup by checking out.</p>
+            </div>
+        </div>
+    </div>
 
     {{ partial "meetings.html" . }}
         
