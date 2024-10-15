@@ -13,11 +13,6 @@ grade_tags: ["9th", "10th", "11th", "12th"]
 subject_tags: ["Math"]
 
 product_id: "Calculus-AB-Mastery"
-
-payment:
-  - name: "Monthly Subscription"
-    price: "195"
-
 difficulty: "Foundation Forgers"
 
 start_date: ""

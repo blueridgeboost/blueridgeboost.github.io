@@ -22,7 +22,6 @@ difficulty: "Foundation Forgers"
 
 start_date: ""
 end_date: "2025-06-02"
-start_time: "3:00"
-end_time: "4:00"
+start_time: "4:00"
 end_time: "5:00"
 ---
