@@ -157,17 +157,6 @@ one_day_camps:
   topic: "Lego Robotics"
   schools: 
     - "CCS"
-- product_id: "one-day-2024-10-14"
-  start_date: "2024-10-14"
-  topic: "Lego Robotics"
-  schools: 
-    - "PS"
-    - "STAB"
-- product_id: "one-day-2024-10-15"
-  start_date: "2024-10-15"
-  topic: "Lego Robotics"
-  schools: 
-    - "PS"
 - product_id: "one-day-2024-10-30"
   start_date: "2024-10-30"
   topic: "Lego Robotics"
@@ -203,11 +192,6 @@ one_day_camps:
   start_date: "2025-03-27"
   schools: 
     - "PS"
-- product_id: "one-day-2024-10-11"
-  start_date: "2024-10-11"
-  topic: "Lego Robotics"
-  schools: 
-    - "STAB"
 - product_id: "one-day-2024-11-15"
   start_date: "2024-11-15"
   topic: "Lego Robotics"
