@@ -1,12 +1,19 @@
+{{ $categories := .Site.Params.ecwid_categories }}
+{{ $ecwid_category := index $categories .Params.product_id }}
+
 {{.Params.start_time}} &ndash; {{.Params.end_time}} on 
     {{ range .Params.day_tags }} {{.}}s {{end}}
 <br> 
-{{ if eq .Params.start_date "" }}
-  Join Anytime
-{{ else }}
+
+{{ if eq $ecwid_category "Subscription Classes" }}
+    {{ if eq .Params.start_date "" }}
+    Join Anytime
+    {{ else }}
     {{ .Params.start_date | time | dateFormat "Jan 2, 06" }} to {{ .Params.end_date | time | dateFormat "Jan 2, 06" }}
+    {{ end }}
+    <br>
 {{ end }}
-<br>
+
 {{ if eq .Params.difficulty "Bot Builders Elite" }}
     <span class="level-elite"><a href="#elite">
         {{ .Params.difficulty }}

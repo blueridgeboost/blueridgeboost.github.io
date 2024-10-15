@@ -33,6 +33,8 @@
     <p>Blue Ridge Boost is a single focus instructional program, not a day care program. 
       As such, <b>students must be at least six years old for camps.</b>
     </p>
+    <p>All camps are held at Blue Ridge Boost, 2171 Ivy Rd, Charlottesville.</p>
+    <p>Half-day students should bring a snack. Full-day students should bring two snacks and lunch.</p>
   </div> 
   <div class="container" id="camp1" >
     <h4>1-Day Camps &ndash; Ages 6 to 13</h4>
@@ -61,7 +63,7 @@
               <div class="card-body">
                   <b>{{ time.Format "January 2, 2006" (time.AsTime .start_date) }}</b><br>
                   Topic: {{ .topic }}<br>
-                  Schools: {{ $sortedSchools := sort .schools }}
+                  Schools Out: {{ $sortedSchools := sort .schools }}
                   {{ range $sortedSchools }}
                     {{ . }}
                   {{ end }}<br>

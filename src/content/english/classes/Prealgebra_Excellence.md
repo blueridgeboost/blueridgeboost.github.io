@@ -25,7 +25,7 @@ difficulty: "Math Maestros"
 
 start_date: ""
 end_date: "2025-06-05"
-start_time: "1:30"
+start_time: "1:00"
 end_time: "2:30"
 
 ---

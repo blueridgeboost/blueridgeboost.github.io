@@ -25,8 +25,8 @@ difficulty: "Competition"
 
 start_date: ""
 end_date: "2025-03-20"
-start_time: "12:00"
-end_time: "1:00"
+start_time: "10:30"
+end_time: "11:30"
 
 ---
 

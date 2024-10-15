@@ -13,15 +13,10 @@ grade_tags: ["9th", "10th", "11th"]
 subject_tags: ["Math"]
 
 product_id: "Precalculus-Practice"
-
-payment:
-  - name: "Monthly Subscription"
-    price: "175"
-
 difficulty: "Foundation Forgers"
 
 start_date: ""
 end_date: "2025-06-02"
-start_time: "4:00"
-end_time: "5:00"
+start_time: "5:00"
+end_time: "6:00"
 ---
