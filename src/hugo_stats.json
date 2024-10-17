@@ -43,6 +43,7 @@
       "style",
       "table",
       "td",
+      "th",
       "title",
       "tr",
       "ul"
@@ -199,6 +200,7 @@
       "pb-0",
       "pb-2",
       "preloader",
+      "pricing-table",
       "pt-0",
       "pt-5",
       "py-1",
@@ -339,6 +341,7 @@
       "game-time",
       "general-policy-no-refunds",
       "girl_powered_fridays",
+      "group-classes",
       "history-of-blue-ridge-boost",
       "information-collection",
       "instructors",
