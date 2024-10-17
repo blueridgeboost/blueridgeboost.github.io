@@ -1,20 +1,45 @@
----
-title: "Tutoring | Blue Ridge Boost"
-page_title: "Tutoring from First&nbsp;Grade to&nbsp;College"
-# meta description
-description: "Math and Computer Science Tutoring from First Grade to College"
-draft: false
----
+{{ define "main" }}
 
-We are delighted to help your student achieve excellence in math, computer science, and related fields! 
+{{ partial "page-header.html" . }}
 
-Tutoring sessions may be virtual or in person at the Blue Ridge Boost office at 2171 Ivy Road, Charlottesville. Several experienced teachers and qualified University of Virginia students are eager to teach your child to think like a mathematician.
+<div class="container">
+    <h3>About Our Sessions</h3>
+    <p>Tutoring sessions are available both virtually and in person at the Blue Ridge Boost office, 
+        located at 2171 Ivy Road, Charlottesville. Our team of experienced teachers and qualified 
+        University of Virginia students is dedicated to helping your child develop strong mathematical 
+        thinking skills. We focus on nurturing problem-solving abilities and fostering a deep understanding 
+        of mathematical concepts, rather than just memorizing formulas.</p>
 
-We charge $60/hour for elementary and middle school classes, $95/hour for algebra, geometry and pre-calculus, and $125/hour for college-level classes, including AP Calculus and AP Statistics.
+    <h3>Our Pricing</h3>
+    <p>Our competitive rates are tailored to meet your child's educational needs. Rates reflect the complexity 
+        of the subject matter and the expertise of our tutors. We offer personalized attention and targeted 
+        instruction to ensure optimal learning outcomes.</p>
+    
+    <table class="pricing-table">
+        <tr>
+            <th>Level</th>
+            <th>Rate per Hour</th>
+        </tr>
+        <tr>
+            <td data-label="Level">Elementary and Middle School</td>
+            <td data-label="Rate per Hour">$60</td>
+        </tr>
+        <tr>
+            <td data-label="Level">High School (Algebra, Geometry, Pre-Calculus)</td>
+            <td data-label="Rate per Hour">$95</td>
+        </tr>
+        <tr>
+            <td data-label="Level">Advanced Placement and College-Level (including AP Calculus and AP Statistics)</td>
+            <td data-label="Rate per Hour">$125</td>
+        </tr>
+    </table>
+    
+    <p>We provide small-group tutoring sessions for 4-6 students, offering a cost-effective alternative to individual 
+        tutoring. These sessions include homework assistance and extra practice to reinforce learning.
+    </p>
+    <p><b><a href="#group-classes">Click here to see a list of group tutoring sessions.</a></b></p>
 
-We also offer several small-group classes with four to six students, providing homework help and additional practice as an affordable alternative.
-
-To schedule a session, submit the information form below:
+    To schedule an individual session, submit the information form below:
 
 <div id="mc_embed_shell">
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
@@ -44,3 +69,21 @@ To schedule a session, submit the information form below:
 </form>
 </div>
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[10]='MMERGE10';ftypes[10]='text';fnames[9]='MMERGE9';ftypes[9]='number';fnames[7]='MMERGE7';ftypes[7]='text';fnames[8]='MMERGE8';ftypes[8]='text';fnames[6]='SMSPHONE';ftypes[6]='smsphone';fnames[4]='MMERGE4';ftypes[4]='text';fnames[3]='MMERGE3';ftypes[3]='dropdown';fnames[5]='MMERGE5';ftypes[5]='number';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
+</div>
+
+<div class="container" id ="group-classes">
+    <!-- Class List -->
+    <p>
+    {{ partial "tutoring-filters.html" . }}
+    </p>
+    <div class="class-cards">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3">
+            {{ range sort .Pages "Title" "ASC" }}
+                {{ partial "class-card" . }}
+            {{ end }}
+        </div>
+    </div>
+    {{ .Content }}
+</div>
+
+{{end}}

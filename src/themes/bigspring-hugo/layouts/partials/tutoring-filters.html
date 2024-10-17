@@ -1,0 +1,13 @@
+<div class="filter-range">
+    <em>Filter group tutoring sessions day of week:</em>
+    <p>
+        <b>Day:&nbsp;&nbsp;</b>
+        {{ range $tag := (slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" "Saturday" "Sunday") }}
+        <label>
+            <span class="filter-box">
+                <input type="checkbox" class="day-filter" value="{{ $tag }}" onchange="filterClasses()"> {{ $tag }}
+            </span>
+        </label>
+        {{ end }}
+    </p>
+</div>
