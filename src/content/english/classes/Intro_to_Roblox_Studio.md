@@ -12,6 +12,8 @@ day_tags: ["Saturday"]
 grade_tags: ["4th", "5th"]
 subject_tags: ["Coding"]
 
+ribbon: "New!"
+
 product_id: "Intro-to-Roblox-Studio"
 
 

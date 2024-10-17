@@ -13,13 +13,7 @@ day_tags: ["Saturday"]
 grade_tags: ["3rd", "4th"]
 subject_tags: ["Math"]
 
-payment:
-  - name: "Monthly Subscription"
-    price: "155"
-#   - name: "4-class package"
-#     price: "195"
-#   - name: "12-class package"
-#     price: "465"
+ribbon: "Join Now!"
 
 difficulty: "Competition"
 

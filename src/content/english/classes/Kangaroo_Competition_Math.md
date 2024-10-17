@@ -14,6 +14,8 @@ day_tags: ["Saturday"]
 grade_tags: ["1st", "2nd"]
 subject_tags: ["Math"]
 
+ribbon: "Join Now!"
+
 payment:
   - name: "Monthly Subscription"
     price: "155"

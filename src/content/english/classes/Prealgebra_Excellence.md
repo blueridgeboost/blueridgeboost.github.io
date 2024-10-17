@@ -13,13 +13,7 @@ day_tags: ["Sunday"]
 grade_tags: ["5th", "6th"]
 subject_tags: ["Math"]
 
-payment:
-  - name: "Monthly Subscription"
-    price: "195"
-  # - name: "4-class package"
-  #   price: "235"
-  # - name: "12-class package"
-  #   price: "637"
+ribbon: "New Time!"
 
 difficulty: "Math Maestros"
 

@@ -18,6 +18,8 @@ difficulty: "Syntax Sorcerers"
 start_time: "1:30"
 end_time: "3:30"
 
+ribbon: "New"
+
 ---
 
 Do you already know how to modify and print small models? Are you ready to create your own 3D designs?

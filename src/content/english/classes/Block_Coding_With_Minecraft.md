@@ -11,7 +11,7 @@ product_id: "Block-Coding-with-Minecraft-1"
 
 day_tags: ["Thursday"]
 grade_tags: ["3rd", "4th"]
-subject_tags: ["Robotics"]
+subject_tags: ["Computer Coding"]
 
 difficulty: "Code Cadets"
 
@@ -19,6 +19,8 @@ start_date: "2024-10-28"
 end_date: "2024-12-12"
 start_time: "5:00"
 end_time: "6:30"
+
+ribbon: "New"
 
 ---
 
