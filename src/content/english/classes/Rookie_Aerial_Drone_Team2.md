@@ -26,4 +26,6 @@ end_time: "3:30"
 
 layout: "aerial-drones"
 
+ribbon: "New!"
+
 ---

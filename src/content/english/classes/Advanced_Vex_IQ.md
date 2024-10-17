@@ -13,11 +13,8 @@ day_tags: ["Saturday"]
 grade_tags: ["5th", "6th"]
 subject_tags: ["Robotics"]
 
-class_type: "subscription"
-
-price: "195"
-  
 difficulty: "Bot Builders Elite"
+ribbon: "Join Now!"
 
 start_date: ""
 end_date: "2025-06-02"

@@ -13,6 +13,7 @@ grade_tags: ["8th", "9th", "10th"]
 subject_tags: ["Coding"]
 
 product_id: "Intro-C-Sharp-Unity"
+ribbon: "New!"
 
 difficulty: "Foundation Forgers"
 

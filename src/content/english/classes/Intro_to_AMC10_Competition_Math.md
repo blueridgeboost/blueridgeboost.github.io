@@ -9,7 +9,7 @@ summary: "The AMC 10 (American Mathematics Competitions 10) is a prestigious mat
 section: "classes"
 product_id: "Intro-to-AMC10"
 
-day_tags: ["Wednesday"]
+day_tags: ["Sunday"]
 grade_tags: ["7th", "8th", "9th", "10th"]
 subject_tags: ["Math"]
 
@@ -23,10 +23,12 @@ payment:
 
 difficulty: "Competition"
 
+ribbon: "New Time!"
+
 start_date: ""
-end_date: "2024-11-12"
-start_time: "6:00"
-end_time: "7:00"
+end_date: "2025-06-03"
+start_time: "11:00"
+end_time: "12:30"
 
 ---
 

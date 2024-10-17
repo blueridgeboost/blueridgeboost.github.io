@@ -1,6 +1,10 @@
 {{ $categories := .Site.Params.ecwid_categories }}
 {{ $ecwid_category := index $categories .Params.product_id }}
 
+<div class="ribbon">
+<span>{{ .Params.ribbon }}</span>
+</div>
+
 {{.Params.start_time}} &ndash; {{.Params.end_time}} on 
     {{ range .Params.day_tags }} {{.}}s {{end}}
 <br> 
