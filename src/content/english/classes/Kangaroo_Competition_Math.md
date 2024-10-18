@@ -16,16 +16,6 @@ subject_tags: ["Math"]
 
 ribbon: "Join Now!"
 
-payment:
-  - name: "Monthly Subscription"
-    price: "155"
-#   - name: "4-class package"
-#     price: "195"
-#   - name: "12-class package"
-#     price: "465"
-
-difficulty: "Competition"
-
 start_date: ""
 end_date: "2025-03-20"
 start_time: "11:30"
