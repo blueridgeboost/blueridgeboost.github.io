@@ -13,7 +13,7 @@ day_tags: ["Saturday"]
 grade_tags: ["5th", "6th"]
 subject_tags: ["Math"]
 
-ribbon: "New Time!"
+timeribbon: "New Time!"
 
 difficulty: "Competition"
 

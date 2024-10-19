@@ -22,7 +22,7 @@ end_date: "2025-06-03"
 start_time: "2:00"
 end_time: "3:30"
 
-ribbon: "New Time"
+timeribbon: "New Time!"
 
 ---
 

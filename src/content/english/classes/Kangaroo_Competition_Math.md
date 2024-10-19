@@ -14,7 +14,7 @@ day_tags: ["Saturday"]
 grade_tags: ["1st", "2nd"]
 subject_tags: ["Math"]
 
-ribbon: "Join Now!"
+joinribbon: "Join Now!"
 
 start_date: ""
 end_date: "2025-03-20"

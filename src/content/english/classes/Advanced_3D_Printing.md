@@ -18,7 +18,7 @@ difficulty: "Syntax Sorcerers"
 start_time: "1:30"
 end_time: "3:30"
 
-ribbon: "New"
+ribbon: "New!"
 
 ---
 

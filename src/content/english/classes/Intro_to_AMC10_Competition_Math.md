@@ -23,7 +23,7 @@ payment:
 
 difficulty: "Competition"
 
-ribbon: "New Time!"
+timeribbon: "New Time!"
 
 start_date: ""
 end_date: "2025-06-03"
