@@ -12,7 +12,7 @@ day_tags: ["Sunday"]
 grade_tags: ["9th", "10th", "11th", "12th"]
 subject_tags: ["Math"]
 
-ribbon: "New"
+ribbon: "New!"
 
 product_id: "Calc-AB-Workshop-Differentiation-1"
 

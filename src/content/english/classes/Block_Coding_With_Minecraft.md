@@ -20,7 +20,7 @@ end_date: "2024-12-12"
 start_time: "5:00"
 end_time: "6:30"
 
-ribbon: "New"
+ribbon: "New!"
 
 ---
 

@@ -10,7 +10,7 @@ section: "classes"
 
 ---
 
-
+<p></p>
 <p>
     <b>Math.</b>
     Long-term success in math comes from understanding fundamental concepts and gaining experience and confidence by solving 

@@ -13,7 +13,7 @@ day_tags: ["Sunday"]
 grade_tags: ["5th", "6th"]
 subject_tags: ["Math"]
 
-ribbon: "New Time!"
+timeribbon: "New Time!"
 
 difficulty: "Math Maestros"
 

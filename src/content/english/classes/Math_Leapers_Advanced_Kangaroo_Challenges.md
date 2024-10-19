@@ -13,7 +13,7 @@ day_tags: ["Saturday"]
 grade_tags: ["3rd", "4th"]
 subject_tags: ["Math"]
 
-ribbon: "Join Now!"
+joinribbon: "Join Now!"
 
 difficulty: "Competition"
 

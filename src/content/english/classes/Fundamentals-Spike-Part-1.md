@@ -13,7 +13,7 @@ day_tags: ["Tuesday"]
 grade_tags: ["1st", "2nd"]
 subject_tags: ["Robotics"]
 
-ribbon: "New"
+ribbon: "New!"
 
 difficulty: "Robo Rookies"
 

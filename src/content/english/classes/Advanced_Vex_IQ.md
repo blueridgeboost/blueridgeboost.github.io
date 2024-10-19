@@ -14,7 +14,7 @@ grade_tags: ["5th", "6th"]
 subject_tags: ["Robotics"]
 
 difficulty: "Bot Builders Elite"
-ribbon: "Join Now!"
+joinribbon: "Join Now!"
 
 start_date: ""
 end_date: "2025-06-02"
