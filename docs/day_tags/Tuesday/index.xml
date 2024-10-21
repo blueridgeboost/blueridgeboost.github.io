@@ -4,24 +4,10 @@
     <title>Tuesday on Computer Science - Robotics - Math - Computer Coding - Chess in Charlottesville </title>
     <link>https://blueridgeboost.com/day_tags/Tuesday/</link>
     <description>Recent content in Tuesday on Computer Science - Robotics - Math - Computer Coding - Chess in Charlottesville </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 12 Jul 2021 00:00:00 -0400</lastBuildDate>
     <atom:link href="https://blueridgeboost.com/day_tags/Tuesday/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Fundamentals of Coding with SPIKE Essential Part 1 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Fundamentals-Spike-Part-1/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Fundamentals-Spike-Part-1/</guid>
-      <description>This four-class sequence introduces the students to the world of robotics and coding. Students will construct Lego models that use motors and lights and create code to bring their creations to life. This class is suitable for students with no previous experience using Lego robots.</description>
-    </item>
-    <item>
-      <title>Fundamentals of Coding with SPIKE Essential Part 1 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Fundamentals-Spike-Part-2/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Fundamentals-Spike-Part-2/</guid>
-      <description>This four-class sequence introduces the students to sensors used in robotics and coding robots to respond to stimuli in the environment. Students will construct Lego models that use motors, color sensors, and gyros and create code to bring their creations to life. This class is suitable for students with some previous experience using Lego robots.</description>
-    </item>
     <item>
       <title>Integrated Math 3 Practice | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/tutoring/Integrated_Math_3_Practice/</link>
@@ -30,39 +16,11 @@
       <description>This class is designed for students seeking reinforcement of classroom concepts through additional practice with grade-appropriate problems. &lt;br&gt; During a typical session, students will receive assistance with homework assignments and review concepts learned in school. As time allows, instructors will provide similar problems to further solidify understanding and boost confidence.</description>
     </item>
     <item>
-      <title>Intro to Block Coding | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Kids_Coding_Course_Building_with_Beavers/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Kids_Coding_Course_Building_with_Beavers/</guid>
-      <description>Students learn sequencing, repetition, problem-solving, and conditional logic while developing practical coding skills. The course employs a hands-on, gamified approach that gradually increases in complexity, allowing each child to advance at their own speed. By the end, students can create sophisticated programs, having built a strong foundation in coding and computational thinking.</description>
-    </item>
-    <item>
       <title>Precalculus Practice | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/tutoring/Precalculus_Practice/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
       <guid>https://blueridgeboost.com/tutoring/Precalculus_Practice/</guid>
       <description>This class is designed for students seeking reinforcement of classroom concepts through additional practice with grade-appropriate problems. &lt;br&gt; During a typical session, students will receive assistance with homework assignments and review concepts learned in school. As time allows, instructors will provide similar problems to further solidify understanding and boost confidence.</description>
-    </item>
-    <item>
-      <title>Robotics Discovery for 1st and 2nd Grades | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Robotics_Discovery_for_1st_and_2nd_Grades/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Robotics_Discovery_for_1st_and_2nd_Grades/</guid>
-      <description>This class offers a fun and gentle introduction to robotics for students in 1st and 2nd grade, progressively building skills and knowledge through Vex 123, Lego Spike Essential, and Sphero Indie Robotics modules over the academic year.</description>
-    </item>
-    <item>
-      <title>Robotics Discovery for 4 and 5 Grades | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Robotics_Discovery_for_4_and_5_Graders/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Robotics_Discovery_for_4_and_5_Graders/</guid>
-      <description>This class offers a progressive, hands-on introduction to robotics for students in grades 4 and 5, covering Vex GO, Lego Spike Prime, and Sphero Bolt Robotics throughout the academic year, while developing problem-solving, critical thinking, and teamwork skills.</description>
-    </item>
-    <item>
-      <title>Video Game Design in JavaScript | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Video_Game_Design_in_JavaScript/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Video_Game_Design_in_JavaScript/</guid>
-      <description>The video game design curriculum teaches the foundations of creating video games in JavaScript. While this course is introductory, it requires a good mathematical background and analytical thinking. Its curriculum teaches the foundations of computer science and basic programming, with an emphasis on helping students develop logical thinking and problem-solving skills. Once students complete the course, they will have learned material equivalent to a semester college introductory course in Computer Science and be able to program in JavaScript.</description>
     </item>
   </channel>
 </rss>
