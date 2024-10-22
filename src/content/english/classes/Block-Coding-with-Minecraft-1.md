@@ -1,6 +1,6 @@
 ---
 product_id: Block-Coding-with-Minecraft-1
-price: Oct 24; Nov 7, 14, 21; Dec 5, 12,195
+price: Nov 7, 14, 21; Dec 5, 12,165
 category: Session Classes
 start_date: "2024-10-24"
 end_date: "2024-12-12"
