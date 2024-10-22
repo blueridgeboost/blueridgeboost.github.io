@@ -1,6 +1,6 @@
 ---
 product_id: Intro-to-Roblox-Studio
-price: October 26; Nov 2, 9, 16,165
+price: Nov 2, 9, 16, 23,165
 category: Session Classes
 start_date: "2024-10-26"
 end_date: "2024-11-16"
