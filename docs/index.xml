@@ -4,7 +4,7 @@
     <title>Computer Science - Robotics - Math - Computer Coding - Chess in Charlottesville </title>
     <link>https://blueridgeboost.com/</link>
     <description>Recent content on Computer Science - Robotics - Math - Computer Coding - Chess in Charlottesville </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 12 Jul 2021 00:00:00 -0400</lastBuildDate>
     <atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml" />
@@ -21,20 +21,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/girl-powered-fridays/e02_ages9to11/</guid>
       <description></description>
-    </item>
-    <item>
-      <title>Advanced 3D Printing | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Advanced_3D_Printing/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Advanced_3D_Printing/</guid>
-      <description>Take your 3D printing to new heights!</description>
-    </item>
-    <item>
-      <title>Advanced Problem Solving: Math Olympiad, and AMC8 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Advanced_Problem_Solving_Math_Olympiad_and_AMC8/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Advanced_Problem_Solving_Math_Olympiad_and_AMC8/</guid>
-      <description>MOEMS is a challenging and engaging math competition for middle schoolers, featuring five monthly contests from November to March that focus on problem-solving and mathematical creativity. Similarly, the AMC 8 is a 40-minute math competition designed for students in grade 8 and below, covering a range of middle school math topics, including some concepts from introductory algebra. At Blue Ridge Boost, students participate in weekly problem-solving sessions to prepare for these competitions, and they have the option to take the tests if they choose to do so.</description>
     </item>
     <item>
       <title>Adventures in Engineering | Blue Ridge Boost</title>
@@ -65,27 +51,6 @@
       <description>This class is designed for students seeking reinforcement of classroom concepts through additional practice with grade-appropriate problems. &lt;br&gt; During a typical session, students will receive assistance with homework assignments and review concepts learned in school. As time allows, instructors will provide similar problems to further solidify understanding and boost confidence.</description>
     </item>
     <item>
-      <title>Banana Code Quest: Adventures in Text-Based Programming | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Banana_Code_Quest_Adventures_in_Text-Based_Programming/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Banana_Code_Quest_Adventures_in_Text-Based_Programming/</guid>
-      <description>Banana Code Quest is a gamified coding course designed to teach young students real-world coding from the very first challenge. Through engaging puzzles and adventures, students help a monkey catch bananas and outsmart various animals, all while learning fundamental and advanced coding concepts in a fun and interactive way.</description>
-    </item>
-    <item>
-      <title>Banana Tales: Python Adventures for Grades 5-6 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Banana_Tales_Python_Adventures_for_Grades_5-6/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Banana_Tales_Python_Adventures_for_Grades_5-6/</guid>
-      <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, functions, and introduces more complex topics like classes, string manipulation, and sorting algorithms. With step-by-step instructions, interactive quizzes, and a supportive learning environment, this course provides a fun and effective way for 5th and 6th graders to develop their programming skills.</description>
-    </item>
-    <item>
-      <title>Block Coding with Minecraft Part 1 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Block_Coding_With_Minecraft/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Block_Coding_With_Minecraft/</guid>
-      <description>This six-class sequence introduces the students to fundamental computer science concepts, including events and coordinates. Students will use a coding environment embedded in Minecraft Education to code their own commands, which they will then use in the game.</description>
-    </item>
-    <item>
       <title>Calculus AB Mastery | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/tutoring/Calculus_AB_Mastery/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
@@ -98,13 +63,6 @@
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
       <guid>https://blueridgeboost.com/tutoring/Calculus_AB_Practice/</guid>
       <description>This class is designed for students seeking reinforcement of classroom concepts through additional practice with grade-appropriate problems. &lt;br&gt; During a typical session, students will receive assistance with homework assignments and review concepts learned in school. As time allows, instructors will provide similar problems to further solidify understanding and boost confidence.</description>
-    </item>
-    <item>
-      <title>Calculus AB Workshop on Differentiation | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Calculus_Workshop_Differentiation_1/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Calculus_Workshop_Differentiation_1/</guid>
-      <description>This class is perfect for students who want to strengthen their understanding of differentiation concepts through additional practice with engaging grade-level problems.</description>
     </item>
     <item>
       <title>Data Structures in Java | Blue Ridge Boost</title>
@@ -121,20 +79,6 @@
       <description>Are you curious about robotics, science, and teamwork? Join the Blue Ridge Boost teams for a week-long introduction to FIRST LEGO League Challenge (FLL Challenge) and FIRST Tech Challenge (FTC).&#xA;Students in grades 4-8 are invited to morning sessions focused on FLL Challenge robotics, learning alongside experienced Blue Ridge Boost team members.&#xA;Students in grades 7-12 can work with our rookie FTC team, learning about the program and helping build our first FTC robot.&#xA;This week-long program offers hands-on experience with robotics, programming, and collaborative problem-solving for both beginners and those looking to expand their skills.</description>
     </item>
     <item>
-      <title>Fundamentals of Coding with SPIKE Essential Part 1 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Fundamentals-Spike-Part-1/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Fundamentals-Spike-Part-1/</guid>
-      <description>This four-class sequence introduces the students to the world of robotics and coding. Students will construct Lego models that use motors and lights and create code to bring their creations to life. This class is suitable for students with no previous experience using Lego robots.</description>
-    </item>
-    <item>
-      <title>Fundamentals of Coding with SPIKE Essential Part 1 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Fundamentals-Spike-Part-2/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Fundamentals-Spike-Part-2/</guid>
-      <description>This four-class sequence introduces the students to sensors used in robotics and coding robots to respond to stimuli in the environment. Students will construct Lego models that use motors, color sensors, and gyros and create code to bring their creations to life. This class is suitable for students with some previous experience using Lego robots.</description>
-    </item>
-    <item>
       <title>Game Design in Unity | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/camps/unity/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
@@ -147,27 +91,6 @@
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
       <guid>https://blueridgeboost.com/tutoring/Geometry_Practice/</guid>
       <description>This class is designed for students seeking reinforcement of classroom concepts through additional practice with grade-appropriate problems. &lt;br&gt; During a typical session, students will receive assistance with homework assignments and review concepts learned in school. As time allows, instructors will provide similar problems to further solidify understanding and boost confidence.</description>
-    </item>
-    <item>
-      <title>Girl-Powered Drone Squad | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Girl_Powered_Drone_Squad/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Girl_Powered_Drone_Squad/</guid>
-      <description>Calling All Future Female Drone Pilots and Engineers! Join our Girl-Powered Aerial Drone Competition Team! We&amp;rsquo;re forming an all-girl team for the REC Foundation Aerial Drone Competition</description>
-    </item>
-    <item>
-      <title>Girl-Powered First Tech Challenge | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Girl_Powered_FTC/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Girl_Powered_FTC/</guid>
-      <description>This is an inclusive STEM class with a focus on empowering girls. While all genders are welcome and encouraged to participate, we strive to maintain a majority female enrollment to address historical underrepresentation in STEM fields. Our goal is to create a supportive environment that inspires girls to explore and excel in science, technology, engineering, and mathematics.</description>
-    </item>
-    <item>
-      <title>Girl-Powered Vex IQ Team! | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Girl_Powered_Vex_IQ_Team/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Girl_Powered_Vex_IQ_Team/</guid>
-      <description>Calling all creative, curious, and tech-savvy girls and their supporters! We&#39;re forming a new majority-girl VEX IQ robotics team and we want YOU to be part of it!&#xA;What is VEX IQ? An exciting robotics competition for elementary and middle school students Design, build, and program your own robot Compete in fun challenges No experience needed! We&#39;re looking for: Future engineers and inventors Coders and problem-solvers Team players and leaders Girls who love to learn and have fun!</description>
     </item>
     <item>
       <title>Integrated Math 1 Mastery | Blue Ridge Boost</title>
@@ -205,27 +128,6 @@
       <description>This class is designed for students seeking reinforcement of classroom concepts through additional practice with grade-appropriate problems. &lt;br&gt; During a typical session, students will receive assistance with homework assignments and review concepts learned in school. As time allows, instructors will provide similar problems to further solidify understanding and boost confidence.</description>
     </item>
     <item>
-      <title>Intro to AMC10 Competition Math | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Intro_to_AMC10_Competition_Math/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Intro_to_AMC10_Competition_Math/</guid>
-      <description>The AMC 10 (American Mathematics Competitions 10) is a prestigious mathematics contest in the United States designed for students aged 10 through 16, or those enrolled in grades 10 and below. This challenging competition aims to cultivate problem-solving skills, foster mathematical creativity, and promote a deeper understanding of advanced mathematical concepts. With its rigorous content spanning algebra, geometry, number theory, and combinatorics, the AMC 10 serves as a gateway to higher-level math competitions. For students embarking on their competitive mathematics journey, the Blue Ridge Boost class offers a solid foundation, introducing key strategies and fundamental topics essential for success in the AMC 10 and beyond. Students enrolled in the class have the option to take the 2024 contests at Blue Ridge Boost. The class will continue for the duration of the school year to prepare students for the next year&amp;rsquo;s competition.</description>
-    </item>
-    <item>
-      <title>Intro to Block Coding | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Kids_Coding_Course_Building_with_Beavers/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Kids_Coding_Course_Building_with_Beavers/</guid>
-      <description>Students learn sequencing, repetition, problem-solving, and conditional logic while developing practical coding skills. The course employs a hands-on, gamified approach that gradually increases in complexity, allowing each child to advance at their own speed. By the end, students can create sophisticated programs, having built a strong foundation in coding and computational thinking.</description>
-    </item>
-    <item>
-      <title>Intro to C# for Unity | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Intro_to_C_Sharp_And_Unity/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Intro_to_C_Sharp_And_Unity/</guid>
-      <description>This class is perfect for students who are interested in developing programming skills for game development</description>
-    </item>
-    <item>
       <title>Intro to Counting and Probability | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/camps/intro-to-counting/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
@@ -252,27 +154,6 @@
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
       <guid>https://blueridgeboost.com/camps/intro-to-programming-karel/</guid>
       <description>Join us for an exciting adventure with Karel the Dog in our specially designed Intro to Programming course! Perfect for middle school students with no coding experience.&lt;br&gt;🐶 Why Karel the Dog? Karel is not just any dog — he’s your gateway to the world of coding! In a fun, grid-based world, you’ll teach Karel to perform tasks, maneuver obstacles, and solve puzzles, all through programming. Campers will work through the challenges at their own pace under the expert guidance of Blue Ridge Boost instructors. Full-day campers are expected to complete almost all units.</description>
-    </item>
-    <item>
-      <title>Intro to Roblox Studio | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Intro_to_Roblox_Studio/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Intro_to_Roblox_Studio/</guid>
-      <description>This class is perfect for students who are new to creating games in Roblox.</description>
-    </item>
-    <item>
-      <title>Junior Robotics Adventures: Dino Quests &amp; Lego Explorers | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Junior_Robotics_Adventures_Dino_Quests_Lego_Explorers/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Junior_Robotics_Adventures_Dino_Quests_Lego_Explorers/</guid>
-      <description>Embark on an exciting year-long journey where young learners explore basic robotics concepts through themed challenges, including Jurassic adventures with Sphero Indi in the fall and collaborative Lego robotics projects in the spring, fostering critical thinking, teamwork, and creativity.</description>
-    </item>
-    <item>
-      <title>Junior Robotics Adventures: Dino Quests &amp; Lego Explorers | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Junior_Robotics_Adventures_Dino_Quests_Lego_Explorers_Saturday/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Junior_Robotics_Adventures_Dino_Quests_Lego_Explorers_Saturday/</guid>
-      <description>Embark on an exciting year-long journey where young learners explore basic robotics concepts through themed challenges, including Jurassic adventures with Sphero Indi in the fall and collaborative Lego robotics projects in the spring, fostering critical thinking, teamwork, and creativity.</description>
     </item>
     <item>
       <title>Learn to code with Code Monkey Jr | Blue Ridge Boost</title>
@@ -303,27 +184,6 @@
       <description>Make Your Own Games camp is an immersive week-long adventure where kids aged 10-13 can dive into the exciting world of game design using CodeMonkey&amp;rsquo;s Game Builder course. This camp is designed to teach fundamental coding and game design concepts through engaging, hands-on activities and projects. &lt;br&gt; Skills Developed &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Coding:&lt;/strong&gt; Learn to code using CoffeeScript, a simple yet powerful language.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Game Design:&lt;/strong&gt; Understand the principles of game mechanics, user interface design, and animation.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Problem-Solving:&lt;/strong&gt; Develop critical thinking and problem-solving skills through coding challenges.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Collaboration:&lt;/strong&gt; Work in teams to create and refine game projects.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Creativity:&lt;/strong&gt; Use imagination to design unique games and animations.&lt;/li&gt; &lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Math Boost for Fifth and Sixth Graders | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Math_Boost_for_Fifth_and_Sixth_Graders/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Math_Boost_for_Fifth_and_Sixth_Graders/</guid>
-      <description>This class is tailored for students who have been recommended for additional support and are facing challenges in their regular classroom. It offers reinforcement of key concepts through extra practice with typical grade-level problems, ensuring that students can grasp and master the material at their own pace. Additionally, students will have the opportunity to work on materials recommended by their classroom teacher and tackle problems suggested by Blue Ridge Boost instructors, providing a tailored and comprehensive approach to meet their individual learning needs.</description>
-    </item>
-    <item>
-      <title>Math Boost for First and Second Graders | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Math_Boost_for_First_and_Second_Graders/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Math_Boost_for_First_and_Second_Graders/</guid>
-      <description>This class is tailored for students who have been recommended for additional support and are facing challenges in their regular classroom. It offers reinforcement of key concepts through extra practice with typical grade-level problems, ensuring that students can grasp and master the material at their own pace. Additionally, students will have the opportunity to work on materials recommended by their classroom teacher and tackle problems suggested by Blue Ridge Boost instructors, providing a tailored and comprehensive approach to meet their individual learning needs.</description>
-    </item>
-    <item>
-      <title>Math Boost for Third, Fourth, and Fifth Graders | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Math_Boost_for_Third_and_Fourth_Graders/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Math_Boost_for_Third_and_Fourth_Graders/</guid>
-      <description>This class is tailored for students who have been recommended for additional support and are facing challenges in their regular classroom. It offers reinforcement of key concepts through extra practice with typical grade-level problems, ensuring that students can grasp and master the material at their own pace. Additionally, students will have the opportunity to work on materials recommended by their classroom teacher and tackle problems suggested by Blue Ridge Boost instructors, providing a tailored and comprehensive approach to meet their individual learning needs.</description>
-    </item>
-    <item>
       <title>Math Camp | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/camps/math-camp-jr/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
@@ -338,69 +198,6 @@
       <description>Blue Ridge Boost offers a dynamic course based on &lt;i&gt;Art of Problem Solving, Volume 1: The Basics&lt;/i&gt;, designed to enhance mathematical skills for advanced middle school students. This program, ideal for those preparing for contests like MathCounts or AMC 8/10, builds essential problem-solving abilities and fosters critical thinking.</description>
     </item>
     <item>
-      <title>Math Excellence for First and Second Grade| Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Math_Excellence_for_First_and_Second_Grade/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Math_Excellence_for_First_and_Second_Grade/</guid>
-      <description>In our advanced math class, we harness the engaging and comprehensive materials from Beast Academy to cultivate a deep understanding and passion for mathematics. Each student embarks on a personalized mathematical journey under the guidance of an expert Blue Ridge Boost instructor.</description>
-    </item>
-    <item>
-      <title>Math Excellence for Third and Fourth Grade| Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Math_Excellence_for_Third_and_Fourth_Grade/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Math_Excellence_for_Third_and_Fourth_Grade/</guid>
-      <description>In our advanced math class, we harness the engaging and comprehensive materials from Beast Academy to cultivate a deep understanding and passion for mathematics. Each student embarks on a personalized mathematical journey under the guidance of an expert Blue Ridge Boost instructor.</description>
-    </item>
-    <item>
-      <title>Math Hoppers: Kangaroo Math for Young Explorers | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Kangaroo_Competition_Math/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Kangaroo_Competition_Math/</guid>
-      <description>The Kangaroo Mathematics Competition, set for Thursday, March 20, 2025, is an international event testing students&amp;rsquo; math skills. Preparation involves practicing past papers, reviewing key concepts, and improving time management. The multiple-choice test covers various math topics. The class will continue for the duration of the school year to prepare students for the next year&amp;rsquo;s competition.</description>
-    </item>
-    <item>
-      <title>Math Leapers: Advanced Kangaroo Challenges | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Math_Leapers_Advanced_Kangaroo_Challenges/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Math_Leapers_Advanced_Kangaroo_Challenges/</guid>
-      <description>The Math Kangaroo competition is an international mathematical competition where students from grades 1 through 12 participate. The curriculum for grades 3 and 4 focuses on enhancing mathematical skills through engaging and challenging problems, building on the foundational knowledge acquired in earlier grades. The Kangaroo Mathematics Competition, set for Thursday, March 20, 2025.  The class will continue for the duration of the school year to prepare students for the next year&amp;rsquo;s competition.</description>
-    </item>
-    <item>
-      <title>Math Mastery for First and Second Graders | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Math-Mastery-for_First_and_Second_Graders/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Math-Mastery-for_First_and_Second_Graders/</guid>
-      <description>This advanced mathematics class is designed for curious students ranking in the top 50% of their class who are eager to explore math beyond the typical school curriculum. Utilizing the renowned Dimensions Singapore Math curriculum, our year-long program emphasizes deep conceptual understanding, critical thinking, problem-solving strategies, and practical application of mathematical principles.</description>
-    </item>
-    <item>
-      <title>Math Mastery for Third and Fourth Graders | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Math-Mastery-for_Third_and_Fourth_Graders/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Math-Mastery-for_Third_and_Fourth_Graders/</guid>
-      <description>This advanced mathematics class is designed for curious students ranking in the top 50% of their class who are eager to explore math beyond the typical school curriculum. Utilizing the renowned Dimensions Singapore Math curriculum, our year-long program emphasizes deep conceptual understanding, critical thinking, problem-solving strategies, and practical application of mathematical principles.</description>
-    </item>
-    <item>
-      <title>Middle School Competition Robotics Team | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/First_Lego_League_ChallengeVEX_IQ_Robotics_Competition/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/First_Lego_League_ChallengeVEX_IQ_Robotics_Competition/</guid>
-      <description>&lt;p&gt;First Lego League (FLL) is a Lego robotics competition for students grades 4 to 8. Teams engage in research, problem-solving, coding and engineering – building and programming a LEGO robot that navigates the missions of a robot game. As part of Challenge, teams also participate in a research project to identify and solve a relevant real-world problem. &lt;/p&gt; Team members must be willing to work on all aspects of the competition and demonstrate the &lt;b&gt;FIRST core values&lt;/b&gt;.&lt;br&gt; The Blue Ridge Boost teams &lt;i&gt;Lego Landsharks&lt;/i&gt; and &lt;i&gt;Sciency Sea Turtles&lt;/i&gt; will compete on November 16 in Charlottesville.</description>
-    </item>
-    <item>
-      <title>Prealgebra EXcellence | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Prealgebra_Excellence/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Prealgebra_Excellence/</guid>
-      <description>Prealgebra prepares students for the rigors of algebra and teaches problem-solving techniques for prestigious middle school math contests such as MATHCOUNTS, MOEMS, and the AMC 8. The course challenges students at a much deeper level than a traditional middle school prealgebra course. Instead of traditional lecturing, most of the class time is dedicated to tackling challenging problems. Students will be encouraged to write complete and clear solutions to exercises, an important skill in communicating mathematics effectively.</description>
-    </item>
-    <item>
-      <title>Prealgebra Mastery| Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Prealgebra_Mastery/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Prealgebra_Mastery/</guid>
-      <description>This advanced mathematics class is designed for curious students ranking in the top 50% of their class who are eager to explore math beyond the typical school curriculum. Utilizing the renowned Dimensions Singapore Math curriculum, our year-long program emphasizes deep conceptual understanding, critical thinking, problem-solving strategies, and practical application of mathematical principles.</description>
-    </item>
-    <item>
       <title>Precalculus Practice | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/tutoring/Precalculus_Practice/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
@@ -408,60 +205,11 @@
       <description>This class is designed for students seeking reinforcement of classroom concepts through additional practice with grade-appropriate problems. &lt;br&gt; During a typical session, students will receive assistance with homework assignments and review concepts learned in school. As time allows, instructors will provide similar problems to further solidify understanding and boost confidence.</description>
     </item>
     <item>
-      <title>Problem Solving: Math Olympiad, and AMC8 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Problem_Solving_Math_Olympiad_and_AMC8/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Problem_Solving_Math_Olympiad_and_AMC8/</guid>
-      <description>MOEMS is a challenging and engaging math competition for elementary and middle schoolers, featuring five monthly contests from November to March that focus on problem-solving and mathematical creativity. Similarly, the AMC 8 is a 40-minute math competition designed for students in grade 8 and below, covering a range of middle school math topics, including some concepts from introductory algebra. At Blue Ridge Boost, students participate in weekly problem-solving sessions to prepare for these competitions, and they have the option to take the tests if they choose to do so.</description>
-    </item>
-    <item>
-      <title>Python Fundamentals: Coding from the Ground Up | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Python_Fundamentals_Coding_from_the_Ground_Up/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Python_Fundamentals_Coding_from_the_Ground_Up/</guid>
-      <description>This course is a comprehensive, year-long program designed for middle school students with no prior coding experience. It introduces fundamental programming concepts using Python through interactive exercises and projects centered around controlling a virtual character named Tracy. The course covers commands, functions, loops, variables, conditionals, and lists, progressing to more complex tasks like user interaction and creating visual projects.</description>
-    </item>
-    <item>
       <title>Ready, Set, GO | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/camps/vex-ready-set-go/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
       <guid>https://blueridgeboost.com/camps/vex-ready-set-go/</guid>
       <description>Campers will engage in building and racing various cars to explore the concepts of forces and speed! They will start by constructing a Super Car and experimenting with ways to enhance its distance and speed. Over the course of the camp, they will expand on this foundation by assembling different models of the Super Car. This progression will allow them to investigate the dynamics of how these models move, culminating in coding and operating both the Code Super Car and the Code Base.</description>
-    </item>
-    <item>
-      <title>Robotics Discovery for 1st and 2nd Grades | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Robotics_Discovery_for_1st_and_2nd_Grades/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Robotics_Discovery_for_1st_and_2nd_Grades/</guid>
-      <description>This class offers a fun and gentle introduction to robotics for students in 1st and 2nd grade, progressively building skills and knowledge through Vex 123, Lego Spike Essential, and Sphero Indie Robotics modules over the academic year.</description>
-    </item>
-    <item>
-      <title>Robotics Discovery for 4 and 5 Grades | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Robotics_Discovery_for_4_and_5_Graders/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Robotics_Discovery_for_4_and_5_Graders/</guid>
-      <description>This class offers a progressive, hands-on introduction to robotics for students in grades 4 and 5, covering Vex GO, Lego Spike Prime, and Sphero Bolt Robotics throughout the academic year, while developing problem-solving, critical thinking, and teamwork skills.</description>
-    </item>
-    <item>
-      <title>Robotics Explorations: Jurassic Journeys &amp; Future Discoveries | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Robotics_Explorations_Jurassic_Journeys_Future_Discoveries/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Robotics_Explorations_Jurassic_Journeys_Future_Discoveries/</guid>
-      <description>Embark on an exciting year-long journey where young learners explore basic robotics concepts through themed challenges, including Jurassic adventures with Sphero indi in the fall and collaborative Lego projects in the spring, fostering critical thinking, teamwork, and creativity.</description>
-    </item>
-    <item>
-      <title>Rookie Aerial Drone Team | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Rookie_Aerial_Drone_Team/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Rookie_Aerial_Drone_Team/</guid>
-      <description>Calling All Future Drone Pilots and Engineers! We&amp;rsquo;re forming a team for the REC Foundation Aerial Drone Competition.</description>
-    </item>
-    <item>
-      <title>Rookie Aerial Drone Team | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Rookie_Aerial_Drone_Team2/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Rookie_Aerial_Drone_Team2/</guid>
-      <description>Calling All Future Drone Pilots and Engineers! We&amp;rsquo;re forming a team for the REC Foundation Aerial Drone Competition.</description>
     </item>
     <item>
       <title>Scratch Camp | Blue Ridge Boost</title>
@@ -492,20 +240,6 @@
       <description>This class is designed for students seeking reinforcement of classroom concepts through additional practice with grade-appropriate problems. &lt;br&gt; During a typical session, students will receive assistance with homework assignments and review concepts learned in school. As time allows, instructors will provide similar problems to further solidify understanding and boost confidence.</description>
     </item>
     <item>
-      <title>TechQuest: Fall Bots &amp; Spring Bricks | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/TechQuest/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/TechQuest/</guid>
-      <description>This inclusive STEM class is dedicated to empowering all students, warmly welcoming and encouraging participation from all genders.</description>
-    </item>
-    <item>
-      <title>Vex IQ Rapid Relay | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Advanced_Vex_IQ/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Advanced_Vex_IQ/</guid>
-      <description>Join us for this exciting class! No experience necessary, only a desire to learn and have fun!&#xA;Together, we will build a competition-level robot, hone driving skills, and coding with this year&amp;rsquo;s game.&#xA;The scoring objects in VEX IQ Robotics Competition Rapid Relay are padded Balls, approximately 6&amp;quot; in diameter.&#xA;The primary objectives of the game are to Pass the Balls between Robots, score Balls through Targets, and Clear Switches. Balls are introduced to the field through the Loading Station or, during the last 15 seconds of a Match, a Rapid Load Zone.</description>
-    </item>
-    <item>
       <title>Vex Robotics and C&#43;&#43; | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/camps/vex-c&#43;&#43;/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
@@ -527,11 +261,60 @@
       <description>In the Space Race Camp, campers meet “VEX,” the 123 Robot through a fun and interactive story and establish a set of rules and practices for working with the robot. Then, campers imagine their robot as a Mars rover and complete several missions including coding their robot to collect samples and return them to base camp for delivering to Earth. Then, campers will use the Eye Sensor to detect objects and clear the landing area for future missions. In the afternoons, the campers use the Art Ring and craft materials to transform the Vex123 robot into a variety of animals.</description>
     </item>
     <item>
-      <title>Video Game Design in JavaScript | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Video_Game_Design_in_JavaScript/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Video_Game_Design_in_JavaScript/</guid>
-      <description>The video game design curriculum teaches the foundations of creating video games in JavaScript. While this course is introductory, it requires a good mathematical background and analytical thinking. Its curriculum teaches the foundations of computer science and basic programming, with an emphasis on helping students develop logical thinking and problem-solving skills. Once students complete the course, they will have learned material equivalent to a semester college introductory course in Computer Science and be able to program in JavaScript.</description>
+      <title>Advanced 3D Printing | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Advanced-3D-Printing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Advanced-3D-Printing/</guid>
+      <description>Do you already know how to modify and print small models? Are you ready to create your own 3D designs?&#xA;This is the class for you! </description>
+    </item>
+    <item>
+      <title>Advanced Problem Solving | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Advanced-Problem-Solving/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Advanced-Problem-Solving/</guid>
+      <description>MOEMS is a challenging and engaging math competition for middle schoolers, featuring five monthly contests from November to March that focus on problem-solving and mathematical creativity. Similarly, the AMC 8 is a 40-minute math competition designed for students in grade 8 and below, covering a range of middle school math topics, including some concepts from introductory algebra. At Blue Ridge Boost, students participate in weekly problem-solving sessions to prepare for these competitions, and they have the option to take the tests if they choose to do so.</description>
+    </item>
+    <item>
+      <title>Aerial Drones | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Aerial-Drones-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Aerial-Drones-2/</guid>
+      <description>What is the Aerial Drone Competition? A cutting-edge program that prepares students for careers in drone technology Four exciting missions: Teamwork, Autonomous Flight, Piloting Skills, and Communications Compete in local, and regional events No prior experience needed! We&#39;re looking for students who are: Curious about drones and aviation Interested in coding and programming Excited to learn piloting skills Great at teamwork and communication Ready to take on new challenges Students are not required to participate in a Competition.</description>
+    </item>
+    <item>
+      <title>Aerial Drones | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Aerial-Drones/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Aerial-Drones/</guid>
+      <description>What is the Aerial Drone Competition? A cutting-edge program that prepares students for careers in drone technology Four exciting missions: Teamwork, Autonomous Flight, Piloting Skills, and Communications Compete in local, and regional events No prior experience needed! We&#39;re looking for students who are: Curious about drones and aviation Interested in coding and programming Excited to learn piloting skills Great at teamwork and communication Ready to take on new challenges Students are not required to participate in a Competition.</description>
+    </item>
+    <item>
+      <title>Banana Code Quest | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Banana-Code-Quest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Banana-Code-Quest/</guid>
+      <description>Banana Code Quest is a gamified coding course designed to teach young students real-world coding from the first challenge. Through engaging puzzles and adventures, students help a monkey catch bananas and outsmart various animals while learning fundamental and advanced coding concepts in a fun and interactive way.&#xA;Key Features Real Coding Language: Students will code using CoffeeScript, a language similar to JavaScript but with a friendlier syntax, making it perfect for kids.</description>
+    </item>
+    <item>
+      <title>Banana Tales | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Banana-Tales/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Banana-Tales/</guid>
+      <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, functions, and introduces more complex topics like classes, string manipulation, and sorting algorithms. With step-by-step instructions, interactive quizzes, and a supportive learning environment, this course provides a fun and effective way for 5th and 6th graders to develop their programming skills.</description>
+    </item>
+    <item>
+      <title>Block Coding with Minecraft Part 1 | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Block-Coding-with-Minecraft-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Block-Coding-with-Minecraft-1/</guid>
+      <description>This six-class sequence introduces the students to fundamental computer science concepts, including events and coordinates. Students will use a coding environment embedded in Minecraft Education to code their own commands, which they will then use in the game.&#xA;Leveraging the engaging world of Minecraft Education, students will:&#xA;Explore a custom coding environment integrated within the game Learn to write and execute their own commands Apply coding principles to manipulate the Minecraft world in real-time Develop problem-solving skills through interactive challenges Gain hands-on experience with spatial reasoning and algorithmic thinking By the end of the course, students will have a solid foundation in basic programming concepts, enhanced creativity, and improved logical reasoning skills—all while enjoying the familiar and exciting Minecraft platform.</description>
+    </item>
+    <item>
+      <title>Calculus AB Workshop (Differentiation) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Calc-AB-Workshop-Differentiation-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Calc-AB-Workshop-Differentiation-1/</guid>
+      <description> Struggling with differentiation? Bring your challenging questions and unsolved problems to our expert instructors. We&#39;ll guide you through the concepts, helping you build mastery and confidence in calculus. Whether you&#39;re grappling with basic rules or tackling complex applications, our personalized approach will clarify your understanding and boost your problem-solving skills. Don&#39;t let differentiation difficulties hold you back—let&#39;s conquer calculus together! </description>
     </item>
     <item>
       <title>Contact Us</title>
@@ -541,6 +324,13 @@
       <description></description>
     </item>
     <item>
+      <title>First Lego League/VEX IQ | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/First-Lego-League-VEX-IQ/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/First-Lego-League-VEX-IQ/</guid>
+      <description>First Lego League (FLL) is a Lego robotics competition for students grades 4 to 8. Teams engage in research, problem-solving, coding and engineering – building and programming a LEGO robot that navigates the missions of a robot game. As part of Challenge, teams also participate in a research project to identify and solve a relevant real-world problem. Team members must be willing to work on all aspects of the competition and demonstrate the FIRST core values.</description>
+    </item>
+    <item>
       <title>Frequently Asked Questions</title>
       <link>https://blueridgeboost.com/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -548,11 +338,151 @@
       <description></description>
     </item>
     <item>
+      <title>Girl Powered First Tech Challenge | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Girl-Powered-First-Tech-Challenge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Girl-Powered-First-Tech-Challenge/</guid>
+      <description>We&#39;re forming a new FIRST Tech Challenge team and we want GIRLS!&#xA;This is an inclusive STEM class with a focus on empowering girls. While all genders are welcome and encouraged to participate, we strive to maintain a majority female enrollment to address historical underrepresentation in STEM fields. Our goal is to create a supportive environment that inspires girls to explore and excel in science, technology, engineering, and mathematics.&#xA;What is FIRST Tech Challenge?</description>
+    </item>
+    <item>
       <title>Girl Powered Fridays</title>
       <link>https://blueridgeboost.com/girl-powered-fridays/e03_ages12to14/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/girl-powered-fridays/e03_ages12to14/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Girl-Powered Drone Squad | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Girl-Powered-Drone-Squad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Girl-Powered-Drone-Squad/</guid>
+      <description>Calling All Future Female Drone Pilots and Engineers!&#xA;Join our Girl-Powered Aerial Drone Competition Team! Are you ready to soar into the future of technology? We&#39;re forming an all-girl team for the REC Foundation Aerial Drone Competition, and we want YOU to be part of this exciting adventure! What is the Aerial Drone Competition?&#xA;• A cutting-edge program that prepares students for careers in drone technology&#xA;• Four exciting missions: Teamwork, Autonomous Flight, Piloting Skills, and Communications</description>
+    </item>
+    <item>
+      <title>Intro to 3D Printing | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Intro-3D-Printing-Grades-5-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Intro-3D-Printing-Grades-5-6/</guid>
+      <description>Class 1: Introduction to 3D Printing What is 3D printing and what is it used for? 3D printing is a process of creating three-dimensional objects from a digital file. It is used in various fields such as manufacturing, medicine, and education.&#xA;&amp;lt;h3&amp;gt;How to use a 3D printer?&amp;lt;/h3&amp;gt; &amp;lt;p&amp;gt;Using a 3D printer involves preparing the design file, setting up the printer, and monitoring the print process.&amp;lt;/p&amp;gt; &amp;lt;h3&amp;gt;Where to find STL files&amp;lt;/h3&amp;gt; &amp;lt;p&amp;gt;STL files can be found on websites like Thingiverse, MyMiniFactory, and Cults3D.</description>
+    </item>
+    <item>
+      <title>Intro to AMC10 | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Intro-to-AMC10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Intro-to-AMC10/</guid>
+      <description>The AMC 10 (American Mathematics Competitions 10) is a prestigious mathematics contest in the United States designed for students aged 10 through 16, or those enrolled in grades 10 and below. This challenging competition aims to cultivate problem-solving skills, foster mathematical creativity, and promote a deeper understanding of advanced mathematical concepts. With its rigorous content spanning algebra, geometry, number theory, and combinatorics, the AMC 10 serves as a gateway to higher-level math competitions.</description>
+    </item>
+    <item>
+      <title>Intro to C# for Unity | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Intro-C-Sharp-Unity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Intro-C-Sharp-Unity/</guid>
+      <description>This class is perfect for students who are interested in developing programming skills for game development. This course introduces video game development using C# and the Unity game engine on Windows. C# is highlighted for its suitability for beginners and professional development, while Unity is popular among indie developers, with widespread adoption.&#xA;The course assumes no prior programming experience, starting from basics and progressing to small game development. It covers core programming concepts applicable to many languages, with a focus on game development.</description>
+    </item>
+    <item>
+      <title>Intro to Roblox Studio | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Intro-to-Roblox-Studio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Intro-to-Roblox-Studio/</guid>
+      <description>This class is perfect for students who are new to creating games in Roblox.&#xA;We will teach you how to create your first Roblox experience using Roblox Studio. You will use a Baseplate template and a high-quality catapult asset pack to build and organize a data model, customize 3D objects, and organize scripts for proper simulation. We will guide you through testing, publishing, and managing your experience for a global audience, using project templates and asset packs from the Creator Store to simplify the process.</description>
+    </item>
+    <item>
+      <title>Junior Robotics Adventures | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Junior-Robotics-Adventures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Junior-Robotics-Adventures/</guid>
+      <description>Embark on an exciting year-long robotics adventure for young learners! This class combines two engaging programs to introduce basic robotics concepts through fun, themed challenges. Fall Semester: Jurassic Journey with Sphero indi Explore the prehistoric world using Sphero indi robots Learn basic coding concepts through hands-on activities Navigate dinosaur-themed mazes and challenges Develop problem-solving skills in a playful environment Spring Semester: First Lego League Explore Dive into the world of Lego robotics Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering Throughout the year, students will: Gain hands-on experience with different robotic platforms Develop critical thinking and teamwork skills Boost creativity through themed challenges and projects Build a strong foundation for future STEM learning This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
+    </item>
+    <item>
+      <title>Junior Robotics Adventures on Saturday | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Junior-Robotics-Adventures-on-Saturday/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Junior-Robotics-Adventures-on-Saturday/</guid>
+      <description>Embark on an exciting year-long robotics adventure for young learners! This class combines two engaging programs to introduce basic robotics concepts through fun, themed challenges.&#xA;Fall Semester: Jurassic Journey with Sphero indi Explore the prehistoric world using Sphero indi robots Learn basic coding concepts through hands-on activities Navigate dinosaur-themed mazes and challenges Develop problem-solving skills in a playful environment Spring Semester: First Lego League Explore Dive into the world of Lego robotics Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering Throughout the year, students will: Gain hands-on experience with different robotic platforms Develop critical thinking and teamwork skills Boost creativity through themed challenges and projects Build a strong foundation for future STEM learning This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
+    </item>
+    <item>
+      <title>Kids&#39; Coding Course | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Kids-Coding-Course/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Kids-Coding-Course/</guid>
+      <description>Students learn sequencing, repetition, problem-solving, and conditional logic while developing practical coding skills. The course employs a hands-on, gamified approach that gradually increases in complexity, allowing each child to advance at their own speed. By the end, students can create sophisticated programs, having built a strong foundation in coding and computational thinking.&#xA;We start to learn fundamental coding concepts by helping a beaver build a dam! The learning continues with learning to code games in Scratch.</description>
+    </item>
+    <item>
+      <title>Lego Robots Jr | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Fundamentals-of-Coding-with-SPIKE-Essential-Part-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Fundamentals-of-Coding-with-SPIKE-Essential-Part-1/</guid>
+      <description>This six-class sequence introduces the students to the world of robotics and coding. Students will construct Lego models that use motors and lights and create code to bring their creations to life. This class is suitable for students with no previous experience using Lego robots. Introducing the Next Generation of Coders! The Fundamentals of Coding with SPIKE Essential is the fun and engaging way to teach your elementary students essential STEM skills.</description>
+    </item>
+    <item>
+      <title>Math Boost | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Math-Boost-1-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Math-Boost-1-2/</guid>
+      <description>This class is tailored for students who are in the top half of the class, but need clarifications of some grade-level concepts. It offers reinforcement of key concepts through extra practice with typical grade-level problems, ensuring that students can grasp and master the material at their own pace. Additionally, students will have the opportunity to work on materials recommended by their classroom teacher and tackle problems suggested by Blue Ridge Boost instructors, providing a tailored and comprehensive approach to meet their individual learning needs.</description>
+    </item>
+    <item>
+      <title>Math Boost | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Math-Boost-3-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Math-Boost-3-4/</guid>
+      <description>This class is tailored for students who are in the top half of the class, but need clarifications of some grade-level concepts. It offers reinforcement of key concepts through extra practice with typical grade-level problems, ensuring that students can grasp and master the material at their own pace. Additionally, students will have the opportunity to work on materials recommended by their classroom teacher and tackle problems suggested by Blue Ridge Boost instructors, providing a tailored and comprehensive approach to meet their individual learning needs.</description>
+    </item>
+    <item>
+      <title>Math Boost | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Math-Boost-5-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Math-Boost-5-6/</guid>
+      <description>This class is tailored for students who are in the top half of the class, but need clarifications of some grade-level concepts. It offers reinforcement of key concepts through extra practice with typical grade-level problems, ensuring that students can grasp and master the material at their own pace. Additionally, students will have the opportunity to work on materials recommended by their classroom teacher and tackle problems suggested by Blue Ridge Boost instructors, providing a tailored and comprehensive approach to meet their individual learning needs.</description>
+    </item>
+    <item>
+      <title>Math Excellence | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Math-Excellence-1-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Math-Excellence-1-2/</guid>
+      <description>In our advanced math class, we harness the engaging and comprehensive materials from Beast Academy to cultivate a deep understanding and passion for mathematics. Each student embarks on a personalized mathematical journey under the guidance of an expert Blue Ridge Boost instructor.&#xA;Class Structure Introduction: Each session begins with a concise lesson introducing new concepts and exercise types. Guided Practice: Students then apply these concepts through hands-on problem-solving, with instructor support readily available.</description>
+    </item>
+    <item>
+      <title>Math Excellence | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Math-Excellence-3-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Math-Excellence-3-4/</guid>
+      <description>In our advanced math class, we harness the engaging and comprehensive materials from Beast Academy to cultivate a deep understanding and passion for mathematics. Each student embarks on a personalized mathematical journey under the guidance of an expert Blue Ridge Boost instructor.&#xA;Class Structure Introduction: Each session begins with a concise lesson introducing new concepts and exercise types. Guided Practice: Students then apply these concepts through hands-on problem-solving, with instructor support readily available.</description>
+    </item>
+    <item>
+      <title>Math Hoppers | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Math-Hoppers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Math-Hoppers/</guid>
+      <description>The Kangaroo Mathematics Competition, set for Thursday, March 20, 2025, is an international event testing students&amp;rsquo; math skills. Preparation involves practicing past papers, reviewing key concepts, and improving time management. The multiple-choice test covers various math topics. The class will continue for the duration of the school year to prepare students for the next year&amp;rsquo;s competition.&#xA;What is Kangaroo Math? Kangaroo Math is a fun and exciting math competition where students from different countries solve interesting and challenging math problems.</description>
+    </item>
+    <item>
+      <title>Math Leapers | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Math-Leapers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Math-Leapers/</guid>
+      <description>The Math Kangaroo competition is an international mathematical competition where students from grades 1 through 12 participate. The curriculum for grades 3 and 4 focuses on enhancing mathematical skills through engaging and challenging problems, building on the foundational knowledge acquired in earlier grades. The Kangaroo Mathematics Competition, set for Thursday, March 20, 2025. The class will continue for the duration of the school year to prepare students for the next year&amp;rsquo;s competition.</description>
+    </item>
+    <item>
+      <title>Math Mastery | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Math-Mastery-1-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Math-Mastery-1-2/</guid>
+      <description>This advanced mathematics class is designed for curious students ranking in the top of their class who are eager to explore math beyond the typical school curriculum. Utilizing the renowned Dimensions Singapore Math curriculum, our year-long program emphasizes deep conceptual understanding, critical thinking, problem-solving strategies, and practical application of mathematical principles. Key Features: Advanced Mental Math Strategies: Students will be introduced to various mental math techniques to improve their calculation skills.</description>
+    </item>
+    <item>
+      <title>Math Mastery | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Math-Mastery-3-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Math-Mastery-3-4/</guid>
+      <description>This advanced mathematics class is designed for curious students ranking in the top of their class who are eager to explore math beyond the typical school curriculum. Utilizing the renowned Dimensions Singapore Math curriculum, our year-long program emphasizes deep conceptual understanding, critical thinking, problem-solving strategies, and practical application of mathematical principles. Key Features: Advanced Mental Math Strategies: Students will be introduced to various mental math techniques to improve their calculation skills.</description>
+    </item>
+    <item>
+      <title>Math Mastery | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Prealgebra-Mastery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Prealgebra-Mastery/</guid>
+      <description>This advanced mathematics class is designed for curious students ranking in the top of their class who are eager to explore math beyond the typical school curriculum. Utilizing the renowned Dimensions Singapore Math curriculum, our year-long program emphasizes deep conceptual understanding, critical thinking, problem-solving strategies, and practical application of mathematical principles. Key Features: Advanced Mental Math Strategies: Students will be introduced to various mental math techniques to improve their calculation skills.</description>
     </item>
     <item>
       <title>Payment Error | Blue Ridge Boost</title>
@@ -569,11 +499,32 @@
       <description>Accepted Payment Methods Blue Ridge Boost LLC accepts the following payment methods:&#xA;Credit Cards (Visa, Mastercard, American Express, Discover) Debit Cards Electronic Funds Transfer (EFT) Checks (personal or cashier&amp;rsquo;s) Payment Due Date All payments for classes are due upon registration. Your child&amp;rsquo;s spot in the class will not be reserved until payment is received in full. Subscriptions will be charged on the first day of classes or current date, if the classes are in progress.</description>
     </item>
     <item>
+      <title>Prealgebra Excellence | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Prealgebra-Excellence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Prealgebra-Excellence/</guid>
+      <description>Prealgebra prepares students for the rigors of algebra and teaches problem-solving techniques for prestigious middle school math contests such as MATHCOUNTS, MOEMS, and the AMC 8. The course challenges students at a much deeper level than a traditional middle school prealgebra course. Instead of traditional lecturing, most of the class time is dedicated to tackling challenging problems. Students will be encouraged to write complete and clear solutions to exercises, an important skill in communicating mathematics effectively.</description>
+    </item>
+    <item>
       <title>Privacy Policy | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/privacy-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/privacy-policy/</guid>
       <description>Blue Ridge Boost LLC (&amp;ldquo;Blue Ridge Boost,&amp;rdquo; &amp;ldquo;we,&amp;rdquo; &amp;ldquo;us,&amp;rdquo; or &amp;ldquo;our&amp;rdquo;) is committed to protecting the privacy of the children enrolled in our classes and their parents/guardians. This Privacy Policy explains how we collect, use, and disclose personal information through the use of Ring video cameras in our classrooms. By enrolling your child in our classes, you consent to the practices described in this policy.&#xA;Information Collection To ensure the safety and security of the children in our care, we use Ring video cameras to monitor and record activity in our classrooms during class sessions.</description>
+    </item>
+    <item>
+      <title>Problem Solving | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Problem-Solving/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Problem-Solving/</guid>
+      <description>MOEMS is a challenging and engaging math competition for elementary and middle schoolers, featuring five monthly contests from November to March that focus on problem-solving and mathematical creativity. Similarly, the AMC 8 is a 40-minute math competition designed for students in grade 8 and below, covering a range of middle school math topics, including some concepts from introductory algebra. At Blue Ridge Boost, students participate in weekly problem-solving sessions to prepare for these competitions, and they have the option to take the tests if they choose to do so.</description>
+    </item>
+    <item>
+      <title>Python Fundamentals | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Python-Fundamentals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Python-Fundamentals/</guid>
+      <description>This course is a comprehensive, year-long program designed for middle school students with no prior coding experience. It introduces fundamental programming concepts using Python through interactive exercises and projects centered around controlling a virtual character named Tracy. The course covers commands, functions, loops, variables, conditionals, and lists, progressing to more complex tasks like user interaction and creating visual projects.&#xA;Topics include:&#xA;Commands Understanding basic commands is crucial as it forms the foundation of programming, allowing Tracy to perform specific actions.</description>
     </item>
     <item>
       <title>Refund Policy | Blue Ridge Boost</title>
@@ -583,11 +534,46 @@
       <description>General Policy: No Refunds We maintain a strict no-refund policy for all sales. This policy applies to, but is not limited to, the following situations:&#xA;Customer-initiated enrollment cancellations Missed events due to student absence Program or instructor dissatisfaction Dismissal resulting from conduct violations While we do not offer refunds, we value your feedback. We are committed to continuously improving our programs to meet your expectations. If you have concerns or suggestions, please don&amp;rsquo;t hesitate to share them with us.</description>
     </item>
     <item>
+      <title>Robotics Discovery | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Robotics-Discovery-1-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Robotics-Discovery-1-2/</guid>
+      <description>This class provides a fun and gentle introduction to robotics for students in 1st and 2nd. Our curriculum is carefully designed to build skills and knowledge progressively throughout the academic year:&#xA;Fall: Vex 123 module Learn basic robotics concepts Explore simple programming through play Winter: Lego Spike Essential module Discover more advanced building techniques Develop foundational coding skills Spring: Sphero Robotics Apply learned skills to program spherical robots Engage in creative problem-solving challenges </description>
+    </item>
+    <item>
+      <title>Robotics Discovery | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Robotics-Discovery-4-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Robotics-Discovery-4-5/</guid>
+      <description>This class offers a gentle, engaging introduction to robotics for students in grades 4 and 5. The curriculum is designed to build skills and knowledge throughout the academic year progressively:&#xA;Fall: VEX GO module - Learn basic robotics concepts and simple programmingWinter: Lego Spike Prime - Explore more advanced building and coding techniquesSpring: Sphero Bolt Robotics - Apply learned skills to program spherical robotsOur hands-on approach ensures students gain practical experience with different robotic platforms while developing problem-solving, critical thinking, and teamwork skills.</description>
+    </item>
+    <item>
+      <title>TechQuest: Fall Bots &amp; Spring Bricks | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/TechQuest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/TechQuest/</guid>
+      <description>Fall: The VEX GO Competition The VEX GO Competition (VGOC) is an introductory robotics program designed for elementary school students, typically ages 5-11. It uses the VEX GO building system, which features large, colorful, and easy-to-handle components. Teams of students work together to design, build, and program simple robots to complete challenges on a small playing field. The competition emphasizes hands-on learning, problem-solving, and teamwork while introducing young learners to basic engineering and coding concepts in a fun, engaging environment.</description>
+    </item>
+    <item>
       <title>Terms and Conditions | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/terms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/terms/</guid>
       <description>Enrollment By enrolling your child in classes provided by Blue Ridge Boost LLC (&amp;ldquo;the Company&amp;rdquo;), you agree to these terms and conditions. The Company reserves the right to refuse service to anyone for any reason at any time. Age Requirements Children must be at least six years old to participate in drop-off classes. Day-Care License Program Exemption Blue Ridge Boost LLC offers a program of instructional experience in a single focus area, including robotics, computer coding, math, and chess.</description>
+    </item>
+    <item>
+      <title>Vex IQ Rapid Relay | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Vex-IQ-Rapid-Relay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Vex-IQ-Rapid-Relay/</guid>
+      <description>Join us for this exciting class! No experience necessary, only a desire to learn and have fun!&#xA;Together, we will build a competition-level robot, hone driving skills, and coding with this year&amp;rsquo;s game.&#xA;The scoring objects in VEX IQ Robotics Competition Rapid Relay are padded Balls, approximately 6&amp;quot; in diameter.&#xA;The primary objectives of the game are to Pass the Balls between Robots, score Balls through Targets, and Clear Switches. Balls are introduced to the field through the Loading Station or, during the last 15 seconds of a Match, a Rapid Load Zone.</description>
+    </item>
+    <item>
+      <title>Video Game Design | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Video-Game-Design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Video-Game-Design/</guid>
+      <description>The video game design curriculum teaches the foundations of creating video games in JavaScript. While this course is introductory, it requires a good mathematical background and analytical thinking. Its curriculum teaches the foundations of computer science and basic programming, with an emphasis on helping students develop logical thinking and problem-solving skills. Once students complete the course, they will have learned material equivalent to a semester college introductory course in Computer Science and be able to program in JavaScript.</description>
     </item>
     <item>
       <title>Vision and History | Blue Ridge Boost</title>

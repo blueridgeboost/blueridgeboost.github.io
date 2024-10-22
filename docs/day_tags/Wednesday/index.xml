@@ -4,7 +4,7 @@
     <title>Wednesday on Computer Science - Robotics - Math - Computer Coding - Chess in Charlottesville </title>
     <link>https://blueridgeboost.com/day_tags/Wednesday/</link>
     <description>Recent content in Wednesday on Computer Science - Robotics - Math - Computer Coding - Chess in Charlottesville </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 12 Jul 2021 00:00:00 -0400</lastBuildDate>
     <atom:link href="https://blueridgeboost.com/day_tags/Wednesday/index.xml" rel="self" type="application/rss+xml" />
@@ -16,46 +16,11 @@
       <description>&lt;p&gt;This class is designed for students performing in the top half of their grade level who occasionally need assistance with challenging homework problems.&lt;/p&gt; &lt;b&gt;Focus:&lt;/b&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Enhancing algebraic skills:&lt;/strong&gt; The class will delve deeper into algebraic concepts, providing students with the tools and techniques to tackle more complex problems.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Deepening understanding:&lt;/strong&gt; Beyond simply solving problems, the class will emphasize understanding the &#39;why&#39; behind the solutions, fostering a deeper comprehension of algebraic principles.&lt;/li&gt; &lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Banana Tales: Python Adventures for Grades 5-6 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Banana_Tales_Python_Adventures_for_Grades_5-6/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Banana_Tales_Python_Adventures_for_Grades_5-6/</guid>
-      <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, functions, and introduces more complex topics like classes, string manipulation, and sorting algorithms. With step-by-step instructions, interactive quizzes, and a supportive learning environment, this course provides a fun and effective way for 5th and 6th graders to develop their programming skills.</description>
-    </item>
-    <item>
       <title>Calculus AB Practice | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/tutoring/Calculus_AB_Practice/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
       <guid>https://blueridgeboost.com/tutoring/Calculus_AB_Practice/</guid>
       <description>This class is designed for students seeking reinforcement of classroom concepts through additional practice with grade-appropriate problems. &lt;br&gt; During a typical session, students will receive assistance with homework assignments and review concepts learned in school. As time allows, instructors will provide similar problems to further solidify understanding and boost confidence.</description>
-    </item>
-    <item>
-      <title>Math Mastery for First and Second Graders | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Math-Mastery-for_First_and_Second_Graders/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Math-Mastery-for_First_and_Second_Graders/</guid>
-      <description>This advanced mathematics class is designed for curious students ranking in the top 50% of their class who are eager to explore math beyond the typical school curriculum. Utilizing the renowned Dimensions Singapore Math curriculum, our year-long program emphasizes deep conceptual understanding, critical thinking, problem-solving strategies, and practical application of mathematical principles.</description>
-    </item>
-    <item>
-      <title>Math Mastery for Third and Fourth Graders | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Math-Mastery-for_Third_and_Fourth_Graders/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Math-Mastery-for_Third_and_Fourth_Graders/</guid>
-      <description>This advanced mathematics class is designed for curious students ranking in the top 50% of their class who are eager to explore math beyond the typical school curriculum. Utilizing the renowned Dimensions Singapore Math curriculum, our year-long program emphasizes deep conceptual understanding, critical thinking, problem-solving strategies, and practical application of mathematical principles.</description>
-    </item>
-    <item>
-      <title>Middle School Competition Robotics Team | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/First_Lego_League_ChallengeVEX_IQ_Robotics_Competition/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/First_Lego_League_ChallengeVEX_IQ_Robotics_Competition/</guid>
-      <description>&lt;p&gt;First Lego League (FLL) is a Lego robotics competition for students grades 4 to 8. Teams engage in research, problem-solving, coding and engineering – building and programming a LEGO robot that navigates the missions of a robot game. As part of Challenge, teams also participate in a research project to identify and solve a relevant real-world problem. &lt;/p&gt; Team members must be willing to work on all aspects of the competition and demonstrate the &lt;b&gt;FIRST core values&lt;/b&gt;.&lt;br&gt; The Blue Ridge Boost teams &lt;i&gt;Lego Landsharks&lt;/i&gt; and &lt;i&gt;Sciency Sea Turtles&lt;/i&gt; will compete on November 16 in Charlottesville.</description>
-    </item>
-    <item>
-      <title>Prealgebra Mastery| Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Prealgebra_Mastery/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
-      <guid>https://blueridgeboost.com/classes/Prealgebra_Mastery/</guid>
-      <description>This advanced mathematics class is designed for curious students ranking in the top 50% of their class who are eager to explore math beyond the typical school curriculum. Utilizing the renowned Dimensions Singapore Math curriculum, our year-long program emphasizes deep conceptual understanding, critical thinking, problem-solving strategies, and practical application of mathematical principles.</description>
     </item>
     <item>
       <title>Statistics Practice | Blue Ridge Boost</title>
@@ -65,11 +30,46 @@
       <description>This class is designed for students seeking reinforcement of classroom concepts through additional practice with grade-appropriate problems. &lt;br&gt; During a typical session, students will receive assistance with homework assignments and review concepts learned in school. As time allows, instructors will provide similar problems to further solidify understanding and boost confidence.</description>
     </item>
     <item>
+      <title>Banana Tales | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Banana-Tales/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Banana-Tales/</guid>
+      <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, functions, and introduces more complex topics like classes, string manipulation, and sorting algorithms. With step-by-step instructions, interactive quizzes, and a supportive learning environment, this course provides a fun and effective way for 5th and 6th graders to develop their programming skills.</description>
+    </item>
+    <item>
+      <title>First Lego League/VEX IQ | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/First-Lego-League-VEX-IQ/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/First-Lego-League-VEX-IQ/</guid>
+      <description>First Lego League (FLL) is a Lego robotics competition for students grades 4 to 8. Teams engage in research, problem-solving, coding and engineering – building and programming a LEGO robot that navigates the missions of a robot game. As part of Challenge, teams also participate in a research project to identify and solve a relevant real-world problem. Team members must be willing to work on all aspects of the competition and demonstrate the FIRST core values.</description>
+    </item>
+    <item>
+      <title>Math Mastery | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Math-Mastery-1-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Math-Mastery-1-2/</guid>
+      <description>This advanced mathematics class is designed for curious students ranking in the top of their class who are eager to explore math beyond the typical school curriculum. Utilizing the renowned Dimensions Singapore Math curriculum, our year-long program emphasizes deep conceptual understanding, critical thinking, problem-solving strategies, and practical application of mathematical principles. Key Features: Advanced Mental Math Strategies: Students will be introduced to various mental math techniques to improve their calculation skills.</description>
+    </item>
+    <item>
+      <title>Math Mastery | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Math-Mastery-3-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Math-Mastery-3-4/</guid>
+      <description>This advanced mathematics class is designed for curious students ranking in the top of their class who are eager to explore math beyond the typical school curriculum. Utilizing the renowned Dimensions Singapore Math curriculum, our year-long program emphasizes deep conceptual understanding, critical thinking, problem-solving strategies, and practical application of mathematical principles. Key Features: Advanced Mental Math Strategies: Students will be introduced to various mental math techniques to improve their calculation skills.</description>
+    </item>
+    <item>
+      <title>Math Mastery | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Prealgebra-Mastery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Prealgebra-Mastery/</guid>
+      <description>This advanced mathematics class is designed for curious students ranking in the top of their class who are eager to explore math beyond the typical school curriculum. Utilizing the renowned Dimensions Singapore Math curriculum, our year-long program emphasizes deep conceptual understanding, critical thinking, problem-solving strategies, and practical application of mathematical principles. Key Features: Advanced Mental Math Strategies: Students will be introduced to various mental math techniques to improve their calculation skills.</description>
+    </item>
+    <item>
       <title>TechQuest: Fall Bots &amp; Spring Bricks | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/TechQuest/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 -0400</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/TechQuest/</guid>
-      <description>This inclusive STEM class is dedicated to empowering all students, warmly welcoming and encouraging participation from all genders.</description>
+      <description>Fall: The VEX GO Competition The VEX GO Competition (VGOC) is an introductory robotics program designed for elementary school students, typically ages 5-11. It uses the VEX GO building system, which features large, colorful, and easy-to-handle components. Teams of students work together to design, build, and program simple robots to complete challenges on a small playing field. The competition emphasizes hands-on learning, problem-solving, and teamwork while introducing young learners to basic engineering and coding concepts in a fun, engaging environment.</description>
     </item>
   </channel>
 </rss>
