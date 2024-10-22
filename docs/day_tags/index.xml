@@ -43,5 +43,19 @@
       <guid>https://blueridgeboost.com/day_tags/Wednesday/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Math</title>
+      <link>https://blueridgeboost.com/day_tags/Math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/day_tags/Math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thursday</title>
+      <link>https://blueridgeboost.com/day_tags/Thursday/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/day_tags/Thursday/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

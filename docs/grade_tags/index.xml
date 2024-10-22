@@ -50,5 +50,47 @@
       <guid>https://blueridgeboost.com/grade_tags/9th/</guid>
       <description></description>
     </item>
+    <item>
+      <title>1st</title>
+      <link>https://blueridgeboost.com/grade_tags/1st/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/grade_tags/1st/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2nd</title>
+      <link>https://blueridgeboost.com/grade_tags/2nd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/grade_tags/2nd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>3rd</title>
+      <link>https://blueridgeboost.com/grade_tags/3rd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/grade_tags/3rd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>4th</title>
+      <link>https://blueridgeboost.com/grade_tags/4th/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/grade_tags/4th/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>5th</title>
+      <link>https://blueridgeboost.com/grade_tags/5th/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/grade_tags/5th/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>6th</title>
+      <link>https://blueridgeboost.com/grade_tags/6th/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/grade_tags/6th/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
