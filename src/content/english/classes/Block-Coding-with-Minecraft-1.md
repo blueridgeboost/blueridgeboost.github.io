@@ -16,15 +16,10 @@ grade_tags: ["3rd", "4th"]
 subject_tags: ["Computer Coding"]
 difficulty: Code Cadets
 ---
-<p>This six-class sequence introduces the students to fundamental computer science concepts, including events and coordinates. Students will use a coding environment embedded in Minecraft Education to code their own commands, which they will then use in the game.</p>
-<p>Leveraging the engaging world of Minecraft Education, students will:</p>
-    <ul>
+<p>This five-class sequence introduces the students to fundamental computer science concepts, including events and coordinates. Students will use a coding environment embedded in Minecraft Education to code their own commands, which they will then use in the game.</p><p>Leveraging the engaging world of Minecraft Education, students will:</p><ul>
         <li>Explore a custom coding environment integrated within the game</li>
         <li>Learn to write and execute their own commands</li>
         <li>Apply coding principles to manipulate the Minecraft world in real-time</li>
         <li>Develop problem-solving skills through interactive challenges</li>
         <li>Gain hands-on experience with spatial reasoning and algorithmic thinking</li>
-    </ul>
-    <p>By the end of the course, students will have a solid foundation in basic programming concepts, enhanced creativity, and improved logical reasoning skills—all while enjoying the familiar and exciting Minecraft platform.</p>
-
-
+    </ul><p>By the end of the course, students will have a solid foundation in basic programming concepts, enhanced creativity, and improved logical reasoning skills—all while enjoying the familiar and exciting Minecraft platform.</p>
