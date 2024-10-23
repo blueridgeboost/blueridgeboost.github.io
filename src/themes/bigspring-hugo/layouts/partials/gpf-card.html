@@ -1,0 +1,29 @@
+{{ $id := .Params.ecwid }}
+{{ $spaces := .Params.inventory }}
+
+<div class="col d-flex">
+    <div class="card flex-fill">
+        <div class="card-body">
+            {{ $startDate := .Params.start_date | time }}
+            <b>{{ time.Format "January 2, 2006" $startDate }}</b><br>
+            {{ .Params.page_subtitle }} <br>
+            {{ .Params.start_time }} to
+            {{ .Params.end_time }}<br>
+            Topic: {{ .Params.subject_tags }}<br>
+            {{ if gt $spaces 0 }}
+                {{ if lt $spaces 5 }}
+                Only {{ $spaces }} spaces left!<br>
+                {{ else }}
+                Spaces available!<br>
+                {{ end }}
+                <div class="spacybutton">
+                    <a href="javascript: ecwid_add_product_to_cart(
+                              {{ $id }},
+                              get_camp_options( {{ $id }} ) );" class="btn-small btn-primary">Add to Cart | ${{ .Params.price }}</a>
+                </div>
+            {{ else }}
+                No spaces available!
+            {{ end }}
+        </div>
+    </div>
+</div>

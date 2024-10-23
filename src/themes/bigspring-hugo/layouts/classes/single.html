@@ -2,18 +2,6 @@
 
 {{ partial "page-header.html" . }}
 
-{{/*  {{ partial "classes-top.html" . }}  */}}
-
-{{ $params := .Site.Params.ecwid_ids }}
-{{ $inventory := .Site.Params.inventory }}
-{{ $categories := .Site.Params.ecwid_categories }}
-{{ $prices := .Site.Params.prices }}
-
-{{ $id := index $params .Params.product_id }}
-{{ $spaces := index $inventory .Params.product_id }}
-{{ $price := index $prices .Params.product_id }}
-{{ $ecwid_category := index $categories .Params.product_id }}
-
 <section class="section">
     <div class="container">
         <div class="row">
@@ -27,15 +15,15 @@
                     <div class="col-xl-5 col-lg-5 col-md-5 col-sm-6">
                         <div class="card"
                             style="padding: 0.5rem; background-color:aliceblue"
-                            id = "class-{{ $id }}"
+                            id = "class-{{ .Params.ecwid }}"
                             data-day='{{ delimit .Params.day_tags "#" }}' 
                             data-grade='{{ delimit .Params.grade_tags "#" }}' 
                             data-subject='{{ delimit .Params.subject_tags "#" }}'
                         >
-                            {{ if eq $ecwid_category "Subscription Classes" }}
+                            {{ if eq .Params.category "Subscription Classes" }}
                                 {{ partial "subscription-class-footer.html" . }}
                             {{ else }}
-                                {{ partial "session-class-footer.html" .}}
+                                {{ partial "session-class-footer.html" . }}
                             {{ end }}
                         </div>
                     </div>

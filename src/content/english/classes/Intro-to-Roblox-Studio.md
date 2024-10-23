@@ -1,20 +1,25 @@
 ---
+ecwid: 702693330
 product_id: Intro-to-Roblox-Studio
-price: Nov 2, 9, 16, 23,165
-category: Session Classes
+price:
+- name: "Nov 2, 9, 16, 23"
+  price: 165
+  inventory: 6
+category: "Session Classes"
 start_date: "2024-10-26"
 end_date: "2024-11-16"
 start_time: "3:30"
 end_time: "5:00"
 page_title: "Intro to Roblox Studio"
 page_subtitle: "Creating Your First Experience"
-ribbon: New!
+featured: 18
+ribbon: "New!"
 title: "Intro to Roblox Studio | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
 grade_tags: ["4th", "5th"]
 subject_tags: ["Coding"]
-difficulty: Code Cadets
+difficulty: "Code Cadets"
 ---
 This class is perfect for students who are new to creating games in Roblox. 
 

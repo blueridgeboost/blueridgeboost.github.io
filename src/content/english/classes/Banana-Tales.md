@@ -1,19 +1,22 @@
 ---
+ecwid: 682778868
 product_id: Banana-Tales
 price: 129
-category: Subscription Classes
+inventory: 5
+category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
 start_time: "4:30"
 end_time: "5:30"
 page_title: "Banana Tales"
 page_subtitle: "Python Adventures for Grades 5-6"
+featured: 0
 title: "Banana Tales | Blue Ridge Boost"
 section: classes
 day_tags: ["Wednesday"]
 grade_tags: ["5th", "6th"]
 subject_tags: ["Computer Coding"]
-difficulty: Code Cadets
+difficulty: "Code Cadets"
 ---
 <p>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, functions, and introduces more complex topics like classes, string manipulation, and sorting algorithms. With step-by-step instructions, interactive quizzes, and a supportive learning environment, this course provides a fun and effective way for 5th and 6th graders to develop their programming skills.
 </p>

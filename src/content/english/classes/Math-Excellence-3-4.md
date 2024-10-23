@@ -1,19 +1,22 @@
 ---
+ecwid: 680170559
 product_id: Math-Excellence-3-4
 price: 129
-category: Subscription Classes
+inventory: 2
+category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
 start_time: "5:00"
 end_time: "4:00"
 page_title: "Math Excellence"
 page_subtitle: "For Third and Fourth Graders"
+featured: 0
 title: "Math Excellence | Blue Ridge Boost"
 section: classes
 day_tags: ["Thursday"]
 grade_tags: ["3rd", "4th"]
 subject_tags: ["Math"]
-difficulty: Math Maestros
+difficulty: "Math Maestros"
 ---
 <p>In our advanced math class, we harness the engaging and comprehensive materials from Beast Academy to cultivate a deep understanding and passion for mathematics. Each student embarks on a personalized mathematical journey under the guidance of an expert Blue Ridge Boost instructor.</p><h3>Class Structure</h3><ol>
     <li><strong>Introduction:</strong> Each session begins with a concise lesson introducing new concepts and exercise types.</li>

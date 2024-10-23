@@ -1,20 +1,25 @@
 ---
+ecwid: 702699291
 product_id: Intro-C-Sharp-Unity
-price: Nov 3, 10, 17, 24,165
-category: Session Classes
+price:
+- name: "Nov 3, 10, 17, 24"
+  price: 165
+  inventory: 6
+category: "Session Classes"
 start_date: "2024-10-27"
 end_date: "2024-11-17"
 start_time: "3:30"
 end_time: "5:00"
 page_title: "Intro to C# for Unity"
 page_subtitle: "Learn to code your own games"
-ribbon: New!
+featured: 17
+ribbon: "New!"
 title: "Intro to C# for Unity | Blue Ridge Boost"
 section: classes
 day_tags: ["Sunday"]
 grade_tags: ["8th", "9th", "10th"]
 subject_tags: ["Coding"]
-difficulty: Syntax Sorcerers
+difficulty: "Syntax Sorcerers"
 ---
 <p>This class is perfect for students who are interested in developing programming skills for game development.
 </p>

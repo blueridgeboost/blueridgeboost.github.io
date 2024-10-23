@@ -1,19 +1,22 @@
 ---
+ecwid: 682778867
 product_id: Video-Game-Design
 price: 179
-category: Subscription Classes
+inventory: 4
+category: "Subscription Classes"
 start_date: "2024-09-05"
 end_date: "2025-06-03"
-start_time: "5:00"
-end_time: "6:00"
+start_time: "5:30"
+end_time: "6:30"
 page_title: "Video Game Design"
 page_subtitle: "Building Games in JavaScript"
+featured: 0
 title: "Video Game Design | Blue Ridge Boost"
 section: classes
 day_tags: ["Tuesday"]
 grade_tags: ["7th", "8th", "9th", "10th"]
 subject_tags: ["Computer Coding"]
-difficulty: Code Cadets
+difficulty: "Code Cadets"
 ---
 The video game design curriculum teaches the foundations of creating video games in JavaScript. While this course is introductory, it requires a good mathematical background and analytical thinking. Its curriculum teaches the foundations of computer science and basic programming, with an emphasis on helping students develop logical thinking and problem-solving skills. Once students complete the course, they will have learned material equivalent to a semester college introductory course in Computer Science and be able to program in JavaScript.
 **Learning Environment:** In-person classroom with hands-on programming practice.

@@ -1,19 +1,22 @@
 ---
+ecwid: 682778866
 product_id: Kids-Coding-Course
 price: 129
-category: Subscription Classes
+inventory: 4
+category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
 start_time: "4:30"
 end_time: "5:30"
 page_title: "Kids' Coding Course"
 page_subtitle: "Building with Beavers"
+featured: 0
 title: "Kids' Coding Course | Blue Ridge Boost"
 section: classes
 day_tags: ["Tuesday"]
 grade_tags: ["1st", "2nd"]
 subject_tags: ["Computer Coding"]
-difficulty: Code Cadets
+difficulty: "Code Cadets"
 ---
 Students learn sequencing, repetition, problem-solving, and conditional logic while developing practical coding skills. The course employs a hands-on, gamified approach that gradually increases in complexity, allowing each child to advance at their own speed. By the end, students can create sophisticated programs, having built a strong foundation in coding and computational thinking. 
 <p>We start to learn fundamental coding concepts by helping a beaver build a dam! The learning continues with learning to code games in Scratch.</p>

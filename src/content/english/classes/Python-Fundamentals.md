@@ -1,19 +1,22 @@
 ---
+ecwid: 682778194
 product_id: Python-Fundamentals
 price: 129
-category: Subscription Classes
+inventory: 3
+category: "Subscription Classes"
 start_date: "2024-09-05"
 end_date: "2025-06-03"
 start_time: "2:30"
 end_time: "3:30"
 page_title: "Python Fundamentals"
 page_subtitle: "Coding from the Ground Up"
+featured: 0
 title: "Python Fundamentals | Blue Ridge Boost"
 section: classes
 day_tags: ["Sunday"]
 grade_tags: ["7th", "8th"]
 subject_tags: ["Computer Coding"]
-difficulty: Code Cadets
+difficulty: "Code Cadets"
 ---
 <p>This course is a comprehensive, year-long program designed for middle school students with no prior coding experience. It introduces fundamental programming concepts using Python through interactive exercises and projects centered around controlling a virtual character named Tracy. The course covers commands, functions, loops, variables, conditionals, and lists, progressing to more complex tasks like user interaction and creating visual projects.</p>
 

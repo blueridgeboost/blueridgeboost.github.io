@@ -1,18 +1,11 @@
-{{ $params := .Site.Params.ecwid_ids }}
-{{ $inventory := .Site.Params.inventory }}
-{{ $categories := .Site.Params.ecwid_categories }}
-{{ $prices := .Site.Params.prices }}
-
-{{ $id := index $params .Params.product_id }}
-{{ $spaces := index $inventory .Params.product_id }}
-{{ $price := index $prices .Params.product_id }}
-{{ $ecwid_category := index $categories .Params.product_id }}
+{{ $prices := .Params.price }}
+{{ $id := .Params.ecwid }}
+{{ $ecwid_category := .Params.category }}
 
 <!-- Generate Options -->
 {{ $displayButton := false }}
-{{ range $spaces }}
-    {{ $vi := index . 1}}
-    {{ if gt $vi 0 }}
+{{ range $prices }}
+    {{ if gt .inventory 0 }}
         {{ $displayButton = true }}
     {{ end }}
 {{ end }}
@@ -22,26 +15,24 @@
     <center>
     {{ $first := true }}
     <div class="radio-group" >
-        {{ range $spaces }}
-            {{ $vi := index . 1}}
-            {{ $variant := index . 0}}
-            {{ $vp:= 0}}
-            {{ range $price }}
-                {{ if eq (index . 0) $variant }}
-                    {{ $vp = index . 1}}
-                {{ end }}
-            {{ end}}
-            {{ if gt $vi 0 }}
-                <label>
-                {{ if $first }}
-                    <input type="radio" name="payment-{{ $id }}" value="{{$variant}}" checked >
+        {{ range $prices }}
+            <label>
+            {{ if $first }}
+                {{ if gt .inventory 0 }}
+                    <input type="radio" name="payment-{{ $id }}" value="{{.name}}" checked >
                     {{ $first = false }}
-                {{ else }}
-                    <input type="radio" name="payment-{{ $id }}" value="{{$variant}}">
+                {{ else}}
+                    <input type="radio" name="payment-{{ $id }}" value="{{.name}}" disabled >
                 {{ end }}
-                {{$variant}} (${{$vp}}) 
-                </label> 
+            {{ else }}
+                {{ if gt .inventory 0 }}
+                    <input type="radio" name="payment-{{ $id }}" value="{{.name}}">
+                {{ else}}
+                    <input type="radio" name="payment-{{ $id }}" value="{{.name}}" disabled >
+                {{ end }}
             {{ end }}
+                {{.name}} (${{.price}}) 
+            </label> 
         {{ end }}
     </div>
     <div class="spacybutton">

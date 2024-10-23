@@ -1,5 +1,4 @@
-{{ $categories := .Site.Params.ecwid_categories }}
-{{ $ecwid_category := index $categories .Params.product_id }}
+{{ $ecwid_category := .Params.category }}
 
 <div class="ribbon">
 <span>{{ .Params.ribbon }}</span>
@@ -7,11 +6,11 @@
 
 <div class="timeribbon">
     <span>{{ .Params.timeribbon }}</span>
-    </div>
+</div>
 
 <div class="joinribbon">
     <span>{{ .Params.joinribbon }}</span>
-    </div>
+</div>
     
 {{.Params.start_time}} &ndash; {{.Params.end_time}} on 
     {{ range .Params.day_tags }} {{.}}s {{end}}

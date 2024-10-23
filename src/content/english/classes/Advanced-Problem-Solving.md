@@ -1,19 +1,22 @@
 ---
+ecwid: 682761974
 product_id: Advanced-Problem-Solving
 price: 235
-category: Subscription Classes
+inventory: 4
+category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
 start_time: "2:00"
 end_time: "3:30"
 page_title: "Advanced Problem Solving"
 page_subtitle: "Math Olympiad and AMC8"
+featured: 0
 title: "Advanced Problem Solving | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
 grade_tags: ["5th", "6th", "7th", "8th", "9th", "10th", "11th"]
 subject_tags: ["Math"]
-difficulty: Competition
+difficulty: "Competition"
 ---
 MOEMS is a challenging and engaging math competition for middle schoolers, featuring five monthly contests from November to March that focus on problem-solving and mathematical creativity. Similarly, the AMC 8 is a 40-minute math competition designed for students in grade 8 and below, covering a range of middle school math topics, including some concepts from introductory algebra. At Blue Ridge Boost, students participate in weekly problem-solving sessions to prepare for these competitions, and they have the option to take the tests if they choose to do so.
 

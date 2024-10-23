@@ -1,20 +1,23 @@
 ---
+ecwid: 682774096
 product_id: Girl-Powered-First-Tech-Challenge
 price: 0
-category: Subscription Classes
+inventory: 8
+category: "Subscription Classes"
 start_date: ""
 end_date: "2025-04-30"
 start_time: "5:00"
 end_time: "6:30"
 page_title: "Girl Powered First Tech Challenge"
 page_subtitle: "First Tech Challenge Adventure"
-ribbon: Girl Powered
+featured: 0
+ribbon: "Girl Powered"
 title: "Girl Powered First Tech Challenge | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
 grade_tags: ["7th", "8th", "9th", "10th", "11th"]
 subject_tags: ["Robotics"]
-difficulty: Bot Builders Elite
+difficulty: "Bot Builders Elite"
 ---
 <p>We're forming a new FIRST Tech Challenge team and we want GIRLS!<br>
 </p>

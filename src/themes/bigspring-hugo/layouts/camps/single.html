@@ -2,7 +2,51 @@
 
 {{ partial "page-header.html" . }}
 
+{{ $id := .Params.ecwid }}
+{{ $ecwid_category := .Params.category }}
+
 <section class="section">
+    <div class="container">
+        <div class="row">
+        <div class="col-xl-1 col-lg-1 col-md-1"></div>
+        <div class="col-11">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-6">
+                        {{ partial "class-info.html" . }}
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-6">
+                        <div class="card"
+                            style="padding: 0.5rem; background-color:aliceblue"
+                            id = "class-{{ $id }}"
+                        >
+                            {{ if eq $ecwid_category "1-Day Camps" }}
+                                {{ partial "1-day-camp-card.html" . }}
+                            {{ else }}
+                                TODO
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>  
+    </div>
+        <div class="container">
+        <div class="row">
+        <div class="col-lg-10 mx-auto">
+            <div class="class-content">
+                <p></p>
+                {{ .Content }}</div>
+        </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+{{end}}
+
+
+{{/*  <section class="section">
   <div class="container">
     <div class="row">
       <div class="col-1 d-none d-xl-block"></div>
@@ -53,6 +97,4 @@
       </div>
     </div>
   </div>
-</section>
-
-{{end}}
+</section>  */}}

@@ -1,19 +1,23 @@
 ---
+ecwid: 701122374
 product_id: Aerial-Drones-2
 price: 235
-category: Subscription Classes
+inventory: 4
+category: "Subscription Classes"
 start_date: ""
 end_date: "2025-03-31"
 start_time: "2:00"
 end_time: "3:30"
 page_title: "Aerial Drones"
 page_subtitle: "Join Our Rookie Aerial Drone Team!"
+featured: 0
+ribbon: "New!"
 title: "Aerial Drones | Blue Ridge Boost"
 section: classes
 day_tags: ["Sunday"]
 grade_tags: ["5th", "6th", "7th", "8th", "9th", "10th", "11th"]
 subject_tags: ["Robotics"]
-difficulty: Bot Builders Elite
+difficulty: "Bot Builders Elite"
 ---
 <div><div><h4>What is the Aerial Drone Competition?</h4></div><div>    <ul></div><div>      <li>A cutting-edge program that prepares students for careers in drone technology</li></div><div>      <li>Four exciting missions: Teamwork, Autonomous Flight, Piloting Skills, and Communications</li></div><div>      <li>Compete in local, and regional events</li></div><div>    </ul></div>
 <div>    <h2>No prior experience needed! We're looking for students who are:</h2></div><div>    <ul></div><div>      <li>Curious about drones and aviation</li></div><div>      <li>Interested in coding and programming</li></div><div>      <li>Excited to learn piloting skills</li></div><div>      <li>Great at teamwork and communication</li></div><div>      <li>Ready to take on new challenges</li></div><div>    </ul></div>

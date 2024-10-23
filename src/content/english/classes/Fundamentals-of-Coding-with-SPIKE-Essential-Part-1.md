@@ -1,20 +1,25 @@
 ---
+ecwid: 701939275
 product_id: Fundamentals-of-Coding-with-SPIKE-Essential-Part-1
-price: Oct 29; Nov 5, 12, 19; Dec 2, 9,195
-category: Session Classes
+price:
+- name: "Oct 29; Nov 5, 12, 19; Dec 2, 9"
+  price: 195
+  inventory: 6
+category: "Session Classes"
 start_date: "2024-10-22"
 end_date: "2024-12-16"
 start_time: "4:00"
 end_time: "5:00"
 page_title: "Lego Robots Jr"
 page_subtitle: "Fundamentals of Coding with SPIKE Essential Part 1"
-ribbon: New
+featured: 14
+ribbon: "New"
 title: "Lego Robots Jr | Blue Ridge Boost"
 section: classes
 day_tags: ["Tuesday"]
 grade_tags: ["1st", "2nd"]
 subject_tags: ["Robotics"]
-difficulty: Robo Rookies
+difficulty: "Robo Rookies"
 ---
 <p>
 	This six-class sequence introduces the students to the world of robotics and coding. Students will construct Lego models that use motors and lights and create code to bring their creations to life. This class is suitable for students with no previous experience using Lego robots.
