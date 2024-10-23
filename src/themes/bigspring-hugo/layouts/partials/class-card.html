@@ -1,13 +1,4 @@
-{{ $params := .Site.Params.ecwid_ids }}
-{{ $inventory := .Site.Params.inventory }}
-{{ $categories := .Site.Params.ecwid_categories }}
-{{ $prices := .Site.Params.prices }}
-
-{{ $id := index $params .Params.product_id }}
-{{ $spaces := index $inventory .Params.product_id }}
-{{ $price := index $prices .Params.product_id }}
-{{ $ecwid_category := index $categories .Params.product_id }}
-
+{{ $id := .Params.ecwid }}
 <div
     class = "card"
     id = "class-{{ $id }}"
@@ -29,7 +20,7 @@
         {{ partial "class-info.html" . }}
     </div>
     <div class="card-footer">
-        {{ if eq $ecwid_category "Subscription Classes" }}
+        {{ if eq .Params.category "Subscription Classes" }}
             {{ partial "subscription-class-footer.html" . }}
         {{ else }}
             {{ partial "session-class-footer.html" .}}

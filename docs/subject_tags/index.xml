@@ -6,13 +6,19 @@
     <description>Recent content in Subject_tags on Computer Science - Robotics - Math - Computer Coding - Chess in Charlottesville </description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 12 Jul 2021 00:00:00 -0400</lastBuildDate>
     <atom:link href="https://blueridgeboost.com/subject_tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Math</title>
-      <link>https://blueridgeboost.com/subject_tags/Math/</link>
+      <title>Aerial Drones</title>
+      <link>https://blueridgeboost.com/subject_tags/Aerial-Drones/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/subject_tags/Math/</guid>
+      <guid>https://blueridgeboost.com/subject_tags/Aerial-Drones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chess</title>
+      <link>https://blueridgeboost.com/subject_tags/Chess/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/subject_tags/Chess/</guid>
       <description></description>
     </item>
     <item>
@@ -30,6 +36,27 @@
       <description></description>
     </item>
     <item>
+      <title>Lego Robotics</title>
+      <link>https://blueridgeboost.com/subject_tags/Lego-Robotics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/subject_tags/Lego-Robotics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Math</title>
+      <link>https://blueridgeboost.com/subject_tags/Math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/subject_tags/Math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Minecraft</title>
+      <link>https://blueridgeboost.com/subject_tags/Minecraft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/subject_tags/Minecraft/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Monday</title>
       <link>https://blueridgeboost.com/subject_tags/Monday/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -37,10 +64,38 @@
       <description></description>
     </item>
     <item>
+      <title>Roblox</title>
+      <link>https://blueridgeboost.com/subject_tags/Roblox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/subject_tags/Roblox/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Robotics</title>
       <link>https://blueridgeboost.com/subject_tags/Robotics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/subject_tags/Robotics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sphero Robotics</title>
+      <link>https://blueridgeboost.com/subject_tags/Sphero-Robotics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/subject_tags/Sphero-Robotics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TBD</title>
+      <link>https://blueridgeboost.com/subject_tags/TBD/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/subject_tags/TBD/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vex Robotics</title>
+      <link>https://blueridgeboost.com/subject_tags/Vex-Robotics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/subject_tags/Vex-Robotics/</guid>
       <description></description>
     </item>
   </channel>

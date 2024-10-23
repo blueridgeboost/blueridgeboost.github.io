@@ -1,20 +1,23 @@
 ---
+ecwid: 680172023
 product_id: Math-Hoppers
 price: 155
-category: Subscription Classes
+inventory: 6
+category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
 start_time: "11:30"
 end_time: "12:30"
 page_title: "Math Hoppers"
 page_subtitle: "Kangaroo Math for Young Explorers"
-ribbon: Join Now!
+featured: 0
+ribbon: "Join Now!"
 title: "Math Hoppers | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
 grade_tags: ["1st", "2nd"]
 subject_tags: ["Math"]
-difficulty: Competition
+difficulty: "Competition"
 ---
 The Kangaroo Mathematics Competition, set for Thursday, March 20, 2025, is an international event testing students' math skills. Preparation involves practicing past papers, reviewing key concepts, and improving time management. The multiple-choice test covers various math topics. The class will continue for the duration of the school year to prepare students for the next year's competition.
 <h4>What is Kangaroo Math?</h4>

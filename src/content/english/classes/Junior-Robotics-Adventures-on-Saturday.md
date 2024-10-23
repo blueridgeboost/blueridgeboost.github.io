@@ -1,19 +1,22 @@
 ---
+ecwid: 692383434
 product_id: Junior-Robotics-Adventures-on-Saturday
 price: 129
-category: Subscription Classes
+inventory: 5
+category: "Subscription Classes"
 start_date: ""
 end_date: "2025-04-30"
 start_time: "1:00"
 end_time: "2:00"
 page_title: "Junior Robotics Adventures on Saturday"
 page_subtitle: "Dino Quests & Lego Explorers"
+featured: 0
 title: "Junior Robotics Adventures on Saturday | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
 grade_tags: ["2nd", "3rd"]
 subject_tags: ["Robotics"]
-difficulty: Robo Rookies
+difficulty: "Robo Rookies"
 ---
 <p>Embark on an exciting year-long robotics adventure for young learners! This class combines two engaging programs to introduce basic robotics concepts through fun, themed challenges.</p>
     <h2>Fall Semester: Jurassic Journey with Sphero indi</h2>

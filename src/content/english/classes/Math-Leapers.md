@@ -1,20 +1,23 @@
 ---
+ecwid: 680172024
 product_id: Math-Leapers
 price: 155
-category: Subscription Classes
+inventory: 4
+category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
 start_time: "10:30"
 end_time: "11:30"
 page_title: "Math Leapers"
 page_subtitle: "Advanced Kangaroo Challenges"
-ribbon: Join Now!
+featured: 0
+ribbon: "Join Now!"
 title: "Math Leapers | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
 grade_tags: ["3rd", "4th"]
 subject_tags: ["Math"]
-difficulty: Competition
+difficulty: "Competition"
 ---
 The Math Kangaroo competition is an international mathematical competition where students from grades 1 through 12 participate. The curriculum for grades 3 and 4 focuses on enhancing mathematical skills through engaging and challenging problems, building on the foundational knowledge acquired in earlier grades. The Kangaroo Mathematics Competition, set for Thursday, March 20, 2025.  The class will continue for the duration of the school year to prepare students for the next year's competition.
 <div class="section">

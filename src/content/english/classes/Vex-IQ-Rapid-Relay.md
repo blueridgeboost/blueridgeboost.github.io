@@ -1,20 +1,23 @@
 ---
+ecwid: 692381657
 product_id: Vex-IQ-Rapid-Relay
 price: 195
-category: Subscription Classes
+inventory: 5
+category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
 start_time: "3:30"
 end_time: "5:30"
 page_title: "Vex IQ Rapid Relay"
 page_subtitle: "Compete with Vex IQ"
-ribbon: Join Now!
+featured: 0
+ribbon: "Join Now!"
 title: "Vex IQ Rapid Relay | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
 grade_tags: ["5th", "6th", "7th","8th"]
 subject_tags: ["Robotics"]
-difficulty: Bot Builders Elite
+difficulty: "Bot Builders Elite"
 ---
 Join us for this exciting class! No experience necessary, only a desire to learn and have fun!
 

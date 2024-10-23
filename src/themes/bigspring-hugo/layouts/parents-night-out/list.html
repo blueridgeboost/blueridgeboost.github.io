@@ -1,0 +1,34 @@
+{{ define "main" }}
+{{ partial "page-header.html" . }}
+
+<section id="parent_night_out" class="section">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p>Give your young geniuses an evening of fun and learning! Drop off your kids ages 6 to 10 for an exciting adventure in:</p>
+                <ul>
+                    <li><strong>Chess:</strong> Sharpen critical thinking skills</li>
+                    <li><strong>Gaming:</strong> Explore problem-solving through play</li>
+                    <li><strong>Robotics:</strong> Unleash creativity with hands-on tech</li>
+                    <li><strong>Coding:</strong> Develop logical thinking and innovation</li>
+                </ul>
+                Fuel for young minds: Free pizza included!<br>
+                <div class="details">
+                    <strong>Ages:</strong> 6-12 years<br>
+                    <strong>Where:</strong> Blue Ridge Boost, 2171 Ivy Rd, Charlottesville, VA 22903<br>
+                </div>
+                <p>Click on one of the dates below to add the date to the shopping cart. Do not forget to complete the signup by checking out.</p>
+            </div>
+        </div>
+    </div>    
+    <div class="class-cards">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3">
+          {{ range sort .Pages ".Params.start_date" "asc" }}
+            {{ partial "pno-card.html" . }}
+          {{ end }}
+        </div>
+    </div>        
+    
+</section>
+{{end}}

@@ -1,19 +1,22 @@
 ---
+ecwid: 680173527
 product_id: Math-Mastery-1-2
 price: 129
-category: Subscription Classes
+inventory: 5
+category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
 start_time: "4:00"
 end_time: "5:00"
 page_title: "Math Mastery"
 page_subtitle: "For First and Second Graders"
+featured: 0
 title: "Math Mastery | Blue Ridge Boost"
 section: classes
 day_tags: ["Wednesday"]
 grade_tags: ["1st", "2nd"]
 subject_tags: ["Math"]
-difficulty: Skill Sculptors
+difficulty: "Skill Sculptors"
 ---
 <p>This advanced mathematics class is designed for curious students ranking in the top of their class who are eager to explore math beyond the typical school curriculum. Utilizing the renowned Dimensions Singapore Math curriculum, our year-long program emphasizes deep conceptual understanding, critical thinking, problem-solving strategies, and practical application of mathematical principles.
 </p><p><br>

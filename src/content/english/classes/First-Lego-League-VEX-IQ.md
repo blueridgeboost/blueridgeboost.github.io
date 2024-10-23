@@ -1,19 +1,22 @@
 ---
+ecwid: 682662301
 product_id: First-Lego-League-VEX-IQ
 price: 195
-category: Subscription Classes
+inventory: 0
+category: "Subscription Classes"
 start_date: ""
 end_date: "2025-03-31"
 start_time: "5:00"
 end_time: "6:30"
 page_title: "First Lego League/VEX IQ"
 page_subtitle: "Middle School Competition Robotics"
+featured: 0
 title: "First Lego League/VEX IQ | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday", "Wednesday"]
 grade_tags: ["5th", "6th", "7th", "8th"]
 subject_tags: ["Robotics"]
-difficulty: Bot Builders Elite
+difficulty: "Bot Builders Elite"
 ---
 <p>First Lego League (FLL) is a Lego robotics competition for students grades 4 to 8. Teams engage in research, problem-solving, coding and engineering – building and programming a LEGO robot that navigates the missions of a robot game. As part of Challenge, teams also participate in a research project to identify and solve a relevant real-world problem. </p> <p>Team members must be willing to work on all aspects of the competition and demonstrate the <strong>FIRST core values</strong>.<br> The Blue Ridge Boost teams <i>Lego Landsharks</i> and <i>Sciency Sea Turtles</i> will compete on November 16 in Charlottesville. </p>
 <div class="container">

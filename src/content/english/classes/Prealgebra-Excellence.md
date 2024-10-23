@@ -1,20 +1,23 @@
 ---
+ecwid: 680173526
 product_id: Prealgebra-Excellence
 price: 195
-category: Subscription Classes
+inventory: 2
+category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
 start_time: "1:00"
 end_time: "2:30"
 page_title: "Prealgebra Excellence"
 page_subtitle: "For Fifth and Sixth Graders"
-ribbon: New Time!
+featured: 0
+ribbon: "New Time!"
 title: "Prealgebra Excellence | Blue Ridge Boost"
 section: classes
 day_tags: ["Sunday"]
 grade_tags: ["5th", "6th"]
 subject_tags: ["Math"]
-difficulty: Math Maestros
+difficulty: "Math Maestros"
 ---
 Prealgebra prepares students for the rigors of algebra and teaches problem-solving techniques for prestigious middle school math contests such as MATHCOUNTS, MOEMS, and the AMC 8. The course challenges students at a much deeper level than a traditional middle school prealgebra course. Instead of traditional lecturing, most of the class time is dedicated to tackling challenging problems. Students will be encouraged to write complete and clear solutions to exercises, an important skill in communicating mathematics effectively.
 

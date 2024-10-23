@@ -1,19 +1,22 @@
 ---
+ecwid: 682765853
 product_id: TechQuest
 price: 155
-category: Subscription Classes
+inventory: 4
+category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
 start_time: "3:30"
 end_time: "4:30"
 page_title: "TechQuest: Fall Bots & Spring Bricks"
 page_subtitle: "undefined"
+featured: 0
 title: "TechQuest: Fall Bots & Spring Bricks | Blue Ridge Boost"
 section: classes
 day_tags: ["Wednesday"]
 grade_tags: ["3rd","4th"]
 subject_tags: ["Robotics"]
-difficulty: Bot Builders Elite
+difficulty: "Bot Builders Elite"
 ---
 <h3>Fall: The VEX GO Competition</h3>
 

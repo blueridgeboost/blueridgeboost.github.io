@@ -1,20 +1,25 @@
 ---
+ecwid: 704276618
 product_id: Intro-3D-Printing-Grades-5-6
-price: Nov 2, 9,16, 23,165
-category: Session Classes
+price:
+- name: "Nov 2, 9,16, 23"
+  price: 165
+  inventory: 4
+category: "Session Classes"
 start_date: "2024-11-02"
 end_date: "2024-11-23"
 start_time: "5:00"
 end_time: "6:30"
 page_title: "Intro to 3D Printing"
 page_subtitle: "For Fifth and Sixth Graders"
-ribbon: New!
+featured: 22
+ribbon: "New!"
 title: "Intro to 3D Printing | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
 grade_tags: ["5th", "6th"]
 subject_tags: ["Coding"]
-difficulty: Code Cadets
+difficulty: "Code Cadets"
 ---
 <div class="container">
     <div class="class-section">
