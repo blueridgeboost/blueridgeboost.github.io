@@ -2,7 +2,7 @@
 ecwid: 701939275
 product_id: Fundamentals-of-Coding-with-SPIKE-Essential-Part-1
 price:
-- name: "Oct 29; Nov 5, 12, 19; Dec 2, 9"
+- name: "Nov 5, 12, 19; Dec 3"
   price: 195
   inventory: 6
 category: "Session Classes"
