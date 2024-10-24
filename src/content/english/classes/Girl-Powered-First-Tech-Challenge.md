@@ -11,7 +11,6 @@ end_time: "6:30"
 page_title: "Girl Powered First Tech Challenge"
 page_subtitle: "First Tech Challenge Adventure"
 featured: 0
-ribbon: "Girl Powered"
 title: "Girl Powered First Tech Challenge | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]

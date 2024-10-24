@@ -11,6 +11,7 @@ end_time: "3:30"
 page_title: "Advanced Problem Solving"
 page_subtitle: "Math Olympiad and AMC8"
 featured: 0
+ribbon: "Join Now!"
 title: "Advanced Problem Solving | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
