@@ -6,8 +6,8 @@ inventory: 4
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
-start_time: "11:00"
-end_time: "12:30"
+start_time: "10:30"
+end_time: "12:00"
 page_title: "Intro to AMC10"
 page_subtitle: "Competition Math"
 featured: 0

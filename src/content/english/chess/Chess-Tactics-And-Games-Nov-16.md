@@ -2,7 +2,7 @@
 ecwid: 702301234
 product_id: Chess-Tactics-And-Games-Nov-16
 price: 45
-inventory: 5
+inventory: 4
 category: "Chess Club"
 start_date: "2024-11-16"
 end_date: "2024-11-16"

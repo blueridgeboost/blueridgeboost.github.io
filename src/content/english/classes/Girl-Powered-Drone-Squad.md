@@ -11,7 +11,6 @@ end_time: "6:30"
 page_title: "Girl-Powered Drone Squad"
 page_subtitle: "Join Our Girl Powered Aerial Drone Team!"
 featured: 0
-ribbon: "Girl Powered"
 title: "Girl-Powered Drone Squad | Blue Ridge Boost"
 section: classes
 day_tags: ["Sunday"]
