@@ -17,7 +17,7 @@ ribbon: "New!"
 title: "Intro to C# for Unity | Blue Ridge Boost"
 section: classes
 day_tags: ["Sunday"]
-grade_tags: ["8th", "9th", "10th"]
+grade_tags: ["7th","8th", "9th", "10th","11th","12th"]
 subject_tags: ["Coding"]
 difficulty: "Syntax Sorcerers"
 ---

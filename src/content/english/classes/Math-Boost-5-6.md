@@ -1,7 +1,7 @@
 ---
 ecwid: 680173268
 product_id: Math-Boost-5-6
-price: 155
+price: 139
 inventory: 6
 category: "Subscription Classes"
 start_date: ""

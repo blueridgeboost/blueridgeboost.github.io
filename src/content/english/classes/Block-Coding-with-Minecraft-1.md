@@ -2,7 +2,7 @@
 ecwid: 702296455
 product_id: Block-Coding-with-Minecraft-1
 price:
-- name: "Nov 7, 14, 21; Dec 5, 12"
+- name: "Nov 7, 14, 21; Dec 5"
   price: 165
   inventory: 6
 category: "Session Classes"
@@ -10,11 +10,11 @@ start_date: "2024-10-24"
 end_date: "2024-12-12"
 start_time: "5:00"
 end_time: "6:30"
-page_title: "Block Coding with Minecraft Part 1"
+page_title: "Block Coding with Minecraft"
 page_subtitle: "Learn with Minecraft Education"
 featured: 16
 ribbon: "New"
-title: "Block Coding with Minecraft Part 1 | Blue Ridge Boost"
+title: "Block Coding with Minecraft | Blue Ridge Boost"
 section: classes
 day_tags: ["Thursday"]
 grade_tags: ["3rd", "4th"]

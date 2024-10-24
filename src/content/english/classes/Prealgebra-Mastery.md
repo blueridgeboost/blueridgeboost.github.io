@@ -1,7 +1,7 @@
 ---
 ecwid: 680173269
 product_id: Prealgebra-Mastery
-price: 179
+price: 149
 inventory: 5
 category: "Subscription Classes"
 start_date: ""
