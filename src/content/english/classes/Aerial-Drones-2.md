@@ -4,7 +4,7 @@ product_id: Aerial-Drones-2
 price:
 - name: "Nov 3, 10, 17; Dec 1"
   price: 195
-  inventory: undefined
+  inventory: 4
 category: "Session Classes"
 start_date: ""
 end_date: "2025-03-31"
