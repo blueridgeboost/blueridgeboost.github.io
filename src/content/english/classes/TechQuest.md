@@ -7,7 +7,7 @@ category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
 start_time: "3:30"
-end_time: "4:30"
+end_time: "5:00"
 page_title: "TechQuest: Fall Bots & Spring Bricks"
 page_subtitle: "undefined"
 featured: 0
