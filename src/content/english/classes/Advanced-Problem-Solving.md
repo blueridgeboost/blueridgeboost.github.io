@@ -15,7 +15,7 @@ ribbon: "Join Now!"
 title: "Advanced Problem Solving | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
-grade_tags: ["5th", "6th", "7th", "8th", "9th", "10th", "11th"]
+grade_tags: ["7th", "8th"]
 subject_tags: ["Math"]
 difficulty: "Competition"
 ---
