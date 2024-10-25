@@ -6,8 +6,8 @@ inventory: 6
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
-start_time: "11:30"
-end_time: "12:30"
+start_time: "10:30"
+end_time: "11:30"
 page_title: "Math Hoppers"
 page_subtitle: "Kangaroo Math for Young Explorers"
 featured: 0

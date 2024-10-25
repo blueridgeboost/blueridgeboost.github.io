@@ -6,8 +6,8 @@ inventory: 4
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
-start_time: "10:30"
-end_time: "11:30"
+start_time: "11:30"
+end_time: "12:30"
 page_title: "Math Leapers"
 page_subtitle: "Advanced Kangaroo Challenges"
 featured: 0
