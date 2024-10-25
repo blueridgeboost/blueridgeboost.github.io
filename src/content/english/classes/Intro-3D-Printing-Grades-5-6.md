@@ -17,7 +17,7 @@ ribbon: "New!"
 title: "Intro to 3D Printing | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
-grade_tags: ["5th", "6th"]
+grade_tags: ["5th", "6th", "7th","8th"]
 subject_tags: ["Coding"]
 difficulty: "Code Cadets"
 ---
