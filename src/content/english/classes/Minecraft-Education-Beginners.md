@@ -3,7 +3,7 @@ ecwid: 705446355
 product_id: Minecraft-Education-Beginners
 price:
 - name: "November 10"
-  price: 55
+  price: 59
   inventory: 12
 category: "Session Classes"
 start_date: ""
