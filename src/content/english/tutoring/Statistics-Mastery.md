@@ -12,7 +12,7 @@ start_time: "4:00"
 end_time: "6:30"
 page_title: "Statistics"
 page_subtitle: "Extra Practice"
-featured: 12
+featured: 14
 title: "Statistics | Blue Ridge Boost"
 section: tutoring
 day_tags: ["Sunday"]

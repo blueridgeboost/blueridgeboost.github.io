@@ -12,7 +12,7 @@ start_time: "2:30"
 end_time: "4:00"
 page_title: "Calculus AB/BC"
 page_subtitle: "Extra Practice"
-featured: 11
+featured: 13
 title: "Calculus AB/BC | Blue Ridge Boost"
 section: tutoring
 day_tags: ["Sunday"]

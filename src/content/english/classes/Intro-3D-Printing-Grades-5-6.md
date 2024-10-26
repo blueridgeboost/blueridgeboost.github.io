@@ -12,7 +12,7 @@ start_time: "5:00"
 end_time: "6:30"
 page_title: "Intro to 3D Printing"
 page_subtitle: "For Fifth and Sixth Graders"
-featured: 22
+featured: 23
 ribbon: "New!"
 title: "Intro to 3D Printing | Blue Ridge Boost"
 section: classes

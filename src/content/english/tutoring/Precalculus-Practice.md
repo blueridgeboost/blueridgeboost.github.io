@@ -12,7 +12,7 @@ start_time: "5:00"
 end_time: "6:00"
 page_title: "Precalculus"
 page_subtitle: "Homework help"
-featured: 3
+featured: 5
 title: "Precalculus | Blue Ridge Boost"
 section: tutoring
 day_tags: ["Tuesday"]

@@ -12,7 +12,7 @@ start_time: "4:00"
 end_time: "5:00"
 page_title: "Integrated Math 2"
 page_subtitle: "Reinforcing Classroom Concepts"
-featured: 7
+featured: 9
 title: "Integrated Math 2 | Blue Ridge Boost"
 section: tutoring
 day_tags: ["Saturday"]

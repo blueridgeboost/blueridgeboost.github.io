@@ -12,7 +12,7 @@ start_time: "3:00"
 end_time: "4:00"
 page_title: "Integrated Math 1"
 page_subtitle: "Extra Practice"
-featured: 4
+featured: 6
 title: "Integrated Math 1 | Blue Ridge Boost"
 section: tutoring
 day_tags: ["Saturday"]

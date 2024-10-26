@@ -12,13 +12,13 @@ start_time: "3:30"
 end_time: "5:00"
 page_title: "Intro to Roblox Studio"
 page_subtitle: "Creating Your First Experience"
-featured: 18
+featured: 19
 ribbon: "New!"
 title: "Intro to Roblox Studio | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
 grade_tags: ["4th", "5th"]
-subject_tags: ["Coding"]
+subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 ---
 This class is perfect for students who are new to creating games in Roblox. 

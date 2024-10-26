@@ -12,7 +12,7 @@ start_time: "3:30"
 end_time: "5:00"
 page_title: "Intro to C# for Unity"
 page_subtitle: "Learn to code your own games"
-featured: 17
+featured: 18
 ribbon: "New!"
 title: "Intro to C# for Unity | Blue Ridge Boost"
 section: classes
