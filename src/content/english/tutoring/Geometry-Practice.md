@@ -12,7 +12,7 @@ start_time: "5:00"
 end_time: "6:00"
 page_title: "Geometry"
 page_subtitle: "Homework help and extra practice"
-featured: 2
+featured: 4
 title: "Geometry | Blue Ridge Boost"
 section: tutoring
 day_tags: ["Monday"]

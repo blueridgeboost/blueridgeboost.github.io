@@ -12,7 +12,7 @@ start_time: "4:00"
 end_time: "5:00"
 page_title: "Algebra"
 page_subtitle: "Homework Help"
-featured: 20
+featured: 21
 title: "Algebra | Blue Ridge Boost"
 section: tutoring
 day_tags: ["Monday"]

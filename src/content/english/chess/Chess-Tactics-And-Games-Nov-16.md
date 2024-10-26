@@ -10,7 +10,7 @@ start_time: "4:30"
 end_time: "6:30"
 page_title: "Chess Tactics and Games on Nov 16"
 page_subtitle: "undefined"
-featured: 1
+featured: 2
 title: "Chess Tactics and Games on Nov 16 | Blue Ridge Boost"
 section: chess
 day_tags: ["Thursday"]

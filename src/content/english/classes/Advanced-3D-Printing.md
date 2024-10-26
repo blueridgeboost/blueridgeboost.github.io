@@ -12,7 +12,7 @@ start_time: "12:30"
 end_time: "2:30"
 page_title: "Advanced 3D Printing"
 page_subtitle: "Take your 3D printing to new heights!"
-featured: 21
+featured: 22
 ribbon: "New"
 title: "Advanced 3D Printing | Blue Ridge Boost"
 section: classes
