@@ -2,7 +2,7 @@
 ecwid: 703006019
 product_id: Calc-AB-Workshop-Differentiation-1
 price:
-- name: "Oct 27"
+- name: "Nov 10"
   price: 85
   inventory: 4
 category: "Session Classes"
