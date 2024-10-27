@@ -11,7 +11,6 @@ end_time: "12:30"
 page_title: "Math Leapers"
 page_subtitle: "Advanced Kangaroo Challenges"
 featured: 0
-ribbon: "Join Now!"
 title: "Math Leapers | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]

@@ -13,7 +13,7 @@ end_time: "6:30"
 page_title: "Block Coding with Minecraft"
 page_subtitle: "Learn with Minecraft Education"
 featured: 17
-ribbon: "New"
+ribbon: "New!"
 title: "Block Coding with Minecraft | Blue Ridge Boost"
 section: classes
 day_tags: ["Thursday"]

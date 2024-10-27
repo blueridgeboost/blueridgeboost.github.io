@@ -11,6 +11,7 @@ end_time: "2:00"
 page_title: "First Lego League on Saturday"
 page_subtitle: "Lego Explorers"
 featured: 0
+ribbon: "New!"
 title: "First Lego League on Saturday | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]

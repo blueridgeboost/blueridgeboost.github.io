@@ -11,7 +11,6 @@ end_time: "5:30"
 page_title: "Vex IQ Rapid Relay"
 page_subtitle: "Compete with Vex IQ"
 featured: 0
-ribbon: "Join Now!"
 title: "Vex IQ Rapid Relay | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
