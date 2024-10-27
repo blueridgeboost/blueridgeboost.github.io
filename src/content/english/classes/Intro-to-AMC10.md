@@ -11,7 +11,6 @@ end_time: "12:30"
 page_title: "AMC10"
 page_subtitle: "Competition Math"
 featured: 0
-ribbon: "Join Now!"
 title: "AMC10 | Blue Ridge Boost"
 section: classes
 day_tags: ["Sunday"]

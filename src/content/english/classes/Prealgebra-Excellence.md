@@ -11,7 +11,6 @@ end_time: "2:30"
 page_title: "Prealgebra Excellence"
 page_subtitle: "For Fifth and Sixth Graders"
 featured: 0
-ribbon: "New Time!"
 title: "Prealgebra Excellence | Blue Ridge Boost"
 section: classes
 day_tags: ["Sunday"]

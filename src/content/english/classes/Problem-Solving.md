@@ -11,7 +11,6 @@ end_time: "2:00"
 page_title: "Problem Solving"
 page_subtitle: "Math Olympiad, and AMC8"
 featured: 0
-ribbon: "New Time!"
 title: "Problem Solving | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]

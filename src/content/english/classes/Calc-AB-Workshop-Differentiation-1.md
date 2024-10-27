@@ -13,7 +13,7 @@ end_time: "6:00"
 page_title: "Calculus AB Workshop (Differentiation)"
 page_subtitle: "AP Calculus AB"
 featured: 20
-ribbon: "New"
+ribbon: "New!"
 title: "Calculus AB Workshop (Differentiation) | Blue Ridge Boost"
 section: classes
 day_tags: ["Sunday"]

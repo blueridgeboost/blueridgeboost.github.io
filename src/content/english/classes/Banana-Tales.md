@@ -11,7 +11,6 @@ end_time: "5:30"
 page_title: "Banana Tales"
 page_subtitle: "Python Adventures for Grades 5-6"
 featured: 0
-ribbon: "Join Now!"
 title: "Banana Tales | Blue Ridge Boost"
 section: classes
 day_tags: ["Wednesday"]

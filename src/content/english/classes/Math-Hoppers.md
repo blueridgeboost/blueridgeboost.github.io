@@ -11,7 +11,6 @@ end_time: "11:30"
 page_title: "Math Hoppers"
 page_subtitle: "Kangaroo Math for Young Explorers"
 featured: 0
-ribbon: "Join Now!"
 title: "Math Hoppers | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
