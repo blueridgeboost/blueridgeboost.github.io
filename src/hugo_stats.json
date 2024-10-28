@@ -124,6 +124,7 @@
       "flex-fill",
       "flex-grow-1",
       "flex-shrink-1",
+      "fullclass",
       "fw-500",
       "g-3",
       "grade-filter",
@@ -137,7 +138,6 @@
       "highlight",
       "img",
       "indicates-required",
-      "joinribbon",
       "justify-content-center",
       "level-architects",
       "level-cadets",
@@ -203,7 +203,6 @@
       "text",
       "text-center",
       "text-muted",
-      "timeribbon",
       "topic",
       "validate"
     ],

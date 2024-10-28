@@ -4,7 +4,7 @@
 {{ $ecwid_category := .Params.category }}
 
 {{ if lt $spaces 1 }}
-    No spaces available!
+    <div class="fullclass">Class is full</div>
 {{ else }}
     {{ $displayButton := false }}
     {{ if eq .Params.start_date "" }}
