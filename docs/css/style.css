@@ -19059,6 +19059,10 @@ span.level-rookies {
 span.level-rookies a {
   color: green; }
 
+div.fullclass {
+  text-align: center;
+  color: darkcyan; }
+
 body {
   background-color: #fff;
   overflow-x: hidden; }

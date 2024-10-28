@@ -15,8 +15,8 @@
     <center>
     {{ $first := true }}
     <div class="radio-group" >
-        {{ range $prices }}
-            <label>
+        {{ range $prices }} 
+            <label> 
             {{ if $first }}
                 {{ if gt .inventory 0 }}
                     <input type="radio" name="payment-{{ $id }}" value="{{.name}}" checked >
@@ -43,5 +43,5 @@
     </form>
 
 {{ else }}
-    No spaces available!
+    <div class="fullclass">Class is full</div>
 {{ end }}

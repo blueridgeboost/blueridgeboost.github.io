@@ -4,14 +4,6 @@
 <span>{{ .Params.ribbon }}</span>
 </div>
 
-<div class="timeribbon">
-    <span>{{ .Params.timeribbon }}</span>
-</div>
-
-<div class="joinribbon">
-    <span>{{ .Params.joinribbon }}</span>
-</div>
-    
 {{.Params.start_time}} &ndash; {{.Params.end_time}} on 
     {{ range .Params.day_tags }} {{.}}s {{end}}
 <br> 

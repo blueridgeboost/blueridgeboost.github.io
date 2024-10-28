@@ -10,11 +10,11 @@ start_date: "2024-11-02"
 end_date: "2024-11-23"
 start_time: "5:00"
 end_time: "6:30"
-page_title: "Intro to 3D Printing"
+page_title: "Beginning 3D Printing"
 page_subtitle: "For Fifth and Sixth Graders"
 featured: 23
 ribbon: "New!"
-title: "Intro to 3D Printing | Blue Ridge Boost"
+title: "Beginning 3D Printing | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
 grade_tags: ["5th", "6th", "7th","8th"]

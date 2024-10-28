@@ -103,6 +103,11 @@ button:disabled {
   cursor: default;
 }
 
+div.fullclass {
+  text-align: center;
+  background-color: lightpink;
+}
+
 /* spinner/processing state, errors */
 .spinner,
 .spinner:before,
