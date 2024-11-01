@@ -2,7 +2,7 @@
 ecwid: 682778868
 product_id: Banana-Tales
 price: 129
-inventory: 5
+inventory: 4
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

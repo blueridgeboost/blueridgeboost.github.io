@@ -2,7 +2,7 @@
 ecwid: 704276618
 product_id: Intro-3D-Printing-Grades-5-6
 price:
-- name: "Nov 2, 9,16, 23"
+- name: "Nov 16, 23; Dec 9, 16"
   price: 165
   inventory: 4
 category: "Session Classes"

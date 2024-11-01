@@ -7,7 +7,7 @@ category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
 start_time: "5:00"
-end_time: "4:00"
+end_time: "6:00"
 page_title: "Math Excellence"
 page_subtitle: "For Third and Fourth Graders"
 featured: 0
