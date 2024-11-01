@@ -2,9 +2,9 @@
 ecwid: 702699291
 product_id: Intro-C-Sharp-Unity
 price:
-- name: "Nov 3, 10, 17, 24"
+- name: "Nov 17, 24; Dec 10, 17"
   price: 165
-  inventory: 6
+  inventory: undefined
 category: "Session Classes"
 start_date: "2024-10-27"
 end_date: "2024-11-17"
