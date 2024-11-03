@@ -4,7 +4,7 @@ product_id: Integrated-Math-1-Practice
 price:
 - name: "Nov 4, 11, 18; Dec 2"
   price: 155
-  inventory: 4
+  inventory: 3
 category: "Group Tutoring"
 start_date: ""
 end_date: "06/03/2025"
