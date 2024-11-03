@@ -8,8 +8,8 @@ price:
 category: "Group Tutoring"
 start_date: ""
 end_date: "06/03/2025"
-start_time: "5:00"
-end_time: "6:00"
+start_time: "6:00"
+end_time: "7:00"
 page_title: "Geometry"
 page_subtitle: "Homework help and extra practice"
 featured: 4
