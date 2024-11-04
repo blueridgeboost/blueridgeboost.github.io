@@ -2,7 +2,7 @@
 ecwid: 696847227
 product_id: Statistics-Practice
 price:
-- name: "Nov 6, 13, 20; Dec 4"
+- name: "Nov 13, 20; Dec 4, 11"
   price: 175
   inventory: 4
 category: "Group Tutoring"

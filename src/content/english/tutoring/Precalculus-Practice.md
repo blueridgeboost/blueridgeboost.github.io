@@ -2,7 +2,7 @@
 ecwid: 696847186
 product_id: Precalculus-Practice
 price:
-- name: "Nov 5, 12, 19; Dec 3"
+- name: "Nov 12, 19; Dec 10, 17"
   price: 155
   inventory: 4
 category: "Group Tutoring"

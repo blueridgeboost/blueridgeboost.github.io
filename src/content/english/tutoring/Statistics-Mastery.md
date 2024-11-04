@@ -2,7 +2,7 @@
 ecwid: 697011165
 product_id: Statistics-Mastery
 price:
-- name: "Nov 3, 10, 17, 24"
+- name: "Nov 10, 17; Dec 8, 17"
   price: 175
   inventory: 4
 category: "Group Tutoring"
