@@ -2,7 +2,7 @@
 ecwid: 696847205
 product_id: Integrated-Math-3-Practice
 price:
-- name: "Nov 5, 12, 19; Dec 3"
+- name: "Nov 12, 19; Dec 3, 10"
   price: 155
   inventory: 4
 category: "Group Tutoring"

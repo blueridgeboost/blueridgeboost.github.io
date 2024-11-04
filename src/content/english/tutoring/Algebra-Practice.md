@@ -2,7 +2,7 @@
 ecwid: 680173017
 product_id: Algebra-Practice
 price:
-- name: "Nov 4,11, 18; Dec 2"
+- name: "Nov 11, 18; Dec 2, 9"
   price: 155
   inventory: 4
 category: "Group Tutoring"

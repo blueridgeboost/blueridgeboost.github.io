@@ -2,7 +2,7 @@
 ecwid: 697011155
 product_id: Integrated-Math-3-Mastery
 price:
-- name: "Nov 2, 9, 16, 23"
+- name: "Nov 9, 16; Dec 7, 14"
   price: 155
   inventory: 4
 category: "Group Tutoring"

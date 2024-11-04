@@ -2,7 +2,7 @@
 ecwid: 680173016
 product_id: Algebra-Mastery
 price:
-- name: "Nov 6, 13, 20; Dec 4"
+- name: "Nov 13, 20; Dec 4. 11"
   price: 155
   inventory: 4
 category: "Group Tutoring"
