@@ -13,7 +13,6 @@ end_time: "5:00"
 page_title: "Roblox Studio"
 page_subtitle: "Creating Your First Experience"
 featured: 19
-ribbon: "New!"
 title: "Roblox Studio | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]

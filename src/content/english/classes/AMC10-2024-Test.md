@@ -2,9 +2,6 @@
 ecwid: 705812435
 product_id: AMC10-2024-Test
 price:
-- name: "November 6, 2024"
-  price: 99
-  inventory: 7
 - name: "November 12, 2024"
   price: 99
   inventory: 7
