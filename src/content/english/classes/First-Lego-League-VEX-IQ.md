@@ -11,6 +11,7 @@ end_time: "6:30"
 page_title: "Vex IQ Robotics Competition (VIQRC)"
 page_subtitle: "Competition Robotics"
 featured: 0
+ribbon: "New!"
 title: "Vex IQ Robotics Competition (VIQRC) | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday", "Wednesday"]

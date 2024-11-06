@@ -2,7 +2,7 @@
 ecwid: 696847227
 product_id: Statistics-Practice
 price:
-- name: "Nov 13, 20; Dec 4, 11"
+- name: "Nov 12, 19; Dec 3, 10"
   price: 175
   inventory: 4
 category: "Group Tutoring"
@@ -15,7 +15,7 @@ page_subtitle: "Homework help"
 featured: 15
 title: "Statistics | Blue Ridge Boost"
 section: tutoring
-day_tags: ["Wednesday"]
+day_tags: ["Tuesday"]
 grade_tags: ["9th","10th","11th","12th"]
 subject_tags: ["Math"]
 difficulty: "Foundation Forgers"
