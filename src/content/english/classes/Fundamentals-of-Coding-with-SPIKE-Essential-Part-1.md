@@ -8,8 +8,8 @@ price:
 category: "Session Classes"
 start_date: "2024-10-22"
 end_date: "2024-12-16"
-start_time: "4:00"
-end_time: "5:00"
+start_time: "4:30"
+end_time: "5:30"
 page_title: "Lego Robots Jr"
 page_subtitle: "Fundamentals of Coding with SPIKE Essential Part 1"
 featured: 16
