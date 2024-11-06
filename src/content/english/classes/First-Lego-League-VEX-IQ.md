@@ -9,7 +9,7 @@ end_date: "2025-03-31"
 start_time: "5:00"
 end_time: "6:30"
 page_title: "Vex IQ Robotics Competition (VIQRC)"
-page_subtitle: "Middle School Competition Robotics"
+page_subtitle: "Competition Robotics"
 featured: 0
 title: "Vex IQ Robotics Competition (VIQRC) | Blue Ridge Boost"
 section: classes
