@@ -8,16 +8,16 @@ price:
 category: "Group Tutoring"
 start_date: ""
 end_date: "06/03/2025"
-start_time: "7:00"
-end_time: "8:00"
-page_title: "Algebra"
+start_time: "6:00"
+end_time: "7:00"
+page_title: "Algebra 1"
 page_subtitle: "Extra Practice"
 featured: 0
-title: "Algebra | Blue Ridge Boost"
+title: "Algebra 1 | Blue Ridge Boost"
 section: tutoring
 day_tags: ["Wednesday"]
-grade_tags: ["7th","8th","9th","10th"]
+grade_tags: ["7th","8th"]
 subject_tags: ["Math"]
 difficulty: "Skill Sculptors"
 ---
-<p>Who should join?</p><p>This class is ideal for students who are generally doing well in their algebra class but:</p><ul><li>Find some homework problems particularly difficult.</li><li>Want to explore algebraic concepts in greater depth.</li><li>Are looking for a challenge beyond their regular coursework.</li></ul>
+<p><strong>Algebra 1 Success Made Simple!</strong></p> <h3>Join Blue Ridge Boost's Group Algebra Sessions:</h3> <ul> <li><strong>Focused Learning:</strong> Small groups of 4 students</li> <li><strong>Expert Guidance:</strong> Excel in your algebra homework</li> <li><strong>Clear Explanations:</strong> Understand equations and functions</li> <li><strong>Interactive Practice:</strong> Build problem-solving skills</li> <li><strong>Weekly Sessions:</strong> 60 minutes each</li> <li><strong>Comprehensive Coverage:</strong> All key Algebra 1 topics</li> <li><strong>Boost Your Grades and Confidence</strong></li></ul><p><strong>Enroll in Blue Ridge Boost's Algebra Group today!</strong></p>
