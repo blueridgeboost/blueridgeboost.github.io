@@ -14,7 +14,7 @@ featured: 0
 title: "Vex IQ Rapid Relay | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
-grade_tags: ["5th", "6th", "7th","8th"]
+grade_tags: ["3rd", "4th","5th", "6th", "7th","8th"]
 subject_tags: ["Robotics"]
 difficulty: "Bot Builders Elite"
 ---
