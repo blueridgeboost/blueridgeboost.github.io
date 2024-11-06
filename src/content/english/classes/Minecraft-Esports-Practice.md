@@ -20,7 +20,7 @@ ribbon: "New!"
 title: "Minecraft Education Esports | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
-grade_tags: ["5th","6th","7th","8th"]
+grade_tags: ["4th","5th","6th","7th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 ---
