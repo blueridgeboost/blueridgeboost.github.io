@@ -208,7 +208,7 @@
       <link>https://blueridgeboost.com/classes/Block-Coding-with-Minecraft-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Block-Coding-with-Minecraft-1/</guid>
-      <description>This five-class sequence introduces the students to fundamental computer science concepts, including events and coordinates. Students will use a coding environment embedded in Minecraft Education to code their own commands, which they will then use in the game.&#xA;Leveraging the engaging world of Minecraft Education, students will:&#xA;Explore a custom coding environment integrated within the game Learn to write and execute their own commands Apply coding principles to manipulate the Minecraft world in real-time Develop problem-solving skills through interactive challenges Gain hands-on experience with spatial reasoning and algorithmic thinking By the end of the course, students will have a solid foundation in basic programming concepts, enhanced creativity, and improved logical reasoning skills—all while enjoying the familiar and exciting Minecraft platform.</description>
+      <description>This four-class sequence introduces the students to fundamental computer science concepts, including events and coordinates. Students will use a coding environment embedded in Minecraft Education to code their own commands, which they will then use in the game.&#xA;Leveraging the engaging world of Minecraft Education, students will:&#xA;Explore a custom coding environment integrated within the game Learn to write and execute their own commands Apply coding principles to manipulate the Minecraft world in real-time Develop problem-solving skills through interactive challenges Gain hands-on experience with spatial reasoning and algorithmic thinking By the end of the course, students will have a solid foundation in basic programming concepts, enhanced creativity, and improved logical reasoning skills—all while enjoying the familiar and exciting Minecraft platform.</description>
     </item>
     <item>
       <title>Chess Tactics and Games on Dec 7 | Blue Ridge Boost</title>
@@ -463,13 +463,6 @@
       <description>MATH OLYMPIAD 2024-2025&#xA;Unleash Your Mathematical Genius!&#xA;🏆 Calling All Young Math Stars (Grades 3-6)&#xA;Challenge your mind and discover the excitement of problem-solving at this year&#39;s Math Olympiad! Join hundreds of bright young mathematicians for an unforgettable experience.&#xA;Why Participate?&#xA;• Boost your critical thinking skills&#xA;• Meet other math enthusiasts&#xA;• Gain competition experience&#xA;The unique problem sets must be administered each month from November through March.&#xA;You can participate in any or all contests.</description>
     </item>
     <item>
-      <title>Minecraft Education for Beginners | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Minecraft-Education-Beginners/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Minecraft-Education-Beginners/</guid>
-      <description>🎮 Start Your Minecraft Adventure! 🎮&#xA;Join our beginner-friendly class and dive into the world of Minecraft!&#xA;What You&#39;ll Learn:&#xA;🏗️ Building Basics: Master the essentials of crafting and construction. 🌿 Survival Skills: Learn how to gather resources and thrive in survival mode. 🗺️ Exploration Tips: Discover exciting biomes and hidden treasures. 👥 Multiplayer Fun: Connect with others and enjoy cooperative gameplay.&#xA;Free pizza included!</description>
-    </item>
-    <item>
       <title>Minecraft Education for Elementary School | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Minecraft-Education-Elementary-School/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -524,13 +517,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/parents-night-out/pno-2025-05-09/</guid>
       <description></description>
-    </item>
-    <item>
-      <title>TechQuest | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/TechQuest/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/TechQuest/</guid>
-      <description>Fall: The VEX GO CompetitionThe VEX GO Competition (VGOC) is an introductory robotics program designed for elementary school students, typically ages 5-11. It uses the VEX GO building system, which features large, colorful, and easy-to-handle components. Teams of students work together to design, build, and program simple robots to complete challenges on a small playing field. The competition emphasizes hands-on learning, problem-solving, and teamwork while introducing young learners to basic engineering and coding concepts in a fun, engaging environment.</description>
     </item>
   </channel>
 </rss>
