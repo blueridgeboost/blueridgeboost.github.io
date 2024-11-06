@@ -9,7 +9,7 @@ end_date: "2025-06-03"
 start_time: "6:00"
 end_time: "7:00"
 page_title: "Math Boost"
-page_subtitle: "For Fifth, Sixth, and Seventh Graders"
+page_subtitle: "For Fifth and Sixth Graders"
 featured: 0
 title: "Math Boost | Blue Ridge Boost"
 section: classes
