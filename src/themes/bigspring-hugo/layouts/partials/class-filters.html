@@ -24,7 +24,7 @@
     </p>
     <p>
         <b>Subject:&nbsp;&nbsp;</b>
-        {{ range $tag := (slice "Math" "Computer Coding" "Robotics") }}
+        {{ range $tag := (slice "Math" "Computer Coding" "Robotics" "Chess") }}
         <label>
             <span class="filter-box">
                 <input type="checkbox" class="subject-filter" value="{{ $tag }}" onchange="filterClasses()"> {{ $tag }}

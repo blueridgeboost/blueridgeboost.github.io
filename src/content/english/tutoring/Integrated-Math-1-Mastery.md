@@ -16,7 +16,7 @@ featured: 6
 title: "Integrated Math 1 | Blue Ridge Boost"
 section: tutoring
 day_tags: ["Saturday"]
-grade_tags: ["7th","8th","9th","10th"]
+grade_tags: ["8th","9th"]
 subject_tags: ["Math"]
 difficulty: "Skill Sculptors"
 ---
