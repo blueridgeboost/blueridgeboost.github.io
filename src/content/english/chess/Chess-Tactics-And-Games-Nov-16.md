@@ -13,7 +13,7 @@ page_subtitle: "undefined"
 featured: 2
 title: "Chess Tactics and Games on Nov 16 | Blue Ridge Boost"
 section: chess
-day_tags: ["Thursday"]
+day_tags: ["Saturday"]
 grade_tags: ["1st","2nd","3rd","4th","5th","6th","7th"]
 subject_tags: Chess
 difficulty: ""

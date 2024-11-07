@@ -7,6 +7,7 @@ description: "Sign up to learn robotics, coding, and math!"
 draft: false
 # content section
 section: "classes"
+layout: "list"
 
 ---
 

@@ -10,13 +10,13 @@ start_date: ""
 end_date: "06/03/2025"
 start_time: "4:00"
 end_time: "5:00"
-page_title: "Integrated Math 2"
+page_title: "Integrated Math 2/Algebra 2"
 page_subtitle: "Reinforcing Classroom Concepts"
 featured: 9
-title: "Integrated Math 2 | Blue Ridge Boost"
+title: "Integrated Math 2/Algebra 2 | Blue Ridge Boost"
 section: tutoring
 day_tags: ["Saturday"]
-grade_tags: ["9th","10th", "11th"]
+grade_tags: ["9th","10th"]
 subject_tags: ["Math"]
 difficulty: "Skill Sculptors"
 ---
