@@ -5,7 +5,7 @@ price:
 - name: "Dec 30, 31"
   price: 165
   inventory: 12
-category: "Session Classes"
+category: "1-Day Camps"
 start_date: "2024-12-30"
 end_date: "2024-12-31"
 start_time: "9:00"
@@ -15,7 +15,7 @@ page_subtitle: "Create your own Roblox Game!"
 featured: 30
 ribbon: "New!"
 title: "Roblox 2-Day Winter Camp | Blue Ridge Boost"
-section: classes
+section: camps
 day_tags: ["Monday", "Tuesday"]
 grade_tags: ["1st", "2nd","3rd","4th"]
 subject_tags: ["Computer Coding"]

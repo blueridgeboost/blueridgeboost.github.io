@@ -8,7 +8,7 @@ price:
 - name: "Dec 26, 27"
   price: 165
   inventory: 6
-category: "Session Classes"
+category: "1-Day Camps"
 start_date: "2024-12-23"
 end_date: "2024-12-17"
 start_time: "9:00"
@@ -18,7 +18,7 @@ page_subtitle: "Create and share the season joy"
 featured: 28
 ribbon: "New!"
 title: "3D Printing 2-Day Winter Camp | Blue Ridge Boost"
-section: classes
+section: camps
 day_tags: ["Monday","Tuesday"]
 grade_tags: ["4th","5th","6th"]
 subject_tags: ["Computer Coding"]
