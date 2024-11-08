@@ -4,10 +4,10 @@ product_id: Winter-24-3D-Print
 price:
 - name: "Dec 23, 24"
   price: 165
-  inventory: undefined
+  inventory: 6
 - name: "Dec 26, 27"
   price: 165
-  inventory: undefined
+  inventory: 6
 category: "Session Classes"
 start_date: "2024-12-23"
 end_date: "2024-12-17"

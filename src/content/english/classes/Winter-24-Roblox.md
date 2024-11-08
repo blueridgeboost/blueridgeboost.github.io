@@ -4,7 +4,7 @@ product_id: Winter-24-Roblox
 price:
 - name: "Dec 30, 31"
   price: 165
-  inventory: undefined
+  inventory: 12
 category: "Session Classes"
 start_date: "2024-12-30"
 end_date: "2024-12-31"
