@@ -1,10 +1,10 @@
 ---
-ecwid: 708112744
+ecwid: 705812435
 product_id: AMC10-2024-Test
 price:
 - name: "November 12, 2024"
   price: 99
-  inventory: 9
+  inventory: 7
 category: "Session Classes"
 start_date: "2024-11-06"
 end_date: "2024-11-12"

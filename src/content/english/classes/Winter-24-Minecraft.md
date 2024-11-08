@@ -1,13 +1,13 @@
 ---
-ecwid: 708114663
+ecwid: 708094582
 product_id: Winter-24-Minecraft
 price:
-- name: "Dec 23, 24"
-  price: 165
-  inventory: 12
 - name: "Dec 26, 27"
   price: 165
-  inventory: 12
+  inventory: undefined
+- name: "Dec 23, 24"
+  price: 165
+  inventory: undefined
 category: "Session Classes"
 start_date: "2024-12-23"
 end_date: "2024-12-17"

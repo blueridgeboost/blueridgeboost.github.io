@@ -1,5 +1,5 @@
 ---
-ecwid: 708117538
+ecwid: 696847227
 product_id: Statistics-Practice
 price:
 - name: "Nov 12, 19; Dec 3, 10"

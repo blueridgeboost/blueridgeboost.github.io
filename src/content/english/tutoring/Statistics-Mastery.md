@@ -1,5 +1,5 @@
 ---
-ecwid: 708114908
+ecwid: 697011165
 product_id: Statistics-Mastery
 price:
 - name: "Nov 10, 17; Dec 8, 17"
