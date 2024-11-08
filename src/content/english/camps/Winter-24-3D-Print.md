@@ -8,6 +8,9 @@ price:
 - name: "Dec 26, 27"
   price: 165
   inventory: 6
+- name: "Dec 30, 31"
+  price: 165
+  inventory: 6
 category: "1-Day Camps"
 start_date: "2024-12-23"
 end_date: "2024-12-17"
