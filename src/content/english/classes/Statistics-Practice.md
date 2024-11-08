@@ -1,5 +1,5 @@
 ---
-ecwid: 696847227
+ecwid: 708117538
 product_id: Statistics-Practice
 price:
 - name: "Nov 12, 19; Dec 3, 10"
@@ -12,7 +12,7 @@ start_time: "5:30"
 end_time: "7:00"
 page_title: "Statistics"
 page_subtitle: "Homework help"
-featured: 15
+featured: 0
 title: "Statistics | Blue Ridge Boost"
 section: classes
 day_tags: ["Tuesday"]

@@ -1,20 +1,20 @@
 ---
-ecwid: 705844256
+ecwid: 708114662
 product_id: MOEM-24-25-M-Contest
 price:
-- name: "November 16, 2024"
-  price: 29
-  inventory: 32
-- name: "December 14, 2024"
-  price: 29
-  inventory: 32
-- name: "January 18, 2025"
+- name: "March 22, 2025"
   price: 29
   inventory: 32
 - name: "February 15, 2025"
   price: 29
   inventory: 32
-- name: "March 22, 2025"
+- name: "January 18, 2025"
+  price: 29
+  inventory: 32
+- name: "December 14, 2024"
+  price: 29
+  inventory: 32
+- name: "November 16, 2024"
   price: 29
   inventory: 32
 category: "Session Classes"

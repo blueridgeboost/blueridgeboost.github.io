@@ -1,5 +1,5 @@
 ---
-ecwid: 697011165
+ecwid: 708114908
 product_id: Statistics-Mastery
 price:
 - name: "Nov 10, 17; Dec 8, 17"
@@ -12,7 +12,7 @@ start_time: "4:00"
 end_time: "6:30"
 page_title: "Statistics"
 page_subtitle: "Extra Practice"
-featured: 14
+featured: 0
 title: "Statistics | Blue Ridge Boost"
 section: tutoring
 day_tags: ["Sunday"]

@@ -1,5 +1,5 @@
 ---
-ecwid: 696847186
+ecwid: 708114664
 product_id: Precalculus-Practice
 price:
 - name: "Nov 12, 19; Dec 10, 17"
@@ -12,7 +12,7 @@ start_time: "5:00"
 end_time: "6:00"
 page_title: "Precalculus"
 page_subtitle: "Homework help"
-featured: 5
+featured: 0
 title: "Precalculus | Blue Ridge Boost"
 section: classes
 day_tags: ["Tuesday"]

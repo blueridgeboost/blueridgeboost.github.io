@@ -197,11 +197,32 @@
       <description>Join us for an exhilarating exploration of robotics, coding, chess, and math. Teamwork and collaboration are at the heart of our camp experience. Students will have the opportunity to work together, share ideas, and solve challenges. Through hands-on activities and group projects, students will develop critical thinking skills and learn the importance of effective communication.</description>
     </item>
     <item>
+      <title>3D Printing | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Intro-3D-Printing-Grades-5-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Intro-3D-Printing-Grades-5-6/</guid>
+      <description>Class 1: Introduction to 3D Printing What is 3D printing and what is it used for? How to use a 3D printer? Where to find STL files How to convert STL to gcode Class 2: Advanced Techniques Prusa Slicer basics How to CAD Design considerations while Cading for 3D printing Design iteration Class 3: Troubleshooting Common issues with 3D printers Why some prints fail? Class 4: Material Considerations Printing with PLA, PETG, and TPU What are the differences between PLA, PETG, and TPU?</description>
+    </item>
+    <item>
+      <title>After Coding Camp Care | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Winter-24-After/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Winter-24-After/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Banana Code Quest | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Banana-Code-Quest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Banana-Code-Quest/</guid>
       <description>Banana Code Quest is a gamified coding course designed to teach young students real-world coding from the first challenge. Through engaging puzzles and adventures, students help a monkey catch bananas and outsmart various animals while learning fundamental and advanced coding concepts in a fun and interactive way.&#xA;Key Features Real Coding Language: Students will code using CoffeeScript, a language similar to JavaScript but with a friendlier syntax, making it perfect for kids.</description>
+    </item>
+    <item>
+      <title>Before Camp Care | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Winter-24-Before/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Winter-24-Before/</guid>
+      <description></description>
     </item>
     <item>
       <title>Block Coding with Minecraft | Blue Ridge Boost</title>
@@ -240,17 +261,31 @@
     </item>
     <item>
       <title>First Lego League Explore | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/FLL-Explore-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/FLL-Explore-1/</guid>
+      <description>Dive into the world of Lego robotics Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
+    </item>
+    <item>
+      <title>First Lego League Explore | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/FLL-Explore-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/FLL-Explore-2/</guid>
+      <description>Dive into the world of Lego robotics Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
+    </item>
+    <item>
+      <title>First Lego League Explore | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/FLL-Explore-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/FLL-Explore-3/</guid>
+      <description>Dive into the world of Lego robotics Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
+    </item>
+    <item>
+      <title>First Lego League Explore | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/FLL-Explore-on-Saturday/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/FLL-Explore-on-Saturday/</guid>
       <description>Dive into the world of Lego robotics Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics! </description>
-    </item>
-    <item>
-      <title>First Lego League Explore | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/FLL-Explore/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/FLL-Explore/</guid>
-      <description>Dive into the world of Lego robotics Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
     </item>
     <item>
       <title>Girl Powered Fridays on 2024-11-15 | Blue Ridge Boost</title>
@@ -337,6 +372,13 @@
       <description>MATH OLYMPIAD 2024-2025&#xA;Unleash Your Mathematical Genius!&#xA;🏆 Calling All Young Math Stars (Grades 3-6)&#xA;Challenge your mind and discover the excitement of problem-solving at this year&#39;s Math Olympiad! Join hundreds of bright young mathematicians for an unforgettable experience.&#xA;Why Participate?&#xA;• Boost your critical thinking skills&#xA;• Meet other math enthusiasts&#xA;• Gain competition experience&#xA;The unique problem sets must be administered each month from November through March.&#xA;You can participate in any or all contests.</description>
     </item>
     <item>
+      <title>Minecraft 2-Day Winter Camp | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Winter-24-Minecraft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Winter-24-Minecraft/</guid>
+      <description>Come and play Minecraft with friends.&#xA;Before and after care is available!</description>
+    </item>
+    <item>
       <title>Minecraft Education for Elementary School | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Minecraft-Education-Elementary-School/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -391,6 +433,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/parents-night-out/pno-2025-05-09/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Roblox 2-Day Winter Camp | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Winter-24-Roblox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Winter-24-Roblox/</guid>
+      <description>Before and after care is available!</description>
     </item>
   </channel>
 </rss>

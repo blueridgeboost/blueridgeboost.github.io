@@ -1,10 +1,10 @@
 ---
-ecwid: 696846655
+ecwid: 708117534
 product_id: Integrated-Math-1-Practice
 price:
 - name: "Nov 11, 18; Dec 2, 9"
   price: 155
-  inventory: 3
+  inventory: 4
 category: "Session Classes"
 start_date: ""
 end_date: "06/03/2025"
@@ -12,7 +12,7 @@ start_time: "4:00"
 end_time: "5:00"
 page_title: "Integrated Math 1"
 page_subtitle: "Homework help"
-featured: 7
+featured: 0
 title: "Integrated Math 1 | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday"]

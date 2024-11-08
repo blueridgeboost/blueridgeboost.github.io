@@ -1,5 +1,5 @@
 ---
-ecwid: 702301234
+ecwid: 708115392
 product_id: Chess-Tactics-And-Games-Nov-16
 price: 45
 inventory: 4

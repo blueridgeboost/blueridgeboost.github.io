@@ -8,6 +8,20 @@
     <language>en-US</language>
     <atom:link href="https://blueridgeboost.com/subject_tags/Computer-Coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>3D Printing 2-Day Winter Camp | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Winter-24-3D-Print/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Winter-24-3D-Print/</guid>
+      <description>Learn to find and modify 3D printing models.&#xA;Learn to create your own design.&#xA;Take home your creations.&#xA;Before and after care is available!</description>
+    </item>
+    <item>
+      <title>After Coding Camp Care | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Winter-24-After/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Winter-24-After/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Banana Code Quest | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Banana-Code-Quest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -22,6 +36,13 @@
       <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, functions, and introduces more complex topics like classes, string manipulation, and sorting algorithms. With step-by-step instructions, interactive quizzes, and a supportive learning environment, this course provides a fun and effective way for 5th and 6th graders to develop their programming skills.</description>
     </item>
     <item>
+      <title>Before Camp Care | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Winter-24-Before/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Winter-24-Before/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Block Coding with Minecraft | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Block-Coding-with-Minecraft-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -34,6 +55,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Kids-Coding-Course/</guid>
       <description>Students learn sequencing, repetition, problem-solving, and conditional logic while developing practical coding skills. The course employs a hands-on, gamified approach that gradually increases in complexity, allowing each child to advance at their own speed. By the end, students can create sophisticated programs, having built a strong foundation in coding and computational thinking.&#xA;We start to learn fundamental coding concepts by helping a beaver build a dam! The learning continues with learning to code games in Scratch.</description>
+    </item>
+    <item>
+      <title>Minecraft 2-Day Winter Camp | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Winter-24-Minecraft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Winter-24-Minecraft/</guid>
+      <description>Come and play Minecraft with friends.&#xA;Before and after care is available!</description>
     </item>
     <item>
       <title>Minecraft Education Esports | Blue Ridge Boost</title>
@@ -57,11 +85,25 @@
       <description>This course is a comprehensive, year-long program designed for middle school students with no prior coding experience. It introduces fundamental programming concepts using Python through interactive exercises and projects centered around controlling a virtual character named Tracy. The course covers commands, functions, loops, variables, conditionals, and lists, progressing to more complex tasks like user interaction and creating visual projects.&#xA;Topics include:&#xA;Commands Understanding basic commands is crucial as it forms the foundation of programming, allowing Tracy to perform specific actions.</description>
     </item>
     <item>
+      <title>Roblox 2-Day Winter Camp | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Winter-24-Roblox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Winter-24-Roblox/</guid>
+      <description>Before and after care is available!</description>
+    </item>
+    <item>
       <title>Roblox Studio | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Intro-to-Roblox-Studio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Intro-to-Roblox-Studio/</guid>
       <description>This class is perfect for students who are new to creating games in Roblox. We will teach you how to create your first Roblox experience using Roblox Studio. You will use a Baseplate template and a high-quality catapult asset pack to build and organize a data model, customize 3D objects, and organize scripts for proper simulation. We will guide you through testing, publishing, and managing your experience for a global audience, using project templates and asset packs from the Creator Store to simplify the process.</description>
+    </item>
+    <item>
+      <title>Scratch | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Scratch-First-and-Second/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Scratch-First-and-Second/</guid>
+      <description>Come and learn to code your own games in Scratch!</description>
     </item>
     <item>
       <title>Video Game Design | Blue Ridge Boost</title>

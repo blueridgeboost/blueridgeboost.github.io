@@ -1,5 +1,5 @@
 ---
-ecwid: 704276618
+ecwid: 708114905
 product_id: Intro-3D-Printing-Grades-5-6
 price:
 - name: "Nov 16, 23; Dec 9, 16"
@@ -17,7 +17,7 @@ ribbon: "New!"
 title: "3D Printing | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
-grade_tags: ["5th", "6th", "7th","8th"]
+grade_tags: ["3rd","4th", "5th", "6th"]
 subject_tags: ["Coding"]
 difficulty: "Code Cadets"
 ---
