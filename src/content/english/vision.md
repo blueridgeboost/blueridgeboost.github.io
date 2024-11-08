@@ -2,7 +2,7 @@
 title: "Vision and History | Blue Ridge Boost"
 page_title: "Blue Ridge Boost"
 # meta description
-description: "Computer science, robotics, math, computer and chess for high achieving students right here, in Charlottesville!"
+description: "Robotics, math, computing and chess for eager learners in Charlottesville!"
 draft: false
 ---
 
