@@ -1,13 +1,13 @@
 ---
-ecwid: 708112742
+ecwid: 708094569
 product_id: Winter-24-3D-Print
 price:
-- name: "Dec 26, 27"
-  price: 165
-  inventory: 6
 - name: "Dec 23, 24"
   price: 165
-  inventory: 6
+  inventory: undefined
+- name: "Dec 26, 27"
+  price: 165
+  inventory: undefined
 category: "Session Classes"
 start_date: "2024-12-23"
 end_date: "2024-12-17"

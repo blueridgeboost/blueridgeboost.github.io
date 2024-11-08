@@ -1,5 +1,5 @@
 ---
-ecwid: 708114657
+ecwid: 705831084
 product_id: AMC8-2025-Test
 price:
 - name: "January 25, 2025"

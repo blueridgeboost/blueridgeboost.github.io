@@ -1,10 +1,10 @@
 ---
-ecwid: 708116370
+ecwid: 705446372
 product_id: Minecraft-Education-Elementary-School
 price:
 - name: "December 8"
   price: 59
-  inventory: 12
+  inventory: 11
 category: "Session Classes"
 start_date: ""
 end_date: ""
