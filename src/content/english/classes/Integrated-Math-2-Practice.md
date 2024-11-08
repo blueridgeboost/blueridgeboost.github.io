@@ -1,5 +1,5 @@
 ---
-ecwid: 696847203
+ecwid: 708117535
 product_id: Integrated-Math-2-Practice
 price:
 - name: "Nov 11, 18; Dec 9, 16"
@@ -12,7 +12,7 @@ start_time: "5:00"
 end_time: "6:00"
 page_title: "Integrated Math 2/Algebra 2"
 page_subtitle: "Homework help"
-featured: 8
+featured: 0
 title: "Integrated Math 2/Algebra 2 | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday"]

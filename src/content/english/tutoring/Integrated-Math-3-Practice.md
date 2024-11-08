@@ -1,5 +1,5 @@
 ---
-ecwid: 696847205
+ecwid: 708114660
 product_id: Integrated-Math-3-Practice
 price:
 - name: "Nov 12, 19; Dec 3, 10"
@@ -12,7 +12,7 @@ start_time: "4:00"
 end_time: "5:00"
 page_title: "Integrated Math 3"
 page_subtitle: "Homework help"
-featured: 10
+featured: 0
 title: "Integrated Math 3 | Blue Ridge Boost"
 section: tutoring
 day_tags: ["Tuesday"]

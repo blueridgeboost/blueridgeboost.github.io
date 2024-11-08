@@ -1,5 +1,5 @@
 ---
-ecwid: 680173017
+ecwid: 708112743
 product_id: Algebra-Practice
 price:
 - name: "Nov 11, 18; Dec 2, 9"
@@ -12,7 +12,7 @@ start_time: "3:00"
 end_time: "4:00"
 page_title: "Algebra 1"
 page_subtitle: "Homework Help"
-featured: 21
+featured: 0
 title: "Algebra 1 | Blue Ridge Boost"
 section: tutoring
 day_tags: ["Saturday"]

@@ -4,9 +4,14 @@
 <span>{{ .Params.ribbon }}</span>
 </div>
 
-{{.Params.start_time}} &ndash; {{.Params.end_time}} on 
-    {{ range .Params.day_tags }} {{.}}s {{end}}
-<br> 
+{{.Params.start_time}} &ndash; {{.Params.end_time}}
+{{ with .Params.day_tags }}
+    {{ if eq (len . ) 1 }}
+    on 
+        {{ range . }} {{.}}s {{end}}
+    {{ end }}
+{{ end }}
+    <br> 
 
 {{ if eq $ecwid_category "Subscription Classes" }}
     {{ if eq .Params.start_date "" }}

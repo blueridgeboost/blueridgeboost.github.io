@@ -1,5 +1,5 @@
 ---
-ecwid: 702296730
+ecwid: 708114647
 product_id: Chess-Tactics-And-Games-Dec-7
 price:
 - name: "2024-12-07"

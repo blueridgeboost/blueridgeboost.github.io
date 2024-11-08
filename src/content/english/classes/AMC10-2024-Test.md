@@ -1,10 +1,10 @@
 ---
-ecwid: 705812435
+ecwid: 708112744
 product_id: AMC10-2024-Test
 price:
 - name: "November 12, 2024"
   price: 99
-  inventory: 7
+  inventory: 9
 category: "Session Classes"
 start_date: "2024-11-06"
 end_date: "2024-11-12"
@@ -12,7 +12,7 @@ start_time: "5:30"
 end_time: "7:30"
 page_title: "AMC 10 Test"
 page_subtitle: "Take the AMC10 Tests at Blue Ridge Boost"
-featured: 26
+featured: 0
 ribbon: "New!"
 title: "AMC 10 Test | Blue Ridge Boost"
 section: classes

@@ -1,5 +1,5 @@
 ---
-ecwid: 696833463
+ecwid: 708116368
 product_id: Calculus-AB-Practice
 price:
 - name: "Nov 13, 20; Dec 4, 11"
@@ -12,7 +12,7 @@ start_time: "6:00"
 end_time: "7:30"
 page_title: "Calculus AB/BC"
 page_subtitle: "Homework help"
-featured: 12
+featured: 0
 title: "Calculus AB/BC | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday"]

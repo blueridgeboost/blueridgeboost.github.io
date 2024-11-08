@@ -1,10 +1,10 @@
 ---
-ecwid: 702693330
+ecwid: 708112748
 product_id: Intro-to-Roblox-Studio
 price:
 - name: "Nov 2, 9, 16, 23"
   price: 165
-  inventory: 4
+  inventory: 0
 category: "Session Classes"
 start_date: "2024-10-26"
 end_date: "2024-11-16"
@@ -12,7 +12,7 @@ start_time: "3:30"
 end_time: "5:00"
 page_title: "Roblox Studio"
 page_subtitle: "Creating Your First Experience"
-featured: 19
+featured: 0
 title: "Roblox Studio | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]

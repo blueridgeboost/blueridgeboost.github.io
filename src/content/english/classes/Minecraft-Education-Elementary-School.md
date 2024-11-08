@@ -1,10 +1,10 @@
 ---
-ecwid: 705446372
+ecwid: 708116370
 product_id: Minecraft-Education-Elementary-School
 price:
 - name: "December 8"
   price: 59
-  inventory: 11
+  inventory: 12
 category: "Session Classes"
 start_date: ""
 end_date: ""
@@ -12,7 +12,7 @@ start_time: "5:30"
 end_time: "7:30"
 page_title: "Minecraft Education for Elementary School"
 page_subtitle: "Join the Fun with Friends!"
-featured: 24
+featured: 25
 ribbon: "New!"
 title: "Minecraft Education for Elementary School | Blue Ridge Boost"
 section: classes

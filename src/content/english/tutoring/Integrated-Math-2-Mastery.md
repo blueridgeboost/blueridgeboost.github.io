@@ -1,5 +1,5 @@
 ---
-ecwid: 697011154
+ecwid: 708114659
 product_id: Integrated-Math-2-Mastery
 price:
 - name: "Nov 9, 16; Dec 7, 14"
@@ -12,7 +12,7 @@ start_time: "4:00"
 end_time: "5:00"
 page_title: "Integrated Math 2/Algebra 2"
 page_subtitle: "Reinforcing Classroom Concepts"
-featured: 9
+featured: 0
 title: "Integrated Math 2/Algebra 2 | Blue Ridge Boost"
 section: tutoring
 day_tags: ["Saturday"]

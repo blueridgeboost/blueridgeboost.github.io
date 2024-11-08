@@ -1,5 +1,5 @@
 ---
-ecwid: 702296455
+ecwid: 708112745
 product_id: Block-Coding-with-Minecraft-1
 price:
 - name: "Nov 7, 14, 21; Dec 5"
@@ -12,7 +12,7 @@ start_time: "5:00"
 end_time: "6:30"
 page_title: "Block Coding with Minecraft"
 page_subtitle: "Learn with Minecraft Education"
-featured: 17
+featured: 0
 ribbon: "New!"
 title: "Block Coding with Minecraft | Blue Ridge Boost"
 section: classes

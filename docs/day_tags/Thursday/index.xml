@@ -8,6 +8,20 @@
     <language>en-US</language>
     <atom:link href="https://blueridgeboost.com/day_tags/Thursday/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>After Coding Camp Care | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Winter-24-After/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Winter-24-After/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Before Camp Care | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Winter-24-Before/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Winter-24-Before/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Block Coding with Minecraft | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Block-Coding-with-Minecraft-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -16,9 +30,16 @@
     </item>
     <item>
       <title>First Lego League Explore | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/FLL-Explore/</link>
+      <link>https://blueridgeboost.com/classes/FLL-Explore-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/FLL-Explore/</guid>
+      <guid>https://blueridgeboost.com/classes/FLL-Explore-1/</guid>
+      <description>Dive into the world of Lego robotics Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
+    </item>
+    <item>
+      <title>First Lego League Explore | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/FLL-Explore-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/FLL-Explore-2/</guid>
       <description>Dive into the world of Lego robotics Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
     </item>
     <item>
@@ -34,6 +55,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Math-Excellence-3-4/</guid>
       <description>In our advanced math class, we harness the engaging and comprehensive materials from Beast Academy to cultivate a deep understanding and passion for mathematics. Each student embarks on a personalized mathematical journey under the guidance of an expert Blue Ridge Boost instructor.&#xA;Class Structure Introduction: Each session begins with a concise lesson introducing new concepts and exercise types. Guided Practice: Students then apply these concepts through hands-on problem-solving, with instructor support readily available.</description>
+    </item>
+    <item>
+      <title>Minecraft 2-Day Winter Camp | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Winter-24-Minecraft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Winter-24-Minecraft/</guid>
+      <description>Come and play Minecraft with friends.&#xA;Before and after care is available!</description>
     </item>
   </channel>
 </rss>
