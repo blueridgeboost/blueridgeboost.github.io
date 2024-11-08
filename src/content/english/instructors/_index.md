@@ -12,9 +12,9 @@ owner:
   name: "Nora Evans"
   role: "Founder and CEO. Coding, robotics and math teacher."
   photo: "/images/instructors/evansnora.png"
-  bio: "Nora is originally from Bucharest, Romania and earned a B.Sc. in Computer Science at the Polytechnic University of Bucharest. Nora moved to Charlottesville in the Fall of 2004 to pursue graduate school at the University of Virginia, where I earned a Master's in Computer Science in 2006, a Master of Science in Mathematics in 2014, and a Master of Teaching in 2022. Some of Nora's accomplishments include:  [co-author](https://scholar.google.com/citations?user=BTsjtmgAAAAJ&hl=en&oi=ao) of several research articles in computer science and several years of industry experience as a Java software developer. Nora has extensive teaching experience as Lecturer in the Mathematics Department, Algebra teacher at Peabody School, math student-teacher at Monticello High School, teaching and research assistant in the Computer Science Department.
+  bio: "Nora is originally from Bucharest, Romania and earned a B.Sc. in Computer Science at the Polytechnic University of Bucharest. Nora moved to Charlottesville in the Fall of 2004 to pursue graduate school at the University of Virginia, where she earned a Master's in Computer Science in 2006, a Master of Science in Mathematics in 2014, and a Master of Teaching in 2022. Nora [published serveral research articles in computer science](https://scholar.google.com/citations?user=BTsjtmgAAAAJ&hl=en&oi=ao) and has several years of industry experience as a software developer. Nora has extensive teaching experience as Lecturer in the Mathematics Department at UVA, Algebra teacher at Peabody School, math student-teacher at Monticello High School, teaching and research assistant in the Computer Science Department at UVA.
   
-  At Blue Ridge Boost, Nora selects and develop class content, coaches the robotics competition teams, and teaches advanced math and computer science classes.
+  At Blue Ridge Boost, Nora selects and develops class content, coaches the robotics competition teams, teaches advanced math and computer science classes, and tutors students in math and computer science.
   "
 
 coordinator:
@@ -22,9 +22,9 @@ coordinator:
   name: "Ransford Dunu"
   role: "Manager. Coding and robotics."
   photo: "/images/instructors/ransford.png"
-  bio: "Ransford is originally from Koforidua, Ghana and moved to Charlottesville, Virginia with his parents as an infant. Currently, Ransford works toward an Associate's Degree in Mechanical Engineering with a minor in Computer Science.
+  bio: "Ransford is originally from Koforidua, Ghana. He moved to Charlottesville, Virginia with his parents as an infant. Currently, Ransford is working towards an Associate's Degree in Mechanical Engineering with a minor in Computer Science.
   
-  Ransford has experience in teaching teens and kids how to code. Through NSBE(Nation Society of Black Engineers) and Mrs. Early from Albemarle High School Ranford taught middle schoolers to code a Sphero bots. During that time I helped the students to understand critical thinking and problem-solving skills to be able to guide the Sphero out of not just one maze but an array of mazes with the same code.
+  Ransford has experience in teaching teens and kids how to code. Through NSBE (National Society of Black Engineers) and Mrs. Early from Albemarle High School, Ranford taught middle schoolers to code a Sphero bots. He helped students to understand critical thinking and problem-solving skills to be able to guide the Sphero out of not just one maze but an array of mazes with the same code.
   
   At Blue Ridge Boost, Ransford teaches coding and robotics classes for elementary and middle school students both in classes and camp. Ransford also serves as coordinator for camps.
   "

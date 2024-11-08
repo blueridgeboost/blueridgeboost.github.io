@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Computer Coding, Math, and Robotics Classes in Charlottesville | Blue Ridge Boost on Computer Science - Robotics - Math - Computer Coding - Chess in Charlottesville </title>
+    <title>Computer Coding, Math, and Robotics Classes in Charlottesville | Blue Ridge Boost on Robotics - Math - Computer Coding - Chess in Charlottesville </title>
     <link>https://blueridgeboost.com/classes/</link>
-    <description>Recent content in Computer Coding, Math, and Robotics Classes in Charlottesville | Blue Ridge Boost on Computer Science - Robotics - Math - Computer Coding - Chess in Charlottesville </description>
+    <description>Recent content in Computer Coding, Math, and Robotics Classes in Charlottesville | Blue Ridge Boost on Robotics - Math - Computer Coding - Chess in Charlottesville </description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <atom:link href="https://blueridgeboost.com/classes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Advanced 3D Printing | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Advanced-3D-Printing/</link>
+      <title>3D Printing | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Intro-3D-Printing-Grades-5-6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Advanced-3D-Printing/</guid>
-      <description>Do you already know how to modify and print small models? Are you ready to create your own 3D designs?&#xA;This is the class for you! </description>
+      <guid>https://blueridgeboost.com/classes/Intro-3D-Printing-Grades-5-6/</guid>
+      <description>Class 1: Introduction to 3D Printing What is 3D printing and what is it used for? How to use a 3D printer? Where to find STL files How to convert STL to gcode Class 2: Advanced Techniques Prusa Slicer basics How to CAD Design considerations while Cading for 3D printing Design iteration Class 3: Troubleshooting Common issues with 3D printers Why some prints fail? Class 4: Material Considerations Printing with PLA, PETG, and TPU What are the differences between PLA, PETG, and TPU?</description>
     </item>
     <item>
       <title>Advanced Problem Solving | Blue Ridge Boost</title>
@@ -76,13 +76,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Banana-Tales/</guid>
       <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, functions, and introduces more complex topics like classes, string manipulation, and sorting algorithms. With step-by-step instructions, interactive quizzes, and a supportive learning environment, this course provides a fun and effective way for 5th and 6th graders to develop their programming skills.</description>
-    </item>
-    <item>
-      <title>Beginning 3D Printing | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Intro-3D-Printing-Grades-5-6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Intro-3D-Printing-Grades-5-6/</guid>
-      <description>Class 1: Introduction to 3D Printing What is 3D printing and what is it used for? How to use a 3D printer? Where to find STL files How to convert STL to gcode Class 2: Advanced Techniques Prusa Slicer basics How to CAD Design considerations while Cading for 3D printing Design iteration Class 3: Troubleshooting Common issues with 3D printers Why some prints fail? Class 4: Material Considerations Printing with PLA, PETG, and TPU What are the differences between PLA, PETG, and TPU?</description>
     </item>
     <item>
       <title>Block Coding with Minecraft | Blue Ridge Boost</title>

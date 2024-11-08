@@ -12,9 +12,12 @@
         {{ .Params.page_title }}
         </b></a>
         </h5>
+        {{ if eq .Params.page_subtitle "undefined" }}
+        {{ else }}
         <h6 class="card-subtitle mb-2 text-muted">
         {{ .Params.page_subtitle }}
         </h6>
+        {{ end }}
     </div>
     <div class="card-body">
         {{ partial "class-info.html" . }}

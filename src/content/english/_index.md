@@ -2,7 +2,7 @@
 ####################### Banner #########################
 banner:
   title : "Blue Ridge Boost"
-  subtitle : "A locally-owned education company specializing in computer science, math, robotics, and chess classes and camps."
+  subtitle : "Locally-owned education company specializing in math, robotics, computing, and chess."
   top_buttons:
   - enable : true
     label : "Classes"
@@ -18,10 +18,10 @@ banner:
     label : "Chess"
     link : "chess/"
   - enable : true
-    label : "Parents Night Out"
+    label : "Parents' Night Out"
     link : "parents-night-out/"
   - enable : true
-    label : "Girl Powered Fridays"
+    label : "Girl-Powered Fridays"
     link : "girl-powered-fridays/"
 
 ---

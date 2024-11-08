@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://blueridgeboost.com"
-title = "Computer Science - Robotics - Math - Computer Coding - Chess in Charlottesville "
+title = "Robotics - Math - Computer Coding - Chess in Charlottesville "
 theme = "bigspring-hugo"
 timeZone = "America/New_York"
 paginate = 6 

@@ -17,7 +17,7 @@ title: "Chess Tactics and Games | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
 grade_tags: ["1st","2nd","3rd","4th","5th","6th","7th"]
-subject_tags: Chess
+subject_tags: ["Chess"]
 difficulty: ""
 ---
 

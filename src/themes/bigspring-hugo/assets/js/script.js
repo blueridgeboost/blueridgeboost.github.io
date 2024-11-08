@@ -3,6 +3,7 @@ function filterClasses() {
     const dayFilters = Array.from(document.querySelectorAll('.day-filter:checked')).map(cb => cb.value.toLowerCase());
     const gradeFilters = Array.from(document.querySelectorAll('.grade-filter:checked')).map(cb => cb.value.toLowerCase());
     const subjectFilters = Array.from(document.querySelectorAll('.subject-filter:checked')).map(cb => cb.value.toLowerCase());
+    const openFilters = Array.from(document.querySelectorAll('.open-filter:checked')).map(cb => cb.value.toLowerCase());
 
     const classes = document.querySelectorAll('div[id^="class-"]');
     for (let i = 0; i < classes.length; i++) {

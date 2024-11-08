@@ -15,7 +15,7 @@ ribbon: "New!"
 title: "Vex IQ Robotics Competition (VIQRC) | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday", "Wednesday"]
-grade_tags: ["5th", "6th", "7th", "8th"]
+grade_tags: ["4th", "5th", "6th", "7th", "8th"]
 subject_tags: ["Robotics"]
 difficulty: "Bot Builders Elite"
 ---

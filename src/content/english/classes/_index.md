@@ -1,7 +1,7 @@
 ---
 
 title: "Computer Coding, Math, and Robotics Classes in Charlottesville | Blue Ridge Boost"
-page_title: "Robotics, Coding, and Math Classes"
+page_title: "Classes at Blue Ridge Boost"
 # meta description
 description: "Sign up to learn robotics, coding, and math!"
 draft: false
