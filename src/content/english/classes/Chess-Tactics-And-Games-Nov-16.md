@@ -4,7 +4,7 @@ product_id: Chess-Tactics-And-Games-Nov-16
 price:
 - name: "2024-11-16"
   price: 45
-  inventory: 4
+  inventory: 3
 category: "Session Classes"
 start_date: "2024-11-16"
 end_date: "2024-11-16"
