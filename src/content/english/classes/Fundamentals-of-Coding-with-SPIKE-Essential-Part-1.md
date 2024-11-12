@@ -4,7 +4,7 @@ product_id: Fundamentals-of-Coding-with-SPIKE-Essential-Part-1
 price:
 - name: "Nov 12, 19; Dec 3, 10"
   price: 135
-  inventory: 6
+  inventory: 5
 category: "Session Classes"
 start_date: "2024-10-22"
 end_date: "2024-12-16"
