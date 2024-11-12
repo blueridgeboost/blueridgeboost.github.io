@@ -15,7 +15,7 @@ ribbon: "New!"
 title: "First Lego League Explore | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
-grade_tags: ["2nd", "3rd"]
+grade_tags: ["1st", "2nd", "3rd", "4th"]
 subject_tags: ["Robotics"]
 difficulty: "Robo Rookies"
 ---
