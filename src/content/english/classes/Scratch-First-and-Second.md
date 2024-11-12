@@ -9,7 +9,7 @@ end_date: "2025-06-03"
 start_time: "4:30"
 end_time: "5:30"
 page_title: "Scratch"
-page_subtitle: "Building with Beavers"
+page_subtitle: "Code your own games"
 featured: 0
 title: "Scratch | Blue Ridge Boost"
 section: classes
