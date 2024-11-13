@@ -38,7 +38,8 @@
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3">
                         {{ range .Pages }}
                         {{ if gt .Params.featured 0}}
-                        {{ partial "chess-class-card.html" . }}
+                        {{/*  {{ partial "chess-class-card.html" . }}  */}}
+                        {{ partial "class-card" . }}
                         {{ end }}
                         {{ end }}
                     </div>
