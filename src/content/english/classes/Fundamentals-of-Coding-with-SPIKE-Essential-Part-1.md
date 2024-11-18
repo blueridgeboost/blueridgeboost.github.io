@@ -5,6 +5,9 @@ price:
 - name: "Nov 12, 19; Dec 3, 10"
   price: 135
   inventory: 5
+- name: "Jan 9, 16, 23, 30"
+  price: 135
+  inventory: 4
 category: "Session Classes"
 start_date: "2024-10-22"
 end_date: "2024-12-16"

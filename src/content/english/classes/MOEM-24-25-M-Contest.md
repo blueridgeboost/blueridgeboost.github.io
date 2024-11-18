@@ -2,7 +2,7 @@
 ecwid: 705844256
 product_id: MOEM-24-25-M-Contest
 price:
-- name: "November 16, 2024"
+- name: "November 22, 2024"
   price: 29
   inventory: 32
 - name: "December 14, 2024"

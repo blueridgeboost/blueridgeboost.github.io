@@ -2,9 +2,6 @@
 ecwid: 705429198
 product_id: Minecraft-Esports-Practice
 price:
-- name: "November 16, 2024"
-  price: 59
-  inventory: 12
 - name: "November 30, 2024"
   price: 59
   inventory: 12
