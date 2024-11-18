@@ -2,7 +2,19 @@
 ecwid: 696847205
 product_id: Integrated-Math-3-Practice
 price:
-- name: "Nov 12, 19; Dec 3, 10"
+- name: "Jan 7, 14, 21, 28"
+  price: 155
+  inventory: 4
+- name: "Feb 4, 11, 18, 25"
+  price: 155
+  inventory: 4
+- name: "Mar 4, 11, 18, 25"
+  price: 155
+  inventory: 4
+- name: "Apr 8, 15, 22, 19"
+  price: 155
+  inventory: undefined
+- name: "May 6, 13, 20, 17"
   price: 155
   inventory: 4
 category: "Session Classes"

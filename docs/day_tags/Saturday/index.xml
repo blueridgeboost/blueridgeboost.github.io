@@ -8,13 +8,6 @@
     <language>en-US</language>
     <atom:link href="https://blueridgeboost.com/day_tags/Saturday/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>3D Printing | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Intro-3D-Printing-Grades-5-6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Intro-3D-Printing-Grades-5-6/</guid>
-      <description>Class 1: Introduction to 3D Printing What is 3D printing and what is it used for? How to use a 3D printer? Where to find STL files How to convert STL to gcode Class 2: Advanced Techniques Prusa Slicer basics How to CAD Design considerations while Cading for 3D printing Design iteration Class 3: Troubleshooting Common issues with 3D printers Why some prints fail? Class 4: Material Considerations Printing with PLA, PETG, and TPU What are the differences between PLA, PETG, and TPU?</description>
-    </item>
-    <item>
       <title>Advanced Problem Solving | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Advanced-Problem-Solving/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
