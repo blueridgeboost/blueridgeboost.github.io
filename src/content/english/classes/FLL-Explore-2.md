@@ -4,7 +4,7 @@ product_id: FLL-Explore-2
 price: 135
 inventory: 8
 category: "Subscription Classes"
-start_date: "2025-01-06"
+start_date: "2025-01-09"
 end_date: "2025-04-30"
 start_time: "3:45"
 end_time: "5:00"

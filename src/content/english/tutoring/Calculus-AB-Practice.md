@@ -2,7 +2,19 @@
 ecwid: 696833463
 product_id: Calculus-AB-Practice
 price:
-- name: "Nov 13, 20; Dec 4, 11"
+- name: "Jan 6, 15, 22, 29"
+  price: 195
+  inventory: 4
+- name: "Feb 3, 10, 17, 24"
+  price: 195
+  inventory: 4
+- name: "March 3, 10, 17, 24"
+  price: 195
+  inventory: 3
+- name: "April 7, 14, 21, 28"
+  price: 195
+  inventory: 4
+- name: "May 5, 12, 19; Jun 2"
   price: 195
   inventory: 4
 category: "Group Tutoring"

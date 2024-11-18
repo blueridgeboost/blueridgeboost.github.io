@@ -2,7 +2,19 @@
 ecwid: 697014324
 product_id: Integrated-Math-1-Mastery
 price:
-- name: "Nov 16, 23; Dec 9, 16"
+- name: "Jan 11, 18, 25; Feb 1"
+  price: 155
+  inventory: 4
+- name: "Feb 8, 15, 22; March 1"
+  price: 155
+  inventory: 4
+- name: "March 8, 15, 22, 29"
+  price: 155
+  inventory: 4
+- name: "April 12, 19, 26; May 3"
+  price: 155
+  inventory: 4
+- name: "May 10, 17, 31"
   price: 155
   inventory: 4
 category: "Session Classes"
