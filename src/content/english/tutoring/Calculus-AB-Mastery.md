@@ -2,7 +2,7 @@
 ecwid: 697011156
 product_id: Calculus-AB-Mastery
 price:
-- name: "Nov 10, 17; Dec 8, 15"
+- name: "Jan 12, 19, 26; Feb 2"
   price: 195
   inventory: 4
 category: "Group Tutoring"
