@@ -16,7 +16,7 @@ end_time: "12:30"
 page_title: "Minecraft 2-Day Winter Camp"
 page_subtitle: "Build with friends"
 featured: 29
-ribbon: "New!"
+ribbon: "Camp"
 title: "Minecraft 2-Day Winter Camp | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday", "Tuesday", "Thursday", "Friday"]

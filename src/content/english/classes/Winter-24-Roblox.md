@@ -13,7 +13,7 @@ end_time: "12:30"
 page_title: "Roblox 2-Day Winter Camp"
 page_subtitle: "Create your own Roblox Game!"
 featured: 30
-ribbon: "New!"
+ribbon: "Camp"
 title: "Roblox 2-Day Winter Camp | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday", "Tuesday"]
