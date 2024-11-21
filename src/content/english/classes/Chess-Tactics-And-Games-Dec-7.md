@@ -4,7 +4,7 @@ product_id: Chess-Tactics-And-Games-Dec-7
 price:
 - name: "December 7"
   price: 45
-  inventory: 5
+  inventory: 4
 category: "Session Classes"
 start_date: "2024-12-07"
 end_date: "2024-12-07"

@@ -19,7 +19,7 @@ end_time: "12:30"
 page_title: "3D Printing 2-Day Winter Camp"
 page_subtitle: "Create and share the season joy"
 featured: 28
-ribbon: "New!"
+ribbon: "Camp"
 title: "3D Printing 2-Day Winter Camp | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday","Tuesday"]
