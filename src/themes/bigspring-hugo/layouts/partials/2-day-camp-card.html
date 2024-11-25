@@ -1,0 +1,33 @@
+{{ $id := .Params.ecwid }}
+<div
+    class = "card"
+    id = "class-{{ $id }}"
+    >
+    <div class="card-header">
+        <h5 class="card-title">
+        <a href="{{ .RelPermalink }}"><b>
+        {{ .Params.page_title }}
+        </b></a>
+        </h5>
+        {{ if eq .Params.page_subtitle "undefined" }}
+        {{ else }}
+        <h6 class="card-subtitle mb-2 text-muted">
+        {{ .Params.page_subtitle }}
+        </h6>
+        {{ end }}
+    </div>
+    <div class="card-body">
+        {{.Params.start_time}} &ndash; {{.Params.end_time}}<br>
+        Grades: {{ with .Params.grade_tags }}
+            {{ if gt (len .) 0 }}
+                {{ index . 0 }}
+                {{ if gt (len .) 1 }}
+                    to {{ index . (sub (len .) 1) }}
+                {{ end }}
+            {{ end }}
+        {{end}}
+    </div>
+    <div class="card-footer">
+        {{ partial "session-class-footer.html" .}}
+    </div>
+</div>

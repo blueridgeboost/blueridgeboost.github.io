@@ -6,7 +6,58 @@
   <div class="container">
     <p>Blue Ridge Boosts offers instructional programs in robotics, coding, and math during the school breaks
       and days off school. We also offer camps on days with unexpected school closings such as "snow days".
-    </p>
+    <br>Blue Ridge Boost is a single focus instructional program, not a day care program.
+      As such, <b>students must be at least six years old for camps.</b>
+    <br>All camps are held at Blue Ridge Boost, 2171 Ivy Rd, Charlottesville.</p>
+    <p>Half-day students should bring a snack. Full-day students should bring two snacks and lunch.</p>
+  </div>
+  <div class="container" id="camp2">
+    <h4>Winter Break 2-Day Camps</h4>
+    <div class="container">
+      <div class="class-cards">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3">
+          {{ range sort (where .Site.Pages ".Params.category" "2-Day Camps") ".Params.start_date" "asc" }}
+            {{ partial "2-day-camp-card" . }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <div class="container" id="camp5">
+    <h4>Spring and Summer 5-Day Camps</h4>
+    <div class="container">
+      <div class="class-cards">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3">
+          {{ range sort (where .Site.Pages ".Params.category" "5-Day Camps") ".Params.start_date" "asc" }}
+            {{ partial "5-day-camp-card" . }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <div class="container" id="camp1">
+    <h4>1-Day Camps &ndash; Ages 6 to 13</h4>
+    <div class="container">
+      <ul style="display: flex; list-style-type: none; padding: 0;">
+        <li>ACPS &ndash; Albermarle Public Schools</li>
+        <li>CCS &ndash; Charlottesville City Schools</li>
+        <li>STAB &ndash; St. Anne's Belfield</li>
+        <li>PS &ndash; Peabody School</li>
+      </ul>
+      <p></p>
+      <div class="class-cards">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3">
+          {{ range sort (where .Site.Pages ".Params.category" "1-Day Camps") ".Params.start_date" "asc" }}
+            {{ partial "1-day-camp-card" . }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <div class="container">
     <p>
       Join us for an exhilarating exploration of robotics, coding, chess, and math. Teamwork and collaboration
       are at the heart of our camp experience. Students will have the opportunity to work together, share ideas,
@@ -56,30 +107,6 @@
         </table>
       </center>
     </p>
-    <p>Blue Ridge Boost is a single focus instructional program, not a day care program.
-      As such, <b>students must be at least six years old for camps.</b>
-    </p>
-    <p>All camps are held at Blue Ridge Boost, 2171 Ivy Rd, Charlottesville.</p>
-    <p>Half-day students should bring a snack. Full-day students should bring two snacks and lunch.</p>
-  </div>
-  <div class="container" id="camp1">
-    <h4>1-Day Camps &ndash; Ages 6 to 13</h4>
-    <div class="container">
-      <ul style="display: flex; list-style-type: none; padding: 0;">
-        <li>ACPS &ndash; Albermarle Public Schools</li>
-        <li>CCS &ndash; Charlottesville City Schools</li>
-        <li>STAB &ndash; St. Anne's Belfield</li>
-        <li>PS &ndash; Peabody School</li>
-      </ul>
-      <p></p>
-      <div class="class-cards">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3">
-          {{ range sort (where .Site.Pages ".Params.category" "1-Day Camps") ".Params.start_date" "asc" }}
-            {{ partial "1-day-camp-card" . }}
-          {{ end }}
-        </div>
-      </div>
-    </div>
   </div>
 </section>
 {{ end }}
