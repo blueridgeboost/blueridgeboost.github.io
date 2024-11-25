@@ -23,5 +23,8 @@ banner:
   - enable : true
     label : "Girl-Powered Fridays"
     link : "girl-powered-fridays/"
+  - enable: true
+    label: 'Gift card'
+    link: "https://store.blueridgeboost.com/products/gift-card"
 
 ---
