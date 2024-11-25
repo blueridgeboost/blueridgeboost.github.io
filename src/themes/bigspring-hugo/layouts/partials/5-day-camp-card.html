@@ -17,7 +17,15 @@
         {{ end }}
     </div>
     <div class="card-body">
-        {{ partial "class-info.html" . }}
+        {{.Params.start_time}} &ndash; {{.Params.end_time}}<br>
+        Grades: {{ with .Params.grade_tags }}
+            {{ if gt (len .) 0 }}
+                {{ index . 0 }}
+                {{ if gt (len .) 1 }}
+                    to {{ index . (sub (len .) 1) }}
+                {{ end }}
+            {{ end }}
+        {{end}}
     </div>
     {{/*  <div class="card-footer">
         {{ partial "session-class-footer.html" .}}
