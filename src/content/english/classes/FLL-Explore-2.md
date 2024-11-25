@@ -3,6 +3,7 @@ ecwid: 708088382
 product_id: FLL-Explore-2
 price: 135
 inventory: 8
+payment_link: "https://buy.stripe.com/5kA8xb1xkc1U252aFO"
 category: "Subscription Classes"
 start_date: "2025-01-09"
 end_date: "2025-04-30"

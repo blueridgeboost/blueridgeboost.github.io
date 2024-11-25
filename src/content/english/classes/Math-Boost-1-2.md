@@ -3,6 +3,7 @@ ecwid: 680152430
 product_id: Math-Boost-1-2
 price: 129
 inventory: 6
+payment_link: "https://buy.stripe.com/3cseVzek6aXQaBydS4"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

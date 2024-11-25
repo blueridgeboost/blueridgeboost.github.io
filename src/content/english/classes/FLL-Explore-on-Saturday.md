@@ -3,6 +3,7 @@ ecwid: 705294218
 product_id: FLL-Explore-on-Saturday
 price: 129
 inventory: 3
+payment_link: "https://buy.stripe.com/3csdRvgseaXQ5he29g"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-04-30"

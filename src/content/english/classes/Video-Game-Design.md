@@ -3,6 +3,7 @@ ecwid: 682778867
 product_id: Video-Game-Design
 price: 179
 inventory: 4
+payment_link: "https://buy.stripe.com/28o14J2Bod5Y10Yg0t"
 category: "Subscription Classes"
 start_date: "2024-09-05"
 end_date: "2025-06-03"

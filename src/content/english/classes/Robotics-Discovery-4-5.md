@@ -3,6 +3,7 @@ ecwid: 682765880
 product_id: Robotics-Discovery-4-5
 price: 129
 inventory: 1
+payment_link: "https://buy.stripe.com/dR6aFja3Qfe6fVSg0p"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

@@ -29,8 +29,9 @@
             <center>
             {{/*  {{ $spaces }} spaces available<br>  */}}
             <div class="spacybutton">
-                <a href="javascript: ecwid_add_product_to_cart( {{ $id }}, {});"
-                    class="btn-small btn-primary">Add to Cart</a>
+                {{/*  <a href="javascript: ecwid_add_product_to_cart( {{ $id }}, {});"  */}}
+                <a href="{{ .Params.payment_link }}" rel="noopener noreferrer"
+                    class="btn-small btn-primary">Buy Now</a>
             </div>
             </center>
         </form>

@@ -3,6 +3,7 @@ ecwid: 682778866
 product_id: Scratch-First-and-Second
 price: 129
 inventory: 6
+payment_link: "https://buy.stripe.com/dR6fZDb7Uea2eRO8xY"
 category: "Subscription Classes"
 start_date: "2025-01-05"
 end_date: "2025-06-03"

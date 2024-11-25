@@ -3,6 +3,7 @@ ecwid: 682761974
 product_id: Advanced-Problem-Solving
 price: 235
 inventory: 4
+payment_link: "https://buy.stripe.com/14k5kZek68PI3969BC"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

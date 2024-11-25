@@ -3,6 +3,7 @@ ecwid: 682662301
 product_id: First-Lego-League-VEX-IQ
 price: 195
 inventory: 4
+payment_link: "https://buy.stripe.com/28oeVzek62rkeRO9C4"
 category: "Subscription Classes"
 start_date: "2024-12-07"
 end_date: "2025-03-31"
