@@ -3,7 +3,7 @@ ecwid: 682778868
 product_id: Banana-Tales
 price: 129
 inventory: 4
-payment_link: "https://buy.stripe.com/6oEdRvb7Ufe6bFCeW0"
+payment_link: "https://buy.stripe.com/8wMdRvcbYc1U252aGe"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

@@ -3,7 +3,7 @@ ecwid: 682778861
 product_id: Banana-Code-Quest
 price: 129
 inventory: 4
-payment_link: "https://buy.stripe.com/8wMaFj0tg5DwfVS159"
+payment_link: "https://buy.stripe.com/7sIeVza3Q0jc3963dL"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

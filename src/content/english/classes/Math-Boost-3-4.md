@@ -3,7 +3,7 @@ ecwid: 680173014
 product_id: Math-Boost-3-4
 price: 129
 inventory: 1
-payment_link: "https://buy.stripe.com/fZe28N8ZMd5YaBy5lz"
+payment_link: "https://buy.stripe.com/28oaFj1xkc1U9xug0H"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
