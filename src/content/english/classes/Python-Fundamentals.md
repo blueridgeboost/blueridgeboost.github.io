@@ -3,6 +3,7 @@ ecwid: 682778194
 product_id: Python-Fundamentals
 price: 129
 inventory: 3
+payment_link: "https://buy.stripe.com/dR614J3Fsea210Y29y"
 category: "Subscription Classes"
 start_date: "2024-09-05"
 end_date: "2025-06-03"

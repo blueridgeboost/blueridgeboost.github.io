@@ -11,7 +11,7 @@ By enrolling your child in classes provided by Blue Ridge Boost LLC ("the Compan
 2. Age Requirements
 Children must be at least six years old to participate in drop-off classes.
 3. Day-Care License Program Exemption
-Blue Ridge Boost LLC offers a program of instructional experience in a single focus area, including robotics, computer coding, math, and chess. As such, we are exempt from state licensure requirements, provided that children under the age of six do not attend at all and no child is allowed to attend for more than 25 days in any three-month period commencing with enrollment. This exemption does not apply if children merely change their enrollment to a different focus area at our site and their total attendance exceeds 25 days in a three-month period.
+Blue Ridge Boost LLC offers a program of instructional experience in a single focus area, including robotics, computer coding, math, and chess. As such, we are exempt from day care state licensure requirements, provided that children under the age of six do not attend at all and no child is allowed to attend for more than 25 days in any three-month period commencing with enrollment. This exemption does not apply if children merely change their enrollment to a different focus area at our site and their total attendance exceeds 25 days in a three-month period.
 4. Attendance Limits
 Each child may attend a maximum of 25 days of classes within any three-month period, commencing with their enrollment date. This limit is in place to ensure that all children have equal access to our services and to maintain our exemption from licensure under state law.
 5. Payment and Subscriptions

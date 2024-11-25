@@ -3,6 +3,7 @@ ecwid: 708092860
 product_id: Kids-Coding-Course
 price: 129
 inventory: 4
+payment_link: "https://buy.stripe.com/cN28xb2Boea210Y5lx"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

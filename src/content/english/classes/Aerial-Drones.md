@@ -3,6 +3,7 @@ ecwid: 682778766
 product_id: Aerial-Drones
 price: 235
 inventory: 0
+payment_link: "https://buy.stripe.com/6oE8xb1xk5DweRO5ln"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-03-31"

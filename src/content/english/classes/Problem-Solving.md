@@ -3,6 +3,7 @@ ecwid: 680173015
 product_id: Problem-Solving
 price: 195
 inventory: 4
+payment_link: "https://buy.stripe.com/eVa3cR8ZMgia7pm4hF"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

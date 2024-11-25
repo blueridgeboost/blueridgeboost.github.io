@@ -3,6 +3,7 @@ ecwid: 682774096
 product_id: Girl-Powered-First-Tech-Challenge
 price: 0
 inventory: 8
+payment_link: ""
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-04-30"
