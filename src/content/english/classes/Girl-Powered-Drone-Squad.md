@@ -3,7 +3,7 @@ ecwid: 682778765
 product_id: Girl-Powered-Drone-Squad
 price: 235
 inventory: 0
-payment_link: "https://buy.stripe.com/4gwfZD4Jw7LE2529BM"
+payment_link: "https://buy.stripe.com/aEU7t72Bod5Y396g0E"
 category: "Subscription Classes"
 start_date: "2024-09-05"
 end_date: "2025-03-31"

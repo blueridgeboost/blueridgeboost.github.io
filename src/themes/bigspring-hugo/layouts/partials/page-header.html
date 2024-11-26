@@ -6,7 +6,7 @@
           <center>
           <h1 class="h2 mb-3">{{ .Params.page_title | markdownify }}</h1>
           {{ with .Params.page_subtitle }}
-          <p class="mb-0 fw-500">{{ . | markdownify }}</p>
+          <p class="mb-0 fw-500"><h3>{{ . | markdownify }}</h3></p>
           {{ end }}
         </center>
         </div>

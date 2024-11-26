@@ -26,6 +26,7 @@
             {{ range $sortedSchools }}
                 {{ . }}
             {{ end }}<br>
+            {{.Params.start_time}} &ndash; {{.Params.end_time}}<br>
             {{ if gt $spaces 0 }}
                 {{ if lt $spaces 5 }}
                 Only {{ $spaces }} spaces left!<br>

@@ -1,5 +1,5 @@
 ---
-ecwid: 708094569
+ecwid: 711464828
 product_id: Winter-24-3D-Print
 price:
 - name: "Dec 23, 24"
@@ -11,20 +11,19 @@ price:
 - name: "Dec 30, 31"
   price: 165
   inventory: 6
-category: "1-Day Camps"
+category: "2-Day Camps"
 start_date: "2024-12-23"
 end_date: "2024-12-17"
 start_time: "9:00"
 end_time: "12:30"
-page_title: "3D Printing 2-Day Winter Camp"
+page_title: "First Lego League Challenge 2-Day Winter Camp"
 page_subtitle: "Create and share the season joy"
-featured: 28
-ribbon: "Camp"
-title: "3D Printing 2-Day Winter Camp | Blue Ridge Boost"
+featured: 16
+title: "First Lego League Challenge 2-Day Winter Camp | Blue Ridge Boost"
 section: camps
 day_tags: ["Monday","Tuesday"]
 grade_tags: ["4th","5th","6th"]
-subject_tags: ["Computer Coding"]
+subject_tags: ["Robotics", "Coding"]
 difficulty: "Code Cadets"
 ---
-<p>Learn to find and modify 3D printing models.</p><p>Learn to create your own design.</p><p>Take home your creations.</p><p>Before and after care is available!</p>
+<p>Join us for an exciting 2-day immersive experience at the <strong>First Lego League Challenge Winter Camp</strong>! This hands-on camp is designed for young innovators, problem-solvers, and future engineers passionate about robotics, teamwork, and STEM. Participants will dive into the world of LEGO robotics, learn coding skills, and tackle real-world challenges of this year's First Lego League Challenge.</p>

@@ -1,3 +1,5 @@
+{{ $selected_subject := .Params.selected_subject }}
+
 <div class="filter-range">
     <em>Filter Classes by level, day of week, and subject:</em>
     <p>
@@ -25,7 +27,13 @@
         {{ range $tag := (slice "Math" "Computer Coding" "Robotics" "Chess") }}
         <label>
             <span class="filter-box">
-                <input type="checkbox" class="subject-filter" value="{{ $tag }}" onchange="filterClasses()"> {{ $tag }}
+                <input type="checkbox" 
+                class="subject-filter" 
+                value="{{ $tag }}" 
+                {{ if eq $selected_subject $tag }} 
+                    checked
+                {{ end }}
+                onchange="filterClasses()"> {{ $tag }}
             </span>
         </label>
         {{ end }}

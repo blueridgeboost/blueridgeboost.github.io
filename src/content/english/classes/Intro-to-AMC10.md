@@ -3,7 +3,7 @@ ecwid: 680170560
 product_id: Intro-to-AMC10
 price: 235
 inventory: 4
-payment_link: "https://buy.stripe.com/3csdRvek69TMcJGaFI"
+payment_link: "https://buy.stripe.com/dR65kZ4Jw6HA10Y7u0"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

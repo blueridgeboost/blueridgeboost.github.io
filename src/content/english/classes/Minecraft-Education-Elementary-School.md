@@ -12,7 +12,7 @@ start_time: "5:30"
 end_time: "7:30"
 page_title: "Minecraft Education for Elementary School"
 page_subtitle: "Join the Fun with Friends!"
-featured: 25
+featured: 13
 ribbon: "New!"
 title: "Minecraft Education for Elementary School | Blue Ridge Boost"
 section: classes

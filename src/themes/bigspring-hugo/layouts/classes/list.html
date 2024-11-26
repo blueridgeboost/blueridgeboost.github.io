@@ -17,29 +17,14 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3">
             {{ $pages :=  (where .Site.Pages "Section" "classes") }}
             {{ $pages = sort $pages ".Params.featured" "desc" }}
-            {{ $selectedSubject := "" }}
-            {{ if isset .Params "selected_subject" }}
-                {{ $selectedSubject = .Params.selected_subject }}
-            {{ end }}
-            {{/*  {{ $selectedSubject := .Params.selected_subject }}  */}}
-
             {{ range $pages }}
                 {{ if eq .Params.layout "list" }}
                 {{ else }}
                     {{ partial "class-card" . }}
-                    {{/*  {{ if eq $selectedSubject "" }}
-                    <h1>Selected Subject {{ $selectedSubject}}</h1>
-                        {{ partial "class-card" . }}
-                    {{ else }}
-                        {{ if in .Params.subject_tags $selectedSubject }}
-                            {{ partial "class-card" . }}
-                        {{ end }}
-                    {{ end }}   */}}
                 {{ end }}
             {{ end }}
         </div>
     </div>
-
     <p></p>
         Please note:
     <ul>

@@ -3,7 +3,7 @@ ecwid: 705294218
 product_id: FLL-Explore-on-Saturday
 price: 129
 inventory: 3
-payment_link: "https://buy.stripe.com/3csdRvgseaXQ5he29g"
+payment_link: "https://buy.stripe.com/14kcNrfoad5YaByaGg"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-04-30"
@@ -11,7 +11,7 @@ start_time: "1:00"
 end_time: "2:00"
 page_title: "First Lego League Explore"
 page_subtitle: "Lego Explorers"
-featured: 1
+featured: 2
 ribbon: "New!"
 title: "First Lego League Explore | Blue Ridge Boost"
 section: classes

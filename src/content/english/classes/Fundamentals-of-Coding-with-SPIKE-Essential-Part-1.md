@@ -15,7 +15,7 @@ start_time: "4:30"
 end_time: "5:30"
 page_title: "Lego Robots Jr"
 page_subtitle: "Fundamentals of Coding with SPIKE Essential Part 1/Part 2"
-featured: 16
+featured: 9
 ribbon: "New!"
 title: "Lego Robots Jr | Blue Ridge Boost"
 section: classes

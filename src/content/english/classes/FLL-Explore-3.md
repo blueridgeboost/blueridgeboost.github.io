@@ -3,7 +3,7 @@ ecwid: 708094548
 product_id: FLL-Explore-3
 price: 135
 inventory: 10
-payment_link: "https://buy.stripe.com/aEU00F4Jw4zs252eW5"
+payment_link: "https://buy.stripe.com/14keVz6RE0jcgZWeWz"
 category: "Subscription Classes"
 start_date: "2025-01-06"
 end_date: "2025-04-30"
@@ -11,7 +11,7 @@ start_time: "3:45"
 end_time: "5:00"
 page_title: "First Lego League Explore"
 page_subtitle: "Lego Explorers"
-featured: 1
+featured: 5
 ribbon: "New!"
 title: "First Lego League Explore | Blue Ridge Boost"
 section: classes

@@ -3,7 +3,7 @@ ecwid: 680173527
 product_id: Math-Mastery-1-2
 price: 129
 inventory: 5
-payment_link: "https://buy.stripe.com/4gwfZDek63vo8tqg0k"
+payment_link: "https://buy.stripe.com/6oE4gV4Jwc1UcJG5ma"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
