@@ -4,6 +4,7 @@ product_id: Banana-Code-Quest
 price: 129
 inventory: 4
 payment_link: "https://buy.stripe.com/7sIeVza3Q0jc3963dL"
+weight: "1"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

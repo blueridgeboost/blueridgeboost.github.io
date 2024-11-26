@@ -4,6 +4,7 @@ product_id: Robotics-Discovery-4-5
 price: 129
 inventory: 1
 payment_link: "https://buy.stripe.com/5kAfZD1xk1ng9xu5mf"
+weight: "1"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

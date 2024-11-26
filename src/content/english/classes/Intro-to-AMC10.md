@@ -4,6 +4,7 @@ product_id: Intro-to-AMC10
 price: 235
 inventory: 4
 payment_link: "https://buy.stripe.com/dR65kZ4Jw6HA10Y7u0"
+weight: "1"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

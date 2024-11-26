@@ -4,6 +4,7 @@ product_id: Scratch-First-and-Second
 price: 129
 inventory: 6
 payment_link: "https://buy.stripe.com/6oEfZD1xk0jc6li4ic"
+weight: ""
 category: "Subscription Classes"
 start_date: "2025-01-05"
 end_date: "2025-06-03"

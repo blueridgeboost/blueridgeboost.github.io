@@ -11,6 +11,7 @@ price:
 - name: "Dec 30, 31"
   price: 165
   inventory: 6
+weight: ""
 category: "2-Day Camps"
 start_date: "2024-12-23"
 end_date: "2024-12-17"

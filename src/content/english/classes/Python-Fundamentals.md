@@ -4,6 +4,7 @@ product_id: Python-Fundamentals
 price: 129
 inventory: 3
 payment_link: "https://buy.stripe.com/eVa28N6REea26li9Cu"
+weight: "0"
 category: "Subscription Classes"
 start_date: "2024-09-05"
 end_date: "2025-06-03"

@@ -4,6 +4,7 @@ product_id: Vex-IQ-Rapid-Relay
 price: 195
 inventory: 5
 payment_link: "https://buy.stripe.com/aEUaFjb7U7LE252aGB"
+weight: "10"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

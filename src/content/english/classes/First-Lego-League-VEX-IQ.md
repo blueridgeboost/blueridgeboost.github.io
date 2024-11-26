@@ -4,6 +4,7 @@ product_id: First-Lego-League-VEX-IQ
 price: 195
 inventory: 4
 payment_link: "https://buy.stripe.com/7sI8xb8ZMc1UdNKbKG"
+weight: "8"
 category: "Subscription Classes"
 start_date: "2024-12-07"
 end_date: "2025-03-31"

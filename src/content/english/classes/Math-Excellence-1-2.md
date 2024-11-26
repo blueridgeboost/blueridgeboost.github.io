@@ -4,6 +4,7 @@ product_id: Math-Excellence-1-2
 price: 129
 inventory: 2
 payment_link: "https://buy.stripe.com/28o3cRek69TM4da5m6"
+weight: "3"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

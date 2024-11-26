@@ -7,11 +7,12 @@ price:
 - name: "Full-Day"
   price: 495
 inventory: 12
+weight: ""
 category: "5-Day Camps"
 start_date: "2025-03-31"
 end_date: "2025-04-04"
 start_time: "8:30"
-end_time: "1:00 (Half-Day)/5:00 (Full-Day)"
+end_time: "1:00/5:00"
 page_title: "Spring Break Camp"
 page_subtitle: "Python and Legos"
 featured: 21

@@ -4,6 +4,7 @@ product_id: FLL-Explore-3
 price: 135
 inventory: 10
 payment_link: "https://buy.stripe.com/14keVz6RE0jcgZWeWz"
+weight: "10"
 category: "Subscription Classes"
 start_date: "2025-01-06"
 end_date: "2025-04-30"

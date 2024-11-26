@@ -4,6 +4,7 @@ product_id: Math-Hoppers
 price: 155
 inventory: 6
 payment_link: "https://buy.stripe.com/eVa00Fb7U7LEdNK8yj"
+weight: "3"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

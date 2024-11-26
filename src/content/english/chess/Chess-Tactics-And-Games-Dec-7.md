@@ -5,8 +5,9 @@ price:
 - name: "December 7"
   price: 45
   inventory: 4
+weight: "10"
 category: "Chess Club"
-start_date: "2024-12-07"
+start_date: "2025-12-07"
 end_date: "2024-12-07"
 start_time: "10:00"
 end_time: "12:00"

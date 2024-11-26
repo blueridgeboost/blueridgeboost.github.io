@@ -4,6 +4,7 @@ product_id: Prealgebra-Mastery
 price: 149
 inventory: 5
 payment_link: "https://buy.stripe.com/28odRv3Fs2rk6lig0N"
+weight: "3"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

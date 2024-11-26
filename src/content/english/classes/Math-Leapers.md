@@ -4,6 +4,7 @@ product_id: Math-Leapers
 price: 155
 inventory: 4
 payment_link: "https://buy.stripe.com/eVa5kZ2Boc1UcJG15S"
+weight: "3"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

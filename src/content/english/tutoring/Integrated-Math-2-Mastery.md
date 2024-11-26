@@ -14,8 +14,9 @@ price:
 - name: "April 26; May 3, 10, 17"
   price: 155
   inventory: 4
+weight: "8"
 category: "Group Tutoring"
-start_date: ""
+start_date: "2025-01-11"
 end_date: "06/03/2025"
 start_time: "4:00"
 end_time: "5:00"
