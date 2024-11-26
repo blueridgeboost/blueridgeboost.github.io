@@ -8,6 +8,18 @@
       <div class="col-lg-10 mx-auto text-center">
         <h1 class="mb-4 pb-2">{{ .title | markdownify }}</h1>
         <h3 class="mb-4 pb-2">{{ .subtitle | markdownify }}</h3>
+
+        <div class="mb-5">
+            {{ range .special_buttons }}
+              {{ if .enable }}
+              <center>
+                  <a href="{{ .link | safeURL }}" title="{{ .label }}" class="special-button" style="border: 2px solid darkslateblue; padding: 0.5em 2em; background-color:mediumturquoise;">{{ .label }}</a>
+                </center>
+              {{end}}
+            {{ end }}
+          </ul>
+        </div>
+
         <div class="mb-5">
           <ul class="list-inline">
             {{ range .top_buttons }}
