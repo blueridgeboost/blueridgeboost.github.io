@@ -14,8 +14,9 @@ price:
 - name: "April 9, 16, 23, 30"
   price: 155
   inventory: 4
+weight: "7"
 category: "Session Classes"
-start_date: ""
+start_date: "2025-01-08"
 end_date: "06/03/2025"
 start_time: "6:00"
 end_time: "7:00"

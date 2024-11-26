@@ -11,15 +11,15 @@ price:
 - name: "Feb 6, 13, 20, 27"
   price: 165
   inventory: 6
+weight: "10"
 category: "Session Classes"
-start_date: "2024-10-24"
-end_date: "2024-12-12"
+start_date: "2025-01-09"
+end_date: "2025-02-27"
 start_time: "5:00"
 end_time: "6:30"
 page_title: "Block Coding with Minecraft"
 page_subtitle: "Learn with Minecraft Education"
 featured: 0
-ribbon: "New!"
 title: "Block Coding with Minecraft | Blue Ridge Boost"
 section: classes
 day_tags: ["Thursday"]

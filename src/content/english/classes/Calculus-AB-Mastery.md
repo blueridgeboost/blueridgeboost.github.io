@@ -1,7 +1,8 @@
 ---
 ecwid: 697011156
 product_id: Calculus-AB-Mastery
-price:category: "Subscription Classes"
+price:weight: "5"
+category: "Subscription Classes"
 start_date: ""
 end_date: "06/03/2025"
 start_time: "2:30"

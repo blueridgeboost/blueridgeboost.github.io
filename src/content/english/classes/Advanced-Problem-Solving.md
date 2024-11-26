@@ -4,6 +4,7 @@ product_id: Advanced-Problem-Solving
 price: 235
 inventory: 4
 payment_link: "https://buy.stripe.com/dR6dRv1xkea2bFC6pU"
+weight: "1"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

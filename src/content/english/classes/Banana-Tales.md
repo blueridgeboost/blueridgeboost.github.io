@@ -4,6 +4,7 @@ product_id: Banana-Tales
 price: 129
 inventory: 4
 payment_link: "https://buy.stripe.com/8wMdRvcbYc1U252aGe"
+weight: "1"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

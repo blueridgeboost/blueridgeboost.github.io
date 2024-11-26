@@ -4,6 +4,7 @@ product_id: Aerial-Drones
 price: 235
 inventory: 0
 payment_link: "https://buy.stripe.com/00g5kZ0tg0jcaBydSn"
+weight: "1"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-03-31"

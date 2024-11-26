@@ -17,14 +17,15 @@ price:
 - name: "May 6, 13, 20; June 2"
   price: 155
   inventory: 4
+weight: ""
 category: "Session Classes"
-start_date: ""
+start_date: "2025-01-06"
 end_date: "06/03/2025"
 start_time: "6:00"
 end_time: "7:00"
 page_title: "Geometry"
 page_subtitle: "Homework help and extra practice"
-featured: 8
+featured: 0
 title: "Geometry | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday"]

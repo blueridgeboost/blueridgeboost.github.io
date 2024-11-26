@@ -5,15 +5,15 @@ price:
 - name: "December 8"
   price: 59
   inventory: 11
+weight: "10"
 category: "Session Classes"
-start_date: ""
+start_date: "2024-12-08"
 end_date: ""
 start_time: "5:30"
 end_time: "7:30"
 page_title: "Minecraft Education for Elementary School"
 page_subtitle: "Join the Fun with Friends!"
 featured: 13
-ribbon: "New!"
 title: "Minecraft Education for Elementary School | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]

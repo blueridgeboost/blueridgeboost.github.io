@@ -2,9 +2,6 @@
 ecwid: 705844256
 product_id: MOEM-24-25-M-Contest
 price:
-- name: "November 22, 2024"
-  price: 29
-  inventory: 32
 - name: "December 14, 2024"
   price: 29
   inventory: 32
@@ -17,15 +14,15 @@ price:
 - name: "March 22, 2025"
   price: 29
   inventory: 32
+weight: "6"
 category: "Session Classes"
-start_date: "2024-11-16"
+start_date: "2024-12-14"
 end_date: "2025-03-22"
 start_time: "2:30"
 end_time: "3:00"
 page_title: "Math Olympiad Contest"
 page_subtitle: "Middle School"
 featured: 0
-ribbon: "New!"
 title: "Math Olympiad Contest | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]

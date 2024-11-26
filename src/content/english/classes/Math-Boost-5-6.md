@@ -4,6 +4,7 @@ product_id: Math-Boost-5-6
 price: 139
 inventory: 5
 payment_link: "https://buy.stripe.com/3csdRvcbYfe68tq01K"
+weight: "3"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

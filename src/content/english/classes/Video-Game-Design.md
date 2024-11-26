@@ -4,6 +4,7 @@ product_id: Video-Game-Design
 price: 179
 inventory: 4
 payment_link: "https://buy.stripe.com/9AQ00F2Bo0jcaBycOL"
+weight: "0"
 category: "Subscription Classes"
 start_date: "2024-09-05"
 end_date: "2025-06-03"

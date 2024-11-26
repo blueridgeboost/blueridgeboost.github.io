@@ -4,19 +4,19 @@ product_id: Fundamentals-of-Coding-with-SPIKE-Essential-Part-1
 price:
 - name: "Nov 12, 19; Dec 3, 10"
   price: 135
-  inventory: 5
+  inventory: 0
 - name: "Jan 9, 16, 23, 30"
   price: 135
   inventory: 4
+weight: "10"
 category: "Session Classes"
-start_date: "2024-10-22"
-end_date: "2024-12-16"
+start_date: "2025-01-09"
+end_date: "2025-01-30"
 start_time: "4:30"
 end_time: "5:30"
 page_title: "Lego Robots Jr"
 page_subtitle: "Fundamentals of Coding with SPIKE Essential Part 1/Part 2"
-featured: 9
-ribbon: "New!"
+featured: 0
 title: "Lego Robots Jr | Blue Ridge Boost"
 section: classes
 day_tags: ["Tuesday"]

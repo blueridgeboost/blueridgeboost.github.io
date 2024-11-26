@@ -5,6 +5,7 @@ price:
 - name: "January 25, 2025"
   price: 79
   inventory: 7
+weight: "6"
 category: "Session Classes"
 start_date: "2025-01-25"
 end_date: "2025-01-25"
@@ -13,7 +14,6 @@ end_time: "3:30"
 page_title: "AMC 8 Test"
 page_subtitle: "Take the AMC8 test at Blue Ridge Boost."
 featured: 0
-ribbon: "New!"
 title: "AMC 8 Test | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
