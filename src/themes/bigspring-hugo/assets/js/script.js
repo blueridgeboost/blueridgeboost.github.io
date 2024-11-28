@@ -52,6 +52,34 @@ function aux_ecwid_add_product_to_cart( product_id, product_options ) {
     Ecwid.openPage('cart');
 }
 
+function ecwid_add_subscription_to_cart( product_id ) {
+    if (typeof Ecwid == 'undefined' ||  !Ecwid.Cart) {
+        Ecwid.OnPageLoaded.add(function () {
+            aux_ecwid_add_subscription_to_cart(product_id);
+        });
+    } else {
+        aux_ecwid_add_subscription_to_cart(product_id);
+    }
+}
+
+function aux_ecwid_add_subscription_to_cart( product_id, product_options ) {
+    Ecwid.Cart.addProduct({
+        id: product_id,
+        quantity: 1,   
+        options: product_options, 
+        recurringChargeSettings: { 
+            recurringInterval: "month",
+            recurringIntervalCount: 1,
+        },
+        callback: function(success, product, cart, error){
+            if (!success) {
+                console.error(error) // error message or null
+            }
+        }
+    });
+    Ecwid.openPage('cart');
+}
+
 function get_radio_selected( formId, name) {
     const form = document.getElementById(formId);
     if (!form) {
