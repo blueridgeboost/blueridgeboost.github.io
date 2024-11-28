@@ -1,10 +1,10 @@
 ---
-ecwid: 680172023
+ecwid: 712122173
 product_id: Math-Hoppers
-price: 155
+price: 139
 inventory: 6
-payment_link: "https://buy.stripe.com/eVa00Fb7U7LEdNK8yj"
-weight: "3"
+payment_link: ""
+weight: ""
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

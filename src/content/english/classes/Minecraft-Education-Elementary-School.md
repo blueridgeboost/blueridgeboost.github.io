@@ -4,7 +4,7 @@ product_id: Minecraft-Education-Elementary-School
 price:
 - name: "December 8"
   price: 59
-  inventory: 11
+  inventory: 10
 weight: "10"
 category: "Session Classes"
 start_date: "2024-12-08"

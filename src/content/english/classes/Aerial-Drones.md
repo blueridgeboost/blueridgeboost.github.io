@@ -1,10 +1,10 @@
 ---
-ecwid: 682778766
+ecwid: 712118437
 product_id: Aerial-Drones
 price: 235
 inventory: 0
-payment_link: "https://buy.stripe.com/00g5kZ0tg0jcaBydSn"
-weight: "1"
+payment_link: ""
+weight: ""
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-03-31"
@@ -15,7 +15,7 @@ page_subtitle: "Join Our Aerial Drone Team!"
 featured: 0
 title: "Aerial Drones | Blue Ridge Boost"
 section: classes
-day_tags: ["Saturday"]
+day_tags: ["Sunday"]
 grade_tags: ["5th","6th","7th","8th","9th","10th","11th"]
 subject_tags: ["Robotics"]
 difficulty: "Bot Builders Elite"

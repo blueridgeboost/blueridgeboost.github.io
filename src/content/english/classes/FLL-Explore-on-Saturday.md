@@ -1,9 +1,9 @@
 ---
-ecwid: 705294218
+ecwid: 712122168
 product_id: FLL-Explore-on-Saturday
 price: 129
 inventory: 3
-payment_link: "https://buy.stripe.com/14kcNrfoad5YaByaGg"
+payment_link: ""
 weight: ""
 category: "Subscription Classes"
 start_date: ""
@@ -17,11 +17,11 @@ ribbon: "New!"
 title: "First Lego League Explore | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
-grade_tags: ["1st", "2nd", "3rd", "4th"]
+grade_tags: ["1st", "2nd", "3rd"]
 subject_tags: ["Robotics"]
 difficulty: "Robo Rookies"
 ---
-<ul><li>Dive into the world of Lego robotics</li>
+<p>Dive into an exciting new season of <strong>FIRST LEGO League</strong> with the 2024-2025 theme: <strong>SUBMERGED</strong>! This year’s challenge invites participants to explore the mysteries and wonders of underwater environments while solving real-world challenges related to oceans, lakes, and waterways.</p><ul>
       <li>Participate in the official First Lego League Explore program</li>
       <li>Work on collaborative projects with peers</li>
       <li>Learn about real-world applications of robotics and engineering</li>

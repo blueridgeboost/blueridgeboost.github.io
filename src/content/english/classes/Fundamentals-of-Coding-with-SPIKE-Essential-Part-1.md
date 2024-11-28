@@ -7,7 +7,7 @@ price:
   inventory: 0
 - name: "Jan 9, 16, 23, 30"
   price: 135
-  inventory: 4
+  inventory: 3
 weight: "10"
 category: "Session Classes"
 start_date: "2025-01-09"

@@ -1,10 +1,10 @@
 ---
-ecwid: 680173526
+ecwid: 712121401
 product_id: Prealgebra-Excellence
 price: 195
 inventory: 2
-payment_link: "https://buy.stripe.com/4gw9Bf8ZMaXQfVS8yo"
-weight: "3"
+payment_link: ""
+weight: ""
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

@@ -8,24 +8,10 @@
     <language>en-US</language>
     <atom:link href="https://blueridgeboost.com/subject_tags/Computer-Coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Banana Code Quest | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Banana-Code-Quest/</link>
+      <title>Block Coding with Beavers | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Block-Coding-with-Beavers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Banana-Code-Quest/</guid>
-      <description>Banana Code Quest is a gamified coding course designed to teach young students real-world coding from the first challenge. Through engaging puzzles and adventures, students help a monkey catch bananas and outsmart various animals while learning fundamental and advanced coding concepts in a fun and interactive way.&#xA;Key Features Real Coding Language: Students will code using CoffeeScript, a language similar to JavaScript but with a friendlier syntax, making it perfect for kids.</description>
-    </item>
-    <item>
-      <title>Banana Tales | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Banana-Tales/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Banana-Tales/</guid>
-      <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, functions, and introduces more complex topics like classes, string manipulation, and sorting algorithms. With step-by-step instructions, interactive quizzes, and a supportive learning environment, this course provides a fun and effective way for 5th and 6th graders to develop their programming skills.</description>
-    </item>
-    <item>
-      <title>Kids&#39; Coding Course | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Kids-Coding-Course/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Kids-Coding-Course/</guid>
+      <guid>https://blueridgeboost.com/classes/Block-Coding-with-Beavers/</guid>
       <description>Students learn sequencing, repetition, problem-solving, and conditional logic while developing practical coding skills. The course employs a hands-on, gamified approach that gradually increases in complexity, allowing each child to advance at their own speed. By the end, students can create sophisticated programs, having built a strong foundation in coding and computational thinking.&#xA;We start to learn fundamental coding concepts by helping a beaver build a dam! The learning continues with learning to code games in Scratch.</description>
     </item>
     <item>
@@ -36,11 +22,25 @@
       <description>This four-class sequence introduces the students to fundamental computer science concepts, including events and coordinates. Students will use a coding environment embedded in Minecraft Education to code their own commands, which they will then use in the game.&#xA;Leveraging the engaging world of Minecraft Education, students will:&#xA;Explore a custom coding environment integrated within the game Learn to write and execute their own commands Apply coding principles to manipulate the Minecraft world in real-time Develop problem-solving skills through interactive challenges Gain hands-on experience with spatial reasoning and algorithmic thinking By the end of the course, students will have a solid foundation in basic programming concepts, enhanced creativity, and improved logical reasoning skills—all while enjoying the familiar and exciting Minecraft platform.</description>
     </item>
     <item>
+      <title>Code Quest | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Banana-Code-Quest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Banana-Code-Quest/</guid>
+      <description>Banana Code Quest is a gamified coding course designed to teach young students real-world coding from the first challenge. Through engaging puzzles and adventures, students help a monkey catch bananas and outsmart various animals while learning fundamental and advanced coding concepts in a fun and interactive way.&#xA;Key Features Real Coding Language: Students will code using CoffeeScript, a language similar to JavaScript but with a friendlier syntax, making it perfect for kids.</description>
+    </item>
+    <item>
       <title>Minecraft Education for Elementary School | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Minecraft-Education-Elementary-School/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Minecraft-Education-Elementary-School/</guid>
       <description>🎮 Start Your Minecraft Adventure! 🎮&#xA;Join our beginner-friendly class and dive into the world of Minecraft!&#xA;What You&#39;ll Learn:&#xA;🏗️ Building Basics: Master the essentials of crafting and construction. 🌿 Survival Skills: Learn how to gather resources and thrive in survival mode. 🗺️ Exploration Tips: Discover exciting biomes and hidden treasures. 👥 Multiplayer Fun: Connect with others and enjoy cooperative gameplay.&#xA;Free pizza included!</description>
+    </item>
+    <item>
+      <title>Python for Tweens | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Python-For-Tweens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Python-For-Tweens/</guid>
+      <description>Embark on an exciting journey into the world of programming with Python! This class is designed to make coding fun, engaging, and accessible for kids as they explore the basics of Python through creative and interactive projects. Students will dive into programming concepts while solving puzzles, building games, and experimenting with whimsical projects featuring monsters, secret agents, and more!&#xA;Throughout the class, students will:&#xA;Learn foundational programming concepts like loops, conditionals.</description>
     </item>
     <item>
       <title>Roblox Studio | Blue Ridge Boost</title>
@@ -50,11 +50,60 @@
       <description>This class is perfect for students who are new to creating games in Roblox. We will teach you how to create your first Roblox experience using Roblox Studio. You will use a Baseplate template and a high-quality catapult asset pack to build and organize a data model, customize 3D objects, and organize scripts for proper simulation. We will guide you through testing, publishing, and managing your experience for a global audience, using project templates and asset packs from the Creator Store to simplify the process.</description>
     </item>
     <item>
+      <title>Scratch Coding | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Scratch-First-and-Second/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Scratch-First-and-Second/</guid>
+      <description>Come and learn to code your own games in Scratch!&#xA;Each session will create a new game.</description>
+    </item>
+    <item>
+      <title>Advanced Python for Teens | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Advanced-Python-For-Teens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Advanced-Python-For-Teens/</guid>
+      <description>Advanced Python for Teens builds on foundational Python skills and introduces students to more advanced programming concepts. This course is designed to help students create more powerful and efficient programs by exploring key topics such as functions, strings, data structures, and file input/output operations. Through engaging lessons, hands-on exercises, and creative projects, students will deepen their understanding of Python and develop practical problem-solving skills.&#xA;Course Highlights:&#xA;Functions and Exceptions: Learn how to decompose programs into smaller, reusable components and handle errors effectively.</description>
+    </item>
+    <item>
+      <title>Advanced Python for Tweens | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Advanced-Python-For-Tweens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Advanced-Python-For-Tweens/</guid>
+      <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, and functions. Course Content Basics review&#xA;Classes: Understanding object-oriented programming to create and manage complex data structures.Input: Interacting with users by receiving and processing input data.String manipulation: Performing operations on text data to modify and analyze it.Advanced data types: Utilizing complex data structures like dictionaries and sets for efficient data management.</description>
+    </item>
+    <item>
+      <title>After Camp Care | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/camps/Winter-24-After/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/camps/Winter-24-After/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Before Camp Care | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/camps/Winter-24-Before/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/camps/Winter-24-Before/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java for Teens | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Java-For-Teens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Java-For-Teens/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Minecraft 2-Day Winter Camp | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/camps/Winter-24-Minecraft/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/camps/Winter-24-Minecraft/</guid>
       <description>❄️ MINECRAFT WINTER WONDERLAND CAMP ❄️&#xA;A Fun-Filled 2-Day Adventure for Young Builders!&#xA;🎮 CALLING ALL YOUNG ADVENTURERS&#xA;Join us for an exciting journey into a snowy Minecraft world! Perfect for both new and experienced players ages 7-10.&#xA;⚒️ EXCITING ACTIVITIES:&#xA;• Build magical snow castles and cozy winter cottages&#xA;• Create your own winter village with friends&#xA;• Learn cool building tricks and secrets&#xA;• Play friendly snowball games</description>
+    </item>
+    <item>
+      <title>Python Basics | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Python-Basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Python-Basics/</guid>
+      <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, and functions. Course Content Sequencing: Understanding the order of instructions is crucial for programming logic. Lists &amp; Indexing: Learning to store and access multiple items efficiently. For loops: Iterating over sequences to automate repetitive tasks. Variables: Storing data that can be used and modified throughout the program.</description>
     </item>
     <item>
       <title>Python Fundamentals | Blue Ridge Boost</title>
@@ -69,20 +118,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/camps/Winter-24-Roblox/</guid>
       <description>Join our kid-friendly Roblox camp designed specifically for grades 1-4. Create your very own carnival game in a fun, supportive environment where imagination meets basic coding skills.&#xA;What Your Child Will Learn:&#xA;Simple drag-and-drop game building Basic Roblox Studio tools Creative design choices Teamwork and problem-solving Game testing basics Fun Activities:&#xA;Design colorful magic spells Place carnival games and decorations Create simple challenges Test games with classmates Earn special Roblox itemsBefore and after care is available!</description>
-    </item>
-    <item>
-      <title>Scratch | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Scratch-First-and-Second/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Scratch-First-and-Second/</guid>
-      <description>Come and learn to code your own games in Scratch!</description>
-    </item>
-    <item>
-      <title>Video Game Design | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Video-Game-Design/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Video-Game-Design/</guid>
-      <description>The video game design curriculum teaches the foundations of creating video games in JavaScript. While this course is introductory, it requires a good mathematical background and analytical thinking. Its curriculum teaches the foundations of computer science and basic programming, with an emphasis on helping students develop logical thinking and problem-solving skills. Once students complete the course, they will have learned material equivalent to a semester college introductory course in Computer Science and be able to program in JavaScript.</description>
     </item>
   </channel>
 </rss>
