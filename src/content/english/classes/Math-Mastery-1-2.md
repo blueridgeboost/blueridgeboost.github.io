@@ -1,21 +1,21 @@
 ---
-ecwid: 680173527
+ecwid: 712118440
 product_id: Math-Mastery-1-2
 price: 129
 inventory: 5
-payment_link: "https://buy.stripe.com/6oE4gV4Jwc1UcJG5ma"
-weight: "3"
+payment_link: ""
+weight: ""
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
-start_time: "4:00"
-end_time: "5:00"
+start_time: "5:00"
+end_time: "5:45"
 page_title: "Math Mastery"
 page_subtitle: "For First and Second Graders"
 featured: 0
 title: "Math Mastery | Blue Ridge Boost"
 section: classes
-day_tags: ["Wednesday"]
+day_tags: ["Thursday"]
 grade_tags: ["1st", "2nd"]
 subject_tags: ["Math"]
 difficulty: "Skill Sculptors"

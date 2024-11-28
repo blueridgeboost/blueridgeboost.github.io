@@ -23,7 +23,7 @@ featured: 16
 title: "First Lego League Challenge 2-Day Winter Camp | Blue Ridge Boost"
 section: camps
 day_tags: ["Monday","Tuesday"]
-grade_tags: ["4th","5th","6th"]
+grade_tags: ["4th","5th","6th","7th","8th"]
 subject_tags: ["Robotics", "Coding"]
 difficulty: "Code Cadets"
 ---
