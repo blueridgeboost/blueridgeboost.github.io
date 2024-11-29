@@ -4,7 +4,7 @@ product_id: Prealgebra-Excellence
 price: 195
 inventory: 2
 payment_link: ""
-weight: ""
+weight: "8"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

@@ -34,6 +34,9 @@ banner:
     label : "Parents' Night Out"
     link : "parents-night-out/"
   - enable : true
+    label : "Minecraft Club"
+    link : "minecraft/"
+  - enable : true
     label : "Girl-Powered Fridays"
     link : "girl-powered-fridays/"
 

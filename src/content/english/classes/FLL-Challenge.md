@@ -21,7 +21,7 @@ end_date: "06/03/2025"
 start_time: "5:00"
 end_time: "6:30"
 page_title: "First Lego Challenge"
-page_subtitle: "Competition Ready"
+page_subtitle: "Advanced Competition Skills"
 featured: 0
 ribbon: "New!"
 title: "First Lego Challenge | Blue Ridge Boost"

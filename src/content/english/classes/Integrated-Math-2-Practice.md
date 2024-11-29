@@ -21,14 +21,14 @@ weight: "8"
 category: "Session Classes"
 start_date: "2025-01-06"
 end_date: "06/03/2025"
-start_time: "6:30"
-end_time: "7:30"
+start_time: "4:00"
+end_time: "5:00"
 page_title: "Integrated Math 2/Algebra 2"
 page_subtitle: "Homework help"
 featured: 0
 title: "Integrated Math 2/Algebra 2 | Blue Ridge Boost"
 section: classes
-day_tags: ["Monday"]
+day_tags: ["Wednesday"]
 grade_tags: ["9th","10th"]
 subject_tags: ["Math"]
 difficulty: "Foundation Forgers"

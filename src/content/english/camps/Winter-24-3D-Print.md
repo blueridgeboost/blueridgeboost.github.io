@@ -19,7 +19,7 @@ start_time: "9:00"
 end_time: "12:30"
 page_title: "First Lego League Challenge 2-Day Winter Camp"
 page_subtitle: "Create and share the season joy"
-featured: 16
+featured: 10
 title: "First Lego League Challenge 2-Day Winter Camp | Blue Ridge Boost"
 section: camps
 day_tags: ["Monday","Tuesday"]

@@ -4,7 +4,7 @@ product_id: FLL-Explore-on-Saturday
 price: 129
 inventory: 3
 payment_link: ""
-weight: ""
+weight: "10"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-04-30"

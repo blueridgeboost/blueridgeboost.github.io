@@ -4,18 +4,19 @@ product_id: Python-Basics
 price: 135
 inventory: 4
 payment_link: ""
-weight: ""
+weight: "10"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
 start_time: "3:45"
 end_time: "4:30"
-page_title: "Python Basics"
-page_subtitle: "Python Adventures for Grades 4 and 5"
+page_title: "Python for Kids"
+page_subtitle: "Coding for Grades 4 and 5"
 featured: 0
-title: "Python Basics | Blue Ridge Boost"
+ribbon: "New!"
+title: "Python for Kids | Blue Ridge Boost"
 section: classes
-day_tags: ["Wednesday"]
+day_tags: ["Monday"]
 grade_tags: ["4th", "5th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"

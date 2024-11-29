@@ -1,0 +1,65 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+<div class="container">
+    <p>
+        Team up with your friends or make new connections as you explore, build, and 
+        learn together in Minecraft Education! Collaborate, create, and have fun in a 
+        welcoming environment where creativity meets teamwork. Perfect for learners 
+        of all levels, this class combines the excitement of Minecraft with opportunities 
+        to develop problem-solving and collaboration skills.</p>
+ <!-- Class List -->
+    <div class="class-cards">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3">
+            {{ range .Pages }}
+            {{ $id := .Params.ecwid }}
+            <div
+                class = "card"
+                id = "class-{{ $id }}"
+                >
+                <div class="card-header">
+                    <h5 class="card-title">
+                    <a href="{{ .RelPermalink }}"><b>
+                    {{ .Params.page_title }}
+                    </b></a>
+                    </h5>
+                    {{ if eq .Params.page_subtitle "undefined" }}
+                    {{ else }}
+                    <h6 class="card-subtitle mb-2 text-muted">
+                    {{ .Params.page_subtitle }}
+                    </h6>
+                    {{ end }}
+                </div>
+                <div class="card-body">
+                    {{ partial "class-info.html" . }}
+                </div>
+                <div class="card-footer">
+                    {{ partial "session-class-footer.html" .}}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    <p></p>
+        Please note:
+    <ul>
+        <li>Your card will be charged on the day on the current date and monthly starting with the first day of the second month of classes.</li>
+        <li>Subscriptions can be canceled at any time.</li>
+        <li>Subscriptions can be rescheduled or transferred to another class.</li>
+        <li>No partial refunds are given for the completed charges.</li>
+        <li>Make ups can be scheduled on teacher work days and other times based on instructor availability.</li>
+    </ul>
+</p>
+
+    {{ .Content }}
+
+<p>
+</p>
+<p align="center"><a href="/privacy-policy">Privacy Policy</a> &middot;
+    <a href="/payment-policy">Payment Policy</a> &middot; <a href="/refund-policy">Refund Policy</a>.</p>
+</p>
+
+</div>
+
+{{end}}

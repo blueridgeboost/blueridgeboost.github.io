@@ -5,7 +5,7 @@ price:
 - name: "January 25, 2025"
   price: 79
   inventory: 7
-weight: "6"
+weight: "1"
 category: "Session Classes"
 start_date: "2025-01-25"
 end_date: "2025-01-25"
