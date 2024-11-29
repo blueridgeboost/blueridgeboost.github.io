@@ -19,7 +19,7 @@ start_time: "9:00"
 end_time: "12:30"
 page_title: "Drones 2-Day Winter Camp"
 page_subtitle: "Create and share the season joy"
-featured: 15
+featured: 9
 title: "Drones 2-Day Winter Camp | Blue Ridge Boost"
 section: camps
 day_tags: ["Monday","Tuesday"]

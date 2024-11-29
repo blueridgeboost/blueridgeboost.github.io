@@ -4,12 +4,12 @@ product_id: Advanced-Python-For-Tweens
 price: 135
 inventory: 4
 payment_link: ""
-weight: ""
+weight: "8"
 category: "Subscription Classes"
-start_date: "2024-01-15"
+start_date: "2025-01-15"
 end_date: "2025-06-03"
-start_time: "3:45"
-end_time: "4:30"
+start_time: "4:30"
+end_time: "5:30"
 page_title: "Advanced Python for Tweens"
 page_subtitle: "Advanced Python for Grades 5 and 6"
 featured: 0

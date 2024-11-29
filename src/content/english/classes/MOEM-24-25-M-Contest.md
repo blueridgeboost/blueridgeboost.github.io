@@ -14,7 +14,7 @@ price:
 - name: "March 22, 2025"
   price: 29
   inventory: 32
-weight: "6"
+weight: "1"
 category: "Session Classes"
 start_date: "2024-12-14"
 end_date: "2025-03-22"

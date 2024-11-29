@@ -4,9 +4,9 @@ product_id: Python-Fundamentals
 price: 129
 inventory: 3
 payment_link: ""
-weight: ""
+weight: "6"
 category: "Subscription Classes"
-start_date: "2024-09-05"
+start_date: ""
 end_date: "2025-06-03"
 start_time: "2:30"
 end_time: "3:30"
@@ -16,7 +16,7 @@ featured: 0
 title: "Python Fundamentals | Blue Ridge Boost"
 section: classes
 day_tags: ["Sunday"]
-grade_tags: ["7th", "8th"]
+grade_tags: ["5th", "6th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 ---
