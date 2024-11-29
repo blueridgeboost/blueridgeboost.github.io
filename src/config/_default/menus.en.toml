@@ -93,7 +93,7 @@
 
 [[main]]
     name       = "Login"
-    url        = "/#!/~/account"
+    url        = "#!/~/account"
     weight     = 9
 
 
