@@ -91,6 +91,11 @@
     url        = "/contact/"
     weight     = 8
 
+[[main]]
+    name       = "Login"
+    url        = "/#!/~/account"
+    weight     = 9
+
 
 # [[main]]
 # parent = "Pages"

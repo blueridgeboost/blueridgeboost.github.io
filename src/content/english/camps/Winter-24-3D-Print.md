@@ -4,7 +4,7 @@ product_id: Winter-24-3D-Print
 price:
 - name: "Dec 23, 24"
   price: 165
-  inventory: 6
+  inventory: 4
 - name: "Dec 26, 27"
   price: 165
   inventory: 6
