@@ -1,8 +1,18 @@
 {{ $ecwid_category := .Params.category }}
 
+{{ if eq .Params.ribbon "New!" }}
+<div class="newribbon">
+    <span>{{ .Params.ribbon }} </span>
+</div>    
+{{ else if eq .Params.ribbon "New Session" }}
+<div class="newribbon" style="width:200px;">
+    <span>{{ .Params.ribbon }} </span>
+</div>    
+{{ else }}
 <div class="ribbon">
 <span>{{ .Params.ribbon }}</span>
 </div>
+{{ end }}
 
 {{.Params.start_time}} &ndash; {{.Params.end_time}}
 {{ with .Params.day_tags }}

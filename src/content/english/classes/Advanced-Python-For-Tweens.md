@@ -16,7 +16,7 @@ featured: 0
 title: "Advanced Python for Tweens | Blue Ridge Boost"
 section: classes
 day_tags: ["Wednesday"]
-grade_tags: ["4th", "5th"]
+grade_tags: ["5th", "6th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 ---
