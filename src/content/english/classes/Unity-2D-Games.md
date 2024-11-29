@@ -24,7 +24,7 @@ ribbon: "New!"
 title: "Unity 2D Games | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
-grade_tags: ["8th", "9th","10th","11th"]
+grade_tags: ["6th", "7th", "8th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Syntax Sorcerers"
 ---
