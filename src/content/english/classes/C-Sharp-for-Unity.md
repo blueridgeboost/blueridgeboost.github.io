@@ -2,16 +2,16 @@
 ecwid: 712127812
 product_id: C-Sharp-for-Unity
 price:
-- name: "April 17, 24; May 1, 8"
+- name: "Jan 16, 23, 30; Feb 3"
+  price: 179
+  inventory: 4
+- name: "Feb 10, 17, 24; March 6"
   price: 179
   inventory: 4
 - name: "March 13, 20, 27; April 10"
   price: 179
   inventory: 3
-- name: "Feb 10, 17, 24; March 6"
-  price: 179
-  inventory: 4
-- name: "Jan 16, 23, 30; Feb 3"
+- name: "April 17, 24; May 1, 8"
   price: 179
   inventory: 4
 weight: "10"

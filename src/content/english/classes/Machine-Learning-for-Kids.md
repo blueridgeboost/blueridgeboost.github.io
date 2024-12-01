@@ -2,21 +2,21 @@
 ecwid: 712149309
 product_id: Machine-Learning-for-Kids
 price:
-- name: "April 13, 27; May 4, 18"
-  price: 155
-  inventory: 4
-- name: "March 2,9, 16, 23"
-  price: 155
-  inventory: 4
-- name: "Feb 2, 9, 16, 23"
+- name: "Dec 8, 15, 22, 29"
   price: 155
   inventory: 6
 - name: "Jan 5, 12, 19, 26"
   price: 155
   inventory: 6
-- name: "Dec 8, 15, 22, 29"
+- name: "Feb 2, 9, 16, 23"
   price: 155
   inventory: 6
+- name: "March 2,9, 16, 23"
+  price: 155
+  inventory: 4
+- name: "April 13, 27; May 4, 18"
+  price: 155
+  inventory: 4
 weight: "10"
 category: "Session Classes"
 start_date: "2024-12-01"

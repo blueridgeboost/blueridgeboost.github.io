@@ -2,16 +2,16 @@
 ecwid: 711883832
 product_id: Robotics-Vex-IQ
 price:
-- name: "April 14, 21, 28; May 5"
+- name: "Jan 13, 20, 27; Feb 3"
+  price: 195
+  inventory: 4
+- name: "Feb 10, 17, 24; March 3"
   price: 195
   inventory: 4
 - name: "March 10, 17, 24; April 7"
   price: 195
   inventory: 3
-- name: "Feb 10, 17, 24; March 3"
-  price: 195
-  inventory: 4
-- name: "Jan 13, 20, 27; Feb 3"
+- name: "April 14, 21, 28; May 5"
   price: 195
   inventory: 4
 weight: "10"
