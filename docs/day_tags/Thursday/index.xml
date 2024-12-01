@@ -8,18 +8,18 @@
     <language>en-US</language>
     <atom:link href="https://blueridgeboost.com/day_tags/Thursday/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>After Camp Care | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/camps/Winter-24-After/</link>
+      <title>Calculus AB/BC | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Calculus-AB-Practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/camps/Winter-24-After/</guid>
-      <description></description>
+      <guid>https://blueridgeboost.com/classes/Calculus-AB-Practice/</guid>
+      <description>Conquer Your Calculus Homework!&#xA;Join Blue Ridge Boost Small Group Sessions:&#xA;4 students per groupFocus on current homework assignmentsStep-by-step problem-solving guidanceExpert calculus tutor support90-minute sessionsCover all calculus topics in your curriculumAdditional practice problems for reinforcementTurn your homework headaches into &#39;Aha!&#39; moments!&#xA;Sign up for Blue Ridge Boost and ace your assignments!</description>
     </item>
     <item>
-      <title>Before Camp Care | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/camps/Winter-24-Before/</link>
+      <title>Calculus AB/BC | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/tutoring/Calculus-AB-Practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/camps/Winter-24-Before/</guid>
-      <description></description>
+      <guid>https://blueridgeboost.com/tutoring/Calculus-AB-Practice/</guid>
+      <description>Conquer Your Calculus Homework!&#xA;Join Blue Ridge Boost Small Group Sessions:&#xA;4 students per groupFocus on current homework assignmentsStep-by-step problem-solving guidanceExpert calculus tutor support90-minute sessionsCover all calculus topics in your curriculumAdditional practice problems for reinforcementTurn your homework headaches into &#39;Aha!&#39; moments!&#xA;Sign up for Blue Ridge Boost and ace your assignments!</description>
     </item>
     <item>
       <title>Block Coding with Minecraft | Blue Ridge Boost</title>
@@ -36,31 +36,38 @@
       <description>Unit 1: Introduction to C# Programming and Unity&#xA;Dive into the world of game development with this beginner-friendly unit, perfect for students with no prior programming experience. Learn the fundamentals of C# programming while exploring the basics of the Unity game engine, the industry-standard platform for creating interactive games. By the end of this unit, students will:&#xA;Understand the Unity interface and its core components. Learn foundational C# concepts such as variables, data types, and basic syntax.</description>
     </item>
     <item>
-      <title>Calculus AB/BC | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Calculus-AB-Practice/</link>
+      <title>First Lego League Explore | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/FLL-Explore-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Calculus-AB-Practice/</guid>
-      <description>Conquer Your Calculus Homework!&#xA;Join Blue Ridge Boost Small Group Sessions:&#xA;4 students per groupFocus on current homework assignmentsStep-by-step problem-solving guidanceExpert calculus tutor support90-minute sessionsCover all calculus topics in your curriculumAdditional practice problems for reinforcementTurn your homework headaches into &#39;Aha!&#39; moments!&#xA;Sign up for Blue Ridge Boost and ace your assignments!</description>
+      <guid>https://blueridgeboost.com/classes/FLL-Explore-2/</guid>
+      <description>Dive into an exciting new season of FIRST LEGO League with the 2024-2025 theme: SUBMERGED! This year’s challenge invites participants to explore the mysteries and wonders of underwater environments while solving real-world challenges related to oceans, lakes, and waterways.&#xA;Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
     </item>
     <item>
-      <title>Calculus AB/BC | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/tutoring/Calculus-AB-Practice/</link>
+      <title>Mechanical Foundations with REV DUO | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Mechanical-Foundations-with-REV/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/tutoring/Calculus-AB-Practice/</guid>
-      <description>Conquer Your Calculus Homework!&#xA;Join Blue Ridge Boost Small Group Sessions:&#xA;4 students per groupFocus on current homework assignmentsStep-by-step problem-solving guidanceExpert calculus tutor support90-minute sessionsCover all calculus topics in your curriculumAdditional practice problems for reinforcementTurn your homework headaches into &#39;Aha!&#39; moments!&#xA;Sign up for Blue Ridge Boost and ace your assignments!</description>
+      <guid>https://blueridgeboost.com/classes/Mechanical-Foundations-with-REV/</guid>
+      <description>The Mechanical Foundations with REV DUO course provides participants with the hands-on skills and knowledge needed to design, build, and maintain robotic systems confidently. Through interactive projects and challenges, students will explore the foundational mechanical principles that drive robotics, such as structure, motion, power transmission, and mechanical advantage. Using the REV DUO building system, participants will gain practical experience assembling and testing robotic components while learning to solve real-world engineering challenges.</description>
+    </item>
+    <item>
+      <title>After Camp Care | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/camps/Winter-24-After/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/camps/Winter-24-After/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Before Camp Care | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/camps/Winter-24-Before/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/camps/Winter-24-Before/</guid>
+      <description></description>
     </item>
     <item>
       <title>First Lego League Explore | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/FLL-Explore-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/FLL-Explore-1/</guid>
-      <description>Dive into an exciting new season of FIRST LEGO League with the 2024-2025 theme: SUBMERGED! This year’s challenge invites participants to explore the mysteries and wonders of underwater environments while solving real-world challenges related to oceans, lakes, and waterways.&#xA;Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
-    </item>
-    <item>
-      <title>First Lego League Explore | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/FLL-Explore-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/FLL-Explore-2/</guid>
       <description>Dive into an exciting new season of FIRST LEGO League with the 2024-2025 theme: SUBMERGED! This year’s challenge invites participants to explore the mysteries and wonders of underwater environments while solving real-world challenges related to oceans, lakes, and waterways.&#xA;Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
     </item>
     <item>
@@ -83,13 +90,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Math-Mastery-1-2/</guid>
       <description>This advanced mathematics class is designed for curious students ranking in the top of their class who are eager to explore math beyond the typical school curriculum. Utilizing the renowned Dimensions Singapore Math curriculum, our year-long program emphasizes deep conceptual understanding, critical thinking, problem-solving strategies, and practical application of mathematical principles. Key Features: Advanced Mental Math Strategies: Students will be introduced to various mental math techniques to improve their calculation skills.</description>
-    </item>
-    <item>
-      <title>Mechanical Foundations with REV DUO | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Mechanical-Foundations-with-REV/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Mechanical-Foundations-with-REV/</guid>
-      <description>The Mechanical Foundations with REV DUO course provides participants with the hands-on skills and knowledge needed to design, build, and maintain robotic systems confidently. Through interactive projects and challenges, students will explore the foundational mechanical principles that drive robotics, such as structure, motion, power transmission, and mechanical advantage. Using the REV DUO building system, participants will gain practical experience assembling and testing robotic components while learning to solve real-world engineering challenges.</description>
     </item>
     <item>
       <title>Minecraft 2-Day Winter Camp | Blue Ridge Boost</title>

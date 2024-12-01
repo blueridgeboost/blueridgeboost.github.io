@@ -1,10 +1,10 @@
 ---
-ecwid: 712290637
+ecwid: 712118442
 product_id: Vex-IQ-Rapid-Relay
 price: 195
 inventory: 5
 payment_link: ""
-weight: ""
+weight: "9"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

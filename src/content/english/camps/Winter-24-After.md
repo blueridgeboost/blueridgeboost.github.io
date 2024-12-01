@@ -1,23 +1,23 @@
 ---
-ecwid: 712289458
+ecwid: 708111695
 product_id: Winter-24-After
 price:
-- name: "Dec 23"
-  price: 40
-  inventory: 12
-- name: "Dec 24"
-  price: 40
-  inventory: 12
-- name: "Dec 26"
-  price: 40
-  inventory: 12
-- name: "Dec 27"
+- name: "Dec 31"
   price: 40
   inventory: 12
 - name: "Dec 30"
   price: 40
   inventory: 12
-- name: "Dec 31"
+- name: "Dec 27"
+  price: 40
+  inventory: 12
+- name: "Dec 26"
+  price: 40
+  inventory: 12
+- name: "Dec 24"
+  price: 40
+  inventory: 12
+- name: "Dec 23"
   price: 40
   inventory: 12
 weight: ""

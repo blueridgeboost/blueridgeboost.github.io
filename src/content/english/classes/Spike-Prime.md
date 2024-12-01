@@ -1,20 +1,20 @@
 ---
-ecwid: 712293578
+ecwid: 711888123
 product_id: Spike-Prime
 price:
-- name: "Jan 15, 22, 29; Feb 5"
-  price: 159
-  inventory: 4
-- name: "Feb 12, 19, 26; March 5"
+- name: "April 16, 23, 30; May 7"
   price: 159
   inventory: 4
 - name: "March 12, 19, 26; April 9"
   price: 159
-  inventory: 4
-- name: "April 16, 23, 30; May 7"
+  inventory: 3
+- name: "Feb 12, 19, 26; March 5"
   price: 159
   inventory: 4
-weight: ""
+- name: "Jan 15, 22, 29; Feb 5"
+  price: 159
+  inventory: 4
+weight: "10"
 category: "Session Classes"
 start_date: "2025-01-06"
 end_date: "06/03/2025"

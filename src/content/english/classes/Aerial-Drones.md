@@ -1,10 +1,10 @@
 ---
-ecwid: 712293571
+ecwid: 712118437
 product_id: Aerial-Drones
 price: 235
 inventory: 0
 payment_link: ""
-weight: ""
+weight: "1"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-03-31"

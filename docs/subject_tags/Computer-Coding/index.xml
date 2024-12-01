@@ -8,11 +8,11 @@
     <language>en-US</language>
     <atom:link href="https://blueridgeboost.com/subject_tags/Computer-Coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Advanced Python for Teens | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Advanced-Python-For-Teens/</link>
+      <title>Python Fundamentals | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Python-Fundamentals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Advanced-Python-For-Teens/</guid>
-      <description>Advanced Python for Teens builds on foundational Python skills and introduces students to more advanced programming concepts. This course is designed to help students create more powerful and efficient programs by exploring key topics such as functions, strings, data structures, and file input/output operations. Through engaging lessons, hands-on exercises, and creative projects, students will deepen their understanding of Python and develop practical problem-solving skills.&#xA;Course Highlights:&#xA;Functions and Exceptions: Learn how to decompose programs into smaller, reusable components and handle errors effectively.</description>
+      <guid>https://blueridgeboost.com/classes/Python-Fundamentals/</guid>
+      <description>This course is a comprehensive, year-long program designed for middle school students with no prior coding experience. It introduces fundamental programming concepts using Python through interactive exercises and projects centered around controlling a virtual character named Tracy. The course covers commands, functions, loops, variables, conditionals, and lists, progressing to more complex tasks like user interaction and creating visual projects.&#xA;Topics include:&#xA;Commands Understanding basic commands is crucial as it forms the foundation of programming, allowing Tracy to perform specific actions.</description>
     </item>
     <item>
       <title>Advanced Python for Tweens | Blue Ridge Boost</title>
@@ -22,18 +22,39 @@
       <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, and functions. Course Content Basics review&#xA;Classes: Understanding object-oriented programming to create and manage complex data structures.Input: Interacting with users by receiving and processing input data.String manipulation: Performing operations on text data to modify and analyze it.Advanced data types: Utilizing complex data structures like dictionaries and sets for efficient data management.</description>
     </item>
     <item>
-      <title>After Camp Care | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/camps/Winter-24-After/</link>
+      <title>Block Coding with Minecraft | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Block-Coding-with-Minecraft-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/camps/Winter-24-After/</guid>
+      <guid>https://blueridgeboost.com/classes/Block-Coding-with-Minecraft-1/</guid>
+      <description>This four-class sequence introduces the students to fundamental computer science concepts, including events and coordinates. Students will use a coding environment embedded in Minecraft Education to code their own commands, which they will then use in the game.&#xA;Leveraging the engaging world of Minecraft Education, students will:&#xA;Explore a custom coding environment integrated within the game Learn to write and execute their own commands Apply coding principles to manipulate the Minecraft world in real-time Develop problem-solving skills through interactive challenges Gain hands-on experience with spatial reasoning and algorithmic thinking By the end of the course, students will have a solid foundation in basic programming concepts, enhanced creativity, and improved logical reasoning skills—all while enjoying the familiar and exciting Minecraft platform.</description>
+    </item>
+    <item>
+      <title>Java for Teens | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Java-For-Teens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Java-For-Teens/</guid>
       <description></description>
     </item>
     <item>
-      <title>Before Camp Care | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/camps/Winter-24-Before/</link>
+      <title>Roblox Studio | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Intro-to-Roblox-Studio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/camps/Winter-24-Before/</guid>
-      <description></description>
+      <guid>https://blueridgeboost.com/classes/Intro-to-Roblox-Studio/</guid>
+      <description>This class is perfect for students who are new to creating games in Roblox. We will teach you how to create your first Roblox experience using Roblox Studio. You will use a Baseplate template and a high-quality catapult asset pack to build and organize a data model, customize 3D objects, and organize scripts for proper simulation. We will guide you through testing, publishing, and managing your experience for a global audience, using project templates and asset packs from the Creator Store to simplify the process.</description>
+    </item>
+    <item>
+      <title>Unity 2D Games | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Unity-2D-Games/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Unity-2D-Games/</guid>
+      <description>Explore the exciting world of game design and programming with Unity! These beginner-friendly courses are designed to teach students the fundamentals of game development while building fun and interactive projects. With hands-on lessons and real-world applications, students will learn to create their own games and bring their ideas to life using Unity&#39;s powerful tools.&#xA;Unit 1: 2D Beginner: Adventure GameStep into the world of 2D game development by creating an adventure game from scratch!</description>
+    </item>
+    <item>
+      <title>Advanced Python for Teens | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Advanced-Python-For-Teens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Advanced-Python-For-Teens/</guid>
+      <description>Advanced Python for Teens builds on foundational Python skills and introduces students to more advanced programming concepts. This course is designed to help students create more powerful and efficient programs by exploring key topics such as functions, strings, data structures, and file input/output operations. Through engaging lessons, hands-on exercises, and creative projects, students will deepen their understanding of Python and develop practical problem-solving skills.&#xA;Course Highlights:&#xA;Functions and Exceptions: Learn how to decompose programs into smaller, reusable components and handle errors effectively.</description>
     </item>
     <item>
       <title>Block Coding with Beavers | Blue Ridge Boost</title>
@@ -41,13 +62,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Block-Coding-with-Beavers/</guid>
       <description>Students learn sequencing, repetition, problem-solving, and conditional logic while developing practical coding skills. The course employs a hands-on, gamified approach that gradually increases in complexity, allowing each child to advance at their own speed. By the end, students can create sophisticated programs, having built a strong foundation in coding and computational thinking.&#xA;We start to learn fundamental coding concepts by helping a beaver build a dam! The learning continues with learning to code games in Scratch.</description>
-    </item>
-    <item>
-      <title>Block Coding with Minecraft | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Block-Coding-with-Minecraft-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Block-Coding-with-Minecraft-1/</guid>
-      <description>This four-class sequence introduces the students to fundamental computer science concepts, including events and coordinates. Students will use a coding environment embedded in Minecraft Education to code their own commands, which they will then use in the game.&#xA;Leveraging the engaging world of Minecraft Education, students will:&#xA;Explore a custom coding environment integrated within the game Learn to write and execute their own commands Apply coding principles to manipulate the Minecraft world in real-time Develop problem-solving skills through interactive challenges Gain hands-on experience with spatial reasoning and algorithmic thinking By the end of the course, students will have a solid foundation in basic programming concepts, enhanced creativity, and improved logical reasoning skills—all while enjoying the familiar and exciting Minecraft platform.</description>
     </item>
     <item>
       <title>Code Quest | Blue Ridge Boost</title>
@@ -64,25 +78,11 @@
       <description>Discover the exciting world of deep learning and neural networks in this hands-on course, designed to build a strong foundation in artificial intelligence. Through interactive lessons and real-world projects, you&#39;ll gain the skills to design, build, and train deep learning models using Keras, a user-friendly and powerful library for AI development.&#xA;What You&#39;ll Learn: Core Concepts: Understand the fundamentals of neural networks, deep learning models, and how they work. Supervised and Unsupervised Models: Explore supervised models like convolutional neural networks (CNNs) and recurrent neural networks (RNNs), as well as unsupervised models like autoencoders.</description>
     </item>
     <item>
-      <title>Java for Teens | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Java-For-Teens/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Java-For-Teens/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Machine Learning for Kids | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Machine-Learning-for-Kids/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Machine-Learning-for-Kids/</guid>
       <description>Dive into the fascinating world of artificial intelligence with this hands-on class designed for young learners! Using the Machine Learning for Kids platform, students will explore how machines can &#34;learn&#34; from data and apply this knowledge to solve real-world problems in creative ways.&#xA;This class introduces the basics of machine learning through fun, interactive projects, where students will:&#xA;Learn how to train machine learning models using simple datasets. Explore key concepts like classification, recognition, and prediction.</description>
-    </item>
-    <item>
-      <title>Minecraft 2-Day Winter Camp | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/camps/Winter-24-Minecraft/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/camps/Winter-24-Minecraft/</guid>
-      <description>❄️ MINECRAFT WINTER WONDERLAND CAMP ❄️&#xA;A Fun-Filled 2-Day Adventure for Young Builders!&#xA;🎮 CALLING ALL YOUNG ADVENTURERS&#xA;Join us for an exciting journey into a snowy Minecraft world! Perfect for both new and experienced players ages 7-10.&#xA;⚒️ EXCITING ACTIVITIES:&#xA;• Build magical snow castles and cozy winter cottages&#xA;• Create your own winter village with friends&#xA;• Learn cool building tricks and secrets&#xA;• Play friendly snowball games</description>
     </item>
     <item>
       <title>Minecraft Education for Elementary School | Blue Ridge Boost</title>
@@ -113,27 +113,6 @@
       <description>Embark on an exciting journey into the world of programming with Python! This class is designed to make coding fun, engaging, and accessible for kids as they explore the basics of Python through creative and interactive projects. Students will dive into programming concepts while solving puzzles, building games, and experimenting with whimsical projects featuring monsters, secret agents, and more!&#xA;Throughout the class, students will:&#xA;Learn foundational programming concepts like loops and conditionals.</description>
     </item>
     <item>
-      <title>Python Fundamentals | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Python-Fundamentals/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Python-Fundamentals/</guid>
-      <description>This course is a comprehensive, year-long program designed for middle school students with no prior coding experience. It introduces fundamental programming concepts using Python through interactive exercises and projects centered around controlling a virtual character named Tracy. The course covers commands, functions, loops, variables, conditionals, and lists, progressing to more complex tasks like user interaction and creating visual projects.&#xA;Topics include:&#xA;Commands Understanding basic commands is crucial as it forms the foundation of programming, allowing Tracy to perform specific actions.</description>
-    </item>
-    <item>
-      <title>Roblox 2-Day Winter Camp | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/camps/Winter-24-Roblox/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/camps/Winter-24-Roblox/</guid>
-      <description>Join our kid-friendly Roblox camp designed specifically for grades 1-4. Create your very own carnival game in a fun, supportive environment where imagination meets basic coding skills.&#xA;What Your Child Will Learn:&#xA;Simple drag-and-drop game building Basic Roblox Studio tools Creative design choices Teamwork and problem-solving Game testing basics Fun Activities:&#xA;Design colorful magic spells Place carnival games and decorations Create simple challenges Test games with classmates Earn special Roblox itemsBefore and after care is available!</description>
-    </item>
-    <item>
-      <title>Roblox Studio | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Intro-to-Roblox-Studio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Intro-to-Roblox-Studio/</guid>
-      <description>This class is perfect for students who are new to creating games in Roblox. We will teach you how to create your first Roblox experience using Roblox Studio. You will use a Baseplate template and a high-quality catapult asset pack to build and organize a data model, customize 3D objects, and organize scripts for proper simulation. We will guide you through testing, publishing, and managing your experience for a global audience, using project templates and asset packs from the Creator Store to simplify the process.</description>
-    </item>
-    <item>
       <title>Scratch Coding | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Scratch-First-and-Second/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -141,11 +120,32 @@
       <description>Come and learn to code your own games in Scratch!&#xA;Each session will create a new game.</description>
     </item>
     <item>
-      <title>Unity 2D Games | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Unity-2D-Games/</link>
+      <title>After Camp Care | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/camps/Winter-24-After/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Unity-2D-Games/</guid>
-      <description>Explore the exciting world of game design and programming with Unity! These beginner-friendly courses are designed to teach students the fundamentals of game development while building fun and interactive projects. With hands-on lessons and real-world applications, students will learn to create their own games and bring their ideas to life using Unity&#39;s powerful tools.&#xA;Unit 1: 2D Beginner: Adventure GameStep into the world of 2D game development by creating an adventure game from scratch!</description>
+      <guid>https://blueridgeboost.com/camps/Winter-24-After/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Before Camp Care | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/camps/Winter-24-Before/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/camps/Winter-24-Before/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Minecraft 2-Day Winter Camp | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/camps/Winter-24-Minecraft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/camps/Winter-24-Minecraft/</guid>
+      <description>❄️ MINECRAFT WINTER WONDERLAND CAMP ❄️&#xA;A Fun-Filled 2-Day Adventure for Young Builders!&#xA;🎮 CALLING ALL YOUNG ADVENTURERS&#xA;Join us for an exciting journey into a snowy Minecraft world! Perfect for both new and experienced players ages 7-10.&#xA;⚒️ EXCITING ACTIVITIES:&#xA;• Build magical snow castles and cozy winter cottages&#xA;• Create your own winter village with friends&#xA;• Learn cool building tricks and secrets&#xA;• Play friendly snowball games</description>
+    </item>
+    <item>
+      <title>Roblox 2-Day Winter Camp | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/camps/Winter-24-Roblox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/camps/Winter-24-Roblox/</guid>
+      <description>Join our kid-friendly Roblox camp designed specifically for grades 1-4. Create your very own carnival game in a fun, supportive environment where imagination meets basic coding skills.&#xA;What Your Child Will Learn:&#xA;Simple drag-and-drop game building Basic Roblox Studio tools Creative design choices Teamwork and problem-solving Game testing basics Fun Activities:&#xA;Design colorful magic spells Place carnival games and decorations Create simple challenges Test games with classmates Earn special Roblox itemsBefore and after care is available!</description>
     </item>
   </channel>
 </rss>

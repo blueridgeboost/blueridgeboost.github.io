@@ -1,10 +1,10 @@
 ---
-ecwid: 712293574
+ecwid: 712118438
 product_id: Girl-Powered-Drone-Squad
 price: 235
 inventory: 0
 payment_link: ""
-weight: ""
+weight: "1"
 category: "Subscription Classes"
 start_date: "2024-09-05"
 end_date: "2025-03-31"

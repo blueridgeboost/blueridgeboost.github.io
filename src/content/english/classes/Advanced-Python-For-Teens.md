@@ -1,10 +1,10 @@
 ---
-ecwid: 712292112
+ecwid: 712121397
 product_id: Advanced-Python-For-Teens
 price: 179
 inventory: 6
 payment_link: ""
-weight: ""
+weight: "10"
 category: "Subscription Classes"
 start_date: "2025-01-14"
 end_date: "2025-05-14"
