@@ -1,5 +1,5 @@
 ---
-ecwid: 712142519
+ecwid: 712294514
 product_id: Mechanical-Foundations-with-REV
 price:
 - name: "Jan 16, 23, 30; Feb 3"
@@ -17,7 +17,7 @@ price:
 - name: "Dec 5, 12, 19, 26"
   price: 179
   inventory: 4
-weight: "10"
+weight: ""
 category: "Session Classes"
 start_date: "2025-01-06"
 end_date: "06/03/2025"

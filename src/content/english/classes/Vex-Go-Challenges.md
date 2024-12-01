@@ -1,17 +1,17 @@
 ---
-ecwid: 712127958
+ecwid: 712292124
 product_id: Vex-Go-Challenges
 price:
 - name: "Ocean Science Exploration: Dec 7, 14, 21, 28; Jan 4, 11"
   price: 295
-  inventory: 6
+  inventory: undefined
 - name: "City Technology Rebuild: Jan 18, 25; Feb 1, 8, 15, 22"
   price: 295
-  inventory: 6
+  inventory: undefined
 - name: "Village Engineering Construction: Mar 1, 8, 15, 29; April 5, 12"
   price: 295
-  inventory: 6
-weight: "10"
+  inventory: undefined
+weight: ""
 category: "Session Classes"
 start_date: "2024-12-01"
 end_date: ""

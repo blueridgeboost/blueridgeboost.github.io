@@ -8,48 +8,6 @@
     <language>en-US</language>
     <atom:link href="https://blueridgeboost.com/day_tags/Monday/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Integrated Math 1 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Integrated-Math-1-Practice/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Integrated-Math-1-Practice/</guid>
-      <description>Conquer Your Integrated Math 1 Homework!&#xA;Blue Ridge Boost&#39;s Weekly Homework Help:&#xA;Groups of 4 students60-minute focused sessions every weekDirect assistance with your current homeworkStep-by-step guidance on tough problemsCover all Integrated Math 1 topics as they ariseAlgebra, geometry, and statistics supportImprove grades and build confidenceTurn homework struggles into success stories!</description>
-    </item>
-    <item>
-      <title>Integrated Math 1 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/tutoring/Integrated-Math-1-Practice/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/tutoring/Integrated-Math-1-Practice/</guid>
-      <description>Conquer Your Integrated Math 1 Homework!&#xA;Blue Ridge Boost&#39;s Weekly Homework Help:&#xA;Groups of 4 students60-minute focused sessions every weekDirect assistance with your current homeworkStep-by-step guidance on tough problemsCover all Integrated Math 1 topics as they ariseAlgebra, geometry, and statistics supportImprove grades and build confidenceTurn homework struggles into success stories!</description>
-    </item>
-    <item>
-      <title>Code Quest | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Banana-Code-Quest/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Banana-Code-Quest/</guid>
-      <description>Banana Code Quest is a gamified coding course designed to teach young students real-world coding from the first challenge. Through engaging puzzles and adventures, students help a monkey catch bananas and outsmart various animals while learning fundamental and advanced coding concepts in a fun and interactive way.&#xA;Key Features Real Coding Language: Students will code using CoffeeScript, a language similar to JavaScript but with a friendlier syntax, making it perfect for kids.</description>
-    </item>
-    <item>
-      <title>First Lego League Explore | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/FLL-Explore-3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/FLL-Explore-3/</guid>
-      <description>Dive into an exciting new season of FIRST LEGO League with the 2024-2025 theme: SUBMERGED! This year’s challenge invites participants to explore the mysteries and wonders of underwater environments while solving real-world challenges related to oceans, lakes, and waterways.&#xA;Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
-    </item>
-    <item>
-      <title>Python for Kids | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Python-Basics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Python-Basics/</guid>
-      <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, and functions. Course Content Sequencing: Understanding the order of instructions is crucial for programming logic. Lists &amp; Indexing: Learning to store and access multiple items efficiently. For loops: Iterating over sequences to automate repetitive tasks. Variables: Storing data that can be used and modified throughout the program.</description>
-    </item>
-    <item>
-      <title>Robotics with Vex IQ | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Robotics-Vex-IQ/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Robotics-Vex-IQ/</guid>
-      <description>Description:&#xA;Join us at Blue Ridge Boost for an exciting, hands-on journey into coding and computational thinking with the VEX IQ (2nd Generation) robotics platform! Using the structured curriculum from the Carnegie Mellon Robotics Academy, this class introduces students to the fundamentals of robotics programming, problem-solving, and real-world applications.&#xA;Designed for beginners and enthusiasts, the course features engaging, project-based activities that teach students to build, program, and control their robots using the VEXcode programming software.</description>
-    </item>
-    <item>
       <title>After Camp Care | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/camps/Winter-24-After/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -62,6 +20,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/camps/Winter-24-Before/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Code Quest | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Banana-Code-Quest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Banana-Code-Quest/</guid>
+      <description>Banana Code Quest is a gamified coding course designed to teach young students real-world coding from the first challenge. Through engaging puzzles and adventures, students help a monkey catch bananas and outsmart various animals while learning fundamental and advanced coding concepts in a fun and interactive way.&#xA;Key Features Real Coding Language: Students will code using CoffeeScript, a language similar to JavaScript but with a friendlier syntax, making it perfect for kids.</description>
     </item>
     <item>
       <title>Drones 2-Day Winter Camp | Blue Ridge Boost</title>
@@ -78,6 +43,13 @@
       <description>Join us for an exciting 2-day immersive experience at the First Lego League Challenge Winter Camp! This hands-on camp is designed for young innovators, problem-solvers, and future engineers passionate about robotics, teamwork, and STEM. Participants will dive into the world of LEGO robotics, learn coding skills, and tackle real-world challenges of this year&#39;s First Lego League Challenge.</description>
     </item>
     <item>
+      <title>First Lego League Explore | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/FLL-Explore-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/FLL-Explore-3/</guid>
+      <description>Dive into an exciting new season of FIRST LEGO League with the 2024-2025 theme: SUBMERGED! This year’s challenge invites participants to explore the mysteries and wonders of underwater environments while solving real-world challenges related to oceans, lakes, and waterways.&#xA;Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
+    </item>
+    <item>
       <title>Geometry | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Geometry-Practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -90,6 +62,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/tutoring/Geometry-Practice/</guid>
       <description>Geometry Homework Made Easy!&#xA;Join Blue Ridge Boost&#39;s Group Geometry Sessions:&#xA;Small groups of 4 studentsExpert help with your geometry homework Clear explanations of theorems and proofsHands-on problem-solving practice60-minute sessions weeklyCover all high school geometry topicsBoost your grades and confidenceTransform triangles and circles from foes to friends!&#xA;Enroll in Blue Ridge Boost&#39;s Geometry Group today!</description>
+    </item>
+    <item>
+      <title>Integrated Math 1 | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Integrated-Math-1-Practice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Integrated-Math-1-Practice/</guid>
+      <description>Conquer Your Integrated Math 1 Homework!&#xA;Blue Ridge Boost&#39;s Weekly Homework Help:&#xA;Groups of 4 students60-minute focused sessions every weekDirect assistance with your current homeworkStep-by-step guidance on tough problemsCover all Integrated Math 1 topics as they ariseAlgebra, geometry, and statistics supportImprove grades and build confidenceTurn homework struggles into success stories!</description>
+    </item>
+    <item>
+      <title>Integrated Math 1 | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/tutoring/Integrated-Math-1-Practice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/tutoring/Integrated-Math-1-Practice/</guid>
+      <description>Conquer Your Integrated Math 1 Homework!&#xA;Blue Ridge Boost&#39;s Weekly Homework Help:&#xA;Groups of 4 students60-minute focused sessions every weekDirect assistance with your current homeworkStep-by-step guidance on tough problemsCover all Integrated Math 1 topics as they ariseAlgebra, geometry, and statistics supportImprove grades and build confidenceTurn homework struggles into success stories!</description>
     </item>
     <item>
       <title>Math Boost | Blue Ridge Boost</title>
@@ -113,11 +99,25 @@
       <description>❄️ MINECRAFT WINTER WONDERLAND CAMP ❄️&#xA;A Fun-Filled 2-Day Adventure for Young Builders!&#xA;🎮 CALLING ALL YOUNG ADVENTURERS&#xA;Join us for an exciting journey into a snowy Minecraft world! Perfect for both new and experienced players ages 7-10.&#xA;⚒️ EXCITING ACTIVITIES:&#xA;• Build magical snow castles and cozy winter cottages&#xA;• Create your own winter village with friends&#xA;• Learn cool building tricks and secrets&#xA;• Play friendly snowball games</description>
     </item>
     <item>
+      <title>Python for Kids | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Python-Basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Python-Basics/</guid>
+      <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, and functions. Course Content Sequencing: Understanding the order of instructions is crucial for programming logic. Lists &amp; Indexing: Learning to store and access multiple items efficiently. For loops: Iterating over sequences to automate repetitive tasks. Variables: Storing data that can be used and modified throughout the program.</description>
+    </item>
+    <item>
       <title>Roblox 2-Day Winter Camp | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/camps/Winter-24-Roblox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/camps/Winter-24-Roblox/</guid>
       <description>Join our kid-friendly Roblox camp designed specifically for grades 1-4. Create your very own carnival game in a fun, supportive environment where imagination meets basic coding skills.&#xA;What Your Child Will Learn:&#xA;Simple drag-and-drop game building Basic Roblox Studio tools Creative design choices Teamwork and problem-solving Game testing basics Fun Activities:&#xA;Design colorful magic spells Place carnival games and decorations Create simple challenges Test games with classmates Earn special Roblox itemsBefore and after care is available!</description>
+    </item>
+    <item>
+      <title>Robotics with Vex IQ | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Robotics-Vex-IQ/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Robotics-Vex-IQ/</guid>
+      <description>Description:&#xA;Join us at Blue Ridge Boost for an exciting, hands-on journey into coding and computational thinking with the VEX IQ (2nd Generation) robotics platform! Using the structured curriculum from the Carnegie Mellon Robotics Academy, this class introduces students to the fundamentals of robotics programming, problem-solving, and real-world applications.&#xA;Designed for beginners and enthusiasts, the course features engaging, project-based activities that teach students to build, program, and control their robots using the VEXcode programming software.</description>
     </item>
   </channel>
 </rss>

@@ -1,10 +1,10 @@
 ---
-ecwid: 712122168
+ecwid: 712294019
 product_id: FLL-Explore-on-Saturday
 price: 129
 inventory: 3
 payment_link: ""
-weight: "10"
+weight: ""
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-04-30"

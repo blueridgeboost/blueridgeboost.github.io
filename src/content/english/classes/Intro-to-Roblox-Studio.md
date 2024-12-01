@@ -1,23 +1,23 @@
 ---
-ecwid: 702693330
+ecwid: 712294512
 product_id: Intro-to-Roblox-Studio
 price:
 - name: "Nov 16, 23; Dec 7, 14"
   price: 165
-  inventory: 0
+  inventory: 10
 - name: "Jan 11, 18, 25; Feb 1"
   price: 165
-  inventory: 6
+  inventory: 10
 - name: "Feb 8, 15, 22; March 1"
   price: 165
-  inventory: 6
+  inventory: 10
 - name: "April 12, 19, 26; May 3"
   price: 165
-  inventory: 6
+  inventory: 10
 - name: "March 8, 15, 22, 29"
   price: 165
-  inventory: 6
-weight: "9"
+  inventory: 9
+weight: ""
 category: "Session Classes"
 start_date: "2025-01-11"
 end_date: "2025-02-02"

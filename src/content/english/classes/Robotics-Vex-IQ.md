@@ -1,20 +1,20 @@
 ---
-ecwid: 711883832
+ecwid: 712290639
 product_id: Robotics-Vex-IQ
 price:
 - name: "Jan 13, 20, 27; Feb 3"
-  price: 195
-  inventory: 4
+  price: 155
+  inventory: 6
 - name: "Feb 10, 17, 24; March 3"
-  price: 195
-  inventory: 4
+  price: 155
+  inventory: 6
 - name: "March 10, 17, 24; April 7"
-  price: 195
-  inventory: 3
+  price: 155
+  inventory: 6
 - name: "April 14, 21, 28; May 5"
-  price: 195
-  inventory: 4
-weight: "10"
+  price: 155
+  inventory: 6
+weight: ""
 category: "Session Classes"
 start_date: "2025-01-06"
 end_date: "06/03/2025"

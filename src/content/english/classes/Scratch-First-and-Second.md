@@ -1,5 +1,5 @@
 ---
-ecwid: 682778866
+ecwid: 712293580
 product_id: Scratch-First-and-Second
 price:
 - name: "Jan 14, 21, 28; Feb 4"
@@ -14,7 +14,7 @@ price:
 - name: "April 15, 22, 29; May 6"
   price: 135
   inventory: 6
-weight: "10"
+weight: ""
 category: "Session Classes"
 start_date: "2025-01-05"
 end_date: "2025-06-03"

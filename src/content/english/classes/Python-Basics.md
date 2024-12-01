@@ -1,10 +1,10 @@
 ---
-ecwid: 712122175
+ecwid: 712290636
 product_id: Python-Basics
 price: 135
 inventory: 4
 payment_link: ""
-weight: "10"
+weight: ""
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

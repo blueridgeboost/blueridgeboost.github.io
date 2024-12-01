@@ -15,11 +15,11 @@
       <description>What is the Aerial Drone Competition? A cutting-edge program that prepares students for careers in drone technology Four exciting missions: Teamwork, Autonomous Flight, Piloting Skills, and Communications Compete in local, and regional events No prior experience needed! We&#39;re looking for students who are: Curious about drones and aviation Interested in coding and programming Excited to learn piloting skills Great at teamwork and communication Ready to take on new challenges Students are not required to participate in a Competition.</description>
     </item>
     <item>
-      <title>Girl-Powered Drone Squad | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Girl-Powered-Drone-Squad/</link>
+      <title>AMC10 | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Intro-to-AMC10/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Girl-Powered-Drone-Squad/</guid>
-      <description>Calling All Future Female Drone Pilots and Engineers!&#xA;Join our Girl-Powered Aerial Drone Competition Team! Are you ready to soar into the future of technology? We&#39;re forming an all-girl team for the REC Foundation Aerial Drone Competition, and we want YOU to be part of this exciting adventure! What is the Aerial Drone Competition?&#xA;• A cutting-edge program that prepares students for careers in drone technology&#xA;• Four exciting missions: Teamwork, Autonomous Flight, Piloting Skills, and Communications</description>
+      <guid>https://blueridgeboost.com/classes/Intro-to-AMC10/</guid>
+      <description>The AMC 10 (American Mathematics Competitions 10) is a prestigious mathematics contest in the United States designed for students aged 10 through 16, or those enrolled in grades 10 and below. This challenging competition aims to cultivate problem-solving skills, foster mathematical creativity, and promote a deeper understanding of advanced mathematical concepts. With its rigorous content spanning algebra, geometry, number theory, and combinatorics, the AMC 10 serves as a gateway to higher-level math competitions.</description>
     </item>
     <item>
       <title>Calculus AB/BC | Blue Ridge Boost</title>
@@ -27,6 +27,41 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Calculus-AB-Mastery/</guid>
       <description>Conquer Calculus with Intensive Practice!&#xA;Join Blue Ridge Boost Small Group Tutoring:&#xA;4 students per groupDeep dive into calculus conceptsExpert calculus tutor guidance90-minutes sessionsTransform your calculus struggles into strengths!&#xA;Enroll now and differentiate yourself from the rest!</description>
+    </item>
+    <item>
+      <title>Deep Learning Basics | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Deep-Learning-Basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Deep-Learning-Basics/</guid>
+      <description>Discover the exciting world of deep learning and neural networks in this hands-on course, designed to build a strong foundation in artificial intelligence. Through interactive lessons and real-world projects, you&#39;ll gain the skills to design, build, and train deep learning models using Keras, a user-friendly and powerful library for AI development.&#xA;What You&#39;ll Learn: Core Concepts: Understand the fundamentals of neural networks, deep learning models, and how they work. Supervised and Unsupervised Models: Explore supervised models like convolutional neural networks (CNNs) and recurrent neural networks (RNNs), as well as unsupervised models like autoencoders.</description>
+    </item>
+    <item>
+      <title>Girl-Powered Drone Squad | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Girl-Powered-Drone-Squad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Girl-Powered-Drone-Squad/</guid>
+      <description>Calling All Future Female Drone Pilots and Engineers!&#xA;Join our Girl-Powered Aerial Drone Competition Team! Are you ready to soar into the future of technology? We&#39;re forming an all-girl team for the REC Foundation Aerial Drone Competition, and we want YOU to be part of this exciting adventure! What is the Aerial Drone Competition?&#xA;• A cutting-edge program that prepares students for careers in drone technology&#xA;• Four exciting missions: Teamwork, Autonomous Flight, Piloting Skills, and Communications</description>
+    </item>
+    <item>
+      <title>Machine Learning for Kids | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Machine-Learning-for-Kids/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Machine-Learning-for-Kids/</guid>
+      <description>Dive into the fascinating world of artificial intelligence with this hands-on class designed for young learners! Using the Machine Learning for Kids platform, students will explore how machines can &#34;learn&#34; from data and apply this knowledge to solve real-world problems in creative ways.&#xA;This class introduces the basics of machine learning through fun, interactive projects, where students will:&#xA;Learn how to train machine learning models using simple datasets. Explore key concepts like classification, recognition, and prediction.</description>
+    </item>
+    <item>
+      <title>Prealgebra Excellence | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Prealgebra-Excellence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Prealgebra-Excellence/</guid>
+      <description>Prealgebra prepares students for the rigors of algebra and teaches problem-solving techniques for prestigious middle school math contests such as MATHCOUNTS, MOEMS, and the AMC 8. The course challenges students at a much deeper level than a traditional middle school prealgebra course. Instead of traditional lecturing, most of the class time is dedicated to tackling challenging problems. Students will be encouraged to write complete and clear solutions to exercises, an important skill in communicating mathematics effectively.</description>
+    </item>
+    <item>
+      <title>Python Fundamentals | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Python-Fundamentals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Python-Fundamentals/</guid>
+      <description>This course is a comprehensive, year-long program designed for middle school students with no prior coding experience. It introduces fundamental programming concepts using Python through interactive exercises and projects centered around controlling a virtual character named Tracy. The course covers commands, functions, loops, variables, conditionals, and lists, progressing to more complex tasks like user interaction and creating visual projects.&#xA;Topics include:&#xA;Commands Understanding basic commands is crucial as it forms the foundation of programming, allowing Tracy to perform specific actions.</description>
     </item>
     <item>
       <title>Statistics | Blue Ridge Boost</title>
@@ -41,41 +76,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/tutoring/Statistics-Mastery/</guid>
       <description>Boost Your AP Statistics Score!&#xA;Blue Ridge Boost&#39;s Weekly Extra Practice Sessions:&#xA;Small groups of 4 studentsIntensive 90-minute sessions every weekExtra practice beyond classroom assignmentsFocus on challenging AP Statistics conceptsCover descriptive statistics, probability, inferenceExam-style questions and problem-solving strategiesIncrease your chances for a 5 on the AP examTransform your stats skills from average to exceptional!</description>
-    </item>
-    <item>
-      <title>Python Fundamentals | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Python-Fundamentals/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Python-Fundamentals/</guid>
-      <description>This course is a comprehensive, year-long program designed for middle school students with no prior coding experience. It introduces fundamental programming concepts using Python through interactive exercises and projects centered around controlling a virtual character named Tracy. The course covers commands, functions, loops, variables, conditionals, and lists, progressing to more complex tasks like user interaction and creating visual projects.&#xA;Topics include:&#xA;Commands Understanding basic commands is crucial as it forms the foundation of programming, allowing Tracy to perform specific actions.</description>
-    </item>
-    <item>
-      <title>Prealgebra Excellence | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Prealgebra-Excellence/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Prealgebra-Excellence/</guid>
-      <description>Prealgebra prepares students for the rigors of algebra and teaches problem-solving techniques for prestigious middle school math contests such as MATHCOUNTS, MOEMS, and the AMC 8. The course challenges students at a much deeper level than a traditional middle school prealgebra course. Instead of traditional lecturing, most of the class time is dedicated to tackling challenging problems. Students will be encouraged to write complete and clear solutions to exercises, an important skill in communicating mathematics effectively.</description>
-    </item>
-    <item>
-      <title>Deep Learning Basics | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Deep-Learning-Basics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Deep-Learning-Basics/</guid>
-      <description>Discover the exciting world of deep learning and neural networks in this hands-on course, designed to build a strong foundation in artificial intelligence. Through interactive lessons and real-world projects, you&#39;ll gain the skills to design, build, and train deep learning models using Keras, a user-friendly and powerful library for AI development.&#xA;What You&#39;ll Learn: Core Concepts: Understand the fundamentals of neural networks, deep learning models, and how they work. Supervised and Unsupervised Models: Explore supervised models like convolutional neural networks (CNNs) and recurrent neural networks (RNNs), as well as unsupervised models like autoencoders.</description>
-    </item>
-    <item>
-      <title>Machine Learning for Kids | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Machine-Learning-for-Kids/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Machine-Learning-for-Kids/</guid>
-      <description>Dive into the fascinating world of artificial intelligence with this hands-on class designed for young learners! Using the Machine Learning for Kids platform, students will explore how machines can &#34;learn&#34; from data and apply this knowledge to solve real-world problems in creative ways.&#xA;This class introduces the basics of machine learning through fun, interactive projects, where students will:&#xA;Learn how to train machine learning models using simple datasets. Explore key concepts like classification, recognition, and prediction.</description>
-    </item>
-    <item>
-      <title>AMC10 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Intro-to-AMC10/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Intro-to-AMC10/</guid>
-      <description>The AMC 10 (American Mathematics Competitions 10) is a prestigious mathematics contest in the United States designed for students aged 10 through 16, or those enrolled in grades 10 and below. This challenging competition aims to cultivate problem-solving skills, foster mathematical creativity, and promote a deeper understanding of advanced mathematical concepts. With its rigorous content spanning algebra, geometry, number theory, and combinatorics, the AMC 10 serves as a gateway to higher-level math competitions.</description>
     </item>
   </channel>
 </rss>
