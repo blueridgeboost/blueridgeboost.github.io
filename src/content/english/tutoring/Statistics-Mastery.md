@@ -2,16 +2,16 @@
 ecwid: 712292121
 product_id: Statistics-Mastery
 price:
-- name: "April 6, 13, 27; May 4"
-  price: 175
-  inventory: 4
-- name: "Mar 2, 9, 16, 23"
+- name: "Jan 5, 12, 19, 26"
   price: 175
   inventory: 4
 - name: "Feb 2, 9, 16, 23"
   price: 175
   inventory: 4
-- name: "Jan 5, 12, 19, 26"
+- name: "Mar 2, 9, 16, 23"
+  price: 175
+  inventory: 4
+- name: "April 6, 13, 27; May 4"
   price: 175
   inventory: 4
 weight: ""

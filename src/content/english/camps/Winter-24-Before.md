@@ -2,22 +2,22 @@
 ecwid: 712292127
 product_id: Winter-24-Before
 price:
-- name: "Dec 31"
-  price: 10
-  inventory: 12
-- name: "Dec 30"
-  price: 10
-  inventory: 12
-- name: "Dec 27"
-  price: 10
-  inventory: 12
-- name: "Dec 26"
+- name: "Dec 23"
   price: 10
   inventory: 12
 - name: "Dec 24"
   price: 10
   inventory: 12
-- name: "Dec 23"
+- name: "Dec 26"
+  price: 10
+  inventory: 12
+- name: "Dec 27"
+  price: 10
+  inventory: 12
+- name: "Dec 30"
+  price: 10
+  inventory: 12
+- name: "Dec 31"
   price: 10
   inventory: 12
 weight: ""

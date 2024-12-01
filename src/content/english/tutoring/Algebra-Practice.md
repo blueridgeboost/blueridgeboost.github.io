@@ -2,13 +2,13 @@
 ecwid: 712293577
 product_id: Algebra-Practice
 price:
-- name: "March 8, 15, 22, 29"
+- name: "Jan 11, 18, 25; Feb 1"
   price: 155
   inventory: 4
 - name: "Feb 8, 15, 22; March 1"
   price: 155
   inventory: 4
-- name: "Jan 11, 18, 25; Feb 1"
+- name: "March 8, 15, 22, 29"
   price: 155
   inventory: 4
 weight: ""

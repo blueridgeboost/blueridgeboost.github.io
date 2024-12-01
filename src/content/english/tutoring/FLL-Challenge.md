@@ -2,16 +2,16 @@
 ecwid: 712294026
 product_id: FLL-Challenge
 price:
-- name: "April 16, 23, 30; May 7"
-  price: 179
-  inventory: 4
-- name: "March 12, 19, 26; April 9"
+- name: "Jan 15, 22, 29; Feb 5"
   price: 179
   inventory: 4
 - name: "Feb 12, 19, 26; March 5"
   price: 179
   inventory: 4
-- name: "Jan 15, 22, 29; Feb 5"
+- name: "March 12, 19, 26; April 9"
+  price: 179
+  inventory: 4
+- name: "April 16, 23, 30; May 7"
   price: 179
   inventory: 4
 weight: ""
