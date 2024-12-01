@@ -1,14 +1,14 @@
 ---
-ecwid: 701939275
+ecwid: 712289450
 product_id: Fundamentals-of-Coding-with-SPIKE-Essential-Part-1
 price:
 - name: "Nov 12, 19; Dec 3, 10"
   price: 135
-  inventory: 0
+  inventory: 6
 - name: "Jan 9, 16, 23, 30"
   price: 135
-  inventory: 3
-weight: "10"
+  inventory: 6
+weight: ""
 category: "Session Classes"
 start_date: "2025-01-09"
 end_date: "2025-01-30"

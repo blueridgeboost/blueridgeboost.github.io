@@ -1,10 +1,10 @@
 ---
-ecwid: 712122170
+ecwid: 712290634
 product_id: Java-For-Teens
 price: 179
 inventory: 4
 payment_link: ""
-weight: "9"
+weight: ""
 category: "Subscription Classes"
 start_date: "2025-01-14"
 end_date: "2025-05-14"

@@ -1,5 +1,5 @@
 ---
-ecwid: 696847227
+ecwid: 712290896
 product_id: Statistics-Practice
 price:
 - name: "Jan 7, 14, 21, 28"
@@ -17,7 +17,7 @@ price:
 - name: "May 6, 13, 20, 27"
   price: 175
   inventory: 4
-weight: "2"
+weight: ""
 category: "Session Classes"
 start_date: "2025-01-07"
 end_date: "06/03/2025"

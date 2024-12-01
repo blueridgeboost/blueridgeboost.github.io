@@ -1,5 +1,5 @@
 ---
-ecwid: 697011165
+ecwid: 712292121
 product_id: Statistics-Mastery
 price:
 - name: "Jan 5, 12, 19, 26"
@@ -14,7 +14,7 @@ price:
 - name: "April 6, 13, 27; May 4"
   price: 175
   inventory: 4
-weight: "2"
+weight: ""
 category: "Session Classes"
 start_date: "2025-01-05"
 end_date: "06/03/2025"

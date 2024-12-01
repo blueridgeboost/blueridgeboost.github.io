@@ -1,5 +1,5 @@
 ---
-ecwid: 696846655
+ecwid: 712290640
 product_id: Integrated-Math-1-Practice
 price:
 - name: "Jan 6, 13, 20, 27"
@@ -17,7 +17,7 @@ price:
 - name: "May 5, 12, 19; June 2"
   price: 155
   inventory: 4
-weight: "8"
+weight: ""
 category: "Session Classes"
 start_date: "2025-01-06"
 end_date: "06/03/2025"

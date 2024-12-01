@@ -1,16 +1,16 @@
 ---
-ecwid: 708094569
+ecwid: 712289455
 product_id: Winter-24-Drones
 price:
-- name: "Dec 23, 24"
-  price: 165
-  inventory: 6
-- name: "Dec 26, 27"
-  price: 165
-  inventory: 6
 - name: "Dec 30, 31"
   price: 165
-  inventory: 6
+  inventory: 4
+- name: "Dec 26, 27"
+  price: 165
+  inventory: 4
+- name: "Dec 23, 24"
+  price: 165
+  inventory: 4
 weight: ""
 category: "2-Day Camps"
 start_date: "2024-12-23"
