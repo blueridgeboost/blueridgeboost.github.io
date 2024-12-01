@@ -2,19 +2,19 @@
 ecwid: 696847186
 product_id: Precalculus-Practice
 price:
-- name: "May 6, 13, 20, 27"
-  price: 155
-  inventory: 4
-- name: "April 8, 15, 22, 29"
-  price: 155
-  inventory: 4
-- name: "March 4, 11, 18, 25"
+- name: "Jan 7, 14, 22, 29"
   price: 155
   inventory: 4
 - name: "Feb 4, 11, 18, 25"
   price: 155
   inventory: 4
-- name: "Jan 7, 14, 22, 29"
+- name: "March 4, 11, 18, 25"
+  price: 155
+  inventory: 4
+- name: "April 8, 15, 22, 29"
+  price: 155
+  inventory: 4
+- name: "May 6, 13, 20, 27"
   price: 155
   inventory: 4
 weight: "8"

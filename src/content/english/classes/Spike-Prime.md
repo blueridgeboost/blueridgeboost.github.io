@@ -2,16 +2,16 @@
 ecwid: 711888123
 product_id: Spike-Prime
 price:
-- name: "April 16, 23, 30; May 7"
+- name: "Jan 15, 22, 29; Feb 5"
+  price: 159
+  inventory: 4
+- name: "Feb 12, 19, 26; March 5"
   price: 159
   inventory: 4
 - name: "March 12, 19, 26; April 9"
   price: 159
   inventory: 3
-- name: "Feb 12, 19, 26; March 5"
-  price: 159
-  inventory: 4
-- name: "Jan 15, 22, 29; Feb 5"
+- name: "April 16, 23, 30; May 7"
   price: 159
   inventory: 4
 weight: "10"

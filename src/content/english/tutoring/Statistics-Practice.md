@@ -2,19 +2,19 @@
 ecwid: 696847227
 product_id: Statistics-Practice
 price:
-- name: "May 6, 13, 20, 27"
-  price: 175
-  inventory: 4
-- name: "April 8, 15, 22, 19"
-  price: 175
-  inventory: 4
-- name: "March 4, 11, 18, 25"
+- name: "Jan 7, 14, 21, 28"
   price: 175
   inventory: 4
 - name: "Feb 4, 11, 18, 25"
   price: 175
   inventory: 4
-- name: "Jan 7, 14, 21, 28"
+- name: "March 4, 11, 18, 25"
+  price: 175
+  inventory: 4
+- name: "April 8, 15, 22, 19"
+  price: 175
+  inventory: 4
+- name: "May 6, 13, 20, 27"
   price: 175
   inventory: 4
 weight: "2"
