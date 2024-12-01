@@ -1,10 +1,10 @@
 ---
-ecwid: 712289448
+ecwid: 712121402
 product_id: Problem-Solving
 price: 195
 inventory: 4
 payment_link: ""
-weight: ""
+weight: "7"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

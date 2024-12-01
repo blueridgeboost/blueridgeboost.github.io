@@ -1,17 +1,17 @@
 ---
-ecwid: 712289451
+ecwid: 712142637
 product_id: Unity-2D-Games
 price:
+- name: "April 12, 19, 26; May 3"
+  price: 195
+  inventory: undefined
+- name: "Feb 8, 15, 22; March 1"
+  price: 195
+  inventory: undefined
 - name: "Jan 11, 18, 25; Feb 1"
   price: 195
   inventory: 6
-- name: "Feb 8, 15, 22; March 1"
-  price: 195
-  inventory: 6
-- name: "April 12, 19, 26; May 3"
-  price: 195
-  inventory: 6
-weight: ""
+weight: "9"
 category: "Session Classes"
 start_date: "2025-01-11"
 end_date: ""

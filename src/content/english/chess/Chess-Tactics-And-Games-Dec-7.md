@@ -1,11 +1,11 @@
 ---
-ecwid: 712294016
+ecwid: 702296730
 product_id: Chess-Tactics-And-Games-Dec-7
 price:
 - name: "December 7"
   price: 45
-  inventory: 5
-weight: ""
+  inventory: 3
+weight: "10"
 category: "Chess Club"
 start_date: "2025-12-07"
 end_date: "2024-12-07"

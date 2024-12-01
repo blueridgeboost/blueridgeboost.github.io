@@ -1,10 +1,10 @@
 ---
-ecwid: 712292115
+ecwid: 712122174
 product_id: Math-Leapers
 price: 139
 inventory: 4
 payment_link: ""
-weight: ""
+weight: "8"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"

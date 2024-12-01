@@ -1,11 +1,11 @@
 ---
-ecwid: 712294024
+ecwid: 705831084
 product_id: AMC8-2025-Test
 price:
 - name: "January 25, 2025"
   price: 79
   inventory: 7
-weight: ""
+weight: "1"
 category: "Session Classes"
 start_date: "2025-01-25"
 end_date: "2025-01-25"

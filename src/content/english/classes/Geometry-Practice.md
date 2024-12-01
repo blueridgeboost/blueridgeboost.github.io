@@ -1,20 +1,20 @@
 ---
-ecwid: 712292118
+ecwid: 696833403
 product_id: Geometry-Practice
 price:
-- name: "Jan 6, 13, 20, 27"
-  price: 155
-  inventory: 4
-- name: "Feb 3, 10, 17, 24"
-  price: 155
-  inventory: 4
-- name: "Mar 3, 19, 17, 24"
+- name: "May 6, 13, 20; June 2"
   price: 155
   inventory: 4
 - name: "Apr 7, 14, 21, 28"
   price: 155
   inventory: 4
-- name: "May 6, 13, 20; June 2"
+- name: "Mar 3, 19, 17, 24"
+  price: 155
+  inventory: 4
+- name: "Feb 3, 10, 17, 24"
+  price: 155
+  inventory: 4
+- name: "Jan 6, 13, 20, 27"
   price: 155
   inventory: 4
 weight: ""

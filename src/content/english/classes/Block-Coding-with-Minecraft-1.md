@@ -1,23 +1,23 @@
 ---
-ecwid: 712294023
+ecwid: 702296455
 product_id: Block-Coding-with-Minecraft-1
 price:
-- name: "Nov 7, 14, 21; Dec 5"
-  price: 165
-  inventory: 100
-- name: "Jan 16, 23, 30; Feb 6"
-  price: 165
-  inventory: 100
-- name: "Feb 13, 20, 27; March 6"
-  price: 165
-  inventory: 100
-- name: "March 13, 20, 27; April 10"
-  price: 165
-  inventory: 100
 - name: "April 17, 24; May 1, 8"
   price: 165
-  inventory: 100
-weight: ""
+  inventory: 6
+- name: "March 13, 20, 27; April 10"
+  price: 165
+  inventory: 6
+- name: "Feb 13, 20, 27; March 6"
+  price: 165
+  inventory: 6
+- name: "Jan 16, 23, 30; Feb 6"
+  price: 165
+  inventory: 6
+- name: "Nov 7, 14, 21; Dec 5"
+  price: 165
+  inventory: 0
+weight: "9"
 category: "Session Classes"
 start_date: "2025-01-09"
 end_date: "2025-02-27"
