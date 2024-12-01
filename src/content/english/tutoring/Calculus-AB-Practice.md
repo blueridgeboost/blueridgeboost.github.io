@@ -2,19 +2,19 @@
 ecwid: 712292116
 product_id: Calculus-AB-Practice
 price:
-- name: "May 8, 15, 22, 29"
-  price: 195
-  inventory: 4
-- name: "April 10, 17, 24; May 1"
-  price: 195
-  inventory: 4
-- name: "March 6, 13, 20, 27"
+- name: "Jan 9, 16, 23, 30"
   price: 195
   inventory: 4
 - name: "Feb 3, 10, 17, 24"
   price: 195
   inventory: 4
-- name: "Jan 9, 16, 23, 30"
+- name: "March 6, 13, 20, 27"
+  price: 195
+  inventory: 4
+- name: "April 10, 17, 24; May 1"
+  price: 195
+  inventory: 4
+- name: "May 8, 15, 22, 29"
   price: 195
   inventory: 4
 weight: ""

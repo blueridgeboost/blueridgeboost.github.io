@@ -2,19 +2,19 @@
 ecwid: 712294515
 product_id: Integrated-Math-3-Practice
 price:
-- name: "May 6, 13, 20, 17"
-  price: 155
-  inventory: 4
-- name: "Apr 8, 15, 22, 19"
-  price: 155
-  inventory: 4
-- name: "Mar 4, 11, 18, 25"
+- name: "Jan 7, 14, 21, 28"
   price: 155
   inventory: 4
 - name: "Feb 4, 11, 18, 25"
   price: 155
   inventory: 4
-- name: "Jan 7, 14, 21, 28"
+- name: "Mar 4, 11, 18, 25"
+  price: 155
+  inventory: 4
+- name: "Apr 8, 15, 22, 19"
+  price: 155
+  inventory: 4
+- name: "May 6, 13, 20, 17"
   price: 155
   inventory: 4
 weight: ""

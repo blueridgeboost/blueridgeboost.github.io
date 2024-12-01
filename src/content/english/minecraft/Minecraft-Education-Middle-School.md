@@ -2,19 +2,19 @@
 ecwid: 712289461
 product_id: Minecraft-Education-Middle-School
 price:
-- name: "February 8"
-  price: 59
-  inventory: 12
-- name: "January 25"
-  price: 59
-  inventory: 12
-- name: "January 11"
+- name: "December 14"
   price: 59
   inventory: 12
 - name: "December 28"
   price: 59
   inventory: 12
-- name: "December 14"
+- name: "January 11"
+  price: 59
+  inventory: 12
+- name: "January 25"
+  price: 59
+  inventory: 12
+- name: "February 8"
   price: 59
   inventory: 12
 weight: ""
