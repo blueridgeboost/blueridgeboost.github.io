@@ -6,7 +6,7 @@ price:
   price: 355
 - name: "Full-Day"
   price: 495
-inventory: 16
+inventory: 14
 weight: ""
 category: "5-Day Camps"
 start_date: "2025-03-31"

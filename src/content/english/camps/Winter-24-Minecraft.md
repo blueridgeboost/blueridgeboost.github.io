@@ -10,8 +10,8 @@ price:
   inventory: 9
 weight: ""
 category: "2-Day Camps"
-start_date: "2024-12-23"
-end_date: "2024-12-17"
+start_date: ""
+end_date: ""
 start_time: "9:00"
 end_time: "12:30"
 page_title: "Minecraft 2-Day Winter Camp"
@@ -19,7 +19,7 @@ page_subtitle: "Build with friends"
 featured: 11
 title: "Minecraft 2-Day Winter Camp | Blue Ridge Boost"
 section: camps
-day_tags: ["Monday", "Tuesday", "Thursday", "Friday"]
+day_tags: 
 grade_tags: ["1st", "2nd","3rd","4th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"

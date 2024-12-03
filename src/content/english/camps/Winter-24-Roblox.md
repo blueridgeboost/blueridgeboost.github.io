@@ -7,8 +7,8 @@ price:
   inventory: 12
 weight: ""
 category: "2-Day Camps"
-start_date: "2024-12-30"
-end_date: "2024-12-31"
+start_date: ""
+end_date: ""
 start_time: "9:00"
 end_time: "12:30"
 page_title: "Roblox 2-Day Winter Camp"
@@ -16,7 +16,7 @@ page_subtitle: "Create your own Roblox Game!"
 featured: 12
 title: "Roblox 2-Day Winter Camp | Blue Ridge Boost"
 section: camps
-day_tags: ["Monday", "Tuesday"]
+day_tags: 
 grade_tags: ["1st", "2nd","3rd","4th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
