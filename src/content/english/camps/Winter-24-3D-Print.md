@@ -13,16 +13,16 @@ price:
   inventory: 6
 weight: ""
 category: "2-Day Camps"
-start_date: "2024-12-23"
-end_date: "2024-12-17"
+start_date: ""
+end_date: ""
 start_time: "9:00"
 end_time: "12:30"
 page_title: "First Lego League Challenge 2-Day Winter Camp"
-page_subtitle: "Create and share the season joy"
+page_subtitle: "Tips and trick for FLL Challenge"
 featured: 10
 title: "First Lego League Challenge 2-Day Winter Camp | Blue Ridge Boost"
 section: camps
-day_tags: ["Monday","Tuesday"]
+day_tags: 
 grade_tags: ["4th","5th","6th","7th","8th"]
 subject_tags: ["Robotics", "Coding"]
 difficulty: "Code Cadets"
