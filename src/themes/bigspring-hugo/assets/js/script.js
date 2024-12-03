@@ -70,7 +70,7 @@ function aux_ecwid_add_subscription_to_cart( product_id, product_options ) {
         recurringChargeSettings: { 
             recurringInterval: "month",
             recurringIntervalCount: 1,
-        },
+            },
         callback: function(success, product, cart, error){
             if (!success) {
                 console.error(error) // error message or null

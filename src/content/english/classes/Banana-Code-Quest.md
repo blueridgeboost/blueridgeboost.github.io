@@ -4,7 +4,7 @@ product_id: Banana-Code-Quest
 price:
 - name: "Eight Classes starting January 13"
   price: 295
-  inventory: 6
+  inventory: 5
 weight: "10"
 category: "Session Classes"
 start_date: "2025-01-13"
