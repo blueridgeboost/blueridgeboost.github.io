@@ -7,7 +7,7 @@ price:
   inventory: 0
 - name: "Jan 16, 23, 30; Feb 6"
   price: 165
-  inventory: 6
+  inventory: 5
 - name: "Feb 13, 20, 27; March 6"
   price: 165
   inventory: 6
