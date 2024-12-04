@@ -30,7 +30,7 @@ ribbon: "New!"
 title: "Machine Learning for Kids | Blue Ridge Boost"
 section: classes
 day_tags: ["Sunday"]
-grade_tags: ["3rd","4th","5th"]
+grade_tags: ["4th","5th", "6th", "7th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Syntax Sorcerers"
 ---
