@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', filterClasses);
 
 function ecwid_add_product_to_cart( product_id, product_options ) {
     if (typeof Ecwid == 'undefined' ||  !Ecwid.Cart) {
-        Ecwid.OnPageLoaded.add(function () {
+        Ecwid.OnAPILoaded.add(function () {
             aux_ecwid_add_product_to_cart(product_id, product_options);
         });
     } else {
