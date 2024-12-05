@@ -31,7 +31,7 @@
                     <input type="radio" name="payment-{{ $id }}" value="{{.name}}" disabled >
                 {{ end }}
             {{ end }}
-                {{.name}} (${{.price}}) 
+                {{.name}} (${{.price}}) {{ if lt .inventory 4 }} <br> Only {{ .inventory }} spaces left! {{ end }}
             </label> 
         {{ end }}
     </div>

@@ -1,11 +1,11 @@
 ---
-ecwid: 711883793
+ecwid: 713301268
 product_id: Python-For-Tweens
 price:
 - name: "Eight Classes starting January 13"
   price: 295
   inventory: 6
-weight: "10"
+weight: ""
 category: "Session Classes"
 start_date: "2025-01-13"
 end_date: "2023-03-03"

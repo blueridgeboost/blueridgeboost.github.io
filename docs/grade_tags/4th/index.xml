@@ -64,13 +64,6 @@
       <description>We are excited to start a chess program for our more dedicated players, who are ready to learn more about the game and improve their skills.&#xA;The classes start at 10 am with a 45 minutes lesson, followed by three 15-minute games. The pickup time is 12:00.&#xA;The classes are held at Blue Ridge Boost and are taught by Daniel Wurtzer.&#xA;Hello my name is Daniel Wurzer and I am excited to teach chess lessons at Blue Ridge Boost this fall.</description>
     </item>
     <item>
-      <title>Code Quest | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Banana-Code-Quest/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Banana-Code-Quest/</guid>
-      <description>Banana Code Quest is a gamified coding course designed to teach young students real-world coding from the first challenge. Through engaging puzzles and adventures, students help a monkey catch bananas and outsmart various animals while learning fundamental and advanced coding concepts in a fun and interactive way.&#xA;Key Features Real Coding Language: Students will code using CoffeeScript, a language similar to JavaScript but with a friendlier syntax, making it perfect for kids.</description>
-    </item>
-    <item>
       <title>First Lego League Explore | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/FLL-Explore-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -113,25 +106,11 @@
       <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, and functions. Course Content Sequencing: Understanding the order of instructions is crucial for programming logic. Lists &amp; Indexing: Learning to store and access multiple items efficiently. For loops: Iterating over sequences to automate repetitive tasks. Variables: Storing data that can be used and modified throughout the program.</description>
     </item>
     <item>
-      <title>Robotics with Lego Spike | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Robotics-Lego-Spike-Prime/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Robotics-Lego-Spike-Prime/</guid>
-      <description>Jump into the world of robotics and coding with the LEGO Education SPIKE Prime system! This hands-on course introduces students to the exciting possibilities of robotics engineering and computational thinking through engaging, project-based learning. Designed for beginners to intermediate learners, this course will teach students how to design, build, and program robotic solutions to solve real-world challenges.&#xA;In this course, students will:&#xA;Learn the basics of robotics using the LEGO SPIKE Prime kit.</description>
-    </item>
-    <item>
       <title>Robotics with Vex IQ | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Robotics-Vex-IQ/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Robotics-Vex-IQ/</guid>
       <description>Description:&#xA;Join us at Blue Ridge Boost for an exciting, hands-on journey into coding and computational thinking with the VEX IQ (2nd Generation) robotics platform! Using the structured curriculum from the Carnegie Mellon Robotics Academy, this class introduces students to the fundamentals of robotics programming, problem-solving, and real-world applications.&#xA;Designed for beginners and enthusiasts, the course features engaging, project-based activities that teach students to build, program, and control their robots using the VEXcode programming software.</description>
-    </item>
-    <item>
-      <title>Scratch Coding | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Scratch-First-and-Second/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Scratch-First-and-Second/</guid>
-      <description>Come and learn to code your own games in Scratch!&#xA;Each session will create a new game.</description>
     </item>
     <item>
       <title>Vex Go Challenges | Blue Ridge Boost</title>
@@ -153,6 +132,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/camps/Winter-24-Before/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Code Quest | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Banana-Code-Quest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Banana-Code-Quest/</guid>
+      <description>Banana Code Quest is a gamified coding course designed to teach young students real-world coding from the first challenge. Through engaging puzzles and adventures, students help a monkey catch bananas and outsmart various animals while learning fundamental and advanced coding concepts in a fun and interactive way.&#xA;Key Features Real Coding Language: Students will code using CoffeeScript, a language similar to JavaScript but with a friendlier syntax, making it perfect for kids.</description>
     </item>
     <item>
       <title>First Lego League Challenge 2-Day Winter Camp | Blue Ridge Boost</title>
@@ -258,6 +244,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/camps/Winter-24-Roblox/</guid>
       <description>Join our kid-friendly Roblox camp designed specifically for grades 1-4. Create your very own carnival game in a fun, supportive environment where imagination meets basic coding skills.&#xA;What Your Child Will Learn:&#xA;Simple drag-and-drop game building Basic Roblox Studio tools Creative design choices Teamwork and problem-solving Game testing basics Fun Activities:&#xA;Design colorful magic spells Place carnival games and decorations Create simple challenges Test games with classmates Earn special Roblox itemsBefore and after care is available!</description>
+    </item>
+    <item>
+      <title>Robotics with Lego Spike | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Robotics-Lego-Spike-Prime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Robotics-Lego-Spike-Prime/</guid>
+      <description>Jump into the world of robotics and coding with the LEGO Education SPIKE Prime system! This hands-on course introduces students to the exciting possibilities of robotics engineering and computational thinking through engaging, project-based learning. Designed for beginners to intermediate learners, this course will teach students how to design, build, and program robotic solutions to solve real-world challenges.&#xA;In this course, students will:&#xA;Learn the basics of robotics using the LEGO SPIKE Prime kit.</description>
+    </item>
+    <item>
+      <title>Scratch Coding | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Scratch-First-and-Second/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Scratch-First-and-Second/</guid>
+      <description>Come and learn to code your own games in Scratch!&#xA;Each session will create a new game.</description>
     </item>
     <item>
       <title>Spring Break Camp | Blue Ridge Boost</title>

@@ -24,7 +24,10 @@
         {{ end }}
     {{ end }}
     {{ if eq $displayButton true }}
-        Monthly Subscription  (${{$price}})                
+        Monthly Subscription  (${{$price}})      
+        {{ if lt $spaces 4 }} 
+            <br>Only {{ $spaces }} spaces left!
+        {{ end }}         
         <form id="class-{{ $id }}">
             <center>
             {{/*  {{ $spaces }} spaces available<br>  */}}

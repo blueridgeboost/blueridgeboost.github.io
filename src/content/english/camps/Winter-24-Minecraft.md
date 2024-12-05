@@ -16,7 +16,7 @@ start_time: "9:00"
 end_time: "12:30"
 page_title: "Minecraft 2-Day Winter Camp"
 page_subtitle: "Build with friends"
-featured: 11
+featured: 9
 title: "Minecraft 2-Day Winter Camp | Blue Ridge Boost"
 section: camps
 day_tags: 
