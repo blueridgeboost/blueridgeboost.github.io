@@ -38,18 +38,19 @@ function aux_ecwid_add_product_to_cart( product_id, product_options ) {
     //alert("Adding to cart: " + product_id + " with options: " + JSON.stringify(product_options));
     Ecwid.Cart.addProduct({
         id: product_id,
-        quantity: 1,   
-        options: product_options, 
+        quantity: 1,
+        options: product_options,
         // categoryIds: [category_id],
         // defaultCategoryId: category_id,
         // recurringChargeSettings: undefined,
-        callback: function(success, product, cart, error){
-            if (!success) {
-                console.error(error) // error message or null
-            }
-        }
-    });
-    Ecwid.openPage('cart');
+        callback(success, product, cart, error) {
+          if (success) {
+            Ecwid.openPage('cart');
+          } else {
+            console.error(error); // error message or null
+          }
+        },
+      });
 }
 
 function ecwid_add_subscription_to_cart( product_id ) {

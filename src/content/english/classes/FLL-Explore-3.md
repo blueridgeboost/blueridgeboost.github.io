@@ -12,7 +12,7 @@ start_time: "3:45"
 end_time: "5:00"
 page_title: "First Lego League Explore"
 page_subtitle: "Lego Explorers"
-featured: 5
+featured: 4
 ribbon: "January"
 title: "First Lego League Explore | Blue Ridge Boost"
 section: classes

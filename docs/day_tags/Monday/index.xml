@@ -22,13 +22,6 @@
       <description>Conquer Your Integrated Math 1 Homework!&#xA;Blue Ridge Boost&#39;s Weekly Homework Help:&#xA;Groups of 4 students60-minute focused sessions every weekDirect assistance with your current homeworkStep-by-step guidance on tough problemsCover all Integrated Math 1 topics as they ariseAlgebra, geometry, and statistics supportImprove grades and build confidenceTurn homework struggles into success stories!</description>
     </item>
     <item>
-      <title>Code Quest | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Banana-Code-Quest/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Banana-Code-Quest/</guid>
-      <description>Banana Code Quest is a gamified coding course designed to teach young students real-world coding from the first challenge. Through engaging puzzles and adventures, students help a monkey catch bananas and outsmart various animals while learning fundamental and advanced coding concepts in a fun and interactive way.&#xA;Key Features Real Coding Language: Students will code using CoffeeScript, a language similar to JavaScript but with a friendlier syntax, making it perfect for kids.</description>
-    </item>
-    <item>
       <title>First Lego League Explore | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/FLL-Explore-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -48,6 +41,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Robotics-Vex-IQ/</guid>
       <description>Description:&#xA;Join us at Blue Ridge Boost for an exciting, hands-on journey into coding and computational thinking with the VEX IQ (2nd Generation) robotics platform! Using the structured curriculum from the Carnegie Mellon Robotics Academy, this class introduces students to the fundamentals of robotics programming, problem-solving, and real-world applications.&#xA;Designed for beginners and enthusiasts, the course features engaging, project-based activities that teach students to build, program, and control their robots using the VEXcode programming software.</description>
+    </item>
+    <item>
+      <title>Code Quest | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Banana-Code-Quest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Banana-Code-Quest/</guid>
+      <description>Banana Code Quest is a gamified coding course designed to teach young students real-world coding from the first challenge. Through engaging puzzles and adventures, students help a monkey catch bananas and outsmart various animals while learning fundamental and advanced coding concepts in a fun and interactive way.&#xA;Key Features Real Coding Language: Students will code using CoffeeScript, a language similar to JavaScript but with a friendlier syntax, making it perfect for kids.</description>
     </item>
     <item>
       <title>Geometry | Blue Ridge Boost</title>

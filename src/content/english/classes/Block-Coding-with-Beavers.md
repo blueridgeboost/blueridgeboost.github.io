@@ -1,5 +1,5 @@
 ---
-ecwid: 711888057
+ecwid: 713296284
 product_id: Block-Coding-with-Beavers
 price:
 - name: "Jan 14, 21, 28; Feb 4"
@@ -16,13 +16,13 @@ price:
   inventory: 6
 weight: "10"
 category: "Session Classes"
-start_date: "2025-01-05"
-end_date: "2025-06-03"
+start_date: ""
+end_date: ""
 start_time: "4:30"
-end_time: "5:30"
+end_time: "5:60"
 page_title: "Block Coding with Beavers"
 page_subtitle: "Gamified coding course"
-featured: 0
+featured: 17
 title: "Block Coding with Beavers | Blue Ridge Boost"
 section: classes
 day_tags: ["Tuesday"]

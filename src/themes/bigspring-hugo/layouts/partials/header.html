@@ -139,7 +139,12 @@
       <!-- Shopping Cart -->
       <div class="ec-cart-widget" data-icon="CART" data-fixed="TRUE" data-fixed-position="TOP_RIGHT"></div>
       <div>
-       {{ if hugo.IsProduction }}
+        <script data-cfasync="false" 
+            type="text/javascript" 
+            src="https://app.ecwid.com/script.js?{{ .Site.Params.ecwid_store_id }}&data_platform=code" 
+            charset="utf-8">
+          </script>
+       {{/*  {{ if hugo.IsProduction }}
           <script data-cfasync="false" 
             type="text/javascript" 
             src="https://app.ecwid.com/script.js?106136041&data_platform=code&data_date=2024-07-22" 
@@ -151,7 +156,7 @@
           src="https://app.ecwid.com/script.js?107344503&data_platform=code&data_date=2024-08-12" 
           charset="utf-8">
         </script>
-        {{ end }}
+        {{ end }}  */}}
         <script type="text/javascript">Ecwid.init();</script>
       </div>
     </nav>
@@ -186,6 +191,6 @@
   THANKS10
 </div>
 <p style="text-align: center; margin-top: 10px; font-size: 16px">
-  Use this code at checkout to enjoy <strong>10% off</strong> your next purchase! 🎉<br>
+  Use this code at checkout to enjoy <strong>10% off</strong> your next purchase! 🎉 <b>Offer expires December 7.</b><br>
   <strong>Exclusions apply:</strong> Discount is not valid for subscriptions or individual tutoring services.
 </p>

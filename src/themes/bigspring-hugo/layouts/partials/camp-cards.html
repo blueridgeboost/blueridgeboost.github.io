@@ -28,9 +28,6 @@
                                         {{ if lt $currentDate $startDate }}
                                             <div class="p-2">
                                                 {{ $id := .Params.product_id }}
-                                                {{ if .Site.IsServer }}
-                                                    {{ $id := index .Params.ecwid_production_to_test .Params.product_id }}
-                                                {{ end }}
                                                 {{range .Params.camp_options}}
                                                     <a href="javascript: ecwid_add_product_to_cart('{{ $id }}', { 'Type': '{{ . }}' });"
                                                         class=" btn-small btn-primary m-2">{{ . }}</a> &nbsp;
