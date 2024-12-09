@@ -2,12 +2,9 @@
 ecwid: 705446372
 product_id: Minecraft-Education-Elementary-School
 price:
-- name: "December 7"
-  price: 59
-  inventory: 10
 - name: "December 21"
   price: 59
-  inventory: 10
+  inventory: 9
 - name: "January 4"
   price: 59
   inventory: 10

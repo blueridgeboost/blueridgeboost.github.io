@@ -13,7 +13,7 @@ price:
   inventory: 4
 - name: "Apr 8, 15, 22, 19"
   price: 155
-  inventory: undefined
+  inventory: 4
 - name: "May 6, 13, 20, 17"
   price: 155
   inventory: 4

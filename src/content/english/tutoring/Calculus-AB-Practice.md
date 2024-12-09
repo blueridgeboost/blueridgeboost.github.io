@@ -10,7 +10,7 @@ price:
   inventory: 4
 - name: "March 6, 13, 20, 27"
   price: 195
-  inventory: 3
+  inventory: 4
 - name: "April 10, 17, 24; May 1"
   price: 195
   inventory: 4

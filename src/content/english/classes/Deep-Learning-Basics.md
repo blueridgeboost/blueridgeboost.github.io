@@ -4,7 +4,7 @@ product_id: Deep-Learning-Basics
 price:
 - name: "Dec 8, 15, 22, 29"
   price: 195
-  inventory: 6
+  inventory: 0
 - name: "Jan 5, 12, 19, 26"
   price: 195
   inventory: 6
