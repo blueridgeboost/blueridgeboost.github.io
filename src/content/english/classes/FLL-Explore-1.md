@@ -12,7 +12,7 @@ start_time: "4:30"
 end_time: "5:30"
 page_title: "First Lego League Explore"
 page_subtitle: "Lego Explorers"
-featured: 2
+featured: 0
 title: "First Lego League Explore | Blue Ridge Boost"
 section: classes
 day_tags: ["Thursday"]

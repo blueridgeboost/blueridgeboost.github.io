@@ -7,7 +7,7 @@ price:
   inventory: 12
 - name: "Dec 23, 24"
   price: 165
-  inventory: 8
+  inventory: 6
 weight: ""
 category: "2-Day Camps"
 start_date: ""
@@ -16,7 +16,7 @@ start_time: "9:00"
 end_time: "12:30"
 page_title: "Minecraft 2-Day Winter Camp"
 page_subtitle: "Build with friends"
-featured: 9
+featured: 0
 title: "Minecraft 2-Day Winter Camp | Blue Ridge Boost"
 section: camps
 day_tags: 

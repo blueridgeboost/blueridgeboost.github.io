@@ -4,7 +4,7 @@ product_id: Winter-24-Drones
 price:
 - name: "Dec 23, 24"
   price: 165
-  inventory: 6
+  inventory: 5
 - name: "Dec 26, 27"
   price: 165
   inventory: 6
@@ -19,7 +19,7 @@ start_time: "9:00"
 end_time: "12:30"
 page_title: "Drones 2-Day Winter Camp"
 page_subtitle: "Learn to pilot and code"
-featured: 7
+featured: 4
 title: "Drones 2-Day Winter Camp | Blue Ridge Boost"
 section: camps
 day_tags: 

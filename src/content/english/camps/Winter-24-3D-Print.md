@@ -19,7 +19,7 @@ start_time: "9:00"
 end_time: "12:30"
 page_title: "First Lego League Challenge 2-Day Winter Camp"
 page_subtitle: "Tips and trick for FLL Challenge"
-featured: 8
+featured: 5
 title: "First Lego League Challenge 2-Day Winter Camp | Blue Ridge Boost"
 section: camps
 day_tags: 

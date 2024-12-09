@@ -13,7 +13,7 @@ start_time: "9:00"
 end_time: "12:30"
 page_title: "Roblox 2-Day Winter Camp"
 page_subtitle: "Create your own Roblox Game!"
-featured: 10
+featured: 0
 title: "Roblox 2-Day Winter Camp | Blue Ridge Boost"
 section: camps
 day_tags: 

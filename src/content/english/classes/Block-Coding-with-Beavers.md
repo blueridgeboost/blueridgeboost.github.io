@@ -22,7 +22,7 @@ start_time: "4:30"
 end_time: "5:60"
 page_title: "Block Coding with Beavers"
 page_subtitle: "Gamified coding course"
-featured: 17
+featured: 0
 title: "Block Coding with Beavers | Blue Ridge Boost"
 section: classes
 day_tags: ["Tuesday"]

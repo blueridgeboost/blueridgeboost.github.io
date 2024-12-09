@@ -25,7 +25,7 @@ start_time: "5:00"
 end_time: "8:00"
 page_title: "Minecraft Education for Middle School"
 page_subtitle: "Join the Fun with Friends!"
-featured: 11
+featured: 0
 title: "Minecraft Education for Middle School | Blue Ridge Boost"
 section: minecraft
 day_tags: ["Saturday"]

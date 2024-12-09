@@ -19,7 +19,7 @@ start_time: "2:00"
 end_time: "3:30"
 page_title: "Vex Go Challenges"
 page_subtitle: "Intro to competition robotics"
-featured: 15
+featured: 0
 ribbon: "New!"
 title: "Vex Go Challenges | Blue Ridge Boost"
 section: classes
