@@ -7,13 +7,13 @@ price:
   inventory: 6
 - name: "March 11, 18, 25; April 8"
   price: 135
-  inventory: 6
+  inventory: 5
 - name: "Feb 11, 18, 25; March 4"
   price: 135
-  inventory: 6
+  inventory: 5
 - name: "Jan 14, 21, 28; Feb 4"
   price: 135
-  inventory: 6
+  inventory: 5
 weight: ""
 category: "Session Classes"
 start_date: "2025-01-05"
