@@ -4,8 +4,8 @@ product_id: Winter-24-Roblox
 price:
 - name: "Dec 30, 31"
   price: 165
-  inventory: 12
-weight: ""
+  inventory: 11
+weight: "4"
 category: "2-Day Camps"
 start_date: ""
 end_date: ""

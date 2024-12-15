@@ -20,7 +20,7 @@ price:
 - name: "Dec 31"
   price: 10
   inventory: 12
-weight: ""
+weight: "9"
 category: "2-Day Camps"
 start_date: ""
 end_date: ""
@@ -28,7 +28,7 @@ start_time: "8:00"
 end_time: "9:00"
 page_title: "Before Camp Care"
 page_subtitle: "Drop off at 8 am"
-featured: 2
+featured: 0
 title: "Before Camp Care | Blue Ridge Boost"
 section: camps
 day_tags: 

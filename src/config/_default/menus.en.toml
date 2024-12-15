@@ -10,6 +10,30 @@
     weight      = 2
 
 [[main]]
+    name        = "1-Day"
+    url         = "1-day-camps/"
+    parent      = "Camps"
+    weight      = 1
+
+[[main]]
+    name        = "Winter Break"
+    url         = "winter-camps/"
+    parent      = "Camps"
+    weight      = 2
+
+[[main]]
+    name        = "Spring Break"
+    url         = "spring-break-camps/"
+    parent      = "Camps"
+    weight      = 3
+
+[[main]]
+    name        = "Summer Break"
+    url         = "summer-camps/"
+    parent      = "Camps"
+    weight      = 4
+
+[[main]]
     name        = "Events"
     weight      = 3
 

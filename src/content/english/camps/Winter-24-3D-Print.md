@@ -10,8 +10,8 @@ price:
   inventory: 6
 - name: "Dec 30, 31"
   price: 165
-  inventory: 6
-weight: ""
+  inventory: 4
+weight: "2"
 category: "2-Day Camps"
 start_date: ""
 end_date: ""
@@ -19,7 +19,7 @@ start_time: "9:00"
 end_time: "12:30"
 page_title: "First Lego League Challenge 2-Day Winter Camp"
 page_subtitle: "Tips and trick for FLL Challenge"
-featured: 5
+featured: 0
 title: "First Lego League Challenge 2-Day Winter Camp | Blue Ridge Boost"
 section: camps
 day_tags: 

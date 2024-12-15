@@ -11,51 +11,24 @@
     <br>All camps are held at Blue Ridge Boost, 2171 Ivy Rd, Charlottesville.</p>
     <p>Half-day students should bring a snack. Full-day students should bring two snacks and lunch.</p>
   </div>
-  <div class="container" id="camp2">
-    <h4>Winter Break 2-Day Camps</h4>
-    <div class="container">
-      <div class="class-cards">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3">
-          {{ range sort (where .Site.Pages ".Params.category" "2-Day Camps") ".Params.start_date" "asc" }}
-            {{ partial "2-day-camp-card" . }}
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </div>
   <p></p>
-  <div class="container" id="camp5">
-    <h4>Spring and Summer 5-Day Camps</h4>
-    <div class="container">
-      <div class="class-cards">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3">
-          {{ range sort (where .Site.Pages ".Params.category" "5-Day Camps") ".Params.start_date" "asc" }}
-            {{ partial "5-day-camp-card" . }}
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </div>
-  <p></p>
-  <div class="container" id="camp1">
-    <h4>1-Day Camps &ndash; Ages 6 to 13</h4>
-    <div class="container">
-      <ul style="display: flex; list-style-type: none; padding: 0;">
-        <li>ACPS &ndash; Albermarle Public Schools</li>
-        <li>CCS &ndash; Charlottesville City Schools</li>
-        <li>STAB &ndash; St. Anne's Belfield</li>
-        <li>PS &ndash; Peabody School</li>
-      </ul>
+  <div class="container">
+    <p></p>
+      <a href="/1-day-camps" class="btn btn-primary">1-Day camps</a>
+  
+      <a href="/winter-camps" class="btn btn-primary">Winter Break Camps</a>
+
+      <a href="/spring-break-camps" class="btn btn-primary">Spring Break Camps</a>
       <p></p>
-      <div class="class-cards">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3">
-          {{ range sort (where .Site.Pages ".Params.category" "1-Day Camps") ".Params.start_date" "asc" }}
-            {{ partial "1-day-camp-card" . }}
-          {{ end }}
-        </div>
-      </div>
-    </div>
+      <h4>Summer 2025 5-Day Camps</h4>
+      <a href="/summer-camps/rising-1-3" class="btn btn-primary">Rising 1st&ndash;3rd</a>
+  
+  <a href="/summer-camps/rising-4-6" class="btn btn-primary">Rising 4th&ndash;6th</a>
+
+  <a href="/summer-camps/rising-7-12" class="btn btn-primary">Rising 7th&ndash;12th</a>
+    </div>  
   </div>
+  
   <p></p>
   <div class="container">
     <p>
