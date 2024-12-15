@@ -6,6 +6,8 @@
   </url><url>
     <loc>https://blueridgeboost.com/classes/AMC8-2025-Test/</loc>
   </url><url>
+    <loc>https://blueridgeboost.com/camps/Winter-24-Drones/</loc>
+  </url><url>
     <loc>https://blueridgeboost.com/classes/Girl-Powered-Drone-Squad/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/MOEM-24-25-E-Contest/</loc>
@@ -17,6 +19,8 @@
     <loc>https://blueridgeboost.com/tutoring/Algebra-Practice/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/Calculus-AB-Mastery/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/camps/Winter-24-3D-Print/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/Integrated-Math-1-Mastery/</loc>
   </url><url>
@@ -37,6 +41,10 @@
     <loc>https://blueridgeboost.com/tutoring/Statistics-Mastery/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/tutoring/Statistics-Practice/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/camps/Winter-24-Minecraft/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/camps/Winter-24-Roblox/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/Advanced-Problem-Solving/</loc>
   </url><url>
@@ -76,6 +84,8 @@
   </url><url>
     <loc>https://blueridgeboost.com/tutoring/Precalculus-Practice/</loc>
   </url><url>
+    <loc>https://blueridgeboost.com/camps/Winter-24-Before/</loc>
+  </url><url>
     <loc>https://blueridgeboost.com/classes/Block-Coding-with-Minecraft-1/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/Java-For-Teens/</loc>
@@ -88,6 +98,8 @@
   </url><url>
     <loc>https://blueridgeboost.com/classes/Advanced-Python-For-Teens/</loc>
   </url><url>
+    <loc>https://blueridgeboost.com/camps/Winter-24-After/</loc>
+  </url><url>
     <loc>https://blueridgeboost.com/classes/Block-Coding-with-Beavers/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/C-Sharp-for-Unity/</loc>
@@ -95,8 +107,6 @@
     <loc>https://blueridgeboost.com/chess/Chess-Tactics-And-Games-Dec-7/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/Chess-Tactics-And-Games-Dec-7/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/classes/Banana-Code-Quest-Old/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/Deep-Learning-Basics/</loc>
   </url><url>
@@ -178,6 +188,8 @@
   </url><url>
     <loc>https://blueridgeboost.com/camps/one-day-2025-03-31/</loc>
   </url><url>
+    <loc>https://blueridgeboost.com/1-day-camps/</loc>
+  </url><url>
     <loc>https://blueridgeboost.com/grade_tags/10th/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/grade_tags/11th/</loc>
@@ -206,11 +218,7 @@
   </url><url>
     <loc>https://blueridgeboost.com/subject_tags/Aerial-Drones/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/camps/Winter-24-After/</loc>
-  </url><url>
     <loc>https://blueridgeboost.com/classes/Intro-to-AMC10/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/camps/Winter-24-Before/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/camps/</loc>
   </url><url>
@@ -233,10 +241,6 @@
     <loc>https://blueridgeboost.com/contact/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/day_tags/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/camps/Winter-24-Drones/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/camps/Winter-24-3D-Print/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/FLL-Explore-1/</loc>
   </url><url>
@@ -294,8 +298,6 @@
   </url><url>
     <loc>https://blueridgeboost.com/subject_tags/Minecraft/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/camps/Winter-24-Minecraft/</loc>
-  </url><url>
     <loc>https://blueridgeboost.com/minecraft/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/day_tags/Monday/</loc>
@@ -326,8 +328,6 @@
   </url><url>
     <loc>https://blueridgeboost.com/subject_tags/Roblox/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/camps/Winter-24-Roblox/</loc>
-  </url><url>
     <loc>https://blueridgeboost.com/subject_tags/Robotics/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/robotics/</loc>
@@ -346,7 +346,17 @@
   </url><url>
     <loc>https://blueridgeboost.com/camps/Spring-Break-24-Camp/</loc>
   </url><url>
+    <loc>https://blueridgeboost.com/spring-break-camps/</loc>
+  </url><url>
     <loc>https://blueridgeboost.com/subject_tags/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/summer-camps/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/summer-camps/rising-1-3/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/summer-camps/rising-4-6/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/summer-camps/rising-7-12/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/day_tags/Sunday/</loc>
   </url><url>
@@ -363,5 +373,7 @@
     <loc>https://blueridgeboost.com/vision/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/day_tags/Wednesday/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/winter-camps/</loc>
   </url>
 </urlset>
