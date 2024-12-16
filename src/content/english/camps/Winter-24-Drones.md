@@ -19,7 +19,7 @@ start_time: "9:00"
 end_time: "12:30"
 page_title: "Drones 2-Day Winter Camp"
 page_subtitle: "Learn to pilot and code"
-featured: 0
+featured: 2
 title: "Drones 2-Day Winter Camp | Blue Ridge Boost"
 section: camps
 day_tags: 

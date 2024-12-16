@@ -23,7 +23,11 @@
                             {{ if eq $ecwid_category "1-Day Camps" }}
                                 {{ partial "1-day-camp-card.html" . }}
                             {{ else }}
-                                TODO
+                            {{ if eq $ecwid_category "2-Day Camps" }}
+                                {{ partial "2-day-camp-card.html" . }}
+                            {{ else }}
+                            {{ partial "5-day-camp-card.html" . }}
+                            {{ end }}
                             {{ end }}
                         </div>
                     </div>
