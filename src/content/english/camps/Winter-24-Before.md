@@ -36,4 +36,4 @@ grade_tags: ["1st","2nd","3rd","4th","5th","6th","7th","8th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 ---
-
+<p>Start the day with ease through our <strong>Before-Camp Care</strong> program! Perfect for early risers or families with busy morning schedules, this program provides a safe, welcoming space where campers can enjoy fun activities, quiet games, or simply prepare for the exciting day ahead.</p>
