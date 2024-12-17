@@ -36,4 +36,4 @@ grade_tags: ["1st","2nd","3rd","4th","5th","6th","7th","8th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 ---
-
+<p>Need a little extra time after camp ends? Our <strong>After-Camp Care</strong> program is here to help! Designed for busy families, this extended care option offers a safe, fun, and engaging environment for campers to unwind after a full day of activities. With games, creative projects, and supervised free play, your child will continue to have a great time while you handle your afternoon schedule stress-free.</p>
