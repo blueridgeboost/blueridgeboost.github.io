@@ -7,7 +7,7 @@ price:
   inventory: 12
 - name: "Dec 23, 24"
   price: 165
-  inventory: 3
+  inventory: 0
 weight: "3"
 category: "2-Day Camps"
 start_date: ""
