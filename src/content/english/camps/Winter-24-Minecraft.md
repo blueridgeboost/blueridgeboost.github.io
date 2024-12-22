@@ -4,7 +4,7 @@ product_id: Winter-24-Minecraft
 price:
 - name: "Dec 26, 27"
   price: 165
-  inventory: 12
+  inventory: 10
 - name: "Dec 23, 24"
   price: 165
   inventory: 0

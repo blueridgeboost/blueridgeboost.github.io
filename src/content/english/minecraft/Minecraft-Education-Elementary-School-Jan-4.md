@@ -1,27 +1,16 @@
 ---
 ecwid: 705446372
-product_id: Minecraft-Education-Elementary-School
-price:
-- name: "December 21"
-  price: 59
-  inventory: 9
-- name: "January 4"
-  price: 59
-  inventory: 10
-- name: "January 18"
-  price: 59
-  inventory: 10
-- name: "February 1"
-  price: 59
-  inventory: 10
+product_id: Minecraft-Education-Elementary-School-Jan-4
+price: 59
+inventory: 12
 weight: "10"
 category: "Minecraft"
-start_date: "2024-12-08"
-end_date: ""
+start_date: "2025-01-04"
+end_date: "2025-01-04"
 start_time: "5:30"
 end_time: "7:30"
 page_title: "Minecraft Education for Elementary School"
-page_subtitle: "Join the Fun with Friends!"
+page_subtitle: "January 4"
 featured: 0
 title: "Minecraft Education for Elementary School | Blue Ridge Boost"
 section: minecraft

@@ -1,30 +1,19 @@
 ---
-ecwid: 712141286
-product_id: Minecraft-Education-Middle-School
-price:
-- name: "December 28"
-  price: 59
-  inventory: 10
-- name: "January 11"
-  price: 59
-  inventory: 10
-- name: "January 25"
-  price: 59
-  inventory: 10
-- name: "February 8"
-  price: 59
-  inventory: 10
+ecwid: 716363684
+product_id: Minecraft-Education-Middle-School-Feb-8
+price: 59
+inventory: 12
 weight: "10"
-category: "Minecraft"
-start_date: "2024-12-08"
-end_date: ""
+category: "Single Class"
+start_date: "2025-02-08"
+end_date: "2025-02-08"
 start_time: "5:00"
 end_time: "8:00"
 page_title: "Minecraft Education for Middle School"
-page_subtitle: "Join the Fun with Friends!"
+page_subtitle: "February 8"
 featured: 0
 title: "Minecraft Education for Middle School | Blue Ridge Boost"
-section: minecraft
+section: classes
 day_tags: ["Saturday"]
 grade_tags: ["4th","5th","6th","7th","8th"]
 subject_tags: ["Computer Coding"]
