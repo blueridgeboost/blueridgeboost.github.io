@@ -8,6 +8,34 @@
     <language>en-US</language>
     <atom:link href="https://blueridgeboost.com/grade_tags/1st/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Minecraft 2-Day Winter Camp | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/camps/Winter-24-Minecraft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/camps/Winter-24-Minecraft/</guid>
+      <description>❄️ MINECRAFT WINTER WONDERLAND CAMP ❄️&#xA;A Fun-Filled 2-Day Adventure for Young Builders!&#xA;🎮 CALLING ALL YOUNG ADVENTURERS&#xA;Join us for an exciting journey into a snowy Minecraft world! Perfect for both new and experienced players ages 7-10.&#xA;⚒️ EXCITING ACTIVITIES:&#xA;• Build magical snow castles and cozy winter cottages&#xA;• Create your own winter village with friends&#xA;• Learn cool building tricks and secrets&#xA;• Play friendly snowball games</description>
+    </item>
+    <item>
+      <title>Roblox 2-Day Winter Camp | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/camps/Winter-24-Roblox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/camps/Winter-24-Roblox/</guid>
+      <description>Join our kid-friendly Roblox camp designed specifically for grades 1-4. Create your very own carnival game in a fun, supportive environment where imagination meets basic coding skills.&#xA;What Your Child Will Learn:&#xA;Simple drag-and-drop game building Basic Roblox Studio tools Creative design choices Teamwork and problem-solving Game testing basics Fun Activities:&#xA;Design colorful magic spells Place carnival games and decorations Create simple challenges Test games with classmates Earn special Roblox itemsBefore and after care is available!</description>
+    </item>
+    <item>
+      <title>Before Camp Care | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/camps/Winter-24-Before/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/camps/Winter-24-Before/</guid>
+      <description>Start the day with ease through our Before-Camp Care program! Perfect for early risers or families with busy morning schedules, this program provides a safe, welcoming space where campers can enjoy fun activities, quiet games, or simply prepare for the exciting day ahead.</description>
+    </item>
+    <item>
+      <title>After Camp Care | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/camps/Winter-24-After/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/camps/Winter-24-After/</guid>
+      <description>Need a little extra time after camp ends? Our After-Camp Care program is here to help! Designed for busy families, this extended care option offers a safe, fun, and engaging environment for campers to unwind after a full day of activities. With games, creative projects, and supervised free play, your child will continue to have a great time while you handle your afternoon schedule stress-free.</description>
+    </item>
+    <item>
       <title>Block Coding with Beavers | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Block-Coding-with-Beavers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -272,6 +300,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/FLL-Explore-1/</guid>
       <description>Dive into an exciting new season of FIRST LEGO League with the 2024-2025 theme: SUBMERGED! This year’s challenge invites participants to explore the mysteries and wonders of underwater environments while solving real-world challenges related to oceans, lakes, and waterways.&#xA;Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
+    </item>
+    <item>
+      <title>Sphero and Scratch | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/camps/Spring-Break-24-Camp-1-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/camps/Spring-Break-24-Camp-1-3/</guid>
+      <description>Sphero robots in the morning and Scratch coding in the afternoon.</description>
     </item>
   </channel>
 </rss>

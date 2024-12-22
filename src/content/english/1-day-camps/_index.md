@@ -1,6 +1,6 @@
 ---
 title: "1-Day Camps | Blue Ridge Boost"
-page_title: "Blue Ridge Boost Instructors"
+page_title: "One-Day Camps"
 # meta description
 description: 
 draft: false

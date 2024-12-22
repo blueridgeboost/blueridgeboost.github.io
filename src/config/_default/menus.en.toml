@@ -17,7 +17,7 @@
 
 [[main]]
     name        = "Winter Break"
-    url         = "winter-camps/"
+    url         = "winter-break-camps/"
     parent      = "Camps"
     weight      = 2
 
