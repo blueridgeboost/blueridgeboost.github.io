@@ -85,6 +85,13 @@
       <description>Dive into an exciting new season of FIRST LEGO League with the 2024-2025 theme: SUBMERGED! This year’s challenge invites participants to explore the mysteries and wonders of underwater environments while solving real-world challenges related to oceans, lakes, and waterways.&#xA;Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
     </item>
     <item>
+      <title>Python and Legos | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/camps/Spring-Break-24-Camp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/camps/Spring-Break-24-Camp/</guid>
+      <description>Python coding in the morning and Lego Robotics in the afternoon.</description>
+    </item>
+    <item>
       <title>Robotics with Lego Spike | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Robotics-Lego-Spike-Prime/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -92,18 +99,11 @@
       <description>Jump into the world of robotics and coding with the LEGO Education SPIKE Prime system! This hands-on course introduces students to the exciting possibilities of robotics engineering and computational thinking through engaging, project-based learning. Designed for beginners to intermediate learners, this course will teach students how to design, build, and program robotic solutions to solve real-world challenges.&#xA;In this course, students will:&#xA;Learn the basics of robotics using the LEGO SPIKE Prime kit.</description>
     </item>
     <item>
-      <title>Spring Break Camp | Blue Ridge Boost</title>
+      <title>Sphero and Scratch | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/camps/Spring-Break-24-Camp-1-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/camps/Spring-Break-24-Camp-1-3/</guid>
       <description>Sphero robots in the morning and Scratch coding in the afternoon.</description>
-    </item>
-    <item>
-      <title>Spring Break Camp | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/camps/Spring-Break-24-Camp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/camps/Spring-Break-24-Camp/</guid>
-      <description>Python coding in the morning and Lego Robotics in the afternoon.</description>
     </item>
   </channel>
 </rss>

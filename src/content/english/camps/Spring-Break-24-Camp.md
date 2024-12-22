@@ -8,15 +8,15 @@ price:
   price: 495
 inventory: 12
 weight: ""
-category: "5-Day Camps"
+category: "Spring Break"
 start_date: "2025-03-31"
 end_date: "2025-04-04"
 start_time: "8:30"
 end_time: "1:00/5:00"
-page_title: "Spring Break Camp"
-page_subtitle: "Python and Legos"
+page_title: "Python and Legos"
+page_subtitle: "Grades 4 and over"
 featured: 0
-title: "Spring Break Camp | Blue Ridge Boost"
+title: "Python and Legos | Blue Ridge Boost"
 section: camps
 day_tags: 
 grade_tags: ["4th","5th","6th"]

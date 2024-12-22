@@ -12,12 +12,16 @@
     <p>Half-day students should bring a snack. Full-day students should bring two snacks and lunch.</p>
   </div>
   <div class="container" id="winter">
-    <h4>Winter Break 2-Day Camps</h4>
+    {{/*  <h4>Winter Break 2-Day Camps</h4>  */}}
     <div class="container">
       <div class="class-cards">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3">
-          {{ range sort (where .Site.Pages ".Params.category" "2-Day Camps") ".Params.page_rank" "asc" }}
-            {{ partial "2-day-camp-card" . }}
+          {{ range sort (where .Site.Pages ".Params.category" "Winter Break") ".Params.page_rank" "asc" }}
+            {{ if strings.Contains .Params.page_title "1-Day" }}
+              {{ partial "1-day-camp-card" . }}
+            {{ else }}
+              {{ partial "2-day-camp-card" . }}
+            {{ end }}
           {{ end }}
         </div>
       </div>

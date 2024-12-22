@@ -21,7 +21,7 @@ price:
   price: 40
   inventory: 12
 weight: "10"
-category: "2-Day Camps"
+category: "Winter Break"
 start_date: ""
 end_date: ""
 start_time: "12:30"

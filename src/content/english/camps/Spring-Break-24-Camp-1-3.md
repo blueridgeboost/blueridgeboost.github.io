@@ -8,15 +8,15 @@ price:
   price: 495
 inventory: 14
 weight: ""
-category: "5-Day Camps"
+category: "Spring Break"
 start_date: "2025-03-31"
 end_date: "2025-04-04"
 start_time: "8:30"
 end_time: "1:00/5:00"
-page_title: "Spring Break Camp"
-page_subtitle: "Sphero and Scratch"
+page_title: "Sphero and Scratch"
+page_subtitle: "Grades 3 and under"
 featured: 0
-title: "Spring Break Camp | Blue Ridge Boost"
+title: "Sphero and Scratch | Blue Ridge Boost"
 section: camps
 day_tags: 
 grade_tags: ["1st","2nd","3rd"]

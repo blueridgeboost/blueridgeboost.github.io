@@ -1,6 +1,6 @@
 ---
-title: "Winter Camps | Blue Ridge Boost"
-page_title: "Winter Camps"
+title: "Winter Break Camps | Blue Ridge Boost"
+page_title: "Winter Break Camps"
 # meta description
 description: 
 draft: false
