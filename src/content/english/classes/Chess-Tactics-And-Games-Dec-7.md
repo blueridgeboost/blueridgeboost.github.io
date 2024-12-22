@@ -1,21 +1,16 @@
 ---
 ecwid: 702296730
 product_id: Chess-Tactics-And-Games-Dec-7
-price:
-- name: "January 18"
-  price: 45
-  inventory: 6
-- name: "February 8"
-  price: 45
-  inventory: 6
+price: 45
+inventory: 6
 weight: "10"
-category: "Session Classes"
-start_date: "2025-12-07"
-end_date: "2024-12-07"
+category: "Single Class"
+start_date: "2025-02-08"
+end_date: "2025-02-08"
 start_time: "10:00"
 end_time: "12:00"
 page_title: "Chess Tactics and Games"
-page_subtitle: "December 7"
+page_subtitle: "February 8"
 featured: 0
 title: "Chess Tactics and Games | Blue Ridge Boost"
 section: classes
