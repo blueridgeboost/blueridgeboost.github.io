@@ -2,7 +2,7 @@
 ecwid: 712119201
 product_id: Math-Excellence-3-4
 price: 129
-inventory: 1
+inventory: 4
 payment_link: ""
 weight: ""
 category: "Subscription Classes"
