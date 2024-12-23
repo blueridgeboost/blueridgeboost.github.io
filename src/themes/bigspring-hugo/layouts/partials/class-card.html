@@ -27,10 +27,10 @@
         {{ if eq .Params.category "Subscription Classes" }}
             {{ partial "subscription-class-footer.html" . }}
         {{ else }}
-            {{ if eq .Params.category "Session Classes" }}
-                {{ partial "session-class-footer.html" .}}
-            {{ else }}
+            {{ if eq .Params.category "Single Class" }}
                 {{ partial "single-class-footer.html" . }}
+            {{ else }}
+                {{ partial "session-class-footer.html" .}}
             {{ end }}
         {{ end }}
     </div>

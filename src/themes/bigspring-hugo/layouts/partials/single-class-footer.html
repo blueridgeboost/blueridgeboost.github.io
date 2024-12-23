@@ -24,7 +24,7 @@
         {{ end }}
     {{ end }}
     {{ if eq $displayButton true }}
-        ${{$price}}      
+        One class (${{$price}})      
         {{ if lt $spaces 4 }} 
             <br>Only {{ $spaces }} spaces left!
         {{ end }}         
@@ -34,7 +34,7 @@
             <div class="spacybutton">
                 {{/*  <a href="javascript: ecwid_add_product_to_cart( {{ $id }}, {});"  */}}
                 <a href="javascript: ecwid_add_product_to_cart( {{ $id }});" 
-                    class="btn-small btn-primary">Subscribe</a>
+                    class="btn-small btn-primary">Add to Cart</a>
             </div>
             </center>
         </form>

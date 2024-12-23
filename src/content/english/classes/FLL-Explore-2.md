@@ -2,7 +2,7 @@
 ecwid: 712119200
 product_id: FLL-Explore-2
 price: 135
-inventory: 8
+inventory: 4
 payment_link: ""
 weight: "10"
 category: "Subscription Classes"
