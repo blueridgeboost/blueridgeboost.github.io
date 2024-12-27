@@ -3,7 +3,7 @@ ecwid: 705446372
 product_id: Minecraft-Education-Elementary-School-Jan-4
 price: 59
 inventory: 12
-weight: "10"
+weight: "505"
 category: "Single Class"
 start_date: "2025-01-04"
 end_date: "2025-01-04"

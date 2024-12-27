@@ -8,13 +8,6 @@
     <language>en-US</language>
     <atom:link href="https://blueridgeboost.com/day_tags/Sunday/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Aerial Drones | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Aerial-Drones/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Aerial-Drones/</guid>
-      <description>What is the Aerial Drone Competition? A cutting-edge program that prepares students for careers in drone technology Four exciting missions: Teamwork, Autonomous Flight, Piloting Skills, and Communications Compete in local, and regional events No prior experience needed! We&#39;re looking for students who are: Curious about drones and aviation Interested in coding and programming Excited to learn piloting skills Great at teamwork and communication Ready to take on new challenges Students are not required to participate in a Competition.</description>
-    </item>
-    <item>
       <title>Calculus AB/BC | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Calculus-AB-Mastery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -29,18 +22,18 @@
       <description>This course is a comprehensive, year-long program designed for middle school students with no prior coding experience. It introduces fundamental programming concepts using Python through interactive exercises and projects centered around controlling a virtual character named Tracy. The course covers commands, functions, loops, variables, conditionals, and lists, progressing to more complex tasks like user interaction and creating visual projects.&#xA;Topics include:&#xA;Commands Understanding basic commands is crucial as it forms the foundation of programming, allowing Tracy to perform specific actions.</description>
     </item>
     <item>
-      <title>Deep Learning Basics | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Deep-Learning-Basics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Deep-Learning-Basics/</guid>
-      <description>Discover the exciting world of deep learning and neural networks in this hands-on course, designed to build a strong foundation in artificial intelligence. Through interactive lessons and real-world projects, you&#39;ll gain the skills to design, build, and train deep learning models using Keras, a user-friendly and powerful library for AI development.&#xA;What You&#39;ll Learn: Core Concepts: Understand the fundamentals of neural networks, deep learning models, and how they work. Supervised and Unsupervised Models: Explore supervised models like convolutional neural networks (CNNs) and recurrent neural networks (RNNs), as well as unsupervised models like autoencoders.</description>
-    </item>
-    <item>
       <title>Machine Learning for Kids | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Machine-Learning-for-Kids/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Machine-Learning-for-Kids/</guid>
       <description>Dive into the fascinating world of artificial intelligence with this hands-on class designed for young learners! Using the Machine Learning for Kids platform, students will explore how machines can &#34;learn&#34; from data and apply this knowledge to solve real-world problems in creative ways.&#xA;This class introduces the basics of machine learning through fun, interactive projects, where students will:&#xA;Learn how to train machine learning models using simple datasets. Explore key concepts like classification, recognition, and prediction.</description>
+    </item>
+    <item>
+      <title>Deep Learning Basics | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Deep-Learning-Basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Deep-Learning-Basics/</guid>
+      <description>Discover the exciting world of deep learning and neural networks in this hands-on course, designed to build a strong foundation in artificial intelligence. Through interactive lessons and real-world projects, you&#39;ll gain the skills to design, build, and train deep learning models using Keras, a user-friendly and powerful library for AI development.&#xA;What You&#39;ll Learn: Core Concepts: Understand the fundamentals of neural networks, deep learning models, and how they work. Supervised and Unsupervised Models: Explore supervised models like convolutional neural networks (CNNs) and recurrent neural networks (RNNs), as well as unsupervised models like autoencoders.</description>
     </item>
   </channel>
 </rss>

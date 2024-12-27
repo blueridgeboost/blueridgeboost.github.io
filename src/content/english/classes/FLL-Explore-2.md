@@ -4,7 +4,7 @@ product_id: FLL-Explore-2
 price: 135
 inventory: 4
 payment_link: ""
-weight: "10"
+weight: "410"
 category: "Subscription Classes"
 start_date: "2025-01-09"
 end_date: "2025-04-30"
