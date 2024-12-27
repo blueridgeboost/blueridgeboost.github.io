@@ -17,7 +17,7 @@ price:
 - name: "May 6, 13, 20, 27"
   price: 155
   inventory: 4
-weight: "8"
+weight: "425"
 category: "Session Classes"
 start_date: "2025-01-07"
 end_date: "06/03/2025"

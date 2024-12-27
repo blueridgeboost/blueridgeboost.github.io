@@ -2,8 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blueridgeboost.com/classes/Aerial-Drones/</loc>
-  </url><url>
     <loc>https://blueridgeboost.com/classes/AMC8-2025-Test/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/camps/Winter-24-Drones/</loc>
@@ -20,31 +18,15 @@
   </url><url>
     <loc>https://blueridgeboost.com/tutoring/Integrated-Math-3-Mastery/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/classes/Statistics-Practice/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/tutoring/Statistics-Practice/</loc>
-  </url><url>
     <loc>https://blueridgeboost.com/camps/Winter-24-Minecraft/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/camps/Winter-24-Roblox/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/Python-Fundamentals/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/classes/Algebra-Mastery/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/tutoring/Algebra-Mastery/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/classes/Calculus-AB-Practice/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/tutoring/Calculus-AB-Practice/</loc>
-  </url><url>
     <loc>https://blueridgeboost.com/classes/Advanced-Python-For-Tweens/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/Math-Leapers/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/classes/Precalculus-Practice/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/tutoring/Precalculus-Practice/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/camps/Winter-24-Before/</loc>
   </url><url>
@@ -60,8 +42,6 @@
   </url><url>
     <loc>https://blueridgeboost.com/camps/Winter-24-After/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/classes/Block-Coding-with-Beavers/</loc>
-  </url><url>
     <loc>https://blueridgeboost.com/classes/C-Sharp-for-Unity/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/chess/Chess-Tactics-And-Games-Dec-7/</loc>
@@ -72,31 +52,15 @@
   </url><url>
     <loc>https://blueridgeboost.com/classes/Chess-Tactics-And-Games-Jan-18/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/classes/Deep-Learning-Basics/</loc>
-  </url><url>
     <loc>https://blueridgeboost.com/classes/FLL-Challenge/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/classes/FLL-Explore-2/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/classes/FLL-Explore-3/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/classes/FLL-Explore-on-Saturday/</loc>
-  </url><url>
     <loc>https://blueridgeboost.com/classes/Spike-Prime/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/classes/Fundamentals-of-Coding-with-SPIKE-Essential-Part-1/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/classes/Machine-Learning-for-Kids/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/Mechanical-Foundations-with-REV/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/Minecraft-Education-Elementary-School-Feb-1/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/Minecraft-Education-Elementary-School-Jan-18/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/classes/Minecraft-Education-Elementary-School-Jan-4/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/classes/Minecraft-Education-Middle-School-Dec-28/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/Minecraft-Education-Middle-School-Feb-8/</loc>
   </url><url>
@@ -110,23 +74,53 @@
   </url><url>
     <loc>https://blueridgeboost.com/classes/Vex-Go-Challenges/</loc>
   </url><url>
+    <loc>https://blueridgeboost.com/classes/Block-Coding-with-Beavers/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/Banana-Code-Quest/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/Calculus-AB-Practice/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/tutoring/Calculus-AB-Practice/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/Fundamentals-of-Coding-with-SPIKE-Essential-Part-1/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/FLL-Explore-2/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/Algebra-Mastery/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/tutoring/Algebra-Mastery/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/Statistics-Practice/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/tutoring/Statistics-Practice/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/Precalculus-Practice/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/tutoring/Precalculus-Practice/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/Geometry-Practice/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/tutoring/Geometry-Practice/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/FLL-Explore-3/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/Machine-Learning-for-Kids/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/Deep-Learning-Basics/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/Minecraft-Education-Elementary-School-Jan-4/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/Minecraft-Education-Middle-School-Dec-28/</loc>
+  </url><url>
     <loc>https://blueridgeboost.com/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/camps/one-day-2025-04-18/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/camps/one-day-2025-04-28/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/camps/one-day-2024-12-23/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/camps/one-day-2024-12-24/</loc>
-  </url><url>
     <loc>https://blueridgeboost.com/camps/one-day-2024-12-26/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/camps/one-day-2024-12-27/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/camps/one-day-2024-12-28/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/camps/one-day-2024-12-29/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/camps/one-day-2024-12-30/</loc>
   </url><url>
@@ -198,8 +192,6 @@
   </url><url>
     <loc>https://blueridgeboost.com/chess/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/classes/Banana-Code-Quest/</loc>
-  </url><url>
     <loc>https://blueridgeboost.com/subject_tags/Coding/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/subject_tags/Computer-Coding/</loc>
@@ -212,13 +204,7 @@
   </url><url>
     <loc>https://blueridgeboost.com/day_tags/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/classes/FLL-Explore-1/</loc>
-  </url><url>
     <loc>https://blueridgeboost.com/faq/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/classes/Geometry-Practice/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/tutoring/Geometry-Practice/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/girl-powered-fridays/</loc>
   </url><url>
@@ -237,8 +223,6 @@
     <loc>https://blueridgeboost.com/classes/math/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/Math-Excellence-3-4/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/classes/Math-Mastery-3-4/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/minecraft/</loc>
   </url><url>

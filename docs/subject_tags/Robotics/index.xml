@@ -8,13 +8,6 @@
     <language>en-US</language>
     <atom:link href="https://blueridgeboost.com/subject_tags/Robotics/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Aerial Drones | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Aerial-Drones/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Aerial-Drones/</guid>
-      <description>What is the Aerial Drone Competition? A cutting-edge program that prepares students for careers in drone technology Four exciting missions: Teamwork, Autonomous Flight, Piloting Skills, and Communications Compete in local, and regional events No prior experience needed! We&#39;re looking for students who are: Curious about drones and aviation Interested in coding and programming Excited to learn piloting skills Great at teamwork and communication Ready to take on new challenges Students are not required to participate in a Competition.</description>
-    </item>
-    <item>
       <title>Drones 2-Day Winter Camp | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/camps/Winter-24-Drones/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -36,6 +29,27 @@
       <description>Prepare to take on the challenges of FIRST LEGO League like a pro! This course is designed to help students build a strong foundation in robotics and engineering, focusing on the key skills needed to design, build, and optimize a competition-ready robot.&#xA;Students will:&#xA;Master the fundamentals of building sturdy and efficient robots tailored for competition. Learn how to design and attach modular attachments that can be quickly changed to tackle a variety of missions.</description>
     </item>
     <item>
+      <title>FLL Robotics with Spike Prime | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Spike-Prime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Spike-Prime/</guid>
+      <description>Prepare to take on the challenges of FIRST LEGO League like a pro! This course is designed to help students build a strong foundation in robotics and engineering, focusing on the critical skills needed to design, build, and optimize a competition-ready robot.&#xA;Students will:&#xA;Master the fundamentals of building sturdy and efficient robots tailored for competition. Learn how to design and attach modular attachments that can be quickly changed to tackle a variety of missions.</description>
+    </item>
+    <item>
+      <title>Vex Go Challenges | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Vex-Go-Challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Vex-Go-Challenges/</guid>
+      <description>The VEX GO Competition is an exciting, team-based robotics challenge designed specifically for elementary students to explore STEM concepts in a fun and engaging way. Using the VEX GO building system, teams will design, build, and program their robots to complete a series of creative and hands-on missions.&#xA;Participants will:&#xA;Develop critical thinking and teamwork skills by solving real-world challenges. Learn the basics of engineering, robotics, and coding through guided activities.</description>
+    </item>
+    <item>
+      <title>Lego Robots Jr | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Fundamentals-of-Coding-with-SPIKE-Essential-Part-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Fundamentals-of-Coding-with-SPIKE-Essential-Part-1/</guid>
+      <description>This four-class sequence introduces the students to the world of robotics and coding. Students will construct Lego models that use motors and lights and create code to bring their creations to life. This class is suitable for students with no previous experience using Lego robots. Introducing the Next Generation of Coders! The Fundamentals of Coding with SPIKE Essential is the fun and engaging way to teach your elementary students essential STEM skills.</description>
+    </item>
+    <item>
       <title>First Lego League Explore | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/FLL-Explore-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -47,41 +61,6 @@
       <link>https://blueridgeboost.com/classes/FLL-Explore-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/FLL-Explore-3/</guid>
-      <description>Dive into an exciting new season of FIRST LEGO League with the 2024-2025 theme: SUBMERGED! This year’s challenge invites participants to explore the mysteries and wonders of underwater environments while solving real-world challenges related to oceans, lakes, and waterways.&#xA;Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
-    </item>
-    <item>
-      <title>First Lego League Explore | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/FLL-Explore-on-Saturday/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/FLL-Explore-on-Saturday/</guid>
-      <description>Dive into an exciting new season of FIRST LEGO League with the 2024-2025 theme: SUBMERGED! This year’s challenge invites participants to explore the mysteries and wonders of underwater environments while solving real-world challenges related to oceans, lakes, and waterways.&#xA;Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
-    </item>
-    <item>
-      <title>FLL Robotics with Spike Prime | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Spike-Prime/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Spike-Prime/</guid>
-      <description>Prepare to take on the challenges of FIRST LEGO League like a pro! This course is designed to help students build a strong foundation in robotics and engineering, focusing on the critical skills needed to design, build, and optimize a competition-ready robot.&#xA;Students will:&#xA;Master the fundamentals of building sturdy and efficient robots tailored for competition. Learn how to design and attach modular attachments that can be quickly changed to tackle a variety of missions.</description>
-    </item>
-    <item>
-      <title>Lego Robots Jr | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Fundamentals-of-Coding-with-SPIKE-Essential-Part-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Fundamentals-of-Coding-with-SPIKE-Essential-Part-1/</guid>
-      <description>This four-class sequence introduces the students to the world of robotics and coding. Students will construct Lego models that use motors and lights and create code to bring their creations to life. This class is suitable for students with no previous experience using Lego robots. Introducing the Next Generation of Coders! The Fundamentals of Coding with SPIKE Essential is the fun and engaging way to teach your elementary students essential STEM skills.</description>
-    </item>
-    <item>
-      <title>Vex Go Challenges | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Vex-Go-Challenges/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Vex-Go-Challenges/</guid>
-      <description>The VEX GO Competition is an exciting, team-based robotics challenge designed specifically for elementary students to explore STEM concepts in a fun and engaging way. Using the VEX GO building system, teams will design, build, and program their robots to complete a series of creative and hands-on missions.&#xA;Participants will:&#xA;Develop critical thinking and teamwork skills by solving real-world challenges. Learn the basics of engineering, robotics, and coding through guided activities.</description>
-    </item>
-    <item>
-      <title>First Lego League Explore | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/FLL-Explore-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/FLL-Explore-1/</guid>
       <description>Dive into an exciting new season of FIRST LEGO League with the 2024-2025 theme: SUBMERGED! This year’s challenge invites participants to explore the mysteries and wonders of underwater environments while solving real-world challenges related to oceans, lakes, and waterways.&#xA;Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
     </item>
     <item>

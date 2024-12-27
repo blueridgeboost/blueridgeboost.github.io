@@ -4,7 +4,7 @@ product_id: Vex-Go-Challenges
 price:
 - name: "Ocean Science Exploration: Dec 7, 14, 21, 28; Jan 4, 11"
   price: 295
-  inventory: 5
+  inventory: 0
 - name: "City Technology Rebuild: Jan 18, 25; Feb 1, 8, 15, 22"
   price: 295
   inventory: 6

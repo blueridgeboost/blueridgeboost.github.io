@@ -8,13 +8,6 @@
     <language>en-US</language>
     <atom:link href="https://blueridgeboost.com/classes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Aerial Drones | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Aerial-Drones/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Aerial-Drones/</guid>
-      <description>What is the Aerial Drone Competition? A cutting-edge program that prepares students for careers in drone technology Four exciting missions: Teamwork, Autonomous Flight, Piloting Skills, and Communications Compete in local, and regional events No prior experience needed! We&#39;re looking for students who are: Curious about drones and aviation Interested in coding and programming Excited to learn piloting skills Great at teamwork and communication Ready to take on new challenges Students are not required to participate in a Competition.</description>
-    </item>
-    <item>
       <title>AMC 8 Test | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/AMC8-2025-Test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -43,32 +36,11 @@
       <description>Master Integrated Math 3 with Blue Ridge Boost!&#xA;Join our Focused Group Sessions:&#xA;Small groups of no more than four students60-minute intensive weekly sessionsExpert guidance on all Integrated Math 3 topicsAlgebra, geometry, precalculus, and statistics supportTargeted homework help and problem-solvingAligned with common core standardsPersonalized attention in a collaborative settingTurn math confusion into confidence!</description>
     </item>
     <item>
-      <title>Statistics | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Statistics-Practice/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Statistics-Practice/</guid>
-      <description>Master Your AP Statistics Homework!&#xA;Blue Ridge Boost&#39;s Weekly Homework Help Sessions:&#xA;Intimate groups of 4 studentsFocused 90-minute sessions every weekDirect assistance with your AP Stats homeworkExpert guidance on complex statistical conceptsHelp with data analysis, probability, and inferenceSupport for statistical software and calculatorsImprove your grades and exam readinessTurn stats stumbling blocks into stepping stones!&#xA;Join Blue Ridge Boost&#39;s AP Statistics Homework Group</description>
-    </item>
-    <item>
       <title>Python Fundamentals | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Python-Fundamentals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Python-Fundamentals/</guid>
       <description>This course is a comprehensive, year-long program designed for middle school students with no prior coding experience. It introduces fundamental programming concepts using Python through interactive exercises and projects centered around controlling a virtual character named Tracy. The course covers commands, functions, loops, variables, conditionals, and lists, progressing to more complex tasks like user interaction and creating visual projects.&#xA;Topics include:&#xA;Commands Understanding basic commands is crucial as it forms the foundation of programming, allowing Tracy to perform specific actions.</description>
-    </item>
-    <item>
-      <title>Algebra 1 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Algebra-Mastery/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Algebra-Mastery/</guid>
-      <description>Algebra 1 Success Made Simple!&#xA;Join Blue Ridge Boost&#39;s Group Algebra Sessions: Focused Learning: Small groups of 4 students Expert Guidance: Excel in your algebra homework Clear Explanations: Understand equations and functions Interactive Practice: Build problem-solving skills Weekly Sessions: 60 minutes each Comprehensive Coverage: All key Algebra 1 topics Boost Your Grades and ConfidenceEnroll in Blue Ridge Boost&#39;s Algebra Group today!</description>
-    </item>
-    <item>
-      <title>Calculus AB/BC | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Calculus-AB-Practice/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Calculus-AB-Practice/</guid>
-      <description>Conquer Your Calculus Homework!&#xA;Join Blue Ridge Boost Small Group Sessions:&#xA;4 students per groupFocus on current homework assignmentsStep-by-step problem-solving guidanceExpert calculus tutor support90-minute sessionsCover all calculus topics in your curriculumAdditional practice problems for reinforcementTurn your homework headaches into &#39;Aha!&#39; moments!&#xA;Sign up for Blue Ridge Boost and ace your assignments!</description>
     </item>
     <item>
       <title>Advanced Python for Tweens | Blue Ridge Boost</title>
@@ -83,13 +55,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Math-Leapers/</guid>
       <description>The Math Kangaroo competition is an international mathematical competition where students from grades 1 through 12 participate. The curriculum for grades 3 and 4 focuses on enhancing mathematical skills through engaging and challenging problems, building on the foundational knowledge acquired in earlier grades. The Kangaroo Mathematics Competition, set for Thursday, March 20, 2025. The class will continue for the duration of the school year to prepare students for the next year&amp;rsquo;s competition.</description>
-    </item>
-    <item>
-      <title>Precalculus | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Precalculus-Practice/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Precalculus-Practice/</guid>
-      <description>Conquer Your Precalculus Homework!&#xA;Blue Ridge Boost&#39;s Weekly Homework Help:&#xA;Groups of 4 students60-minute focused sessions every weekDirect assistance with your current homeworkStep-by-step guidance on tough problemsCover all Precalculus topics as they ariseImprove grades and build confidenceTurn homework struggles into success stories!</description>
     </item>
     <item>
       <title>Block Coding with Minecraft | Blue Ridge Boost</title>
@@ -127,13 +92,6 @@
       <description>Advanced Python for Teens builds on foundational Python skills and introduces students to more advanced programming concepts. This course is designed to help students create more powerful and efficient programs by exploring key topics such as functions, strings, data structures, and file input/output operations. Through engaging lessons, hands-on exercises, and creative projects, students will deepen their understanding of Python and develop practical problem-solving skills.&#xA;Course Highlights:&#xA;Functions and Exceptions: Learn how to decompose programs into smaller, reusable components and handle errors effectively.</description>
     </item>
     <item>
-      <title>Block Coding with Beavers | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Block-Coding-with-Beavers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Block-Coding-with-Beavers/</guid>
-      <description>Students learn sequencing, repetition, problem-solving, and conditional logic while developing practical coding skills. The course employs a hands-on, gamified approach that gradually increases in complexity, allowing each child to advance at their own speed. By the end, students can create sophisticated programs, having built a strong foundation in coding and computational thinking.&#xA;We start to learn fundamental coding concepts by helping a beaver build a dam! The learning continues with learning to code games in Scratch.</description>
-    </item>
-    <item>
       <title>C# for Unity | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/C-Sharp-for-Unity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -155,13 +113,6 @@
       <description>We are excited to start a chess program for our more dedicated players, who are ready to learn more about the game and improve their skills.&#xA;The classes start at 10 am with a 45 minutes lesson, followed by three 15-minute games. The pickup time is 12:00.&#xA;The classes are held at Blue Ridge Boost and are taught by Daniel Wurtzer.&#xA;Hello my name is Daniel Wurzer and I am excited to teach chess lessons at Blue Ridge Boost this fall.</description>
     </item>
     <item>
-      <title>Deep Learning Basics | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Deep-Learning-Basics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Deep-Learning-Basics/</guid>
-      <description>Discover the exciting world of deep learning and neural networks in this hands-on course, designed to build a strong foundation in artificial intelligence. Through interactive lessons and real-world projects, you&#39;ll gain the skills to design, build, and train deep learning models using Keras, a user-friendly and powerful library for AI development.&#xA;What You&#39;ll Learn: Core Concepts: Understand the fundamentals of neural networks, deep learning models, and how they work. Supervised and Unsupervised Models: Explore supervised models like convolutional neural networks (CNNs) and recurrent neural networks (RNNs), as well as unsupervised models like autoencoders.</description>
-    </item>
-    <item>
       <title>First Lego Challenge | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/FLL-Challenge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -169,46 +120,11 @@
       <description>Prepare to take on the challenges of FIRST LEGO League like a pro! This course is designed to help students build a strong foundation in robotics and engineering, focusing on the key skills needed to design, build, and optimize a competition-ready robot.&#xA;Students will:&#xA;Master the fundamentals of building sturdy and efficient robots tailored for competition. Learn how to design and attach modular attachments that can be quickly changed to tackle a variety of missions.</description>
     </item>
     <item>
-      <title>First Lego League Explore | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/FLL-Explore-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/FLL-Explore-2/</guid>
-      <description>Dive into an exciting new season of FIRST LEGO League with the 2024-2025 theme: SUBMERGED! This year’s challenge invites participants to explore the mysteries and wonders of underwater environments while solving real-world challenges related to oceans, lakes, and waterways.&#xA;Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
-    </item>
-    <item>
-      <title>First Lego League Explore | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/FLL-Explore-3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/FLL-Explore-3/</guid>
-      <description>Dive into an exciting new season of FIRST LEGO League with the 2024-2025 theme: SUBMERGED! This year’s challenge invites participants to explore the mysteries and wonders of underwater environments while solving real-world challenges related to oceans, lakes, and waterways.&#xA;Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
-    </item>
-    <item>
-      <title>First Lego League Explore | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/FLL-Explore-on-Saturday/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/FLL-Explore-on-Saturday/</guid>
-      <description>Dive into an exciting new season of FIRST LEGO League with the 2024-2025 theme: SUBMERGED! This year’s challenge invites participants to explore the mysteries and wonders of underwater environments while solving real-world challenges related to oceans, lakes, and waterways.&#xA;Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
-    </item>
-    <item>
       <title>FLL Robotics with Spike Prime | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Spike-Prime/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Spike-Prime/</guid>
       <description>Prepare to take on the challenges of FIRST LEGO League like a pro! This course is designed to help students build a strong foundation in robotics and engineering, focusing on the critical skills needed to design, build, and optimize a competition-ready robot.&#xA;Students will:&#xA;Master the fundamentals of building sturdy and efficient robots tailored for competition. Learn how to design and attach modular attachments that can be quickly changed to tackle a variety of missions.</description>
-    </item>
-    <item>
-      <title>Lego Robots Jr | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Fundamentals-of-Coding-with-SPIKE-Essential-Part-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Fundamentals-of-Coding-with-SPIKE-Essential-Part-1/</guid>
-      <description>This four-class sequence introduces the students to the world of robotics and coding. Students will construct Lego models that use motors and lights and create code to bring their creations to life. This class is suitable for students with no previous experience using Lego robots. Introducing the Next Generation of Coders! The Fundamentals of Coding with SPIKE Essential is the fun and engaging way to teach your elementary students essential STEM skills.</description>
-    </item>
-    <item>
-      <title>Machine Learning for Kids | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Machine-Learning-for-Kids/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Machine-Learning-for-Kids/</guid>
-      <description>Dive into the fascinating world of artificial intelligence with this hands-on class designed for young learners! Using the Machine Learning for Kids platform, students will explore how machines can &#34;learn&#34; from data and apply this knowledge to solve real-world problems in creative ways.&#xA;This class introduces the basics of machine learning through fun, interactive projects, where students will:&#xA;Learn how to train machine learning models using simple datasets. Explore key concepts like classification, recognition, and prediction.</description>
     </item>
     <item>
       <title>Mechanical Foundations with REV DUO | Blue Ridge Boost</title>
@@ -229,20 +145,6 @@
       <link>https://blueridgeboost.com/classes/Minecraft-Education-Elementary-School-Jan-18/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Minecraft-Education-Elementary-School-Jan-18/</guid>
-      <description>🎮 Start Your Minecraft Adventure! 🎮&#xA;Join our beginner-friendly class and dive into the world of Minecraft!&#xA;What You&#39;ll Learn:&#xA;🏗️ Building Basics: Master the essentials of crafting and construction. 🌿 Survival Skills: Learn how to gather resources and thrive in survival mode. 🗺️ Exploration Tips: Discover exciting biomes and hidden treasures. 👥 Multiplayer Fun: Connect with others and enjoy cooperative gameplay.&#xA;Free pizza included!</description>
-    </item>
-    <item>
-      <title>Minecraft Education for Elementary School | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Minecraft-Education-Elementary-School-Jan-4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Minecraft-Education-Elementary-School-Jan-4/</guid>
-      <description>🎮 Start Your Minecraft Adventure! 🎮&#xA;Join our beginner-friendly class and dive into the world of Minecraft!&#xA;What You&#39;ll Learn:&#xA;🏗️ Building Basics: Master the essentials of crafting and construction. 🌿 Survival Skills: Learn how to gather resources and thrive in survival mode. 🗺️ Exploration Tips: Discover exciting biomes and hidden treasures. 👥 Multiplayer Fun: Connect with others and enjoy cooperative gameplay.&#xA;Free pizza included!</description>
-    </item>
-    <item>
-      <title>Minecraft Education for Middle School | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Minecraft-Education-Middle-School-Dec-28/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Minecraft-Education-Middle-School-Dec-28/</guid>
       <description>🎮 Start Your Minecraft Adventure! 🎮&#xA;Join our beginner-friendly class and dive into the world of Minecraft!&#xA;What You&#39;ll Learn:&#xA;🏗️ Building Basics: Master the essentials of crafting and construction. 🌿 Survival Skills: Learn how to gather resources and thrive in survival mode. 🗺️ Exploration Tips: Discover exciting biomes and hidden treasures. 👥 Multiplayer Fun: Connect with others and enjoy cooperative gameplay.&#xA;Free pizza included!</description>
     </item>
     <item>
@@ -288,11 +190,11 @@
       <description>The VEX GO Competition is an exciting, team-based robotics challenge designed specifically for elementary students to explore STEM concepts in a fun and engaging way. Using the VEX GO building system, teams will design, build, and program their robots to complete a series of creative and hands-on missions.&#xA;Participants will:&#xA;Develop critical thinking and teamwork skills by solving real-world challenges. Learn the basics of engineering, robotics, and coding through guided activities.</description>
     </item>
     <item>
-      <title>Chess Club and Classes | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/chess/</link>
+      <title>Block Coding with Beavers | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Block-Coding-with-Beavers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/chess/</guid>
-      <description></description>
+      <guid>https://blueridgeboost.com/classes/Block-Coding-with-Beavers/</guid>
+      <description>Students learn sequencing, repetition, problem-solving, and conditional logic while developing practical coding skills. The course employs a hands-on, gamified approach that gradually increases in complexity, allowing each child to advance at their own speed. By the end, students can create sophisticated programs, having built a strong foundation in coding and computational thinking.&#xA;We start to learn fundamental coding concepts by helping a beaver build a dam! The learning continues with learning to code games in Scratch.</description>
     </item>
     <item>
       <title>Code Quest | Blue Ridge Boost</title>
@@ -302,18 +204,46 @@
       <description>Banana Code Quest is a gamified coding course designed to teach young students real-world coding from the first challenge. Through engaging puzzles and adventures, students help a monkey catch bananas and outsmart various animals while learning fundamental and advanced coding concepts in a fun and interactive way.&#xA;Key Features Real Coding Language: Students will code using CoffeeScript, a language similar to JavaScript but with a friendlier syntax, making it perfect for kids.</description>
     </item>
     <item>
-      <title>Computer Coding Classes and Tutoring | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/coding/</link>
+      <title>Calculus AB/BC | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Calculus-AB-Practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/coding/</guid>
-      <description></description>
+      <guid>https://blueridgeboost.com/classes/Calculus-AB-Practice/</guid>
+      <description>Conquer Your Calculus Homework!&#xA;Join Blue Ridge Boost Small Group Sessions:&#xA;4 students per groupFocus on current homework assignmentsStep-by-step problem-solving guidanceExpert calculus tutor support90-minute sessionsCover all calculus topics in your curriculumAdditional practice problems for reinforcementTurn your homework headaches into &#39;Aha!&#39; moments!&#xA;Sign up for Blue Ridge Boost and ace your assignments!</description>
+    </item>
+    <item>
+      <title>Lego Robots Jr | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Fundamentals-of-Coding-with-SPIKE-Essential-Part-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Fundamentals-of-Coding-with-SPIKE-Essential-Part-1/</guid>
+      <description>This four-class sequence introduces the students to the world of robotics and coding. Students will construct Lego models that use motors and lights and create code to bring their creations to life. This class is suitable for students with no previous experience using Lego robots. Introducing the Next Generation of Coders! The Fundamentals of Coding with SPIKE Essential is the fun and engaging way to teach your elementary students essential STEM skills.</description>
     </item>
     <item>
       <title>First Lego League Explore | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/FLL-Explore-1/</link>
+      <link>https://blueridgeboost.com/classes/FLL-Explore-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/FLL-Explore-1/</guid>
+      <guid>https://blueridgeboost.com/classes/FLL-Explore-2/</guid>
       <description>Dive into an exciting new season of FIRST LEGO League with the 2024-2025 theme: SUBMERGED! This year’s challenge invites participants to explore the mysteries and wonders of underwater environments while solving real-world challenges related to oceans, lakes, and waterways.&#xA;Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
+    </item>
+    <item>
+      <title>Algebra 1 | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Algebra-Mastery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Algebra-Mastery/</guid>
+      <description>Algebra 1 Success Made Simple!&#xA;Join Blue Ridge Boost&#39;s Group Algebra Sessions: Focused Learning: Small groups of 4 students Expert Guidance: Excel in your algebra homework Clear Explanations: Understand equations and functions Interactive Practice: Build problem-solving skills Weekly Sessions: 60 minutes each Comprehensive Coverage: All key Algebra 1 topics Boost Your Grades and ConfidenceEnroll in Blue Ridge Boost&#39;s Algebra Group today!</description>
+    </item>
+    <item>
+      <title>Statistics | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Statistics-Practice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Statistics-Practice/</guid>
+      <description>Master Your AP Statistics Homework!&#xA;Blue Ridge Boost&#39;s Weekly Homework Help Sessions:&#xA;Intimate groups of 4 studentsFocused 90-minute sessions every weekDirect assistance with your AP Stats homeworkExpert guidance on complex statistical conceptsHelp with data analysis, probability, and inferenceSupport for statistical software and calculatorsImprove your grades and exam readinessTurn stats stumbling blocks into stepping stones!&#xA;Join Blue Ridge Boost&#39;s AP Statistics Homework Group</description>
+    </item>
+    <item>
+      <title>Precalculus | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Precalculus-Practice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Precalculus-Practice/</guid>
+      <description>Conquer Your Precalculus Homework!&#xA;Blue Ridge Boost&#39;s Weekly Homework Help:&#xA;Groups of 4 students60-minute focused sessions every weekDirect assistance with your current homeworkStep-by-step guidance on tough problemsCover all Precalculus topics as they ariseImprove grades and build confidenceTurn homework struggles into success stories!</description>
     </item>
     <item>
       <title>Geometry | Blue Ridge Boost</title>
@@ -321,6 +251,55 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Geometry-Practice/</guid>
       <description>Geometry Homework Made Easy!&#xA;Join Blue Ridge Boost&#39;s Group Geometry Sessions:&#xA;Small groups of 4 studentsExpert help with your geometry homework Clear explanations of theorems and proofsHands-on problem-solving practice60-minute sessions weeklyCover all high school geometry topicsBoost your grades and confidenceTransform triangles and circles from foes to friends!&#xA;Enroll in Blue Ridge Boost&#39;s Geometry Group today!</description>
+    </item>
+    <item>
+      <title>First Lego League Explore | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/FLL-Explore-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/FLL-Explore-3/</guid>
+      <description>Dive into an exciting new season of FIRST LEGO League with the 2024-2025 theme: SUBMERGED! This year’s challenge invites participants to explore the mysteries and wonders of underwater environments while solving real-world challenges related to oceans, lakes, and waterways.&#xA;Participate in the official First Lego League Explore program Work on collaborative projects with peers Learn about real-world applications of robotics and engineering This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!</description>
+    </item>
+    <item>
+      <title>Machine Learning for Kids | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Machine-Learning-for-Kids/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Machine-Learning-for-Kids/</guid>
+      <description>Dive into the fascinating world of artificial intelligence with this hands-on class designed for young learners! Using the Machine Learning for Kids platform, students will explore how machines can &#34;learn&#34; from data and apply this knowledge to solve real-world problems in creative ways.&#xA;This class introduces the basics of machine learning through fun, interactive projects, where students will:&#xA;Learn how to train machine learning models using simple datasets. Explore key concepts like classification, recognition, and prediction.</description>
+    </item>
+    <item>
+      <title>Deep Learning Basics | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Deep-Learning-Basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Deep-Learning-Basics/</guid>
+      <description>Discover the exciting world of deep learning and neural networks in this hands-on course, designed to build a strong foundation in artificial intelligence. Through interactive lessons and real-world projects, you&#39;ll gain the skills to design, build, and train deep learning models using Keras, a user-friendly and powerful library for AI development.&#xA;What You&#39;ll Learn: Core Concepts: Understand the fundamentals of neural networks, deep learning models, and how they work. Supervised and Unsupervised Models: Explore supervised models like convolutional neural networks (CNNs) and recurrent neural networks (RNNs), as well as unsupervised models like autoencoders.</description>
+    </item>
+    <item>
+      <title>Minecraft Education for Elementary School | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Minecraft-Education-Elementary-School-Jan-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Minecraft-Education-Elementary-School-Jan-4/</guid>
+      <description>🎮 Start Your Minecraft Adventure! 🎮&#xA;Join our beginner-friendly class and dive into the world of Minecraft!&#xA;What You&#39;ll Learn:&#xA;🏗️ Building Basics: Master the essentials of crafting and construction. 🌿 Survival Skills: Learn how to gather resources and thrive in survival mode. 🗺️ Exploration Tips: Discover exciting biomes and hidden treasures. 👥 Multiplayer Fun: Connect with others and enjoy cooperative gameplay.&#xA;Free pizza included!</description>
+    </item>
+    <item>
+      <title>Minecraft Education for Middle School | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Minecraft-Education-Middle-School-Dec-28/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Minecraft-Education-Middle-School-Dec-28/</guid>
+      <description>🎮 Start Your Minecraft Adventure! 🎮&#xA;Join our beginner-friendly class and dive into the world of Minecraft!&#xA;What You&#39;ll Learn:&#xA;🏗️ Building Basics: Master the essentials of crafting and construction. 🌿 Survival Skills: Learn how to gather resources and thrive in survival mode. 🗺️ Exploration Tips: Discover exciting biomes and hidden treasures. 👥 Multiplayer Fun: Connect with others and enjoy cooperative gameplay.&#xA;Free pizza included!</description>
+    </item>
+    <item>
+      <title>Chess Club and Classes | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/chess/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/chess/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Computer Coding Classes and Tutoring | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/coding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/coding/</guid>
+      <description></description>
     </item>
     <item>
       <title>Math Boost | Blue Ridge Boost</title>
@@ -349,13 +328,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Math-Excellence-3-4/</guid>
       <description>In our advanced math class, we harness the engaging and comprehensive materials from Beast Academy to cultivate a deep understanding and passion for mathematics. Each student embarks on a personalized mathematical journey under the guidance of an expert Blue Ridge Boost instructor.&#xA;Class Structure Introduction: Each session begins with a concise lesson introducing new concepts and exercise types. Guided Practice: Students then apply these concepts through hands-on problem-solving, with instructor support readily available.</description>
-    </item>
-    <item>
-      <title>Math Mastery | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Math-Mastery-3-4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Math-Mastery-3-4/</guid>
-      <description>This advanced mathematics class is designed for curious students ranking in the top of their class who are eager to explore math beyond the typical school curriculum. Utilizing the renowned Dimensions Singapore Math curriculum, our year-long program emphasizes deep conceptual understanding, critical thinking, problem-solving strategies, and practical application of mathematical principles. Key Features: Advanced Mental Math Strategies: Students will be introduced to various mental math techniques to improve their calculation skills.</description>
     </item>
     <item>
       <title>Python for Tweens | Blue Ridge Boost</title>

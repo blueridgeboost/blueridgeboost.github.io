@@ -8,7 +8,7 @@ price:
 - name: "Jan 9, 16, 23, 30"
   price: 135
   inventory: 3
-weight: "10"
+weight: "409"
 category: "Session Classes"
 start_date: "2025-01-09"
 end_date: "2025-01-30"
