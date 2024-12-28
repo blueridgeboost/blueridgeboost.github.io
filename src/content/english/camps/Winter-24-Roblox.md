@@ -4,7 +4,7 @@ product_id: Winter-24-Roblox
 price:
 - name: "Dec 30, 31"
   price: 165
-  inventory: 7
+  inventory: 6
 weight: "4"
 category: "Winter Break"
 start_date: ""
