@@ -14,7 +14,7 @@ price:
 - name: "March 8, 15, 22, 29"
   price: 165
   inventory: 6
-weight: "9"
+weight: "390"
 category: "Session Classes"
 start_date: "2025-01-11"
 end_date: "2025-02-02"

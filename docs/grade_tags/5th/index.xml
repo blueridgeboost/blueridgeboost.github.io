@@ -36,34 +36,6 @@
       <description>This course is a comprehensive, year-long program designed for middle school students with no prior coding experience. It introduces fundamental programming concepts using Python through interactive exercises and projects centered around controlling a virtual character named Tracy. The course covers commands, functions, loops, variables, conditionals, and lists, progressing to more complex tasks like user interaction and creating visual projects.&#xA;Topics include:&#xA;Commands Understanding basic commands is crucial as it forms the foundation of programming, allowing Tracy to perform specific actions.</description>
     </item>
     <item>
-      <title>Advanced Python for Tweens | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Advanced-Python-For-Tweens/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Advanced-Python-For-Tweens/</guid>
-      <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, and functions. Course Content Basics review&#xA;Classes: Understanding object-oriented programming to create and manage complex data structures.Input: Interacting with users by receiving and processing input data.String manipulation: Performing operations on text data to modify and analyze it.Advanced data types: Utilizing complex data structures like dictionaries and sets for efficient data management.</description>
-    </item>
-    <item>
-      <title>Before Camp Care | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/camps/Winter-24-Before/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/camps/Winter-24-Before/</guid>
-      <description>Start the day with ease through our Before-Camp Care program! Perfect for early risers or families with busy morning schedules, this program provides a safe, welcoming space where campers can enjoy fun activities, quiet games, or simply prepare for the exciting day ahead.</description>
-    </item>
-    <item>
-      <title>Roblox Studio | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Intro-to-Roblox-Studio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Intro-to-Roblox-Studio/</guid>
-      <description>This class is perfect for students who are new to creating games in Roblox. We will teach you how to create your first Roblox experience using Roblox Studio. You will use a Baseplate template and a high-quality catapult asset pack to build and organize a data model, customize 3D objects, and organize scripts for proper simulation. We will guide you through testing, publishing, and managing your experience for a global audience, using project templates and asset packs from the Creator Store to simplify the process.</description>
-    </item>
-    <item>
-      <title>After Camp Care | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/camps/Winter-24-After/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/camps/Winter-24-After/</guid>
-      <description>Need a little extra time after camp ends? Our After-Camp Care program is here to help! Designed for busy families, this extended care option offers a safe, fun, and engaging environment for campers to unwind after a full day of activities. With games, creative projects, and supervised free play, your child will continue to have a great time while you handle your afternoon schedule stress-free.</description>
-    </item>
-    <item>
       <title>Chess Tactics and Games | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/chess/Chess-Tactics-And-Games-Dec-7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -92,20 +64,6 @@
       <description>We are excited to start a chess program for our more dedicated players, who are ready to learn more about the game and improve their skills.&#xA;The classes start at 10 am with a 45 minutes lesson, followed by three 15-minute games. The pickup time is 12:00.&#xA;The classes are held at Blue Ridge Boost and are taught by Daniel Wurtzer.&#xA;Hello my name is Daniel Wurzer and I am excited to teach chess lessons at Blue Ridge Boost this fall.</description>
     </item>
     <item>
-      <title>First Lego Challenge | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/FLL-Challenge/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/FLL-Challenge/</guid>
-      <description>Prepare to take on the challenges of FIRST LEGO League like a pro! This course is designed to help students build a strong foundation in robotics and engineering, focusing on the key skills needed to design, build, and optimize a competition-ready robot.&#xA;Students will:&#xA;Master the fundamentals of building sturdy and efficient robots tailored for competition. Learn how to design and attach modular attachments that can be quickly changed to tackle a variety of missions.</description>
-    </item>
-    <item>
-      <title>FLL Robotics with Spike Prime | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Spike-Prime/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Spike-Prime/</guid>
-      <description>Prepare to take on the challenges of FIRST LEGO League like a pro! This course is designed to help students build a strong foundation in robotics and engineering, focusing on the critical skills needed to design, build, and optimize a competition-ready robot.&#xA;Students will:&#xA;Master the fundamentals of building sturdy and efficient robots tailored for competition. Learn how to design and attach modular attachments that can be quickly changed to tackle a variety of missions.</description>
-    </item>
-    <item>
       <title>Minecraft Education for Middle School | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Minecraft-Education-Middle-School-Feb-8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -127,11 +85,32 @@
       <description>🎮 Start Your Minecraft Adventure! 🎮&#xA;Join our beginner-friendly class and dive into the world of Minecraft!&#xA;What You&#39;ll Learn:&#xA;🏗️ Building Basics: Master the essentials of crafting and construction. 🌿 Survival Skills: Learn how to gather resources and thrive in survival mode. 🗺️ Exploration Tips: Discover exciting biomes and hidden treasures. 👥 Multiplayer Fun: Connect with others and enjoy cooperative gameplay.&#xA;Free pizza included!</description>
     </item>
     <item>
-      <title>Python for Kids | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Python-Basics/</link>
+      <title>Advanced Python for Tweens | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Advanced-Python-For-Tweens/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Python-Basics/</guid>
-      <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, and functions. Course Content Sequencing: Understanding the order of instructions is crucial for programming logic. Lists &amp; Indexing: Learning to store and access multiple items efficiently. For loops: Iterating over sequences to automate repetitive tasks. Variables: Storing data that can be used and modified throughout the program.</description>
+      <guid>https://blueridgeboost.com/classes/Advanced-Python-For-Tweens/</guid>
+      <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, and functions. Course Content Basics review&#xA;Classes: Understanding object-oriented programming to create and manage complex data structures.Input: Interacting with users by receiving and processing input data.String manipulation: Performing operations on text data to modify and analyze it.Advanced data types: Utilizing complex data structures like dictionaries and sets for efficient data management.</description>
+    </item>
+    <item>
+      <title>FLL Robotics with Spike Prime | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Spike-Prime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Spike-Prime/</guid>
+      <description>Prepare to take on the challenges of FIRST LEGO League like a pro! This course is designed to help students build a strong foundation in robotics and engineering, focusing on the critical skills needed to design, build, and optimize a competition-ready robot.&#xA;Students will:&#xA;Master the fundamentals of building sturdy and efficient robots tailored for competition. Learn how to design and attach modular attachments that can be quickly changed to tackle a variety of missions.</description>
+    </item>
+    <item>
+      <title>First Lego Challenge | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/FLL-Challenge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/FLL-Challenge/</guid>
+      <description>Prepare to take on the challenges of FIRST LEGO League like a pro! This course is designed to help students build a strong foundation in robotics and engineering, focusing on the key skills needed to design, build, and optimize a competition-ready robot.&#xA;Students will:&#xA;Master the fundamentals of building sturdy and efficient robots tailored for competition. Learn how to design and attach modular attachments that can be quickly changed to tackle a variety of missions.</description>
+    </item>
+    <item>
+      <title>Robotics with Lego Spike | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Robotics-Lego-Spike-Prime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Robotics-Lego-Spike-Prime/</guid>
+      <description>Jump into the world of robotics and coding with the LEGO Education SPIKE Prime system! This hands-on course introduces students to the exciting possibilities of robotics engineering and computational thinking through engaging, project-based learning. Designed for beginners to intermediate learners, this course will teach students how to design, build, and program robotic solutions to solve real-world challenges.&#xA;In this course, students will:&#xA;Learn the basics of robotics using the LEGO SPIKE Prime kit.</description>
     </item>
     <item>
       <title>Robotics with Vex IQ | Blue Ridge Boost</title>
@@ -141,18 +120,25 @@
       <description>Description:&#xA;Join us at Blue Ridge Boost for an exciting, hands-on journey into coding and computational thinking with the VEX IQ (2nd Generation) robotics platform! Using the structured curriculum from the Carnegie Mellon Robotics Academy, this class introduces students to the fundamentals of robotics programming, problem-solving, and real-world applications.&#xA;Designed for beginners and enthusiasts, the course features engaging, project-based activities that teach students to build, program, and control their robots using the VEXcode programming software.</description>
     </item>
     <item>
+      <title>Python for Kids | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Python-Basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Python-Basics/</guid>
+      <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, and functions. Course Content Sequencing: Understanding the order of instructions is crucial for programming logic. Lists &amp; Indexing: Learning to store and access multiple items efficiently. For loops: Iterating over sequences to automate repetitive tasks. Variables: Storing data that can be used and modified throughout the program.</description>
+    </item>
+    <item>
+      <title>Roblox Studio | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Intro-to-Roblox-Studio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Intro-to-Roblox-Studio/</guid>
+      <description>This class is perfect for students who are new to creating games in Roblox. We will teach you how to create your first Roblox experience using Roblox Studio. You will use a Baseplate template and a high-quality catapult asset pack to build and organize a data model, customize 3D objects, and organize scripts for proper simulation. We will guide you through testing, publishing, and managing your experience for a global audience, using project templates and asset packs from the Creator Store to simplify the process.</description>
+    </item>
+    <item>
       <title>Machine Learning for Kids | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Machine-Learning-for-Kids/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Machine-Learning-for-Kids/</guid>
       <description>Dive into the fascinating world of artificial intelligence with this hands-on class designed for young learners! Using the Machine Learning for Kids platform, students will explore how machines can &#34;learn&#34; from data and apply this knowledge to solve real-world problems in creative ways.&#xA;This class introduces the basics of machine learning through fun, interactive projects, where students will:&#xA;Learn how to train machine learning models using simple datasets. Explore key concepts like classification, recognition, and prediction.</description>
-    </item>
-    <item>
-      <title>Minecraft Education for Middle School | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Minecraft-Education-Middle-School-Dec-28/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Minecraft-Education-Middle-School-Dec-28/</guid>
-      <description>🎮 Start Your Minecraft Adventure! 🎮&#xA;Join our beginner-friendly class and dive into the world of Minecraft!&#xA;What You&#39;ll Learn:&#xA;🏗️ Building Basics: Master the essentials of crafting and construction. 🌿 Survival Skills: Learn how to gather resources and thrive in survival mode. 🗺️ Exploration Tips: Discover exciting biomes and hidden treasures. 👥 Multiplayer Fun: Connect with others and enjoy cooperative gameplay.&#xA;Free pizza included!</description>
     </item>
     <item>
       <title>1-Day Camp; Apr 18, 2025 | Blue Ridge Boost</title>
@@ -307,13 +293,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Python-For-Tweens/</guid>
       <description>Embark on an exciting journey into the world of programming with Python! This class is designed to make coding fun, engaging, and accessible for kids as they explore the basics of Python through creative and interactive projects. Students will dive into programming concepts while solving puzzles, building games, and experimenting with whimsical projects featuring monsters, secret agents, and more!&#xA;Throughout the class, students will:&#xA;Learn foundational programming concepts like loops and conditionals.</description>
-    </item>
-    <item>
-      <title>Robotics with Lego Spike | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Robotics-Lego-Spike-Prime/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Robotics-Lego-Spike-Prime/</guid>
-      <description>Jump into the world of robotics and coding with the LEGO Education SPIKE Prime system! This hands-on course introduces students to the exciting possibilities of robotics engineering and computational thinking through engaging, project-based learning. Designed for beginners to intermediate learners, this course will teach students how to design, build, and program robotic solutions to solve real-world challenges.&#xA;In this course, students will:&#xA;Learn the basics of robotics using the LEGO SPIKE Prime kit.</description>
     </item>
   </channel>
 </rss>
