@@ -2,15 +2,9 @@
 ecwid: 708094569
 product_id: Winter-24-Drones
 price:
-- name: "Dec 23, 24"
-  price: 165
-  inventory: 5
-- name: "Dec 26, 27"
-  price: 165
-  inventory: 4
 - name: "Dec 30, 31"
   price: 165
-  inventory: 4
+  inventory: 3
 weight: "1"
 category: "Winter Break"
 start_date: ""
