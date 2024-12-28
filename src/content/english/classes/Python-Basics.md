@@ -4,7 +4,7 @@ product_id: Python-Basics
 price: 135
 inventory: 4
 payment_link: ""
-weight: "10"
+weight: "371"
 category: "Subscription Classes"
 start_date: "2025-01-13"
 end_date: "2025-06-03"

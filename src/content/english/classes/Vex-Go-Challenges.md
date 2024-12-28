@@ -11,7 +11,7 @@ price:
 - name: "Village Engineering Construction: Mar 1, 8, 15, 29; April 5, 12"
   price: 295
   inventory: 6
-weight: "10"
+weight: "320"
 category: "Session Classes"
 start_date: "2024-12-01"
 end_date: ""

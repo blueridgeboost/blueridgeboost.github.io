@@ -4,7 +4,7 @@ product_id: Winter-24-Drones
 price:
 - name: "Dec 30, 31"
   price: 165
-  inventory: 3
+  inventory: 1
 weight: "1"
 category: "Winter Break"
 start_date: ""

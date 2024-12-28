@@ -8,11 +8,11 @@
     <language>en-US</language>
     <atom:link href="https://blueridgeboost.com/day_tags/Monday/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Python for Kids | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Python-Basics/</link>
+      <title>Code Quest | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Banana-Code-Quest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Python-Basics/</guid>
-      <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, and functions. Course Content Sequencing: Understanding the order of instructions is crucial for programming logic. Lists &amp; Indexing: Learning to store and access multiple items efficiently. For loops: Iterating over sequences to automate repetitive tasks. Variables: Storing data that can be used and modified throughout the program.</description>
+      <guid>https://blueridgeboost.com/classes/Banana-Code-Quest/</guid>
+      <description>Banana Code Quest is a gamified coding course designed to teach young students real-world coding from the first challenge. Through engaging puzzles and adventures, students help a monkey catch bananas and outsmart various animals while learning fundamental and advanced coding concepts in a fun and interactive way.&#xA;Key Features Real Coding Language: Students will code using CoffeeScript, a language similar to JavaScript but with a friendlier syntax, making it perfect for kids.</description>
     </item>
     <item>
       <title>Robotics with Vex IQ | Blue Ridge Boost</title>
@@ -22,11 +22,11 @@
       <description>Description:&#xA;Join us at Blue Ridge Boost for an exciting, hands-on journey into coding and computational thinking with the VEX IQ (2nd Generation) robotics platform! Using the structured curriculum from the Carnegie Mellon Robotics Academy, this class introduces students to the fundamentals of robotics programming, problem-solving, and real-world applications.&#xA;Designed for beginners and enthusiasts, the course features engaging, project-based activities that teach students to build, program, and control their robots using the VEXcode programming software.</description>
     </item>
     <item>
-      <title>Code Quest | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Banana-Code-Quest/</link>
+      <title>Python for Kids | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Python-Basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Banana-Code-Quest/</guid>
-      <description>Banana Code Quest is a gamified coding course designed to teach young students real-world coding from the first challenge. Through engaging puzzles and adventures, students help a monkey catch bananas and outsmart various animals while learning fundamental and advanced coding concepts in a fun and interactive way.&#xA;Key Features Real Coding Language: Students will code using CoffeeScript, a language similar to JavaScript but with a friendlier syntax, making it perfect for kids.</description>
+      <guid>https://blueridgeboost.com/classes/Python-Basics/</guid>
+      <description>Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, and functions. Course Content Sequencing: Understanding the order of instructions is crucial for programming logic. Lists &amp; Indexing: Learning to store and access multiple items efficiently. For loops: Iterating over sequences to automate repetitive tasks. Variables: Storing data that can be used and modified throughout the program.</description>
     </item>
     <item>
       <title>Geometry | Blue Ridge Boost</title>

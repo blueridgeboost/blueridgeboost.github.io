@@ -14,7 +14,7 @@ price:
 - name: "Jan 14, 21, 28; Feb 4"
   price: 135
   inventory: 6
-weight: ""
+weight: "359"
 category: "Session Classes"
 start_date: "2025-01-05"
 end_date: "2025-06-03"

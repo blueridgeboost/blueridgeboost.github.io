@@ -22,11 +22,11 @@
       <description>Join us for an exciting 2-day immersive experience at the First Lego League Challenge Winter Camp! This hands-on camp is designed for young innovators, problem-solvers, and future engineers passionate about robotics, teamwork, and STEM. Participants will dive into the world of LEGO robotics, learn coding skills, and tackle real-world challenges of this year&#39;s First Lego League Challenge.</description>
     </item>
     <item>
-      <title>First Lego Challenge | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/FLL-Challenge/</link>
+      <title>Vex Go Challenges | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Vex-Go-Challenges/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/FLL-Challenge/</guid>
-      <description>Prepare to take on the challenges of FIRST LEGO League like a pro! This course is designed to help students build a strong foundation in robotics and engineering, focusing on the key skills needed to design, build, and optimize a competition-ready robot.&#xA;Students will:&#xA;Master the fundamentals of building sturdy and efficient robots tailored for competition. Learn how to design and attach modular attachments that can be quickly changed to tackle a variety of missions.</description>
+      <guid>https://blueridgeboost.com/classes/Vex-Go-Challenges/</guid>
+      <description>The VEX GO Competition is an exciting, team-based robotics challenge designed specifically for elementary students to explore STEM concepts in a fun and engaging way. Using the VEX GO building system, teams will design, build, and program their robots to complete a series of creative and hands-on missions.&#xA;Participants will:&#xA;Develop critical thinking and teamwork skills by solving real-world challenges. Learn the basics of engineering, robotics, and coding through guided activities.</description>
     </item>
     <item>
       <title>FLL Robotics with Spike Prime | Blue Ridge Boost</title>
@@ -36,11 +36,18 @@
       <description>Prepare to take on the challenges of FIRST LEGO League like a pro! This course is designed to help students build a strong foundation in robotics and engineering, focusing on the critical skills needed to design, build, and optimize a competition-ready robot.&#xA;Students will:&#xA;Master the fundamentals of building sturdy and efficient robots tailored for competition. Learn how to design and attach modular attachments that can be quickly changed to tackle a variety of missions.</description>
     </item>
     <item>
-      <title>Vex Go Challenges | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Vex-Go-Challenges/</link>
+      <title>First Lego Challenge | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/FLL-Challenge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Vex-Go-Challenges/</guid>
-      <description>The VEX GO Competition is an exciting, team-based robotics challenge designed specifically for elementary students to explore STEM concepts in a fun and engaging way. Using the VEX GO building system, teams will design, build, and program their robots to complete a series of creative and hands-on missions.&#xA;Participants will:&#xA;Develop critical thinking and teamwork skills by solving real-world challenges. Learn the basics of engineering, robotics, and coding through guided activities.</description>
+      <guid>https://blueridgeboost.com/classes/FLL-Challenge/</guid>
+      <description>Prepare to take on the challenges of FIRST LEGO League like a pro! This course is designed to help students build a strong foundation in robotics and engineering, focusing on the key skills needed to design, build, and optimize a competition-ready robot.&#xA;Students will:&#xA;Master the fundamentals of building sturdy and efficient robots tailored for competition. Learn how to design and attach modular attachments that can be quickly changed to tackle a variety of missions.</description>
+    </item>
+    <item>
+      <title>Robotics with Lego Spike | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Robotics-Lego-Spike-Prime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Robotics-Lego-Spike-Prime/</guid>
+      <description>Jump into the world of robotics and coding with the LEGO Education SPIKE Prime system! This hands-on course introduces students to the exciting possibilities of robotics engineering and computational thinking through engaging, project-based learning. Designed for beginners to intermediate learners, this course will teach students how to design, build, and program robotic solutions to solve real-world challenges.&#xA;In this course, students will:&#xA;Learn the basics of robotics using the LEGO SPIKE Prime kit.</description>
     </item>
     <item>
       <title>Lego Robots Jr | Blue Ridge Boost</title>
@@ -69,13 +76,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/camps/Spring-Break-24-Camp/</guid>
       <description>Python coding in the morning and Lego Robotics in the afternoon.</description>
-    </item>
-    <item>
-      <title>Robotics with Lego Spike | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Robotics-Lego-Spike-Prime/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Robotics-Lego-Spike-Prime/</guid>
-      <description>Jump into the world of robotics and coding with the LEGO Education SPIKE Prime system! This hands-on course introduces students to the exciting possibilities of robotics engineering and computational thinking through engaging, project-based learning. Designed for beginners to intermediate learners, this course will teach students how to design, build, and program robotic solutions to solve real-world challenges.&#xA;In this course, students will:&#xA;Learn the basics of robotics using the LEGO SPIKE Prime kit.</description>
     </item>
     <item>
       <title>Sphero and Scratch | Blue Ridge Boost</title>

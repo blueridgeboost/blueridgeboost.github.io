@@ -4,7 +4,7 @@ product_id: Java-For-Teens
 price: 179
 inventory: 4
 payment_link: ""
-weight: "9"
+weight: "360"
 category: "Subscription Classes"
 start_date: "2025-01-14"
 end_date: "2025-05-14"

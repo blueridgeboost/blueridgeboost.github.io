@@ -4,7 +4,7 @@ product_id: Advanced-Python-For-Tweens
 price: 135
 inventory: 4
 payment_link: ""
-weight: "8"
+weight: "338"
 category: "Subscription Classes"
 start_date: "2025-01-15"
 end_date: "2025-06-03"

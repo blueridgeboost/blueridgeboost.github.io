@@ -22,27 +22,6 @@
       <description>The Math Kangaroo competition is an international mathematical competition where students from grades 1 through 12 participate. The curriculum for grades 3 and 4 focuses on enhancing mathematical skills through engaging and challenging problems, building on the foundational knowledge acquired in earlier grades. The Kangaroo Mathematics Competition, set for Thursday, March 20, 2025. The class will continue for the duration of the school year to prepare students for the next year&amp;rsquo;s competition.</description>
     </item>
     <item>
-      <title>Before Camp Care | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/camps/Winter-24-Before/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/camps/Winter-24-Before/</guid>
-      <description>Start the day with ease through our Before-Camp Care program! Perfect for early risers or families with busy morning schedules, this program provides a safe, welcoming space where campers can enjoy fun activities, quiet games, or simply prepare for the exciting day ahead.</description>
-    </item>
-    <item>
-      <title>Block Coding with Minecraft | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Block-Coding-with-Minecraft-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Block-Coding-with-Minecraft-1/</guid>
-      <description>This four-class sequence introduces the students to fundamental computer science concepts, including events and coordinates. Students will use a coding environment embedded in Minecraft Education to code their own commands, which they will then use in the game.&#xA;Leveraging the engaging world of Minecraft Education, students will:&#xA;Explore a custom coding environment integrated within the game Learn to write and execute their own commands Apply coding principles to manipulate the Minecraft world in real-time Develop problem-solving skills through interactive challenges Gain hands-on experience with spatial reasoning and algorithmic thinking By the end of the course, students will have a solid foundation in basic programming concepts, enhanced creativity, and improved logical reasoning skills—all while enjoying the familiar and exciting Minecraft platform.</description>
-    </item>
-    <item>
-      <title>After Camp Care | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/camps/Winter-24-After/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/camps/Winter-24-After/</guid>
-      <description>Need a little extra time after camp ends? Our After-Camp Care program is here to help! Designed for busy families, this extended care option offers a safe, fun, and engaging environment for campers to unwind after a full day of activities. With games, creative projects, and supervised free play, your child will continue to have a great time while you handle your afternoon schedule stress-free.</description>
-    </item>
-    <item>
       <title>Chess Tactics and Games | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/chess/Chess-Tactics-And-Games-Dec-7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -71,13 +50,6 @@
       <description>We are excited to start a chess program for our more dedicated players, who are ready to learn more about the game and improve their skills.&#xA;The classes start at 10 am with a 45 minutes lesson, followed by three 15-minute games. The pickup time is 12:00.&#xA;The classes are held at Blue Ridge Boost and are taught by Daniel Wurtzer.&#xA;Hello my name is Daniel Wurzer and I am excited to teach chess lessons at Blue Ridge Boost this fall.</description>
     </item>
     <item>
-      <title>FLL Robotics with Spike Prime | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Spike-Prime/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Spike-Prime/</guid>
-      <description>Prepare to take on the challenges of FIRST LEGO League like a pro! This course is designed to help students build a strong foundation in robotics and engineering, focusing on the critical skills needed to design, build, and optimize a competition-ready robot.&#xA;Students will:&#xA;Master the fundamentals of building sturdy and efficient robots tailored for competition. Learn how to design and attach modular attachments that can be quickly changed to tackle a variety of missions.</description>
-    </item>
-    <item>
       <title>Minecraft Education for Elementary School | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Minecraft-Education-Elementary-School-Feb-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -99,11 +71,32 @@
       <description>The VEX GO Competition is an exciting, team-based robotics challenge designed specifically for elementary students to explore STEM concepts in a fun and engaging way. Using the VEX GO building system, teams will design, build, and program their robots to complete a series of creative and hands-on missions.&#xA;Participants will:&#xA;Develop critical thinking and teamwork skills by solving real-world challenges. Learn the basics of engineering, robotics, and coding through guided activities.</description>
     </item>
     <item>
+      <title>Block Coding with Minecraft | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Block-Coding-with-Minecraft-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Block-Coding-with-Minecraft-1/</guid>
+      <description>This four-class sequence introduces the students to fundamental computer science concepts, including events and coordinates. Students will use a coding environment embedded in Minecraft Education to code their own commands, which they will then use in the game.&#xA;Leveraging the engaging world of Minecraft Education, students will:&#xA;Explore a custom coding environment integrated within the game Learn to write and execute their own commands Apply coding principles to manipulate the Minecraft world in real-time Develop problem-solving skills through interactive challenges Gain hands-on experience with spatial reasoning and algorithmic thinking By the end of the course, students will have a solid foundation in basic programming concepts, enhanced creativity, and improved logical reasoning skills—all while enjoying the familiar and exciting Minecraft platform.</description>
+    </item>
+    <item>
+      <title>FLL Robotics with Spike Prime | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Spike-Prime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Spike-Prime/</guid>
+      <description>Prepare to take on the challenges of FIRST LEGO League like a pro! This course is designed to help students build a strong foundation in robotics and engineering, focusing on the critical skills needed to design, build, and optimize a competition-ready robot.&#xA;Students will:&#xA;Master the fundamentals of building sturdy and efficient robots tailored for competition. Learn how to design and attach modular attachments that can be quickly changed to tackle a variety of missions.</description>
+    </item>
+    <item>
       <title>Code Quest | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Banana-Code-Quest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Banana-Code-Quest/</guid>
       <description>Banana Code Quest is a gamified coding course designed to teach young students real-world coding from the first challenge. Through engaging puzzles and adventures, students help a monkey catch bananas and outsmart various animals while learning fundamental and advanced coding concepts in a fun and interactive way.&#xA;Key Features Real Coding Language: Students will code using CoffeeScript, a language similar to JavaScript but with a friendlier syntax, making it perfect for kids.</description>
+    </item>
+    <item>
+      <title>Scratch Coding | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Scratch-First-and-Second/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Scratch-First-and-Second/</guid>
+      <description>Come and learn to code your own games in Scratch!&#xA;Each session will create a new game.</description>
     </item>
     <item>
       <title>First Lego League Explore | Blue Ridge Boost</title>
@@ -272,13 +265,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Math-Excellence-3-4/</guid>
       <description>In our advanced math class, we harness the engaging and comprehensive materials from Beast Academy to cultivate a deep understanding and passion for mathematics. Each student embarks on a personalized mathematical journey under the guidance of an expert Blue Ridge Boost instructor.&#xA;Class Structure Introduction: Each session begins with a concise lesson introducing new concepts and exercise types. Guided Practice: Students then apply these concepts through hands-on problem-solving, with instructor support readily available.</description>
-    </item>
-    <item>
-      <title>Scratch Coding | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Scratch-First-and-Second/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Scratch-First-and-Second/</guid>
-      <description>Come and learn to code your own games in Scratch!&#xA;Each session will create a new game.</description>
     </item>
     <item>
       <title>Sphero and Scratch | Blue Ridge Boost</title>
