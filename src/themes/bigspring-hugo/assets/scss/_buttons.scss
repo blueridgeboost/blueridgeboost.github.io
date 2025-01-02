@@ -26,38 +26,6 @@
   }
 }
 
-.spacybutton {
-  padding-top: 1em;
-}
-
-.btn-small {
-  font-size: 1em;
-  font-family: $font-secondary;
-  font-weight: 500;
-  padding: 0.5em 0.5em;
-  line-height: 1;
-  border-radius: 50px;
-  border: 2px solid;
-  transition: 0.3s ease;
-
-  &-sm {
-    padding: 0.9em 1.6em;
-    font-size: 1em;
-  }
-
-  &:hover,
-  &:active,
-  &.active,
-  &:focus,
-  &.focus {
-    outline: 0;
-    @extend .shadow;
-    background: darken($color-primary, 5) !important;
-    border-color: darken($color-primary, 5) !important;
-  }
-}
-
-
 .btn-primary {
   background: $color-primary;
   color: $white;

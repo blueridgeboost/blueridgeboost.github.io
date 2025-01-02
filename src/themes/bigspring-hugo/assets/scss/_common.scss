@@ -32,32 +32,34 @@ img {
   height: auto;
 }
 
-// a,
-// a:hover,
-// a:visited,
-// a:focus {
-//   text-decoration: none;
-//   color: $darkest-blue;
-// }
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
 
-// a.text-dark:hover {
-//   color: $color-primary !important;
-// }
+a.text-dark:hover {
+  color: $color-primary !important;
+}
 
-// a,
-// button,
-// select {
-//   cursor: pointer;
-//   transition: 0.2s ease;
+a,
+button,
+select {
+  cursor: pointer;
+  transition: 0.2s ease;
 
-//   &:focus {
-//     outline: 0;
-//   }
-// }
+  &:focus {
+    outline: 0;
+  }
+}
+
+a:hover {
+  color: $color-primary;
+}
 
 .section {
-  padding-top: 0.2rem;
-  padding-bottom: 2.0rem;
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
 
   @include tablet {
     padding-top: 4.5rem;
@@ -320,7 +322,7 @@ form label {
     margin-top: 1.4rem;
     margin-bottom: 0.7rem;
   }
-  
+
   b,
   strong {
     font-weight: 500;
@@ -429,78 +431,4 @@ form label {
       margin-bottom: 0 !important;
     }
   }
-}
-
-
-
-div.row.alt-table-header {
-  background-color: $darkest-blue;
-  font-weight: 700;
-  color: $white;
-}
-  
-div.row.alt-dark-row {
-  background-color: $lightest-blue;
-}
-
-div.row.alt-light-row {
-  background-color: $white;
-}
-
-.ribbon {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  position: absolute;
-  top: -22px;
-  padding-top: 0px;
-  left: 5px;
-  width: 100px;
-  background-color:deepskyblue;
-  color: white;
-  text-align: center;
-  line-height: 30px;
-  /*
-  transform: rotate(-5deg);
-  -webkit-transform: rotate(-5deg);
-  */
-}
-
-.ribbon span {
-  display: block;
-  width: 100%;
-}
-
-.newribbon {
-  font-family:fantasy;
-  position: absolute;
-  top: -22px;
-  padding-top: 5px;
-  left: 5px;
-  width: 80px;
-  background-color: #800fe3;
-  color: white;
-  text-align: center;
-  line-height: 30px;
-}
-
-.timeribbon span {
-  display: block;
-  width: 100%;
-}
-
-.joinribbon {
-  position: absolute;
-  top: -20px;
-  left: -10px;
-  width: 150px;
-  background-color: #0f9f35;
-  color: white;
-  text-align: center;
-  line-height: 30px;
-  transform: rotate(-5deg);
-  -webkit-transform: rotate(-5deg);
-}
-
-.joinribbon span {
-  display: block;
-  width: 100%;
 }

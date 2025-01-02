@@ -10,7 +10,7 @@ end_date: "2025-01-25"
 start_time: "5:00"
 end_time: "8:00"
 page_title: "Minecraft Education for Middle School"
-page_subtitle: "January 25"
+page_subtitle: "January 25, 5:00-8:00pm"
 featured: 0
 title: "Minecraft Education for Middle School | Blue Ridge Boost"
 section: classes

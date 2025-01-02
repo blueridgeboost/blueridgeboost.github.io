@@ -3,17 +3,25 @@ baseURL = "https://blueridgeboost.com"
 title = "Robotics - Math - Computer Coding - Chess in Charlottesville "
 theme = "bigspring-hugo"
 timeZone = "America/New_York"
-paginate = 6 
-summaryLength = 70 
+# post pagination
+pagination.pagerSize = 6
+# post excerpt
+summaryLength = 70 # see https://gohugo.io/content-management/excerpts/
+# disable language
 disableLanguages = [
-] 
-hasCJKLanguage = false
+] # example: ["de"] for disable deutsch language. see https://gohugo.io/content-management/multilingual/
+hasCJKLanguage = false # If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content.
 disableLiveReload = true
 enableRobotsTXT = true
 cleanDestinationDir = true
 disablePathToLower = true
 enableEmoji = true
 publishDir = '../docs'
+
+########################### Services #############################
+[services]
+[services.googleAnalytics]
+ID = 'G-JV87PS188M' # see https://gohugo.io/templates/internal/#configure-google-analytics
 
 ############################# Modules ############################
 [module]
@@ -69,6 +77,8 @@ maxAge = "720h"
 
 ############################# Markup ###############################
 [markup]
+[markup.goldmark.renderer]
+unsafe = true
 
 [markup.goldmark.extensions]
 strikethrough = false
@@ -76,19 +86,14 @@ strikethrough = false
 enable = true
 [markup.goldmark.extensions.extras.subscript]
 enable = true
-
 [markup.goldmark.extensions.passthrough]
 enable = true
 [markup.goldmark.extensions.passthrough.delimiters]
 block = [['\[', '\]'], ['$$', '$$']]
 inline = [['\(', '\)']]
 
-[markup.goldmark.renderer]
-unsafe = true
-
 [markup.highlight]
-lineNos = true
-style = 'monokai'
+style = 'monokai' # see https://xyproto.github.io/splash/docs/all.html
 
 [markup.tableOfContents]
 startLevel = 2
@@ -108,8 +113,34 @@ suffixes = ["webmanifest"]
 mediaType = "application/manifest+json"
 rel = "manifest"
 
-############################# Taxonomies #############################
-[taxonomies]
-  day_tag = "day_tags"
-  grade_tag = "grade_tags"
-  subject_tag = "subject_tags"
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/swiper/swiper-bundle.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/brands.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/solid.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/regular.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/icons.css"
+# [[params.plugins.css]]
+# link = "plugins/glightbox/glightbox.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/swiper/swiper-bundle.js"
+[[params.plugins.js]]
+link = "plugins/webfont/webfont-loader-2.js"
+[[params.plugins.js]]
+link = "plugins/cookie.js"
+[[params.plugins.js]]
+link = "plugins/lazy-loader.js"
+[[params.plugins.js]]
+link = "js/tab.js"
+# [[params.plugins.js]]
+# link = "plugins/glightbox/glightbox.js"
+# [[params.plugins.js]]
+# link = "js/gallery-slider.js"

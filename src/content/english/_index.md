@@ -1,10 +1,14 @@
 ---
+
+type: "home"
+title: "Computer Coding, Robotics, Math, Chess | Blue Ridge Boost"
+
 ####################### Banner #########################
 banner:
   title : "Blue Ridge Boost"
   subtitle : "Locally-owned education company specializing in math, robotics, computing, and chess."
   special_buttons:
-  - enable: true
+  - enable: false
     label: 'Gift Cards now Available'
     link: "https://store.blueridgeboost.com/products/gift-card"
   top_buttons:
@@ -17,7 +21,7 @@ banner:
   - enable : true
     label : "Tutoring"
     link : "tutoring/"
-  bottom_buttons:
+  middle_buttons:
   - enable : true
     label : "Math"
     link : "classes/math"
@@ -30,6 +34,7 @@ banner:
   - enable : true
     label : "Chess"
     link : "classes/chess"
+  bottom_buttons:
   - enable : true
     label : "Parents' Night Out"
     link : "parents-night-out/"

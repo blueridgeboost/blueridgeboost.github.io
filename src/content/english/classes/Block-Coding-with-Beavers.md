@@ -19,7 +19,7 @@ category: "Session Classes"
 start_date: ""
 end_date: ""
 start_time: "4:30"
-end_time: "5:60"
+end_time: "5:30"
 page_title: "Block Coding with Beavers"
 page_subtitle: "Gamified coding course"
 featured: 0

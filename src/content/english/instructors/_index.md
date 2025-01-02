@@ -38,7 +38,7 @@ instructors:
 
   At Blue Ridge Boost, Saumya coaches the FLL Challenge Team and teaches the Vex IQ robotics classes."
 
-- enable : true
+- enable : false
   name: "Christina Fowler"
   role: "Lead camp instructor ages 8 and 9. Coding and math teacher. Math tutor."
   photo: "/images/instructors/christina.png"
@@ -62,13 +62,13 @@ instructors:
   
   Scartlet runs Mathemagicians, a math club at the Northside Library for teens interested in STEM. Scarlett also completed  an internship at a pharmacy in Arzens, France working with a shelf-stocking robot. Whether tutoring peers and neighbors in math or tinkering with 3D printers and welding equipment, Scarlett loves sharing her interest in technology and science with others!"
 
-- enable : true
+- enable : false
   name: "Carter Earles"
   role: "Camp Instructor, ages 10 to 13. Coding and Robotics teacher."
   photo:  "/images/instructors/carter.png"
   bio: "Carter was born in Charlottesville and lived here his entire life. Carter is a junior at Albemarle High School and attends Center 1 for game design. Center 1 is a small school where career-specific courses are taught. At Albemarle, Carter plays tenor saxophone in the marching band, jazz band, and sax choir. Carter is also a programmer at Cavelier Robotics and am in the Albemarle Key Club. Some of Carter's greatest areas of interest are programming, game development, machine learning, and evolutionary algorithms. Carter also really enjoy math and how it is applied to describe various systems in nature. Carter also loves sharing my passion for STEM through various events such as Girls Geek Day, STEM Night, and now, Blue Ridge Boost!"
 
-- enable : true
+- enable : false
   name: "Tracey Dunu"
   role: "Camp Instructor"
   photo:  "/images/instructors/nophoto.png"

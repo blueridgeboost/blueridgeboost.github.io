@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<div class="container p-2">
+    <div class="row">
+        <div class="col">
+        <p>At Blue Ridge Boost, we are committed to making our classes affordable and encouraging the participation of underrepresented groups in the field of computer science. While we strive to provide a high-quality educational experience at the lowest price, we are aware that our classes and camps are too expensive for some of the children interested in computing. For that reason, we created three scholarship funds in remembrance of dear friends, three siblings that, unconditionally,  loved each other and positively impacted everyone they came in contact with.</p>
+        <center>
+        <p><b>Aicha Amira Wade (January 7, 2013 &ndash; August 4, 2023)</b></p>
+        <p><b>Marieme Imane Wade (June 2, 2007 &ndash; August 4, 2023)</b></p>
+        <p><b>Omar Wade (January 4, 2004 &ndash; August 4, 2023)</b></p>
+        </center>
+        <p>We met Aicha, Imane, and Omar several years ago. We trained together in Tae Kwon Do at Mountain Kim Martial Arts for five years, going through the belts and taking our black belt test together. The Wade children were role models for us all and always had kind words and smiles for everyone around them. We will never forget the patience and kindness they showed our family over the five years we trained together. Aicha, Imane, and Omar have left an indelible mark on our lives, and for that, we are eternally grateful.</p>
+        <p>Lives well lived! Love forever.</p>
+    </div>
+
+    {{ range .Params.scholarships }}
+        <div class="row">
+            <div class="col-12 p-2 darknote"> <center>{{ .name }}</center></div>
+        </div>
+        <div class="row" style="padding-bottom: 1em;">
+            <div class="col-3" style="padding: 0.5em; margin: auto; justify-content: center;">
+                {{ partial "image" (dict "Src" .photo "Alt" .alt "Size" "200x200") }}
+            </div>
+            <div class="col-9"> 
+                <p>{{ .text }} </p>
+                <p> Previous awardees include: {{ .awardees }}. </p>
+                <p> <a href="{{ .apply | safeURL }}" title="{{ .name }}" class="btn-small btn-outline-primary m-2">Apply here</a>
+            </div>
+        </div>    
+    {{ end }}
+
+{{ end }}

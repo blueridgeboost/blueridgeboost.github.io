@@ -13,18 +13,18 @@ price:
   inventory: 5
 - name: "Jan 14, 21, 28; Feb 4"
   price: 135
-  inventory: 5
+  inventory: 4
 weight: "361"
 category: "Session Classes"
 start_date: "2025-01-05"
 end_date: "2025-06-03"
 start_time: "5:30"
 end_time: "6:30"
-page_title: "Robotics with Lego Spike"
+page_title: "Lego Robotics"
 page_subtitle: "Design, Build, and Code a LEGO Bot"
 featured: 0
 ribbon: "New!"
-title: "Robotics with Lego Spike | Blue Ridge Boost"
+title: "Lego Robotics | Blue Ridge Boost"
 section: classes
 day_tags: ["Tuesday"]
 grade_tags: ["4th", "5th"]

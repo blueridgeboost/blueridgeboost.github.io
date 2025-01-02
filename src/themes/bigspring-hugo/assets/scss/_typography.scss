@@ -1,5 +1,5 @@
 html {
-  font-size: 1.5rem;
+  font-size: $font-size;
 }
 
 body {
@@ -13,31 +13,6 @@ p {
   margin-bottom: 1rem;
 }
 
-
-h1 {
-  font-size: 2rem;
-}
-
-h2 {
-  font-size: 1.3rem;
-}
-
-h3 {
-  font-size: 1.25rem;
-}
-
-h4 {
-  font-size: 1.2rem;
-}
-
-h5 {
-  font-size: 1.1rem;
-}
-
-h6 {
-  font-size: 1.1rem;
-}
-
 h1,
 h2,
 h3,
@@ -45,7 +20,8 @@ h4,
 h5,
 h6 {
   font-family: $font-primary;
-  color: $darkest-blue;
+  font-weight: 700;
+  color: $text-dark;
 }
 
 small,
@@ -102,158 +78,4 @@ body.dark {
   h6 {
     color: $dark-text-dark;
   }
-}
-
-.eventdescription {
-  font-size:larger;
-  text-align: center;
-  font-weight: 1000;
-}
-
-.btn-description {
-  font-size:larger;
-  text-align: center;
-  color: $color-primary;
-  font-weight: 1000;
-  padding-top: 5px;
-  margin-bottom: 25px;
-  width: 250px;
-}
-
-.mtgbtnwidth {
-  width: 250px;
-  display: inline-block;
-}
-
-.bigimage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.larger {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: x-large;
-}
-
-.filter-range {
-  background-color: azure;
-  padding-top: 0px;
-  padding-left: 8px;
-  padding-bottom: 0px;
-  margin-left: 25px;
-  text-indent: 0px;
-}
-
-.filter-range p {
-  margin-bottom: 0rem;
-  margin-left: 25px;
-  text-indent: -5px;
-}
-
-
-.filter-box {
-  padding-right: 1.0rem;
-  padding-left: 0.2rem;
-}
-
-input[type=checkbox] {
-  transform: scale(1.5);
-}
-
-.class-cards {
-  padding-top: 0.5rem;
-  margin-bottom: 1rem;
-  margin: 0 auto;
-  width: 100%;
-}
-
-span.level-elite {
-  color: blue;
-}
-
-span.level-elite a {
-    color: blue;
-}
-
-span.level-cadets {
-  color: green;
-}
-
-span.level-cadets a {
-    color: green;
-}
-
-span.level-sculptors {
-  color: blue;
-}
-
-span.level-sculptors a {
-    color: blue;
-}
-
-span.level-sorcerers {
-  color: blue;
-}
-
-span.level-sorcerers a {
-    color: blue;
-}
-
-span.level-architects {
-  color: violet;
-}
-
-span.level-architects a {
-    color: violet;
-}
-
-span.level-forgers {
-  color: green;
-}
-
-span.level-forgers a {
-    color: green;
-}
-
-span.level-maestros {
-  color: violet;
-}
-
-span.level-maestros a {
-    color: violet;
-}
-
-span.level-competition {
-  color: goldenrod;
-}
-
-span.level-competition a {
-    color: goldenrod;
-}
-
-span.level-researchers {
-  color: violet;
-}
-
-span.level-researchers a {
-    color: violet;
-}
-
-span.level-rookies {
-  color: green;
-}
-
-span.level-rookies a {
-    color: green;
-}
-
-div.fullclass {
-  text-align: center;
-  color:darkcyan;
 }

@@ -1,8 +1,103 @@
-# DON'T REMOVE THIS FILE.
-# This file is for render site varibles and plugins
-#
-# The actual configuration files are stored in the `config/_default/` folder.
+######################## default configuration ####################
+baseURL = "https://demo.gethugothemes.com/bigspring/site/"
+title = "Bigspring - Premium SAAS Landing Hugo Theme"
+theme = "bigspring-hugo"
+# Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
+timeZone = "America/New_York"
+# post pagination
+pagination.pagerSize = 6
+# post excerpt
+summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
+# disable language
+disableLanguages = [
+] # example: ["de"] for disable deutsch language. see https://gohugo.io/content-management/multilingual/
+hasCJKLanguage = true # If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content.
 
+########################### Services #############################
+[services]
+[services.googleAnalytics]
+ID = 'G-MEASUREMENT_ID' # see https://gohugo.io/templates/internal/#configure-google-analytics
+
+[services.disqus]
+shortname = 'themefisher-template' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
+
+############################# Modules ############################
+[module]
+[[module.mounts]]
+source = "assets"
+target = "assets"
+
+[[module.mounts]]
+source = "hugo_stats.json"
+target = "assets/watching/hugo_stats.json"
+
+
+############################# Build ##############################
+[build]
+noJSConfigInAssets = false
+useResourceCacheWhen = 'fallback'
+[build.buildStats]
+enable = true
+[[build.cachebusters]]
+source = 'assets/.*\.(js|ts|jsx|tsx)'
+target = '(js|scripts|javascript)'
+[[build.cachebusters]]
+source = 'assets/.*\.(css|sass|scss)$'
+target = '(css|styles|scss|sass)'
+[[build.cachebusters]]
+source = '(postcss|tailwind)\.config\.js'
+target = '(css|styles|scss|sass)'
+[[build.cachebusters]]
+source = 'assets/.*\.(.*)$'
+target = '$1'
+
+############################# Outputs ##############################
+[outputs]
+home = ["HTML", "RSS", "JSON", "WebAppManifest"]
+
+############################# Imaging ############################
+[imaging]
+# See https://github.com/disintegration/imaging
+# Default JPEG or WebP quality setting. Default is 75.
+quality = 90
+resampleFilter = "Lanczos"
+
+############################# Caches ###############################
+[caches]
+[caches.images]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+[caches.assets]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+
+############################# Markup ###############################
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+style = 'monokai' # see https://xyproto.github.io/splash/docs/all.html
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 5
+ordered = true
+
+
+############################ Media types ############################
+[mediaTypes]
+[mediaTypes."application/manifest+json"]
+suffixes = ["webmanifest"]
+
+
+############################ Output Format ###########################
+[outputFormats]
+[outputFormats.WebAppManifest]
+mediaType = "application/manifest+json"
+rel = "manifest"
 
 ######################### site variables ##############################
 # customize your color and font from here.
