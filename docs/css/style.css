@@ -16198,14 +16198,15 @@ html {
 body {
   font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
   font-weight: 400;
-  line-height: 1.75;
+  line-height: 1.35;
   color: #555; }
 
 p {
   margin-bottom: 1rem; }
 
 h1, .h1 {
-  font-size: 2rem; }
+  font-size: 2rem;
+  padding-top: 0.5rem; }
 
 h2, .h2 {
   font-size: 1.3rem; }
@@ -16407,9 +16408,27 @@ body.dark {
   margin-bottom: 25px;
   width: 250px; }
 
+.btnsmallest {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  font-size: 1.0rem; }
+
+.btnsmall {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  font-size: 1.2rem; }
+
 .mtgbtnwidth {
   width: 250px;
   display: inline-block; }
+
+.mtgbtnwidthm {
+  display: inline-block;
+  padding: 0.5em 0.8em; }
 
 .bigimage {
   display: block;
@@ -16432,7 +16451,7 @@ body.dark {
   padding-bottom: 0px;
   margin-left: 25px;
   text-indent: 0px;
-  font-size: 1.2em; }
+  font-size: 1.0em; }
 
 .filter-range p {
   margin-bottom: 0rem;
@@ -16681,7 +16700,6 @@ textarea.form-control {
   white-space: nowrap; }
 
 form label {
-  font-size: 95%;
   font-weight: 500; }
 
 .list-unstyled li {
@@ -16842,7 +16860,7 @@ div.row.alt-light-row {
   width: 100%; }
 
 .newribbon {
-  font-family: fantasy;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   position: absolute;
   top: -22px;
   padding-top: 5px;
@@ -17631,10 +17649,10 @@ body.dark {
   color: #ffffff; }
 
 .card-body {
-  font-size: 0.9rem;
+  font-size: 1.0rem;
   flex: 1 1 auto;
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
-  background-color: #f7f8d4; }
+  background-color: #cfe4f1; }
 
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
@@ -17659,7 +17677,7 @@ body.dark {
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   display: flex;
   justify-content: center;
@@ -17668,8 +17686,6 @@ body {
   width: 100vw; }
 
 form {
-  width: 30vw;
-  min-width: 500px;
   align-self: center;
   box-shadow: 0px 0px 0px 0.5px rgba(50, 50, 93, 0.1), 0px 2px 5px 0px rgba(50, 50, 93, 0.1), 0px 1px 1.5px 0px rgba(0, 0, 0, 0.07);
   border-radius: 7px;
@@ -17680,7 +17696,7 @@ form {
 
 #payment-message {
   color: #697386;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
   padding-top: 12px;
   text-align: center; }
@@ -17696,7 +17712,7 @@ button {
   border-radius: 4px;
   border: 0;
   padding: 12px 16px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
   display: block;
@@ -17723,7 +17739,7 @@ div.fullclass {
 
 .spinner {
   color: #ffffff;
-  font-size: 22px;
+  font-size: 1.2rem;
   text-indent: -99999px;
   margin: 0px auto;
   position: relative;
@@ -17798,6 +17814,9 @@ div.fullclass {
 .card {
   padding-left: 0px;
   padding-right: 100px; }
+
+.mb-5 {
+  margin-bottom: 1rem !important; }
 
 .preloader {
   position: fixed;

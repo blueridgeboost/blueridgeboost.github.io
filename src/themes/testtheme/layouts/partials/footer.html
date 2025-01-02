@@ -1,0 +1,14 @@
+{{- $s := .Site.Params }}
+{{- $c := default .Site.Title .Site.Copyright  }}
+{{- if or .Params.enableMathNotation $s.enableMathNotation }}
+  {{ partialCached "math" . }}
+{{- end }}
+{{- $iconsDir := default "icons/" .Site.Params.iconsDir }}
+{{- $defaultFooterLogo := printf "%s%s" $iconsDir "dmtlogo.png"}}
+<footer class="footer">
+  <div class="footer_inner wrap pale">
+    <img src='https://uvadmt.github.io/icons/dmtlogo.png' class="icon icon_2 transparent" alt="DMT1">
+    <p>{{ $c }}</p>
+    {{- partialCached "top" .}}
+  </div>
+</footer>

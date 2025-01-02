@@ -258,7 +258,6 @@ textarea.form-control {
 }
 
 form label {
-  font-size: 95%;
   font-weight: 500;
   @extend .text-dark;
 }
@@ -470,7 +469,7 @@ div.row.alt-light-row {
 }
 
 .newribbon {
-  font-family:fantasy;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   position: absolute;
   top: -22px;
   padding-top: 5px;

@@ -28,7 +28,7 @@
     weight      = 3
 
 [[main]]
-    name        = "Summer Break"
+    name        = "Summer"
     url         = "summer-camps/"
     parent      = "Camps"
     weight      = 4

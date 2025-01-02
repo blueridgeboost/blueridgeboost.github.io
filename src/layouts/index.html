@@ -6,9 +6,9 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
-        <h1 class="mb-4 pb-2">{{ .title | markdownify }}</h1>
-        <h3 class="mb-4 pb-2">{{ .subtitle | markdownify }}</h3>
-
+        <h1 class="mb-4 pb-2">{{ .title | markdownify }}
+          </h1>
+          {{ .subtitle | markdownify }}
         <div class="mb-5">
             {{ range .special_buttons }}
               {{ if .enable }}
@@ -33,10 +33,21 @@
         </div>
         <div class="mb-5">
           <ul class="list-inline">
+            {{ range .middle_buttons }}
+              {{ if .enable }}
+                <li class="list-inline-item">
+                  <a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-outline-primary m-2 mtgbtnwidthm btnsmaller">{{ .label }}</a>
+                </li>
+              {{end}}
+            {{ end }}
+          </ul>
+        </div>
+        <div class="mb-5">
+          <ul class="list-inline">
             {{ range .bottom_buttons }}
               {{ if .enable }}
                 <li class="list-inline-item">
-                  <a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-outline-primary m-2 mtgbtnwidth">{{ .label }}</a>
+                  <a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-outline-primary m-2 mtgbtnwidthm btnsmallest">{{ .label }}</a>
                 </li>
               {{end}}
             {{ end }}

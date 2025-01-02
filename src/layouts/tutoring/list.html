@@ -88,13 +88,18 @@ We provide both individual one-on-one tutoring and <a href="#group-classes">smal
     <p>
     {{ partial "tutoring-filters.html" . }}
     </p>
-    <div class="class-cards">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3">
-            {{ range sort .Pages "Title" "ASC" }}
-                {{ partial "class-card" . }}
-            {{ end }}
+        <div class="row">
+            <div class="class-cards" >
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3"  style="row-gap: 1rem; display: flex; justify-content: center;">
+                    {{ range sort .Pages "Title" "ASC" }}
+                        {{ if eq .Params.layout "list" }}
+                        {{ else }}
+                            {{ partial "class-card" . }}
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </div>
         </div>
-    </div>
     {{ .Content }}
 </div>
 

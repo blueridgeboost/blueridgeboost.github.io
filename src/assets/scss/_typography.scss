@@ -5,7 +5,7 @@ html {
 body {
   font-family: $font-primary;
   font-weight: 400;
-  line-height: 1.75;
+  line-height: 1.35;
   color: $text-color;
 }
 
@@ -16,6 +16,7 @@ p {
 
 h1 {
   font-size: 2rem;
+  padding-top: 0.5rem;
 }
 
 h2 {
@@ -120,9 +121,30 @@ body.dark {
   width: 250px;
 }
 
+.btnsmallest {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  font-size: 1.0rem;
+}
+
+.btnsmall {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  font-size: 1.2rem;
+}
+
 .mtgbtnwidth {
   width: 250px;
   display: inline-block;
+}
+
+.mtgbtnwidthm {
+  display: inline-block;
+  padding: 0.5em 0.8em;
 }
 
 .bigimage {
@@ -148,7 +170,7 @@ body.dark {
   padding-bottom: 0px;
   margin-left: 25px;
   text-indent: 0px;
-  font-size: 1.2em;
+  font-size: 1.0em;
 }
 
 .filter-range p {
