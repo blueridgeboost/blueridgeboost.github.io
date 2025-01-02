@@ -10,11 +10,11 @@ start_date: "2025-01-13"
 end_date: "2025-06-03"
 start_time: "3:45"
 end_time: "4:30"
-page_title: "Python for Kids"
+page_title: "Python Programming"
 page_subtitle: "Coding for Grades 4 and 5"
 featured: 0
 ribbon: "New!"
-title: "Python for Kids | Blue Ridge Boost"
+title: "Python Programming | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday"]
 grade_tags: ["4th", "5th"]

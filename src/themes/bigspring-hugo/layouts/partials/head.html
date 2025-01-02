@@ -25,16 +25,7 @@
 {{ template "_internal/google_analytics.html" . }}
 
 <!-- google tag manager -->
-{{/*  {{ partialCached "gtm.html" . }}  */}}
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-P7DGRH54');</script>
-    <!-- End Google Tag Manager -->
-
-    <meta name="facebook-domain-verification" content="zct97ytf6qsp98kn8sipiejnluq10z" />
+{{ partialCached "gtm.html" . }}
 
 <!-- matomo analytics -->
 {{ partialCached "matomo-analytics.html" . }}
@@ -47,7 +38,3 @@
 
 <!-- Counter Analytics -->
 {{ partialCached "counter-analytics.html" . }}
-
-<!-- Mailing list -->
-<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/a3e5cd8bfd87915fee9250407/85aa3a4025f1d393ffd933112.js");</script>
-

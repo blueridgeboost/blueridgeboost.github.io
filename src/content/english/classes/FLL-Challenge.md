@@ -20,11 +20,11 @@ start_date: "2025-01-06"
 end_date: "06/03/2025"
 start_time: "5:00"
 end_time: "6:30"
-page_title: "First Lego Challenge"
+page_title: "FIRST Lego Challenge"
 page_subtitle: "Advanced Competition Skills"
 featured: 0
 ribbon: "New!"
-title: "First Lego Challenge | Blue Ridge Boost"
+title: "FIRST Lego Challenge | Blue Ridge Boost"
 section: classes
 day_tags: ["Wednesday"]
 grade_tags: ["5th","6th","7th"]

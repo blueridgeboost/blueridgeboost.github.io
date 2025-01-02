@@ -1,4 +1,8 @@
 ---
+
+type: "home"
+title: "Computer Coding, Robotics, Math, Chess | Blue Ridge Boost"
+
 ####################### Banner #########################
 banner:
   title : "Blue Ridge Boost"

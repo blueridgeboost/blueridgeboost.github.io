@@ -1,0 +1,61 @@
+// Color Variables
+{{ with site.Params.variables }}
+
+$black: {{.black | default "#000"}};
+$white: {{.white | default "#fff"}};
+$light: {{.light | default "#EDF6F5"}};
+$dark: {{.dark | default "#1b2229"}};
+
+$darkest-blue: #003359;
+$dark-blue: #005172;
+$lighter-blue: #8FCAE7;
+$light-blue: #BED6DB;
+$lightest-blue: #EEFFFF;
+
+
+$color-primary: #005172;
+$color-secondary: #90CAE7;
+$text-color: #555;
+$text-dark: #222;
+$text-light: #555;
+$body-bg: #fff;
+$border-color: #ECECEC;
+$dark-body-bg: #1e262c;
+$dark-text-color: #cbcbcb;
+$dark-text-dark: #999;
+$dark-text-light: #ddd;
+$dark-border-color: {{.dark_border_color | default "#ECECEC"}};
+
+$font-family-sans-serif: "Roboto", "Helvetica", "Arial", "sans-serif";
+$font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
+
+// Font Variables
+$font-size: {{.font_size | default "32px"}};
+$font-scale: {{.font_scale | default "1.25"}};
+$font-primary: "Roboto", "Helvetica", "Arial", "sans-serif";
+$font-secondary: "Roboto", "Helvetica", "Arial", "sans-serif";
+$font-icon: '{{.font_icon | default "Font Awesome 6 Free"}}';
+
+// links
+$link-color: $darkest-blue;
+$link-decoration: none;
+$link-hover-decoration: webkit-transform(scale, 1.2);
+
+{{ end }}
+
+@import 'templates/bootstrap';
+@import 'mixins';
+@import 'buttons';
+@import 'typography';
+@import 'common';
+@import 'common-dark';
+@import 'templates/navigation';
+@import 'templates/main';
+@import 'notice';
+@import 'tab';
+@import 'images';
+// @import 'gallery-slider';
+@import 'toc';
+@import 'custom';
+@import 'preloader';
+

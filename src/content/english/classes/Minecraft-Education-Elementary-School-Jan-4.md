@@ -10,7 +10,7 @@ end_date: "2025-01-04"
 start_time: "5:30"
 end_time: "7:30"
 page_title: "Minecraft Education for Elementary School"
-page_subtitle: "January 4"
+page_subtitle: "January 4, 5:30-7:30pm"
 featured: 0
 title: "Minecraft Education for Elementary School | Blue Ridge Boost"
 section: classes

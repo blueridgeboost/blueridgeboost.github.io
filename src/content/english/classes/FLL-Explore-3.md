@@ -10,11 +10,11 @@ start_date: "2025-01-06"
 end_date: "2025-04-30"
 start_time: "3:45"
 end_time: "5:00"
-page_title: "First Lego League Explore"
+page_title: "FIRST Lego League Explore"
 page_subtitle: "Lego Explorers"
 featured: 0
 ribbon: "January"
-title: "First Lego League Explore | Blue Ridge Boost"
+title: "FIRST Lego League Explore | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday"]
 grade_tags: ["1st","2nd", "3rd","4th"]
