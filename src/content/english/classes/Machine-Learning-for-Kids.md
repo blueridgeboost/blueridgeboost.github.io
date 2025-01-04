@@ -2,12 +2,6 @@
 ecwid: 712149309
 product_id: Machine-Learning-for-Kids
 price:
-- name: "Dec 8, 15, 22, 29"
-  price: 155
-  inventory: 0
-- name: "Jan 5, 12, 19, 26"
-  price: 155
-  inventory: 6
 - name: "Feb 2, 9, 16, 23"
   price: 155
   inventory: 6
@@ -21,8 +15,8 @@ weight: "490"
 category: "Session Classes"
 start_date: "2024-12-01"
 end_date: ""
-start_time: "3:30"
-end_time: "5:00"
+start_time: "5:00"
+end_time: "6:30"
 page_title: "Machine Learning for Kids"
 page_subtitle: "Learn How to Teach Machines to Think with Fun, Hands-On Projects!"
 featured: 0
