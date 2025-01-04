@@ -1,22 +1,22 @@
 ---
-ecwid: 712119201
-product_id: Math-Excellence-3-4
+ecwid: 717975025
+product_id: Math-Excellence-1-2
 price: 129
-inventory: 3
+inventory: 0
 payment_link: ""
-weight: ""
+weight: "1"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
-start_time: "5:00"
-end_time: "6:00"
+start_time: "4:00"
+end_time: "5:00"
 page_title: "Math Excellence"
-page_subtitle: "For Third and Fourth Graders"
+page_subtitle: "For First and Second Graders"
 featured: 0
 title: "Math Excellence | Blue Ridge Boost"
 section: classes
 day_tags: ["Thursday"]
-grade_tags: ["3rd", "4th"]
+grade_tags: ["1st", "2nd"]
 subject_tags: ["Math"]
 difficulty: "Math Maestros"
 ---

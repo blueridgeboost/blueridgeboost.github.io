@@ -2,11 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blueridgeboost.com/classes/Math-Excellence-1-2/</loc>
+  </url><url>
     <loc>https://blueridgeboost.com/classes/Calculus-AB-Mastery/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/Python-Fundamentals/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/Problem-Solving/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/Math-Hoppers/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/Math-Leapers/</loc>
   </url><url>
@@ -100,8 +104,6 @@
   </url><url>
     <loc>https://blueridgeboost.com/classes/Deep-Learning-Basics/</loc>
   </url><url>
-    <loc>https://blueridgeboost.com/classes/Minecraft-Education-Elementary-School-Jan-4/</loc>
-  </url><url>
     <loc>https://blueridgeboost.com/</loc>
     <lastmod>2020-08-18T10:07:21+06:00</lastmod>
   </url><url>
@@ -176,6 +178,10 @@
     <loc>https://blueridgeboost.com/classes/math/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/Math-Excellence-3-4/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/Math-Mastery-1-2/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/Math-Mastery-3-4/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/minecraft/</loc>
   </url><url>
