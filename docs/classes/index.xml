@@ -8,6 +8,20 @@
     <language>en-US</language>
     <atom:link href="https://blueridgeboost.com/classes/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>First Lego League Explore | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/FLL-Explore-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/FLL-Explore-1/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Dive into an exciting new season of FIRST LEGO League with the 2024-2025 theme: SUBMERGED! This year’s challenge invites participants to explore the mysteries and wonders of underwater environments while solving real-world challenges related to oceans, lakes, and waterways.&lt;/p&gt;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;Participate in the official First Lego League Explore program&lt;/li&gt;&#xA;&#x9;&lt;li&gt;Work on collaborative projects with peers&lt;/li&gt;&#xA;&#x9;&lt;li&gt;Learn about real-world applications of robotics and engineering&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;p&gt;This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>First Lego League Explore | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/FLL-Explore-on-Saturday/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/FLL-Explore-on-Saturday/</guid>
+      <description>&lt;p&gt;Dive into an exciting new season of &lt;strong&gt;FIRST LEGO League&lt;/strong&gt; with the 2024-2025 theme: &lt;strong&gt;SUBMERGED&lt;/strong&gt;! This year’s challenge invites participants to explore the mysteries and wonders of underwater environments while solving real-world challenges related to oceans, lakes, and waterways.&lt;/p&gt;&lt;ul&gt;&#xA;      &lt;li&gt;Participate in the official First Lego League Explore program&lt;/li&gt;&#xA;      &lt;li&gt;Work on collaborative projects with peers&lt;/li&gt;&#xA;      &lt;li&gt;Learn about real-world applications of robotics and engineering&lt;/li&gt;&#xA;    &lt;/ul&gt;&lt;h2&gt;This class is perfect for budding engineers and curious minds ready to take their first steps into the world of robotics!&lt;/h2&gt;</description>
+    </item>
+    <item>
       <title>Math Excellence | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Math-Excellence-1-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -223,13 +237,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Unity-2D-Games/</guid>
       <description>&lt;p&gt;Explore the exciting world of game design and programming with Unity! These beginner-friendly courses are designed to teach students the fundamentals of game development while building fun and interactive projects. With hands-on lessons and real-world applications, students will learn to create their own games and bring their ideas to life using Unity&#39;s powerful tools.&lt;/p&gt;&lt;hr&gt;&lt;h3&gt;&lt;strong&gt;Unit 1: 2D Beginner: Adventure Game&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;Step into the world of 2D game development by creating an &lt;strong&gt;adventure game&lt;/strong&gt; from scratch! This unit introduces students to Unity&#39;s beginner-friendly tools and workflows, focusing on how to build and design engaging 2D gameplay experiences.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Roblox Studio | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Intro-to-Roblox-Studio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Intro-to-Roblox-Studio/</guid>
-      <description>&lt;p&gt;This class is perfect for students who are new to creating games in Roblox. &lt;/p&gt;&lt;p&gt;We will teach you how to create your first Roblox experience using Roblox Studio. You will use a Baseplate template and a high-quality catapult asset pack to build and organize a data model, customize 3D objects, and organize scripts for proper simulation. We will guide you through testing, publishing, and managing your experience for a global audience, using project templates and asset packs from the Creator Store to simplify the process.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Calculus AB/BC | Blue Ridge Boost</title>

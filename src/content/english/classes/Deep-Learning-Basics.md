@@ -21,8 +21,8 @@ weight: "500"
 category: "Session Classes"
 start_date: "2024-12-01"
 end_date: ""
-start_time: "5:00"
-end_time: "6:30"
+start_time: "3:30"
+end_time: "5:00"
 page_title: "Deep Learning Basics"
 page_subtitle: "Master the Essentials of Deep Learning and Neural Networks with Keras"
 featured: 0
@@ -30,7 +30,7 @@ ribbon: "New!"
 title: "Deep Learning Basics | Blue Ridge Boost"
 section: classes
 day_tags: ["Sunday"]
-grade_tags: ["8th","9th","10th","11th"]
+grade_tags: ["7th", "8th","9th","10th","11th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Syntax Sorcerers"
 ---
