@@ -2,11 +2,8 @@
 ecwid: 712141463
 product_id: Deep-Learning-Basics
 price:
-- name: "Dec 8, 15, 22, 29"
-  price: 195
-  inventory: 0
-- name: "Jan 5, 12, 19, 26"
-  price: 195
+- name: "Jan 12, 19, 26"
+  price: 147
   inventory: 6
 - name: "Feb 2, 9, 16, 23"
   price: 195
