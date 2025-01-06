@@ -4,7 +4,7 @@ product_id: Spike-Prime
 price:
 - name: "Jan 15, 22, 29; Feb 5"
   price: 159
-  inventory: 4
+  inventory: 3
 - name: "Feb 12, 19, 26; March 5"
   price: 159
   inventory: 4
