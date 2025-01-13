@@ -2,7 +2,7 @@
 ecwid: 716374771
 product_id: Chess-Tactics-And-Games-Jan-18
 price: 45
-inventory: 6
+inventory: 5
 weight: "10"
 category: "Single Class"
 start_date: "2025-01-18"
