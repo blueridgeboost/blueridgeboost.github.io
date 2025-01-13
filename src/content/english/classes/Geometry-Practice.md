@@ -4,7 +4,7 @@ product_id: Geometry-Practice
 price:
 - name: "Jan 13, 20, 27"
   price: 115
-  inventory: 4
+  inventory: 3
 - name: "Feb 3, 10, 17, 24"
   price: 155
   inventory: 4
