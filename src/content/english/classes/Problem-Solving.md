@@ -8,14 +8,14 @@ weight: "7"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
-start_time: "10:30"
-end_time: "12:00"
+start_time: "12:30"
+end_time: "2:00"
 page_title: "Problem Solving"
 page_subtitle: "Math Olympiad, and AMC8"
 featured: 0
 title: "Problem Solving | Blue Ridge Boost"
 section: classes
-day_tags: ["Sunday"]
+day_tags: ["Saturday"]
 grade_tags: ["5th", "6th"]
 subject_tags: ["Math"]
 difficulty: "Competition"
