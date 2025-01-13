@@ -1,21 +1,21 @@
 ---
 ecwid: 712122174
 product_id: Math-Leapers
-price: 139
+price: 195
 inventory: 4
 payment_link: ""
 weight: "8"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
-start_time: "2:30"
-end_time: "3:30"
+start_time: "10:30"
+end_time: "12:00"
 page_title: "Math Leapers"
 page_subtitle: "Advanced Kangaroo Challenges"
 featured: 0
 title: "Math Leapers | Blue Ridge Boost"
 section: classes
-day_tags: ["Saturday"]
+day_tags: ["Sunday"]
 grade_tags: ["3rd", "4th"]
 subject_tags: ["Math"]
 difficulty: "Competition"
