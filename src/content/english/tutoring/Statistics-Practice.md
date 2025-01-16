@@ -2,9 +2,6 @@
 ecwid: 696847227
 product_id: Statistics-Practice
 price:
-- name: "Jan 7, 14, 21, 28"
-  price: 175
-  inventory: 4
 - name: "Feb 4, 11, 18, 25"
   price: 175
   inventory: 4

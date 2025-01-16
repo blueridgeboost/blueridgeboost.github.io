@@ -2,9 +2,6 @@
 ecwid: 696833463
 product_id: Calculus-AB-Practice
 price:
-- name: "Jan 9, 16, 23, 30"
-  price: 195
-  inventory: 4
 - name: "Feb 3, 10, 17, 24"
   price: 195
   inventory: 4

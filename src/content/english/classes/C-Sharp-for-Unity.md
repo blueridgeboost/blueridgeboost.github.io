@@ -2,9 +2,6 @@
 ecwid: 712127812
 product_id: C-Sharp-for-Unity
 price:
-- name: "Jan 16, 23, 30; Feb 3"
-  price: 179
-  inventory: 4
 - name: "Feb 10, 17, 24; March 6"
   price: 179
   inventory: 4

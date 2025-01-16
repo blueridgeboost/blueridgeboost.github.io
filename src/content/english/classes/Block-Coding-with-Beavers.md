@@ -2,9 +2,6 @@
 ecwid: 713296284
 product_id: Block-Coding-with-Beavers
 price:
-- name: "Jan 14, 21, 28; Feb 4"
-  price: 135
-  inventory: 6
 - name: "Feb 11, 18, 25; March 4"
   price: 135
   inventory: 6
