@@ -2,9 +2,6 @@
 ecwid: 711888126
 product_id: FLL-Challenge
 price:
-- name: "Jan 15, 22, 29; Feb 5"
-  price: 195
-  inventory: 4
 - name: "Feb 12, 19, 26; March 5"
   price: 195
   inventory: 4

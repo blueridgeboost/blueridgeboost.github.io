@@ -2,7 +2,7 @@
 ecwid: 713300769
 product_id: Banana-Code-Quest
 price:
-- name: "Eight Classes starting January 13"
+- name: "Eight Classes starting February 3"
   price: 275
   inventory: 6
 weight: "350"
