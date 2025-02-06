@@ -14,7 +14,7 @@ price:
 weight: "330"
 category: "Session Classes"
 start_date: "2025-01-06"
-end_date: "06/03/2025"
+end_date: "2025-06-03"
 start_time: "6:30"
 end_time: "8:00"
 page_title: "C# for Unity"

@@ -2,7 +2,7 @@
 ecwid: 717975025
 product_id: Math-Excellence-1-2
 price: 129
-inventory: 0
+inventory: 4
 payment_link: ""
 weight: "1"
 category: "Subscription Classes"

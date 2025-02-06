@@ -3,13 +3,13 @@ ecwid: 711888126
 product_id: FLL-Challenge
 price:
 - name: "Feb 12, 19, 26; March 5"
-  price: 195
+  price: 159
   inventory: 4
 - name: "March 12, 19, 26; April 9"
-  price: 195
+  price: 159
   inventory: 3
 - name: "April 16, 23, 30; May 7"
-  price: 195
+  price: 159
   inventory: 4
 weight: "340"
 category: "Session Classes"

@@ -7,7 +7,7 @@ price:
   inventory: 0
 - name: "Feb 12, 19, 26; March 5"
   price: 159
-  inventory: 4
+  inventory: 3
 - name: "March 12, 19, 26; April 9"
   price: 159
   inventory: 3
@@ -17,7 +17,7 @@ price:
 weight: "339"
 category: "Session Classes"
 start_date: "2025-01-06"
-end_date: "06/03/2025"
+end_date: "2025-06-03"
 start_time: "3:30"
 end_time: "5:00"
 page_title: "FLL Robotics with Spike Prime"

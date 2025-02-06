@@ -2,7 +2,7 @@
 ecwid: 712122171
 product_id: Math-Boost-3-4
 price: 129
-inventory: 1
+inventory: 0
 payment_link: ""
 weight: ""
 category: "Subscription Classes"
