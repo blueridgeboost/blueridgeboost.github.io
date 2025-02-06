@@ -2,13 +2,13 @@
 ecwid: 713300769
 product_id: Banana-Code-Quest
 price:
-- name: "Eight Classes starting February 3"
+- name: "Eight Classes starting March 3"
   price: 275
   inventory: 6
 weight: "350"
 category: "Session Classes"
-start_date: "2025-01-13"
-end_date: "2023-03-03"
+start_date: "2025-03-03"
+end_date: ""
 start_time: "4:30"
 end_time: "5:30"
 page_title: "Code Quest"

@@ -1,14 +1,13 @@
 ---
 ecwid: 712142519
 product_id: Mechanical-Foundations-with-REV
-price:
-- name: "Feb 8, 15; March 1, 8"
-  price: 179
-  inventory: 4
+price: 179
+inventory: 4
+payment_link: ""
 weight: "329"
-category: "Session Classes"
+category: "Subscription Classes"
 start_date: "2025-01-06"
-end_date: "06/03/2025"
+end_date: "2025-06-03"
 start_time: "3:30"
 end_time: "5:00"
 page_title: "Mechanical Foundations with REV DUO"

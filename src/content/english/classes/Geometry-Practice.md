@@ -2,12 +2,6 @@
 ecwid: 696833403
 product_id: Geometry-Practice
 price:
-- name: "Jan 13, 20, 27"
-  price: 115
-  inventory: 3
-- name: "Feb 3, 10, 17, 24"
-  price: 155
-  inventory: 4
 - name: "Mar 3, 19, 17, 24"
   price: 155
   inventory: 4
@@ -20,7 +14,7 @@ price:
 weight: "429"
 category: "Session Classes"
 start_date: "2025-01-06"
-end_date: "06/03/2025"
+end_date: "2025-06-03"
 start_time: "6:00"
 end_time: "7:00"
 page_title: "Geometry"

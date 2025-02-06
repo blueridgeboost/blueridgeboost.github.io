@@ -2,7 +2,7 @@
 ecwid: 712118441
 product_id: Math-Mastery-3-4
 price: 129
-inventory: 0
+inventory: 1
 payment_link: ""
 weight: ""
 category: "Subscription Classes"

@@ -1,6 +1,6 @@
 ---
 ecwid: 701939275
-product_id: Fundamentals-of-Coding-with-SPIKE-Essential-Part-1
+product_id: Fundamentals-of-Coding-with-WeDO
 price:
 - name: "Feb 4, 11, 18, 25"
   price: 135
@@ -15,7 +15,7 @@ end_date: "2025-01-28"
 start_time: "4:30"
 end_time: "5:30"
 page_title: "Lego Robots Jr"
-page_subtitle: "Fundamentals of Coding with SPIKE Essential Part 1/Part 2"
+page_subtitle: "Build and Code WeDO Robots"
 featured: 0
 title: "Lego Robots Jr | Blue Ridge Boost"
 section: classes
@@ -24,8 +24,7 @@ grade_tags: ["1st", "2nd"]
 subject_tags: ["Robotics"]
 difficulty: "Robo Rookies"
 ---
-Join us in February and March to build Lego WeDo robots! 
-<!--
+<p>Join us in February and March to build Lego WeDo robots! </p><p>Material does not repeat in the two sessions.</p><!--
 <p>
 	This four-class sequence introduces the students to the world of robotics and coding. Students will construct Lego models that use motors and lights and create code to bring their creations to life. This class is suitable for students with no previous experience using Lego robots.
 </p>
