@@ -2,7 +2,7 @@
 ecwid: 712118436
 product_id: Advanced-Python-For-Tweens
 price: 135
-inventory: 3
+inventory: 2
 payment_link: ""
 weight: "338"
 category: "Subscription Classes"
