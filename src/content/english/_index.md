@@ -31,14 +31,14 @@ banner:
   - enable : true
     label : "Robotics"
     link : "classes/robotics"
-  - enable : true
+  - enable : false
     label : "Chess"
     link : "classes/chess"
   bottom_buttons:
   - enable : true
     label : "Parents' Night Out"
     link : "parents-night-out/"
-  - enable : true
+  - enable : false
     label : "Minecraft Club"
     link : "minecraft/"
   - enable : true
