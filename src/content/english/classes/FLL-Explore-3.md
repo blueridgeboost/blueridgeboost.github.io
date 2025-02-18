@@ -4,7 +4,7 @@ product_id: FLL-Explore-3
 price: 135
 inventory: 1
 payment_link: ""
-weight: "430"
+weight: "3"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-04-30"
@@ -13,7 +13,6 @@ end_time: "5:00"
 page_title: "FIRST Lego League Explore"
 page_subtitle: "Lego Explorers"
 featured: 0
-ribbon: "January"
 title: "FIRST Lego League Explore | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday"]
