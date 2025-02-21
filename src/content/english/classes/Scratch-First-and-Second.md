@@ -2,13 +2,13 @@
 ecwid: 713298030
 product_id: Scratch-First-and-Second
 price:
-- name: "April 15, 22, 29; May 6"
-  price: 135
-  inventory: 6
 - name: "March 11, 18, 25; April 8"
   price: 135
   inventory: 6
-- name: "Feb 11, 18, 25; March 4"
+- name: "April 15, 22, 29; May 6"
+  price: 135
+  inventory: 6
+- name: "May 13, 20, 27; June 3"
   price: 135
   inventory: 6
 weight: "359"

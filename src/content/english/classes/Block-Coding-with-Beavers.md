@@ -2,19 +2,19 @@
 ecwid: 713296284
 product_id: Block-Coding-with-Beavers
 price:
-- name: "Feb 11, 18, 25; March 4"
-  price: 135
-  inventory: 6
 - name: "March 11, 18, 25; April 8"
   price: 135
   inventory: 6
 - name: "April 15, 22, 29; May 6"
   price: 135
   inventory: 6
+- name: "May 13, 20, 27; June 3"
+  price: 135
+  inventory: 6
 weight: "340"
 category: "Session Classes"
 start_date: ""
-end_date: ""
+end_date: "06-03-2025"
 start_time: "4:30"
 end_time: "5:30"
 page_title: "Block Coding with Beavers"
