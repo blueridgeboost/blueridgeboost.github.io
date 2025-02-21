@@ -1,22 +1,22 @@
 ---
-ecwid: 712122171
-product_id: Math-Boost-3-4
+ecwid: 712118439
+product_id: Math-Boost-1-2
 price: 129
-inventory: 2
+inventory: 4
 payment_link: ""
 weight: ""
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
-start_time: "5:00"
-end_time: "6:00"
+start_time: "4:00"
+end_time: "5:00"
 page_title: "Math Boost"
-page_subtitle: "For Third and Fourth Graders"
+page_subtitle: "For First and Second Graders"
 featured: 0
 title: "Math Boost | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday"]
-grade_tags: ["3rd", "4th"]
+grade_tags: ["1st", "2nd"]
 subject_tags: ["Math"]
 difficulty: "Foundation Forgers"
 ---

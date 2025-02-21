@@ -14,7 +14,6 @@ end_time: "5:30"
 page_title: "Code Quest"
 page_subtitle: "Adventures in Text Programming"
 featured: 0
-ribbon: "January"
 title: "Code Quest | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday"]

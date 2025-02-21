@@ -2,9 +2,6 @@
 ecwid: 701939275
 product_id: Fundamentals-of-Coding-with-WeDO
 price:
-- name: "Feb 4, 11, 18, 25"
-  price: 135
-  inventory: 8
 - name: "March 4, 11, 18, 25"
   price: 135
   inventory: 8

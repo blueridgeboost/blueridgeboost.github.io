@@ -2,28 +2,18 @@
 ecwid: 711888123
 product_id: Spike-Prime
 price:
-- name: "Jan 15, 22, 29; Feb 5"
-  price: 159
-  inventory: 0
-- name: "Feb 12, 19, 26; March 5"
-  price: 159
-  inventory: 3
-- name: "March 12, 19, 26; April 9"
-  price: 159
-  inventory: 3
-- name: "April 16, 23, 30; May 7"
+- name: "2025-03-05"
   price: 159
   inventory: 4
 weight: "339"
 category: "Session Classes"
-start_date: "2025-01-06"
+start_date: "2025-03-05"
 end_date: "2025-06-03"
 start_time: "3:30"
 end_time: "5:00"
 page_title: "FLL Robotics with Spike Prime"
 page_subtitle: "Get ready to compete"
 featured: 0
-ribbon: "New!"
 title: "FLL Robotics with Spike Prime | Blue Ridge Boost"
 section: classes
 day_tags: ["Wednesday"]

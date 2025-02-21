@@ -2,13 +2,10 @@
 ecwid: 713298029
 product_id: Robotics-Lego-Spike-Prime
 price:
-- name: "April 15, 22, 29; May 6"
-  price: 135
-  inventory: 6
 - name: "March 11, 18, 25; April 8"
   price: 135
-  inventory: 5
-- name: "Feb 11, 18, 25; March 4"
+  inventory: 6
+- name: "April 15, 22, 29; May 6"
   price: 135
   inventory: 5
 weight: "361"
