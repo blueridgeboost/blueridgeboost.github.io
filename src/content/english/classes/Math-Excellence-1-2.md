@@ -8,14 +8,14 @@ weight: "1"
 category: "Subscription Classes"
 start_date: ""
 end_date: "2025-06-03"
-start_time: "4:00"
-end_time: "5:00"
+start_time: "3:30"
+end_time: "4:30"
 page_title: "Math Excellence"
 page_subtitle: "For First and Second Graders"
 featured: 0
 title: "Math Excellence | Blue Ridge Boost"
 section: classes
-day_tags: ["Thursday"]
+day_tags: ["Tuesday"]
 grade_tags: ["1st", "2nd"]
 subject_tags: ["Math"]
 difficulty: "Math Maestros"
