@@ -2,21 +2,21 @@
 ecwid: 728980613
 product_id: Science-Olympiad
 price:
-- name: "March 5, 12, 19, 26 (Build a R"
+- name: "May 7, 14, 21, 28 (Tower Building)"
   price: 149
   inventory: 6
 - name: "April 10, 17, 24; May 1 (Build a Barge)"
   price: 149
   inventory: 6
-- name: "May 7, 14, 21, 28 (Tower Building)"
+- name: "March 5, 12, 19, 26 (Build a R"
   price: 149
-  inventory: 6
+  inventory: undefined
 weight: "339"
 category: "Session Classes"
 start_date: "2025-03-05"
 end_date: "2025-06-03"
-start_time: "3:30"
-end_time: "5:00"
+start_time: "3:45"
+end_time: "4:45"
 page_title: "Science Challenges"
 page_subtitle: "Get ready to compete"
 featured: 0
