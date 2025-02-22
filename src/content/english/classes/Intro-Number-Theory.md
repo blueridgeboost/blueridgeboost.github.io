@@ -11,7 +11,7 @@ end_date: "2025-06-03"
 start_time: "10:15"
 end_time: "12:15"
 page_title: "Intro to Number Theory"
-page_subtitle: "undefined"
+page_subtitle: "Competition Prep"
 featured: 0
 title: "Intro to Number Theory | Blue Ridge Boost"
 section: classes
