@@ -2,9 +2,6 @@
 ecwid: 712142637
 product_id: Unity-2D-Games
 price:
-- name: "Feb 8, 15, 22; March 1"
-  price: 195
-  inventory: 5
 - name: "April 12, 19, 26; May 3"
   price: 195
   inventory: 6

@@ -1,12 +1,11 @@
 ---
 ecwid: 711888123
 product_id: Spike-Prime
-price:
-- name: "2025-03-05"
-  price: 159
-  inventory: 4
+price: 159
+inventory: 4
+payment_link: ""
 weight: "339"
-category: "Session Classes"
+category: "Subscription Classes"
 start_date: "2025-03-05"
 end_date: "2025-06-03"
 start_time: "3:30"
