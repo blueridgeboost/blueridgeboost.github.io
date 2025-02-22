@@ -1,10 +1,13 @@
 ---
 ecwid: 711888126
 product_id: FLL-Challenge
-price:weight: "340"
+price: 159
+inventory: 4
+payment_link: ""
+weight: "340"
 category: "Subscription Classes"
-start_date: "2025-01-06"
-end_date: "2025-06-03"
+start_date: "2025-03-12"
+end_date: "2025-05-10"
 start_time: "5:00"
 end_time: "6:30"
 page_title: "FIRST Lego Challenge"

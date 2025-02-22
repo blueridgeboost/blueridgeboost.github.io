@@ -2,9 +2,6 @@
 ecwid: 712127958
 product_id: Vex-Go-Challenges
 price:
-- name: "City Technology Rebuild: Jan 18, 25; Feb 1, 8, 15, 22"
-  price: 295
-  inventory: 0
 - name: "Village Engineering Construction: Mar 1, 8, 15, 29; April 5, 12"
   price: 295
   inventory: 6

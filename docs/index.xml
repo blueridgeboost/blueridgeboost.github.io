@@ -114,13 +114,6 @@
       <description>&lt;p&gt;The &lt;strong&gt;Mechanical Foundations with REV DUO&lt;/strong&gt; course provides participants with the hands-on skills and knowledge needed to design, build, and maintain robotic systems confidently. Through interactive projects and challenges, students will explore the foundational mechanical principles that drive robotics, such as structure, motion, power transmission, and mechanical advantage. Using the &lt;strong&gt;REV DUO building system&lt;/strong&gt;, participants will gain practical experience assembling and testing robotic components while learning to solve real-world engineering challenges.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>C# for Unity | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/C-Sharp-for-Unity/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/C-Sharp-for-Unity/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Unit 1: Introduction to C# Programming and Unity&lt;/strong&gt;&lt;br&gt; Dive into the world of game development with this beginner-friendly unit, perfect for students with no prior programming experience. Learn the fundamentals of &lt;strong&gt;C# programming&lt;/strong&gt; while exploring the basics of the &lt;strong&gt;Unity game engine&lt;/strong&gt;, the industry-standard platform for creating interactive games. By the end of this unit, students will:&lt;/p&gt;&lt;ul&gt; &lt;li&gt;Understand the Unity interface and its core components.&lt;/li&gt; &lt;li&gt;Learn foundational C# concepts such as variables, data types, and basic syntax.&lt;/li&gt; &lt;li&gt;Write simple scripts to bring objects and scenes to life in Unity.&lt;/li&gt; &lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Unit 2: Expanding C# Programming and Unity Skills&lt;/strong&gt;&lt;br&gt; Build on the basics from Unit 1 with more advanced C# programming techniques and Unity concepts. Students will:&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Advanced Python for Tweens | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Advanced-Python-For-Tweens/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -135,11 +128,25 @@
       <description>&lt;p&gt;Prepare to take on the challenges of &lt;strong&gt;FIRST LEGO League&lt;/strong&gt; like a pro! This course is designed to help students build a strong foundation in robotics and engineering, focusing on the critical skills needed to design, build, and optimize a competition-ready robot.&lt;/p&gt;&lt;p&gt;Students will:&lt;/p&gt;&lt;ul&gt; &lt;li&gt;Master the fundamentals of building sturdy and efficient robots tailored for competition.&lt;/li&gt; &lt;li&gt;Learn how to design and attach &lt;strong&gt;modular attachments&lt;/strong&gt; that can be quickly changed to tackle a variety of missions.&lt;/li&gt; &lt;/ul&gt;&lt;p&gt;This course not only teaches essential building and programming techniques but also fosters teamwork, creativity, and critical thinking. By the end, students will be fully equipped to compete with confidence and earn points like champions!&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Science Challenges | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Science-Olympiad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Science-Olympiad/</guid>
+      <description>&lt;h3&gt;4-Class Series: Building a Rube Goldberg Machine&lt;/h3&gt; &lt;p&gt;This engaging 4-class series will guide teams through the process of designing, building, and refining a Rube Goldberg device to create the longest-timed chain reaction. Participants will learn how to incorporate the six simple machines—lever, screw, pulley, wheel and axle, inclined plane, and wedge—into their designs. By the end of the series, teams will be ready to compete in a fun and challenging event that tests their creativity, engineering, and understanding of physics.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Block Coding with Beavers | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Block-Coding-with-Beavers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Block-Coding-with-Beavers/</guid>
       <description>&lt;p&gt;Students learn sequencing, repetition, problem-solving, and conditional logic while developing practical coding skills. The course employs a hands-on, gamified approach that gradually increases in complexity, allowing each child to advance at their own speed. By the end, students can create sophisticated programs, having built a strong foundation in coding and computational thinking.&lt;/p&gt;&lt;p&gt;We start to learn fundamental coding concepts by helping a beaver build a dam! The learning continues with learning to code games in Scratch.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>FIRST Lego Challenge | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/FLL-Challenge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/FLL-Challenge/</guid>
+      <description>&lt;p&gt;Prepare to take on the challenges of &lt;strong&gt;FIRST LEGO League&lt;/strong&gt; like a pro! This course is designed to help students build a strong foundation in robotics and engineering, focusing on the key skills needed to design, build, and optimize a competition-ready robot.&lt;/p&gt;&lt;p&gt;Students will:&lt;/p&gt;&lt;ul&gt; &lt;li&gt;Master the fundamentals of building sturdy and efficient robots tailored for competition.&lt;/li&gt; &lt;li&gt;Learn how to design and attach &lt;strong&gt;modular attachments&lt;/strong&gt; that can be quickly changed to tackle a variety of missions.&lt;/li&gt; &lt;li&gt;Develop strategies for completing missions effectively to maximize points during competitions.&lt;/li&gt; &lt;li&gt;Practice hands-on problem-solving as they refine their robot’s performance for real-world challenges.&lt;/li&gt; &lt;/ul&gt;&lt;p&gt;This course not only teaches essential building and programming techniques but also fosters teamwork, creativity, and critical thinking. By the end, students will be fully equipped to compete with confidence and earn points like champions!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Code Quest | Blue Ridge Boost</title>
@@ -329,13 +336,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/camps/Spring-Break-24-Camp-7-12/</guid>
       <description>&lt;p&gt;Spend your spring break mastering the art of fabrication at &lt;strong&gt;Blue Ridge Boost’s Fabrication Foundations Camp&lt;/strong&gt;! &lt;/p&gt;&lt;p&gt;This course provides students with hands-on experience in fabrication techniques and tools, focusing on creating functional components for robotics. Students will learn to measure, interpret technical drawings, and work with materials like acrylic, aluminum, and 3D-printed plastics. The course includes guided lessons, mini-challenges, and projects to build essential skills in cutting, drilling, filing, and assembling. By the end of the course, students will have created a fully functional chassis, motor mount, and sensor mount, gaining foundational skills for engineering and robotics.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>FIRST Lego Challenge | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/FLL-Challenge/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/FLL-Challenge/</guid>
-      <description>&lt;p&gt;Prepare to take on the challenges of &lt;strong&gt;FIRST LEGO League&lt;/strong&gt; like a pro! This course is designed to help students build a strong foundation in robotics and engineering, focusing on the key skills needed to design, build, and optimize a competition-ready robot.&lt;/p&gt;&lt;p&gt;Students will:&lt;/p&gt;&lt;ul&gt; &lt;li&gt;Master the fundamentals of building sturdy and efficient robots tailored for competition.&lt;/li&gt; &lt;li&gt;Learn how to design and attach &lt;strong&gt;modular attachments&lt;/strong&gt; that can be quickly changed to tackle a variety of missions.&lt;/li&gt; &lt;li&gt;Develop strategies for completing missions effectively to maximize points during competitions.&lt;/li&gt; &lt;li&gt;Practice hands-on problem-solving as they refine their robot’s performance for real-world challenges.&lt;/li&gt; &lt;/ul&gt;&lt;p&gt;This course not only teaches essential building and programming techniques but also fosters teamwork, creativity, and critical thinking. By the end, students will be fully equipped to compete with confidence and earn points like champions!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Frequently Asked Questions</title>

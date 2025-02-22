@@ -11,7 +11,7 @@ end_date: "2025-04-30"
 start_time: "3:45"
 end_time: "5:00"
 page_title: "FIRST Lego League Explore"
-page_subtitle: "Lego Explorers"
+page_subtitle: "24-25 Submerged Season"
 featured: 0
 title: "FIRST Lego League Explore | Blue Ridge Boost"
 section: classes

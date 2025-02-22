@@ -2,9 +2,6 @@
 ecwid: 702296455
 product_id: Block-Coding-with-Minecraft-1
 price:
-- name: "Feb 13, 20, 27; March 6"
-  price: 165
-  inventory: 5
 - name: "March 13, 20, 27; April 10"
   price: 165
   inventory: 6
