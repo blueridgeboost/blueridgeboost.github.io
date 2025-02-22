@@ -2,27 +2,27 @@
 ecwid: 713296284
 product_id: Block-Coding-with-Beavers
 price:
-- name: "March 11, 18, 25; April 8"
+- name: "March 9, 16, 23, 30"
   price: 135
   inventory: 6
-- name: "April 15, 22, 29; May 6"
+- name: "April 13, 20, 27; May 4"
   price: 135
   inventory: 6
-- name: "May 13, 20, 27; June 3"
+- name: "May 11, 18, 25; June 1"
   price: 135
   inventory: 6
 weight: "340"
 category: "Session Classes"
 start_date: ""
 end_date: "06-03-2025"
-start_time: "4:30"
-end_time: "5:30"
+start_time: "3:30"
+end_time: "4:30"
 page_title: "Block Coding with Beavers"
 page_subtitle: "Gamified coding course"
 featured: 0
 title: "Block Coding with Beavers | Blue Ridge Boost"
 section: classes
-day_tags: ["Tuesday"]
+day_tags: ["Sunday"]
 grade_tags: ["1st", "2nd"]
 subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
