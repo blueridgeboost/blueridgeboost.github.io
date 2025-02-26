@@ -38,6 +38,25 @@
   gtag('config', 'AW-16893401439');
 </script>
     <!-- End Google Tag Manager -->
+<!-- Google tag (gtag.js) event - delayed navigation helper -->
+<script>
+    // Helper function to delay opening a URL until a gtag event is sent.
+    // Call it in response to an action that should navigate to a URL.
+    function gtagSendEvent(url) {
+      var callback = function () {
+        if (typeof url === 'string') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'ads_conversion_Add_to_cart_1', {
+        'event_callback': callback,
+        'event_timeout': 2000,
+        // <event_parameters>
+      });
+      return false;
+    }
+  </script>
+  
 
     <meta name="facebook-domain-verification" content="zct97ytf6qsp98kn8sipiejnluq10z" />
 
