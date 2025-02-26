@@ -226,6 +226,25 @@
 </script>
     
 
+<script>
+    
+    
+    function gtagSendEvent(url) {
+      var callback = function () {
+        if (typeof url === 'string') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'ads_conversion_Add_to_cart_1', {
+        'event_callback': callback,
+        'event_timeout': 2000,
+        
+      });
+      return false;
+    }
+  </script>
+  
+
     <meta name="facebook-domain-verification" content="zct97ytf6qsp98kn8sipiejnluq10z" />
 
 
@@ -1054,7 +1073,7 @@ Grades:
                 
                     Mar 3, 19, 17, 24 ($155) 
                 
-                    
+                     <br> Only 3 spaces left! 
             </label> 
          
             <label> 

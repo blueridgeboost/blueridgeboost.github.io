@@ -229,6 +229,25 @@
 </script>
     
 
+<script>
+    
+    
+    function gtagSendEvent(url) {
+      var callback = function () {
+        if (typeof url === 'string') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'ads_conversion_Add_to_cart_1', {
+        'event_callback': callback,
+        'event_timeout': 2000,
+        
+      });
+      return false;
+    }
+  </script>
+  
+
     <meta name="facebook-domain-verification" content="zct97ytf6qsp98kn8sipiejnluq10z" />
 
 
@@ -670,7 +689,7 @@
 					
 
 
-<p><br></p>
+
 <div style="margin:auto; width:90%; border-color:rgb(253, 135, 9); border-width: 3px; border-style: solid; background-color: rgba(240, 164, 58, 0.6); color: rgb(44, 16, 85); padding: 10px; text-align: center; font-size: 1.2rem; font-weight: bold; border-radius: 5px; line-height: 1.0">
   🌞 <a href="/summer-camps/">Summer Camps 2025 &mdash; </a> 🏖️  <br>
   <span style="font-weight: 500; font-size: 1.0rem">
