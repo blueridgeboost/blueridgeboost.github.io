@@ -18,7 +18,7 @@ end_date: "2025-06-03"
 start_time: "3:45"
 end_time: "4:45"
 page_title: "Science Challenges"
-page_subtitle: "Get ready to compete"
+page_subtitle: "Build a Rube Golberg Machine, Tower, Barge"
 featured: 0
 ribbon: "New!"
 title: "Science Challenges | Blue Ridge Boost"
