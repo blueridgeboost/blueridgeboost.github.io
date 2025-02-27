@@ -1,12 +1,11 @@
 ---
 ecwid: 730425111
 product_id: Science-Olympiad-Div-B-Anatomy
-price:
-- name: "2025-03-09"
-  price: 179
-  inventory: 4
+price: 179
+inventory: 4
+payment_link: ""
 weight: "339"
-category: "Session Classes"
+category: "Subscription Classes"
 start_date: "2025-03-09"
 end_date: "2025-06-03"
 start_time: "1:30"
