@@ -2,15 +2,9 @@
 ecwid: 730425111
 product_id: Science-Olympiad-Div-B-Anatomy
 price:
-- name: "March 9, 16, 23, 30 (Hydraulics)"
+- name: "2025-03-09"
   price: 179
-  inventory: 6
-- name: "April 14, 21, 25; May 5 (Origami Glider Relay)"
-  price: 179
-  inventory: 6
-- name: "May 11, 18, 25; June 1 (Propeller Car)"
-  price: 179
-  inventory: 6
+  inventory: 4
 weight: "339"
 category: "Session Classes"
 start_date: "2025-03-09"
