@@ -31,6 +31,9 @@ banner:
   - enable : true
     label : "Robotics"
     link : "classes/robotics"
+  - enable : true
+    label : "Science"
+    link : "classes/science"
   - enable : false
     label : "Chess"
     link : "classes/chess"

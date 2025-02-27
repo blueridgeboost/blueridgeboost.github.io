@@ -127,6 +127,13 @@
       <description>&lt;p&gt;Through interactive challenges, students help twin baby monkeys reunite by solving coding problems, reinforcing their understanding of Python fundamentals and advanced topics. The course covers essential concepts such as sequencing, loops, conditionals, and functions. &lt;/p&gt;&lt;h3&gt;Course Content&lt;/h3&gt;&lt;ul&gt;&#xA;    &lt;li&gt;&lt;strong&gt;&lt;strong&gt;Basics review&lt;/strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Classes:&lt;/strong&gt; Understanding object-oriented programming to create and manage complex data structures.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Input:&lt;/strong&gt; Interacting with users by receiving and processing input data.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;String manipulation:&lt;/strong&gt; Performing operations on text data to modify and analyze it.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Advanced data types:&lt;/strong&gt; Utilizing complex data structures like dictionaries and sets for efficient data management.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;2D lists:&lt;/strong&gt; Working with multi-dimensional arrays to handle grid-based data.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Bubble sort:&lt;/strong&gt; Learning basic sorting algorithms to organize data effectively.&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
+      <title>Anatomy &amp; Physiology | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Science-Olympiad-Div-B-Anatomy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Science-Olympiad-Div-B-Anatomy/</guid>
+      <description>&lt;p&gt;Dive into the fascinating world of human anatomy with this engaging class focused on the &lt;strong&gt;integumentary, muscular, and skeletal systems&lt;/strong&gt;! Students will explore how these three systems work together to protect, support, and move the body. Through interactive lessons, hands-on activities, and real-world examples, participants will:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Integumentary System:&lt;/strong&gt; Learn about the skin, hair, nails, and glands, and discover how they protect the body, regulate temperature, and enable sensory perception.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Muscular System:&lt;/strong&gt; Examine the three types of muscles (skeletal, smooth, and cardiac) and understand how muscle contractions drive movement, posture, and vital bodily functions.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Skeletal System:&lt;/strong&gt; Uncover the structure and function of bones, joints, and cartilage, and see how the skeleton supports the body, protects vital organs, and enables movement.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;By the end of the course, students will gain a deeper understanding of how these systems contribute to overall health and interact to maintain the body’s structure and function. This class is perfect for anyone curious about biology, anatomy, or pursuing a career in healthcare or science!&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>FLL Robotics with Spike Prime | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Spike-Prime/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -138,7 +145,7 @@
       <link>https://blueridgeboost.com/classes/Science-Olympiad-Sunday/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Science-Olympiad-Sunday/</guid>
-      <description>&lt;h3&gt;4-Class Series: Building a Rube Goldberg Machine&lt;/h3&gt; &lt;p&gt;This engaging 4-class series will guide teams through the process of designing, building, and refining a Rube Goldberg device to create the longest-timed chain reaction. Participants will learn how to incorporate the six simple machines—lever, screw, pulley, wheel and axle, inclined plane, and wedge—into their designs. By the end of the series, teams will be ready to compete in a fun and challenging event that tests their creativity, engineering, and understanding of physics.&lt;/p&gt;</description>
+      <description>&lt;h3&gt;4-Class Series: Building a Hydraulic System&lt;/h3&gt; &lt;p&gt;In these hands-on sessions, teams will design and construct a freestanding hydraulic device capable of lifting a 100g weight at least 30 cm and holding it for 30 seconds. Using only the materials provided, students will explore the practical applications of hydraulic systems while working collaboratively to solve this engineering challenge.&lt;/p&gt;&lt;h3&gt;4-Class Series: Origami Glider Relay&lt;/h3&gt; &lt;p&gt;In these hands-on events, teams will construct an origami glider (either a Dihedral Magnus Effect glider or a Tumblewing glider) and navigate it through a relay-style obstacle course for the fastest time. Participants must optimize their design during the building phase to ensure their glider performs well in flight. This session emphasizes creativity, precision, and teamwork.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Science Challenges | Blue Ridge Boost</title>
@@ -306,6 +313,13 @@
       <link>https://blueridgeboost.com/classes/robotics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/robotics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Science Classes | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/science/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/science/</guid>
       <description></description>
     </item>
   </channel>

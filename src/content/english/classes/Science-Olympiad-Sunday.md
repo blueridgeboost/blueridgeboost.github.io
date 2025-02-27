@@ -2,30 +2,30 @@
 ecwid: 730024543
 product_id: Science-Olympiad-Sunday
 price:
-- name: "March 9, 16, 23, 30 (Build a Rube Goldberg Machine)"
+- name: "March 9, 16, 23, 30 (Hydraulics)"
   price: 149
   inventory: 6
-- name: "April 14, 21, 25; May 5 (Build a Barge)"
+- name: "April 14, 21, 25; May 5 (Origami Glider Relay)"
   price: 149
   inventory: 6
-- name: "May 11, 18, 25; June 1 (Tower Building)"
+- name: "May 11, 18, 25; June 1 (Propeller Car)"
   price: 149
   inventory: 6
 weight: "339"
 category: "Session Classes"
 start_date: "2025-03-05"
 end_date: "2025-06-03"
-start_time: "3:45"
-end_time: "4:45"
+start_time: "1:30"
+end_time: "2:30"
 page_title: "Science Challenges"
-page_subtitle: "Get ready to compete"
+page_subtitle: "Hydraulics, Origami Glider Relay, Propeller Car"
 featured: 0
 ribbon: "New!"
 title: "Science Challenges | Blue Ridge Boost"
 section: classes
-day_tags: ["Saturday"]
+day_tags: ["Sunday"]
 grade_tags: ["3rd","4th","5th"]
 subject_tags: ["Science"]
 difficulty: "Robo Rookies"
 ---
-<h3>4-Class Series: Building a Rube Goldberg Machine</h3> <p>This engaging 4-class series will guide teams through the process of designing, building, and refining a Rube Goldberg device to create the longest-timed chain reaction. Participants will learn how to incorporate the six simple machines—lever, screw, pulley, wheel and axle, inclined plane, and wedge—into their designs. By the end of the series, teams will be ready to compete in a fun and challenging event that tests their creativity, engineering, and understanding of physics.</p><h3>4-Class Series: Designing and Building a Cargo-Holding Barge</h3> <p>This 4-class series will challenge teams to apply engineering principles and physics concepts to design and construct a barge capable of holding the greatest amount of cargo without sinking. Participants will explore buoyancy, displacement, and structural design through hands-on activities and a short knowledge assessment. By the end of the series, teams will have the skills and confidence to create a high-performing barge for competition.</p><h3>4-Class Series: Building a Strong and Stable Tower</h3> <p>This 4-class series challenges teams to design and construct a strong, stable tower using coffee stirrers and masking tape. The goal is to build the tallest tower possible while minimizing the number of stirrers used, and ensuring it can support a mass of 300 grams. Participants will explore concepts in structural engineering, stability, and load distribution through hands-on activities and iterative design. By the end of the series, teams will be prepared to compete and create a winning tower design!</p>
+<h3>4-Class Series: Building a Hydraulic System</h3> <p>In these hands-on sessions, teams will design and construct a freestanding hydraulic device capable of lifting a 100g weight at least 30 cm and holding it for 30 seconds. Using only the materials provided, students will explore the practical applications of hydraulic systems while working collaboratively to solve this engineering challenge.</p><h3>4-Class Series: Origami Glider Relay</h3> <p>In these hands-on events, teams will construct an origami glider (either a Dihedral Magnus Effect glider or a Tumblewing glider) and navigate it through a relay-style obstacle course for the fastest time. Participants must optimize their design during the building phase to ensure their glider performs well in flight. This session emphasizes creativity, precision, and teamwork.</p><h3>4-Class Series: Building a Propeller-Powered Car</h3> <p>In these hands-on sessions, teams will design and construct a propeller-powered car using provided materials. The goal is to create a vehicle capable of traveling a specified distance (5–7 meters) as quickly as possible. Participants must optimize their design within the given time and materials, balancing speed, stability, and propulsion. This event emphasizes creativity, engineering principles, and teamwork.</p>
