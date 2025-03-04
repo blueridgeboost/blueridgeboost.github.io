@@ -6,7 +6,7 @@ inventory: 4
 payment_link: ""
 weight: "3"
 category: "Subscription Classes"
-start_date: "2025-03-03"
+start_date: "2025-03-10"
 end_date: "2025-06-02"
 start_time: "3:45"
 end_time: "5:00"
@@ -17,7 +17,7 @@ ribbon: "New!"
 title: "Satellites at Work | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday"]
-grade_tags: ["1st","2nd", "3rd","4th"]
+grade_tags: ["3rd","4th","5th"]
 subject_tags: ["Robotics"]
 difficulty: "Robo Rookies"
 ---
