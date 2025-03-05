@@ -1,15 +1,15 @@
 ---
-ecwid: 728888024
-product_id: WRO-Elementary
+ecwid: 731752249
+product_id: WRO-Elementary-Saturday-4-5
 price: 135
 inventory: 4
 payment_link: ""
 weight: "3"
 category: "Subscription Classes"
-start_date: "2025-04-07"
+start_date: "2025-03-08"
 end_date: "2025-06-02"
-start_time: "3:45"
-end_time: "5:00"
+start_time: "5:00"
+end_time: "6:30"
 page_title: "Satellites at Work"
 page_subtitle: "WRO 2025 RoboMission"
 featured: 0
@@ -17,7 +17,7 @@ ribbon: "New!"
 title: "Satellites at Work | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday"]
-grade_tags: ["3rd","4th"]
+grade_tags: ["4th","5th"]
 subject_tags: ["Robotics"]
 difficulty: "Robo Rookies"
 ---

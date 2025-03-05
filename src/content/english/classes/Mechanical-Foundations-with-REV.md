@@ -2,7 +2,7 @@
 ecwid: 712142519
 product_id: Mechanical-Foundations-with-REV
 price: 179
-inventory: 4
+inventory: 0
 payment_link: ""
 weight: "329"
 category: "Subscription Classes"

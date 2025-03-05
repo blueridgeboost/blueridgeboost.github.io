@@ -4,7 +4,7 @@ product_id: Fundamentals-of-Coding-with-WeDO
 price:
 - name: "March 4, 11, 18, 25"
   price: 135
-  inventory: 8
+  inventory: 7
 weight: "409"
 category: "Session Classes"
 start_date: "2025-01-07"
