@@ -17,7 +17,7 @@ ribbon: "New!"
 title: "Exploring Mars with Robotics | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday"]
-grade_tags: ["5th","6th"]
+grade_tags: ["7th","8th"]
 subject_tags: ["Robotics"]
 difficulty: "Robo Rookies"
 ---
