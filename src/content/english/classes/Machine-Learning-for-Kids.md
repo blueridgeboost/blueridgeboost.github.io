@@ -2,9 +2,6 @@
 ecwid: 712149309
 product_id: Machine-Learning-for-Kids
 price:
-- name: "March 2,9, 16, 23"
-  price: 155
-  inventory: 4
 - name: "April 13, 27; May 4, 18"
   price: 155
   inventory: 3
