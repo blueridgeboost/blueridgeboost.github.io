@@ -2,9 +2,6 @@
 ecwid: 680173016
 product_id: Algebra-Mastery
 price:
-- name: "March 5, 12, 19, 26"
-  price: 155
-  inventory: 4
 - name: "April 9, 16, 23, 30"
   price: 155
   inventory: 4
