@@ -16,7 +16,7 @@ featured: 0
 ribbon: "New!"
 title: "Satellites at Work | Blue Ridge Boost"
 section: classes
-day_tags: ["Monday"]
+day_tags: ["Saturday"]
 grade_tags: ["4th","5th"]
 subject_tags: ["Robotics"]
 difficulty: "Robo Rookies"
