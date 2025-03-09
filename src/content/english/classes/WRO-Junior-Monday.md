@@ -1,12 +1,12 @@
 ---
-ecwid: 728888054
-product_id: WRO-Junior
+ecwid: 732856659
+product_id: WRO-Junior-Monday
 price: 155
 inventory: 4
 payment_link: ""
 weight: "3"
 category: "Subscription Classes"
-start_date: "2025-03-08"
+start_date: "2025-04-08"
 end_date: "2025-06-02"
 start_time: "5:00"
 end_time: "6:30"
@@ -16,8 +16,8 @@ featured: 0
 ribbon: "New!"
 title: "Exploring Mars with Robotics | Blue Ridge Boost"
 section: classes
-day_tags: ["Saturday"]
-grade_tags: ["7th","8th"]
+day_tags: ["Monday"]
+grade_tags: ["5th","6th"]
 subject_tags: ["Robotics"]
 difficulty: "Robo Rookies"
 ---
