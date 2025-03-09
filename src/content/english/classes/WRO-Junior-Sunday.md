@@ -6,7 +6,7 @@ inventory: 4
 payment_link: ""
 weight: "3"
 category: "Subscription Classes"
-start_date: "2025-03-03"
+start_date: "2025-04-06"
 end_date: "2025-06-02"
 start_time: "5:00"
 end_time: "6:30"
