@@ -2,13 +2,10 @@
 ecwid: 728980613
 product_id: Science-Olympiad
 price:
-- name: "March 5, 12, 19, 26 (Build a Rube Goldberg Machine)"
+- name: "May 7, 14, 21, 28 (Tower Building)"
   price: 149
   inventory: 6
 - name: "April 10, 17, 24; May 1 (Build a Barge)"
-  price: 149
-  inventory: 6
-- name: "May 7, 14, 21, 28 (Tower Building)"
   price: 149
   inventory: 6
 weight: "339"

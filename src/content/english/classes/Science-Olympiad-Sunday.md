@@ -2,9 +2,6 @@
 ecwid: 730024543
 product_id: Science-Olympiad-Sunday
 price:
-- name: "March 9, 16, 23, 30 (Hydraulics)"
-  price: 149
-  inventory: 6
 - name: "April 14, 21, 25; May 5 (Origami Glider Relay)"
   price: 149
   inventory: 6
