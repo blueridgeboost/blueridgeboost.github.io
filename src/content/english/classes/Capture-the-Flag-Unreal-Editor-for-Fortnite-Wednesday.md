@@ -12,8 +12,9 @@ end_date: "2025-06-03"
 start_time: "6:00"
 end_time: "7:30"
 page_title: "Build a Capture the Flag in Unreal Editor for Fortnite"
-page_subtitle: "Homework help and extra practice"
+page_subtitle: "From Gamer to Coder"
 featured: 0
+ribbon: "New!"
 title: "Build a Capture the Flag in Unreal Editor for Fortnite | Blue Ridge Boost"
 section: classes
 day_tags: ["Wednesday"]
