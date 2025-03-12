@@ -1,6 +1,6 @@
 ---
 ecwid: 733461918
-product_id: Capture-the-Flag-Unreal-Editor-for-Fortnite-Wednesday
+product_id: Capture-the-Flag-Unreal-Editor-for-Fortnite-6-8
 price:
 - name: "Apr 9, 16, 23, 30; May 8, 15"
   price: 235
@@ -9,8 +9,8 @@ weight: "429"
 category: "Session Classes"
 start_date: "2025-04-09"
 end_date: "2025-06-03"
-start_time: "6:00"
-end_time: "7:30"
+start_time: "6:30"
+end_time: "8:00"
 page_title: "Build a Capture the Flag in Unreal Editor for Fortnite"
 page_subtitle: "From Gamer to Coder"
 featured: 0
@@ -18,7 +18,7 @@ ribbon: "New!"
 title: "Build a Capture the Flag in Unreal Editor for Fortnite | Blue Ridge Boost"
 section: classes
 day_tags: ["Wednesday"]
-grade_tags: ["5th","6th","7th","8th"]
+grade_tags: ["6th","7th","8th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Foundation Forgers"
 ---
