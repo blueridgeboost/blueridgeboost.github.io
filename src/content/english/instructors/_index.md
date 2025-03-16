@@ -61,7 +61,7 @@ instructors:
 
 - enable : true
   name: "Scarlett Morse"
-  role: "Camp Instructor. Coding and Robotics teacher"
+  role: "Camp Instructor<br>Coding and Robotics Teacher"
   photo:  "/images/instructors/nophoto.png"
   bio: "Scarlett lived in Pennsylvania, Virginia, and France, and graduated in 2024 from Albemarle High School, the Math, Engineering, and Science Academy. Scarlett is currently a student at the University of Virginia. Scarlett plans to study math and computer science, environmental science, political science, and French. 
   </p><p>
@@ -69,19 +69,19 @@ instructors:
 
 - enable : true
   name: "Carter Earles"
-  role: "Camp Instructor. Coding and Robotics teacher"
+  role: "Camp Instructor<br>Coding and Robotics Teacher"
   photo:  "/images/instructors/nophoto.png"
   bio: "Carter was born in Charlottesville and lived here his entire life. Carter is a senior at Albemarle High School and attends Center 1 for game design. At Albemarle, Carter plays tenor saxophone in the marching band, jazz band, and sax choir. Carter is also a programmer at Cavelier Robotics and in the Albemarle Key Club. Some of Carter's greatest areas of interest are programming, game development, machine learning, and evolutionary algorithms. Carter also really enjoy math and how it is applied to describe various systems in nature. Carter also loves sharing my passion for STEM through various events such as Girls Geek Day, STEM Night, and now, Blue Ridge Boost!"
 
 - enable : true
   name: "Nathaneal Wattier"
-  role: "Coding and Math teacher"
+  role: "Coding and Math Teacher"
   photo:  "/images/instructors/nophoto.png"
   bio: "Nathaneal is a first-year student at the University of Virginia."
 
 - enable : true
   name: "Dorina Evans"
-  role: "Teaching Assistant for Coding, Robotics, and Math"
+  role: "Teaching Assistant<br>Coding, Robotics, and Math"
   photo:  "/images/instructors/dorina.JPG"
   bio: "Dorina, a rising eighth-grader at St. Anne’s-Belfield School, is passionate about robotics and mathematics, dedicating her time to excelling in these fields.
 </p><p>
