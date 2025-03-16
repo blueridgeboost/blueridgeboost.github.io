@@ -10,17 +10,27 @@ section: "instructors"
 owner:
   enable : true
   name: "Nora Evans"
-  role: "Founder and CEO. Coding, robotics and math teacher."
-  photo: "/images/instructors/evansnora.png"
+  role: "Founder and Chief Executive Officer."
+  photo: "/images/instructors/nora.png"
   bio: "Nora is originally from Bucharest, Romania and earned a B.Sc. in Computer Science at the Polytechnic University of Bucharest. Nora moved to Charlottesville in the Fall of 2004 to pursue graduate school at the University of Virginia, where she earned a Master's in Computer Science in 2006, a Master of Science in Mathematics in 2014, and a Master of Teaching in 2022. Nora [published serveral research articles in computer science](https://scholar.google.com/citations?user=BTsjtmgAAAAJ&hl=en&oi=ao) and has several years of industry experience as a software developer. Nora has extensive teaching experience as Lecturer in the Mathematics Department at UVA, Algebra teacher at Peabody School, math student-teacher at Monticello High School, teaching and research assistant in the Computer Science Department at UVA.
   
   At Blue Ridge Boost, Nora selects and develops class content, coaches the robotics competition teams, teaches advanced math and computer science classes, and tutors students in math and computer science.
   "
 
+  coo:
+  enable : true
+  name: "Lain Bowman"
+  role: "Chief Operating Officer"
+  photo: "/images/instructors/lain.png"
+  bio: "Lain graduated from the University of Virginia in May 2024 with a double major in Computer Science and Physics.
+  
+  At Blue Ridge Boost, Lain selects and develops class content, coaches the robotics competition teams, teaches math and computer science classes, and tutors students in math.
+  "
+
 coordinator:
   enable : true
   name: "Ransford Dunu"
-  role: "Manager. Coding and robotics."
+  role: "Summer Camp Director. Coding and robotics."
   photo: "/images/instructors/ransford.png"
   bio: "Ransford is originally from Koforidua, Ghana. He moved to Charlottesville, Virginia with his parents as an infant. Currently, Ransford is working towards an Associate's Degree in Mechanical Engineering with a minor in Computer Science.
   
@@ -62,11 +72,36 @@ instructors:
   
   Scartlet runs Mathemagicians, a math club at the Northside Library for teens interested in STEM. Scarlett also completed  an internship at a pharmacy in Arzens, France working with a shelf-stocking robot. Whether tutoring peers and neighbors in math or tinkering with 3D printers and welding equipment, Scarlett loves sharing her interest in technology and science with others!"
 
-- enable : false
+- enable : true
   name: "Carter Earles"
-  role: "Camp Instructor, ages 10 to 13. Coding and Robotics teacher."
+  role: "Camp Instructor. Coding and Robotics teacher."
   photo:  "/images/instructors/carter.png"
-  bio: "Carter was born in Charlottesville and lived here his entire life. Carter is a junior at Albemarle High School and attends Center 1 for game design. Center 1 is a small school where career-specific courses are taught. At Albemarle, Carter plays tenor saxophone in the marching band, jazz band, and sax choir. Carter is also a programmer at Cavelier Robotics and am in the Albemarle Key Club. Some of Carter's greatest areas of interest are programming, game development, machine learning, and evolutionary algorithms. Carter also really enjoy math and how it is applied to describe various systems in nature. Carter also loves sharing my passion for STEM through various events such as Girls Geek Day, STEM Night, and now, Blue Ridge Boost!"
+  bio: "Carter was born in Charlottesville and lived here his entire life. Carter is a senior at Albemarle High School and attends Center 1 for game design. At Albemarle, Carter plays tenor saxophone in the marching band, jazz band, and sax choir. Carter is also a programmer at Cavelier Robotics and in the Albemarle Key Club. Some of Carter's greatest areas of interest are programming, game development, machine learning, and evolutionary algorithms. Carter also really enjoy math and how it is applied to describe various systems in nature. Carter also loves sharing my passion for STEM through various events such as Girls Geek Day, STEM Night, and now, Blue Ridge Boost!"
+
+- enable : true
+  name: "Nathaneal Wattier."
+  role: "Camp Instructor. Coding and Math teacher."
+  photo:  "/images/instructors/nophoto.png"
+  bio: "Nathaneal is a first-year student at the University of Virginia."
+
+- enable : true
+  name: "Dorina Evans."
+  role: "Teaching Assistant for Coding, Robotics, and Math"
+  photo:  "/images/instructors/dorina.png"
+  bio: "Dorina is an enthusiastic and talented rising eighth-grade student at St. Anne’s-Belfield School. She is deeply passionate about robotics and mathematics, dedicating much of her time to exploring and excelling in these fields.
+
+At St. Anne’s, Dorina is a proud member of the Next Level FLL Challenge Team, which achieved remarkable success by winning the Virginia Championship in 2025 and representing the school at the prestigious 2025 FIRST Championship.
+
+Beyond her school activities, Dorina is actively involved with Blue Ridge Boost, where she participates in multiple competitive teams. She is a contributing member of the FIRST Tech Challenge Team, which earned a Control Award in 2025 for excellence in programming and robot design. Additionally, she is part of the Aerial Drones Boballions Team, which showcased its skills and qualified for the Northeast Regional Championship.
+
+Dorina’s passion for robotics, math, and teamwork continues to drive her to achieve new milestones and embrace exciting challenges in STEM."
+
+- enable : true
+  name: "David Evans."
+  role: "Curriculum Developer and Teacher"
+  photo:  "/images/instructors/david.png"
+  bio: "David is a Professor of Computer Science at the University of Virginia."
+
 
 - enable : false
   name: "Tracey Dunu"
