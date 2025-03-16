@@ -1,6 +1,6 @@
 ---
-ecwid: 733799005
-product_id: Sumo-Bots
+ecwid: 733797324
+product_id: Sumo-Bots-Saturday
 price:
 - name: "Apr 9, 16, 23, 30; May 8, 15"
   price: 235
@@ -9,16 +9,16 @@ weight: "429"
 category: "Session Classes"
 start_date: "2025-04-09"
 end_date: "2025-06-03"
-start_time: "3:30"
-end_time: "5:00"
+start_time: "2:00"
+end_time: "3:30"
 page_title: "Sumo Bots"
 page_subtitle: "Learn the fundamentals of robotics"
 featured: 0
 ribbon: "New!"
 title: "Sumo Bots | Blue Ridge Boost"
 section: classes
-day_tags: ["Wednesday"]
-grade_tags: ["3rd","4th","5th"]
+day_tags: ["Saturday"]
+grade_tags: ["4th","5th","6th"]
 subject_tags: ["Robotics"]
 difficulty: "Robo Rookies"
 ---

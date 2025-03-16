@@ -180,106 +180,76 @@ difficulty: ""
 	<li>Build problem-solving and critical thinking skills</li>
 	<li>Make new friends who love tech as much as you do!</li>
 </ul>
-<h3>Sphero Daily Activities Overview</h3>
+<h3>Highlights of Camp Topics
+</h3>
 <ul>
 </ul>
-<h3>Scratch Coding Daily Activities Overview</h3>
-<h4><strong>Day 1: Cat and Mouse - Intro to Scratch</strong></h4>
-<p><strong>Objective:</strong>
+<h4><strong>Monday – Sequential Programming</strong></h4>
+<p><strong>Morning Activities:</strong>
 </p>
 <ul>
-	<li>Learn the basics of Scratch, including sprites, motion blocks, variables, loops, and if statements.</li>
-	<li>Create a simple game where a cat chases a mouse and earns points.</li>
+	<li><strong>Challenge:</strong> Learn about robot angles and heading through unplugged and hands-on activities.</li>
+	<li><strong>Session 1:</strong> Solve problems with Sphero Bolt+ programming.</li>
+	<li><strong>Session 2:</strong> Use pseudocode to design and debug programs.</li>
 </ul>
-<p><strong>Key Concepts Covered:</strong>
+<p><strong>Afternoon Activities:</strong>
 </p>
 <ul>
-	<li>Getting familiar with the Scratch interface</li>
-	<li>X and Y coordinates</li>
-	<li>Event blocks (e.g., "When Green Flag Clicked")</li>
-	<li>Motion blocks and forever loops</li>
-	<li>Using variables for scoring</li>
-	<li>Designing sprites and backdrops</li>
+	<li>Learn Scratch fundamentals by creating a game called <em>"Cat and Mouse"</em>. Kids will program a cat sprite to chase a mouse, introducing them to motion blocks, loops, and scoring with variables.</li>
 </ul>
-<p><strong>Activity:</strong><br> Students will create their first game where a cat moves around the screen using arrow keys, chasing a mouse that moves to random positions when touched. Points will be added for each successful chase, and a timer will end the game.
-</p>
 <hr>
-<h4><strong>Day 2: Picture Purrfect - Creative Costumes and Dragging</strong></h4>
-<p><strong>Objective:</strong>
+<h4><strong>Tuesday – Loops and Iterations</strong></h4>
+<p><strong>Morning Activities:</strong>
 </p>
 <ul>
-	<li>Understand costumes, sprite cloning, and draggable objects.</li>
-	<li>Create a dress-up game where students can customize characters, add pets, and switch backdrops.</li>
+	<li><strong>Challenge:</strong> Design costumes and programs for Sphero robots in <em>"All About Me"</em>.</li>
+	<li><strong>Session 1:</strong> Explore loops through unplugged activities.</li>
+	<li><strong>Session 2:</strong> Program loops to create efficient code in <em>"Thrown for a Loop"</em>.</li>
 </ul>
-<p><strong>Key Concepts Covered:</strong>
+<p><strong>Afternoon Activities:</strong>
 </p>
 <ul>
-	<li>Costume design and modifications</li>
-	<li>Cloning and draggable sprites</li>
-	<li>Switching costumes and backdrops</li>
-	<li>Adding interactivity with controls</li>
+	<li>Create Scratch animations and interactive games like <em>"Picture Purrfect"</em> to practice costumes, sprite interaction, and loops.</li>
 </ul>
-<p><strong>Activity:</strong><br> Students will create a dress-up game where they can switch costumes with clicks, add pets and accessories, and drag them around the screen. They’ll also include instructions on how to play, using text sprites.
-</p>
 <hr>
-<h4><strong>Day 3: Bear Fishing - Animation and Gameplay</strong></h4>
-<p><strong>Objective:</strong>
+<h4><strong>Wednesday – Conditionals</strong></h4>
+<p><strong>Morning Activities:</strong>
 </p>
 <ul>
-	<li>Learn basic animation principles by creating a bear with realistic walking animations.</li>
-	<li>Introduce gravity and randomization to enhance gameplay.</li>
+	<li><strong>Challenge:</strong> Create an obstacle course for Sphero robots in <em>"Obstacle BOLT+"</em>.</li>
+	<li><strong>Session 1:</strong> Learn about conditionals through unplugged lessons.</li>
+	<li><strong>Session 2:</strong> Use Sphero to program with conditionals in <em>"On One Condition..."</em>.</li>
 </ul>
-<p><strong>Key Concepts Covered:</strong>
+<p><strong>Afternoon Activities:</strong>
 </p>
 <ul>
-	<li>Using costumes for animations (e.g., walk cycles)</li>
-	<li>Simulating gravity</li>
-	<li>Randomizing sprite positions (falling fish)</li>
-	<li>Scoring and win/lose conditions</li>
+	<li>Build a Scratch game like <em>"Bear Fishing"</em>, introducing conditionals, animations, and game mechanics like gravity and sprite interaction.</li>
 </ul>
-<p><strong>Activity:</strong><br> Students will make a game where a bear walks along the screen, catching randomly falling fish for points. The game ends when the bear catches enough fish or runs out of time.
-</p>
 <hr>
-<h4><strong>Day 4: Tower Climber - Platformer Game Design</strong></h4>
-<p><strong>Objective:</strong>
+<h4><strong>Thursday – Events</strong></h4>
+<p><strong>Morning Activities:</strong>
 </p>
 <ul>
-	<li>Build a platformer game with simulated gravity, solid platforms, and jumping mechanics.</li>
-	<li>Learn how to create multiple levels and a win screen.</li>
+	<li><strong>Challenge:</strong> Design a balloon-popping mechanism for Sphero in <em>"Balloon Pop"</em>.</li>
+	<li><strong>Session 1:</strong> Learn events through unplugged lessons.</li>
+	<li><strong>Session 2:</strong> Use events to trigger actions in programs (<em>"Eventful Programming"</em>).</li>
 </ul>
-<p><strong>Key Concepts Covered:</strong>
+<p><strong>Afternoon Activities:</strong>
 </p>
 <ul>
-	<li>Creating platforms and collision detection</li>
-	<li>Simulating gravity and jumping mechanics</li>
-	<li>Adding level progression and win conditions</li>
-	<li>Implementing walking animations</li>
+	<li>Create a platformer game in Scratch (e.g., <em>"Tower Climber"</em>) and use events to simulate gravity, movement, and win conditions.</li>
 </ul>
-<p><strong>Activity:</strong><br> Students will design a platformer game where their character jumps from platform to platform to reach the goal. They’ll use Pico as a celebratory sprite to mark the win condition and add a “You Win!” screen.
-</p>
 <hr>
-<h4><strong>Day 5: Geometry Scrash - Shapes and Challenges</strong></h4>
-<p><strong>Objective:</strong>
+<h4><strong>Friday – Variables</strong></h4>
+<p><strong>Morning Activities:</strong>
 </p>
 <ul>
-	<li>Reinforce Scratch skills through a math-based game.</li>
-	<li>Learn how to use Scratch to teach geometry concepts like angles, shapes, and measurements.</li>
+	<li><strong>Challenge:</strong> Build and race Sphero chariots in <em>"BOLT+ Chariot Challenge"</em>.</li>
+	<li><strong>Session 1:</strong> Learn variables through unplugged activities.</li>
+	<li><strong>Session 2:</strong> Use variables in Sphero programming, such as in <em>"Fill in the Variable."</em></li>
 </ul>
-<p><strong>Key Concepts Covered:</strong>
+<p><strong>Afternoon Activities:</strong>
 </p>
 <ul>
-	<li>Rotating sprites</li>
-	<li>Using variables to track angles and positions</li>
-	<li>Drawing shapes with the pen tool</li>
-	<li>Creating interactive math challenges</li>
-</ul>
-<p><strong>Activity:</strong><br> Students will create a game where players solve geometry puzzles by controlling a sprite to draw shapes, measure angles, or complete shape challenges.
-</p>
-<hr>
-<h3><strong>Camp Highlights:</strong></h3>
-<ul>
-	<li><strong>Hands-On Projects:</strong> Students will create their own games, animations, and interactive projects.</li>
-	<li><strong>Creativity and Customization:</strong> Kids can customize their sprites, backdrops, and game mechanics.</li>
-	<li><strong>Collaboration:</strong> Students will share their projects and learn from each other’s creativity.</li>
-	<li><strong>Skill Building:</strong> By the end of the camp, students will have a strong foundation in Scratch coding and game design.</li>
+	<li>Create math-based games in Scratch, teaching concepts like angles and shapes using variables and the pen tool.</li>
 </ul>
