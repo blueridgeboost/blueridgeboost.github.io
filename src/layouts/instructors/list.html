@@ -5,7 +5,7 @@
 <section id="instructors" class="section">
 
   <div class="container">
-    <h2>Leadership</h2>
+    <center><h3>Leadership</h3></center>
 
     <div class="row">
       <div class="col">
@@ -35,8 +35,17 @@
       </div>
     </div>
 
+    <div class="row">
+      <div class="col">
+        {{if .Params.troubadour.enable}}
+          {{partial "instructor.html" .Params.troubadour }}
+        {{end}}
+      </div>
+    </div>
 
-  <h2>Instructors</h2>
+    <p></p>
+
+  <center><h2>Instructors</h2></center>
     
     {{ range .Params.instructors }}
       <div class="row">
