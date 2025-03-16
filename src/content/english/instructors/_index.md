@@ -42,11 +42,11 @@ coordinator:
 troubadour:
   enable : true
   name: "David Evans"
-  role: "Troubadour"
+  role: "Teaching Troubadour"
   photo:  "/images/instructors/david.JPG"
   bio: "[David](https://www.cs.virginia.edu/evans/) is a Professor of Computer Science at the University of Virginia where he teaches classes in [Discrete Mathematics](https://uvadmt.github.io), [Computer Science](https://xplorecs.github.io/), [Theory of Computation](https://uvatoc.github.io), and [Artificial Intelligence](https://aipavilion.github.io/) (among [other topics](https://www.cs.virginia.edu/~evans/courses/)) and leads research on [computer security and privacy](https://uvasrg.github.io). He won an All-University Teaching Award and Outstanding Faculty Award from the State Council of Higher Education for Virginia.
   </p><p>
-  At Blue Ridge Boost, David helps instructors develop computing, math, and cryptography courses, teaches classes when he can, moves furniture, and makes sure there is sufficient food for the CEO and Teaching Assistant.
+  At Blue Ridge Boost, David helps instructors develop computing, math, and cryptography courses, teaches classes when he can, moves furniture, and makes sure there is yummy food for the CEO and Teaching Assistant.
   "
 
 instructors:
