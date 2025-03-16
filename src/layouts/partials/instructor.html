@@ -1,20 +1,18 @@
 <div class="container">
     <div class="row">
-        <div class="d-flex">
-            <div class="flex-shrink-1">
-                {{ partial "image" (dict "Src" .photo "Alt" 
-                                    .name "Size" "120x120") }}
-            </div>
-            &nbsp;&nbsp;
-            <div class="flex-grow-1">
-                <h3>{{ .name }}</h3>
-                <p><b>{{ .role | markdownify }}</b></p>
-            </div>
+        <div class="col-12">
+            <h3>{{ .name }}</h3>
+            <p><b>{{ .role | markdownify }}</b></p>
         </div>
     </div>
+    <h4></h4>
     <div class="row">
-      <div class="col">
-        <p> {{ .bio | markdownify }} </p>
-      </div>
+        <div class="col-3">
+            {{ partial "image" (dict "Src" .photo "Alt" 
+                                        .name "Size" "200x300") }}
+        </div>
+        <div class="col-9">
+                <p> {{ .bio | markdownify }} </p>
+        </div>
     </div>
 </div>
