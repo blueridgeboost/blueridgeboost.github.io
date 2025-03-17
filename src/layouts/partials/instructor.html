@@ -1,17 +1,15 @@
 <div class="container">
     <div class="row">
-        <div class="col-12">
-            <h3>{{ .name }}</h3>
-            <p><b>{{ .role | markdownify }}</b></p>
-        </div>
-    </div>
-    <h4></h4>
-    <div class="row">
-        <div class="col-3">
+        <div class="col-4" align="center">
+            <span style='font-size: 1.4rem; font-weight: 700; font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
+            color: #003359;'>{{ .name }}</span><br>
+            <span><b>{{ .role | markdownify }}</b></span>
+            <div style="padding-top: 0.4rem; align='center'">
             {{ partial "image" (dict "Src" .photo "Alt" 
                                         .name "Size" "200x300") }}
+                                    </div>
         </div>
-        <div class="col-9">
+        <div class="col-8">
                 <p> {{ .bio | markdownify }} </p>
         </div>
     </div>
