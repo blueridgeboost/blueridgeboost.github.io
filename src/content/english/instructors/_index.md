@@ -50,7 +50,7 @@ troubadour:
   "
 
 instructors:
-- enable : true
+- enable : false
   name: "Saumya Sharma"
   role: "Coding and robotics teacher"
   photo: "/images/instructors/nophoto.png"
@@ -63,9 +63,9 @@ instructors:
   name: "Scarlett Morse"
   role: "Camp Instructor<br>Coding and Robotics Teacher"
   photo:  "/images/instructors/nophoto.png"
-  bio: "Scarlett lived in Pennsylvania, Virginia, and France, and graduated in 2024 from Albemarle High School, the Math, Engineering, and Science Academy. Scarlett is currently a student at the University of Virginia. Scarlett plans to study math and computer science, environmental science, political science, and French. 
-  </p><p>
-  Scartlet runs Mathemagicians, a math club at the Northside Library for teens interested in STEM. Scarlett also completed  an internship at a pharmacy in Arzens, France working with a shelf-stocking robot. Whether tutoring peers and neighbors in math or tinkering with 3D printers and welding equipment, Scarlett loves sharing her interest in technology and science with others!"
+  bio: "Scarlett is currently a first year student at the University of Virginia, and intends to major in physics and mathematics. Beyond that, she is interested in creative writing, which she would like to minor in along with environmental science. She graduated in 2024 from Albemarle High School’s Math, Engineering, and Science Academy and has a strong passion for STEM. Scarlett founded Mathemagicians, a math club through the JMRL Library, and completed an internship in Arzens, France, where she managed a pharmaceutical robot. Whether tutoring peers, tinkering with 3D printers, or working with robots, Scarlett is dedicated to inspiring others through technology and science.
+  
+  At Blue Ridge Boost, Scarlett is a beloved summer camp instructor and the coach of the Aerial Drones Teams. Under Scarlett's leadership, both Blue Ridge Boost teams qualified for the Regional Championship in May 2025."
 
 - enable : true
   name: "Carter Earles"
