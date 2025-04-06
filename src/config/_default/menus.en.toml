@@ -21,11 +21,11 @@
 #     parent      = "Camps"
 #     weight      = 2
 
-[[main]]
-    name        = "Spring Break"
-    url         = "spring-break-camps/"
-    parent      = "Camps"
-    weight      = 3
+# [[main]]
+#     name        = "Spring Break"
+#     url         = "spring-break-camps/"
+#     parent      = "Camps"
+#     weight      = 3
 
 [[main]]
     name        = "Summer"
