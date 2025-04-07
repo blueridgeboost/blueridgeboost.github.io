@@ -6,7 +6,7 @@ price:
   price: 495
 - name: "With Before and After Care"
   price: 590
-inventory: 3
+inventory: 2
 weight: ""
 category: "Spring Break"
 start_date: "2025-03-31"

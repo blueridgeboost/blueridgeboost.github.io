@@ -2,12 +2,12 @@
 ecwid: 730024543
 product_id: Science-Olympiad-Sunday
 price:
-- name: "April 14, 21, 25; May 5 (Origami Glider Relay)"
+- name: "April 13, 20, 27; May 4 (Origami Glider Relay)"
   price: 149
-  inventory: 6
+  inventory: 5
 - name: "May 11, 18, 25; June 1 (Propeller Car)"
   price: 149
-  inventory: 6
+  inventory: 5
 weight: "339"
 category: "Session Classes"
 start_date: "2025-03-05"

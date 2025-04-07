@@ -2,15 +2,15 @@
 ecwid: 733799005
 product_id: Sumo-Bots-Wednesday
 price:
-- name: "Apr 9, 16, 23, 30; May 8, 15"
+- name: "Apr 23, 30; May 7, 14, 21, 28"
   price: 235
   inventory: 4
 weight: "429"
 category: "Session Classes"
 start_date: "2025-04-09"
 end_date: "2025-06-03"
-start_time: "3:30"
-end_time: "5:00"
+start_time: "5:00"
+end_time: "6:30"
 page_title: "Sumo Bots"
 page_subtitle: "Learn the fundamentals of robotics"
 featured: 0

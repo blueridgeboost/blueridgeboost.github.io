@@ -6,7 +6,7 @@ price:
   price: 355
 - name: "Full-Day"
   price: 495
-inventory: 10
+inventory: 5
 weight: ""
 category: "Spring Break"
 start_date: "2025-03-31"
