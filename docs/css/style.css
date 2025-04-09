@@ -17818,6 +17818,36 @@ div.fullclass {
 .mb-5 {
   margin-bottom: 1rem !important; }
 
+.theme-section {
+  margin-bottom: 2rem; }
+
+.theme-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #f9f9f9; }
+
+.theme-card h3, .theme-card .h3 {
+  margin: 0 0 0.5rem 0; }
+
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem; }
+
+.price-table th, .price-table td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left; }
+
+.price-table th {
+  background-color: #e6f2f8;
+  color: #003359; }
+
+.price-table td {
+  background-color: #eef7fb; }
+
 .preloader {
   position: fixed;
   top: 0;
