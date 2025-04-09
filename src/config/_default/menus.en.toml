@@ -34,6 +34,11 @@
     weight      = 4
 
 [[main]]
+    name        = "Birthday Parties"
+    url         = "celebrations"
+    weight      = 4
+
+[[main]]
     name        = "Events"
     weight      = 3
 
@@ -44,11 +49,11 @@
     weight     = 2
     parent     = "Events"
 
-[[main]]
-    name       = "Minecraft Club"
-    url        = "/minecraft/"
-    weight     = 3
-    parent     = "Events"
+# [[main]]
+#     name       = "Minecraft Club"
+#     url        = "/minecraft/"
+#     weight     = 3
+#     parent     = "Events"
 
 [[main]]
     name       = "Girl Powered Fridays"
@@ -56,11 +61,11 @@
     weight     = 5
     parent     = "Events"
 
-[[main]]
-    name       = "Chess Club"
-    url        = "/chess/"
-    weight     = 4
-    parent     = "Events"
+# [[main]]
+#     name       = "Chess Club"
+#     url        = "/chess/"
+#     weight     = 4
+#     parent     = "Events"
 
 [[main]]
     name       = "Tutoring"
