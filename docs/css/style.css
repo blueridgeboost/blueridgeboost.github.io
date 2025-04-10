@@ -17848,6 +17848,27 @@ div.fullclass {
 .price-table td {
   background-color: #eef7fb; }
 
+.hero-section {
+  background-color: #003359;
+  color: white;
+  padding: 60px 20px;
+  text-align: center; }
+
+.tournament-banner {
+  background-color: #EEFFFF;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px; }
+
+.details-section {
+  margin: 40px 0; }
+
+.event-highlights {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px; }
+
 .preloader {
   position: fixed;
   top: 0;
