@@ -2,9 +2,6 @@
 ecwid: 701939275
 product_id: Lego-Robots-Jr
 price:
-- name: "April 8, 15, 22, 29"
-  price: 135
-  inventory: 3
 - name: "May 6, 13, 20, 27"
   price: 135
   inventory: 3

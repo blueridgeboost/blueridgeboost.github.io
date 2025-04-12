@@ -2,13 +2,16 @@
 ecwid: 696833403
 product_id: Geometry-Practice
 price:
-- name: "Apr 7, 14, 21, 28"
+- name: "April 14, 21, 28; May 6"
   price: 155
   inventory: 4
-- name: "May 6, 13, 20; June 2"
+- name: "April 18; May 6, 13, 20"
   price: 155
   inventory: 4
-weight: "429"
+- name: "May April 21, 28; May 6, 13"
+  price: 155
+  inventory: 4
+weight: "1"
 category: "Group Tutoring"
 start_date: "2025-01-06"
 end_date: "2025-06-03"

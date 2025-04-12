@@ -49,16 +49,28 @@
     weight     = 2
     parent     = "Events"
 
-# [[main]]
-#     name       = "Minecraft Club"
-#     url        = "/minecraft/"
-#     weight     = 3
-#     parent     = "Events"
+[[main]]
+    name       = "Minecraft Club"
+    url        = "/minecraft/"
+    weight     = 3
+    parent     = "Events"
+
+[[main]]
+    name       = "Roblox Club"
+    url        = "/roblox/"
+    weight     = 4
+    parent     = "Events"
+
+[[main]]
+    name       = "Fortnite Club"
+    url        = "/fortnite/"
+    weight     = 5
+    parent     = "Events"
 
 [[main]]
     name       = "Girl Powered Fridays"
     url        = "/girl-powered-fridays/"
-    weight     = 5
+    weight     = 6
     parent     = "Events"
 
 # [[main]]
