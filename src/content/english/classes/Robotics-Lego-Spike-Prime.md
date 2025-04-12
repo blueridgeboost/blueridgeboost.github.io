@@ -4,7 +4,7 @@ product_id: Robotics-Lego-Spike-Prime
 price:
 - name: "April 15, 22, 29; May 6"
   price: 135
-  inventory: 5
+  inventory: 4
 weight: "361"
 category: "Session Classes"
 start_date: "2025-01-05"

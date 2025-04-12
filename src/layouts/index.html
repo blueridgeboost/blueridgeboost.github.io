@@ -8,58 +8,45 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
-        <h1 class="mb-4 pb-2">{{ .title | markdownify }}
-          </h1>
-          {{ .subtitle | markdownify }}
+        <h1 class="mb-4 pb-2">{{ .title | markdownify }}</h1>
+        {{ .subtitle | markdownify }}
+        
+        <!-- Buttons -->
         <div class="mb-5">
-            {{ range .special_buttons }}
-              {{ if .enable }}
-              <center>
-                  <a href="{{ .link | safeURL }}" title="{{ .label }}" class="special-button" style="border: 2px solid darkslateblue; padding: 0.5em 2em; background-color:mediumturquoise;">{{ .label }}</a>
-                </center>
-              {{end}}
+          {{ range .all_buttons }}
+            {{ range $groupKey, $groupContent := . }}
+              {{ if $groupContent.enable }}
+                <!-- Group Header with Link -->
+                <h2>
+                  <a href="{{ $groupContent.group_link | safeURL }}">
+                    {{ $groupContent.group_label }}
+                  </a>
+                </h2>
+
+                <!-- Buttons -->
+                <ul class="list-inline">
+                  {{ range $groupContent.buttons }}
+                    {{ if .enable }}
+                      <li class="list-inline-item">
+                        <a href="{{ .link | safeURL }}" 
+                           title="{{ .label }}" 
+                           class="{{ .style }}">
+                          {{ .label }} 
+                        </a>
+                      </li>
+                    {{ end }}
+                  {{ end }}
+                </ul>
+              {{ end }}
             {{ end }}
-          </ul>
+          {{ end }}
         </div>
 
-        <div class="mb-5">
-          <ul class="list-inline">
-            {{ range .top_buttons }}
-              {{ if .enable }}
-                <li class="list-inline-item">
-                  <a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-outline-primary m-2 mtgbtnwidth">{{ .label }}</a>
-                </li>
-              {{end}}
-            {{ end }}
-          </ul>
-        </div>
-        <div class="mb-5">
-          <ul class="list-inline">
-            {{ range .middle_buttons }}
-              {{ if .enable }}
-                <li class="list-inline-item">
-                  <a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-outline-primary m-2 mtgbtnwidthm btnsmaller">{{ .label }}</a>
-                </li>
-              {{end}}
-            {{ end }}
-          </ul>
-        </div>
-        <div class="mb-5">
-          <ul class="list-inline">
-            {{ range .bottom_buttons }}
-              {{ if .enable }}
-                <li class="list-inline-item">
-                  <a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-outline-primary m-2 mtgbtnwidthm btnsmallest">{{ .label }}</a>
-                </li>
-              {{end}}
-            {{ end }}
-          </ul>
-        </div>
       </div>
     </div>
   </div>
 </section>
-{{ end }}
 <!-- /banner -->
 
+{{ end }}
 {{ end }}
