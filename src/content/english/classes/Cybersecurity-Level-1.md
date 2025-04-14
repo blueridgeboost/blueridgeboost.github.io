@@ -3,40 +3,40 @@ ecwid: 741884186
 product_id: Cybersecurity-Level-1
 price:
 - name: "May 31 & June 2"
-  price: 299
+  price: 199
   inventory: 6
 - name: "June 7 & 8"
-  price: 299
+  price: 199
   inventory: 6
 - name: "June 14 & 15"
-  price: 299
+  price: 199
   inventory: 6
 - name: "June 21 & 22"
-  price: 299
+  price: 199
   inventory: 6
 - name: "June 28 & 29"
-  price: 299
+  price: 199
   inventory: 6
 - name: "July 12 & 13"
-  price: 299
+  price: 199
   inventory: 6
 - name: "July 20 & 21"
-  price: 299
+  price: 199
   inventory: 6
 - name: "July 26 & 27"
-  price: 299
+  price: 199
   inventory: 6
 - name: "August 2 & 3"
-  price: 299
+  price: 199
   inventory: 6
 - name: "August 9 & 10"
-  price: 299
+  price: 199
   inventory: 6
 - name: "August 16 & 17"
-  price: 299
+  price: 199
   inventory: 6
 - name: "August 23 & 24"
-  price: 299
+  price: 199
   inventory: undefined
 weight: ""
 category: "Session Classes"
@@ -46,7 +46,7 @@ start_time: "10:00"
 end_time: "2:00"
 page_title: "Cybersecurity Level 1 Certification"
 page_subtitle: "Preparation and Certification Exam"
-featured: 35
+featured: 39
 title: "Cybersecurity Level 1 Certification | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday", "Sunday"]

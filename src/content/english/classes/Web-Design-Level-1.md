@@ -3,37 +3,37 @@ ecwid: 741894196
 product_id: Web-Design-Level-1
 price:
 - name: "June 2 to 6"
-  price: 325
+  price: 299
   inventory: 6
 - name: "June 9 to 13"
-  price: 325
+  price: 299
   inventory: 6
 - name: "June 16 to 20"
-  price: 325
+  price: 299
   inventory: 6
 - name: "June 23 to 27"
-  price: 325
+  price: 299
   inventory: 6
 - name: "July 7 to 11"
-  price: 325
+  price: 299
   inventory: 6
 - name: "July 14 to 19"
-  price: 325
+  price: 299
   inventory: 6
 - name: "July 21 to 25"
-  price: 325
+  price: 299
   inventory: 6
 - name: "July 28 to August 1"
-  price: 325
+  price: 299
   inventory: 6
 - name: "August 4 to 8"
-  price: 325
+  price: 299
   inventory: 6
 - name: "August 11 to 15"
-  price: 325
+  price: 299
   inventory: 6
 - name: "August 18 to 22"
-  price: 325
+  price: 299
   inventory: 6
 weight: ""
 category: "Session Classes"
@@ -43,7 +43,7 @@ start_time: "5:30"
 end_time: "8:30"
 page_title: "Web Design Level 1 Certification"
 page_subtitle: "Preparation and Certification Exam"
-featured: 34
+featured: 38
 title: "Web Design Level 1 Certification | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
