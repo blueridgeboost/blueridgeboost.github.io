@@ -46,7 +46,7 @@ start_time: "3:00"
 end_time: "7:00"
 page_title: "Cybersecurity Level 2 Certification"
 page_subtitle: "Preparation and Certification Exam"
-featured: 40
+featured: 41
 title: "Cybersecurity Level 2 Certification | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday", "Sunday"]

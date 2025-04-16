@@ -43,11 +43,11 @@ start_time: "5:30"
 end_time: "8:30"
 page_title: "Web Design Level 1 Certification"
 page_subtitle: "Preparation and Certification Exam"
-featured: 38
+featured: 39
 title: "Web Design Level 1 Certification | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
-grade_tags: ["9th","10th","11th","12th"]
+grade_tags: ["7th", "8th", "9th","10th","11th","12th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 ---

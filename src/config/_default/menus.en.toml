@@ -39,6 +39,11 @@
     weight      = 4
 
 [[main]]
+    name        = "WRO"
+    url         = "wro"
+    weight      = 4
+
+[[main]]
     name        = "Events"
     weight      = 3
 
