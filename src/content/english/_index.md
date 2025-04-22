@@ -37,7 +37,7 @@ banner:
 
     - classes_buttons:
         enable: true
-        group_label: "Classes"
+        group_label: "Classes For Ages 6 to 18"
         group_link: "classes/"
         buttons:
           - enable: true
@@ -59,6 +59,14 @@ banner:
           - enable: false
             label: "Chess"
             link: "classes/chess"
+            style: btnsmall
+    - adults_buttons:
+        enable: true
+        group_label: "Classes for Adults"
+        buttons:
+          - enable: true
+            link: "adults"
+            label: "Coding and Robotics Certifications"
             style: btnsmall
 
     - camps_buttons:
@@ -83,7 +91,7 @@ banner:
             link: "summer-camps/rising-7-12/"
             style: btnsmall
           - enable: true
-            label: "Robotics Certifications"
+            label: "Robotics and Coding Certifications"
             link: "quest-for-excellence-camps/"
             style: btnsmall
 
