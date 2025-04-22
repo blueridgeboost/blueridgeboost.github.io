@@ -5,6 +5,12 @@
     weight     = 1
 
 [[main]]
+    name       = "Adult Classes"
+    url        = "/adults/"
+    weight     = 1
+
+
+[[main]]
     name        = "Camps"
     url         = "camps/"
     weight      = 2
