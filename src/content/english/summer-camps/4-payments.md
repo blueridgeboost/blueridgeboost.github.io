@@ -67,11 +67,7 @@ Note: The four monthly payments cannot be combined with any discounts or promoti
 <a href="https://buy.stripe.com/9AQeVz4Jwfe64da3eL">Full-Day (8:30 to 5:00)</a> &nbsp; &nbsp;
 </p>
 
-<p><b>Block by Block: Coding FUNdamentals (July 7 to 11):</b><br>
-&nbsp;&nbsp;
-<a href="https://buy.stripe.com/fZe9Bf2Bo4zs5heaHe">AM</a> &nbsp; &nbsp;
-<a href="https://buy.stripe.com/00g5kZ0tgea210YdTr">Full-Day</a> &nbsp; &nbsp;
-</p>
+<p><b>Block by Block: Coding FUNdamentals (July 7 to 11):</b> Full</p>
 
 <p><b>Scratch Starters (July 14 to 18):</b><br>
 &nbsp;&nbsp;
@@ -135,10 +131,6 @@ Note: The four monthly payments cannot be combined with any discounts or promoti
 <a href="https://buy.stripe.com/5kA3cRfoa3vo3963fd">Full-Day (8:30 to 5:00)</a> &nbsp; &nbsp;
 </p>
 
-<p><b>Game Development with Unreal Editor for Fortnite (June 9 to 13):</b><br>
-&nbsp;&nbsp;
-<a href="https://buy.stripe.com/8wM28N3Fs0jccJGaHG">Afternoon/Evening Only (3:30 to 7:30)</a> &nbsp; &nbsp;
-</p>
 
 <p><b>RePLAY FLL (June 16 to 20):</b><br>
 &nbsp;&nbsp;
@@ -248,11 +240,7 @@ Note: The four monthly payments cannot be combined with any discounts or promoti
 <a href="https://buy.stripe.com/8wMeVzcbY0jc5he6s9">With before and after care</a> &nbsp; &nbsp;
 </p>
 
-<p><b>Develop your First Unity Game (June 9 to 13):</b><br>
-&nbsp;&nbsp;
-<a href="https://buy.stripe.com/28o9Bfek60jcgZWeYG">Camp Only (10:30 to 3:30)</a> &nbsp; &nbsp;
-<a href="https://buy.stripe.com/28ocNrb7U9TM396g2L">Camp Only (12:30 to 5:30)</a> &nbsp; &nbsp;
-<a href="https://buy.stripe.com/00geVzfoac1UgZWcQA">With before and after care</a> &nbsp; &nbsp;
+<p><b>Develop your First Unity Game (June 9 to 13):</b> Full
 </p>
 
 <p><b>Develop your First Unity Game:(June 16 to 20)</b><br>
