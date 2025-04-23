@@ -5,7 +5,7 @@
     weight     = 1
 
 [[main]]
-    name       = "Adult Classes"
+    name       = "Classes for Adult"
     url        = "/adults/"
     weight     = 1
 
