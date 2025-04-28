@@ -26,7 +26,10 @@ banner:
           - enable: true
             label: "World Robot Olympiad Compeition"
             link: "wro/"
-            style: "none"
+            style: "none" 
+
+
+
           - enable: true
             label: "Minecraft Club"
             link: "minecraft/"
