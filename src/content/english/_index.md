@@ -20,20 +20,20 @@ banner:
         group_label: "New at BRB"
         buttons:
           - enable: true
-            label: "Book a Birthday Party!"
+            label: "Birthday Parties"
             link: "celebrations/"
-            style: "none"
+            style: "c-button"
           - enable: true
-            label: "World Robot Olympiad Compeition"
+            label: "World Robot Olympiad"
             link: "wro/"
-            style: "none" 
+            style: "c-button" 
 
 
 
           - enable: true
             label: "Minecraft Club"
             link: "minecraft/"
-            style: "none"
+            style: "c-button"
 
     - top_buttons:
         enable: true
