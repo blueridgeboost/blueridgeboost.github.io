@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Parents&#39; Night Out | Blue Ridge Boost on Robotics - Math - Computer Coding - Chess in Charlottesville </title>
-    <link>https://blueridgeboost.com/parents-night-out/</link>
+    <link>http://localhost:1313/parents-night-out/</link>
     <description>Recent content in Parents&#39; Night Out | Blue Ridge Boost on Robotics - Math - Computer Coding - Chess in Charlottesville </description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="https://blueridgeboost.com/parents-night-out/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/parents-night-out/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

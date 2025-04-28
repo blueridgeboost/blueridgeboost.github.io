@@ -3,7 +3,6 @@
     "tags": [
       "a",
       "b",
-      "base",
       "blockquote",
       "body",
       "br",
@@ -198,6 +197,7 @@
       "navbar-toggler",
       "navigation",
       "newribbon",
+      "none",
       "note",
       "notice",
       "notice-body",

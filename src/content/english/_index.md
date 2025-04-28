@@ -5,7 +5,7 @@ title: "Computer Coding, Robotics, Math, Chess | Blue Ridge Boost"
 ####################### Banner #########################
 banner:
   title: "Blue Ridge Boost"
-  subtitle: "Locally-owned education company specializing in math, robotics, computing, and chess."
+  subtitle: "Charlottesville STEM Education Center"
   all_buttons:
     - special_buttons:
         enable: false
@@ -16,6 +16,21 @@ banner:
             label: "Gift Cards now Available"
             link: "https://store.blueridgeboost.com/products/gift-card"
             style: "none"
+        enable: true
+        group_label: "New at BRB"
+        buttons:
+          - enable: true
+            label: "Book a Birthday Party!"
+            link: "celebrations/"
+            style: "none"
+          - enable: true
+            label: "World Robot Olympiad Compeition"
+            link: "wro/"
+            style: "none"
+          - enable: true
+            label: "Minecraft Club"
+            link: "minecraft/"
+            style: "none"
 
     - top_buttons:
         enable: true
@@ -23,12 +38,12 @@ banner:
         group_link: "#quick-links"
         buttons:
           - enable: true
-            label: "Book a Birthday Party"
-            link: "celebrations/"
+            label: "Classes"
+            link: "classes/"
             style: btnsmall
           - enable: true
-            label: "World Robot Olympiad"
-            link: "wro/"
+            label: "Camps"
+            link: "camps/"
             style: btnsmall
           - enable: true
             label: "Tutoring"
@@ -37,7 +52,7 @@ banner:
 
     - classes_buttons:
         enable: true
-        group_label: "Classes For Ages 6 to 18"
+        group_label: "Classes For Kids and Teens"
         group_link: "classes/"
         buttons:
           - enable: true
@@ -62,7 +77,7 @@ banner:
             style: btnsmall
     - adults_buttons:
         enable: true
-        group_label: "Classes for Adults"
+        group_label: "Adult Classes"
         buttons:
           - enable: true
             link: "adults"
