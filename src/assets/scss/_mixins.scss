@@ -16,6 +16,8 @@
 @mixin tablet {
   @media(max-width:767px) {
     @content;
+    .theme-card {
+    flex: 1 1 100%;}
   }
 }
 
