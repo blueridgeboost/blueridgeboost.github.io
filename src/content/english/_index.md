@@ -6,6 +6,7 @@ title: "Computer Coding, Robotics, Math, Chess | Blue Ridge Boost"
 banner:
   title: "Blue Ridge Boost"
   subtitle: "Charlottesville STEM Education Center"
+  
   all_buttons:
     - special_buttons:
         enable: false
@@ -27,9 +28,6 @@ banner:
             label: "World Robot Olympiad"
             link: "wro/"
             style: "c-button" 
-
-
-
           - enable: true
             label: "Minecraft Club"
             link: "minecraft/"
