@@ -5,7 +5,7 @@ title: "Computer Coding, Robotics, Math, Chess | Blue Ridge Boost"
 ####################### Banner #########################
 banner:
   title: "Blue Ridge Boost"
-  subtitle: "Charlottesville STEM Education Center"
+  subtitle: "Computer Coding ∙ Robotics ∙ Science ∙ Math ∙ Chess"
   
   all_buttons:
     - special_buttons:
