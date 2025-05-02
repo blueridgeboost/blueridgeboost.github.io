@@ -35,7 +35,7 @@ price:
 - name: "August 18 to 22"
   price: 299
   inventory: 6
-weight: ""
+weight: "93"
 category: "Session Classes"
 start_date: ""
 end_date: ""
@@ -43,7 +43,7 @@ start_time: "2:00"
 end_time: "5:00"
 page_title: "Java Level 1 Certification"
 page_subtitle: "Preparation and Certification Exam"
-featured: 38
+featured: 39
 title: "Java Level 1 Certification | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]

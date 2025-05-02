@@ -8,7 +8,7 @@ price:
 - name: "May 11, 18, 25; June 1 (Propeller Car)"
   price: 149
   inventory: 5
-weight: "339"
+weight: "104"
 category: "Session Classes"
 start_date: "2025-03-05"
 end_date: "2025-06-03"

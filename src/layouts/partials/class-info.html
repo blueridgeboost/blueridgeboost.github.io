@@ -14,7 +14,11 @@
 </div>
 {{ end }}
 
-{{.Params.start_time}} &ndash; {{.Params.end_time}}
+{{  if and (not (eq .Params.start_time "")) (not (eq .Params.end_time "")) }}
+    {{.Params.start_time}} &ndash; {{.Params.end_time}}
+{{ else }}
+    Email nora@blueridgeboost.com to schedule a time.
+{{ end }}
 {{ with .Params.day_tags }}
     {{ if eq (len . ) 1 }}
     on 
