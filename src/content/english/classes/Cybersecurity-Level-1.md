@@ -35,7 +35,7 @@ price:
 - name: "August 16 & 17"
   price: 199
   inventory: 6
-weight: ""
+weight: "100"
 category: "Session Classes"
 start_date: ""
 end_date: ""
@@ -43,7 +43,7 @@ start_time: "10:00"
 end_time: "2:00"
 page_title: "Cybersecurity Level 1 Certification"
 page_subtitle: "Preparation and Certification Exam"
-featured: 40
+featured: 41
 title: "Cybersecurity Level 1 Certification | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday", "Sunday"]

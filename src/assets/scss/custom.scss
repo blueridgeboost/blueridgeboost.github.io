@@ -215,10 +215,20 @@ padding-right: 100px;
   border-radius: 8px;
   padding: 1rem;
   margin-bottom: 1rem;
+  margin-left: 10px;
   background-color: #f9f9f9;
+  flex: 1 1 calc(33.333% - 20px);
 }
 .theme-card h3 {
   margin: 0 0 0.5rem 0;
+}
+.theme-card h5 {
+  font-size: smaller;
+  margin: 0 0 0.5rem 0;
+}
+.theme-card h6 {
+  font-size: medium;
+  margin: 0 0 0.2rem 0;
 }
 .price-table {
   width: 100%;

@@ -5,7 +5,7 @@ price:
 - name: "May 7, 14, 21, 28; June 4 - Make Up Day"
   price: 155
   inventory: 4
-weight: "429"
+weight: "101"
 category: "Session Classes"
 start_date: "2025-04-09"
 end_date: "2025-06-03"

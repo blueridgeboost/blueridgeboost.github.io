@@ -35,7 +35,7 @@ price:
 - name: "August 18 to 22"
   price: 299
   inventory: 6
-weight: ""
+weight: "97"
 category: "Session Classes"
 start_date: ""
 end_date: ""
@@ -43,7 +43,7 @@ start_time: "5:30"
 end_time: "8:30"
 page_title: "Web Design Level 1 Certification"
 page_subtitle: "Preparation and Certification Exam"
-featured: 39
+featured: 40
 title: "Web Design Level 1 Certification | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
