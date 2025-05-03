@@ -43,7 +43,7 @@ start_time: "10:00"
 end_time: "2:00"
 page_title: "Cybersecurity Level 1 Certification"
 page_subtitle: "Preparation and Certification Exam"
-featured: 41
+featured: 45
 title: "Cybersecurity Level 1 Certification | Blue Ridge Boost"
 section: classes
 day_tags: ["Saturday", "Sunday"]

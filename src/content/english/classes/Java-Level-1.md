@@ -43,7 +43,7 @@ start_time: "2:00"
 end_time: "5:00"
 page_title: "Java Level 1 Certification"
 page_subtitle: "Preparation and Certification Exam"
-featured: 39
+featured: 43
 title: "Java Level 1 Certification | Blue Ridge Boost"
 section: classes
 day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
