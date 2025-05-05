@@ -35,31 +35,31 @@ layout: single
     <h2>Step 1: Select an Awesome Theme</h2>
     <!--Make this a banner-->
     <div class="row row-cols-3">
-    <div class="theme-card">
-        <h3>Gaming Themes</h3>
-        <!--Subtitle Needed-->
-        <body>Minecraft</body> 
-        <h6>Recommended Ages: 6+</h6>
-        <body>Roblox</body> 
-        <h6>Rec. Ages: 8+</h6>
-        <body>Fortnite</body>
-        <h6>Rec. Ages: 10+</h6>
-        <body>Other Games</body> 
-        <h6>Upon Request</h6>
-    </div>
-    <div class="theme-card">
-        <h3>Robotics Themes</h3>
-        <body>Lego Robotics</body> 
-        <h6>Rec. Ages: 6+</h6>
-        <body>Sphero Bots</body> 
-        <h6>Rec. Ages: 6+</h6>
-        <body>Lego Robotics: Spike Prime</body>
-        <h6>Rec. Ages: 10+</h6>
-        <body>Sumo Bots</body> 
-        <h6>Rec. Ages: 8+</h6>
-        <body>Aerial Drones</body> 
-        <h6>Rec. Ages: 10+</h6>
-    </div>
+        <div class="theme-card">
+            <h3>Gaming Themes</h3>
+            <!--Subtitle Needed-->
+            <body>Minecraft</body> 
+            <h6>Recommended Ages: 6+</h6>
+            <body>Roblox</body> 
+            <h6>Rec. Ages: 8+</h6>
+            <body>Fortnite</body>
+            <h6>Rec. Ages: 10+</h6>
+            <body>Other Games</body> 
+            <h6>Upon Request</h6>
+        </div>
+        <div class="theme-card">
+            <h3>Robotics Themes</h3>
+            <body>Lego Robotics</body> 
+            <h6>Rec. Ages: 6+</h6>
+            <body>Sphero Bots</body> 
+            <h6>Rec. Ages: 6+</h6>
+            <body>Lego Robotics: Spike Prime</body>
+            <h6>Rec. Ages: 10+</h6>
+            <body>Sumo Bots</body> 
+            <h6>Rec. Ages: 8+</h6>
+            <body>Aerial Drones</body> 
+            <h6>Rec. Ages: 10+</h6>
+        </div>
     <!---<div class="theme-card">
         <h3>Combo Party</h3>
         <body>Combine gaming and robotics into one action-packed party!</body>
@@ -85,36 +85,39 @@ layout: single
     <div class="row row-cols-3">
         <div class="theme-card">
             <!--super charged, gamer, pro, champion, vip-->
-                <h4>Level-Up Party Package (+$175)</h4>
+                <h4>Level-Up Party Package (+$195)</h4>
                 <ul>
                     <li>Themed Decorations</li>
                     <li>Birthday Cake</li>
+                    <li>Domino's Pizza</li>
                     <li>Fruit Juice</li>
-                    <li>Mini gaming/robotics tournament</li>
+                    <li>Plates, Cups, Napkins, Cutlery</li>
+                    <li>Mini Gaming/Robotics tournament</li>
                 </ul>
         </div>
         <div class="theme-card">
-                <h4>Power-Up Party Package (+$285)</h4>
+                <h4>Power-Up Party Package (+$295)</h4>
                 <ul>
                     <li>Themed Decorations</li>
                     <li>Balloons</li>
                     <li>Birthday Cake</li>
-                    <li>3 X-Large Pizzas</li>
+                    <li>Papa John's Pizza</li>
                     <li>Fruit Juice</li>
+                    <li>Plates, Cups, Napkins, Cutlery</li>
                     <li>Mini Gaming/Robotics Tournament</li>
                     <li>16 Goodie Bags</li>
                 </ul>
         </div>
         <div class="theme-card">
-                <h4> Super-Star Ultimate Party Package (+$475)</h4>
+                <h4> Super-Star Ultimate Party Package (+$495)</h4>
                 <ul>
                     <li>Themed Decorations</li>
                     <li>Balloons</li>
                     <li>Themed Birthday Cake</li>
-                    <li>5 X-Large Pizzas</li>
-                    <li>Fruit Juice</li>
-                    <li>Soda</li>
-                    <li>Fruit Platter<li>
+                    <li>Christian's Pizza</li>
+                    <li>Organic Fruit Juice</li>
+                    <li>Organic Fruit Platter<li>
+                    <li>Plates, Cups, Napkins, Cutlery</li>
                     <li>Mini Gaming/Robotics Tournament</li>
                     <li>16 Goodie Bags</li>
                     <li>Personalized Digital Invitation</li>
@@ -122,12 +125,10 @@ layout: single
                 </ul>
         </div>
     </div>
-    <body>Need more pizza? No problem! Add extra pizzas for just $15 each</body>
     <div class="container section">
     <p><h3>Step 3: Get the party started!</h3></p>
-<h5>Email <a href="mailto:nora@blueridgeboost.com">nora@blueridgeboost.com</a> to book your party</h5>
-<body>or with any questions!</body>
-<body>See you at the party!</body>
-</div>
+    <h5>Email <a href="mailto:nora@blueridgeboost.com">nora@blueridgeboost.com</a> to book your party!</h5>
+    <p>See you at the party!</p>
+    </div>
 </div>
 
