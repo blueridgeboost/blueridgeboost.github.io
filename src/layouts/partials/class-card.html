@@ -21,6 +21,13 @@
         {{ end }}
     </div>
     <div class="card-body">
+        <div class="class-card-image">
+        {{ if .Params.image }}
+            <img src="{{ .Params.image }}" alt="{{ .Params.title }}" class="img-fluid" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px;">
+        {{ else }}
+            <img src="images/code.png" alt="No image available" class="img-fluid" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px;">
+        {{ end }}
+    </div>
         {{ partial "class-info.html" . }}
     </div>
     <div class="card-footer">
