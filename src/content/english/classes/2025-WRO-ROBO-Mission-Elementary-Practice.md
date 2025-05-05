@@ -1,6 +1,7 @@
 ---
 ecwid: 741774037
 product_id: 2025-WRO-ROBO-Mission-Elementary-Practice
+product_image: /amongus.jpg
 price: 199
 inventory: 50
 weight: ""

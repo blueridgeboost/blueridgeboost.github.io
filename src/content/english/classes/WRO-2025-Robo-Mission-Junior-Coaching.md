@@ -1,6 +1,7 @@
 ---
 ecwid: 741759974
 product_id: WRO-2025-Robo-Mission-Junior-Coaching
+product_image: /wrotable.jpg
 price: 249
 inventory: 20
 payment_link: ""

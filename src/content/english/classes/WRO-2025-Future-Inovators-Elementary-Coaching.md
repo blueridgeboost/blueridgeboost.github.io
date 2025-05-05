@@ -1,6 +1,7 @@
 ---
 ecwid: 747682356
 product_id: WRO-2025-Future-Inovators-Elementary-Coaching
+product_image: /build.jpg
 price: 199
 inventory: 100
 payment_link: ""

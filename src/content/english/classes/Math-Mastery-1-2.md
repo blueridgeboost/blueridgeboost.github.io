@@ -1,6 +1,7 @@
 ---
 ecwid: 712118440
 product_id: Math-Mastery-1-2
+product_image: /math.png
 price: 129
 inventory: 3
 payment_link: ""

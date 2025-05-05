@@ -1,6 +1,7 @@
 ---
 ecwid: 730024543
 product_id: Science-Olympiad-Sunday
+product_image: /supplies.jpg
 price:
 - name: "April 13, 20, 27; May 4 (Origami Glider Relay)"
   price: 149

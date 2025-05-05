@@ -1,6 +1,7 @@
 ---
 ecwid: 741774040
 product_id: 2025-WRO-ROBO-Sports-Practice
+product_image: /robosports.png
 price: 299
 inventory: 50
 weight: ""

@@ -1,6 +1,7 @@
 ---
 ecwid: 742445867
 product_id: Scratch-Homeschoolers
+product_image: /homeschool.png
 price:
 - name: "April 28; May 5, 12, 19"
   price: 135

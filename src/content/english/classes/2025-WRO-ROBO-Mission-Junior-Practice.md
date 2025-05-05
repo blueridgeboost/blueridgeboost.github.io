@@ -1,6 +1,7 @@
 ---
 ecwid: 747745363
 product_id: 2025-WRO-ROBO-Mission-Junior-Practice
+product_image: /wrotable.jpg
 price: 199
 inventory: 50
 weight: ""
