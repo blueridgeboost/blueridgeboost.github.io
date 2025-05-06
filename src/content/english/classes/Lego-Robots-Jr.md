@@ -1,7 +1,7 @@
 ---
 ecwid: 701939275
 product_id: Lego-Robots-Jr
-product_image: /indi.jpg
+product_image: /indi.jpg 
 price:
 - name: "May 6, 13, 20, 27"
   price: 135

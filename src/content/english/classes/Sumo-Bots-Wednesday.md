@@ -1,7 +1,7 @@
 ---
 ecwid: 733799005
 product_id: Sumo-Bots-Wednesday
-product_image: /sumo.png
+product_image: /sumo.png 
 price:
 - name: "May 7, 14, 21, 28; June 4 - Make Up Day"
   price: 155

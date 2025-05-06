@@ -1,7 +1,7 @@
 ---
 ecwid: 742816293
 product_id: Java-Level-1
-product_image: /java.png
+product_image: /java.png 
 price:
 - name: "June 2 to 6"
   price: 299
