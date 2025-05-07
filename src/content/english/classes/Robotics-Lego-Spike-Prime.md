@@ -1,6 +1,7 @@
 ---
 ecwid: 713298029
 product_id: Robotics-Lego-Spike-Prime
+product_image: /legobots.jpg 
 price:
 - name: "April 15, 22, 29; May 6"
   price: 135

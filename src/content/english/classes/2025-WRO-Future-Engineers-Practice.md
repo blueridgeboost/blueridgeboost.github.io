@@ -1,6 +1,7 @@
 ---
 ecwid: 741758993
 product_id: 2025-WRO-Future-Engineers-Practice
+product_image: /practicespace.jpg 
 price: 299
 inventory: 50
 weight: ""

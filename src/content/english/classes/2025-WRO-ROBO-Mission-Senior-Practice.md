@@ -1,6 +1,7 @@
 ---
 ecwid: 747745364
 product_id: 2025-WRO-ROBO-Mission-Senior-Practice
+product_image: /marssenior.jpg 
 price: 199
 inventory: 50
 weight: ""

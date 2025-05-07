@@ -1,6 +1,7 @@
 ---
 ecwid: 733461918
 product_id: Capture-the-Flag-Unreal-Editor-for-Fortnite-6-8
+product_image: /fortnite_game_design.png 
 price:
 - name: "Apr 23, 30; May 7, 14, 21, 28"
   price: 235
