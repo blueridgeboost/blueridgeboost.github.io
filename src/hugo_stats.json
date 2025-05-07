@@ -3,6 +3,7 @@
     "tags": [
       "a",
       "b",
+      "base",
       "blockquote",
       "body",
       "br",
@@ -83,6 +84,7 @@
       "card-body",
       "card-footer",
       "card-header",
+      "card-img-top",
       "card-subtitle",
       "card-title",
       "carousel",

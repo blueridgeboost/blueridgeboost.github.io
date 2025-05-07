@@ -128,6 +128,7 @@ banner:
             label: "Fortnite Club"
             link: "fortnite/"
             style: btnsmallest
+            
     - bottom_buttons:
         enable: true
         group_label: "Events"
