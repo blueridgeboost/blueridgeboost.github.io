@@ -3,7 +3,6 @@
     "tags": [
       "a",
       "b",
-      "base",
       "blockquote",
       "body",
       "br",
@@ -96,7 +95,6 @@
       "carousel-inner",
       "carousel-item",
       "check-mark",
-      "class-card-image",
       "class-cards",
       "clear",
       "col",
@@ -167,7 +165,6 @@
       "hero-section",
       "highlight",
       "img",
-      "img-fluid",
       "indicates-required",
       "info",
       "input-group",
