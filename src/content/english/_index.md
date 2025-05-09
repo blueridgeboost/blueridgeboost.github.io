@@ -53,7 +53,7 @@ banner:
 
     - classes_buttons:
         enable: true
-        group_label: "Classes For Kids and Teens"
+        group_label: "Classes"
         group_link: "classes/"
         buttons:
           - enable: true

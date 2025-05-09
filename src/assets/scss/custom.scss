@@ -19,6 +19,37 @@
   margin-bottom: var(--bs-card-title-spacer-y);
   color: var(--bs-card-title-color); }
 
+.column {
+    float: left;
+    width: 33.33%;
+    margin-inline: 10px;
+    display: block;
+    margin: 5px;
+    //padding: 1rem;
+    //margin-bottom: 1rem;
+    //margin-left: 10px;
+    display: inline-flexbox;
+  }
+
+.left {
+    width: 25%;
+
+  }
+.right {
+    width: 15%;
+    margin-left: 5px;
+
+  }
+.middle {
+    width: 60%;
+
+  }
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 .learn-list {
 list-style-type: "🔔";

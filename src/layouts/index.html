@@ -19,9 +19,41 @@
 <section class="banner">
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
-        <h1 class="mb-4 pb-2">{{ .title | markdownify }}</h1>
-        {{ .subtitle | markdownify }}
+      <h1 class="mb-4 pb-2">{{ .title | markdownify }}</h1>
+      {{ .subtitle | markdownify }}
+    </div>
+      <div class="column left">
+          {{ range .all_buttons }}
+            {{ range $groupKey, $groupContent := . }}
+            {{ if eq $groupContent.group_label "Classes" }}
+                <!-- Group Header with Link -->
+                <h4>
+                  <a href="{{ $groupContent.group_link | safeURL }}">
+                    {{ $groupContent.group_label }}
+                  </a>
+                </h4>
+
+                <!-- Buttons -->
+                <ul class="list-inline">
+                  {{ range $groupContent.buttons }}
+                    {{ if .enable }}
+                      <li class="list-inline-item">
+                        <a href="{{ .link | safeURL }}" 
+                           title="{{ .label }}" 
+                           class="{{ .style }}">
+                          {{ .label }} 
+                        </a>
+                      </li>
+                    {{ end }}
+                  {{ end }}
+                </ul>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        </div>
+
+      <div class="column middle">
+        
         <script>
           $(document).ready(function () {
             $('#carouselExampleIndicators').carousel();
@@ -64,18 +96,18 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-        </div>
-        <!-- Buttons -->
-        <div class="mb-5">
+          </div>
+          </div>
+          <div class = "column right">
           {{ range .all_buttons }}
             {{ range $groupKey, $groupContent := . }}
-              {{ if $groupContent.enable }}
+            {{ if eq $groupContent.group_label "New at BRB" }}
                 <!-- Group Header with Link -->
-                <h2>
+                <h4>
                   <a href="{{ $groupContent.group_link | safeURL }}">
                     {{ $groupContent.group_label }}
                   </a>
-                </h2>
+                </h4>
 
                 <!-- Buttons -->
                 <ul class="list-inline">
@@ -96,9 +128,38 @@
           {{ end }}
         </div>
 
-      </div>
-    </div>
-  </div>
+        <!-- Buttons -->
+        <div class="mb-5">
+          {{ range .all_buttons }}
+            {{ range $groupKey, $groupContent := . }}
+              {{ if $groupContent.enable }}
+                <!-- Group Header with Link -->
+                <h4>
+                  <a href="{{ $groupContent.group_link | safeURL }}">
+                    {{ $groupContent.group_label }}
+                  </a>
+                </h4>
+
+                <!-- Buttons -->
+                <ul class="list-inline">
+                  {{ range $groupContent.buttons }}
+                    {{ if .enable }}
+                      <li class="list-inline-item">
+                        <a href="{{ .link | safeURL }}" 
+                           title="{{ .label }}" 
+                           class="{{ .style }}">
+                          {{ .label }} 
+                        </a>
+                      </li>
+                    {{ end }}
+                  {{ end }}
+                </ul>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        </div>
+
+ 
 </section>
 <!-- /banner -->
 
