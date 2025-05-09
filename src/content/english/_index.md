@@ -6,6 +6,7 @@ title: "Computer Coding, Robotics, Math, Chess | Blue Ridge Boost"
 banner:
   title: "Blue Ridge Boost"
   subtitle: "Computer Coding ∙ Robotics ∙ Science ∙ Math ∙ Chess"
+  #subtitle: "Education Center"
   
   all_buttons:
     - special_buttons:
