@@ -45,11 +45,15 @@ banner:
             style: btnsmall
           - enable: true
             label: "Camps"
-            link: "camps/"
+            link: "summer-camps/"
             style: btnsmall
           - enable: true
             label: "Tutoring"
             link: "tutoring/"
+            style: btnsmall
+          - enable: true
+            label: "Certifications"
+            link: "certifications/"
             style: btnsmall
 
     - classes_buttons:
