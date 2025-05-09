@@ -60,7 +60,6 @@
       "ul"
     ],
     "classes": [
-      ".h2",
       "REQ_CSS",
       "active",
       "align-items-center",
@@ -69,6 +68,7 @@
       "bg-light",
       "bg-transparent",
       "block",
+      "block-display",
       "border",
       "border-0",
       "btn",

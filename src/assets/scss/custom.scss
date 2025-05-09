@@ -19,37 +19,39 @@
   margin-bottom: var(--bs-card-title-spacer-y);
   color: var(--bs-card-title-color); }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Space between columns */
+}
+
 .column {
-    float: left;
-    width: 33.33%;
-    margin-inline: 10px;
-    display: block;
-    margin: 5px;
-    //padding: 1rem;
-    //margin-bottom: 1rem;
-    //margin-left: 10px;
-    display: inline-flexbox;
-  }
+    padding: 1rem; /* Each column takes equal space */
+    min-width: 200px; /* Prevent columns from shrinking too much */
+}
 
 .left {
-    width: 25%;
-
-  }
+    background-color: #f0f0f0;
+    flex: 1;
+    
+}
 .right {
-    width: 15%;
-    margin-left: 5px;
+  background-color: #f0f0f0;
+  flex: .75;
+  
+}
 
-  }
 .middle {
-    width: 60%;
+    background-color: #d0e7ff;
+    flex: 2.5;
+    flex-basis: 50%; /* Base width of the carousel */
+    min-width: 300px; /* Prevent the carousel from shrinking below 300px */
+    max-width: 600px; /* Optional: Set a maximum width */
+}
 
-  }
-  /* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.block-display {
+  display:block
+}
 
 .learn-list {
 list-style-type: "🔔";

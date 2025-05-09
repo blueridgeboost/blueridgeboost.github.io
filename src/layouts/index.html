@@ -22,6 +22,7 @@
       <h1 class="mb-4 pb-2">{{ .title | markdownify }}</h1>
       {{ .subtitle | markdownify }}
     </div>
+    <div class = "row">
       <div class="column left">
           {{ range .all_buttons }}
             {{ range $groupKey, $groupContent := . }}
@@ -127,7 +128,7 @@
             {{ end }}
           {{ end }}
         </div>
-
+      </div>
         <!-- Buttons -->
         <div class="mb-5">
           {{ range .all_buttons }}
