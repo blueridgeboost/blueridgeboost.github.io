@@ -1,0 +1,20 @@
+<!-- Group Header with Link -->
+<h4>
+    <a href="{{ .group_link | safeURL }}">
+        {{ .group_label }}
+    </a>
+</h4>
+
+<!-- Buttons -->
+<ul class="list-inline">
+    {{ range .buttons }}
+        {{ if .enable }}
+        <li class="list-inline-item flexless">
+            <a href="{{ .link | safeURL }}" 
+            title="{{ .label }}" 
+            class="{{ .style }}">
+            {{ .label }} </a>
+        </li>
+        {{ end }}
+    {{ end }}
+</ul>
