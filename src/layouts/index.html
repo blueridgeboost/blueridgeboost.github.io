@@ -16,13 +16,14 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<center>
 <section class="banner">
-  <div class="container center-page">
-    <div class="row ">
+  <div class="container">
+    <div class="row">
       <h1 class="mb-4 pb-2">{{ .title | markdownify }}</h1>
-      <h6>{{ .subtitle | markdownify }}</h6>
+      <h3 class="mb-4">{{ .subtitle | markdownify }}</h3>
     </div>
-    <div class = "row">
+    
       <div class="column left">
           {{ range .all_buttons }}
             {{ range $groupKey, $groupContent := . }}
@@ -128,7 +129,7 @@
             {{ end }}
           {{ end }}
         </div>
-      </div>
+
         <!-- Buttons -->
         <div class="mb-5">
           {{ range .all_buttons }}
@@ -162,6 +163,7 @@
 
  
 </section>
+</center>
 <!-- /banner -->
 
 {{ end }}
