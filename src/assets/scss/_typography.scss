@@ -139,13 +139,17 @@ body.dark {
   margin-inline: 3px;
   display: block;
   margin: 3px;
-  width: 150px !important;
+  //width: 150px !important;
   justify-content: center;
 }
 
 .btnsmall:hover {
   background-color: #ffffff; 
   color: rgb(9, 39, 73);
+}
+
+.flexless {
+  width: 150px !important;
 }
 
 .mtgbtnwidth {

@@ -39,7 +39,7 @@
                 <ul class="list-inline">
                   {{ range $groupContent.buttons }}
                     {{ if .enable }}
-                      <li class="list-inline-item">
+                      <li class="list-inline-item flexless">
                         <a href="{{ .link | safeURL }}" 
                            title="{{ .label }}" 
                            class="{{ .style }}">
