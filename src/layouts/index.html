@@ -40,7 +40,7 @@
 			</div>
 	
 			<!-- Buttons -->
-			<div class="mb-5">
+			<div class="mb-5"> 
 				{{ range .all_buttons }}
 					{{ range $groupKey, $groupContent := . }}
 						{{ if $groupContent.enable }}
@@ -49,8 +49,33 @@
 					{{ end }}
 				{{ end }}
 			</div>
-		</div>
+	
 	</section>
+
+  <!-- start second row -->
+  <section>
+    <div class="container">
+    <div class="column left">
+    <div class="card">
+      <div class="container">
+        <a>Gaming and Robotics Parties</a>
+        <body>Pick a theme, select a bundle, and leave the rest to us</body>
+      </div>
+    </div>
+  </div>
+  <div class="column left">
+    <div class="card">
+      <div class="container">
+        <a>World Robot Olympiad</a>
+        <body>US Open Aug 23</body>
+      </div>
+      </div>
+    </div>
+  <div class="column photo">
+    <img src="/images/fullroom.jpg" alt="Blue Ridge Boost Gaming Room">
+  </div>
+  </div>
+  </section>
 </center>
 <!-- /banner -->
 

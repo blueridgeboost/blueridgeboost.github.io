@@ -17795,8 +17795,25 @@ body.dark {
   max-width: 600px;
   /* Optional: Set a maximum width */ }
 
+.photo {
+  background-color: #d0e7ff;
+  flex: 2.5;
+  flex-basis: 50%;
+  /* Base width of the carousel */
+  min-width: 300px;
+  /* Prevent the carousel from shrinking below 300px */
+  max-width: 500px;
+  /* Optional: Set a maximum width */ }
+
 .block-display {
   display: block; }
+
+.divider {
+  height: 4px;
+  width: 800px;
+  flex: 1;
+  background-color: #0056b3;
+  margin: 1.5rem 0; }
 
 .learn-list {
   list-style-type: "🔔";
