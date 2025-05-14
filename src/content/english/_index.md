@@ -77,7 +77,7 @@ banner:
             label: "Science"
             link: "classes/science"
             style: btnsmall
-          - enable: false
+          - enable: true
             label: "Chess"
             link: "classes/chess"
             style: btnsmall
@@ -118,21 +118,26 @@ banner:
 
     - gaming_buttons:
         enable: true
-        group_label: "Gaming"
+        group_label: "Gaming Fridays"
         group_link: ""
         buttons:
           - enable: true
-            label: "Minecraft Club"
+            label: "Minecraft Friday"
+            link: "parents-night-out/"
+            style: btnsmall
+          - enable: true
+            label: "Crafters' Club"
             link: "minecraft/"
-            style: btnsmallest
+            style: btnsmall
           - enable: true
             label: "Roblox Club"
             link: "roblox/"
-            style: btnsmallest
+            style: btnsmall
           - enable: true
             label: "Fortnite Club"
             link: "fortnite/"
-            style: btnsmallest
+            style: btnsmall
+            
             
     - bottom_buttons:
         enable: true
