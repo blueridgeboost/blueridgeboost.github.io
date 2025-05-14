@@ -176,17 +176,12 @@
       <div class="column photo">
         <img src="/images/toolbench.jpg" alt="Toolbench used for Fabrication Foundations">
       </div>
+      <div class="column right">
       <div class="card-body">
         <a>wowza i love camp</a>
-      </div>
-      <div class="card-body">
-        <a>WRO is coming</a>
-      </div>
-        <!-- Buttons -->
-        <div class="mb-5">
-          {{ range .all_buttons }}
+        {{ range .all_buttons }}
             {{ range $groupKey, $groupContent := . }}
-              {{ if $groupContent.enable }}
+            {{ if eq $groupContent.group_label "Camps" }}
                 <!-- Group Header with Link -->
                 <h4>
                   <a href="{{ $groupContent.group_link | safeURL }}">
@@ -198,7 +193,7 @@
                 <ul class="list-inline">
                   {{ range $groupContent.buttons }}
                     {{ if .enable }}
-                      <li class="list-inline-item">
+                      <li class="list-inline-item flexless">
                         <a href="{{ .link | safeURL }}" 
                            title="{{ .label }}" 
                            class="{{ .style }}">
@@ -211,7 +206,17 @@
               {{ end }}
             {{ end }}
           {{ end }}
-        </div>
+      </div>
+    </div>
+    <div class = "column right">
+      <!--<div class="card-body">-->
+        <a>WRO is coming</a>
+      <!-- -</div> -->
+    </div>
+
+
+
+        
 
  
 </section>
