@@ -16112,6 +16112,10 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%; } }
+
 /* Button style */
 .btn {
   font-size: 1.5em;
@@ -16194,6 +16198,10 @@ textarea.form-control-lg {
     .btn-link.active svg {
       margin-left: 10px; }
 
+.center-page {
+  justify-content: center;
+  text-align: center; }
+
 .c-button {
   background: #fff;
   border: none;
@@ -16204,6 +16212,7 @@ textarea.form-control-lg {
   width: 120px;
   text-transform: uppercase;
   cursor: pointer;
+  margin-bottom: 7px;
   line-height: 1;
   transition: 0.3s ease;
   transform: skew(-21deg); }
@@ -16283,16 +16292,6 @@ h6,
 small,
 .small {
   font-size: 0.8rem; }
-
-.carousel-caption {
-  position: absolute;
-  right: 15%;
-  bottom: 20px;
-  z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fff;
-  text-align: left; }
 
 h6,
 .h6 {
@@ -16507,17 +16506,21 @@ body.dark {
 .btnsmall {
   transition-duration: 0.4s;
   border-radius: 12px;
-  padding: 14px 40px;
+  padding: 10px 20px;
   background-color: #2054a1;
   color: white;
   border: 2px solid #0c3d86;
-  margin-inline: 10px;
+  margin-inline: 3px;
   display: block;
-  margin: 5px; }
+  margin: 3px;
+  justify-content: center; }
 
 .btnsmall:hover {
   background-color: #ffffff;
   color: #092749; }
+
+.flexless {
+  width: 150px !important; }
 
 .mtgbtnwidth {
   width: 250px;
@@ -17100,7 +17103,6 @@ body.dark {
 
 .navigation {
   background-color: transparent;
-  padding: 15px 0;
   transition: 0.15s ease-out;
   position: relative;
   z-index: 9999;
@@ -17762,6 +17764,39 @@ body.dark {
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
   color: var(--bs-card-title-color); }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  /* Space between columns */ }
+
+.column {
+  padding: 1rem;
+  /* Each column takes equal space */
+  min-width: 200px;
+  /* Prevent columns from shrinking too much */ }
+
+.left {
+  background-color: #b1ccf1;
+  flex: 1; }
+
+.right {
+  background-color: #b1ccf1;
+  flex: .75; }
+
+.middle {
+  background-color: #d0e7ff;
+  flex: 2.5;
+  flex-basis: 50%;
+  /* Base width of the carousel */
+  min-width: 300px;
+  /* Prevent the carousel from shrinking below 300px */
+  max-width: 600px;
+  /* Optional: Set a maximum width */ }
+
+.block-display {
+  display: block; }
 
 .learn-list {
   list-style-type: "🔔";

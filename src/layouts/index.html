@@ -2,10 +2,10 @@
 
 {{partial "promotions.html" .}}
 <!--<div class="sidenav">
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+	<a href="#">About</a>
+	<a href="#">Services</a>
+	<a href="#">Clients</a>
+	<a href="#">Contact</a>
 </div>-->
 
 <!-- banner -->
@@ -76,7 +76,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="/images/code.png" alt="Learning together">
+              <img class="d-block w-100" src="/images/code.png" alt="Learn together">
               <div class="carousel-caption d-none d-md-block">
                 <h5></h5>
                 <p></p>
@@ -129,59 +129,7 @@
             {{ end }}
           {{ end }}
         </div>
-        <!--<div class="row">
-        <div class="divider"></div>
-        <h2>Gaming</h2>
-        </div>-->
-<!--second row START-->
-        
-          <div class="column left">
-            <div class="card-body">
-              <a>happy bday</a>
-            </div>
-          </div>
-          <div class="column right">
-            {{ range .all_buttons }}
-            {{ range $groupKey, $groupContent := . }}
-            {{ if eq $groupContent.group_label "Gaming Fridays" }}
-                <!-- Group Header with Link -->
-                <h4>
-                  <a href="{{ $groupContent.group_link | safeURL }}">
-                    {{ $groupContent.group_label }}
-                  </a>
-                </h4>
-                <!-- Buttons -->
-                <ul class="list-inline">
-                  {{ range $groupContent.buttons }}
-                    {{ if .enable }}
-                      <li class="list-inline-item">
-                        <a href="{{ .link | safeURL }}" 
-                           title="{{ .label }}" 
-                           class="{{ .style }}">
-                          {{ .label }} 
-                        </a>
-                      </li>
-                    {{ end }}
-                  {{ end }}
-                </ul>
-              {{ end }}
-            {{ end }}
-          {{ end }}
-          </div>
-          <div class="column photo">
-            <img src="/images/fullroom.jpg" alt="Blue Ridge Boost Gaming Room">
-          </div>
 
-      <!--third row START Summer-->
-      <div class="column photo">
-        <img src="/images/toolbench.jpg" alt="Toolbench used for Fabrication Foundations">
-      </div>
-      <div class="card-body">
-        <a>wowza i love camp</a>
-      </div>
-      <div class="card-body">
-        <a>WRO is coming</a>
-      </div>
         <!-- Buttons -->
         <div class="mb-5">
           {{ range .all_buttons }}
