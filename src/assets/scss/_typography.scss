@@ -132,7 +132,7 @@ body.dark {
 .btnsmall {
   transition-duration: 0.4s;
   border-radius: 12px;
-  padding: 10px 20px;
+  padding: 6px 20px;
   background-color: #2054a1;
   color: rgb(255, 255, 255);
   border: 2px solid #0c3d86;
@@ -141,6 +141,7 @@ body.dark {
   margin: 3px;
   //width: 150px !important;
   justify-content: center;
+  
 }
 
 .btnsmall:hover {
@@ -150,6 +151,22 @@ body.dark {
 
 .flexless {
   width: 150px !important;
+}
+
+.btnsmalllong {
+  transition-duration: 0.4s;
+  border-radius: 12px;
+  padding: 6px 100px;
+  background-color: #2054a1;
+  color: rgb(255, 255, 255);
+  border: 2px solid #0c3d86;
+  margin-inline: 5px;
+  display: flex;
+  margin: 3px;
+  //width: 150px !important;
+  justify-content: center;
+  text-wrap-mode: wrap;
+  
 }
 
 .mtgbtnwidth {

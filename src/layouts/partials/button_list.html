@@ -9,7 +9,7 @@
 <ul class="list-inline">
     {{ range .buttons }}
         {{ if .enable }}
-        <li class="list-inline-item flexless">
+        <li class="list-inline-item">
             <a href="{{ .link | safeURL }}" 
             title="{{ .label }}" 
             class="{{ .style }}">

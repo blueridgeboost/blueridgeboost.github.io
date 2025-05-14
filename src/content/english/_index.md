@@ -15,19 +15,19 @@ banner:
       - enable: true
         label: "Classes"
         link: "classes/"
-        style: btnsmall
+        style: btnsmall flexless
       - enable: true
         label: "Camps"
         link: "summer-camps/"
-        style: btnsmall
+        style: btnsmall flexless
       - enable: true
         label: "Tutoring"
         link: "tutoring/"
-        style: btnsmall
+        style: btnsmall flexless
       - enable: true
         label: "Certificate"
         link: "/certifications"
-        style: btnsmall
+        style: btnsmall flexless
     
   right_buttons:
     group_label: ""
@@ -56,10 +56,6 @@ banner:
         group_link: "camps/"
         buttons:
           - enable: true
-            label: "1-Day"
-            link: "1-day-camps/"
-            style: btnsmall
-          - enable: true
             label: "Grades 1 to 3"
             link: "summer-camps/rising-1-3/"
             style: btnsmall
@@ -72,8 +68,12 @@ banner:
             link: "summer-camps/rising-7-12/"
             style: btnsmall
           - enable: true
-            label: "Robotics and Coding Certifications"
+            label: "Robotics & Coding Certifications"
             link: "quest-for-excellence-camps/"
+            style: btnsmall
+          - enable: true
+            label: "1-Day"
+            link: "1-day-camps/"
             style: btnsmall
 
     - top_buttons:
