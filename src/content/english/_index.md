@@ -71,10 +71,10 @@ banner:
             label: "Grades 7 to 12"
             link: "summer-camps/rising-7-12/"
             style: btnsmall
-          # - enable: true
-          #   label: "Robotics and Coding Certifications"
-          #   link: "quest-for-excellence-camps/"
-          #   style: btnsmall
+          - enable: true
+            label: "Robotics and Coding Certifications"
+            link: "quest-for-excellence-camps/"
+            style: btnsmall
 
     - top_buttons:
         enable: true
@@ -97,7 +97,7 @@ banner:
             label: "Science"
             link: "classes/science"
             style: btnsmall
-          - enable: true
+          - enable: false
             label: "Chess"
             link: "classes/chess"
             style: btnsmall
@@ -109,51 +109,6 @@ banner:
             link: "adults"
             label: "Coding and Robotics Certifications"
             style: btnsmall
-
-    - camps_buttons:
-        enable: true
-        group_label: "Camps"
-        group_link: "camps/"
-        buttons:
-          - enable: true
-            label: "1-Day"
-            link: "1-day-camps/"
-            style: btnsmall
-          - enable: true
-            label: "Grades 1 to 3"
-            link: "summer-camps/rising-1-3/"
-            style: btnsmall
-          - enable: true
-            label: "Grades 4 to 6"
-            link: "summer-camps/rising-4-6/"
-            style: btnsmall
-          - enable: true
-            label: "Grades 7 to 12"
-            link: "summer-camps/rising-7-12/"
-            style: btnsmall
-          - enable: true
-            label: "Robotics and Coding Certifications"
-            link: "quest-for-excellence-camps/"
-            style: btnsmall
-
-    - gaming_buttons:
-        enable: true
-        group_label: "Gaming"
-        group_link: ""
-        buttons:
-          - enable: true
-            label: "Minecraft Club"
-            link: "minecraft/"
-            style: btnsmallest
-          - enable: true
-            label: "Roblox Club"
-            link: "roblox/"
-            style: btnsmallest
-          - enable: true
-            label: "Fortnite Club"
-            link: "fortnite/"
-            style: btnsmallest
-            
     - bottom_buttons:
         enable: true
         group_label: "Events"
