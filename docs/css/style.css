@@ -16208,6 +16208,7 @@ textarea.form-control-lg {
   padding: 10px 20px;
   display: inline-block;
   font-size: 15px;
+  color: #005172;
   font-weight: 600;
   width: 120px;
   text-transform: uppercase;
@@ -16231,7 +16232,7 @@ textarea.form-control-lg {
   bottom: 0;
   right: 100%;
   left: 0;
-  background: #1347a7;
+  background-color: #005172;
   opacity: 0;
   z-index: -1;
   transition: all 0.5s; }
@@ -16574,12 +16575,12 @@ body.dark {
   transition-duration: 0.4s;
   border-radius: 12px;
   padding: 6px 20px;
-  background-color: #2054a1;
+  background-color: #005172;
   color: white;
-  border: 2px solid #0c3d86;
+  border: 2px solid #005172;
   margin-inline: 0px;
   display: block;
-  width: 200px !important;
+  width: 175px !important;
   justify-content: center;
   margin-top: 10px; }
 
@@ -17863,6 +17864,7 @@ body.dark {
   flex: .75; }
 
 .middle {
+  background-color: #005172;
   flex: 2.5;
   flex-basis: 50%;
   /* Base width of the carousel */
