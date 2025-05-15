@@ -16252,7 +16252,13 @@ body {
   font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
   font-weight: 400;
   line-height: 1.35;
-  color: #555; }
+  color: #555;
+  background-color: #fff;
+  overflow-x: hidden; }
+
+b,
+strong {
+  font-weight: 700; }
 
 p {
   margin-bottom: 1rem; }
@@ -16701,10 +16707,6 @@ div.fullclass {
   text-align: center;
   color: darkcyan; }
 
-body {
-  background-color: #fff;
-  overflow-x: hidden; }
-
 .preloader {
   z-index: 9898989 !important;
   background-color: #fff; }
@@ -16727,6 +16729,26 @@ img {
   border: 0;
   max-width: 100%;
   height: auto; }
+
+a,
+a:hover,
+a:visited,
+a:focus {
+  text-decoration: none;
+  color: #003359; }
+
+a.text-dark:hover {
+  color: #005172 !important; }
+
+a,
+button,
+select {
+  cursor: pointer;
+  transition: 0.2s ease; }
+  a:focus,
+  button:focus,
+  select:focus {
+    outline: 0; }
 
 .section {
   padding-top: 0.2rem;
@@ -16904,24 +16926,6 @@ form label {
     margin-top: 0; }
   .content *:last-child {
     margin-bottom: 0; }
-
-.content h1, .content .h1,
-.content h2,
-.content .h2,
-.content h3,
-.content .h3,
-.content h4,
-.content .h4,
-.content h5,
-.content .h5,
-.content h6,
-.content .h6 {
-  margin-top: 1.4rem;
-  margin-bottom: 0.7rem; }
-
-.content b,
-.content strong {
-  font-weight: 500; }
 
 .content a {
   color: #555;
