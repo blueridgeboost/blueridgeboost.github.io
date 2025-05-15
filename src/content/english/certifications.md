@@ -22,7 +22,7 @@ layout: single
 
   <div class="container p-3 b-3 darknote">
     <p>
-      Please <a href="/contact" aria-label="Contact us to add classes to the schedule">contact us</a> 
+      Please <a href="/contact" aria-label="Contact us to add classes to the schedule" class="darknote">contact us</a> 
       to add classes to the schedule.
     </p>
   </div>

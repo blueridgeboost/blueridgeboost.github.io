@@ -26,6 +26,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+.footera {
+  color: $darkest-blue !important;
+}
 
 a,
 a:hover,
@@ -34,6 +37,8 @@ a:focus {
   text-decoration: none;
   color: $darkest-blue;
 }
+
+
 
 a.text-dark:hover {
   color: $color-primary !important;
@@ -313,6 +318,7 @@ form label {
       color: $color-primary;
     }
   }
+
 
   ol,
   ul {

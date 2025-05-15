@@ -30,6 +30,81 @@
   padding-top: 1em;
 }
 
+
+.btn-description {
+  font-size:larger;
+  text-align: center;
+  color: $color-primary;
+  font-weight: 1000;
+  padding-top: 5px;
+  margin-bottom: 25px;
+  width: 250px;
+}
+
+.btnsmallest {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  font-size: 1.0rem;
+}
+
+.btnsmall {
+  transition-duration: 0.4s;
+  border-radius: 12px;
+  padding: 6px 20px;
+  background-color: #2054a1;
+  color: rgb(255, 255, 255);
+  border: 2px solid #0c3d86;
+  margin-inline: 0px;
+  display: block;
+  margin: 3px;
+  //width: 150px !important;
+  justify-content: center;
+  
+}
+
+.btnsmall:hover {
+  background-color: #ffffff; 
+  color: rgb(9, 39, 73);
+}
+
+.flexless {
+  width: 150px !important;
+}
+
+.btnleft {
+  transition-duration: 0.4s;
+  border-radius: 12px;
+  padding: 6px 20px;
+  background-color: #005172;
+  color: rgb(255, 255, 255) !important;
+  border: 2px solid #005172;
+  margin-inline: 0px;
+  display: block;
+  width: 175px !important;
+  justify-content: center;
+  margin-top: 10px;  
+}
+.btnleft:a{
+  color:white !important;
+}
+.btnleft:hover {
+  background-color: #ffffff; 
+  color: rgb(9, 39, 73) !important;
+}
+
+
+.mtgbtnwidth {
+  width: 250px;
+  display: inline-block;
+}
+
+.mtgbtnwidthm {
+  display: inline-block;
+  padding: 0.5em 0.8em;
+}
+
 .btn-small {
   font-size: 1em;
   margin-top: 10px;
