@@ -36,19 +36,14 @@
 				</main>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col">
-				<!-- cache partial only in production -->
-				{{ if hugo.IsProduction }}
-				{{ partialCached "footer.html" . }}
-				{{ partialCached "script.html" . }}
-				{{ else }}
+		<div class="container-fluid p-3">
+  			<div class="row">
+				<!-- footer (don't cache it) -->
 				{{ partial "footer.html" . }}
-				{{ partial "script.html" . }}
-				{{ end }}
 			</div>
 		</div>
 	</div>
+
 </body>
 
 </html>
