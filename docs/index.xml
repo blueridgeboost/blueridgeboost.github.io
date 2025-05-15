@@ -135,6 +135,13 @@
       <description>&lt;details class=&#34;table-of-content&#34;&gt;&#xA;  &lt;summary&gt;Table Of Contents&lt;/summary&gt;&#xA;  &lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ol&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#heading-2&#34;&gt;Heading 2&lt;/a&gt;&#xA;      &lt;ol&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#heading-3&#34;&gt;Heading 3&lt;/a&gt;&#xA;          &lt;ol&gt;&#xA;            &lt;li&gt;&lt;a href=&#34;#heading-4&#34;&gt;Heading 4&lt;/a&gt;&#xA;              &lt;ol&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#heading-5&#34;&gt;Heading 5&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#emphasis&#34;&gt;Emphasis&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#link&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#paragraph&#34;&gt;Paragraph&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#ordered-list&#34;&gt;Ordered List&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#unordered-list&#34;&gt;Unordered List&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#code-and-syntax-highlighting&#34;&gt;Code and Syntax Highlighting&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#blockquote&#34;&gt;Blockquote&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#inline-html&#34;&gt;Inline HTML&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#tables&#34;&gt;Tables&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#image&#34;&gt;Image&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#youtube-video&#34;&gt;Youtube video&lt;/a&gt;&lt;/li&gt;&#xA;              &lt;/ol&gt;&#xA;            &lt;/li&gt;&#xA;          &lt;/ol&gt;&#xA;        &lt;/li&gt;&#xA;      &lt;/ol&gt;&#xA;    &lt;/li&gt;&#xA;  &lt;/ol&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/details&gt;&#xA;&#xA;&lt;p&gt;Here is example of hedings. You can use this heading by following markdownify rules. For example: use &lt;code&gt;#&lt;/code&gt; for heading 1 and use &lt;code&gt;######&lt;/code&gt; for heading 6.&lt;/p&gt;&#xA;&lt;h1 id=&#34;heading-1&#34;&gt;Heading 1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;heading-2&#34;&gt;Heading 2&lt;/h2&gt;&#xA;&lt;h3 id=&#34;heading-3&#34;&gt;Heading 3&lt;/h3&gt;&#xA;&lt;h4 id=&#34;heading-4&#34;&gt;Heading 4&lt;/h4&gt;&#xA;&lt;h5 id=&#34;heading-5&#34;&gt;Heading 5&lt;/h5&gt;&#xA;&lt;h6 id=&#34;heading-6&#34;&gt;Heading 6&lt;/h6&gt;&#xA;&lt;hr&gt;&#xA;&lt;h5 id=&#34;emphasis&#34;&gt;Emphasis&lt;/h5&gt;&#xA;&lt;p&gt;Emphasis, aka italics, with &lt;em&gt;asterisks&lt;/em&gt; or &lt;em&gt;underscores&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>1-Day Camps | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/1-day-camps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/1-day-camps/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;&#xD;&#xA;    &lt;p&gt;Blue Ridge Boosts offers instructional programs in robotics, coding, and math during the school breaks&#xD;&#xA;      and days off school. We also offer camps on days with unexpected school closings such as &#34;snow days&#34;.&#xD;&#xA;    &lt;br&gt;All camps are held at Blue Ridge Boost, 2171 Ivy Rd, Charlottesville.&lt;/p&gt;&#xD;&#xA;    &lt;p&gt;Half-day students should bring a snack. Full-day students should bring two snacks and lunch.&lt;/p&gt;&#xD;&#xA;    &lt;p&gt;Drop off starts at 8:30. Pick up ends at 1:00 for half-day and 5:00 for full day.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Build and Practice Space for WRO Future Engineers | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/2025-WRO-Future-Engineers-Practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -147,6 +154,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/chess/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Coding and Robotics Certifications | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/certifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/certifications/</guid>
+      <description>&lt;section&gt;&#xD;&#xA;  &lt;h3&gt;About Our Classes and Certifications&lt;/h3&gt;&#xD;&#xA;  &lt;p&gt;&#xD;&#xA;    Blue Ridge Boost is proud to offer classes and certifications in robotics and coding. &#xD;&#xA;    All instructors hold a Bachelor&#39;s degree in Computer Science and are certified by the &#xD;&#xA;    &lt;a href=&#34;https://www.cmu.edu/roboticsacademy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Carnegie Mellon Robotics Academy&lt;/a&gt;. &#xD;&#xA;    Both certifications are industry-recognized and approved by the Virginia Department of Education.&#xD;&#xA;  &lt;/p&gt;&#xD;&#xA;  &lt;p&gt;&#xD;&#xA;    We offer separate classes for adults, as well as advanced middle school and high school students.&#xD;&#xA;  &lt;/p&gt;&#xD;&#xA;  &lt;div class=&#34;container p-3 b-3 darknote&#34;&gt;&#xD;&#xA;    &lt;p&gt;&#xD;&#xA;      Please &lt;a href=&#34;https://blueridgeboost.com/contact&#34; aria-label=&#34;Contact us to add classes to the schedule&#34;&gt;contact us&lt;/a&gt; &#xD;&#xA;      to add classes to the schedule.&#xD;&#xA;    &lt;/p&gt;</description>
     </item>
     <item>
       <title>Computer Coding Classes and Tutoring | Blue Ridge Boost</title>
@@ -170,6 +184,13 @@
       <description></description>
     </item>
     <item>
+      <title>Girl-Powered Fridays | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/girl-powered-fridays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/girl-powered-fridays/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;&#xD;&#xA;    &lt;p&gt;Designed to empower girls in Science, Technology, Engineering, and Mathematics (STEM)!&lt;/p&gt;&#xD;&#xA;    &lt;p&gt;We welcome girls and their supporters to an evening of innovation and discovery. Fuel your creativity with complimentary pizza and dessert.&lt;/p&gt;&#xD;&#xA;    &lt;p&gt;Together, let&#39;s break barriers and build a future where girls thrive in STEM fields!&lt;/p&gt;&#xD;&#xA;    &lt;p&gt;The Girl-Powered Fridays will stop for the summer. Please come back in August for the 2025-2026 schedule&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;container&#34;&gt;&#xD;&#xA;    &lt;div&gt;&#xD;&#xA;        &lt;script data-cfasync=&#34;false&#34; type=&#34;text/javascript&#34; src=&#34;https://app.ecwid.com/script.js?106136041&amp;data_platform=code&#34;&#xD;&#xA;        charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xD;&#xA;        &lt;script type=&#34;text/javascript&#34;&gt;&#xD;&#xA;        xProductBrowser(&#34;views=grid(20,5) list(60) table(60)&#34;,&#34;categoryView=grid&#34;,&#34;id=my-store-106136041&#34;, &#xD;&#xA;        &#34;defaultCategoryId=175336113&#34;);&lt;/script&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
       <title>Math Classes and Tutoring | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/math/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -189,6 +210,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/author/nora-evans/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Parents&#39; Night Out | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/parents-night-out/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/parents-night-out/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;row&#34;&gt;&#xD;&#xA;        &lt;div class=&#34;col-12&#34;&gt;&#xD;&#xA;            &lt;h3&gt;🎮 Epic Gaming Night Awaits! 🎮&lt;/h3&gt;&#xD;&#xA;            &lt;p&gt;&#xD;&#xA;                Get ready to level up your fun! Whether you&#39;re a console crusader, PC powerhouse, or tabletop titan, this is your night to shine. Dive into thrilling multiplayer battles, explore immersive worlds, or challenge your friends in a card or board game showdown. Snacks, laughs, and epic moments are guaranteed—bring your A-game and let’s make it a night to remember!&#xD;&#xA;            &lt;/p&gt;&#xD;&#xA;            &lt;p&gt;&lt;strong&gt;Fuel for young minds:&lt;/strong&gt; Free pizza included!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Payment Error | Blue Ridge Boost</title>
@@ -261,6 +289,13 @@
       <description></description>
     </item>
     <item>
+      <title>Spring Break Camps | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/spring-break-camps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/spring-break-camps/</guid>
+      <description>&lt;p&gt;All camps are held at Blue Ridge Boost, 2171 Ivy Rd, Charlottesville.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Half-day students should bring a snack. Full-day students should bring two snacks and lunch.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Drop off starts at 8:30. Pick up ends at 1:00 for half-day and 5:00 for full day.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Ages 6 to 13. Please note that Blue Ridge Boost is a single focus instructional program, not a day care program.&#xD;&#xA;  As such, &lt;b&gt;students must be at least six years old for camps.&lt;/b&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Summer Camps | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/summer-camps/4-payments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -301,6 +336,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/vision/</guid>
       <description>&lt;h2 id=&#34;history-of-blue-ridge-boost&#34;&gt;History of Blue Ridge Boost&lt;/h2&gt;&#xA;&lt;p&gt;During the COVID-19 pandemic, I spent a significant amount of time teaching and helping my children learn, and I discovered that I greatly enjoy teaching young students. This newfound passion led me to quit my Ph.D. program in Computer Science to pursue a degree in teaching at the University of Virginia, and I subsequently launched Blue Ridge Boost.&lt;/p&gt;&#xA;&lt;p&gt;During the lockdown, Maxwell and Dorina enrolled in various challenging and exciting classes offered by the Center for Talented Youth at Johns Hopkins and The Art of Problem Solving. Despite the quality of the instructors, the lack of face-to-face interaction was a significant drawback.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Winter Break Camps | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/winter-break-camps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/winter-break-camps/</guid>
+      <description>&lt;p&gt;All camps are held at Blue Ridge Boost, 2171 Ivy Rd, Charlottesville.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Half-day students should bring a snack. Full-day students should bring two snacks and lunch.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Drop off starts at 8:30. Pick up ends at 1:00 for half-day and 5:00 for full day.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Ages 6 to 13. Please note that Blue Ridge Boost is a single focus instructional program, not a day care program.&#xD;&#xA;  As such, &lt;b&gt;students must be at least six years old for camps.&lt;/b&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>World Robotics Olympiad | Blue Ridge Boost</title>

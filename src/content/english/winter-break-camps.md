@@ -1,8 +1,26 @@
-{{define "main"}}
+---
+title: "Winter Break Camps | Blue Ridge Boost"
+page_title: "Winter Break Camps"
+# meta description
+description: 
+draft: false
+# content section
+section: "winter-camps"
+---
 
-{{ partial "page-header.html" . }}
+<p>All camps are held at Blue Ridge Boost, 2171 Ivy Rd, Charlottesville.</p>
+<p>Half-day students should bring a snack. Full-day students should bring two snacks and lunch.</p>
+<p>Drop off starts at 8:30. Pick up ends at 1:00 for half-day and 5:00 for full day.</p>
+<p>Ages 6 to 13. Please note that Blue Ridge Boost is a single focus instructional program, not a day care program.
+  As such, <b>students must be at least six years old for camps.</b></p>
+<p></p>
+<div class="container darknote p-3">
+  <p></p>
+  We will open the sign ups by late October.
+  <p></p>
+</div>
 
-<section class="section">
+<!-- <section class="section">
   <div class="container">
     <p>Blue Ridge Boosts offers instructional programs in robotics, coding, and math during the school breaks
       and days off school. We also offer camps on days with unexpected school closings such as "snow days".
@@ -79,5 +97,4 @@
       </center>
     </p>
   </div>
-</section>
-{{ end }}
+</section> -->

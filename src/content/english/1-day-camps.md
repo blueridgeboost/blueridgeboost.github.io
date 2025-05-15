@@ -1,37 +1,41 @@
-{{define "main"}}
+---
+title: "1-Day Camps | Blue Ridge Boost"
+page_title: "One-Day Camps"
+# meta description
+description: 
+draft: false
+# content section
+section: "1-day-camps"
+---
 
-{{ partial "page-header.html" . }}
-
-<section class="section">
-  <div class="container">
+<div class="container">
     <p>Blue Ridge Boosts offers instructional programs in robotics, coding, and math during the school breaks
       and days off school. We also offer camps on days with unexpected school closings such as "snow days".
-    <br>Blue Ridge Boost is a single focus instructional program, not a day care program.
-      As such, <b>students must be at least six years old for camps.</b>
     <br>All camps are held at Blue Ridge Boost, 2171 Ivy Rd, Charlottesville.</p>
     <p>Half-day students should bring a snack. Full-day students should bring two snacks and lunch.</p>
     <p>Drop off starts at 8:30. Pick up ends at 1:00 for half-day and 5:00 for full day.</p>
-  </div>
-   <div class="container" id="camp1">
-    <h4>1-Day Camps &ndash; Ages 6 to 13</h4>
-    <div class="container">
-      <ul style="display: flex; list-style-type: none; padding: 0;">
-        <li>ACPS &ndash; Albermarle Public Schools</li>
-        <li>CCS &ndash; Charlottesville City Schools</li>
-        <li>STAB &ndash; St. Anne's Belfield</li>
-        <li>PS &ndash; Peabody School</li>
-      </ul>
+    <br>Ages 6 to 13. Please note that Blue Ridge Boost is a single focus instructional program, not a day care program.
+      As such, <b>students must be at least six years old for camps.</b>
+    <p></p>
+    <div class="container darknote p-3">
       <p></p>
-      <div class="row">
-        <div><script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
-            charset="utf-8"></script><script type="text/javascript">
-            xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041", 
-            "defaultCategoryId=175336115");</script></div>
-            </div>
+      We will open the sign ups by late June. We will add days off for the following schools: 
+      Albemarle County Public Schools, Charlottesville City Public Schools, Peabody School, St. Anne's Bellfield, and Covenant.
+      <p></p>
     </div>
-  </div>
-  <p></p>
-  <div class="container">
+    Please <a href="/contact">contact us if you would like add another school to our list.
+</div>
+<div class="container" id="camp1">
+    <div>
+        <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
+            charset="utf-8"></script>
+        <script type="text/javascript">
+            xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041", 
+            "defaultCategoryId=175336115");</script>
+    </div>
+</div>
+
+  <!-- <div class="container">
     <p>
       Join us for an exhilarating exploration of robotics, coding, chess, and math. Teamwork and collaboration
       are at the heart of our camp experience. Students will have the opportunity to work together, share ideas,
@@ -81,6 +85,4 @@
         </table>
       </center>
     </p>
-  </div>
-</section>
-{{ end }}
+  </div> -->
