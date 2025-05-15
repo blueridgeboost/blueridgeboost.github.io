@@ -17782,7 +17782,7 @@ body.dark {
   margin-bottom: var(--bs-card-title-spacer-y);
   color: var(--bs-card-title-color); }
 
-.container {
+.container_frontpage {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
