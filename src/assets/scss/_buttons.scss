@@ -135,6 +135,7 @@
   padding: 10px 20px;
   display: inline-block;
   font-size: 15px;
+  color: #005172;
   font-weight: 600;
   width: 120px;
   text-transform: uppercase;
@@ -168,7 +169,8 @@
   bottom: 0;
   right: 100%;
   left: 0;
-  background: rgb(19, 71, 167);
+  //background: rgb(19, 71, 167);
+  background-color: #005172;
   opacity: 0;
   z-index: -1;
   transition: all 0.5s;
