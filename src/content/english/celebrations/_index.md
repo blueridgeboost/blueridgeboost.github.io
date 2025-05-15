@@ -72,20 +72,25 @@ style: justify-text-center
 </div>
 
 <div class="container section">
-    <div class="row">
-    <h3>Step 2: Select Party Bundle</h3>
-    <ul>
-        <h4>Party Pricing</h4>
-        <h5>Basic Party: $395</h5>
-        <h5>Includes:</h5>
+        <h3>Step 2: Select Party Bundle</h3>
+        <div class="row">
+        <div class="columnparty">
         <ul>
-            <h6>
-            <li>90 minutes of gaming or robot building</li>
-            <li>30 minutes of social time to eat</li>
-            <li>Up to 15 guests + 1 birthday kid</li>
-            </h6>
-        </ul>
-        </ul>
+            <h4>Party Pricing</h4>
+            <h5>Basic Party: $395</h5>
+            <h5>Includes:</h5>
+            <ul>
+                <h6>
+                <li>90 minutes of gaming or robot building</li>
+                <li>30 minutes of social time to eat</li>
+                <li>15 guests + 1 birthday kid (16 total)</li>
+                </h6>
+            </ul>
+            </ul>
+        </div>
+        <div class="columnparty">
+            <img src="images/maxweb.jpg" alt="Minecraft Setup" width="400">
+        </div>
     </div>
     <div class="row">
         <h4>Party Bundles</h4>
@@ -142,12 +147,18 @@ style: justify-text-center
     <div class="container section">
     <h3>Step 3: Get the party started!</h3>
     <!--I would like to make this an "email us" button later on-->
+    <ul>
     <h5>Email <a href="mailto:nora@blueridgeboost.com">nora@blueridgeboost.com</a> to book your party!</h5>
+    <h6>Include relevant details such as</h6>
     <ul>
-    <h6>Please let us know</h6>
-    <ul>
-    <a>your child's birthday</a>
+    <h6>
+        <li>Preferred dates</li>
+        <li>Theme of choice</li>
+        <li>Party Bundle</li>
+        <li>Any questions</li>
+        </h6>
     </ul>
+    <h5>See you at the party!</h5>
     </ul>
     </div>
 </div>

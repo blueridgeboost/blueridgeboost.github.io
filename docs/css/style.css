@@ -16306,9 +16306,13 @@ h6,
   @media (max-width: 767px) {
     h6:not(h5, .h5, h6, .h6),
     .h6:not(h5, .h5, h6, .h6) {
+      font-size: calc(20px * 0.8);
       font-size: calc(20px * 0.8); }
       h6:not(h5, .h5, h6, .h6) .theme-card,
       .h6:not(h5, .h5, h6, .h6) .theme-card {
+        flex: 1 1 100%; }
+      h6:not(h5, .h5, h6, .h6) .columnparty,
+      .h6:not(h5, .h5, h6, .h6) .columnparty {
         flex: 1 1 100%; } }
   @media (max-width: 991px) {
     h6,
@@ -16318,9 +16322,13 @@ h6,
   @media (max-width: 767px) {
     h6,
     .h6 {
+      font-size: calc(20px * 0.9);
       font-size: calc(20px * 0.9); }
       h6 .theme-card,
       .h6 .theme-card {
+        flex: 1 1 100%; }
+      h6 .columnparty,
+      .h6 .columnparty {
         flex: 1 1 100%; } }
 h5,
 .h5 {
@@ -16335,9 +16343,13 @@ h5,
   @media (max-width: 767px) {
     h5:not(h5, .h5, h6, .h6),
     .h5:not(h5, .h5, h6, .h6) {
+      font-size: calc(25px * 0.8);
       font-size: calc(25px * 0.8); }
       h5:not(h5, .h5, h6, .h6) .theme-card,
       .h5:not(h5, .h5, h6, .h6) .theme-card {
+        flex: 1 1 100%; }
+      h5:not(h5, .h5, h6, .h6) .columnparty,
+      .h5:not(h5, .h5, h6, .h6) .columnparty {
         flex: 1 1 100%; } }
   @media (max-width: 991px) {
     h5,
@@ -16347,9 +16359,13 @@ h5,
   @media (max-width: 767px) {
     h5,
     .h5 {
+      font-size: calc(25px * 0.9);
       font-size: calc(25px * 0.9); }
       h5 .theme-card,
       .h5 .theme-card {
+        flex: 1 1 100%; }
+      h5 .columnparty,
+      .h5 .columnparty {
         flex: 1 1 100%; } }
 h4,
 .h4 {
@@ -16364,9 +16380,13 @@ h4,
   @media (max-width: 767px) {
     h4:not(h5, .h5, h6, .h6),
     .h4:not(h5, .h5, h6, .h6) {
+      font-size: calc(31.25px * 0.8);
       font-size: calc(31.25px * 0.8); }
       h4:not(h5, .h5, h6, .h6) .theme-card,
       .h4:not(h5, .h5, h6, .h6) .theme-card {
+        flex: 1 1 100%; }
+      h4:not(h5, .h5, h6, .h6) .columnparty,
+      .h4:not(h5, .h5, h6, .h6) .columnparty {
         flex: 1 1 100%; } }
   @media (max-width: 991px) {
     h4,
@@ -16376,9 +16396,13 @@ h4,
   @media (max-width: 767px) {
     h4,
     .h4 {
+      font-size: calc(31.25px * 0.9);
       font-size: calc(31.25px * 0.9); }
       h4 .theme-card,
       .h4 .theme-card {
+        flex: 1 1 100%; }
+      h4 .columnparty,
+      .h4 .columnparty {
         flex: 1 1 100%; } }
 h3,
 .h3 {
@@ -16393,9 +16417,13 @@ h3,
   @media (max-width: 767px) {
     h3:not(h5, .h5, h6, .h6),
     .h3:not(h5, .h5, h6, .h6) {
+      font-size: calc(39.0625px * 0.8);
       font-size: calc(39.0625px * 0.8); }
       h3:not(h5, .h5, h6, .h6) .theme-card,
       .h3:not(h5, .h5, h6, .h6) .theme-card {
+        flex: 1 1 100%; }
+      h3:not(h5, .h5, h6, .h6) .columnparty,
+      .h3:not(h5, .h5, h6, .h6) .columnparty {
         flex: 1 1 100%; } }
   @media (max-width: 991px) {
     h3,
@@ -16405,9 +16433,13 @@ h3,
   @media (max-width: 767px) {
     h3,
     .h3 {
+      font-size: calc(39.0625px * 0.9);
       font-size: calc(39.0625px * 0.9); }
       h3 .theme-card,
       .h3 .theme-card {
+        flex: 1 1 100%; }
+      h3 .columnparty,
+      .h3 .columnparty {
         flex: 1 1 100%; } }
 h2,
 .h2 {
@@ -16422,9 +16454,13 @@ h2,
   @media (max-width: 767px) {
     h2:not(h5, .h5, h6, .h6),
     .h2:not(h5, .h5, h6, .h6) {
+      font-size: calc(48.828125px * 0.8);
       font-size: calc(48.828125px * 0.8); }
       h2:not(h5, .h5, h6, .h6) .theme-card,
       .h2:not(h5, .h5, h6, .h6) .theme-card {
+        flex: 1 1 100%; }
+      h2:not(h5, .h5, h6, .h6) .columnparty,
+      .h2:not(h5, .h5, h6, .h6) .columnparty {
         flex: 1 1 100%; } }
   @media (max-width: 991px) {
     h2,
@@ -16434,9 +16470,13 @@ h2,
   @media (max-width: 767px) {
     h2,
     .h2 {
+      font-size: calc(48.828125px * 0.9);
       font-size: calc(48.828125px * 0.9); }
       h2 .theme-card,
       .h2 .theme-card {
+        flex: 1 1 100%; }
+      h2 .columnparty,
+      .h2 .columnparty {
         flex: 1 1 100%; } }
 h1,
 .h1 {
@@ -16451,9 +16491,13 @@ h1,
   @media (max-width: 767px) {
     h1:not(h5, .h5, h6, .h6),
     .h1:not(h5, .h5, h6, .h6) {
+      font-size: calc(61.03515625px * 0.8);
       font-size: calc(61.03515625px * 0.8); }
       h1:not(h5, .h5, h6, .h6) .theme-card,
       .h1:not(h5, .h5, h6, .h6) .theme-card {
+        flex: 1 1 100%; }
+      h1:not(h5, .h5, h6, .h6) .columnparty,
+      .h1:not(h5, .h5, h6, .h6) .columnparty {
         flex: 1 1 100%; } }
   @media (max-width: 991px) {
     h1,
@@ -16463,9 +16507,13 @@ h1,
   @media (max-width: 767px) {
     h1,
     .h1 {
+      font-size: calc(61.03515625px * 0.9);
       font-size: calc(61.03515625px * 0.9); }
       h1 .theme-card,
       .h1 .theme-card {
+        flex: 1 1 100%; }
+      h1 .columnparty,
+      .h1 .columnparty {
         flex: 1 1 100%; } }
 body.dark {
   color: #cbcbcb !important; }
@@ -16685,8 +16733,12 @@ img {
   @media (max-width: 767px) {
     .section {
       padding-top: 4.5rem;
+      padding-bottom: 4.5rem;
+      padding-top: 4.5rem;
       padding-bottom: 4.5rem; }
       .section .theme-card {
+        flex: 1 1 100%; }
+      .section .columnparty {
         flex: 1 1 100%; } }
 .bg-cover {
   background-size: cover;
@@ -17428,8 +17480,12 @@ body.dark {
       @media (max-width: 767px) {
         .has-video .video-loader-btn::before {
           height: 55px;
+          width: 55px;
+          height: 55px;
           width: 55px; }
           .has-video .video-loader-btn::before .theme-card {
+            flex: 1 1 100%; }
+          .has-video .video-loader-btn::before .columnparty {
             flex: 1 1 100%; } }
     .has-video .video-loader-btn::after {
       position: absolute;
@@ -17446,8 +17502,11 @@ body.dark {
       border-radius: 50px; }
       @media (max-width: 767px) {
         .has-video .video-loader-btn::after {
+          transform: translate(-50%, -50%) scale(0.2);
           transform: translate(-50%, -50%) scale(0.2); }
           .has-video .video-loader-btn::after .theme-card {
+            flex: 1 1 100%; }
+          .has-video .video-loader-btn::after .columnparty {
             flex: 1 1 100%; } }
     .has-video .video-loader-btn i {
       font-size: 27px; }
@@ -17456,8 +17515,11 @@ body.dark {
           font-size: 20px; } }
       @media (max-width: 767px) {
         .has-video .video-loader-btn i {
+          font-size: 17px;
           font-size: 17px; }
           .has-video .video-loader-btn i .theme-card {
+            flex: 1 1 100%; }
+          .has-video .video-loader-btn i .columnparty {
             flex: 1 1 100%; } }
     .has-video .video-loader-btn:hover {
       color: #005172;
@@ -17818,6 +17880,12 @@ body.dark {
   /* Prevent the carousel from shrinking below 300px */
   max-width: 500px;
   /* Optional: Set a maximum width */ }
+
+.rowparty {
+  display: flex; }
+
+.columnparty {
+  flex: 50%; }
 
 .block-display {
   display: block; }

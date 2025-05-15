@@ -56,6 +56,14 @@
   max-width: 500px; /* Optional: Set a maximum width */
 }
 
+.rowparty {
+  display: flex;
+}
+
+.columnparty {
+  flex: 50%;
+}
+
 .block-display {
   display:block
 }
