@@ -16579,7 +16579,7 @@ body.dark {
   border: 2px solid #0c3d86;
   margin-inline: 0px;
   display: block;
-  width: 200px !important;
+  width: 175px !important;
   justify-content: center;
   margin-top: 10px; }
 
@@ -17857,12 +17857,15 @@ body.dark {
   /* Prevent columns from shrinking too much */ }
 
 .left {
+  background-color: #b1ccf1;
   flex: 1; }
 
 .right {
+  background-color: #b1ccf1;
   flex: .75; }
 
 .middle {
+  background-color: #d0e7ff;
   flex: 2.5;
   flex-basis: 50%;
   /* Base width of the carousel */
