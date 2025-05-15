@@ -1,6 +1,7 @@
 ---
 ecwid: 713298030
 product_id: Scratch-First-and-Second
+product_image: /scratch.png 
 price:
 - name: "April 15, 22, 29; May 6"
   price: 135

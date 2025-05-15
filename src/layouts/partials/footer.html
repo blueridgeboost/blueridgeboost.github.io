@@ -1,34 +1,45 @@
-<footer class="bg-light section pb-0">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-xl-11">        
-        <div class="section pt-0">
-          <div class="row gy-4">
-            <div class="col-lg-7 col-sm-14">
-              <p class="mb-4">{{ site.Params.footer_content | markdownify }}</p>
-            </div>
-            <div class="col-lg-1 col-sm-2"></div>
-            <div class="col-lg-4 col-sm-8">
-              <div class="small-spacer"></div>
-              <a class="d-block h5 mb-3" href="{{ site.BaseURL | absLangURL}}">
-                Blue Ridge Boost &nbsp; {{ partial "logo.html" }} 
-              </a>
-              <p class="mb-4">2171 Ivy Rd<br>Charlottesville, VA 22903 <br>
-                (434)260-0636<br>
-                <a href="mailto:nora@blueridgeboost.com">nora@blueridgeboost.com</a>
-              </p>
-              {{ with site.Params.social }}
-              <ul class="list-inline social-icons">
-                {{ range . }}
-                <li class="list-inline-item"><a href="{{ .link | safeURL }}" title="{{ .title }}"><i
-                      class="{{ .icon }}"></i></a></li>
-                {{ end }}
-              </ul>
-              {{ end }}
-            </div>
-          </div>
-        </div>
-      </div>
+<footer class="section pb-2">
+<div class="container-fluid">
+  <div class="row">
+    <!-- Left Column: Shrinks to fit content -->
+    <div class="col-auto">
+      <a href="/vision">Vision</a><br>
+      <a href="/instructors">Meet the Instructors</a><br>
+      <a href="/scholarships">Scholarships</a><br>
+      <a href="/contact">Contact</a><br>
+    </div>
+
+    <div class="col-auto">
+      <a href="/terms">Terms of Service</a><br>
+      <a href="/privacy-policy">Privacy Policy</a><br>
+      <a href="/payment-policy">Payment Policy</a><br>
+      <a href="/refund-policy">Refund Policy</a><br>
+    </div>
+
+    <!-- Middle Column: Expands to occupy remaining space -->
+    <div class="col">
+      &nbsp;
+    </div>
+
+    <!-- Right Column: Shrinks to fit content -->
+    <div class="col-auto">
+      <a class="d-block h5" href="{{ site.BaseURL | absLangURL}}">
+        Blue Ridge Boost</a>
+      
+      <p class="mb-2">2171 Ivy Rd<br>Charlottesville, VA 22903 <br>
+        (434)260-0636<br>
+        <a href="mailto:nora@blueridgeboost.com">nora@blueridgeboost.com</a>
+      </p>
+      {{ with site.Params.social }}
+      <ul class="list-inline social-icons">
+        {{ range . }}
+        <li class="list-inline-item"><a href="{{ .link | safeURL }}" title="{{ .title }}"><i
+              class="{{ .icon }}"></i></a></li>
+        {{ end }}
+      </ul>
+      {{ end }}
     </div>
   </div>
+</div>
+
 </footer>

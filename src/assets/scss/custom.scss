@@ -5,7 +5,7 @@
 
 .darknote {
   background-color: $darkest-blue;
-  color: #ffffff;
+  color: #ffffff !important;
 }
  
 .card-body {
@@ -18,6 +18,65 @@
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
   color: var(--bs-card-title-color); }
+
+.container_frontpage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Space between columns */
+}
+
+.column {
+    padding: 1rem; /* Each column takes equal space */
+    min-width: 200px; /* Prevent columns from shrinking too much */
+}
+
+.left {
+    //background-color: #b1ccf1;
+    //background-color: #cdf0fd;
+    flex: 1;
+    
+}
+.right {
+  //background-color: #b1ccf1;
+  flex: .75;
+  
+}
+
+.middle {
+    //background-color: #d0e7ff;
+    background-color: #005172;
+    flex: 2.5;
+    flex-basis: 50%; /* Base width of the carousel */
+    min-width: 300px; /* Prevent the carousel from shrinking below 300px */
+    max-width: 600px; /* Optional: Set a maximum width */
+}
+.photo {
+  background-color: #d0e7ff;
+  flex: 2.5;
+  flex-basis: 50%; /* Base width of the carousel */
+  min-width: 300px; /* Prevent the carousel from shrinking below 300px */
+  max-width: 500px; /* Optional: Set a maximum width */
+}
+
+.rowparty {
+  display: flex;
+}
+
+.columnparty {
+  flex: 50%;
+}
+
+.block-display {
+  display:block
+}
+
+.divider {
+  height: 4px;
+  width: 800px;
+  flex: 1;
+  background-color: #0056b3;
+  margin: 1.5rem 0;
+}
 
 
 .learn-list {
@@ -42,16 +101,6 @@ padding-top: 1rem;
 box-sizing: border-box;
 }
 
-body {
-font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-font-size: 1rem;
--webkit-font-smoothing: antialiased;
-display: flex;
-justify-content: center;
-align-content: center;
-height: 100vh;
-width: 100vw;
-}
 
 form {
 // width: 30vw;

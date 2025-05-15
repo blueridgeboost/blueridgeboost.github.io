@@ -1,6 +1,7 @@
 ---
 ecwid: 733799005
 product_id: Sumo-Bots-Wednesday
+product_image: /sumo.png 
 price:
 - name: "May 7, 14, 21, 28; June 4 - Make Up Day"
   price: 155
@@ -9,8 +10,8 @@ weight: "101"
 category: "Session Classes"
 start_date: "2025-04-09"
 end_date: "2025-06-03"
-start_time: "5:00"
-end_time: "6:30"
+start_time: "6:00"
+end_time: "7:30"
 page_title: "Sumo Bots"
 page_subtitle: "Learn the fundamentals of robotics"
 featured: 0

@@ -1,10 +1,11 @@
 ---
 ecwid: 701939275
 product_id: Lego-Robots-Jr
+product_image: /indi.jpg 
 price:
 - name: "May 6, 13, 20, 27"
   price: 135
-  inventory: 3
+  inventory: 2
 weight: "102"
 category: "Session Classes"
 start_date: "2025-01-07"

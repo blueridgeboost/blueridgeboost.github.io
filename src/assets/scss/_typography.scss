@@ -1,18 +1,15 @@
 html {
   font-size: 1.5rem;
 }
-
-body {
-  font-family: $font-primary;
-  font-weight: 400;
-  line-height: 1.35;
-  color: $text-color;
+  
+b,
+strong {
+  font-weight: 700;
 }
 
 p {
   margin-bottom: 1rem;
 }
-
 
 h1 {
   font-size: 2rem;
@@ -49,21 +46,21 @@ h6 {
   color: $darkest-blue;
 }
 
+footer a {
+  color: $link-color;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: $link-hover-color;
+  text-decoration: $link-hover-decoration;
+}
+
 small,
 .small {
   font-size: 0.8rem;
 }
-.carousel-caption {
-  position: absolute;
-  right: ((100% - $carousel-caption-width) / 2);
-  bottom: 20px;
-  //left: ((100% - $carousel-caption-width) / 2);
-  z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: $carousel-caption-color;
-  text-align: left;
-}
+
 // List in descending order to prevent extra sort function
 $type-levels: 6, 5, 4, 3, 2, 1;
 
@@ -121,50 +118,6 @@ body.dark {
   font-weight: 1000;
 }
 
-.btn-description {
-  font-size:larger;
-  text-align: center;
-  color: $color-primary;
-  font-weight: 1000;
-  padding-top: 5px;
-  margin-bottom: 25px;
-  width: 250px;
-}
-
-.btnsmallest {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  padding-top: 1.2em;
-  padding-bottom: 1.2em;
-  font-size: 1.0rem;
-}
-
-.btnsmall {
-  transition-duration: 0.4s;
-  border-radius: 12px;
-  padding: 14px 40px;
-  background-color: #2054a1;
-  color: rgb(255, 255, 255);
-  border: 2px solid #0c3d86;
-  margin-inline: 10px;
-  display: block;
-  margin: 5px;
-}
-
-.btnsmall:hover {
-  background-color: #ffffff; 
-  color: rgb(9, 39, 73);
-}
-
-.mtgbtnwidth {
-  width: 250px;
-  display: inline-block;
-}
-
-.mtgbtnwidthm {
-  display: inline-block;
-  padding: 0.5em 0.8em;
-}
 
 .bigimage {
   display: block;

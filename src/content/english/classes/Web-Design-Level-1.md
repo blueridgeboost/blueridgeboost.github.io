@@ -1,6 +1,7 @@
 ---
 ecwid: 741894196
 product_id: Web-Design-Level-1
+product_image: /webdesign.png 
 price:
 - name: "June 2 to 6"
   price: 299

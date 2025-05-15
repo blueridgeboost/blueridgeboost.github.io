@@ -6,7 +6,3 @@ contentDir = "content/english"
 weight = 1
 [en.params]
 ########### footer content ##########
-footer_menu_left = "Company"
-footer_menu_middle = "Products"
-footer_menu_right = "Support"
-footer_content = "Enrichment and tutoring in Math and Computing<br>for any student who wants to learn. <br>Led by Ana Nora Evans in Charlottesville, Virginia.</p>"

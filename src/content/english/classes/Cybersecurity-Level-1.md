@@ -1,6 +1,7 @@
 ---
 ecwid: 741884186
 product_id: Cybersecurity-Level-1
+product_image: /cs1.png 
 price:
 - name: "May 31 & June 2"
   price: 199

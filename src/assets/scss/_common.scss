@@ -1,8 +1,3 @@
-body {
-  background-color: $body-bg;
-  overflow-x: hidden;
-}
-
 .preloader {
   z-index: 9898989 !important;
   background-color: $body-bg;
@@ -32,28 +27,30 @@ img {
   height: auto;
 }
 
-// a,
-// a:hover,
-// a:visited,
-// a:focus {
-//   text-decoration: none;
-//   color: $darkest-blue;
-// }
+a,
+a:hover,
+a:visited,
+a:focus {
+  text-decoration: none;
+  color: $darkest-blue;
+}
 
-// a.text-dark:hover {
-//   color: $color-primary !important;
-// }
 
-// a,
-// button,
-// select {
-//   cursor: pointer;
-//   transition: 0.2s ease;
 
-//   &:focus {
-//     outline: 0;
-//   }
-// }
+a.text-dark:hover {
+  color: $color-primary !important;
+}
+
+a,
+button,
+select {
+  cursor: pointer;
+  transition: 0.2s ease;
+
+  &:focus {
+    outline: 0;
+  }
+}
 
 .section {
   padding-top: 0.2rem;
@@ -310,21 +307,6 @@ form label {
     }
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin-top: 1.4rem;
-    margin-bottom: 0.7rem;
-  }
-  
-  b,
-  strong {
-    font-weight: 500;
-  }
-
   a {
     color: $text-color;
     text-decoration: underline;
@@ -333,6 +315,7 @@ form label {
       color: $color-primary;
     }
   }
+
 
   ol,
   ul {
