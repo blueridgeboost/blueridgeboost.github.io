@@ -9,7 +9,7 @@ style: justify-text-center
 ---
 
 <p>At Blue Ridge Boost, we turn your child's birthday into a tech-powered adventure with robotics and gaming fun!</p>
-<img src="images/wideroom.jpg" alt="BRB Gaming Room">
+<img src="images/wideroom.webp" alt="BRB Gaming Room">
 <!--<img src="images/fullroom.jpg" alt="BRB Gaming Room" width="500">-->
 <div class="container section">
     <ul>
@@ -89,7 +89,7 @@ style: justify-text-center
             </ul>
         </div>
         <div class="columnparty">
-            <img src="images/maxweb.jpg" alt="Minecraft Setup" width="400">
+            <img src="images/maxweb.webp" alt="Minecraft Setup" width="400">
         </div>
     </div>
     <div class="row">
