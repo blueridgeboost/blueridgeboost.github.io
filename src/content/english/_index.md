@@ -15,22 +15,26 @@ banner:
       - enable: true
         label: "Classes"
         link: "classes/"
-        style: btnsmall flexless
+        style: btnleft
       - enable: true
         label: "Camps"
         link: "summer-camps/"
-        style: btnsmall flexless
+        style: btnleft
       - enable: true
         label: "Tutoring"
         link: "tutoring/"
-        style: btnsmall flexless
+        style: btnleft
       - enable: true
-        label: "Certificate"
+        label: "Certifications"
         link: "/certifications"
-        style: btnsmall flexless
+        style: btnleft
+      - enable: true
+        label: "For Adults"
+        link: "/adults"
+        style: btnleft
     
   right_buttons:
-    group_label: ""
+    group_label: "Events"
     buttons:
       - enable: true
         label: "Birthday Parties"
@@ -44,10 +48,7 @@ banner:
         label: "Gaming Fridays"
         link: "parents-night-out/"
         style: "c-button"
-      - enable: true
-        label: "Classes for Adults"
-        link: "/adults"
-        style: "c-button"
+      
 
   all_buttons:    
     - camps_buttons:
