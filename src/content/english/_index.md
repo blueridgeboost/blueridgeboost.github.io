@@ -34,22 +34,29 @@ banner:
         style: btnleft
     
   right_buttons:
-    group_label: "Events"
+    group_label: ""
     buttons:
       - enable: true
         label: "Birthday Parties"
-        link: "celebrations/"
+        link: "/celebrations/"
         style: "c-button"
       - enable: true
         label: "World Robot Olympiad"
-        link: "wro/"
+        link: "/wro/"
         style: "c-button" 
       - enable: true
         label: "Gaming Fridays"
-        link: "parents-night-out/"
+        link: "/parents-night-out/"
+        style: "c-button"
+      - enable: true
+        label: "Open House"
+        link: "/open-house"
+        style: "c-button"
+      - enable: true
+        label: "Drop-In Robotics"
+        link: "/drop-in-robotics"
         style: "c-button"
       
-
   all_buttons:    
     - camps_buttons:
         enable: true

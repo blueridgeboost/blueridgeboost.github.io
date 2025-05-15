@@ -1,16 +1,6 @@
 html {
   font-size: 1.5rem;
 }
-
-// body {
-//   font-family: $font-primary;
-//   font-weight: 400;
-//   line-height: 1.35;
-//   color: $text-color;
-//   background-color: $body-bg;
-//   overflow-x: hidden;
-// }
-
   
 b,
 strong {
@@ -54,6 +44,16 @@ h5,
 h6 {
   font-family: $font-primary;
   color: $darkest-blue;
+}
+
+footer a {
+  color: $link-color;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: $link-hover-color;
+  text-decoration: $link-hover-decoration;
 }
 
 small,

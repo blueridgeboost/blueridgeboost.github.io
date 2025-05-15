@@ -39,7 +39,9 @@ $font-icon: '{{.font_icon | default "Font Awesome 6 Free"}}';
 // links
 $link-color: $darkest-blue;
 $link-decoration: none;
-$link-hover-decoration: webkit-transform(scale, 1.2);
+//$link-hover-decoration: webkit-transform(scale, 1.2);
+$link-hover-color: $darkest-blue;
+$link-hover-decoration: underline;
 
 {{ end }}
 
