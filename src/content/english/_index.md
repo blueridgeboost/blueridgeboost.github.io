@@ -26,7 +26,7 @@ banner:
         style: btnleft
       - enable: true
         label: "Certifications"
-        link: "/certifications"
+        link: "/quest-for-excellence-camps"
         style: btnleft
       - enable: true
         label: "For Adults"
