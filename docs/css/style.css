@@ -16228,9 +16228,19 @@ textarea.form-control-lg {
     border-color: #003f59 !important; }
 
 .btn-primary {
-  background: #005172;
+  background-color: #005172;
   color: #fff;
   border-color: #005172; }
+
+a.btn-primary
+a.btn-primary:active,
+a.btn-primary:visited {
+  color: #fff; }
+
+.btn-primary:hover {
+  background-color: #fff !important;
+  color: #003359;
+  border-color: #003359; }
 
 .btn-outline-primary {
   color: #005172;

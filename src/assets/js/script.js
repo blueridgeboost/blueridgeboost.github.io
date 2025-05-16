@@ -35,7 +35,6 @@ function ecwid_add_product_to_cart( product_id, product_options ) {
 }
 
 function aux_ecwid_add_product_to_cart( product_id, product_options ) {
-    //alert("Adding to cart: " + product_id + " with options: " + JSON.stringify(product_options));
     Ecwid.Cart.addProduct({
         id: product_id,
         quantity: 1,
