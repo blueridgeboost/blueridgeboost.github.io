@@ -135,9 +135,21 @@
 
 
 .btn-primary {
-  background: $color-primary;
+  background-color: $color-primary;
   color: $white;
   border-color: $color-primary;
+}
+
+a.btn-primary 
+a.btn-primary:active,
+a.btn-primary:visited {
+  color: $white;
+}
+
+.btn-primary:hover {
+  background-color: $white !important;
+  color: $darkest-blue;
+  border-color: $darkest-blue;
 }
 
 .btn-outline-primary {
