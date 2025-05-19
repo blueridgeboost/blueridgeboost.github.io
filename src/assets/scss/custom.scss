@@ -64,7 +64,23 @@
   min-width: 300px; /* Prevent the carousel from shrinking below 300px */
   max-width: 500px; /* Optional: Set a maximum width */
 }
+// columns for class page
+.classcolumn {
+  float: left;
+  padding: 10px;
+  height: 300px; 
+}
 
+.filterleft {
+  width: 25%;
+  flex: 1;
+}
+
+.classesright {
+  flex:3;
+  width: 75%;
+}
+// celebrations
 .rowparty {
   display: flex;
 }
