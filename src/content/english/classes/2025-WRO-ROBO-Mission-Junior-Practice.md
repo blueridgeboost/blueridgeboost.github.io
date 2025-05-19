@@ -22,4 +22,23 @@ grade_tags: ["5th","6th","7th"]
 subject_tags: ["Robotics"]
 difficulty: "Bot Builders Elite"
 ---
-<p>Do you already have your own robot and coach? We offer practice space for rent—10 hours for just $199.</p><p>Adult supervision is provided; however, no instruction or teaching will be offered.</p><p>Before you place your order, please make sure that your availability aligns with ours by visiting <a href="https://blueridgeboost-wro-robomission-junior.youcanbook.me" target="_blank">our booking page</a> to reserve your slots.<br></p>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Course",
+            "name": "Practice Space for WRO ROBO Mission Junior",
+            "description": "Practice Space for WRO ROBO Mission Junior - undefined",
+            "provider": {
+            "@type": "Organization",
+            "name": "Blue Ridge Boost",
+            "url": "https://blueridgeboost.com"
+            },
+            "offers": {
+            "@type": "Offer",
+            "price": "199",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "url": "https://blueridgeboost.com/classes/"
+            }
+        }
+        </script>
