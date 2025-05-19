@@ -136,13 +136,14 @@ body.dark {
 }
 
 .filter-range {
-  background-color: azure;
+  background-color: rgb(158, 208, 232);
   padding-top: 0px;
   padding-left: 8px;
   padding-bottom: 0px;
   margin-left: 25px;
   text-indent: 0px;
   font-size: 1.0em;
+  width: 25%;
 }
 
 .filter-range p {
@@ -155,6 +156,7 @@ body.dark {
 .filter-box {
   padding-right: 1.0rem;
   padding-left: 0.2rem;
+  
 }
 
 input[type=checkbox] {
@@ -166,6 +168,10 @@ input[type=checkbox] {
   margin-bottom: 1rem;
   margin: 0 auto;
   width: 100%;
+}
+
+.smallp {
+  font-size: smaller;
 }
 
 span.level-elite {

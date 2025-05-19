@@ -3,21 +3,35 @@
 {{ partial "page-header.html" . }}
 
 <div class="container">
-    <p>
+    <div class="smallp">
+    <!-- <p>
         We are dedicated to empowering the next generation of thinkers and innovators. Our classes in math, coding, and robotics are 
-        designed to inspire curiosity, foster creativity, and build life-long critical skills. 
-        Enjoy our <i>monthly subscription</i> classes that run from September through May and June through August - 
+        designed to inspire curiosity, foster creativity, and build life-long critical skills. <br> Enjoy our <i>monthly subscription</i> classes that run from September through May and June through August - 
         you can join at any time during the season. After being a subscription member for three 
         months, you'll receive a <b>10% discount</b> on our session-based classes, camps, and special events. 
         Our <i>session-based classes</i> have a set schedule with a fixed number of meetings, making it 
         easy to plan ahead.</p>
-    <p>These classes are for ages 6 to 18. Adults classes are available <a href="/adults">here</a>.</p>
+    <p>These classes are for ages 6 to 18. Adults classes are available <a href="/adults">here</a>.</p> -->
+    <p>
+        Blue Ridge Boost is dedicated to empowering the next generation of thinkers and innovators. Our classes in math, coding, and robotics are 
+        designed to inspire curiosity, foster creativity, and build life-long skills. 
+        <ul>
+        <li><b><i>Session-based classes</i></b> have a set schedule with a fixed number of meetings.</p></li>
+        <li><b><i>Monthly subscription classes</i></b> run September - May and June - August.
+        Join at any time. After being a subscription member for three 
+        months, you'll receive a <b>10% discount</b> on our session-based classes, camps, and events!</li>
+        </ul>
+    <p>These classes are for ages 6 to 18. Adults classes are available <b><a href="/adults">here</a></b></p>
+</div>
  <!-- Class List -->
+  <div class="row">
+    <div class="classcolumn filterleft">
     <p>
     {{ partial "class-filters.html" . }}
     </p>
+    </div>
     <div class="class-cards" >
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3"  style="row-gap: 1rem; display: flex; justify-content: center;">
+        <div class="classcolumn classesright row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3"  style="row-gap: 1rem; display: flex; justify-content: center;">
             {{ $pages :=  (where .Site.Pages "Section" "classes") }}
             {{ $pages = sort $pages ".Params.start_date" "asc"}}
             {{ $pages = sort $pages ".Params.weight" "desc" }}
@@ -28,6 +42,7 @@
                 {{ end }}
             {{ end }}
         </div>
+    </div>
     </div>
     <p></p>
         Please note:
