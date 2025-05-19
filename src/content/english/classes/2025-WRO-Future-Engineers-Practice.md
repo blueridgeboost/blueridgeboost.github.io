@@ -22,4 +22,23 @@ grade_tags: ["7th","8th","9th","10th","11th","12th"]
 subject_tags: ["Robotics"]
 difficulty: "Bot Builders Elite"
 ---
-<p>Do you already have your own robot and coach? We offer practice space for rent—10 hours for just $299.</p><p>Adult supervision is provided; however, no instruction or teaching will be offered.</p><p>We also provide space and tools to fabricate your own parts.</p><p>Before you place your order, please make sure that your availability aligns with ours by visiting <a href="https://blueridgeboost-wro-future-engineers.youcanbook.me" target="_blank">our booking page</a> to reserve your slots.<br></p>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Course",
+            "name": "Build and Practice Space for WRO Future Engineers",
+            "description": "Build and Practice Space for WRO Future Engineers - undefined",
+            "provider": {
+            "@type": "Organization",
+            "name": "Blue Ridge Boost",
+            "url": "https://blueridgeboost.com"
+            },
+            "offers": {
+            "@type": "Offer",
+            "price": "299",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "url": "https://blueridgeboost.com/classes/"
+            }
+        }
+        </script>
