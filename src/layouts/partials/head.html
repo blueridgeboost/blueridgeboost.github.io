@@ -1,25 +1,38 @@
 <meta charset="utf-8">
-<title>{{.Title | default site.Title}}</title>
+{{/*  <title>{{.Title | default site.Title}}</title>  */}}
 
 <!-- responsive meta -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 
 <meta name="theme-name" content="bigspring-hugo" />
 
+<link rel="alternate" href="{{ .Permalink }}" hreflang="en-us" />
+
 <!-- favicon -->
 {{ partialCached "favicon" . }}
+
+<meta name="1" content="after favicon" />
 
 <!-- manifest -->
 {{ partialCached "manifest" . }}
 
+<meta name="2" content="after manifest" />
+
 <!-- site verifications -->
 {{ partialCached "site-verifications.html" . }}
+
+<meta name="3" content="after site-verifications" />
 
 <!-- opengraph and twitter card -->
 {{ partial "basic-seo.html" . }}
 
+<meta name="4" content="after site-verifications" />
+
 <!-- custom script -->
 {{ partialCached "script.html" . }}
+
+
+<meta name="5" content="after custom script" />
 
 <!-- google analytics -->
 {{ template "_internal/google_analytics.html" . }}

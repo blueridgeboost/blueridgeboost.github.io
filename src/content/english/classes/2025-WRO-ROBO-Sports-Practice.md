@@ -1,20 +1,22 @@
 ---
 ecwid: 741774040
 product_id: 2025-WRO-ROBO-Sports-Practice
-product_image: /robosports.png 
+product_image: "/robosports.png"
+robots: "noindex, follow"
+category: "Single Class"
 price: 299
 inventory: 50
-weight: ""
-category: "Single Class"
+weight: "10"
 start_date: ""
 end_date: "2025-08-23"
 start_time: ""
 end_time: ""
 page_title: "Practice Space for WRO ROBO Sports"
 page_subtitle: "undefined"
-featured: 41
+featured: 71
+ribbon: ""
 title: "Practice Space for WRO ROBO Sports | Blue Ridge Boost"
-section: classes
+section: "classes"
 day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 grade_tags: ["5th","6th","7th","8th","9th","10th","11th","12th"]
 subject_tags: ["Robotics"]

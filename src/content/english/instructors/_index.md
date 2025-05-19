@@ -2,10 +2,33 @@
 title: "Team | Blue Ridge Boost"
 page_title: "Blue Ridge Boost Team"
 # meta description
-description: "Dedicated intructors teach computer coding, robotics, math, and computer science."
+description: "Meet the passionate team at Blue Ridge Boost in Charlottesville, VA! From expert educators in coding, robotics, and math to inspiring camp instructors, learn about the talented individuals driving our mission to empower students."
 draft: false
 # content section
 section: "instructors"
+
+keywords:
+  - Blue Ridge Boost team
+  - Blue Ridge Boost instructors
+  - STEM educators Charlottesville
+  - robotics instructors
+  - coding teachers
+  - math teachers Charlottesville
+  - Nora Evans Blue Ridge Boost
+  - robotics competition coaches
+  - STEM leadership team
+  - coding and robotics mentors
+  - computer science educators
+  - David Evans UVA
+  - Scarlett Morse Aerial Drones coach
+  - STEM summer camp instructors
+  - Charlottesville STEM programs
+  - Albemarle High School robotics
+  - STEM mentors for kids
+  - coding and math tutors
+  - UVA STEM instructors
+  - robotics competition coaching Charlottesville
+robots: "index, follow"
 
 owner:
   enable : true

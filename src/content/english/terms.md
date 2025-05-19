@@ -2,8 +2,28 @@
 title: "Terms and Conditions | Blue Ridge Boost"
 page_title: "Terms and Conditions for Blue Ridge Boost LLC"
 # meta description
-description: "Terms and Conditions for Blue Ridge Boost LLC"
+description: "Review the Terms and Conditions for Blue Ridge Boost, including enrollment policies, attendance limits, payment, refunds, conduct, liability waivers, and intellectual property. Contact us at nora@blueridgeboost.com or (434)260-0636 for questions."
 draft: false
+
+keywords:
+  - Blue Ridge Boost terms and conditions
+  - enrollment policies Blue Ridge Boost
+  - payment terms for STEM classes
+  - liability waiver Blue Ridge Boost
+  - refund and cancellation policy
+  - attendance policies Blue Ridge Boost
+  - media release consent Blue Ridge Boost
+  - student conduct rules
+  - intellectual property Blue Ridge Boost
+  - age requirements for camps
+  - day-care exemption policies
+  - Blue Ridge Boost attendance limits
+  - subscription cancellation rules
+  - STEM class terms Charlottesville
+  - Blue Ridge Boost liability disclaimer
+  - changes to terms and conditions
+robots: "index, follow"
+
 ---
 
 1. Enrollment

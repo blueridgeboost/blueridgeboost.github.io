@@ -2,10 +2,29 @@
 title: "Winter Break Camps | Blue Ridge Boost"
 page_title: "Winter Break Camps"
 # meta description
-description: 
+description: "Enroll your child (ages 6-13) in Winter Break Camps at Blue Ridge Boost in Charlottesville, VA! Hands-on learning in robotics, coding, and STEM activities. Half-day and full-day options available."
 draft: false
 # content section
 section: "winter-camps"
+
+keywords:
+  - Winter Break Camps Charlottesville
+  - Blue Ridge Boost winter camps
+  - STEM camps for kids
+  - robotics camps for kids
+  - coding camps Charlottesville
+  - winter camps for ages 6-13
+  - half-day winter camps
+  - full-day winter camps Charlottesville
+  - STEM learning during winter break
+  - Charlottesville winter break activities
+  - Blue Ridge Boost STEM programs
+  - coding and robotics winter camps
+  - snacks for winter camps
+  - drop-off and pick-up schedule
+  - hands-on learning for kids
+  - STEM enrichment camps Charlottesville
+robots: "index, follow"
 ---
 
 <p>All camps are held at Blue Ridge Boost, 2171 Ivy Rd, Charlottesville.</p>

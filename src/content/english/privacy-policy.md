@@ -2,8 +2,28 @@
 title: "Privacy Policy | Blue Ridge Boost"
 page_title: "Privacy Policy for Blue Ridge Boost LLC"
 # meta description
-description: "Privacy Policy for Blue Ridge Boost LLC"
+description: "Read Blue Ridge Boost's Privacy Policy to learn how we collect, use, and protect personal information, including video monitoring in classrooms. Contact us at nora@blueridgeboost.com or (434)260-0636 for questions or concerns."
 draft: false
+
+keywords:
+  - Blue Ridge Boost privacy policy
+  - data privacy Blue Ridge Boost
+  - Ring video camera classroom monitoring
+  - child safety and privacy
+  - personal information collection policy
+  - video footage privacy Blue Ridge Boost
+  - parent and guardian data privacy
+  - Blue Ridge Boost data security
+  - personal information consent policy
+  - privacy rights for parents
+  - children’s privacy in STEM programs
+  - classroom monitoring privacy
+  - secure personal data storage
+  - Blue Ridge Boost confidentiality practices
+  - personal data protection Charlottesville
+  - Blue Ridge Boost contact for privacy questions
+  - updated privacy policy 2024
+robots: "index, follow"
 ---
 
 Blue Ridge Boost LLC ("Blue Ridge Boost," "we," "us," or "our") is committed to protecting the privacy of the children enrolled in our classes and their parents/guardians. This Privacy Policy explains how we collect, use, and disclose personal information through the use of Ring video cameras in our classrooms. By enrolling your child in our classes, you consent to the practices described in this policy.
