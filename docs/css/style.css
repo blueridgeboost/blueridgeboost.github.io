@@ -17858,7 +17858,16 @@ body.dark {
 
 .darknote {
   background-color: #003359;
-  color: #ffffff !important; }
+  color: #ffffff !important;
+  display: inline-block;
+  /* Shrinks the div to fit its content */
+  margin: 10px;
+  /* Remove any extra margins if necessary */ }
+
+.darknote .a, .a:active, .a:hover, .a:visited {
+  color: #ffffff !important;
+  text-decoration: underline;
+  font-weight: 700; }
 
 .card-body {
   font-size: 1.0rem;

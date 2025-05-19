@@ -6,7 +6,14 @@
 .darknote {
   background-color: $darkest-blue;
   color: #ffffff !important;
+  display: inline-block; /* Shrinks the div to fit its content */
+  margin: 10px; /* Remove any extra margins if necessary */
 }
+.darknote  .a, .a:active, .a:hover, .a:visited {
+    color: #ffffff !important;
+    text-decoration: underline;
+    font-weight: $font-weight-bold;
+  }
  
 .card-body {
   font-size: 1.0rem;

@@ -53,6 +53,7 @@ day_tags: ["Saturday", "Sunday"]
 grade_tags: ["9th","10th","11th","12th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Syntax Sorcerers"
+attributes:
 ---
 <script type="application/ld+json">
         {

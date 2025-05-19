@@ -21,6 +21,7 @@ day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "
 grade_tags: ["8th", "9th","10th","11th","12th"]
 subject_tags: ["Robotics"]
 difficulty: "Bot Builders Elite"
+attributes:
 ---
 <script type="application/ld+json">
         {

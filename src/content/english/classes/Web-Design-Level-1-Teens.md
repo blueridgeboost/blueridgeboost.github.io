@@ -53,6 +53,7 @@ day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 grade_tags: ["7th", "8th", "9th","10th","11th","12th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
+attributes:
 ---
 <script type="application/ld+json">
         {

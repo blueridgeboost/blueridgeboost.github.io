@@ -156,13 +156,6 @@
       <description></description>
     </item>
     <item>
-      <title>Future Innovators | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/WRO-2025-Future-Inovators-Elementary-Coaching/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/WRO-2025-Future-Inovators-Elementary-Coaching/</guid>
-      <description>&lt;script type=&#34;application/ld+json&#34;&gt;&#xA;        {&#xA;            &#34;@context&#34;: &#34;https://schema.org&#34;,&#xA;            &#34;@type&#34;: &#34;Course&#34;,&#xA;            &#34;name&#34;: &#34;Future Innovators&#34;,&#xA;            &#34;description&#34;: &#34;Future Innovators - Ages 8 to 12&#34;,&#xA;            &#34;provider&#34;: {&#xA;            &#34;@type&#34;: &#34;Organization&#34;,&#xA;            &#34;name&#34;: &#34;Blue Ridge Boost&#34;,&#xA;            &#34;url&#34;: &#34;https://blueridgeboost.com&#34;&#xA;            },&#xA;            &#34;offers&#34;: {&#xA;            &#34;@type&#34;: &#34;Offer&#34;,&#xA;            &#34;price&#34;: &#34;199&#34;,&#xA;            &#34;priceCurrency&#34;: &#34;USD&#34;,&#xA;            &#34;availability&#34;: &#34;https://schema.org/InStock&#34;,&#xA;            &#34;url&#34;: &#34;https://blueridgeboost.com/classes/&#34;&#xA;            }&#xA;        }&#xA;        &lt;/script&gt;</description>
-    </item>
-    <item>
       <title>Girl-Powered Fridays | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/girl-powered-fridays/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -322,6 +315,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/wro/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Blue Ridge Boost&lt;/strong&gt; is proud to host a WRO-USA Open in Charlottesville, Virginia.&#xA;Compete for a chance to qualify for the &lt;b&gt;&lt;a href=&#34;https://www.uselyouthrobotics.com/open-championship-americas-panama-city-panama&#34;&gt;Open Championship: Americas&lt;/a&gt;&lt;/b&gt; in Panama City, Panama!&lt;/p&gt;&#xA;  &lt;!-- Save the Date Banner --&gt;&#xD;&#xA;  &lt;div class=&#34;container mt-4&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;hero-section&#34;&gt;&#xD;&#xA;      &lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; Saturday, August 23, 2025&lt;/p&gt;&#xD;&#xA;      &lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Charlottesville, VA&lt;/p&gt;&#xD;&#xA;      &lt;p&gt;Several Teams Will Join Team USA Robotics for World Robot Olympiad Open Championship, Americas in Panama City, Panama!&lt;/p&gt;&#xD;&#xA;      &lt;p&gt;Exact location in Charlottesville and time of the event coming soon!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WRO 2025 Future Innovators Coaching Program | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/WRO-2025-Future-Inovators-Elementary-Coaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/WRO-2025-Future-Inovators-Elementary-Coaching/</guid>
+      <description>&lt;script type=&#34;application/ld+json&#34;&gt;&#xA;        {&#xA;            &#34;@context&#34;: &#34;https://schema.org&#34;,&#xA;            &#34;@type&#34;: &#34;Course&#34;,&#xA;            &#34;name&#34;: &#34;WRO 2025 Future Innovators Coaching Program&#34;,&#xA;            &#34;description&#34;: &#34;WRO 2025 Future Innovators Coaching Program - Ages 8 to 12&#34;,&#xA;            &#34;provider&#34;: {&#xA;            &#34;@type&#34;: &#34;Organization&#34;,&#xA;            &#34;name&#34;: &#34;Blue Ridge Boost&#34;,&#xA;            &#34;url&#34;: &#34;https://blueridgeboost.com&#34;&#xA;            },&#xA;            &#34;offers&#34;: {&#xA;            &#34;@type&#34;: &#34;Offer&#34;,&#xA;            &#34;price&#34;: &#34;199&#34;,&#xA;            &#34;priceCurrency&#34;: &#34;USD&#34;,&#xA;            &#34;availability&#34;: &#34;https://schema.org/InStock&#34;,&#xA;            &#34;url&#34;: &#34;https://blueridgeboost.com/classes/&#34;&#xA;            }&#xA;        }&#xA;        &lt;/script&gt;</description>
     </item>
   </channel>
 </rss>

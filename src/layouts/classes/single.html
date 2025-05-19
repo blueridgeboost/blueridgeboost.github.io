@@ -3,40 +3,21 @@
 {{ partial "page-header.html" . }}
 {{ $id := .Params.ecwid }}
 <section class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                {{ $ecwid_category := .Params.category }}
-                {{.Params.start_time}} &ndash; {{.Params.end_time}}
-                {{ with .Params.day_tags }}
-                    {{ if eq (len . ) 1 }}
-                    on 
-                        {{ range . }} {{.}}s {{end}}
-                    {{ end }}
+    {{ $attributes := .Params.attributes }}
+    {{ if $attributes }}
+        <div class="container darknote">
+            <center>
+                <strong>When:</strong> {{ $attributes.When }} 
+                {{ if $attributes.Booking_Link }}
+                    <a href="{{ $attributes.Booking_Link }}" class="darknote">here.</a>
                 {{ end }}
-            </div>
-            
-            {{ if eq $ecwid_category "Subscription Classes" }}
-                <div class="col">
-                    {{ if eq .Params.start_date "" }}
-                    Join Anytime
-                    {{ else }}
-                    {{ .Params.start_date | time | dateFormat "Jan 2, 06" }} to {{ .Params.end_date | time | dateFormat "Jan 2, 06" }}
-                    {{ end }}
-                </div>
-            {{ end }}
-        <div class="col">
-            Grades: {{ with .Params.grade_tags }}
-                {{ if gt (len .) 0 }}
-                    {{ index . 0 }}
-                    {{ if gt (len .) 1 }}
-                        to {{ index . (sub (len .) 1) }}
-                    {{ end }}
-                {{ end }}
-            {{ end }}
+                <br>
+                <strong>Duration:</strong> {{ $attributes.Duration }}.
+                <br>
+                <strong>Who:</strong> {{ $attributes.Who }}.
+            </center>
         </div>
-        </div>
-    </div>
+    {{ end }}
     <div class="container">
         <div id="my-store-106136041"></div>
 <div><script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code&data_date=2025-02-21" charset="utf-8"></script>
