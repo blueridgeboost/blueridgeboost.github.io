@@ -1,14 +1,36 @@
 ---
-
 title: "Computer Coding, Math, and Robotics Classes in Charlottesville | Blue Ridge Boost"
 page_title: "Classes at Blue Ridge Boost"
 # meta description
-description: "Sign up to learn robotics, coding, and math!"
+description: "Explore computer coding, math, and robotics classes at Blue Ridge Boost in Charlottesville, VA! Programs for ages 6-18 include beginner to advanced levels, monthly subscriptions, and session-based classes. Join anytime and ignite your curiosity!"
 draft: false
 # content section
 section: "classes"
 layout: "list"
-
+title: "Computer Coding, Math, and Robotics Classes in Charlottesville | Blue Ridge Boost"
+description: "Empower kids and teens with Blue Ridge Boost's coding, math, and robotics classes in Charlottesville! Build problem-solving skills, foster creativity, and explore STEM concepts in fun and engaging ways."
+keywords:
+  - coding classes for kids
+  - math classes for kids
+  - robotics classes for kids
+  - STEM classes Charlottesville
+  - programming classes for kids
+  - robotics workshops for kids
+  - math tutoring Charlottesville
+  - coding camps for kids
+  - Blue Ridge Boost classes
+  - scratch coding for homeschoolers
+  - competitive math classes for kids
+  - robotics for beginners
+  - bot builders elite
+  - code cadets
+  - syntax sorcerers
+  - algorithm architects
+  - robotics for teens
+  - advanced coding classes for teens
+  - hands-on STEM education
+  - WRO robotics practice
+robots: "index, follow"
 ---
 
 <p></p>

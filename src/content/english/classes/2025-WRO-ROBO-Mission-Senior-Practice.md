@@ -1,20 +1,22 @@
 ---
 ecwid: 747745364
 product_id: 2025-WRO-ROBO-Mission-Senior-Practice
-product_image: /marssenior.jpg 
+product_image: "/marssenior.jpg"
+robots: "noindex, follow"
+category: "Single Class"
 price: 199
 inventory: 50
-weight: ""
-category: "Single Class"
+weight: "11"
 start_date: ""
 end_date: "2025-08-22"
 start_time: ""
 end_time: ""
 page_title: "Practice Space for WRO ROBO Mission Senior"
 page_subtitle: "undefined"
-featured: 38
+featured: 68
+ribbon: ""
 title: "Practice Space for WRO ROBO Mission Senior | Blue Ridge Boost"
-section: classes
+section: "classes"
 day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 grade_tags: ["8th", "9th","10th","11th","12th"]
 subject_tags: ["Robotics"]

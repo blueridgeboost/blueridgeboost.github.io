@@ -2,8 +2,27 @@
 title: "Vision and History | Blue Ridge Boost"
 page_title: "Blue Ridge Boost"
 # meta description
-description: "Robotics, math, computing and chess for eager learners in Charlottesville!"
+description: "Explore Blue Ridge Boost's vision and history. Founded to provide affordable, year-round education in coding, robotics, and math, we emphasize hands-on learning, independent thinking, and inclusivity. Learn about our programs, scholarships, and community impact in Charlottesville, VA."
 draft: false
+
+keywords:
+  - Blue Ridge Boost history
+  - Blue Ridge Boost mission
+  - affordable STEM education Charlottesville
+  - coding classes for kids
+  - robotics classes for kids Charlottesville
+  - math tutoring Blue Ridge Boost
+  - Girl Powered pledge Blue Ridge Boost
+  - scholarships for STEM education
+  - Charlottesville Kids' Chess Club
+  - independent learning through math
+  - hands-on coding education
+  - in-person robotics classes
+  - STEM education for financial aid students
+  - Blue Ridge Boost educational philosophy
+  - fostering girls in engineering
+  - holistic STEM learning Charlottesville
+robots: "index, follow"
 ---
 
 ## History of Blue Ridge Boost

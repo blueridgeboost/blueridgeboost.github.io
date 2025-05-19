@@ -2,10 +2,33 @@
 title: "1-Day Camps | Blue Ridge Boost"
 page_title: "One-Day Camps"
 # meta description
-description: 
+description: "Join Blue Ridge Boost's 1-Day Camps in Charlottesville, VA! Offering engaging programs in robotics, coding, and math for kids aged 6-13 during school breaks, snow days, and teacher workdays. Half-day and full-day options available." 
 draft: false
 # content section
 section: "1-day-camps"
+
+keywords:
+  - 1-day camps Charlottesville
+  - Blue Ridge Boost 1-day camps
+  - robotics day camps
+  - coding day camps
+  - math day camps
+  - school break camps Charlottesville
+  - snow day camps Charlottesville
+  - STEM camps for kids
+  - single-day STEM programs
+  - half-day STEM camps
+  - full-day STEM camps
+  - Albemarle County Public Schools day camps
+  - Charlottesville City Public Schools camps
+  - Peabody School day camps
+  - St. Anne's Belfield day camps
+  - Covenant School STEM camps
+  - school closure day camps
+  - STEM programs for ages 6-13
+  - robotics and coding education Charlottesville
+robots: "index, follow"
+
 ---
 
 <div class="container">

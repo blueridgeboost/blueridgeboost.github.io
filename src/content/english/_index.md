@@ -1,6 +1,30 @@
 ---
 type: "home"
 title: "Computer Coding, Robotics, Math, Chess | Blue Ridge Boost"
+description: "Blue Ridge Boost offers engaging classes, camps, and tutoring in computer coding, robotics, math, and chess for kids, teens, and adults in Charlottesville, VA. Explore hands-on learning, certifications, and exciting events like Gaming Fridays and Drop-In Robotics!"
+
+keywords:
+  - Blue Ridge Boost
+  - computer coding classes Charlottesville
+  - robotics classes for kids
+  - STEM education Charlottesville
+  - math tutoring Charlottesville
+  - robotics competitions Charlottesville
+  - chess classes for kids
+  - STEM certifications
+  - summer STEM camps
+  - coding camps for kids
+  - Charlottesville STEM programs
+  - drop-in robotics activities
+  - hands-on STEM learning
+  - gaming Fridays Charlottesville
+  - World Robot Olympiad Charlottesville
+  - Blue Ridge Boost birthday parties
+  - STEM classes for adults
+  - science and math tutoring
+  - robotics and coding certifications
+  - STEM education events
+robots: "index, follow"
 
 ####################### Banner #########################
 banner:

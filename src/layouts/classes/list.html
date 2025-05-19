@@ -20,7 +20,7 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3"  style="row-gap: 1rem; display: flex; justify-content: center;">
             {{ $pages :=  (where .Site.Pages "Section" "classes") }}
             {{ $pages = sort $pages ".Params.start_date" "asc"}}
-            {{ $pages = sort $pages ".Params.weight" "desc" }}
+            {{ $pages = sort $pages ".Params.weight" "asc" }}
             {{ range $pages }}
                 {{ if eq .Params.layout "list" }}
                 {{ else }}

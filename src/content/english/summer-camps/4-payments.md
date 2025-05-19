@@ -6,6 +6,27 @@ description:
 draft: false
 # content section
 layout: "single"
+
+keywords:
+  - summer camps 4 payments
+  - Blue Ridge Boost payment options
+  - flexible payment for summer camps
+  - robotics summer camps payment plan
+  - coding camp payment options
+  - affordable STEM summer camps
+  - STEM camps Charlottesville
+  - split payments summer camps
+  - Blue Ridge Boost tuition plans
+  - robotics and coding camps for kids
+  - STEM education payment flexibility
+  - half-day STEM camps
+  - full-day STEM camps
+  - payment options for coding camps
+  - robotics camp installment plans
+  - accessible STEM summer camps
+  - Charlottesville STEM programs
+  - affordable payment plans for parents
+robots: "index, follow"
 ---
 
 <h3>

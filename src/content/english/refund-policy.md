@@ -2,8 +2,27 @@
 title: "Refund Policy | Blue Ridge Boost"
 page_title: "Refund Policy for Blue Ridge Boost LLC"
 # meta description
-description: "Refund Policy for Blue Ridge Boost LLC"
+description: "Review Blue Ridge Boost's refund policy, including no-refund guidelines, transfer options, subscription cancellations, and event rescheduling. Contact us at nora@blueridgeboost.com or (434)260-0636 for more information."
 draft: false
+
+keywords:
+  - Blue Ridge Boost refund policy
+  - no refund policy Blue Ridge Boost
+  - Blue Ridge Boost transfer policy
+  - activity rescheduling Blue Ridge Boost
+  - subscription cancellation policy
+  - transfers for STEM activities
+  - Blue Ridge Boost enrollment changes
+  - cancelled event refund policy
+  - refund exceptions Blue Ridge Boost
+  - no refunds for missed events
+  - student absence refund policy
+  - Blue Ridge Boost program changes
+  - STEM classes refund rules
+  - refund for cancelled events
+  - Blue Ridge Boost customer support
+  - subscription transfer policy
+robots: "index, follow"
 ---
 
 ## General Policy: No Refunds

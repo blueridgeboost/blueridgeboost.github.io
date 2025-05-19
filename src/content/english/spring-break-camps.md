@@ -2,10 +2,28 @@
 title: "Spring Break Camps | Blue Ridge Boost"
 page_title: "Spring Break Camps"
 # meta description
-description: 
+description: "Enroll your child (ages 6-13) in engaging Spring Break Camps at Blue Ridge Boost in Charlottesville, VA! Hands-on learning in robotics, coding, and STEM activities. Half-day and full-day options available."
 draft: false
 # content section
 section: "spring-break-camps"
+keywords:
+  - Spring Break Camps Charlottesville
+  - Blue Ridge Boost spring camps
+  - STEM camps for kids
+  - robotics camps Charlottesville
+  - coding camps for kids
+  - spring camps for ages 6-13
+  - Blue Ridge Boost STEM activities
+  - half-day spring break camps
+  - full-day spring camps Charlottesville
+  - STEM classes during spring break
+  - Charlottesville kids camps
+  - STEM learning camps Virginia
+  - Blue Ridge Boost robotics and coding
+  - snacks for spring break camps
+  - drop-off and pick-up schedule Blue Ridge Boost
+  - STEM enrichment programs Charlottesville
+robots: "index, follow"
 ---
 
 <p>All camps are held at Blue Ridge Boost, 2171 Ivy Rd, Charlottesville.</p>

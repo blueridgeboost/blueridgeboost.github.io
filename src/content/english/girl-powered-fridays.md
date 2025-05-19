@@ -2,11 +2,34 @@
 title: "Girl-Powered Fridays | Blue Ridge Boost"
 page_title: "Girl-Powered Fridays"
 # meta description
-description: 
+description: "Join Girl-Powered Fridays at Blue Ridge Boost in Charlottesville, VA! An inspiring evening for girls to explore STEM with hands-on activities, creativity, and innovation. Enjoy complimentary pizza and dessert. Check back in August for the 2025-2026 schedule!"
 draft: false
 # content section
 section: "girl-powered-fridays"
 layout: single
+
+keywords:
+  - Girl-Powered Fridays Charlottesville
+  - STEM for girls
+  - empowering girls in STEM
+  - Blue Ridge Boost girl-focused events
+  - girls in science and technology
+  - STEM activities for girls
+  - STEM innovation for girls Charlottesville
+  - girls STEM education events
+  - STEM discovery evenings
+  - Blue Ridge Boost STEM events
+  - breaking barriers in STEM
+  - girls STEM empowerment programs
+  - STEM workshops for girls
+  - girl-focused robotics and coding events
+  - STEM creativity events Charlottesville
+  - girls STEM learning opportunities
+  - fun STEM events for girls
+  - Charlottesville STEM for girls
+  - pizza and STEM discovery events
+robots: "index, follow"
+
 ---
 
  <div class="container">

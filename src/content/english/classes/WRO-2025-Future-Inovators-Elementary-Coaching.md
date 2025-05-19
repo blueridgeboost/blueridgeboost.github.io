@@ -1,21 +1,23 @@
 ---
 ecwid: 747682356
 product_id: WRO-2025-Future-Inovators-Elementary-Coaching
-product_image: /build.jpg 
+product_image: "/build.jpg"
+robots: "noindex, follow"
+category: "Subscription Classes"
 price: 199
 inventory: 100
 payment_link: ""
-weight: "88"
-category: "Subscription Classes"
+weight: "0"
 start_date: ""
 end_date: "2025-08-22"
 start_time: ""
 end_time: ""
 page_title: "Future Innovators"
 page_subtitle: "Ages 8 to 12"
-featured: 36
+featured: 66
+ribbon: ""
 title: "Future Innovators | Blue Ridge Boost"
-section: classes
+section: "classes"
 day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 grade_tags: ["3rd","4th","5th"]
 subject_tags: ["Computer Coding", "Robotics"]

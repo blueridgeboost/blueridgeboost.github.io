@@ -44,11 +44,11 @@ crisp_website_id = "" # replace this code with yours
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-keywords = ["Charlottesville coding for kids", 
-        "Charlottesville camps", 
-        "Charlottesville robotics", 
-        "cvillecoding", "coding", "summer camps"]
-description = "Computer coding, robotics, math, and chess"
+# keywords = ["Charlottesville coding for kids", 
+#         "Charlottesville camps", 
+#         "Charlottesville robotics", 
+#         "cvillecoding", "coding", "summer camps"]
+# description = "Computer coding, robotics, math, and chess"
 author = "Blue Ridge Boost"
 image = "images/brand/blue-ridge-highlands-cropped.png"        
 
@@ -101,9 +101,24 @@ icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons
 link = "https://facebook.com/blueridgeboost"
 
 [[social]]
+title = "instagram"
+icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.instagram.com/blueridgeboost/"
+
+[[social]]
 title = "twitter"
 icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
 link = "https://x.com/blueridgeboost"
+
+[[social]]
+title = "youtube"
+icon = "fab fa-youtube" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.youtube.com/@blueridgeboost"
+
+[[social]]
+title = "tiktok"
+icon = "fab fa-tiktok" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.tiktok.com/@blueridgeboost"
 
 [[social]]
 title = "github"
