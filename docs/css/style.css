@@ -17923,17 +17923,25 @@ body.dark {
   font-weight: 1000; }
 
 .darknote {
-  background-color: #003359;
-  color: #ffffff !important;
-  display: inline-block;
-  /* Shrinks the div to fit its content */
-  margin: 10px;
-  /* Remove any extra margins if necessary */ }
+  background-color: #001f3f;
+  /* Replace $darkest-blue with a real color code */
+  color: #ffffff;
+  /* Use white text */
+  display: block;
+  /* Full-width container instead of inline-block */
+  padding: 10px;
+  /* Add padding for better spacing */
+  margin: 10px 0;
+  /* Vertical margin to separate from other elements */
+  text-align: center;
+  /* Center-align text */
+  border-radius: 5px;
+  /* Optional: Rounded corners for better aesthetics */ }
 
-.darknote .a, .a:active, .a:hover, .a:visited {
+.darknote-link {
   color: #ffffff !important;
-  text-decoration: underline;
-  font-weight: 700; }
+  text-decoration: underline !important;
+  font-weight: 700 !important; }
 
 .card-body {
   font-size: 1.0rem;

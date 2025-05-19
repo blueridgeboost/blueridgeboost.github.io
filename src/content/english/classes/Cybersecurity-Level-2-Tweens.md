@@ -55,23 +55,3 @@ subject_tags: ["Computer Coding"]
 difficulty: "Syntax Sorcerers"
 attributes:
 ---
-<script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Course",
-            "name": "Cybersecurity Level 2 Certification (Teens Only)",
-            "description": "Cybersecurity Level 2 Certification (Teens Only) - Preparation and Certification Exam",
-            "provider": {
-            "@type": "Organization",
-            "name": "Blue Ridge Boost",
-            "url": "https://blueridgeboost.com"
-            },
-            "offers": {
-            "@type": "Offer",
-            "price": "299",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-            "url": "https://blueridgeboost.com/classes/"
-            }
-        }
-        </script>

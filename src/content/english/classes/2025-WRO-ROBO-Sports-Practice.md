@@ -23,23 +23,3 @@ subject_tags: ["Robotics"]
 difficulty: "Bot Builders Elite"
 attributes:
 ---
-<script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Course",
-            "name": "Practice Space for WRO ROBO Sports",
-            "description": "Practice Space for WRO ROBO Sports - undefined",
-            "provider": {
-            "@type": "Organization",
-            "name": "Blue Ridge Boost",
-            "url": "https://blueridgeboost.com"
-            },
-            "offers": {
-            "@type": "Offer",
-            "price": "299",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-            "url": "https://blueridgeboost.com/classes/"
-            }
-        }
-        </script>

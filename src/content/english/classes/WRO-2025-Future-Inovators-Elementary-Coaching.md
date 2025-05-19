@@ -23,28 +23,12 @@ grade_tags: ["3rd","4th","5th"]
 subject_tags: ["Computer Coding", "Robotics"]
 difficulty: "Bot Builders Elite"
 attributes:
-  When: "Book your weekly meetings"
-  Booking_Link: "https://buff.ly/vYm4x7n"
-  Who: "Grades 3 to 5"
-  Duration: "60 minutes"
+- name: "When"
+  value: "Your choice!"
+- name: "Booking Link"
+  value: "https://buff.ly/vYm4x7n"
+- name: "Who"
+  value: "Grades 3 to 5"
+- name: "Session Duration"
+  value: "60 minutes"
 ---
-<script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Course",
-            "name": "WRO 2025 Future Innovators Coaching Program",
-            "description": "WRO 2025 Future Innovators Coaching Program - Ages 8 to 12",
-            "provider": {
-            "@type": "Organization",
-            "name": "Blue Ridge Boost",
-            "url": "https://blueridgeboost.com"
-            },
-            "offers": {
-            "@type": "Offer",
-            "price": "199",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-            "url": "https://blueridgeboost.com/classes/"
-            }
-        }
-        </script>

@@ -23,23 +23,3 @@ subject_tags: ["Robotics"]
 difficulty: "Bot Builders Elite"
 attributes:
 ---
-<script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Course",
-            "name": "Build and Practice Space for WRO Future Engineers",
-            "description": "Build and Practice Space for WRO Future Engineers - undefined",
-            "provider": {
-            "@type": "Organization",
-            "name": "Blue Ridge Boost",
-            "url": "https://blueridgeboost.com"
-            },
-            "offers": {
-            "@type": "Offer",
-            "price": "299",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-            "url": "https://blueridgeboost.com/classes/"
-            }
-        }
-        </script>

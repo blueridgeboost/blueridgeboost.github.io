@@ -55,23 +55,3 @@ subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 attributes:
 ---
-<script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Course",
-            "name": "Web Design Level 1 Certification (Tweens and Teens Only)",
-            "description": "Web Design Level 1 Certification (Tweens and Teens Only) - Preparation and Certification Exam",
-            "provider": {
-            "@type": "Organization",
-            "name": "Blue Ridge Boost",
-            "url": "https://blueridgeboost.com"
-            },
-            "offers": {
-            "@type": "Offer",
-            "price": "599",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-            "url": "https://blueridgeboost.com/classes/"
-            }
-        }
-        </script>
