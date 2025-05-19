@@ -2,10 +2,33 @@
 title: "Drop-In Robotics | Blue Ridge Boost"
 page_title: "Drop-In Robotics Play Time for Ages 6-10"
 # meta description
-description: 
+description: "Join Blue Ridge Boost's Drop-In Robotics Play Time in Charlottesville, VA! Perfect for kids ages 6-10 to build, program, and play with robots. Held every second Saturday of the month from 10:00 AM to 12:00 PM. No experience needed—just $45 per session!"
 draft: false
 # content section
 section: "drop-in-robotics"
+
+keywords:
+  - drop-in robotics Charlottesville
+  - robotics play time for kids
+  - STEM activities for ages 6-10
+  - Blue Ridge Boost robotics
+  - hands-on robotics for kids
+  - STEM exploration Charlottesville
+  - Blue Ridge Boost drop-in sessions
+  - monthly robotics events for kids
+  - creative robotics play sessions
+  - robotics events Charlottesville
+  - kids robotics programs Virginia
+  - build and program robots for beginners
+  - STEM learning through play
+  - fun robotics activities for kids
+  - robotics problem-solving for children
+  - robotics teamwork activities
+  - Blue Ridge Boost Saturday robotics
+  - affordable kids robotics sessions
+  - second Saturday robotics events
+robots: "index, follow"
+
 ---
 
 <div class="event-details">

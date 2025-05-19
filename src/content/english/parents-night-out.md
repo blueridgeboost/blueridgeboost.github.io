@@ -2,10 +2,32 @@
 title: "Parents' Night Out | Blue Ridge Boost"
 page_title: "Parents' Night Out"
 # meta description
-description: 
+description: "Enjoy Parents' Night Out while kids (ages 6-14) have an epic gaming adventure at Blue Ridge Boost in Charlottesville, VA! Join us select Fridays, 5:30-8:30 PM, for Minecraft, Fortnite, Roblox, and more. Free pizza included!"
 draft: false
 # content section
 section: "parents-night-out"
+
+keywords:
+  - Parents' Night Out Charlottesville
+  - Blue Ridge Boost gaming nights
+  - kids gaming events Charlottesville
+  - Minecraft gaming nights
+  - Fortnite events for kids
+  - Roblox gaming nights for kids
+  - gaming Fridays Charlottesville
+  - fun events for kids ages 6-14
+  - Blue Ridge Boost kids gaming
+  - STEM gaming events
+  - Charlottesville Friday night events for kids
+  - free pizza kids events Charlottesville
+  - gaming and STEM activities
+  - multiplayer gaming nights for kids
+  - Minecraft Education events
+  - Fortnite for kids Charlottesville
+  - Roblox gaming Fridays Charlottesville
+  - Blue Ridge Boost monthly events
+  - kids gaming with snacks
+robots: "index, follow"
 ---
 
 <div class="container">

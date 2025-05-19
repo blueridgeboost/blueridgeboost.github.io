@@ -2,8 +2,27 @@
 title: "Payment Policy | Blue Ridge Boost"
 page_title: "Payment Policy for Blue Ridge Boost LLC"
 # meta description
-description: "Payment Policy for Blue Ridge Boost LLC"
+description: "Learn about Blue Ridge Boost's payment policy, including accepted methods, due dates, subscriptions, late fees, refunds, and financial assistance. For questions, contact us at nora@blueridgeboost.com or call (434)260-0636."
 draft: false
+
+keywords:
+  - Blue Ridge Boost payment policy
+  - payment methods Blue Ridge Boost
+  - class payment due dates
+  - recurring payments Blue Ridge Boost
+  - subscription cancellation Blue Ridge Boost
+  - late payment fees
+  - refunds and cancellations policy
+  - Blue Ridge Boost financial assistance
+  - returned checks policy
+  - price changes Blue Ridge Boost
+  - payment disputes Blue Ridge Boost
+  - STEM classes payment terms
+  - robotics and coding class payments
+  - financial aid for STEM classes
+  - billing and subscription policy
+  - Blue Ridge Boost payment support
+robots: "index, follow"
 ---
 
 ## Accepted Payment Methods
