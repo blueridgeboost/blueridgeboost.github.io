@@ -12,7 +12,7 @@ end_date: "2025-08-22"
 start_time: ""
 end_time: ""
 page_title: "Practice Space for WRO ROBO Mission Elementary"
-page_subtitle: "undefined"
+page_subtitle: "Children born years 2013-2017."
 featured: 70
 ribbon: ""
 title: "Practice Space for WRO ROBO Mission Elementary | Blue Ridge Boost"
@@ -22,4 +22,12 @@ grade_tags: ["3rd","4th","5th"]
 subject_tags: ["Robotics"]
 difficulty: "Bot Builders Elite"
 attributes:
+- name: "When"
+  value: "Your choice!"
+- name: "Booking Link"
+  value: "https://blueridgeboost-wro-robomission-elementary.youcanbook.me"
+- name: "Who"
+  value: "Children 8-12 years old."
+- name: "Session Duration"
+  value: "60 minutes"
 ---

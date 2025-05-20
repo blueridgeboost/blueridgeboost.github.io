@@ -12,7 +12,7 @@ end_date: "2025-08-22"
 start_time: ""
 end_time: ""
 page_title: "Build and Practice Space for WRO Future Engineers"
-page_subtitle: "undefined"
+page_subtitle: "Children born years 2007-2011."
 featured: 72
 ribbon: ""
 title: "Build and Practice Space for WRO Future Engineers | Blue Ridge Boost"
@@ -22,4 +22,12 @@ grade_tags: ["7th","8th","9th","10th","11th","12th"]
 subject_tags: ["Robotics"]
 difficulty: "Bot Builders Elite"
 attributes:
+- name: "When"
+  value: "Your choice!"
+- name: "Booking Link"
+  value: "https://blueridgeboost-wro-future-engineers.youcanbook.me/"
+- name: "Who"
+  value: "Children 14-19 years old."
+- name: "Session Duration"
+  value: "60 minutes"
 ---

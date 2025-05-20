@@ -43,15 +43,21 @@ start_date: ""
 end_date: ""
 start_time: "2:00"
 end_time: "5:00"
-page_title: "Java Level 1 Certification (Teens Only)"
-page_subtitle: "Preparation and Certification Exam"
+page_title: "Java 1 (Teens)"
+page_subtitle: "Weekdays, 2:00 to 5:00"
 featured: 73
 ribbon: ""
-title: "Java Level 1 Certification (Teens Only) | Blue Ridge Boost"
+title: "Java 1 (Teens) | Blue Ridge Boost"
 section: "classes"
 day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 grade_tags: ["7th","8th","9th","10th","11th","12th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 attributes:
+- name: "When"
+  value: "Weekdays from 2:00 to 5:00."
+- name: "Who"
+  value: "Grades 8 to 12."
+- name: "Session Duration"
+  value: "3 hours"
 ---

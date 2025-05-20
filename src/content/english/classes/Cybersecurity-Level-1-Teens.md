@@ -43,15 +43,21 @@ start_date: ""
 end_date: ""
 start_time: "10:00"
 end_time: "2:00"
-page_title: "Cybersecurity Level 1 Certification (Teens Only)"
-page_subtitle: "Preparation and Certification Exam"
+page_title: "Cybersecurity 1 (Teens)"
+page_subtitle: "Sat & Sun, 10:00 - 2:00"
 featured: 76
 ribbon: ""
-title: "Cybersecurity Level 1 Certification (Teens Only) | Blue Ridge Boost"
+title: "Cybersecurity 1 (Teens) | Blue Ridge Boost"
 section: "classes"
 day_tags: ["Saturday", "Sunday"]
 grade_tags: ["9th","10th","11th","12th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Syntax Sorcerers"
 attributes:
+- name: "When"
+  value: "Saturday and Sunday, from 10:00 to 2:00"
+- name: "Who"
+  value: "Grades 8 to 12"
+- name: "Session Duration"
+  value: "4 hours"
 ---
