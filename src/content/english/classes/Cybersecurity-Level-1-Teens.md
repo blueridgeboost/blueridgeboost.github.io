@@ -53,24 +53,5 @@ day_tags: ["Saturday", "Sunday"]
 grade_tags: ["9th","10th","11th","12th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Syntax Sorcerers"
+attributes:
 ---
-<script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Course",
-            "name": "Cybersecurity Level 1 Certification (Teens Only)",
-            "description": "Cybersecurity Level 1 Certification (Teens Only) - Preparation and Certification Exam",
-            "provider": {
-            "@type": "Organization",
-            "name": "Blue Ridge Boost",
-            "url": "https://blueridgeboost.com"
-            },
-            "offers": {
-            "@type": "Offer",
-            "price": "299",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-            "url": "https://blueridgeboost.com/classes/"
-            }
-        }
-        </script>

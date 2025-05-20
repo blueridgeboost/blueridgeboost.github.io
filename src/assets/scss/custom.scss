@@ -4,10 +4,21 @@
 }
 
 .darknote {
-  background-color: $darkest-blue;
-  color: #ffffff !important;
+  background-color: #001f3f; /* Replace $darkest-blue with a real color code */
+  color: #ffffff; /* Use white text */
+  display: block; /* Full-width container instead of inline-block */
+  padding: 10px; /* Add padding for better spacing */
+  margin: 10px 0; /* Vertical margin to separate from other elements */
+  text-align: center; /* Center-align text */
+  border-radius: 5px; /* Optional: Rounded corners for better aesthetics */
 }
- 
+
+.darknote-link{
+  color: #ffffff !important;
+  text-decoration: underline !important;
+  font-weight: 700 !important;
+}
+
 .card-body {
   font-size: 1.0rem;
   flex: 1 1 auto;
@@ -57,21 +68,23 @@
   min-width: 300px; /* Prevent the carousel from shrinking below 300px */
   max-width: 500px; /* Optional: Set a maximum width */
 }
-// columns for class page
-.classcolumn {
-  float: left;
-  padding: 10px;
-  height: 300px; 
-}
-
 .filterleft {
-  width: 25%;
   flex: 1;
+  max-width: 25%; /* Ensures it doesn’t grow beyond 25% */
+  padding: 10px;
 }
 
 .classesright {
-  flex:3;
-  width: 75%;
+  flex: 3;
+  max-width: 75%; /* Ensures it doesn’t grow beyond 75% */
+  padding: 10px;
+}
+
+@media (max-width: 992px) {
+  .filterleft, .classesright {
+    max-width: 100%; /* Stacks columns vertically on smaller screens */
+    flex: 1;
+  }
 }
 // celebrations
 .rowparty {

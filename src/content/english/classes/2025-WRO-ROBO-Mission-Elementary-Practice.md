@@ -21,24 +21,5 @@ day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "
 grade_tags: ["3rd","4th","5th"]
 subject_tags: ["Robotics"]
 difficulty: "Bot Builders Elite"
+attributes:
 ---
-<script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Course",
-            "name": "Practice Space for WRO ROBO Mission Elementary",
-            "description": "Practice Space for WRO ROBO Mission Elementary - undefined",
-            "provider": {
-            "@type": "Organization",
-            "name": "Blue Ridge Boost",
-            "url": "https://blueridgeboost.com"
-            },
-            "offers": {
-            "@type": "Offer",
-            "price": "199",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-            "url": "https://blueridgeboost.com/classes/"
-            }
-        }
-        </script>

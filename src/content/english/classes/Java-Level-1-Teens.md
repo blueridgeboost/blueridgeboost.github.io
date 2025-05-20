@@ -53,24 +53,5 @@ day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 grade_tags: ["7th","8th","9th","10th","11th","12th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
+attributes:
 ---
-<script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Course",
-            "name": "Java Level 1 Certification (Teens Only)",
-            "description": "Java Level 1 Certification (Teens Only) - Preparation and Certification Exam",
-            "provider": {
-            "@type": "Organization",
-            "name": "Blue Ridge Boost",
-            "url": "https://blueridgeboost.com"
-            },
-            "offers": {
-            "@type": "Offer",
-            "price": "599",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-            "url": "https://blueridgeboost.com/classes/"
-            }
-        }
-        </script>
