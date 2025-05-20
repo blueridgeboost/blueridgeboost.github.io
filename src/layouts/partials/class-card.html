@@ -17,23 +17,21 @@
         </h5>
         {{ if eq .Params.page_subtitle "undefined" }}
         {{ else }}
-        <h6 class="card-subtitle mb-2 text-muted">
+        <h6 class="card-subtitle text-muted">
         {{ .Params.page_subtitle }}
         </h6>
         {{ end }}
-    </div>
-    <div class="card-body">
-        {{ partial "class-info.html" . }}
-    </div>
-    <div class="card-footer">
-        {{ if eq .Params.category "Subscription Classes" }}
-            {{ partial "subscription-class-footer.html" . }}
-        {{ else }}
-            {{ if eq .Params.category "Single Class" }}
-                {{ partial "single-class-footer.html" . }}
+        <span class="h6 text-muted">
+            {{ partial "class-info.html" . }}
+            {{ if eq .Params.category "Subscription Classes" }}
+                {{ partial "subscription-class-footer.html" . }}
             {{ else }}
-                {{ partial "session-class-footer.html" .}}
+                {{ if eq .Params.category "Single Class" }}
+                    {{ partial "single-class-footer.html" . }}
+                {{ else }}
+                    {{ partial "session-class-footer.html" .}}
+                {{ end }}
             {{ end }}
-        {{ end }}
+        </span>
     </div>
 </div>

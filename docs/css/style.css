@@ -17944,14 +17944,16 @@ body.dark {
   font-weight: 700 !important; }
 
 .card-body {
-  font-size: 1.0rem;
+  font-size: 0.8rem;
   flex: 1 1 auto;
-  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
-  background-color: #cfe4f1; }
+  padding: 0 var(--bs-card-cap-padding-x);
+  background-color: var(--bs-card-cap-bg);
+  border: none; }
 
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
-  color: var(--bs-card-title-color); }
+  color: var(--bs-card-title-color);
+  border: none; }
 
 .container_frontpage {
   display: flex;
