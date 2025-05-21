@@ -1,37 +1,148 @@
 {{ $id := .Params.ecwid }}
+{{ $ecwid_category := .Params.category }}
 <div
-    class = "card"
-    id = "class-{{ $id }}"
-    data-day='{{ delimit .Params.day_tags "#" }}' 
-    data-grade='{{ delimit .Params.grade_tags "#" }}' 
-    data-subject='{{ delimit .Params.subject_tags "#" }}'
-    style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem; width: 17rem;"
-    >
-    <div class="card-header">
+id = "class-{{ $id }}"
+data-day='{{ delimit .Params.day_tags "#" }}' 
+data-grade='{{ delimit .Params.grade_tags "#" }}' 
+data-subject='{{ delimit .Params.subject_tags "#" }}'
+style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem; width: 17rem;"
+>
+    <div class="ecsp ecsp-SingleProduct-v2 ecsp-SingleProduct-v2-bordered ecsp-SingleProduct-v2-centered 
+                ecsp-Product ec-Product-{{ $id }}" itemscope itemtype="http://schema.org/Product" 
+                data-single-product-id="{{ $id }}">
+        <a href="{{ .RelPermalink }}"><div itemprop="image"></div></a>
+        <a href="{{ .RelPermalink }}"><div class="ecsp-title" itemprop="name" content="{{ .Params.page_title }}"></div></a>
+        <div class="ecsp-subtitle">{{ .Params.page_subtitle }}</div>
         
-        <img src="/images/classes{{ .Params.product_image }}" class="card-img-top" alt="{{ .Params.page_title }} image"  />
-        <h5 class="card-title">
-        <a href="{{ .RelPermalink }}"><b>
-        {{ .Params.page_title }}
-        </b></a>
-        </h5>
-        {{ if eq .Params.page_subtitle "undefined" }}
+        {{ with .Params.day_tags }}
+            {{ if eq (len . ) 1 }}
+                {{ range . }} {{.}}s {{end}} 
+            {{ else if eq (len . ) 2 }}
+                {{ index . 0 }}s and {{ index . 1 }}s
+            {{ else if eq (len . ) 3 }}
+                {{ index . 0 }}s, {{ index . 1 }}s, and {{ index . 2 }}s
+            {{ else if eq (len . ) 7 }}
+            {{ else}}
+                {{ index . 0 }}s through {{ index . (sub (len .) 1) }}s
+            {{ end }}
+        {{ end }} 
+        
+        {{  if and .Params.start_time .Params.end_time }}
+            {{.Params.start_time}} &ndash; {{.Params.end_time}}<br>
         {{ else }}
-        <h6 class="card-subtitle text-muted">
-        {{ .Params.page_subtitle }}
-        </h6>
-        {{ end }}
-        <span class="h6 text-muted">
-            {{ partial "class-info.html" . }}
-            {{ if eq .Params.category "Subscription Classes" }}
-                {{ partial "subscription-class-footer.html" . }}
-            {{ else }}
-                {{ if eq .Params.category "Single Class" }}
-                    {{ partial "single-class-footer.html" . }}
-                {{ else }}
-                    {{ partial "session-class-footer.html" .}}
+            {{ $attributes := .Params.attributes }}
+            {{ if $attributes }}
+                {{ range $attributes }}
+                    {{ if eq .name "Booking Link"}}
+                        <a href="{{ .value }}" target="_blank">Book time here!</a><br>
+                    {{ else if eq .name "Session Length"}}
+                        {{ .value }}<br>
+                    {{ end }}
                 {{ end }}
             {{ end }}
-        </span>
+        {{ end }}
+        {{ if .Params.start_date }}
+            {{ .Params.start_date | time | dateFormat "Jan 2, 2006" }} to {{ .Params.end_date | time | dateFormat "Jan 2, 2006" }} <br>
+        {{ end }}
+        {{ if eq .Params.difficulty "Bot Builders Elite" }}
+            <span class="level-elite"><a href="#elite">
+                {{ .Params.difficulty }}
+            </a></span><br>
+        {{ else if eq .Params.difficulty "Code Cadets" }}
+            <span class="level-cadets"><a href="#cadets">
+                {{ .Params.difficulty }}         
+            </a></span><br>
+        {{ else if eq .Params.difficulty "Skill Sculptors" }}
+            <span class="level-sculptors"><a href="#sculptors">
+                {{ .Params.difficulty }}            
+            </a></span><br>
+        {{ else if eq .Params.difficulty "Algorithm Architects" }}
+            <span class="level-architects"><a href="#architects">
+                {{ .Params.difficulty }}            
+            </a></span><br>
+        {{ else if eq .Params.difficulty "Foundation Forgers" }}
+            <span class="level-forgers"><a href="#forgers">
+                {{ .Params.difficulty }}            
+            </a></span><br>
+        {{ else if eq .Params.difficulty "Competition" }}
+            <span class="level-competition"><a href="#competition">
+                {{ .Params.difficulty }}            
+            </a></span><br>
+        {{ else if eq .Params.difficulty "Robo Rookies" }}
+            <span class="level-rookies"><a href="#rookies">
+                {{ .Params.difficulty }}            
+            </a></span><br>
+        {{ else if eq .Params.difficulty "Math Maestros" }}
+            <span class="level-maestros"><a href="#maestros">
+                {{ .Params.difficulty }}              
+            </a></span><br>
+        {{ else if eq .Params.difficulty "Robo Researchers" }}
+            <span class="level-researchers"><a href="#researchers">
+                {{ .Params.difficulty }}                
+            </a></span><br>         
+        {{ else if eq .Params.difficulty "Syntax Sorcerers" }}
+            <span class="level-sorcerers"><a href="#sorcerers">
+                {{ .Params.difficulty }}                
+            </a></span><br>
+        {{ else }}
+            <a href="#levels">
+                {{ .Params.difficulty }}
+            </a><br>
+        {{ end }}  
+        {{ with .Params.grade_tags }}
+            {{ if gt (len .) 0 }}
+                Grades:
+                {{ index . 0 }}
+                {{ if gt (len .) 1 }}
+                    to {{ index . (sub (len .) 1) }}
+                {{ end }}
+                <br>
+            {{ end }}
+        {{ end }}
+        <div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
+            <div class="ecsp-productBrowser-price ecsp-price" itemprop="price" content="{{ .Params.price }}" 
+                data-spw-price-location="button">
+                <div itemprop="priceCurrency" content="USD"></div>
+            </div>
+        </div>
+        <div customprop="options"></div><div customprop="qty"></div>
+        <div customprop="addtobag"></div>
+        <div customprop="vatinprice"></div>
     </div>
-</div>
+    <script type="text/javascript"> 
+        window.ec=window.ec||{}; 
+        window.ec.storefront=window.ec.storefront||{}; 
+        window.ec.storefront.enable_navigation=true;
+        window.ec.storefront.product_details_layout="THREE_COLUMNS_SIDEBAR_ON_THE_RIGHT";
+        window.ec.storefront.product_details_gallery_layout="SINGLE_IMAGE";
+        window.ec.storefront.product_details_two_columns_with_right_sidebar_show_product_description_on_sidebar=false;
+        window.ec.storefront.product_details_two_columns_with_left_sidebar_show_product_description_on_sidebar=false;
+        window.ec.storefront.product_details_show_product_name=true;
+        window.ec.storefront.product_details_show_breadcrumbs=true;
+        window.ec.storefront.product_details_show_product_sku=false;
+        window.ec.storefront.product_details_show_product_price=true;
+        window.ec.storefront.product_details_show_in_stock_label=true;
+        window.ec.storefront.product_details_show_number_of_items_in_stock=true;
+        window.ec.storefront.product_details_show_qty=false;
+        window.ec.storefront.product_details_show_wholesale_prices=false;
+        window.ec.storefront.product_details_show_product_options=true;
+        window.ec.storefront.product_details_show_product_description=true;
+        window.ec.storefront.product_details_show_delivery_time=undefined;
+        window.ec.storefront.product_details_show_share_buttons=false;
+        window.ec.storefront.product_details_position_product_name=100;
+        window.ec.storefront.product_details_position_breadcrumbs=200;
+        window.ec.storefront.product_details_position_product_sku=300;
+        window.ec.storefront.product_details_position_product_price=400;
+        window.ec.storefront.product_details_position_product_options=undefined;
+        window.ec.storefront.product_details_position_buy_button=600;
+        window.ec.storefront.product_details_position_wholesale_prices=700;
+        window.ec.storefront.product_details_position_product_description=900;
+        window.ec.storefront.product_details_position_delivery_time=undefined;
+        window.ec.storefront.product_details_position_share_buttons=800;
+        window.ec.storefront.product_details_position_subtitle=500;
+        window.ec.storefront.product_details_show_subtitle=true;
+    </script>
+    <script data-cfasync="false" type="text/javascript" 
+        src="https://app.ecwid.com/script.js?106136041&data_platform=singleproduct_v2" charset="utf-8"></script>
+    <script type="text/javascript">xProduct()</script>    
+</div> <!-- end class card -->

@@ -1,34 +1,24 @@
 ---
 ecwid: 741774035
 product_id: WRO-2025-Robo-Mission-Elementary-Coaching
-product_image: "/rmelementary.jpg"
 robots: "noindex, follow"
-category: "Subscription Classes"
+layout: "single"
 price: 199
-inventory: 100
-payment_link: ""
+category: "Subscription Classes"
 weight: "1"
-start_date: ""
+start_date: "2025-05-20"
 end_date: "2025-08-22"
-start_time: ""
-end_time: ""
-page_title: "Explore Robotics with WRO ROBO Mission Elementary"
-page_subtitle: "Children born years 2013-2017."
+page_title: "Explore Robotics with WRO ROBOMission Elementary"
+page_subtitle: "Children born years 2013-2017"
 featured: 67
-ribbon: ""
-title: "Explore Robotics with WRO ROBO Mission Elementary | Blue Ridge Boost"
-section: "classes"
+title: "Explore Robotics with WRO ROBOMission Elementary | Blue Ridge Boost"
 day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 grade_tags: ["3rd","4th","5th"]
 subject_tags: ["Computer Coding", "Robotics"]
 difficulty: "Bot Builders Elite"
 attributes:
-- name: "When"
-  value: "Your choice!"
 - name: "Booking Link"
   value: "https://blueridgeboost-wro-robomission-elementary.youcanbook.me"
-- name: "Who"
-  value: "Children 8-12 years old."
-- name: "Session Duration"
-  value: "60 minutes"
+- name: "Session Length"
+  value: "1 hour/week"
 ---

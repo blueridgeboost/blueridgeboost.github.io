@@ -17943,18 +17943,6 @@ body.dark {
   text-decoration: underline !important;
   font-weight: 700 !important; }
 
-.card-body {
-  font-size: 0.8rem;
-  flex: 1 1 auto;
-  padding: 0 var(--bs-card-cap-padding-x);
-  background-color: var(--bs-card-cap-bg);
-  border: none; }
-
-.card-title {
-  margin-bottom: var(--bs-card-title-spacer-y);
-  color: var(--bs-card-title-color);
-  border: none; }
-
 .container_frontpage {
   display: flex;
   flex-wrap: wrap;
@@ -18169,10 +18157,6 @@ div.fullclass {
   border: 2px solid;
   line-height: 1;
   font-size: 1.5em; }
-
-.card {
-  padding-left: 0px;
-  padding-right: 100px; }
 
 .mb-5 {
   margin-bottom: 1rem !important; }
