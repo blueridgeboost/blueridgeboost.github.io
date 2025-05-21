@@ -1,45 +1,24 @@
 ---
 ecwid: 747740897
 product_id: WRO-2025-Robo-Sports-Coaching
-product_image: "/rs.jpg"
 robots: "noindex, follow"
-category: "Subscription Classes"
+layout: "single"
 price: 199
-inventory: 20
-payment_link: ""
+category: "Subscription Classes"
 weight: "3"
-start_date: ""
+start_date: "2025-05-20"
 end_date: "2025-08-22"
-start_time: ""
-end_time: ""
-page_title: "Explore WRO 2025 ROBO Sports"
-page_subtitle: "Students born 2010 to 2014"
+page_title: "Explore Robotics with WRO ROBOSports"
+page_subtitle: "Children born years 2007 - 2014"
 featured: 65
-ribbon: ""
-title: "Explore WRO 2025 ROBO Sports | Blue Ridge Boost"
-section: "classes"
+title: "Explore Robotics with WRO ROBOSports | Blue Ridge Boost"
 day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 grade_tags: ["5th","6th","7th","8th"]
 subject_tags: ["Computer Coding", "Robotics"]
 difficulty: "Bot Builders Elite"
+attributes:
+- name: "Booking Link"
+  value: "https://blueridgeboost-wro-robosports.youcanbook.me"
+- name: "Session Length"
+  value: "1 hour/week"
 ---
-<script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Course",
-            "name": "Explore WRO 2025 ROBO Sports",
-            "description": "Explore WRO 2025 ROBO Sports - Students born 2010 to 2014",
-            "provider": {
-            "@type": "Organization",
-            "name": "Blue Ridge Boost",
-            "url": "https://blueridgeboost.com"
-            },
-            "offers": {
-            "@type": "Offer",
-            "price": "199",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-            "url": "https://blueridgeboost.com/classes/"
-            }
-        }
-        </script>

@@ -1,44 +1,24 @@
 ---
 ecwid: 741774037
 product_id: 2025-WRO-ROBO-Mission-Elementary-Practice
-product_image: "/amongus.jpg"
 robots: "noindex, follow"
-category: "Single Class"
+layout: "single"
 price: 199
-inventory: 50
+category: "Single Class"
 weight: "8"
-start_date: ""
+start_date: "2025-05-20"
 end_date: "2025-08-22"
-start_time: ""
-end_time: ""
-page_title: "Practice Space for WRO ROBO Mission Elementary"
-page_subtitle: "undefined"
+page_title: "Practice Space for WRO ROBOMission Elementary"
+page_subtitle: "Children born years 2013-2017."
 featured: 70
-ribbon: ""
-title: "Practice Space for WRO ROBO Mission Elementary | Blue Ridge Boost"
-section: "classes"
+title: "Practice Space for WRO ROBOMission Elementary | Blue Ridge Boost"
 day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 grade_tags: ["3rd","4th","5th"]
 subject_tags: ["Robotics"]
 difficulty: "Bot Builders Elite"
+attributes:
+- name: "Booking Link"
+  value: "https://blueridgeboost-wro-robomission-elementary.youcanbook.me"
+- name: "Session Length"
+  value: "10 hours"
 ---
-<script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Course",
-            "name": "Practice Space for WRO ROBO Mission Elementary",
-            "description": "Practice Space for WRO ROBO Mission Elementary - undefined",
-            "provider": {
-            "@type": "Organization",
-            "name": "Blue Ridge Boost",
-            "url": "https://blueridgeboost.com"
-            },
-            "offers": {
-            "@type": "Offer",
-            "price": "199",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-            "url": "https://blueridgeboost.com/classes/"
-            }
-        }
-        </script>

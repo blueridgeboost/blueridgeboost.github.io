@@ -4,20 +4,35 @@
 }
 
 .darknote {
-  background-color: $darkest-blue;
-  color: #ffffff !important;
-}
- 
-.card-body {
-  font-size: 1.0rem;
-  flex: 1 1 auto;
-  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
-  background-color:#cfe4f1; 
+  background-color: #001f3f; /* Replace $darkest-blue with a real color code */
+  color: #ffffff; /* Use white text */
+  display: block; /* Full-width container instead of inline-block */
+  padding: 10px; /* Add padding for better spacing */
+  margin: 10px 0; /* Vertical margin to separate from other elements */
+  text-align: center; /* Center-align text */
+  border-radius: 5px; /* Optional: Rounded corners for better aesthetics */
 }
 
-.card-title {
-  margin-bottom: var(--bs-card-title-spacer-y);
-  color: var(--bs-card-title-color); }
+.darknote-link{
+  color: #ffffff !important;
+  text-decoration: underline !important;
+  font-weight: 700 !important;
+}
+
+// .card-body {
+//   font-size: 0.8rem;
+//   flex: 1 1 auto;
+//   padding: 0 var(--bs-card-cap-padding-x);
+//   //background-color:#cfe4f1; 
+//   background-color: var(--bs-card-cap-bg);
+//   border: none;
+// }
+
+// .card-title {
+//   margin-bottom: var(--bs-card-title-spacer-y);
+//   color: var(--bs-card-title-color); 
+//   border: none;
+// }
 
 .container_frontpage {
     display: flex;
@@ -57,7 +72,25 @@
   min-width: 300px; /* Prevent the carousel from shrinking below 300px */
   max-width: 500px; /* Optional: Set a maximum width */
 }
+.filterleft {
+  flex: 1;
+  max-width: 25%; /* Ensures it doesn’t grow beyond 25% */
+  padding: 10px;
+}
 
+.classesright {
+  flex: 3;
+  max-width: 75%; /* Ensures it doesn’t grow beyond 75% */
+  padding: 10px;
+}
+
+@media (max-width: 992px) {
+  .filterleft, .classesright {
+    max-width: 100%; /* Stacks columns vertically on smaller screens */
+    flex: 1;
+  }
+}
+// celebrations
 .rowparty {
   display: flex;
 }
@@ -246,10 +279,10 @@ line-height: 1;
 font-size: 1.5em;
 }
 
-.card {
-padding-left: 0px;
-padding-right: 100px;
-}
+// .card {
+// padding-left: 0px;
+// padding-right: 100px;
+// }
 
 .mb-5 {
   margin-bottom: 1rem !important; 
