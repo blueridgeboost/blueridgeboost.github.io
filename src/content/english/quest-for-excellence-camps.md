@@ -66,7 +66,6 @@ robots: "index, follow"
 	challenge and inspire students. These two-week programs provide participants with the 
 	opportunity to earn an industry-recognized certification, along with a completion diploma from Blue Ridge Boost.
 	</p>
-
 	<p>
 	<strong>Typical camp day:</strong>
 	<center>
