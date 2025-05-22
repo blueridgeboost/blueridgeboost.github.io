@@ -36,8 +36,8 @@ robots: "index, follow"
             <h3>🎮 Calling all gamers! 🎮</h3>
             <img src="/images/gamenight.jpg" alt="The Blue Ridge Boost Game Room!" width=800px>
                 <p> Get ready to level up your Friday! Whether you're a Fortnite Fan, Robloxian, Crafter, or just love gaming- this is your night to shine. Use on our fully-decked out gaming set-ups to dive into thrilling multiplayer battles, explore immersive worlds, or take on challenges as a team. It doesn't matter if you're a pro-player or new to gaming; with our experienced instructors and touch screen computers, Gaming Fridays are a blast for gamers of all skill levels!</p>
-                <br><p>Bring your A-game and let’s make it an epic Gaming Friday to remember!</p>
             <p><strong> Free pizza included!</strong></p>
+            <p>Bring your A-game and let’s make it an epic Gaming Friday to remember!</p>
             <div class="details">
                 <p><strong>Ages:</strong> 6-14 years</p>
                 <p><strong>Where:</strong> Blue Ridge Boost, 2171 Ivy Rd, Charlottesville</p>
