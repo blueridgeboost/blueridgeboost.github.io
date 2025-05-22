@@ -10,7 +10,7 @@ start_date: "2025-05-20"
 end_date: "2025-08-23"
 page_title: "Practice Space for WRO ROBOSports"
 page_subtitle: "Children born years 2007 - 2014."
-featured: 71
+featured: 72
 title: "Practice Space for WRO ROBOSports | Blue Ridge Boost"
 day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 grade_tags: ["5th","6th","7th","8th","9th","10th","11th","12th"]

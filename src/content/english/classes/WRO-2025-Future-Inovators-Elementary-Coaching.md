@@ -10,7 +10,7 @@ start_date: "2025-05-20"
 end_date: "2025-08-22"
 page_title: "Future Innovators Coaching Program"
 page_subtitle: "Children born years 2007 - 2017"
-featured: 66
+featured: 67
 title: "Future Innovators Coaching Program | Blue Ridge Boost"
 day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 grade_tags: ["3rd","4th","5th"]

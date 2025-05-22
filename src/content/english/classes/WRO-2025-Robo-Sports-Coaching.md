@@ -10,7 +10,7 @@ start_date: "2025-05-20"
 end_date: "2025-08-22"
 page_title: "Explore Robotics with WRO ROBOSports"
 page_subtitle: "Children born years 2007 - 2014"
-featured: 65
+featured: 66
 title: "Explore Robotics with WRO ROBOSports | Blue Ridge Boost"
 day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 grade_tags: ["5th","6th","7th","8th"]
