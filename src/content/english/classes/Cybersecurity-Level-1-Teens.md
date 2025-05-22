@@ -12,13 +12,11 @@ start_time: "10:00"
 end_time: "2:00"
 page_title: "Cybersecurity 1 (Teens)"
 page_subtitle: "CodeHS Certification"
-featured: 76
+featured: 77
 title: "Cybersecurity 1 (Teens) | Blue Ridge Boost"
 day_tags: ["Saturday", "Sunday"]
 grade_tags: ["9th","10th","11th","12th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Syntax Sorcerers"
 attributes:
-- name: "Session Length"
-  value: "4 hours"
 ---
