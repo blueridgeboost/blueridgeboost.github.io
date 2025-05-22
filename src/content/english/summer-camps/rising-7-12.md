@@ -36,7 +36,6 @@ robots: "index, follow"
 <b>Option 1:</b> Drop off at 10:30 AM and pick up at 3:30 PM<br>
 <b>Option 2:</b> Drop off at 12:30 PM and pick up at 5:30 PM<br>
 Before and after care available.</p>
-  {{/*  <p>Drop off starts at 10:30. Pick up ends at 3:30. Before and after care available.</p>  */}}
 </div>
 <p>Camps labeled <i>SMART Robotics Technician</i> offer the opportunity to earn a micro-certification. Campers who complete all five courses and score at least 70% on each final exam will earn the <i>SMART Robotics Technician</i> certification.</p>
 
