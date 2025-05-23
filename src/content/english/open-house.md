@@ -30,7 +30,7 @@ robots: "index, follow"
 
 Join Us for the Blue Ridge Boost Monthly Open House!
 
-Discover the exciting world of hands-on learning at Blue Ridge Boost! Join us on the first Sunday of every month to explore our engaging programs in Computer Coding, Robotics, Science, and Math for kids, teens, and adults.
+Join us on the first Sunday of every month to explore our engaging programs in Computer Coding, Robotics, Science, and Math for kids, teens, and adults.
 
 📅 When: The 1st Sunday of every month <br>
 🕒 Time: 3:30 PM - 5:30 PM<br>
@@ -41,12 +41,30 @@ At our Open House, you’ll have the opportunity to:
 <li>Learn about our classes and camps for grades 1-12</li>
 <li>Explore our gaming clubs like Minecraft, Roblox, and Fortnite</li>
 <li>Get details on our certifications in coding and robotics for teens and adults</li>
-<li>Meet our expert instructors and learn how we empower students through World Robot Olympiad and other enrichment programs!</li>
+<li>Meet our expert instructors and see how we inspire and empower students through robotics competitions and innovative enrichment programs!
+
+</li>
 <!-- i think i would like to edit the last point eventually, cant figure out the wording rn -Lain -->
 </ul>
-<p>
-This is the perfect chance to meet our team, see our space, and discover how Blue Ridge Boost makes learning fun and impactful for all ages!</p>
-<html><div id="mc_embed_shell">
+
+
+
+🎉 RSVP Today: "buy" one of the products below, call (434) 260-0636, or email nora@blueridgeboost.com.
+
+We look forward to welcoming you! 🚀
+
+
+<div class="container">
+    <div>
+        <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
+        charset="utf-8"></script><script type="text/javascript">
+        xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041", 
+        "defaultCategoryId=182286302");</script>
+    </div>
+</div>
+
+
+<!-- <html><div id="mc_embed_shell">
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
   <style type="text/css">
         #mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
@@ -67,7 +85,4 @@ This is the perfect chance to meet our team, see our space, and discover how Blu
 </div>
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[6]='SMSPHONE';ftypes[6]='smsphone';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[10]='MMERGE10';ftypes[10]='text';fnames[5]='MMERGE5';ftypes[5]='number';fnames[9]='MMERGE9';ftypes[9]='number';fnames[3]='MMERGE3';ftypes[3]='dropdown';fnames[7]='MMERGE7';ftypes[7]='text';fnames[8]='MMERGE8';ftypes[8]='text';fnames[4]='MMERGE4';ftypes[4]='text';fnames[11]='COMPANY';ftypes[11]='text';fnames[12]='ADDRESS';ftypes[12]='address';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
 
-</html>
-🎉 RSVP Today: Use the form above, call (434) 260-0636, or email nora@blueridgeboost.com.
-
-We look forward to welcoming you! 🚀
+</html> -->
