@@ -105,6 +105,11 @@
     weight     = 10
 
 [[main]]
+    name       = "Team"
+    url        = "/instructors/"
+    weight     = 12
+
+[[main]]
     name       = "Contact"
     url        = "/contact/"
     weight     = 12
