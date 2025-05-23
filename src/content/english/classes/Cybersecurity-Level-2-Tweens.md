@@ -12,7 +12,7 @@ start_time: "3:00"
 end_time: "7:00"
 page_title: "Cybersecurity 2 (Teens)"
 page_subtitle: "Sat & Sun, 3:00 to 7:00"
-featured: 79
+featured: 80
 title: "Cybersecurity 2 (Teens) | Blue Ridge Boost"
 day_tags: ["Saturday", "Sunday"]
 grade_tags: ["9th","10th","11th","12th"]
