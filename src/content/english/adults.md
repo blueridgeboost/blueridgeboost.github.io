@@ -34,6 +34,17 @@ robots: "index, follow"
 
 These are classes for adults. Classes for children are available <a href="/classes">here</a>.
 
+<script data-cfasync="false" type="text/javascript"
+  src="https://app.ecwid.com/script.js?106136041&data_platform=productbrowser">
+  
+</script>
+<!-- 
+<div><script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
+        charset="utf-8"></script> -->
+<script type="text/javascript">
+        xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041", 
+        "defaultCategoryId=180055311");</script></div>
+
 ### Request a Class Not Offered
 
 Is there a class you'd like to take but it's not available? Let us know!  
@@ -44,8 +55,3 @@ Email **nora@blueridgeboost.com** with the following details:
 - **Preferred Times**: Let us know what days and times work best for you.  
 
 We look forward to hearing from you!
-
-<div><script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
-        charset="utf-8"></script><script type="text/javascript">
-        xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041", 
-        "defaultCategoryId=180055311");</script></div>

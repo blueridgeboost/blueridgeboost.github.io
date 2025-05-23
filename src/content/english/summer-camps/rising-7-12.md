@@ -29,3 +29,27 @@ keywords:
   - hands-on robotics and coding camps
 robots: "index, follow"
 ---
+
+<div class="container">
+  <p>All camps are held at Blue Ridge Boost, 2171 Ivy Rd, Charlottesville.</p>
+  <p>To accommodate busy summer schedules,we offer two convenient options:<br>
+<b>Option 1:</b> Drop off at 10:30 AM and pick up at 3:30 PM<br>
+<b>Option 2:</b> Drop off at 12:30 PM and pick up at 5:30 PM<br>
+Before and after care available.</p>
+</div>
+<p>Camps labeled <i>SMART Robotics Technician</i> offer the opportunity to earn a micro-certification. Campers who complete all five courses and score at least 70% on each final exam will earn the <i>SMART Robotics Technician</i> certification.</p>
+
+<p>Blue Ridge Boost instructors are certified by the Carnegie Mellon Robotics Academy, ensuring high-quality robotics education. The certification exam is included in the camp cost, giving campers the chance to earn an industry-recognized credential while learning robotics and coding.</p>
+
+<p>The SMART Robotics courses, developed by the Carnegie Mellon Robotics Academy and endorsed by the ARM Institute, meet industry standards and workforce needs. These credentials are recognized by the Virginia Department of Education, making them a valuable asset for careers in robotics and advanced manufacturing.</p>
+
+<p>Students who complete a micro-certification course early can start another course immediately.</p>
+
+<p></p>
+<div class="container" id="summer">
+  <div><script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
+    charset="utf-8"></script><script type="text/javascript">
+    xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041", 
+    "defaultCategoryId=175495638");</script></div>
+    </div>
+<p></p>

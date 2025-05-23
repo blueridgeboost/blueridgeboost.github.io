@@ -1,6 +1,6 @@
 ---
 title: "Parents' Night Out | Blue Ridge Boost"
-page_title: "Parents' Night Out"
+page_title: "Gaming Fridays"
 # meta description
 description: "Enjoy Parents' Night Out while kids (ages 6-14) have an epic gaming adventure at Blue Ridge Boost in Charlottesville, VA! Join us select Fridays, 5:30-8:30 PM, for Minecraft, Fortnite, Roblox, and more. Free pizza included!"
 draft: false
@@ -33,22 +33,22 @@ robots: "index, follow"
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <h3>🎮 Epic Gaming Night Awaits! 🎮</h3>
-            <p>
-                Get ready to level up your fun! Whether you're a console crusader, PC powerhouse, or tabletop titan, this is your night to shine. Dive into thrilling multiplayer battles, explore immersive worlds, or challenge your friends in a card or board game showdown. Snacks, laughs, and epic moments are guaranteed—bring your A-game and let’s make it a night to remember!
-            </p>
-            <p><strong>Fuel for young minds:</strong> Free pizza included!</p>
+            <h3>🎮 Calling all gamers! 🎮</h3>
+            <img src="/images/gamenight.jpg" alt="The Blue Ridge Boost Game Room!" width=800px>
+                <p> Get ready to level up your Friday! Whether you're a Fortnite Fan, Robloxian, Crafter, or just love gaming- this is your night to shine. Use on our fully-decked out gaming set-ups to dive into thrilling multiplayer battles, explore immersive worlds, or take on challenges as a team. It doesn't matter if you're a pro-player or new to gaming; with our experienced instructors and touch screen computers, Gaming Fridays are a blast for gamers of all skill levels!</p>
+            <p><strong> Free pizza included!</strong></p>
+            <p>Bring your A-game and let’s make it an epic Gaming Friday to remember!</p>
             <div class="details">
                 <p><strong>Ages:</strong> 6-14 years</p>
-                <p><strong>Where:</strong> Blue Ridge Boost, 2171 Ivy Rd, Charlottesville, VA 22903</p>
-                <p><strong>When:</strong> 5:30-8:30 PM on select Fridays</p>
+                <p><strong>Where:</strong> Blue Ridge Boost, 2171 Ivy Rd, Charlottesville</p>
+                <p><strong>When:</strong> 5:30-8:30 PM on Fridays</p>
             </div>
             <h2>Monthly Schedule</h2>
             <ul>
-                <li><strong>Minecraft Education:</strong> First Friday of the month</li>
-                <li><strong>Minecraft Java & Bedrock:</strong> Second Friday</li>
-                <li><strong>Fortnite:</strong> Third Friday</li>
-                <li><strong>Roblox:</strong> Fourth Friday</li>
+                <li>1st Friday: <strong>Minecraft Education</strong></li>
+                <li>2nd Friday: <strong>Minecraft Java & Bedrock</strong></li>
+                <li>3rd Friday: <strong>Fortnite</strong></li>
+                <li>4th Friday: <strong>Roblox</strong></li>
             </ul>
             <p>
                 Click on one of the dates below to add the event to your shopping cart. Don’t forget to complete your sign up by checking out!

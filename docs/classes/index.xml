@@ -8,21 +8,21 @@
     <language>en-US</language>
     <atom:link href="https://blueridgeboost.com/classes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Explore Robotics with WRO ROBO Mission Elementary | Blue Ridge Boost</title>
+      <title>Explore Robotics with WRO ROBOMission Elementary | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/WRO-2025-Robo-Mission-Elementary-Coaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/WRO-2025-Robo-Mission-Elementary-Coaching/</guid>
       <description></description>
     </item>
     <item>
-      <title>Explore Robotics with  WRO ROBO Mission Junior | Blue Ridge Boost</title>
+      <title>Explore Robotics with  WRO ROBOMission Junior | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/WRO-2025-Robo-Mission-Junior-Coaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/WRO-2025-Robo-Mission-Junior-Coaching/</guid>
       <description></description>
     </item>
     <item>
-      <title>Explore Robotics with WRO 2025 ROBO Sports | Blue Ridge Boost</title>
+      <title>Explore Robotics with WRO ROBOSports | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/WRO-2025-Robo-Sports-Coaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/WRO-2025-Robo-Sports-Coaching/</guid>
@@ -57,28 +57,28 @@
       <description></description>
     </item>
     <item>
-      <title>Practice Space for WRO ROBO Mission Elementary | Blue Ridge Boost</title>
+      <title>Practice Space for WRO ROBOMission Elementary | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/2025-WRO-ROBO-Mission-Elementary-Practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/2025-WRO-ROBO-Mission-Elementary-Practice/</guid>
       <description></description>
     </item>
     <item>
-      <title>Practice Space for WRO ROBO Mission Junior | Blue Ridge Boost</title>
+      <title>Practice Space for WRO ROBOMission Junior | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/2025-WRO-ROBO-Mission-Junior-Practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/2025-WRO-ROBO-Mission-Junior-Practice/</guid>
       <description></description>
     </item>
     <item>
-      <title>Practice Space for WRO ROBO Sports | Blue Ridge Boost</title>
+      <title>Practice Space for WRO ROBOSports | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/2025-WRO-ROBO-Sports-Practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/2025-WRO-ROBO-Sports-Practice/</guid>
       <description></description>
     </item>
     <item>
-      <title>Practice Space for WRO ROBO Mission Senior | Blue Ridge Boost</title>
+      <title>Practice Space for WRO ROBOMission Senior | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/2025-WRO-ROBO-Mission-Senior-Practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/2025-WRO-ROBO-Mission-Senior-Practice/</guid>
@@ -89,6 +89,20 @@
       <link>https://blueridgeboost.com/classes/2025-WRO-Future-Engineers-Practice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/2025-WRO-Future-Engineers-Practice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript for AP CSP (Teens) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/JS-APCSP/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/JS-APCSP/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java for AP Computer Science (Teens) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/JS-APCSA/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/JS-APCSA/</guid>
       <description></description>
     </item>
     <item>
@@ -103,6 +117,13 @@
       <link>https://blueridgeboost.com/classes/coding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/coding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Future Innovators Coaching Program | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/WRO-2025-Future-Inovators-Elementary-Coaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/WRO-2025-Future-Inovators-Elementary-Coaching/</guid>
       <description></description>
     </item>
     <item>
@@ -124,13 +145,6 @@
       <link>https://blueridgeboost.com/classes/science/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>WRO 2025 Future Innovators Coaching Program | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/WRO-2025-Future-Inovators-Elementary-Coaching/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/WRO-2025-Future-Inovators-Elementary-Coaching/</guid>
       <description></description>
     </item>
   </channel>

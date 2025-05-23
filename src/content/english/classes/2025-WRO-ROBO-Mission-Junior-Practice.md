@@ -1,33 +1,24 @@
 ---
 ecwid: 747745363
 product_id: 2025-WRO-ROBO-Mission-Junior-Practice
-product_image: "/wrotable.jpg"
 robots: "noindex, follow"
-category: "Single Class"
+layout: "single"
 price: 199
-inventory: 50
+category: "Single Class"
 weight: "9"
-start_date: ""
+start_date: "2025-05-20"
 end_date: "2025-08-22"
-start_time: ""
-end_time: ""
-page_title: "Practice Space for WRO ROBO Mission Junior"
+page_title: "Practice Space for WRO ROBOMission Junior"
 page_subtitle: "Children born years 2010 - 2014."
-featured: 69
-ribbon: ""
-title: "Practice Space for WRO ROBO Mission Junior | Blue Ridge Boost"
-section: "classes"
+featured: 70
+title: "Practice Space for WRO ROBOMission Junior | Blue Ridge Boost"
 day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 grade_tags: ["5th","6th","7th"]
 subject_tags: ["Robotics"]
 difficulty: "Bot Builders Elite"
 attributes:
-- name: "When"
-  value: "Your choice!"
 - name: "Booking Link"
   value: "https://blueridgeboost-wro-robomission-junior.youcanbook.me"
-- name: "Who"
-  value: "Children 11-15 years old."
-- name: "Session Duration"
-  value: "60 minutes"
+- name: "Session Length"
+  value: "10 hours"
 ---
