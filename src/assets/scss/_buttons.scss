@@ -136,8 +136,9 @@
 
 .btn-primary {
   background-color: $color-primary;
-  color: $white;
+  color: $white !important;
   border-color: $color-primary;
+  
 }
 
 a.btn-primary 
@@ -148,15 +149,18 @@ a.btn-primary:visited {
 
 .btn-primary:hover {
   background-color: $white !important;
-  color: $darkest-blue;
+  color: $darkest-blue !important;
   border-color: $darkest-blue;
 }
 
 .btn-outline-primary {
-  color: $color-primary;
+  color: $color-primary !important;
   border-color: $color-primary;
 }
-
+.btn-outline-primary:hover {
+  color: $white !important;
+  border-color: $color-primary;
+}
 .btn-secondary {
   background: $color-secondary;
   color: $white;
