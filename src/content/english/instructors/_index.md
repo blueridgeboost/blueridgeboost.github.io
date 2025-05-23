@@ -108,7 +108,7 @@ instructors:
   photo:  "/images/instructors/dorina.JPG"
   bio: "Dorina is a seventh-grader at St. Anne’s-Belfield School. She is passionate about robotics and mathematics.
 </p><p>
-Dorina is a member of the _Next Level_ FLL Challenge Team, which won the Virginia Championship and will compete at the 2025 FIRST Championship. Dorina leads the Blue Ridge Robotics FIRST Tech Challenge Team, which earned a 2025 Control Award for programming and robot design, and co-leads the Aerial Drones _Boballions_ Team, which qualified for the Northeast Regional Championship. At the 2024 _Girls Excelling in Math_ (GEM) competition, Dorina earned first place in the individual competitions, first overall in team rankings, and third place in team engineering.
+Dorina is a member of the _Next Level_ FLL Challenge Team, which won the Robot Design Award at the 24-25 FIRST Championship. Dorina leads the Blue Ridge Robotics FIRST Tech Challenge Team, which earned a Control Award for programming and robot design in January 2025, and co-leads the Aerial Drones _Siblings Squared_ Team, which qualified for the Northeast Regional Championship. At the 2024 _Girls Excelling in Math_ (GEM) competition, Dorina earned first place in the individual competitions, first overall in team rankings, and third place in team engineering.
 "
 
 
