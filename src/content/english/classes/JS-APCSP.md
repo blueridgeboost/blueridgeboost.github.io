@@ -8,13 +8,13 @@ category: "Subscription Classes"
 weight: "13"
 start_date: "2025-09-02"
 end_date: "2026-05-14"
-start_time: "6:00"
-end_time: "7:30"
-page_title: "JavaScript for AP CSP (Teens)"
+start_time: "6:15"
+end_time: "7:00"
+page_title: "JavaScript for AP CSP (Virtual)"
 page_subtitle: "Get ready for AP Computer Science Principles"
 featured: 0
-title: "JavaScript for AP CSP (Teens) | Blue Ridge Boost"
-day_tags: ["Tuesday"]
+title: "JavaScript for AP CSP (Virtual) | Blue Ridge Boost"
+day_tags: ["Tuesday","Thursday"]
 grade_tags: ["8th","9th","10th", "11th", "12th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
