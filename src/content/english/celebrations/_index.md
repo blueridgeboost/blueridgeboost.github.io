@@ -31,7 +31,7 @@ style: justify-text-center
 <h6>16 Gaming Computers, all fully decked out with headphones, an RGB keyboard + mouse, touchscreen capablities, and pre-setup accounts for co-op play!</h6>
 <h5>Robotics Party</h5>
 <h6>Build, Test, Battle! Select the kind of robots you'd like at your party, and enjoy activities made just for that kind of robot. Building, battling, coding, driving, racing, flying- your child and their friends will have hands-on fun wroking with awesome robots!</h6>
-<h5>Combo Party</h5>
+<h5>Combo Party (+$99.99)</h5>
 <h6>Combine gaming and robotics into one action-packed celebration! Select 1 video game theme and 1 robotics theme and split activity time between your choices!</h6>
 </ul>
 </div>
@@ -101,12 +101,11 @@ style: justify-text-center
                 <h4>Level-Up Party Package (+$195)</h4>
                 <ul>
                     <h5>
-                    <li>Themed Decorations</li>
-                    <li>Birthday Cake</li>
-                    <li>Domino's Pizza</li>
-                    <li>Fruit Juice</li>
+                    <li>Party Decorations</li>
+                    <li>Cupcakes</li>
+                    <li>Papa John's Pizza</li>
+                    <li>Juice</li>
                     <li>Plates, Cups, Napkins, Cutlery</li>
-                    <li>Mini Gaming/Robotics tournament</li>
                     </h5>
                 </ul>
         </div>
@@ -116,10 +115,10 @@ style: justify-text-center
                     <h5>
                     <li>Themed Decorations</li>
                     <li>Balloons</li>
-                    <li>Birthday Cake</li>
+                    <li>Cake or Cupcakes</li>
                     <li>Papa John's Pizza</li>
                     <li>Fruit Juice</li>
-                    <li>Plates, Cups, Napkins, Cutlery</li>
+                    <li>Themed Plates, Cups, Napkins</li>
                     <li>Mini Gaming/Robotics Tournament</li>
                     <li>16 Goodie Bags</li>
                     </h5>
@@ -131,33 +130,33 @@ style: justify-text-center
                     <h5>
                     <li>Themed Decorations</li>
                     <li>Balloons</li>
-                    <li>Themed Birthday Cake</li>
+                    <li>Themed Cake</li>
                     <li>Christian's Pizza</li>
                     <li>Organic Fruit Juice</li>
                     <li>Organic Fruit Platter<li>
-                    <li>Plates, Cups, Napkins, Cutlery</li>
+                    <li>Themed Plates, Cups, Napkins</li>
                     <li>Mini Gaming/Robotics Tournament</li>
                     <li>16 Goodie Bags</li>
                     <li>Personalized Digital Invitation</li>
-                    <li>+1 hour of play</li>
+                    <li>+1 additional hour of play</li>
                     </h5>
                 </ul>
         </div>
     </div>
     <div class="container section">
     <h3>Step 3: Get the party started!</h3>
+    <h5>Select and reserve a party slot, using the calander below. Please fill out all the information fields so we can start planning your tech-tastic party!</h5>
+    <h6> Note: There is a deposit fee to reserve a party date. The deposit is NOT an addition cost, and will contribute towards the total payment for your party! </h6>
     <!--I would like to make this an "email us" button later on-->
     <ul>
-    <h5>Email <a href="mailto:nora@blueridgeboost.com">nora@blueridgeboost.com</a> to book your party!</h5>
-    <h6>Include relevant details such as</h6>
-    <ul>
-    <h6>
-        <li>Preferred dates</li>
-        <li>Theme of choice</li>
-        <li>Party Bundle</li>
-        <li>Any questions</li>
-        </h6>
-    </ul>
+    <!-- <div class="container" id="Celebrations">
+<div id="my-store-106136041"></div>
+<div><script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("id=my-store-106136041", "defaultCategoryId=184145262");</script></div>
+</div> -->
+    <!-- add a la carte add ons of baloons and maybe pizza -->
+    <!-- add embeded deposit system -->
+    <script src="https://embed.ycb.me"	async="true"	data-domain="c0f2o"	data-displaymode="auto"></script>
+    <h5>If you have any questions, email <a href="mailto:lain@blueridgeboost.com">lain@blueridgeboost.com</a>!</h5>
     <h5>See you at the party!</h5>
     </ul>
     </div>
