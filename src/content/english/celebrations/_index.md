@@ -113,14 +113,14 @@ style: justify-text-center
                 <h4>Power-Up Party Package (+$295)</h4>
                 <ul>
                     <h5>
-                    <li>Themed Decorations</li>
-                    <li>Balloons</li>
-                    <li>Cake or Cupcakes</li>
+                    <li><strong>Themed Decorations</strong></li>
+                    <li><strong>Balloons</strong></li>
+                    <li><strong>Cake</strong> or Cupcakes</li>
                     <li>Papa John's Pizza</li>
                     <li>Fruit Juice</li>
-                    <li>Themed Plates, Cups, Napkins</li>
-                    <li>Mini Gaming/Robotics Tournament</li>
-                    <li>16 Goodie Bags</li>
+                    <li><strong>Themed</strong> Plates, Cups, Napkins</li>
+                    <li><strong>Mini Gaming/Robotics Tournament</strong></li>
+                    <li><strong>16 Goodie Bags</strong></li>
                     </h5>
                 </ul>
         </div>
@@ -130,15 +130,15 @@ style: justify-text-center
                     <h5>
                     <li>Themed Decorations</li>
                     <li>Balloons</li>
-                    <li>Themed Cake</li>
-                    <li>Christian's Pizza</li>
-                    <li>Organic Fruit Juice</li>
-                    <li>Organic Fruit Platter<li>
+                    <li><strong>Themed Cake</strong></li>
+                    <li><strong>Christian's Pizza</strong></li>
+                    <li><strong>Organic</strong> Fruit Juice</li>
+                    <li><strong>Organic</strong> Fruit Platter<li>
                     <li>Themed Plates, Cups, Napkins</li>
                     <li>Mini Gaming/Robotics Tournament</li>
                     <li>16 Goodie Bags</li>
-                    <li>Personalized Digital Invitation</li>
-                    <li>+1 additional hour of play</li>
+                    <strong><li>Personalized Digital Invitation</li>
+                    <li>+1 additional hour of play</li></strong>
                     </h5>
                 </ul>
         </div>
