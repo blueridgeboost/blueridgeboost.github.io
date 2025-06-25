@@ -11,7 +11,6 @@ style: justify-text-center
 <p>At Blue Ridge Boost, we turn your child's birthday into a tech-powered adventure with robotics and gaming fun!</p>
 <img src="images/wideroom.webp" alt="BRB Gaming Room">
 <!--<img src="images/fullroom.jpg" alt="BRB Gaming Room" width="500">-->
-<div class="container section">
     <ul>
     <h3>Party Details</h3>
     <h5><strong>15 Guests + 1 Birthday Kid</strong></h5>
@@ -20,7 +19,6 @@ style: justify-text-center
     <h6><li>Saturdays 4-6 PM</li>
     <li>Sundays 4-6 PM</li>
     <li>Other dates upon request in advance</li></h6>
-</div>
 <div class="container section">
 <ul>
 <h3>Party Types:</h3>
@@ -107,7 +105,7 @@ style: justify-text-center
                 </ul>
         </div>
         <div class="theme-card">
-                <h4>Power-Up Party Package (+$295)</h4>
+                <h4>&#127812 Power-Up Party Package (+$295)</h4>
                 <ul>
                     <h5>
                     <li><strong>Themed Decorations</strong></li>
@@ -122,7 +120,7 @@ style: justify-text-center
                 </ul>
         </div>
         <div class="theme-card">
-                <h4> Super-Star Ultimate Party Package (+$495)</h4>
+                <h4>&#127775 Super-Star Ultimate Party Package (+$495)</h4>
                 <ul>
                     <h5>
                     <li>Themed Decorations</li>
