@@ -14,24 +14,21 @@ style: justify-text-center
 <div class="container section">
     <ul>
     <h3>Party Details</h3>
-    <p><strong>15 Guests + 1 Birthday Kid</strong></p>
-    <p><strong>Available Times:</strong></p> 
-    <ul>
+    <h5><strong>15 Guests + 1 Birthday Kid</strong></h5>
+    <h5><strong>30 min of social time + 90 minutes of gaming or robotics activities</strong></h5>    
+    <h5><strong>Available Times:</strong></h5> 
     <li>Saturdays 4-6 PM</li>
     <li>Sundays 4-6 PM</li>
     <li>Other dates upon request in advance</li>
-    </ul>
-    <p><strong>30 min of social time + 90 minutes of gaming or robotics activities</strong></p>
-    </ul>
 </div>
 <div class="container section">
 <ul>
-<h4>Party Types:</h4>
-<h5>Gaming Party</h5>
+<h3>Party Types:</h3>
+<h4><strong>Gaming Party</strong></h4>
 <h6>16 Gaming Computers, all fully decked out with headphones, an RGB keyboard + mouse, touchscreen capablities, and pre-setup accounts for co-op play!</h6>
-<h5>Robotics Party</h5>
+<h4><strong>Robotics Party</strong></h4>
 <h6>Build, Test, Battle! Select the kind of robots you'd like at your party, and enjoy activities made just for that kind of robot. Building, battling, coding, driving, racing, flying- your child and their friends will have hands-on fun wroking with awesome robots!</h6>
-<h5>Combo Party (+$99.99)</h5>
+<h4><strong>Combo Party (+$99.99)</strong></h4>
 <h6>Combine gaming and robotics into one action-packed celebration! Select 1 video game theme and 1 robotics theme and split activity time between your choices!</h6>
 </ul>
 </div>
@@ -47,7 +44,7 @@ style: justify-text-center
             <h4>Gaming Themes</h4>
             <!--Subtitle Needed-->
             <body>Minecraft</body> 
-            <h6>Recommended Ages: 6+</h6>
+            <h6>Rec. Ages: 6+</h6>
             <body>Roblox</body> 
             <h6>Rec. Ages: 8+</h6>
             <body>Fortnite</body>
