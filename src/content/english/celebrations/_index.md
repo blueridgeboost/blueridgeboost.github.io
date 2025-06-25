@@ -17,9 +17,9 @@ style: justify-text-center
     <h5><strong>15 Guests + 1 Birthday Kid</strong></h5>
     <h5><strong>30 min of social time + 90 minutes of gaming or robotics activities</strong></h5>    
     <h5><strong>Available Times:</strong></h5> 
-    <li>Saturdays 4-6 PM</li>
+    <h6><li>Saturdays 4-6 PM</li>
     <li>Sundays 4-6 PM</li>
-    <li>Other dates upon request in advance</li>
+    <li>Other dates upon request in advance</li></h6>
 </div>
 <div class="container section">
 <ul>
