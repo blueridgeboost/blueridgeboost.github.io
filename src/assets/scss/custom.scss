@@ -334,6 +334,30 @@ font-size: 1.5em;
 .price-table td {
   background-color: #eef7fb;
 }
+//for you classes
+.group-section {
+  margin-bottom: 2rem;
+}
+.group-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 10px;
+  background-color: #f9f9f9;
+  flex: 1 1 calc(25% - 20px);
+}
+.group-card h3 {
+  margin: 0 0 0.5rem 0;
+}
+.group-card h5 {
+  font-size: smaller;
+  margin: 0 0 0.5rem 0;
+}
+.group-card h6 {
+  font-size: medium;
+  margin: 0 0 0.2rem 0;
+}
 
 // wro
 .hero-section {
