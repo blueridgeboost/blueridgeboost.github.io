@@ -16400,9 +16400,13 @@ h6,
     .h6:not(h5, .h5, h6, .h6) {
       font-size: calc(20px * 0.8);
       font-size: calc(20px * 0.8);
+      font-size: calc(20px * 0.8);
       font-size: calc(20px * 0.8); }
       h6:not(h5, .h5, h6, .h6) .theme-card,
       .h6:not(h5, .h5, h6, .h6) .theme-card {
+        flex: 1 1 100%; }
+      h6:not(h5, .h5, h6, .h6) .group-card,
+      .h6:not(h5, .h5, h6, .h6) .group-card {
         flex: 1 1 100%; }
       h6:not(h5, .h5, h6, .h6) .columnparty,
       .h6:not(h5, .h5, h6, .h6) .columnparty {
@@ -16420,9 +16424,13 @@ h6,
     .h6 {
       font-size: calc(20px * 0.9);
       font-size: calc(20px * 0.9);
+      font-size: calc(20px * 0.9);
       font-size: calc(20px * 0.9); }
       h6 .theme-card,
       .h6 .theme-card {
+        flex: 1 1 100%; }
+      h6 .group-card,
+      .h6 .group-card {
         flex: 1 1 100%; }
       h6 .columnparty,
       .h6 .columnparty {
@@ -16445,9 +16453,13 @@ h5,
     .h5:not(h5, .h5, h6, .h6) {
       font-size: calc(25px * 0.8);
       font-size: calc(25px * 0.8);
+      font-size: calc(25px * 0.8);
       font-size: calc(25px * 0.8); }
       h5:not(h5, .h5, h6, .h6) .theme-card,
       .h5:not(h5, .h5, h6, .h6) .theme-card {
+        flex: 1 1 100%; }
+      h5:not(h5, .h5, h6, .h6) .group-card,
+      .h5:not(h5, .h5, h6, .h6) .group-card {
         flex: 1 1 100%; }
       h5:not(h5, .h5, h6, .h6) .columnparty,
       .h5:not(h5, .h5, h6, .h6) .columnparty {
@@ -16465,9 +16477,13 @@ h5,
     .h5 {
       font-size: calc(25px * 0.9);
       font-size: calc(25px * 0.9);
+      font-size: calc(25px * 0.9);
       font-size: calc(25px * 0.9); }
       h5 .theme-card,
       .h5 .theme-card {
+        flex: 1 1 100%; }
+      h5 .group-card,
+      .h5 .group-card {
         flex: 1 1 100%; }
       h5 .columnparty,
       .h5 .columnparty {
@@ -16490,9 +16506,13 @@ h4,
     .h4:not(h5, .h5, h6, .h6) {
       font-size: calc(31.25px * 0.8);
       font-size: calc(31.25px * 0.8);
+      font-size: calc(31.25px * 0.8);
       font-size: calc(31.25px * 0.8); }
       h4:not(h5, .h5, h6, .h6) .theme-card,
       .h4:not(h5, .h5, h6, .h6) .theme-card {
+        flex: 1 1 100%; }
+      h4:not(h5, .h5, h6, .h6) .group-card,
+      .h4:not(h5, .h5, h6, .h6) .group-card {
         flex: 1 1 100%; }
       h4:not(h5, .h5, h6, .h6) .columnparty,
       .h4:not(h5, .h5, h6, .h6) .columnparty {
@@ -16510,9 +16530,13 @@ h4,
     .h4 {
       font-size: calc(31.25px * 0.9);
       font-size: calc(31.25px * 0.9);
+      font-size: calc(31.25px * 0.9);
       font-size: calc(31.25px * 0.9); }
       h4 .theme-card,
       .h4 .theme-card {
+        flex: 1 1 100%; }
+      h4 .group-card,
+      .h4 .group-card {
         flex: 1 1 100%; }
       h4 .columnparty,
       .h4 .columnparty {
@@ -16535,9 +16559,13 @@ h3,
     .h3:not(h5, .h5, h6, .h6) {
       font-size: calc(39.0625px * 0.8);
       font-size: calc(39.0625px * 0.8);
+      font-size: calc(39.0625px * 0.8);
       font-size: calc(39.0625px * 0.8); }
       h3:not(h5, .h5, h6, .h6) .theme-card,
       .h3:not(h5, .h5, h6, .h6) .theme-card {
+        flex: 1 1 100%; }
+      h3:not(h5, .h5, h6, .h6) .group-card,
+      .h3:not(h5, .h5, h6, .h6) .group-card {
         flex: 1 1 100%; }
       h3:not(h5, .h5, h6, .h6) .columnparty,
       .h3:not(h5, .h5, h6, .h6) .columnparty {
@@ -16555,9 +16583,13 @@ h3,
     .h3 {
       font-size: calc(39.0625px * 0.9);
       font-size: calc(39.0625px * 0.9);
+      font-size: calc(39.0625px * 0.9);
       font-size: calc(39.0625px * 0.9); }
       h3 .theme-card,
       .h3 .theme-card {
+        flex: 1 1 100%; }
+      h3 .group-card,
+      .h3 .group-card {
         flex: 1 1 100%; }
       h3 .columnparty,
       .h3 .columnparty {
@@ -16580,9 +16612,13 @@ h2,
     .h2:not(h5, .h5, h6, .h6) {
       font-size: calc(48.828125px * 0.8);
       font-size: calc(48.828125px * 0.8);
+      font-size: calc(48.828125px * 0.8);
       font-size: calc(48.828125px * 0.8); }
       h2:not(h5, .h5, h6, .h6) .theme-card,
       .h2:not(h5, .h5, h6, .h6) .theme-card {
+        flex: 1 1 100%; }
+      h2:not(h5, .h5, h6, .h6) .group-card,
+      .h2:not(h5, .h5, h6, .h6) .group-card {
         flex: 1 1 100%; }
       h2:not(h5, .h5, h6, .h6) .columnparty,
       .h2:not(h5, .h5, h6, .h6) .columnparty {
@@ -16600,9 +16636,13 @@ h2,
     .h2 {
       font-size: calc(48.828125px * 0.9);
       font-size: calc(48.828125px * 0.9);
+      font-size: calc(48.828125px * 0.9);
       font-size: calc(48.828125px * 0.9); }
       h2 .theme-card,
       .h2 .theme-card {
+        flex: 1 1 100%; }
+      h2 .group-card,
+      .h2 .group-card {
         flex: 1 1 100%; }
       h2 .columnparty,
       .h2 .columnparty {
@@ -16625,9 +16665,13 @@ h1,
     .h1:not(h5, .h5, h6, .h6) {
       font-size: calc(61.03515625px * 0.8);
       font-size: calc(61.03515625px * 0.8);
+      font-size: calc(61.03515625px * 0.8);
       font-size: calc(61.03515625px * 0.8); }
       h1:not(h5, .h5, h6, .h6) .theme-card,
       .h1:not(h5, .h5, h6, .h6) .theme-card {
+        flex: 1 1 100%; }
+      h1:not(h5, .h5, h6, .h6) .group-card,
+      .h1:not(h5, .h5, h6, .h6) .group-card {
         flex: 1 1 100%; }
       h1:not(h5, .h5, h6, .h6) .columnparty,
       .h1:not(h5, .h5, h6, .h6) .columnparty {
@@ -16645,9 +16689,13 @@ h1,
     .h1 {
       font-size: calc(61.03515625px * 0.9);
       font-size: calc(61.03515625px * 0.9);
+      font-size: calc(61.03515625px * 0.9);
       font-size: calc(61.03515625px * 0.9); }
       h1 .theme-card,
       .h1 .theme-card {
+        flex: 1 1 100%; }
+      h1 .group-card,
+      .h1 .group-card {
         flex: 1 1 100%; }
       h1 .columnparty,
       .h1 .columnparty {
@@ -16831,8 +16879,12 @@ select {
       padding-top: 4.5rem;
       padding-bottom: 4.5rem;
       padding-top: 4.5rem;
+      padding-bottom: 4.5rem;
+      padding-top: 4.5rem;
       padding-bottom: 4.5rem; }
       .section .theme-card {
+        flex: 1 1 100%; }
+      .section .group-card {
         flex: 1 1 100%; }
       .section .columnparty {
         flex: 1 1 100%; }
@@ -17564,8 +17616,12 @@ body.dark {
           height: 55px;
           width: 55px;
           height: 55px;
+          width: 55px;
+          height: 55px;
           width: 55px; }
           .has-video .video-loader-btn::before .theme-card {
+            flex: 1 1 100%; }
+          .has-video .video-loader-btn::before .group-card {
             flex: 1 1 100%; }
           .has-video .video-loader-btn::before .columnparty {
             flex: 1 1 100%; }
@@ -17588,8 +17644,11 @@ body.dark {
         .has-video .video-loader-btn::after {
           transform: translate(-50%, -50%) scale(0.2);
           transform: translate(-50%, -50%) scale(0.2);
+          transform: translate(-50%, -50%) scale(0.2);
           transform: translate(-50%, -50%) scale(0.2); }
           .has-video .video-loader-btn::after .theme-card {
+            flex: 1 1 100%; }
+          .has-video .video-loader-btn::after .group-card {
             flex: 1 1 100%; }
           .has-video .video-loader-btn::after .columnparty {
             flex: 1 1 100%; }
@@ -17604,8 +17663,11 @@ body.dark {
         .has-video .video-loader-btn i {
           font-size: 17px;
           font-size: 17px;
+          font-size: 17px;
           font-size: 17px; }
           .has-video .video-loader-btn i .theme-card {
+            flex: 1 1 100%; }
+          .has-video .video-loader-btn i .group-card {
             flex: 1 1 100%; }
           .has-video .video-loader-btn i .columnparty {
             flex: 1 1 100%; }
@@ -18200,6 +18262,29 @@ div.fullclass {
 
 .price-table td {
   background-color: #eef7fb; }
+
+.group-section {
+  margin-bottom: 2rem; }
+
+.group-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 10px;
+  background-color: #f9f9f9;
+  flex: 1 1 calc(25% - 20px); }
+
+.group-card h3, .group-card .h3 {
+  margin: 0 0 0.5rem 0; }
+
+.group-card h5, .group-card .h5 {
+  font-size: smaller;
+  margin: 0 0 0.5rem 0; }
+
+.group-card h6, .group-card .h6 {
+  font-size: medium;
+  margin: 0 0 0.2rem 0; }
 
 .hero-section {
   background-color: #003359;

@@ -105,6 +105,11 @@
     weight     = 10
 
 [[main]]
+    name       = "For Your Group"
+    url        = "/group-classes/"
+    weight     = 11
+
+[[main]]
     name       = "Team"
     url        = "/instructors/"
     weight     = 12

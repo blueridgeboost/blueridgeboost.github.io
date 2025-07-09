@@ -10,10 +10,10 @@ start_date: "2025-06-02"
 end_date: "2025-08-15"
 start_time: "5:30"
 end_time: "8:30"
-page_title: "Web Design 1 (Teens)"
+page_title: "Web Design 1 (Teens, Virtual)"
 page_subtitle: "CodeHS Certification"
-featured: 77
-title: "Web Design 1 (Teens) | Blue Ridge Boost"
+featured: 85
+title: "Web Design 1 (Teens, Virtual) | Blue Ridge Boost"
 day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 grade_tags: ["7th", "8th", "9th","10th","11th","12th"]
 subject_tags: ["Computer Coding"]

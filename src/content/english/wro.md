@@ -50,6 +50,11 @@ Compete for a chance to qualify for the <b><a href="https://www.uselyouthrobotic
   <p>The World Robot Olympiad (WRO) 2025 is centered around the theme "The Future of Robots". This year, participants will explore how robotics can address global challenges and improve lives. The theme highlights robotics' transformative potential in areas such as reshaping cities, expanding human presence across the universe, and integrating AI-enabled robots into everyday life.
   With endless possibilities, WRO 2025 invites teams to design innovative solutions that shape a better future for humanity through robotics.</p>
 
+  <div class="container" id="WRO Coaching">
+  <div id="my-store-106136041"></div>
+  <div><script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("id=my-store-106136041", "defaultCategoryId=184216261");</script></div>
+  </div>
+
 <h2>WRO-USA Open: Charlottesville, Virginia</h2> 
 
 
