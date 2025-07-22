@@ -12,7 +12,7 @@ start_time: "2:00"
 end_time: "5:00"
 page_title: "Java 1 (Teens)"
 page_subtitle: "CodeHS Certification"
-featured: 82
+featured: 83
 ribbon: "Get ready for AP CSA!"
 title: "Java 1 (Teens) | Blue Ridge Boost"
 day_tags: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]

@@ -8,38 +8,10 @@
     <language>en-US</language>
     <atom:link href="https://blueridgeboost.com/classes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Web Design 1 (Teens, Virtual) | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Web-Design-Level-1-Teens/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Web-Design-Level-1-Teens/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Java 1 (Teens) | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Java-Level-1-Teens/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Java-Level-1-Teens/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cybersecurity 1 (Teens) | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Cybersecurity-Level-1-Teens/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Cybersecurity-Level-1-Teens/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cybersecurity 2 (Teens) | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Cybersecurity-Level-2-Tweens/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Cybersecurity-Level-2-Tweens/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Practice Space for WRO ROBOMission Senior | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/2025-WRO-ROBO-Mission-Senior-Practice/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/2025-WRO-ROBO-Mission-Senior-Practice/</guid>
       <description></description>
     </item>
     <item>
@@ -61,6 +33,41 @@
       <link>https://blueridgeboost.com/classes/JS-APCSA-In-Person/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/JS-APCSA-In-Person/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python Code Builders | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Python-Builders-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Python-Builders-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>3D Video Game Modeling: Blender to Unreal Engine | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Blender-to-Unreal-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Blender-to-Unreal-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Advanced FIRST LEGO League (Grades 4 and 5) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/FLL-Challenge-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/FLL-Challenge-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Advanced FIRST LEGO League (Grades 6 to 8) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/FLL-Challenge-25-26-Div2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/FLL-Challenge-25-26-Div2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI, Ethics, and Python | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/AI-Python-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/AI-Python-25-26/</guid>
       <description></description>
     </item>
     <item>

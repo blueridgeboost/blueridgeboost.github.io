@@ -99,6 +99,9 @@ style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0
                 <br>
             {{ end }}
         {{ end }}
+        {{ if eq $ecwid_category "Subscription Classes" }}
+            <p><b>Subscription (${{ .Params.price }} /month)</b></p>
+        {{ end }}
         <div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
             <div class="ecsp-productBrowser-price ecsp-price" itemprop="price" content="{{ .Params.price }}" 
                 data-spw-price-location="button">

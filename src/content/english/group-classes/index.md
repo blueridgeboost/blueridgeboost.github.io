@@ -8,7 +8,7 @@ layout: single
 style: justify-text-center
 ---
 
-<p>For You classes are designed to be a flexible and tailored option specifically set up for your group of students, on your schedule. </p>
+<p>Group Classes, just for you! Our on-demand Group Classes are designed to be a flexible and tailored option specifically set up for your group of students, on your schedule. </p>
 <div class="row row-cols-2">
     <div class = "col">
     <img src="images/here.jpg" alt="Dorina and Maxwell Working on Fortnite Game Development in Unreal Engine" width="400">
@@ -17,9 +17,9 @@ style: justify-text-center
     <div class="col">
         <ul>
         <h3>Perfect for</h3>
-        <li><h5>Homeschool Groups</h5></li>
-        <li><h5>Education Pods</h5></li>
-        <h5><li>Series of Field Trips</li>
+        <h5><li>Homeschool Groups</li>
+        <li>Education Pods</li>
+        <li>Series of Field Trips</li>
         <li>Study groups</li></h5>
         </ul>
     </div>
