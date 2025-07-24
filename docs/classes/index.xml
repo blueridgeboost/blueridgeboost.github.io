@@ -8,20 +8,6 @@
     <language>en-US</language>
     <atom:link href="https://blueridgeboost.com/classes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Java 1 (Teens) | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Java-Level-1-Teens/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Java-Level-1-Teens/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>JavaScript for AP CSP (Virtual) | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/JS-APCSP/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/JS-APCSP/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Java for AP Computer Science (Virtual) | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/JS-APCSA/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -57,6 +43,20 @@
       <description></description>
     </item>
     <item>
+      <title>Advanced VEX IQ (Grades 4 - 5) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Advanced-VEX-IQ-4-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Advanced-VEX-IQ-4-5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Advanced VEX IQ (Grades 6 - 8) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Advanced-VEX-IQ-6-8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Advanced-VEX-IQ-6-8/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Advanced FIRST LEGO League (Grades 6 to 8) | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/FLL-Challenge-25-26-Div2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -71,6 +71,34 @@
       <description></description>
     </item>
     <item>
+      <title>Carnegie Mellon Robotics Academy: Autonomy Foundations | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/CMRA-AutonomyFoundations-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/CMRA-AutonomyFoundations-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carnegie Mellon Robotics Academy: Electrical Foundations | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/CMRA-ElectricalFoundations-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/CMRA-ElectricalFoundations-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carnegie Mellon Robotics Academy: Mechanical Foundations | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/CMRA-MechanicalFoundations-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/CMRA-MechanicalFoundations-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carnegie Mellon Robotics Academy: Software Foundations | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/CMRA-SoftwareFoundations-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/CMRA-SoftwareFoundations-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Chess Club and Classes | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/chess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -82,6 +110,13 @@
       <link>https://blueridgeboost.com/classes/coding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/coding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript for AP CSP (Virtual) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/JS-APCSP/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/JS-APCSP/</guid>
       <description></description>
     </item>
     <item>

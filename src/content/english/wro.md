@@ -35,10 +35,10 @@ Compete for a chance to qualify for the <b><a href="https://www.uselyouthrobotic
   <!-- Save the Date Banner -->
   <div class="container mt-4">
     <div class="hero-section">
-      <p><strong>Date:</strong> Saturday, August 23, 2025</p>
+      <p><strong>Dates:</strong> Saturday, August 23, 2025 and Sunday, August 24, 2025</p>
       <p><strong>Location:</strong> Charlottesville, VA</p>
       <p>Several Teams Will Join Team USA Robotics for World Robot Olympiad Open Championship, Americas in Panama City, Panama!</p>
-      <p>Exact location in Charlottesville and time of the event coming soon!</p>
+      <p>Student Activities Building, at the University of Virginia, Charlottesville. Address: 800 Alderman Rd, Charlottesville, VA 22903.</p>
     </div>
   </div>
 
@@ -61,6 +61,27 @@ Compete for a chance to qualify for the <b><a href="https://www.uselyouthrobotic
 <strong>Blue Ridge Boost</strong>, an affiliate with US Engineering League, the National Organizer of WRO in USA is proud to host a WRO-USA Open in Charlottesville, Virginia.
 <p>Compete for a chance to qualify for the <b><a href="https://www.uselyouthrobotics.com/open-championship-americas-panama-city-panama">Open Championship: Americas</a></b> in Panama City, Panama! 
 
+
+
+<h3>Schedule</h3>
+
+<h4>Saturday</h4>
+
+2:30 pm to 6:30 pm &mdash; practice and set up
+
+<h4>Sunday</h4>
+
+9:00 am to 10:00 am &mdash; registration, robot inspection, and set up
+
+10:00 am to 12:00 pm &mdash; qualification matches
+
+12:00 pm to 1:00 pm &mdash; lunch
+
+1:00 pm to 3:00 pm &mdash; qualification matched
+
+3:00 pm to 4:00 pm &mdash; break
+
+4:00 pm to 5:00 pm &mdash; closing ceremony 
 
   <!-- Event Details Section -->
   <div class="container details-section">

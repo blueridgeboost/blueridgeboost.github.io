@@ -2,10 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blueridgeboost.com/classes/Java-Level-1-Teens/</loc>
-  </url><url>
-    <loc>https://blueridgeboost.com/classes/JS-APCSP/</loc>
-  </url><url>
     <loc>https://blueridgeboost.com/classes/JS-APCSA/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/JS-APCSA-In-Person/</loc>
@@ -16,9 +12,21 @@
   </url><url>
     <loc>https://blueridgeboost.com/classes/FLL-Challenge-25-26/</loc>
   </url><url>
+    <loc>https://blueridgeboost.com/classes/Advanced-VEX-IQ-4-5/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/Advanced-VEX-IQ-6-8/</loc>
+  </url><url>
     <loc>https://blueridgeboost.com/classes/FLL-Challenge-25-26-Div2/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/AI-Python-25-26/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/CMRA-AutonomyFoundations-25-26/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/CMRA-ElectricalFoundations-25-26/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/CMRA-MechanicalFoundations-25-26/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/CMRA-SoftwareFoundations-25-26/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/</loc>
     <lastmod>2020-08-18T10:07:21+06:00</lastmod>
@@ -58,6 +66,8 @@
     <loc>https://blueridgeboost.com/faq/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/girl-powered-fridays/</loc>
+  </url><url>
+    <loc>https://blueridgeboost.com/classes/JS-APCSP/</loc>
   </url><url>
     <loc>https://blueridgeboost.com/classes/math/</loc>
   </url><url>
