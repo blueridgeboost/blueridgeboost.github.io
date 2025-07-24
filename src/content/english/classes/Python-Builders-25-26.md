@@ -4,9 +4,10 @@ product_id: Python-Builders-25-26
 robots: "noindex, follow"
 layout: "single"
 price: 149.99
-weight: "16"
+category: "Subscription Classes"
+weight: "3"
 start_date: "2025-08-18"
-end_date: "2026-05-24"
+end_date: "2026-05-18"
 start_time: "4:30"
 end_time: "5:30"
 page_title: "Python Code Builders"

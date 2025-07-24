@@ -9,20 +9,6 @@
     <lastBuildDate>Tue, 18 Aug 2020 10:07:21 +0600</lastBuildDate>
     <atom:link href="https://blueridgeboost.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Java 1 (Teens) | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Java-Level-1-Teens/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Java-Level-1-Teens/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>JavaScript for AP CSP (Virtual) | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/JS-APCSP/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/JS-APCSP/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Java for AP Computer Science (Virtual) | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/JS-APCSA/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -58,6 +44,20 @@
       <description></description>
     </item>
     <item>
+      <title>Advanced VEX IQ (Grades 4 - 5) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Advanced-VEX-IQ-4-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Advanced-VEX-IQ-4-5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Advanced VEX IQ (Grades 6 - 8) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Advanced-VEX-IQ-6-8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Advanced-VEX-IQ-6-8/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Advanced FIRST LEGO League (Grades 6 to 8) | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/FLL-Challenge-25-26-Div2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -69,6 +69,34 @@
       <link>https://blueridgeboost.com/classes/AI-Python-25-26/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/AI-Python-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carnegie Mellon Robotics Academy: Autonomy Foundations | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/CMRA-AutonomyFoundations-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/CMRA-AutonomyFoundations-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carnegie Mellon Robotics Academy: Electrical Foundations | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/CMRA-ElectricalFoundations-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/CMRA-ElectricalFoundations-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carnegie Mellon Robotics Academy: Mechanical Foundations | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/CMRA-MechanicalFoundations-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/CMRA-MechanicalFoundations-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carnegie Mellon Robotics Academy: Software Foundations | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/CMRA-SoftwareFoundations-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/CMRA-SoftwareFoundations-25-26/</guid>
       <description></description>
     </item>
     <item>
@@ -154,6 +182,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/girl-powered-fridays/</guid>
       <description>&lt;div class=&#34;container&#34;&gt;&#xD;&#xA;    &lt;p&gt;Designed to empower girls in Science, Technology, Engineering, and Mathematics (STEM)!&lt;/p&gt;&#xD;&#xA;    &lt;p&gt;We welcome girls and their supporters to an evening of innovation and discovery. Fuel your creativity with complimentary pizza and dessert.&lt;/p&gt;&#xD;&#xA;    &lt;p&gt;Together, let&#39;s break barriers and build a future where girls thrive in STEM fields!&lt;/p&gt;&#xD;&#xA;    &lt;p&gt;The Girl-Powered Fridays will stop for the summer. Please come back in August for the 2025-2026 schedule&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;container&#34;&gt;&#xD;&#xA;    &lt;div&gt;&#xD;&#xA;        &lt;script data-cfasync=&#34;false&#34; type=&#34;text/javascript&#34; src=&#34;https://app.ecwid.com/script.js?106136041&amp;data_platform=code&#34;&#xD;&#xA;        charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xD;&#xA;        &lt;script type=&#34;text/javascript&#34;&gt;&#xD;&#xA;        xProductBrowser(&#34;views=grid(20,5) list(60) table(60)&#34;,&#34;categoryView=grid&#34;,&#34;id=my-store-106136041&#34;, &#xD;&#xA;        &#34;defaultCategoryId=175336113&#34;);&lt;/script&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript for AP CSP (Virtual) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/JS-APCSP/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/JS-APCSP/</guid>
+      <description></description>
     </item>
     <item>
       <title>Math Classes and Tutoring | Blue Ridge Boost</title>
@@ -307,7 +342,7 @@
       <link>https://blueridgeboost.com/wro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/wro/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Blue Ridge Boost&lt;/strong&gt; is proud to host a WRO-USA Open in Charlottesville, Virginia.&#xA;Compete for a chance to qualify for the &lt;b&gt;&lt;a href=&#34;https://www.uselyouthrobotics.com/open-championship-americas-panama-city-panama&#34;&gt;Open Championship: Americas&lt;/a&gt;&lt;/b&gt; in Panama City, Panama!&lt;/p&gt;&#xA;  &lt;!-- Save the Date Banner --&gt;&#xD;&#xA;  &lt;div class=&#34;container mt-4&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;hero-section&#34;&gt;&#xD;&#xA;      &lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; Saturday, August 23, 2025&lt;/p&gt;&#xD;&#xA;      &lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Charlottesville, VA&lt;/p&gt;&#xD;&#xA;      &lt;p&gt;Several Teams Will Join Team USA Robotics for World Robot Olympiad Open Championship, Americas in Panama City, Panama!&lt;/p&gt;&#xD;&#xA;      &lt;p&gt;Exact location in Charlottesville and time of the event coming soon!&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Blue Ridge Boost&lt;/strong&gt; is proud to host a WRO-USA Open in Charlottesville, Virginia.&#xA;Compete for a chance to qualify for the &lt;b&gt;&lt;a href=&#34;https://www.uselyouthrobotics.com/open-championship-americas-panama-city-panama&#34;&gt;Open Championship: Americas&lt;/a&gt;&lt;/b&gt; in Panama City, Panama!&lt;/p&gt;&#xA;  &lt;!-- Save the Date Banner --&gt;&#xD;&#xA;  &lt;div class=&#34;container mt-4&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;hero-section&#34;&gt;&#xD;&#xA;      &lt;p&gt;&lt;strong&gt;Dates:&lt;/strong&gt; Saturday, August 23, 2025 and Sunday, August 24, 2025&lt;/p&gt;&#xD;&#xA;      &lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Charlottesville, VA&lt;/p&gt;&#xD;&#xA;      &lt;p&gt;Several Teams Will Join Team USA Robotics for World Robot Olympiad Open Championship, Americas in Panama City, Panama!&lt;/p&gt;&#xD;&#xA;      &lt;p&gt;Student Activities Building, at the University of Virginia, Charlottesville. Address: 800 Alderman Rd, Charlottesville, VA 22903.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
