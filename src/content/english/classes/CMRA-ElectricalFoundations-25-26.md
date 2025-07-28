@@ -12,7 +12,7 @@ start_time: "6:00"
 end_time: "7:30"
 page_title: "Carnegie Mellon Robotics Academy: Electrical Foundations"
 page_subtitle: "From Wires to Robots: Build and Program with Arduino!"
-featured: 169
+featured: 171
 title: "Carnegie Mellon Robotics Academy: Electrical Foundations | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]

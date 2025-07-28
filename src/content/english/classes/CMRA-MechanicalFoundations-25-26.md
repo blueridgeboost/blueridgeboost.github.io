@@ -12,7 +12,7 @@ start_time: "6:00"
 end_time: "7:30"
 page_title: "Carnegie Mellon Robotics Academy: Mechanical Foundations"
 page_subtitle: "Mastering Mechanical Design and Robotics with Hands-On REV DUO Projects"
-featured: 168
+featured: 170
 title: "Carnegie Mellon Robotics Academy: Mechanical Foundations | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]

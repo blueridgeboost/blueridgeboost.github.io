@@ -12,7 +12,7 @@ start_time: "6:00"
 end_time: "7:30"
 page_title: "Carnegie Mellon Robotics Academy: Software Foundations"
 page_subtitle: "From Beginner to Roboticist in 10 Sessions!"
-featured: 167
+featured: 169
 title: "Carnegie Mellon Robotics Academy: Software Foundations | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
