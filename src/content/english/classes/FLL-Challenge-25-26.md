@@ -8,15 +8,15 @@ category: "Subscription Classes"
 weight: "5"
 start_date: "2025-08-18"
 end_date: "2025-11-15"
-start_time: "5:30"
-end_time: "7:00"
+start_time: "4:30"
+end_time: "6:00"
 page_title: "Advanced FIRST LEGO League (Grades 4 and 5)"
 page_subtitle: "Building Robots, Solving Challenges!"
-featured: 155
+featured: 165
 ribbon: "$325/month"
 title: "Advanced FIRST LEGO League (Grades 4 and 5) | Blue Ridge Boost"
-day_tags: ["Tuesday"]
-grade_tags: ["4th","5th"]
+day_tags: ["Mondays"]
+grade_tags: ["3rd","4th","5th"]
 subject_tags: ["Robotics"]
 difficulty: "Bot Builders Elite"
 attributes:
