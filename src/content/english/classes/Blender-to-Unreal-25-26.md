@@ -12,7 +12,7 @@ start_time: "6:00"
 end_time: "7:30"
 page_title: "3D Video Game Modeling: Blender to Unreal Engine"
 page_subtitle: "Design and Create Dungeon Props!"
-featured: 129
+featured: 132
 ribbon: "$199/month"
 title: "3D Video Game Modeling: Blender to Unreal Engine | Blue Ridge Boost"
 day_tags: ["Monday"]
