@@ -12,7 +12,7 @@ start_time: "4:00"
 end_time: "5:30"
 page_title: "Advanced VEX IQ (Grades 4 - 5)"
 page_subtitle: "Building Robots, Solving Challenges!"
-featured: 166
+featured: 167
 ribbon: "$325/month"
 title: "Advanced VEX IQ (Grades 4 - 5) | Blue Ridge Boost"
 day_tags: ["Thursday"]
