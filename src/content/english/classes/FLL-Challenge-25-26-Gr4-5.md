@@ -15,7 +15,7 @@ page_subtitle: "Building Robots, Solving Challenges!"
 featured: 168
 ribbon: "$325/month"
 title: "Advanced FIRST LEGO League (Grades 4 and 5) | Blue Ridge Boost"
-day_tags: ["Mondays"]
+day_tags: ["Monday"]
 grade_tags: ["3rd","4th","5th"]
 subject_tags: ["Robotics"]
 difficulty: "Bot Builders Elite"

@@ -5,7 +5,7 @@ robots: "noindex, follow"
 layout: "single"
 price: 199.99
 category: "Subscription Classes"
-weight: "15"
+weight: "31"
 start_date: "2025-09-06"
 end_date: "2026-05-15"
 start_time: "3:30"
