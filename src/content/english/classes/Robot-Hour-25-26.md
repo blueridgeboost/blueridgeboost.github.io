@@ -5,7 +5,7 @@ robots: "noindex, follow"
 layout: "single"
 price: 149.99
 category: "Subscription Classes"
-weight: "29"
+weight: "2"
 start_date: "2025-08-18"
 end_date: "2026-05-24"
 start_time: "3:45"
@@ -17,6 +17,6 @@ title: "Robot Explorers: Intro to Robotics | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["1st","2nd"]
 subject_tags: ["Robotics"]
-difficulty: "undefined"
+difficulty: "Robo Rookies"
 attributes:
 ---

@@ -17,6 +17,6 @@ title: "Code Craft: Minecraft Coding | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["3rd","4th"]
 subject_tags: ["Computer Coding"]
-difficulty: "undefined"
+difficulty: "Code Cadets"
 attributes:
 ---
