@@ -1,11 +1,11 @@
 ---
 ecwid: 767782567
-product_id: FLL-Challenge-25-26
+product_id: FLL-Challenge-25-26-Gr4-5
 robots: "noindex, follow"
 layout: "single"
 price: 325
 category: "Subscription Classes"
-weight: "5"
+weight: "3"
 start_date: "2025-08-18"
 end_date: "2025-11-15"
 start_time: "4:30"

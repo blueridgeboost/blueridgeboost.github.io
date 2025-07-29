@@ -8,7 +8,7 @@ category: "Subscription Classes"
 weight: "31"
 start_date: "2025-08-19"
 end_date: "2025-12-19"
-start_time: "4:30"
+start_time: "4:00"
 end_time: "5:30"
 page_title: "Intro to FIRST LEGO League"
 featured: 155
