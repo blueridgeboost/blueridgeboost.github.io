@@ -17,6 +17,6 @@ title: "Geometry Homework Help | Blue Ridge Boost"
 day_tags: ["Monday", "Wednesday"]
 grade_tags: ["8th","9th"]
 subject_tags: ["Math"]
-difficulty: "Math Maestros"
+difficulty: "Foundation Forgers"
 attributes:
 ---

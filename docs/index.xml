@@ -107,6 +107,13 @@
       <description></description>
     </item>
     <item>
+      <title>Java for AP Computer Science (Virtual) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/JS-APCSA/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/JS-APCSA/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Advanced Math Enrichment 3rd Grade | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Advanced-Math-Enrichment-3rd-25-26/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -212,17 +219,38 @@
       <description></description>
     </item>
     <item>
-      <title>Java for AP Computer Science (Virtual) | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/JS-APCSA/</link>
+      <title>Micro:bit Programming (Grades 3 to 5) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/MicroBit-3-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/JS-APCSA/</guid>
+      <guid>https://blueridgeboost.com/classes/MicroBit-3-4/</guid>
       <description></description>
     </item>
     <item>
-      <title>Java for AP Computer Science (In-person) | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/APCSA-In-Person/</link>
+      <title>Game Makers: Intro to Unity | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/GameMakerUnity-25-26/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/APCSA-In-Person/</guid>
+      <guid>https://blueridgeboost.com/classes/GameMakerUnity-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Roblox Studio: Make a game in 6 sessions | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/RobloxStudio-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/RobloxStudio-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carnegie Mellon Robotics Academy: Software Foundations | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/CMRA-SoftwareFoundations-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/CMRA-SoftwareFoundations-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Introduction to Computer Science | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/IntroCS-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/IntroCS-25-26/</guid>
       <description></description>
     </item>
     <item>
@@ -247,38 +275,10 @@
       <description></description>
     </item>
     <item>
-      <title>Carnegie Mellon Robotics Academy: Software Foundations | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/CMRA-SoftwareFoundations-25-26/</link>
+      <title>Competition Math Grades 1 and 2 | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/CM-25-25-GR1-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/CMRA-SoftwareFoundations-25-26/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Game Makers: Intro to Unity | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/GameMakerUnity-25-26/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/GameMakerUnity-25-26/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Roblox Studio: Make a game in 6 sessions | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/RobloxStudio-25-26/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/RobloxStudio-25-26/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Introduction to Computer Science | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/IntroCS-25-26/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/IntroCS-25-26/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Introduction to Computer Science | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/IntroCS-25-26-Sat/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/IntroCS-25-26-Sat/</guid>
+      <guid>https://blueridgeboost.com/classes/CM-25-25-GR1-2/</guid>
       <description></description>
     </item>
     <item>
@@ -289,52 +289,10 @@
       <description></description>
     </item>
     <item>
-      <title>Python Basics with Tracy the Turtle | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/PythonTurtle-25-26/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/PythonTurtle-25-26/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mod Craft: Code Your Own Minecraft Mods | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/ModdingMinecraft-25-26/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/ModdingMinecraft-25-26/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Block Coding with Beavers | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Block-Coding-with-Beavers-25-26/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Block-Coding-with-Beavers-25-26/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Soar into STEM: Aerial Drone Class for Grades 3-4 | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-3-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-3-4/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Aerial Drone Competition for Grades 3-5 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-3-5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-3-5/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Soar into STEM: Aerial Drone Class for Grades 5-6 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-5-6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-5-6/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Aerial Drone Competition for Grades 6-8 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-6-8/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-6-8/</guid>
       <description></description>
     </item>
     <item>
@@ -345,6 +303,27 @@
       <description></description>
     </item>
     <item>
+      <title>Introduction to Computer Science | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/IntroCS-25-26-Sat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/IntroCS-25-26-Sat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Block Coding with Beavers | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Block-Coding-with-Beavers-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Block-Coding-with-Beavers-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Soar into STEM: Aerial Drone Class for Grades 5-6 | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-5-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-5-6/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Competition Math Grades 5 and 6 | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/CM-25-25-GR5-6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -352,10 +331,31 @@
       <description></description>
     </item>
     <item>
-      <title>Competition Math Grades 1 and 2 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/CM-25-25-GR1-2/</link>
+      <title>Python Basics with Tracy the Turtle | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/PythonTurtle-25-26/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/CM-25-25-GR1-2/</guid>
+      <guid>https://blueridgeboost.com/classes/PythonTurtle-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aerial Drone Competition for Grades 3-5 | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-3-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-3-5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mod Craft: Code Your Own Minecraft Mods | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/ModdingMinecraft-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/ModdingMinecraft-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aerial Drone Competition for Grades 6-8 | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-6-8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-6-8/</guid>
       <description></description>
     </item>
     <item>
@@ -380,6 +380,13 @@
       <description></description>
     </item>
     <item>
+      <title>Java for AP Computer Science (In-person) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/APCSA-In-Person/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/APCSA-In-Person/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Intro to Programming in Java | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/IntroJava-25-26/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -398,6 +405,27 @@
       <link>https://blueridgeboost.com/classes/UnrealBeginners-25-26/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/UnrealBeginners-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Micro:bit - Intro to Computer Science | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/MicroBit-6-8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/MicroBit-6-8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Future Innovators (Grades 5 to 7) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Future-Innovators-5-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Future-Innovators-5-6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Future Innovators (Grades 3 to 5) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Future-Innovators-3-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Future-Innovators-3-5/</guid>
       <description></description>
     </item>
     <item>
@@ -517,7 +545,7 @@
       <link>https://blueridgeboost.com/parents-night-out/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/parents-night-out/</guid>
-      <description>&lt;div class=&#34;container&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;row&#34;&gt;&#xD;&#xA;        &lt;div class=&#34;col-12&#34;&gt;&#xD;&#xA;            &lt;h3&gt;🎮 Calling all gamers! 🎮&lt;/h3&gt;&#xD;&#xA;            &lt;img src=&#34;https://blueridgeboost.com/images/gamenight.jpg&#34; alt=&#34;The Blue Ridge Boost Game Room!&#34; width=800px&gt;&#xD;&#xA;                &lt;p&gt; Get ready to level up your Friday! Whether you&#39;re a Fortnite Fan, Robloxian, Crafter, or just love gaming- this is your night to shine. Use on our fully-decked out gaming set-ups to dive into thrilling multiplayer battles, explore immersive worlds, or take on challenges as a team. It doesn&#39;t matter if you&#39;re a pro-player or new to gaming; with our experienced instructors and touch screen computers, Gaming Fridays are a blast for gamers of all skill levels!&lt;/p&gt;</description>
+      <description>&lt;div&gt;&#xD;&#xA;  &lt;h2&gt;🎮 Level Up Your Friday! 🎮&lt;/h2&gt;&#xD;&#xA;  &lt;p&gt;Whether you&#39;re a Fortnite fan, Robloxian, Crafter, or just love gaming—this is your night to shine! Dive into thrilling multiplayer battles, explore immersive worlds, or take on challenges as a team with our &lt;strong&gt;fully-decked-out gaming setups&lt;/strong&gt;. Plus, &lt;strong&gt;free pizza included!&lt;/strong&gt;&lt;/p&gt;&#xD;&#xA;  &lt;hr style=&#34;border: 1px solid #ddd; margin: 20px 0;&#34; /&gt;&#xD;&#xA;  &lt;!-- Gaming Fridays Section --&gt;&#xD;&#xA;  &lt;h2 style=&#34;color: #4CAF50;&#34;&gt;1. Gaming Fridays (Ages 6–10)&lt;/h2&gt;&#xD;&#xA;  &lt;ul&gt;&#xD;&#xA;    &lt;li&gt;&lt;strong&gt;What:&lt;/strong&gt; A gaming night for younger gamers to explore Minecraft, Fortnite, Roblox, and more with fun themes each week!&lt;/li&gt;&#xD;&#xA;    &lt;li&gt;&lt;strong&gt;When:&lt;/strong&gt; Fridays, 5:30 PM – 8:30 PM&lt;/li&gt;&#xD;&#xA;    &lt;li&gt;&lt;strong&gt;Where:&lt;/strong&gt; Blue Ridge Boost, 2171 Ivy Rd, Charlottesville&lt;/li&gt;&#xD;&#xA;    &lt;li&gt;&lt;strong&gt;Monthly Schedule:&lt;/strong&gt;&#xD;&#xA;      &lt;ul&gt;&#xD;&#xA;        &lt;li&gt;&lt;strong&gt;1st Friday:&lt;/strong&gt; Minecraft Education&lt;/li&gt;&#xD;&#xA;        &lt;li&gt;&lt;strong&gt;2nd Friday:&lt;/strong&gt; Minecraft Java &amp; Bedrock&lt;/li&gt;&#xD;&#xA;        &lt;li&gt;&lt;strong&gt;3rd Friday:&lt;/strong&gt; Fortnite&lt;/li&gt;&#xD;&#xA;        &lt;li&gt;&lt;strong&gt;4th Friday:&lt;/strong&gt; Roblox&lt;/li&gt;&#xD;&#xA;      &lt;/ul&gt;&#xD;&#xA;    &lt;/li&gt;&#xD;&#xA;  &lt;/ul&gt;&#xD;&#xA;  &lt;p&gt;&lt;strong&gt;Cost:&lt;/strong&gt; $49.99&lt;/p&gt;</description>
     </item>
     <item>
       <title>Payment Error | Blue Ridge Boost</title>
