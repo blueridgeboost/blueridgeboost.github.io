@@ -13,7 +13,7 @@ end_time: "5:30"
 page_title: "Precalculus: Mastery Through Teaching and Practice"
 featured: 186
 title: "Precalculus: Mastery Through Teaching and Practice | Blue Ridge Boost"
-day_tags: undefined
+day_tags: ["Saturday"]
 grade_tags: ["8th","9th","10th"]
 subject_tags: ["Math"]
 difficulty: "undefined"
