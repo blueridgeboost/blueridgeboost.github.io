@@ -5,14 +5,14 @@ robots: "noindex, follow"
 layout: "single"
 price: 325
 category: "Subscription Classes"
-weight: "32"
+weight: "35"
 start_date: "2025-09-14"
 end_date: "2026-03-15"
 start_time: "4:00"
 end_time: "5:30"
 page_title: "Advanced VEX IQ (Grades 4 - 5)"
 page_subtitle: "Building Robots, Solving Challenges!"
-featured: 167
+featured: 164
 ribbon: "$325/month"
 title: "Advanced VEX IQ (Grades 4 - 5) | Blue Ridge Boost"
 day_tags: ["Thursday"]

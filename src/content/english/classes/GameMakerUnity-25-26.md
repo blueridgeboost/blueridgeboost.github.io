@@ -5,13 +5,13 @@ robots: "noindex, follow"
 layout: "single"
 price: 249.99
 category: "Subscription Classes"
-weight: "36"
+weight: "31"
 start_date: "2025-08-20"
 end_date: "2026-05-24"
 start_time: "5:00"
 end_time: "6:30"
 page_title: "Game Makers: Intro to Unity"
-featured: 156
+featured: 154
 title: "Game Makers: Intro to Unity | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["7th","8th"]

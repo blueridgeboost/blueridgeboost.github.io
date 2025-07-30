@@ -5,13 +5,13 @@ robots: "noindex, follow"
 layout: "single"
 price: 179
 category: "Subscription Classes"
-weight: "40"
+weight: "39"
 start_date: "2025-08-16"
 end_date: "2026-05-16"
 start_time: "12:00"
 end_time: "1:00"
 page_title: "Python Level 1"
-page_subtitle: "Saturdays, 1:00 to 2:00"
+page_subtitle: "Preparation and Certification Exam"
 featured: 0
 title: "Python Level 1 | Blue Ridge Boost"
 day_tags: ["Saturday"]

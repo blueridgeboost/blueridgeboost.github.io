@@ -5,13 +5,13 @@ robots: "noindex, follow"
 layout: "single"
 price: 199.99
 category: "Subscription Classes"
-weight: "46"
+weight: "47"
 start_date: "2025-08-21"
 end_date: "2026-02-28"
 start_time: "2:00"
 end_time: "3:00"
 page_title: "Aerial Drone Competition for Grades 3-5"
-featured: 179
+featured: 176
 title: "Aerial Drone Competition for Grades 3-5 | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["3rd","4th","5th"]

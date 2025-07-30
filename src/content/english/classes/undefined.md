@@ -4,7 +4,7 @@ product_id: undefined
 robots: "noindex, follow"
 layout: "single"
 price: 149.99
-weight: "23"
+weight: "24"
 start_date: "2025-08-19"
 end_date: "2026-05-24"
 start_time: "5:30"
