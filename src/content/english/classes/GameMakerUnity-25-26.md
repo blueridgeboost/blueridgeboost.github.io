@@ -10,9 +10,9 @@ start_date: "2025-08-20"
 end_date: "2026-05-24"
 start_time: "5:00"
 end_time: "6:30"
-page_title: "Game Makers: An Introduction to Unity"
+page_title: "Game Makers: Intro to Unity"
 featured: 156
-title: "Game Makers: An Introduction to Unity | Blue Ridge Boost"
+title: "Game Makers: Intro to Unity | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["7th","8th"]
 subject_tags: ["Computer Coding"]
