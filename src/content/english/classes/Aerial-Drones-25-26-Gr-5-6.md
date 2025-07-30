@@ -1,6 +1,6 @@
 ---
 ecwid: 770348971
-product_id: Aerial-Drones-25-26-Gr-2-4
+product_id: Aerial-Drones-25-26-Gr-5-6
 robots: "noindex, follow"
 layout: "single"
 price: 179.99
@@ -13,7 +13,7 @@ end_time: "2:00"
 page_title: "Soar into STEM: Aerial Drone Class for Grades 5-6"
 featured: 180
 title: "Soar into STEM: Aerial Drone Class for Grades 5-6 | Blue Ridge Boost"
-day_tags: undefined
+day_tags: ["Saturday"]
 grade_tags: ["3rd","4th"]
 subject_tags: ["Robotics"]
 difficulty: "Robo Rookies"
