@@ -4,7 +4,7 @@ product_id: MicroBit-3-4
 robots: "noindex, follow"
 layout: "single"
 price: 149.99
-weight: "60"
+weight: "32"
 start_date: "2025-09-03"
 end_date: "2025-12-18"
 start_time: "4:30"
