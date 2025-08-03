@@ -1,24 +1,25 @@
 ---
-ecwid: 770960898
-product_id: MicroBit-3-4
+ecwid: 770957433
+product_id: MicroBit-1-2
 robots: "noindex, follow"
 layout: "single"
 price: 149.99
-weight: "32"
+category: "Subscription Classes"
+weight: "31"
 start_date: "2025-09-03"
 end_date: "2025-12-18"
-start_time: "4:30"
-end_time: "5:30"
-page_title: "Micro:bit Programming (Grades 3 to 5)"
-featured: 187
-title: "Micro:bit Programming (Grades 3 to 5) | Blue Ridge Boost"
+start_time: "3:45"
+end_time: "4:30"
+page_title: "Micro:bit Programming (Grades 1 and 2)"
+featured: 186
+title: "Micro:bit Programming (Grades 1 and 2) | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["3rd","4th","5th"]
 subject_tags: ["Robotics", "Computer Coding"]
 difficulty: "Robo Rookies"
 attributes:
 - name: "Class Meeting Schedule"
-  value: "Wednesdays 4:30 - 5:30"
+  value: "Wednesdays 3:45 - 4:30"
 - name: "Offering Period"
   value: "September 3, 2025 to December 18, 2025"
 ---

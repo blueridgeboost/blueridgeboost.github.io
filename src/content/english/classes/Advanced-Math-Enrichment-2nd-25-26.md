@@ -12,11 +12,15 @@ start_time: "3:45"
 end_time: "4:30"
 page_title: "Advanced Math Enrichment 2nd Grade"
 page_subtitle: "Exploring the Beauty of Mathematics"
-featured: 140
+featured: 142
 title: "Advanced Math Enrichment 2nd Grade | Blue Ridge Boost"
 day_tags: ["Monday", "Wednesday"]
 grade_tags: ["2nd"]
 subject_tags: ["Math"]
 difficulty: "Math Maestros"
 attributes:
+- name: "Class Meeting Schedule"
+  value: "Mondays and Wednesdays 3:45 - 4:30"
+- name: "Offering Period"
+  value: "August 18, 2025 to May 24, 2026"
 ---

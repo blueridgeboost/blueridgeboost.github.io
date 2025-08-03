@@ -19,4 +19,8 @@ grade_tags: ["1st", "2nd"]
 subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 attributes:
+- name: "Class Meeting Schedule"
+  value: "Saturdays 1:00 - 2:00"
+- name: "Offering Period"
+  value: "August 23, 2025 to May 17, 2026"
 ---

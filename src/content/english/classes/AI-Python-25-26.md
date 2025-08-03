@@ -12,7 +12,7 @@ start_time: "6:30"
 end_time: "7:30"
 page_title: "AI, Ethics, and Python"
 page_subtitle: "Artifical Intelligence and Ethics with Python"
-featured: 145
+featured: 147
 title: "AI, Ethics, and Python | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["7th","8th"]
@@ -21,4 +21,8 @@ difficulty: "Code Cadets"
 attributes:
 - name: "Session Length"
   value: "60 minutes"
+- name: "Class Meeting Schedule"
+  value: "Tuesdays 6:30 - 7:30"
+- name: "Offering Period"
+  value: "August 18, 2025 to May 19, 2026"
 ---

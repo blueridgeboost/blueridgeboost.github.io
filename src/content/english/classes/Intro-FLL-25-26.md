@@ -11,7 +11,7 @@ end_date: "2025-12-19"
 start_time: "4:30"
 end_time: "5:30"
 page_title: "Intro to FIRST LEGO League"
-featured: 153
+featured: 155
 title: "Intro to FIRST LEGO League | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["3rd", "4th","5th"]
@@ -20,4 +20,8 @@ difficulty: "Robo Rookies"
 attributes:
 - name: "Session Length"
   value: "1 hour"
+- name: "Class Meeting Schedule"
+  value: "Tuesdays 4:30 - 5:30"
+- name: "Offering Period"
+  value: "August 19, 2025 to December 19, 2025"
 ---

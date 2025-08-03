@@ -11,7 +11,7 @@ end_date: "2026-05-24"
 start_time: "2:00"
 end_time: "3:30"
 page_title: "Game Makers: Unreal Engine for Beginners"
-featured: 159
+featured: 161
 title: "Game Makers: Unreal Engine for Beginners | Blue Ridge Boost"
 day_tags: ["Sunday"]
 grade_tags: ["7th","8th"]
@@ -20,4 +20,8 @@ difficulty: "Code Cadets"
 attributes:
 - name: "Session Length"
   value: "1.5 Hours"
+- name: "Class Meeting Schedule"
+  value: "Sundays 2:00 - 3:30"
+- name: "Offering Period"
+  value: "September 7, 2025 to May 24, 2026"
 ---

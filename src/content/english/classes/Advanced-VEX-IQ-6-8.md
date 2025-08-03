@@ -12,7 +12,7 @@ start_time: "5:30"
 end_time: "7:00"
 page_title: "Advanced VEX IQ (Grades 6 - 8)"
 page_subtitle: "Building Robots, Solving Challenges!"
-featured: 163
+featured: 165
 ribbon: "$325/month"
 title: "Advanced VEX IQ (Grades 6 - 8) | Blue Ridge Boost"
 day_tags: ["Thursday"]
@@ -22,4 +22,8 @@ difficulty: "Bot Builders Elite"
 attributes:
 - name: "Session Length"
   value: "1.5 Hours"
+- name: "Class Meeting Schedule"
+  value: "Thursdays 5:30 - 7:00"
+- name: "Offering Period"
+  value: "September 14, 2025 to March 15, 2026"
 ---

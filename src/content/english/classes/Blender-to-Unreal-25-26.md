@@ -12,7 +12,7 @@ start_time: "6:00"
 end_time: "7:30"
 page_title: "3D Video Game Modeling: Blender to Unreal Engine"
 page_subtitle: "Design and Create Dungeon Props!"
-featured: 132
+featured: 134
 ribbon: "$199/month"
 title: "3D Video Game Modeling: Blender to Unreal Engine | Blue Ridge Boost"
 day_tags: ["Monday"]
@@ -20,4 +20,8 @@ grade_tags: ["7th","8th","9th","10th","11th","12th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 attributes:
+- name: "Class Meeting Schedule"
+  value: "Mondays 6:00 - 7:30"
+- name: "Offering Period"
+  value: "August 18, 2025 to May 18, 2026"
 ---

@@ -19,4 +19,8 @@ grade_tags: ["8th","9th","10th", "11th", "12th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Syntax Sorcerers"
 attributes:
+- name: "Class Meeting Schedule"
+  value: "Sundays 12:30 - 2:00"
+- name: "Offering Period"
+  value: "September 7, 2025 to May 15, 2026"
 ---

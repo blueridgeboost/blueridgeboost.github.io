@@ -12,7 +12,7 @@ start_time: "6:00"
 end_time: "7:30"
 page_title: "Carnegie Mellon Robotics Academy: Mechanical Foundations"
 page_subtitle: "Mastering Mechanical Design and Robotics with Hands-On REV DUO Projects"
-featured: 168
+featured: 170
 title: "Carnegie Mellon Robotics Academy: Mechanical Foundations | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
@@ -21,4 +21,8 @@ difficulty: "Robo Rookies"
 attributes:
 - name: "Session Length"
   value: "1.5 Hours"
+- name: "Class Meeting Schedule"
+  value: "Mondays 6:00 - 7:30"
+- name: "Offering Period"
+  value: "August 18, 2025 to May 19, 2026"
 ---

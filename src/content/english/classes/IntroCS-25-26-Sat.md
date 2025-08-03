@@ -11,7 +11,7 @@ end_date: "2026-05-18"
 start_time: "1:00"
 end_time: "2:30"
 page_title: "Introduction to Computer Science"
-featured: 156
+featured: 158
 title: "Introduction to Computer Science | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["7th","8th","9th","10th"]
@@ -20,4 +20,8 @@ difficulty: "Code Cadets"
 attributes:
 - name: "Session Length"
   value: "1.5 Hours"
+- name: "Class Meeting Schedule"
+  value: "Saturdays 1:00 - 2:30"
+- name: "Offering Period"
+  value: "August 18, 2025 to May 18, 2026"
 ---

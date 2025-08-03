@@ -11,7 +11,7 @@ end_date: "2026-05-24"
 start_time: "5:00"
 end_time: "6:30"
 page_title: "Game Makers: Intro to Unity"
-featured: 154
+featured: 156
 title: "Game Makers: Intro to Unity | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["7th","8th"]
@@ -20,4 +20,8 @@ difficulty: "Syntax Sorcerers"
 attributes:
 - name: "Session Length"
   value: "1.5 Hours"
+- name: "Class Meeting Schedule"
+  value: "Wednesdays 5:00 - 6:30"
+- name: "Offering Period"
+  value: "August 20, 2025 to May 24, 2026"
 ---

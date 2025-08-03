@@ -12,11 +12,15 @@ start_time: "3:45"
 end_time: "4:30"
 page_title: "Code Craft: Minecraft Coding"
 page_subtitle: "Learn to Code in Minecraft! Grades 1 and 2"
-featured: 152
+featured: 154
 title: "Code Craft: Minecraft Coding | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["1st","2nd"]
 subject_tags: ["Computer Coding", "Gaming"]
 difficulty: "Code Cadets"
 attributes:
+- name: "Class Meeting Schedule"
+  value: "Tuesdays 3:45 - 4:30"
+- name: "Offering Period"
+  value: "August 18, 2025 to May 24, 2026"
 ---

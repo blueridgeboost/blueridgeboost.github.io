@@ -12,7 +12,7 @@ start_time: "6:00"
 end_time: "7:30"
 page_title: "Carnegie Mellon Robotics Academy: Software Foundations"
 page_subtitle: "From Beginner to Roboticist in 10 Sessions!"
-featured: 167
+featured: 169
 title: "Carnegie Mellon Robotics Academy: Software Foundations | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
@@ -21,4 +21,8 @@ difficulty: "Robo Rookies"
 attributes:
 - name: "Session Length"
   value: "1.5 Hours"
+- name: "Class Meeting Schedule"
+  value: "Wednesdays 6:00 - 7:30"
+- name: "Offering Period"
+  value: "August 20, 2025 to May 20, 2026"
 ---

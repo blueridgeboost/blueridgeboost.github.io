@@ -21,4 +21,8 @@ difficulty: "Code Cadets"
 attributes:
 - name: "Session Length"
   value: "1 hour"
+- name: "Class Meeting Schedule"
+  value: "Saturdays 12:00 - 1:00"
+- name: "Offering Period"
+  value: "August 16, 2025 to May 16, 2026"
 ---
