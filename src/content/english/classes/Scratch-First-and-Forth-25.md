@@ -11,11 +11,15 @@ end_date: "2025-12-15"
 start_time: "4:30"
 end_time: "5:30"
 page_title: "Scratch Block Coding"
-featured: 129
+featured: 131
 title: "Scratch Block Coding | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["2nd","3rd","4th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 attributes:
+- name: "Class Meeting Schedule"
+  value: "Mondays 4:30 - 5:30"
+- name: "Offering Period"
+  value: "August 18, 2025 to December 15, 2025"
 ---

@@ -11,7 +11,7 @@ end_date: "2026-05-24"
 start_time: "5:00"
 end_time: "6:00"
 page_title: "Roblox Studio: Make a game in 6 sessions"
-featured: 147
+featured: 149
 title: "Roblox Studio: Make a game in 6 sessions | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["3rd","4th","5th"]
@@ -20,4 +20,8 @@ difficulty: "Code Cadets"
 attributes:
 - name: "Session Length"
   value: "1 hour"
+- name: "Class Meeting Schedule"
+  value: "Wednesdays 5:00 - 6:00"
+- name: "Offering Period"
+  value: "August 18, 2025 to May 24, 2026"
 ---

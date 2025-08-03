@@ -11,7 +11,7 @@ end_date: "2026-05-24"
 start_time: "6:30"
 end_time: "7:30"
 page_title: "Intro to Programming in Java"
-featured: 162
+featured: 164
 title: "Intro to Programming in Java | Blue Ridge Boost"
 day_tags: ["Thursday"]
 grade_tags: ["7th","8th","9th","10th"]
@@ -20,4 +20,8 @@ difficulty: "Code Cadets"
 attributes:
 - name: "Session Length"
   value: "1 hour"
+- name: "Class Meeting Schedule"
+  value: "Thursdays 6:30 - 7:30"
+- name: "Offering Period"
+  value: "August 19, 2025 to May 24, 2026"
 ---

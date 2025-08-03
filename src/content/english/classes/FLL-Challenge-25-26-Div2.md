@@ -12,7 +12,7 @@ start_time: "6:00"
 end_time: "7:30"
 page_title: "Advanced FIRST LEGO League (Grades 6 to 8)"
 page_subtitle: "Building Robots, Solving Challenges!"
-featured: 161
+featured: 163
 ribbon: "$325/month"
 title: "Advanced FIRST LEGO League (Grades 6 to 8) | Blue Ridge Boost"
 day_tags: ["Monday"]
@@ -22,4 +22,8 @@ difficulty: "Bot Builders Elite"
 attributes:
 - name: "Session Length"
   value: "1.5 Hours"
+- name: "Class Meeting Schedule"
+  value: "Mondays 6:00 - 7:30"
+- name: "Offering Period"
+  value: "August 18, 2025 to November 15, 2025"
 ---

@@ -10,7 +10,7 @@ end_date: "2026-05-24"
 start_time: "5:30"
 end_time: "6:30"
 page_title: "Create Your Own Roblox Games: Roblox and Lua Coding"
-featured: 133
+featured: 135
 title: "Create Your Own Roblox Games: Roblox and Lua Coding | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["6th","7th"]
@@ -19,4 +19,8 @@ difficulty: "Code Cadets"
 attributes:
 - name: "Session Length"
   value: "1 hour"
+- name: "Class Meeting Schedule"
+  value: "Tuesdays 5:30 - 6:30"
+- name: "Offering Period"
+  value: "August 19, 2025 to May 24, 2026"
 ---

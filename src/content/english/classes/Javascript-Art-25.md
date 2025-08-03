@@ -12,11 +12,15 @@ start_time: "5:30"
 end_time: "6:30"
 page_title: "Create & Code: Digital Art with JavaScript"
 page_subtitle: "Digital Art Course"
-featured: 125
+featured: 127
 title: "Create & Code: Digital Art with JavaScript | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["5th", "6th"]
 subject_tags: ["Coding"]
 difficulty: "Code Cadets"
 attributes:
+- name: "Class Meeting Schedule"
+  value: "Mondays 5:30 - 6:30"
+- name: "Offering Period"
+  value: "August 18, 2025 to December 15, 2025"
 ---

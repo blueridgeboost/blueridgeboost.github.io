@@ -11,11 +11,15 @@ end_date: "2026-05-16"
 start_time: "4:00"
 end_time: "5:30"
 page_title: "Precalculus: Mastery Through Teaching and Practice"
-featured: 182
+featured: 184
 title: "Precalculus: Mastery Through Teaching and Practice | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["8th","9th","10th"]
 subject_tags: ["Math"]
 difficulty: "undefined"
 attributes:
+- name: "Class Meeting Schedule"
+  value: "Saturdays 4:00 - 5:30"
+- name: "Offering Period"
+  value: "August 16, 2025 to May 16, 2026"
 ---

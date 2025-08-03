@@ -12,11 +12,15 @@ start_time: "3:45"
 end_time: "4:30"
 page_title: "Advanced Math Enrichment 3rd Grade"
 page_subtitle: "Exploring the Beauty of Mathematics"
-featured: 141
+featured: 143
 title: "Advanced Math Enrichment 3rd Grade | Blue Ridge Boost"
 day_tags: ["Tuesday", "Thursday"]
 grade_tags: ["3rd"]
 subject_tags: ["Math"]
 difficulty: "Math Maestros"
 attributes:
+- name: "Class Meeting Schedule"
+  value: "Tuesdays and Thursdays 3:45 - 4:30"
+- name: "Offering Period"
+  value: "August 19, 2025 to May 24, 2026"
 ---

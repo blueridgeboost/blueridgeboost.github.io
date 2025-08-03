@@ -12,11 +12,15 @@ start_time: "6:00"
 end_time: "7:00"
 page_title: "Geometry Homework Help"
 page_subtitle: "Math Support"
-featured: 135
+featured: 137
 title: "Geometry Homework Help | Blue Ridge Boost"
 day_tags: ["Monday", "Wednesday"]
 grade_tags: ["8th","9th"]
 subject_tags: ["Math"]
 difficulty: "Foundation Forgers"
 attributes:
+- name: "Class Meeting Schedule"
+  value: "Mondays and Wednesdays 6:00 - 7:00"
+- name: "Offering Period"
+  value: "August 18, 2025 to May 18, 2026"
 ---

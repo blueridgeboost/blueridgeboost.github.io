@@ -12,11 +12,15 @@ start_time: "5:00"
 end_time: "6:00"
 page_title: "Math Builders: 3rd Grade Group Tutoring"
 page_subtitle: "Math Support"
-featured: 146
+featured: 148
 title: "Math Builders: 3rd Grade Group Tutoring | Blue Ridge Boost"
 day_tags: ["Monday", "Wednesday"]
 grade_tags: ["3rd"]
 subject_tags: ["Math"]
 difficulty: "Foundation Forgers"
 attributes:
+- name: "Class Meeting Schedule"
+  value: "Mondays and Wednesdays 5:00 - 6:00"
+- name: "Offering Period"
+  value: "August 18, 2025 to May 24, 2026"
 ---

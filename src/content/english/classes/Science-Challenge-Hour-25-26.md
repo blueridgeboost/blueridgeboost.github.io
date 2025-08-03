@@ -11,11 +11,15 @@ end_date: "2025-12-07"
 start_time: "5:00"
 end_time: "6:00"
 page_title: "Science Challenge Hour"
-featured: 173
+featured: 175
 title: "Science Challenge Hour | Blue Ridge Boost"
 day_tags: ["Sunday"]
 grade_tags: ["3rd","4th","5th"]
 subject_tags: ["Science"]
-difficulty: "undefined"
+difficulty: "Enthusiast"
 attributes:
+- name: "Class Meeting Schedule"
+  value: "Sundays 5:00 - 6:00"
+- name: "Offering Period"
+  value: "August 24, 2025 to December 7, 2025"
 ---

@@ -11,11 +11,15 @@ end_date: "2026-02-28"
 start_time: "2:00"
 end_time: "3:00"
 page_title: "Aerial Drone Competition for Grades 3-5"
-featured: 176
+featured: 178
 title: "Aerial Drone Competition for Grades 3-5 | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["3rd","4th","5th"]
 subject_tags: ["Robotics"]
 difficulty: "Robo Rookies"
 attributes:
+- name: "Class Meeting Schedule"
+  value: "Saturdays 2:00 - 3:00"
+- name: "Offering Period"
+  value: "August 21, 2025 to February 28, 2026"
 ---

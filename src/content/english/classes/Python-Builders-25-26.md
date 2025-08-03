@@ -12,7 +12,7 @@ start_time: "4:30"
 end_time: "5:30"
 page_title: "Python Code Builders"
 page_subtitle: "Foundations to Game Creation"
-featured: 124
+featured: 126
 title: "Python Code Builders | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["4th","5th"]
@@ -21,4 +21,8 @@ difficulty: "Code Cadets"
 attributes:
 - name: "Session Length"
   value: "1 hour"
+- name: "Class Meeting Schedule"
+  value: "Mondays 4:30 - 5:30"
+- name: "Offering Period"
+  value: "August 18, 2025 to May 18, 2026"
 ---

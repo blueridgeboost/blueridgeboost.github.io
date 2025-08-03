@@ -12,11 +12,15 @@ start_time: "5:30"
 end_time: "6:30"
 page_title: "Command Craft: Minecraft Command Blocks"
 page_subtitle: "Learn logic and coding concepts with Command Blocks!"
-featured: 126
+featured: 128
 title: "Command Craft: Minecraft Command Blocks | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["4th","5th"]
 subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 attributes:
+- name: "Class Meeting Schedule"
+  value: "Mondays 5:30 - 6:30"
+- name: "Offering Period"
+  value: "August 18, 2025 to May 24, 2026"
 ---
