@@ -60,7 +60,7 @@ robots: "index, follow"
   <h2 style="color: #FF5733;">2. Powered-Up Game Night (Ages 10 and Up)</h2>
   <ul>
     <li><strong>What:</strong> A high-energy night for older gamers featuring top-tier gaming PCs and popular titles like <em>Call of Duty: War Zone</em>, <em>Valorant</em>, and <em>Rocket League</em>.</li>
-    <li><strong>When:</strong> Every Friday (6:30 PM – 8:30 PM)</li>
+    <li><strong>When:</strong> Every Friday (5:30 PM – 8:30 PM)</li>
     <li><strong>Where:</strong> Blue Ridge Boost, 2171 Ivy Rd, Charlottesville</li>
     <li><strong>Cost:</strong> $65 (Includes free pizza!)</li>
   </ul>

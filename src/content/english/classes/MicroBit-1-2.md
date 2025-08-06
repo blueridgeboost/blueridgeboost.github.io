@@ -14,7 +14,7 @@ page_title: "Micro:bit Programming (Grades 1 and 2)"
 featured: 186
 title: "Micro:bit Programming (Grades 1 and 2) | Blue Ridge Boost"
 day_tags: ["Wednesday"]
-grade_tags: ["3rd","4th","5th"]
+grade_tags: ["1st","2nd"]
 subject_tags: ["Robotics", "Computer Coding"]
 difficulty: "Robo Rookies"
 attributes:
