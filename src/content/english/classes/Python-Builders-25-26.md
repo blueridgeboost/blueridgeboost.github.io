@@ -11,12 +11,12 @@ end_date: "2026-05-18"
 start_time: "4:30"
 end_time: "5:30"
 page_title: "Python Code Builders"
-page_subtitle: "Foundations to Game Creation"
+page_subtitle: "Learn Python with Code Monkey Challenges!"
 featured: 126
 title: "Python Code Builders | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["4th","5th"]
-subject_tags: ["Coding"]
+subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 attributes:
 - name: "Session Length"

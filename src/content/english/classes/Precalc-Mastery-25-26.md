@@ -9,7 +9,7 @@ weight: "54"
 start_date: "2025-08-16"
 end_date: "2026-05-16"
 start_time: "4:00"
-end_time: "5:30"
+end_time: "6:00"
 page_title: "Precalculus: Mastery Through Teaching and Practice"
 featured: 184
 title: "Precalculus: Mastery Through Teaching and Practice | Blue Ridge Boost"
