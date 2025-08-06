@@ -1,10 +1,10 @@
 ---
 ecwid: 770348872
-product_id: Science-Challenge-Hour-25-26
+product_id: Science-Challenge-Hour-25-26-Sunday
 robots: "noindex, follow"
 layout: "single"
 price: 144.99
-category: "Subscription Classes"
+category: "Session Classes"
 weight: "59"
 start_date: "2025-08-24"
 end_date: "2025-12-07"
