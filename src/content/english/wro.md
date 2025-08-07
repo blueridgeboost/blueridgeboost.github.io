@@ -20,7 +20,7 @@ keywords:
   - RoboSports competition
   - Future Innovators competition
   - Future Engineers competition
-  - Open Championship: Americas Panama
+  - Open Championship - Americas Panama
   - robotics events in Virginia
   - STEM education competitions
   - robotics community events
@@ -37,8 +37,9 @@ Compete for a chance to qualify for the <b><a href="https://www.uselyouthrobotic
     <div class="hero-section">
       <p><strong>Dates:</strong> Saturday, August 23, 2025 and Sunday, August 24, 2025</p>
       <p><strong>Location:</strong> Charlottesville, VA</p>
-      <p>Several Teams Will Join Team USA Robotics for World Robot Olympiad Open Championship, Americas in Panama City, Panama!</p>
+      <p><b>Two teams from each category</b> will join Team USA Robotics for World Robot Olympiad Open Championship, Americas in Panama City, Panama!</p>
       <p>Student Activities Building, at the University of Virginia, Charlottesville. Address: 800 Alderman Rd, Charlottesville, VA 22903.</p>
+      <p><b>Please register by August 15, 2025.</b> Late registrations will be accepted only if additional teams can be accommodated.</p>
     </div>
   </div>
 
