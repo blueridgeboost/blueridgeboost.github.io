@@ -5,12 +5,13 @@ robots: "noindex, follow"
 layout: "single"
 price: 179.99
 category: "Subscription Classes"
-weight: "42"
+weight: "44"
 start_date: "2025-08-21"
 end_date: "2025-12-18"
 start_time: "12:00"
 end_time: "1:00"
 page_title: "Soar into STEM: Aerial Drone Class for Grades 3-4"
+page_subtitle: "Sky High Challenge: Piloting and Coding "
 featured: 177
 title: "Soar into STEM: Aerial Drone Class for Grades 3-4 | Blue Ridge Boost"
 day_tags: ["Saturday"]

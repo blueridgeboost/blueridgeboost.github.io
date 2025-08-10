@@ -4,13 +4,13 @@ product_id: Web-Development-Level-1-HighSchool
 robots: "noindex, follow"
 layout: "single"
 price: 259.99
-weight: "64"
+weight: "58"
 start_date: "2025-09-06"
 end_date: "2026-05-18"
 start_time: "6:00"
 end_time: "7:30"
 page_title: "Web Development 1 (High School, In-Person)"
-page_subtitle: "Weekdays, 5:30 to 8:30"
+page_subtitle: "Preparation and Certification Exam"
 featured: 89
 title: "Web Development 1 (High School, In-Person) | Blue Ridge Boost"
 day_tags: ["Saturday"]

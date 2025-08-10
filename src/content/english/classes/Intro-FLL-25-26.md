@@ -11,6 +11,7 @@ end_date: "2025-12-19"
 start_time: "4:30"
 end_time: "5:30"
 page_title: "Intro to FIRST LEGO League"
+page_subtitle: "Building Bright Futures"
 featured: 155
 title: "Intro to FIRST LEGO League | Blue Ridge Boost"
 day_tags: ["Tuesday"]

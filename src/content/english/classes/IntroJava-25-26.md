@@ -5,12 +5,13 @@ robots: "noindex, follow"
 layout: "single"
 price: 179.99
 category: "Subscription Classes"
-weight: "57"
+weight: "41"
 start_date: "2025-08-19"
 end_date: "2026-05-24"
 start_time: "6:30"
 end_time: "7:30"
 page_title: "Intro to Programming in Java"
+page_subtitle: "From Beginner to Programmer: Java Made Easy!"
 featured: 164
 title: "Intro to Programming in Java | Blue Ridge Boost"
 day_tags: ["Thursday"]

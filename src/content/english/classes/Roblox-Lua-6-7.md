@@ -1,10 +1,10 @@
 ---
 ecwid: 767154072
-product_id: undefined
+product_id: Roblox-Lua-6-7
 robots: "noindex, follow"
 layout: "single"
 price: 149.99
-weight: "24"
+weight: "25"
 start_date: "2025-08-19"
 end_date: "2026-05-24"
 start_time: "5:30"
