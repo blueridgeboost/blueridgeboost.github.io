@@ -11,6 +11,7 @@ end_date: "2025-12-15"
 start_time: "4:30"
 end_time: "5:30"
 page_title: "Scratch Block Coding"
+page_subtitle: "Learn to code video games, animations, and more!"
 featured: 131
 title: "Scratch Block Coding | Blue Ridge Boost"
 day_tags: ["Monday"]

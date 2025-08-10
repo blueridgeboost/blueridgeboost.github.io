@@ -5,12 +5,13 @@ robots: "noindex, follow"
 layout: "single"
 price: 149.99
 category: "Subscription Classes"
-weight: "31"
+weight: "32"
 start_date: "2025-09-03"
 end_date: "2025-12-18"
 start_time: "3:45"
 end_time: "4:30"
 page_title: "Micro:bit Programming (Grades 1 and 2)"
+page_subtitle: "Where Young Minds Soar"
 featured: 186
 title: "Micro:bit Programming (Grades 1 and 2) | Blue Ridge Boost"
 day_tags: ["Wednesday"]

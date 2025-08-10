@@ -5,12 +5,13 @@ robots: "noindex, follow"
 layout: "single"
 price: 299.99
 category: "Subscription Classes"
-weight: "39"
+weight: "40"
 start_date: "2025-08-21"
 end_date: "2026-05-24"
 start_time: "6:00"
 end_time: "7:30"
 page_title: "Carnegie Mellon Robotics Academy: Autonomy Foundations"
+page_subtitle: "From Beginner to Roboticist in 10 Sessions!"
 featured: 168
 title: "Carnegie Mellon Robotics Academy: Autonomy Foundations | Blue Ridge Boost"
 day_tags: ["Thursday"]

@@ -5,12 +5,13 @@ robots: "noindex, follow"
 layout: "single"
 price: 199.99
 category: "Subscription Classes"
-weight: "36"
+weight: "37"
 start_date: "2025-08-20"
 end_date: "2026-05-24"
 start_time: "6:00"
 end_time: "7:30"
 page_title: "Introduction to Computer Science"
+page_subtitle: "Get started with Computer Science through Blue Ridge Boost and CodeHS!"
 featured: 157
 title: "Introduction to Computer Science | Blue Ridge Boost"
 day_tags: ["Wednesday"]

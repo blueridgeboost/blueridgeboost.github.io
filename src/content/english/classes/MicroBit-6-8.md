@@ -5,12 +5,13 @@ robots: "noindex, follow"
 layout: "single"
 price: 169.99
 category: "Subscription Classes"
-weight: "61"
+weight: "67"
 start_date: "2025-09-03"
 end_date: "2026-05-18"
 start_time: "5:30"
 end_time: "7:00"
 page_title: "Micro:bit - Intro to Computer Science"
+page_subtitle: "Where Young Minds Soar"
 featured: 188
 title: "Micro:bit - Intro to Computer Science | Blue Ridge Boost"
 day_tags: ["Wednesday"]

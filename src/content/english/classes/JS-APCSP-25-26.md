@@ -1,11 +1,11 @@
 ---
 ecwid: 743641082
-product_id: JS-APCSP
+product_id: JS-APCSP-25-26
 robots: "noindex, follow"
 layout: "single"
 price: 199
 category: "Subscription Classes"
-weight: "29"
+weight: "30"
 start_date: "2025-09-02"
 end_date: "2026-05-14"
 start_time: "6:15"

@@ -108,9 +108,9 @@
     </item>
     <item>
       <title>Java for AP Computer Science (Virtual) | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/JS-APCSA/</link>
+      <link>https://blueridgeboost.com/classes/JS-APCSA-25-26/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/JS-APCSA/</guid>
+      <guid>https://blueridgeboost.com/classes/JS-APCSA-25-26/</guid>
       <description></description>
     </item>
     <item>
@@ -163,6 +163,13 @@
       <description></description>
     </item>
     <item>
+      <title>Science Challenge Hour | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Science-Challenge-Hour-25-26-Tuesday/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Science-Challenge-Hour-25-26-Tuesday/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Code Craft: Minecraft Coding | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Code-Craft-25-2Gr5-6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -171,9 +178,9 @@
     </item>
     <item>
       <title>Create Your Own Roblox Games: Roblox and Lua Coding | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/undefined/</link>
+      <link>https://blueridgeboost.com/classes/Roblox-Lua-6-7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/undefined/</guid>
+      <guid>https://blueridgeboost.com/classes/Roblox-Lua-6-7/</guid>
       <description></description>
     </item>
     <item>
@@ -206,9 +213,9 @@
     </item>
     <item>
       <title>JavaScript for AP CSP (Virtual) | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/JS-APCSP/</link>
+      <link>https://blueridgeboost.com/classes/JS-APCSP-25-26/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/JS-APCSP/</guid>
+      <guid>https://blueridgeboost.com/classes/JS-APCSP-25-26/</guid>
       <description></description>
     </item>
     <item>
@@ -282,6 +289,13 @@
       <description></description>
     </item>
     <item>
+      <title>Intro to Programming in Java | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/IntroJava-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/IntroJava-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Competition Math Grades 1 and 2 | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/CM-25-25-GR1-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -338,6 +352,13 @@
       <description></description>
     </item>
     <item>
+      <title>Introduction to AI for Middle Schoolers | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Intro-AI-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Intro-AI-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Python Basics with Tracy the Turtle | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/PythonTurtle-25-26/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -380,66 +401,10 @@
       <description></description>
     </item>
     <item>
-      <title>Algebra 2: Mastery Through Teaching and Practice | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Algebra2-Mastery-25-26/</link>
+      <title>Web Design 1 (High School, In-Person) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Web-Design-Level-1-HighSchool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Algebra2-Mastery-25-26/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Java for AP Computer Science (In-person) | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/APCSA-In-Person/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/APCSA-In-Person/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Intro to Programming in Java | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/IntroJava-25-26/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/IntroJava-25-26/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Science Challenge Hour | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Science-Challenge-Hour-25-26-Tuesday/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Science-Challenge-Hour-25-26-Tuesday/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Science Challenge Hour | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Science-Challenge-Hour-25-26-Sunday/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Science-Challenge-Hour-25-26-Sunday/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Game Makers: Unreal Engine for Beginners | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/UnrealBeginners-25-26/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/UnrealBeginners-25-26/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Micro:bit - Intro to Computer Science | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/MicroBit-6-8/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/MicroBit-6-8/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Future Innovators (Grades 5 to 7) | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Future-Innovators-5-6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Future-Innovators-5-6/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Future Innovators (Grades 3 to 5) | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Future-Innovators-3-5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Future-Innovators-3-5/</guid>
+      <guid>https://blueridgeboost.com/classes/Web-Design-Level-1-HighSchool/</guid>
       <description></description>
     </item>
     <item>
@@ -450,10 +415,66 @@
       <description></description>
     </item>
     <item>
-      <title>Web Design 1 (High School, In-Person) | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Web-Design-Level-1-HighSchool/</link>
+      <title>Future Innovators (Grades 3 to 5) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Future-Innovators-3-5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Web-Design-Level-1-HighSchool/</guid>
+      <guid>https://blueridgeboost.com/classes/Future-Innovators-3-5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java for AP Computer Science (In-person) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/APCSA-In-Person/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/APCSA-In-Person/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cybersecurity Level 1 | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Cybersecurity-Level-1-Teens-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Cybersecurity-Level-1-Teens-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game Makers: Unreal Engine for Beginners | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/UnrealBeginners-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/UnrealBeginners-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cybersecurity Level 2 | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Cybersecurity-Level-2-Teens-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Cybersecurity-Level-2-Teens-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Future Innovators (Grades 5 to 7) | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Future-Innovators-5-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Future-Innovators-5-6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebra 2: Mastery Through Teaching and Practice | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Algebra2-Mastery-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Algebra2-Mastery-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Science Challenge Hour | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Science-Challenge-Hour-25-26-Sunday/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Science-Challenge-Hour-25-26-Sunday/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Micro:bit - Intro to Computer Science | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/MicroBit-6-8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/MicroBit-6-8/</guid>
       <description></description>
     </item>
     <item>

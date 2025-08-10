@@ -5,12 +5,13 @@ robots: "noindex, follow"
 layout: "single"
 price: 149.99
 category: "Subscription Classes"
-weight: "48"
+weight: "51"
 start_date: "2025-09-07"
 end_date: "2026-05-16"
 start_time: "2:30"
 end_time: "3:30"
 page_title: "Python Basics with Tracy the Turtle"
+page_subtitle: "Guide Tracy to draw, code, and create!"
 featured: 160
 title: "Python Basics with Tracy the Turtle | Blue Ridge Boost"
 day_tags: ["Sunday"]
