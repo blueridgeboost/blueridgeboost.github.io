@@ -5,14 +5,14 @@ robots: "noindex, follow"
 layout: "single"
 price: 249.99
 category: "Subscription Classes"
-weight: "56"
+weight: "57"
 start_date: "2025-08-16"
 end_date: "2026-05-16"
-start_time: "4:00"
-end_time: "6:00"
+start_time: "12:00"
+end_time: "2:00"
 page_title: "Precalculus: Mastery Through Teaching and Practice"
 page_subtitle: "Get Ahead!"
-featured: 184
+featured: 206
 title: "Precalculus: Mastery Through Teaching and Practice | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["8th","9th","10th"]
@@ -20,7 +20,7 @@ subject_tags: ["Math"]
 difficulty: "Math Maestros"
 attributes:
 - name: "Class Meeting Schedule"
-  value: "Saturdays 4:00 - 5:30"
+  value: "Saturdays 12:00 - 2:00"
 - name: "Offering Period"
   value: "August 16, 2025 to May 16, 2026"
 ---

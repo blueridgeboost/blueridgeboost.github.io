@@ -12,7 +12,7 @@ start_time: "5:30"
 end_time: "6:30"
 page_title: "Create & Code: Digital Art with JavaScript"
 page_subtitle: "Digital Art Course"
-featured: 127
+featured: 149
 title: "Create & Code: Digital Art with JavaScript | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["5th", "6th"]

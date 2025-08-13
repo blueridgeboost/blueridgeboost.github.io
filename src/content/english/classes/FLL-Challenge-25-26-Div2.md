@@ -12,7 +12,7 @@ start_time: "6:00"
 end_time: "7:30"
 page_title: "Advanced FIRST LEGO League (Grades 6 to 8)"
 page_subtitle: "Building Robots, Solving Challenges!"
-featured: 163
+featured: 185
 ribbon: "$325/month"
 title: "Advanced FIRST LEGO League (Grades 6 to 8) | Blue Ridge Boost"
 day_tags: ["Monday"]

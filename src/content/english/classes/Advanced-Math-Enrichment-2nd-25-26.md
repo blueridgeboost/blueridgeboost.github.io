@@ -12,7 +12,7 @@ start_time: "3:45"
 end_time: "4:30"
 page_title: "Advanced Math Enrichment 2nd Grade"
 page_subtitle: "Exploring the Beauty of Mathematics"
-featured: 142
+featured: 164
 title: "Advanced Math Enrichment 2nd Grade | Blue Ridge Boost"
 day_tags: ["Monday", "Wednesday"]
 grade_tags: ["2nd"]

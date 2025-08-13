@@ -12,7 +12,7 @@ start_time: "2:30"
 end_time: "3:30"
 page_title: "Python Basics with Tracy the Turtle"
 page_subtitle: "Guide Tracy to draw, code, and create!"
-featured: 160
+featured: 182
 title: "Python Basics with Tracy the Turtle | Blue Ridge Boost"
 day_tags: ["Sunday"]
 grade_tags: ["5th","6th"]

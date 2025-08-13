@@ -5,22 +5,22 @@ robots: "noindex, follow"
 layout: "single"
 price: 249.99
 category: "Subscription Classes"
-weight: "65"
+weight: "66"
 start_date: "2025-08-16"
 end_date: "2026-05-16"
 start_time: "4:00"
 end_time: "6:00"
 page_title: "Algebra 2: Mastery Through Teaching and Practice"
 page_subtitle: "Get Ahead!"
-featured: 185
+featured: 207
 title: "Algebra 2: Mastery Through Teaching and Practice | Blue Ridge Boost"
 day_tags: ["Sunday"]
-grade_tags: ["8th","9th"]
+grade_tags: ["8th","9th","10th"]
 subject_tags: ["Math"]
-difficulty: "Foundation Forgers"
+difficulty: "Math Maestros"
 attributes:
 - name: "Class Meeting Schedule"
-  value: "Sundays 4:00 - 5:30"
+  value: "Sundays 4:00 - 6:00"
 - name: "Offering Period"
   value: "August 16, 2025 to May 16, 2026"
 ---
