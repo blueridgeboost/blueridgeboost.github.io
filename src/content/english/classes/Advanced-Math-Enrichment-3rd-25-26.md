@@ -12,7 +12,7 @@ start_time: "3:45"
 end_time: "4:30"
 page_title: "Advanced Math Enrichment 3rd Grade"
 page_subtitle: "Exploring the Beauty of Mathematics"
-featured: 143
+featured: 165
 title: "Advanced Math Enrichment 3rd Grade | Blue Ridge Boost"
 day_tags: ["Tuesday", "Thursday"]
 grade_tags: ["3rd"]

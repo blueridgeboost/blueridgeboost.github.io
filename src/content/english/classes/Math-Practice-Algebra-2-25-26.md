@@ -12,7 +12,7 @@ start_time: "6:00"
 end_time: "7:00"
 page_title: "Algebra 2 Homework Help"
 page_subtitle: "Math Support"
-featured: 138
+featured: 160
 title: "Algebra 2 Homework Help | Blue Ridge Boost"
 day_tags: ["Tuesday", "Thursday"]
 grade_tags: ["8th","9th","10th"]

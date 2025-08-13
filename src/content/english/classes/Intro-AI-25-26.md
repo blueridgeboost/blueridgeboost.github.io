@@ -12,7 +12,7 @@ start_time: "2:00"
 end_time: "3:00"
 page_title: "Introduction to AI for Middle Schoolers"
 page_subtitle: "Your Journey Into Artificial Intelligence Starts Here!"
-featured: 162
+featured: 184
 title: "Introduction to AI for Middle Schoolers | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["5th","6th"]
@@ -21,4 +21,8 @@ difficulty: "Code Cadets"
 attributes:
 - name: "Session Length"
   value: "1 hour"
+- name: "Class Meeting Schedule"
+  value: "Saturdays 2:00 - 3:00"
+- name: "Offering Period"
+  value: "August 23, 2025 to May 24, 2026"
 ---

@@ -5,14 +5,14 @@ robots: "noindex, follow"
 layout: "single"
 price: 199.99
 category: "Subscription Classes"
-weight: "62"
+weight: "63"
 start_date: "2025-09-07"
 end_date: "2026-05-24"
 start_time: "2:00"
 end_time: "3:30"
 page_title: "Game Makers: Unreal Engine for Beginners"
 page_subtitle: "Turn Your Imagination Into Reality!"
-featured: 161
+featured: 183
 title: "Game Makers: Unreal Engine for Beginners | Blue Ridge Boost"
 day_tags: ["Sunday"]
 grade_tags: ["7th","8th"]

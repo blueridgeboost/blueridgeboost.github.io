@@ -12,7 +12,7 @@ start_time: "6:30"
 end_time: "7:30"
 page_title: "AI, Ethics, and Python"
 page_subtitle: "Artifical Intelligence and Ethics with Python"
-featured: 147
+featured: 169
 title: "AI, Ethics, and Python | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["7th","8th"]

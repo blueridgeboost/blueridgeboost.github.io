@@ -12,7 +12,7 @@ start_time: "6:00"
 end_time: "7:00"
 page_title: "6th Compacted Homework Help"
 page_subtitle: "Math Support"
-featured: 140
+featured: 162
 title: "6th Compacted Homework Help | Blue Ridge Boost"
 day_tags: ["Monday", "Wednesday"]
 grade_tags: ["6th"]

@@ -12,7 +12,7 @@ start_time: "4:30"
 end_time: "5:30"
 page_title: "Science Challenge Hour"
 page_subtitle: "Take on Science Challenges with Lain!"
-featured: 174
+featured: 195
 title: "Science Challenge Hour | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["3rd","4th","5th"]
@@ -20,7 +20,7 @@ subject_tags: ["Science"]
 difficulty: "Enthusiast"
 attributes:
 - name: "Class Meeting Schedule"
-  value: "Tuesdays 5:00 - 6:00"
+  value: "Tuesdays 4:30 - 5:30"
 - name: "Offering Period"
   value: "August 19, 2025 to May 19, 2026"
 ---

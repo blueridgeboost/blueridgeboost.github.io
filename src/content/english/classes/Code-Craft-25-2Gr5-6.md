@@ -12,7 +12,7 @@ start_time: "5:30"
 end_time: "6:30"
 page_title: "Code Craft: Minecraft Coding"
 page_subtitle: "Learn to Code in Minecraft! Grades 5 and 6"
-featured: 153
+featured: 175
 title: "Code Craft: Minecraft Coding | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["5th","6th"]
