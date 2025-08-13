@@ -3,7 +3,7 @@ ecwid: 769776736
 product_id: Math-Practice-Algebra-2-25-26
 robots: "noindex, follow"
 layout: "single"
-price: 199.99
+price: 179.99
 category: "Subscription Classes"
 weight: "28"
 start_date: "2025-08-19"
