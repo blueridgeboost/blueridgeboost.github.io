@@ -6,7 +6,7 @@ layout: "single"
 price: 144.99
 category: "Session Classes"
 weight: "23"
-start_date: "2025-08-19"
+start_date: "2025-09-02"
 end_date: "2026-05-19"
 start_time: "4:30"
 end_time: "5:30"
@@ -22,5 +22,5 @@ attributes:
 - name: "Class Meeting Schedule"
   value: "Tuesdays 4:30 - 5:30"
 - name: "Offering Period"
-  value: "August 19, 2025 to May 19, 2026"
+  value: "September 2, 2025 to May 19, 2026"
 ---

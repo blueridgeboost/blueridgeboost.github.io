@@ -6,7 +6,7 @@ layout: "single"
 price: 249.99
 category: "Subscription Classes"
 weight: "67"
-start_date: "2025-08-16"
+start_date: "2025-09-07"
 end_date: "2026-05-16"
 start_time: "4:00"
 end_time: "6:00"
@@ -22,5 +22,5 @@ attributes:
 - name: "Class Meeting Schedule"
   value: "Sundays 4:00 - 6:00"
 - name: "Offering Period"
-  value: "August 16, 2025 to May 16, 2026"
+  value: "September 7, 2025 to May 16, 2026"
 ---
