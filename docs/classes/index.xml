@@ -253,6 +253,13 @@
       <description></description>
     </item>
     <item>
+      <title>Micro:bit - Intro to Computer Science | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/MicroBit-6-8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/MicroBit-6-8/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Carnegie Mellon Robotics Academy: Software Foundations | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/CMRA-SoftwareFoundations-25-26/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -295,13 +302,6 @@
       <description></description>
     </item>
     <item>
-      <title>Competition Math Grades 1 and 2 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/CM-25-25-GR1-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/CM-25-25-GR1-2/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Python Level 1 | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Python-Level-1-25-26/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -309,17 +309,17 @@
       <description></description>
     </item>
     <item>
+      <title>Precalculus: Mastery Through Teaching and Practice | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/Precalc-Mastery-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/Precalc-Mastery-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Soar into STEM: Aerial Drone Class for Grades 3-4 | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-3-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-3-4/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Competition Math Grades 7 and 8 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/CM-25-25-GR7-8/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/CM-25-25-GR7-8/</guid>
       <description></description>
     </item>
     <item>
@@ -344,24 +344,10 @@
       <description></description>
     </item>
     <item>
-      <title>Competition Math Grades 5 and 6 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/CM-25-25-GR5-6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/CM-25-25-GR5-6/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Introduction to AI for Middle Schoolers | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Intro-AI-25-26/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Intro-AI-25-26/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python Basics with Tracy the Turtle | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/PythonTurtle-25-26/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/PythonTurtle-25-26/</guid>
       <description></description>
     </item>
     <item>
@@ -393,20 +379,6 @@
       <description></description>
     </item>
     <item>
-      <title>Competition Math Grades 3 and 4 | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/CM-25-25-GR3-4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/CM-25-25-GR3-4/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Precalculus: Mastery Through Teaching and Practice | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/Precalc-Mastery-25-26/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/Precalc-Mastery-25-26/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Web Design 1 (High School, In-Person) | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/Web-Design-Level-1-HighSchool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -418,6 +390,13 @@
       <link>https://blueridgeboost.com/classes/Web-Development-Level-1-HighSchool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Web-Development-Level-1-HighSchool/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Competition Math Grades 7 and 8 | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/CM-25-25-GR7-8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/CM-25-25-GR7-8/</guid>
       <description></description>
     </item>
     <item>
@@ -442,6 +421,13 @@
       <description></description>
     </item>
     <item>
+      <title>Competition Math Grades 1 and 2 | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/CM-25-25-GR1-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/CM-25-25-GR1-2/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Game Makers: Unreal Engine for Beginners | Blue Ridge Boost</title>
       <link>https://blueridgeboost.com/classes/UnrealBeginners-25-26/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -453,6 +439,27 @@
       <link>https://blueridgeboost.com/classes/Cybersecurity-Level-2-Teens-25-26/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Cybersecurity-Level-2-Teens-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python Basics with Tracy the Turtle | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/PythonTurtle-25-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/PythonTurtle-25-26/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Competition Math Grades 3 and 4 | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/CM-25-25-GR3-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/CM-25-25-GR3-4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Competition Math Grades 5 and 6 | Blue Ridge Boost</title>
+      <link>https://blueridgeboost.com/classes/CM-25-25-GR5-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blueridgeboost.com/classes/CM-25-25-GR5-6/</guid>
       <description></description>
     </item>
     <item>
@@ -474,13 +481,6 @@
       <link>https://blueridgeboost.com/classes/Science-Challenge-Hour-25-26-Sunday/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blueridgeboost.com/classes/Science-Challenge-Hour-25-26-Sunday/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Micro:bit - Intro to Computer Science | Blue Ridge Boost</title>
-      <link>https://blueridgeboost.com/classes/MicroBit-6-8/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blueridgeboost.com/classes/MicroBit-6-8/</guid>
       <description></description>
     </item>
     <item>

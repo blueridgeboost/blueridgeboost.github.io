@@ -5,7 +5,7 @@ robots: "noindex, follow"
 layout: "single"
 price: 144.99
 category: "Session Classes"
-weight: "67"
+weight: "68"
 start_date: "2025-08-24"
 end_date: "2025-12-07"
 start_time: "5:00"
