@@ -4,7 +4,7 @@ product_id: Future-Innovators-3-5
 robots: "noindex, follow"
 layout: "single"
 price: 169.99
-weight: "60"
+weight: "57"
 start_date: "2025-09-07"
 end_date: "2025-05-16"
 start_time: "11:00"
