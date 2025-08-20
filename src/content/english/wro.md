@@ -39,7 +39,7 @@ Compete for a chance to qualify for the <b><a href="https://www.uselyouthrobotic
       <p><strong>Location:</strong> Charlottesville, VA</p>
       <p><b>Two teams from each category</b> will join Team USA Robotics for World Robot Olympiad Open Championship, Americas in Panama City, Panama!</p>
       <p>Student Activities Building, at the University of Virginia, Charlottesville. Address: 800 Alderman Rd, Charlottesville, VA 22903.</p>
-      <p><b>Please register by August 15, 2025.</b> Late registrations will be accepted only if additional teams can be accommodated.</p>
+      <strong>Every registered team must be accompanied by a coach. Every team member must have a parent or legal guardian present for the duration of the competition.</strong>
     </div>
   </div>
 
