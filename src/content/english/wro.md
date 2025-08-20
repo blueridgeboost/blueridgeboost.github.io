@@ -43,7 +43,7 @@ Compete for a chance to qualify for the <b><a href="https://www.uselyouthrobotic
   </div>
 
   <div >
-  <p>In addition to the WRO competitions, you'll have the opportunity to explore a variety of other robotics programs and connect with teams passionate about their craft. Come on Sunday, August 24th, any time between 9:30 AM and 5PM. Cost: free. Free parking available at the Central Grounds Garage. </p>
+  <p>In addition to the WRO competitions, you'll have the opportunity to explore a variety of other robotics programs and connect with teams passionate about their craft. Come on Sunday, August 24th, any time between 9:30 AM and 5:00 PM. Cost: free. Free parking available at the Central Grounds Garage. </p>
   <p> <h3>Discover and learn about:</h3>
   <ul>
     <li>FIRST LEGO League
