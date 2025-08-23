@@ -6,7 +6,7 @@ layout: "single"
 price: 325
 category: "Subscription Classes"
 weight: "3"
-start_date: "2025-09-08"
+start_date: "2025-09-15"
 end_date: "2025-11-15"
 start_time: "4:30"
 end_time: "6:00"
