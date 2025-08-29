@@ -32,7 +32,9 @@ robots: "index, follow"
 
 ---
 
-<div class="container">
+Thank you for your interest in our summer camps! Please check back with us in early January to explore our offerings for Summer 2026.
+
+<!-- <div class="container">
   <p>
     Blue Ridge Boosts offers instructional programs in robotics, coding, and math.
   All camps are held at Blue Ridge Boost, 2171 Ivy Rd, Charlottesville.
@@ -60,4 +62,4 @@ robots: "index, follow"
     <center><a href="/summer-camps/4-payments" class="btn btn-outline-primary mtgbtnwidthm">Pay for camp in four equal payments.</a>
     </center>  
   </p>
-</div>
+</div> -->

@@ -32,25 +32,25 @@
     name        = "1-Day"
     url         = "/1-day-camps/"
     parent      = "Camps"
-    weight      = 2
+    weight      = 1
 
 [[main]]
     name        = "Summer"
     url         = "/summer-camps/"
     parent      = "Camps"
-    weight      = 1
+    weight      = 4
 
 [[main]]
     name        = "Winter Break"
     url         = "/winter-break-camps/"
     parent      = "Camps"
-    weight      = 3
+    weight      = 2
 
 [[main]]
     name        = "Spring Break"
     url         = "/spring-break-camps/"
     parent      = "Camps"
-    weight      = 4
+    weight      = 3
 
 [[main]]
     name        = "Events"
