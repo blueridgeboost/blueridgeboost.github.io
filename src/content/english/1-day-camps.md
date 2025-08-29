@@ -55,6 +55,14 @@ robots: "index, follow"
     is a single-focus instructional program and not a daycare. 
     Therefore, all students must be at least six years old to attend.
   </p>
+
+  <h3>Early Bird Discount: Save 25%</h3>
+  <p>
+    Register early for our 1-day camps and enjoy a <strong>25% discount</strong> on your registration fee! 
+    This offer is available <strong>up to two weeks before the camp begins</strong>.
+  </p>
+
+  <p>Click on the school name to see only the day off-school camps for that school.</p>
   
   <!-- <h3>1-Day Camps</h3>
   <ul>
