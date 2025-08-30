@@ -3,8 +3,8 @@ ecwid: 767680490
 product_id: Code-Craft-25-2Gr5-6
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 157.8842105263158
+subject_tags: ["Game Development"]
+price: 149.99
 weight: "24"
 start_date: "2025-09-10"
 end_date: "2026-05-24"
@@ -17,7 +17,6 @@ ribbon: "Starting Soon"
 title: "Code Craft: Minecraft Coding | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["5th","6th"]
-subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 attributes:
 - name: "Class Meeting Schedule"

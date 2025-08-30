@@ -3,7 +3,9 @@ ecwid: 771060851
 product_id: Future-Innovators-3-5
 robots: "noindex, follow"
 layout: "single"
-weight: "57"
+subject_tags: ["Robotics","Computer Coding"]
+price: 169.99
+weight: "58"
 start_date: "2025-09-07"
 end_date: "2025-05-16"
 start_time: "11:00"
@@ -15,7 +17,6 @@ ribbon: "Starting Soon"
 title: "Future Innovators (Grades 3 to 5) | Blue Ridge Boost"
 day_tags: ["Sunday"]
 grade_tags: ["3rd","4th","5th"]
-subject_tags: ["Robotics"]
 difficulty: "Robo Rookies"
 attributes:
 - name: "Class Meeting Schedule"

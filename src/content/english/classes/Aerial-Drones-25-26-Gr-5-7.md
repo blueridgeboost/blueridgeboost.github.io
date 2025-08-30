@@ -3,8 +3,8 @@ ecwid: 770348971
 product_id: Aerial-Drones-25-26-Gr-5-7
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 189.46315789473687
+subject_tags: ["Robotics"]
+price: 179.99
 weight: "48"
 start_date: "2025-09-06"
 end_date: "2025-12-18"
@@ -17,7 +17,6 @@ ribbon: "Starting Soon"
 title: "Soar into STEM: Aerial Drone Class for Grades 5-7 | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["5th","6th","7th"]
-subject_tags: ["Robotics"]
 difficulty: "Robo Rookies"
 attributes:
 - name: "Class Meeting Schedule"

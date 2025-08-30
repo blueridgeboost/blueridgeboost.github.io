@@ -3,9 +3,9 @@ ecwid: 770334954
 product_id: Aerial-Drones-25-26-Gr-6-8
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 210.51578947368424
-weight: "52"
+subject_tags: ["Robotics"]
+price: 199.99
+weight: "53"
 start_date: "2025-09-06"
 end_date: "2026-02-28"
 start_time: "3:00"
@@ -17,7 +17,6 @@ ribbon: "Starting Soon"
 title: "Aerial Drone Competition for Grades 6-8 | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["6th","7th","8th"]
-subject_tags: ["Robotics"]
 difficulty: "Competition"
 attributes:
 - name: "Class Meeting Schedule"

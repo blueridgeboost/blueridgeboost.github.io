@@ -3,8 +3,8 @@ ecwid: 768244858
 product_id: FLL-Challenge-25-26-Div2
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 342.10526315789474
+subject_tags: ["Robotics"]
+price: 325
 weight: "10"
 start_date: "2025-09-15"
 end_date: "2025-11-15"
@@ -17,11 +17,8 @@ ribbon: "Starting Soon"
 title: "Advanced FIRST LEGO League (Grades 6 to 8) | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["6th","7th","8th"]
-subject_tags: ["Robotics"]
 difficulty: "Bot Builders Elite"
 attributes:
-- name: "Session Length"
-  value: "1.5 Hours"
 - name: "Class Meeting Schedule"
   value: "Mondays 6:00 - 7:30"
 - name: "Offering Period"

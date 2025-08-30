@@ -3,8 +3,8 @@ ecwid: 769260824
 product_id: Advanced-VEX-IQ-6-8
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 342.10526315789474
+subject_tags: ["Robotics"]
+price: 325
 weight: "40"
 start_date: "2025-09-14"
 end_date: "2026-03-15"
@@ -17,11 +17,8 @@ ribbon: "Starting Soon"
 title: "Advanced VEX IQ (Grades 6 - 8) | Blue Ridge Boost"
 day_tags: ["Thursday"]
 grade_tags: ["6th","7th","8th"]
-subject_tags: ["Robotics"]
 difficulty: "Bot Builders Elite"
 attributes:
-- name: "Session Length"
-  value: "1.5 Hours"
 - name: "Class Meeting Schedule"
   value: "Thursdays 5:30 - 7:00"
 - name: "Offering Period"

@@ -3,10 +3,9 @@ ecwid: 767683655
 product_id: Math-Builders-3rd-25-26
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 157.8842105263158
+subject_tags: ["Math"]
+price: 149.99
 weight: "6"
-start_date: "2025-08-18"
 end_date: "2026-05-24"
 start_time: "5:00"
 end_time: "6:00"
@@ -17,7 +16,6 @@ ribbon: "Join Now"
 title: "Math Builders: 3rd Grade Group Tutoring | Blue Ridge Boost"
 day_tags: ["Monday", "Wednesday"]
 grade_tags: ["3rd"]
-subject_tags: ["Math"]
 difficulty: "Foundation Forgers"
 attributes:
 - name: "Class Meeting Schedule"

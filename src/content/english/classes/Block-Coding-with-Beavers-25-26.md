@@ -3,8 +3,8 @@ ecwid: 713296284
 product_id: Block-Coding-with-Beavers-25-26
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 147.35789473684213
+subject_tags: ["Computer Coding"]
+price: 139.99
 weight: "47"
 start_date: "2025-09-06"
 end_date: "2026-05-17"
@@ -17,7 +17,6 @@ ribbon: "Starting Soon"
 title: "Block Coding with Beavers | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["1st", "2nd"]
-subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 attributes:
 - name: "Class Meeting Schedule"

@@ -3,8 +3,8 @@ ecwid: 766842181
 product_id: Blender-to-Unreal-25-26
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 210.51578947368424
+subject_tags: ["Game Development"]
+price: 199.99
 weight: "11"
 end_date: "2026-05-18"
 start_time: "6:00"
@@ -16,7 +16,6 @@ ribbon: "Join Now"
 title: "3D Video Game Modeling: Blender to Unreal Engine | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["7th","8th","9th","10th","11th","12th"]
-subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 attributes:
 - name: "Class Meeting Schedule"

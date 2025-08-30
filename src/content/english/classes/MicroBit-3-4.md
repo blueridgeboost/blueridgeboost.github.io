@@ -3,6 +3,8 @@ ecwid: 770960898
 product_id: MicroBit-3-4
 robots: "noindex, follow"
 layout: "single"
+subject_tags: ["Robotics"]
+price: 149.99
 weight: "33"
 start_date: "2025-09-03"
 end_date: "2025-12-18"
@@ -15,7 +17,6 @@ ribbon: "Starting Soon"
 title: "Micro:bit Programming (Grades 3 to 5) | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["3rd","4th","5th"]
-subject_tags: ["Robotics", "Computer Coding"]
 difficulty: "Robo Rookies"
 attributes:
 - name: "Class Meeting Schedule"

@@ -3,9 +3,9 @@ ecwid: 767742486
 product_id: UnrealBeginners-25-26
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 210.51578947368424
-weight: "61"
+subject_tags: []
+price: 199.99
+weight: "62"
 start_date: "2025-09-07"
 end_date: "2026-05-24"
 start_time: "2:00"
@@ -17,11 +17,8 @@ ribbon: "Starting Soon"
 title: "Game Makers: Unreal Engine for Beginners | Blue Ridge Boost"
 day_tags: ["Sunday"]
 grade_tags: ["7th","8th"]
-subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 attributes:
-- name: "Session Length"
-  value: "1.5 Hours"
 - name: "Class Meeting Schedule"
   value: "Sundays 2:00 - 3:30"
 - name: "Offering Period"
