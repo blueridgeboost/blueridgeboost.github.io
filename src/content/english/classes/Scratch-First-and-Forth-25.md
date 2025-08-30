@@ -4,7 +4,7 @@ product_id: Scratch-First-and-Forth-25
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 132.9905
+price: 147.35789473684213
 weight: "4"
 start_date: "2025-09-08"
 end_date: "2025-12-15"

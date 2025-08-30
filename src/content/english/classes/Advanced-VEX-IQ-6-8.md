@@ -4,7 +4,7 @@ product_id: Advanced-VEX-IQ-6-8
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 308.75
+price: 342.10526315789474
 weight: "40"
 start_date: "2025-09-14"
 end_date: "2026-03-15"

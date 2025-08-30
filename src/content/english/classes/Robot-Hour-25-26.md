@@ -4,7 +4,7 @@ product_id: Robot-Hour-25-26
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 142.4905
+price: 157.8842105263158
 weight: "2"
 start_date: "2025-09-08"
 end_date: "2026-05-24"

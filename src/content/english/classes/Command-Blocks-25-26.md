@@ -6,7 +6,6 @@ layout: "single"
 category: "Session Classes"
 price: 229.99
 weight: "8"
-start_date: "2025-08-18"
 end_date: "2026-05-24"
 start_time: "5:30"
 end_time: "6:30"

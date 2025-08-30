@@ -4,9 +4,8 @@ product_id: Math-Practice-6th-25-26
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 170.9905
+price: 189.46315789473687
 weight: "12"
-start_date: "2025-08-18"
 end_date: "2026-05-18"
 start_time: "6:00"
 end_time: "7:00"

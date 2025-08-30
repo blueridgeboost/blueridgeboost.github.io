@@ -4,7 +4,7 @@ product_id: Code-Craft-25-2Gr5-6
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 142.4905
+price: 157.8842105263158
 weight: "24"
 start_date: "2025-09-10"
 end_date: "2026-05-24"

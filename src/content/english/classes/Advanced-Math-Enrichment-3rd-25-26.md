@@ -4,16 +4,15 @@ product_id: Advanced-Math-Enrichment-3rd-25-26
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 132.9905
+price: 147.35789473684213
 weight: "16"
-start_date: "2025-09-03"
 end_date: "2026-05-24"
 start_time: "3:45"
 end_time: "4:30"
 page_title: "Advanced Math Enrichment 3rd Grade"
 page_subtitle: "Exploring the Beauty of Mathematics"
 featured: 166
-ribbon: "In-Progress"
+ribbon: "Join Now"
 title: "Advanced Math Enrichment 3rd Grade | Blue Ridge Boost"
 day_tags: ["Tuesday", "Thursday"]
 grade_tags: ["3rd"]

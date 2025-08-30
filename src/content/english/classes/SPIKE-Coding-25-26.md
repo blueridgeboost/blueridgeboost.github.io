@@ -4,7 +4,7 @@ product_id: SPIKE-Coding-25-26
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 189.9905
+price: 210.51578947368424
 weight: "26"
 start_date: "2025-09-02"
 end_date: "2026-05-19"

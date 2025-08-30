@@ -4,7 +4,7 @@ product_id: JS-APCSA-25-26
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 189.9905
+price: 210.51578947368424
 weight: "15"
 start_date: "2025-09-03"
 end_date: "2026-05-15"
