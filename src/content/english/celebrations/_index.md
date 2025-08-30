@@ -13,7 +13,7 @@ style: justify-text-center
 <!--<img src="images/fullroom.jpg" alt="BRB Gaming Room" width="500">-->
     <ul>
     <h3>Party Details</h3>
-    <h5><strong>15 Guests + 1 Birthday Kid</strong></h5>
+    <h5><strong>Max 15 Guests + 1 Birthday Kid</strong></h5>
     <h5><strong>30 min of social time + 90 minutes of gaming or robotics activities</strong></h5>    
     <h5><strong>Available Times:</strong></h5> 
     <h6><li>Saturdays 4-6 PM</li>
