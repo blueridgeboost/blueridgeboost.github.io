@@ -3,8 +3,8 @@ ecwid: 767683684
 product_id: SPIKE-Coding-25-26
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 210.51578947368424
+subject_tags: ["Robotics"]
+price: 199.99
 weight: "26"
 start_date: "2025-09-02"
 end_date: "2026-05-19"
@@ -17,7 +17,6 @@ ribbon: "Starting Soon"
 title: "LEGO SPIKE Coding: Certification Course | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: [ "6th","7th","8th"]
-subject_tags: ["Computer Coding", "Robotics"]
 difficulty: "Robo Rookies"
 attributes:
 - name: "Class Meeting Schedule"

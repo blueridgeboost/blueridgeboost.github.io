@@ -3,8 +3,8 @@ ecwid: 769796575
 product_id: Math-Practice-Algebra-1-25-26
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 189.46315789473687
+subject_tags: ["Math"]
+price: 179.99
 weight: "27"
 end_date: "2026-05-21"
 start_time: "6:00"
@@ -16,7 +16,6 @@ ribbon: "On-Demand"
 title: "Algebra 1 Homework Help | Blue Ridge Boost"
 day_tags: ["Tuesday", "Thursday"]
 grade_tags: ["7th","8th"]
-subject_tags: ["Math"]
 difficulty: "Foundation Forgers"
 attributes:
 - name: "Class Meeting Schedule"

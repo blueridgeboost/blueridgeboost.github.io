@@ -3,8 +3,8 @@ ecwid: 767742299
 product_id: GameMakerUnity-25-26
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 263.14736842105265
+subject_tags: ["Game Development"]
+price: 249.99
 weight: "34"
 start_date: "2025-09-03"
 end_date: "2026-05-24"
@@ -17,11 +17,8 @@ ribbon: "Starting Soon"
 title: "Game Makers: Intro to Unity | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["7th","8th"]
-subject_tags: ["Computer Coding"]
 difficulty: "Syntax Sorcerers"
 attributes:
-- name: "Session Length"
-  value: "1.5 Hours"
 - name: "Class Meeting Schedule"
   value: "Wednesdays 5:00 - 6:30"
 - name: "Offering Period"

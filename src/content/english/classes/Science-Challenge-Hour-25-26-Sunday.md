@@ -3,9 +3,9 @@ ecwid: 770348872
 product_id: Science-Challenge-Hour-25-26-Sunday
 robots: "noindex, follow"
 layout: "single"
-category: "Session Classes"
+subject_tags: ["Science"]
 price: 144.99
-weight: "69"
+weight: "70"
 start_date: "2025-08-24"
 end_date: "2025-12-07"
 start_time: "5:00"
@@ -17,7 +17,6 @@ ribbon: "Starting Soon"
 title: "Science Challenge Hour | Blue Ridge Boost"
 day_tags: ["Sunday"]
 grade_tags: ["3rd","4th","5th"]
-subject_tags: ["Science"]
 difficulty: "Enthusiast"
 attributes:
 - name: "Class Meeting Schedule"

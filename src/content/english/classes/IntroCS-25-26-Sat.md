@@ -3,8 +3,8 @@ ecwid: 770348898
 product_id: IntroCS-25-26-Sat
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 210.51578947368424
+subject_tags: ["Computer Coding"]
+price: 199.99
 weight: "46"
 start_date: "2025-09-06"
 end_date: "2026-05-18"
@@ -17,11 +17,8 @@ ribbon: "Starting Soon"
 title: "Introduction to Computer Science | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["7th","8th","9th","10th"]
-subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 attributes:
-- name: "Session Length"
-  value: "1.5 Hours"
 - name: "Class Meeting Schedule"
   value: "Saturdays 1:00 - 2:30"
 - name: "Offering Period"

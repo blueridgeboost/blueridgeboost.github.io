@@ -3,8 +3,8 @@ ecwid: 770949426
 product_id: MicroBit-6-8
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 178.93684210526317
+subject_tags: ["Robotics"]
+price: 169.99
 weight: "36"
 start_date: "2025-09-03"
 end_date: "2026-05-18"
@@ -17,7 +17,6 @@ ribbon: "Starting Soon"
 title: "Micro:bit - Intro to Computer Science | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["6th","7th","8th"]
-subject_tags: ["Robotics", "Computer Coding"]
 difficulty: "Robo Rookies"
 attributes:
 - name: "Class Meeting Schedule"

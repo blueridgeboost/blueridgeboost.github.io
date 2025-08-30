@@ -3,8 +3,8 @@ ecwid: 766087910
 product_id: Python-Builders-25-26
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 157.8842105263158
+subject_tags: ["Computer Coding"]
+price: 149.99
 weight: "5"
 start_date: "2025-09-08"
 end_date: "2026-05-18"
@@ -17,11 +17,8 @@ ribbon: "Starting Soon"
 title: "Python Code Builders | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["4th","5th"]
-subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 attributes:
-- name: "Session Length"
-  value: "1 hour"
 - name: "Class Meeting Schedule"
   value: "Mondays 4:30 - 5:30"
 - name: "Offering Period"

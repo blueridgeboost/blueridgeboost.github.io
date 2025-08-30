@@ -3,9 +3,9 @@ ecwid: 778287221
 product_id: Battle-Bots-25-26-Gr3-4
 robots: "noindex, follow"
 layout: "single"
-category: "Session Classes"
+subject_tags: ["Robotics"]
 price: 159.99
-weight: "66"
+weight: "67"
 start_date: "2025-08-18"
 end_date: "2026-05-24"
 start_time: "3:30"
@@ -17,7 +17,6 @@ ribbon: "Starting Soon"
 title: "VEX Battle Bots - Third and Fourth Grade | Blue Ridge Boost"
 day_tags: ["Sunday"]
 grade_tags: ["3rd","4th"]
-subject_tags: ["Robotics"]
 difficulty: "Robo Rookies"
 attributes:
 ---

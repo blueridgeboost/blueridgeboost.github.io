@@ -21,7 +21,11 @@
 		<div class="container_frontpage">
 			<div class="row">
 				<h1>{{ .title | markdownify }}</h1>
-				<h5>{{ .subtitle | markdownify }}</h5>
+				<div class="top-buttons">
+					{{ with .top_buttons }}
+						{{ partial "button_list.html" . }}
+					{{ end }}
+				</div>
 			</div>
 			
 			<div class="column left">

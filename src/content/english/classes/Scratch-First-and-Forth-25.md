@@ -3,8 +3,8 @@ ecwid: 766835284
 product_id: Scratch-First-and-Forth-25
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 147.35789473684213
+subject_tags: ["Game Development"]
+price: 139.99
 weight: "4"
 start_date: "2025-09-08"
 end_date: "2025-12-15"
@@ -17,7 +17,6 @@ ribbon: "Starting Soon"
 title: "Scratch Block Coding | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["2nd","3rd","4th"]
-subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 attributes:
 - name: "Class Meeting Schedule"

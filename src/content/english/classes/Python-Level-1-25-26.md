@@ -3,8 +3,8 @@ ecwid: 770317241
 product_id: Python-Level-1-25-26
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 188.42105263157896
+subject_tags: []
+price: 179
 weight: "43"
 start_date: "2025-09-06"
 end_date: "2026-05-16"
@@ -17,11 +17,8 @@ ribbon: "Starting Soon"
 title: "Python Level 1 | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["8th","9th","10th"]
-subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 attributes:
-- name: "Session Length"
-  value: "1 hour"
 - name: "Class Meeting Schedule"
   value: "Saturdays 12:00 - 1:00"
 - name: "Offering Period"

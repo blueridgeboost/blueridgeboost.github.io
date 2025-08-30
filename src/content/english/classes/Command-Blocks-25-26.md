@@ -3,7 +3,7 @@ ecwid: 766789657
 product_id: Command-Blocks-25-26
 robots: "noindex, follow"
 layout: "single"
-category: "Session Classes"
+subject_tags: ["Game Development"]
 price: 229.99
 weight: "8"
 end_date: "2026-05-24"
@@ -16,7 +16,6 @@ ribbon: "New Session"
 title: "Command Craft: Minecraft Command Blocks | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["4th","5th"]
-subject_tags: ["Computer Coding"]
 difficulty: "Code Cadets"
 attributes:
 - name: "Class Meeting Schedule"

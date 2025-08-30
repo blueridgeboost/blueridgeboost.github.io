@@ -3,8 +3,8 @@ ecwid: 766777404
 product_id: Javascript-Art-25
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 157.8842105263158
+subject_tags: ["Computer Coding"]
+price: 149.99
 weight: "9"
 start_date: "2025-09-08"
 end_date: "2025-12-15"
@@ -17,7 +17,6 @@ ribbon: "On-Demand"
 title: "Create & Code: Digital Art with JavaScript | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["5th", "6th"]
-subject_tags: ["Coding"]
 difficulty: "Code Cadets"
 attributes:
 - name: "Class Meeting Schedule"

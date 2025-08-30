@@ -3,9 +3,9 @@ ecwid: 770373665
 product_id: Algebra2-Mastery-25-26
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 263.14736842105265
-weight: "68"
+subject_tags: ["Math"]
+price: 249.99
+weight: "69"
 end_date: "2026-05-16"
 start_time: "4:00"
 end_time: "6:00"
@@ -15,7 +15,6 @@ featured: 208
 title: "Algebra 2: Mastery Through Teaching and Practice | Blue Ridge Boost"
 day_tags: ["Sunday"]
 grade_tags: ["8th","9th","10th"]
-subject_tags: ["Math"]
 difficulty: "Math Maestros"
 attributes:
 - name: "Class Meeting Schedule"

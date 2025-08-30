@@ -3,8 +3,8 @@ ecwid: 769721623
 product_id: Math-Practice-6th-25-26
 robots: "noindex, follow"
 layout: "single"
-category: "Subscription Classes"
-price: 189.46315789473687
+subject_tags: ["Math"]
+price: 179.99
 weight: "12"
 end_date: "2026-05-18"
 start_time: "6:00"
@@ -16,7 +16,6 @@ ribbon: "On-Demand"
 title: "6th Compacted Homework Help | Blue Ridge Boost"
 day_tags: ["Monday", "Wednesday"]
 grade_tags: ["6th"]
-subject_tags: ["Math"]
 difficulty: "Foundation Forgers"
 attributes:
 - name: "Class Meeting Schedule"

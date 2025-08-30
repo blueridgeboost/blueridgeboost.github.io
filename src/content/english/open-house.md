@@ -59,7 +59,7 @@ We look forward to welcoming you! 🚀
         <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
         charset="utf-8"></script><script type="text/javascript">
         xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041", 
-        "defaultCategoryId=182286302");</script>
+        "defaultCategoryId=187847608");</script>
     </div>
 </div>
 
