@@ -4,7 +4,7 @@ product_id: Python-Level-1-25-26
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 170.04999999999998
+price: 188.42105263157896
 weight: "43"
 start_date: "2025-09-06"
 end_date: "2026-05-16"

@@ -4,7 +4,7 @@ product_id: APCSA-In-Person
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 189.9905
+price: 210.51578947368424
 weight: "58"
 start_date: "2025-09-07"
 end_date: "2026-05-15"
@@ -13,7 +13,7 @@ end_time: "2:00"
 page_title: "Java for AP Computer Science (In-person)"
 page_subtitle: "Get ready for AP CSA"
 featured: 0
-ribbon: "In-Progress"
+ribbon: "Join Now"
 title: "Java for AP Computer Science (In-person) | Blue Ridge Boost"
 day_tags: ["Sunday"]
 grade_tags: ["8th","9th","10th", "11th", "12th"]

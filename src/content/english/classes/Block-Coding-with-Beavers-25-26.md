@@ -4,7 +4,7 @@ product_id: Block-Coding-with-Beavers-25-26
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 132.9905
+price: 147.35789473684213
 weight: "47"
 start_date: "2025-09-06"
 end_date: "2026-05-17"

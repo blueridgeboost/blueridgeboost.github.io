@@ -4,7 +4,7 @@ product_id: Cybersecurity-Level-2-Teens-25-26
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 246.9905
+price: 273.67368421052635
 weight: "62"
 start_date: "2025-09-08"
 end_date: "2026-05-18"

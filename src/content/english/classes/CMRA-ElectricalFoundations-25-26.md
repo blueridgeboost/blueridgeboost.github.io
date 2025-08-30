@@ -4,9 +4,8 @@ product_id: CMRA-ElectricalFoundations-25-26
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 284.9905
+price: 315.7789473684211
 weight: "29"
-start_date: "2025-09-02"
 end_date: "2026-05-19"
 start_time: "6:00"
 end_time: "7:30"

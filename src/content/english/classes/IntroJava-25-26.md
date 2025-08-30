@@ -4,7 +4,7 @@ product_id: IntroJava-25-26
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 170.9905
+price: 189.46315789473687
 weight: "42"
 start_date: "2025-09-04"
 end_date: "2026-05-24"

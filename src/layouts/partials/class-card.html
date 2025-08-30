@@ -11,7 +11,8 @@ class="ecsp-media"
     {{ with .Params.ribbon }}
         <span class="ecsp-ribbon">{{ . }}</span> 
     {{ end }}
-    <div class="ecsp ecsp-SingleProduct-v2 ecsp-SingleProduct-v2-bordered ecsp-SingleProduct-v2-centered ecsp-Product ec-Product-{{ $id }}" itemscope itemtype="http://schema.org/Product" data-single-product-id="{{ $id }}">
+    <div class="ecsp ecsp-SingleProduct-v2 ecsp-SingleProduct-v2-bordered ecsp-SingleProduct-v2-centered 
+    ecsp-Product ec-Product-{{ $id }}" itemscope itemtype="http://schema.org/Product" data-single-product-id="{{ $id }}">
     <a href="{{ .RelPermalink }}" class="ecsp-image-link">
       <div class="ecsp-image" itemprop="image"></div>
       
@@ -24,9 +25,9 @@ class="ecsp-media"
             {{ if eq (len . ) 1 }}
                 {{ range . }} {{.}}s {{end}} 
             {{ else if eq (len . ) 2 }}
-                {{ index . 0 }}s and {{ index . 1 }}s
+                {{ index . 0 }}s, {{ index . 1 }}s
             {{ else if eq (len . ) 3 }}
-                {{ index . 0 }}s, {{ index . 1 }}s, and {{ index . 2 }}s
+                {{ index . 0 }}s, {{ index . 1 }}s, {{ index . 2 }}s
             {{ else if eq (len . ) 7 }}
             {{ else}}
                 {{ index . 0 }}s through {{ index . (sub (len .) 1) }}s
@@ -48,7 +49,8 @@ class="ecsp-media"
             {{ end }}
         {{ end }}
         {{ if .Params.start_date }}
-            {{ .Params.start_date | time | dateFormat "Jan 2, 2006" }} to {{ .Params.end_date | time | dateFormat "Jan 2, 2006" }} <br>
+            Starts {{ .Params.start_date | time | dateFormat "Jan 2, 2006" }} <br>
+            {{/*  to {{ .Params.end_date | time | dateFormat "Jan 2, 2006" }} <br>  */}}
         {{ end }}
         {{ if eq .Params.difficulty "Bot Builders Elite" }}
             <span class="level-elite"><a href="#elite">

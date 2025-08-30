@@ -4,7 +4,7 @@ product_id: Aerial-Drones-25-26-Gr-6-8
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 189.9905
+price: 210.51578947368424
 weight: "52"
 start_date: "2025-09-06"
 end_date: "2026-02-28"

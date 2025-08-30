@@ -42,7 +42,7 @@ banner:
         style: btnleft
       - enable: true
         label: "Camps"
-        link: "summer-camps/"
+        link: "1-day-camps/"
         style: btnleft
       - enable: true
         label: "Tutoring"

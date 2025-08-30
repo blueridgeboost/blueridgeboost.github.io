@@ -4,7 +4,7 @@ product_id: MicroBit-6-8
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 161.4905
+price: 178.93684210526317
 weight: "36"
 start_date: "2025-09-03"
 end_date: "2026-05-18"
