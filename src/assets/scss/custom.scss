@@ -411,3 +411,21 @@ font-size: 1.5em;
   transform: rotate(-15deg);
   pointer-events: none; /* so clicks go through to the image link */
 }
+
+.tight-text p {
+  margin-top: 0;
+  margin-bottom: 0px;
+  line-height: 1.0;
+}
+
+.tight-list { 
+  margin: 0; 
+  padding-left: 0;  
+  list-style: none  !important;
+}
+
+.tight-list li { 
+  margin: 0; 
+  line-height: 1.2;
+  list-style: none
+}

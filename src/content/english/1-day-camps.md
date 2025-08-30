@@ -32,34 +32,25 @@ robots: "index, follow"
 ---
 
 <section>
-  <h2>Blue Ridge Boosts Camps and Programs</h2>
   <p>
     Blue Ridge Boosts offers instructional programs in robotics, coding, and math during school breaks and days off from school. 
-    We also host camps on days with unexpected school closings, such as "snow days."
-  </p>
-  <p>
-    All camps are held at <strong>Blue Ridge Boost</strong>, located at <i>2171 Ivy Rd Ste 5, Charlottesville, Virginia 22903</i>.
-  </p>
-  
-  <h3>Camp Details</h3>
-  <ul>
-    <li><strong>Half-day students:</strong> Please bring a snack.</li>
-    <li><strong>Full-day students:</strong> Please bring two snacks and lunch.</li>
-    <li><strong>Drop-off:</strong> Starts at 8:30 AM.</li>
-    <li><strong>Pick-up:</strong> Ends at 1:00 PM for half-day and 5:00 PM for full-day.</li>
-  </ul>
-  
-  <h3>Age Requirements</h3>
-  <p>
-    Camps are open to children ages <strong>6 to 13</strong>. Please note that Blue Ridge Boost 
-    is a single-focus instructional program and not a daycare. 
-    Therefore, all students must be at least six years old to attend.
+    We also host camps on days with unexpected school closings, such as "snow days".
   </p>
 
-  <h3>Early Bird Discount: Save 25%</h3>
-  <p>
-    Register early for our 1-day camps and enjoy a <strong>25% discount</strong> on your registration fee! 
-    This offer is available <strong>up to two weeks before the camp begins</strong>.
+  <ul class="tight-list"> 
+<li> All camps are held at <strong>Blue Ridge Boost</strong>, 2171 Ivy Road, Charlottesville, Virginia 22903.
+  </li>
+<li> Camps are open to children ages <strong>6 to 13</strong>. Please note that Blue Ridge Boost is a single-focus instructional program and all students must be at least six years old to attend.</li>
+  <li> <strong>Half-day students:</strong> Please bring a snack.</li> 
+  <li> <strong>Full-day students:</strong> Please bring two snacks and lunch.</li>
+<li><strong>Drop-off:</strong> Starts at 8:30 AM.</li>
+<li> <strong>Pick-up:</strong> Ends at 1:00 PM for half-day and 5:00 PM for full-day.
+</li>
+</ul>
+
+<p>
+<b>Early Bird Discount: </b>
+    Register early for our 1-day camps and <strong>save 25%</strong> on your registration fee! This offer is available until <strong>two weeks</strong> before the camp.
   </p>
 
   <p>Click on the school name to see only the day off-school camps for that school.</p>
@@ -76,7 +67,7 @@ robots: "index, follow"
         <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
             charset="utf-8"></script>
         <script type="text/javascript">
-            xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041", 
+            xProductBrowser("views=grid(25,5) list(60) table(60)","categoryView=grid","id=my-store-106136041", 
             "defaultCategoryId=175336115");</script>
     </div>
 </div>
