@@ -4,7 +4,7 @@ product_id: FLL-Challenge-25-26-Gr4-5
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 308.75
+price: 342.10526315789474
 weight: "3"
 start_date: "2025-09-02"
 end_date: "2025-11-15"

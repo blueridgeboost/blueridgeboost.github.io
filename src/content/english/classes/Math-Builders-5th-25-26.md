@@ -4,7 +4,7 @@ product_id: Math-Builders-5th-25-26
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 142.4905
+price: 157.8842105263158
 weight: "21"
 start_date: "2025-08-19"
 end_date: "2026-05-21"

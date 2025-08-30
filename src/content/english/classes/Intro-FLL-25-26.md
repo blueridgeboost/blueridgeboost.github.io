@@ -4,7 +4,7 @@ product_id: Intro-FLL-25-26
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 142.4905
+price: 157.8842105263158
 weight: "20"
 start_date: "2025-09-02"
 end_date: "2025-12-19"
@@ -13,7 +13,7 @@ end_time: "5:30"
 page_title: "Intro to FIRST LEGO League"
 page_subtitle: "Building Bright Futures"
 featured: 179
-ribbon: "Starting Soon"
+ribbon: "Join Now"
 title: "Intro to FIRST LEGO League | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["3rd", "4th","5th"]

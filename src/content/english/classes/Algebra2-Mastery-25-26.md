@@ -4,9 +4,8 @@ product_id: Algebra2-Mastery-25-26
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 237.4905
+price: 263.14736842105265
 weight: "68"
-start_date: "2025-09-07"
 end_date: "2026-05-16"
 start_time: "4:00"
 end_time: "6:00"

@@ -4,7 +4,7 @@ product_id: JS-APCSP-25-26
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 189.04999999999998
+price: 209.47368421052633
 weight: "30"
 start_date: "2025-09-02"
 end_date: "2026-05-14"

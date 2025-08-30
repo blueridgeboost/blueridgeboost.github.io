@@ -4,9 +4,8 @@ product_id: CMRA-AutonomyFoundations-25-26
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 284.9905
+price: 315.7789473684211
 weight: "41"
-start_date: "2025-09-04"
 end_date: "2026-05-24"
 start_time: "6:00"
 end_time: "7:30"

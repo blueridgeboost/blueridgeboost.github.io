@@ -4,9 +4,8 @@ product_id: Math-Practice-Algebra-1-25-26
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 170.9905
+price: 189.46315789473687
 weight: "27"
-start_date: "2025-08-19"
 end_date: "2026-05-21"
 start_time: "6:00"
 end_time: "7:00"

@@ -4,7 +4,7 @@ product_id: Precalc-Mastery-25-26
 robots: "noindex, follow"
 layout: "single"
 category: "Subscription Classes"
-price: 237.4905
+price: 263.14736842105265
 weight: "44"
 start_date: "2025-09-06"
 end_date: "2026-05-16"
@@ -13,7 +13,7 @@ end_time: "2:00"
 page_title: "Precalculus: Mastery Through Teaching and Practice"
 page_subtitle: "Get Ahead!"
 featured: 207
-ribbon: "In-Progress"
+ribbon: "Join Now"
 title: "Precalculus: Mastery Through Teaching and Practice | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["8th","9th","10th"]
