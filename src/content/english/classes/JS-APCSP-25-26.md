@@ -3,8 +3,8 @@ ecwid: 743641082
 product_id: JS-APCSP-25-26
 robots: "noindex, follow"
 layout: "single"
-price: 199
 category: "Subscription Classes"
+price: 189.04999999999998
 weight: "30"
 start_date: "2025-09-02"
 end_date: "2026-05-14"
@@ -13,6 +13,7 @@ end_time: "7:00"
 page_title: "JavaScript for AP CSP (Virtual)"
 page_subtitle: "Get ready for AP Computer Science Principles"
 featured: 0
+ribbon: "On-Demand"
 title: "JavaScript for AP CSP (Virtual) | Blue Ridge Boost"
 day_tags: ["Tuesday","Thursday"]
 grade_tags: ["8th","9th","10th", "11th", "12th"]

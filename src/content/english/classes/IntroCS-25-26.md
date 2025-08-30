@@ -3,8 +3,8 @@ ecwid: 767741104
 product_id: IntroCS-25-26
 robots: "noindex, follow"
 layout: "single"
-price: 199.99
 category: "Subscription Classes"
+price: 189.9905
 weight: "38"
 start_date: "2025-09-03"
 end_date: "2026-05-24"
@@ -12,7 +12,8 @@ start_time: "6:00"
 end_time: "7:30"
 page_title: "Introduction to Computer Science"
 page_subtitle: "Get started with Computer Science through Blue Ridge Boost and CodeHS!"
-featured: 179
+featured: 181
+ribbon: "Starting Soon"
 title: "Introduction to Computer Science | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["7th","8th","9th"]

@@ -87,11 +87,11 @@
     weight      = 5
     parent     = "Events"
 
-[[main]]
-    name       = "Girl Powered Fridays"
-    url        = "/girl-powered-fridays/"
-    weight     = 9
-    parent     = "Events"
+# [[main]]
+#     name       = "Girl Powered Fridays"
+#     url        = "/girl-powered-fridays/"
+#     weight     = 9
+#     parent     = "Events"
 
 # [[main]]
 #     name       = "Chess Club"

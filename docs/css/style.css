@@ -18307,6 +18307,35 @@ div.fullclass {
   padding: 20px;
   border-radius: 10px; }
 
+/* The wrapper that contains the image and the ribbon */
+.ecsp-media,
+.ecsp-image-link {
+  position: relative;
+  display: block; }
+
+/* If Ecwid injects an <img>, you can remove the padding-top placeholder */
+.ecsp-image {
+  width: 100%;
+  /* optional placeholder if the div is empty; remove if you see a real <img> inside */
+  /* padding-top: 100%; */ }
+
+/* The ribbon must be absolutely positioned */
+.ecsp-ribbon {
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  /* or right: -10px for top-right */
+  z-index: 2;
+  background: #e63946;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  transform: rotate(-15deg);
+  pointer-events: none;
+  /* so clicks go through to the image link */ }
+
 .preloader {
   position: fixed;
   top: 0;
