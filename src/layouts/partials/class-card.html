@@ -18,8 +18,8 @@ class="ecsp-media"
       
     </a>
 
-        <a href="{{ .RelPermalink }}"><div class="ecsp-title" itemprop="name" content="{{ .Params.page_title }}"></div></a>
-        <div class="ecsp-subtitle">{{ .Params.page_subtitle }}</div>
+        {{/*  <a href="{{ .RelPermalink }}"><div class="ecsp-title" itemprop="name" content="{{ .Params.page_title }}"></div></a>  */}}
+        {{/*  <div class="ecsp-subtitle">{{ .Params.page_subtitle }}</div>  */}}
         
         {{ with .Params.day_tags }}
             {{ if eq (len . ) 1 }}
@@ -48,11 +48,11 @@ class="ecsp-media"
                 {{ end }}
             {{ end }}
         {{ end }}
-        {{ if .Params.start_date }}
+        {{/*  {{ if .Params.start_date }}
             Starts {{ .Params.start_date | time | dateFormat "Jan 2, 2006" }} <br>
-            {{/*  to {{ .Params.end_date | time | dateFormat "Jan 2, 2006" }} <br>  */}}
-        {{ end }}
-        {{ if eq .Params.difficulty "Bot Builders Elite" }}
+            to {{ .Params.end_date | time | dateFormat "Jan 2, 2006" }} <br>
+        {{ end }}  */}}
+        {{/*  {{ if eq .Params.difficulty "Bot Builders Elite" }}
             <span class="level-elite"><a href="#elite">
                 {{ .Params.difficulty }}
             </a></span><br>
@@ -96,7 +96,7 @@ class="ecsp-media"
             <a href="#levels">
                 {{ .Params.difficulty }}
             </a><br>
-        {{ end }}  
+        {{ end }}    */}}
         {{ with .Params.grade_tags }}
             {{ if gt (len .) 0 }}
                 Grades:
@@ -116,9 +116,9 @@ class="ecsp-media"
                 <div itemprop="priceCurrency" content="USD"></div>
             </div>
         </div>
-        <div customprop="options"></div><div customprop="qty"></div>
+        {{/*  <div customprop="options"></div><div customprop="qty"></div>
         <div customprop="addtobag"></div>
-        <div customprop="vatinprice"></div>
+        <div customprop="vatinprice"></div>  */}}
     </div>
     <script type="text/javascript"> 
         window.ec=window.ec||{}; 
@@ -129,7 +129,7 @@ class="ecsp-media"
         window.ec.storefront.product_details_two_columns_with_right_sidebar_show_product_description_on_sidebar=false;
         window.ec.storefront.product_details_two_columns_with_left_sidebar_show_product_description_on_sidebar=false;
         window.ec.storefront.product_details_show_product_name=true;
-        window.ec.storefront.product_details_show_breadcrumbs=true;
+        window.ec.storefront.product_details_show_breadcrumbs=false;
         window.ec.storefront.product_details_show_product_sku=false;
         window.ec.storefront.product_details_show_product_price=true;
         window.ec.storefront.product_details_show_in_stock_label=true;
