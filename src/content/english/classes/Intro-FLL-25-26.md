@@ -16,10 +16,4 @@ ribbon: "Join Now"
 title: "Intro to FIRST LEGO League | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["3rd", "4th","5th"]
-difficulty: "Robo Rookies"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Tuesdays 4:30 - 5:30"
-- name: "Offering Period"
-  value: "September 2, 2025 to December 19, 2025"
 ---

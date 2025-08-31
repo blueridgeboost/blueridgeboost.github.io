@@ -13,16 +13,8 @@ end_time: "4:30"
 page_title: "Robot Explorers: Intro to Robotics"
 page_subtitle: "Try all kinds of robots!"
 featured: 154
-ribbon: "Join Now"
+ribbon: "Starts Sep 8"
 title: "Robot Explorers: Intro to Robotics | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["1st","2nd"]
-difficulty: "Robo Rookies"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Mondays 3:45 - 4:30"
-- name: "Offering Period"
-  value: "September 8, 2025 to May 24, 2026"
-- name: "Maximum Class Size"
-  value: "6"
 ---

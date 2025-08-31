@@ -17,10 +17,4 @@ ribbon: "Starting Soon"
 title: "Roblox Studio: Make a game in 6 sessions | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["3rd","4th","5th"]
-difficulty: "Code Cadets"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Wednesdays 5:00 - 6:00"
-- name: "Offering Period"
-  value: "August 18, 2025 to May 24, 2026"
 ---

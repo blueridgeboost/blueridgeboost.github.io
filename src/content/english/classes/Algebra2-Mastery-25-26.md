@@ -16,10 +16,4 @@ ribbon: "Join Now"
 title: "Algebra 2: Mastery Through Teaching and Practice | Blue Ridge Boost"
 day_tags: ["Sunday"]
 grade_tags: ["8th","9th","10th"]
-difficulty: "Math Maestros"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Sundays 4:00 - 6:00"
-- name: "Offering Period"
-  value: "September 7, 2025 to May 16, 2026"
 ---

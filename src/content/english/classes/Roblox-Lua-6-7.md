@@ -15,10 +15,4 @@ ribbon: "Join Now"
 title: "Create Your Own Roblox Games: Roblox and Lua Coding | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["6th","7th"]
-difficulty: "Code Cadets"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Tuesdays 5:30 - 6:30"
-- name: "Offering Period"
-  value: "August 19, 2025 to May 24, 2026"
 ---

@@ -27,62 +27,25 @@
 					{{ end }}
 				</div>
 			</div>
-			
 			<div class="column left">
 				{{ with .left_buttons }}
 					{{ partial "button_list.html" . }}
 				{{ end }}
 			</div>
-		
 			<div class="column middle">
 				{{ partial "caroussel.html" . }}
 			</div>
-			<div class = "column right">
+			<div class="column right">
 				{{ with .right_buttons }}
 					{{ partial "button_list.html" . }}
-				{{ end }}	
-			</div>
-	
-			<!-- Buttons
-			<div class="mb-5"> 
-				{{ range .all_buttons }}
-					{{ range $groupKey, $groupContent := . }}
-						{{ if $groupContent.enable }}
-							{{ partial "button_list.html" $groupContent }}
-						{{ end }}
-					{{ end }}
 				{{ end }}
-			</div> -->
-	
-
-
-  <!-- start second row -->
-  <!-- <section>
-    <div class="container">
-    <div class="column left">
-    <div class="card">
-      <div class="container">
-        <a>Gaming and Robotics Parties</a>
-        <body>Pick a theme, select a bundle, and leave the rest to us</body>
-      </div>
-    </div>
-  </div>
-  <div class="column left">
-    <div class="card">
-      <div class="container">
-        <a>World Robot Olympiad</a>
-        <body>US Open Aug 23</body>
-      </div>
-      </div>
-    </div>
-  <div class="column photo">
-    <img src="/images/fullroom.jpg" alt="Blue Ridge Boost Gaming Room">
-  </div>
-  </div>
-  </section> -->
-</section>
+			</div>
+		</div>
+	</section>
 </center>
+<p></p>
 <!-- /banner -->
+
 
 {{ end }}
 {{ end }}

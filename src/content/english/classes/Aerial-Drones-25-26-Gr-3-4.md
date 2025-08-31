@@ -17,10 +17,4 @@ ribbon: "Join Now"
 title: "Soar into STEM: Aerial Drone Class for Grades 3-4 | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["3rd","4th"]
-difficulty: "Robo Rookies"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Saturdays 12:00 - 1:00"
-- name: "Offering Period"
-  value: "September 6, 2025 to December 18, 2025"
 ---

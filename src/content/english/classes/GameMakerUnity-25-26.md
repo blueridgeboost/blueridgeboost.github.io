@@ -17,10 +17,4 @@ ribbon: "Join Now"
 title: "Game Makers: Intro to Unity | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["7th","8th"]
-difficulty: "Syntax Sorcerers"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Wednesdays 5:00 - 6:30"
-- name: "Offering Period"
-  value: "September 3, 2025 to May 24, 2026"
 ---

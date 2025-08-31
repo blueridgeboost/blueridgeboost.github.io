@@ -17,10 +17,4 @@ ribbon: "Join Now"
 title: "Cybersecurity Level 2 | Blue Ridge Boost"
 day_tags: ["Sunday"]
 grade_tags: ["7th","8th","9th","10th","11th","12th"]
-difficulty: "Code Cadets"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Sundays 2:00 - 3:30"
-- name: "Offering Period"
-  value: "September 8, 2025 to May 18, 2026"
 ---

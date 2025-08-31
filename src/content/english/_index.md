@@ -47,6 +47,10 @@ banner:
         link: "classes/game-development"
         style: btntop
       - enable: true
+        label: "AI"
+        link: "classes/ai"
+        style: btntop
+      - enable: true
         label: "Computer Coding"
         link: "classes/coding"
         style: btntop
@@ -61,8 +65,8 @@ banner:
     group_label: ""
     group_link: "#quick-links"
     buttons:
-      - enable: false
-        label: "Camps"
+      - enable: true
+        label: "1-Day Camps"
         link: "1-day-camps/"
         style: btnleft
       - enable: true
@@ -70,40 +74,43 @@ banner:
         link: "tutoring/"
         style: btnleft
       - enable: true
-        label: "Birthday Parties"
-        link: "/celebrations/"
+        label: "Classes"
+        link: "classes/"
         style: btnleft
+      - enable: false
+        label: "Certifications"
+        link: "/certifications/"
+        style: "btnleft"
+      - enable: true
+        label: "For Adults"
+        link: "/adults"
+        style: "btnleft"
+      
+      
+  right_buttons:
+    group_label: ""
+    buttons:
       - enable: true
         label: "Gaming Fridays"
         link: "/parents-night-out/"
         style: btnleft
       - enable: true
-        label: "Classes"
-        link: "classes/"
+        label: "Birthday Parties"
+        link: "/celebrations/"
         style: btnleft
-  right_buttons:
-    group_label: ""
-    buttons:
       - enable: true
-        label: "Open House"
+        label: "Open Houses"
         link: "/open-house"
-        style: "c-button"
-      - enable: true
-        label: "Drop-In Robotics"
-        link: "/drop-in-robotics"
-        style: "c-button"
+        style: "btnleft"
       - enable: false
-        label: "Certifications"
-        link: "/certifications/"
-        style: "c-button"
-      - enable: true
-        label: "For Adults"
-        link: "/adults"
-        style: "c-button"
-      - enable: true
         label: "World Robot Olympiad"
         link: "/wro/"
-        style: "c-button" 
+        style: "btnleft"
+      - enable: false
+        label: "Drop-In Robotics"
+        link: "/drop-in-robotics"
+        style: "btnleft"
+       
     
   # all_buttons:    
   #   - camps_buttons:

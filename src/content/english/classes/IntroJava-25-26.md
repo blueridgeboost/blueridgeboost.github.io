@@ -17,10 +17,4 @@ ribbon: "Join Now"
 title: "Intro to Programming in Java | Blue Ridge Boost"
 day_tags: ["Thursday"]
 grade_tags: ["7th","8th","9th","10th"]
-difficulty: "Code Cadets"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Thursdays 6:30 - 7:30"
-- name: "Offering Period"
-  value: "September 4, 2025 to May 24, 2026"
 ---

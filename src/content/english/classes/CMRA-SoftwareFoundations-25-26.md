@@ -16,10 +16,4 @@ ribbon: "Join Now"
 title: "Carnegie Mellon Robotics Academy: Software Foundations | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
-difficulty: "Robo Rookies"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Wednesdays 6:00 - 7:30"
-- name: "Offering Period"
-  value: "September 3, 2025 to May 20, 2026"
 ---

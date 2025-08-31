@@ -17,10 +17,4 @@ ribbon: "Join Now"
 title: "Python Basics with Tracy the Turtle | Blue Ridge Boost"
 day_tags: ["Sunday"]
 grade_tags: ["5th","6th"]
-difficulty: "Beginners"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Sundays 2:30 - 3:30"
-- name: "Offering Period"
-  value: "September 7, 2025 to May 16, 2026"
 ---

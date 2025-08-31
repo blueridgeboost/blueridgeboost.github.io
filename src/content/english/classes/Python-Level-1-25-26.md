@@ -17,10 +17,4 @@ ribbon: "Join Now"
 title: "Python Level 1 | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["8th","9th","10th"]
-difficulty: "Code Cadets"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Saturdays 12:00 - 1:00"
-- name: "Offering Period"
-  value: "September 6, 2025 to May 16, 2026"
 ---

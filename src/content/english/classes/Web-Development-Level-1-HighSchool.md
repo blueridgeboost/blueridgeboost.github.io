@@ -17,10 +17,4 @@ ribbon: "On-Demand"
 title: "Web Development 1 (High School, In-Person) | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["7th", "8th", "9th","10th","11th","12th"]
-difficulty: "Code Cadets"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Saturdays 6:00 - 7:30"
-- name: "Offering Period"
-  value: "September 6, 2025 to May 18, 2026"
 ---

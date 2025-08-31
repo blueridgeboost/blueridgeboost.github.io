@@ -17,10 +17,4 @@ ribbon: "Starting Soon"
 title: "Future Innovators (Grades 3 to 5) | Blue Ridge Boost"
 day_tags: ["Sunday"]
 grade_tags: ["3rd","4th","5th"]
-difficulty: "Robo Rookies"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Sundays 11:00 - 12:30"
-- name: "Offering Period"
-  value: "September 7, 2025 to May 16, 2025"
 ---

@@ -17,10 +17,4 @@ ribbon: "Join Now"
 title: "Group Tutoring: AP Computer Science Principles | Blue Ridge Boost"
 day_tags: ["Tuesday","Thursday"]
 grade_tags: ["8th","9th","10th", "11th", "12th"]
-difficulty: "Code Cadets"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Tuesdays and Thursdays 6:15 - 7:00"
-- name: "Offering Period"
-  value: "September 2, 2025 to May 14, 2026"
 ---

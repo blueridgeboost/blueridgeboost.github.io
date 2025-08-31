@@ -17,10 +17,4 @@ ribbon: "Starts Sep 9"
 title: "AI, Ethics, and Python | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["7th","8th"]
-difficulty: "Code Cadets"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Tuesdays 6:30 - 7:30"
-- name: "Offering Period"
-  value: "September 9, 2025 to May 19, 2026"
 ---

@@ -17,10 +17,4 @@ ribbon: "Join Now"
 title: "Mod Craft: Code Your Own Minecraft Mods | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["7th","8th","9th"]
-difficulty: "Code Cadets"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Saturdays 2:30 - 3:30"
-- name: "Offering Period"
-  value: "September 6, 2025 to May 24, 2026"
 ---

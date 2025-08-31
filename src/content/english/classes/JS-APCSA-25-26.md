@@ -17,10 +17,4 @@ ribbon: "Join Now"
 title: "Group Tutoring: Java for AP Computer Science (Virtual) | Blue Ridge Boost"
 day_tags: ["Monday", "Wednesday"]
 grade_tags: ["8th","9th","10th", "11th", "12th"]
-difficulty: "Code Cadets"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Mondays and Wednesdays 6:15 - 7:00"
-- name: "Offering Period"
-  value: "September 3, 2025 to May 15, 2026"
 ---

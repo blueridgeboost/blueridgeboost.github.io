@@ -17,10 +17,4 @@ ribbon: "Join Now"
 title: "LEGO SPIKE Coding: Certification Course | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: [ "6th","7th","8th"]
-difficulty: "Robo Rookies"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Tuesdays 5:30 - 7:00"
-- name: "Offering Period"
-  value: "September 2, 2025 to May 19, 2026"
 ---

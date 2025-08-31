@@ -17,10 +17,4 @@ ribbon: "Join Now"
 title: "Micro:bit Programming (Grades 1 and 2) | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["1st","2nd"]
-difficulty: "Robo Rookies"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Wednesdays 3:45 - 4:30"
-- name: "Offering Period"
-  value: "September 3, 2025 to December 18, 2025"
 ---

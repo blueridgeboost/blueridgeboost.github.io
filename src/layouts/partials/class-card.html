@@ -2,7 +2,9 @@
 {{ $ecwid_category := .Params.category }}
 <div
 id = "class-{{ $id }}"
-data-day='{{ delimit .Params.day_tags "#" }}' 
+{{ if .Params.day_tags }}
+  data-day='{{ delimit .Params.day_tags "#" }}'
+{{ end }}
 data-grade='{{ delimit .Params.grade_tags "#" }}' 
 data-subject='{{ delimit .Params.subject_tags "#" }}'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -20,20 +22,22 @@ class="ecsp-media"
 
         {{/*  <a href="{{ .RelPermalink }}"><div class="ecsp-title" itemprop="name" content="{{ .Params.page_title }}"></div></a>  */}}
         {{/*  <div class="ecsp-subtitle">{{ .Params.page_subtitle }}</div>  */}}
-        
-        {{ with .Params.day_tags }}
-            {{ if eq (len . ) 1 }}
-                {{ range . }} {{.}}s {{end}} 
-            {{ else if eq (len . ) 2 }}
-                {{ index . 0 }}s, {{ index . 1 }}s
-            {{ else if eq (len . ) 3 }}
-                {{ index . 0 }}s, {{ index . 1 }}s, {{ index . 2 }}s
-            {{ else if eq (len . ) 7 }}
-            {{ else}}
-                {{ index . 0 }}s through {{ index . (sub (len .) 1) }}s
-            {{ end }}
-        {{ end }} 
-        
+        {{ if .Params.day_tags }}
+            {{ with .Params.day_tags }}
+                {{ if eq (len . ) 1 }}
+                    {{ range . }} {{.}}s {{end}} 
+                {{ else if eq (len . ) 2 }}
+                    {{ index . 0 }}s, {{ index . 1 }}s
+                {{ else if eq (len . ) 3 }}
+                    {{ index . 0 }}s, {{ index . 1 }}s, {{ index . 2 }}s
+                {{ else if eq (len . ) 7 }}
+                {{ else}}
+                    {{ index . 0 }}s through {{ index . (sub (len .) 1) }}s
+                {{ end }}
+            {{ end }} 
+        {{ else }}
+            Pick a day and time<br>
+        {{ end}}
         {{  if and .Params.start_time .Params.end_time }}
             {{.Params.start_time}} &ndash; {{.Params.end_time}}<br>
         {{ else }}

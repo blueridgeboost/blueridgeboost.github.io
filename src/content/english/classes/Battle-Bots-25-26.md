@@ -17,6 +17,4 @@ ribbon: "Starting Soon"
 title: "VEX Battle Bots - Fifth and Sixth Grade | Blue Ridge Boost"
 day_tags: ["Sunday"]
 grade_tags: ["5th","6th"]
-difficulty: "Robo Rookies"
-attributes:
 ---

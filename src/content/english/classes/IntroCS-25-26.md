@@ -17,10 +17,4 @@ ribbon: "Join Now"
 title: "Introduction to Computer Science | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["7th","8th","9th"]
-difficulty: "Beginners"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Wednesdays 6:00 - 7:30"
-- name: "Offering Period"
-  value: "September 3, 2025 to May 24, 2026"
 ---

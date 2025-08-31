@@ -16,10 +16,4 @@ ribbon: "Join Now"
 title: "6th Compacted Homework Help | Blue Ridge Boost"
 day_tags: ["Monday", "Wednesday"]
 grade_tags: ["6th"]
-difficulty: "Foundation Forgers"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Mondays and Wednesdays 6:00 - 7:00"
-- name: "Offering Period"
-  value: "August 18, 2025 to May 18, 2026"
 ---
