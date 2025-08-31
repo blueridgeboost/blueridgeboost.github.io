@@ -16,10 +16,4 @@ ribbon: "Join Now"
 title: "Advanced Math Enrichment 3rd Grade | Blue Ridge Boost"
 day_tags: ["Tuesday", "Thursday"]
 grade_tags: ["3rd"]
-difficulty: "Math Maestros"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Tuesdays and Thursdays 3:45 - 4:30"
-- name: "Offering Period"
-  value: "September 3, 2025 to May 24, 2026"
 ---

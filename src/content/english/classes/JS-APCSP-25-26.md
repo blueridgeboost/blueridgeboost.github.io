@@ -10,17 +10,11 @@ start_date: "2025-09-02"
 end_date: "2026-05-14"
 start_time: "6:15"
 end_time: "7:00"
-page_title: "JavaScript for AP CSP (Virtual)"
+page_title: "Group Tutoring: AP Computer Science Principles"
 page_subtitle: "Get ready for AP Computer Science Principles"
 featured: 0
-ribbon: "On-Demand"
-title: "JavaScript for AP CSP (Virtual) | Blue Ridge Boost"
+ribbon: "Join Now"
+title: "Group Tutoring: AP Computer Science Principles | Blue Ridge Boost"
 day_tags: ["Tuesday","Thursday"]
 grade_tags: ["8th","9th","10th", "11th", "12th"]
-difficulty: "Code Cadets"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Tuesdays and Thursdays 6:15 - 7:00"
-- name: "Offering Period"
-  value: "September 2, 2025 to May 14, 2026"
 ---

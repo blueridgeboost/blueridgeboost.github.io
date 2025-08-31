@@ -17,10 +17,4 @@ ribbon: "Starting Soon"
 title: "Science Challenge Hour | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["3rd","4th","5th"]
-difficulty: "Enthusiast"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Tuesdays 4:30 - 5:30"
-- name: "Offering Period"
-  value: "September 2, 2025 to May 19, 2026"
 ---

@@ -13,14 +13,8 @@ end_time: "6:00"
 page_title: "Advanced FIRST LEGO League (Grades 4 and 5)"
 page_subtitle: "Building Robots, Solving Challenges!"
 featured: 191
-ribbon: "Join Now"
+ribbon: "Starts Sep 15"
 title: "Advanced FIRST LEGO League (Grades 4 and 5) | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["4th","5th"]
-difficulty: "Bot Builders Elite"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Mondays 4:30 - 6:00"
-- name: "Offering Period"
-  value: "September 15, 2025 to November 15, 2025"
 ---

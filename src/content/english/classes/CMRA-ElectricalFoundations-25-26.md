@@ -12,14 +12,8 @@ end_time: "7:30"
 page_title: "Carnegie Mellon Robotics Academy: Electrical Foundations"
 page_subtitle: "From Wires to Robots: Build and Program with Arduino!"
 featured: 195
-ribbon: "Starting Soon"
+ribbon: "Join Now"
 title: "Carnegie Mellon Robotics Academy: Electrical Foundations | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
-difficulty: "Robo Rookies"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Tuesdays 6:00 - 7:30"
-- name: "Offering Period"
-  value: "September 2, 2025 to May 19, 2026"
 ---

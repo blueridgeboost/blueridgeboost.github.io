@@ -4,23 +4,12 @@ product_id: Javascript-Art-25
 robots: "noindex, follow"
 layout: "single"
 subject_tags: ["Computer Coding"]
-price: 149.99
+price: 249.99
 weight: "9"
-start_date: "2025-09-08"
-end_date: "2025-12-15"
-start_time: "5:30"
-end_time: "6:30"
 page_title: "Create & Code: Digital Art with JavaScript"
 page_subtitle: "Digital Art Course"
 featured: 149
-ribbon: "On-Demand"
+ribbon: "On Demand"
 title: "Create & Code: Digital Art with JavaScript | Blue Ridge Boost"
-day_tags: ["Monday"]
-grade_tags: ["5th", "6th"]
-difficulty: "Code Cadets"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Mondays 5:30 - 6:30"
-- name: "Offering Period"
-  value: "September 8, 2025 to December 15, 2025"
+grade_tags: ["5th", "6th", "7th","8th"]
 ---

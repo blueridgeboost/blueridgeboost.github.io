@@ -5,7 +5,7 @@ robots: "noindex, follow"
 layout: "single"
 subject_tags: ["Robotics"]
 price: 159.99
-weight: "67"
+weight: "66"
 start_date: "2025-08-18"
 end_date: "2026-05-24"
 start_time: "3:30"
@@ -17,6 +17,4 @@ ribbon: "Starting Soon"
 title: "VEX Battle Bots - Third and Fourth Grade | Blue Ridge Boost"
 day_tags: ["Sunday"]
 grade_tags: ["3rd","4th"]
-difficulty: "Robo Rookies"
-attributes:
 ---

@@ -17,10 +17,4 @@ ribbon: "Join Now"
 title: "Math Builders: 5th Grade Group Tutoring | Blue Ridge Boost"
 day_tags: ["Tuesday", "Thursday"]
 grade_tags: ["5th"]
-difficulty: "Foundation Forgers"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Tuesdays and Thursdays 5:00 - 6:00"
-- name: "Offering Period"
-  value: "August 19, 2025 to May 21, 2026"
 ---

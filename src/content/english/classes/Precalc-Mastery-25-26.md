@@ -17,10 +17,4 @@ ribbon: "Join Now"
 title: "Precalculus: Mastery Through Teaching and Practice | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["8th","9th","10th"]
-difficulty: "Math Maestros"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Saturdays 12:00 - 2:00"
-- name: "Offering Period"
-  value: "September 6, 2025 to May 16, 2026"
 ---

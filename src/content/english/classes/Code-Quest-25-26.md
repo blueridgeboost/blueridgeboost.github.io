@@ -16,6 +16,4 @@ featured: 0
 title: "Code Quest Grades 3 and 4 | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["3rd", "4th"]
-difficulty: "Code Cadets"
-attributes:
 ---

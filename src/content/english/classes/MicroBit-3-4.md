@@ -17,10 +17,4 @@ ribbon: "Starting Soon"
 title: "Micro:bit Programming (Grades 3 to 5) | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["3rd","4th","5th"]
-difficulty: "Robo Rookies"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Wednesdays 4:30 - 5:30"
-- name: "Offering Period"
-  value: "September 3, 2025 to December 18, 2025"
 ---

@@ -13,14 +13,8 @@ end_time: "5:30"
 page_title: "Advanced VEX IQ (Grades 4 - 5)"
 page_subtitle: "Building Robots, Solving Challenges!"
 featured: 190
-ribbon: "Starting Soon"
+ribbon: "Starts Sep 16"
 title: "Advanced VEX IQ (Grades 4 - 5) | Blue Ridge Boost"
 day_tags: ["Thursday"]
 grade_tags: ["4th","5th"]
-difficulty: "Bot Builders Elite"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Thursdays 4:00 - 5:30"
-- name: "Offering Period"
-  value: "September 16, 2025 to March 17, 2026"
 ---

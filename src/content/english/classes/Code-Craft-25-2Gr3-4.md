@@ -16,10 +16,4 @@ ribbon: "Join Now"
 title: "Code Craft: Minecraft Coding | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["3rd","4th"]
-difficulty: "Code Cadets"
-attributes:
-- name: "Class Meeting Schedule"
-  value: "Tuesdays 4:30 - 5:30"
-- name: "Offering Period"
-  value: "August 18, 2025 to May 24, 2026"
 ---

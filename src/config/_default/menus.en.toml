@@ -81,11 +81,11 @@
     weight      = 4
     parent     = "Events"
 
-[[main]]
-    name        = "Drop-In Robotics"
-    url         = "/drop-in-robotics/"
-    weight      = 5
-    parent     = "Events"
+# [[main]]
+#     name        = "Drop-In Robotics"
+#     url         = "/drop-in-robotics/"
+#     weight      = 5
+#     parent     = "Events"
 
 # [[main]]
 #     name       = "Girl Powered Fridays"
@@ -105,7 +105,7 @@
     weight     = 10
 
 [[main]]
-    name       = "For Your Group"
+    name       = "Groups"
     url        = "/group-classes/"
     weight     = 11
 
