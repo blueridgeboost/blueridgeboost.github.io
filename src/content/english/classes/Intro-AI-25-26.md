@@ -13,7 +13,7 @@ end_time: "3:00"
 page_title: "Introduction to AI for Middle Schoolers"
 page_subtitle: "Your Journey Into Artificial Intelligence Starts Here!"
 featured: 186
-ribbon: "Starting Soon"
+ribbon: "Join Now"
 title: "Introduction to AI for Middle Schoolers | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["5th","6th"]

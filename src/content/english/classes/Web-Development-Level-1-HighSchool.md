@@ -5,7 +5,7 @@ robots: "noindex, follow"
 layout: "single"
 subject_tags: ["Computer Coding"]
 price: 259.99
-weight: "56"
+weight: "55"
 start_date: "2025-09-06"
 end_date: "2026-05-18"
 start_time: "6:00"

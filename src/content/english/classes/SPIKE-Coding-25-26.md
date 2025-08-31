@@ -13,7 +13,7 @@ end_time: "7:00"
 page_title: "LEGO SPIKE Coding: Certification Course"
 page_subtitle: "Earn a Carnegie Mellon Robotics Academy Certification"
 featured: 173
-ribbon: "Starting Soon"
+ribbon: "Join Now"
 title: "LEGO SPIKE Coding: Certification Course | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: [ "6th","7th","8th"]

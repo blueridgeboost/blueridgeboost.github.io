@@ -13,7 +13,7 @@ end_time: "4:30"
 page_title: "Micro:bit Programming (Grades 1 and 2)"
 page_subtitle: "Where Young Minds Soar"
 featured: 209
-ribbon: "Starting Soon"
+ribbon: "Join Now"
 title: "Micro:bit Programming (Grades 1 and 2) | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["1st","2nd"]

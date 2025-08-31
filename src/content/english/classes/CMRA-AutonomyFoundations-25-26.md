@@ -12,7 +12,7 @@ end_time: "7:30"
 page_title: "Carnegie Mellon Robotics Academy: Autonomy Foundations"
 page_subtitle: "From Beginner to Roboticist in 10 Sessions!"
 featured: 192
-ribbon: "Starting Soon"
+ribbon: "Join Now"
 title: "Carnegie Mellon Robotics Academy: Autonomy Foundations | Blue Ridge Boost"
 day_tags: ["Thursday"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]

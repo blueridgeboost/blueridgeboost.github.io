@@ -13,7 +13,7 @@ end_time: "5:30"
 page_title: "Advanced VEX IQ (Grades 4 - 5)"
 page_subtitle: "Building Robots, Solving Challenges!"
 featured: 190
-ribbon: "Starting Soon"
+ribbon: "Starts Sep 16"
 title: "Advanced VEX IQ (Grades 4 - 5) | Blue Ridge Boost"
 day_tags: ["Thursday"]
 grade_tags: ["4th","5th"]

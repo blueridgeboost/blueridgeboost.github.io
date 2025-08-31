@@ -13,7 +13,7 @@ end_time: "7:30"
 page_title: "Introduction to Computer Science"
 page_subtitle: "Get started with Computer Science through Blue Ridge Boost and CodeHS!"
 featured: 181
-ribbon: "Starting Soon"
+ribbon: "Join Now"
 title: "Introduction to Computer Science | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["7th","8th","9th"]

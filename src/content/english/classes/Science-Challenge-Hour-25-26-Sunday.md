@@ -5,7 +5,7 @@ robots: "noindex, follow"
 layout: "single"
 subject_tags: ["Science"]
 price: 144.99
-weight: "70"
+weight: "69"
 start_date: "2025-08-24"
 end_date: "2025-12-07"
 start_time: "5:00"

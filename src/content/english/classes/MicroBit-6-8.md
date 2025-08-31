@@ -13,7 +13,7 @@ end_time: "7:00"
 page_title: "Micro:bit - Intro to Computer Science"
 page_subtitle: "Where Young Minds Soar"
 featured: 211
-ribbon: "Starting Soon"
+ribbon: "Join Now"
 title: "Micro:bit - Intro to Computer Science | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["6th","7th","8th"]

@@ -5,7 +5,7 @@ robots: "noindex, follow"
 layout: "single"
 subject_tags: ["Robotics","Computer Coding"]
 price: 169.99
-weight: "58"
+weight: "57"
 start_date: "2025-09-07"
 end_date: "2025-05-16"
 start_time: "11:00"

@@ -13,7 +13,7 @@ end_time: "5:30"
 page_title: "Python Code Builders"
 page_subtitle: "Learn Python with Code Monkey Challenges!"
 featured: 148
-ribbon: "Starting Soon"
+ribbon: "Join Now"
 title: "Python Code Builders | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["4th","5th"]

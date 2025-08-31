@@ -13,7 +13,7 @@ end_time: "3:00"
 page_title: "Aerial Drone Competition for Grades 3-5"
 page_subtitle: "Sky High Challenge: Piloting and Coding"
 featured: 201
-ribbon: "Starting Soon"
+ribbon: "Starts Sep 6"
 title: "Aerial Drone Competition for Grades 3-5 | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["3rd","4th","5th"]

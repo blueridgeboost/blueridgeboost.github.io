@@ -12,7 +12,7 @@ end_time: "6:30"
 page_title: "Command Craft: Minecraft Command Blocks"
 page_subtitle: "Learn logic and coding concepts with Command Blocks!"
 featured: 150
-ribbon: "New Session"
+ribbon: "Starting Soon"
 title: "Command Craft: Minecraft Command Blocks | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["4th","5th"]

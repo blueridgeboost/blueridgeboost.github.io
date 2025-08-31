@@ -13,7 +13,7 @@ end_time: "2:00"
 page_title: "Soar into STEM: Aerial Drone Class for Grades 5-7"
 page_subtitle: "Sky High Challenge: Piloting and Coding "
 featured: 202
-ribbon: "Starting Soon"
+ribbon: "Join Now"
 title: "Soar into STEM: Aerial Drone Class for Grades 5-7 | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["5th","6th","7th"]

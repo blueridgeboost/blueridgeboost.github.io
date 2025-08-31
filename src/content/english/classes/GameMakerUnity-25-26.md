@@ -13,7 +13,7 @@ end_time: "6:30"
 page_title: "Game Makers: Intro to Unity"
 page_subtitle: "Learn to make video games using Unity!"
 featured: 180
-ribbon: "Starting Soon"
+ribbon: "Join Now"
 title: "Game Makers: Intro to Unity | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["7th","8th"]

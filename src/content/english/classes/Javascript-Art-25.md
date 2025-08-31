@@ -13,7 +13,7 @@ end_time: "6:30"
 page_title: "Create & Code: Digital Art with JavaScript"
 page_subtitle: "Digital Art Course"
 featured: 149
-ribbon: "On-Demand"
+ribbon: "Join Now"
 title: "Create & Code: Digital Art with JavaScript | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["5th", "6th"]

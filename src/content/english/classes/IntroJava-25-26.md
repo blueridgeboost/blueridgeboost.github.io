@@ -13,7 +13,7 @@ end_time: "7:30"
 page_title: "Intro to Programming in Java"
 page_subtitle: "From Beginner to Programmer: Java Made Easy!"
 featured: 188
-ribbon: "Starting Soon"
+ribbon: "Join Now"
 title: "Intro to Programming in Java | Blue Ridge Boost"
 day_tags: ["Thursday"]
 grade_tags: ["7th","8th","9th","10th"]

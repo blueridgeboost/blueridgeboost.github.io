@@ -5,7 +5,7 @@ robots: "noindex, follow"
 layout: "single"
 subject_tags: ["Robotics"]
 price: 159.99
-weight: "71"
+weight: "70"
 start_date: "2025-08-18"
 end_date: "2026-05-24"
 start_time: "5:00"
