@@ -3,6 +3,7 @@ ecwid: 767154072
 product_id: Roblox-Lua-6-7
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["Join Now"]
 subject_tags: ["Game Development"]
 price: 149.99
 weight: "25"

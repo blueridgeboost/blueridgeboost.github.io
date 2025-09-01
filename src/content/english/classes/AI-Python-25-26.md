@@ -3,6 +3,7 @@ ecwid: 767683633
 product_id: AI-Python-25-26
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["Starting Soon"]
 subject_tags: ["AI"]
 price: 179.99
 weight: "31"

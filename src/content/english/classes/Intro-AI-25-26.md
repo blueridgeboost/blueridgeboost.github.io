@@ -3,6 +3,7 @@ ecwid: 767750671
 product_id: Intro-AI-25-26
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["Starting Soon"]
 subject_tags: ["AI"]
 price: 149.99
 weight: "49"

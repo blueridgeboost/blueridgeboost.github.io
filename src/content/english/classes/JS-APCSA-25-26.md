@@ -3,6 +3,7 @@ ecwid: 753552972
 product_id: JS-APCSA-25-26
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: []
 subject_tags: ["Computer Coding"]
 price: 199.99
 weight: "15"

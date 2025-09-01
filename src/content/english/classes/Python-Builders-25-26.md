@@ -3,6 +3,7 @@ ecwid: 766087910
 product_id: Python-Builders-25-26
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["Starting Soon"]
 subject_tags: ["Computer Coding"]
 price: 199.99
 weight: "5"

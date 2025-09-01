@@ -3,6 +3,7 @@ ecwid: 770348872
 product_id: Science-Challenge-Hour-25-26-Sunday
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["Starting Soon"]
 subject_tags: ["Science"]
 price: 144.99
 weight: "69"

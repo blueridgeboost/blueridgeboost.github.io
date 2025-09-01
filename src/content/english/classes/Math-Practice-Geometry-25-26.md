@@ -3,6 +3,7 @@ ecwid: 769796571
 product_id: Math-Practice-Geometry-25-26
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["Join Now"]
 subject_tags: ["Math"]
 price: 179.99
 weight: "13"

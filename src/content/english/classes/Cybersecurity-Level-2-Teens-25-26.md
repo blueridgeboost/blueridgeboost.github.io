@@ -3,6 +3,7 @@ ecwid: 771298014
 product_id: Cybersecurity-Level-2-Teens-25-26
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["On-Demand"]
 subject_tags: ["Computer Coding"]
 price: 259.99
 weight: "62"

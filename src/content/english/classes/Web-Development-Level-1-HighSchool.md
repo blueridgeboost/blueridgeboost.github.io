@@ -3,6 +3,7 @@ ecwid: 771298009
 product_id: Web-Development-Level-1-HighSchool
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["On-Demand"]
 subject_tags: ["Computer Coding"]
 price: 259.99
 weight: "55"

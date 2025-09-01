@@ -3,6 +3,7 @@ ecwid: 778287221
 product_id: Battle-Bots-25-26-Gr3-4
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 159.99
 weight: "66"

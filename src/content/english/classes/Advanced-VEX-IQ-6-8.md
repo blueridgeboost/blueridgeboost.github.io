@@ -3,6 +3,7 @@ ecwid: 769260824
 product_id: Advanced-VEX-IQ-6-8
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 325
 weight: "40"

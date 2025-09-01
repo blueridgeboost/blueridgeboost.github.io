@@ -3,6 +3,7 @@ ecwid: 771060848
 product_id: Future-Innovators-5-6
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics","Computer Coding"]
 price: 169.99
 weight: "67"

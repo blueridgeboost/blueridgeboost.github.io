@@ -3,6 +3,7 @@ ecwid: 767683704
 product_id: Intro-FLL-25-26
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 149.99
 weight: "20"

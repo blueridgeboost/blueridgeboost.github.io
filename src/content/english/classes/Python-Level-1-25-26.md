@@ -3,6 +3,7 @@ ecwid: 770317241
 product_id: Python-Level-1-25-26
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["Starting Soon"]
 subject_tags: []
 price: 179
 weight: "43"

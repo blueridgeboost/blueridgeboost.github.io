@@ -3,6 +3,7 @@ ecwid: 767742299
 product_id: GameMakerUnity-25-26
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["On-Demand"]
 subject_tags: ["Game Development"]
 price: 249.99
 weight: "34"

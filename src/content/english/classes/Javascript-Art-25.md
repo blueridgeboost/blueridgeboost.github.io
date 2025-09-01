@@ -3,6 +3,7 @@ ecwid: 766777404
 product_id: Javascript-Art-25
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["On-Demand"]
 subject_tags: ["Computer Coding"]
 price: 249.99
 weight: "9"

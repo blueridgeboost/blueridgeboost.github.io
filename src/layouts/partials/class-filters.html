@@ -1,4 +1,5 @@
 {{ $selected_subject := .Params.selected_subject }}
+{{ $selected_schedule := .Params.selected_schedule }}
 
 <div class="filter-range" style="width: 95%;">
     <em>Filter Classes:</em>
@@ -31,6 +32,22 @@
                 class="subject-filter" 
                 value="{{ $tag }}" 
                 {{ if eq $selected_subject $tag }} 
+                    checked
+                {{ end }}
+                onchange="filterClasses()"> {{ $tag }}
+            </span>
+        </label>
+        {{ end }}
+    </p>
+    <p>
+        <b>Schedule Type:&nbsp;&nbsp;</b>
+        {{ range $tag := (slice "Starting Soon" "On-Demand" "Join Now" ) }}
+        <label>
+            <span class="filter-box">
+                <input type="checkbox" 
+                class="schedule-filter" 
+                value="{{ $tag }}" 
+                {{ if eq $selected_schedule $tag }} 
                     checked
                 {{ end }}
                 onchange="filterClasses()"> {{ $tag }}

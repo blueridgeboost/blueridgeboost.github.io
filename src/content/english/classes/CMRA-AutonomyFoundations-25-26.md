@@ -3,6 +3,7 @@ ecwid: 767793013
 product_id: CMRA-AutonomyFoundations-25-26
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 399.99
 weight: "41"

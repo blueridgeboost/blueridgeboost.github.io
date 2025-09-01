@@ -3,6 +3,7 @@ ecwid: 755511520
 product_id: APCSA-In-Person
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["Starting Soon"]
 subject_tags: ["Computer Coding"]
 price: 199.99
 weight: "58"

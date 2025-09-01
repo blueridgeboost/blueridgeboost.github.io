@@ -3,6 +3,7 @@ ecwid: 766789657
 product_id: Command-Blocks-25-26
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["Starting Soon"]
 subject_tags: ["Game Development"]
 price: 229.99
 weight: "8"
