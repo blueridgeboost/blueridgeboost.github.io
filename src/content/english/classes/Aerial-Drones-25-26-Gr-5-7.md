@@ -4,7 +4,7 @@ product_id: Aerial-Drones-25-26-Gr-5-7
 robots: "noindex, follow"
 layout: "single"
 subject_tags: ["Robotics"]
-price: 179.99
+price: 159.99
 weight: "48"
 start_date: "2025-09-06"
 end_date: "2025-12-18"
@@ -13,7 +13,7 @@ end_time: "2:00"
 page_title: "Soar into STEM: Aerial Drone Class for Grades 5-7"
 page_subtitle: "Sky High Challenge: Piloting and Coding "
 featured: 202
-ribbon: "Join Now"
+ribbon: "Starts Sep 6"
 title: "Soar into STEM: Aerial Drone Class for Grades 5-7 | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["5th","6th","7th"]

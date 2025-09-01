@@ -12,8 +12,7 @@ end_time: "7:00"
 page_title: "Algebra 1 Homework Help"
 page_subtitle: "Math Support"
 featured: 162
-ribbon: "Join Now"
+ribbon: "On Demand"
 title: "Algebra 1 Homework Help | Blue Ridge Boost"
-day_tags: ["Tuesday", "Thursday"]
 grade_tags: ["7th","8th"]
 ---

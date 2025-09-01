@@ -13,7 +13,7 @@ end_time: "5:00"
 page_title: "VEX Battle Bots - Third and Fourth Grade"
 page_subtitle: "Design. Build. Code. BATTLE!"
 featured: 155
-ribbon: "Starting Soon"
+ribbon: "Starts Sep 7"
 title: "VEX Battle Bots - Third and Fourth Grade | Blue Ridge Boost"
 day_tags: ["Sunday"]
 grade_tags: ["3rd","4th"]

@@ -7,12 +7,10 @@ subject_tags: ["Math"]
 price: 139.99
 weight: "0"
 end_date: "2026-05-24"
-start_time: "3:45"
-end_time: "4:30"
 page_title: "Advanced Math Enrichment 1st Grade"
 page_subtitle: "Exploring the Beauty of Mathematics"
 featured: 164
-ribbon: "Join Now"
+ribbon: "On Demand"
 title: "Advanced Math Enrichment 1st Grade | Blue Ridge Boost"
 day_tags: ["Monday", "Wednesday"]
 grade_tags: ["1st"]
