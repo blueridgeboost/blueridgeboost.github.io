@@ -3,6 +3,7 @@ ecwid: 770373665
 product_id: Algebra2-Mastery-25-26
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: []
 subject_tags: ["Math"]
 price: 299.99
 weight: "68"

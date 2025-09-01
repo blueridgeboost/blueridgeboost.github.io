@@ -3,6 +3,7 @@ ecwid: 767683684
 product_id: SPIKE-Coding-25-26
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["On-Demand"]
 subject_tags: ["Robotics"]
 price: 199.99
 weight: "26"

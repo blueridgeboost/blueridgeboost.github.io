@@ -3,6 +3,7 @@ ecwid: 767782567
 product_id: FLL-Challenge-25-26-Gr4-5
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 325
 weight: "3"

@@ -3,6 +3,7 @@ ecwid: 770313511
 product_id: Code-Craft-25-2Gr3-4
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["Join Now"]
 subject_tags: ["Game Development"]
 price: 159.99
 weight: "19"

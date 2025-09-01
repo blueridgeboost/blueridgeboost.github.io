@@ -3,19 +3,21 @@ function filterClasses() {
     const dayFilters = Array.from(document.querySelectorAll('.day-filter:checked')).map(cb => cb.value.toLowerCase());
     const gradeFilters = Array.from(document.querySelectorAll('.grade-filter:checked')).map(cb => cb.value.toLowerCase());
     const subjectFilters = Array.from(document.querySelectorAll('.subject-filter:checked')).map(cb => cb.value.toLowerCase());
-    const openFilters = Array.from(document.querySelectorAll('.open-filter:checked')).map(cb => cb.value.toLowerCase());
+    const scheduleFilters = Array.from(document.querySelectorAll('.schedule-filter:checked')).map(cb => cb.value.toLowerCase());
 
     const classes = document.querySelectorAll('div[id^="class-"]');
     for (let i = 0; i < classes.length; i++) {
         const dayTags = classes[i].getAttribute('data-day').toLowerCase().split('#');
         const gradeTags = classes[i].getAttribute('data-grade').toLowerCase().split('#');
         const subjectTags = classes[i].getAttribute('data-subject').toLowerCase().split('#');
+        const scheduleTags = classes[i].getAttribute('data-schedule').toLowerCase().split('#');
 
         const dayMatch = dayFilters.length === 0 || dayFilters.some(tag => dayTags.includes(tag));
         const gradeMatch = gradeFilters.length === 0 || gradeFilters.some(tag => gradeTags.includes(tag));
         const subjectMatch = subjectFilters.length === 0 || subjectFilters.some(tag => subjectTags.includes(tag));
+        const scheduleMatch = scheduleFilters.length === 0 || scheduleFilters.some(tag => scheduleTags.includes(tag));
 
-        if (dayMatch && gradeMatch && subjectMatch) {
+        if (dayMatch && gradeMatch && subjectMatch && scheduleMatch) {
             classes[i].style.display = '';
         } else {
             classes[i].style.display = 'NONE';

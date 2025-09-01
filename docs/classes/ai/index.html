@@ -3677,8 +3677,8 @@
 
 <script
   crossorigin="anonymous"
-  integrity="sha256-2eGciTazygKW&#43;trFEQolTmgQdo317mnKYuVtDw99PJc="
-  src="/js/scripts.min.d9e19c8936b3ca0296fadac5110a254e6810768df5ee69ca62e56d0f0f7d3c97.js"></script>
+  integrity="sha256-Tpi5aYRxwTmKyg0jiysIAbs6kAHXeE5TQHT/zHJ/5q4="
+  src="/js/scripts.min.4e98b9698471c1398aca0d238b2b0801bb3a9001d7784e534074ffcc727fe6ae.js"></script>
 
 
 
@@ -4250,6 +4250,7 @@ twq('config','pam08');
     
     
 
+
 <div class="filter-range" style="width: 95%;">
     <em>Filter Classes:</em>
     <p>
@@ -4440,6 +4441,40 @@ twq('config','pam08');
         </label>
         
     </p>
+    <p>
+        <b>Schedule Type:&nbsp;&nbsp;</b>
+        
+        <label>
+            <span class="filter-box">
+                <input type="checkbox" 
+                class="schedule-filter" 
+                value="Starting Soon" 
+                
+                onchange="filterClasses()"> Starting Soon
+            </span>
+        </label>
+        
+        <label>
+            <span class="filter-box">
+                <input type="checkbox" 
+                class="schedule-filter" 
+                value="On-Demand" 
+                
+                onchange="filterClasses()"> On-Demand
+            </span>
+        </label>
+        
+        <label>
+            <span class="filter-box">
+                <input type="checkbox" 
+                class="schedule-filter" 
+                value="Join Now" 
+                
+                onchange="filterClasses()"> Join Now
+            </span>
+        </label>
+        
+    </p>
 </div>
     
     <div class="container" >
@@ -4457,6 +4492,7 @@ id = "class-769854774"
 
   data-day='Monday#Wednesday'
 
+data-schedule='On-Demand' 
 data-grade='1st' 
 data-subject='Math'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -4484,8 +4520,6 @@ class="ecsp-media"
         
             
             
-        
-        
         
         
             
@@ -4576,6 +4610,7 @@ id = "class-769796741"
 
   data-day='Monday#Wednesday'
 
+data-schedule='On-Demand' 
 data-grade='2nd' 
 data-subject='Math'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -4605,8 +4640,6 @@ class="ecsp-media"
             
         
         
-        
-        
             
                 Grades:
                 2nd
@@ -4616,7 +4649,7 @@ class="ecsp-media"
         
         
         <div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
-            <div class="ecsp-productBrowser-price ecsp-price" itemprop="price" content="139.99" 
+            <div class="ecsp-productBrowser-price ecsp-price" itemprop="price" content="159.99" 
                 data-spw-price-location="button">
                 <div itemprop="priceCurrency" content="USD"></div>
             </div>
@@ -4671,6 +4704,7 @@ id = "class-766843587"
 
   data-day='Monday'
 
+data-schedule='Starting Soon' 
 data-grade='1st#2nd' 
 data-subject='Robotics'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -4697,8 +4731,6 @@ class="ecsp-media"
         
         
             3:45 &ndash; 4:30<br>
-        
-        
         
         
             
@@ -4767,6 +4799,7 @@ id = "class-767782567"
 
   data-day='Monday'
 
+data-schedule='Starting Soon' 
 data-grade='4th#5th' 
 data-subject='Robotics'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -4793,8 +4826,6 @@ class="ecsp-media"
         
         
             4:30 &ndash; 6:00<br>
-        
-        
         
         
             
@@ -4863,6 +4894,7 @@ id = "class-766835284"
 
   data-day='Monday'
 
+data-schedule='Starting Soon' 
 data-grade='2nd#3rd#4th' 
 data-subject='Game Development'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -4889,8 +4921,6 @@ class="ecsp-media"
         
         
             4:30 &ndash; 5:30<br>
-        
-        
         
         
             
@@ -4959,6 +4989,7 @@ id = "class-766087910"
 
   data-day='[]'
 
+data-schedule='Starting Soon' 
 data-grade='4th#5th' 
 data-subject='Computer Coding'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -4982,8 +5013,6 @@ class="ecsp-media"
         
             
             
-        
-        
         
         
             
@@ -5052,6 +5081,7 @@ id = "class-767683655"
 
   data-day='Monday#Wednesday'
 
+data-schedule='Join Now' 
 data-grade='3rd' 
 data-subject='Math'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -5078,8 +5108,6 @@ class="ecsp-media"
         
         
             5:00 &ndash; 6:00<br>
-        
-        
         
         
             
@@ -5146,6 +5174,7 @@ id = "class-767683652"
 
   data-day='Monday#Wednesday'
 
+data-schedule='Join Now' 
 data-grade='4th' 
 data-subject='Math'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -5172,8 +5201,6 @@ class="ecsp-media"
         
         
             5:00 &ndash; 6:00<br>
-        
-        
         
         
             
@@ -5240,6 +5267,7 @@ id = "class-766789657"
 
   data-day='Monday'
 
+data-schedule='Starting Soon' 
 data-grade='4th#5th' 
 data-subject='Game Development'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -5266,8 +5294,6 @@ class="ecsp-media"
         
         
             5:30 &ndash; 6:30<br>
-        
-        
         
         
             
@@ -5336,6 +5362,7 @@ id = "class-766777404"
 
   data-day='[]'
 
+data-schedule='On-Demand' 
 data-grade='5th#6th#7th#8th' 
 data-subject='Computer Coding'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -5359,8 +5386,6 @@ class="ecsp-media"
         
             
             
-        
-        
         
         
             
@@ -5429,6 +5454,7 @@ id = "class-768244858"
 
   data-day='Monday'
 
+data-schedule='Starting Soon' 
 data-grade='6th#7th#8th' 
 data-subject='Robotics'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -5455,8 +5481,6 @@ class="ecsp-media"
         
         
             6:00 &ndash; 7:30<br>
-        
-        
         
         
             
@@ -5525,6 +5549,7 @@ id = "class-766842181"
 
   data-day='Monday'
 
+data-schedule='Join Now' 
 data-grade='7th#8th#9th#10th#11th#12th' 
 data-subject='Game Development'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -5551,8 +5576,6 @@ class="ecsp-media"
         
         
             6:00 &ndash; 7:30<br>
-        
-        
         
         
             
@@ -5621,6 +5644,7 @@ id = "class-769721623"
 
   data-day='[]'
 
+data-schedule='On-Demand' 
 data-grade='6th' 
 data-subject='Math'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -5642,9 +5666,8 @@ class="ecsp-media"
             Pick a day and time<br>
         
         
-            6:00 &ndash; 7:00<br>
-        
-        
+            
+            
         
         
             
@@ -5711,6 +5734,7 @@ id = "class-769796571"
 
   data-day='Monday#Wednesday'
 
+data-schedule='Join Now' 
 data-grade='8th#9th' 
 data-subject='Math'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -5737,8 +5761,6 @@ class="ecsp-media"
         
         
             6:00 &ndash; 7:00<br>
-        
-        
         
         
             
@@ -5807,6 +5829,7 @@ id = "class-769259348"
 
   data-day='Monday'
 
+data-schedule='Join Now' 
 data-grade='7th#8th#9th#10th#11th#12th' 
 data-subject='Robotics'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -5833,8 +5856,6 @@ class="ecsp-media"
         
         
             6:00 &ndash; 7:30<br>
-        
-        
         
         
             
@@ -5903,6 +5924,7 @@ id = "class-753552972"
 
   data-day='Monday#Wednesday'
 
+data-schedule='' 
 data-grade='8th#9th#10th#11th#12th' 
 data-subject='Computer Coding'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -5929,8 +5951,6 @@ class="ecsp-media"
         
         
             6:15 &ndash; 7:00<br>
-        
-        
         
         
             
@@ -5999,6 +6019,7 @@ id = "class-769796743"
 
   data-day='Tuesday#Thursday'
 
+data-schedule='Join Now' 
 data-grade='3rd' 
 data-subject='Math'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -6025,8 +6046,6 @@ class="ecsp-media"
         
         
             3:45 &ndash; 4:30<br>
-        
-        
         
         
             
@@ -6093,6 +6112,7 @@ id = "class-769796745"
 
   data-day='Tuesday#Thursday'
 
+data-schedule='Join Now' 
 data-grade='4th' 
 data-subject='Math'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -6119,8 +6139,6 @@ class="ecsp-media"
         
         
             3:45 &ndash; 4:30<br>
-        
-        
         
         
             
@@ -6187,6 +6205,7 @@ id = "class-770296997"
 
   data-day='Tuesday'
 
+data-schedule='Join Now' 
 data-grade='1st#2nd' 
 data-subject='Game Development'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -6213,8 +6232,6 @@ class="ecsp-media"
         
         
             3:45 &ndash; 4:30<br>
-        
-        
         
         
             
@@ -6283,6 +6300,7 @@ id = "class-770313511"
 
   data-day='Tuesday'
 
+data-schedule='Join Now' 
 data-grade='3rd#4th' 
 data-subject='Game Development'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -6309,8 +6327,6 @@ class="ecsp-media"
         
         
             4:30 &ndash; 5:30<br>
-        
-        
         
         
             
@@ -6379,6 +6395,7 @@ id = "class-767683704"
 
   data-day='Tuesday'
 
+data-schedule='Starting Soon' 
 data-grade='3rd#4th#5th' 
 data-subject='Robotics'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -6405,8 +6422,6 @@ class="ecsp-media"
         
         
             4:30 &ndash; 5:30<br>
-        
-        
         
         
             
@@ -6475,6 +6490,7 @@ id = "class-767683654"
 
   data-day='[]'
 
+data-schedule='Starting Soon' 
 data-grade='5th' 
 data-subject='Math'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -6498,8 +6514,6 @@ class="ecsp-media"
         
             
             
-        
-        
         
         
             
@@ -6566,6 +6580,7 @@ id = "class-767680409"
 
   data-day='Tuesday#Thursday'
 
+data-schedule='Starting Soon' 
 data-grade='6th' 
 data-subject='Math'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -6592,8 +6607,6 @@ class="ecsp-media"
         
         
             5:00 &ndash; 6:00<br>
-        
-        
         
         
             
@@ -6660,6 +6673,7 @@ id = "class-770348863"
 
   data-day='Tuesday'
 
+data-schedule='Starting Soon' 
 data-grade='3rd#4th#5th' 
 data-subject='Science'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -6686,8 +6700,6 @@ class="ecsp-media"
         
         
             4:30 &ndash; 5:30<br>
-        
-        
         
         
             
@@ -6756,6 +6768,7 @@ id = "class-767680490"
 
   data-day='Tuesday'
 
+data-schedule='Starting Soon' 
 data-grade='5th#6th' 
 data-subject='Game Development'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -6782,8 +6795,6 @@ class="ecsp-media"
         
         
             5:30 &ndash; 6:30<br>
-        
-        
         
         
             
@@ -6852,6 +6863,7 @@ id = "class-767154072"
 
   data-day='Tuesday'
 
+data-schedule='Join Now' 
 data-grade='6th#7th' 
 data-subject='Game Development'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -6878,8 +6890,6 @@ class="ecsp-media"
         
         
             5:30 &ndash; 6:30<br>
-        
-        
         
         
             
@@ -6948,6 +6958,7 @@ id = "class-767683684"
 
   data-day='Tuesday'
 
+data-schedule='On-Demand' 
 data-grade='6th#7th#8th' 
 data-subject='Robotics'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -6974,8 +6985,6 @@ class="ecsp-media"
         
         
             5:30 &ndash; 7:00<br>
-        
-        
         
         
             
@@ -7044,6 +7053,7 @@ id = "class-769796575"
 
   data-day='[]'
 
+data-schedule='Starting Soon' 
 data-grade='7th#8th' 
 data-subject='Math'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -7066,8 +7076,6 @@ class="ecsp-media"
         
         
             6:00 &ndash; 7:00<br>
-        
-        
         
         
             
@@ -7136,13 +7144,14 @@ id = "class-769776736"
 
   data-day='Tuesday#Thursday'
 
+data-schedule='Starting Soon' 
 data-grade='8th#9th#10th' 
 data-subject='Math'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
 class="ecsp-media"
 >
     
-        <span class="ecsp-ribbon">On Demand</span> 
+        <span class="ecsp-ribbon">Join Now</span> 
     
     <div class="ecsp ecsp-SingleProduct-v2 ecsp-SingleProduct-v2-bordered ecsp-SingleProduct-v2-centered 
     ecsp-Product ec-Product-769776736" itemscope itemtype="http://schema.org/Product" data-single-product-id="769776736">
@@ -7162,8 +7171,6 @@ class="ecsp-media"
         
         
             6:00 &ndash; 7:00<br>
-        
-        
         
         
             
@@ -7232,6 +7239,7 @@ id = "class-767793057"
 
   data-day='Tuesday'
 
+data-schedule='Starting Soon' 
 data-grade='7th#8th#9th#10th#11th#12th' 
 data-subject='Robotics'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -7258,8 +7266,6 @@ class="ecsp-media"
         
         
             6:00 &ndash; 7:30<br>
-        
-        
         
         
             
@@ -7328,6 +7334,7 @@ id = "class-743641082"
 
   data-day='Tuesday#Thursday'
 
+data-schedule='Starting Soon' 
 data-grade='8th#9th#10th#11th#12th' 
 data-subject='Computer Coding'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -7354,8 +7361,6 @@ class="ecsp-media"
         
         
             6:15 &ndash; 7:00<br>
-        
-        
         
         
             
@@ -7424,6 +7429,7 @@ id = "class-767683633"
 
   data-day='Tuesday'
 
+data-schedule='Starting Soon' 
 data-grade='7th#8th' 
 data-subject='AI'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -7450,8 +7456,6 @@ class="ecsp-media"
         
         
             6:30 &ndash; 7:30<br>
-        
-        
         
         
             
@@ -7520,6 +7524,7 @@ id = "class-770957433"
 
   data-day='Wednesday'
 
+data-schedule='Starting Soon' 
 data-grade='1st#2nd' 
 data-subject='Robotics'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -7546,8 +7551,6 @@ class="ecsp-media"
         
         
             3:45 &ndash; 4:30<br>
-        
-        
         
         
             
@@ -7616,6 +7619,7 @@ id = "class-770960898"
 
   data-day='Wednesday'
 
+data-schedule='Starting Soon' 
 data-grade='3rd#4th#5th' 
 data-subject='Robotics'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -7642,8 +7646,6 @@ class="ecsp-media"
         
         
             4:30 &ndash; 5:30<br>
-        
-        
         
         
             
@@ -7712,6 +7714,7 @@ id = "class-767742299"
 
   data-day='Wednesday'
 
+data-schedule='On-Demand' 
 data-grade='7th#8th' 
 data-subject='Game Development'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -7738,8 +7741,6 @@ class="ecsp-media"
         
         
             5:00 &ndash; 6:30<br>
-        
-        
         
         
             
@@ -7808,6 +7809,7 @@ id = "class-767686686"
 
   data-day='Wednesday'
 
+data-schedule='Starting Soon' 
 data-grade='3rd#4th#5th' 
 data-subject='Game Development'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -7834,8 +7836,6 @@ class="ecsp-media"
         
         
             5:00 &ndash; 6:00<br>
-        
-        
         
         
             
@@ -7904,6 +7904,7 @@ id = "class-770949426"
 
   data-day='Wednesday'
 
+data-schedule='Starting Soon' 
 data-grade='6th#7th#8th' 
 data-subject='Robotics'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -7930,8 +7931,6 @@ class="ecsp-media"
         
         
             5:30 &ndash; 7:00<br>
-        
-        
         
         
             
@@ -8000,6 +7999,7 @@ id = "class-767782850"
 
   data-day='Wednesday'
 
+data-schedule='Starting Soon' 
 data-grade='7th#8th#9th#10th#11th#12th' 
 data-subject='Robotics#Computer Coding'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -8026,8 +8026,6 @@ class="ecsp-media"
         
         
             6:00 &ndash; 7:30<br>
-        
-        
         
         
             
@@ -8096,7 +8094,8 @@ id = "class-767741104"
 
   data-day='Wednesday'
 
-data-grade='7th#8th#9th' 
+data-schedule='Starting Soon' 
+data-grade='7th#8th' 
 data-subject='Computer Coding'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
 class="ecsp-media"
@@ -8124,13 +8123,11 @@ class="ecsp-media"
             6:00 &ndash; 7:30<br>
         
         
-        
-        
             
                 Grades:
                 7th
                 
-                    to 9th
+                    to 8th
                 
                 <br>
             
@@ -8192,6 +8189,7 @@ id = "class-768907151"
 
   data-day='Thursday'
 
+data-schedule='Starting Soon' 
 data-grade='4th#5th' 
 data-subject='Robotics'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -8218,8 +8216,6 @@ class="ecsp-media"
         
         
             4:00 &ndash; 5:30<br>
-        
-        
         
         
             
@@ -8288,6 +8284,7 @@ id = "class-769260824"
 
   data-day='Thursday'
 
+data-schedule='Starting Soon' 
 data-grade='6th#7th#8th' 
 data-subject='Robotics'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -8314,8 +8311,6 @@ class="ecsp-media"
         
         
             5:30 &ndash; 7:00<br>
-        
-        
         
         
             
@@ -8384,6 +8379,7 @@ id = "class-767793013"
 
   data-day='Thursday'
 
+data-schedule='Starting Soon' 
 data-grade='7th#8th#9th#10th#11th#12th' 
 data-subject='Robotics'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -8410,8 +8406,6 @@ class="ecsp-media"
         
         
             6:00 &ndash; 7:30<br>
-        
-        
         
         
             
@@ -8480,13 +8474,14 @@ id = "class-767750714"
 
   data-day='Thursday'
 
-data-grade='7th#8th#9th#10th' 
+data-schedule='Starting Soon' 
+data-grade='9th#10th#11th#12th' 
 data-subject='Computer Coding'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
 class="ecsp-media"
 >
     
-        <span class="ecsp-ribbon">Join Now</span> 
+        <span class="ecsp-ribbon">Starts Sep 11</span> 
     
     <div class="ecsp ecsp-SingleProduct-v2 ecsp-SingleProduct-v2-bordered ecsp-SingleProduct-v2-centered 
     ecsp-Product ec-Product-767750714" itemscope itemtype="http://schema.org/Product" data-single-product-id="767750714">
@@ -8508,13 +8503,11 @@ class="ecsp-media"
             6:30 &ndash; 7:30<br>
         
         
-        
-        
             
                 Grades:
-                7th
+                9th
                 
-                    to 10th
+                    to 12th
                 
                 <br>
             
@@ -8576,6 +8569,7 @@ id = "class-770317241"
 
   data-day='Saturday'
 
+data-schedule='Starting Soon' 
 data-grade='8th#9th#10th' 
 data-subject=''
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -8602,8 +8596,6 @@ class="ecsp-media"
         
         
             12:00 &ndash; 1:00<br>
-        
-        
         
         
             
@@ -8672,6 +8664,7 @@ id = "class-770334989"
 
   data-day='[]'
 
+data-schedule='On-Demand' 
 data-grade='8th#9th#10th' 
 data-subject='Math'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -8695,8 +8688,6 @@ class="ecsp-media"
         
             
             
-        
-        
         
         
             
@@ -8765,6 +8756,7 @@ id = "class-770334947"
 
   data-day='Saturday'
 
+data-schedule='Starting Soon' 
 data-grade='3rd#4th' 
 data-subject='Robotics'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -8791,8 +8783,6 @@ class="ecsp-media"
         
         
             12:00 &ndash; 1:00<br>
-        
-        
         
         
             
@@ -8859,15 +8849,16 @@ class="ecsp-media"
 <div
 id = "class-770348898"
 
-  data-day='Saturday'
+  data-day='[]'
 
-data-grade='7th#8th#9th#10th' 
+data-schedule='On-Demand' 
+data-grade='7th#8th#9th#10th#11th#12th' 
 data-subject='Computer Coding'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
 class="ecsp-media"
 >
     
-        <span class="ecsp-ribbon">Join Now</span> 
+        <span class="ecsp-ribbon">On Demand</span> 
     
     <div class="ecsp ecsp-SingleProduct-v2 ecsp-SingleProduct-v2-bordered ecsp-SingleProduct-v2-centered 
     ecsp-Product ec-Product-770348898" itemscope itemtype="http://schema.org/Product" data-single-product-id="770348898">
@@ -8879,30 +8870,25 @@ class="ecsp-media"
         
         
         
+            Pick a day and time<br>
+        
+        
             
-                
-                     Saturdays  
-                
-             
-        
-        
-            1:00 &ndash; 2:30<br>
-        
-        
+            
         
         
             
                 Grades:
                 7th
                 
-                    to 10th
+                    to 12th
                 
                 <br>
             
         
         
         <div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
-            <div class="ecsp-productBrowser-price ecsp-price" itemprop="price" content="199.99" 
+            <div class="ecsp-productBrowser-price ecsp-price" itemprop="price" content="239.99" 
                 data-spw-price-location="button">
                 <div itemprop="priceCurrency" content="USD"></div>
             </div>
@@ -8957,6 +8943,7 @@ id = "class-713296284"
 
   data-day='Saturday'
 
+data-schedule='Starting Soon' 
 data-grade='1st#2nd' 
 data-subject='Computer Coding'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -8983,8 +8970,6 @@ class="ecsp-media"
         
         
             1:00 &ndash; 2:00<br>
-        
-        
         
         
             
@@ -9053,6 +9038,7 @@ id = "class-770348971"
 
   data-day='Saturday'
 
+data-schedule='Starting Soon' 
 data-grade='5th#6th#7th' 
 data-subject='Robotics'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -9079,8 +9065,6 @@ class="ecsp-media"
         
         
             1:00 &ndash; 2:00<br>
-        
-        
         
         
             
@@ -9149,6 +9133,7 @@ id = "class-767750671"
 
   data-day='Saturday'
 
+data-schedule='Starting Soon' 
 data-grade='5th#6th' 
 data-subject='AI'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -9175,8 +9160,6 @@ class="ecsp-media"
         
         
             2:00 &ndash; 3:00<br>
-        
-        
         
         
             
@@ -9245,6 +9228,7 @@ id = "class-770373627"
 
   data-day='Saturday'
 
+data-schedule='Starting Soon' 
 data-grade='3rd#4th#5th' 
 data-subject='Robotics'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -9273,8 +9257,6 @@ class="ecsp-media"
             2:00 &ndash; 3:00<br>
         
         
-        
-        
             
                 Grades:
                 3rd
@@ -9286,7 +9268,7 @@ class="ecsp-media"
         
         
         <div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
-            <div class="ecsp-productBrowser-price ecsp-price" itemprop="price" content="199.99" 
+            <div class="ecsp-productBrowser-price ecsp-price" itemprop="price" content="239.99" 
                 data-spw-price-location="button">
                 <div itemprop="priceCurrency" content="USD"></div>
             </div>
@@ -9341,6 +9323,7 @@ id = "class-767741187"
 
   data-day='Saturday'
 
+data-schedule='Starting Soon' 
 data-grade='7th#8th#9th' 
 data-subject=''
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -9367,8 +9350,6 @@ class="ecsp-media"
         
         
             2:30 &ndash; 3:30<br>
-        
-        
         
         
             
@@ -9437,6 +9418,7 @@ id = "class-770334898"
 
   data-day='Saturday'
 
+data-schedule='On-Demand' 
 data-grade='3rd#4th' 
 data-subject='Computer Coding'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -9461,8 +9443,6 @@ class="ecsp-media"
         
         
             12:00 &ndash; 1:00<br>
-        
-        
         
         
             
@@ -9531,6 +9511,7 @@ id = "class-770334954"
 
   data-day='Saturday'
 
+data-schedule='Starting Soon' 
 data-grade='6th#7th#8th' 
 data-subject='Robotics'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -9559,8 +9540,6 @@ class="ecsp-media"
             3:00 &ndash; 4:30<br>
         
         
-        
-        
             
                 Grades:
                 6th
@@ -9572,7 +9551,7 @@ class="ecsp-media"
         
         
         <div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
-            <div class="ecsp-productBrowser-price ecsp-price" itemprop="price" content="199.99" 
+            <div class="ecsp-productBrowser-price ecsp-price" itemprop="price" content="239.99" 
                 data-spw-price-location="button">
                 <div itemprop="priceCurrency" content="USD"></div>
             </div>
@@ -9627,6 +9606,7 @@ id = "class-771298260"
 
   data-day='Saturday'
 
+data-schedule='On-Demand' 
 data-grade='7th#8th#9th#10th#11th#12th' 
 data-subject='Computer Coding'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -9653,8 +9633,6 @@ class="ecsp-media"
         
         
             6:00 &ndash; 7:30<br>
-        
-        
         
         
             
@@ -9723,6 +9701,7 @@ id = "class-771298009"
 
   data-day='Saturday'
 
+data-schedule='On-Demand' 
 data-grade='7th#8th#9th#10th#11th#12th' 
 data-subject='Computer Coding'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -9749,8 +9728,6 @@ class="ecsp-media"
         
         
             6:00 &ndash; 7:30<br>
-        
-        
         
         
             
@@ -9819,6 +9796,7 @@ id = "class-770373650"
 
   data-day='Sunday'
 
+data-schedule='Join Now' 
 data-grade='7th#8th' 
 data-subject='Math'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -9845,8 +9823,6 @@ class="ecsp-media"
         
         
             10:00 &ndash; 12:00<br>
-        
-        
         
         
             
@@ -9915,6 +9891,7 @@ id = "class-771060851"
 
   data-day='Sunday'
 
+data-schedule='Starting Soon' 
 data-grade='3rd#4th#5th' 
 data-subject='Robotics#Computer Coding'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -9941,8 +9918,6 @@ class="ecsp-media"
         
         
             11:00 &ndash; 12:30<br>
-        
-        
         
         
             
@@ -10011,6 +9986,7 @@ id = "class-755511520"
 
   data-day='Sunday'
 
+data-schedule='Starting Soon' 
 data-grade='8th#9th#10th#11th#12th' 
 data-subject='Computer Coding'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -10037,8 +10013,6 @@ class="ecsp-media"
         
         
             12:30 &ndash; 2:00<br>
-        
-        
         
         
             
@@ -10107,6 +10081,7 @@ id = "class-771298013"
 
   data-day='Sunday'
 
+data-schedule='On-Demand' 
 data-grade='7th#8th#9th#10th#11th#12th' 
 data-subject='Computer Coding'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -10133,8 +10108,6 @@ class="ecsp-media"
         
         
             12:30 &ndash; 2:00<br>
-        
-        
         
         
             
@@ -10203,6 +10176,7 @@ id = "class-770373661"
 
   data-day='[]'
 
+data-schedule='On-Demand' 
 data-grade='1st#2nd' 
 data-subject='Math'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -10226,8 +10200,6 @@ class="ecsp-media"
         
             
             
-        
-        
         
         
             
@@ -10296,6 +10268,7 @@ id = "class-767742486"
 
   data-day='Sunday'
 
+data-schedule='On-Demand' 
 data-grade='7th#8th' 
 data-subject=''
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -10322,8 +10295,6 @@ class="ecsp-media"
         
         
             2:00 &ndash; 3:30<br>
-        
-        
         
         
             
@@ -10392,6 +10363,7 @@ id = "class-771298014"
 
   data-day='Sunday'
 
+data-schedule='On-Demand' 
 data-grade='7th#8th#9th#10th#11th#12th' 
 data-subject='Computer Coding'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -10418,8 +10390,6 @@ class="ecsp-media"
         
         
             2:00 &ndash; 3:30<br>
-        
-        
         
         
             
@@ -10488,6 +10458,7 @@ id = "class-767742460"
 
   data-day='Sunday'
 
+data-schedule='Starting Soon' 
 data-grade='5th#6th' 
 data-subject='Computer Coding'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -10514,8 +10485,6 @@ class="ecsp-media"
         
         
             2:30 &ndash; 3:30<br>
-        
-        
         
         
             
@@ -10584,6 +10553,7 @@ id = "class-770395015"
 
   data-day='Thursday'
 
+data-schedule='On-Demand' 
 data-grade='3rd#4th' 
 data-subject='Math'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -10610,8 +10580,6 @@ class="ecsp-media"
         
         
             4:00 &ndash; 5:00<br>
-        
-        
         
         
             
@@ -10680,6 +10648,7 @@ id = "class-770334986"
 
   data-day='Sunday'
 
+data-schedule='Join Now' 
 data-grade='5th#6th' 
 data-subject='Math'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -10706,8 +10675,6 @@ class="ecsp-media"
         
         
             3:30 &ndash; 5:00<br>
-        
-        
         
         
             
@@ -10776,6 +10743,7 @@ id = "class-778287221"
 
   data-day='Sunday'
 
+data-schedule='Starting Soon' 
 data-grade='3rd#4th' 
 data-subject='Robotics'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -10802,8 +10770,6 @@ class="ecsp-media"
         
         
             3:30 &ndash; 5:00<br>
-        
-        
         
         
             
@@ -10872,6 +10838,7 @@ id = "class-771060848"
 
   data-day='Sunday'
 
+data-schedule='Starting Soon' 
 data-grade='5th#6th#7th' 
 data-subject='Robotics#Computer Coding'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -10898,8 +10865,6 @@ class="ecsp-media"
         
         
             3:30 &ndash; 5:00<br>
-        
-        
         
         
             
@@ -10968,6 +10933,7 @@ id = "class-770373665"
 
   data-day='[]'
 
+data-schedule='' 
 data-grade='8th#9th#10th' 
 data-subject='Math'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -10991,8 +10957,6 @@ class="ecsp-media"
         
             
             
-        
-        
         
         
             
@@ -11061,6 +11025,7 @@ id = "class-770348872"
 
   data-day='Sunday'
 
+data-schedule='Starting Soon' 
 data-grade='3rd#4th#5th' 
 data-subject='Science'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -11087,8 +11052,6 @@ class="ecsp-media"
         
         
             5:00 &ndash; 6:00<br>
-        
-        
         
         
             
@@ -11157,6 +11120,7 @@ id = "class-766842076"
 
   data-day='Sunday'
 
+data-schedule='Starting Soon' 
 data-grade='5th#6th' 
 data-subject='Robotics'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -11183,8 +11147,6 @@ class="ecsp-media"
         
         
             5:00 &ndash; 6:30<br>
-        
-        
         
         
             
@@ -11256,7 +11218,6 @@ class="ecsp-media"
                 <li>If you select a subscription, your card will be charged now and monthly starting with the first day of the second month of classes.</li>
                 <li>Subscriptions can be canceled at any time.</li>
                 <li>Subscriptions can be rescheduled or transferred to another class.</li>
-                <li>No partial refunds are given for the completed charges.</li>
                 <li>Make-ups can be scheduled on teacher workdays and other times based on instructor availability.</li>
             </ul>
         </div>

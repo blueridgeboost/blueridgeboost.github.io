@@ -3,6 +3,7 @@ ecwid: 767680409
 product_id: Math-Builders-6th-25-26
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["Starting Soon"]
 subject_tags: ["Math"]
 price: 179.99
 weight: "22"

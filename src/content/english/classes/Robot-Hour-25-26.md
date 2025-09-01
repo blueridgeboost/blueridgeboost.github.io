@@ -3,6 +3,7 @@ ecwid: 766843587
 product_id: Robot-Hour-25-26
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 149.99
 weight: "2"

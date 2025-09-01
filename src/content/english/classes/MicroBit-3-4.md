@@ -3,6 +3,7 @@ ecwid: 770960898
 product_id: MicroBit-3-4
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 149.99
 weight: "33"

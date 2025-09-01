@@ -3,6 +3,7 @@ ecwid: 769854774
 product_id: Advanced-Math-Enrichment-1st-25-26
 robots: "noindex, follow"
 layout: "single"
+schedule_tags: ["On-Demand"]
 subject_tags: ["Math"]
 price: 139.99
 weight: "0"

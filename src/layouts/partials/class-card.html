@@ -7,6 +7,7 @@ id = "class-{{ $id }}"
 {{ else }}
   data-day='[]'
 {{ end }}
+data-schedule='{{ delimit .Params.schedule_tags "#" }}' 
 data-grade='{{ delimit .Params.grade_tags "#" }}' 
 data-subject='{{ delimit .Params.subject_tags "#" }}'
 style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
@@ -54,54 +55,6 @@ class="ecsp-media"
                 {{ end }}
             {{ end }}
         {{ end }}
-        {{/*  {{ if .Params.start_date }}
-            Starts {{ .Params.start_date | time | dateFormat "Jan 2, 2006" }} <br>
-        {{ end }}  */}}
-        {{/*  {{ if eq .Params.difficulty "Bot Builders Elite" }}
-            <span class="level-elite"><a href="#elite">
-                {{ .Params.difficulty }}
-            </a></span><br>
-        {{ else if eq .Params.difficulty "Code Cadets" }}
-            <span class="level-cadets"><a href="#cadets">
-                {{ .Params.difficulty }}         
-            </a></span><br>
-        {{ else if eq .Params.difficulty "Skill Sculptors" }}
-            <span class="level-sculptors"><a href="#sculptors">
-                {{ .Params.difficulty }}            
-            </a></span><br>
-        {{ else if eq .Params.difficulty "Algorithm Architects" }}
-            <span class="level-architects"><a href="#architects">
-                {{ .Params.difficulty }}            
-            </a></span><br>
-        {{ else if eq .Params.difficulty "Foundation Forgers" }}
-            <span class="level-forgers"><a href="#forgers">
-                {{ .Params.difficulty }}            
-            </a></span><br>
-        {{ else if eq .Params.difficulty "Competition" }}
-            <span class="level-competition"><a href="#competition">
-                {{ .Params.difficulty }}            
-            </a></span><br>
-        {{ else if eq .Params.difficulty "Robo Rookies" }}
-            <span class="level-rookies"><a href="#rookies">
-                {{ .Params.difficulty }}            
-            </a></span><br>
-        {{ else if eq .Params.difficulty "Math Maestros" }}
-            <span class="level-maestros"><a href="#maestros">
-                {{ .Params.difficulty }}              
-            </a></span><br>
-        {{ else if eq .Params.difficulty "Robo Researchers" }}
-            <span class="level-researchers"><a href="#researchers">
-                {{ .Params.difficulty }}                
-            </a></span><br>         
-        {{ else if eq .Params.difficulty "Syntax Sorcerers" }}
-            <span class="level-sorcerers"><a href="#sorcerers">
-                {{ .Params.difficulty }}                
-            </a></span><br>
-        {{ else }}
-            <a href="#levels">
-                {{ .Params.difficulty }}
-            </a><br>
-        {{ end }}    */}}
         {{ with .Params.grade_tags }}
             {{ if gt (len .) 0 }}
                 Grades:
