@@ -4,6 +4,8 @@
 id = "class-{{ $id }}"
 {{ if .Params.day_tags }}
   data-day='{{ delimit .Params.day_tags "#" }}'
+{{ else }}
+  data-day='[]'
 {{ end }}
 data-grade='{{ delimit .Params.grade_tags "#" }}' 
 data-subject='{{ delimit .Params.subject_tags "#" }}'

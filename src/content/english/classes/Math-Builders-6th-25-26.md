@@ -4,7 +4,7 @@ product_id: Math-Builders-6th-25-26
 robots: "noindex, follow"
 layout: "single"
 subject_tags: ["Math"]
-price: 149.99
+price: 179.99
 weight: "22"
 start_date: "2025-08-18"
 end_date: "2026-05-24"
@@ -13,7 +13,7 @@ end_time: "6:00"
 page_title: "Math Builders: 6th Grade Group Tutoring"
 page_subtitle: "Math Support"
 featured: 159
-ribbon: "Join Now"
+ribbon: "On Demand"
 title: "Math Builders: 6th Grade Group Tutoring | Blue Ridge Boost"
 day_tags: ["Tuesday", "Thursday"]
 grade_tags: ["6th"]
