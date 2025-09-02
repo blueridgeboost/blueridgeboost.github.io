@@ -7,6 +7,11 @@ id = "class-{{ $id }}"
 {{ else }}
   data-day='[]'
 {{ end }}
+{{ if .Params.duration }}
+	data-duration='{{ .Params.duration }}'
+{{ else }}
+	data-duration='[]'
+{{ end }}
 data-schedule='{{ delimit .Params.schedule_tags "#" }}' 
 data-grade='{{ delimit .Params.grade_tags "#" }}' 
 data-subject='{{ delimit .Params.subject_tags "#" }}'
@@ -39,21 +44,12 @@ class="ecsp-media"
                 {{ end }}
             {{ end }} 
         {{ else }}
-            Pick a day and time<br>
+            Pick a day and time
         {{ end}}
         {{  if and .Params.start_time .Params.end_time }}
             {{.Params.start_time}} &ndash; {{.Params.end_time}}<br>
         {{ else }}
-            {{ $attributes := .Params.attributes }}
-            {{ if $attributes }}
-                {{ range $attributes }}
-                    {{ if eq .name "Booking Link"}}
-                        <a href="{{ .value }}" target="_blank">Book time here!</a><br>
-                    {{ else if eq .name "Session Length"}}
-                        {{ .value }}<br>
-                    {{ end }}
-                {{ end }}
-            {{ end }}
+            <br>
         {{ end }}
         {{ with .Params.grade_tags }}
             {{ if gt (len .) 0 }}
@@ -69,11 +65,12 @@ class="ecsp-media"
             <p><b>Subscription (${{ .Params.price }} /month)</b></p>
         {{ end }}  */}}
         <div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
-            <div class="ecsp-productBrowser-price ecsp-price" itemprop="price" content="{{ .Params.price }}" 
+            <div class="ecsp-productBrowser-price ecsp-price" style="display:none" itemprop="price" content="{{ .Params.price }}" 
                 data-spw-price-location="button">
                 <div itemprop="priceCurrency" content="USD"></div>
             </div>
         </div>
+		${{ .Params.price }} {{ .Params.price_unit }}
         {{/*  <div customprop="options"></div><div customprop="qty"></div>
         <div customprop="addtobag"></div>
         <div customprop="vatinprice"></div>  */}}

@@ -6,11 +6,14 @@ layout: "single"
 schedule_tags: ["On-Demand"]
 subject_tags: ["Math"]
 price: 179.99
-weight: "12"
+price_unit: "per month"
+duration: "6 Months+"
+category: "Ongoing"
+weight: "38"
 page_title: "6th Compacted Homework Help"
 page_subtitle: "Math Support"
-featured: 163
 ribbon: "On Demand"
 title: "6th Compacted Homework Help | Blue Ridge Boost"
 grade_tags: ["6th"]
+featured: 163
 ---

@@ -6,11 +6,14 @@ layout: "single"
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Computer Coding"]
 price: 199.99
-weight: "5"
+price_unit: "per month"
+duration: "6 Months+"
+category: "Ongoing"
+weight: "23"
 page_title: "Python Code Builders"
 page_subtitle: "Learn Python with Code Monkey Challenges!"
-featured: 148
 ribbon: "On Demand"
 title: "Python Code Builders | Blue Ridge Boost"
 grade_tags: ["4th","5th"]
+featured: 148
 ---

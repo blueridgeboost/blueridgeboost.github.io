@@ -6,16 +6,19 @@ layout: "single"
 schedule_tags: ["Starting Soon"]
 subject_tags: ["AI"]
 price: 149.99
-weight: "49"
+price_unit: "per month"
+duration: "4 to 6 Months"
+category: "Ongoing"
+weight: "32"
 start_date: "2025-09-06"
 end_date: "2026-05-24"
 start_time: "2:00"
 end_time: "3:00"
 page_title: "Introduction to AI for Middle Schoolers"
 page_subtitle: "Your Journey Into Artificial Intelligence Starts Here!"
-featured: 186
 ribbon: "Starts Sep 6"
 title: "Introduction to AI for Middle Schoolers | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["5th","6th"]
+featured: 186
 ---

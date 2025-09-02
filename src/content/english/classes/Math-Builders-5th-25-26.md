@@ -6,12 +6,15 @@ layout: "single"
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Math"]
 price: 179.99
-weight: "21"
+price_unit: "per month"
+duration: "6 Months+"
+category: "Ongoing"
+weight: "29"
 end_date: "2026-05-21"
 page_title: "Math Builders: 5th Grade Group Tutoring"
 page_subtitle: "Math Support"
-featured: 169
 ribbon: "On Demand"
 title: "Math Builders: 5th Grade Group Tutoring | Blue Ridge Boost"
 grade_tags: ["5th"]
+featured: 169
 ---

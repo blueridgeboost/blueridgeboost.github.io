@@ -55,4 +55,17 @@
         </label>
         {{ end }}
     </p>
+    <p>
+        <b>Duration:&nbsp;&nbsp;</b>
+        {{ range $tag := (slice "1 Session" "4 weeks" "6 weeks" "8 weeks" "2 to 3 Months" "4 to 6 Months" "6 Months+" ) }}
+        <label>
+            <span class="filter-box">
+                <input type="checkbox" 
+                class="duration-filter" 
+                value="{{ $tag }}" 
+                onchange="filterClasses()"> {{ $tag }}
+            </span>
+        </label>
+        {{ end }}
+    </p>
 </div>
