@@ -6,16 +6,19 @@ layout: "single"
 schedule_tags: ["On-Demand"]
 subject_tags: ["Game Development"]
 price: 249.99
-weight: "34"
+price_unit: "per month"
+duration: "6 Months+"
+category: "Ongoing"
+weight: "50"
 start_date: "2025-09-03"
 end_date: "2026-05-24"
 start_time: "5:00"
 end_time: "6:30"
 page_title: "Game Makers: Intro to Unity"
 page_subtitle: "Learn to make video games using Unity!"
-featured: 180
 ribbon: "Join Now"
 title: "Game Makers: Intro to Unity | Blue Ridge Boost"
 day_tags: ["Wednesday"]
 grade_tags: ["7th","8th"]
+featured: 180
 ---

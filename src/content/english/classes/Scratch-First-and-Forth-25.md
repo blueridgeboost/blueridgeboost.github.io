@@ -6,16 +6,19 @@ layout: "single"
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Game Development"]
 price: 199.99
-weight: "4"
+category: "Session"
+price_unit: "6 weeks"
+duration: "6 weeks"
+weight: "7"
 start_date: "2025-09-08"
 end_date: "2025-12-15"
 start_time: "4:30"
 end_time: "5:30"
 page_title: "Scratch Block Coding"
 page_subtitle: "Learn to code video games, animations, and more!"
-featured: 153
 ribbon: "Starts Sep 15"
 title: "Scratch Block Coding | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["2nd","3rd","4th"]
+featured: 153
 ---

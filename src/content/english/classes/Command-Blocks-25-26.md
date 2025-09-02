@@ -6,15 +6,18 @@ layout: "single"
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Game Development"]
 price: 229.99
-weight: "8"
+category: "Session"
+price_unit: "6 weeks"
+duration: "6 weeks"
+weight: "25"
 end_date: "2026-05-24"
 start_time: "5:30"
 end_time: "6:30"
 page_title: "Command Craft: Minecraft Command Blocks"
 page_subtitle: "Learn logic and coding concepts with Command Blocks!"
-featured: 150
 ribbon: "Starts Sep 29"
 title: "Command Craft: Minecraft Command Blocks | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["4th","5th"]
+featured: 150
 ---
