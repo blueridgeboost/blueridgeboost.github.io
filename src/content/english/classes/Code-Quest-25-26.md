@@ -13,6 +13,7 @@ start_time: "12:00"
 end_time: "1:00"
 page_title: "Code Quest Grades 3 and 4"
 page_subtitle: "Adventures in Text Programming"
+ribbon: "On Demand"
 title: "Code Quest Grades 3 and 4 | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["3rd", "4th"]
