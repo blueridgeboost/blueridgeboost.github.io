@@ -20,5 +20,5 @@ ribbon: "Starts Sep 6"
 title: "Introduction to AI for Middle Schoolers | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["5th","6th"]
-featured: 186
+featured: 187
 ---

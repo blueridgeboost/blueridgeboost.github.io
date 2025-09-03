@@ -9,7 +9,7 @@ price: 199.99
 price_unit: "per month"
 duration: "4 to 6 Months"
 category: "Ongoing"
-weight: "44"
+weight: "45"
 start_time: "3:00"
 end_time: "4:30"
 page_title: "Aerial Drone Competition for Grades 6-8"
@@ -18,5 +18,5 @@ ribbon: "Starts Sep 6"
 title: "Aerial Drone Competition for Grades 6-8 | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["6th","7th","8th"]
-featured: 199
+featured: 200
 ---
