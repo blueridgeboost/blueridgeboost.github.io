@@ -20,5 +20,5 @@ ribbon: "Starts Sep 16"
 title: "Science Challenge Hour | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["3rd","4th","5th"]
-featured: 197
+featured: 198
 ---

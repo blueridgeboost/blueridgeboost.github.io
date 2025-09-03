@@ -9,7 +9,7 @@ price: 299.99
 price_unit: "per month"
 duration: "4 to 6 Months"
 category: "Ongoing"
-weight: "46"
+weight: "47"
 start_time: "6:00"
 end_time: "7:30"
 page_title: "Carnegie Mellon Robotics Academy: Mechanical Foundations"
@@ -18,5 +18,5 @@ ribbon: "Join Now"
 title: "Carnegie Mellon Robotics Academy: Mechanical Foundations | Blue Ridge Boost"
 day_tags: ["Monday"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
-featured: 194
+featured: 195
 ---

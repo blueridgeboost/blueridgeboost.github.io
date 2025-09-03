@@ -20,5 +20,5 @@ ribbon: "Starts Sep 16"
 title: "Advanced VEX IQ (Grades 4-5) | Blue Ridge Boost"
 day_tags: ["Thursday"]
 grade_tags: ["4th","5th"]
-featured: 190
+featured: 191
 ---

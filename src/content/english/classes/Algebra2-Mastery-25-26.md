@@ -9,12 +9,12 @@ price: 299.99
 price_unit: "per month"
 duration: "6 Months+"
 category: "Ongoing"
-weight: "69"
+weight: "70"
 end_date: "2026-05-16"
 page_title: "Algebra 2: Mastery Through Teaching and Practice"
 page_subtitle: "Get Ahead!"
 ribbon: "On Demand"
 title: "Algebra 2: Mastery Through Teaching and Practice | Blue Ridge Boost"
 grade_tags: ["8th","9th","10th"]
-featured: 208
+featured: 209
 ---

@@ -9,16 +9,13 @@ price: 259.99
 price_unit: "per month"
 duration: "6 Months+"
 category: "Ongoing"
-weight: "61"
+weight: "62"
 start_date: "2025-09-08"
 end_date: "2026-05-18"
-start_time: "2:00"
-end_time: "3:30"
 page_title: "Cybersecurity Level 2"
 page_subtitle: "Preparation and Certification Exam"
-ribbon: "Join Now"
+ribbon: "On Demand"
 title: "Cybersecurity Level 2 | Blue Ridge Boost"
-day_tags: ["Sunday"]
 grade_tags: ["7th","8th","9th","10th","11th","12th"]
-featured: 213
+featured: 214
 ---

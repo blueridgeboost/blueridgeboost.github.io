@@ -20,5 +20,5 @@ ribbon: "Starts Sep 7"
 title: "VEX Battle Bots - Third and Fourth Grade | Blue Ridge Boost"
 day_tags: ["Sunday"]
 grade_tags: ["3rd","4th"]
-featured: 155
+featured: 156
 ---

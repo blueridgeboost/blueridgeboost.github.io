@@ -3,7 +3,7 @@ ecwid: 767683654
 product_id: Math-Builders-5th-25-26
 robots: "noindex, follow"
 layout: "single"
-schedule_tags: ["Starting Soon"]
+schedule_tags: []
 subject_tags: ["Math"]
 price: 179.99
 price_unit: "per month"
