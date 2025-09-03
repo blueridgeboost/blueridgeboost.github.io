@@ -15,7 +15,6 @@ page_title: "Advanced Math Enrichment 1st Grade"
 page_subtitle: "Exploring the Beauty of Mathematics"
 ribbon: "On Demand"
 title: "Advanced Math Enrichment 1st Grade | Blue Ridge Boost"
-day_tags: ["Monday", "Wednesday"]
 grade_tags: ["1st"]
 featured: 164
 ---
