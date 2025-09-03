@@ -16,7 +16,7 @@ start_time: "12:00"
 end_time: "1:00"
 page_title: "Python Level 1"
 page_subtitle: "Preparation and Certification Exam"
-ribbon: "Join Now"
+ribbon: "Starts Sep 6"
 title: "Python Level 1 | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["8th","9th","10th"]

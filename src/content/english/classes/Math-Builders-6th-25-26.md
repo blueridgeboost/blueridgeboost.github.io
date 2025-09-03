@@ -16,7 +16,7 @@ start_time: "5:00"
 end_time: "6:00"
 page_title: "Math Builders: 6th Grade Group Tutoring"
 page_subtitle: "Math Support"
-ribbon: "On Demand"
+ribbon: "Starts Sep 9"
 title: "Math Builders: 6th Grade Group Tutoring | Blue Ridge Boost"
 day_tags: ["Tuesday", "Thursday"]
 grade_tags: ["6th"]
