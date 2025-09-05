@@ -7,7 +7,7 @@ schedule_tags: []
 subject_tags: ["Math"]
 price: 299.99
 price_unit: "per month"
-duration: "6 Months+"
+duration: "Flexible"
 category: "Ongoing"
 weight: "70"
 end_date: "2026-05-16"
@@ -16,5 +16,5 @@ page_subtitle: "Get Ahead!"
 ribbon: "On Demand"
 title: "Algebra 2: Mastery Through Teaching and Practice | Blue Ridge Boost"
 grade_tags: ["8th","9th","10th"]
-featured: 209
+featured: 210
 ---

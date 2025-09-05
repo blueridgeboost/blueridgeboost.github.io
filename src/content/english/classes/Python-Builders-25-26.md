@@ -7,7 +7,7 @@ schedule_tags: []
 subject_tags: ["Computer Coding"]
 price: 199.99
 price_unit: "per month"
-duration: "6 Months+"
+duration: "Flexible"
 category: "Ongoing"
 weight: "23"
 page_title: "Python Code Builders"

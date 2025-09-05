@@ -5,12 +5,11 @@ robots: "noindex, follow"
 layout: "single"
 schedule_tags: ["On-Demand"]
 subject_tags: ["Computer Coding"]
-price: 199
+price: 249.99
 price_unit: "per month"
-duration: "6 Months+"
+duration: "Flexible"
 category: "Ongoing"
-weight: "66"
-start_date: "2025-09-02"
+weight: "67"
 end_date: "2026-05-14"
 page_title: "Group Tutoring: AP Computer Science Principles"
 page_subtitle: "Get ready for AP Computer Science Principles"

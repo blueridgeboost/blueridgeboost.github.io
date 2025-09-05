@@ -5,9 +5,9 @@ robots: "noindex, follow"
 layout: "single"
 schedule_tags: ["On-Demand"]
 subject_tags: ["Math"]
-price: 159.99
+price: 139.99
 price_unit: "per month"
-duration: "6 Months+"
+duration: "Flexible"
 category: "Ongoing"
 weight: "6"
 end_date: "2026-05-24"

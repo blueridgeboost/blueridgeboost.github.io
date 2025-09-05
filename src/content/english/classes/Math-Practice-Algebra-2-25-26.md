@@ -7,9 +7,9 @@ schedule_tags: ["On-Demand"]
 subject_tags: ["Math"]
 price: 179.99
 price_unit: "per month"
-duration: "6 Months+"
+duration: "Flexible"
 category: "Ongoing"
-weight: "65"
+weight: "66"
 end_date: "2026-05-21"
 page_title: "Algebra 2 Homework Help"
 page_subtitle: "Math Support"

@@ -19,5 +19,5 @@ ribbon: "Starts Sep 9"
 title: "Carnegie Mellon Robotics Academy: Electrical Foundations | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
-featured: 196
+featured: 197
 ---

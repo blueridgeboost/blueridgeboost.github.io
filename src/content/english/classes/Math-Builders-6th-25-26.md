@@ -5,12 +5,11 @@ robots: "noindex, follow"
 layout: "single"
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Math"]
-price: 179.99
+price: 149.99
 price_unit: "per month"
-duration: "6 Months+"
+duration: "Flexible"
 category: "Ongoing"
 weight: "40"
-start_date: "2025-08-18"
 end_date: "2026-05-24"
 start_time: "5:00"
 end_time: "6:00"
