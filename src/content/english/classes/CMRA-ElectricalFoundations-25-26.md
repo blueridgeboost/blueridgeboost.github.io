@@ -7,7 +7,7 @@ schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 299.99
 price_unit: "per month"
-duration: "2 to 3 Months"
+duration: "4 to 6 Months"
 category: "Ongoing"
 weight: "49"
 end_date: "2026-05-19"
@@ -19,5 +19,5 @@ ribbon: "Starts Sep 9"
 title: "Carnegie Mellon Robotics Academy: Electrical Foundations | Blue Ridge Boost"
 day_tags: ["Tuesday"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
-featured: 196
+featured: 197
 ---

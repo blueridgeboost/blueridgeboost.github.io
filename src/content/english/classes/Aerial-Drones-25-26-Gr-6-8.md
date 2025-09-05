@@ -18,5 +18,5 @@ ribbon: "Starts Sep 6"
 title: "Aerial Drone Competition for Grades 6-8 | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["6th","7th","8th"]
-featured: 200
+featured: 201
 ---

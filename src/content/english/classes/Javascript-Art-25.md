@@ -7,7 +7,7 @@ schedule_tags: ["On-Demand"]
 subject_tags: ["Computer Coding"]
 price: 249.99
 price_unit: "per month"
-duration: "6 Months+"
+duration: "4 to 6 Months"
 category: "Ongoing"
 weight: "28"
 page_title: "Create & Code: Digital Art with JavaScript"

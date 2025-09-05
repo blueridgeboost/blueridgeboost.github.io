@@ -7,9 +7,9 @@ schedule_tags: ["On-Demand"]
 subject_tags: ["Computer Coding"]
 price: 239.99
 price_unit: "per month"
-duration: "6 Months+"
+duration: "4 to 6 Months"
 category: "Ongoing"
-weight: "55"
+weight: "56"
 page_title: "Introduction to Computer Science"
 page_subtitle: "Get started with Computer Science through Blue Ridge Boost and CodeHS!"
 ribbon: "On Demand"

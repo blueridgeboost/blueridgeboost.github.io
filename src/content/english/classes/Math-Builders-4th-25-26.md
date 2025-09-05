@@ -7,7 +7,7 @@ schedule_tags: ["Join Now"]
 subject_tags: ["Math"]
 price: 149.99
 price_unit: "per month"
-duration: "6 Months+"
+duration: "Flexible"
 category: "Ongoing"
 weight: "24"
 end_date: "2026-05-24"

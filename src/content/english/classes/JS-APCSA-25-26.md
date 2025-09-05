@@ -7,9 +7,9 @@ schedule_tags: []
 subject_tags: ["Computer Coding"]
 price: 199.99
 price_unit: "per month"
-duration: "6 Months+"
+duration: "Flexible"
 category: "Ongoing"
-weight: "64"
+weight: "65"
 start_date: "2025-09-03"
 end_date: "2026-05-15"
 start_time: "6:15"

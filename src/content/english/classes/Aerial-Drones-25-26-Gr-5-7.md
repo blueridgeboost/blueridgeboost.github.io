@@ -7,7 +7,7 @@ schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 159.99
 price_unit: "per month"
-duration: "6 Months+"
+duration: "2 to 3 Months"
 category: "Ongoing"
 weight: "31"
 start_date: "2025-09-06"
@@ -20,5 +20,5 @@ ribbon: "Starts Sep 6"
 title: "Soar into STEM: Aerial Drone Class for Grades 5-7 | Blue Ridge Boost"
 day_tags: ["Saturday"]
 grade_tags: ["5th","6th","7th"]
-featured: 203
+featured: 204
 ---

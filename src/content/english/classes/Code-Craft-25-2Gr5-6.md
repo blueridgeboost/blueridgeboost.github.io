@@ -5,7 +5,7 @@ robots: "noindex, follow"
 layout: "single"
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Game Development"]
-price: 149.99
+price: 159.99
 price_unit: "per month"
 duration: "4 to 6 Months"
 category: "Ongoing"
