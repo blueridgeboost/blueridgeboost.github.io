@@ -15,7 +15,7 @@ page_title: "Future Innovators (Grades 5 to 7)"
 page_subtitle: "Empowering Young Minds"
 ribbon: "Starts Sep 7"
 title: "Future Innovators (Grades 5 to 7) | Blue Ridge Boost"
-day_tags: ["Sunday"]
+day_tags: ["Sun"]
 grade_tags: ["5th","6th","7th"]
 featured: 0
 ---

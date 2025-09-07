@@ -8,7 +8,7 @@ subject_tags: ["Robotics"]
 price: 159.99
 category: "Session"
 price_unit: "4 weeks"
-duration: "4 weeks"
+duration: "4 wk"
 weight: "36"
 start_date: "2025-08-18"
 end_date: "2026-05-24"
@@ -18,7 +18,7 @@ page_title: "VEX Battle Bots - Fifth and Sixth Grade"
 page_subtitle: "Design. Build. Code. BATTLE!"
 ribbon: "Starts Sep 7"
 title: "VEX Battle Bots - Fifth and Sixth Grade | Blue Ridge Boost"
-day_tags: ["Sunday"]
+day_tags: ["Sun"]
 grade_tags: ["5th","6th"]
-featured: 155
+featured: 158
 ---

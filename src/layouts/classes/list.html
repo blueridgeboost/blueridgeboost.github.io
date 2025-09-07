@@ -5,9 +5,11 @@
     
     {{ partial "class-filters.html" . }}
     
+    <p>&nbsp;</p>
+
     <div class="container" >
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-4 row-cols-xl-5 g-3"  
-        style="row-gap: 1rem; display: flex; justify-content: center;"
+        style="row-gap: 5rem; display: flex; justify-content: center;"
         >
             {{ $pages :=  (where .Site.Pages "Section" "classes") }}
             {{ $pages = sort $pages ".Params.weight" "asc" }}
@@ -33,6 +35,12 @@
         </div>
     </div>
 
+    <div class="row mt-4">
+        <div class="col-12">
+                {{ .Content }}
+        </div>
+    </div>
+
     <!-- Footer -->
     <div class="row mt-4">
         <div class="col-12 text-center">
@@ -43,7 +51,5 @@
             </p>
         </div>
     </div>
-
-    {{ .Content }}
 </div>
 {{end}}

@@ -14,6 +14,7 @@ page_title: "Python Code Builders"
 page_subtitle: "Learn Python with Code Monkey Challenges!"
 ribbon: "On Demand"
 title: "Python Code Builders | Blue Ridge Boost"
+day_tags: []
 grade_tags: ["4th","5th"]
-featured: 148
+featured: 151
 ---

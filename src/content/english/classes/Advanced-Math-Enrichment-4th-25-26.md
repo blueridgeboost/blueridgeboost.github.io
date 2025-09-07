@@ -17,7 +17,7 @@ page_title: "Advanced Math Enrichment 4th Grade"
 page_subtitle: "Exploring the Beauty of Mathematics"
 ribbon: "Join Now"
 title: "Advanced Math Enrichment 4th Grade | Blue Ridge Boost"
-day_tags: ["Tuesday", "Thursday"]
+day_tags: ["Tue","Thu"]
 grade_tags: ["4th"]
-featured: 167
+featured: 170
 ---

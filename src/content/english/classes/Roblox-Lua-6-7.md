@@ -13,7 +13,7 @@ end_time: "6:30"
 page_title: "Create Your Own Roblox Games: Roblox and Lua Coding"
 ribbon: "Join Now"
 title: "Create Your Own Roblox Games: Roblox and Lua Coding | Blue Ridge Boost"
-day_tags: ["Tuesday"]
+day_tags: ["Tue"]
 grade_tags: ["6th","7th"]
-featured: 158
+featured: 161
 ---

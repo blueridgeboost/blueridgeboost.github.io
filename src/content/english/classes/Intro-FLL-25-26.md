@@ -7,7 +7,7 @@ schedule_tags: ["Join Now"]
 subject_tags: ["Robotics"]
 price: 149.99
 price_unit: "per month"
-duration: "4 to 6 Months"
+duration: "4-6 mo"
 category: "Ongoing"
 weight: "11"
 end_date: "2025-12-19"
@@ -17,7 +17,7 @@ page_title: "Intro to FIRST LEGO League"
 page_subtitle: "Building Bright Futures"
 ribbon: "Join Now"
 title: "Intro to FIRST LEGO League | Blue Ridge Boost"
-day_tags: ["Tuesday"]
+day_tags: ["Tue"]
 grade_tags: ["3rd", "4th","5th"]
-featured: 179
+featured: 183
 ---

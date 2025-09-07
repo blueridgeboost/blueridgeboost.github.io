@@ -7,7 +7,7 @@ schedule_tags: ["Join Now"]
 subject_tags: ["Game Development"]
 price: 159.99
 price_unit: "per month"
-duration: "2 to 3 Months"
+duration: "2-3 mo"
 category: "Ongoing"
 weight: "2"
 end_date: "2026-05-24"
@@ -17,7 +17,7 @@ page_title: "Code Craft: Minecraft Coding"
 page_subtitle: "Learn to Code in Minecraft! Grades 1 and 2"
 ribbon: "Join Now"
 title: "Code Craft: Minecraft Coding | Blue Ridge Boost"
-day_tags: ["Tuesday"]
+day_tags: ["Tue"]
 grade_tags: ["1st","2nd"]
-featured: 177
+featured: 181
 ---

@@ -9,12 +9,13 @@ price: 249.99
 price_unit: "per month"
 duration: "Flexible"
 category: "Ongoing"
-weight: "67"
+weight: "68"
 end_date: "2026-05-14"
 page_title: "Group Tutoring: AP Computer Science Principles"
 page_subtitle: "Get ready for AP Computer Science Principles"
 ribbon: "On Demand"
 title: "Group Tutoring: AP Computer Science Principles | Blue Ridge Boost"
+day_tags: []
 grade_tags: ["8th","9th","10th", "11th", "12th"]
 featured: 0
 ---

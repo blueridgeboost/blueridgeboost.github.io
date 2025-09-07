@@ -9,7 +9,7 @@ price: 199.99
 price_unit: "per month"
 duration: "Flexible"
 category: "Ongoing"
-weight: "65"
+weight: "66"
 start_date: "2025-09-03"
 end_date: "2026-05-15"
 start_time: "6:15"
@@ -18,7 +18,7 @@ page_title: "Group Tutoring: Java for AP Computer Science (Virtual)"
 page_subtitle: "Get ready for AP CSA"
 ribbon: "Join Now"
 title: "Group Tutoring: Java for AP Computer Science (Virtual) | Blue Ridge Boost"
-day_tags: ["Monday", "Wednesday"]
+day_tags: ["Mon","Wed"]
 grade_tags: ["8th","9th","10th", "11th", "12th"]
 featured: 0
 ---

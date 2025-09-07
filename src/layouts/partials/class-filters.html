@@ -1,71 +1,418 @@
-{{ $selected_subject := .Params.selected_subject }}
-{{ $selected_schedule := .Params.selected_schedule }}
+<style>
+  /* Container */
+  .filter-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    background: #e6f0ff;
+  }
 
-<div class="filter-range" style="width: 95%;">
-    <em>Filter Classes:</em>
-    <p>
-         <b>Grade:&nbsp;&nbsp;</b>
-        {{ range $tag := (slice "1st" "2nd" "3rd" "4th" "5th" "6th" "7th" "8th" "9th" "10th" "11th" "12th") }}
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="grade-filter" value="{{ $tag }}" onchange="filterClasses()"> {{ $tag }}
-            </span>
-        </label>
-        {{ end }}
-    </p>
-    <p>
-        <b>Day:&nbsp;&nbsp;</b>
-        {{ range $tag := (slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" "Saturday" "Sunday") }}
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="day-filter" value="{{ $tag }}" onchange="filterClasses()"> {{ $tag }}
-            </span>
-        </label>
-        {{ end }}
-    </p>
-    <p>
-        <b>Subject:&nbsp;&nbsp;</b>
-        {{ range $tag := (slice "Math" "Robotics" "Game Development" "AI" "Computer Coding" "Science" ) }}
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="subject-filter" 
-                value="{{ $tag }}" 
-                {{ if eq $selected_subject $tag }} 
-                    checked
+  /* Card */
+  .filter-range {
+    --fg: #0a1a33;
+    --muted: #173a74;
+    --accent: #0a4acb;
+    --accent-strong: #0738a0;
+    --chip-bg: #f4f8ff;
+    --chip-bg-hover: #ecf3ff;
+    --chip-bg-active: #dbe8ff;
+    --chip-br: 6px;
+    --border: #b7cffb;
+    --border-hover: #91b4fb;
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.5rem;
+    box-sizing: border-box;
+
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(10, 74, 203, 0.08);
+  }
+
+  /* Each group row */
+  .filter-row {
+    display: flex;
+    flex-direction: column; /* default stack: header above body */
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+
+  /* Main group header (small + medium) */
+  .group-header {
+    display: none; /* toggled via media queries */
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    font-weight: 700;
+    color: var(--muted);
+    font-size: 0.95rem;
+    padding: 0.4rem 0.5rem;
+    user-select: none;
+    border-radius: 8px;
+  }
+  .group-header:hover { background: #f6f9ff; }
+  .group-header .chevron {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .filter-row.collapsed .group-header .chevron { transform: rotate(-90deg); }
+  .filter-row.open .group-header .chevron { transform: rotate(0deg); }
+
+  /* Group body */
+  .group-body { display: block; }
+  .filter-row.collapsed .group-body { display: none; }
+
+  /* Inline label inside body (used on large) */
+  .group-label.inline {
+    font-weight: 600;
+    color: var(--muted);
+    font-size: 0.9rem;
+    white-space: nowrap;
+    margin: 0 0.5rem 0.3rem 0; /* default margin; overridden on large to align inline */
+    flex: 0 0 auto;
+  }
+
+  /* Chips container */
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+
+  /* Chip */
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    background: var(--chip-bg);
+    border-radius: var(--chip-br);
+    padding: 0.28rem 0.55rem;
+    font-size: 0.78rem;
+    line-height: 1.2;
+    border: 1px solid var(--border);
+    cursor: pointer;
+    transition: background 0.2s ease, border-color 0.2s ease;
+  }
+  .chip:hover { border-color: var(--border-hover); background: var(--chip-bg-hover); }
+  .chip.active { background: var(--chip-bg-active); border-color: var(--accent); color: var(--accent-strong); }
+  .chip input[type="checkbox"] { display: none; }
+
+  /* Day/Schedule container */
+  .inline-row {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+
+  /* Subgroup wrappers for Day/Schedule */
+  .subgroup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .subgroup-header {
+    display: none; /* visible on small only */
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    font-weight: 600;
+    color: var(--muted);
+    font-size: 0.9rem;
+    padding: 0.35rem 0.45rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    user-select: none;
+  }
+  .subgroup-header .chevron {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .subgroup.collapsed .subgroup-header .chevron { transform: rotate(-90deg); }
+  .subgroup.open .subgroup-header .chevron { transform: rotate(0deg); }
+  .subgroup-body { display: block; }
+  .subgroup.collapsed .subgroup-body { display: none; }
+
+  /* XS tweaks (<=360px) */
+  @media (max-width: 360px) {
+    .filter-range { padding: 0.4rem; }
+    .group-header { padding: 0.35rem 0.4rem; font-size: 0.9rem; }
+    .subgroup-header { padding: 0.3rem 0.4rem; font-size: 0.88rem; }
+    .chips { gap: 0.25rem; }
+    .chip { padding: 0.26rem 0.5rem; font-size: 0.76rem; }
+  }
+
+  /* Small (<720): main groups collapsible; Day & Schedule each collapsible with their own headers */
+  @media (max-width: 719.98px) {
+    .group-header { display: flex; cursor: pointer; border: 1px solid var(--border); }
+    .group-label.inline { display: none; } /* hide inline labels */
+    .filter-row { border: 1px solid var(--border); border-radius: 8px; padding: 0.25rem; }
+    .inline-row { flex-direction: column; gap: 0.5rem; }
+    .subgroup-header { display: flex; cursor: pointer; }
+  }
+
+  /* Medium (>=720 <1024): main group dropdown; Day & Schedule on separate lines, no subgroup headers */
+  @media (min-width: 720px) and (max-width: 1023.98px) {
+    .group-header {
+      display: flex;
+      cursor: pointer;
+      padding: 0.4rem 0.5rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+    .group-header .chevron { display: inline-block; }
+    .group-label.inline { display: none; }
+    .filter-row { border: 1px solid var(--border); border-radius: 8px; padding: 0.25rem; }
+
+    .inline-row { flex-direction: column; gap: 0.75rem; }
+    .subgroup-header { display: none; }
+  }
+
+  /* Large (>=1024): no headers; label and chips inline on one line */
+  @media (min-width: 1024px) {
+  .group-header { display: none; }
+  .group-body { display: block !important; }
+
+  /* Force label + chips on one line for marked groups */
+  .group-body.inline-layout {
+    display: flex !important;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: nowrap;
+  }
+  .group-body.inline-layout .group-label.inline {
+    display: inline !important;
+    margin: 0 !important;        /* remove vertical spacing */
+    white-space: nowrap;
+    flex: 0 0 auto;
+  }
+  .group-body.inline-layout .chips {
+    flex: 1 1 auto;
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;             /* chips can wrap, label stays inline */
+    gap: 0.3rem;
+  }
+
+  /* Day/Schedule subgroups inline as well */
+  .inline-row { flex-direction: row; gap: 1rem; align-items: center; }
+  .subgroup .subgroup-body {
+    display: flex !important;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: nowrap;
+  }
+  .subgroup .group-label.inline {
+    display: inline !important;
+    margin: 0 !important;
+    white-space: nowrap;
+    flex: 0 0 auto;
+  }
+  .subgroup .chips {
+    flex: 1 1 auto;
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+}
+</style>
+
+<div class="filter-wrap">
+  <div class="filter-range">
+
+    <!-- Grades -->
+    <div class="filter-row collapsed" data-group="grade">
+      <div class="group-header" role="button" tabindex="0" aria-expanded="false">
+        <span>Grade</span>
+        <span class="chevron">▸</span>
+      </div>
+      <div class="group-body inline-layout">
+        <div class="group-label inline">Grade:</div>
+        <div class="chips">
+          {{ range $g := (slice "1st" "2nd" "3rd" "4th" "5th" "6th" "7th" "8th" "9th" "10th" "11th" "12th") }}
+          <label class="chip">
+            <input type="checkbox" class="grade-filter" value="{{ $g | lower }}" onchange="toggleChip(this)">
+            <span>{{ $g }}</span>
+          </label>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+    <!-- Day and Schedule -->
+    <div class="filter-row collapsed" data-group="day-schedule">
+      <div class="group-header" role="button" tabindex="0" aria-expanded="false">
+        <span>Schedule Options</span>
+        <span class="chevron">▸</span>
+      </div>
+      <div class="group-body">
+        <div class="inline-row">
+
+          <!-- Day subgroup -->
+          <div class="subgroup open" data-subgroup="day">
+            <div class="subgroup-header" role="button" tabindex="0" aria-expanded="true">
+              <span>Day</span>
+              <span class="chevron">▸</span>
+            </div>
+            <div class="subgroup-body">
+              <div class="group-label inline">Day:</div>
+              <div class="chips">
+                {{ range $d := (slice "Mon" "Tue" "Wed" "Thu" "Fri" "Sat" "Sun") }}
+                <label class="chip">
+                  <input type="checkbox" class="day-filter" value="{{ $d | lower }}" onchange="toggleChip(this)">
+                  <span>{{ $d }}</span>
+                </label>
                 {{ end }}
-                onchange="filterClasses()"> {{ $tag }}
-            </span>
-        </label>
-        {{ end }}
-    </p>
-    <p>
-        <b>Schedule Type:&nbsp;&nbsp;</b>
-        {{ range $tag := (slice "Starting Soon" "On-Demand" "Join Now" ) }}
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="schedule-filter" 
-                value="{{ $tag }}" 
-                {{ if eq $selected_schedule $tag }} 
-                    checked
+              </div>
+            </div>
+          </div>
+
+          <!-- Schedule subgroup -->
+          <div class="subgroup open" data-subgroup="schedule">
+            <div class="subgroup-header" role="button" tabindex="0" aria-expanded="true">
+              <span>Schedule</span>
+              <span class="chevron">▸</span>
+            </div>
+            <div class="subgroup-body">
+              <div class="group-label inline">Schedule:</div>
+              <div class="chips">
+                {{ range $s := (slice "Starting Soon" "Join Now" "On-Demand") }}
+                <label class="chip">
+                  <input type="checkbox" class="schedule-filter" value="{{ $s | lower }}" onchange="toggleChip(this)">
+                  <span>{{ $s }}</span>
+                </label>
                 {{ end }}
-                onchange="filterClasses()"> {{ $tag }}
-            </span>
-        </label>
-        {{ end }}
-    </p>
-    <p>
-        <b>Duration:&nbsp;&nbsp;</b>
-        {{ range $tag := (slice "4 weeks" "6 weeks" "8 weeks" "2 to 3 Months" "4 to 6 Months" "6 Months+" "Flexible" ) }}
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="duration-filter" 
-                value="{{ $tag }}" 
-                onchange="filterClasses()"> {{ $tag }}
-            </span>
-        </label>
-        {{ end }}
-    </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Duration -->
+    <div class="filter-row collapsed" data-group="duration">
+      <div class="group-header" role="button" tabindex="0" aria-expanded="false">
+        <span>Duration</span>
+        <span class="chevron">▸</span>
+      </div>
+      <div class="group-body inline-layout">
+        <div class="group-label inline">Duration:</div>
+        <div class="chips">
+          {{ range $d := (slice "4 wk" "6 wk" "8 wk" "2-3 mo" "4-6 mo" "6+ mo") }}
+          <label class="chip">
+            <input type="checkbox" class="duration-filter" value="{{ $d | lower }}" onchange="toggleChip(this)">
+            <span>{{ $d }}</span>
+          </label>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+    <!-- Subject -->
+    <div class="filter-row collapsed" data-group="subject">
+      <div class="group-header" role="button" tabindex="0" aria-expanded="false">
+        <span>Subject</span>
+        <span class="chevron">▸</span>
+      </div>
+      <div class="group-body inline-layout">
+        <div class="group-label inline">Subject:</div>
+        <div class="chips">
+          {{ range $s := (slice "Math" "Robotics" "Game Development" "AI" "Computer Coding" "Science") }}
+          <label class="chip">
+            <input type="checkbox" class="subject-filter" value="{{ $s | lower }}" onchange="toggleChip(this)">
+            <span>{{ $s }}</span>
+          </label>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
+
+<script>
+  // Initialize default state and toggle logic for groups and subgroups
+  (function () {
+    const rows = document.querySelectorAll('.filter-row[data-group]');
+    const small = window.matchMedia('(max-width: 719.98px)');
+    const medium = window.matchMedia('(min-width: 720px) and (max-width: 1023.98px)');
+    const large = window.matchMedia('(min-width: 1024px)');
+
+    function setInitial() {
+      rows.forEach(row => {
+        // Main groups: open on medium/large; collapsed on small
+        if (large.matches || medium.matches) {
+          row.classList.remove('collapsed');
+          row.classList.add('open');
+          row.querySelector('.group-header')?.setAttribute('aria-expanded', 'true');
+        } else {
+          row.classList.add('collapsed');
+          row.classList.remove('open');
+          row.querySelector('.group-header')?.setAttribute('aria-expanded', 'false');
+        }
+
+        // Subgroups (Day/Schedule): collapsible only on small
+        row.querySelectorAll('.subgroup').forEach(sg => {
+          sg.classList.add('open');
+          sg.classList.remove('collapsed');
+          sg.querySelector('.subgroup-header')?.setAttribute('aria-expanded', 'true');
+        });
+      });
+    }
+
+    function toggleRow(header) {
+      const row = header.closest('.filter-row');
+      if (large.matches) return; // no toggle on large
+      const isCollapsed = row.classList.contains('collapsed');
+      row.classList.toggle('collapsed', !isCollapsed);
+      row.classList.toggle('open', isCollapsed);
+      header.setAttribute('aria-expanded', String(isCollapsed));
+    }
+
+    function toggleSubgroup(header) {
+      if (!small.matches) return; // only small screens
+      const sg = header.closest('.subgroup');
+      const isCollapsed = sg.classList.contains('collapsed');
+      sg.classList.toggle('collapsed', !isCollapsed);
+      sg.classList.toggle('open', isCollapsed);
+      header.setAttribute('aria-expanded', String(isCollapsed));
+    }
+
+    // Bind main group headers
+    rows.forEach(row => {
+      const header = row.querySelector('.group-header');
+      if (header) {
+        header.addEventListener('click', () => toggleRow(header));
+        header.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleRow(header); }
+        });
+      }
+    });
+
+    // Bind subgroup headers (Day & Schedule)
+    document.querySelectorAll('.subgroup-header').forEach(h => {
+      h.addEventListener('click', () => toggleSubgroup(h));
+      h.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleSubgroup(h); }
+      });
+    });
+
+    // Init and react to breakpoint changes
+    setInitial();
+    [small, medium, large].forEach(mq => mq.addEventListener('change', setInitial));
+  })();
+</script>

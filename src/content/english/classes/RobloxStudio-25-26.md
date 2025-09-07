@@ -8,7 +8,7 @@ subject_tags: ["Game Development"]
 price: 249.99
 category: "Session"
 price_unit: "6 weeks"
-duration: "6 weeks"
+duration: "6 wk"
 weight: "14"
 start_date: "2025-08-18"
 end_date: "2026-05-24"
@@ -18,7 +18,7 @@ page_title: "Roblox Studio: Make a game in 6 sessions"
 page_subtitle: "Foundations to Game Creation"
 ribbon: "Starts Sep 24"
 title: "Roblox Studio: Make a game in 6 sessions | Blue Ridge Boost"
-day_tags: ["Wednesday"]
+day_tags: ["Wed"]
 grade_tags: ["3rd","4th","5th"]
-featured: 172
+featured: 175
 ---

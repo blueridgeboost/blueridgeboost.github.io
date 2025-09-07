@@ -7,9 +7,9 @@ schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 325
 price_unit: "per month"
-duration: "4 to 6 Months"
+duration: "4-6 mo"
 category: "Ongoing"
-weight: "44"
+weight: "45"
 start_date: "2025-09-14"
 end_date: "2026-03-15"
 start_time: "5:30"
@@ -18,7 +18,7 @@ page_title: "Advanced VEX IQ (Grades 6 - 8)"
 page_subtitle: "Building Robots, Solving Challenges!"
 ribbon: "Starts Sep 18"
 title: "Advanced VEX IQ (Grades 6 - 8) | Blue Ridge Boost"
-day_tags: ["Thursday"]
+day_tags: ["Thu"]
 grade_tags: ["6th","7th","8th"]
-featured: 190
+featured: 194
 ---

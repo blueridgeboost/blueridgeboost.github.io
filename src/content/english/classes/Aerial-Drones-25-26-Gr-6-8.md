@@ -7,16 +7,16 @@ schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 199.99
 price_unit: "per month"
-duration: "4 to 6 Months"
+duration: "4-6 mo"
 category: "Ongoing"
-weight: "45"
+weight: "46"
 start_time: "3:00"
 end_time: "4:30"
 page_title: "Aerial Drone Competition for Grades 6-8"
 page_subtitle: "Sky High Challenge: Piloting and Coding"
 ribbon: "Starts Sep 6"
 title: "Aerial Drone Competition for Grades 6-8 | Blue Ridge Boost"
-day_tags: ["Saturday"]
+day_tags: ["Sat"]
 grade_tags: ["6th","7th","8th"]
-featured: 201
+featured: 205
 ---

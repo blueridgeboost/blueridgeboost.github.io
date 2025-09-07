@@ -3677,8 +3677,8 @@
 
 <script
   crossorigin="anonymous"
-  integrity="sha256-WyoblZ3fYi79OvrgrShej9nLRTHVkyPVma0iAh9pJIA="
-  src="/js/scripts.min.5b2a1b959ddf622efd3afae0ad285e8fd9cb4531d59323d599ad22021f692480.js"></script>
+  integrity="sha256-3WP3q8xqm69rSJZItQt2OBoNKj9gm8eH8TsZz/4dYJQ="
+  src="/js/scripts.min.dd63f7abcc6a9baf6b489648b50b76381a0d2a3f609bc787f13b19cffe1d6094.js"></script>
 
 
 
@@ -4250,305 +4250,575 @@ twq('config','pam08');
 </section>
 <div class="container">
     
+    <style>
+   
+  .filter-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    background: #e6f0ff;
+  }
+
+   
+  .filter-range {
+    --fg: #0a1a33;
+    --muted: #173a74;
+    --accent: #0a4acb;
+    --accent-strong: #0738a0;
+    --chip-bg: #f4f8ff;
+    --chip-bg-hover: #ecf3ff;
+    --chip-bg-active: #dbe8ff;
+    --chip-br: 6px;
+    --border: #b7cffb;
+    --border-hover: #91b4fb;
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.5rem;
+    box-sizing: border-box;
+
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(10, 74, 203, 0.08);
+  }
+
+   
+  .filter-row {
+    display: flex;
+    flex-direction: column;  
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+
+   
+  .group-header {
+    display: none;  
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    font-weight: 700;
+    color: var(--muted);
+    font-size: 0.95rem;
+    padding: 0.4rem 0.5rem;
+    user-select: none;
+    border-radius: 8px;
+  }
+  .group-header:hover { background: #f6f9ff; }
+  .group-header .chevron {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .filter-row.collapsed .group-header .chevron { transform: rotate(-90deg); }
+  .filter-row.open .group-header .chevron { transform: rotate(0deg); }
+
+   
+  .group-body { display: block; }
+  .filter-row.collapsed .group-body { display: none; }
+
+   
+  .group-label.inline {
+    font-weight: 600;
+    color: var(--muted);
+    font-size: 0.9rem;
+    white-space: nowrap;
+    margin: 0 0.5rem 0.3rem 0;  
+    flex: 0 0 auto;
+  }
+
+   
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+
+   
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    background: var(--chip-bg);
+    border-radius: var(--chip-br);
+    padding: 0.28rem 0.55rem;
+    font-size: 0.78rem;
+    line-height: 1.2;
+    border: 1px solid var(--border);
+    cursor: pointer;
+    transition: background 0.2s ease, border-color 0.2s ease;
+  }
+  .chip:hover { border-color: var(--border-hover); background: var(--chip-bg-hover); }
+  .chip.active { background: var(--chip-bg-active); border-color: var(--accent); color: var(--accent-strong); }
+  .chip input[type="checkbox"] { display: none; }
+
+   
+  .inline-row {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+
+   
+  .subgroup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .subgroup-header {
+    display: none;  
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    font-weight: 600;
+    color: var(--muted);
+    font-size: 0.9rem;
+    padding: 0.35rem 0.45rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    user-select: none;
+  }
+  .subgroup-header .chevron {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .subgroup.collapsed .subgroup-header .chevron { transform: rotate(-90deg); }
+  .subgroup.open .subgroup-header .chevron { transform: rotate(0deg); }
+  .subgroup-body { display: block; }
+  .subgroup.collapsed .subgroup-body { display: none; }
+
+   
+  @media (max-width: 360px) {
+    .filter-range { padding: 0.4rem; }
+    .group-header { padding: 0.35rem 0.4rem; font-size: 0.9rem; }
+    .subgroup-header { padding: 0.3rem 0.4rem; font-size: 0.88rem; }
+    .chips { gap: 0.25rem; }
+    .chip { padding: 0.26rem 0.5rem; font-size: 0.76rem; }
+  }
+
+   
+  @media (max-width: 719.98px) {
+    .group-header { display: flex; cursor: pointer; border: 1px solid var(--border); }
+    .group-label.inline { display: none; }  
+    .filter-row { border: 1px solid var(--border); border-radius: 8px; padding: 0.25rem; }
+    .inline-row { flex-direction: column; gap: 0.5rem; }
+    .subgroup-header { display: flex; cursor: pointer; }
+  }
+
+   
+  @media (min-width: 720px) and (max-width: 1023.98px) {
+    .group-header {
+      display: flex;
+      cursor: pointer;
+      padding: 0.4rem 0.5rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+    .group-header .chevron { display: inline-block; }
+    .group-label.inline { display: none; }
+    .filter-row { border: 1px solid var(--border); border-radius: 8px; padding: 0.25rem; }
+
+    .inline-row { flex-direction: column; gap: 0.75rem; }
+    .subgroup-header { display: none; }
+  }
+
+   
+  @media (min-width: 1024px) {
+  .group-header { display: none; }
+  .group-body { display: block !important; }
+
+   
+  .group-body.inline-layout {
+    display: flex !important;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: nowrap;
+  }
+  .group-body.inline-layout .group-label.inline {
+    display: inline !important;
+    margin: 0 !important;         
+    white-space: nowrap;
+    flex: 0 0 auto;
+  }
+  .group-body.inline-layout .chips {
+    flex: 1 1 auto;
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;              
+    gap: 0.3rem;
+  }
+
+   
+  .inline-row { flex-direction: row; gap: 1rem; align-items: center; }
+  .subgroup .subgroup-body {
+    display: flex !important;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: nowrap;
+  }
+  .subgroup .group-label.inline {
+    display: inline !important;
+    margin: 0 !important;
+    white-space: nowrap;
+    flex: 0 0 auto;
+  }
+  .subgroup .chips {
+    flex: 1 1 auto;
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+}
+</style>
+
+<div class="filter-wrap">
+  <div class="filter-range">
+
     
+    <div class="filter-row collapsed" data-group="grade">
+      <div class="group-header" role="button" tabindex="0" aria-expanded="false">
+        <span>Grade</span>
+        <span class="chevron">▸</span>
+      </div>
+      <div class="group-body inline-layout">
+        <div class="group-label inline">Grade:</div>
+        <div class="chips">
+          
+          <label class="chip">
+            <input type="checkbox" class="grade-filter" value="1st" onchange="toggleChip(this)">
+            <span>1st</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="grade-filter" value="2nd" onchange="toggleChip(this)">
+            <span>2nd</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="grade-filter" value="3rd" onchange="toggleChip(this)">
+            <span>3rd</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="grade-filter" value="4th" onchange="toggleChip(this)">
+            <span>4th</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="grade-filter" value="5th" onchange="toggleChip(this)">
+            <span>5th</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="grade-filter" value="6th" onchange="toggleChip(this)">
+            <span>6th</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="grade-filter" value="7th" onchange="toggleChip(this)">
+            <span>7th</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="grade-filter" value="8th" onchange="toggleChip(this)">
+            <span>8th</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="grade-filter" value="9th" onchange="toggleChip(this)">
+            <span>9th</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="grade-filter" value="10th" onchange="toggleChip(this)">
+            <span>10th</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="grade-filter" value="11th" onchange="toggleChip(this)">
+            <span>11th</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="grade-filter" value="12th" onchange="toggleChip(this)">
+            <span>12th</span>
+          </label>
+          
+        </div>
+      </div>
+    </div>
 
+    
+    <div class="filter-row collapsed" data-group="day-schedule">
+      <div class="group-header" role="button" tabindex="0" aria-expanded="false">
+        <span>Schedule Options</span>
+        <span class="chevron">▸</span>
+      </div>
+      <div class="group-body">
+        <div class="inline-row">
 
-<div class="filter-range" style="width: 95%;">
-    <em>Filter Classes:</em>
-    <p>
-         <b>Grade:&nbsp;&nbsp;</b>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="grade-filter" value="1st" onchange="filterClasses()"> 1st
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="grade-filter" value="2nd" onchange="filterClasses()"> 2nd
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="grade-filter" value="3rd" onchange="filterClasses()"> 3rd
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="grade-filter" value="4th" onchange="filterClasses()"> 4th
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="grade-filter" value="5th" onchange="filterClasses()"> 5th
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="grade-filter" value="6th" onchange="filterClasses()"> 6th
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="grade-filter" value="7th" onchange="filterClasses()"> 7th
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="grade-filter" value="8th" onchange="filterClasses()"> 8th
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="grade-filter" value="9th" onchange="filterClasses()"> 9th
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="grade-filter" value="10th" onchange="filterClasses()"> 10th
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="grade-filter" value="11th" onchange="filterClasses()"> 11th
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="grade-filter" value="12th" onchange="filterClasses()"> 12th
-            </span>
-        </label>
-        
-    </p>
-    <p>
-        <b>Day:&nbsp;&nbsp;</b>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="day-filter" value="Monday" onchange="filterClasses()"> Monday
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="day-filter" value="Tuesday" onchange="filterClasses()"> Tuesday
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="day-filter" value="Wednesday" onchange="filterClasses()"> Wednesday
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="day-filter" value="Thursday" onchange="filterClasses()"> Thursday
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="day-filter" value="Friday" onchange="filterClasses()"> Friday
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="day-filter" value="Saturday" onchange="filterClasses()"> Saturday
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="day-filter" value="Sunday" onchange="filterClasses()"> Sunday
-            </span>
-        </label>
-        
-    </p>
-    <p>
-        <b>Subject:&nbsp;&nbsp;</b>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="subject-filter" 
-                value="Math" 
+          
+          <div class="subgroup open" data-subgroup="day">
+            <div class="subgroup-header" role="button" tabindex="0" aria-expanded="true">
+              <span>Day</span>
+              <span class="chevron">▸</span>
+            </div>
+            <div class="subgroup-body">
+              <div class="group-label inline">Day:</div>
+              <div class="chips">
                 
-                onchange="filterClasses()"> Math
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="subject-filter" 
-                value="Robotics" 
+                <label class="chip">
+                  <input type="checkbox" class="day-filter" value="mon" onchange="toggleChip(this)">
+                  <span>Mon</span>
+                </label>
                 
-                onchange="filterClasses()"> Robotics
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="subject-filter" 
-                value="Game Development" 
+                <label class="chip">
+                  <input type="checkbox" class="day-filter" value="tue" onchange="toggleChip(this)">
+                  <span>Tue</span>
+                </label>
                 
-                onchange="filterClasses()"> Game Development
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="subject-filter" 
-                value="AI" 
+                <label class="chip">
+                  <input type="checkbox" class="day-filter" value="wed" onchange="toggleChip(this)">
+                  <span>Wed</span>
+                </label>
                 
-                onchange="filterClasses()"> AI
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="subject-filter" 
-                value="Computer Coding" 
+                <label class="chip">
+                  <input type="checkbox" class="day-filter" value="thu" onchange="toggleChip(this)">
+                  <span>Thu</span>
+                </label>
                 
-                onchange="filterClasses()"> Computer Coding
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="subject-filter" 
-                value="Science" 
-                 
-                    checked
+                <label class="chip">
+                  <input type="checkbox" class="day-filter" value="fri" onchange="toggleChip(this)">
+                  <span>Fri</span>
+                </label>
                 
-                onchange="filterClasses()"> Science
-            </span>
-        </label>
-        
-    </p>
-    <p>
-        <b>Schedule Type:&nbsp;&nbsp;</b>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="schedule-filter" 
-                value="Starting Soon" 
+                <label class="chip">
+                  <input type="checkbox" class="day-filter" value="sat" onchange="toggleChip(this)">
+                  <span>Sat</span>
+                </label>
                 
-                onchange="filterClasses()"> Starting Soon
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="schedule-filter" 
-                value="On-Demand" 
+                <label class="chip">
+                  <input type="checkbox" class="day-filter" value="sun" onchange="toggleChip(this)">
+                  <span>Sun</span>
+                </label>
                 
-                onchange="filterClasses()"> On-Demand
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="schedule-filter" 
-                value="Join Now" 
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="subgroup open" data-subgroup="schedule">
+            <div class="subgroup-header" role="button" tabindex="0" aria-expanded="true">
+              <span>Schedule</span>
+              <span class="chevron">▸</span>
+            </div>
+            <div class="subgroup-body">
+              <div class="group-label inline">Schedule:</div>
+              <div class="chips">
                 
-                onchange="filterClasses()"> Join Now
-            </span>
-        </label>
-        
-    </p>
-    <p>
-        <b>Duration:&nbsp;&nbsp;</b>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="duration-filter" 
-                value="4 weeks" 
-                onchange="filterClasses()"> 4 weeks
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="duration-filter" 
-                value="6 weeks" 
-                onchange="filterClasses()"> 6 weeks
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="duration-filter" 
-                value="8 weeks" 
-                onchange="filterClasses()"> 8 weeks
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="duration-filter" 
-                value="2 to 3 Months" 
-                onchange="filterClasses()"> 2 to 3 Months
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="duration-filter" 
-                value="4 to 6 Months" 
-                onchange="filterClasses()"> 4 to 6 Months
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="duration-filter" 
-                value="6 Months&#43;" 
-                onchange="filterClasses()"> 6 Months&#43;
-            </span>
-        </label>
-        
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="duration-filter" 
-                value="Flexible" 
-                onchange="filterClasses()"> Flexible
-            </span>
-        </label>
-        
-    </p>
+                <label class="chip">
+                  <input type="checkbox" class="schedule-filter" value="starting soon" onchange="toggleChip(this)">
+                  <span>Starting Soon</span>
+                </label>
+                
+                <label class="chip">
+                  <input type="checkbox" class="schedule-filter" value="join now" onchange="toggleChip(this)">
+                  <span>Join Now</span>
+                </label>
+                
+                <label class="chip">
+                  <input type="checkbox" class="schedule-filter" value="on-demand" onchange="toggleChip(this)">
+                  <span>On-Demand</span>
+                </label>
+                
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="filter-row collapsed" data-group="duration">
+      <div class="group-header" role="button" tabindex="0" aria-expanded="false">
+        <span>Duration</span>
+        <span class="chevron">▸</span>
+      </div>
+      <div class="group-body inline-layout">
+        <div class="group-label inline">Duration:</div>
+        <div class="chips">
+          
+          <label class="chip">
+            <input type="checkbox" class="duration-filter" value="4 wk" onchange="toggleChip(this)">
+            <span>4 wk</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="duration-filter" value="6 wk" onchange="toggleChip(this)">
+            <span>6 wk</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="duration-filter" value="8 wk" onchange="toggleChip(this)">
+            <span>8 wk</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="duration-filter" value="2-3 mo" onchange="toggleChip(this)">
+            <span>2-3 mo</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="duration-filter" value="4-6 mo" onchange="toggleChip(this)">
+            <span>4-6 mo</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="duration-filter" value="6&#43; mo" onchange="toggleChip(this)">
+            <span>6&#43; mo</span>
+          </label>
+          
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="filter-row collapsed" data-group="subject">
+      <div class="group-header" role="button" tabindex="0" aria-expanded="false">
+        <span>Subject</span>
+        <span class="chevron">▸</span>
+      </div>
+      <div class="group-body inline-layout">
+        <div class="group-label inline">Subject:</div>
+        <div class="chips">
+          
+          <label class="chip">
+            <input type="checkbox" class="subject-filter" value="math" onchange="toggleChip(this)">
+            <span>Math</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="subject-filter" value="robotics" onchange="toggleChip(this)">
+            <span>Robotics</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="subject-filter" value="game development" onchange="toggleChip(this)">
+            <span>Game Development</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="subject-filter" value="ai" onchange="toggleChip(this)">
+            <span>AI</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="subject-filter" value="computer coding" onchange="toggleChip(this)">
+            <span>Computer Coding</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="subject-filter" value="science" onchange="toggleChip(this)">
+            <span>Science</span>
+          </label>
+          
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
+
+<script>
+  
+  (function () {
+    const rows = document.querySelectorAll('.filter-row[data-group]');
+    const small = window.matchMedia('(max-width: 719.98px)');
+    const medium = window.matchMedia('(min-width: 720px) and (max-width: 1023.98px)');
+    const large = window.matchMedia('(min-width: 1024px)');
+
+    function setInitial() {
+      rows.forEach(row => {
+        
+        if (large.matches || medium.matches) {
+          row.classList.remove('collapsed');
+          row.classList.add('open');
+          row.querySelector('.group-header')?.setAttribute('aria-expanded', 'true');
+        } else {
+          row.classList.add('collapsed');
+          row.classList.remove('open');
+          row.querySelector('.group-header')?.setAttribute('aria-expanded', 'false');
+        }
+
+        
+        row.querySelectorAll('.subgroup').forEach(sg => {
+          sg.classList.add('open');
+          sg.classList.remove('collapsed');
+          sg.querySelector('.subgroup-header')?.setAttribute('aria-expanded', 'true');
+        });
+      });
+    }
+
+    function toggleRow(header) {
+      const row = header.closest('.filter-row');
+      if (large.matches) return; 
+      const isCollapsed = row.classList.contains('collapsed');
+      row.classList.toggle('collapsed', !isCollapsed);
+      row.classList.toggle('open', isCollapsed);
+      header.setAttribute('aria-expanded', String(isCollapsed));
+    }
+
+    function toggleSubgroup(header) {
+      if (!small.matches) return; 
+      const sg = header.closest('.subgroup');
+      const isCollapsed = sg.classList.contains('collapsed');
+      sg.classList.toggle('collapsed', !isCollapsed);
+      sg.classList.toggle('open', isCollapsed);
+      header.setAttribute('aria-expanded', String(isCollapsed));
+    }
+
     
+    rows.forEach(row => {
+      const header = row.querySelector('.group-header');
+      if (header) {
+        header.addEventListener('click', () => toggleRow(header));
+        header.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleRow(header); }
+        });
+      }
+    });
+
+    
+    document.querySelectorAll('.subgroup-header').forEach(h => {
+      h.addEventListener('click', () => toggleSubgroup(h));
+      h.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleSubgroup(h); }
+      });
+    });
+
+    
+    setInitial();
+    [small, medium, large].forEach(mq => mq.addEventListener('change', setInitial));
+  })();
+</script>
+    
+    <p>&nbsp;</p>
+
     <div class="container" >
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-4 row-cols-xl-5 g-3"  
-        style="row-gap: 1rem; display: flex; justify-content: center;"
+        style="row-gap: 5rem; display: flex; justify-content: center;"
         >
             
             
@@ -4562,7 +4832,7 @@ id = "class-769854774"
   data-day='[]'
 
 
-	data-duration='6 Months&#43;'
+	data-duration='6&#43; mo'
 
 data-schedule='On-Demand' 
 data-grade='1st' 
@@ -4676,10 +4946,10 @@ class="ecsp-media"
 <div
 id = "class-766843587"
 
-  data-day='Monday'
+  data-day='Mon'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='1st#2nd' 
@@ -4702,7 +4972,7 @@ class="ecsp-media"
         
             
                 
-                     Mondays  
+                     Mons  
                 
              
         
@@ -4775,10 +5045,10 @@ class="ecsp-media"
 <div
 id = "class-770296997"
 
-  data-day='Tuesday'
+  data-day='Tue'
 
 
-	data-duration='2 to 3 Months'
+	data-duration='2-3 mo'
 
 data-schedule='Join Now' 
 data-grade='1st#2nd' 
@@ -4801,7 +5071,7 @@ class="ecsp-media"
         
             
                 
-                     Tuesdays  
+                     Tues  
                 
              
         
@@ -4874,10 +5144,10 @@ class="ecsp-media"
 <div
 id = "class-770957433"
 
-  data-day='Wednesday'
+  data-day='Wed'
 
 
-	data-duration='2 to 3 Months'
+	data-duration='2-3 mo'
 
 data-schedule='Starting Soon' 
 data-grade='1st#2nd' 
@@ -4900,7 +5170,7 @@ class="ecsp-media"
         
             
                 
-                     Wednesdays  
+                     Weds  
                 
              
         
@@ -4973,10 +5243,10 @@ class="ecsp-media"
 <div
 id = "class-713296284"
 
-  data-day='Saturday'
+  data-day='Sat'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='1st#2nd' 
@@ -4999,7 +5269,7 @@ class="ecsp-media"
         
             
                 
-                     Saturdays  
+                     Sats  
                 
              
         
@@ -5260,10 +5530,10 @@ class="ecsp-media"
 <div
 id = "class-766835284"
 
-  data-day='Monday'
+  data-day='Mon'
 
 
-	data-duration='6 weeks'
+	data-duration='6 wk'
 
 data-schedule='Starting Soon' 
 data-grade='2nd#3rd#4th' 
@@ -5286,7 +5556,7 @@ class="ecsp-media"
         
             
                 
-                     Mondays  
+                     Mons  
                 
              
         
@@ -5359,7 +5629,7 @@ class="ecsp-media"
 <div
 id = "class-767683655"
 
-  data-day='Monday#Wednesday'
+  data-day='Mon#Wed'
 
 
 	data-duration='Flexible'
@@ -5385,7 +5655,7 @@ class="ecsp-media"
         
             
                 
-                    Mondays, Wednesdays
+                    Mons, Weds
                 
              
         
@@ -5456,7 +5726,7 @@ class="ecsp-media"
 <div
 id = "class-769796743"
 
-  data-day='Tuesday#Thursday'
+  data-day='Tue#Thu'
 
 
 	data-duration='Flexible'
@@ -5482,7 +5752,7 @@ class="ecsp-media"
         
             
                 
-                    Tuesdays, Thursdays
+                    Tues, Thus
                 
              
         
@@ -5553,10 +5823,10 @@ class="ecsp-media"
 <div
 id = "class-770313511"
 
-  data-day='Tuesday'
+  data-day='Tue'
 
 
-	data-duration='2 to 3 Months'
+	data-duration='2-3 mo'
 
 data-schedule='Join Now' 
 data-grade='3rd#4th' 
@@ -5579,7 +5849,7 @@ class="ecsp-media"
         
             
                 
-                     Tuesdays  
+                     Tues  
                 
              
         
@@ -5652,10 +5922,10 @@ class="ecsp-media"
 <div
 id = "class-767683704"
 
-  data-day='Tuesday'
+  data-day='Tue'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Join Now' 
 data-grade='3rd#4th#5th' 
@@ -5678,7 +5948,7 @@ class="ecsp-media"
         
             
                 
-                     Tuesdays  
+                     Tues  
                 
              
         
@@ -5751,10 +6021,10 @@ class="ecsp-media"
 <div
 id = "class-770348863"
 
-  data-day='Tuesday'
+  data-day='Tue'
 
 
-	data-duration='4 weeks'
+	data-duration='4 wk'
 
 data-schedule='Starting Soon' 
 data-grade='3rd#4th#5th' 
@@ -5777,7 +6047,7 @@ class="ecsp-media"
         
             
                 
-                     Tuesdays  
+                     Tues  
                 
              
         
@@ -5850,7 +6120,7 @@ class="ecsp-media"
 <div
 id = "class-770960898"
 
-  data-day='Wednesday'
+  data-day='Wed'
 
 
 	data-duration='[]'
@@ -5876,7 +6146,7 @@ class="ecsp-media"
         
             
                 
-                     Wednesdays  
+                     Weds  
                 
              
         
@@ -5949,10 +6219,10 @@ class="ecsp-media"
 <div
 id = "class-767686686"
 
-  data-day='Wednesday'
+  data-day='Wed'
 
 
-	data-duration='6 weeks'
+	data-duration='6 wk'
 
 data-schedule='Starting Soon' 
 data-grade='3rd#4th#5th' 
@@ -5975,7 +6245,7 @@ class="ecsp-media"
         
             
                 
-                     Wednesdays  
+                     Weds  
                 
              
         
@@ -6048,10 +6318,10 @@ class="ecsp-media"
 <div
 id = "class-770334947"
 
-  data-day='Saturday'
+  data-day='Sat'
 
 
-	data-duration='2 to 3 Months'
+	data-duration='2-3 mo'
 
 data-schedule='Starting Soon' 
 data-grade='3rd#4th' 
@@ -6074,7 +6344,7 @@ class="ecsp-media"
         
             
                 
-                     Saturdays  
+                     Sats  
                 
              
         
@@ -6147,10 +6417,10 @@ class="ecsp-media"
 <div
 id = "class-770373627"
 
-  data-day='Saturday'
+  data-day='Sat'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='3rd#4th#5th' 
@@ -6173,7 +6443,7 @@ class="ecsp-media"
         
             
                 
-                     Saturdays  
+                     Sats  
                 
              
         
@@ -6246,7 +6516,7 @@ class="ecsp-media"
 <div
 id = "class-770334898"
 
-  data-day='Sunday'
+  data-day='Sun'
 
 
 	data-duration='[]'
@@ -6272,7 +6542,7 @@ class="ecsp-media"
         
             
                 
-                     Sundays  
+                     Suns  
                 
              
         
@@ -6345,7 +6615,7 @@ class="ecsp-media"
 <div
 id = "class-771060851"
 
-  data-day='Sunday'
+  data-day='Sun'
 
 
 	data-duration='[]'
@@ -6371,7 +6641,7 @@ class="ecsp-media"
         
             
                 
-                     Sundays  
+                     Suns  
                 
              
         
@@ -6539,10 +6809,10 @@ class="ecsp-media"
 <div
 id = "class-778287221"
 
-  data-day='Sunday'
+  data-day='Sun'
 
 
-	data-duration='4 weeks'
+	data-duration='4 wk'
 
 data-schedule='Starting Soon' 
 data-grade='3rd#4th' 
@@ -6565,7 +6835,7 @@ class="ecsp-media"
         
             
                 
-                     Sundays  
+                     Suns  
                 
              
         
@@ -6638,10 +6908,10 @@ class="ecsp-media"
 <div
 id = "class-770348872"
 
-  data-day='Sunday'
+  data-day='Sun'
 
 
-	data-duration='4 weeks'
+	data-duration='4 wk'
 
 data-schedule='Starting Soon' 
 data-grade='3rd#4th#5th' 
@@ -6664,7 +6934,7 @@ class="ecsp-media"
         
             
                 
-                     Sundays  
+                     Suns  
                 
              
         
@@ -6737,10 +7007,10 @@ class="ecsp-media"
 <div
 id = "class-767782567"
 
-  data-day='Monday'
+  data-day='Mon'
 
 
-	data-duration='2 to 3 Months'
+	data-duration='2-3 mo'
 
 data-schedule='Starting Soon' 
 data-grade='4th#5th' 
@@ -6763,7 +7033,7 @@ class="ecsp-media"
         
             
                 
-                     Mondays  
+                     Mons  
                 
              
         
@@ -6931,7 +7201,7 @@ class="ecsp-media"
 <div
 id = "class-767683652"
 
-  data-day='Monday#Wednesday'
+  data-day='Mon#Wed'
 
 
 	data-duration='Flexible'
@@ -6957,7 +7227,7 @@ class="ecsp-media"
         
             
                 
-                    Mondays, Wednesdays
+                    Mons, Weds
                 
              
         
@@ -7028,10 +7298,10 @@ class="ecsp-media"
 <div
 id = "class-766789657"
 
-  data-day='Monday'
+  data-day='Mon'
 
 
-	data-duration='6 weeks'
+	data-duration='6 wk'
 
 data-schedule='Starting Soon' 
 data-grade='4th#5th' 
@@ -7054,7 +7324,7 @@ class="ecsp-media"
         
             
                 
-                     Mondays  
+                     Mons  
                 
              
         
@@ -7127,7 +7397,7 @@ class="ecsp-media"
 <div
 id = "class-769796745"
 
-  data-day='Tuesday#Thursday'
+  data-day='Tue#Thu'
 
 
 	data-duration='Flexible'
@@ -7153,7 +7423,7 @@ class="ecsp-media"
         
             
                 
-                    Tuesdays, Thursdays
+                    Tues, Thus
                 
              
         
@@ -7224,10 +7494,10 @@ class="ecsp-media"
 <div
 id = "class-768907151"
 
-  data-day='Thursday'
+  data-day='Thu'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='4th#5th' 
@@ -7250,7 +7520,7 @@ class="ecsp-media"
         
             
                 
-                     Thursdays  
+                     Thus  
                 
              
         
@@ -7326,7 +7596,7 @@ id = "class-766777404"
   data-day='[]'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='On-Demand' 
 data-grade='5th#6th#7th#8th' 
@@ -7418,7 +7688,7 @@ class="ecsp-media"
 <div
 id = "class-767683654"
 
-  data-day='Tuesday#Thursday'
+  data-day='Tue#Thu'
 
 
 	data-duration='Flexible'
@@ -7444,7 +7714,7 @@ class="ecsp-media"
         
             
                 
-                    Tuesdays, Thursdays
+                    Tues, Thus
                 
              
         
@@ -7515,10 +7785,10 @@ class="ecsp-media"
 <div
 id = "class-767680490"
 
-  data-day='Tuesday'
+  data-day='Tue'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='5th#6th' 
@@ -7541,7 +7811,7 @@ class="ecsp-media"
         
             
                 
-                     Tuesdays  
+                     Tues  
                 
              
         
@@ -7614,10 +7884,10 @@ class="ecsp-media"
 <div
 id = "class-770348971"
 
-  data-day='Saturday'
+  data-day='Sat'
 
 
-	data-duration='2 to 3 Months'
+	data-duration='2-3 mo'
 
 data-schedule='Starting Soon' 
 data-grade='5th#6th#7th' 
@@ -7640,7 +7910,7 @@ class="ecsp-media"
         
             
                 
-                     Saturdays  
+                     Sats  
                 
              
         
@@ -7713,10 +7983,10 @@ class="ecsp-media"
 <div
 id = "class-767750671"
 
-  data-day='Saturday'
+  data-day='Sat'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='5th#6th' 
@@ -7739,7 +8009,7 @@ class="ecsp-media"
         
             
                 
-                     Saturdays  
+                     Sats  
                 
              
         
@@ -7812,10 +8082,10 @@ class="ecsp-media"
 <div
 id = "class-767742460"
 
-  data-day='Sunday'
+  data-day='Sun'
 
 
-	data-duration='6 Months&#43;'
+	data-duration='6&#43; mo'
 
 data-schedule='Starting Soon' 
 data-grade='5th#6th' 
@@ -7838,7 +8108,7 @@ class="ecsp-media"
         
             
                 
-                     Sundays  
+                     Suns  
                 
              
         
@@ -7911,7 +8181,7 @@ class="ecsp-media"
 <div
 id = "class-770334986"
 
-  data-day='Sunday'
+  data-day='Sun'
 
 
 	data-duration='Flexible'
@@ -7937,7 +8207,7 @@ class="ecsp-media"
         
             
                 
-                     Sundays  
+                     Suns  
                 
              
         
@@ -8010,7 +8280,7 @@ class="ecsp-media"
 <div
 id = "class-771060848"
 
-  data-day='Sunday'
+  data-day='Sun'
 
 
 	data-duration='[]'
@@ -8036,7 +8306,7 @@ class="ecsp-media"
         
             
                 
-                     Sundays  
+                     Suns  
                 
              
         
@@ -8109,10 +8379,10 @@ class="ecsp-media"
 <div
 id = "class-766842076"
 
-  data-day='Sunday'
+  data-day='Sun'
 
 
-	data-duration='4 weeks'
+	data-duration='4 wk'
 
 data-schedule='Starting Soon' 
 data-grade='5th#6th' 
@@ -8135,7 +8405,7 @@ class="ecsp-media"
         
             
                 
-                     Sundays  
+                     Suns  
                 
              
         
@@ -8208,10 +8478,10 @@ class="ecsp-media"
 <div
 id = "class-779333541"
 
-  data-day='Wednesday'
+  data-day='Wed'
 
 
-	data-duration='6 Months&#43;'
+	data-duration='6&#43; mo'
 
 data-schedule='Starting Soon' 
 data-grade='5th#6th#7th#8th' 
@@ -8234,7 +8504,7 @@ class="ecsp-media"
         
             
                 
-                     Wednesdays  
+                     Weds  
                 
              
         
@@ -8307,10 +8577,10 @@ class="ecsp-media"
 <div
 id = "class-768244858"
 
-  data-day='Monday'
+  data-day='Mon'
 
 
-	data-duration='2 to 3 Months'
+	data-duration='2-3 mo'
 
 data-schedule='Starting Soon' 
 data-grade='6th#7th#8th' 
@@ -8333,7 +8603,7 @@ class="ecsp-media"
         
             
                 
-                     Mondays  
+                     Mons  
                 
              
         
@@ -8499,7 +8769,7 @@ class="ecsp-media"
 <div
 id = "class-767680409"
 
-  data-day='Tuesday#Thursday'
+  data-day='Tue#Thu'
 
 
 	data-duration='Flexible'
@@ -8525,7 +8795,7 @@ class="ecsp-media"
         
             
                 
-                    Tuesdays, Thursdays
+                    Tues, Thus
                 
              
         
@@ -8596,7 +8866,7 @@ class="ecsp-media"
 <div
 id = "class-767154072"
 
-  data-day='Tuesday'
+  data-day='Tue'
 
 
 	data-duration='[]'
@@ -8622,7 +8892,7 @@ class="ecsp-media"
         
             
                 
-                     Tuesdays  
+                     Tues  
                 
              
         
@@ -8698,7 +8968,7 @@ id = "class-767683684"
   data-day='[]'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='On-Demand' 
 data-grade='6th#7th#8th' 
@@ -8788,12 +9058,107 @@ class="ecsp-media"
                     
 
 <div
+id = "class-779858442"
+
+  data-day='[]'
+
+
+	data-duration='4-6 mo'
+
+data-schedule='On-Demand' 
+data-grade='6th#7th#8th' 
+data-subject='Robotics'
+style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0.25rem;"
+class="ecsp-media"
+>
+    
+        <span class="ecsp-ribbon">On Demand</span> 
+    
+    <div class="ecsp ecsp-SingleProduct-v2 ecsp-SingleProduct-v2-bordered ecsp-SingleProduct-v2-centered 
+    ecsp-Product ec-Product-779858442" itemscope itemtype="http://schema.org/Product" data-single-product-id="779858442">
+    <a href="/classes/CMRA-VEX-Coding-25-26/" class="ecsp-image-link">
+      <div class="ecsp-image" itemprop="image"></div>
+      
+    </a>
+
+        
+        
+        
+            Pick a day and time
+        
+        
+            <br>
+        
+        
+            
+                Grades:
+                6th
+                
+                    to 8th
+                
+                <br>
+            
+        
+        
+        <div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
+            <div class="ecsp-productBrowser-price ecsp-price" style="display:none" itemprop="price" content="159.99" 
+                data-spw-price-location="button">
+                <div itemprop="priceCurrency" content="USD"></div>
+            </div>
+        </div>
+		$159.99 per month
+        
+    </div>
+    <script type="text/javascript"> 
+        window.ec=window.ec||{}; 
+        window.ec.storefront=window.ec.storefront||{}; 
+        window.ec.storefront.enable_navigation=true;
+        window.ec.storefront.product_details_layout="THREE_COLUMNS_SIDEBAR_ON_THE_RIGHT";
+        window.ec.storefront.product_details_gallery_layout="SINGLE_IMAGE";
+        window.ec.storefront.product_details_two_columns_with_right_sidebar_show_product_description_on_sidebar=false;
+        window.ec.storefront.product_details_two_columns_with_left_sidebar_show_product_description_on_sidebar=false;
+        window.ec.storefront.product_details_show_product_name=true;
+        window.ec.storefront.product_details_show_breadcrumbs=false;
+        window.ec.storefront.product_details_show_product_sku=false;
+        window.ec.storefront.product_details_show_product_price=true;
+        window.ec.storefront.product_details_show_in_stock_label=true;
+        window.ec.storefront.product_details_show_number_of_items_in_stock=true;
+        window.ec.storefront.product_details_show_qty=false;
+        window.ec.storefront.product_details_show_wholesale_prices=false;
+        window.ec.storefront.product_details_show_product_options=true;
+        window.ec.storefront.product_details_show_product_description=true;
+        window.ec.storefront.product_details_show_delivery_time=undefined;
+        window.ec.storefront.product_details_show_share_buttons=false;
+        window.ec.storefront.product_details_position_product_name=100;
+        window.ec.storefront.product_details_position_breadcrumbs=200;
+        window.ec.storefront.product_details_position_product_sku=300;
+        window.ec.storefront.product_details_position_product_price=400;
+        window.ec.storefront.product_details_position_product_options=undefined;
+        window.ec.storefront.product_details_position_buy_button=600;
+        window.ec.storefront.product_details_position_wholesale_prices=700;
+        window.ec.storefront.product_details_position_product_description=900;
+        window.ec.storefront.product_details_position_delivery_time=undefined;
+        window.ec.storefront.product_details_position_share_buttons=800;
+        window.ec.storefront.product_details_position_subtitle=500;
+        window.ec.storefront.product_details_show_subtitle=true;
+    </script>
+    <script data-cfasync="false" type="text/javascript" 
+        src="https://app.ecwid.com/script.js?106136041&data_platform=singleproduct_v2" charset="utf-8"></script>
+    <script type="text/javascript">xProduct()</script>    
+</div> 
+
+                
+            
+                
+                    
+
+<div
 id = "class-770949426"
 
-  data-day='Wednesday'
+  data-day='Wed'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='6th#7th#8th' 
@@ -8816,7 +9181,7 @@ class="ecsp-media"
         
             
                 
-                     Wednesdays  
+                     Weds  
                 
              
         
@@ -8889,10 +9254,10 @@ class="ecsp-media"
 <div
 id = "class-769260824"
 
-  data-day='Thursday'
+  data-day='Thu'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='6th#7th#8th' 
@@ -8915,7 +9280,7 @@ class="ecsp-media"
         
             
                 
-                     Thursdays  
+                     Thus  
                 
              
         
@@ -8988,10 +9353,10 @@ class="ecsp-media"
 <div
 id = "class-770334954"
 
-  data-day='Saturday'
+  data-day='Sat'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='6th#7th#8th' 
@@ -9014,7 +9379,7 @@ class="ecsp-media"
         
             
                 
-                     Saturdays  
+                     Sats  
                 
              
         
@@ -9087,10 +9452,10 @@ class="ecsp-media"
 <div
 id = "class-766842181"
 
-  data-day='Monday'
+  data-day='Mon'
 
 
-	data-duration='6 Months&#43;'
+	data-duration='6&#43; mo'
 
 data-schedule='Join Now' 
 data-grade='7th#8th#9th#10th#11th#12th' 
@@ -9113,7 +9478,7 @@ class="ecsp-media"
         
             
                 
-                     Mondays  
+                     Mons  
                 
              
         
@@ -9186,10 +9551,10 @@ class="ecsp-media"
 <div
 id = "class-769259348"
 
-  data-day='Monday'
+  data-day='Mon'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Join Now' 
 data-grade='7th#8th#9th#10th#11th#12th' 
@@ -9212,7 +9577,7 @@ class="ecsp-media"
         
             
                 
-                     Mondays  
+                     Mons  
                 
              
         
@@ -9380,10 +9745,10 @@ class="ecsp-media"
 <div
 id = "class-767793057"
 
-  data-day='Tuesday'
+  data-day='Tue'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='7th#8th#9th#10th#11th#12th' 
@@ -9406,7 +9771,7 @@ class="ecsp-media"
         
             
                 
-                     Tuesdays  
+                     Tues  
                 
              
         
@@ -9479,10 +9844,10 @@ class="ecsp-media"
 <div
 id = "class-779543127"
 
-  data-day='Friday'
+  data-day='Fri'
 
 
-	data-duration='8 weeks'
+	data-duration='8 wk'
 
 data-schedule='Starting Soon' 
 data-grade='7th#8th#9th#10th#11th#12th' 
@@ -9505,7 +9870,7 @@ class="ecsp-media"
         
             
                 
-                     Fridays  
+                     Fris  
                 
              
         
@@ -9581,7 +9946,7 @@ id = "class-767683633"
   data-day='[]'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='On-Demand' 
 data-grade='7th#8th#9th#10th' 
@@ -9676,7 +10041,7 @@ id = "class-767742299"
   data-day='[]'
 
 
-	data-duration='2 to 3 Months'
+	data-duration='2-3 mo'
 
 data-schedule='On-Demand' 
 data-grade='7th#8th#9th#10th' 
@@ -9768,10 +10133,10 @@ class="ecsp-media"
 <div
 id = "class-767782850"
 
-  data-day='Wednesday'
+  data-day='Wed'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='7th#8th#9th#10th#11th#12th' 
@@ -9794,7 +10159,7 @@ class="ecsp-media"
         
             
                 
-                     Wednesdays  
+                     Weds  
                 
              
         
@@ -9867,10 +10232,10 @@ class="ecsp-media"
 <div
 id = "class-767741104"
 
-  data-day='Wednesday'
+  data-day='Wed'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='7th#8th' 
@@ -9893,7 +10258,7 @@ class="ecsp-media"
         
             
                 
-                     Wednesdays  
+                     Weds  
                 
              
         
@@ -9966,10 +10331,10 @@ class="ecsp-media"
 <div
 id = "class-767793013"
 
-  data-day='Thursday'
+  data-day='Thu'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='7th#8th#9th#10th#11th#12th' 
@@ -9992,7 +10357,7 @@ class="ecsp-media"
         
             
                 
-                     Thursdays  
+                     Thus  
                 
              
         
@@ -10068,7 +10433,7 @@ id = "class-770348898"
   data-day='[]'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='On-Demand' 
 data-grade='7th#8th#9th#10th#11th#12th' 
@@ -10160,10 +10525,10 @@ class="ecsp-media"
 <div
 id = "class-767741187"
 
-  data-day='Saturday'
+  data-day='Sat'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='7th#8th#9th' 
@@ -10186,7 +10551,7 @@ class="ecsp-media"
         
             
                 
-                     Saturdays  
+                     Sats  
                 
              
         
@@ -10449,7 +10814,7 @@ class="ecsp-media"
 <div
 id = "class-770373650"
 
-  data-day='Sunday'
+  data-day='Sun'
 
 
 	data-duration='Flexible'
@@ -10475,7 +10840,7 @@ class="ecsp-media"
         
             
                 
-                     Sundays  
+                     Suns  
                 
              
         
@@ -10551,7 +10916,7 @@ id = "class-771298013"
   data-day='[]'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='On-Demand' 
 data-grade='7th#8th#9th#10th#11th#12th' 
@@ -10646,7 +11011,7 @@ id = "class-767742486"
   data-day='[]'
 
 
-	data-duration='2 to 3 Months'
+	data-duration='2-3 mo'
 
 data-schedule='On-Demand' 
 data-grade='7th#8th#9th#10th' 
@@ -10741,7 +11106,7 @@ id = "class-771298014"
   data-day='[]'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='On-Demand' 
 data-grade='7th#8th#9th#10th#11th#12th' 
@@ -10833,7 +11198,7 @@ class="ecsp-media"
 <div
 id = "class-769796571"
 
-  data-day='Monday#Wednesday'
+  data-day='Mon#Wed'
 
 
 	data-duration='Flexible'
@@ -10859,7 +11224,7 @@ class="ecsp-media"
         
             
                 
-                    Mondays, Wednesdays
+                    Mons, Weds
                 
              
         
@@ -10932,7 +11297,7 @@ class="ecsp-media"
 <div
 id = "class-753552972"
 
-  data-day='Monday#Wednesday'
+  data-day='Mon#Wed'
 
 
 	data-duration='Flexible'
@@ -10958,7 +11323,7 @@ class="ecsp-media"
         
             
                 
-                    Mondays, Wednesdays
+                    Mons, Weds
                 
              
         
@@ -11221,10 +11586,10 @@ class="ecsp-media"
 <div
 id = "class-770317241"
 
-  data-day='Saturday'
+  data-day='Sat'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='8th#9th#10th' 
@@ -11247,7 +11612,7 @@ class="ecsp-media"
         
             
                 
-                     Saturdays  
+                     Sats  
                 
              
         
@@ -11510,10 +11875,10 @@ class="ecsp-media"
 <div
 id = "class-767750714"
 
-  data-day='Thursday'
+  data-day='Thu'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='9th#10th#11th#12th' 
@@ -11536,7 +11901,7 @@ class="ecsp-media"
         
             
                 
-                     Thursdays  
+                     Thus  
                 
              
         
@@ -11714,6 +12079,12 @@ class="ecsp-media"
         </div>
     </div>
 
+    <div class="row mt-4">
+        <div class="col-12">
+                
+        </div>
+    </div>
+
     
     <div class="row mt-4">
         <div class="col-12 text-center">
@@ -11724,8 +12095,6 @@ class="ecsp-media"
             </p>
         </div>
     </div>
-
-    
 </div>
 
 							</main>

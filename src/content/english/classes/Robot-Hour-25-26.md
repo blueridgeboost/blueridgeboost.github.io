@@ -7,7 +7,7 @@ schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 149.99
 price_unit: "per month"
-duration: "4 to 6 Months"
+duration: "4-6 mo"
 category: "Ongoing"
 weight: "1"
 start_date: "2025-09-08"
@@ -18,7 +18,7 @@ page_title: "Robot Explorers: Intro to Robotics"
 page_subtitle: "Try all kinds of robots!"
 ribbon: "Starts Sep 8"
 title: "Robot Explorers: Intro to Robotics | Blue Ridge Boost"
-day_tags: ["Monday"]
+day_tags: ["Mon"]
 grade_tags: ["1st","2nd"]
-featured: 154
+featured: 157
 ---

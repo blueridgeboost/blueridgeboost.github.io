@@ -7,7 +7,7 @@ schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 325
 price_unit: "per month"
-duration: "2 to 3 Months"
+duration: "2-3 mo"
 category: "Ongoing"
 weight: "38"
 start_time: "6:00"
@@ -16,7 +16,7 @@ page_title: "Advanced FIRST LEGO League (Grades 6 to 8)"
 page_subtitle: "Building Robots, Solving Challenges!"
 ribbon: "Starts Sep 15"
 title: "Advanced FIRST LEGO League (Grades 6 to 8) | Blue Ridge Boost"
-day_tags: ["Monday"]
+day_tags: ["Mon"]
 grade_tags: ["6th","7th","8th"]
-featured: 188
+featured: 192
 ---

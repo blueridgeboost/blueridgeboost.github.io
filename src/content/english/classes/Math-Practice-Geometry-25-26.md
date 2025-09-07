@@ -9,7 +9,7 @@ price: 179.99
 price_unit: "per month"
 duration: "Flexible"
 category: "Ongoing"
-weight: "64"
+weight: "65"
 end_date: "2026-05-18"
 start_time: "6:00"
 end_time: "7:00"
@@ -17,7 +17,7 @@ page_title: "Geometry Homework Help"
 page_subtitle: "Math Support"
 ribbon: "Join Now"
 title: "Geometry Homework Help | Blue Ridge Boost"
-day_tags: ["Monday", "Wednesday"]
+day_tags: ["Mon","Wed"]
 grade_tags: ["8th","9th"]
-featured: 160
+featured: 163
 ---
