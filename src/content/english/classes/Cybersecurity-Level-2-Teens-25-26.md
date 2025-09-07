@@ -7,7 +7,7 @@ schedule_tags: ["On-Demand"]
 subject_tags: ["Computer Coding"]
 price: 249.99
 price_unit: "per month"
-duration: "4 to 6 Months"
+duration: "4-6 mo"
 category: "Ongoing"
 weight: "64"
 end_date: "2026-05-18"

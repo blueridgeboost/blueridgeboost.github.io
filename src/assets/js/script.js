@@ -1,32 +1,45 @@
+// Toggle chip active state
+  function toggleChip(inputEl) {
+    const label = inputEl.closest('.chip');
+    if (!label) return;
 
-function filterClasses() {
-    const dayFilters = Array.from(document.querySelectorAll('.day-filter:checked')).map(cb => cb.value.toLowerCase());
-    const gradeFilters = Array.from(document.querySelectorAll('.grade-filter:checked')).map(cb => cb.value.toLowerCase());
-    const subjectFilters = Array.from(document.querySelectorAll('.subject-filter:checked')).map(cb => cb.value.toLowerCase());
-    const scheduleFilters = Array.from(document.querySelectorAll('.schedule-filter:checked')).map(cb => cb.value.toLowerCase());
-    const durationFilters = Array.from(document.querySelectorAll('.duration-filter:checked')).map(cb => cb.value.toLowerCase());
+    // Toggle checkbox checked state
+    label.classList.toggle('active', inputEl.checked);
+
+    // Trigger filtering
+    filterClasses();
+  }
+
+  // Filter classes based on selected filters
+  function filterClasses() {
+    const dayFilters = Array.from(document.querySelectorAll('.day-filter:checked')).map(cb => cb.value);
+    const gradeFilters = Array.from(document.querySelectorAll('.grade-filter:checked')).map(cb => cb.value);
+    const subjectFilters = Array.from(document.querySelectorAll('.subject-filter:checked')).map(cb => cb.value);
+    const scheduleFilters = Array.from(document.querySelectorAll('.schedule-filter:checked')).map(cb => cb.value);
+    const durationFilters = Array.from(document.querySelectorAll('.duration-filter:checked')).map(cb => cb.value);
 
     const classes = document.querySelectorAll('div[id^="class-"]');
-    for (let i = 0; i < classes.length; i++) {
-        const dayTags = classes[i].getAttribute('data-day').toLowerCase().split('#');
-        const gradeTags = classes[i].getAttribute('data-grade').toLowerCase().split('#');
-        const subjectTags = classes[i].getAttribute('data-subject').toLowerCase().split('#');
-        const scheduleTags = classes[i].getAttribute('data-schedule').toLowerCase().split('#');
-        const durationTags = classes[i].getAttribute('data-duration').toLowerCase().split('#');
+    classes.forEach(classCard => {
+      const dayTags = classCard.getAttribute('data-day').toLowerCase().split('#');
+      const gradeTags = classCard.getAttribute('data-grade').toLowerCase().split('#');
+      const subjectTags = classCard.getAttribute('data-subject').toLowerCase().split('#');
+      const scheduleTags = classCard.getAttribute('data-schedule').toLowerCase().split('#');
+      const durationTags = classCard.getAttribute('data-duration').toLowerCase().split('#');
 
-        const dayMatch = dayFilters.length === 0 || dayFilters.some(tag => dayTags.includes(tag));
-        const gradeMatch = gradeFilters.length === 0 || gradeFilters.some(tag => gradeTags.includes(tag));
-        const subjectMatch = subjectFilters.length === 0 || subjectFilters.some(tag => subjectTags.includes(tag));
-        const scheduleMatch = scheduleFilters.length === 0 || scheduleFilters.some(tag => scheduleTags.includes(tag));
-        const durationMatch = durationFilters.length === 0 || durationFilters.some(tag => durationTags.includes(tag));
+      const isDayMatch = !dayFilters.length || dayFilters.some(filter => dayTags.includes(filter));
+      const isGradeMatch = !gradeFilters.length || gradeFilters.some(filter => gradeTags.includes(filter));
+      const isSubjectMatch = !subjectFilters.length || subjectFilters.some(filter => subjectTags.includes(filter));
+      const isScheduleMatch = !scheduleFilters.length || scheduleFilters.some(filter => scheduleTags.includes(filter));
+      const isDurationMatch = !durationFilters.length || durationFilters.some(filter => durationTags.includes(filter));
 
-        if (dayMatch && gradeMatch && subjectMatch && scheduleMatch && durationMatch) {
-            classes[i].style.display = '';
-        } else {
-            classes[i].style.display = 'NONE';
-        }
-    }
-}
+      if (isDayMatch && isGradeMatch && isSubjectMatch && isScheduleMatch && isDurationMatch) {
+        classCard.style.display = '';
+      } else {
+        classCard.style.display = 'none';
+      }
+    });
+  }
+  
 document.addEventListener('DOMContentLoaded', filterClasses);
 
 function ecwid_add_product_to_cart( product_id, product_options ) {

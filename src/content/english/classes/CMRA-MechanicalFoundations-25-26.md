@@ -7,7 +7,7 @@ schedule_tags: ["Join Now"]
 subject_tags: ["Robotics"]
 price: 299.99
 price_unit: "per month"
-duration: "4 to 6 Months"
+duration: "4-6 mo"
 category: "Ongoing"
 weight: "48"
 start_time: "6:00"

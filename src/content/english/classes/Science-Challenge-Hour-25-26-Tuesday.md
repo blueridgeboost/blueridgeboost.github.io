@@ -8,7 +8,7 @@ subject_tags: ["Science"]
 price: 144.99
 category: "Session"
 price_unit: "4 weeks"
-duration: "4 weeks"
+duration: "4 wk"
 weight: "12"
 start_date: "2025-09-02"
 end_date: "2026-05-19"

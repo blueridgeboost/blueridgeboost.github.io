@@ -7,7 +7,7 @@ schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 159.99
 price_unit: "per month"
-duration: "2 to 3 Months"
+duration: "2-3 mo"
 category: "Ongoing"
 weight: "31"
 start_date: "2025-09-06"

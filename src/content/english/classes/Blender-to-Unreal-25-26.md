@@ -7,7 +7,7 @@ schedule_tags: ["Join Now"]
 subject_tags: ["Game Development"]
 price: 199.99
 price_unit: "per month"
-duration: "6 Months+"
+duration: "6+ mo"
 category: "Ongoing"
 weight: "47"
 end_date: "2026-05-18"

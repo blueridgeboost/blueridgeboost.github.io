@@ -7,7 +7,7 @@ schedule_tags: ["Starting Soon"]
 subject_tags: ["AI"]
 price: 149.99
 price_unit: "per month"
-duration: "4 to 6 Months"
+duration: "4-6 mo"
 category: "Ongoing"
 weight: "32"
 start_date: "2025-09-06"

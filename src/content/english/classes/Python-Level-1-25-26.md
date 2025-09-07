@@ -7,7 +7,7 @@ schedule_tags: ["Starting Soon"]
 subject_tags: []
 price: 179
 price_unit: "per month"
-duration: "4 to 6 Months"
+duration: "4-6 mo"
 category: "Ongoing"
 weight: "69"
 start_date: "2025-09-06"

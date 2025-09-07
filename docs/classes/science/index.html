@@ -3677,8 +3677,8 @@
 
 <script
   crossorigin="anonymous"
-  integrity="sha256-WyoblZ3fYi79OvrgrShej9nLRTHVkyPVma0iAh9pJIA="
-  src="/js/scripts.min.5b2a1b959ddf622efd3afae0ad285e8fd9cb4531d59323d599ad22021f692480.js"></script>
+  integrity="sha256-3WP3q8xqm69rSJZItQt2OBoNKj9gm8eH8TsZz/4dYJQ="
+  src="/js/scripts.min.dd63f7abcc6a9baf6b489648b50b76381a0d2a3f609bc787f13b19cffe1d6094.js"></script>
 
 
 
@@ -4231,7 +4231,8 @@ twq('config','pam08');
 						<div class="col">
 							<main>
 								
-  <section class="section pb-0">
+
+<section class="section pb-0">
   <div class="container text-center">
     <div class="container">
       <div class="row">
@@ -4247,81 +4248,8 @@ twq('config','pam08');
     </div>
   </div>
 </section>
-
-  <div class="container">
-
+<div class="container">
     
-    <style>
-       
-      .card-img-top {
-        width: 100%;
-        height: auto !important;
-        aspect-ratio: auto !important;
-        object-fit: contain;
-        display: block;
-      }
-       
-      .card-img-cover {
-        height: 100% !important;
-        object-fit: cover !important;
-        object-position: center;
-      }
-       
-      .card .image-wrap,
-      .card .card-image,
-      .card .card-media {
-        aspect-ratio: auto !important;
-        padding-top: 0 !important;
-        height: auto !important;
-      }
-       
-  .card-container {
-    padding: 0;  
-    margin: 0 auto;  
-    width: 100%;  
-    max-width: 1200px;  
-  }
-
-   
-  .card-row {
-    display: flex;  
-    flex-wrap: wrap;  
-    justify-content: flex-start;  
-    margin: 0;  
-  }
-
-   
-  .card-col {
-
-  }
-
-  @media (max-width: 1024px) {
-    .card-col {
-      flex: 1 1 calc(33.33% - 1.5rem);  
-      max-width: calc(33.33% - 1.5rem);
-    }
-  }
-
-  @media (max-width: 768px) {
-    .card-col {
-      flex: 1 1 calc(50% - 1.5rem);  
-      max-width: calc(50% - 1.5rem);
-    }
-  }
-
-  @media (max-width: 480px) {
-    .card-col {
-      flex: 1 1 100%;  
-      max-width: 100%;
-    }
-  }
-
-   
-  .card-col.hidden {
-    display: none;  
-  }
-    </style>
-
     <style>
    
   .filter-wrap {
@@ -4342,6 +4270,7 @@ twq('config','pam08');
     --chip-bg-active: #dbe8ff;
     --chip-br: 6px;
     --border: #b7cffb;
+    --border-hover: #91b4fb;
 
     width: 100%;
     max-width: 1200px;
@@ -4358,20 +4287,47 @@ twq('config','pam08');
    
   .filter-row {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.5rem;
+    flex-direction: column;  
+    gap: 0.25rem;
     margin-bottom: 0.5rem;
     width: 100%;
   }
 
    
-  .group-label {
+  .group-header {
+    display: none;  
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    font-weight: 700;
+    color: var(--muted);
+    font-size: 0.95rem;
+    padding: 0.4rem 0.5rem;
+    user-select: none;
+    border-radius: 8px;
+  }
+  .group-header:hover { background: #f6f9ff; }
+  .group-header .chevron {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .filter-row.collapsed .group-header .chevron { transform: rotate(-90deg); }
+  .filter-row.open .group-header .chevron { transform: rotate(0deg); }
+
+   
+  .group-body { display: block; }
+  .filter-row.collapsed .group-body { display: none; }
+
+   
+  .group-label.inline {
     font-weight: 600;
     color: var(--muted);
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     white-space: nowrap;
-    margin-bottom: 0.3rem;
+    margin: 0 0.5rem 0.3rem 0;  
+    flex: 0 0 auto;
   }
 
    
@@ -4388,281 +4344,397 @@ twq('config','pam08');
     gap: 0.3rem;
     background: var(--chip-bg);
     border-radius: var(--chip-br);
-    padding: 0.2rem 0.5rem;
-    font-size: 0.75rem;
+    padding: 0.28rem 0.55rem;
+    font-size: 0.78rem;
+    line-height: 1.2;
     border: 1px solid var(--border);
     cursor: pointer;
     transition: background 0.2s ease, border-color 0.2s ease;
   }
-
-   
-  .chip:hover {
-    border-color: var(--border-hover);
-    background: var(--chip-bg-hover);
-  }
-
-  .chip.active {
-    background: var(--chip-bg-active);
-    border-color: var(--accent);
-    color: var(--accent-strong);
-  }
-
-   
-  .chip input[type="checkbox"] {
-    display: none;
-  }
+  .chip:hover { border-color: var(--border-hover); background: var(--chip-bg-hover); }
+  .chip.active { background: var(--chip-bg-active); border-color: var(--accent); color: var(--accent-strong); }
+  .chip input[type="checkbox"] { display: none; }
 
    
   .inline-row {
     display: flex;
-    justify-content: flex-start;  
-    gap: 0.5rem;                  
+    justify-content: flex-start;
+    gap: 0.5rem;
     margin-bottom: 0.5rem;
     width: 100%;
   }
 
    
   .subgroup {
-    display: inline-flex;    
-    align-items: center;     
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .subgroup-header {
+    display: none;  
+    align-items: center;
+    justify-content: space-between;
     gap: 0.5rem;
-    flex: 0 0 auto;          
-    min-width: auto;         
+    font-weight: 600;
+    color: var(--muted);
+    font-size: 0.9rem;
+    padding: 0.35rem 0.45rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    user-select: none;
+  }
+  .subgroup-header .chevron {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .subgroup.collapsed .subgroup-header .chevron { transform: rotate(-90deg); }
+  .subgroup.open .subgroup-header .chevron { transform: rotate(0deg); }
+  .subgroup-body { display: block; }
+  .subgroup.collapsed .subgroup-body { display: none; }
+
+   
+  @media (max-width: 360px) {
+    .filter-range { padding: 0.4rem; }
+    .group-header { padding: 0.35rem 0.4rem; font-size: 0.9rem; }
+    .subgroup-header { padding: 0.3rem 0.4rem; font-size: 0.88rem; }
+    .chips { gap: 0.25rem; }
+    .chip { padding: 0.26rem 0.5rem; font-size: 0.76rem; }
   }
 
    
-  @media (max-width: 720px) {
-    .filter-row {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-
-    .inline-row {
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-
-    .chips {
-      justify-content: flex-start;
-    }
+  @media (max-width: 719.98px) {
+    .group-header { display: flex; cursor: pointer; border: 1px solid var(--border); }
+    .group-label.inline { display: none; }  
+    .filter-row { border: 1px solid var(--border); border-radius: 8px; padding: 0.25rem; }
+    .inline-row { flex-direction: column; gap: 0.5rem; }
+    .subgroup-header { display: flex; cursor: pointer; }
   }
+
+   
+  @media (min-width: 720px) and (max-width: 1023.98px) {
+    .group-header {
+      display: flex;
+      cursor: pointer;
+      padding: 0.4rem 0.5rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+    .group-header .chevron { display: inline-block; }
+    .group-label.inline { display: none; }
+    .filter-row { border: 1px solid var(--border); border-radius: 8px; padding: 0.25rem; }
+
+    .inline-row { flex-direction: column; gap: 0.75rem; }
+    .subgroup-header { display: none; }
+  }
+
+   
+  @media (min-width: 1024px) {
+  .group-header { display: none; }
+  .group-body { display: block !important; }
+
+   
+  .group-body.inline-layout {
+    display: flex !important;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: nowrap;
+  }
+  .group-body.inline-layout .group-label.inline {
+    display: inline !important;
+    margin: 0 !important;         
+    white-space: nowrap;
+    flex: 0 0 auto;
+  }
+  .group-body.inline-layout .chips {
+    flex: 1 1 auto;
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;              
+    gap: 0.3rem;
+  }
+
+   
+  .inline-row { flex-direction: row; gap: 1rem; align-items: center; }
+  .subgroup .subgroup-body {
+    display: flex !important;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: nowrap;
+  }
+  .subgroup .group-label.inline {
+    display: inline !important;
+    margin: 0 !important;
+    white-space: nowrap;
+    flex: 0 0 auto;
+  }
+  .subgroup .chips {
+    flex: 1 1 auto;
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+}
 </style>
 
 <div class="filter-wrap">
   <div class="filter-range">
 
     
-    <div class="filter-row">
-      <div class="group-label">Grade:</div>
-      <div class="chips">
-        
-        <label class="chip">
-          <input type="checkbox" class="grade-filter" value="1st" onchange="toggleChip(this)">
-          <span>1st</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="grade-filter" value="2nd" onchange="toggleChip(this)">
-          <span>2nd</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="grade-filter" value="3rd" onchange="toggleChip(this)">
-          <span>3rd</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="grade-filter" value="4th" onchange="toggleChip(this)">
-          <span>4th</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="grade-filter" value="5th" onchange="toggleChip(this)">
-          <span>5th</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="grade-filter" value="6th" onchange="toggleChip(this)">
-          <span>6th</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="grade-filter" value="7th" onchange="toggleChip(this)">
-          <span>7th</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="grade-filter" value="8th" onchange="toggleChip(this)">
-          <span>8th</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="grade-filter" value="9th" onchange="toggleChip(this)">
-          <span>9th</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="grade-filter" value="10th" onchange="toggleChip(this)">
-          <span>10th</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="grade-filter" value="11th" onchange="toggleChip(this)">
-          <span>11th</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="grade-filter" value="12th" onchange="toggleChip(this)">
-          <span>12th</span>
-        </label>
-        
+    <div class="filter-row collapsed" data-group="grade">
+      <div class="group-header" role="button" tabindex="0" aria-expanded="false">
+        <span>Grade</span>
+        <span class="chevron">▸</span>
       </div>
-    </div>
-
-    
-    <div class="inline-row">
-
-      
-      <div class="subgroup">
-        <div class="group-label">Day:</div>
+      <div class="group-body inline-layout">
+        <div class="group-label inline">Grade:</div>
         <div class="chips">
           
           <label class="chip">
-            <input type="checkbox" class="day-filter" value="mon" onchange="toggleChip(this)">
-            <span>Mon</span>
+            <input type="checkbox" class="grade-filter" value="1st" onchange="toggleChip(this)">
+            <span>1st</span>
           </label>
           
           <label class="chip">
-            <input type="checkbox" class="day-filter" value="tue" onchange="toggleChip(this)">
-            <span>Tue</span>
+            <input type="checkbox" class="grade-filter" value="2nd" onchange="toggleChip(this)">
+            <span>2nd</span>
           </label>
           
           <label class="chip">
-            <input type="checkbox" class="day-filter" value="wed" onchange="toggleChip(this)">
-            <span>Wed</span>
+            <input type="checkbox" class="grade-filter" value="3rd" onchange="toggleChip(this)">
+            <span>3rd</span>
           </label>
           
           <label class="chip">
-            <input type="checkbox" class="day-filter" value="thu" onchange="toggleChip(this)">
-            <span>Thu</span>
+            <input type="checkbox" class="grade-filter" value="4th" onchange="toggleChip(this)">
+            <span>4th</span>
           </label>
           
           <label class="chip">
-            <input type="checkbox" class="day-filter" value="fri" onchange="toggleChip(this)">
-            <span>Fri</span>
+            <input type="checkbox" class="grade-filter" value="5th" onchange="toggleChip(this)">
+            <span>5th</span>
           </label>
           
           <label class="chip">
-            <input type="checkbox" class="day-filter" value="sat" onchange="toggleChip(this)">
-            <span>Sat</span>
+            <input type="checkbox" class="grade-filter" value="6th" onchange="toggleChip(this)">
+            <span>6th</span>
           </label>
           
           <label class="chip">
-            <input type="checkbox" class="day-filter" value="sun" onchange="toggleChip(this)">
-            <span>Sun</span>
+            <input type="checkbox" class="grade-filter" value="7th" onchange="toggleChip(this)">
+            <span>7th</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="grade-filter" value="8th" onchange="toggleChip(this)">
+            <span>8th</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="grade-filter" value="9th" onchange="toggleChip(this)">
+            <span>9th</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="grade-filter" value="10th" onchange="toggleChip(this)">
+            <span>10th</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="grade-filter" value="11th" onchange="toggleChip(this)">
+            <span>11th</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="grade-filter" value="12th" onchange="toggleChip(this)">
+            <span>12th</span>
           </label>
           
         </div>
       </div>
+    </div>
 
-      
-      <div class="subgroup">
-        <div class="group-label">Schedule:</div>
+    
+    <div class="filter-row collapsed" data-group="day-schedule">
+      <div class="group-header" role="button" tabindex="0" aria-expanded="false">
+        <span>Schedule Options</span>
+        <span class="chevron">▸</span>
+      </div>
+      <div class="group-body">
+        <div class="inline-row">
+
+          
+          <div class="subgroup open" data-subgroup="day">
+            <div class="subgroup-header" role="button" tabindex="0" aria-expanded="true">
+              <span>Day</span>
+              <span class="chevron">▸</span>
+            </div>
+            <div class="subgroup-body">
+              <div class="group-label inline">Day:</div>
+              <div class="chips">
+                
+                <label class="chip">
+                  <input type="checkbox" class="day-filter" value="mon" onchange="toggleChip(this)">
+                  <span>Mon</span>
+                </label>
+                
+                <label class="chip">
+                  <input type="checkbox" class="day-filter" value="tue" onchange="toggleChip(this)">
+                  <span>Tue</span>
+                </label>
+                
+                <label class="chip">
+                  <input type="checkbox" class="day-filter" value="wed" onchange="toggleChip(this)">
+                  <span>Wed</span>
+                </label>
+                
+                <label class="chip">
+                  <input type="checkbox" class="day-filter" value="thu" onchange="toggleChip(this)">
+                  <span>Thu</span>
+                </label>
+                
+                <label class="chip">
+                  <input type="checkbox" class="day-filter" value="fri" onchange="toggleChip(this)">
+                  <span>Fri</span>
+                </label>
+                
+                <label class="chip">
+                  <input type="checkbox" class="day-filter" value="sat" onchange="toggleChip(this)">
+                  <span>Sat</span>
+                </label>
+                
+                <label class="chip">
+                  <input type="checkbox" class="day-filter" value="sun" onchange="toggleChip(this)">
+                  <span>Sun</span>
+                </label>
+                
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="subgroup open" data-subgroup="schedule">
+            <div class="subgroup-header" role="button" tabindex="0" aria-expanded="true">
+              <span>Schedule</span>
+              <span class="chevron">▸</span>
+            </div>
+            <div class="subgroup-body">
+              <div class="group-label inline">Schedule:</div>
+              <div class="chips">
+                
+                <label class="chip">
+                  <input type="checkbox" class="schedule-filter" value="starting soon" onchange="toggleChip(this)">
+                  <span>Starting Soon</span>
+                </label>
+                
+                <label class="chip">
+                  <input type="checkbox" class="schedule-filter" value="join now" onchange="toggleChip(this)">
+                  <span>Join Now</span>
+                </label>
+                
+                <label class="chip">
+                  <input type="checkbox" class="schedule-filter" value="on-demand" onchange="toggleChip(this)">
+                  <span>On-Demand</span>
+                </label>
+                
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="filter-row collapsed" data-group="duration">
+      <div class="group-header" role="button" tabindex="0" aria-expanded="false">
+        <span>Duration</span>
+        <span class="chevron">▸</span>
+      </div>
+      <div class="group-body inline-layout">
+        <div class="group-label inline">Duration:</div>
         <div class="chips">
           
           <label class="chip">
-            <input type="checkbox" class="schedule-filter" value="starting soon" onchange="toggleChip(this)">
-            <span>Starting Soon</span>
+            <input type="checkbox" class="duration-filter" value="4 wk" onchange="toggleChip(this)">
+            <span>4 wk</span>
           </label>
           
           <label class="chip">
-            <input type="checkbox" class="schedule-filter" value="join now" onchange="toggleChip(this)">
-            <span>Join Now</span>
+            <input type="checkbox" class="duration-filter" value="6 wk" onchange="toggleChip(this)">
+            <span>6 wk</span>
           </label>
           
           <label class="chip">
-            <input type="checkbox" class="schedule-filter" value="on-demand" onchange="toggleChip(this)">
-            <span>On-Demand</span>
+            <input type="checkbox" class="duration-filter" value="8 wk" onchange="toggleChip(this)">
+            <span>8 wk</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="duration-filter" value="2-3 mo" onchange="toggleChip(this)">
+            <span>2-3 mo</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="duration-filter" value="4-6 mo" onchange="toggleChip(this)">
+            <span>4-6 mo</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="duration-filter" value="6&#43; mo" onchange="toggleChip(this)">
+            <span>6&#43; mo</span>
           </label>
           
         </div>
       </div>
-
     </div>
 
     
-    <div class="filter-row">
-      <div class="group-label">Duration:</div>
-      <div class="chips">
-        
-        <label class="chip">
-          <input type="checkbox" class="duration-filter" value="4 wk" onchange="toggleChip(this)">
-          <span>4 wk</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="duration-filter" value="6wk" onchange="toggleChip(this)">
-          <span>6wk</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="duration-filter" value="8wk" onchange="toggleChip(this)">
-          <span>8wk</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="duration-filter" value="2-3mo" onchange="toggleChip(this)">
-          <span>2-3mo</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="duration-filter" value="4-6mo" onchange="toggleChip(this)">
-          <span>4-6mo</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="duration-filter" value="6&#43;mo" onchange="toggleChip(this)">
-          <span>6&#43;mo</span>
-        </label>
-        
+    <div class="filter-row collapsed" data-group="subject">
+      <div class="group-header" role="button" tabindex="0" aria-expanded="false">
+        <span>Subject</span>
+        <span class="chevron">▸</span>
       </div>
-    </div>
-
-    
-    <div class="filter-row">
-      <div class="group-label">Subject:</div>
-      <div class="chips">
-        
-        <label class="chip">
-          <input type="checkbox" class="subject-filter" value="math" onchange="toggleChip(this)">
-          <span>Math</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="subject-filter" value="robotics" onchange="toggleChip(this)">
-          <span>Robotics</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="subject-filter" value="game development" onchange="toggleChip(this)">
-          <span>Game Development</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="subject-filter" value="ai" onchange="toggleChip(this)">
-          <span>AI</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="subject-filter" value="computer coding" onchange="toggleChip(this)">
-          <span>Computer Coding</span>
-        </label>
-        
-        <label class="chip">
-          <input type="checkbox" class="subject-filter" value="science" onchange="toggleChip(this)">
-          <span>Science</span>
-        </label>
-        
+      <div class="group-body inline-layout">
+        <div class="group-label inline">Subject:</div>
+        <div class="chips">
+          
+          <label class="chip">
+            <input type="checkbox" class="subject-filter" value="math" onchange="toggleChip(this)">
+            <span>Math</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="subject-filter" value="robotics" onchange="toggleChip(this)">
+            <span>Robotics</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="subject-filter" value="game development" onchange="toggleChip(this)">
+            <span>Game Development</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="subject-filter" value="ai" onchange="toggleChip(this)">
+            <span>AI</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="subject-filter" value="computer coding" onchange="toggleChip(this)">
+            <span>Computer Coding</span>
+          </label>
+          
+          <label class="chip">
+            <input type="checkbox" class="subject-filter" value="science" onchange="toggleChip(this)">
+            <span>Science</span>
+          </label>
+          
+        </div>
       </div>
     </div>
 
@@ -4671,64 +4743,88 @@ twq('config','pam08');
 
 <script>
   
-  function toggleChip(inputEl) {
-    const label = inputEl.closest('.chip');
-    if (!label) return;
+  (function () {
+    const rows = document.querySelectorAll('.filter-row[data-group]');
+    const small = window.matchMedia('(max-width: 719.98px)');
+    const medium = window.matchMedia('(min-width: 720px) and (max-width: 1023.98px)');
+    const large = window.matchMedia('(min-width: 1024px)');
+
+    function setInitial() {
+      rows.forEach(row => {
+        
+        if (large.matches || medium.matches) {
+          row.classList.remove('collapsed');
+          row.classList.add('open');
+          row.querySelector('.group-header')?.setAttribute('aria-expanded', 'true');
+        } else {
+          row.classList.add('collapsed');
+          row.classList.remove('open');
+          row.querySelector('.group-header')?.setAttribute('aria-expanded', 'false');
+        }
+
+        
+        row.querySelectorAll('.subgroup').forEach(sg => {
+          sg.classList.add('open');
+          sg.classList.remove('collapsed');
+          sg.querySelector('.subgroup-header')?.setAttribute('aria-expanded', 'true');
+        });
+      });
+    }
+
+    function toggleRow(header) {
+      const row = header.closest('.filter-row');
+      if (large.matches) return; 
+      const isCollapsed = row.classList.contains('collapsed');
+      row.classList.toggle('collapsed', !isCollapsed);
+      row.classList.toggle('open', isCollapsed);
+      header.setAttribute('aria-expanded', String(isCollapsed));
+    }
+
+    function toggleSubgroup(header) {
+      if (!small.matches) return; 
+      const sg = header.closest('.subgroup');
+      const isCollapsed = sg.classList.contains('collapsed');
+      sg.classList.toggle('collapsed', !isCollapsed);
+      sg.classList.toggle('open', isCollapsed);
+      header.setAttribute('aria-expanded', String(isCollapsed));
+    }
 
     
-    label.classList.toggle('active', inputEl.checked);
-
-    
-    filterClasses();
-  }
-
-  
-  function filterClasses() {
-    const dayFilters = Array.from(document.querySelectorAll('.day-filter:checked')).map(cb => cb.value);
-    const gradeFilters = Array.from(document.querySelectorAll('.grade-filter:checked')).map(cb => cb.value);
-    const subjectFilters = Array.from(document.querySelectorAll('.subject-filter:checked')).map(cb => cb.value);
-    const scheduleFilters = Array.from(document.querySelectorAll('.schedule-filter:checked')).map(cb => cb.value);
-    const durationFilters = Array.from(document.querySelectorAll('.duration-filter:checked')).map(cb => cb.value);
-
-    const classes = document.querySelectorAll('div[id^="class-"]');
-    classes.forEach(classCard => {
-      const dayTags = classCard.getAttribute('data-day').toLowerCase().split('#');
-      const gradeTags = classCard.getAttribute('data-grade').toLowerCase().split('#');
-      const subjectTags = classCard.getAttribute('data-subject').toLowerCase().split('#');
-      const scheduleTags = classCard.getAttribute('data-schedule').toLowerCase().split('#');
-      const durationTags = classCard.getAttribute('data-duration').toLowerCase().split('#');
-
-      const isDayMatch = !dayFilters.length || dayFilters.some(filter => dayTags.includes(filter));
-      const isGradeMatch = !gradeFilters.length || gradeFilters.some(filter => gradeTags.includes(filter));
-      const isSubjectMatch = !subjectFilters.length || subjectFilters.some(filter => subjectTags.includes(filter));
-      const isScheduleMatch = !scheduleFilters.length || scheduleFilters.some(filter => scheduleTags.includes(filter));
-      const isDurationMatch = !durationFilters.length || durationFilters.some(filter => durationTags.includes(filter));
-
-      if (isDayMatch && isGradeMatch && isSubjectMatch && isScheduleMatch && isDurationMatch) {
-        classCard.style.display = '';
-      } else {
-        classCard.style.display = 'none';
+    rows.forEach(row => {
+      const header = row.querySelector('.group-header');
+      if (header) {
+        header.addEventListener('click', () => toggleRow(header));
+        header.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleRow(header); }
+        });
       }
     });
-  }
+
+    
+    document.querySelectorAll('.subgroup-header').forEach(h => {
+      h.addEventListener('click', () => toggleSubgroup(h));
+      h.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleSubgroup(h); }
+      });
+    });
+
+    
+    setInitial();
+    [small, medium, large].forEach(mq => mq.addEventListener('change', setInitial));
+  })();
 </script>
+    
+    <p>&nbsp;</p>
 
-    <section class="card-container my-3" aria-labelledby="classes-heading">
-      <h2 id="classes-heading" class="visually-hidden">Available Classes</h2>
-
-      <div
-        class="card-row"
-        role="list"
-      >
-        
-        
-        
-
-        
-          
-          
-            <div role="listitem" class="col">
-              
+    <div class="container" >
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-4 row-cols-xl-5 g-3"  
+        style="row-gap: 5rem; display: flex; justify-content: center;"
+        >
+            
+            
+            
+                
+                    
 
 <div
 id = "class-769854774"
@@ -4736,7 +4832,7 @@ id = "class-769854774"
   data-day='[]'
 
 
-	data-duration='6 Months&#43;'
+	data-duration='6&#43; mo'
 
 data-schedule='On-Demand' 
 data-grade='1st' 
@@ -4818,34 +4914,34 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                    
 
 <div
 id = "class-766843587"
@@ -4853,7 +4949,7 @@ id = "class-766843587"
   data-day='Mon'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='1st#2nd' 
@@ -4941,13 +5037,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770296997"
@@ -4955,7 +5048,7 @@ id = "class-770296997"
   data-day='Tue'
 
 
-	data-duration='2 to 3 Months'
+	data-duration='2-3 mo'
 
 data-schedule='Join Now' 
 data-grade='1st#2nd' 
@@ -5043,13 +5136,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770957433"
@@ -5057,7 +5147,7 @@ id = "class-770957433"
   data-day='Wed'
 
 
-	data-duration='2 to 3 Months'
+	data-duration='2-3 mo'
 
 data-schedule='Starting Soon' 
 data-grade='1st#2nd' 
@@ -5145,13 +5235,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-713296284"
@@ -5159,7 +5246,7 @@ id = "class-713296284"
   data-day='Sat'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='1st#2nd' 
@@ -5247,13 +5334,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770373661"
@@ -5345,13 +5429,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-769796741"
@@ -5441,13 +5522,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-766835284"
@@ -5455,7 +5533,7 @@ id = "class-766835284"
   data-day='Mon'
 
 
-	data-duration='6 weeks'
+	data-duration='6 wk'
 
 data-schedule='Starting Soon' 
 data-grade='2nd#3rd#4th' 
@@ -5543,13 +5621,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767683655"
@@ -5643,13 +5718,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-769796743"
@@ -5743,13 +5815,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770313511"
@@ -5757,7 +5826,7 @@ id = "class-770313511"
   data-day='Tue'
 
 
-	data-duration='2 to 3 Months'
+	data-duration='2-3 mo'
 
 data-schedule='Join Now' 
 data-grade='3rd#4th' 
@@ -5845,13 +5914,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767683704"
@@ -5859,7 +5925,7 @@ id = "class-767683704"
   data-day='Tue'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Join Now' 
 data-grade='3rd#4th#5th' 
@@ -5947,13 +6013,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770348863"
@@ -5961,7 +6024,7 @@ id = "class-770348863"
   data-day='Tue'
 
 
-	data-duration='4 weeks'
+	data-duration='4 wk'
 
 data-schedule='Starting Soon' 
 data-grade='3rd#4th#5th' 
@@ -6049,13 +6112,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770960898"
@@ -6151,13 +6211,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767686686"
@@ -6165,7 +6222,7 @@ id = "class-767686686"
   data-day='Wed'
 
 
-	data-duration='6 weeks'
+	data-duration='6 wk'
 
 data-schedule='Starting Soon' 
 data-grade='3rd#4th#5th' 
@@ -6253,13 +6310,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770334947"
@@ -6267,7 +6321,7 @@ id = "class-770334947"
   data-day='Sat'
 
 
-	data-duration='2 to 3 Months'
+	data-duration='2-3 mo'
 
 data-schedule='Starting Soon' 
 data-grade='3rd#4th' 
@@ -6355,13 +6409,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770373627"
@@ -6369,7 +6420,7 @@ id = "class-770373627"
   data-day='Sat'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='3rd#4th#5th' 
@@ -6457,13 +6508,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770334898"
@@ -6559,13 +6607,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-771060851"
@@ -6661,13 +6706,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770395015"
@@ -6759,13 +6801,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-778287221"
@@ -6773,7 +6812,7 @@ id = "class-778287221"
   data-day='Sun'
 
 
-	data-duration='4 weeks'
+	data-duration='4 wk'
 
 data-schedule='Starting Soon' 
 data-grade='3rd#4th' 
@@ -6861,13 +6900,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770348872"
@@ -6875,7 +6911,7 @@ id = "class-770348872"
   data-day='Sun'
 
 
-	data-duration='4 weeks'
+	data-duration='4 wk'
 
 data-schedule='Starting Soon' 
 data-grade='3rd#4th#5th' 
@@ -6963,13 +6999,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767782567"
@@ -6977,7 +7010,7 @@ id = "class-767782567"
   data-day='Mon'
 
 
-	data-duration='2 to 3 Months'
+	data-duration='2-3 mo'
 
 data-schedule='Starting Soon' 
 data-grade='4th#5th' 
@@ -7065,13 +7098,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-766087910"
@@ -7163,13 +7193,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767683652"
@@ -7263,13 +7290,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-766789657"
@@ -7277,7 +7301,7 @@ id = "class-766789657"
   data-day='Mon'
 
 
-	data-duration='6 weeks'
+	data-duration='6 wk'
 
 data-schedule='Starting Soon' 
 data-grade='4th#5th' 
@@ -7365,13 +7389,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-769796745"
@@ -7465,13 +7486,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-768907151"
@@ -7479,7 +7497,7 @@ id = "class-768907151"
   data-day='Thu'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='4th#5th' 
@@ -7567,13 +7585,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-766777404"
@@ -7581,7 +7596,7 @@ id = "class-766777404"
   data-day='[]'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='On-Demand' 
 data-grade='5th#6th#7th#8th' 
@@ -7665,13 +7680,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767683654"
@@ -7765,13 +7777,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767680490"
@@ -7779,7 +7788,7 @@ id = "class-767680490"
   data-day='Tue'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='5th#6th' 
@@ -7867,13 +7876,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770348971"
@@ -7881,7 +7887,7 @@ id = "class-770348971"
   data-day='Sat'
 
 
-	data-duration='2 to 3 Months'
+	data-duration='2-3 mo'
 
 data-schedule='Starting Soon' 
 data-grade='5th#6th#7th' 
@@ -7969,13 +7975,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767750671"
@@ -7983,7 +7986,7 @@ id = "class-767750671"
   data-day='Sat'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='5th#6th' 
@@ -8071,13 +8074,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767742460"
@@ -8085,7 +8085,7 @@ id = "class-767742460"
   data-day='Sun'
 
 
-	data-duration='6 Months&#43;'
+	data-duration='6&#43; mo'
 
 data-schedule='Starting Soon' 
 data-grade='5th#6th' 
@@ -8173,13 +8173,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770334986"
@@ -8275,13 +8272,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-771060848"
@@ -8377,13 +8371,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-766842076"
@@ -8391,7 +8382,7 @@ id = "class-766842076"
   data-day='Sun'
 
 
-	data-duration='4 weeks'
+	data-duration='4 wk'
 
 data-schedule='Starting Soon' 
 data-grade='5th#6th' 
@@ -8479,13 +8470,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-779333541"
@@ -8493,7 +8481,7 @@ id = "class-779333541"
   data-day='Wed'
 
 
-	data-duration='6 Months&#43;'
+	data-duration='6&#43; mo'
 
 data-schedule='Starting Soon' 
 data-grade='5th#6th#7th#8th' 
@@ -8581,13 +8569,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-768244858"
@@ -8595,7 +8580,7 @@ id = "class-768244858"
   data-day='Mon'
 
 
-	data-duration='2 to 3 Months'
+	data-duration='2-3 mo'
 
 data-schedule='Starting Soon' 
 data-grade='6th#7th#8th' 
@@ -8683,13 +8668,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-769721623"
@@ -8779,13 +8761,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767680409"
@@ -8879,13 +8858,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767154072"
@@ -8981,13 +8957,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767683684"
@@ -8995,7 +8968,7 @@ id = "class-767683684"
   data-day='[]'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='On-Demand' 
 data-grade='6th#7th#8th' 
@@ -9079,13 +9052,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-779858442"
@@ -9093,7 +9063,7 @@ id = "class-779858442"
   data-day='[]'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='On-Demand' 
 data-grade='6th#7th#8th' 
@@ -9177,13 +9147,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770949426"
@@ -9191,7 +9158,7 @@ id = "class-770949426"
   data-day='Wed'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='6th#7th#8th' 
@@ -9279,13 +9246,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-769260824"
@@ -9293,7 +9257,7 @@ id = "class-769260824"
   data-day='Thu'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='6th#7th#8th' 
@@ -9381,13 +9345,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770334954"
@@ -9395,7 +9356,7 @@ id = "class-770334954"
   data-day='Sat'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='6th#7th#8th' 
@@ -9483,13 +9444,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-766842181"
@@ -9497,7 +9455,7 @@ id = "class-766842181"
   data-day='Mon'
 
 
-	data-duration='6 Months&#43;'
+	data-duration='6&#43; mo'
 
 data-schedule='Join Now' 
 data-grade='7th#8th#9th#10th#11th#12th' 
@@ -9585,13 +9543,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-769259348"
@@ -9599,7 +9554,7 @@ id = "class-769259348"
   data-day='Mon'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Join Now' 
 data-grade='7th#8th#9th#10th#11th#12th' 
@@ -9687,13 +9642,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-769796575"
@@ -9785,13 +9737,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767793057"
@@ -9799,7 +9748,7 @@ id = "class-767793057"
   data-day='Tue'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='7th#8th#9th#10th#11th#12th' 
@@ -9887,13 +9836,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-779543127"
@@ -9901,7 +9847,7 @@ id = "class-779543127"
   data-day='Fri'
 
 
-	data-duration='8 weeks'
+	data-duration='8 wk'
 
 data-schedule='Starting Soon' 
 data-grade='7th#8th#9th#10th#11th#12th' 
@@ -9989,13 +9935,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767683633"
@@ -10003,7 +9946,7 @@ id = "class-767683633"
   data-day='[]'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='On-Demand' 
 data-grade='7th#8th#9th#10th' 
@@ -10087,13 +10030,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767742299"
@@ -10101,7 +10041,7 @@ id = "class-767742299"
   data-day='[]'
 
 
-	data-duration='2 to 3 Months'
+	data-duration='2-3 mo'
 
 data-schedule='On-Demand' 
 data-grade='7th#8th#9th#10th' 
@@ -10185,13 +10125,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767782850"
@@ -10199,7 +10136,7 @@ id = "class-767782850"
   data-day='Wed'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='7th#8th#9th#10th#11th#12th' 
@@ -10287,13 +10224,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767741104"
@@ -10301,7 +10235,7 @@ id = "class-767741104"
   data-day='Wed'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='7th#8th' 
@@ -10389,13 +10323,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767793013"
@@ -10403,7 +10334,7 @@ id = "class-767793013"
   data-day='Thu'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='7th#8th#9th#10th#11th#12th' 
@@ -10491,13 +10422,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770348898"
@@ -10505,7 +10433,7 @@ id = "class-770348898"
   data-day='[]'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='On-Demand' 
 data-grade='7th#8th#9th#10th#11th#12th' 
@@ -10589,13 +10517,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767741187"
@@ -10603,7 +10528,7 @@ id = "class-767741187"
   data-day='Sat'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='7th#8th#9th' 
@@ -10691,13 +10616,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-771298260"
@@ -10789,13 +10711,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-771298009"
@@ -10887,13 +10806,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770373650"
@@ -10989,13 +10905,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-771298013"
@@ -11003,7 +10916,7 @@ id = "class-771298013"
   data-day='[]'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='On-Demand' 
 data-grade='7th#8th#9th#10th#11th#12th' 
@@ -11087,13 +11000,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767742486"
@@ -11101,7 +11011,7 @@ id = "class-767742486"
   data-day='[]'
 
 
-	data-duration='2 to 3 Months'
+	data-duration='2-3 mo'
 
 data-schedule='On-Demand' 
 data-grade='7th#8th#9th#10th' 
@@ -11185,13 +11095,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-771298014"
@@ -11199,7 +11106,7 @@ id = "class-771298014"
   data-day='[]'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='On-Demand' 
 data-grade='7th#8th#9th#10th#11th#12th' 
@@ -11283,13 +11190,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-769796571"
@@ -11385,13 +11289,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-753552972"
@@ -11487,13 +11388,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-769776736"
@@ -11585,13 +11483,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-743641082"
@@ -11683,13 +11578,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770317241"
@@ -11697,7 +11589,7 @@ id = "class-770317241"
   data-day='Sat'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='8th#9th#10th' 
@@ -11785,13 +11677,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-755511520"
@@ -11883,13 +11772,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770373665"
@@ -11981,13 +11867,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-767750714"
@@ -11995,7 +11878,7 @@ id = "class-767750714"
   data-day='Thu'
 
 
-	data-duration='4 to 6 Months'
+	data-duration='4-6 mo'
 
 data-schedule='Starting Soon' 
 data-grade='9th#10th#11th#12th' 
@@ -12083,13 +11966,10 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-          
-          
-            <div role="listitem" class="col">
-              
+                
+            
+                
+                    
 
 <div
 id = "class-770334989"
@@ -12181,39 +12061,41 @@ class="ecsp-media"
     <script type="text/javascript">xProduct()</script>    
 </div> 
 
-            </div>
-          
-        
-      </div>
-    </section>
+                
+            
+        </div>
+    </div>
 
     
+    <div class="row mt-4">
+        <div class="col-12">
+            <p>Please note:</p>
+            <ul>
+                <li>If you select a subscription, your card will be charged now and monthly starting with the first day of the second month of classes.</li>
+                <li>Subscriptions can be canceled at any time.</li>
+                <li>Subscriptions can be rescheduled or transferred to another class.</li>
+                <li>Make-ups can be scheduled on teacher workdays and other times based on instructor availability.</li>
+            </ul>
+        </div>
+    </div>
 
-    <section class="row mt-4" aria-labelledby="notes-heading">
-      <div class="col-12">
-        <h2 id="notes-heading" class="h5">Please note</h2>
-        <ul class="mb-0">
-          <li>If you select a subscription, your card will be charged now and monthly starting on the first day of the second month of classes.</li>
-          <li>Subscriptions can be canceled at any time.</li>
-          <li>Subscriptions can be rescheduled or transferred to another class.</li>
-          <li>Make-ups can be scheduled on teacher workdays and at other times based on instructor availability.</li>
-        </ul>
-      </div>
-    </section>
+    <div class="row mt-4">
+        <div class="col-12">
+                
+        </div>
+    </div>
 
-    <footer class="row mt-4" aria-label="Policies">
-      <div class="col-12 text-center">
-        <p class="mb-0">
-          <a href="/privacy-policy">Privacy Policy</a>
-          <span class="mx-2" aria-hidden="true">·</span>
-          <a href="/payment-policy">Payment Policy</a>
-          <span class="mx-2" aria-hidden="true">·</span>
-          <a href="/refund-policy">Refund Policy</a>
-        </p>
-      </div>
-    </footer>
-
-  </div>
+    
+    <div class="row mt-4">
+        <div class="col-12 text-center">
+            <p>
+                <a href="/privacy-policy">Privacy Policy</a> &middot;
+                <a href="/payment-policy">Payment Policy</a> &middot;
+                <a href="/refund-policy">Refund Policy</a>.
+            </p>
+        </div>
+    </div>
+</div>
 
 							</main>
 						</div>

@@ -7,7 +7,7 @@ schedule_tags: ["On-Demand"]
 subject_tags: []
 price: 249.99
 price_unit: "per month"
-duration: "2 to 3 Months"
+duration: "2-3 mo"
 category: "Ongoing"
 weight: "63"
 end_date: "2026-05-24"

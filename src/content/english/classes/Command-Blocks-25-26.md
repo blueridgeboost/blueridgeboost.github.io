@@ -8,7 +8,7 @@ subject_tags: ["Game Development"]
 price: 229.99
 category: "Session"
 price_unit: "6 weeks"
-duration: "6 weeks"
+duration: "6 wk"
 weight: "25"
 end_date: "2026-05-24"
 start_time: "5:30"
