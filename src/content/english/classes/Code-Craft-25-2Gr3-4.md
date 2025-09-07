@@ -17,7 +17,7 @@ page_title: "Code Craft: Minecraft Coding"
 page_subtitle: "Learn to Code in Minecraft! Grades 3 and 4"
 ribbon: "Join Now"
 title: "Code Craft: Minecraft Coding | Blue Ridge Boost"
-day_tags: ["Tuesday"]
+day_tags: ["Tue"]
 grade_tags: ["3rd","4th"]
-featured: 175
+featured: 179
 ---

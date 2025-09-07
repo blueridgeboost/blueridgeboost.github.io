@@ -17,7 +17,7 @@ page_title: "Math Builders: 3rd Grade Group Tutoring"
 page_subtitle: "Math Support"
 ribbon: "Join Now"
 title: "Math Builders: 3rd Grade Group Tutoring | Blue Ridge Boost"
-day_tags: ["Monday", "Wednesday"]
+day_tags: ["Mon","Wed"]
 grade_tags: ["3rd"]
-featured: 171
+featured: 174
 ---

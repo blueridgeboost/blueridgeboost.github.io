@@ -9,12 +9,13 @@ price: 179.99
 price_unit: "per month"
 duration: "4 to 6 Months"
 category: "Ongoing"
-weight: "51"
+weight: "52"
 end_date: "2026-05-19"
 page_title: "AI, Ethics, and Python"
 page_subtitle: "Artifical Intelligence and Ethics with Python"
 ribbon: "On Demand"
 title: "AI, Ethics, and Python | Blue Ridge Boost"
+day_tags: []
 grade_tags: ["7th","8th","9th","10th"]
-featured: 170
+featured: 173
 ---

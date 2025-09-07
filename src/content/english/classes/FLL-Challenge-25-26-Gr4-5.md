@@ -17,7 +17,7 @@ page_title: "Advanced FIRST LEGO League (Grades 4-5)"
 page_subtitle: "Building Robots, Solving Challenges!"
 ribbon: "Starts Sep 15"
 title: "Advanced FIRST LEGO League (Grades 4-5) | Blue Ridge Boost"
-day_tags: ["Monday"]
+day_tags: ["Mon"]
 grade_tags: ["4th","5th"]
-featured: 192
+featured: 196
 ---

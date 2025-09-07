@@ -18,7 +18,7 @@ page_title: "Block Coding with Beavers"
 page_subtitle: "Gamified coding course"
 ribbon: "Starts Sep 6"
 title: "Block Coding with Beavers | Blue Ridge Boost"
-day_tags: ["Saturday"]
+day_tags: ["Sat"]
 grade_tags: ["1st", "2nd"]
 featured: 0
 ---

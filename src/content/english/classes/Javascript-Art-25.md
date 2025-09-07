@@ -14,6 +14,7 @@ page_title: "Create & Code: Digital Art with JavaScript"
 page_subtitle: "Digital Art Course"
 ribbon: "On Demand"
 title: "Create & Code: Digital Art with JavaScript | Blue Ridge Boost"
+day_tags: []
 grade_tags: ["5th", "6th", "7th","8th"]
-featured: 149
+featured: 152
 ---

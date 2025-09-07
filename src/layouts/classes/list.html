@@ -1,49 +1,134 @@
 {{ define "main" }}
+  {{ partial "page-header.html" . }}
 
-{{ partial "page-header.html" . }}
-<div class="container">
-    
+  <div class="container">
+
+    {{/* Image behavior overrides to avoid square/clipped cards */}}
+    <style>
+      /* Let images keep their natural aspect ratio */
+      .card-img-top {
+        width: 100%;
+        height: auto !important;
+        aspect-ratio: auto !important;
+        object-fit: contain;
+        display: block;
+      }
+      /* If you want uniform, cropped thumbnails in some cards, add class "card-img-cover" to the <img> */
+      .card-img-cover {
+        height: 100% !important;
+        object-fit: cover !important;
+        object-position: center;
+      }
+      /* Safety: remove any square padding hacks some themes add */
+      .card .image-wrap,
+      .card .card-image,
+      .card .card-media {
+        aspect-ratio: auto !important;
+        padding-top: 0 !important;
+        height: auto !important;
+      }
+      /* Ensure the container has no unnecessary padding or margins */
+  .card-container {
+    padding: 0; /* Remove default padding */
+    margin: 0 auto; /* Center the container */
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Optional: Limit maximum width */
+  }
+
+  /* Use flexbox for rows to dynamically adjust layout */
+  .card-row {
+    display: flex; /* Flex container */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: flex-start; /* Align items to the left */
+    margin: 0; /* Remove default margins */
+  }
+
+  /* Individual column (card container) */
+  .card-col {
+
+  }
+
+  @media (max-width: 1024px) {
+    .card-col {
+      flex: 1 1 calc(33.33% - 1.5rem); /* 3 cards per row on medium screens */
+      max-width: calc(33.33% - 1.5rem);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .card-col {
+      flex: 1 1 calc(50% - 1.5rem); /* 2 cards per row on small screens */
+      max-width: calc(50% - 1.5rem);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .card-col {
+      flex: 1 1 100%; /* 1 card per row on very small screens */
+      max-width: 100%;
+    }
+  }
+
+  /* Hidden cards */
+  .card-col.hidden {
+    display: none; /* Completely hide the card */
+  }
+    </style>
+
     {{ partial "class-filters.html" . }}
-    
-    <div class="container" >
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-4 row-cols-xl-5 g-3"  
-        style="row-gap: 1rem; display: flex; justify-content: center;"
-        >
-            {{ $pages :=  (where .Site.Pages "Section" "classes") }}
-            {{ $pages = sort $pages ".Params.weight" "asc" }}
-            {{ range $pages }}
-                {{ if eq .Params.layout "list" }}
-                {{ else }}
-                    {{ partial "class-card" . }}
-                {{ end }}
-            {{ end }}
-        </div>
-    </div>
 
-    <!-- Notes Section -->
-    <div class="row mt-4">
-        <div class="col-12">
-            <p>Please note:</p>
-            <ul>
-                <li>If you select a subscription, your card will be charged now and monthly starting with the first day of the second month of classes.</li>
-                <li>Subscriptions can be canceled at any time.</li>
-                <li>Subscriptions can be rescheduled or transferred to another class.</li>
-                <li>Make-ups can be scheduled on teacher workdays and other times based on instructor availability.</li>
-            </ul>
-        </div>
-    </div>
+    <section class="card-container my-3" aria-labelledby="classes-heading">
+      <h2 id="classes-heading" class="visually-hidden">Available Classes</h2>
 
-    <!-- Footer -->
-    <div class="row mt-4">
-        <div class="col-12 text-center">
-            <p>
-                <a href="/privacy-policy">Privacy Policy</a> &middot;
-                <a href="/payment-policy">Payment Policy</a> &middot;
-                <a href="/refund-policy">Refund Policy</a>.
-            </p>
-        </div>
-    </div>
+      <div
+        class="card-row"
+        role="list"
+      >
+        {{/* Get only regular pages in the classes section, sort by weight asc */}}
+        {{ $pages := where .Site.RegularPages "Section" "classes" }}
+        {{ $pages = sort $pages "Params.weight" "asc" }}
 
-    {{ .Content }}
-</div>
-{{end}}
+        {{ range $pages }}
+          {{/* Skip list-type layouts if any remain */}}
+          {{ if ne .Params.layout "list" }}
+            <div role="listitem" class="col">
+              {{ partial "class-card" . }}
+            </div>
+          {{ end }}
+        {{ end }}
+      </div>
+    </section>
+
+    {{ with .Content }}
+      <section class="mt-4" aria-labelledby="page-content-heading">
+        <h2 id="page-content-heading" class="visually-hidden">Page Content</h2>
+        {{ . }}
+      </section>
+    {{ end }}
+
+    <section class="row mt-4" aria-labelledby="notes-heading">
+      <div class="col-12">
+        <h2 id="notes-heading" class="h5">Please note</h2>
+        <ul class="mb-0">
+          <li>If you select a subscription, your card will be charged now and monthly starting on the first day of the second month of classes.</li>
+          <li>Subscriptions can be canceled at any time.</li>
+          <li>Subscriptions can be rescheduled or transferred to another class.</li>
+          <li>Make-ups can be scheduled on teacher workdays and at other times based on instructor availability.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="row mt-4" aria-label="Policies">
+      <div class="col-12 text-center">
+        <p class="mb-0">
+          <a href="/privacy-policy">Privacy Policy</a>
+          <span class="mx-2" aria-hidden="true">·</span>
+          <a href="/payment-policy">Payment Policy</a>
+          <span class="mx-2" aria-hidden="true">·</span>
+          <a href="/refund-policy">Refund Policy</a>
+        </p>
+      </div>
+    </footer>
+
+  </div>
+{{ end }}

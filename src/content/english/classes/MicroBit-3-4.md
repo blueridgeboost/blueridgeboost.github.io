@@ -15,7 +15,7 @@ page_title: "Micro:bit Programming (Grades 3 to 5)"
 page_subtitle: "Where Young Minds Soar"
 ribbon: "Starts Sep 10"
 title: "Micro:bit Programming (Grades 3 to 5) | Blue Ridge Boost"
-day_tags: ["Wednesday"]
+day_tags: ["Wed"]
 grade_tags: ["3rd","4th","5th"]
-featured: 212
+featured: 216
 ---

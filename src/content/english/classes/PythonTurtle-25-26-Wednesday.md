@@ -18,7 +18,7 @@ page_title: "Python Basics with Tracy the Turtle"
 page_subtitle: "Guide Tracy to draw, code, and create!"
 ribbon: "Starts Sep 10"
 title: "Python Basics with Tracy the Turtle | Blue Ridge Boost"
-day_tags: ["Wednesday"]
+day_tags: ["Wed"]
 grade_tags: ["5th","6th","7th","8th"]
-featured: 184
+featured: 188
 ---

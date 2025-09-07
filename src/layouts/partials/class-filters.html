@@ -1,71 +1,245 @@
-{{ $selected_subject := .Params.selected_subject }}
-{{ $selected_schedule := .Params.selected_schedule }}
+<style>
+  /* General container for filters */
+  .filter-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    background: #e6f0ff;
+  }
 
-<div class="filter-range" style="width: 95%;">
-    <em>Filter Classes:</em>
-    <p>
-         <b>Grade:&nbsp;&nbsp;</b>
-        {{ range $tag := (slice "1st" "2nd" "3rd" "4th" "5th" "6th" "7th" "8th" "9th" "10th" "11th" "12th") }}
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="grade-filter" value="{{ $tag }}" onchange="filterClasses()"> {{ $tag }}
-            </span>
+  /* Filter range box */
+  .filter-range {
+    --fg: #0a1a33;
+    --muted: #173a74;
+    --accent: #0a4acb;
+    --accent-strong: #0738a0;
+    --chip-bg: #f4f8ff;
+    --chip-bg-hover: #ecf3ff;
+    --chip-bg-active: #dbe8ff;
+    --chip-br: 6px;
+    --border: #b7cffb;
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.5rem;
+    box-sizing: border-box;
+
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(10, 74, 203, 0.08);
+  }
+
+  /* Filter row for labels and inputs */
+  .filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+
+  /* Group label styling */
+  .group-label {
+    font-weight: 600;
+    color: var(--muted);
+    font-size: 0.85rem;
+    white-space: nowrap;
+    margin-bottom: 0.3rem;
+  }
+
+  /* Chips container */
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+
+  /* Compact chip styling */
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    background: var(--chip-bg);
+    border-radius: var(--chip-br);
+    padding: 0.2rem 0.5rem;
+    font-size: 0.75rem;
+    border: 1px solid var(--border);
+    cursor: pointer;
+    transition: background 0.2s ease, border-color 0.2s ease;
+  }
+
+  /* Chip hover and active states */
+  .chip:hover {
+    border-color: var(--border-hover);
+    background: var(--chip-bg-hover);
+  }
+
+  .chip.active {
+    background: var(--chip-bg-active);
+    border-color: var(--accent);
+    color: var(--accent-strong);
+  }
+
+  /* Hidden checkboxes (inside chips) */
+  .chip input[type="checkbox"] {
+    display: none;
+  }
+
+  /* Inline row for Day and Schedule */
+  .inline-row {
+    display: flex;
+    justify-content: flex-start; /* no extra space distribution */
+    gap: 0.5rem;                 /* small gap between items */
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+
+  /* Subgroups (Day and Schedule) */
+  .subgroup {
+    display: inline-flex;   /* fit width to its content */
+    align-items: center;    /* keep label aligned with chips */
+    gap: 0.5rem;
+    flex: 0 0 auto;         /* do not stretch, size to content */
+    min-width: auto;        /* allow natural sizing */
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 720px) {
+    .filter-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .inline-row {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .chips {
+      justify-content: flex-start;
+    }
+  }
+</style>
+
+<div class="filter-wrap">
+  <div class="filter-range">
+
+    <!-- Grades -->
+    <div class="filter-row">
+      <div class="group-label">Grade:</div>
+      <div class="chips">
+        {{ range $g := (slice "1st" "2nd" "3rd" "4th" "5th" "6th" "7th" "8th" "9th" "10th" "11th" "12th") }}
+        <label class="chip">
+          <input type="checkbox" class="grade-filter" value="{{ $g | lower }}" onchange="toggleChip(this)">
+          <span>{{ $g }}</span>
         </label>
         {{ end }}
-    </p>
-    <p>
-        <b>Day:&nbsp;&nbsp;</b>
-        {{ range $tag := (slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" "Saturday" "Sunday") }}
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" class="day-filter" value="{{ $tag }}" onchange="filterClasses()"> {{ $tag }}
-            </span>
+      </div>
+    </div>
+
+    <!-- Day and Schedule on the same row -->
+    <div class="inline-row">
+
+      <!-- Day -->
+      <div class="subgroup">
+        <div class="group-label">Day:</div>
+        <div class="chips">
+          {{ range $d := (slice "Mon" "Tue" "Wed" "Thu" "Fri" "Sat" "Sun") }}
+          <label class="chip">
+            <input type="checkbox" class="day-filter" value="{{ $d | lower }}" onchange="toggleChip(this)">
+            <span>{{ $d }}</span>
+          </label>
+          {{ end }}
+        </div>
+      </div>
+
+      <!-- Schedule -->
+      <div class="subgroup">
+        <div class="group-label">Schedule:</div>
+        <div class="chips">
+          {{ range $s := (slice "Starting Soon" "Join Now" "On-Demand") }}
+          <label class="chip">
+            <input type="checkbox" class="schedule-filter" value="{{ $s | lower }}" onchange="toggleChip(this)">
+            <span>{{ $s }}</span>
+          </label>
+          {{ end }}
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Duration -->
+    <div class="filter-row">
+      <div class="group-label">Duration:</div>
+      <div class="chips">
+        {{ range $d := (slice "4 wk" "6wk" "8wk" "2-3mo" "4-6mo" "6+mo") }}
+        <label class="chip">
+          <input type="checkbox" class="duration-filter" value="{{ $d | lower }}" onchange="toggleChip(this)">
+          <span>{{ $d }}</span>
         </label>
         {{ end }}
-    </p>
-    <p>
-        <b>Subject:&nbsp;&nbsp;</b>
-        {{ range $tag := (slice "Math" "Robotics" "Game Development" "AI" "Computer Coding" "Science" ) }}
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="subject-filter" 
-                value="{{ $tag }}" 
-                {{ if eq $selected_subject $tag }} 
-                    checked
-                {{ end }}
-                onchange="filterClasses()"> {{ $tag }}
-            </span>
+      </div>
+    </div>
+
+    <!-- Subject -->
+    <div class="filter-row">
+      <div class="group-label">Subject:</div>
+      <div class="chips">
+        {{ range $s := (slice "Math" "Robotics" "Game Development" "AI" "Computer Coding" "Science") }}
+        <label class="chip">
+          <input type="checkbox" class="subject-filter" value="{{ $s | lower }}" onchange="toggleChip(this)">
+          <span>{{ $s }}</span>
         </label>
         {{ end }}
-    </p>
-    <p>
-        <b>Schedule Type:&nbsp;&nbsp;</b>
-        {{ range $tag := (slice "Starting Soon" "On-Demand" "Join Now" ) }}
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="schedule-filter" 
-                value="{{ $tag }}" 
-                {{ if eq $selected_schedule $tag }} 
-                    checked
-                {{ end }}
-                onchange="filterClasses()"> {{ $tag }}
-            </span>
-        </label>
-        {{ end }}
-    </p>
-    <p>
-        <b>Duration:&nbsp;&nbsp;</b>
-        {{ range $tag := (slice "4 weeks" "6 weeks" "8 weeks" "2 to 3 Months" "4 to 6 Months" "6 Months+" "Flexible" ) }}
-        <label>
-            <span class="filter-box">
-                <input type="checkbox" 
-                class="duration-filter" 
-                value="{{ $tag }}" 
-                onchange="filterClasses()"> {{ $tag }}
-            </span>
-        </label>
-        {{ end }}
-    </p>
+      </div>
+    </div>
+
+  </div>
 </div>
+
+<script>
+  // Toggle chip active state
+  function toggleChip(inputEl) {
+    const label = inputEl.closest('.chip');
+    if (!label) return;
+
+    // Toggle checkbox checked state
+    label.classList.toggle('active', inputEl.checked);
+
+    // Trigger filtering
+    filterClasses();
+  }
+
+  // Filter classes based on selected filters
+  function filterClasses() {
+    const dayFilters = Array.from(document.querySelectorAll('.day-filter:checked')).map(cb => cb.value);
+    const gradeFilters = Array.from(document.querySelectorAll('.grade-filter:checked')).map(cb => cb.value);
+    const subjectFilters = Array.from(document.querySelectorAll('.subject-filter:checked')).map(cb => cb.value);
+    const scheduleFilters = Array.from(document.querySelectorAll('.schedule-filter:checked')).map(cb => cb.value);
+    const durationFilters = Array.from(document.querySelectorAll('.duration-filter:checked')).map(cb => cb.value);
+
+    const classes = document.querySelectorAll('div[id^="class-"]');
+    classes.forEach(classCard => {
+      const dayTags = classCard.getAttribute('data-day').toLowerCase().split('#');
+      const gradeTags = classCard.getAttribute('data-grade').toLowerCase().split('#');
+      const subjectTags = classCard.getAttribute('data-subject').toLowerCase().split('#');
+      const scheduleTags = classCard.getAttribute('data-schedule').toLowerCase().split('#');
+      const durationTags = classCard.getAttribute('data-duration').toLowerCase().split('#');
+
+      const isDayMatch = !dayFilters.length || dayFilters.some(filter => dayTags.includes(filter));
+      const isGradeMatch = !gradeFilters.length || gradeFilters.some(filter => gradeTags.includes(filter));
+      const isSubjectMatch = !subjectFilters.length || subjectFilters.some(filter => subjectTags.includes(filter));
+      const isScheduleMatch = !scheduleFilters.length || scheduleFilters.some(filter => scheduleTags.includes(filter));
+      const isDurationMatch = !durationFilters.length || durationFilters.some(filter => durationTags.includes(filter));
+
+      if (isDayMatch && isGradeMatch && isSubjectMatch && isScheduleMatch && isDurationMatch) {
+        classCard.style.display = '';
+      } else {
+        classCard.style.display = 'none';
+      }
+    });
+  }
+</script>

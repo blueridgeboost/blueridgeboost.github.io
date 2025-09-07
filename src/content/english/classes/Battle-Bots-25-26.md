@@ -18,7 +18,7 @@ page_title: "VEX Battle Bots - Fifth and Sixth Grade"
 page_subtitle: "Design. Build. Code. BATTLE!"
 ribbon: "Starts Sep 7"
 title: "VEX Battle Bots - Fifth and Sixth Grade | Blue Ridge Boost"
-day_tags: ["Sunday"]
+day_tags: ["Sun"]
 grade_tags: ["5th","6th"]
-featured: 155
+featured: 158
 ---

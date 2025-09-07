@@ -17,7 +17,7 @@ page_title: "Command Craft: Minecraft Command Blocks"
 page_subtitle: "Learn logic and coding concepts with Command Blocks!"
 ribbon: "Starts Sep 29"
 title: "Command Craft: Minecraft Command Blocks | Blue Ridge Boost"
-day_tags: ["Monday"]
+day_tags: ["Mon"]
 grade_tags: ["4th","5th"]
-featured: 150
+featured: 153
 ---

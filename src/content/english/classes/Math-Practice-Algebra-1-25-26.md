@@ -9,12 +9,13 @@ price: 179.99
 price_unit: "per month"
 duration: "Flexible"
 category: "Ongoing"
-weight: "48"
+weight: "49"
 end_date: "2026-05-21"
 page_title: "Algebra 1 Homework Help"
 page_subtitle: "Math Support"
 ribbon: "On Demand"
 title: "Algebra 1 Homework Help | Blue Ridge Boost"
+day_tags: []
 grade_tags: ["7th","8th"]
-featured: 162
+featured: 165
 ---

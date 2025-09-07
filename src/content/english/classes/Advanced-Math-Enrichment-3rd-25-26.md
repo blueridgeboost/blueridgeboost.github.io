@@ -17,7 +17,7 @@ page_title: "Advanced Math Enrichment 3rd Grade"
 page_subtitle: "Exploring the Beauty of Mathematics"
 ribbon: "Join Now"
 title: "Advanced Math Enrichment 3rd Grade | Blue Ridge Boost"
-day_tags: ["Tuesday", "Thursday"]
+day_tags: ["Tue","Thu"]
 grade_tags: ["3rd"]
-featured: 166
+featured: 169
 ---

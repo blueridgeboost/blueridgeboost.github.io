@@ -18,7 +18,7 @@ page_title: "Science Challenge Hour"
 page_subtitle: "Take on Science Challenges with Lain!"
 ribbon: "Starts Sep 21"
 title: "Science Challenge Hour | Blue Ridge Boost"
-day_tags: ["Sunday"]
+day_tags: ["Sun"]
 grade_tags: ["3rd","4th","5th"]
-featured: 200
+featured: 204
 ---

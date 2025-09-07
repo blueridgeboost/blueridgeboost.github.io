@@ -17,7 +17,7 @@ page_title: "Math Builders: 5th Grade Group Tutoring"
 page_subtitle: "Math Support"
 ribbon: "Starts Sep 9"
 title: "Math Builders: 5th Grade Group Tutoring | Blue Ridge Boost"
-day_tags: ["Tuesday","Thursday"]
+day_tags: ["Tue","Thu"]
 grade_tags: ["5th"]
-featured: 169
+featured: 172
 ---
