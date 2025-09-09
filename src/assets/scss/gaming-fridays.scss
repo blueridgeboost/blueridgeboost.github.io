@@ -27,8 +27,11 @@
     font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
     transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, transform 0.05s ease;
     width: 100%;
-    color: #ffffff;             /* links white */
-    text-decoration: none;      /* no underline */
+    color: #ffffff !important;             /* links white */
+    text-decoration: none !important;      /* no underline */
+  }
+  .grb-btn:hover {
+    text-decoration: underline !important;
   }
 
   .grb-btn:focus {
@@ -38,14 +41,15 @@
 
   /* Variants matched to site colors */
   .grb-btn-primary {
-    background: #2d6cdf;        /* site blue */
-    border-color: #2d6cdf;
+    background: $dark-blue;        /* darker hover */
+    border-color: $dark-blue;
     box-shadow: 0 6px 16px rgba(45, 108, 223, 0.25);
   }
   .grb-btn-primary:hover {
-    background: #2556b0;        /* darker hover */
-    border-color: #2556b0;
-    transform: translateY(-1px);
+    
+    background: $darkest-blue;        /* site blue */
+    border-color: $darkest-blue;
+    transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(37, 86, 176, 0.28);
   }
 

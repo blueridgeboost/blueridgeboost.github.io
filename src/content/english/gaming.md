@@ -1,7 +1,7 @@
 ---
 title: "Gaming Fridays | Blue Ridge Boost"
 page_title: "Gaming Fridays"
-description: "Drop off your gamer for a safe, instructor-led Friday night of Minecraft, Fortnite, and Roblox. Ages 6–14. Fridays, 5:30–8:30 PM at Blue Ridge Boost, Charlottesville. Free pizza included."
+description: "Drop off your gamer for a safe, instructor-led Friday night of Minecraft, Fortnite, and Roblox. Ages 6–10 & 10+. Fridays, 5:30–8:30 PM at Blue Ridge Boost, Charlottesville. Free pizza included."
 draft: false
 section: "gaming-fridays"
 aliases: ["/parents-night-out", "/gaming-fridays"]
@@ -14,7 +14,7 @@ keywords:
   - Fortnite events for kids
   - Roblox gaming nights for kids
   - gaming Fridays Charlottesville
-  - fun events for kids ages 6-14
+  - fun events for kids ages 6-18
   - Blue Ridge Boost kids gaming
   - STEM gaming events
   - Charlottesville Friday night events for kids
@@ -29,17 +29,17 @@ keywords:
 
 <div class="gaming-hero">
   <p class="gaming-subhead">
-    Ages 6–14 • Fridays, 5:30–8:30 PM • Free pizza included
+    Ages 6–10 & 10+ • Fridays, 5:30–8:30 PM • Free pizza included
   </p>
   <p class="gaming-subhead">
     Blue Ridge Boost, 2171 Ivy Rd, Charlottesville
   </p>
   <div class="grb-ctas container">
     <div class="row">
-      <div class="col">
+      <div class="col-md ">
         <a href="#register" class="grb-btn grb-btn-primary">Register for Friday</a>
       </div>
-      <div class="col">
+      <div class="col-md">
         <a href="#details" class="grb-btn grb-btn-primary">What's Included</a>
       </div>
     </div>
@@ -60,12 +60,31 @@ keywords:
     <li><strong>Where:</strong> Blue Ridge Boost, 2171 Ivy Rd, Charlottesville, VA 22903</li>
     <li><strong>Ages:</strong> 6–10 and 10+</li>
   </ul>
-
-  <div class="gaming-ages">
-    <p><strong>Ages 6–10:</strong> Touch-screen stations and beginner-friendly guidance. Cooperative challenges and creative play.</p>
-    <p><strong>Ages 10+:</strong> High-powered PCs with incredible graphics for team and competitive play. Experienced instructors help you level up.</p>
-    <p>Got a favorite game? <strong>Suggest it, and we’ll try to add it to the lineup!</strong></p>
+  <hr>
+  <div class="gaming-ages d-flex flex-wrap">
+    <div class="col-lg px-2">
+      <p><strong>Ages 6–10:</strong> Touch-screen stations and beginner-friendly guidance. Cooperative challenges and creative play.</p>
+      <p>Play games like:</p>
+      <ul>
+          <li>Minecraft Education</li>
+          <li>Roblox</li>
+          <li>Fortnite</li>
+        </ul>
+    </div>
+    <div class="col-lg px-2">
+      <p><strong>Ages 10+:</strong> High-powered PCs with incredible graphics for team and competitive play. Experienced instructors help you level up. </p>
+        <p>Play games like:</p>
+        <ul>
+          <li>Fortnite</li>
+          <li>Rocket League</li>
+          <li>Call of Duty</li>
+          <li>Marvel Rivals</li>
+          <li>Valorant</li>
+        </ul>
+    </div>
   </div>
+   <hr>
+  <p>Got a favorite game? <strong>Suggest it, and we’ll try to add it to the lineup!</strong></p>
 </section>
 
 <section class="gaming-safety">
@@ -74,7 +93,7 @@ keywords:
     <li>Experienced, background-checked instructors with active supervision at all times.</li>
     <li>Safe-chat guidelines and private/controlled servers; no in-app purchases.</li>
     <li>Clear drop-off and pick-up: doors open 5:20 PM; pickup by 8:35 PM.</li>
-    <li>Please list allergies during registration; cheese/pepperoni provided, alternatives by request.</li>
+    <li><strong>Please list allergies during registration;</strong> cheese/pepperoni provided, alternatives by request.</li>
   </ul>
 </section>
 
