@@ -33,14 +33,14 @@ class="ecsp-media"
         {{ if .Params.day_tags }}
             {{ with .Params.day_tags }}
                 {{ if eq (len . ) 1 }}
-                    {{ range . }} {{.}}s {{end}} 
+                    {{ range . }} {{.}} {{end}} 
                 {{ else if eq (len . ) 2 }}
-                    {{ index . 0 }}s, {{ index . 1 }}s
+                    {{ index . 0 }}, {{ index . 1 }}
                 {{ else if eq (len . ) 3 }}
-                    {{ index . 0 }}s, {{ index . 1 }}s, {{ index . 2 }}s
+                    {{ index . 0 }}, {{ index . 1 }}, {{ index . 2 }}
                 {{ else if eq (len . ) 7 }}
                 {{ else}}
-                    {{ index . 0 }}s through {{ index . (sub (len .) 1) }}s
+                    {{ index . 0 }} through {{ index . (sub (len .) 1) }}
                 {{ end }}
             {{ end }} 
         {{ else }}

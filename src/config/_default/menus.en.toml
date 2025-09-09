@@ -53,51 +53,14 @@
     weight      = 3
 
 [[main]]
-    name        = "Events"
-    weight      = 8
-
-
-[[main]]
-    name       = "Gaming Fridays"
-    url        = "/parents-night-out/"
-    weight     = 1
-    parent     = "Events"
+    name       = "Gaming"
+    url        = "/gaming/"
+    weight     = 4
 
 [[main]]
-    name        = "Birthday Parties"
-    url         = "/celebrations"
-    weight      = 2
-    parent     = "Events"
-
-[[main]]
-    name        = "WRO"
-    url         = "/wro"
-    weight      = 3
-    parent     = "Events"
-
-[[main]]
-    name        = "Open House"
-    url         = "/open-house/"
-    weight      = 4
-    parent     = "Events"
-
-# [[main]]
-#     name        = "Drop-In Robotics"
-#     url         = "/drop-in-robotics/"
-#     weight      = 5
-#     parent     = "Events"
-
-# [[main]]
-#     name       = "Girl Powered Fridays"
-#     url        = "/girl-powered-fridays/"
-#     weight     = 9
-#     parent     = "Events"
-
-# [[main]]
-#     name       = "Chess Club"
-#     url        = "/chess/"
-#     weight     = 4
-#     parent     = "Events"
+    name        = "Birthdays"
+    url         = "/birthdays/"
+    weight      = 5
 
 [[main]]
     name       = "Tutoring"
@@ -109,17 +72,38 @@
     url        = "/group-classes/"
     weight     = 11
 
+
+[[main]]
+    name        = "More"
+    weight      = 12
+
+
+[[main]]
+    name        = "WRO"
+    url         = "/wro"
+    weight      = 3
+    parent     = "More"
+
+[[main]]
+    name        = "Open House"
+    url         = "/open-house/"
+    weight      = 4
+    parent     = "More"
+
 [[main]]
     name       = "Team"
     url        = "/instructors/"
     weight     = 12
+    parent     = "More"
 
 [[main]]
     name       = "Contact"
     url        = "/contact/"
     weight     = 12
+    parent     = "More"
 
 [[main]]
     name       = "Login"
     url        = "#!/~/account"
     weight     = 13
+    parent     = "More"
