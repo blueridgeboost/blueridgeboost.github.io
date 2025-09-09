@@ -36,10 +36,10 @@ keywords:
   </p>
   <div class="grb-ctas container">
     <div class="row">
-      <div class="col-md ">
-        <a href="#register" class="grb-btn grb-btn-primary">Register for Friday</a>
+      <div class="col-md m-1">
+        <a href="#register" class="grb-btn grb-btn-primary">Reserve Your Spot</a>
       </div>
-      <div class="col-md">
+      <div class="col-md m-1">
         <a href="#details" class="grb-btn grb-btn-primary">What's Included</a>
       </div>
     </div>
@@ -47,6 +47,22 @@ keywords:
 </div>
 
 <hr class="gaming-divider" />
+
+<section id="register" class="gaming-register">
+  <h2>Reserve Your Spot</h2>
+  <p>Limited seats available each Friday. Choose a date below to register.</p>
+  <div class="gaming-store">
+    <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code" charset="utf-8"></script>
+    <script type="text/javascript">
+      xProductBrowser(
+        "views=grid(20,5) list(60) table(60)",
+        "categoryView=grid",
+        "id=my-store-106136041",
+        "defaultCategoryId=175336875"
+      );
+    </script>
+  </div>
+</section>
 
 <section id="details" class="gaming-details">
   <h2>🎮 Level Up Your Friday!</h2>
@@ -121,21 +137,6 @@ keywords:
   </details>
 </section>
 
-<section id="register" class="gaming-register">
-  <h2>Reserve Your Spot</h2>
-  <p>Limited seats available each Friday. Choose a date below to register.</p>
-  <div class="gaming-store">
-    <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code" charset="utf-8"></script>
-    <script type="text/javascript">
-      xProductBrowser(
-        "views=grid(20,5) list(60) table(60)",
-        "categoryView=grid",
-        "id=my-store-106136041",
-        "defaultCategoryId=175336875"
-      );
-    </script>
-  </div>
-</section>
 
 <section class="gaming-contact">
   <h2>Questions?</h2>
@@ -176,14 +177,14 @@ keywords:
 </script>
 
 <style>
-  .gaming-hero { text-align:center; padding: 1.5rem 1rem; }
+  .gaming-hero { text-align:center; padding: 0.5rem 0.5rem; margin-bottom: 0rem}
   .gaming-subhead { margin: 0.5rem auto 1rem; max-width: 45rem; }
   .gaming-ctas { display:flex; gap:0.75rem; justify-content:center; flex-wrap:wrap; }
   .btn { display:inline-block; padding:0.75rem 1rem; border-radius:8px; text-decoration:none; font-weight:600; }
   .btn-primary { background:#2d6cdf; color:#fff; }
   .btn-secondary { background:#eef2ff; color:#243b53; }
   .btn:focus { outline: 3px solid #94c0ff; outline-offset:2px; }
-  .gaming-divider { border:0; border-top:1px solid #ddd; margin:1rem 0; }
+  .gaming-divider { border:0; border-top:1px solid #ddd; margin:0.1rem 0; }
   .gaming-details, .gaming-safety, .gaming-faq, .gaming-register, .gaming-contact { padding: 1rem; max-width: 900px; margin: 0 auto; }
   .gaming-facts { list-style: none; padding:0; margin:0.75rem 0; }
   .gaming-facts li { margin:0.25rem 0; }
@@ -191,4 +192,5 @@ keywords:
   details { border:1px solid #e5e7eb; border-radius:8px; padding:0.5rem 0.75rem; margin:0.5rem 0; background:#fafafa; }
   details > summary { cursor:pointer; font-weight:600; }
   .gaming-store { margin-top: 0.75rem; }
+  .section {padding-top: 0px !important;padding-bottom: 0px !important}
 </style>
