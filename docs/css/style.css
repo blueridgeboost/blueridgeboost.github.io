@@ -17980,7 +17980,8 @@ body.dark {
   padding: 0 !important;
   margin: 0 !important;
   isolation: isolate;
-  /* predictable z-index stacking */ }
+  /* predictable z-index stacking */
+  width: auto; }
 
 /*** Ribbon for class cards ***/
 /* Horizontal ribbon across top-left inside the card */
