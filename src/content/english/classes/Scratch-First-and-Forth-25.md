@@ -9,7 +9,7 @@ price: 199.99
 category: "Session"
 price_unit: "6 weeks"
 duration: "6 wk"
-weight: "7"
+weight: "6"
 start_date: "2025-09-08"
 end_date: "2025-12-15"
 start_time: "4:30"
@@ -20,5 +20,5 @@ ribbon: "Starts Sep 15"
 title: "Scratch Block Coding | Blue Ridge Boost"
 day_tags: ["Mon"]
 grade_tags: ["2nd","3rd","4th"]
-featured: 156
+featured: 157
 ---

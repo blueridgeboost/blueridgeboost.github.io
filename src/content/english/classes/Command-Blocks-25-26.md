@@ -9,7 +9,7 @@ price: 229.99
 category: "Session"
 price_unit: "6 weeks"
 duration: "6 wk"
-weight: "25"
+weight: "24"
 end_date: "2026-05-24"
 start_time: "5:30"
 end_time: "6:30"
@@ -19,5 +19,5 @@ ribbon: "Starts Sep 29"
 title: "Command Craft: Minecraft Command Blocks | Blue Ridge Boost"
 day_tags: ["Mon"]
 grade_tags: ["4th","5th"]
-featured: 153
+featured: 154
 ---

@@ -263,7 +263,7 @@ animation: loading 2s infinite ease;
 
 @media only screen and (max-width: 600px) {
 form {
-  width: 80vw;
+  width: auto;//was 80vh
   min-width: initial;
 }
 }

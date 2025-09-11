@@ -9,14 +9,14 @@ price: 179
 price_unit: "per month"
 duration: "4-6 mo"
 category: "Ongoing"
-weight: "69"
+weight: "66"
 start_date: "2025-09-06"
 end_date: "2026-05-16"
 start_time: "12:00"
 end_time: "1:00"
 page_title: "Python Level 1"
 page_subtitle: "Preparation and Certification Exam"
-ribbon: "Starts Sep 6"
+ribbon: "Starts Sep 20"
 title: "Python Level 1 | Blue Ridge Boost"
 day_tags: ["Sat"]
 grade_tags: ["8th","9th","10th"]

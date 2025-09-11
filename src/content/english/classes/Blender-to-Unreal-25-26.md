@@ -9,7 +9,7 @@ price: 199.99
 price_unit: "per month"
 duration: "6+ mo"
 category: "Ongoing"
-weight: "47"
+weight: "44"
 end_date: "2026-05-18"
 start_time: "6:00"
 end_time: "7:30"
@@ -19,5 +19,5 @@ ribbon: "Join Now"
 title: "3D Video Game Modeling: Blender to Unreal Engine | Blue Ridge Boost"
 day_tags: ["Mon"]
 grade_tags: ["7th","8th","9th","10th","11th","12th"]
-featured: 160
+featured: 161
 ---

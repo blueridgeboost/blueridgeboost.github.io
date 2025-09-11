@@ -3,10 +3,10 @@ ecwid: 771060851
 product_id: Future-Innovators-3-5
 robots: "noindex, follow"
 layout: "single"
-schedule_tags: ["Starting Soon"]
+schedule_tags: ["Join Now"]
 subject_tags: ["Robotics","Computer Coding"]
 price: 169.99
-weight: "18"
+weight: "17"
 start_date: "2025-09-07"
 end_date: "2025-05-16"
 start_time: "11:00"

@@ -9,15 +9,15 @@ price: 199.99
 price_unit: "per month"
 duration: "4-6 mo"
 category: "Ongoing"
-weight: "55"
+weight: "52"
 end_date: "2026-05-24"
 start_time: "6:00"
 end_time: "7:30"
 page_title: "Introduction to Computer Science"
 page_subtitle: "Get started with Computer Science through Blue Ridge Boost and CodeHS!"
-ribbon: "Starts Sep 10"
+ribbon: "Starts Sep 17"
 title: "Introduction to Computer Science | Blue Ridge Boost"
 day_tags: ["Wed"]
 grade_tags: ["7th","8th"]
-featured: 185
+featured: 186
 ---

@@ -9,7 +9,7 @@ price: 325
 price_unit: "per month"
 duration: "2-3 mo"
 category: "Ongoing"
-weight: "38"
+weight: "36"
 start_time: "6:00"
 end_time: "7:30"
 page_title: "Advanced FIRST LEGO League (Grades 6 to 8)"
@@ -18,5 +18,5 @@ ribbon: "Starts Sep 15"
 title: "Advanced FIRST LEGO League (Grades 6 to 8) | Blue Ridge Boost"
 day_tags: ["Mon"]
 grade_tags: ["6th","7th","8th"]
-featured: 192
+featured: 193
 ---

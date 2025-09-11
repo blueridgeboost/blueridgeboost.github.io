@@ -9,7 +9,7 @@ price: 399.99
 category: "Session"
 price_unit: "8 weeks"
 duration: "8 wk"
-weight: "51"
+weight: "48"
 start_date: "2025-09-19"
 end_date: "2026-05-19"
 start_time: "6:00"
@@ -20,5 +20,5 @@ ribbon: "Starts Sep 19"
 title: "Carnegie Mellon Robotics Academy: Fabrication Foundations | Blue Ridge Boost"
 day_tags: ["Fri"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
-featured: 200
+featured: 201
 ---
