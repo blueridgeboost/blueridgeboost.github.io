@@ -9,15 +9,15 @@ price: 399.99
 price_unit: "per month"
 duration: "4-6 mo"
 category: "Ongoing"
-weight: "56"
+weight: "53"
 end_date: "2026-05-24"
 start_time: "6:00"
 end_time: "7:30"
 page_title: "Carnegie Mellon Robotics Academy: Autonomy Foundations"
 page_subtitle: "From Beginner to Roboticist!"
-ribbon: "Starts Sep 11"
+ribbon: "Starts Sep 18"
 title: "Carnegie Mellon Robotics Academy: Autonomy Foundations | Blue Ridge Boost"
 day_tags: ["Thu"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
-featured: 197
+featured: 198
 ---

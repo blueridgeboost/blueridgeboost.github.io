@@ -9,7 +9,7 @@ price: 249.99
 category: "Session"
 price_unit: "6 weeks"
 duration: "6 wk"
-weight: "14"
+weight: "13"
 start_date: "2025-08-18"
 end_date: "2026-05-24"
 start_time: "5:00"
@@ -20,5 +20,5 @@ ribbon: "Starts Sep 24"
 title: "Roblox Studio: Make a game in 6 sessions | Blue Ridge Boost"
 day_tags: ["Wed"]
 grade_tags: ["3rd","4th","5th"]
-featured: 175
+featured: 176
 ---

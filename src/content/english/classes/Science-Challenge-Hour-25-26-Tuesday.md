@@ -9,7 +9,7 @@ price: 144.99
 category: "Session"
 price_unit: "4 weeks"
 duration: "4 wk"
-weight: "12"
+weight: "11"
 start_date: "2025-09-02"
 end_date: "2026-05-19"
 start_time: "4:30"
@@ -20,5 +20,5 @@ ribbon: "Starts Sep 16"
 title: "Science Challenge Hour | Blue Ridge Boost"
 day_tags: ["Tue"]
 grade_tags: ["3rd","4th","5th"]
-featured: 203
+featured: 204
 ---

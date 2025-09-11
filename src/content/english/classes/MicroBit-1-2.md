@@ -14,9 +14,9 @@ start_time: "3:45"
 end_time: "4:30"
 page_title: "Micro:bit Programming (Grades 1 and 2)"
 page_subtitle: "Where Young Minds Soar"
-ribbon: "Starts Sep 10"
+ribbon: "Starts Sep 17"
 title: "Micro:bit Programming (Grades 1 and 2) | Blue Ridge Boost"
 day_tags: ["Wed"]
 grade_tags: ["1st","2nd"]
-featured: 215
+featured: 216
 ---

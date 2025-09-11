@@ -9,16 +9,15 @@ price: 199.99
 price_unit: "per month"
 duration: "4-6 mo"
 category: "Ongoing"
-weight: "16"
-start_date: "2025-09-06"
+weight: "15"
 end_date: "2026-02-28"
 start_time: "2:00"
 end_time: "3:00"
 page_title: "Aerial Drone Competition for Grades 3-5"
 page_subtitle: "Sky High Challenge: Piloting and Coding"
-ribbon: "Starts Sep 6"
+ribbon: "Starts Sep 20"
 title: "Aerial Drone Competition for Grades 3-5 | Blue Ridge Boost"
 day_tags: ["Sat"]
 grade_tags: ["3rd","4th","5th"]
-featured: 207
+featured: 208
 ---

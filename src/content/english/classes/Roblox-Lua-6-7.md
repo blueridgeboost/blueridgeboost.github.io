@@ -6,7 +6,7 @@ layout: "single"
 schedule_tags: ["Join Now"]
 subject_tags: ["Game Development"]
 price: 149.99
-weight: "41"
+weight: "38"
 end_date: "2026-05-24"
 start_time: "5:30"
 end_time: "6:30"
@@ -15,5 +15,5 @@ ribbon: "Join Now"
 title: "Create Your Own Roblox Games: Roblox and Lua Coding | Blue Ridge Boost"
 day_tags: ["Tue"]
 grade_tags: ["6th","7th"]
-featured: 161
+featured: 162
 ---

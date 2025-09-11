@@ -3,20 +3,20 @@ ecwid: 770334954
 product_id: Aerial-Drones-25-26-Gr-6-8
 robots: "noindex, follow"
 layout: "single"
-schedule_tags: ["Starting Soon"]
+schedule_tags: ["Join Now"]
 subject_tags: ["Robotics"]
 price: 199.99
 price_unit: "per month"
 duration: "4-6 mo"
 category: "Ongoing"
-weight: "46"
+weight: "43"
 start_time: "3:00"
 end_time: "4:30"
 page_title: "Aerial Drone Competition for Grades 6-8"
 page_subtitle: "Sky High Challenge: Piloting and Coding"
-ribbon: "Starts Sep 6"
+ribbon: "Join Now"
 title: "Aerial Drone Competition for Grades 6-8 | Blue Ridge Boost"
 day_tags: ["Sat"]
 grade_tags: ["6th","7th","8th"]
-featured: 205
+featured: 206
 ---

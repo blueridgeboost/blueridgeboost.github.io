@@ -230,6 +230,8 @@
 }
 </style>
 
+{{ $selectedSubject := .Params.selected_subject }}
+
 <div class="filter-wrap">
   <div class="filter-range">
 
@@ -333,7 +335,11 @@
         <div class="chips">
           {{ range $s := (slice "Math" "Robotics" "Game Development" "AI" "Computer Coding" "Science") }}
           <label class="chip">
-            <input type="checkbox" class="subject-filter" value="{{ $s | lower }}" onchange="toggleChip(this)">
+            {{ if eq (lower $s) (lower $selectedSubject) }}
+              <input type="checkbox" class="subject-filter" value="{{ $s | lower }}" onchange="toggleChip(this)" checked>
+            {{ else }}
+              <input type="checkbox" class="subject-filter" value="{{ $s | lower }}" onchange="toggleChip(this)">
+            {{ end }}
             <span>{{ $s }}</span>
           </label>
           {{ end }}

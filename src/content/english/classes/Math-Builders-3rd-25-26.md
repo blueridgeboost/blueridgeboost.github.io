@@ -9,7 +9,7 @@ price: 149.99
 price_unit: "per month"
 duration: "Flexible"
 category: "Ongoing"
-weight: "8"
+weight: "7"
 end_date: "2026-05-24"
 start_time: "5:00"
 end_time: "6:00"
@@ -19,5 +19,5 @@ ribbon: "Join Now"
 title: "Math Builders: 3rd Grade Group Tutoring | Blue Ridge Boost"
 day_tags: ["Mon","Wed"]
 grade_tags: ["3rd"]
-featured: 174
+featured: 175
 ---
