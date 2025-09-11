@@ -14,19 +14,7 @@ aliases: ["/celebrations"]
 <!--<img src="images/fullroom.jpg" alt="BRB Gaming Room" width="500">-->
     <h3>Party Details</h3>
     <h5><strong>Max 15 Guests + 1 Birthday Kid</strong></h5>
-    <h5><strong>2 hours</strong> of tech birthday fun!</h5>    
-    <hr>
-<div class="container section">
-    <ul>
-        <h3>Party Types:</h3>
-        <h4><strong>Gaming Party</strong></h4>
-        <h6>16 Gaming Computers, all fully decked out with headphones, an awesome RGB keyboard & mouse, touchscreen capablities, and pre-setup accounts for co-op play!</h6>
-        <h4><strong>Robotics Party</strong></h4>
-        <h6>Build, Test, Battle! Select the kind of robots you'd like at your party, and enjoy activities made just for that kind of robot. Building, battling, coding, driving, racing, flying- your child and their friends will have hands-on fun wroking with awesome robots!</h6>
-        <h4><strong>Combo Party (+$99.99)</strong></h4>
-        <h6>Combine gaming and robotics into one action-packed celebration! Select 1 video game theme and 1 robotics theme and split activity time between your choices!</h6>
-    </ul>
-</div>
+    <h5><strong>2 hours</strong> of tech-empowered birthday fun!</h5>    
 <hr>
 
 
@@ -65,11 +53,15 @@ aliases: ["/celebrations"]
             <h6>Rec. Ages: 10+</h6>
         </div>
         <div class="theme-card col-md align-middle">
-            <h4>Combo</h4>
-            <body>Pick Your Gaming Theme</body> 
-            <h6>Gaming</h6>
-            <body>Pick Your Robotics</body> 
-            <h6>Robotics</h6>
+            <h4>Combo (+99.99)</h4>
+            <body>Your Choice of Gaming Theme</body> 
+            <h6>Rec. Ages: 6+</h6>
+            <br>
+            <body>+</body> 
+            <br>
+            <br>
+            <body>Your Choice of Robotics Theme</body> 
+            <h6>Rec. Ages: 6+</h6>
         </div>
         <div class="theme-card d-none">
         </div>
