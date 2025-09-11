@@ -117,7 +117,7 @@ aliases: ["/celebrations"]
                 </ul> 
         </div>
         <div class="theme-card col-lg-5">
-                <h4>&#127775 Super-Star Ultimate Party Package (+$199.99 for up to 8 guests)</h4>
+                <h4>&#127775 Super-Star Ultimate Party Package</h4>
                 <p>Cost: $799.99 for up to 8 guests + $25 for each additional guest</p>
                 <ul><p>Everything in the Power-Up Package plus:</p>
                     <h5>
