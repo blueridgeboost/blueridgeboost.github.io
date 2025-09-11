@@ -101,7 +101,7 @@ instructors:
   name: "Ouzman Cisse"
   role: "Robotics Teacher"
   photo:  "/images/instructors/ouzman.jpg"
-  bio: ""
+  bio: "Ouzman is a second year at the University of Virginia. He is studying for a bachelor’s degree in mechanical engineering. Ouzman has great interest in Rocketry, CAD, and robotics."
 
 - enable : true
   name: "Jacob Dulin"
