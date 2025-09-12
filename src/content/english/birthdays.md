@@ -13,8 +13,8 @@ aliases: ["/celebrations"]
 <!-- <img src="images/wideroom.webp" alt="BRB Gaming Room"> -->
 <!--<img src="images/fullroom.jpg" alt="BRB Gaming Room" width="500">-->
     <h3>Party Details</h3>
-    <h5><strong>Max 15 Guests + 1 Birthday Kid</strong></h5>
-    <h5><strong>2 hours</strong> of tech-empowered birthday fun!</h5>    
+    <p><strong>Max 15 Guests + 1 Birthday Kid</strong></p>
+    <p><strong>2 hours</strong> of tech-empowered birthday fun!</p>    
 <hr>
 
 
@@ -137,14 +137,14 @@ aliases: ["/celebrations"]
     </div> -->
     <div class="container section">
     <h3>Step 3: Get the party started!</h3>
-    <h5>Select and reserve a party slot, using the calander below. Please fill out all the information fields so we can start planning your tech-tastic party!</h5>
-    <h6> Note: There is a deposit fee to reserve a party date. The deposit is NOT an addition cost, and will contribute towards the total payment for your party! </h6>
+    <p class="">Select and reserve a party slot, using the calander below. Please fill out all the information fields so we can start planning your tech-tastic party!</p>
+    <p class="" style="font-size: 0.8rem"> Note: There is a deposit fee to reserve a party date. The deposit is NOT an addition cost, and will contribute towards the total payment for your party! </p>
     <div class="row d-flex flex-wrap justify-content-evenly">
         <div class="col-lg-4  pt-5">
             <h5><strong>Available Times:</strong></h5> 
-            <h6><li>Saturdays 4-6 PM</li>
+            <p><li>Saturdays 4-6 PM</li>
             <li>Sundays 4-6 PM</li>
-            <li>Other dates upon request in advance</li></h6>
+            <li>Other dates upon request in advance</li></p>
             <!--I would like to make this an "email us" button later on-->
         </div>
         <!-- <div class="container" id="Celebrations">
@@ -154,7 +154,7 @@ aliases: ["/celebrations"]
         <!-- add a la carte add ons of baloons and maybe pizza -->
         <!-- add embeded deposit system -->
         <div class="col-lg-8">
-        <script src="https://embed.ycb.me"	async="true"	data-domain="c0f2o"	data-displaymode="auto"></script>
+        <script src="https://embed.ycb.me"	async="true"	data-domain="brb-birthdays"	data-displaymode="auto"></script>
         </div>
     </div>
     <hr>
