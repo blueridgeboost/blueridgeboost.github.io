@@ -30,37 +30,74 @@ keywords:
 robots: "index, follow"
 ---
 
-<div class="container">
-    <p>Our competitive rates are tailored to meet your child's educational needs. Rates reflect the complexity 
-        of the subject matter and the expertise of our tutors. We offer personalized attention and targeted 
-        instruction to ensure optimal learning outcomes.</p>
-    <ul class="pricing-list">
-    <li>
-      <strong>Elementary and Middle School:</strong> $75 per hour
-    </li>
-    <li>
-      <strong>High School Level:</strong> $95 per hour
-    </li>
-    <li>
-      <strong>AP and College:</strong> $125 per hour
-    </li>
-  </ul>
-    <!-- To schedule an individual session, submit the information form below: -->
+<div class="rates-header">
+    <h2 id="rates-heading">Personalized Tutoring Rates</h2>
+    <p>
+      Our competitive rates are tailored to your child’s educational needs. Pricing varies by subject
+      complexity and tutor expertise. We provide personalized attention and targeted instruction to
+      ensure optimal learning outcomes.
+    </p>
+  </div>
+
+  <div class="tiers" role="list">
+    <div class="tier" role="listitem">
+      <h3>Elementary School</h3>
+      <span class="price">From $75 <small>/ hour</small></span>
+    </div>
+    <div class="tier" role="listitem">
+      <h3>Middle & High School</h3>
+      <span class="price">From $95 <small>/ hour</small></span>
+    </div>
+    <div class="tier" role="listitem">
+      <h3>AP & College</h3>
+      <span class="price">From $125 <small>/ hour</small></span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="cta-grid">
+    <!-- Replace the href values with your actual scheduling URLs for Nora and Lain -->
+    <a class="cta-btn" href="#schedule-nora" aria-label="Make an appointment with Nora">
+      Make an appointment with Nora (Math and Computer Science)
+    </a>
+    <a class="cta-btn secondary" href="#schedule-lain" aria-label="Make an appointment with Lain">
+      Make an appointment with Lain (Math and Physics)
+    </a>
+    <a class="cta-btn neutral" href="#tutoring-form" aria-label="Fill in a tutoring form" onclick="document.getElementById('tutoring-form').scrollIntoView({behavior:'smooth'}); return false;">
+      Make a request
+    </a>
+  </div>
+
+  <div id="schedule-nora">
+  <script src="https://embed.ycb.me"	async="true"	data-domain="brb-tutoring-nora"	data-displaymode="auto"></script>
+  </div>
+
+   <div id="schedule-lain">
+  <script src="https://embed.ycb.me"	async="true"	data-domain="brb-tutoring-lain"	data-displaymode="auto"></script>
+  </div>
+
+  <div id="tutoring-form" class="form-embed" aria-label="Request Individual Tutoring form">
     <iframe
-      id="JotFormIFrame-252413410135038"
+      id="JotFormIFrame-252545013109145"
       title="Request Individual Tutoring"
       onload="window.parent.scrollTo(0,0)"
       allowtransparency="true"
       allow="geolocation; microphone; camera; fullscreen; payment"
-      src="https://form.jotform.com/252413410135038"
+      src="https://form.jotform.com/252545013109145"
       frameborder="0"
-      style="min-width:100%;max-width:100%;height:539px;border:none;"
+      style="min-width:100%;max-width:100%;border:none;"
       scrolling="no"
-    >
-    </iframe>
-    <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
-    <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-252413410135038']", "https://form.jotform.com/")</script>
-    <h3>About Our Sessions</h3>
+    ></iframe>
+  </div>
+
+  <script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+  <script>
+    window.jotformEmbedHandler("iframe[id='JotFormIFrame-252545013109145']", "https://form.jotform.com/");
+  </script>
+</section>
+
+<h3>About Our Sessions</h3>
     <p>Tutoring sessions are available both virtually and in person at the Blue Ridge Boost office, located at 2171 Ivy Road, Charlottesville. Our team of experienced teachers and qualified University of Virginia students is dedicated to helping your child excel in a variety of subjects, including mathematics, physics, chemistry, reading, and writing. We focus on nurturing problem-solving abilities, critical thinking skills, and fostering a deep understanding of core concepts, rather than just memorizing facts or formulas.</p>
     <p>
     We provide both individual one-on-one tutoring and <a href="/classes/math">small group classes</a>.
