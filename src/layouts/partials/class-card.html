@@ -1,5 +1,6 @@
 {{ $id := .Params.ecwid }}
 {{ $ecwid_category := .Params.category }}
+
 <div
 id = "class-{{ $id }}"
 {{ if .Params.day_tags }}
@@ -19,15 +20,17 @@ style="padding-left: 0px; padding-right:0px; margin-right:0.25rem; margin-left:0
 class="ecsp-media"
 >
     {{ with .Params.ribbon }}
-        <span class="ecsp-ribbon">{{ . }}</span> 
-    {{ end }}
+    <span class="ecsp-ribbon">{{ . }}</span> 
+{{ end }}
     <div class="ecsp ecsp-SingleProduct-v2 ecsp-SingleProduct-v2-bordered ecsp-SingleProduct-v2-centered 
     ecsp-Product ec-Product-{{ $id }}" itemscope itemtype="http://schema.org/Product" data-single-product-id="{{ $id }}">
+    
     <a href="{{ .RelPermalink }}" class="ecsp-image-link">
+        
       <div class="ecsp-image" itemprop="image"></div>
-      
+    
     </a>
-
+    
         {{/*  <a href="{{ .RelPermalink }}"><div class="ecsp-title" itemprop="name" content="{{ .Params.page_title }}"></div></a>  */}}
         {{/*  <div class="ecsp-subtitle">{{ .Params.page_subtitle }}</div>  */}}
         {{ if .Params.day_tags }}
