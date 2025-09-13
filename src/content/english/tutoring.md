@@ -59,13 +59,13 @@ robots: "index, follow"
   <div class="cta-grid">
     <!-- Replace the href values with your actual scheduling URLs for Nora and Lain -->
     <a class="cta-btn" href="#schedule-nora" aria-label="Make an appointment with Nora">
-      Make an appointment with Nora (Math and Computer Science)
+      Book an appointment with Nora (Math and Computer Science)
     </a>
     <a class="cta-btn secondary" href="#schedule-lain" aria-label="Make an appointment with Lain">
-      Make an appointment with Lain (Math and Physics)
+      Book an appointment with Lain (Math and Physics)
     </a>
     <a class="cta-btn neutral" href="#tutoring-form" aria-label="Fill in a tutoring form" onclick="document.getElementById('tutoring-form').scrollIntoView({behavior:'smooth'}); return false;">
-      Make a request
+      Send us a request
     </a>
   </div>
 
