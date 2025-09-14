@@ -9,7 +9,7 @@ price: 299.99
 price_unit: "per month"
 duration: "Flexible"
 category: "Ongoing"
-weight: "69"
+weight: "71"
 end_date: "2026-05-16"
 page_title: "Algebra 2: Mastery Through Teaching and Practice"
 page_subtitle: "Get Ahead!"

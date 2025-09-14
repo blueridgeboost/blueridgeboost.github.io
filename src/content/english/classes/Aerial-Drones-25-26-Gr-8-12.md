@@ -9,7 +9,7 @@ price: 199.99
 price_unit: "per month"
 duration: "Flexible"
 category: "Ongoing"
-weight: "67"
+weight: "69"
 start_date: "2025-10-05"
 end_date: "2026-05-28"
 start_time: "4:30"
