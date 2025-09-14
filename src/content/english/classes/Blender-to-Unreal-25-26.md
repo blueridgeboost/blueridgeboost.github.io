@@ -9,7 +9,7 @@ price: 199.99
 price_unit: "per month"
 duration: "6+ mo"
 category: "Ongoing"
-weight: "44"
+weight: "46"
 end_date: "2026-05-18"
 start_time: "6:00"
 end_time: "7:30"
