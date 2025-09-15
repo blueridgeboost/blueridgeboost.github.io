@@ -9,7 +9,7 @@ price: 199.99
 price_unit: "per month"
 duration: "Flexible"
 category: "Ongoing"
-weight: "22"
+weight: "23"
 page_title: "Python Code Builders"
 page_subtitle: "Learn Python with Code Monkey Challenges!"
 ribbon: "On Demand"

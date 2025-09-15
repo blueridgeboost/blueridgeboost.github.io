@@ -9,7 +9,7 @@ price: 249.99
 price_unit: "per month"
 duration: "4-6 mo"
 category: "Ongoing"
-weight: "27"
+weight: "28"
 page_title: "Create & Code: Digital Art with JavaScript"
 page_subtitle: "Digital Art Course"
 ribbon: "On Demand"
