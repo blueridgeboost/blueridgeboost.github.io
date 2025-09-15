@@ -9,7 +9,7 @@ price: 179.99
 price_unit: "per month"
 duration: "Flexible"
 category: "Ongoing"
-weight: "48"
+weight: "49"
 end_date: "2026-05-21"
 page_title: "Algebra 1 Homework Help"
 page_subtitle: "Math Support"

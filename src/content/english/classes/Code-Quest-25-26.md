@@ -6,7 +6,7 @@ layout: "single"
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Computer Coding"]
 price: 149.99
-weight: "16"
+weight: "17"
 end_date: "2026-05-16"
 start_time: "2:30"
 end_time: "3:30"

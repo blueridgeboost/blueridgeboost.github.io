@@ -9,7 +9,7 @@ price: 325
 price_unit: "per month"
 duration: "2-3 mo"
 category: "Ongoing"
-weight: "37"
+weight: "38"
 start_time: "6:00"
 end_time: "7:30"
 page_title: "Advanced FIRST LEGO League (Grades 6 to 8)"

@@ -9,7 +9,7 @@ price: 199.99
 category: "Session"
 price_unit: "6 weeks"
 duration: "6 wk"
-weight: "6"
+weight: "7"
 start_date: "2025-09-08"
 end_date: "2025-12-15"
 start_time: "4:30"

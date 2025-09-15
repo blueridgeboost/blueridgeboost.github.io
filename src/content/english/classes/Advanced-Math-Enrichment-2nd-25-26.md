@@ -9,7 +9,7 @@ price: 139.99
 price_unit: "per month"
 duration: "Flexible"
 category: "Ongoing"
-weight: "5"
+weight: "6"
 end_date: "2026-05-24"
 page_title: "Advanced Math Enrichment 2nd Grade"
 page_subtitle: "Exploring the Beauty of Mathematics"

@@ -6,7 +6,7 @@ layout: "single"
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 149.99
-weight: "12"
+weight: "13"
 start_date: "2025-09-10"
 end_date: "2025-12-18"
 start_time: "4:30"
