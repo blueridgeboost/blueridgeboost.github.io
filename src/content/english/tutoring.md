@@ -31,7 +31,7 @@ robots: "index, follow"
 ---
 
 <div class="rates-header">
-    <h2 id="rates-heading">Personalized Tutoring Rates</h2>
+    <h2 id="rates-heading">STEM Tutoring</h2>
     <p>
       Our competitive rates are tailored to your child’s educational needs. Pricing varies by subject
       complexity and tutor expertise. We provide personalized attention and targeted instruction to
@@ -59,10 +59,11 @@ robots: "index, follow"
   <div class="cta-grid">
     <!-- Replace the href values with your actual scheduling URLs for Nora and Lain -->
     <a class="cta-btn" href="#schedule-nora" aria-label="Make an appointment with Nora">
-      Book an appointment with Nora (Math and Computer Science)
+      Book an appointment with Nora<br>
+      Advanced Math and Computer Science
     </a>
     <a class="cta-btn secondary" href="#schedule-lain" aria-label="Make an appointment with Lain">
-      Book an appointment with Lain (Math and Physics)
+      Book an appointment - any tutor
     </a>
     <a class="cta-btn neutral" href="#tutoring-form" aria-label="Fill in a tutoring form" onclick="document.getElementById('tutoring-form').scrollIntoView({behavior:'smooth'}); return false;">
       Send us a request
@@ -74,7 +75,7 @@ robots: "index, follow"
   </div>
 
    <div id="schedule-lain">
-  <script src="https://embed.ycb.me"	async="true"	data-domain="brb-tutoring-lain"	data-displaymode="auto"></script>
+  <script src="https://embed.ycb.me"	async="true"	data-domain="brb-tutoring-all-tutors"	data-displaymode="auto"></script>
   </div>
 
   <div id="tutoring-form" class="form-embed" aria-label="Request Individual Tutoring form">
