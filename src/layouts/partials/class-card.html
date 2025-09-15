@@ -64,12 +64,13 @@ class="ecsp-media"
             <p><b>Subscription (${{ .Params.price }} /month)</b></p>
         {{ end }}  */}}
         <div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
-            <div class="ecsp-productBrowser-price ecsp-price" style="display:none" itemprop="price" content="{{ .Params.price }}" 
-                data-spw-price-location="button">
-                <div itemprop="priceCurrency" content="USD"></div>
-            </div>
+            <meta itemprop="price" content="{{ .Params.price }}">
+            <meta itemprop="priceCurrency" content="USD">
+            <link itemprop="availability" href="http://schema.org/InStock">
+            <meta itemprop="itemCondition" content="http://schema.org/NewCondition">
         </div>
-		${{ .Params.price }} {{ .Params.price_unit }}
+
+$ {{ .Params.price }} {{ .Params.price_unit }}
         {{/*  <div customprop="options"></div><div customprop="qty"></div>
         <div customprop="addtobag"></div>
         <div customprop="vatinprice"></div>  */}}
