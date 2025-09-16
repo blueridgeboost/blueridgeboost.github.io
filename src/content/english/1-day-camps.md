@@ -36,6 +36,19 @@ robots: "index, follow"
     Blue Ridge Boosts offers instructional programs in robotics, coding, and math during school breaks and days off from school. 
     We also host camps on days with unexpected school closings, such as "snow days".
   </p>
+  <div class="row justify-content-center">
+    <div class="col-sm-5">
+      <button class="grb-btn grb-btn-primary" id="camp-button">Book Now</button>
+      <script>
+        function scrollToCamps() {
+          window.scrollTo(0, document.querySelector(".grid__wrap-inner").offsetTop);
+        }
+        document.getElementById("camp-button").onclick = scrollToCamps;
+      </script>
+    </div>
+  </div>
+  
+  
 
   <ul class="tight-list"> 
 <li> All camps are held at <strong>Blue Ridge Boost</strong>, 2171 Ivy Road, Charlottesville, Virginia 22903.
