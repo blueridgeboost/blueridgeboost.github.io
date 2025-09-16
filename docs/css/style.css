@@ -18277,9 +18277,19 @@ body.dark {
   gap: 12px;
   margin-bottom: 16px; }
 
+.tutoring-selected {
+  box-shadow: 0px 20px 0px #003359 !important;
+  transform: translateY(-20px);
+  background-color: #003359 !important;
+  color: white !important;
+  border: none !important; }
+
 @media (max-width: 820px) {
   .cta-grid {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .tutoring-selected {
+    box-shadow: 20px 0px 0px #003359 !important;
+    transform: translateX(-20px) !important; } }
 
 .cta-btn {
   display: inline-flex;
