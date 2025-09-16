@@ -118,7 +118,7 @@ instructors:
   name: "Joseph Johnson"
   role: "Math Teacher"
   photo:  "/images/instructors/joseph.jpg"
-  bio: ""
+  bio: "Joseph is a 2nd year student at the University of Virginia on the pre-med track, studying psychology. He is from Fairfax, Virginia, and has interests in dancing and music."
 - enable : false
   name: "Mehnaz Tasnim"
   role: "Robotics and Gaming Teacher"
