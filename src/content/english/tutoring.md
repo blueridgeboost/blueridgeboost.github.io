@@ -58,14 +58,14 @@ robots: "index, follow"
 <section>
   <div class="cta-grid">
     <!-- Replace the href values with your actual scheduling URLs for Nora and Lain -->
-    <a class="cta-btn" href="#schedule-nora" aria-label="Make an appointment with Nora">
+    <a class="cta-btn" id="nora-button" aria-label="Make an appointment with Nora">
       Book an appointment with Nora<br>
       Advanced Math and Computer Science
     </a>
-    <a class="cta-btn secondary" href="#schedule-lain" aria-label="Make an appointment with Lain">
+    <a class="cta-btn secondary" id="lain-button" aria-label="Make an appointment with Lain">
       Book an appointment - any tutor
     </a>
-    <a class="cta-btn neutral" href="#tutoring-form" aria-label="Fill in a tutoring form" onclick="document.getElementById('tutoring-form').scrollIntoView({behavior:'smooth'}); return false;">
+    <a class="cta-btn neutral tutoring-selected" id="tutoring-button" aria-label="Fill in a tutoring form" onclick="document.getElementById('tutoring-form').scrollIntoView({behavior:'smooth'}); return false;">
       Send us a request
     </a>
   </div>
@@ -103,3 +103,60 @@ robots: "index, follow"
     <p>
     We provide both individual one-on-one tutoring and <a href="/classes/math">small group classes</a>.
     </p>
+
+
+<script>
+  /*
+  to add a new button/schedule you need to:
+      create a new schedule reference
+        let newSchedule = document.getElementById("yourScheduleId")
+      create a new button reference 
+        let newButton = document.getElementById("yourButtonId) 
+      add them to the map
+        insert [newButton, newSchedule] to the buttonToSchedule map
+      you're done!
+  */
+
+  // get the actual form elements
+  let noraSchedule = document.getElementById("schedule-nora")
+  let lainSchedule = document.getElementById("schedule-lain")
+  let tutoringSchedule = document.getElementById("tutoring-form")
+
+  // get the button elements
+  let noraButton = document.getElementById("nora-button")
+  let lainButton = document.getElementById("lain-button")
+  let tutoringButton = document.getElementById("tutoring-button")
+
+  noraSchedule.hidden = true
+  lainSchedule.hidden = true
+  tutoringSchedule.hidden = false
+
+  //we make a set of the buttons 
+  const buttons = new Set([noraButton, lainButton, tutoringButton])
+  
+  // we map from button elems to schedule elems using this  
+  const buttonToSchedule = new Map( [
+    [noraButton, noraSchedule],
+    [lainButton, lainSchedule],
+    [tutoringButton, tutoringSchedule],
+  ])
+
+
+
+  //create the function that activates one button and deactivates all others
+  function activate(button) {
+    //activate the specific schedule and button
+    button.classList.add("tutoring-selected");
+    buttonToSchedule.get(button).hidden = false
+
+    // deactivate the others
+    buttons.difference(new Set([button])).forEach( (b) => {
+      b.classList.remove("tutoring-selected");
+      buttonToSchedule.get(b).hidden = true
+    }) 
+  }
+  //finally add the function to each button's on click 
+  buttons.forEach( (button) => {
+    button.onclick = (() => activate(button))
+  })
+</script>

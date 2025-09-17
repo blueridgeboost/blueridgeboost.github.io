@@ -46,7 +46,7 @@ aliases: ["/celebrations"]
             <body>Sphero Bots</body> 
             <h6>Rec. Ages: 6+</h6>
             <body>Lego Robotics: Spike Prime</body>
-            <h6>Rec. Ages: 10+</h6>
+            <h6>Rec. Ages: 8+</h6>
             <body>Sumo Bots</body> 
             <h6>Rec. Ages: 8+</h6>
             <body>Aerial Drones</body> 
@@ -70,25 +70,22 @@ aliases: ["/celebrations"]
 
 <div class="container section">
         <h3>Party Fun for Every Budget</h3>
-        <div class="columnparty">
-            <!-- <img src="images/maxweb.webp" alt="Minecraft Setup" width="400"> -->
-        </div>
-    </div>
-    <div class="d-flex flex-wrap justify-content-center">
-        <div class="theme-card col-lg-5">
-            <!--super charged, gamer, pro, champion, vip-->
-                <h4>&#127811 Basic Party Package</h4>
-                <p>Cost: $349.99 for up to 8 guests + $10 for each additional guest</p>
-                <p></p>
+        <!-- <img src="images/maxweb.webp" alt="Minecraft Setup" width="400"> -->
+        <div class="d-flex justify-content-center">
+            <div class="col-lg-7">
+                <hr>
+                <h4 >Basic Package</h4>
+                <p >Cost: $349.99 for up to 8 guests + $10 for each additional guest</p>
                 <ul>
-                    <h5>
-                    <li>90 minutes of gaming or robot building</li>
-                    <li>30 minutes of social time to eat</li>
-                    <li>15 guests + 1 birthday kid (16 total)</li>
-                    </h5>
+                    <li><h5>90 minutes of gaming or robot building</h5></li>
+                    <li><h5>30 minutes of social time to eat</h5></li>
+                    <li><h5>15 guests + 1 birthday kid (16 total)</h5></li>
                 </ul>
+                <hr>
+            </div>
         </div>
-        <div class="theme-card col-lg-5">
+    <div class="d-flex flex-wrap justify-content-center">
+        <div class="theme-card col-lg">
             <!--super charged, gamer, pro, champion, vip-->
                 <h4>&#128640 Level-Up Party Package</h4>
                 <p>Cost: $499.99 for up to 8 guests + $15 for each additional guest</p>
@@ -103,7 +100,7 @@ aliases: ["/celebrations"]
                     </h5>
                 </ul>
         </div>
-        <div class="theme-card col-lg-5">
+        <div class="theme-card col-lg">
                 <h4>&#127812 Power-Up Party Package</h4>
                 <p>Cost: $599.99 for up to 8 guests + $18 for each additional guest</p>
                 <ul><p>Everything in the Level-Up Package plus:</p>
@@ -116,7 +113,7 @@ aliases: ["/celebrations"]
                     </h5>
                 </ul> 
         </div>
-        <div class="theme-card col-lg-5">
+        <div class="theme-card col-lg">
                 <h4>&#127775 Super-Star Ultimate Party Package</h4>
                 <p>Cost: $799.99 for up to 8 guests + $25 for each additional guest</p>
                 <ul><p>Everything in the Power-Up Package plus:</p>
@@ -155,14 +152,23 @@ aliases: ["/celebrations"]
         </div>
     </div>
 </section>
-<section aria-labelledby="party-details-title" style="max-width: 900px; margin: 0 auto; padding: 1rem;">
+<hr>
+<section class="d-flex-row align-items-center" aria-labelledby="party-details-title" style="max-width: 900px; margin: 0 auto; padding: 1rem;">
   <h3 id="party-details-title" style="margin-bottom: 0.5rem;">When You’re Ready, Tell Us All About Your Choices</h3>
   <p style="margin: 0 0 0.75rem;">
-    Share your party picks—date, time, guest count, ages, themes, add‑ons, and any must‑haves—so we can craft a tech‑tastic celebration.
+    Share your party picks—date, time, guest count, ages, themes, add‑ons, and any must‑haves—so we can craft a tech‑tastic celebration. 
+    
   </p>
-  <p>
+  <div class="row justify-content-center">
+    <div class="col-lg-4">
+            <a class = "grb-btn grb-btn-primary col-1" href="https://form.jotform.com/252545218981160" target="_blank"> Here</a>
+        </div>
+    </div>
+  
+</section>
+  <!-- <p>
   Please email <a href="mailto:birthdays@blueridgeboost.com">birthdays@blueridgeboost.com</a>
-  </p>
+  </p> -->
   <!-- <a
     href="https://form.jotform.com/252545218981160"
     target="_blank"
