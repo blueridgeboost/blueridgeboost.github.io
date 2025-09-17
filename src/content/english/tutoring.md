@@ -91,7 +91,7 @@ robots: "index, follow"
       scrolling="no"
     ></iframe>
   </div>
-
+  <hr>
   <script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
   <script>
     window.jotformEmbedHandler("iframe[id='JotFormIFrame-252545013109145']", "https://form.jotform.com/");
@@ -100,9 +100,7 @@ robots: "index, follow"
 
 <h3>About Our Sessions</h3>
     <p>Tutoring sessions are available both virtually and in person at the Blue Ridge Boost office, located at 2171 Ivy Road, Charlottesville. Our team of experienced teachers and qualified University of Virginia students is dedicated to helping your child excel in a variety of subjects, including mathematics, physics, chemistry, reading, and writing. We focus on nurturing problem-solving abilities, critical thinking skills, and fostering a deep understanding of core concepts, rather than just memorizing facts or formulas.</p>
-    <p>
-    We provide both individual one-on-one tutoring and <a href="/classes/math">small group classes</a>.
-    </p>
+      <p>We provide both individual one-on-one tutoring and <strong><u><a class="" href="/classes/on-demand"> small group classes (available here)</a></u></strong>.</p>
 
 
 <script>
