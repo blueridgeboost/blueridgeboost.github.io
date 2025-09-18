@@ -71,19 +71,22 @@ aliases: ["/celebrations"]
 <div class="container section">
         <h3>Party Fun for Every Budget</h3>
         <!-- <img src="images/maxweb.webp" alt="Minecraft Setup" width="400"> -->
-        <div class="d-flex justify-content-center">
-            <div class="col-lg-7">
-                <hr>
-                <h4 >Basic Package</h4>
-                <p >Cost: $349.99 for up to 8 guests + $10 for each additional guest</p>
-                <ul>
-                    <li><h5>90 minutes of gaming or robot building</h5></li>
-                    <li><h5>30 minutes of social time to eat</h5></li>
-                    <li><h5>15 guests + 1 birthday kid (16 total)</h5></li>
-                </ul>
-                <hr>
-            </div>
-        </div>
+        <section class="package basic-package">
+  <h3>Basic Package</h3>
+  <ul class="details">
+    <li>2 hours of gaming or robot building for a maximum of 16 kids.</li>
+    <li><strong>$349.99</strong> for up to 8 guests <span class="addl">+ $10 per additional guest</span></li>
+  </ul>
+  <style>
+    .package { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.4; color: #1f2937; }
+    .package h3 { margin: 0 0 .25rem; font-size: 1.1rem; color: #0f172a; }
+    .package .price { margin: 0 0 .25rem; }
+    .package .price strong { font-size: 1.1rem; }
+    .package .addl { color: #475569; margin-left: .25rem; }
+    .package .details { margin: .25rem 0 0; padding-left: 1rem; }
+    .package .details li { margin: .2rem 0; }
+  </style>
+</section>
     <div class="d-flex flex-wrap justify-content-center">
         <div class="theme-card col-lg">
             <!--super charged, gamer, pro, champion, vip-->
