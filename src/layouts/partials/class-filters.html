@@ -292,8 +292,13 @@
               <div class="group-label inline">Schedule:</div>
               <div class="chips">
                 {{ range $s := (slice "Starting Soon" "Join Now" "On-Demand") }}
-                <label class="chip">
-                  <input type="checkbox" class="schedule-filter" value="{{ $s | lower }}" onchange="toggleChip(this)">
+                {{ if eq (lower $s) (lower $selectedSubject) }}
+                <label class="chip active">
+                  <input type="checkbox" class="schedule-filter" value="{{ $s | lower }}" onchange="toggleChip(this)" checked>
+                {{ else }}
+                  <label class="chip ">
+                  <input type="checkbox" class="schedule-filter" value="{{ $s | lower }}" onchange="toggleChip(this)" >
+                {{ end }}
                   <span>{{ $s }}</span>
                 </label>
                 {{ end }}
@@ -334,10 +339,12 @@
         <div class="group-label inline">Subject:</div>
         <div class="chips">
           {{ range $s := (slice "Math" "Robotics" "Game Development" "AI" "Computer Coding" "Science") }}
-          <label class="chip">
+          
             {{ if eq (lower $s) (lower $selectedSubject) }}
-              <input type="checkbox" class="subject-filter" value="{{ $s | lower }}" onchange="toggleChip(this)" checked>
+            <label class="chip active" >
+              <input type="checkbox"  class="subject-filter" value="{{ $s | lower }}" onchange="toggleChip(this)" checked >
             {{ else }}
+            <label class="chip">
               <input type="checkbox" class="subject-filter" value="{{ $s | lower }}" onchange="toggleChip(this)">
             {{ end }}
             <span>{{ $s }}</span>
