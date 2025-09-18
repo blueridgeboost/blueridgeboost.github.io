@@ -18178,6 +18178,11 @@ body.dark {
   .grb-ctas-equal {
     grid-template-columns: 1fr; } }
 
+.game-options {
+  opacity: 80%; }
+  .game-options span:not(:last-child):after {
+    content: " \00b7"; }
+
 .rates-container {
   max-width: 900px;
   margin: 0 auto;

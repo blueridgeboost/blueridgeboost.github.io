@@ -72,3 +72,9 @@
       grid-template-columns: 1fr;
     }
   }
+
+.game-options {
+  opacity:80%;
+  
+  span:not(:last-child):after { content: " \00b7";  }
+}
