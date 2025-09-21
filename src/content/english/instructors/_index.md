@@ -35,47 +35,29 @@ owner:
   name: "Nora Evans"
   role: "Founder and CEO"
   photo: "/images/instructors/nora.jpg"
-  bio: "Nora is originally from Bucharest, Romania. She earned a B.Sc. in Computer Science at the Polytechnic University of Bucharest and moved to Charlottesville in the Fall of 2004 to pursue graduate school at the University of Virginia where she earned a Master's in Computer Science in 2006, a Master of Science in Mathematics in 2014, and a Master of Teaching in 2022. Nora [published several research articles in computer science](https://scholar.google.com/citations?user=BTsjtmgAAAAJ&hl=en&oi=ao) and has several years of industry experience as a software developer. Nora has extensive teaching experience as Lecturer in the Mathematics Department at UVA, Algebra teacher at Peabody School, math student-teacher at Monticello High School, and a teaching assistant in Computer Science at UVA.
-  </p><p>
-  At Blue Ridge Boost, Nora selects and develops class content, coaches the robotics competition teams, teaches advanced math and computer science classes, and tutors students in math and computer science.
+  bio: "Nora is originally from Bucharest, Romania. She earned a B.Sc. in Computer Science at the Polytechnic University of Bucharest and moved to Charlottesville in the Fall of 2004 to pursue graduate school at the University of Virginia where she earned a Master's in Computer Science in 2006, a Master of Science in Mathematics in 2014, and a Master of Teaching in 2022. Nora [published several research articles in computer science](https://scholar.google.com/citations?user=BTsjtmgAAAAJ&hl=en&oi=ao) and has several years of industry experience as a software developer. Nora has extensive teaching experience as Lecturer in the Mathematics Department at UVA, Algebra teacher at Peabody School, math student-teacher at Monticello High School, and a teaching assistant in Computer Science at UVA. </p><p>  At Blue Ridge Boost, Nora selects and develops class content, coaches the robotics competition teams, teaches advanced math and computer science classes, and tutors students in math and computer science.
   "
 
 coo:
   enable : true
   name: "Lain Bowman"
-  role: "Head of Operations <br> Web Developer"
+  role: "Head of Operations"
   photo: "/images/instructors/lain.jpg"
-  bio: "Lain graduated from the University of Virginia in May 2024 with a double major in Computer Science and Physics. 
-  <br><br> At Blue Ridge Boost, Lain selects and develops class content, coaches the robotics competition teams, teaches math and computer science classes, and tutors students in math."
-  
-
+  bio: "<p>Lain graduated from the University of Virginia in May 2024 with a double major in Computer Science and Physics.</p><p>At Blue Ridge Boost, Lain selects and develops class content, teaches math and computer science classes, and tutors students in math.</p>"
 
 troubadour:
   enable : true
   name: "David Evans"
   role: "Teaching Troubadour"
   photo:  "/images/instructors/david.jpg"
-  bio: "[David](https://www.cs.virginia.edu/evans/) is a Professor of Computer Science at the University of Virginia where he teaches classes in [Discrete Mathematics](https://uvadmt.github.io), [Computer Science](https://xplorecs.github.io/), [Theory of Computation](https://uvatoc.github.io), and [Artificial Intelligence](https://aipavilion.github.io/) (among [other topics](https://www.cs.virginia.edu/~evans/courses/)) and leads research on [computer security and privacy](https://uvasrg.github.io). He won an All-University Teaching Award and Outstanding Faculty Award from the State Council of Higher Education for Virginia.
-  </p><p>
-  At Blue Ridge Boost, David helps instructors develop computing, math, and cryptography courses, teaches classes when he can, moves furniture, edits ChatGPT's writing, and makes sure there is yummy food for the CEO and Teaching Assistant.
-  "
+  bio: "[David](https://www.cs.virginia.edu/evans/) is a Professor of Computer Science at the University of Virginia where he teaches classes in [Discrete Mathematics](https://uvadmt.github.io), [Computer Science](https://xplorecs.github.io/), [Theory of Computation](https://uvatoc.github.io), and [Artificial Intelligence](https://aipavilion.github.io/) (among [other topics](https://www.cs.virginia.edu/~evans/courses/)) and leads research on [computer security and privacy](https://uvasrg.github.io). He won an All-University Teaching Award and Outstanding Faculty Award from the State Council of Higher Education for Virginia. </p><p>  At Blue Ridge Boost, David helps instructors develop computing, math, and cryptography courses, teaches classes when he can, moves furniture, edits ChatGPT's writing, and makes sure there is yummy food for the CEO and Teaching Assistant."
 
 instructors:
-- enable : false
-  name: "Saumya Sharma"
-  role: "Coding and robotics teacher"
-  photo: "/images/instructors/nophoto.png"
-  bio: "Saumya is a 4th year at the University of Virginia working towards a degree in Global Public Health and a minor in Computer Science. As a member of the community, Saumya has valued tutoring and working with students as a way to help bring the community forward by being involved in it. Saumya was on a FIRST Tech Challenge (FTC) robotics team for 3 years and has continued her appreciation for Computer Science during my time at UVA.
-</p><p>
-  At Blue Ridge Boost, Saumya coaches the FLL Challenge Team and teaches the Vex IQ robotics classes."
-
 - enable : false
   name: "Scarlett Morse"
   role: "Camp Instructor<br>Coding and Robotics Teacher"
   photo:  "/images/instructors/nophoto.png"
-  bio: "Scarlett is currently a first year student at the University of Virginia, and intends to major in physics and mathematics. Beyond that, she is interested in creative writing, which she would like to minor in along with environmental science. She graduated in 2024 from Albemarle High School’s Math, Engineering, and Science Academy and has a strong passion for STEM. Scarlett founded Mathemagicians, a math club through the JMRL Library, and completed an internship in Arzens, France, where she managed a pharmaceutical robot. Whether tutoring peers, tinkering with 3D printers, or working with robots, Scarlett is dedicated to inspiring others through technology and science.
-  
-  At Blue Ridge Boost, Scarlett is a beloved summer camp instructor and the coach of the Aerial Drones Teams. Under Scarlett's leadership, both Blue Ridge Boost teams qualified for the Regional Championship in May 2025."
+  bio: "Scarlett is currently a first year student at the University of Virginia, and intends to major in physics and mathematics. Beyond that, she is interested in creative writing, which she would like to minor in along with environmental science. She graduated in 2024 from Albemarle High School’s Math, Engineering, and Science Academy and has a strong passion for STEM. Scarlett founded Mathemagicians, a math club through the JMRL Library, and completed an internship in Arzens, France, where she managed a pharmaceutical robot. Whether tutoring peers, tinkering with 3D printers, or working with robots, Scarlett is dedicated to inspiring others through technology and science. <p></p>  At Blue Ridge Boost, Scarlett is a beloved summer camp instructor and the coach of the Aerial Drones Teams. Under Scarlett's leadership, both Blue Ridge Boost teams qualified for the Regional Championship in May 2025."
 
 - enable : false
   name: "Carter Earles"
@@ -86,12 +68,7 @@ instructors:
   name: "Dorina Evans"
   role: "Teaching Assistant<br>Coding, Robotics, and Math"
   photo:  "/images/instructors/dorina.jpg"
-  bio: "Dorina is a seventh-grader at St. Anne’s-Belfield School. She is passionate about robotics and mathematics.
-
-  </p><p>
-  Dorina is a member of the _Next Level_ FLL Challenge Team, which won the Robot Design Award at the 24-25 FIRST Championship. Dorina leads the Blue Ridge Robotics FIRST Tech Challenge Team, which earned a Control Award for programming and robot design in January 2025, and co-leads the Aerial Drones _Siblings Squared_ Team, which qualified for the Northeast Regional Championship. At the 2024 _Girls Excelling in Math_ (GEM) competition, Dorina earned first place in the individual competitions, first overall in team rankings, and third place in team engineering.
-  "
-
+  bio: "<p>Dorina is a seventh-grader at St. Anne’s-Belfield School. She is passionate about robotics and mathematics.</p><p>Dorina is a member of the <i>Next Level_ FLL Challenge Team</i>, which won the Robot Design Award at the 24-25 FIRST Championship. Dorina leads the Blue Ridge Robotics FIRST Tech Challenge Team, which earned a Control Award for programming and robot design in January 2025, and co-leads the Aerial Drones Team, which qualified for the Northeast Regional Championship in 2025. At the 2024 <i>>Girls Excelling in Math<i> (GEM) competition, Dorina earned first place in the individual competitions, first overall in team rankings, and third place in team engineering."
 - enable : false
   name: "Aaush Kulkarni"
   role: "Robotics and Math Teacher"
@@ -113,7 +90,6 @@ instructors:
   role: "Robotics and Drones Teacher"
   photo:  "/images/instructors/melissa.jpg"
   bio: ""
-
 - enable : true
   name: "Joseph Johnson"
   role: "Math Teacher"
@@ -131,9 +107,9 @@ instructors:
   bio: ""
 - enable: true
   name: "Asher Saunders"
-  role: "Team Lead <br> Web Developer <br> Instructor"
+  role: "Instructor"
   photo: "/images/instructors/asher.png"
-  bio: "As graduate from UVA's School of Engineering, Asher works at Blue Ridge Boost as an instructor & developer. "
+  bio: "As graduate from UVA's School of Engineering, Asher works at Blue Ridge Boost as an instructor & programmer. "
 - enable : true
   name: "Nathaneal Wattier"
   role: "Coding and Math Teacher"
