@@ -68,7 +68,7 @@ instructors:
   name: "Dorina Evans"
   role: "Teaching Assistant<br>Coding, Robotics, and Math"
   photo:  "/images/instructors/dorina.jpg"
-  bio: "<p>Dorina is a seventh-grader at St. Anne’s-Belfield School. She is passionate about robotics and mathematics.</p><p>Dorina is a member of the <i>Next Level_ FLL Challenge Team</i>, which won the Robot Design Award at the 24-25 FIRST Championship. Dorina leads the Blue Ridge Robotics FIRST Tech Challenge Team, which earned a Control Award for programming and robot design in January 2025, and co-leads the Aerial Drones Team, which qualified for the Northeast Regional Championship in 2025. At the 2024 <i>>Girls Excelling in Math<i> (GEM) competition, Dorina earned first place in the individual competitions, first overall in team rankings, and third place in team engineering."
+  bio: "<p>Dorina is a seventh-grader at St. Anne’s-Belfield School. She is passionate about robotics and mathematics.</p><p>Dorina is a member of the <i>Next Level</i> FLL Challenge Team, which won the Robot Design Award at the 24-25 FIRST Championship. Dorina leads the Blue Ridge Robotics FIRST Tech Challenge Team, which earned a Control Award for programming and robot design in January 2025, and co-leads the Aerial Drones Team, which qualified for the Northeast Regional Championship in 2025. At the 2024 <i>Girls Excelling in Math</i> (GEM) competition, Dorina earned first place in the individual competitions, first overall in team rankings, and third place in team engineering."
 - enable : false
   name: "Aaush Kulkarni"
   role: "Robotics and Math Teacher"
@@ -107,7 +107,7 @@ instructors:
   bio: ""
 - enable: true
   name: "Asher Saunders"
-  role: "Instructor"
+  role: "Coding Teacher. Programmer."
   photo: "/images/instructors/asher.png"
   bio: "As graduate from UVA's School of Engineering, Asher works at Blue Ridge Boost as an instructor & programmer. "
 - enable : true
