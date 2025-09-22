@@ -68,7 +68,7 @@ instructors:
   name: "Dorina Evans"
   role: "Teaching Assistant<br>Coding, Robotics, and Math"
   photo:  "/images/instructors/dorina.jpg"
-  bio: "<p>Dorina is a seventh-grader at St. Anne’s-Belfield School. She is passionate about robotics and mathematics.</p><p>Dorina is a member of the <i>Next Level</i> FLL Challenge Team, which won the Robot Design Award at the 24-25 FIRST Championship. Dorina leads the Blue Ridge Robotics FIRST Tech Challenge Team, which earned a Control Award for programming and robot design in January 2025, and co-leads the Aerial Drones Team, which qualified for the Northeast Regional Championship in 2025. At the 2024 <i>Girls Excelling in Math</i> (GEM) competition, Dorina earned first place in the individual competitions, first overall in team rankings, and third place in team engineering."
+  bio: "<p>Dorina is a eight-grader at St. Anne’s-Bellfield School. She is passionate about robotics and mathematics.</p><p>Dorina is a member of the <i>Next Level</i> FLL Challenge Team, which won the Robot Design Award at the 24-25 FIRST Championship. Dorina leads the Blue Ridge Robotics FIRST Tech Challenge Team, which earned a Control Award for programming and robot design in January 2025, and co-leads the Aerial Drones Team, which qualified for the Northeast Regional Championship in 2025. At the 2024 <i>Girls Excelling in Math</i> (GEM) competition, Dorina earned first place in the individual competitions, first overall in team rankings, and third place in team engineering."
 - enable : false
   name: "Aaush Kulkarni"
   role: "Robotics and Math Teacher"
@@ -114,7 +114,7 @@ instructors:
   name: "Nathaneal Wattier"
   role: "Coding and Math Teacher"
   photo:  "/images/instructors/nophoto.png"
-  bio: "Nathaneal is a first-year student at the University of Virginia."
+  bio: "Nathaneal is a second-year student at the University of Virginia."
 - enable : true
   name: "Evan Xu"
   role: "Robotics Teacher"
