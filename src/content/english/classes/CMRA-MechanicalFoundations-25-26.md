@@ -9,7 +9,7 @@ price: 299.99
 price_unit: "per month"
 duration: "4-6 mo"
 category: "Ongoing"
-weight: "48"
+weight: "47"
 start_time: "6:00"
 end_time: "7:30"
 page_title: "Carnegie Mellon Robotics Academy: Mechanical Foundations"

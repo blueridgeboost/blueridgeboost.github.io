@@ -9,7 +9,7 @@ price: 249.99
 price_unit: "per month"
 duration: "4-6 mo"
 category: "Ongoing"
-weight: "64"
+weight: "63"
 end_date: "2026-05-18"
 page_title: "Cybersecurity Level 2"
 page_subtitle: "Preparation and Certification Exam"

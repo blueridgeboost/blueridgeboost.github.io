@@ -9,7 +9,7 @@ price: 159.99
 price_unit: "per month"
 duration: "4-6 mo"
 category: "Ongoing"
-weight: "42"
+weight: "41"
 end_date: "2026-05-19"
 page_title: "LEGO SPIKE Coding: Certification Course"
 page_subtitle: "Earn a Carnegie Mellon Robotics Academy Certification"

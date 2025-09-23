@@ -6,7 +6,7 @@ layout: "single"
 schedule_tags: ["On-Demand"]
 subject_tags: ["Computer Coding"]
 price: 249.99
-weight: "59"
+weight: "58"
 end_date: "2026-05-18"
 page_title: "Web Design 1"
 page_subtitle: "Preparation and Certification Exam"

@@ -9,7 +9,7 @@ price: 179.99
 price_unit: "per month"
 duration: "Flexible"
 category: "Ongoing"
-weight: "39"
+weight: "38"
 page_title: "6th Compacted Homework Help"
 page_subtitle: "Math Support"
 ribbon: "On Demand"

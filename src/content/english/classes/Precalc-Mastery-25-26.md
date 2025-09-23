@@ -9,7 +9,7 @@ price: 179.99
 price_unit: "per month"
 duration: "Flexible"
 category: "Ongoing"
-weight: "74"
+weight: "73"
 page_title: "Precalculus: Mastery Through Teaching and Practice"
 page_subtitle: "Get Ahead!"
 ribbon: "On Demand"
