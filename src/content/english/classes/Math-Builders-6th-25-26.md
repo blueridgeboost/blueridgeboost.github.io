@@ -9,7 +9,7 @@ price: 149.99
 price_unit: "per month"
 duration: "Flexible"
 category: "Ongoing"
-weight: "40"
+weight: "39"
 end_date: "2026-05-24"
 page_title: "Math Builders: 6th Grade Group Tutoring"
 page_subtitle: "Math Support"

@@ -6,7 +6,7 @@ layout: "single"
 schedule_tags: ["Join Now"]
 subject_tags: ["Game Development"]
 price: 149.99
-weight: "41"
+weight: "40"
 end_date: "2026-05-24"
 start_time: "5:30"
 end_time: "6:30"

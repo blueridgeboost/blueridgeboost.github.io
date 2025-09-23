@@ -16,7 +16,7 @@ start_time: "4:30"
 end_time: "5:30"
 page_title: "Scratch Block Coding"
 page_subtitle: "Learn to code video games, animations, and more!"
-ribbon: "Starts Sep 15"
+ribbon: "Starts Oct 27"
 title: "Scratch Block Coding | Blue Ridge Boost"
 day_tags: ["Mon"]
 grade_tags: ["2nd","3rd","4th"]

@@ -9,7 +9,7 @@ price: 249.99
 price_unit: "per month"
 duration: "2-3 mo"
 category: "Ongoing"
-weight: "53"
+weight: "52"
 end_date: "2026-05-24"
 page_title: "Game Makers: Intro to Unity"
 page_subtitle: "Learn to make video games using Unity!"

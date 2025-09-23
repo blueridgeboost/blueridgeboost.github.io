@@ -6,7 +6,7 @@ layout: "single"
 schedule_tags: ["On-Demand"]
 subject_tags: ["Computer Coding"]
 price: 249.99
-weight: "60"
+weight: "59"
 end_date: "2026-05-18"
 page_title: "Web Development 1"
 page_subtitle: "Preparation and Certification Exam"

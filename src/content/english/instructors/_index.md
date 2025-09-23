@@ -43,7 +43,7 @@ coo:
   name: "Lain Bowman"
   role: "Head of Operations"
   photo: "/images/instructors/lain.jpg"
-  bio: "<p>Lain graduated from the University of Virginia in May 2024 with a double major in Computer Science and Physics.</p><p>At Blue Ridge Boost, Lain selects and develops class content, teaches math and computer science classes, and tutors students in math.</p>"
+  bio: "<p>Lain graduated from the University of Virginia in 2024 with a double major in Computer Science and Physics. They are interested in the use of programming and simulation to expand our understanding of the physical universe. Originally from Appalachia, they care deeply about accessibility of education, and the importance of inclusivity in STEM. Lain is the oldest of five siblings, and has spent years supporting their education and encouraging their love for learning. </p><p>At Blue Ridge Boost, Lain is involved with web development and programs custom professional tools. They design and create class content, provide one-on-one tutoring in math and physics, and teach math, robotics, and computer science both at Blue Ridge Boost and on-site at local schools.</p>"
 
 troubadour:
   enable : true
@@ -73,7 +73,7 @@ instructors:
   name: "Aaush Kulkarni"
   role: "Robotics and Math Teacher"
   photo:  "/images/instructors/nophoto.png"
-  bio: ""
+  bio: "<p>Aayush is a second-year student at the University of Virginia majoring in Neuroscience with a minor in General Business. He has experience as a math instructor, a research assistant in neuroscience, and a volunteer EMT with Tuckahoe Rescue Squad. In middle and high school, he was a VEX IQ and FIRST Robotics World Championship qualifier, where he developed strong skills in engineering, coding, and collaboration that continue to shape his teaching style today.</p><p>Outside of academics, Aayush loves playing pickleball and videogames. Most importantly, he enjoys working with students to help them grow both their skills and their confidence.</p>"
 - enable : true
   name: "Ouzman Cisse"
   role: "Robotics Teacher"
