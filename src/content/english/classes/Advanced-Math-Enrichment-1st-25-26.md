@@ -16,7 +16,7 @@ start_time: "3:45"
 end_time: "4:30"
 page_title: "Advanced Math Enrichment 1st Grade"
 page_subtitle: "Exploring the Beauty of Mathematics"
-ribbon: "Starts Sep 22"
+ribbon: "Starts Sep 29"
 title: "Advanced Math Enrichment 1st Grade | Blue Ridge Boost"
 day_tags: ["Mon","Wed"]
 grade_tags: ["1st"]
