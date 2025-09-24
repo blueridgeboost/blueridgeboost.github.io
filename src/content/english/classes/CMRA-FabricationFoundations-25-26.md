@@ -7,7 +7,7 @@ schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 399.99
 category: "Session"
-price_unit: "8 weeks"
+price_unit: "for 8 sessions"
 duration: "8 wk"
 weight: "50"
 start_date: "2025-09-19"

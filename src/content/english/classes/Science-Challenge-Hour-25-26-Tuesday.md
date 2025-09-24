@@ -7,7 +7,7 @@ schedule_tags: ["Starting Soon"]
 subject_tags: ["Science"]
 price: 144.99
 category: "Session"
-price_unit: "4 weeks"
+price_unit: "for 4 sessions"
 duration: "4 wk"
 weight: "12"
 start_date: "2025-09-02"
