@@ -6,7 +6,7 @@ layout: "single"
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics","Computer Coding"]
 price: 169.99
-weight: "35"
+weight: "33"
 start_date: "2025-09-07"
 end_date: "2025-05-16"
 start_time: "3:30"

@@ -9,7 +9,7 @@ price: 144.99
 category: "Session"
 price_unit: "for 4 sessions"
 duration: "4 wk"
-weight: "12"
+weight: "11"
 start_date: "2025-09-02"
 end_date: "2026-05-19"
 start_time: "4:30"

@@ -9,7 +9,7 @@ price: 199.99
 price_unit: "per month"
 duration: "4-6 mo"
 category: "Ongoing"
-weight: "45"
+weight: "42"
 start_time: "3:00"
 end_time: "4:30"
 page_title: "Aerial Drone Competition for Grades 6-8"

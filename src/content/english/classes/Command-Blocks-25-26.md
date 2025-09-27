@@ -9,7 +9,7 @@ price: 229.99
 category: "Session"
 price_unit: "for 6 sessions"
 duration: "6 wk"
-weight: "24"
+weight: "22"
 end_date: "2026-05-24"
 start_time: "5:30"
 end_time: "6:30"
