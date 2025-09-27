@@ -9,7 +9,7 @@ price: 325
 price_unit: "per month"
 duration: "2-3 mo"
 category: "Ongoing"
-weight: "27"
+weight: "25"
 end_date: "2025-11-15"
 page_title: "Advanced FIRST LEGO League"
 page_subtitle: "Building Robots, Solving Challenges!"

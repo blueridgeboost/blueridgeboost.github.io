@@ -18,7 +18,7 @@ page_title: "Robot Explorers: Intro to Robotics"
 page_subtitle: "Try all kinds of robots!"
 ribbon: "Join Now"
 title: "Robot Explorers: Intro to Robotics | Blue Ridge Boost"
-day_tags: ["Mon"]
+day_tags: ["Wed"]
 grade_tags: ["1st","2nd"]
 featured: 158
 ---

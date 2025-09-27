@@ -9,16 +9,16 @@ price: 144.99
 category: "Session"
 price_unit: "for 4 sessions"
 duration: "4 wk"
-weight: "21"
+weight: "24"
 start_date: "2025-08-24"
 end_date: "2025-12-07"
-start_time: "5:00"
-end_time: "6:00"
+start_time: "1:00"
+end_time: "2:00"
 page_title: "Science Challenge Hour"
 page_subtitle: "Take on Science Challenges with Lain!"
 ribbon: "Starts Sep 21"
 title: "Science Challenge Hour | Blue Ridge Boost"
 day_tags: ["Sun"]
-grade_tags: ["3rd","4th","5th"]
+grade_tags: ["4th","5th"]
 featured: 205
 ---

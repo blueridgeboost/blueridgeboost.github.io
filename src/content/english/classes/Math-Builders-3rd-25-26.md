@@ -9,7 +9,7 @@ price: 149.99
 price_unit: "per month"
 duration: "Flexible"
 category: "Ongoing"
-weight: "8"
+weight: "7"
 end_date: "2026-05-24"
 page_title: "Math Builders: 3rd Grade Group Tutoring"
 page_subtitle: "Math Support"
