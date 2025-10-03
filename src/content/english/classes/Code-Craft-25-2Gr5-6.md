@@ -10,15 +10,13 @@ price_unit: "per month"
 duration: "4-6 mo"
 category: "Ongoing"
 weight: "28"
-start_date: "2025-09-10"
-end_date: "2026-05-24"
 start_time: "5:30"
 end_time: "6:30"
 page_title: "Code Craft: Minecraft Coding"
 page_subtitle: "Learn to Code in Minecraft! Grades 5 and 6"
-ribbon: "Starts Sep 16"
+ribbon: "Starts Nov 11"
 title: "Code Craft: Minecraft Coding | Blue Ridge Boost"
 day_tags: ["Tue"]
 grade_tags: ["5th","6th"]
-featured: 181
+featured: 174
 ---

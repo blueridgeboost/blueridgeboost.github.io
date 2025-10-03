@@ -16,9 +16,9 @@ start_time: "2:00"
 end_time: "3:00"
 page_title: "Roblox Studio: Make a game in 6 sessions"
 page_subtitle: "Foundations to Game Creation"
-ribbon: "Starts Sep 24"
+ribbon: "Starts Nov 2"
 title: "Roblox Studio: Make a game in 6 sessions | Blue Ridge Boost"
 day_tags: ["Sun"]
 grade_tags: ["3rd","4th","5th"]
-featured: 177
+featured: 170
 ---

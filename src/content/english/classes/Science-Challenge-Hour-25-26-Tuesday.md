@@ -10,13 +10,13 @@ category: "Session"
 price_unit: "for 4 sessions"
 duration: "4 wk"
 weight: "11"
-start_time: "5:00"
-end_time: "6:00"
+start_time: "4:00"
+end_time: "5:00"
 page_title: "Science Challenge Hour"
 page_subtitle: "Take on Science Challenges with Lain!"
 ribbon: "Starts Oct 8"
 title: "Science Challenge Hour | Blue Ridge Boost"
 day_tags: ["Wed"]
-grade_tags: ["3rd"]
-featured: 204
+grade_tags: ["3rd","4th"]
+featured: 198
 ---

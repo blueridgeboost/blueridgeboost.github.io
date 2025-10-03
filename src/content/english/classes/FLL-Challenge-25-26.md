@@ -17,5 +17,5 @@ ribbon: "Join Now"
 title: "Advanced FIRST LEGO League | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["5th","6th","7th","8th"]
-featured: 197
+featured: 190
 ---

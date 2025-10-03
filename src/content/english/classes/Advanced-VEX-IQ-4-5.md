@@ -20,5 +20,5 @@ ribbon: "Join Now"
 title: "Advanced VEX IQ (Grades 4-5) | Blue Ridge Boost"
 day_tags: ["Thu"]
 grade_tags: ["4th","5th"]
-featured: 196
+featured: 189
 ---

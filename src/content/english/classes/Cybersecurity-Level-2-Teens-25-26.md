@@ -17,5 +17,5 @@ ribbon: "On Demand"
 title: "Cybersecurity Level 2 | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["7th","8th","9th","10th","11th","12th"]
-featured: 220
+featured: 215
 ---

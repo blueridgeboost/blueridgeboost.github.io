@@ -14,7 +14,7 @@ start_time: "1:00"
 end_time: "2:00"
 page_title: "Block Coding with Beavers"
 page_subtitle: "Gamified coding course"
-ribbon: "Starts Oct 5"
+ribbon: "Starts Oct 19"
 title: "Block Coding with Beavers | Blue Ridge Boost"
 day_tags: ["Sat"]
 grade_tags: ["1st", "2nd"]

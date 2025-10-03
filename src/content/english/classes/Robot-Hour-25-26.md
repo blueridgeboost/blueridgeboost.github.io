@@ -20,5 +20,5 @@ ribbon: "Join Now"
 title: "Robot Explorers: Intro to Robotics | Blue Ridge Boost"
 day_tags: ["Wed"]
 grade_tags: ["1st","2nd"]
-featured: 158
+featured: 151
 ---

@@ -19,5 +19,5 @@ ribbon: "Starts Sep 17"
 title: "Carnegie Mellon Robotics Academy: Software Foundations | Blue Ridge Boost"
 day_tags: ["Wed"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
-featured: 199
+featured: 192
 ---

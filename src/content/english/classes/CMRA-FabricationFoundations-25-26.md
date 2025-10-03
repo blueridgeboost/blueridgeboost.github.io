@@ -5,20 +5,18 @@ robots: "noindex, follow"
 layout: "single"
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
-price: 399.99
+price: 499.99
 category: "Session"
 price_unit: "for 8 sessions"
 duration: "8 wk"
 weight: "47"
-start_date: "2025-09-19"
-end_date: "2026-05-19"
-start_time: "6:00"
+start_time: "5:30"
 end_time: "7:30"
 page_title: "Carnegie Mellon Robotics Academy: Fabrication Foundations"
 page_subtitle: "From Drawings to Reality: Fabricate, Measure, 3D Print!"
-ribbon: "Starts Sep 19"
+ribbon: "Starts Nov 14"
 title: "Carnegie Mellon Robotics Academy: Fabrication Foundations | Blue Ridge Boost"
 day_tags: ["Fri"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
-featured: 201
+featured: 195
 ---

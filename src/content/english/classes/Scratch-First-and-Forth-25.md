@@ -20,5 +20,5 @@ ribbon: "Starts Oct 27"
 title: "Scratch Block Coding | Blue Ridge Boost"
 day_tags: ["Mon"]
 grade_tags: ["2nd","3rd","4th"]
-featured: 157
+featured: 150
 ---

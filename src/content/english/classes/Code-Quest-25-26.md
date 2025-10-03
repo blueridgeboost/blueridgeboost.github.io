@@ -6,15 +6,18 @@ layout: "single"
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Computer Coding"]
 price: 149.99
+price_unit: "per month"
+duration: "6+ mo"
+category: "Ongoing"
 weight: "15"
 end_date: "2026-05-16"
 start_time: "2:30"
 end_time: "3:30"
 page_title: "Code Quest Grades 3 and 4"
 page_subtitle: "Adventures in Text Programming"
-ribbon: "Starts Sep 14"
+ribbon: "Starts Nov 9"
 title: "Code Quest Grades 3 and 4 | Blue Ridge Boost"
 day_tags: ["Sun"]
-grade_tags: ["3rd", "4th","5th"]
+grade_tags: ["3rd", "4th"]
 featured: 0
 ---

@@ -17,5 +17,5 @@ ribbon: "On Demand"
 title: "Algebra 2: Mastery Through Teaching and Practice | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["8th","9th","10th"]
-featured: 215
+featured: 210
 ---

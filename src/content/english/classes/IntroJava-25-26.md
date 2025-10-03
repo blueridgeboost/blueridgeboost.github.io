@@ -20,5 +20,5 @@ ribbon: "Starts Sep 25"
 title: "Programming in Java | Blue Ridge Boost"
 day_tags: ["Thu"]
 grade_tags: ["9th","10th","11th","12th"]
-featured: 194
+featured: 187
 ---
