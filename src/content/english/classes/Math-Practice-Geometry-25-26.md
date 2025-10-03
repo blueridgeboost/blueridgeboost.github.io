@@ -19,5 +19,5 @@ ribbon: "Join Now"
 title: "Geometry Homework Help | Blue Ridge Boost"
 day_tags: ["Mon","Wed"]
 grade_tags: ["8th","9th"]
-featured: 164
+featured: 157
 ---

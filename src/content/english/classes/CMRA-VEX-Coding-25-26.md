@@ -17,5 +17,5 @@ ribbon: "On Demand"
 title: "VEX IQ Coding: Certification Course | Blue Ridge Boost"
 day_tags: []
 grade_tags: [ "6th","7th","8th"]
-featured: 174
+featured: 167
 ---

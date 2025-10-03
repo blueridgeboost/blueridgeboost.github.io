@@ -16,9 +16,9 @@ start_time: "2:30"
 end_time: "3:30"
 page_title: "Mod Craft: Code Your Own Minecraft Mods"
 page_subtitle: "Craft your very own Minecraft Mods!"
-ribbon: "Starts Sep 20"
+ribbon: "Starts Nov 15"
 title: "Mod Craft: Code Your Own Minecraft Mods | Blue Ridge Boost"
 day_tags: ["Sat"]
 grade_tags: ["7th","8th","9th"]
-featured: 188
+featured: 181
 ---

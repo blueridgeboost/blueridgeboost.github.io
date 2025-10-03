@@ -10,15 +10,13 @@ price_unit: "per month"
 duration: "6+ mo"
 category: "Ongoing"
 weight: "31"
-start_date: "2025-09-07"
-end_date: "2026-05-16"
 start_time: "2:30"
 end_time: "3:30"
 page_title: "Python Basics with Tracy the Turtle"
 page_subtitle: "Guide Tracy to draw, code, and create!"
-ribbon: "Starts Sep 14"
+ribbon: "Starts Oct 10"
 title: "Python Basics with Tracy the Turtle | Blue Ridge Boost"
 day_tags: ["Sun"]
 grade_tags: ["5th","6th"]
-featured: 190
+featured: 183
 ---

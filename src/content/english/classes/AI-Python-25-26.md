@@ -17,5 +17,5 @@ ribbon: "On Demand"
 title: "AI, Ethics, and Python | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["7th","8th","9th","10th"]
-featured: 175
+featured: 168
 ---
