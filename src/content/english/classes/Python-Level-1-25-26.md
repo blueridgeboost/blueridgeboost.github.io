@@ -3,7 +3,7 @@ ecwid: 770317241
 product_id: Python-Level-1-25-26
 robots: "noindex, follow"
 layout: "single"
-schedule_tags: ["Starting Soon"]
+schedule_tags: ["On-Demand"]
 subject_tags: []
 price: 179
 price_unit: "per month"
@@ -16,7 +16,7 @@ start_time: "12:00"
 end_time: "1:00"
 page_title: "Python Level 1"
 page_subtitle: "Preparation and Certification Exam"
-ribbon: "Starts Sep 20"
+ribbon: "On Demand"
 title: "Python Level 1 | Blue Ridge Boost"
 day_tags: ["Sat"]
 grade_tags: ["8th","9th","10th"]
