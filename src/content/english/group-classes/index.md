@@ -8,7 +8,7 @@ layout: single
 style: justify-text-center
 ---
 
-<p>Group Classes, just for you! Our on-demand Group Classes are designed to be a flexible and tailored option specifically set up for your group of students, on your schedule. </p>
+<p>Group Classes, just for you! Our on‑demand Group Classes are designed to be flexible and tailored to your group—schedule between 9:00 AM and 3:00 PM, or later, to fit your day.</p>
 <div class="row row-cols-2">
     <div class = "col">
     <img src="images/here.jpg" alt="Dorina and Maxwell Working on Fortnite Game Development in Unreal Engine" width="400">
@@ -29,11 +29,12 @@ style: justify-text-center
                 <h4>Math</h4>
                 <ul>
                     <h5>
-                    <li>Elementary / General Arithmetic</li>
-                    <li>Algebra</li>
+                    <li>Algebra 1</li>
                     <li>Geometry</li>
-                    <li>Statistics</li>
-                    <li>Pre-Calc / Calculus</li>
+                    <li>Algebra 2</li>
+                    <li>Pre-Calc</li>
+                    <li>AP Statistics</li>
+                    <li>AP Calculus</li>
                     <li>Challenge Math / Problem solving </li>
                     </h5>
                 </ul>
@@ -46,8 +47,11 @@ style: justify-text-center
                     <li>Block Coding</li>
                     <li>Python</li>
                     <li>Java</li>
-                    <li>HTML / Intro Web Design</li>
-                    <li>Game Design (Unity, Unreal, Python)</li>
+                    <li>JavaScript
+                    <li>Web Design</li>
+                    <li>Web Development</li>
+                    <li>Unity</li> 
+                    <li>Unreal Engine</li>
                     </h5>
                 </ul>
         </div>  
@@ -55,8 +59,7 @@ style: justify-text-center
                 <h4>Robotics</h4>
                 <ul>
                     <h5>
-                    <li>Elementary LEGO Robotics (SPIKE Essentials)</li>
-                    <li>Intermediate LEGO Robotics (SPIKE Prime)</li>
+                    <li>LEGO Robotics</li>
                     <li>VEX Robotics</li>
                     <li>Sphero Robotics</li>
                     </h5>

@@ -68,7 +68,7 @@
     weight     = 10
 
 [[main]]
-    name       = "Groups"
+    name       = "Homeschoolers"
     url        = "/group-classes/"
     weight     = 11
 

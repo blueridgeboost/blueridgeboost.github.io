@@ -63,10 +63,12 @@ robots: "index, follow"
       Advanced Math and Computer Science
     </a>
     <a class="cta-btn secondary" id="lain-button" aria-label="Make an appointment with Lain">
-      Book an appointment - any tutor
+      Book an appointment - any tutor<br>
+      Math, Physics, Computer Science
     </a>
     <a class="cta-btn neutral tutoring-selected" id="tutoring-button" aria-label="Fill in a tutoring form" onclick="document.getElementById('tutoring-form').scrollIntoView({behavior:'smooth'}); return false;">
-      Send us a request
+      Questions? <br>
+      Use the form below.
     </a>
   </div>
 
@@ -78,7 +80,7 @@ robots: "index, follow"
   <script src="https://embed.ycb.me"	async="true"	data-domain="brb-tutoring-all-tutors"	data-displaymode="auto"></script>
   </div>
 
-  <div id="tutoring-form" class="form-embed" aria-label="Request Individual Tutoring form">
+  <div id="tutoring-form" class="form-embed" aria-label="Request Individual Tutoring Form">
     <iframe
       id="JotFormIFrame-252545013109145"
       title="Request Individual Tutoring"
