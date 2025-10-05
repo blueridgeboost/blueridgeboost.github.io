@@ -3,8 +3,8 @@ ecwid: 767793013
 product_id: CMRA-AutonomyFoundations-25-26
 robots: "noindex, follow"
 layout: "single"
-schedule_tags: ["Starting Soon"]
-subject_tags: []
+schedule_tags: ["Join Now"]
+subject_tags: ["Robotics","Computer Coding"]
 price: 399.99
 price_unit: "per month"
 duration: "2-3 mo"
