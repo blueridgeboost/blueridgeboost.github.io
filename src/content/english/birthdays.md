@@ -45,23 +45,26 @@ aliases: ["/celebrations"]
             <h6>Rec. Ages: 6+</h6>
             <body>Sphero Bots</body> 
             <h6>Rec. Ages: 6+</h6>
-            <body>Lego Robotics: Spike Prime</body>
-            <h6>Rec. Ages: 8+</h6>
+            <body>Lego Battle Bots</body>
+            <h6>Rec. Ages: 6+</h6>
             <body>Sumo Bots</body> 
             <h6>Rec. Ages: 8+</h6>
+            <body>VexIQ Battle Bots</body>
+            <h6>Rec. Ages: 10+</h6>
             <body>Aerial Drones</body> 
             <h6>Rec. Ages: 10+</h6>
         </div>
         <div class="theme-card col-md align-middle">
             <h4>Combo (+99.99)</h4>
             <body>Your Choice of Gaming Theme</body> 
-            <h6>Rec. Ages: 6+</h6>
+            <!-- <h6>Rec. Ages: 6+</h6> -->
+            <p></p>
             <br>
             <body>+</body> 
             <br>
             <br>
             <body>Your Choice of Robotics Theme</body> 
-            <h6>Rec. Ages: 6+</h6>
+            <!-- <h6>Rec. Ages: 6+</h6> -->
         </div>
         <div class="theme-card d-none">
         </div>
@@ -91,7 +94,7 @@ aliases: ["/celebrations"]
         <div class="theme-card col-lg">
             <!--super charged, gamer, pro, champion, vip-->
                 <h4>&#128640 Level-Up Party Package</h4>
-                <p>Cost: $499.99 for up to 8 guests + $15 for each additional guest</p>
+                <p>Cost: <strong>$499.99</strong> for up to 8 guests + $15 for each additional guest</p>
                 <p>Everything in the Basic Party Package plus:</p>
                 <ul>
                     <h5>
@@ -105,7 +108,7 @@ aliases: ["/celebrations"]
         </div>
         <div class="theme-card col-lg">
                 <h4>&#127812 Power-Up Party Package</h4>
-                <p>Cost: $599.99 for up to 8 guests + $18 for each additional guest</p>
+                <p>Cost: <strong>$599.99</strong> for up to 8 guests + $18 for each additional guest</p>
                 <ul><p>Everything in the Level-Up Package plus:</p>
                     <h5>
                     <li><strong>Themed</strong> Decorations, Plates, Cups, Napkins</li>
@@ -117,11 +120,11 @@ aliases: ["/celebrations"]
                 </ul> 
         </div>
         <div class="theme-card col-lg">
-                <h4>&#127775 Super-Star Ultimate Party Package</h4>
-                <p>Cost: $799.99 for up to 8 guests + $25 for each additional guest</p>
+                <h4>&#127775 Super-Star Party Package</h4>
+                <p>Cost: <strong>$799.99</strong> for up to 8 guests + $25 for each additional guest</p>
                 <ul><p>Everything in the Power-Up Package plus:</p>
                     <h5>
-                    <li>A choice of gourmet pizza or sushi platter.</li>
+                    <li>A choice of gourmet pizza or sushi platter</li>
                     <li><strong>Organic</strong> Fruit Juice</li>
                     <li><strong>Organic</strong> Fruit Platter<li>
                     <li>Personalized Digital Invitation</li>
