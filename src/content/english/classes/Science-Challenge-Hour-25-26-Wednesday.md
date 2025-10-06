@@ -1,6 +1,6 @@
 ---
 ecwid: 770348863
-product_id: Science-Challenge-Hour-25-26-Tuesday
+product_id: Science-Challenge-Hour-25-26-Wednesday
 robots: "noindex, follow"
 layout: "single"
 schedule_tags: ["Starting Soon"]
@@ -10,11 +10,13 @@ category: "Session"
 price_unit: "for 4 sessions"
 duration: "4 wk"
 weight: "11"
-start_time: "4:00"
-end_time: "5:00"
+start_date: "2025-11-05"
+end_date: "2025-06-03"
+start_time: "4:00PM"
+end_time: "5:00PM"
 page_title: "Science Challenge Hour"
 page_subtitle: "Take on Science Challenges with Lain!"
-ribbon: "Starts Oct 8"
+ribbon: "Starts Nov 5"
 title: "Science Challenge Hour | Blue Ridge Boost"
 day_tags: ["Wed"]
 grade_tags: ["3rd","4th"]
