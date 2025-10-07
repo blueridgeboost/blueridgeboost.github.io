@@ -21,4 +21,5 @@ title: "VEX Battle Bots - Fifth and Sixth Grade | Blue Ridge Boost"
 day_tags: ["Sun"]
 grade_tags: ["5th","6th"]
 featured: 152
+offers: [["Two-Three","143.99"],["Four+","135.99"]]
 ---

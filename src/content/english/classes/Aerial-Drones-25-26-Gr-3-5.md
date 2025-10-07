@@ -21,4 +21,5 @@ title: "Aerial Drone Competition for Grades 3-5 | Blue Ridge Boost"
 day_tags: ["Sat"]
 grade_tags: ["3rd","4th","5th"]
 featured: 202
+offers: [["Two-Three","179.99"],["Four+","169.99"]]
 ---

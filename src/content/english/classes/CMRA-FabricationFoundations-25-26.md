@@ -21,4 +21,5 @@ title: "Carnegie Mellon Robotics Academy: Fabrication Foundations | Blue Ridge B
 day_tags: ["Fri"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
 featured: 195
+offers: [["Two-Three","449.99"],["Four+","374.99"]]
 ---

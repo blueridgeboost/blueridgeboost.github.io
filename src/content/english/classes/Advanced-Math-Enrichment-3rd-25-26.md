@@ -21,4 +21,5 @@ title: "Advanced Math Enrichment 3rd Grade | Blue Ridge Boost"
 day_tags: ["Tue","Thu"]
 grade_tags: ["3rd"]
 featured: 163
+offers: [["Two-Three","132.99"],["Four+","125.99"]]
 ---

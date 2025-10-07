@@ -18,4 +18,5 @@ title: "Future Innovators (Grades 5 to 7) | Blue Ridge Boost"
 day_tags: ["Sun"]
 grade_tags: ["5th","6th","7th"]
 featured: 0
+offers: [["Two-Three","152.99"],["Four+","144.49"]]
 ---

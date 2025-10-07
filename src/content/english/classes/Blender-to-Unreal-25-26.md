@@ -21,4 +21,5 @@ title: "3D Video Game Modeling: Blender to Unreal Engine | Blue Ridge Boost"
 day_tags: ["Mon"]
 grade_tags: ["7th","8th","9th","10th","11th","12th"]
 featured: 154
+offers: [["Two-Three","179.99"],["Four+","169.99"]]
 ---

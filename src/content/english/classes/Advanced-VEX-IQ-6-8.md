@@ -21,4 +21,5 @@ title: "Advanced VEX IQ (Grades 6 - 8) | Blue Ridge Boost"
 day_tags: ["Thu"]
 grade_tags: ["6th","7th","8th"]
 featured: 188
+offers: [["Two-Three","292.50"],["Four+","243.75"]]
 ---

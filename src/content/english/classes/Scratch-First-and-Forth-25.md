@@ -21,4 +21,5 @@ title: "Scratch Block Coding | Blue Ridge Boost"
 day_tags: ["Mon"]
 grade_tags: ["1st","2nd","3rd","4th"]
 featured: 150
+offers: [["Two-Three","179.99"],["Four+","169.99"]]
 ---

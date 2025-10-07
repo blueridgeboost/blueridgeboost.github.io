@@ -18,4 +18,5 @@ title: "Carnegie Mellon Robotics Academy: Autonomy Foundations | Blue Ridge Boos
 day_tags: ["Tue","Thu"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
 featured: 191
+offers: [["Two","359.99"]]
 ---

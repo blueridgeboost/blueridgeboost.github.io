@@ -21,4 +21,5 @@ title: "Intro to FIRST LEGO League | Blue Ridge Boost"
 day_tags: ["Tue"]
 grade_tags: ["3rd", "4th","5th"]
 featured: 177
+offers: [["Two-Three","142.49"],["Four+","134.99"]]
 ---

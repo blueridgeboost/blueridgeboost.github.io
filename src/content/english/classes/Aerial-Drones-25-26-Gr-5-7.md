@@ -21,4 +21,5 @@ title: "Soar into STEM: Aerial Drone Class for Grades 5-6 | Blue Ridge Boost"
 day_tags: ["Sat"]
 grade_tags: ["5th","6th"]
 featured: 204
+offers: [["Two-Three","143.99"],["Four+","135.99"]]
 ---

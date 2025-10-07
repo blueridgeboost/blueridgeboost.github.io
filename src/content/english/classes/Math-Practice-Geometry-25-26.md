@@ -21,4 +21,5 @@ title: "Geometry Homework Help | Blue Ridge Boost"
 day_tags: ["Mon","Wed"]
 grade_tags: ["8th","9th"]
 featured: 157
+offers: [["Two-Three","161.99"],["Four+","152.99"]]
 ---

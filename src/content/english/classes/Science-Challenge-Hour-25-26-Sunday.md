@@ -21,4 +21,5 @@ title: "Science Challenge Hour | Blue Ridge Boost"
 day_tags: ["Sun"]
 grade_tags: ["4th","5th"]
 featured: 199
+offers: [["Two-Three","137.74"],["Four+","130.49"]]
 ---

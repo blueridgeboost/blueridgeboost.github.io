@@ -19,4 +19,5 @@ title: "Python Level 1 | Blue Ridge Boost"
 day_tags: ["Sat"]
 grade_tags: ["8th","9th","10th"]
 featured: 0
+offers: [["Two-Three","161.10"],["Four+","152.15"]]
 ---

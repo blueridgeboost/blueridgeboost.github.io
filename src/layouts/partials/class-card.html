@@ -1,120 +1,123 @@
 {{ $id := .Params.ecwid }}
 {{ $ecwid_category := .Params.category }}
+{{$url := .Permalink}}
 
 <div
-  id="class-{{ $id }}"
-  {{ if .Params.day_tags }}
-    data-day='{{ delimit .Params.day_tags "#" }}'
-  {{ else }}
-    data-day='[]'
-  {{ end }}
-  {{ if .Params.duration }}
-    data-duration='{{ .Params.duration }}'
-  {{ else }}
-    data-duration='[]'
-  {{ end }}
-  data-schedule='{{ delimit .Params.schedule_tags "#" }}'
-  data-grade='{{ delimit .Params.grade_tags "#" }}'
-  data-subject='{{ delimit .Params.subject_tags "#" }}'
-  style="padding-left: 0px; padding-right: 0px; margin-right: 0.25rem; margin-left: 0.25rem;"
-  class="ecsp-media"
+id="class-{{ $id }}"
+{{ if .Params.day_tags }}
+data-day='{{ delimit .Params.day_tags "#" }}'
+{{ else }}
+data-day='[]'
+{{ end }}
+{{ if .Params.duration }}
+data-duration='{{ .Params.duration }}'
+{{ else }}
+data-duration='[]'
+{{ end }}
+data-schedule='{{ delimit .Params.schedule_tags "#" }}'
+data-grade='{{ delimit .Params.grade_tags "#" }}'
+data-subject='{{ delimit .Params.subject_tags "#" }}'
+style="padding-left: 0px; padding-right: 0px; margin-right: 0.25rem; margin-left: 0.25rem;"
+class="ecsp-media"
 >
-  {{ with .Params.ribbon }}
-    <span class="ecsp-ribbon">{{ . }}</span>
-  {{ end }}
+{{ with .Params.ribbon }}
+<span class="ecsp-ribbon">{{ . }}</span>
+{{ end }}
 
-  <div
-    class="ecsp ecsp-SingleProduct-v2 ecsp-SingleProduct-v2-bordered ecsp-SingleProduct-v2-centered ecsp-Product ec-Product-{{ $id }}"
-    itemscope
-    itemtype="http://schema.org/Product"
-    data-single-product-id="{{ $id }}"
-  >
-    <meta itemprop="name" content="{{ .Params.page_title }}">
-    <a href="{{ .RelPermalink }}" class="ecsp-image-link">
-      <div class="ecsp-image" itemprop="image"></div>
-    </a>
+<div
+class="ecsp ecsp-SingleProduct-v2 ecsp-SingleProduct-v2-bordered ecsp-SingleProduct-v2-centered ecsp-Product ec-Product-{{ $id }}"
+itemscope
+itemtype="http://schema.org/Product"
+data-single-product-id="{{ $id }}"
+>
+<meta itemprop="name" content="{{ .Params.page_title }}">
+<a href="{{ .RelPermalink }}" class="ecsp-image-link">
+    <div class="ecsp-image" itemprop="image"></div>
+</a>
 
-    {{ with .Params.day_tags }}
-      {{ $n := len . }}
-      {{ if eq $n 1 }}
-        {{ index . 0 }}
-      {{ else if eq $n 2 }}
-        {{ index . 0 }}, {{ index . 1 }}
-      {{ else if eq $n 3 }}
-        {{ index . 0 }}, {{ index . 1 }}, {{ index . 2 }}
-      {{ else if ge $n 4 }}
-        {{ index . 0 }} through {{ index . (sub $n 1) }}
-      {{ end }}
-    {{ else }}
-      Pick a day and time
-    {{ end }}
+{{ with .Params.day_tags }}
+{{ $n := len . }}
+{{ if eq $n 1 }}
+{{ index . 0 }}
+{{ else if eq $n 2 }}
+{{ index . 0 }}, {{ index . 1 }}
+{{ else if eq $n 3 }}
+{{ index . 0 }}, {{ index . 1 }}, {{ index . 2 }}
+{{ else if ge $n 4 }}
+{{ index . 0 }} through {{ index . (sub $n 1) }}
+{{ end }}
+{{ else }}
+Pick a day and time
+{{ end }}
 
-    {{ if and .Params.start_time .Params.end_time }}
-      {{ .Params.start_time }} &ndash; {{ .Params.end_time }}<br>
-    {{ else }}
-      <br>
-    {{ end }}
+{{ if and .Params.start_time .Params.end_time }}
+{{ .Params.start_time }} &ndash; {{ .Params.end_time }}<br>
+{{ else }}
+<br>
+{{ end }}
 
-    {{ with .Params.grade_tags }}
-      {{ if gt (len .) 0 }}
-        Grades:
-        {{ index . 0 }}
-        {{ if gt (len .) 1 }}
-          to {{ index . (sub (len .) 1) }}
-        {{ end }}
-        <br>
-      {{ end }}
-    {{ end }}
+{{ with .Params.grade_tags }}
+{{ if gt (len .) 0 }}
+Grades:
+{{ index . 0 }}
+{{ if gt (len .) 1 }}
+to {{ index . (sub (len .) 1) }}
+{{ end }}
+<br>
+{{ end }}
+{{ end }}
 
-    <div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
-      <meta itemprop="price" content="{{ .Params.price }}">
-      <meta itemprop="priceCurrency" content="USD">
-      <link itemprop="availability" href="http://schema.org/InStock">
-      <meta itemprop="itemCondition" content="http://schema.org/NewCondition">
-    </div>
+<div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
+    <meta itemprop="price" content="{{ .Params.price }}">
+    <meta itemprop="priceCurrency" content="USD">
+    <link itemprop="availability" href="http://schema.org/InStock">
+    <meta itemprop="itemCondition" content="http://schema.org/NewCondition">
+</div>
 
-    {{/* Only output Event JSON if NOT On-Demand */}}
-    {{ $isOnDemand := false }}
-    {{ with .Params.schedule_tags }}
-      {{ if in . "On-Demand" }}
-        {{ $isOnDemand = true }}
-      {{ end }}
-    {{ end }}
+{{/* Only output Event JSON if NOT On-Demand */}}
+{{ $isOnDemand := false }}
+{{ with .Params.schedule_tags }}
+{{ if in . "On-Demand" }}
+{{ $isOnDemand = true }}
+{{ end }}
+{{ end }}
 
-    {{ if not $isOnDemand }}
-      {{/* Precompute times (24h) safely */}}
-      {{ $start24 := "" }}
-      {{ with .Params.start_time }}
-        {{ $start24 = time.Format "15:04" (time .) }}
-      {{ end }}
-      {{ $end24 := "" }}
-      {{ with .Params.end_time }}
-        {{ $end24 = time.Format "15:04" (time .) }}
-      {{ end }}
+{{ if not $isOnDemand }}
+{{/* Precompute times (24h) safely */}}
+{{ $start24 := "" }}
+{{ with .Params.start_time }}
+{{ $start24 = time.Format "15:04" (time .) }}
+{{ end }}
+{{ $end24 := "" }}
+{{ with .Params.end_time }}
+{{ $end24 = time.Format "15:04" (time .) }}
+{{ end }}
 
-      {{/* Build byDay array from day_tags */}}
-      {{ $byDay := slice }}
-      {{ range .Params.day_tags }}
-        {{- $d := . -}}
-        {{- if eq $d "Mon" -}}
-          {{- $byDay = $byDay | append "https://schema.org/Monday" -}}
-        {{- else if eq $d "Tue" -}}
-          {{- $byDay = $byDay | append "https://schema.org/Tuesday" -}}
-        {{- else if eq $d "Wed" -}}
-          {{- $byDay = $byDay | append "https://schema.org/Wednesday" -}}
-        {{- else if eq $d "Thu" -}}
-          {{- $byDay = $byDay | append "https://schema.org/Thursday" -}}
-        {{- else if eq $d "Fri" -}}
-          {{- $byDay = $byDay | append "https://schema.org/Friday" -}}
-        {{- else if eq $d "Sat" -}}
-          {{- $byDay = $byDay | append "https://schema.org/Saturday" -}}
-        {{- else if eq $d "Sun" -}}
-          {{- $byDay = $byDay | append "https://schema.org/Sunday" -}}
-        {{- end -}}
-      {{ end }}
+{{/* Build byDay array from day_tags */}}
+{{ $byDay := slice }}
+{{ range .Params.day_tags }}
+{{- $d := . -}}
+{{- if eq $d "Mon" -}}
+{{- $byDay = $byDay | append "https://schema.org/Monday" -}}
+{{- else if eq $d "Tue" -}}
+{{- $byDay = $byDay | append "https://schema.org/Tuesday" -}}
+{{- else if eq $d "Wed" -}}
+{{- $byDay = $byDay | append "https://schema.org/Wednesday" -}}
+{{- else if eq $d "Thu" -}}
+{{- $byDay = $byDay | append "https://schema.org/Thursday" -}}
+{{- else if eq $d "Fri" -}}
+{{- $byDay = $byDay | append "https://schema.org/Friday" -}}
+{{- else if eq $d "Sat" -}}
+{{- $byDay = $byDay | append "https://schema.org/Saturday" -}}
+{{- else if eq $d "Sun" -}}
+{{- $byDay = $byDay | append "https://schema.org/Sunday" -}}
+{{- end -}}
+{{ end }}
 
-      <script type="application/ld+json">
-      {
+{{- $offers := .Params.offers | default (slice) -}}
+
+<script type="application/ld+json">
+    {
         "@context": "https://schema.org",
         "@type": "EducationEvent",
         "name": {{ jsonify .Params.page_title }},
@@ -123,82 +126,150 @@
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
         "location": {
-          "@type": "Place",
-          "name": "Blue Ride Boost",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": {{ jsonify (or .Params.address_street "2171 Ivy Rd") }},
-            "addressLocality": {{ jsonify (or .Params.address_city "Charlottesville") }},
-            "addressRegion": {{ jsonify (or .Params.address_region "Virginia") }},
-            "postalCode": {{ jsonify (or .Params.address_postal "22903") }},
-            "addressCountry": {{ jsonify (or .Params.address_country "US") }}
-          }
+            "@type": "Place",
+            "name": "Blue Ride Boost",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": {{ jsonify (or .Params.address_street "2171 Ivy Rd") }},
+                "addressLocality": {{ jsonify (or .Params.address_city "Charlottesville") }},
+                "addressRegion": {{ jsonify (or .Params.address_region "Virginia") }},
+                "postalCode": {{ jsonify (or .Params.address_postal "22903") }},
+                "addressCountry": {{ jsonify (or .Params.address_country "US") }}
+            }
         },
         "organizer": {
-          "@type": "Organization",
-          "name": {{ jsonify (or .Site.Title "Blue Ridge Boost") }},
-          "url": {{ jsonify .Site.BaseURL }}
+            "@type": "Organization",
+            "name": {{ jsonify (or .Site.Title "Blue Ridge Boost") }},
+            "url": {{ jsonify .Site.BaseURL }}
         },
+        {{- if gt (len $offers) 0 -}}
+            {{- $count := len $offers -}}
+            {{- $min := 1e99 -}}
+            {{- range $offers -}}
+                {{- $p := float (index . 1) -}}
+                {{- if lt $p $min -}}{{- $min = $p -}}{{- end -}}
+            {{- end -}}
         "offers": {
-          "@type": "Offer",
-          "price": {{ jsonify (printf "%.2f" (float .Params.price)) }},
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "url": {{ jsonify .Permalink }}
-        },
+            "@type": "AggregateOffer",
+            "offerCount": {{ $count }},
+            "lowPrice": {{ jsonify (printf "%.2f" $min) }},
+            "priceCurrency": "USD",
+            "offers": [
+            {{- range $i, $o := $offers -}}
+                {{- $name := index $o 0 -}}
+                {{- $price := float (index $o 1) -}}
+                {
+                "@type": "Offer",
+                "name": {{ jsonify $name }},
+                "price": {{ jsonify (printf "%.2f" $price) }},
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock",
+                "url": {{ jsonify $url }}
+                }{{- if lt (add $i 1) $count }},{{ end -}}
+            {{- end -}}
+            ]
+        }
+    {{- else -}}
+        "offers": {
+            "@type": "Offer",
+            "price": {{ jsonify (printf "%.2f" (float .Params.price)) }},
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "url": {{ jsonify $url }}
+        }
+    {{- end -}}
+        ,
         "eventSchedule": {
-          "@type": "Schedule",
-          "startDate": {{ jsonify (or .Params.schedule.startDate "2025-09-09") }},
-          "endDate": {{ jsonify (or .Params.schedule.endDate "2025-12-02") }},
-          "byDay": {{ jsonify $byDay }}{{ if or $start24 $end24 }},{{ end }}
-          {{- if or $start24 $end24 -}}
+            "@type": "Schedule",
+            "startDate": {{ jsonify (or .Params.schedule.startDate "2025-09-09") }},
+            "endDate": {{ jsonify (or .Params.schedule.endDate "2025-12-02") }},
+            "byDay": {{ jsonify $byDay }}{{ if or $start24 $end24 }},{{ end }}
+            {{- if or $start24 $end24 -}}
             {{- if $start24 -}}
-              "startTime": {{ jsonify $start24 }}{{ if $end24 }},{{ end }}
+            "startTime": {{ jsonify $start24 }}{{ if $end24 }},{{ end }}
             {{- end -}}
             {{- if $end24 -}}
-              "endTime": {{ jsonify $end24 }},
+            "endTime": {{ jsonify $end24 }},
             {{- end -}}
             "scheduleTimezone": "America/New_York",
             "repeatFrequency": "P1W"
-          {{- else -}}
+            {{- else -}}
             "scheduleTimezone": "America/New_York",
             "repeatFrequency": "P1W"
-          {{- end }}
+            {{- end }}
         }
-      }
-      </script>
-    {{ end }}
-  </div>
+    }
+</script>
+{{ else}}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": {{ jsonify .Params.page_title }},
+        "description": {{ jsonify (or .Params.description .Summary) }},
+        "url": {{ jsonify .Permalink }},
+        "provider": {
+            "@type": "Organization",
+            "name": {{ jsonify (or .Site.Title "Blue Ridge Boost") }},
+            "url": {{ jsonify .Site.BaseURL }}
+        },
+        "areaServed": {
+            "@type": "Place",
+            "name": "Charlottesville, VA"
+        },   
+        "offers": {
+            "@type": "Offer",
+            "price": {{ jsonify (printf "%.2f" (float .Params.price)) }},
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "url": {{ jsonify .Permalink }}
+        },
+        "potentialAction": {
+            "@type": "ReserveAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": {{ jsonify .Permalink }},
+                "actionPlatform": [
+                    "http://schema.org/DesktopWebPlatform",
+                    "http://schema.org/MobileWebPlatform"
+                ],
+                "inLanguage": "en"
+            }
+        }
+    }
+    </script>
+{{ end }}
+</div>
 
-  <!-- Optional: mirror Ecwid image into Product microdata so parsers can see it -->
-  <script>
+<!-- Optional: mirror Ecwid image into Product microdata so parsers can see it -->
+<script>
     document.addEventListener('DOMContentLoaded', function () {
-      var productEl = document.querySelector('.ec-Product-{{ $id }}[itemtype="http://schema.org/Product"]');
-      if (!productEl) return;
-      function setProductImageMeta(url) {
-        if (!url) return;
-        var m = productEl.querySelector('meta[itemprop="image"]');
-        if (!m) {
-          m = document.createElement('meta');
-          m.setAttribute('itemprop', 'image');
-          productEl.prepend(m);
+        var productEl = document.querySelector('.ec-Product-{{ $id }}[itemtype="http://schema.org/Product"]');
+        if (!productEl) return;
+        function setProductImageMeta(url) {
+            if (!url) return;
+            var m = productEl.querySelector('meta[itemprop="image"]');
+            if (!m) {
+                m = document.createElement('meta');
+                m.setAttribute('itemprop', 'image');
+                productEl.prepend(m);
+            }
+            m.setAttribute('content', url);
         }
-        m.setAttribute('content', url);
-      }
-      function tagImg() {
-        var img = productEl.querySelector('img');
-        if (img) {
-          if (!img.hasAttribute('itemprop')) img.setAttribute('itemprop', 'image');
-          setProductImageMeta(img.currentSrc || img.src);
+        function tagImg() {
+            var img = productEl.querySelector('img');
+            if (img) {
+                if (!img.hasAttribute('itemprop')) img.setAttribute('itemprop', 'image');
+                setProductImageMeta(img.currentSrc || img.src);
+            }
         }
-      }
-      tagImg();
-      var obs = new MutationObserver(tagImg);
-      obs.observe(productEl, { childList: true, subtree: true });
+        tagImg();
+        var obs = new MutationObserver(tagImg);
+        obs.observe(productEl, { childList: true, subtree: true });
     });
-  </script>
+</script>
 
-  <script type="text/javascript">
+<script type="text/javascript">
     window.ec = window.ec || {};
     window.ec.storefront = window.ec.storefront || {};
     window.ec.storefront.enable_navigation = true;
@@ -230,7 +301,7 @@
     window.ec.storefront.product_details_position_share_buttons = 800;
     window.ec.storefront.product_details_position_subtitle = 500;
     window.ec.storefront.product_details_show_subtitle = true;
-  </script>
-  <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=singleproduct_v2" charset="utf-8"></script>
-  <script type="text/javascript">xProduct()</script>
+</script>
+<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=singleproduct_v2" charset="utf-8"></script>
+<script type="text/javascript">xProduct()</script>
 </div> <!-- end class card -->

@@ -21,4 +21,5 @@ title: "Programming in Java | Blue Ridge Boost"
 day_tags: ["Thu"]
 grade_tags: ["9th","10th","11th","12th"]
 featured: 187
+offers: [["Two-Three","161.99"],["Four+","152.99"]]
 ---

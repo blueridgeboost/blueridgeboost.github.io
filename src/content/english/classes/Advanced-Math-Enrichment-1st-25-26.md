@@ -21,4 +21,5 @@ title: "Advanced Math Enrichment 1st Grade | Blue Ridge Boost"
 day_tags: ["Mon","Wed"]
 grade_tags: ["1st"]
 featured: 161
+offers: [["Two or Three Students","132.99"],["Four","125.99"]]
 ---

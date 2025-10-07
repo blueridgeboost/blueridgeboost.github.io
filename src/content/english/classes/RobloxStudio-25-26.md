@@ -21,4 +21,5 @@ title: "Roblox Studio: Make a game in 6 sessions | Blue Ridge Boost"
 day_tags: ["Sun"]
 grade_tags: ["3rd","4th","5th"]
 featured: 170
+offers: [["Two-Three","224.99"],["Four+","212.49"]]
 ---

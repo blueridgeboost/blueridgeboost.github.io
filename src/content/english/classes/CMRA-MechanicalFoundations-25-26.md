@@ -21,4 +21,5 @@ title: "Carnegie Mellon Robotics Academy: Mechanical Foundations | Blue Ridge Bo
 day_tags: ["Mon"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
 featured: 193
+offers: [["Two-Three","269.99"],["Four","224.99"]]
 ---

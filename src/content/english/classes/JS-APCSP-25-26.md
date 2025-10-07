@@ -18,4 +18,5 @@ title: "Group Tutoring: AP Computer Science Principles | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["8th","9th","10th", "11th", "12th"]
 featured: 0
+offers: [["One","499.99"],["Two-Three","374.99"]]
 ---

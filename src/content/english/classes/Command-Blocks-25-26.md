@@ -21,4 +21,5 @@ title: "Command Craft: Minecraft Command Blocks | Blue Ridge Boost"
 day_tags: ["Mon"]
 grade_tags: ["4th","5th"]
 featured: 147
+offers: [["Two-Three","206.99"],["Four+","195.49"]]
 ---

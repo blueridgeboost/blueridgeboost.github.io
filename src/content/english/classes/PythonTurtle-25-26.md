@@ -21,4 +21,5 @@ title: "Python Basics with Tracy the Turtle | Blue Ridge Boost"
 day_tags: ["Sun"]
 grade_tags: ["5th","6th"]
 featured: 183
+offers: [["Two-Three","142.49"],["Four+","134.99"]]
 ---

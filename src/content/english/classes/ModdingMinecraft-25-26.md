@@ -21,4 +21,5 @@ title: "Mod Craft: Code Your Own Minecraft Mods | Blue Ridge Boost"
 day_tags: ["Sat"]
 grade_tags: ["7th","8th","9th"]
 featured: 181
+offers: [["Two-Three","161.99"],["Four+","152.99"]]
 ---

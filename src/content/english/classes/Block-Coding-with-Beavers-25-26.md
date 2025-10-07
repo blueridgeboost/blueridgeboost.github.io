@@ -21,4 +21,5 @@ title: "Block Coding with Beavers | Blue Ridge Boost"
 day_tags: ["Sat"]
 grade_tags: ["1st", "2nd"]
 featured: 0
+offers: [["Two-Three","189.99"],["Four+","179.99"]]
 ---

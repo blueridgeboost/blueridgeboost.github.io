@@ -21,4 +21,5 @@ title: "Carnegie Mellon Robotics Academy: Electrical Foundations | Blue Ridge Bo
 day_tags: ["Tue","Thu"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
 featured: 196
+offers: [["Two-Three","269.99"],["Four+","224.99"]]
 ---

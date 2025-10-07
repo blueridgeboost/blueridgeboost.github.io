@@ -18,4 +18,5 @@ title: "VEX IQ Coding: Certification Course | Blue Ridge Boost"
 day_tags: []
 grade_tags: [ "6th","7th","8th"]
 featured: 167
+offers: [["Two-Three","143.99"],["Four+","135.99"]]
 ---

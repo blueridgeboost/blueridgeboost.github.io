@@ -18,4 +18,5 @@ title: "Advanced FIRST LEGO League | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["5th","6th","7th","8th"]
 featured: 190
+offers: [["Two-Three","292.50"],["Four+","243.75"]]
 ---

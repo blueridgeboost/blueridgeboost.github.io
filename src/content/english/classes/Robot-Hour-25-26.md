@@ -21,4 +21,5 @@ title: "Robot Explorers: Intro to Robotics | Blue Ridge Boost"
 day_tags: ["Wed"]
 grade_tags: ["1st","2nd"]
 featured: 151
+offers: [["Two-Three","142.49"],["Four+","134.99"]]
 ---

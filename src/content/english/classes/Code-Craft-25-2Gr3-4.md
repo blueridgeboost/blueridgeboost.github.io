@@ -21,4 +21,5 @@ title: "Code Craft: Minecraft Coding | Blue Ridge Boost"
 day_tags: ["Tue"]
 grade_tags: ["3rd","4th"]
 featured: 173
+offers: [["Two -Three","143.99"],["Four+","135.99"]]
 ---

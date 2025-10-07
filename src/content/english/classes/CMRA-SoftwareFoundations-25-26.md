@@ -21,4 +21,5 @@ title: "Carnegie Mellon Robotics Academy: Software Foundations | Blue Ridge Boos
 day_tags: ["Wed"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
 featured: 192
+offers: [["Two-Three","269.99"],["Four+","224.99"]]
 ---

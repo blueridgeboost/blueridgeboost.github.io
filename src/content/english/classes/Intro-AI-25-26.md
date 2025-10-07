@@ -21,4 +21,5 @@ title: "Introduction to AI for Middle Schoolers | Blue Ridge Boost"
 day_tags: ["Sat"]
 grade_tags: ["5th","6th"]
 featured: 185
+offers: [["Two-Three","142.49"],["Four+","134.99"]]
 ---
