@@ -41,37 +41,18 @@
 {{/*  {{ partialCached "gtm.html" . }}  */}}
 <!-- Google Tag Manager -->
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16893401439">
-</script>
+ <!-- Google tag (gtag.js) -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16893401439"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
-  gtag('config', 'G-JV87PS188M');
+  gtag('config', 'AW-16893401439');
 </script>
-    <!-- End Google Tag Manager -->
-<!-- Google tag (gtag.js) event - delayed navigation helper -->
-<script>
-    // Helper function to delay opening a URL until a gtag event is sent.
-    // Call it in response to an action that should navigate to a URL.
-    function gtagSendEvent(url) {
-      var callback = function () {
-        if (typeof url === 'string') {
-          window.location = url;
-        }
-      };
-      gtag('event', 'ads_conversion_Add_to_cart_1', {
-        'event_callback': callback,
-        'event_timeout': 2000,
-        // <event_parameters>
-      });
-      return false;
-    }
-  </script>
-  
 
-    <meta name="facebook-domain-verification" content="zct97ytf6qsp98kn8sipiejnluq10z" />
+<meta name="facebook-domain-verification" content="zct97ytf6qsp98kn8sipiejnluq10z" />
 
 <!-- matomo analytics -->
 {{ partialCached "matomo-analytics.html" . }}
