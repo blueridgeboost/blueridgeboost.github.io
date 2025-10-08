@@ -17,4 +17,5 @@ title: "Create & Code: Digital Art with JavaScript | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["5th", "6th", "7th","8th"]
 featured: 146
+offers: undefined
 ---

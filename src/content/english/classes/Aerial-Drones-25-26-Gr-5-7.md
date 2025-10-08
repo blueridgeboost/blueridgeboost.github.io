@@ -12,8 +12,8 @@ category: "Ongoing"
 weight: "29"
 start_date: "2025-09-06"
 end_date: "2025-12-18"
-start_time: "1:00"
-end_time: "2:00"
+start_time: "1:00PM"
+end_time: "2:00PM"
 page_title: "Soar into STEM: Aerial Drone Class for Grades 5-6"
 page_subtitle: "Sky High Challenge: Piloting and Coding "
 ribbon: "Starts Nov 9"
@@ -21,4 +21,5 @@ title: "Soar into STEM: Aerial Drone Class for Grades 5-6 | Blue Ridge Boost"
 day_tags: ["Sat"]
 grade_tags: ["5th","6th"]
 featured: 204
+offers: [["Two-Three","143.99"],["Four+","135.99"]]
 ---

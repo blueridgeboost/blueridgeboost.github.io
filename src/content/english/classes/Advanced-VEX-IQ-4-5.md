@@ -10,10 +10,10 @@ price_unit: "per month"
 duration: "4-6 mo"
 category: "Ongoing"
 weight: "23"
-start_date: "2025-09-16"
+start_date: "2025-06-09"
 end_date: "2026-03-17"
-start_time: "4:00"
-end_time: "5:30"
+start_time: "4:00PM"
+end_time: "5:30PM"
 page_title: "Advanced VEX IQ (Grades 4-5)"
 page_subtitle: "Building Robots, Solving Challenges!"
 ribbon: "Join Now"
@@ -21,4 +21,5 @@ title: "Advanced VEX IQ (Grades 4-5) | Blue Ridge Boost"
 day_tags: ["Thu"]
 grade_tags: ["4th","5th"]
 featured: 189
+offers: [["Two-Three","292.50"],["Four+","243.75"]]
 ---

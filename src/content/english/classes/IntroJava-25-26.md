@@ -10,10 +10,10 @@ price_unit: "per month"
 duration: "4-6 mo"
 category: "Ongoing"
 weight: "67"
-start_date: "2025-09-11"
+start_date: "2025-11-09"
 end_date: "2026-05-24"
-start_time: "6:30"
-end_time: "7:30"
+start_time: "6:30PM"
+end_time: "7:30PM"
 page_title: "Programming in Java"
 page_subtitle: "From Beginner to Programmer"
 ribbon: "Starts Nov 11"
@@ -21,4 +21,5 @@ title: "Programming in Java | Blue Ridge Boost"
 day_tags: ["Thu"]
 grade_tags: ["9th","10th","11th","12th"]
 featured: 187
+offers: [["Two-Three","161.99"],["Four+","152.99"]]
 ---

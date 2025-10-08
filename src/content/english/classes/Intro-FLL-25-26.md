@@ -10,9 +10,10 @@ price_unit: "per month"
 duration: "4-6 mo"
 category: "Ongoing"
 weight: "10"
+start_date: "2025-09-06"
 end_date: "2025-12-19"
-start_time: "4:30"
-end_time: "5:30"
+start_time: "4:30PM"
+end_time: "5:30PM"
 page_title: "Intro to FIRST LEGO League"
 page_subtitle: "Building Bright Futures"
 ribbon: "Join Now"
@@ -20,4 +21,5 @@ title: "Intro to FIRST LEGO League | Blue Ridge Boost"
 day_tags: ["Tue"]
 grade_tags: ["3rd", "4th","5th"]
 featured: 177
+offers: [["Two-Three","142.49"],["Four+","134.99"]]
 ---

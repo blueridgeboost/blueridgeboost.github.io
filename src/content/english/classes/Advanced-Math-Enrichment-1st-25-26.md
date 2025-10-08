@@ -12,8 +12,8 @@ category: "Ongoing"
 weight: "0"
 start_date: "2025-09-22"
 end_date: "2026-05-24"
-start_time: "3:45"
-end_time: "4:30"
+start_time: "3:45PM"
+end_time: "4:30PM"
 page_title: "Advanced Math Enrichment 1st Grade"
 page_subtitle: "Exploring the Beauty of Mathematics"
 ribbon: "Join Now"
@@ -21,4 +21,5 @@ title: "Advanced Math Enrichment 1st Grade | Blue Ridge Boost"
 day_tags: ["Mon","Wed"]
 grade_tags: ["1st"]
 featured: 161
+offers: [["Two or Three Students","132.99"],["Four","125.99"]]
 ---

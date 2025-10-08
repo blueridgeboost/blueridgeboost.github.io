@@ -12,8 +12,8 @@ category: "Ongoing"
 weight: "35"
 start_date: "2025-09-10"
 end_date: "2026-05-16"
-start_time: "12:30"
-end_time: "1:30"
+start_time: "12:30PM"
+end_time: "1:30PM"
 page_title: "Python Basics with Tracy the Turtle"
 page_subtitle: "Guide Tracy to draw, code, and create!"
 ribbon: "Join Now"
@@ -21,4 +21,5 @@ title: "Python Basics with Tracy the Turtle | Blue Ridge Boost"
 day_tags: ["Wed"]
 grade_tags: ["5th","6th","7th","8th"]
 featured: 182
+offers: [["Two-Three","142.49"],["Four+","134.99"]]
 ---

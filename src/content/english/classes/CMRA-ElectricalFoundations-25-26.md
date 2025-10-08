@@ -10,8 +10,10 @@ price_unit: "per month"
 duration: "2-3 mo"
 category: "Ongoing"
 weight: "46"
-start_time: "6:00"
-end_time: "7:30"
+start_date: "2025-11-09"
+end_date: "2026-05-24"
+start_time: "6:00PM"
+end_time: "7:30PM"
 page_title: "Carnegie Mellon Robotics Academy: Electrical Foundations"
 page_subtitle: "From Wires to Robots: Build and Program with Arduino!"
 ribbon: "Starts Nov 11"
@@ -19,4 +21,5 @@ title: "Carnegie Mellon Robotics Academy: Electrical Foundations | Blue Ridge Bo
 day_tags: ["Tue","Thu"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
 featured: 196
+offers: [["Two-Three","269.99"],["Four+","224.99"]]
 ---

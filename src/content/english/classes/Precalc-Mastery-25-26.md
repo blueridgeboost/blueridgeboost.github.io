@@ -17,4 +17,5 @@ title: "Precalculus: Mastery Through Teaching and Practice | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["9th","10th","11th","12th"]
 featured: 209
+offers: [["One","379.99"],["Two-Three","279.99"]]
 ---

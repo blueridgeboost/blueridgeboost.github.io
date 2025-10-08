@@ -7,10 +7,10 @@ schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics","Computer Coding"]
 price: 169.99
 weight: "33"
-start_date: "2025-09-07"
-end_date: "2025-05-16"
-start_time: "3:30"
-end_time: "5:00"
+start_date: "2025-11-09"
+end_date: "2026-05-16"
+start_time: "3:30PM"
+end_time: "5:00PM"
 page_title: "Future Innovators (Grades 5 to 7)"
 page_subtitle: "Empowering Young Minds"
 ribbon: "Starts Nov 9"
@@ -18,4 +18,5 @@ title: "Future Innovators (Grades 5 to 7) | Blue Ridge Boost"
 day_tags: ["Sun"]
 grade_tags: ["5th","6th","7th"]
 featured: 0
+offers: [["Two-Three","152.99"],["Four+","144.49"]]
 ---

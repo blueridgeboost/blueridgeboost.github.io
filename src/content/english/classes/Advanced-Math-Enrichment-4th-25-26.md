@@ -10,9 +10,10 @@ price_unit: "per month"
 duration: "Flexible"
 category: "Ongoing"
 weight: "22"
+start_date: "2025-06-09"
 end_date: "2026-05-24"
-start_time: "3:45"
-end_time: "4:30"
+start_time: "3:45PM"
+end_time: "4:30PM"
 page_title: "Advanced Math Enrichment 4th Grade"
 page_subtitle: "Exploring the Beauty of Mathematics"
 ribbon: "Join Now"
@@ -20,4 +21,5 @@ title: "Advanced Math Enrichment 4th Grade | Blue Ridge Boost"
 day_tags: ["Tue","Thu"]
 grade_tags: ["4th"]
 featured: 164
+offers: [["Two-Three","132.99"],["Four+","125.99"]]
 ---

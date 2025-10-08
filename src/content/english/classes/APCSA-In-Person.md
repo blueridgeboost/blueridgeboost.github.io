@@ -18,4 +18,5 @@ title: "Group Tutoring: Java for AP Computer Science | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["8th","9th","10th", "11th", "12th"]
 featured: 0
+offers: [["One","499.99"],["Two or Three","374.99"]]
 ---
