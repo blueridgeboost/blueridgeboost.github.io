@@ -1,0 +1,20 @@
+{{ $newSlice := slice }}
+{{ range .Params.day_tags }}
+    {{ $tag := trim . " " }}
+    {{ if eq $tag "Mon" }}
+        {{ $newSlice = append $newSlice (slice "https://schema.org/Monday") }}
+    {{ else if eq $tag "Tue" }}
+        {{ $newSlice = append $newSlice (slice "https://schema.org/Tuesday") }}
+    {{ else if eq $tag "Wed" }}
+        {{ $newSlice = append $newSlice (slice "https://schema.org/Wednesday") }}
+    {{ else if eq $tag "Thu" }}
+        {{ $newSlice = append $newSlice (slice "https://schema.org/Thursday") }}
+    {{ else if eq $tag "Fri" }}
+        {{ $newSlice = append $newSlice (slice "https://schema.org/Friday") }}
+    {{ else if eq $tag "Sat" }}
+        {{ $newSlice = append $newSlice (slice "https://schema.org/Saturday") }}
+    {{ else if eq $tag "Sun" }}
+        {{ $newSlice = append $newSlice (slice "https://schema.org/Sunday") }}
+    {{ end }}
+{{ end }}
+{{ return $newSlice }}

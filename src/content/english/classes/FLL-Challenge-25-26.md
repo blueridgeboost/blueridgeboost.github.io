@@ -1,16 +1,16 @@
 ---
 ecwid: 767782567
 product_id: FLL-Challenge-25-26
-robots: "noindex, follow"
-layout: "single"
+robots: noindex, follow
+layout: single
 schedule_tags: ["On-Demand"]
 subject_tags: ["Robotics"]
 price: 325
-price_unit: "per month"
-duration: "2-3 mo"
-category: "Ongoing"
-weight: "25"
-end_date: "2025-11-15"
+price_unit: per month
+duration: 2-3 mo
+category: Ongoing
+weight: 25
+end_date: 2025-11-15
 page_title: "Advanced FIRST LEGO League"
 page_subtitle: "Building Robots, Solving Challenges!"
 ribbon: "Join Now"

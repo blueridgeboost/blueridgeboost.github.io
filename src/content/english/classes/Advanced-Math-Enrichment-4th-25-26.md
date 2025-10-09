@@ -1,19 +1,19 @@
 ---
 ecwid: 769796745
 product_id: Advanced-Math-Enrichment-4th-25-26
-robots: "noindex, follow"
-layout: "single"
+robots: noindex, follow
+layout: single
 schedule_tags: ["Join Now"]
 subject_tags: ["Math"]
 price: 139.99
-price_unit: "per month"
-duration: "Flexible"
-category: "Ongoing"
-weight: "22"
-start_date: "2025-06-09"
-end_date: "2026-05-24"
-start_time: "3:45PM"
-end_time: "4:30PM"
+price_unit: per month
+duration: Flexible
+category: Ongoing
+weight: 22
+start_date: 2025-06-09
+end_date: 2026-05-24
+start_time: "3:45 PM"
+end_time: "4:30 PM"
 page_title: "Advanced Math Enrichment 4th Grade"
 page_subtitle: "Exploring the Beauty of Mathematics"
 ribbon: "Join Now"

@@ -1,19 +1,19 @@
 ---
 ecwid: 770348863
 product_id: Science-Challenge-Hour-25-26-Wednesday
-robots: "noindex, follow"
-layout: "single"
+robots: noindex, follow
+layout: single
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Science"]
 price: 144.99
-category: "Session"
-price_unit: "for 4 sessions"
-duration: "4 wk"
-weight: "11"
-start_date: "2025-11-05"
-end_date: "2025-06-03"
-start_time: "4:00PM"
-end_time: "5:00PM"
+category: Session
+price_unit: for 4 sessions
+duration: 4 wk
+weight: 11
+start_date: 2025-11-05
+end_date: 2025-06-03
+start_time: "4:00 PM"
+end_time: "5:00 PM"
 page_title: "Science Challenge Hour"
 page_subtitle: "Take on Science Challenges with Lain!"
 ribbon: "Starts Nov 5"

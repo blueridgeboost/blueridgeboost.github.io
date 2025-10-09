@@ -1,19 +1,19 @@
 ---
 ecwid: 767793057
 product_id: CMRA-ElectricalFoundations-25-26
-robots: "noindex, follow"
-layout: "single"
+robots: noindex, follow
+layout: single
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 299.99
-price_unit: "per month"
-duration: "2-3 mo"
-category: "Ongoing"
-weight: "46"
-start_date: "2025-11-09"
-end_date: "2026-05-24"
-start_time: "6:00PM"
-end_time: "7:30PM"
+price_unit: per month
+duration: 2-3 mo
+category: Ongoing
+weight: 46
+start_date: 2025-11-09
+end_date: 2026-05-24
+start_time: "6:00 PM"
+end_time: "7:30 PM"
 page_title: "Carnegie Mellon Robotics Academy: Electrical Foundations"
 page_subtitle: "From Wires to Robots: Build and Program with Arduino!"
 ribbon: "Starts Nov 11"

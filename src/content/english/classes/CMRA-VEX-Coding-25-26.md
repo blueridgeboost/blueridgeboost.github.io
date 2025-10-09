@@ -1,16 +1,16 @@
 ---
 ecwid: 779858442
 product_id: CMRA-VEX-Coding-25-26
-robots: "noindex, follow"
-layout: "single"
+robots: noindex, follow
+layout: single
 schedule_tags: ["On-Demand"]
 subject_tags: ["Robotics"]
 price: 159.99
-price_unit: "per month"
-duration: "4-6 mo"
-category: "Ongoing"
-weight: "40"
-end_date: "2026-05-19"
+price_unit: per month
+duration: 4-6 mo
+category: Ongoing
+weight: 40
+end_date: 2026-05-19
 page_title: "VEX IQ Coding: Certification Course"
 page_subtitle: "Earn a Carnegie Mellon Robotics Academy Certification"
 ribbon: "On Demand"

@@ -1,19 +1,19 @@
 ---
 ecwid: 766842181
 product_id: Blender-to-Unreal-25-26
-robots: "noindex, follow"
-layout: "single"
+robots: noindex, follow
+layout: single
 schedule_tags: ["Join Now"]
 subject_tags: ["Game Development"]
 price: 199.99
-price_unit: "per month"
-duration: "6+ mo"
-category: "Ongoing"
-weight: "43"
-start_date: "2025-10-06"
-end_date: "2026-05-18"
-start_time: "6:00PM"
-end_time: "7:30PM"
+price_unit: per month
+duration: 6+ mo
+category: Ongoing
+weight: 43
+start_date: 2025-10-06
+end_date: 2026-05-18
+start_time: "6:00 PM"
+end_time: "7:30 PM"
 page_title: "3D Video Game Modeling: Blender to Unreal Engine"
 page_subtitle: "Design and Create Dungeon Props!"
 ribbon: "Join Now"

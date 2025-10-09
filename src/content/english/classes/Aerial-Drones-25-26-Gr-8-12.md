@@ -1,19 +1,19 @@
 ---
 ecwid: 774478654
 product_id: Aerial-Drones-25-26-Gr-8-12
-robots: "noindex, follow"
-layout: "single"
+robots: noindex, follow
+layout: single
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 199.99
-price_unit: "per month"
-duration: "Flexible"
-category: "Ongoing"
-weight: "64"
-start_date: "2026-01-31"
-end_date: "2026-05-28"
-start_time: "4:30PM"
-end_time: "6:00PM"
+price_unit: per month
+duration: Flexible
+category: Ongoing
+weight: 64
+start_date: 2026-01-31
+end_date: 2026-05-28
+start_time: "4:30 PM"
+end_time: "6:00 PM"
 page_title: "Aerial Drone Competition for Grades 8-12"
 page_subtitle: "Sky High Challenge: Piloting and Coding"
 ribbon: "Starts Jan 31"

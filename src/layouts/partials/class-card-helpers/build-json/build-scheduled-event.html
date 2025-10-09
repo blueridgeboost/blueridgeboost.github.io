@@ -1,0 +1,27 @@
+{{- $schedule := partial "class-card-helpers/build-json/build-schedule.html" . -}}
+{{- $aggregate := partial "class-card-helpers/build-json/build-offer-aggregate.html" . -}}
+{{- $organizer := partial "class-card-helpers/build-json/build-organizer.html" . -}}
+
+{{- $address := partial "class-card-helpers/build-json/build-address.html" . -}} {{/* must exist and return a PostalAddress dict */}}
+{{- $locationName := or .Params.location_name "Blue Ridge Boost" -}}
+
+{{- $description := trim (plainify (default "" (or .Params.description .Summary))) " \n\r\t" -}}
+{{- $url := .Permalink -}}
+
+{{- return (dict
+"@context" "https://schema.org"
+"@type" "EducationEvent"
+"name" (or .Params.page_title .Title)
+"description" $description
+"url" $url
+"eventStatus" "https://schema.org/EventScheduled"
+"eventAttendanceMode" "https://schema.org/OfflineEventAttendanceMode"
+"location" (dict
+"@type" "Place"
+"name" $locationName
+"address" $address
+)
+"organizer" $organizer
+"offers" $aggregate
+"eventSchedule" $schedule
+) -}}

@@ -1,19 +1,19 @@
 ---
 ecwid: 778287221
 product_id: Battle-Bots-25-26-Gr3-4
-robots: "noindex, follow"
-layout: "single"
+robots: noindex, follow
+layout: single
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 159.99
-category: "Session"
-price_unit: "for 4 sessions"
-duration: "4 wk"
-weight: "18"
-start_date: "2025-08-18"
-end_date: "2026-05-24"
-start_time: "3:30PM"
-end_time: "5:00PM"
+category: Session
+price_unit: for 4 sessions
+duration: 4 wk
+weight: 18
+start_date: 2025-08-18
+end_date: 2026-05-24
+start_time: "3:30 PM"
+end_time: "5:00 PM"
 page_title: "VEX Battle Bots - Third and Fourth Grade"
 page_subtitle: "Design. Build. Code. BATTLE!"
 ribbon: "Starts Oct 5"

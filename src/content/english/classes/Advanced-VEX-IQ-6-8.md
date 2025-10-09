@@ -1,19 +1,19 @@
 ---
 ecwid: 769260824
 product_id: Advanced-VEX-IQ-6-8
-robots: "noindex, follow"
-layout: "single"
+robots: noindex, follow
+layout: single
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]
 price: 325
-price_unit: "per month"
-duration: "4-6 mo"
-category: "Ongoing"
-weight: "41"
-start_date: "2025-11-13"
-end_date: "2026-03-15"
-start_time: "5:30PM"
-end_time: "7:00PM"
+price_unit: per month
+duration: 4-6 mo
+category: Ongoing
+weight: 41
+start_date: 2025-11-13
+end_date: 2026-03-15
+start_time: "5:30 PM"
+end_time: "7:00 PM"
 page_title: "Advanced VEX IQ (Grades 6 - 8)"
 page_subtitle: "Building Robots, Solving Challenges!"
 ribbon: "Starts Nov 13"

@@ -1,0 +1,9 @@
+{{ with .Params.grade_tags}}
+    {{ if gt (len .) 0 }}
+        Grades: {{ index . 0 }}
+        {{ if gt (len .) 1 }}
+            to {{ index . (sub (len .) 1) }}
+        {{ end }}
+        <br>
+    {{ end }}
+{{ end }}
