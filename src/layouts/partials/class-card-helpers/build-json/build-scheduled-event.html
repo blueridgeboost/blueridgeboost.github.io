@@ -1,21 +1,21 @@
 {{- $schedule := partial "class-card-helpers/build-json/build-schedule.html" . -}}
 {{- $aggregate := partial "class-card-helpers/build-json/build-offer-aggregate.html" . -}}
 {{- $organizer := partial "class-card-helpers/build-json/build-organizer.html" . -}}
-
-{{- $address := partial "class-card-helpers/build-json/build-address.html" . -}} {{/* must exist and return a PostalAddress dict */}}
+{{- $address := partial "class-card-helpers/build-json/build-address.html" . -}}
 {{- $locationName := or .Params.location_name "Blue Ridge Boost" -}}
-
 {{- $description := trim (plainify (default "" (or .Params.description .Summary))) " \n\r\t" -}}
 {{- $url := .Permalink -}}
+{{- $startDate := now.Format "2006-01-02" -}}
+{{- with .Params.start_date }}{{- $startDate = dateFormat "2006-01-02" . -}}{{- end -}}
 
-{{- return (dict
+{{- $event := dict
 "@context" "https://schema.org"
 "@type" "EducationEvent"
 "name" (or .Params.page_title .Title)
 "description" $description
 "url" $url
-"eventStatus" "https://schema.org/EventScheduled"
-"eventAttendanceMode" "https://schema.org/OfflineEventAttendanceMode"
+"eventStatus" "https://schema.org/EventScheduled" 
+"eventAttendanceMode" "https://schema.org/OfflineEventAttendanceMode" 
 "location" (dict
 "@type" "Place"
 "name" $locationName
@@ -23,5 +23,17 @@
 )
 "organizer" $organizer
 "offers" $aggregate
-"eventSchedule" $schedule
-) -}}
+"startDate" $startDate
+-}}
+
+{{- if $schedule -}}
+{{- $event = merge $event (dict "eventSchedule" $schedule) -}}
+{{- end -}}
+
+{{ warnf "event type: %T" $event}}
+{{ warnf "schedule type: %T" $schedule}}
+{{ warnf "aggregate type: %T" $aggregate}}
+{{ warnf "organizer type: %T" $organizer}}
+{{ warnf "address type: %T" $address}}
+
+{{- return $event -}}
