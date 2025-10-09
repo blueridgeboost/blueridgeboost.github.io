@@ -1,19 +1,19 @@
 ---
 ecwid: 767686686
 product_id: RobloxStudio-25-26
-robots: "noindex, follow"
-layout: "single"
+robots: noindex, follow
+layout: single
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Game Development"]
 price: 249.99
-category: "Session"
-price_unit: "for 6 sessions"
-duration: "6 wk"
-weight: "12"
-start_date: "2025-11-02"
-end_date: "2025-12-21"
-start_time: "2:00PM"
-end_time: "3:00PM"
+category: Session
+price_unit: for 6 sessions
+duration: 6 wk
+weight: 12
+start_date: 2025-11-02
+end_date: 2025-12-21
+start_time: "2:00 PM"
+end_time: "3:00 PM"
 page_title: "Roblox Studio: Make a game in 6 sessions"
 page_subtitle: "Foundations to Game Creation"
 ribbon: "Starts Nov 2"

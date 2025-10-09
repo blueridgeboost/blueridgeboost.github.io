@@ -1,16 +1,16 @@
 ---
 ecwid: 755511520
 product_id: APCSA-In-Person
-robots: "noindex, follow"
-layout: "single"
+robots: noindex, follow
+layout: single
 schedule_tags: ["On-Demand"]
 subject_tags: ["Computer Coding"]
 price: 249.99
-price_unit: "per month"
-duration: "Flexible"
-category: "Ongoing"
-weight: "65"
-end_date: "2026-05-15"
+price_unit: per month
+duration: Flexible
+category: Ongoing
+weight: 65
+end_date: 2026-05-15
 page_title: "Group Tutoring: Java for AP Computer Science"
 page_subtitle: "Get ready for AP CSA"
 ribbon: "On Demand"

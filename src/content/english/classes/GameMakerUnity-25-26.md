@@ -1,16 +1,16 @@
 ---
 ecwid: 767742299
 product_id: GameMakerUnity-25-26
-robots: "noindex, follow"
-layout: "single"
+robots: noindex, follow
+layout: single
 schedule_tags: ["On-Demand"]
 subject_tags: ["Game Development"]
 price: 249.99
-price_unit: "per month"
-duration: "2-3 mo"
-category: "Ongoing"
-weight: "49"
-end_date: "2026-05-24"
+price_unit: per month
+duration: 2-3 mo
+category: Ongoing
+weight: 49
+end_date: 2026-05-24
 page_title: "Game Makers: Intro to Unity"
 page_subtitle: "Learn to make video games using Unity!"
 ribbon: "On Demand"

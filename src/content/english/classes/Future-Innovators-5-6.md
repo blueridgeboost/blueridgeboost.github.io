@@ -1,16 +1,16 @@
 ---
 ecwid: 771060848
 product_id: Future-Innovators-5-6
-robots: "noindex, follow"
-layout: "single"
+robots: noindex, follow
+layout: single
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics","Computer Coding"]
 price: 169.99
-weight: "33"
-start_date: "2025-11-09"
-end_date: "2026-05-16"
-start_time: "3:30PM"
-end_time: "5:00PM"
+weight: 33
+start_date: 2025-11-09
+end_date: 2026-05-16
+start_time: "3:30 PM"
+end_time: "5:00 PM"
 page_title: "Future Innovators (Grades 5 to 7)"
 page_subtitle: "Empowering Young Minds"
 ribbon: "Starts Nov 9"

@@ -1,0 +1,14 @@
+{{ with .Params.day_tags }}
+    {{ $count := len . }}
+    {{ if eq $count 1 }}
+        {{ index . 0 }}
+    {{ else if eq $count 2 }}
+        {{ index . 0 }}, {{ index . 1 }}
+    {{ else if eq $count 3 }}
+        {{ index . 0 }}, {{ index . 1 }}, {{ index . 2 }}
+    {{ else if ge $count 4 }}
+        {{ index . 0 }} through {{ index . (sub $count 1) }}
+    {{ end }}
+{{ else }}
+    Pick a day and time
+{{ end }}

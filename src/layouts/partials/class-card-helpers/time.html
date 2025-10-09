@@ -1,0 +1,5 @@
+{{ if and .Params.start_time .Params.end_time }}
+    {{ .Params.start_time }} &ndash; {{ .Params.end_time }}<br>
+{{ else }}
+    <br>
+{{ end }}

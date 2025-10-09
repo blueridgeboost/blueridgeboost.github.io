@@ -1,19 +1,19 @@
 ---
 ecwid: 766835284
 product_id: Scratch-First-and-Forth-25
-robots: "noindex, follow"
-layout: "single"
+robots: noindex, follow
+layout: single
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Computer Coding","Game Development"]
 price: 199.99
-category: "Session"
-price_unit: "for 6 sessions"
-duration: "6 wk"
-weight: "2"
-start_date: "2025-10-27"
-end_date: "2025-12-08"
-start_time: "4:30PM"
-end_time: "5:30PM"
+category: Session
+price_unit: for 6 sessions
+duration: 6 wk
+weight: 2
+start_date: 2025-10-27
+end_date: 2025-12-08
+start_time: "4:30 PM"
+end_time: "5:30 PM"
 page_title: "Scratch Block Coding"
 page_subtitle: "Learn to code video games, animations, and more!"
 ribbon: "Starts Oct 27"

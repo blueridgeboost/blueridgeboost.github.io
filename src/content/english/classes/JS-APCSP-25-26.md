@@ -1,16 +1,16 @@
 ---
 ecwid: 743641082
 product_id: JS-APCSP-25-26
-robots: "noindex, follow"
-layout: "single"
+robots: noindex, follow
+layout: single
 schedule_tags: ["On-Demand"]
 subject_tags: ["Computer Coding"]
 price: 249.99
-price_unit: "per month"
-duration: "Flexible"
-category: "Ongoing"
-weight: "62"
-end_date: "2026-05-14"
+price_unit: per month
+duration: Flexible
+category: Ongoing
+weight: 62
+end_date: 2026-05-14
 page_title: "Group Tutoring: AP Computer Science Principles"
 page_subtitle: "Get ready for AP Computer Science Principles"
 ribbon: "On Demand"

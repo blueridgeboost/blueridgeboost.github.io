@@ -1,0 +1,73 @@
+{{ $organizerName := or .Params.organizer_name .Site.Title "Blue Ridge Boost" }}
+{{ $organizerURL := or .Params.organizer_url "blueridgeboost.com"  }}
+{{ $locationName := or .Params.location_name "Blue Ridge Boost" }}
+
+{{ $address := dict
+    "@type" "PostalAddress"
+    "streetAddress" (or .Params.address_street "2171 Ivy Rd")
+    "addressLocality" (or .Params.address_city "Charlottesville")
+    "addressRegion" (or .Params.address_region "VA")
+    "postalCode" (or .Params.address_postal "22903")
+    "addressCountry" (or .Params.address_country "US")
+}}
+
+{{ return (dict
+    "@type" "Organization"
+    "name" $organizerName
+    "url" $organizerURL
+    "contactPoint" (slice
+        (dict
+            "@type" "ContactPoint"
+            "contactType" "customer support"
+            "telephone" "+1-434-260-0636"
+            "email" "info@blueridgeboost.com"
+            "url" "https://blueridgeboost.com/contact/"
+            "availableLanguage" (slice "en")
+            "areaServed" (slice
+                (dict
+                "@type" "Place"
+                "name" "Charlottesville, VA"
+                "address" (dict
+                    "@type" "PostalAddress"
+                    "addressLocality" "Charlottesville"
+                    "addressRegion" "VA"
+                    "addressCountry" "US"
+                    )
+                )
+                (dict
+                    "@type" "Place"
+                    "name" "Albemarle County, VA"
+                    "address" (dict
+                        "@type" "PostalAddress"
+                        "addressLocality" "Albemarle County"
+                        "addressRegion" "VA"
+                        "addressCountry" "US"
+                    )
+                )
+            )
+        )
+    )
+    "hoursAvailable" (slice
+        (dict
+            "@type" "OpeningHoursSpecification"
+            "dayOfWeek" (slice
+                "https://schema.org/Monday"
+                "https://schema.org/Tuesday"
+                "https://schema.org/Wednesday"
+                "https://schema.org/Thursday"
+                "https://schema.org/Friday"
+            )
+            "opens" "10:00"
+            "closes" "20:00"
+        )
+        (dict
+            "@type" "OpeningHoursSpecification"
+            "dayOfWeek" (slice
+                "https://schema.org/Saturday"
+                "https://schema.org/Sunday"
+            )
+            "opens" "10:00"
+            "closes" "18:00"
+        )
+    )
+) }}
