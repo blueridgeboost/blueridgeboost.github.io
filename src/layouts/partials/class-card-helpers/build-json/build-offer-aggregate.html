@@ -1,43 +1,43 @@
-{{ $offersParam := .Params.offers }}
-{{ $aggregate := dict }}
-{{ $url := .Permalink }}
-{{ if and $offersParam (gt (len $offersParam) 0) }}
-    {{ $items := slice }}
-    {{ $count := 0 }}
-    {{ $low := 0.0 }}
-    {{ range $offersParam }}
-        {{ $name := index . 0 }}
-        {{ $price := float (index . 1) }}
-        {{ if eq $count 0 }}
-            {{ $low = $price }}
-        {{ else if lt $price $low }}
-            {{ $low = $price }}
-        {{ end }}
-        {{ $items = $items | append (dict
+{{- $offersParam := .Params.offers -}}
+{{- $aggregate := dict -}}
+{{- $url := .Permalink -}}
+{{- if and $offersParam (gt (len $offersParam) 0) -}}
+    {{- $items := slice -}}
+    {{- $count := 0 -}}
+    {{- $low := 0.0 -}}
+    {{- range $offersParam -}}
+        {{- $name := index . 0 -}}
+        {{- $price := float (index . 1) -}}
+        {{- if eq $count 0 -}}
+            {{- $low = $price -}}
+        {{- else if lt $price $low -}}
+            {{- $low = $price -}}
+        {{- end -}}
+        {{- $items = $items | append (dict
             "@type" "Offer"
             "name" $name
-            "price" (printf "%.2f" $price)
+            "price" $price
             "priceCurrency" "USD"
             "availability" "https://schema.org/InStock"
             "url" $url
-            ) }}
-        {{ $count = add $count 1 }}
-    {{ end }}
-    {{ $aggregate = dict
+            ) -}}
+        {{- $count = add $count 1 -}}
+    {{- end -}}
+    {{- $aggregate = dict
         "@type" "AggregateOffer"
         "offerCount" $count
         "lowPrice" (printf "%.2f" $low)
         "priceCurrency" "USD"
         "offers" $items
-    }}
-{{ else }}
-    {{ $aggregate = dict
+    -}}
+{{- else -}}
+    {{- $aggregate = dict
         "@type" "Offer"
-        "price" (printf "%.2f" (float (default 0 .Params.price)))
+        "price" .Params.price
         "priceCurrency" "USD"
         "availability" "https://schema.org/InStock"
         "url" $url
-    }}
-{{ end }}
+    -}}
+{{- end -}}
 
-{{ return $aggregate }}
+{{- return $aggregate -}}

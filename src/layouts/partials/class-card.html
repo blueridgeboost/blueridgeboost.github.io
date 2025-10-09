@@ -32,14 +32,14 @@
             {{ end }}
         {{ end }}
         {{ if not $isOnDemand }}
-           {{ $eventData := partial "class-card-helpers/build-json/build-scheduled-event.html" . }}
+            {{ $eventData := (partial "class-card-helpers/build-json/build-scheduled-event.html" .) }}
             <script type="application/ld+json">
-                {{ $eventData | jsonify }}
+                {{ $eventData}}
             </script>
         {{ else }}
-            {{ $serviceData := partial "class-card-helpers/build-json/build-unscheduled-event.html" . }}
+            {{ $eventData := (partial "class-card-helpers/build-json/build-unscheduled-event.html" .) }}
             <script type="application/ld+json">
-                {{ $serviceData | jsonify | safeHTML }}
+                {{ $eventData }}
             </script>
         {{ end }}
     </div>
