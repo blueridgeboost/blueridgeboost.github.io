@@ -18,5 +18,6 @@ title: "Math Builders: 3rd Grade Group Tutoring | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["3rd"]
 featured: 169
-offers: [["One","299.99"],["Two-Three","224.99"]]
+offers: [["Two-Three","142.49"],["Four","134.99"]]
+image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5073249666.png"
 ---

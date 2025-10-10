@@ -9,7 +9,7 @@ price: 159.99
 category: Session
 price_unit: for 4 sessions
 duration: 4 wk
-weight: 34
+weight: 33
 start_date: 2025-08-18
 end_date: 2026-05-24
 start_time: "5:00 PM"
@@ -22,4 +22,5 @@ day_tags: ["Sun"]
 grade_tags: ["5th","6th"]
 featured: 152
 offers: [["Two-Three","143.99"],["Four+","135.99"]]
+image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5047184306.png"
 ---

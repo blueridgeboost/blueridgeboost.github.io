@@ -9,7 +9,7 @@ price: 249.99
 price_unit: per month
 duration: 4-6 mo
 category: Ongoing
-weight: 57
+weight: 56
 end_date: 2026-05-18
 page_title: "Cybersecurity Level 1"
 page_subtitle: "Preparation and Certification Exam"
@@ -18,4 +18,6 @@ title: "Cybersecurity Level 1 | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["7th","8th","9th","10th","11th","12th"]
 featured: 214
+offers: [["Two-Three","212.49"],["Four","199.99"]]
+image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5101158650.png"
 ---

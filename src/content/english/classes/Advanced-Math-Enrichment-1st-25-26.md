@@ -22,4 +22,5 @@ day_tags: ["Mon","Wed"]
 grade_tags: ["1st"]
 featured: 161
 offers: [["Two or Three Students","132.99"],["Four","125.99"]]
+image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5073228616.png"
 ---

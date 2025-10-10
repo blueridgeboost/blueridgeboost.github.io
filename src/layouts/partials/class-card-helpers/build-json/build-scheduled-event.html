@@ -12,6 +12,7 @@
 "@context" "https://schema.org"
 "@type" "EducationEvent"
 "name" (or .Params.page_title .Title)
+"image" (slice .Params.image_url)
 "description" $description
 "url" $url
 "eventStatus" "https://schema.org/EventScheduled" 
