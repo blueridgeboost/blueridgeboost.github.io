@@ -6,6 +6,12 @@
 {{- $aggregate := partial "class-card-helpers/build-json/build-offer-aggregate.html" . -}}
 
 
+{{ warnf "organizerName: %T" $organizerName}}
+{{ warnf "organizerURL: %T" $organizerURL}}
+{{ warnf "description: %T" $description}}
+{{ warnf "areaServed: %T" $areaServed}}
+{{ warnf "aggregate: %T" $aggregate}}
+
 {{ return dict
     "@context" "https://schema.org"
     "@type" "Service"
