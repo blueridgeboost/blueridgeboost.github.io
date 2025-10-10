@@ -2,10 +2,21 @@
 {{ $organizerName := or .Params.organizer_name .Site.Title "Blue Ridge Boost" }}
 {{ $organizerURL := or .Params.organizer_url .Site.BaseURL $url }}    
 {{- $description := trim (plainify (default "" (or .Params.description .Summary))) " \n\r\t" -}}
-{{ $serviceData := dict
+{{ $areaServed := partial "class-card-helpers/build-json/build-area-served.html" . }}
+{{- $aggregate := partial "class-card-helpers/build-json/build-offer-aggregate.html" . -}}
+
+
+{{ warnf "organizerName: %T" $organizerName}}
+{{ warnf "organizerURL: %T" $organizerURL}}
+{{ warnf "description: %T" $description}}
+{{ warnf "areaServed: %T" $areaServed}}
+{{ warnf "aggregate: %T" $aggregate}}
+
+{{ return dict
     "@context" "https://schema.org"
     "@type" "Service"
     "name" (or .Params.page_title .Title)
+    "image" (slice .Params.image_url)
     "description" $description
     "url" $url
     "provider" (dict
@@ -13,17 +24,8 @@
         "name" $organizerName
         "url" $organizerURL
     )
-    "areaServed" (dict
-        "@type" "Place"
-        "name" "Charlottesville, VA"
-    )
-    "offers" (dict
-        "@type" "Offer"
-        "price" (printf "%.2f" (float (default 0 .Params.price)))
-        "priceCurrency" "USD"
-        "availability" "https://schema.org/InStock"
-        "url" $url
-    )
+    "areaServed" $areaServed
+    "offers" $aggregate
     "potentialAction" (dict
         "@type" "ReserveAction"
         "target" (dict

@@ -9,7 +9,7 @@ price: 179.99
 price_unit: per month
 duration: Flexible
 category: Ongoing
-weight: 60
+weight: 59
 start_date: 2025-09-06
 end_date: 2026-05-18
 start_time: "6:00 PM"
@@ -22,4 +22,5 @@ day_tags: ["Mon","Wed"]
 grade_tags: ["8th","9th"]
 featured: 157
 offers: [["Two-Three","161.99"],["Four+","152.99"]]
+image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5073279326.png"
 ---

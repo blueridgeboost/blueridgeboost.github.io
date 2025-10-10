@@ -22,4 +22,5 @@ day_tags: ["Sun"]
 grade_tags: ["3rd","4th"]
 featured: 153
 offers: [["Two-Three","143.99"],["Four+","135.99"]]
+image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5047184306.png"
 ---

@@ -9,7 +9,7 @@ price: 179.99
 price_unit: per month
 duration: 4-6 mo
 category: Ongoing
-weight: 48
+weight: 47
 end_date: 2026-05-19
 page_title: "AI, Ethics, and Python"
 page_subtitle: "Artifical Intelligence and Ethics with Python"
@@ -19,4 +19,5 @@ day_tags: []
 grade_tags: ["7th","8th","9th","10th"]
 featured: 168
 offers: [["Two","161.99"],["Four or more","152.99"]]
+image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5074103277.png"
 ---

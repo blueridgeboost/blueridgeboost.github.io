@@ -34,10 +34,12 @@
         {{ if not $isOnDemand }}
             {{ $eventData := (partial "class-card-helpers/build-json/build-scheduled-event.html" .) }}
             <script type="application/ld+json">
-                {{ $eventData}}
+                {{ $eventData }}
             </script>
         {{ else }}
             {{ $eventData := (partial "class-card-helpers/build-json/build-unscheduled-event.html" .) }}
+            {{ warnf "%s" .Params.product_id }}
+            {{ warnf "%s" (jsonify $eventData) }}
             <script type="application/ld+json">
                 {{ $eventData }}
             </script>

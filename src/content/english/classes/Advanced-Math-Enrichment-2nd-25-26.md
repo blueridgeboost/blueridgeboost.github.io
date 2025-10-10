@@ -18,5 +18,6 @@ title: "Advanced Math Enrichment 2nd Grade | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["2nd"]
 featured: 162
-offers: undefined
+offers: [["Two-Three","132.99"],["Four","125.99"]]
+image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5073228669.png"
 ---

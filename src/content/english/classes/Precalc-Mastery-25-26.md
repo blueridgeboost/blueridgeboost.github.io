@@ -9,7 +9,7 @@ price: 179.99
 price_unit: per month
 duration: Flexible
 category: Ongoing
-weight: 68
+weight: 67
 page_title: "Precalculus: Mastery Through Teaching and Practice"
 page_subtitle: "Get Ahead!"
 ribbon: "On Demand"
@@ -17,5 +17,6 @@ title: "Precalculus: Mastery Through Teaching and Practice | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["9th","10th","11th","12th"]
 featured: 209
-offers: [["One","379.99"],["Two-Three","279.99"]]
+offers: [["Two-Three","152.99"],["Four+","143.99"]]
+image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5080126287.png"
 ---
