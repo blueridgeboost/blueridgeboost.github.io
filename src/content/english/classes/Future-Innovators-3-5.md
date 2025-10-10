@@ -1,7 +1,6 @@
 ---
 ecwid: 771060851
 product_id: Future-Innovators-3-5
-robots: noindex, follow
 layout: single
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics","Computer Coding"]

@@ -8,6 +8,26 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details__product-tit
 }
 </style>
 
+{{ $isOnDemand := false }}
+{{ with .Params.schedule_tags }}
+    {{ if in . "On-Demand" }}
+        {{ $isOnDemand = true }}
+    {{ end }}
+{{ end }}
+{{ if not $isOnDemand }}
+    {{ $eventData := (partial "class-card-helpers/build-json/build-scheduled-event.html" .) }}
+    <script type="application/ld+json">
+        {{ $eventData }}
+    </script>
+{{ else }}
+    {{ $eventData := (partial "class-card-helpers/build-json/build-unscheduled-event.html" .) }}
+    {{ warnf "%s" .Params.product_id }}
+    {{ warnf "%s" (jsonify $eventData) }}
+    <script type="application/ld+json">
+        {{ $eventData }}
+    </script>
+{{ end }}
+
 <section class="section">
     <div class="container">
         <div id="my-store-106136041"></div>
