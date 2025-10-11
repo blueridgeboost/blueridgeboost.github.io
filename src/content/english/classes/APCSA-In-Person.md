@@ -1,7 +1,6 @@
 ---
 ecwid: 755511520
 product_id: APCSA-In-Person
-robots: noindex, follow
 layout: single
 schedule_tags: ["On-Demand"]
 subject_tags: ["Computer Coding"]

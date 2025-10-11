@@ -1,7 +1,6 @@
 ---
 ecwid: 770296997
 product_id: Code-Craft-25-2Gr1-2
-robots: noindex, follow
 layout: single
 schedule_tags: ["Join Now"]
 subject_tags: ["Game Development"]

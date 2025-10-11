@@ -1,7 +1,6 @@
 ---
 ecwid: 767750714
 product_id: IntroJava-25-26
-robots: noindex, follow
 layout: single
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Computer Coding"]

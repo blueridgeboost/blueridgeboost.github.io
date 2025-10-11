@@ -1,7 +1,6 @@
 ---
 ecwid: 770348898
 product_id: IntroCS-25-26-Sat
-robots: noindex, follow
 layout: single
 schedule_tags: ["On-Demand"]
 subject_tags: ["Computer Coding"]

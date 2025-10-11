@@ -1,7 +1,6 @@
 ---
 ecwid: 767742460
 product_id: PythonTurtle-25-26
-robots: noindex, follow
 layout: single
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Computer Coding"]

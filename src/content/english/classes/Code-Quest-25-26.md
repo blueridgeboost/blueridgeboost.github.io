@@ -1,7 +1,6 @@
 ---
 ecwid: 770334898
 product_id: Code-Quest-25-26
-robots: noindex, follow
 layout: single
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Computer Coding"]

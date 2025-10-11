@@ -1,7 +1,6 @@
 ---
 ecwid: 770334989
 product_id: Precalc-Mastery-25-26
-robots: noindex, follow
 layout: single
 schedule_tags: ["On-Demand"]
 subject_tags: ["Math"]

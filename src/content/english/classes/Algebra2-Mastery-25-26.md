@@ -1,7 +1,6 @@
 ---
 ecwid: 770373665
 product_id: Algebra2-Mastery-25-26
-robots: noindex, follow
 layout: single
 schedule_tags: ["On-Demand"]
 subject_tags: ["Math"]

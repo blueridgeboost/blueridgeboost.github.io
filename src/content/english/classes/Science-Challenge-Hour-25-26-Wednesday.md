@@ -1,7 +1,6 @@
 ---
 ecwid: 770348863
 product_id: Science-Challenge-Hour-25-26-Wednesday
-robots: noindex, follow
 layout: single
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Science"]

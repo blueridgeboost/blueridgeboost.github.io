@@ -1,7 +1,6 @@
 ---
 ecwid: 767680409
 product_id: Math-Builders-6th-25-26
-robots: noindex, follow
 layout: single
 schedule_tags: ["On-Demand"]
 subject_tags: ["Math"]

@@ -1,7 +1,6 @@
 ---
 ecwid: 779858442
 product_id: CMRA-VEX-Coding-25-26
-robots: noindex, follow
 layout: single
 schedule_tags: ["On-Demand"]
 subject_tags: ["Robotics"]

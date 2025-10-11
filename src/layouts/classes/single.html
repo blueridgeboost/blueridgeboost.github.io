@@ -14,19 +14,17 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details__product-tit
         {{ $isOnDemand = true }}
     {{ end }}
 {{ end }}
+{{  $eventData := dict }}
 {{ if not $isOnDemand }}
-    {{ $eventData := (partial "class-card-helpers/build-json/build-scheduled-event.html" .) }}
-    <script type="application/ld+json">
-        {{ $eventData }}
-    </script>
+    {{ $eventData := merge $eventData (partial "build-json/build-scheduled-event.html" .) }}
+    
 {{ else }}
-    {{ $eventData := (partial "class-card-helpers/build-json/build-unscheduled-event.html" .) }}
-    {{ warnf "%s" .Params.product_id }}
-    {{ warnf "%s" (jsonify $eventData) }}
-    <script type="application/ld+json">
-        {{ $eventData }}
-    </script>
+    {{ $eventData := merge $eventData (partial "build-json/build-unscheduled-event.html" .) }}
 {{ end }}
+{{ $eventData := merge $eventData (dict "@context" "https://schema.org") }}
+<script type="application/ld+json">
+    {{ $eventData }}
+</script>
 
 <section class="section">
     <div class="container">

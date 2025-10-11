@@ -1,7 +1,6 @@
 ---
 ecwid: 743641082
 product_id: JS-APCSP-25-26
-robots: noindex, follow
 layout: single
 schedule_tags: ["On-Demand"]
 subject_tags: ["Computer Coding"]

@@ -2,7 +2,7 @@
 {{ $organizerName = (trim " " $organizerName ) }}
 {{ $organizerURL := or .Params.organizer_url "https://blueridgeboost.com"  }}
 {{ $locationName := or .Params.location_name "Blue Ridge Boost" }}
-{{ $areaServed := partial "class-card-helpers/build-json/build-area-served.html" . }}
+{{ $areaServed := partial "build-json/build-area-served.html" . }}
 
 {{ $address := dict
     "@type" "PostalAddress"

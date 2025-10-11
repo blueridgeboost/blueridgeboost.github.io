@@ -1,21 +1,23 @@
 ---
 ecwid: 769796741
 product_id: Advanced-Math-Enrichment-2nd-25-26
-robots: noindex, follow
 layout: single
-schedule_tags: ["On-Demand"]
+schedule_tags: ["Starting Soon"]
 subject_tags: ["Math"]
 price: 139.99
 price_unit: per month
-duration: Flexible
+duration: 4-6 mo
 category: Ongoing
 weight: 6
+start_date: 2026-10-20
 end_date: 2026-05-24
+start_time: "4:45 PM"
+end_time: "5:30 PM"
 page_title: "Advanced Math Enrichment 2nd Grade"
 page_subtitle: "Exploring the Beauty of Mathematics"
-ribbon: "On Demand"
+ribbon: "Starts Oct 20"
 title: "Advanced Math Enrichment 2nd Grade | Blue Ridge Boost"
-day_tags: []
+day_tags: ["Mon"]
 grade_tags: ["2nd"]
 featured: 162
 offers: [["Two-Three","132.99"],["Four","125.99"]]

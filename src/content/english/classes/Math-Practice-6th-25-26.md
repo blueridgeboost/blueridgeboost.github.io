@@ -1,20 +1,23 @@
 ---
 ecwid: 769721623
 product_id: Math-Practice-6th-25-26
-robots: noindex, follow
 layout: single
-schedule_tags: ["On-Demand"]
+schedule_tags: ["Starting Soon"]
 subject_tags: ["Math"]
 price: 179.99
 price_unit: per month
 duration: Flexible
 category: Ongoing
 weight: 35
+start_date: 2025-10-13
+end_date: 2026-05-24
+start_time: "6:00 PM"
+end_time: "7:00 PM"
 page_title: "6th Compacted Homework Help"
 page_subtitle: "Math Support"
-ribbon: "On Demand"
+ribbon: "Starting Oct 20"
 title: "6th Compacted Homework Help | Blue Ridge Boost"
-day_tags: []
+day_tags: ["Mon"]
 grade_tags: ["6th"]
 featured: 160
 offers: [["Two-Three","152.99"],["Four+","143.99"]]

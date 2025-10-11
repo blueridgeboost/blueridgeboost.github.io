@@ -1,7 +1,6 @@
 ---
 ecwid: 766842076
 product_id: Battle-Bots-25-26
-robots: noindex, follow
 layout: single
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]

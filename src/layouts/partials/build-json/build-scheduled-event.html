@@ -1,7 +1,7 @@
-{{- $schedule := partial "class-card-helpers/build-json/build-schedule.html" . -}}
-{{- $aggregate := partial "class-card-helpers/build-json/build-offer-aggregate.html" . -}}
-{{- $organizer := partial "class-card-helpers/build-json/build-organizer.html" . -}}
-{{- $address := partial "class-card-helpers/build-json/build-address.html" . -}}
+{{- $schedule := partial "build-json/build-schedule.html" . -}}
+{{- $aggregate := partial "build-json/build-offer-aggregate.html" . -}}
+{{- $organizer := partial "build-json/build-organizer.html" . -}}
+{{- $address := partial "build-json/build-address.html" . -}}
 {{- $locationName := or .Params.location_name "Blue Ridge Boost" -}}
 {{- $description := trim (plainify (default "" (or .Params.description .Summary))) " \n\r\t" -}}
 {{- $url := .Permalink -}}
@@ -9,7 +9,6 @@
 {{- with .Params.start_date }}{{- $startDate = dateFormat "2006-01-02" . -}}{{- end -}}
 
 {{- $event := dict
-"@context" "https://schema.org"
 "@type" "EducationEvent"
 "name" (or .Params.page_title .Title)
 "image" (slice .Params.image_url)

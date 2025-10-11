@@ -1,7 +1,6 @@
 ---
 ecwid: 769796743
 product_id: Advanced-Math-Enrichment-3rd-25-26
-robots: noindex, follow
 layout: single
 schedule_tags: ["Join Now"]
 subject_tags: ["Math"]

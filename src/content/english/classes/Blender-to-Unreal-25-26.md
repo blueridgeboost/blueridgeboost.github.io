@@ -1,7 +1,6 @@
 ---
 ecwid: 766842181
 product_id: Blender-to-Unreal-25-26
-robots: noindex, follow
 layout: single
 schedule_tags: ["Join Now"]
 subject_tags: ["Game Development"]

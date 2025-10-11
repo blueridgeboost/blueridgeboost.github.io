@@ -1,7 +1,6 @@
 ---
 ecwid: 769776736
 product_id: Math-Practice-Algebra-2-25-26
-robots: noindex, follow
 layout: single
 schedule_tags: ["On-Demand"]
 subject_tags: ["Math"]

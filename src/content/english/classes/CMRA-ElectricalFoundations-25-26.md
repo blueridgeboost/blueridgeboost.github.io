@@ -1,7 +1,6 @@
 ---
 ecwid: 767793057
 product_id: CMRA-ElectricalFoundations-25-26
-robots: noindex, follow
 layout: single
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics"]

@@ -1,7 +1,6 @@
 ---
 ecwid: 769259348
 product_id: CMRA-MechanicalFoundations-25-26
-robots: noindex, follow
 layout: single
 schedule_tags: ["Join Now"]
 subject_tags: ["Robotics"]

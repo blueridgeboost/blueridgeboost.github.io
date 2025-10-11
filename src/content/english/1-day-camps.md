@@ -67,12 +67,6 @@ robots: "index, follow"
   </p>
 
   <p>Click on the school name to see only the day off-school camps for that school.</p>
-  
-  <!-- <h3>1-Day Camps</h3>
-  <ul>
-    <li><a href="#charlottesville-day-school">Charlottesville Day School</a></li>
-    <li><a href="#green-school">Green School</a></li>
-  </ul> -->
 </section>
 
 <div class="container" id="camp1">

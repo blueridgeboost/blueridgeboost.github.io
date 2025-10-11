@@ -1,7 +1,6 @@
 ---
 ecwid: 766835284
 product_id: Scratch-First-and-Forth-25
-robots: noindex, follow
 layout: single
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Computer Coding","Game Development"]

@@ -1,7 +1,6 @@
 ---
 ecwid: 767686686
 product_id: RobloxStudio-25-26
-robots: noindex, follow
 layout: single
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Game Development"]

@@ -1,7 +1,6 @@
 ---
 ecwid: 768907151
 product_id: Advanced-VEX-IQ-4-5
-robots: noindex, follow
 layout: single
 schedule_tags: ["Join Now"]
 subject_tags: ["Robotics"]

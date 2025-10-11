@@ -1,7 +1,6 @@
 ---
 ecwid: 767793013
 product_id: CMRA-AutonomyFoundations-25-26
-robots: noindex, follow
 layout: single
 schedule_tags: ["On-Demand"]
 subject_tags: ["Robotics","Computer Coding"]

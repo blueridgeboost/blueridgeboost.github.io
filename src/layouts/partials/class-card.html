@@ -25,25 +25,6 @@
         {{ partial "class-card-helpers/time.html" .}}
         {{ partial "class-card-helpers/grades.html" .}}
         {{ partial "class-card-helpers/offer-microdata.html" . }}
-        {{ $isOnDemand := false }}
-        {{ with .Params.schedule_tags }}
-            {{ if in . "On-Demand" }}
-                {{ $isOnDemand = true }}
-            {{ end }}
-        {{ end }}
-        {{ if not $isOnDemand }}
-            {{ $eventData := (partial "class-card-helpers/build-json/build-scheduled-event.html" .) }}
-            <script type="application/ld+json">
-                {{ $eventData }}
-            </script>
-        {{ else }}
-            {{ $eventData := (partial "class-card-helpers/build-json/build-unscheduled-event.html" .) }}
-            {{ warnf "%s" .Params.product_id }}
-            {{ warnf "%s" (jsonify $eventData) }}
-            <script type="application/ld+json">
-                {{ $eventData }}
-            </script>
-        {{ end }}
     </div>
 
 <!-- Optional: mirror Ecwid image into Product microdata so parsers can see it -->

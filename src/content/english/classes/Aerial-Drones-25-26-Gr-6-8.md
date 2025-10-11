@@ -1,7 +1,6 @@
 ---
 ecwid: 770334954
 product_id: Aerial-Drones-25-26-Gr-6-8
-robots: noindex, follow
 layout: single
 schedule_tags: ["Join Now"]
 subject_tags: ["Robotics"]

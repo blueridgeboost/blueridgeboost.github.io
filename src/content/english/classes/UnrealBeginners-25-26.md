@@ -1,7 +1,6 @@
 ---
 ecwid: 767742486
 product_id: UnrealBeginners-25-26
-robots: noindex, follow
 layout: single
 schedule_tags: ["On-Demand"]
 subject_tags: []

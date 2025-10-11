@@ -1,7 +1,6 @@
 ---
 ecwid: 767782850
 product_id: CMRA-SoftwareFoundations-25-26
-robots: noindex, follow
 layout: single
 schedule_tags: ["Starting Soon"]
 subject_tags: ["Robotics","Computer Coding"]

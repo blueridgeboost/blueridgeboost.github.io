@@ -1,0 +1,27 @@
+{{ $all_events := slice }}
+{{ $pages :=  (where .Site.Pages "Section" "classes") }}
+{{ $pages = sort $pages ".Params.weight" "asc" }}
+{{ range $pages }}
+    {{ $isOnDemand := false }}
+    {{ with .Params.schedule_tags }}
+        {{ if in . "On-Demand" }}
+            {{ $isOnDemand = true }}
+        {{ end }}
+    {{ end }}
+
+    {{  $eventData := dict }}
+    {{ if not $isOnDemand }}
+        {{ $eventData := merge $eventData (partial "build-json/build-scheduled-event.html" .) }}
+    {{ else }}
+        {{ $eventData := merge $eventData (partial "build-json/build-unscheduled-event.html" .) }}
+    {{ end }}
+    {{ $all_events = append $all_events $eventData }}
+{{ end }}
+
+{{ $lst := (dict 
+        "@context" "https://schema.org"
+        "graph" $all_events
+) }}
+<script type="application/ld+json">
+    {{ $lst }}
+</script>

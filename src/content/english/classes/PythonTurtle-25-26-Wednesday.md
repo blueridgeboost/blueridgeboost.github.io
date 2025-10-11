@@ -1,7 +1,6 @@
 ---
 ecwid: 779333541
 product_id: PythonTurtle-25-26-Wednesday
-robots: noindex, follow
 layout: single
 schedule_tags: ["Join Now"]
 subject_tags: ["Computer Coding"]
