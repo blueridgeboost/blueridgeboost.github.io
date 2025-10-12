@@ -11,11 +11,11 @@
 
     {{  $eventData := dict }}
     {{ if not $isOnDemand }}
-        {{ $eventData := merge $eventData (partial "build-json/build-scheduled-event.html" .) }}
+        {{ $eventData = merge $eventData (partial "build-json/build-scheduled-event.html" .) }}
     {{ else }}
-        {{ $eventData := merge $eventData (partial "build-json/build-unscheduled-event.html" .) }}
+        {{ $eventData = merge $eventData (partial "build-json/build-unscheduled-event.html" .) }}
     {{ end }}
-    {{ $all_events = append $all_events $eventData }}
+    {{ $all_events = append  (slice $eventData) $all_events }}
 {{ end }}
 
 {{ $lst := (dict 

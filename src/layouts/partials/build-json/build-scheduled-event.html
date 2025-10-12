@@ -10,7 +10,10 @@
 
 {{- $event := dict
 "@type" "EducationEvent"
-"name" (or .Params.page_title .Title)
+"name" (or .Params.page_title .Title)   
+"performer" (dict 
+    "@type" "Organization"
+    "name" "Blue Ridge Boost")
 "image" (slice .Params.image_url)
 "description" $description
 "url" $url

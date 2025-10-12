@@ -69,8 +69,7 @@ function ordinalToNumber(s) {
   return digits ? Number(digits[0]) : null;
 }
 
-async function main1() {
-    await cleanUp();
+async function generateClassFiles() {
     const classesCategoryId = 175340602;
     const products = await getCatalog([classesCategoryId]);
 
@@ -197,6 +196,8 @@ async function main1() {
             const grade_tags = getAttributeValue(item, 'grades');
             stream.write(`grade_tags: ${grade_tags}\n`);
 
+            stream.write(`description: `);
+    
             stream.write(`featured: ${item.showOnFrontpage || 0}\n`);
             if ((item?.options?.length ?? 0) > 0) {
                 console.log(`Item ${item.name} has options`);
@@ -240,7 +241,8 @@ async function main1() {
 
 async function main() {
     try {
-        await main1();
+        await cleanUp();
+        await generateClassFiles();
     } catch (error) {
         console.error('Error in main:', error);
     }

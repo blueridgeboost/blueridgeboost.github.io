@@ -1,8 +1,12 @@
 {{- $byDay := partial "build-json/daytags-to-byDay.html" . -}}
-{{- $startDate := now.Format "2006-01-02" -}}
-{{- with .Params.start_date }}{{- $startDate = dateFormat "2006-01-02" . -}}{{- end -}}
-{{- $endDate := (now.AddDate 0 6 0) | time.Format "2006-01-02" -}}
-{{- with .Params.end_date }}{{- $endDate = dateFormat "2006-01-02" . -}}{{- end -}}
+{{- $startDate := (now | time.Format "2006-01-02") -}}
+{{- with .Params.start_date }}
+    {{- $startDate = . -}}
+{{- end -}}
+{{- $endDate := "2026-05-31" -}}
+{{- with .Params.end_date }}
+    {{- $endDate = . -}}
+{{- end -}}
 {{- $schedule := dict
     "@type" "Schedule"
     "startDate" $startDate
