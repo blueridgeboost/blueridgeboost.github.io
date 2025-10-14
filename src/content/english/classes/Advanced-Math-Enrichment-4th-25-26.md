@@ -19,6 +19,7 @@ ribbon: "Join Now"
 title: "Advanced Math Enrichment 4th Grade | Blue Ridge Boost"
 day_tags: ["Tue","Thu"]
 grade_tags: ["4th"]
+description: "Join Advanced Math Enrichment for 4th Grade at Blue Ridge Boost in Charlottesville, VA. Inspire curiosity and critical thinking with engaging lessons that explore the beauty of mathematics. Contact us at (434) 260-0636 or nora@blueridgeboost.com for more information. Located at 2171 Ivy Rd." 
 featured: 164
 offers: [["Two-Three","132.99"],["Four+","125.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5074147396.png"

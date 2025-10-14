@@ -16,6 +16,7 @@ ribbon: "On Demand"
 title: "Math Builders: 6th Grade Group Tutoring | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["6th"]
+description: "Supportive 6th grade math group tutoring at Blue Ridge Boost. Focused math support to build skills, confidence, and problem-solving. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 156
 offers: [["Two-Three","142.49"],["Four","134.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5074166443.png"

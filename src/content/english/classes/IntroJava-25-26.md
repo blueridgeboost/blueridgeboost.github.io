@@ -19,6 +19,7 @@ ribbon: "Starts Nov 11"
 title: "Programming in Java | Blue Ridge Boost"
 day_tags: ["Thu"]
 grade_tags: ["9th","10th","11th","12th"]
+description: "From beginner to programmer—learn Java at Blue Ridge Boost with step-by-step instruction and hands-on practice. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 187
 offers: [["Two-Three","161.99"],["Four+","152.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5148584465.png"

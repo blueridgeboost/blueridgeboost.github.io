@@ -13,6 +13,7 @@ ribbon: "On Demand"
 title: "Web Development 1 | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["7th", "8th", "9th","10th","11th","12th"]
+description: " Prepare for the Web Development 1 certification exam at Blue Ridge Boost. High school web development skills and certification prep in Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 114
 offers: [["Two-Three","212.49"],["Four+","199.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/4941439697.png"

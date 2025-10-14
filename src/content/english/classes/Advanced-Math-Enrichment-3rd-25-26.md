@@ -19,6 +19,7 @@ ribbon: "Join Now"
 title: "Advanced Math Enrichment 3rd Grade | Blue Ridge Boost"
 day_tags: ["Tue","Thu"]
 grade_tags: ["3rd"]
+description: "Explore Advanced Math Enrichment for 3rd Grade at Blue Ridge Boost in Charlottesville, VA. Engage young learners with interactive lessons that explore the beauty of mathematics and foster critical thinking. Contact us at (434) 260-0636 or nora@blueridgeboost.com for details. Located at 2171 Ivy Rd." 
 featured: 163
 offers: [["Two-Three","132.99"],["Four+","125.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5074123120.png"

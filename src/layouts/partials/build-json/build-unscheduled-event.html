@@ -1,6 +1,6 @@
 {{- $url := .Permalink -}}
-{{ $organizerName := or .Params.organizer_name .Site.Title "Blue Ridge Boost" }}
-{{ $organizerURL := or .Params.organizer_url .Site.BaseURL $url }}    
+{{ $organizerName := "Blue Ridge Boost" }}
+{{ $organizerURL := "https://blueridgeboost.com/" }}
 {{- $description := trim (plainify (default "" (or .Params.description .Summary))) " \n\r\t" -}}
 {{ $areaServed := partial "build-json/build-area-served.html" . }}
 {{- $aggregate := partial "build-json/build-offer-aggregate.html" . -}}

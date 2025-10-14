@@ -19,6 +19,7 @@ ribbon: "Starts Oct 19"
 title: "Block Coding with Beavers | Blue Ridge Boost"
 day_tags: ["Sat"]
 grade_tags: ["1st", "2nd"]
+description: "Gamified block-coding course at Blue Ridge Boost. Fun, beginner-friendly programming with engaging challenges to build problem-solving skills. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 0
 offers: [["Two-Three","189.99"],["Four+","179.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5148328191.png"

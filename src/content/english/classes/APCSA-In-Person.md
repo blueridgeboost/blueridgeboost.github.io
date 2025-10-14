@@ -16,6 +16,7 @@ ribbon: "On Demand"
 title: "Group Tutoring: Java for AP Computer Science | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["8th","9th","10th", "11th", "12th"]
+description: "Get ready for AP Computer Science A with small-group Java tutoring at Blue Ridge Boost. Master OOP, algorithms, and exam skills with expert instructors. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 0
 offers: [["Two-Three","224.99"],["Four","212.49"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5236244860.png"

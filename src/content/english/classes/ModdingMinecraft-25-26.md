@@ -19,6 +19,7 @@ ribbon: "Starts Jan 10"
 title: "Mod Craft: Code Your Own Minecraft Mods | Blue Ridge Boost"
 day_tags: ["Sat"]
 grade_tags: ["7th","8th","9th"]
+description: "Craft your very own Minecraft mods at Blue Ridge Boost. Learn to code custom mods in a fun, guided environment. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 181
 offers: [["Two-Three","161.99"],["Four+","152.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5076274171.png"

@@ -15,6 +15,7 @@ ribbon: "Join Now"
 title: "Create Your Own Roblox Games: Roblox and Lua Coding | Blue Ridge Boost"
 day_tags: ["Wed"]
 grade_tags: ["6th","7th"]
+description: "Learn Roblox game development with Lua at Blue Ridge Boost. Build, script, and publish your own games with guided instruction and hands-on projects. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 155
 offers: [["Two-Three","142.49"],["Four+","134.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5074297550.png"

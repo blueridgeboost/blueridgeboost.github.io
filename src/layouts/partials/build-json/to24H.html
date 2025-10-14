@@ -5,9 +5,10 @@
 {{- $h := index $parts 0 | int -}}
 {{- $m := index $parts 1 -}}
 {{- $h24 := $h -}}
+{{ warnf "hm %s ampm %s" $hm $ampm}}
 {{- if eq $ampm "pm" -}}
     {{- if lt $h 12 -}}{{- $h24 = add $h 12 -}}{{- end -}}
 {{- else -}}
     {{- if eq $h 12 -}}{{- $h24 = 0 -}}{{- end -}}
 {{- end -}}
-{{- printf "%02d:%s" $h24 $m -}}
+{{- printf "%02d:%s:00" $h24 $m -}}

@@ -15,6 +15,7 @@ ribbon: "On Demand"
 title: "Introduction to Computer Science | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["7th","8th","9th","10th","11th","12th"]
+description: "Get started with computer science through Blue Ridge Boost and CodeHS. Beginner-friendly Saturday course with supportive instruction and hands-on coding. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 180
 offers: [["Two-Three","203.99"],["Four","219.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5076259330.jpg"

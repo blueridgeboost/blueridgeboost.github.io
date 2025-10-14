@@ -2,25 +2,30 @@
 {{ $pages :=  (where .Site.Pages "Section" "classes") }}
 {{ $pages = sort $pages ".Params.weight" "asc" }}
 {{ range $pages }}
-    {{ $isOnDemand := false }}
-    {{ with .Params.schedule_tags }}
-        {{ if in . "On-Demand" }}
-            {{ $isOnDemand = true }}
-        {{ end }}
-    {{ end }}
-
-    {{  $eventData := dict }}
-    {{ if not $isOnDemand }}
-        {{ $eventData = merge $eventData (partial "build-json/build-scheduled-event.html" .) }}
+    {{ if eq .Params.layout "list" }}
     {{ else }}
-        {{ $eventData = merge $eventData (partial "build-json/build-unscheduled-event.html" .) }}
+        {{ partial "class-card" . }}
+        {{ warnf "%s" .Params.product_id }}
+        {{ $isOnDemand := false }}
+        {{ with .Params.schedule_tags }}
+            {{ if in . "On-Demand" }}
+                {{ $isOnDemand = true }}
+            {{ end }}
+        {{ end }}
+
+        {{  $eventData := dict }}
+        {{ if not $isOnDemand }}
+            {{ $eventData = merge $eventData (partial "build-json/build-scheduled-event.html" .) }}
+        {{ else }}
+            {{ $eventData = merge $eventData (partial "build-json/build-unscheduled-event.html" .) }}
+        {{ end }}
+        {{ $all_events = append  (slice $eventData) $all_events }}
     {{ end }}
-    {{ $all_events = append  (slice $eventData) $all_events }}
 {{ end }}
 
 {{ $lst := (dict 
         "@context" "https://schema.org"
-        "graph" $all_events
+        "@graph" $all_events
 ) }}
 <script type="application/ld+json">
     {{ $lst }}

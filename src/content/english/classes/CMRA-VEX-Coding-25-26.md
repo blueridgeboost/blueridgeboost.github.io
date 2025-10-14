@@ -16,6 +16,7 @@ ribbon: "On Demand"
 title: "VEX IQ Coding: Certification Course | Blue Ridge Boost"
 day_tags: []
 grade_tags: [ "6th","7th","8th"]
+description: "Earn a Carnegie Mellon Robotics Academy certification in VEX IQ coding at Blue Ridge Boost. Hands-on robotics learning in Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 167
 offers: [["Two-Three","143.99"],["Four+","135.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5155003958.png"

@@ -19,6 +19,7 @@ ribbon: "Starts Nov 9"
 title: "Code Quest Grades 3 and 4 | Blue Ridge Boost"
 day_tags: ["Sun"]
 grade_tags: ["3rd", "4th"]
+description: "Adventures in text programming for grades 3–4. Students learn real coding fundamentals through fun challenges at Blue Ridge Boost. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 0
 offers: [["Two-Three","142.49"],["Four+","134.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5148341096.png"

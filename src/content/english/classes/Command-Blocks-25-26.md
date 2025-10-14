@@ -19,6 +19,7 @@ ribbon: "Starts Nov 10"
 title: "Command Craft: Minecraft Command Blocks | Blue Ridge Boost"
 day_tags: ["Mon"]
 grade_tags: ["4th","5th"]
+description: "Learn logic and coding concepts with Minecraft Command Blocks in a fun, guided course at Blue Ridge Boost. Build problem-solving skills through in-game automation. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 147
 offers: [["Two-Three","206.99"],["Four+","195.49"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5046920945.png"

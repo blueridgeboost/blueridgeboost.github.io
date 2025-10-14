@@ -6,15 +6,13 @@ GITHUB_PAGES_BRANCH=gh-pages
 
 DESTINATION = ../docs
 
-develop: 
-	sleep 1 && echo "Opening local browser..." &&  open http://localhost:1313 &
-	hugo server  --disableFastRender --buildDrafts --watch --destination $(DESTINATION)
 
 update:
-	cd ../../brb-utils; git pull; cd src; node config-generation.js
+	node ./staticjs/config-generation.js
 
 clean:
 	rm -rf $(DESTINATION)
+
 
 html: 
 	hugo  --destination $(DESTINATION) 
@@ -24,10 +22,14 @@ copy:
 #	cp -r data/.well-known $(DESTINATION)
 
 
-github: clean html copy 
+github: clean update refresh html copy 
 	git add -A :/; git commit -m "Rebuilt site" ; git push
 
-githubdev: clean html copy 
+githubdev: clean update refresh html copy 
 	git add -A :/; git commit -m "Rebuilt site" ; git push
 
-.PHONY: html clean develop
+develop: update
+	sleep 1 && echo "Opening local browser..." &&  open http://localhost:1313 &
+	hugo server  --disableFastRender --buildDrafts --watch --destination $(DESTINATION)
+
+.PHONY: develop

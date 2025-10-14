@@ -16,6 +16,7 @@ ribbon: "On Demand"
 title: "AI, Ethics, and Python | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["7th","8th","9th","10th"]
+description: "Explore Artificial Intelligence, Ethics, and Python programming with Blue Ridge Boost in Charlottesville, VA. Learn the principles of AI, ethical considerations, and coding in Python through engaging, hands-on lessons. Contact us at (434) 260-0636 or nora@blueridgeboost.com for more information. Located at 2171 Ivy Rd." 
 featured: 168
 offers: [["Two","161.99"],["Four or more","152.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5074103277.png"

@@ -16,6 +16,7 @@ ribbon: "On Demand"
 title: "Algebra 2: Mastery Through Teaching and Practice | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["8th","9th","10th"]
+description: "Get ahead in Algebra 2 with Blue Ridge Boost’s Mastery Through Teaching and Practice program. Expert-led instruction and focused practice to build deep understanding and confidence. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 210
 offers: [["Two-Three","254.99"],["Four","239.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5080107241.png"

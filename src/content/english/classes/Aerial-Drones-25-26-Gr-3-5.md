@@ -19,6 +19,7 @@ ribbon: "Starts Nov 9"
 title: "Aerial Drone Competition for Grades 3-5 | Blue Ridge Boost"
 day_tags: ["Sat"]
 grade_tags: ["3rd","4th","5th"]
+description: "Join the Aerial Drone Competition for Grades 3-5 at Blue Ridge Boost in Charlottesville, VA. Take on the Sky High Challenge by learning piloting and coding skills in an exciting, hands-on environment. Contact us at (434) 260-0636 or nora@blueridgeboost.com for details. Located at 2171 Ivy Rd." 
 featured: 202
 offers: [["Two-Three","179.99"],["Four+","169.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5148209264.png"

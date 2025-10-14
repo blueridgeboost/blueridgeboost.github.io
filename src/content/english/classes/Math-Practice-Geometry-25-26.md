@@ -19,6 +19,7 @@ ribbon: "Join Now"
 title: "Geometry Homework Help | Blue Ridge Boost"
 day_tags: ["Mon","Wed"]
 grade_tags: ["8th","9th"]
+description: "Personalized geometry homework help from expert instructors at Blue Ridge Boost. Build understanding, confidence, and grades with targeted math support. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 157
 offers: [["Two-Three","161.99"],["Four+","152.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5073279326.png"

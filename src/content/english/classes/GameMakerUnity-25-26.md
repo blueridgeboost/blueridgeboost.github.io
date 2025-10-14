@@ -16,6 +16,7 @@ ribbon: "On Demand"
 title: "Game Makers: Intro to Unity | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["7th","8th","9th","10th"]
+description: "Learn to make video games with Unity at Blue Ridge Boost. Beginner-friendly course with hands-on projects to build game design and programming skills. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 178
 offers: [["Two-Three","212.49"],["Four","199.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5074914222.png"

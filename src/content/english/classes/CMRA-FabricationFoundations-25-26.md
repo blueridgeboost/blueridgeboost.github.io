@@ -19,6 +19,7 @@ ribbon: "Starts Nov 14"
 title: "Carnegie Mellon Robotics Academy: Fabrication Foundations | Blue Ridge Boost"
 day_tags: ["Fri"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
+description: "From drawings to reality—learn fabrication fundamentals with measuring, 3D printing, and hands-on builds in Blue Ridge Boost’s CMRA Fabrication Foundations course. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 195
 offers: [["Two-Three","449.99"],["Four+","374.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5153216566.png"

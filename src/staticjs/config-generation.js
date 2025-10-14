@@ -4,7 +4,16 @@ import { getCatalog } from './ecwid-commons.js';
 import { readdir, stat, unlink } from 'fs/promises';
 import path from 'path';
 
-dotenv.config('../../.env');
+// Construct the path to the .env file
+const envPath = path.join(process.cwd(), '..', '..', '.env');
+
+// Load the .env file
+dotenv.config({ path: envPath });
+
+console.log( process.env )
+
+console.log(`Bearer ${process.env.ECWID_REST_SECRET}`)
+console.log(process.cwd());
 
 const keepers = [
     '_index.md', 'math.md', 'coding.md', 'robotics.md', 
@@ -13,21 +22,21 @@ const keepers = [
 
 async function cleanUp() {
     await deleteClassesMdFiles();
-    await deletePartials();
+    // await deletePartials();
 }
 
 async function deletePartials() {
     const folderPath = path.join(
-        '..', 'layouts', 'partials/event-list'
+        'layouts', 'partials/event-list'
     );
     await deleteFiles(path.join(folderPath, 'classes'));
 }
 
 async function deleteClassesMdFiles() {
     const folderPath = path.join(
-        '..', 'content', 'english'
+        process.cwd(), 'content', 'english'
     );
-    await deleteFile(path.join(folderPath, '1-day-camps.html'));
+    await deleteFiles(path.join(folderPath, 'classes'));
     // await deleteFile(path.join(folderPath, 'adults.html'));
     // TODO add more
 }
@@ -74,7 +83,7 @@ async function generateClassFiles() {
     const products = await getCatalog([classesCategoryId]);
 
     const folderPath = path.join(
-        '..', '..', 'blueridgeboost.github.io', 'src', 
+         
         'content', 'english', 'classes'
     );
     
@@ -196,7 +205,7 @@ async function generateClassFiles() {
             const grade_tags = getAttributeValue(item, 'grades');
             stream.write(`grade_tags: ${grade_tags}\n`);
 
-            stream.write(`description: `);
+            stream.write(`description: "${item.seoDescription}" \n`);
     
             stream.write(`featured: ${item.showOnFrontpage || 0}\n`);
             if ((item?.options?.length ?? 0) > 0) {

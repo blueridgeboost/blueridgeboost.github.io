@@ -16,6 +16,7 @@ ribbon: "Join Now"
 title: "Carnegie Mellon Robotics Academy: Autonomy Foundations | Blue Ridge Boost"
 day_tags: ["Tue","Thu"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
+description: "From beginner to roboticist—build autonomy skills with Blue Ridge Boost’s CMRA Autonomy Foundations course. Expert-led robotics training with hands-on practice. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 191
 offers: [["Two","359.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5076045962.png"

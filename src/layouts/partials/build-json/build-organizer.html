@@ -1,22 +1,8 @@
-{{ $organizerName := or .Params.organizer_name .Site.Title "Blue Ridge Boost" }}
-{{ $organizerName = (trim " " $organizerName ) }}
-{{ $organizerURL := or .Params.organizer_url "https://blueridgeboost.com"  }}
-{{ $locationName := or .Params.location_name "Blue Ridge Boost" }}
-{{ $areaServed := partial "build-json/build-area-served.html" . }}
-
-{{ $address := dict
-    "@type" "PostalAddress"
-    "streetAddress" (or .Params.address_street "2171 Ivy Rd")
-    "addressLocality" (or .Params.address_city "Charlottesville")
-    "addressRegion" (or .Params.address_region "VA")
-    "postalCode" (or .Params.address_postal "22903")
-    "addressCountry" (or .Params.address_country "US")
-}}
 
 {{ return (dict
     "@type" "Organization"
-    "name" $organizerName
-    "url" $organizerURL
+    "name"  "Blue Ridge Boost"
+    "url" "https://blueridgeboost.com"
     "contactPoint" (slice
         (dict
             "@type" "ContactPoint"

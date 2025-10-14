@@ -19,6 +19,7 @@ ribbon: "Join Now"
 title: "Advanced VEX IQ (Grades 4-5) | Blue Ridge Boost"
 day_tags: ["Thu"]
 grade_tags: ["4th","5th"]
+description: "Join the Advanced VEX IQ program for Grades 4-5 at Blue Ridge Boost in Charlottesville, VA. Engage in building robots, solving challenges, and developing STEM skills in a hands-on, fun environment. Contact us at (434) 260-0636 or nora@blueridgeboost.com for more details. Located at 2171 Ivy Rd." 
 featured: 189
 offers: [["Two-Three","292.50"],["Four+","243.75"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5148389326.png"

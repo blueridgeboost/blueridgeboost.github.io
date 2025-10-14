@@ -19,6 +19,7 @@ ribbon: "Starts Nov 2"
 title: "Roblox Studio: Make a game in 6 sessions | Blue Ridge Boost"
 day_tags: ["Sun"]
 grade_tags: ["3rd","4th","5th"]
+description: "Build a playable Roblox game in 6 sessions at Blue Ridge Boost. Learn foundations of game creation with guided instruction in Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 170
 offers: [["Two-Three","224.99"],["Four+","212.49"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5074905000.png"

@@ -16,6 +16,7 @@ ribbon: "On Demand"
 title: "Math Builders: 3rd Grade Group Tutoring | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["3rd"]
+description: "Math Builders for 3rd graders at Blue Ridge Boost. Group tutoring focused on math support to build skills and confidence. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 169
 offers: [["Two-Three","142.49"],["Four","134.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5073249666.png"

@@ -19,6 +19,7 @@ ribbon: "Join Now"
 title: "Python Basics with Tracy the Turtle | Blue Ridge Boost"
 day_tags: ["Wed"]
 grade_tags: ["5th","6th","7th","8th"]
+description: "Guide Tracy to draw, code, and create while learning Python basics at Blue Ridge Boost. Beginner-friendly, hands-on coding in Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 182
 offers: [["Two-Three","142.49"],["Four+","134.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5076355647.png"

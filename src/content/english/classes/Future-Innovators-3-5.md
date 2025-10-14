@@ -19,6 +19,7 @@ ribbon: "Starts Nov 9"
 title: "Future Innovators (Grades 3 to 5) | Blue Ridge Boost"
 day_tags: ["Sun"]
 grade_tags: ["3rd","4th","5th"]
+description: "Empower young minds with hands-on STEM projects, creativity, and problem-solving in Blue Ridge Boost’s Future Innovators program for grades 3–5. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 0
 offers: [["Two-Three","152.99"],["Four+","144.49"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5078256164.png"

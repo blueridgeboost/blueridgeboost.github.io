@@ -16,6 +16,7 @@ ribbon: "On Demand"
 title: "Game Makers: Unreal Engine for Beginners | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["7th","8th","9th","10th"]
+description: "Turn your imagination into reality with Unreal Engine. Beginner-friendly course at Blue Ridge Boost with hands-on projects to learn level design, blueprints, and game creation. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 184
 offers: [["Two-Three","212.49"],["Four+","199.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5074948957.jpg"

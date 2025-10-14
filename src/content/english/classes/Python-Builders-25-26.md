@@ -19,6 +19,7 @@ ribbon: "Starts Oct 15"
 title: "Python Code Builders | Blue Ridge Boost"
 day_tags: ["Wed"]
 grade_tags: ["4th","5th"]
+description: "Learn Python with Code Monkey challenges at Blue Ridge Boost. Engaging, hands-on coding practice with supportive instruction in Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 145
 offers: [["Two-Three","142.49"],["Four+","134.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5046489872.png"

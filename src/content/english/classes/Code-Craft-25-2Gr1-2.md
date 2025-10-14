@@ -19,6 +19,7 @@ ribbon: "Join Now"
 title: "Code Craft: Minecraft Coding | Blue Ridge Boost"
 day_tags: ["Tue"]
 grade_tags: ["1st","2nd"]
+description: "Learn to code in Minecraft for grades 1–2. Fun, gamified programming that builds problem-solving and creativity at Blue Ridge Boost. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 175
 offers: [["Two-Three","143.99"],["Four+","135.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5074183223.png"

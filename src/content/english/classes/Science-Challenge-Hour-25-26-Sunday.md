@@ -19,6 +19,7 @@ ribbon: "Starts Oct 19"
 title: "Science Challenge Hour | Blue Ridge Boost"
 day_tags: ["Sun"]
 grade_tags: ["4th","5th"]
+description: "Take on science challenges with Lain at Blue Ridge Boost. Hands-on experiments and problem-solving in Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 199
 offers: [["Two-Three","137.74"],["Four+","130.49"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5072811714.png"

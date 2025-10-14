@@ -1,0 +1,17 @@
+{{- 
+    $brbClass := (dict 
+        "@context" "https://schema.org"
+        "@type": "Course"
+        "name": .Params.page_title
+        "description": .Params.description
+        "provider"  {
+            "@type": "Organization"
+            "name": "Blue Ridge Boost"
+            "sameAs": "https://blueridgeboost.com"
+        }
+        "url" $url
+        "image" (slice .Params.image_url)
+    )
+-}}
+
+{{- return $brbClass -}}

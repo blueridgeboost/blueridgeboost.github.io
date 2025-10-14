@@ -19,6 +19,7 @@ ribbon: "Join Now"
 title: "Carnegie Mellon Robotics Academy: Mechanical Foundations | Blue Ridge Boost"
 day_tags: ["Mon"]
 grade_tags: ["7th","8th","9th","10th", "11th", "12th"]
+description: "Master mechanical design and robotics with hands-on REV DUO projects in Blue Ridge Boost’s CMRA Mechanical Foundations course. Expert guidance, practical builds, and real-world skills. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 193
 offers: [["Two-Three","269.99"],["Four","224.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5073249015.png"

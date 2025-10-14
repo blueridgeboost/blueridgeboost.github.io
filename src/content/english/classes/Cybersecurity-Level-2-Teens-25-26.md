@@ -16,6 +16,7 @@ ribbon: "On Demand"
 title: "Cybersecurity Level 2 | Blue Ridge Boost"
 day_tags: []
 grade_tags: ["7th","8th","9th","10th","11th","12th"]
+description: "Advanced cybersecurity course with certification exam prep. Deepen skills in security tools, defense strategies, and best practices at Blue Ridge Boost. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 215
 offers: [["Two-Three","212.49"],["Four+","199.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5101206258.png"

@@ -16,6 +16,7 @@ ribbon: "On Demand"
 title: "LEGO SPIKE Coding: Certification Course | Blue Ridge Boost"
 day_tags: []
 grade_tags: [ "6th","7th","8th"]
+description: "Earn a Carnegie Mellon Robotics Academy certification while learning LEGO SPIKE coding at Blue Ridge Boost. Hands-on robotics, problem-solving, and guided instruction in Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 171
 offers: [["Two-Three","143.99"],["Four+","135.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5074222569.png"

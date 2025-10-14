@@ -19,6 +19,7 @@ ribbon: "Starts Jan 11"
 title: "Introduction to AI for Middle Schoolers | Blue Ridge Boost"
 day_tags: ["Sat"]
 grade_tags: ["5th","6th"]
+description: "Beginner-friendly introduction to artificial intelligence at Blue Ridge Boost. Learn core AI concepts, hands-on examples, and real-world applications. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com ." 
 featured: 185
 offers: [["Two-Three","142.49"],["Four+","134.99"]]
 image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5148601367.png"
