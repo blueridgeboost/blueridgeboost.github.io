@@ -22,27 +22,21 @@ const keepers = [
 
 async function cleanUp() {
     await deleteClassesMdFiles();
-    // await deletePartials();
+    await deletePartials();
 }
 
 async function deletePartials() {
     const folderPath = path.join(
-        'layouts', 'partials/event-list'
+         process.cwd(), 'layouts', 'partials', "rich-search-results"
     );
     await deleteFiles(path.join(folderPath, 'classes'));
 }
 
 async function deleteClassesMdFiles() {
     const folderPath = path.join(
-        process.cwd(), 'content', 'english'
+        process.cwd(), 'content', 'english', 'classes'
     );
-    await deleteFiles(path.join(folderPath, 'classes'));
-    // await deleteFile(path.join(folderPath, 'adults.html'));
-    // TODO add more
-}
-
-async function deleteFile() {
-
+    await deleteFiles(folderPath);
 }
 
 async function deleteFiles(folderPath) {
@@ -246,6 +240,34 @@ async function generateClassFiles() {
             stream.close();
         }
     }
+}
+
+async function generateClassesRichResults() {
+    const classesCategoryId = 175340602;
+    const products = await getCatalog([classesCategoryId]);
+    const classes = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": []
+    }
+    for (let i=0; i < products.length; i++) {
+        const c = products[i];
+        if (!c.enabled) continue;
+        const classItem = {
+            "@type": "ListItem",
+            "position": i,
+            "item": {
+                "@type": "Course",
+                "url":"https://www.example.com/courses#intro-to-cs",
+                "name": "Introduction to Computer Science and Programming",
+                "description": "This is an introductory CS course laying out the basics.",
+                "provider": {
+                "@type": "Organization",
+              "name": "University of Technology - Example",
+              "sameAs": "https://www.example.com"
+        }
+    }
+    const 
 }
 
 async function main() {
