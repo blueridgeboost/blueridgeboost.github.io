@@ -8,24 +8,6 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details__product-tit
 }
 </style>
 
-{{ $isOnDemand := false }}
-{{ with .Params.schedule_tags }}
-    {{ if in . "On-Demand" }}
-        {{ $isOnDemand = true }}
-    {{ end }}
-{{ end }}
-{{  $eventData := dict }}
-{{ if not $isOnDemand }}
-    {{ $eventData := merge $eventData (partial "build-json/build-scheduled-event.html" .) }}
-    
-{{ else }}
-    {{ $eventData := merge $eventData (partial "build-json/build-unscheduled-event.html" .) }}
-{{ end }}
-{{ $eventData := merge $eventData (dict "@context" "https://schema.org") }}
-<script type="application/ld+json">
-    {{ $eventData }}
-</script>
-
 <section class="section">
     <div class="container">
         <div id="my-store-106136041"></div>
