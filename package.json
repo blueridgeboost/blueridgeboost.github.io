@@ -5,14 +5,14 @@
   "author": "Nora Evans",
   "type": "module",
   "scripts": {
-    "update": "node ./src/staticjs/config-generation.mjs",
+    "updateClasses": "node ./src/staticjs/config-generation.mjs",
+    "updateAiGen": "node ./src/staticjs/keywords-and-topics.mjs",
     "clean": "rimraf docs",
-    "html": "hugo --destination docs",
+    "html": "hugo --destination docs --source ./src/",
     "copy": "cpy CNAME docs --parents=false",
-    "github": "npm run clean && npm run update && npm run html && npm run copy && git add -A :/ && git commit -m \"Rebuilt site\" && git push",
+    "github": "npm run clean && npm run updateClasses && npm run html && npm run copy && git add -A :/ && git commit -m '$npm_config_message' && git push",
     "githubdev": "npm run github",
-    "develop": "npm run update && node -e \"setTimeout(()=>{},1000)\" && echo \"Opening local browser...\" && opn http://localhost:1313 && hugo server --disableFastRender --buildDrafts --watch --destination docs",
-    "dev": "hugo server",
+    "dev": "hugo server --disableFastRender --buildDrafts --watch --destination docs --source ./src/",
     "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
     "preview": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
     "dev:example": "cd exampleSite && hugo server --themesDir ../..",
@@ -35,6 +35,8 @@
   },
   "dependencies": {
     "dotenv": "^17.2.3",
-    "form-data": "^4.0.4"
+    "form-data": "^4.0.4",
+    "js-yaml": "^4.1.0",
+    "openai": "^6.4.0"
   }
 }

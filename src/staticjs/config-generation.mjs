@@ -1,82 +1,197 @@
 import dotenv from 'dotenv';
-import { createWriteStream } from 'fs';
-import { getCatalog } from './ecwid-commons.js';
-import { readdir, stat, unlink } from 'fs/promises';
+import { getAllClasses, STARTING_SOON_ID, ON_DEMAND_ID, IN_PROGRESS_ID, ROBOTICS_ID, SINGLE_ID,
+    CODING_ID, GAME_DEV_ID, MATH_ID, SCIENCE_ID, AI_ID, SESSIONS_ID, SUBSCRIPTIONS_ID, getAttributeValue } from './ecwid.js';
 import path from 'path';
-
+import { writeMdFile, cleanUpHugoFiles, writePartialFile, readJson } from './fs-helpers.js';
 
 // Construct the path to the .env file
 const envPath = path.join(process.cwd(), '..', '.env');
 // Load the .env file
 dotenv.config({ path: envPath });
-
-const CLASSES_ID = 175340602;
-const SUBSCRIPTIONS_ID = 187846124;
-const SESSIONS_ID = 187846125;
-const SINGLE_ID = 187847129;
-
-const ROBOTICS_ID = 175336104;
-const CODING_ID = 175336105;
-const GAME_DEV_ID = 187847606;
-const MATH_ID = 175336109;
-const SCIENCE_ID = 177442108;
-const AI_ID = 187847627;
-
-const IN_PROGRESS_ID = 187846081;
-const STARTING_SOON_ID = 187846083;
-const ON_DEMAND_ID = 187847569;
-
-const products = await getCatalog([CLASSES_ID]);
-
-const keepers = [
-    '_index.md', 'math.md', 'coding.md', 'robotics.md', 
-    'chess.md', 'science.md', 'ai.md', 'game-development.md'
-];
-
-async function cleanUp() {
-    await deleteFiles(path.join(
-         process.cwd(), 'src', 'layouts', 'partials', "rich-search-results"
-    ));
-    await deleteFiles(path.join(
-          process.cwd(), 'src', 'content', 'english', 'classes'
-    ));
-}
-
-async function deleteFiles(folderPath) {
-    try {
-        const files = await readdir(folderPath);
-        for (const file of files) {
-            if (!keepers.includes(file)) {
-                console.log(`Deleting file: ${file}`);
-                const filePath = path.join(folderPath, file);
-                const fileStats = await stat(filePath);
-                
-                if (fileStats.isFile()) {
-                    await unlink(filePath);
-                    console.log(`Deleted file: ${filePath}`);
-                }
-            } else {
-                console.log(`Keeping file: ${file}`);
-            }
-        }
-    } catch (err) {
-        console.error('Error during cleanup:', err);
-    }
-}
-
-function getAttributeValue(item, name) {
-    const attribute = item.attributes?.find(attr => attr.name === name);
-    return attribute ? attribute.value : undefined;
-}
+const products = await getAllClasses();
 
 function ordinalToNumber(s) {
   const digits = s.match(/\d+/);
   return digits ? Number(digits[0]) : null;
 }
 
+function scheduleTags(categoryIds) {
+    const schedule_tags = [];
+    if (categoryIds.includes(STARTING_SOON_ID)) {
+        // Handle starting soon case
+        schedule_tags.push("Starting Soon");
+    } else if (categoryIds.includes(ON_DEMAND_ID)) {
+        // Handle on demand case
+        schedule_tags.push("On-Demand");
+    } else if (categoryIds.includes(IN_PROGRESS_ID)) {
+        // Handle in progress case
+        schedule_tags.push("Join Now");
+    }
+    return schedule_tags;
+}
+
+function subjectTags(categoryIds) {
+    const subjects = [];
+    for (const catId of categoryIds) {
+        if (catId === ROBOTICS_ID) {
+            subjects.push("Robotics");
+        } else if (catId === CODING_ID) {
+            subjects.push("Computer Coding");
+        } else if (catId === GAME_DEV_ID) {
+            subjects.push("Game Development");
+        } else if (catId === MATH_ID) {
+            subjects.push("Math");
+        } else if (catId === SCIENCE_ID) {
+            subjects.push("Science");
+        } else if (catId === AI_ID) {
+            subjects.push("AI");
+        }
+    }
+    return subjects;
+}
+
+
+function courseInstances(item) {
+    const to24H = (time12) => {
+        // e.g., "4:05 PM", "12:00 am", "7 pm"
+        const [_, h, m = "00", ap] = time12.trim().match(/^(\d{1,2})(?::(\d{2}))?\s*([ap]m)$/i) || [];
+        if (!_) throw new Error(`Invalid time: ${time12}`);
+        let hour = parseInt(h, 10) % 12 + (ap.toLowerCase() === "pm" ? 12 : 0);
+        const min = parseInt(m, 10);
+        return `${String(hour).padStart(2, "0")}:${String(min).padStart(2, "0")}`;
+    }
+    const genericInstance = {
+        "@type": "CourseInstance",
+        "name": `${item.name} (2025-2026)`,
+        "courseMode": "InPerson",
+        "location": {
+            "@type": "Place",
+            "name": "Blue Ridge Boost",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "2171 Ivy Rd",
+                "addressLocality": "Charlottesville",
+                "addressRegion": "VA",
+                "postalCode": "22903",
+                "addressCountry": "US"
+            }
+        },
+    };
+
+    const startTime = getAttributeValue('start_time');
+    if (startTime) {
+        genericInstance.startTime = to24H(startTime);
+    }
+    const endTime = getAttributeValue('end_time');
+    if (endTime) {
+        genericInstance.endTime = to24H(endTime);
+    }
+
+    if (item.categoryIds.includes(SESSIONS_ID)) {
+        const sessions = [];
+        const dates = JSON.parse(getAttributeValue('session'));
+        for (const option in item.options) {
+            if (typeof option?.name === 'string' && option.name.toLowerCase().startsWith('session')) {
+                for (let i = 0; i<option.choices.length; i++) {
+                    const courseInstance = { ... genericInstance };
+                    const choice = option.choices[i];
+                    courseInstance.name = choice.text;
+                    if ( i < dates.length ) {
+                        const startDate = dates[i][0];
+                        const endDate = dates[i][3];
+                        const subevents = [];
+                        for (let j=0; j<dates[i].length; j++) {
+                            subevents.push({ 
+                                "@type": "Event", 
+                                "name": `Class ${j+1}`, 
+                                "startDate": `${dates[i][j]}T${genericInstance.startTime}-04:00`, 
+                                "endDate": `${dates[i][j]}T${genericInstance.endTime}-04:00`
+                            });
+                        }
+                        courseInstance.subEvent = subevents;
+                    } 
+                    sessions.push( courseInstance );
+                }
+            } 
+        }
+        return sessions;
+    } else if (item.categoryIds.includes(SUBSCRIPTIONS_ID)) {
+        const startDate = getAttributeValue('start_date');
+        if (startDate) {
+            genericInstance.startDate = startDate;
+        }
+        const endDate = getAttributeValue('end_date');
+        if (endDate) {
+            genericInstance.endDate = endDate;
+        }
+        genericInstance.eventSchedule = {
+            "@type": "Schedule",
+            "byDay": byDay(item),
+            "repeatFrequency": "P1W"
+        };
+        return [genericInstance];
+    } else {
+        const startDate = getAttributeValue('start_date');
+        if (startDate) {
+            genericInstance.startDate = startDate;
+        }
+        const endDate = getAttributeValue('end_date');
+        if (endDate) {
+            genericInstance.endDate = endDate;
+        }
+        return [genericInstance];
+    }
+}
+
+function pricePerUnit(item) {
+    if (item.categoryIds.includes(SESSIONS_ID)) {
+        return `for ${duration} sessions`;
+    } else if (item.categoryIds.includes(SUBSCRIPTIONS_ID)) {
+        return "price_unit: per month";
+    } else {
+        return "per session";
+    }
+}
+
+function category(item) {
+    if (item.categoryIds.includes(SESSIONS_ID)) {
+        return "Session";
+    } else if (item.categoryIds.includes(SUBSCRIPTIONS_ID)) {
+        return "Ongoing";
+    } else {
+        return "One Time";
+    }
+}
+
+function duration(item) {
+    const duration = getAttributeValue(item, 'Duration (in weeks)');
+    if (item.categoryIds.includes(SESSIONS_ID)) {
+       return `${duration} wk`;
+    } else if (item.categoryIds.includes(SUBSCRIPTIONS_ID)) {
+        if (duration === undefined) {
+            return "Flexible";
+        } else if (duration <= 12) {
+            return "2-3 mo";
+        } else if (duration <= 24) {
+            return "4-6 mo";
+        } else {
+            return "6+ mo";
+        }
+    } else if (item.categoryIds.includes(SINGLE_ID)) {
+        return "1 wk";
+    }
+}
+
+function dayTags(item) {
+    const day_tags = JSON.parse(getAttributeValue(item, 'day_of_week') || "[]").map(d => String(d).slice(0, 3));
+    return JSON.stringify(day_tags);
+}
+
+function gradeTags(item) {
+    return getAttributeValue(item, 'grades');
+}
+
 async function generateClassFiles() {
-    const folderPath = path.join('src', 'content', 'english', 'classes');
-    // sort by grade
     products.sort((a, b) => {
         const aGrade = ordinalToNumber(JSON.parse(getAttributeValue(a, 'grades'))[0]);
         const bGrade = ordinalToNumber(JSON.parse(getAttributeValue(b, 'grades'))[0]);
@@ -89,159 +204,64 @@ async function generateClassFiles() {
         if (!item.enabled) continue;
         console.log(`Processing ${item.name}`);
         const brbId = getAttributeValue(item, 'brb_id');
-        const stream = createWriteStream(`${folderPath}/${brbId}.md`, { flags: 'w' });
-        stream.write("---\n");
-        stream.write(`ecwid: ${item.id}\n`);
-        stream.write(`product_id: ${brbId}\n`);     
-        stream.write(`layout: single\n`);
-        // schedule: Starting Soon, On Demand, Join Now
-        const schedule_tags = [];
-        if (item.categoryIds.includes(STARTING_SOON_ID)) {
-            // Handle starting soon case
-            schedule_tags.push("Starting Soon");
-        } else if (item.categoryIds.includes(ON_DEMAND_ID)) {
-            // Handle on demand case
-            schedule_tags.push("On-Demand");
-        } else if (item.categoryIds.includes(IN_PROGRESS_ID)) {
-            // Handle in progress case
-            schedule_tags.push("Join Now");
-        }
-        stream.write(`schedule_tags: ${JSON.stringify(schedule_tags)}\n`);
-
-        // subjects: Robotics, Computer Coding, Game Development, Math, Science, AI
-        const subjects = [];
-        for (const catId of item.categoryIds) {
-            if (catId === ROBOTICS_ID) {
-                subjects.push("Robotics");
-            } else if (catId === CODING_ID) {
-                subjects.push("Computer Coding");
-            } else if (catId === GAME_DEV_ID) {
-                subjects.push("Game Development");
-            } else if (catId === MATH_ID) {
-                subjects.push("Math");
-            } else if (catId === SCIENCE_ID) {
-                subjects.push("Science");
-            } else if (catId === AI_ID) {
-                subjects.push("AI");
-            }
-        }
-        stream.write(`subject_tags: ${JSON.stringify(subjects)}\n`);
-
-        // price, category, duration
-        let price = item.price;
-        stream.write(`price: ${price}\n`);
-        const duration = getAttributeValue(item, 'Duration (in weeks)');
-        if (item.categoryIds.includes(SESSIONS_ID)) {
-            stream.write(`category: Session\n`);
-            stream.write(`price_unit: for ${duration} sessions\n`);
-            stream.write(`duration: ${duration} wk\n`);
-        } else if (item.categoryIds.includes(SUBSCRIPTIONS_ID)) {
-            stream.write(`price_unit: per month\n`);
-            if (duration === undefined) {
-                stream.write(`duration: Flexible\n`);
-            } else if (duration <= 12) {
-                stream.write(`duration: 2-3 mo\n`);
-            } else if (duration <= 24) {
-                stream.write(`duration: 4-6 mo\n`);
-            } else {
-                stream.write(`duration: 6+ mo\n`);
-            }
-            stream.write(`category: Ongoing\n`);
-        } else if (item.categoryIds.includes(SINGLE_ID)) {
-            stream.write(`price_unit: per session\n`);
-            stream.write(`category: One Time\n`);
-            stream.write(`duration: 1 wk\n`);
-        }
-        // save weight, start_date, end_date, start_time, end_time
-        stream.write(`weight: ${i}\n`);
-        const start_date = getAttributeValue(item, 'start_date');
-        start_date && stream.write(`start_date: ${start_date}\n`);
-        const end_date = getAttributeValue(item, 'end_date');
-        end_date && stream.write(`end_date: ${end_date}\n`);
-        const start_time = getAttributeValue(item, 'start_time');
-        start_time && stream.write(`start_time: "${start_time}"\n`);
-        const end_time = getAttributeValue(item, 'end_time');
-        end_time && stream.write(`end_time: "${end_time}"\n`);
-        // title, subtitle, ribbon, day_tags, grade_tags, description
-        item.name && stream.write(`page_title: "${item.name}"\n`);
-        item.subtitle && stream.write(`page_subtitle: "${item.subtitle}"\n`);
-        item.ribbon && stream.write(`ribbon: "${item.ribbon.text}"\n`);
-        item.name && stream.write(`title: "${item.name} | Blue Ridge Boost"\n`);
-        const day_tags = JSON.parse(getAttributeValue(item, 'day_of_week') || "[]").map(d => String(d).slice(0, 3));
-        stream.write(`day_tags: ${JSON.stringify(day_tags)}\n`);
-        const grade_tags = getAttributeValue(item, 'grades');
-        stream.write(`grade_tags: ${grade_tags}\n`);
-        stream.write(`description: "${item.seoDescription}" \n`);
-        stream.write("---\n");
-        stream.close();
+        const classDict = {
+            "ecwid": item.id,
+            "product_id": brbId,
+            "layout": "single",
+            "schedule_tags": scheduleTags(item.categoryIds),
+            "subject_tags": subjectTags( item.categoryIds),
+            "price": item.price,
+            "price_unit": pricePerUnit(item),
+            "category": category(item),
+            "duration": duration(item),
+            "weight": i+1,
+            "page_title": item.name,
+            "page_subtitle": item.subtitle,
+            "ribbon": item.ribbon.text,
+            "title":  `${item.name} | Blue Ridge Boost`,
+            "description": item.seoDescription,
+            "day_tags": dayTags(item),
+            "grade_tags" : gradeTags(item),
+        };
+        console.log(classDict);
+        await writeMdFile(`${brbId}.md`, classDict);
     }
 }
 
-export async function writePartialFile(fileName, content) {
-  // Resolve folder path relative to project root (cwd)
-  const folderPath = path.join(
-    process.cwd(),
-    "src",
-    "layouts",
-    "partials",
-    "rich-search-results"
-  );
-  const filePath = path.join(folderPath, fileName);
-
-  // Create write stream for the target file
-  const stream = createWriteStream(filePath, { flags: "w" });
-
-  // Start the script tag for JSON-LD (Schema.org)
-  stream.write('<script type="application/ld+json">\n');
-
-  // If content is already an object, stringify it prettily.
-  // If it's a JSON string, parse first so we don't end up double-quoted.
-  const json =
-    typeof content === "string"
-      ? JSON.stringify(JSON.parse(content), null, 2)
-      : JSON.stringify(content, null, 2);
-
-  stream.write(json);
-  stream.write("\n</script>\n");
-
-  // Return a promise that resolves when the stream is closed
-  await new Promise((resolve, reject) => {
-    stream.on("finish", resolve);
-    stream.on("error", reject);
-    stream.end(); // end flushes and closes the stream
-  });
-
-  return filePath;
-}
 
 async function generateClassesRichResults() {
-    const folderPath = path.join(
-        process.cwd(), 'layouts', 'partials', "rich-search-results"
-    );
     const classes = {
         "@context": "https://schema.org",
         "@type": "ItemList",
         "itemListElement": []
     };
+    
     for (let i=0; i < products.length; i++) {
         const c = products[i];
         if (!c.enabled) continue;
+        const brbId =  getAttributeValue(c, 'brb_id');
         classes.itemListElement.push({
             "@type": "ListItem",
             "position": i,
             "item": {
                 "@type": "Course",
-                "@id": getAttributeValue(c, 'brb_id'),
-                "url": `https://blueridgeboost.com/classes/${getAttributeValue(c, 'brb_id')}`,
+                "@id": `https://blueridgeboost.com/classes/${brbId}`,
+                "url": `https://blueridgeboost.com/classes/${brbId}`,
                 "name": c.name,
                 "image": c.originalImage?.url,
+                "description": c.seoDescription,
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Blue Ridge Boost",
+                    "sameAs": "https://blueridgeboost.com"
+                },
             }
         });
         const detailedItem = {
             "@type": "Course",
             "@context": "https://schema.org",
-            "@id": getAttributeValue(c, 'brb_id'),
-            "url": `https://blueridgeboost.com/classes/${getAttributeValue(c, 'brb_id')}`,
+            "@id": `https://blueridgeboost.com/classes/${brbId}`,
+            "url": `https://blueridgeboost.com/classes/${brbId}`,
             "name": c.name,
             "image": c.originalImage?.url,
             "description": c.seoDescription,
@@ -257,9 +277,11 @@ async function generateClassesRichResults() {
             // "about": topics.map(t => ({"@type": "Thing", "name": t})),
             "thumbnailUrl": c.originalImage?.url,
             "isAccessibleForFree": false,
-            "offers": getOffers(c)
+            "offers": getOffers(c),
+            "keywords": await readJson(`${brbId}.keywords`),
+            "topics": await readJson(`${brbId}.topics`),
         };
-        await writePartialFile(`${getAttributeValue(c, 'brb_id')}.html`, JSON.stringify(classes, null, 2));
+        await writePartialFile(`${brbId}.html`, JSON.stringify(detailedItem, null, 2));
         
     }
 
@@ -323,9 +345,9 @@ function getOffers(item) {
 
 async function main() {
     try {
-        await cleanUp();
+        // await cleanUpHugoFiles();
         // await generateClassFiles();
-        generateClassesRichResults();
+        await generateClassesRichResults();
     } catch (error) {
         console.error('Error in main:', error);
     }
