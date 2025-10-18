@@ -1,26 +1,25 @@
 ---
 ecwid: 767683652
 product_id: Math-Builders-4th-25-26
-robots: noindex, follow
 layout: single
-schedule_tags: ["Join Now"]
-subject_tags: ["Math"]
+schedule_tags:
+  - Join Now
+subject_tags:
+  - Math
 price: 149.99
-price_unit: per month
-duration: Flexible
+price_unit: 'price_unit: per month'
 category: Ongoing
-weight: 20
-start_date: 2025-09-06
-end_date: 2026-05-24
-start_time: "5:00 PM"
-end_time: "6:00 PM"
-page_title: "Math Builders: 4th Grade Group Tutoring"
-page_subtitle: "Math Support"
-ribbon: "Join Now"
-title: "Math Builders: 4th Grade Group Tutoring | Blue Ridge Boost"
-day_tags: ["Mon","Wed"]
-grade_tags: ["4th"]
-featured: 165
-offers: [["Two-Three","142.49"],["Four+","134.99"]]
-image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5073264505.png"
+duration: Flexible
+weight: 21
+page_title: 'Math Builders: 4th Grade Group Tutoring'
+page_subtitle: Math Support
+ribbon: Join Now
+title: 'Math Builders: 4th Grade Group Tutoring | Blue Ridge Boost'
+description: >-
+  Supportive 4th grade math group tutoring at Blue Ridge Boost. Focused math
+  support to build skills, confidence, and problem-solving. Charlottesville, VA.
+  Contact (434) 260-0636 or nora@blueridgeboost.com .
+day_tags: '["Mon","Wed"]'
+grade_tags: '["4th"]'
 ---
+

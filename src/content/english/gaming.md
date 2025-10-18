@@ -4,6 +4,7 @@ page_title: "Gaming Fridays"
 description: "Drop off your gamer for a safe, instructor-led Friday night of Minecraft, Fortnite, and Roblox. Ages 6–10 & 10+. Fridays, 5:30–8:30 PM at Blue Ridge Boost, Charlottesville. Free pizza included."
 draft: false
 section: "gaming-fridays"
+layout: "gaming"
 aliases: ["/parents-night-out", "/gaming-fridays"]
 robots: "index, follow"
 keywords:

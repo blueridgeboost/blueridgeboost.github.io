@@ -6,6 +6,7 @@ description: "Join Blue Ridge Boost's 1-Day Camps in Charlottesville, VA! Offeri
 draft: false
 # content section
 section: "1-day-camps"
+layout: "1-day-camps"
 
 keywords:
   - 1-day camps Charlottesville
@@ -32,10 +33,10 @@ robots: "index, follow"
 ---
 
 <section>
-  <p>
-    Blue Ridge Boosts offers instructional programs in robotics, coding, and math during school breaks and days off from school. 
-    We also host camps on days with unexpected school closings, such as "snow days".
-  </p>
+  <div>
+    <p>Instructional programs during school breaks and days off.</p>
+  </div>
+  </div>
   <div class="row justify-content-center">
     <div class="col-sm-5">
       <button class="grb-btn grb-btn-primary" id="camp-button">Book Now</button>
@@ -47,32 +48,43 @@ robots: "index, follow"
       </script>
     </div>
   </div>
-  
-  
-
-  <ul class="tight-list"> 
-<li> All camps are held at <strong>Blue Ridge Boost</strong>, 2171 Ivy Road, Charlottesville, Virginia 22903.
-  </li>
-<li> Camps are open to children ages <strong>6 to 13</strong>. Please note that Blue Ridge Boost is a single-focus instructional program and all students must be at least six years old to attend.</li>
-  <li> <strong>Half-day students:</strong> Please bring a snack.</li> 
-  <li> <strong>Full-day students:</strong> Please bring two snacks and lunch.</li>
-<li><strong>Drop-off:</strong> Starts at 8:30 AM.</li>
-<li> <strong>Pick-up:</strong> Ends at 1:00 PM for half-day and 5:00 PM for full-day.
-</li>
-</ul>
-
-<p>
-<b>Early Bird Discount: </b>
-    Register early for our 1-day camps and <strong>save 25%</strong> on your registration fee! This offer is available until <strong>two weeks</strong> before the camp.
-  </p>
-
-  <p>Click on the school name to see only the day off-school camps for that school.</p>
-  
-  <!-- <h3>1-Day Camps</h3>
-  <ul>
-    <li><a href="#charlottesville-day-school">Charlottesville Day School</a></li>
-    <li><a href="#green-school">Green School</a></li>
-  </ul> -->
+  <div>
+    <h3>Choose Your Topic:</h3>
+    <ul>
+        <li>Robotics</li>
+        <li>Coding with Minecraft Education</li>
+        <li>Game design with Roblox Studio</li>
+        <li>Strategic games</li>
+    </ul>
+    <h3>Program Options:</h3>
+    <ul>
+        <li><strong>Half-day program:</strong> two learning sessions + one exploration session</li>
+        <li><strong>Full-day program:</strong> four learning sessions + two exploration sessions</li>
+    </ul>
+    <p>
+    <strong>Learning sessions:</strong> Campers participate in topic-related activities.<br>
+    <strong>Exploration sessions:</strong> Campers choose from continuing with the chosen topics, explore a different topic, or play Minecraft or Roblox (with parent approval).<br>
+    <strong>Break times:</strong> Screens are not allowed during snack and lunch breaks. Campers are encouraged to play board games.
+    </p>
+    <h3>Camp Details</h3>
+    <ul>
+        <li><strong>Location:</strong> Blue Ridge Boost, 2171 Ivy Road, Charlottesville, Virginia 22903</li>
+        <li><strong>Ages:</strong> 6 to 13 years old (all students must be at least 6 to attend)</li>
+        <li><strong>Half-day students:</strong> Please bring a snack</li>
+        <li><strong>Full-day students:</strong> Please bring two snacks and lunch</li>
+        <li><strong>Drop-off:</strong> Starts at 8:30 AM</li>
+        <li><strong>Pick-up:</strong> 1:00 PM for half-day, 5:00 PM for full-day</li>
+    </ul>
+    <h3>Early Bird Discount</h3>
+    <p>
+        Register early for our 1-day camps and <strong>save 25%</strong> on your registration fee! This offer is available until <strong>three days</strong> before the camp.
+    </p>
+    <h3>Additional Information</h3>
+    <p>
+        If you'd like us to add another school to our list or notice we've missed a day off from your school, please <a href="mailto:camps@blueridgeboost.com">contact us</a>.
+    </p>
+    <p>Click on the school name to see only the day off-school camps for that school.</p>
+</div>
 </section>
 
 <div class="container" id="camp1">
@@ -84,33 +96,3 @@ robots: "index, follow"
             "defaultCategoryId=175336115");</script>
     </div>
 </div>
-
-<section>
-<h3>Additional Information</h3>
-  <p>
-    If you'd like us to add another school to our list or notice we've missed a day off from your school, 
-    please <a href="mailto:lain@blueridgeboost.com">contact us</a>.
-  </p>
-</section>
-
-<!-- <div class="container">
-    <p>Blue Ridge Boosts offers instructional programs in robotics, coding, and math during the school breaks
-      and days off school. We also offer camps on days with unexpected school closings such as "snow days".
-    <br>All camps are held at Blue Ridge Boost, 2171 Ivy Rd, Charlottesville.</p>
-    <p>Half-day students should bring a snack. Full-day students should bring two snacks and lunch.</p>
-    <p>Drop off starts at 8:30. Pick up ends at 1:00 for half-day and 5:00 for full day.</p>
-    <br>Ages 6 to 13. Please note that Blue Ridge Boost is a single focus instructional program, not a day care program.
-      As such, <b>students must be at least six years old for camps.</b>
-    <p></p>
-    Please <a href="/contact">contact us</a> if you would like add another school to our list or we missed a day off from your school.
-    <p>Click on your school's name to see the dates.</p> 
-</div>
-<div class="container" id="camp1">
-    <div>
-        <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
-            charset="utf-8"></script>
-        <script type="text/javascript">
-            xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041", 
-            "defaultCategoryId=175336115");</script>
-    </div>
-</div> -->

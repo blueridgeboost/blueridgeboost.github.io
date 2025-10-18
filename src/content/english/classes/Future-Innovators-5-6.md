@@ -1,23 +1,25 @@
 ---
 ecwid: 771060848
 product_id: Future-Innovators-5-6
-robots: noindex, follow
 layout: single
-schedule_tags: ["Starting Soon"]
-subject_tags: ["Robotics","Computer Coding"]
+schedule_tags:
+  - Starting Soon
+subject_tags:
+  - Robotics
+  - Computer Coding
 price: 169.99
-weight: 32
-start_date: 2025-11-09
-end_date: 2026-05-16
-start_time: "3:30 PM"
-end_time: "5:00 PM"
-page_title: "Future Innovators (Grades 5 to 7)"
-page_subtitle: "Empowering Young Minds"
-ribbon: "Starts Nov 9"
-title: "Future Innovators (Grades 5 to 7) | Blue Ridge Boost"
-day_tags: ["Sun"]
-grade_tags: ["5th","6th","7th"]
-featured: 0
-offers: [["Two-Three","152.99"],["Four+","144.49"]]
-image_url: "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5078256169.png"
+price_unit: per session
+category: One Time
+weight: 33
+page_title: Future Innovators (Grades 5 to 7)
+page_subtitle: Empowering Young Minds
+ribbon: Starts Nov 9
+title: Future Innovators (Grades 5 to 7) | Blue Ridge Boost
+description: >-
+  Empower young minds with hands-on STEM projects, creativity, and
+  problem-solving in Blue Ridge Boost’s Future Innovators program for grades
+  5–7. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .
+day_tags: '["Sun"]'
+grade_tags: '["5th","6th","7th"]'
 ---
+

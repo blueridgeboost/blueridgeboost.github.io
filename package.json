@@ -1,17 +1,42 @@
 {
-  "dependencies": {
-    "stripe": "^16.2.0"
-  },
-  "name": "blueridgeboost.github.io",
-  "version": "1.0.0",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "name": "blue-ridge-boost",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "author": "Nora Evans",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "config": "node ./src/staticjs/config-generation.mjs",
+    "updateAiGen": "node ./src/staticjs/keywords-and-topics.mjs",
+    "clean": "rimraf docs",
+    "html": "hugo --destination docs --source ./src/",
+    "copy": "cpy CNAME docs --parents=false",
+    "github": "npm run clean && npm run config && npm run html && npm run copy && git add -A :/ && git commit -m '$npm_config_message' && git push",
+    "githubdev": "npm run github",
+    "dev": "hugo server --disableFastRender --buildDrafts --watch --destination docs --source ./src/",
+    "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
+    "preview": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
+    "dev:example": "cd exampleSite && hugo server --themesDir ../..",
+    "build:example": "cd exampleSite && hugo --themesDir ../.. --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
+    "preview:example": "cd exampleSite && hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
+    "update-modules": "node ./scripts/clearModules.js && hugo mod clean --all && hugo mod get -u ./... && hugo mod tidy",
+    "project-setup": "node ./scripts/projectSetup.js",
+    "theme-setup": "node ./scripts/themeSetup.js",
+    "format": "prettier -w ."
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "cpy-cli": "^5.0.0",
+    "open-cli": "^6.0.0",
+    "postcss": "^8.4.41",
+    "postcss-cli": "^11.0.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-go-template": "0.0.15",
+    "rimraf": "^6.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "form-data": "^4.0.4",
+    "js-yaml": "^4.1.0",
+    "openai": "^6.4.0"
+  }
 }
