@@ -4215,19 +4215,23 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details__product-tit
 {
   "@type": "Course",
   "@context": "https://schema.org",
-  "@id": "https://blueridgeboost.com/classes/CM-25-25-GR3-4",
-  "url": "https://blueridgeboost.com/classes/CM-25-25-GR3-4",
+  "@id": "https://blueridgeboost.com/classes/CM-25-25-GR3-4/",
+  "url": "https://blueridgeboost.com/classes/CM-25-25-GR3-4/",
   "name": "Competition Math Grades 3 and 4",
   "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5076126970.png",
   "description": "Prepare for Math Kangaroo and Math Olympiad with engaging competition math for grades 3–4. Build problem-solving speed, logic, and confidence at Blue Ridge Boost. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .",
   "provider": {
-    "@type": "Organization",
+    "@type": "EducationalOrganization",
     "name": "Blue Ridge Boost",
-    "sameAs": "https://blueridgeboost.com"
+    "sameAs": "https://blueridgeboost.com/",
+    "url": "https://blueridgeboost.com/"
   },
   "inLanguage": "en",
-  "educationalLevel": "Beginner",
-  "learningResourceType": "Course",
+  "educationalLevel": [
+    "3rd grade",
+    "4th grade"
+  ],
+  "typicalAgeRange": "8-10",
   "thumbnailUrl": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5076126970.png",
   "isAccessibleForFree": false,
   "offers": {
@@ -4235,7 +4239,7 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details__product-tit
     "price": "179.99",
     "priceCurrency": "USD",
     "availability": "https://schema.org/InStock",
-    "url": "https://blueridgeboost.com/classes/CM-25-25-GR3-4"
+    "url": "https://blueridgeboost.com/classes/CM-25-25-GR3-4/"
   },
   "keywords": [
     "math kangaroo",
@@ -4244,12 +4248,58 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details__product-tit
     "problem solving strategies",
     "logical reasoning"
   ],
-  "topics": [
-    "math kangaroo",
-    "logical reasoning",
-    "critical thinking",
-    "problem-solving strategies",
-    "math puzzles"
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "math kangaroo"
+    },
+    {
+      "@type": "Thing",
+      "name": "logical reasoning"
+    },
+    {
+      "@type": "Thing",
+      "name": "critical thinking"
+    },
+    {
+      "@type": "Thing",
+      "name": "problem-solving strategies"
+    },
+    {
+      "@type": "Thing",
+      "name": "math puzzles"
+    }
+  ],
+  "hasCourseInstance": [
+    {
+      "@type": "CourseInstance",
+      "name": "Competition Math Grades 3 and 4 (2025-2026)",
+      "courseMode": "InPerson",
+      "location": {
+        "@type": "Place",
+        "name": "Blue Ridge Boost",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2171 Ivy Rd",
+          "addressLocality": "Charlottesville",
+          "addressRegion": "VA",
+          "postalCode": "22903",
+          "addressCountry": "US"
+        }
+      },
+      "eventSchedule": {
+        "@type": "Schedule",
+        "byDay": [
+          "https://schema.org/Wednesday"
+        ],
+        "repeatFrequency": "P1W",
+        "scheduleTimezone": "America/New_York",
+        "startDate": "2025-11-03",
+        "endDate": "2026-05-24",
+        "startTime": "17:00",
+        "endTime": "18:00"
+      }
+    }
   ]
 }
 </script>

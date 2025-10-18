@@ -2,19 +2,23 @@
 {
   "@type": "Course",
   "@context": "https://schema.org",
-  "@id": "https://blueridgeboost.com/classes/CM-25-25-GR1-2",
-  "url": "https://blueridgeboost.com/classes/CM-25-25-GR1-2",
+  "@id": "https://blueridgeboost.com/classes/CM-25-25-GR1-2/",
+  "url": "https://blueridgeboost.com/classes/CM-25-25-GR1-2/",
   "name": "Competition Math Grades 1 and 2",
   "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5076172784.png",
   "description": "Get ready for Math Kangaroo with Blue Ridge Boost’s competition math class for grades 1–2. Fun problem-solving practice to build logic, speed, and confidence. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .",
   "provider": {
-    "@type": "Organization",
+    "@type": "EducationalOrganization",
     "name": "Blue Ridge Boost",
-    "sameAs": "https://blueridgeboost.com"
+    "sameAs": "https://blueridgeboost.com/",
+    "url": "https://blueridgeboost.com/"
   },
   "inLanguage": "en",
-  "educationalLevel": "Beginner",
-  "learningResourceType": "Course",
+  "educationalLevel": [
+    "1st grade",
+    "2nd grade"
+  ],
+  "typicalAgeRange": "6-8",
   "thumbnailUrl": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5076172784.png",
   "isAccessibleForFree": false,
   "offers": {
@@ -22,7 +26,7 @@
     "price": "179.99",
     "priceCurrency": "USD",
     "availability": "https://schema.org/InStock",
-    "url": "https://blueridgeboost.com/classes/CM-25-25-GR1-2"
+    "url": "https://blueridgeboost.com/classes/CM-25-25-GR1-2/"
   },
   "keywords": [
     "math kangaroo",
@@ -31,12 +35,58 @@
     "logical thinking",
     "problem solving"
   ],
-  "topics": [
-    "math kangaroo",
-    "logical reasoning",
-    "problem solving",
-    "number sense",
-    "puzzle solving"
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "math kangaroo"
+    },
+    {
+      "@type": "Thing",
+      "name": "logical reasoning"
+    },
+    {
+      "@type": "Thing",
+      "name": "problem solving"
+    },
+    {
+      "@type": "Thing",
+      "name": "number sense"
+    },
+    {
+      "@type": "Thing",
+      "name": "puzzle solving"
+    }
+  ],
+  "hasCourseInstance": [
+    {
+      "@type": "CourseInstance",
+      "name": "Competition Math Grades 1 and 2 (2025-2026)",
+      "courseMode": "InPerson",
+      "location": {
+        "@type": "Place",
+        "name": "Blue Ridge Boost",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2171 Ivy Rd",
+          "addressLocality": "Charlottesville",
+          "addressRegion": "VA",
+          "postalCode": "22903",
+          "addressCountry": "US"
+        }
+      },
+      "eventSchedule": {
+        "@type": "Schedule",
+        "byDay": [
+          "https://schema.org/Sunday"
+        ],
+        "repeatFrequency": "P1W",
+        "scheduleTimezone": "America/New_York",
+        "startDate": "2025-10-19",
+        "endDate": "2025-06-03",
+        "startTime": "12:00",
+        "endTime": "13:00"
+      }
+    }
   ]
 }
 </script>

@@ -4215,42 +4215,55 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details__product-tit
 {
   "@type": "Course",
   "@context": "https://schema.org",
-  "@id": "https://blueridgeboost.com/classes/Robot-Hour-25-26",
-  "url": "https://blueridgeboost.com/classes/Robot-Hour-25-26",
+  "@id": "https://blueridgeboost.com/classes/Robot-Hour-25-26/",
+  "url": "https://blueridgeboost.com/classes/Robot-Hour-25-26/",
   "name": "Robot Explorers: Intro to Robotics",
   "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5047102215.png",
   "description": "Try all kinds of robots at Blue Ridge Boost in our Intro to Robotics class. Hands-on exploration and guided learning in Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .",
   "provider": {
-    "@type": "Organization",
+    "@type": "EducationalOrganization",
     "name": "Blue Ridge Boost",
-    "sameAs": "https://blueridgeboost.com"
+    "sameAs": "https://blueridgeboost.com/",
+    "url": "https://blueridgeboost.com/"
   },
   "inLanguage": "en",
-  "educationalLevel": "Beginner",
-  "learningResourceType": "Course",
+  "educationalLevel": [
+    "1st grade",
+    "2nd grade"
+  ],
+  "typicalAgeRange": "6-8",
   "thumbnailUrl": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5047102215.png",
   "isAccessibleForFree": false,
   "offers": {
     "@type": "AggregateOffer",
-    "offerCount": 2,
-    "lowPrice": "149.99",
+    "offerCount": 3,
+    "lowPrice": "134.99",
+    "highPrice": "149.99",
     "priceCurrency": "USD",
     "offers": [
       {
         "@type": "Offer",
-        "name": "Group size",
-        "price": "142.49",
+        "name": "Group Size: One",
+        "price": "149.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/Robot-Hour-25-26"
+        "url": "https://blueridgeboost.com/classes/Robot-Hour-25-26/"
       },
       {
         "@type": "Offer",
-        "name": "Group size",
+        "name": "Group Size: Two-Three",
+        "price": "142.49",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://blueridgeboost.com/classes/Robot-Hour-25-26/"
+      },
+      {
+        "@type": "Offer",
+        "name": "Group Size: Four+",
         "price": "134.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/Robot-Hour-25-26"
+        "url": "https://blueridgeboost.com/classes/Robot-Hour-25-26/"
       }
     ]
   },
@@ -4261,12 +4274,58 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details__product-tit
     "vex robots",
     "sphero programming"
   ],
-  "topics": [
-    "robotics for kids",
-    "sphero",
-    "lego robotics",
-    "vex robotics",
-    "beginner coding"
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "robotics for kids"
+    },
+    {
+      "@type": "Thing",
+      "name": "sphero"
+    },
+    {
+      "@type": "Thing",
+      "name": "lego robotics"
+    },
+    {
+      "@type": "Thing",
+      "name": "vex robotics"
+    },
+    {
+      "@type": "Thing",
+      "name": "beginner coding"
+    }
+  ],
+  "hasCourseInstance": [
+    {
+      "@type": "CourseInstance",
+      "name": "Robot Explorers: Intro to Robotics (2025-2026)",
+      "courseMode": "InPerson",
+      "location": {
+        "@type": "Place",
+        "name": "Blue Ridge Boost",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2171 Ivy Rd",
+          "addressLocality": "Charlottesville",
+          "addressRegion": "VA",
+          "postalCode": "22903",
+          "addressCountry": "US"
+        }
+      },
+      "eventSchedule": {
+        "@type": "Schedule",
+        "byDay": [
+          "https://schema.org/Wednesday"
+        ],
+        "repeatFrequency": "P1W",
+        "scheduleTimezone": "America/New_York",
+        "startDate": "2025-09-08",
+        "endDate": "2026-05-24",
+        "startTime": "17:00",
+        "endTime": "18:00"
+      }
+    }
   ]
 }
 </script>

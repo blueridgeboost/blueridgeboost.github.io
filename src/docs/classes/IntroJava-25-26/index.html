@@ -4215,42 +4215,57 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details__product-tit
 {
   "@type": "Course",
   "@context": "https://schema.org",
-  "@id": "https://blueridgeboost.com/classes/IntroJava-25-26",
-  "url": "https://blueridgeboost.com/classes/IntroJava-25-26",
+  "@id": "https://blueridgeboost.com/classes/IntroJava-25-26/",
+  "url": "https://blueridgeboost.com/classes/IntroJava-25-26/",
   "name": "Programming in Java",
   "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5148584465.png",
   "description": "From beginner to programmer—learn Java at Blue Ridge Boost with step-by-step instruction and hands-on practice. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .",
   "provider": {
-    "@type": "Organization",
+    "@type": "EducationalOrganization",
     "name": "Blue Ridge Boost",
-    "sameAs": "https://blueridgeboost.com"
+    "sameAs": "https://blueridgeboost.com/",
+    "url": "https://blueridgeboost.com/"
   },
   "inLanguage": "en",
-  "educationalLevel": "Beginner",
-  "learningResourceType": "Course",
+  "educationalLevel": [
+    "9th grade",
+    "10th grade",
+    "11th grade",
+    "12th grade"
+  ],
+  "typicalAgeRange": "14-18",
   "thumbnailUrl": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5148584465.png",
   "isAccessibleForFree": false,
   "offers": {
     "@type": "AggregateOffer",
-    "offerCount": 2,
-    "lowPrice": "179.99",
+    "offerCount": 3,
+    "lowPrice": "152.99",
+    "highPrice": "179.99",
     "priceCurrency": "USD",
     "offers": [
       {
         "@type": "Offer",
-        "name": "Group size",
-        "price": "161.99",
+        "name": "Group Size: One",
+        "price": "179.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/IntroJava-25-26"
+        "url": "https://blueridgeboost.com/classes/IntroJava-25-26/"
       },
       {
         "@type": "Offer",
-        "name": "Group size",
+        "name": "Group Size: Two-Three",
+        "price": "161.99",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://blueridgeboost.com/classes/IntroJava-25-26/"
+      },
+      {
+        "@type": "Offer",
+        "name": "Group Size: Four+",
         "price": "152.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/IntroJava-25-26"
+        "url": "https://blueridgeboost.com/classes/IntroJava-25-26/"
       }
     ]
   },
@@ -4261,12 +4276,58 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details__product-tit
     "object oriented programming",
     "hands on coding"
   ],
-  "topics": [
-    "Java",
-    "control flow",
-    "loops",
-    "methods",
-    "object-oriented programming"
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Java"
+    },
+    {
+      "@type": "Thing",
+      "name": "control flow"
+    },
+    {
+      "@type": "Thing",
+      "name": "loops"
+    },
+    {
+      "@type": "Thing",
+      "name": "methods"
+    },
+    {
+      "@type": "Thing",
+      "name": "object-oriented programming"
+    }
+  ],
+  "hasCourseInstance": [
+    {
+      "@type": "CourseInstance",
+      "name": "Programming in Java (2025-2026)",
+      "courseMode": "InPerson",
+      "location": {
+        "@type": "Place",
+        "name": "Blue Ridge Boost",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2171 Ivy Rd",
+          "addressLocality": "Charlottesville",
+          "addressRegion": "VA",
+          "postalCode": "22903",
+          "addressCountry": "US"
+        }
+      },
+      "eventSchedule": {
+        "@type": "Schedule",
+        "byDay": [
+          "https://schema.org/Thursday"
+        ],
+        "repeatFrequency": "P1W",
+        "scheduleTimezone": "America/New_York",
+        "startDate": "2025-11-09",
+        "endDate": "2026-05-24",
+        "startTime": "18:30",
+        "endTime": "19:30"
+      }
+    }
   ]
 }
 </script>

@@ -4215,42 +4215,59 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details__product-tit
 {
   "@type": "Course",
   "@context": "https://schema.org",
-  "@id": "https://blueridgeboost.com/classes/Cybersecurity-Level-1-Teens-25-26",
-  "url": "https://blueridgeboost.com/classes/Cybersecurity-Level-1-Teens-25-26",
+  "@id": "https://blueridgeboost.com/classes/Cybersecurity-Level-1-Teens-25-26/",
+  "url": "https://blueridgeboost.com/classes/Cybersecurity-Level-1-Teens-25-26/",
   "name": "Cybersecurity Level 1",
   "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5101158650.png",
   "description": "Entry-level cybersecurity course with certification exam prep at Blue Ridge Boost. Learn core security concepts, tools, and best practices with expert guidance. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .",
   "provider": {
-    "@type": "Organization",
+    "@type": "EducationalOrganization",
     "name": "Blue Ridge Boost",
-    "sameAs": "https://blueridgeboost.com"
+    "sameAs": "https://blueridgeboost.com/",
+    "url": "https://blueridgeboost.com/"
   },
   "inLanguage": "en",
-  "educationalLevel": "Beginner",
-  "learningResourceType": "Course",
+  "educationalLevel": [
+    "7th grade",
+    "8th grade",
+    "9th grade",
+    "10th grade",
+    "11th grade",
+    "12th grade"
+  ],
+  "typicalAgeRange": "12-18",
   "thumbnailUrl": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5101158650.png",
   "isAccessibleForFree": false,
   "offers": {
     "@type": "AggregateOffer",
-    "offerCount": 2,
-    "lowPrice": "249.99",
+    "offerCount": 3,
+    "lowPrice": "199.99",
+    "highPrice": "249.99",
     "priceCurrency": "USD",
     "offers": [
       {
         "@type": "Offer",
-        "name": "Group Size",
-        "price": "212.49",
+        "name": "Group Size: One",
+        "price": "249.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/Cybersecurity-Level-1-Teens-25-26"
+        "url": "https://blueridgeboost.com/classes/Cybersecurity-Level-1-Teens-25-26/"
       },
       {
         "@type": "Offer",
-        "name": "Group Size",
+        "name": "Group Size: Two-Three",
+        "price": "212.49",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://blueridgeboost.com/classes/Cybersecurity-Level-1-Teens-25-26/"
+      },
+      {
+        "@type": "Offer",
+        "name": "Group Size: Four",
         "price": "199.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/Cybersecurity-Level-1-Teens-25-26"
+        "url": "https://blueridgeboost.com/classes/Cybersecurity-Level-1-Teens-25-26/"
       }
     ]
   },
@@ -4261,12 +4278,46 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details__product-tit
     "cybersecurity certification exam",
     "cryptography basics"
   ],
-  "topics": [
-    "cybersecurity fundamentals",
-    "cryptography",
-    "system administration",
-    "networking concepts",
-    "digital safety"
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "cybersecurity fundamentals"
+    },
+    {
+      "@type": "Thing",
+      "name": "cryptography"
+    },
+    {
+      "@type": "Thing",
+      "name": "system administration"
+    },
+    {
+      "@type": "Thing",
+      "name": "networking concepts"
+    },
+    {
+      "@type": "Thing",
+      "name": "digital safety"
+    }
+  ],
+  "hasCourseInstance": [
+    {
+      "@type": "CourseInstance",
+      "name": "Cybersecurity Level 1 (2025-2026)",
+      "courseMode": "InPerson",
+      "location": {
+        "@type": "Place",
+        "name": "Blue Ridge Boost",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2171 Ivy Rd",
+          "addressLocality": "Charlottesville",
+          "addressRegion": "VA",
+          "postalCode": "22903",
+          "addressCountry": "US"
+        }
+      }
+    }
   ]
 }
 </script>

@@ -2,42 +2,59 @@
 {
   "@type": "Course",
   "@context": "https://schema.org",
-  "@id": "https://blueridgeboost.com/classes/IntroCS-25-26-Sat",
-  "url": "https://blueridgeboost.com/classes/IntroCS-25-26-Sat",
+  "@id": "https://blueridgeboost.com/classes/IntroCS-25-26-Sat/",
+  "url": "https://blueridgeboost.com/classes/IntroCS-25-26-Sat/",
   "name": "Introduction to Computer Science",
   "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5076259330.jpg",
   "description": "Get started with computer science through Blue Ridge Boost and CodeHS. Beginner-friendly Saturday course with supportive instruction and hands-on coding. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .",
   "provider": {
-    "@type": "Organization",
+    "@type": "EducationalOrganization",
     "name": "Blue Ridge Boost",
-    "sameAs": "https://blueridgeboost.com"
+    "sameAs": "https://blueridgeboost.com/",
+    "url": "https://blueridgeboost.com/"
   },
   "inLanguage": "en",
-  "educationalLevel": "Beginner",
-  "learningResourceType": "Course",
+  "educationalLevel": [
+    "7th grade",
+    "8th grade",
+    "9th grade",
+    "10th grade",
+    "11th grade",
+    "12th grade"
+  ],
+  "typicalAgeRange": "12-18",
   "thumbnailUrl": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5076259330.jpg",
   "isAccessibleForFree": false,
   "offers": {
     "@type": "AggregateOffer",
-    "offerCount": 2,
-    "lowPrice": "239.99",
+    "offerCount": 3,
+    "lowPrice": "203.99",
+    "highPrice": "239.99",
     "priceCurrency": "USD",
     "offers": [
       {
         "@type": "Offer",
-        "name": "Group Size",
-        "price": "203.99",
+        "name": "Group Size: One",
+        "price": "239.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/IntroCS-25-26-Sat"
+        "url": "https://blueridgeboost.com/classes/IntroCS-25-26-Sat/"
       },
       {
         "@type": "Offer",
-        "name": "Group Size",
+        "name": "Group Size: Two-Three",
+        "price": "203.99",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://blueridgeboost.com/classes/IntroCS-25-26-Sat/"
+      },
+      {
+        "@type": "Offer",
+        "name": "Group Size: Four",
         "price": "219.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/IntroCS-25-26-Sat"
+        "url": "https://blueridgeboost.com/classes/IntroCS-25-26-Sat/"
       }
     ]
   },
@@ -48,12 +65,46 @@
     "hands on coding",
     "codehs certificate"
   ],
-  "topics": [
-    "Python",
-    "JavaScript",
-    "Java",
-    "C++",
-    "algorithms"
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Python"
+    },
+    {
+      "@type": "Thing",
+      "name": "JavaScript"
+    },
+    {
+      "@type": "Thing",
+      "name": "Java"
+    },
+    {
+      "@type": "Thing",
+      "name": "C++"
+    },
+    {
+      "@type": "Thing",
+      "name": "algorithms"
+    }
+  ],
+  "hasCourseInstance": [
+    {
+      "@type": "CourseInstance",
+      "name": "Introduction to Computer Science (2025-2026)",
+      "courseMode": "InPerson",
+      "location": {
+        "@type": "Place",
+        "name": "Blue Ridge Boost",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2171 Ivy Rd",
+          "addressLocality": "Charlottesville",
+          "addressRegion": "VA",
+          "postalCode": "22903",
+          "addressCountry": "US"
+        }
+      }
+    }
   ]
 }
 </script>

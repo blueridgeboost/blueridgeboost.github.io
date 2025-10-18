@@ -2,42 +2,55 @@
 {
   "@type": "Course",
   "@context": "https://schema.org",
-  "@id": "https://blueridgeboost.com/classes/Code-Craft-25-2Gr1-2",
-  "url": "https://blueridgeboost.com/classes/Code-Craft-25-2Gr1-2",
+  "@id": "https://blueridgeboost.com/classes/Code-Craft-25-2Gr1-2/",
+  "url": "https://blueridgeboost.com/classes/Code-Craft-25-2Gr1-2/",
   "name": "Code Craft: Minecraft Coding",
   "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5074183223.png",
   "description": "Learn to code in Minecraft for grades 1–2. Fun, gamified programming that builds problem-solving and creativity at Blue Ridge Boost. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .",
   "provider": {
-    "@type": "Organization",
+    "@type": "EducationalOrganization",
     "name": "Blue Ridge Boost",
-    "sameAs": "https://blueridgeboost.com"
+    "sameAs": "https://blueridgeboost.com/",
+    "url": "https://blueridgeboost.com/"
   },
   "inLanguage": "en",
-  "educationalLevel": "Beginner",
-  "learningResourceType": "Course",
+  "educationalLevel": [
+    "1st grade",
+    "2nd grade"
+  ],
+  "typicalAgeRange": "6-8",
   "thumbnailUrl": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5074183223.png",
   "isAccessibleForFree": false,
   "offers": {
     "@type": "AggregateOffer",
-    "offerCount": 2,
-    "lowPrice": "159.99",
+    "offerCount": 3,
+    "lowPrice": "135.99",
+    "highPrice": "159.99",
     "priceCurrency": "USD",
     "offers": [
       {
         "@type": "Offer",
-        "name": "Group Size",
-        "price": "143.99",
+        "name": "Group Size: One",
+        "price": "159.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/Code-Craft-25-2Gr1-2"
+        "url": "https://blueridgeboost.com/classes/Code-Craft-25-2Gr1-2/"
       },
       {
         "@type": "Offer",
-        "name": "Group Size",
+        "name": "Group Size: Two-Three",
+        "price": "143.99",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://blueridgeboost.com/classes/Code-Craft-25-2Gr1-2/"
+      },
+      {
+        "@type": "Offer",
+        "name": "Group Size: Four+",
         "price": "135.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/Code-Craft-25-2Gr1-2"
+        "url": "https://blueridgeboost.com/classes/Code-Craft-25-2Gr1-2/"
       }
     ]
   },
@@ -48,12 +61,58 @@
     "javascript python",
     "kids coding class"
   ],
-  "topics": [
-    "Minecraft Education",
-    "block-based coding",
-    "Python",
-    "JavaScript",
-    "algorithmic problem-solving"
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Minecraft Education"
+    },
+    {
+      "@type": "Thing",
+      "name": "block-based coding"
+    },
+    {
+      "@type": "Thing",
+      "name": "Python"
+    },
+    {
+      "@type": "Thing",
+      "name": "JavaScript"
+    },
+    {
+      "@type": "Thing",
+      "name": "algorithmic problem-solving"
+    }
+  ],
+  "hasCourseInstance": [
+    {
+      "@type": "CourseInstance",
+      "name": "Code Craft: Minecraft Coding (2025-2026)",
+      "courseMode": "InPerson",
+      "location": {
+        "@type": "Place",
+        "name": "Blue Ridge Boost",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2171 Ivy Rd",
+          "addressLocality": "Charlottesville",
+          "addressRegion": "VA",
+          "postalCode": "22903",
+          "addressCountry": "US"
+        }
+      },
+      "eventSchedule": {
+        "@type": "Schedule",
+        "byDay": [
+          "https://schema.org/Tuesday"
+        ],
+        "repeatFrequency": "P1W",
+        "scheduleTimezone": "America/New_York",
+        "startDate": "2025-09-06",
+        "endDate": "2026-05-24",
+        "startTime": "15:45",
+        "endTime": "16:30"
+      }
+    }
   ]
 }
 </script>

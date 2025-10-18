@@ -2,42 +2,55 @@
 {
   "@type": "Course",
   "@context": "https://schema.org",
-  "@id": "https://blueridgeboost.com/classes/Advanced-VEX-IQ-4-5",
-  "url": "https://blueridgeboost.com/classes/Advanced-VEX-IQ-4-5",
+  "@id": "https://blueridgeboost.com/classes/Advanced-VEX-IQ-4-5/",
+  "url": "https://blueridgeboost.com/classes/Advanced-VEX-IQ-4-5/",
   "name": "Advanced VEX IQ (Grades 4-5)",
   "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5148389326.png",
   "description": "Join the Advanced VEX IQ program for Grades 4-5 at Blue Ridge Boost in Charlottesville, VA. Engage in building robots, solving challenges, and developing STEM skills in a hands-on, fun environment. Contact us at (434) 260-0636 or nora@blueridgeboost.com for more details. Located at 2171 Ivy Rd.",
   "provider": {
-    "@type": "Organization",
+    "@type": "EducationalOrganization",
     "name": "Blue Ridge Boost",
-    "sameAs": "https://blueridgeboost.com"
+    "sameAs": "https://blueridgeboost.com/",
+    "url": "https://blueridgeboost.com/"
   },
   "inLanguage": "en",
-  "educationalLevel": "Beginner",
-  "learningResourceType": "Course",
+  "educationalLevel": [
+    "4th grade",
+    "5th grade"
+  ],
+  "typicalAgeRange": "9-11",
   "thumbnailUrl": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5148389326.png",
   "isAccessibleForFree": false,
   "offers": {
     "@type": "AggregateOffer",
-    "offerCount": 2,
-    "lowPrice": "325.00",
+    "offerCount": 3,
+    "lowPrice": "243.75",
+    "highPrice": "325.00",
     "priceCurrency": "USD",
     "offers": [
       {
         "@type": "Offer",
-        "name": "Group Size",
-        "price": "292.50",
+        "name": "Group Size: One",
+        "price": "325.00",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/Advanced-VEX-IQ-4-5"
+        "url": "https://blueridgeboost.com/classes/Advanced-VEX-IQ-4-5/"
       },
       {
         "@type": "Offer",
-        "name": "Group Size",
+        "name": "Group Size: Two-Three",
+        "price": "292.50",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://blueridgeboost.com/classes/Advanced-VEX-IQ-4-5/"
+      },
+      {
+        "@type": "Offer",
+        "name": "Group Size: Four+",
         "price": "243.75",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/Advanced-VEX-IQ-4-5"
+        "url": "https://blueridgeboost.com/classes/Advanced-VEX-IQ-4-5/"
       }
     ]
   },
@@ -48,12 +61,58 @@
     "vexcode iq programming",
     "robotics class grades 4 8"
   ],
-  "topics": [
-    "VEX IQ",
-    "robot design",
-    "VEXcode IQ",
-    "autonomous programming",
-    "competition strategy"
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "VEX IQ"
+    },
+    {
+      "@type": "Thing",
+      "name": "robot design"
+    },
+    {
+      "@type": "Thing",
+      "name": "VEXcode IQ"
+    },
+    {
+      "@type": "Thing",
+      "name": "autonomous programming"
+    },
+    {
+      "@type": "Thing",
+      "name": "competition strategy"
+    }
+  ],
+  "hasCourseInstance": [
+    {
+      "@type": "CourseInstance",
+      "name": "Advanced VEX IQ (Grades 4-5) (2025-2026)",
+      "courseMode": "InPerson",
+      "location": {
+        "@type": "Place",
+        "name": "Blue Ridge Boost",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2171 Ivy Rd",
+          "addressLocality": "Charlottesville",
+          "addressRegion": "VA",
+          "postalCode": "22903",
+          "addressCountry": "US"
+        }
+      },
+      "eventSchedule": {
+        "@type": "Schedule",
+        "byDay": [
+          "https://schema.org/Thursday"
+        ],
+        "repeatFrequency": "P1W",
+        "scheduleTimezone": "America/New_York",
+        "startDate": "2025-06-09",
+        "endDate": "2026-03-17",
+        "startTime": "16:00",
+        "endTime": "17:30"
+      }
+    }
   ]
 }
 </script>

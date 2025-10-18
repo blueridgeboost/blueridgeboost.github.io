@@ -2,42 +2,59 @@
 {
   "@type": "Course",
   "@context": "https://schema.org",
-  "@id": "https://blueridgeboost.com/classes/CMRA-ElectricalFoundations-25-26",
-  "url": "https://blueridgeboost.com/classes/CMRA-ElectricalFoundations-25-26",
+  "@id": "https://blueridgeboost.com/classes/CMRA-ElectricalFoundations-25-26/",
+  "url": "https://blueridgeboost.com/classes/CMRA-ElectricalFoundations-25-26/",
   "name": "Carnegie Mellon Robotics Academy: Electrical Foundations",
   "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5074129015.png",
   "description": "From wires to robots—learn electronics and Arduino programming in Blue Ridge Boost’s CMRA Electrical Foundations course. Hands-on projects led by expert instructors. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .",
   "provider": {
-    "@type": "Organization",
+    "@type": "EducationalOrganization",
     "name": "Blue Ridge Boost",
-    "sameAs": "https://blueridgeboost.com"
+    "sameAs": "https://blueridgeboost.com/",
+    "url": "https://blueridgeboost.com/"
   },
   "inLanguage": "en",
-  "educationalLevel": "Beginner",
-  "learningResourceType": "Course",
+  "educationalLevel": [
+    "7th grade",
+    "8th grade",
+    "9th grade",
+    "10th grade",
+    "11th grade",
+    "12th grade"
+  ],
+  "typicalAgeRange": "12-18",
   "thumbnailUrl": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5074129015.png",
   "isAccessibleForFree": false,
   "offers": {
     "@type": "AggregateOffer",
-    "offerCount": 2,
-    "lowPrice": "299.99",
+    "offerCount": 3,
+    "lowPrice": "224.99",
+    "highPrice": "299.99",
     "priceCurrency": "USD",
     "offers": [
       {
         "@type": "Offer",
-        "name": "Group size",
-        "price": "269.99",
+        "name": "Group Size: One",
+        "price": "299.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/CMRA-ElectricalFoundations-25-26"
+        "url": "https://blueridgeboost.com/classes/CMRA-ElectricalFoundations-25-26/"
       },
       {
         "@type": "Offer",
-        "name": "Group size",
+        "name": "Group Size: Two-Three",
+        "price": "269.99",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://blueridgeboost.com/classes/CMRA-ElectricalFoundations-25-26/"
+      },
+      {
+        "@type": "Offer",
+        "name": "Group Size: Four+",
         "price": "224.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/CMRA-ElectricalFoundations-25-26"
+        "url": "https://blueridgeboost.com/classes/CMRA-ElectricalFoundations-25-26/"
       }
     ]
   },
@@ -48,12 +65,59 @@
     "hands on robotics",
     "e panel"
   ],
-  "topics": [
-    "arduino",
-    "breadboarding",
-    "series-parallel circuits",
-    "multimeter measurements",
-    "motor control"
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "arduino"
+    },
+    {
+      "@type": "Thing",
+      "name": "breadboarding"
+    },
+    {
+      "@type": "Thing",
+      "name": "series-parallel circuits"
+    },
+    {
+      "@type": "Thing",
+      "name": "multimeter measurements"
+    },
+    {
+      "@type": "Thing",
+      "name": "motor control"
+    }
+  ],
+  "hasCourseInstance": [
+    {
+      "@type": "CourseInstance",
+      "name": "Carnegie Mellon Robotics Academy: Electrical Foundations (2025-2026)",
+      "courseMode": "InPerson",
+      "location": {
+        "@type": "Place",
+        "name": "Blue Ridge Boost",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2171 Ivy Rd",
+          "addressLocality": "Charlottesville",
+          "addressRegion": "VA",
+          "postalCode": "22903",
+          "addressCountry": "US"
+        }
+      },
+      "eventSchedule": {
+        "@type": "Schedule",
+        "byDay": [
+          "https://schema.org/Tuesday",
+          "https://schema.org/Thursday"
+        ],
+        "repeatFrequency": "P1W",
+        "scheduleTimezone": "America/New_York",
+        "startDate": "2025-11-09",
+        "endDate": "2026-05-24",
+        "startTime": "18:00",
+        "endTime": "19:30"
+      }
+    }
   ]
 }
 </script>

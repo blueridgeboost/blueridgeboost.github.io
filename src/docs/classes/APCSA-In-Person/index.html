@@ -4215,42 +4215,58 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details__product-tit
 {
   "@type": "Course",
   "@context": "https://schema.org",
-  "@id": "https://blueridgeboost.com/classes/APCSA-In-Person",
-  "url": "https://blueridgeboost.com/classes/APCSA-In-Person",
+  "@id": "https://blueridgeboost.com/classes/APCSA-In-Person/",
+  "url": "https://blueridgeboost.com/classes/APCSA-In-Person/",
   "name": "Group Tutoring: Java for AP Computer Science",
   "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5236244860.png",
   "description": "Get ready for AP Computer Science A with small-group Java tutoring at Blue Ridge Boost. Master OOP, algorithms, and exam skills with expert instructors. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .",
   "provider": {
-    "@type": "Organization",
+    "@type": "EducationalOrganization",
     "name": "Blue Ridge Boost",
-    "sameAs": "https://blueridgeboost.com"
+    "sameAs": "https://blueridgeboost.com/",
+    "url": "https://blueridgeboost.com/"
   },
   "inLanguage": "en",
-  "educationalLevel": "Beginner",
-  "learningResourceType": "Course",
+  "educationalLevel": [
+    "8th grade",
+    "9th grade",
+    "10th grade",
+    "11th grade",
+    "12th grade"
+  ],
+  "typicalAgeRange": "13-18",
   "thumbnailUrl": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5236244860.png",
   "isAccessibleForFree": false,
   "offers": {
     "@type": "AggregateOffer",
-    "offerCount": 2,
-    "lowPrice": "249.99",
+    "offerCount": 3,
+    "lowPrice": "212.49",
+    "highPrice": "249.99",
     "priceCurrency": "USD",
     "offers": [
       {
         "@type": "Offer",
-        "name": "Group Size",
-        "price": "224.99",
+        "name": "Group Size: One",
+        "price": "249.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/APCSA-In-Person"
+        "url": "https://blueridgeboost.com/classes/APCSA-In-Person/"
       },
       {
         "@type": "Offer",
-        "name": "Group Size",
+        "name": "Group Size: Two-Three",
+        "price": "224.99",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://blueridgeboost.com/classes/APCSA-In-Person/"
+      },
+      {
+        "@type": "Offer",
+        "name": "Group Size: Four",
         "price": "212.49",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/APCSA-In-Person"
+        "url": "https://blueridgeboost.com/classes/APCSA-In-Person/"
       }
     ]
   },
@@ -4261,12 +4277,46 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details__product-tit
     "object oriented programming",
     "ap frq preparation"
   ],
-  "topics": [
-    "java",
-    "object-oriented programming",
-    "data structures",
-    "algorithms",
-    "ap computer science a frqs"
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "java"
+    },
+    {
+      "@type": "Thing",
+      "name": "object-oriented programming"
+    },
+    {
+      "@type": "Thing",
+      "name": "data structures"
+    },
+    {
+      "@type": "Thing",
+      "name": "algorithms"
+    },
+    {
+      "@type": "Thing",
+      "name": "ap computer science a frqs"
+    }
+  ],
+  "hasCourseInstance": [
+    {
+      "@type": "CourseInstance",
+      "name": "Group Tutoring: Java for AP Computer Science (2025-2026)",
+      "courseMode": "InPerson",
+      "location": {
+        "@type": "Place",
+        "name": "Blue Ridge Boost",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2171 Ivy Rd",
+          "addressLocality": "Charlottesville",
+          "addressRegion": "VA",
+          "postalCode": "22903",
+          "addressCountry": "US"
+        }
+      }
+    }
   ]
 }
 </script>

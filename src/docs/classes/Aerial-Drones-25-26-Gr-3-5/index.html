@@ -4215,42 +4215,56 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details__product-tit
 {
   "@type": "Course",
   "@context": "https://schema.org",
-  "@id": "https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-3-5",
-  "url": "https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-3-5",
+  "@id": "https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-3-5/",
+  "url": "https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-3-5/",
   "name": "Aerial Drone Competition for Grades 3-5",
   "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5148209264.png",
   "description": "Join the Aerial Drone Competition for Grades 3-5 at Blue Ridge Boost in Charlottesville, VA. Take on the Sky High Challenge by learning piloting and coding skills in an exciting, hands-on environment. Contact us at (434) 260-0636 or nora@blueridgeboost.com for details. Located at 2171 Ivy Rd.",
   "provider": {
-    "@type": "Organization",
+    "@type": "EducationalOrganization",
     "name": "Blue Ridge Boost",
-    "sameAs": "https://blueridgeboost.com"
+    "sameAs": "https://blueridgeboost.com/",
+    "url": "https://blueridgeboost.com/"
   },
   "inLanguage": "en",
-  "educationalLevel": "Beginner",
-  "learningResourceType": "Course",
+  "educationalLevel": [
+    "3rd grade",
+    "4th grade",
+    "5th grade"
+  ],
+  "typicalAgeRange": "8-11",
   "thumbnailUrl": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5148209264.png",
   "isAccessibleForFree": false,
   "offers": {
     "@type": "AggregateOffer",
-    "offerCount": 2,
-    "lowPrice": "199.99",
+    "offerCount": 3,
+    "lowPrice": "169.99",
+    "highPrice": "199.99",
     "priceCurrency": "USD",
     "offers": [
       {
         "@type": "Offer",
-        "name": "Group Size",
-        "price": "179.99",
+        "name": "Group Size: One",
+        "price": "199.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-3-5"
+        "url": "https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-3-5/"
       },
       {
         "@type": "Offer",
-        "name": "Group Size",
+        "name": "Group Size: Two-Three",
+        "price": "179.99",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-3-5/"
+      },
+      {
+        "@type": "Offer",
+        "name": "Group Size: Four+",
         "price": "169.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-3-5"
+        "url": "https://blueridgeboost.com/classes/Aerial-Drones-25-26-Gr-3-5/"
       }
     ]
   },
@@ -4261,12 +4275,58 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details__product-tit
     "northern virginia",
     "stem"
   ],
-  "topics": [
-    "drone piloting",
-    "autonomous missions",
-    "aerial drone competition",
-    "team collaboration",
-    "stem skills"
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "drone piloting"
+    },
+    {
+      "@type": "Thing",
+      "name": "autonomous missions"
+    },
+    {
+      "@type": "Thing",
+      "name": "aerial drone competition"
+    },
+    {
+      "@type": "Thing",
+      "name": "team collaboration"
+    },
+    {
+      "@type": "Thing",
+      "name": "stem skills"
+    }
+  ],
+  "hasCourseInstance": [
+    {
+      "@type": "CourseInstance",
+      "name": "Aerial Drone Competition for Grades 3-5 (2025-2026)",
+      "courseMode": "InPerson",
+      "location": {
+        "@type": "Place",
+        "name": "Blue Ridge Boost",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2171 Ivy Rd",
+          "addressLocality": "Charlottesville",
+          "addressRegion": "VA",
+          "postalCode": "22903",
+          "addressCountry": "US"
+        }
+      },
+      "eventSchedule": {
+        "@type": "Schedule",
+        "byDay": [
+          "https://schema.org/Saturday"
+        ],
+        "repeatFrequency": "P1W",
+        "scheduleTimezone": "America/New_York",
+        "startDate": "2025-11-09",
+        "endDate": "2026-02-28",
+        "startTime": "13:30",
+        "endTime": "15:00"
+      }
+    }
   ]
 }
 </script>

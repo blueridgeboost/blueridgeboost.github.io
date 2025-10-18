@@ -4215,34 +4215,51 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details__product-tit
 {
   "@type": "Course",
   "@context": "https://schema.org",
-  "@id": "https://blueridgeboost.com/classes/CMRA-AutonomyFoundations-25-26",
-  "url": "https://blueridgeboost.com/classes/CMRA-AutonomyFoundations-25-26",
+  "@id": "https://blueridgeboost.com/classes/CMRA-AutonomyFoundations-25-26/",
+  "url": "https://blueridgeboost.com/classes/CMRA-AutonomyFoundations-25-26/",
   "name": "Carnegie Mellon Robotics Academy: Autonomy Foundations",
   "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5076045962.png",
   "description": "From beginner to roboticist—build autonomy skills with Blue Ridge Boost’s CMRA Autonomy Foundations course. Expert-led robotics training with hands-on practice. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .",
   "provider": {
-    "@type": "Organization",
+    "@type": "EducationalOrganization",
     "name": "Blue Ridge Boost",
-    "sameAs": "https://blueridgeboost.com"
+    "sameAs": "https://blueridgeboost.com/",
+    "url": "https://blueridgeboost.com/"
   },
   "inLanguage": "en",
-  "educationalLevel": "Beginner",
-  "learningResourceType": "Course",
+  "educationalLevel": [
+    "7th grade",
+    "8th grade",
+    "9th grade",
+    "10th grade",
+    "11th grade",
+    "12th grade"
+  ],
+  "typicalAgeRange": "12-18",
   "thumbnailUrl": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5076045962.png",
   "isAccessibleForFree": false,
   "offers": {
     "@type": "AggregateOffer",
-    "offerCount": 1,
-    "lowPrice": "399.99",
+    "offerCount": 2,
+    "lowPrice": "359.99",
+    "highPrice": "399.99",
     "priceCurrency": "USD",
     "offers": [
       {
         "@type": "Offer",
-        "name": "Group Size",
+        "name": "Group Size: One",
+        "price": "399.99",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://blueridgeboost.com/classes/CMRA-AutonomyFoundations-25-26/"
+      },
+      {
+        "@type": "Offer",
+        "name": "Group Size: Two",
         "price": "359.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/CMRA-AutonomyFoundations-25-26"
+        "url": "https://blueridgeboost.com/classes/CMRA-AutonomyFoundations-25-26/"
       }
     ]
   },
@@ -4253,12 +4270,46 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details__product-tit
     "apriltag navigation",
     "slam with jetbot"
   ],
-  "topics": [
-    "jetson nano",
-    "jetbot",
-    "collision avoidance",
-    "apriltag navigation",
-    "slam"
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "jetson nano"
+    },
+    {
+      "@type": "Thing",
+      "name": "jetbot"
+    },
+    {
+      "@type": "Thing",
+      "name": "collision avoidance"
+    },
+    {
+      "@type": "Thing",
+      "name": "apriltag navigation"
+    },
+    {
+      "@type": "Thing",
+      "name": "slam"
+    }
+  ],
+  "hasCourseInstance": [
+    {
+      "@type": "CourseInstance",
+      "name": "Carnegie Mellon Robotics Academy: Autonomy Foundations (2025-2026)",
+      "courseMode": "InPerson",
+      "location": {
+        "@type": "Place",
+        "name": "Blue Ridge Boost",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2171 Ivy Rd",
+          "addressLocality": "Charlottesville",
+          "addressRegion": "VA",
+          "postalCode": "22903",
+          "addressCountry": "US"
+        }
+      }
+    }
   ]
 }
 </script>

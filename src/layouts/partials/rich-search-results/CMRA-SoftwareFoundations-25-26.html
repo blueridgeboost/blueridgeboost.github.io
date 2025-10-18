@@ -2,42 +2,59 @@
 {
   "@type": "Course",
   "@context": "https://schema.org",
-  "@id": "https://blueridgeboost.com/classes/CMRA-SoftwareFoundations-25-26",
-  "url": "https://blueridgeboost.com/classes/CMRA-SoftwareFoundations-25-26",
+  "@id": "https://blueridgeboost.com/classes/CMRA-SoftwareFoundations-25-26/",
+  "url": "https://blueridgeboost.com/classes/CMRA-SoftwareFoundations-25-26/",
   "name": "Carnegie Mellon Robotics Academy: Software Foundations",
   "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5076062145.png",
   "description": "From beginner to roboticist—build core programming and robotics skills in Blue Ridge Boost’s CMRA Software Foundations course. Expert-led lessons with hands-on practice. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .",
   "provider": {
-    "@type": "Organization",
+    "@type": "EducationalOrganization",
     "name": "Blue Ridge Boost",
-    "sameAs": "https://blueridgeboost.com"
+    "sameAs": "https://blueridgeboost.com/",
+    "url": "https://blueridgeboost.com/"
   },
   "inLanguage": "en",
-  "educationalLevel": "Beginner",
-  "learningResourceType": "Course",
+  "educationalLevel": [
+    "7th grade",
+    "8th grade",
+    "9th grade",
+    "10th grade",
+    "11th grade",
+    "12th grade"
+  ],
+  "typicalAgeRange": "12-18",
   "thumbnailUrl": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5076062145.png",
   "isAccessibleForFree": false,
   "offers": {
     "@type": "AggregateOffer",
-    "offerCount": 2,
-    "lowPrice": "299.99",
+    "offerCount": 3,
+    "lowPrice": "224.99",
+    "highPrice": "299.99",
     "priceCurrency": "USD",
     "offers": [
       {
         "@type": "Offer",
-        "name": "Group Size",
-        "price": "269.99",
+        "name": "Group Size: One",
+        "price": "299.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/CMRA-SoftwareFoundations-25-26"
+        "url": "https://blueridgeboost.com/classes/CMRA-SoftwareFoundations-25-26/"
       },
       {
         "@type": "Offer",
-        "name": "Group Size",
+        "name": "Group Size: Two-Three",
+        "price": "269.99",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://blueridgeboost.com/classes/CMRA-SoftwareFoundations-25-26/"
+      },
+      {
+        "@type": "Offer",
+        "name": "Group Size: Four+",
         "price": "224.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/CMRA-SoftwareFoundations-25-26"
+        "url": "https://blueridgeboost.com/classes/CMRA-SoftwareFoundations-25-26/"
       }
     ]
   },
@@ -48,12 +65,58 @@
     "camera based navigation",
     "robotics certification"
   ],
-  "topics": [
-    "arduino",
-    "shieldbot",
-    "open-loop navigation",
-    "robot sensors",
-    "pixycam blob detection"
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "arduino"
+    },
+    {
+      "@type": "Thing",
+      "name": "shieldbot"
+    },
+    {
+      "@type": "Thing",
+      "name": "open-loop navigation"
+    },
+    {
+      "@type": "Thing",
+      "name": "robot sensors"
+    },
+    {
+      "@type": "Thing",
+      "name": "pixycam blob detection"
+    }
+  ],
+  "hasCourseInstance": [
+    {
+      "@type": "CourseInstance",
+      "name": "Carnegie Mellon Robotics Academy: Software Foundations (2025-2026)",
+      "courseMode": "InPerson",
+      "location": {
+        "@type": "Place",
+        "name": "Blue Ridge Boost",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2171 Ivy Rd",
+          "addressLocality": "Charlottesville",
+          "addressRegion": "VA",
+          "postalCode": "22903",
+          "addressCountry": "US"
+        }
+      },
+      "eventSchedule": {
+        "@type": "Schedule",
+        "byDay": [
+          "https://schema.org/Wednesday"
+        ],
+        "repeatFrequency": "P1W",
+        "scheduleTimezone": "America/New_York",
+        "startDate": "2025-11-09",
+        "endDate": "2026-05-20",
+        "startTime": "18:00",
+        "endTime": "19:30"
+      }
+    }
   ]
 }
 </script>

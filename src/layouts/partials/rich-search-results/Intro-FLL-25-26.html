@@ -2,42 +2,56 @@
 {
   "@type": "Course",
   "@context": "https://schema.org",
-  "@id": "https://blueridgeboost.com/classes/Intro-FLL-25-26",
-  "url": "https://blueridgeboost.com/classes/Intro-FLL-25-26",
+  "@id": "https://blueridgeboost.com/classes/Intro-FLL-25-26/",
+  "url": "https://blueridgeboost.com/classes/Intro-FLL-25-26/",
   "name": "Intro to FIRST LEGO League",
   "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5074270639.png",
   "description": "Build bright futures with an introduction to FIRST LEGO League at Blue Ridge Boost. Hands-on LEGO robotics, teamwork, and problem-solving for aspiring innovators. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .",
   "provider": {
-    "@type": "Organization",
+    "@type": "EducationalOrganization",
     "name": "Blue Ridge Boost",
-    "sameAs": "https://blueridgeboost.com"
+    "sameAs": "https://blueridgeboost.com/",
+    "url": "https://blueridgeboost.com/"
   },
   "inLanguage": "en",
-  "educationalLevel": "Beginner",
-  "learningResourceType": "Course",
+  "educationalLevel": [
+    "3rd grade",
+    "4th grade",
+    "5th grade"
+  ],
+  "typicalAgeRange": "8-11",
   "thumbnailUrl": "https://d2j6dbq0eux0bg.cloudfront.net/images/106136041/5074270639.png",
   "isAccessibleForFree": false,
   "offers": {
     "@type": "AggregateOffer",
-    "offerCount": 2,
-    "lowPrice": "149.99",
+    "offerCount": 3,
+    "lowPrice": "134.99",
+    "highPrice": "149.99",
     "priceCurrency": "USD",
     "offers": [
       {
         "@type": "Offer",
-        "name": "Group Size",
-        "price": "142.49",
+        "name": "Group Size: One",
+        "price": "149.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/Intro-FLL-25-26"
+        "url": "https://blueridgeboost.com/classes/Intro-FLL-25-26/"
       },
       {
         "@type": "Offer",
-        "name": "Group Size",
+        "name": "Group Size: Two-Three",
+        "price": "142.49",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://blueridgeboost.com/classes/Intro-FLL-25-26/"
+      },
+      {
+        "@type": "Offer",
+        "name": "Group Size: Four+",
         "price": "134.99",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://blueridgeboost.com/classes/Intro-FLL-25-26"
+        "url": "https://blueridgeboost.com/classes/Intro-FLL-25-26/"
       }
     ]
   },
@@ -48,12 +62,58 @@
     "robot building",
     "block coding"
   ],
-  "topics": [
-    "first lego league",
-    "lego spike prime",
-    "block coding",
-    "robot building",
-    "teamwork and core values"
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "first lego league"
+    },
+    {
+      "@type": "Thing",
+      "name": "lego spike prime"
+    },
+    {
+      "@type": "Thing",
+      "name": "block coding"
+    },
+    {
+      "@type": "Thing",
+      "name": "robot building"
+    },
+    {
+      "@type": "Thing",
+      "name": "teamwork and core values"
+    }
+  ],
+  "hasCourseInstance": [
+    {
+      "@type": "CourseInstance",
+      "name": "Intro to FIRST LEGO League (2025-2026)",
+      "courseMode": "InPerson",
+      "location": {
+        "@type": "Place",
+        "name": "Blue Ridge Boost",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2171 Ivy Rd",
+          "addressLocality": "Charlottesville",
+          "addressRegion": "VA",
+          "postalCode": "22903",
+          "addressCountry": "US"
+        }
+      },
+      "eventSchedule": {
+        "@type": "Schedule",
+        "byDay": [
+          "https://schema.org/Tuesday"
+        ],
+        "repeatFrequency": "P1W",
+        "scheduleTimezone": "America/New_York",
+        "startDate": "2025-09-06",
+        "endDate": "2025-12-19",
+        "startTime": "16:30",
+        "endTime": "17:30"
+      }
+    }
   ]
 }
 </script>
