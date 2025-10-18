@@ -16,7 +16,7 @@ enableRobotsTXT = true
 cleanDestinationDir = true
 disablePathToLower = true
 enableEmoji = true
-publishDir = '../docs'
+# publishDir = 'docs'
 
 ########################### Services #############################
 [services]
