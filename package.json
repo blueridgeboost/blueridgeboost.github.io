@@ -13,7 +13,7 @@
     "github": "npm run clean && npm run config && npm run html && npm run copy && git add -A :/ && git commit -m '$npm_config_message' && git push",
     "githubdev": "npm run github",
     "dev": "hugo server --disableFastRender --buildDrafts --watch --destination docs --source ./src/",
-    "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic --source ./src/",
+    "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic --source ./src/ --destination docs",
     "preview": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify --source ./src/",
     "format": "prettier -w ."
   },
