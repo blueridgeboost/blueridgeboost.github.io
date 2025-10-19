@@ -9,7 +9,7 @@
     "updateAiGen": "node ./src/staticjs/keywords-and-topics.mjs",
     "clean": "rimraf docs",
     "html": "hugo --destination docs --source ./src/",
-    "copy": "cpy CNAME docs --parents=false",
+    "copy": "cpy --no-parents CNAME docs && cpy src/docs/**/* ./docs",
     "github": "npm run clean && npm run config && npm run build && npm run copy && git add -A :/ && git commit -m '$npm_config_message' && git push",
     "githubdev": "npm run github",
     "dev": "hugo server --disableFastRender --buildDrafts --watch --destination docs --source ./src/",
