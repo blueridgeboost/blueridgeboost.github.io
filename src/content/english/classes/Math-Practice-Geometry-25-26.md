@@ -19,7 +19,11 @@ description: >-
   Personalized geometry homework help from expert instructors at Blue Ridge
   Boost. Build understanding, confidence, and grades with targeted math support.
   Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .
-day_tags: '["Mon","Wed"]'
-grade_tags: '["8th","9th"]'
+day_tags:
+  - Mon
+  - Wed
+grade_tags:
+  - 8th
+  - 9th
 ---
 

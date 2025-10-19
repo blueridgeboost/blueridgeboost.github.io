@@ -19,7 +19,12 @@ description: >-
   Get ready for AP Computer Science Principles with small-group tutoring at Blue
   Ridge Boost. Expert guidance on core concepts, practice, and exam prep.
   Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .
-day_tags: '[]'
-grade_tags: '["8th","9th","10th", "11th", "12th"]'
+day_tags: []
+grade_tags:
+  - 8th
+  - 9th
+  - 10th
+  - 11th
+  - 12th
 ---
 

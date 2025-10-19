@@ -20,7 +20,10 @@ description: >-
   Charlottesville, VA. Engage in building robots, solving challenges, and
   developing STEM skills in a hands-on, fun environment. Contact us at (434)
   260-0636 or nora@blueridgeboost.com for more details. Located at 2171 Ivy Rd.
-day_tags: '["Thu"]'
-grade_tags: '["4th","5th"]'
+day_tags:
+  - Thu
+grade_tags:
+  - 4th
+  - 5th
 ---
 

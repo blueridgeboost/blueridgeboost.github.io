@@ -19,7 +19,10 @@ description: >-
   Take on science challenges with Lain at Blue Ridge Boost. Hands-on experiments
   and problem-solving in Charlottesville, VA. Contact (434) 260-0636 or
   nora@blueridgeboost.com .
-day_tags: '["Sun"]'
-grade_tags: '["4th","5th"]'
+day_tags:
+  - Sun
+grade_tags:
+  - 4th
+  - 5th
 ---
 

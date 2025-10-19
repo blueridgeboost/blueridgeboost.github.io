@@ -20,7 +20,9 @@ description: >-
   support from expert instructors to build confidence and improve grades.
   Located in Charlottesville, VA. Contact (434) 260-0636 or
   nora@blueridgeboost.com .
-day_tags: '[]'
-grade_tags: '["7th","8th"]'
+day_tags: []
+grade_tags:
+  - 7th
+  - 8th
 ---
 

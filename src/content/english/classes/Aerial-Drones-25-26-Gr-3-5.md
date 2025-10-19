@@ -20,7 +20,11 @@ description: >-
   Charlottesville, VA. Take on the Sky High Challenge by learning piloting and
   coding skills in an exciting, hands-on environment. Contact us at (434)
   260-0636 or nora@blueridgeboost.com for details. Located at 2171 Ivy Rd.
-day_tags: '["Sat"]'
-grade_tags: '["3rd","4th","5th"]'
+day_tags:
+  - Sat
+grade_tags:
+  - 3rd
+  - 4th
+  - 5th
 ---
 

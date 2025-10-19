@@ -20,7 +20,13 @@ description: >-
   Beginner-friendly Saturday course with supportive instruction and hands-on
   coding. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com
   .
-day_tags: '[]'
-grade_tags: '["7th","8th","9th","10th","11th","12th"]'
+day_tags: []
+grade_tags:
+  - 7th
+  - 8th
+  - 9th
+  - 10th
+  - 11th
+  - 12th
 ---
 

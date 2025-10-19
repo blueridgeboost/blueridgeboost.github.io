@@ -20,7 +20,12 @@ description: >-
   Learn to code video games, animations, and more with Scratch at Blue Ridge
   Boost. Beginner-friendly, hands-on block coding in Charlottesville, VA.
   Contact (434) 260-0636 or nora@blueridgeboost.com .
-day_tags: '["Mon"]'
-grade_tags: '["1st","2nd","3rd","4th"]'
+day_tags:
+  - Mon
+grade_tags:
+  - 1st
+  - 2nd
+  - 3rd
+  - 4th
 ---
 

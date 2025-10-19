@@ -20,7 +20,14 @@ description: >-
   Ridge Boost’s CMRA Mechanical Foundations course. Expert guidance, practical
   builds, and real-world skills. Charlottesville, VA. Contact (434) 260-0636 or
   nora@blueridgeboost.com .
-day_tags: '["Mon"]'
-grade_tags: '["7th","8th","9th","10th", "11th", "12th"]'
+day_tags:
+  - Mon
+grade_tags:
+  - 7th
+  - 8th
+  - 9th
+  - 10th
+  - 11th
+  - 12th
 ---
 

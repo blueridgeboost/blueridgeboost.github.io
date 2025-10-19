@@ -20,7 +20,11 @@ description: >-
   VA. Engage in building robots, solving complex challenges, and enhancing STEM
   skills in a fun, interactive environment. Contact us at (434) 260-0636 or
   nora@blueridgeboost.com for more information. Located at 2171 Ivy Rd
-day_tags: '["Thu"]'
-grade_tags: '["6th","7th","8th"]'
+day_tags:
+  - Thu
+grade_tags:
+  - 6th
+  - 7th
+  - 8th
 ---
 

@@ -19,7 +19,8 @@ description: >-
   Math Builders for 3rd graders at Blue Ridge Boost. Group tutoring focused on
   math support to build skills and confidence. Charlottesville, VA. Contact
   (434) 260-0636 or nora@blueridgeboost.com .
-day_tags: '[]'
-grade_tags: '["3rd"]'
+day_tags: []
+grade_tags:
+  - 3rd
 ---
 

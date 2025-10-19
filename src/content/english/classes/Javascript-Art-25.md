@@ -19,7 +19,11 @@ description: >-
   Digital art course using JavaScript. Learn to code creative visuals and
   interactive graphics at Blue Ridge Boost. Charlottesville, VA. Contact (434)
   260-0636 or nora@blueridgeboost.com .
-day_tags: '[]'
-grade_tags: '["5th", "6th", "7th","8th"]'
+day_tags: []
+grade_tags:
+  - 5th
+  - 6th
+  - 7th
+  - 8th
 ---
 

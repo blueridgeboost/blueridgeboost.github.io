@@ -19,7 +19,11 @@ description: >-
   Build a playable Roblox game in 6 sessions at Blue Ridge Boost. Learn
   foundations of game creation with guided instruction in Charlottesville, VA.
   Contact (434) 260-0636 or nora@blueridgeboost.com .
-day_tags: '["Sun"]'
-grade_tags: '["3rd","4th","5th"]'
+day_tags:
+  - Sun
+grade_tags:
+  - 3rd
+  - 4th
+  - 5th
 ---
 

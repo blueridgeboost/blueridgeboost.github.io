@@ -19,7 +19,10 @@ description: >-
   Adventures in text programming for grades 3–4. Students learn real coding
   fundamentals through fun challenges at Blue Ridge Boost. Charlottesville, VA.
   Contact (434) 260-0636 or nora@blueridgeboost.com .
-day_tags: '["Sun"]'
-grade_tags: '["3rd", "4th"]'
+day_tags:
+  - Sun
+grade_tags:
+  - 3rd
+  - 4th
 ---
 

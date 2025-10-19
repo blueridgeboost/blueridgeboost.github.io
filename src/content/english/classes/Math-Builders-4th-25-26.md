@@ -19,7 +19,10 @@ description: >-
   Supportive 4th grade math group tutoring at Blue Ridge Boost. Focused math
   support to build skills, confidence, and problem-solving. Charlottesville, VA.
   Contact (434) 260-0636 or nora@blueridgeboost.com .
-day_tags: '["Mon","Wed"]'
-grade_tags: '["4th"]'
+day_tags:
+  - Mon
+  - Wed
+grade_tags:
+  - 4th
 ---
 

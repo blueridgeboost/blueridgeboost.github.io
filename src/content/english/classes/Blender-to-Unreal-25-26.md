@@ -23,7 +23,14 @@ description: >-
   Engine. Complete the course in 6–9 months, or as quickly as 4–6 months with
   prior experience. Enjoy group discounts of 10% (2–3 members) or 15% (4
   members) and finish with a stunning medieval dungeon project!
-day_tags: '["Mon"]'
-grade_tags: '["7th","8th","9th","10th","11th","12th"]'
+day_tags:
+  - Mon
+grade_tags:
+  - 7th
+  - 8th
+  - 9th
+  - 10th
+  - 11th
+  - 12th
 ---
 

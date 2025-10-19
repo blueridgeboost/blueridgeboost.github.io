@@ -198,7 +198,7 @@ function duration(item) {
 
 function dayTags(item) {
     const day_tags = JSON.parse(getAttributeValue(item, 'day_of_week') || "[]").map(d => String(d).slice(0, 3));
-    return JSON.stringify(day_tags);
+    return day_tags;
 }
 
 function byDay(item) {
@@ -206,7 +206,7 @@ function byDay(item) {
 }
 
 function gradeTags(item) {
-    return getAttributeValue(item, 'grades');
+    return JSON.parse(getAttributeValue(item, 'grades'));
 }
 function ordinalToNumber(s) {
   const digits = s.match(/\d+/);

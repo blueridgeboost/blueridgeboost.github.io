@@ -21,7 +21,13 @@ description: >-
   tackling challenging Sky High missions in an engaging STEM environment.
   Contact us at (434) 260-0636 or nora@blueridgeboost.com for more information.
   Located at 2171 Ivy Rd.
-day_tags: '["Sat"]'
-grade_tags: '["8th","9th","10th","11th","12th"]'
+day_tags:
+  - Sat
+grade_tags:
+  - 8th
+  - 9th
+  - 10th
+  - 11th
+  - 12th
 ---
 

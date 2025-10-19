@@ -20,7 +20,10 @@ description: >-
   Charlottesville, VA. Inspire curiosity and critical thinking with engaging
   lessons that explore the beauty of mathematics. Contact us at (434) 260-0636
   or nora@blueridgeboost.com for more information. Located at 2171 Ivy Rd.
-day_tags: '["Tue","Thu"]'
-grade_tags: '["4th"]'
+day_tags:
+  - Tue
+  - Thu
+grade_tags:
+  - 4th
 ---
 

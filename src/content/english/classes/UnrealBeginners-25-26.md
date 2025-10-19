@@ -19,7 +19,11 @@ description: >-
   course at Blue Ridge Boost with hands-on projects to learn level design,
   blueprints, and game creation. Charlottesville, VA. Contact (434) 260-0636 or
   nora@blueridgeboost.com .
-day_tags: '[]'
-grade_tags: '["7th","8th","9th","10th"]'
+day_tags: []
+grade_tags:
+  - 7th
+  - 8th
+  - 9th
+  - 10th
 ---
 

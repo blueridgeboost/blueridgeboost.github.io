@@ -20,7 +20,13 @@ description: >-
   Boost. Learn core security concepts, tools, and best practices with expert
   guidance. Charlottesville, VA. Contact (434) 260-0636 or
   nora@blueridgeboost.com .
-day_tags: '[]'
-grade_tags: '["7th","8th","9th","10th","11th","12th"]'
+day_tags: []
+grade_tags:
+  - 7th
+  - 8th
+  - 9th
+  - 10th
+  - 11th
+  - 12th
 ---
 

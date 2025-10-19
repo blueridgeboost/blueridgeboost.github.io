@@ -19,7 +19,10 @@ description: >-
   Try all kinds of robots at Blue Ridge Boost in our Intro to Robotics class.
   Hands-on exploration and guided learning in Charlottesville, VA. Contact (434)
   260-0636 or nora@blueridgeboost.com .
-day_tags: '["Wed"]'
-grade_tags: '["1st","2nd"]'
+day_tags:
+  - Wed
+grade_tags:
+  - 1st
+  - 2nd
 ---
 

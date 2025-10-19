@@ -19,7 +19,12 @@ description: >-
   From beginner to programmer—learn Java at Blue Ridge Boost with step-by-step
   instruction and hands-on practice. Charlottesville, VA. Contact (434) 260-0636
   or nora@blueridgeboost.com .
-day_tags: '["Thu"]'
-grade_tags: '["9th","10th","11th","12th"]'
+day_tags:
+  - Thu
+grade_tags:
+  - 9th
+  - 10th
+  - 11th
+  - 12th
 ---
 

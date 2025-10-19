@@ -19,7 +19,11 @@ description: >-
   Learn to make video games with Unity at Blue Ridge Boost. Beginner-friendly
   course with hands-on projects to build game design and programming skills.
   Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .
-day_tags: '[]'
-grade_tags: '["7th","8th","9th","10th"]'
+day_tags: []
+grade_tags:
+  - 7th
+  - 8th
+  - 9th
+  - 10th
 ---
 

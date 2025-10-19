@@ -20,7 +20,11 @@ description: >-
   Boost. Hands-on LEGO robotics, teamwork, and problem-solving for aspiring
   innovators. Charlottesville, VA. Contact (434) 260-0636 or
   nora@blueridgeboost.com .
-day_tags: '["Tue"]'
-grade_tags: '["3rd", "4th","5th"]'
+day_tags:
+  - Tue
+grade_tags:
+  - 3rd
+  - 4th
+  - 5th
 ---
 

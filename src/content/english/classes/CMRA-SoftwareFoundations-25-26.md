@@ -21,7 +21,14 @@ description: >-
   Ridge Boost’s CMRA Software Foundations course. Expert-led lessons with
   hands-on practice. Charlottesville, VA. Contact (434) 260-0636 or
   nora@blueridgeboost.com .
-day_tags: '["Wed"]'
-grade_tags: '["7th","8th","9th","10th", "11th", "12th"]'
+day_tags:
+  - Wed
+grade_tags:
+  - 7th
+  - 8th
+  - 9th
+  - 10th
+  - 11th
+  - 12th
 ---
 

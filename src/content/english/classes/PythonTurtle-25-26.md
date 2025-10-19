@@ -19,7 +19,10 @@ description: >-
   Guide Tracy to draw, code, and create while learning Python basics at Blue
   Ridge Boost. Beginner-friendly, hands-on coding in Charlottesville, VA.
   Contact (434) 260-0636 or nora@blueridgeboost.com .
-day_tags: '["Sun"]'
-grade_tags: '["5th","6th"]'
+day_tags:
+  - Sun
+grade_tags:
+  - 5th
+  - 6th
 ---
 

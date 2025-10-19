@@ -20,7 +20,10 @@ description: >-
   course at Blue Ridge Boost. Build problem-solving skills through in-game
   automation. Charlottesville, VA. Contact (434) 260-0636 or
   nora@blueridgeboost.com .
-day_tags: '["Mon"]'
-grade_tags: '["4th","5th"]'
+day_tags:
+  - Mon
+grade_tags:
+  - 4th
+  - 5th
 ---
 

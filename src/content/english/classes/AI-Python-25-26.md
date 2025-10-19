@@ -21,7 +21,11 @@ description: >-
   considerations, and coding in Python through engaging, hands-on lessons.
   Contact us at (434) 260-0636 or nora@blueridgeboost.com for more information.
   Located at 2171 Ivy Rd.
-day_tags: '[]'
-grade_tags: '["7th","8th","9th","10th"]'
+day_tags: []
+grade_tags:
+  - 7th
+  - 8th
+  - 9th
+  - 10th
 ---
 

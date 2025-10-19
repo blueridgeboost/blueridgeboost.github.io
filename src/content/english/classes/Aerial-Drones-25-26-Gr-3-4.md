@@ -19,7 +19,10 @@ description: >-
   Sky High Challenge—piloting and coding drones for grades 3–4 at Blue Ridge
   Boost. Hands-on STEM learning in Charlottesville, VA. Contact (434) 260-0636
   or nora@blueridgeboost.com .
-day_tags: '["Sat"]'
-grade_tags: '["3rd","4th"]'
+day_tags:
+  - Sat
+grade_tags:
+  - 3rd
+  - 4th
 ---
 

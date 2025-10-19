@@ -19,7 +19,10 @@ description: >-
   Learn Python with Code Monkey challenges at Blue Ridge Boost. Engaging,
   hands-on coding practice with supportive instruction in Charlottesville, VA.
   Contact (434) 260-0636 or nora@blueridgeboost.com .
-day_tags: '["Wed"]'
-grade_tags: '["4th","5th"]'
+day_tags:
+  - Wed
+grade_tags:
+  - 4th
+  - 5th
 ---
 

@@ -19,7 +19,10 @@ description: >-
   Gamified block-coding course at Blue Ridge Boost. Fun, beginner-friendly
   programming with engaging challenges to build problem-solving skills.
   Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .
-day_tags: '["Sat"]'
-grade_tags: '["1st", "2nd"]'
+day_tags:
+  - Sat
+grade_tags:
+  - 1st
+  - 2nd
 ---
 

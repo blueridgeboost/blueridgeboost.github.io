@@ -17,7 +17,10 @@ description: >-
   Learn Roblox game development with Lua at Blue Ridge Boost. Build, script, and
   publish your own games with guided instruction and hands-on projects.
   Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .
-day_tags: '["Wed"]'
-grade_tags: '["6th","7th"]'
+day_tags:
+  - Wed
+grade_tags:
+  - 6th
+  - 7th
 ---
 
