@@ -19,7 +19,10 @@ description: >-
   Beginner-friendly introduction to artificial intelligence at Blue Ridge Boost.
   Learn core AI concepts, hands-on examples, and real-world applications.
   Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .
-day_tags: '["Sat"]'
-grade_tags: '["5th","6th"]'
+day_tags:
+  - Sat
+grade_tags:
+  - 5th
+  - 6th
 ---
 

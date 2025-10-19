@@ -1,11 +1,21 @@
 {{ $page := . }}
 {{ $id := $page.Params.ecwid }}
 
+{{ $dayTags := partial "class-card-helpers/tags.html" .Params.day_tags }}
+{{ $scheduleTags := partial "class-card-helpers/tags.html" .Params.schedule_tags }}
+{{ $gradeTags := partial "class-card-helpers/tags.html" .Params.grade_tags }}
+{{ $subjectTags := partial "class-card-helpers/tags.html" .Params.subject_tags }}
+{{ $durationTags := partial "class-card-helpers/tags.html" .Params.duration_tags }}
+
 <div
     id="class-{{ $id }}"
     style="padding-left: 0px; padding-right: 0px; margin-right: 0.25rem; margin-left: 0.25rem;"
     class="ecsp-media"
-    {{ partial "class-card-helpers/attributes.html" . | safeHTMLAttr }}
+    data-day= "{{$dayTags}}"
+    data-schedule='{{ $scheduleTags }}'
+    data-grade='{{ $gradeTags }}'
+    data-subject='{{ $subjectTags }}'
+    data-duration="{{ $durationTags }}"
 >
     {{ with $page.Params.ribbon }}
         <span class="ecsp-ribbon">{{ . }}</span>
@@ -28,7 +38,7 @@
     </div>
 
 <!-- Optional: mirror Ecwid image into Product microdata so parsers can see it -->
-<script>
+<!-- <script>
     document.addEventListener('DOMContentLoaded', function () {
         var productEl = document.querySelector('.ec-Product-{{ $id }}[itemtype="https://schema.org/Product"]');
         if (!productEl) return;
@@ -53,7 +63,7 @@
         var obs = new MutationObserver(tagImg);
         obs.observe(productEl, { childList: true, subtree: true });
     });
-</script>
+</script> -->
 
 <script type="text/javascript">
     window.ec = window.ec || {};

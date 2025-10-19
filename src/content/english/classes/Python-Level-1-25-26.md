@@ -18,7 +18,11 @@ description: >-
   Prepare for the Python Level 1 certification exam at Blue Ridge Boost.
   Structured lessons, practice, and supportive instruction in Charlottesville,
   VA. Contact (434) 260-0636 or nora@blueridgeboost.com .
-day_tags: '["Sat"]'
-grade_tags: '["8th","9th","10th"]'
+day_tags:
+  - Sat
+grade_tags:
+  - 8th
+  - 9th
+  - 10th
 ---
 

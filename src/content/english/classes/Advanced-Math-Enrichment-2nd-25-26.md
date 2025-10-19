@@ -21,7 +21,9 @@ description: >-
   explore the beauty of mathematics. Contact us at (434) 260-0636 or
   nora@blueridgeboost.com. Located at 2171 Ivy Rd, we offer classes, camps,
   tutoring, and homeschool support.
-day_tags: '["Mon"]'
-grade_tags: '["2nd"]'
+day_tags:
+  - Mon
+grade_tags:
+  - 2nd
 ---
 

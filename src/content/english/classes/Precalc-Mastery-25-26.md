@@ -19,7 +19,11 @@ description: >-
   Get ahead in precalculus at Blue Ridge Boost. Master key concepts through
   teaching, guided practice, and supportive instruction. Charlottesville, VA.
   Contact (434) 260-0636 or nora@blueridgeboost.com .
-day_tags: '[]'
-grade_tags: '["9th","10th","11th","12th"]'
+day_tags: []
+grade_tags:
+  - 9th
+  - 10th
+  - 11th
+  - 12th
 ---
 

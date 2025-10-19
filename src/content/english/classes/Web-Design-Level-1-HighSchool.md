@@ -18,7 +18,13 @@ description: >-
   Prepare for the Web Design 1 certification exam at Blue Ridge Boost. High
   school web design skills and certification prep in Charlottesville, VA.
   Contact (434) 260-0636 or nora@blueridgeboost.com .
-day_tags: '[]'
-grade_tags: '["7th", "8th", "9th","10th","11th","12th"]'
+day_tags: []
+grade_tags:
+  - 7th
+  - 8th
+  - 9th
+  - 10th
+  - 11th
+  - 12th
 ---
 

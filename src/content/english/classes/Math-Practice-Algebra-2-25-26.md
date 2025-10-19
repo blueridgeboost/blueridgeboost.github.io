@@ -19,7 +19,10 @@ description: >-
   Targeted Algebra 2 homework help from Blue Ridge Boost. Personalized support
   from expert instructors to build confidence and improve grades. Based in
   Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .
-day_tags: '[]'
-grade_tags: '["8th","9th","10th"]'
+day_tags: []
+grade_tags:
+  - 8th
+  - 9th
+  - 10th
 ---
 

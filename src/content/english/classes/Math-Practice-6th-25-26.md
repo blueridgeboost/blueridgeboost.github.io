@@ -21,7 +21,9 @@ description: >-
   expert instructors provide engaging and tailored guidance. Located at 2171 Ivy
   Rd, contact us at (434) 260-0636 or nora@blueridgeboost.com to learn more
   about our classes, camps, tutoring, and homeschooler support!
-day_tags: '["Mon"]'
-grade_tags: '["6th"]'
+day_tags:
+  - Mon
+grade_tags:
+  - 6th
 ---
 

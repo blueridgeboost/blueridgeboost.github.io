@@ -19,7 +19,11 @@ description: >-
   Craft your very own Minecraft mods at Blue Ridge Boost. Learn to code custom
   mods in a fun, guided environment. Charlottesville, VA. Contact (434) 260-0636
   or nora@blueridgeboost.com .
-day_tags: '["Sat"]'
-grade_tags: '["7th","8th","9th"]'
+day_tags:
+  - Sat
+grade_tags:
+  - 7th
+  - 8th
+  - 9th
 ---
 

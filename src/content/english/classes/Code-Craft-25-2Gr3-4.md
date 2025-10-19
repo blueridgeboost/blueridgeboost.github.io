@@ -19,7 +19,10 @@ description: >-
   Learn to code in Minecraft for grades 3–4. Engaging, gamified programming that
   builds problem-solving, logic, and creativity at Blue Ridge Boost.
   Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .
-day_tags: '["Tue"]'
-grade_tags: '["3rd","4th"]'
+day_tags:
+  - Tue
+grade_tags:
+  - 3rd
+  - 4th
 ---
 

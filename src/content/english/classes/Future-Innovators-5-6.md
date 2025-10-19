@@ -19,7 +19,11 @@ description: >-
   Empower young minds with hands-on STEM projects, creativity, and
   problem-solving in Blue Ridge Boost’s Future Innovators program for grades
   5–7. Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .
-day_tags: '["Sun"]'
-grade_tags: '["5th","6th","7th"]'
+day_tags:
+  - Sun
+grade_tags:
+  - 5th
+  - 6th
+  - 7th
 ---
 

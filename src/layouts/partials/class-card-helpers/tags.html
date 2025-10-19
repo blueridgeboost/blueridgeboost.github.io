@@ -1,0 +1,7 @@
+{{- $dayTags := . -}}
+{{- $lower := slice -}}
+{{- range $dayTags }}
+  {{- $lower = $lower | append (lower .) -}}
+{{- end -}}
+{{- $dataDay := delimit $lower "#" -}}
+{{- return $dataDay -}}

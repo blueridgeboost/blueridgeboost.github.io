@@ -19,7 +19,10 @@ description: >-
   Earn a Carnegie Mellon Robotics Academy certification in VEX IQ coding at Blue
   Ridge Boost. Hands-on robotics learning in Charlottesville, VA. Contact (434)
   260-0636 or nora@blueridgeboost.com .
-day_tags: '[]'
-grade_tags: '[ "6th","7th","8th"]'
+day_tags: []
+grade_tags:
+  - 6th
+  - 7th
+  - 8th
 ---
 

@@ -19,7 +19,10 @@ description: >-
   Design. Build. Code. BATTLE! Join VEX Battle Bots for 5th–6th graders at Blue
   Ridge Boost in Charlottesville, VA. Contact (434) 260-0636 or
   nora@blueridgeboost.com .
-day_tags: '["Sun"]'
-grade_tags: '["5th","6th"]'
+day_tags:
+  - Sun
+grade_tags:
+  - 5th
+  - 6th
 ---
 

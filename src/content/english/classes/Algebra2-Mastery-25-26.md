@@ -20,7 +20,10 @@ description: >-
   Practice program. Expert-led instruction and focused practice to build deep
   understanding and confidence. Charlottesville, VA. Contact (434) 260-0636 or
   nora@blueridgeboost.com .
-day_tags: '[]'
-grade_tags: '["8th","9th","10th"]'
+day_tags: []
+grade_tags:
+  - 8th
+  - 9th
+  - 10th
 ---
 
