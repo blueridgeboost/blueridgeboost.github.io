@@ -372,41 +372,20 @@ function detectMimeType(filePath) {
 
 
 export async function updateProductMedia(productId, filePath) {
-     // 1) Read bytes and sanity-check
-     const bytes = await fs.readFile(filePath);
-     if (!bytes.length) throw new Error('Local file is empty: ' + filePath);
-
-     const sig = bytes.subarray(0, 12).toString('hex');
-     console.log('signature hex:', sig);
-
-     // 2) Detect mime from extension (quick heuristic)
-     const ext = filePath.toLowerCase().split('.').pop();
-     const mime =
-     ext === 'jpg' || ext === 'jpeg' ? 'image/jpeg' :
-     ext === 'png' ? 'image/png' :
-     ext === 'gif' ? 'image/gif' :
-     ext === 'webp' ? 'image/webp' :
-     'application/octet-stream'; // fallback
-
-     // 3) Build FormData with a Blob and a filename
-     const blob = new Blob([bytes], { type: mime });
-     const form = new FormData();
-     form.append('file', blob, `upload.${ext}`);
-
-     // 4) Post to the main image binary endpoint
-     const url = `https://app.ecwid.com/api/v3/${process.env.ECWID_STORE_ID}/products/${productId}/image`;
-     const res = await fetch(url, {
-     method: 'POST',
-     headers: {
-          Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`
-          // Let fetch set Content-Type with boundary automatically
-     },
-     body: form
-     });
-
-     const text = await res.text();
-     if (!res.ok) throw new Error(`Upload failed ${res.status}: ${text}`);
-     try { return JSON.parse(text); } catch { return text; }
+     
+    const url = `https://app.ecwid.com/api/v3/${process.env.ECWID_STORE_ID}/products/${productId}/image`;
+    const params = new URLSearchParams({ externalUrl: filePath,});
+    const options = {
+        method: 'GET',
+        headers: {
+            accept: 'application/json',
+            Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`
+        }
+    };
+    const res = await fetch(`${url}?${params.toString()}`, options);
+    const text = await res.text();
+    if (!res.ok) throw new Error(`Upload failed ${res.status}: ${text}`);
+    try { return JSON.parse(text); } catch { return text; }
 }
 
 
