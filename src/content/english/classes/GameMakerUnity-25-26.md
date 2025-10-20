@@ -10,7 +10,7 @@ price: 249.99
 price_unit: per month
 category: Ongoing
 duration: 2-3 mo
-weight: 49
+weight: 48
 page_title: 'Game Makers: Intro to Unity'
 page_subtitle: Learn to make video games using Unity!
 ribbon: On Demand

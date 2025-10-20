@@ -13,7 +13,7 @@ duration: 4 wk
 weight: 25
 page_title: Science Challenge Hour
 page_subtitle: Take on Science Challenges with Lain!
-ribbon: Starts Oct 19
+ribbon: Starts Nov 2
 title: Science Challenge Hour | Blue Ridge Boost
 description: >-
   Take on science challenges with Lain at Blue Ridge Boost. Hands-on experiments

@@ -9,7 +9,7 @@ subject_tags:
 price: 249.99
 price_unit: per session
 category: One Time
-weight: 55
+weight: 54
 page_title: Web Development 1
 page_subtitle: Preparation and Certification Exam
 ribbon: On Demand

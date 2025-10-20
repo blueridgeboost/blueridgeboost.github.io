@@ -10,11 +10,11 @@ price: 149.99
 price_unit: per month
 category: Ongoing
 duration: Flexible
-weight: 8
-page_title: 'Math Builders: 3rd Grade'
+weight: 9
+page_title: Boost 3rd Grade Math Skills
 page_subtitle: Math Support
 ribbon: On Demand
-title: 'Math Builders: 3rd Grade | Blue Ridge Boost'
+title: Boost 3rd Grade Math Skills | Blue Ridge Boost
 description: >-
   Math Builders for 3rd graders at Blue Ridge Boost. Group tutoring focused on
   math support to build skills and confidence. Charlottesville, VA. Contact

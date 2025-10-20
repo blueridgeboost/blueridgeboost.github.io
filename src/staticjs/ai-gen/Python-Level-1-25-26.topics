@@ -1,7 +1,7 @@
 [
-  "Python programming",
-  "control flow",
-  "loops",
+  "python programming",
+  "conditionals and loops",
   "functions",
-  "file I/O"
+  "data structures",
+  "file handling"
 ]

@@ -1,7 +1,7 @@
 [
   "vex iq",
   "vexcode iq blocks",
-  "robot movement",
-  "digital and analog sensors",
-  "loops and decisions"
+  "behavior based programming",
+  "robot sensors",
+  "robot drivetrain"
 ]

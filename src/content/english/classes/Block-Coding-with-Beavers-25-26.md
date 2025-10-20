@@ -13,7 +13,7 @@ duration: 6 wk
 weight: 5
 page_title: Block Coding with Beavers
 page_subtitle: Gamified coding course
-ribbon: Starts Oct 19
+ribbon: Starts Nov 2
 title: Block Coding with Beavers | Blue Ridge Boost
 description: >-
   Gamified block-coding course at Blue Ridge Boost. Fun, beginner-friendly

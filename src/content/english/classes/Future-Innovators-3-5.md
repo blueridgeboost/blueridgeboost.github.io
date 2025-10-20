@@ -11,7 +11,7 @@ price: 169.99
 price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 17
+weight: 18
 page_title: Future Innovators (Grades 3 to 5)
 page_subtitle: Empowering Young Minds
 ribbon: Starts Nov 9
