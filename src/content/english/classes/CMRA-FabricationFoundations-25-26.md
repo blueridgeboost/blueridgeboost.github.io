@@ -10,7 +10,7 @@ price: 499.99
 price_unit: "for function duration(item) {\r\n    const duration = getAttributeValue(item, 'Duration (in weeks)');\r\n    if (isSession(item)) {\r\n       return `${duration} wk`;\r\n    } else if (isOngoing(item)) {\r\n        if (duration === undefined) {\r\n            return \"Flexible\";\r\n        } else if (duration <= 12) {\r\n            return \"2-3 mo\";\r\n        } else if (duration <= 24) {\r\n            return \"4-6 mo\";\r\n        } else {\r\n            return \"6+ mo\";\r\n        }\r\n    } else if (isSingle(item)) {\r\n        return \"1 wk\";\r\n    }\r\n} sessions"
 category: Session
 duration: 8 wk
-weight: 47
+weight: 46
 page_title: 'Carnegie Mellon Robotics Academy: Fabrication Foundations'
 page_subtitle: 'From Drawings to Reality: Fabricate, Measure, 3D Print!'
 ribbon: Starts Nov 14
@@ -29,5 +29,7 @@ grade_tags:
   - 10th
   - 11th
   - 12th
+start_time: 5:30 PM
+end_time: 7:30 PM
 ---
 

@@ -8,10 +8,10 @@ subject_tags:
   - Robotics
   - Computer Coding
 price: 299.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 50
+weight: 49
 page_title: 'Carnegie Mellon Robotics Academy: Software Foundations'
 page_subtitle: From Beginner to Roboticist!
 ribbon: Starts Nov 10
@@ -30,5 +30,7 @@ grade_tags:
   - 10th
   - 11th
   - 12th
+start_time: 6:00 PM
+end_time: 7:30 PM
 ---
 

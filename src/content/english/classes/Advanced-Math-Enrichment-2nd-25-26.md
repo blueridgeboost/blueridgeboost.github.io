@@ -3,17 +3,17 @@ ecwid: 769796741
 product_id: Advanced-Math-Enrichment-2nd-25-26
 layout: single
 schedule_tags:
-  - Starting Soon
+  - Join Now
 subject_tags:
   - Math
 price: 139.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 7
+weight: 8
 page_title: Advanced Math Enrichment 2nd Grade
 page_subtitle: Exploring the Beauty of Mathematics
-ribbon: Starts Oct 20
+ribbon: Join Now
 title: Advanced Math Enrichment 2nd Grade | Blue Ridge Boost
 description: >-
   Join Advanced Math Enrichment for 2nd Grade at Blue Ridge Boost in
@@ -23,7 +23,10 @@ description: >-
   tutoring, and homeschool support.
 day_tags:
   - Mon
+  - Wed
 grade_tags:
   - 2nd
+start_time: 4:45 PM
+end_time: 5:30 PM
 ---
 

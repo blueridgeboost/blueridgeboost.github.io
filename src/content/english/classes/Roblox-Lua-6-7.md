@@ -22,5 +22,7 @@ day_tags:
 grade_tags:
   - 6th
   - 7th
+start_time: 4:00 PM
+end_time: 5:00 PM
 ---
 

@@ -8,10 +8,10 @@ subject_tags:
   - Robotics
   - Computer Coding
 price: 169.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 17
+weight: 18
 page_title: Future Innovators (Grades 3 to 5)
 page_subtitle: Empowering Young Minds
 ribbon: Starts Nov 9
@@ -26,5 +26,7 @@ grade_tags:
   - 3rd
   - 4th
   - 5th
+start_time: 11:00 AM
+end_time: 12:30 PM
 ---
 

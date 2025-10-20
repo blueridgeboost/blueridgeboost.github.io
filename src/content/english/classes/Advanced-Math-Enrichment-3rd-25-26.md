@@ -7,10 +7,10 @@ schedule_tags:
 subject_tags:
   - Math
 price: 139.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: Flexible
-weight: 9
+weight: 10
 page_title: Advanced Math Enrichment 3rd Grade
 page_subtitle: Exploring the Beauty of Mathematics
 ribbon: Join Now
@@ -25,5 +25,7 @@ day_tags:
   - Thu
 grade_tags:
   - 3rd
+start_time: 3:45 PM
+end_time: 4:30 PM
 ---
 

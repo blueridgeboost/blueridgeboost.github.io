@@ -7,10 +7,10 @@ schedule_tags:
 subject_tags:
   - Math
 price: 179.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: Flexible
-weight: 45
+weight: 44
 page_title: Algebra 1 Homework Help
 page_subtitle: Math Support
 ribbon: On Demand

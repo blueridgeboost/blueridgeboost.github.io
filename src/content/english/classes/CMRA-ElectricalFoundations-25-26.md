@@ -7,10 +7,10 @@ schedule_tags:
 subject_tags:
   - Robotics
 price: 299.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: 2-3 mo
-weight: 46
+weight: 45
 page_title: 'Carnegie Mellon Robotics Academy: Electrical Foundations'
 page_subtitle: 'From Wires to Robots: Build and Program with Arduino!'
 ribbon: Starts Nov 11
@@ -30,5 +30,7 @@ grade_tags:
   - 10th
   - 11th
   - 12th
+start_time: 6:00 PM
+end_time: 7:30 PM
 ---
 

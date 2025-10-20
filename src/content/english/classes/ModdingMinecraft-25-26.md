@@ -7,10 +7,10 @@ schedule_tags:
 subject_tags:
   - Game Development
 price: 179.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 53
+weight: 52
 page_title: 'Mod Craft: Code Your Own Minecraft Mods'
 page_subtitle: Craft your very own Minecraft Mods!
 ribbon: Starts Jan 10
@@ -25,5 +25,7 @@ grade_tags:
   - 7th
   - 8th
   - 9th
+start_time: 12:30 PM
+end_time: 3:30 PM
 ---
 

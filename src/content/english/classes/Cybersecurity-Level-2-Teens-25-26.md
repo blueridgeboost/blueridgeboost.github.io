@@ -7,10 +7,10 @@ schedule_tags:
 subject_tags:
   - Computer Coding
 price: 249.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 59
+weight: 58
 page_title: Cybersecurity Level 2
 page_subtitle: Preparation and Certification Exam
 ribbon: On Demand

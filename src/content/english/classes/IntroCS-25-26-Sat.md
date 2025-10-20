@@ -7,10 +7,10 @@ schedule_tags:
 subject_tags:
   - Computer Coding
 price: 239.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 52
+weight: 51
 page_title: Introduction to Computer Science
 page_subtitle: Get started with Computer Science through Blue Ridge Boost and CodeHS!
 ribbon: On Demand

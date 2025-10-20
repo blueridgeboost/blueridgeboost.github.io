@@ -1,7 +1,7 @@
 [
-  "arduino",
-  "shieldbot",
+  "arduino ide",
+  "shieldbot assembly",
   "open-loop navigation",
-  "robot sensors",
+  "sensor integration",
   "pixycam blob detection"
 ]

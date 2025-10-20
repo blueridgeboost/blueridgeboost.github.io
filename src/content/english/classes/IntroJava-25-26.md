@@ -7,10 +7,10 @@ schedule_tags:
 subject_tags:
   - Computer Coding
 price: 179.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 67
+weight: 65
 page_title: Programming in Java
 page_subtitle: From Beginner to Programmer
 ribbon: Starts Nov 11
@@ -26,5 +26,7 @@ grade_tags:
   - 10th
   - 11th
   - 12th
+start_time: 6:30 PM
+end_time: 7:30 PM
 ---
 

@@ -7,10 +7,10 @@ schedule_tags:
 subject_tags:
   - Game Development
 price: 199.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: 6+ mo
-weight: 43
+weight: 42
 page_title: '3D Video Game Modeling: Blender to Unreal Engine'
 page_subtitle: Design and Create Dungeon Props!
 ribbon: Join Now
@@ -32,5 +32,7 @@ grade_tags:
   - 10th
   - 11th
   - 12th
+start_time: 6:00 PM
+end_time: 7:30 PM
 ---
 

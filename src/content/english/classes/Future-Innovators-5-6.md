@@ -25,5 +25,7 @@ grade_tags:
   - 5th
   - 6th
   - 7th
+start_time: 3:30 PM
+end_time: 5:00 PM
 ---
 

@@ -7,10 +7,10 @@ schedule_tags:
 subject_tags:
   - Computer Coding
 price: 149.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: 6+ mo
-weight: 16
+weight: 17
 page_title: Code Quest Grades 3 and 4
 page_subtitle: Adventures in Text Programming
 ribbon: Starts Nov 9
@@ -24,5 +24,7 @@ day_tags:
 grade_tags:
   - 3rd
   - 4th
+start_time: 12:30 PM
+end_time: 3:30 PM
 ---
 

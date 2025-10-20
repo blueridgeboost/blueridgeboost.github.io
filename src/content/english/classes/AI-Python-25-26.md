@@ -7,10 +7,10 @@ schedule_tags:
 subject_tags:
   - AI
 price: 179.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 48
+weight: 47
 page_title: AI, Ethics, and Python
 page_subtitle: Artifical Intelligence and Ethics with Python
 ribbon: On Demand

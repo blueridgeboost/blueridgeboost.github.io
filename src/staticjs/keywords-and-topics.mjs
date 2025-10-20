@@ -1,4 +1,4 @@
-import { getAttributeValue, getAllClasses } from "./ecwid-commons.js";
+import { getAttributeValue, getAllClasses } from "./ecwid.js";
 import { cleanUpAiGen, writeJson } from "./fs-helpers.js";
 import { extractKeywords, extractTopics } from "./ai-queries.js"
 

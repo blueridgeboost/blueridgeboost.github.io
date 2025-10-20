@@ -6,10 +6,10 @@ schedule_tags:
   - On-Demand
 subject_tags: []
 price: 179
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 63
+weight: 62
 page_title: Python Level 1
 page_subtitle: Preparation and Certification Exam
 ribbon: On Demand

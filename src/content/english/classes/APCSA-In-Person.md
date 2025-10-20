@@ -7,10 +7,10 @@ schedule_tags:
 subject_tags:
   - Computer Coding
 price: 249.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: Flexible
-weight: 65
+weight: 63
 page_title: 'Group Tutoring: Java for AP Computer Science'
 page_subtitle: Get ready for AP CSA
 ribbon: On Demand
