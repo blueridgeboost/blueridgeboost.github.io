@@ -7,7 +7,7 @@ schedule_tags:
 subject_tags:
   - Computer Coding
 price: 149.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: 2-3 mo
 weight: 20
@@ -24,5 +24,7 @@ day_tags:
 grade_tags:
   - 4th
   - 5th
+start_time: 5:30 PM
+end_time: 6:30 PM
 ---
 

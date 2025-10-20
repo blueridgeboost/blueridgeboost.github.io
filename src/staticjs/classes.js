@@ -161,7 +161,7 @@ function pricePerUnit(item) {
     if (isSession(item)) {
         return `for ${duration} sessions`;
     } else if (isOngoing(item)) {
-        return "price_unit: per month";
+        return "per month";
     } else {
         return "per session";
     }
@@ -245,6 +245,10 @@ export async function generateMDClassFiles(classesEcwid) {
             "day_tags": dayTags(item),
             "grade_tags" : gradeTags(item),
         };
+        if (getAttributeValue(item, 'start_time')) {
+            classDict.start_time = getAttributeValue(item, 'start_time');
+            classDict.end_time = getAttributeValue(item, 'end_time');
+        }
         console.log(classDict);
         await writeMdFile(`${brbId}.md`, classDict);
     }

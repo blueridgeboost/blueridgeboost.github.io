@@ -7,7 +7,7 @@ schedule_tags:
 subject_tags:
   - Math
 price: 139.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: 4-6 mo
 weight: 7
@@ -25,5 +25,7 @@ day_tags:
   - Mon
 grade_tags:
   - 2nd
+start_time: 4:45 PM
+end_time: 5:30 PM
 ---
 

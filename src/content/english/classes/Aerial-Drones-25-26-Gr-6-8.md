@@ -7,7 +7,7 @@ schedule_tags:
 subject_tags:
   - Robotics
 price: 199.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: 4-6 mo
 weight: 42
@@ -22,5 +22,7 @@ grade_tags:
   - 6th
   - 7th
   - 8th
+start_time: 3:00 PM
+end_time: 4:30 PM
 ---
 

@@ -24,5 +24,7 @@ day_tags:
 grade_tags:
   - 4th
   - 5th
+start_time: 1:00 PM
+end_time: 12:00 PM
 ---
 

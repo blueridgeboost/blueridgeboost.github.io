@@ -7,7 +7,7 @@ schedule_tags:
 subject_tags:
   - Game Development
 price: 179.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: 4-6 mo
 weight: 53
@@ -25,5 +25,7 @@ grade_tags:
   - 7th
   - 8th
   - 9th
+start_time: 12:30 PM
+end_time: 3:30 PM
 ---
 

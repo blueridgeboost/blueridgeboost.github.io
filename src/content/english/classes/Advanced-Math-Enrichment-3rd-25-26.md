@@ -7,7 +7,7 @@ schedule_tags:
 subject_tags:
   - Math
 price: 139.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: Flexible
 weight: 9
@@ -25,5 +25,7 @@ day_tags:
   - Thu
 grade_tags:
   - 3rd
+start_time: 3:45 PM
+end_time: 4:30 PM
 ---
 

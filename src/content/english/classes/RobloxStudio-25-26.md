@@ -25,5 +25,7 @@ grade_tags:
   - 3rd
   - 4th
   - 5th
+start_time: 2:00 PM
+end_time: 3:00 PM
 ---
 

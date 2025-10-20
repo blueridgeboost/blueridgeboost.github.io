@@ -7,7 +7,7 @@ schedule_tags:
 subject_tags:
   - Math
 price: 299.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: Flexible
 weight: 66

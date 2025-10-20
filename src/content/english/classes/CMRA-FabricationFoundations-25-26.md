@@ -29,5 +29,7 @@ grade_tags:
   - 10th
   - 11th
   - 12th
+start_time: 5:30 PM
+end_time: 7:30 PM
 ---
 

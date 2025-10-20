@@ -7,7 +7,7 @@ schedule_tags:
 subject_tags:
   - AI
 price: 149.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: 4-6 mo
 weight: 30
@@ -24,5 +24,7 @@ day_tags:
 grade_tags:
   - 5th
   - 6th
+start_time: 12:00 PM
+end_time: 3:00 PM
 ---
 

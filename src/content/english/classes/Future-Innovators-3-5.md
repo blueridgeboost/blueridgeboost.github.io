@@ -8,7 +8,7 @@ subject_tags:
   - Robotics
   - Computer Coding
 price: 169.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: 4-6 mo
 weight: 17
@@ -26,5 +26,7 @@ grade_tags:
   - 3rd
   - 4th
   - 5th
+start_time: 11:00 AM
+end_time: 12:30 PM
 ---
 

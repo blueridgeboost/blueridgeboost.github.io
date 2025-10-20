@@ -6,7 +6,7 @@ schedule_tags:
   - On-Demand
 subject_tags: []
 price: 249.99
-price_unit: 'price_unit: per month'
+price_unit: per month
 category: Ongoing
 duration: 2-3 mo
 weight: 58
