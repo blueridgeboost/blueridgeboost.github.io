@@ -114,27 +114,22 @@ async function createProduct(friday) {
 	};
 }
 
-function imagePath(friday) {
+function imageURL(friday) {
 	if ( friday.ordinalInMonth == 1 ) {
 		// Minecraft
-		return path.join( process.cwd(), "src", "staticjs","gaming",
-		"gaming-friday-images", "minecraft.jpg");
+		return "https://drive.google.com/file/d/1B5CjmH5OgY5FZprqhZsiF8IxyYXpMNeu/view?usp=sharing";
 	} else if (friday.ordinalInMonth == 2) {
 		// free choice
-		return path.join( process.cwd(), "src", "staticjs","gaming",
-		"gaming-friday-images", "second-friday.jpg");
+		return "https://drive.google.com/file/d/1-NjSULjmKcz2x9PGOpSruUt-HpmPLlUE/view?usp=sharing";
 	} else if (friday.ordinalInMonth == 3) {
 		// Fortnite
-		return path.join( process.cwd(), "src", "staticjs","gaming",
-		"gaming-friday-images", "fortnite.jpg");
+		return "https://drive.google.com/file/d/1D7ElLbTQrjG0Gjl6fvCVjfB2Zy-HBNuc/view?usp=sharing";
 	} else if (friday.ordinalInMonth == 4) {
 		// Roblox
-		return path.join( process.cwd(), "src", "staticjs","gaming",
-		"gaming-friday-images", "roblox.jpg");
+		return "https://drive.google.com/file/d/1OJ-kHmq0abJfXaOoWimMgmJ1J46CqQyS/view?usp=sharing";
 	} else {
 		// Fifth Friday
-		return path.join( process.cwd(), "src", "staticjs","gaming",
-		"gaming-friday-images", "fifth-friday.jpg");
+		return "https://drive.google.com/file/d/1-NjSULjmKcz2x9PGOpSruUt-HpmPLlUE/view?usp=sharing";
 	}
 	
 }
@@ -177,7 +172,7 @@ export async function updateGamingFridays() {
 		} else {
 			// record that we have a product for this date
 			startDates.push(startDateStr);
-			await updateProductMedia( p.id, imagePath(nextFridays.find(
+			await updateProductMedia( p.id, imageURL(nextFridays.find(
 				f => f.date == startDateStr
 			)) );
 		}
@@ -189,7 +184,7 @@ export async function updateGamingFridays() {
 			console.log(`Creating new product for ${friday.date}`);
 			const newProduct = await createProduct(friday);
 			const productId = await createEcwidProduct(newProduct);
-			await updateProductMedia( productId, imagePath(friday) )
+			await updateProductMedia( productId, imageURL(friday) )
 		} 
 	}
 	productSort()
