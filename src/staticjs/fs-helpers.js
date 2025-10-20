@@ -1,7 +1,7 @@
 import yaml from "js-yaml";
 import { readdir, stat, unlink, readFile } from 'fs/promises';
 import path from 'path';
-import {createWriteStream} from 'fs'
+import {createWriteStream, existsSync} from 'fs'
 
 const keepers = [
     '_index.md', 'math.md', 'coding.md', 'robotics.md', 
@@ -21,12 +21,17 @@ export async function cleanUpAiGen() {
      await deleteFiles(AI_GEN_PATH);
 }
 
-export async function writeJson( fileName, content ) {
+export async function writeJson( fileName, content, overwrite ) {
     const folderPath = path.join(AI_GEN_PATH);
     const filePath = path.join(folderPath, fileName);
-    const stream = createWriteStream(filePath, { flags: "w" });
-    await stream.write(JSON.stringify(content, null, 2), "utf8");
-    stream.close();
+    if (existsSync(filePath) && !overwrite) {
+        
+    } else {
+        
+        const stream = createWriteStream(filePath, { flags: "w" });
+        await stream.write(JSON.stringify(content, null, 2), "utf8");
+        stream.close();
+    }
 }
 
 export async function readJson(fileName) {

@@ -10,7 +10,7 @@ price: 139.99
 price_unit: per month
 category: Ongoing
 duration: Flexible
-weight: 23
+weight: 24
 page_title: Advanced Math Enrichment 4th Grade
 page_subtitle: Exploring the Beauty of Mathematics
 ribbon: Join Now

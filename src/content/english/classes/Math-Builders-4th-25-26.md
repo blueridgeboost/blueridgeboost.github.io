@@ -10,7 +10,7 @@ price: 149.99
 price_unit: per month
 category: Ongoing
 duration: Flexible
-weight: 21
+weight: 22
 page_title: Boost 4th Grade Skills
 page_subtitle: Math Support
 ribbon: Join Now

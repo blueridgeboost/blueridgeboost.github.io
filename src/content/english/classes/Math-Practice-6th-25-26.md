@@ -10,7 +10,7 @@ price: 179.99
 price_unit: per month
 category: Ongoing
 duration: Flexible
-weight: 36
+weight: 37
 page_title: 6th Compacted Homework Help
 page_subtitle: Math Support
 ribbon: Starting Oct 20
@@ -23,6 +23,7 @@ description: >-
   about our classes, camps, tutoring, and homeschooler support!
 day_tags:
   - Mon
+  - Wed
 grade_tags:
   - 6th
 start_time: 6:00 PM

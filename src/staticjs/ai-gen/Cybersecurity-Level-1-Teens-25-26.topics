@@ -1,7 +1,7 @@
 [
   "cybersecurity fundamentals",
-  "cryptography basics",
+  "cryptography",
   "system administration",
-  "networking protocols",
-  "digital safety"
+  "networking concepts",
+  "sql injection"
 ]

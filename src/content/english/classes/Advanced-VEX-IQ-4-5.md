@@ -10,7 +10,7 @@ price: 325
 price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 24
+weight: 25
 page_title: Advanced VEX IQ (Grades 4-5)
 page_subtitle: Building Robots, Solving Challenges!
 ribbon: Join Now

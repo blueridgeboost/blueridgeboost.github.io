@@ -1,7 +1,7 @@
 [
-  "arduino basics",
-  "breadboarding",
-  "series-parallel circuits",
-  "multimeter measurements",
-  "motor control with pwm"
+  "arduino",
+  "circuits",
+  "multimeter",
+  "pwm",
+  "sensors"
 ]

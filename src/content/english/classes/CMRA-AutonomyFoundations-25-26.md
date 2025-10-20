@@ -3,7 +3,7 @@ ecwid: 767793013
 product_id: CMRA-AutonomyFoundations-25-26
 layout: single
 schedule_tags:
-  - On-Demand
+  - Starting Soon
 subject_tags:
   - Robotics
   - Computer Coding
@@ -14,7 +14,7 @@ duration: 2-3 mo
 weight: 50
 page_title: 'Carnegie Mellon Robotics Academy: Autonomy Foundations'
 page_subtitle: From Beginner to Roboticist!
-ribbon: Join Now
+ribbon: Starts Jan 6
 title: 'Carnegie Mellon Robotics Academy: Autonomy Foundations | Blue Ridge Boost'
 description: >-
   From beginner to roboticist—build autonomy skills with Blue Ridge Boost’s CMRA
