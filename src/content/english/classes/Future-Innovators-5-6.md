@@ -10,7 +10,7 @@ subject_tags:
 price: 169.99
 price_unit: per session
 category: One Time
-weight: 33
+weight: 34
 page_title: Future Innovators (Grades 5 to 7)
 page_subtitle: Empowering Young Minds
 ribbon: Starts Nov 9

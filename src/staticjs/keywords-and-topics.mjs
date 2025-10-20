@@ -6,14 +6,14 @@ import { extractKeywords, extractTopics } from "./ai-queries.js"
 
 async function main() {
     try {
-        await cleanUpAiGen();
+        // await cleanUpAiGen();
         const classes = await getAllClasses();;
         for (let c of classes) {
             const brbId = await getAttributeValue(c, "brb_id");
             const keywords = await extractKeywords( c.name + ' ' + c.description );
-            writeJson(`${brbId}.keywords`, keywords);
+            writeJson(`${brbId}.keywords`, keywords, false);
             const topics = await extractTopics( c.description );
-            writeJson(`${brbId}.topics`, topics);
+            writeJson(`${brbId}.topics`, topics, false);
         }
         
     } catch (error) {

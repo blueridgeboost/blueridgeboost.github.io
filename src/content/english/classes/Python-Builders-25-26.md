@@ -10,10 +10,10 @@ price: 149.99
 price_unit: per month
 category: Ongoing
 duration: 2-3 mo
-weight: 20
+weight: 21
 page_title: Python Code Builders
 page_subtitle: Learn Python with Code Monkey Challenges!
-ribbon: Starts Oct 15
+ribbon: Starts Jan 7
 title: Python Code Builders | Blue Ridge Boost
 description: >-
   Learn Python with Code Monkey challenges at Blue Ridge Boost. Engaging,
