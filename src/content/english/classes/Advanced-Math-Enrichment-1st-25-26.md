@@ -25,7 +25,7 @@ day_tags:
   - Wed
 grade_tags:
   - 1st
-start_time: 3:45 PM
-end_time: 4:30 PM
+start_time: 4:00 PM
+end_time: 4:45 PM
 ---
 

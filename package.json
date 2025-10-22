@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "config": "node ./src/staticjs/config-generation.mjs",
-    "updateAiGen": "node ./src/staticjs/keywords-and-topics.mjs",
+    "aiGen": "node ./src/staticjs/keywords-and-topics.mjs",
+    "rosters": "node ./src/staticjs/rosters/keywords-and-topics.mjs",
     "clean": "rimraf docs",
     "html": "hugo --destination docs --source ./src/",
     "copy": "cpy --no-parents CNAME docs && cpy src/docs/**/* ./docs",
