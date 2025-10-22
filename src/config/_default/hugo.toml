@@ -18,11 +18,6 @@ disablePathToLower = true
 enableEmoji = true
 # publishDir = 'docs'
 
-########################### Services #############################
-[services]
-[services.googleAnalytics]
-ID = 'G-JV87PS188M' # see https://gohugo.io/templates/internal/#configure-google-analytics
-
 ############################# Modules ############################
 [module]
 [[module.mounts]]
