@@ -376,7 +376,7 @@ export async function updateProductMedia(productId, filePath) {
     const url = `https://app.ecwid.com/api/v3/${process.env.ECWID_STORE_ID}/products/${productId}/image`;
     const params = new URLSearchParams({ externalUrl: filePath,});
     const options = {
-        method: 'GET',
+        method: 'POST',
         headers: {
             accept: 'application/json',
             Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`

@@ -117,19 +117,24 @@ async function createProduct(friday) {
 function imageURL(friday) {
 	if ( friday.ordinalInMonth == 1 ) {
 		// Minecraft
-		return "https://drive.google.com/file/d/1B5CjmH5OgY5FZprqhZsiF8IxyYXpMNeu/view?usp=sharing";
+		// return "https://drive.google.com/file/d/1B5CjmH5OgY5FZprqhZsiF8IxyYXpMNeu/view?usp=sharing";
+		return "https://drive.google.com/uc?export=download&id=1B5CjmH5OgY5FZprqhZsiF8IxyYXpMNeu";
 	} else if (friday.ordinalInMonth == 2) {
 		// free choice
-		return "https://drive.google.com/file/d/1-NjSULjmKcz2x9PGOpSruUt-HpmPLlUE/view?usp=sharing";
+		// return "https://drive.google.com/file/d/1-NjSULjmKcz2x9PGOpSruUt-HpmPLlUE/view?usp=sharing";
+		return "https://drive.google.com/uc?export=download&id=1-NjSULjmKcz2x9PGOpSruUt-HpmPLlUE";
 	} else if (friday.ordinalInMonth == 3) {
 		// Fortnite
-		return "https://drive.google.com/file/d/1D7ElLbTQrjG0Gjl6fvCVjfB2Zy-HBNuc/view?usp=sharing";
+		// return "https://drive.google.com/file/d/1D7ElLbTQrjG0Gjl6fvCVjfB2Zy-HBNuc/view?usp=sharing";
+		return "https://drive.google.com/uc?export=download&id=1D7ElLbTQrjG0Gjl6fvCVjfB2Zy-HBNuc";
 	} else if (friday.ordinalInMonth == 4) {
 		// Roblox
-		return "https://drive.google.com/file/d/1OJ-kHmq0abJfXaOoWimMgmJ1J46CqQyS/view?usp=sharing";
+		// return "https://drive.google.com/file/d/1OJ-kHmq0abJfXaOoWimMgmJ1J46CqQyS/view?usp=sharing";
+		return "https://drive.google.com/uc?export=download&id=1OJ-kHmq0abJfXaOoWimMgmJ1J46CqQyS";
 	} else {
 		// Fifth Friday
-		return "https://drive.google.com/file/d/1-NjSULjmKcz2x9PGOpSruUt-HpmPLlUE/view?usp=sharing";
+		// return "https://drive.google.com/file/d/1-NjSULjmKcz2x9PGOpSruUt-HpmPLlUE/view?usp=sharing";
+		return "https://drive.google.com/uc?export=download&id=1-NjSULjmKcz2x9PGOpSruUt-HpmPLlUE";
 	}
 	
 }

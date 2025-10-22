@@ -9,7 +9,7 @@ subject_tags:
 price: 139.99
 price_unit: per month
 category: Ongoing
-duration: Flexible
+duration: 6+ mo
 weight: 24
 page_title: Advanced Math Enrichment 4th Grade
 page_subtitle: Exploring the Beauty of Mathematics
@@ -25,7 +25,7 @@ day_tags:
   - Thu
 grade_tags:
   - 4th
-start_time: 3:45 PM
-end_time: 4:30 PM
+start_time: 4:30 PM
+end_time: 5:15 PM
 ---
 
