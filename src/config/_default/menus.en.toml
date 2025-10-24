@@ -25,7 +25,7 @@
 
 [[main]]
     name        = "Camps"
-    url         = "/1-day-camps/"
+    url         = "/camps/"
     weight      = 3
 
 # [[main]]
