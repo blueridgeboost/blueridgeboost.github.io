@@ -8,6 +8,10 @@ draft: false
 section: "1-day-camps"
 layout: "1-day-camps"
 
+aliases:
+  - /camps/
+  - /one-day-camps/
+
 keywords:
   - 1-day camps Charlottesville
   - Blue Ridge Boost 1-day camps

@@ -7,7 +7,7 @@
   "scripts": {
     "config": "node ./src/staticjs/config-generation.mjs",
     "aiGen": "node ./src/staticjs/keywords-and-topics.mjs",
-    "rosters": "node ./src/staticjs/rosters/keywords-and-topics.mjs",
+    "camp-rosters": "node ./src/staticjs/rosters/camp-rosters.mjs",
     "clean": "rimraf docs",
     "html": "hugo --destination docs --source ./src/",
     "copy": "cpy --no-parents CNAME docs && cpy src/docs/**/* ./docs",
@@ -32,6 +32,7 @@
     "dotenv": "^17.2.3",
     "form-data": "^4.0.4",
     "js-yaml": "^4.1.0",
-    "openai": "^6.4.0"
+    "openai": "^6.4.0",
+    "papaparse": "^5.5.3"
   }
 }
