@@ -1,11 +1,13 @@
 import dotenv from 'dotenv';
-dotenv.config({ path: '../../.env' });
-import {getOrdersByProductId, getCatalog} from '../../../../brb-utils/src/ecwid-commons.js';
+import {getOrdersByProductId, getCatalog} from '../ecwid.js';
 import Papa from 'papaparse';
 import fs from 'fs';
+import path from 'path';
 
-const emailsOnly=false;
-
+// Construct the path to the .env file
+const envPath = path.join(process.cwd(), '..', '.env');
+// Load the .env file
+dotenv.config({ path: envPath });
 function getAttributeValue(product, attributeName) {
     const attribute = product.attributes.find(attribute => attribute.name === attributeName);
     if (attribute === undefined) {
