@@ -1,5 +1,4 @@
 <meta charset="utf-8">
-{{/*  <title>{{.Title | default site.Title}}</title>  */}}
 
 <!-- responsive meta -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
@@ -11,80 +10,32 @@
 <!-- favicon -->
 {{ partialCached "favicon" . }}
 
-<meta name="1" content="after favicon" />
-
 <!-- manifest -->
 {{ partialCached "manifest" . }}
-
-<meta name="2" content="after manifest" />
 
 <!-- site verifications -->
 {{ partialCached "site-verifications.html" . }}
 
-<meta name="3" content="after site-verifications" />
-
 <!-- opengraph and twitter card -->
 {{ partial "basic-seo.html" . }}
 
-<meta name="4" content="after site-verifications" />
-
-<!-- custom script -->
-{{ partialCached "script.html" . }}
-
-
-<meta name="5" content="after custom script" />
 
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src="https://sdltvuuo.use.stape.io/8s7hnsdltvuuo.js?"+i;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','69c63yr=BhFIMSAhSSRaOSM6LCBRVRlIR1hF');</script>
+<script>
+  (function (w, d, s, l, i) { 
+    w[l] = w[l] || []; 
+    w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); 
+    var f = d.getElementsByTagName(s)[0], j = d.createElement(s); 
+    j.async = true; 
+    j.src = "https://sdltvuuo.use.stape.io/8s7hnsdltvuuo.js?" + i; f.parentNode.insertBefore(j, f); 
+  })(window, document, 'script', 'dataLayer', '69c63yr=BhFIMSAhSSRaOSM6LCBRVRlIR1hF');</script>
 <!-- End Google Tag Manager -->
 
 <meta name="facebook-domain-verification" content="zct97ytf6qsp98kn8sipiejnluq10z" />
 
-<!-- matomo analytics -->
-{{ partialCached "matomo-analytics.html" . }}
-
-<!--  Baidu analytics -->
-{{ partialCached "baidu-analytics.html" . }}
-
-<!-- Plausible Analytics -->
-{{ partialCached "plausible-analytics.html" . }}
-
-<!-- Counter Analytics -->
-{{ partialCached "counter-analytics.html" . }}
-
 <!-- Mailing list -->
 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/a3e5cd8bfd87915fee9250407/c1f12740495332c8d01cead10.js");</script>
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
-var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;
-j.src="https://sdltvuuo.use.stape.io/8s7hnsdltvuuo.js?"+i;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','69c63yr=BhFIMSAhSSRaOSM6LCBRVRlIR1hF');</script>
-<!-- End Google Tag Manager -->
-
-<!-- Meta Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1332769621550712');
-  fbq('set', 'agent', 'gtmss', '1332769621550712');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=1332769621550712&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- End Meta Pixel Code -->
-
-<!-- Twitter conversion tracking base code -->
-<script>
-!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',
-a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
-twq('config','pam08');
-</script>
-<!-- End Twitter conversion tracking base code -->
+<!-- custom script -->
+{{ partialCached "script.html" . }}
 
