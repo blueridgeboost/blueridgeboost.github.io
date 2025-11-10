@@ -13,7 +13,7 @@ duration: 6+ mo
 weight: 18
 page_title: Code Quest Grades 3 and 4
 page_subtitle: Adventures in Text Programming
-ribbon: Starts Nov 9
+ribbon: Starts Jan 11
 title: Code Quest Grades 3 and 4 | Blue Ridge Boost
 description: >-
   Adventures in text programming for grades 3–4. Students learn real coding

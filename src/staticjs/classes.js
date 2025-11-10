@@ -278,6 +278,7 @@ export async function generateClassesRichResults(classesEcwid) {
         const c = classesEcwid[i];
         if (!c.enabled) continue;
         const brbId =  getAttributeValue(c, 'brb_id');
+        console.log(`Processing ${brbId}`)
         classes.itemListElement.push({
             "@type": "ListItem",
             "position": i,

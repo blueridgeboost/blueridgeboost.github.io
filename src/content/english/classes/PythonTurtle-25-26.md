@@ -10,7 +10,7 @@ price: 149.99
 price_unit: per month
 category: Ongoing
 duration: 6+ mo
-weight: 32
+weight: 31
 page_title: Python Basics with Tracy the Turtle
 page_subtitle: Guide Tracy to draw, code, and create!
 ribbon: Starts Jan 4

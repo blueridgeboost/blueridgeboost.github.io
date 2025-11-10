@@ -10,10 +10,12 @@ async function main() {
         const classes = await getAllClasses();;
         for (let c of classes) {
             const brbId = await getAttributeValue(c, "brb_id");
-            const keywords = await extractKeywords( c.name + ' ' + c.description );
-            writeJson(`${brbId}.keywords`, keywords, false);
-            const topics = await extractTopics( c.description );
-            writeJson(`${brbId}.topics`, topics, false);
+            // if (brbId == "Comp-Math-9-10") {
+                const keywords = await extractKeywords( c.name + ' ' + c.description );
+                writeJson(`${brbId}.keywords`, keywords, false);
+                const topics = await extractTopics( c.description );
+                writeJson(`${brbId}.topics`, topics, false);
+            // }
         }
         
     } catch (error) {

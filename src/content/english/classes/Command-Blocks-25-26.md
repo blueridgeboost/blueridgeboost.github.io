@@ -13,7 +13,7 @@ duration: 6 wk
 weight: 23
 page_title: 'Command Craft: Minecraft Command Blocks'
 page_subtitle: Learn logic and coding concepts with Command Blocks!
-ribbon: Starts Nov 10
+ribbon: Starts Jan 12
 title: 'Command Craft: Minecraft Command Blocks | Blue Ridge Boost'
 description: >-
   Learn logic and coding concepts with Minecraft Command Blocks in a fun, guided

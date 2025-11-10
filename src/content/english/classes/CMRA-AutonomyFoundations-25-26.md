@@ -11,7 +11,7 @@ price: 399.99
 price_unit: per month
 category: Ongoing
 duration: 2-3 mo
-weight: 50
+weight: 48
 page_title: 'Carnegie Mellon Robotics Academy: Autonomy Foundations'
 page_subtitle: From Beginner to Roboticist!
 ribbon: Starts Jan 6
@@ -31,5 +31,7 @@ grade_tags:
   - 10th
   - 11th
   - 12th
+start_time: 6:00 PM
+end_time: 7:30 PM
 ---
 

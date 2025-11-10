@@ -2,18 +2,17 @@
 ecwid: 767680490
 product_id: Code-Craft-25-2Gr5-6
 layout: single
-schedule_tags:
-  - Starting Soon
+schedule_tags: []
 subject_tags:
   - Game Development
 price: 159.99
 price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 29
+weight: 28
 page_title: 'Code Craft: Minecraft Coding'
 page_subtitle: Learn to Code in Minecraft! Grades 5 and 6
-ribbon: Starts Nov 11
+ribbon: Join Now
 title: 'Code Craft: Minecraft Coding | Blue Ridge Boost'
 description: >-
   Learn to code in Minecraft for grades 5–6. Engaging, project-based programming

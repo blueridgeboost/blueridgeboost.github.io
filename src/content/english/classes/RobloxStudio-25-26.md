@@ -13,7 +13,7 @@ duration: 6 wk
 weight: 14
 page_title: 'Roblox Studio: Make a game in 6 sessions'
 page_subtitle: Foundations to Game Creation
-ribbon: Starts Nov 2
+ribbon: Starts Nov 16
 title: 'Roblox Studio: Make a game in 6 sessions | Blue Ridge Boost'
 description: >-
   Build a playable Roblox game in 6 sessions at Blue Ridge Boost. Learn

@@ -11,10 +11,10 @@ price: 299.99
 price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 49
+weight: 47
 page_title: 'Carnegie Mellon Robotics Academy: Software Foundations'
 page_subtitle: From Beginner to Roboticist!
-ribbon: Starts Nov 10
+ribbon: Starts Jan 7
 title: 'Carnegie Mellon Robotics Academy: Software Foundations | Blue Ridge Boost'
 description: >-
   From beginner to roboticist—build core programming and robotics skills in Blue

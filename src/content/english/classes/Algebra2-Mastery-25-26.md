@@ -10,7 +10,7 @@ price: 299.99
 price_unit: per month
 category: Ongoing
 duration: Flexible
-weight: 64
+weight: 62
 page_title: 'Algebra 2: Mastery Through Teaching and Practice'
 page_subtitle: Get Ahead!
 ribbon: On Demand

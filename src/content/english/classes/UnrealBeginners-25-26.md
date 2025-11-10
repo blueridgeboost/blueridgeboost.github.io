@@ -9,7 +9,7 @@ price: 249.99
 price_unit: per month
 category: Ongoing
 duration: 2-3 mo
-weight: 57
+weight: 55
 page_title: 'Game Makers: Unreal Engine for Beginners'
 page_subtitle: Turn Your Imagination Into Reality!
 ribbon: On Demand

@@ -3,7 +3,7 @@ ecwid: 771060851
 product_id: Future-Innovators-3-5
 layout: single
 schedule_tags:
-  - Starting Soon
+  - Join Now
 subject_tags:
   - Robotics
   - Computer Coding
@@ -14,7 +14,7 @@ duration: 4-6 mo
 weight: 19
 page_title: Future Innovators (Grades 3 to 5)
 page_subtitle: Empowering Young Minds
-ribbon: Starts Nov 9
+ribbon: Join Now
 title: Future Innovators (Grades 3 to 5) | Blue Ridge Boost
 description: >-
   Empower young minds with hands-on STEM projects, creativity, and

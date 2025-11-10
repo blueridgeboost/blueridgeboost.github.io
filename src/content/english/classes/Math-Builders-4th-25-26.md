@@ -3,7 +3,7 @@ ecwid: 767683652
 product_id: Math-Builders-4th-25-26
 layout: single
 schedule_tags:
-  - Join Now
+  - Starting Soon
 subject_tags:
   - Math
 price: 149.99
@@ -13,7 +13,7 @@ duration: Flexible
 weight: 22
 page_title: Boost 4th Grade Math Skills
 page_subtitle: Math Support
-ribbon: Join Now
+ribbon: Starts Jan 5
 title: Boost 4th Grade Math Skills | Blue Ridge Boost
 description: >-
   Supportive 4th grade math group tutoring at Blue Ridge Boost. Focused math
