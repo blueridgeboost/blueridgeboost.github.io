@@ -10,10 +10,10 @@ price: 179.99
 price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 65
+weight: 63
 page_title: Programming in Java
 page_subtitle: From Beginner to Programmer
-ribbon: Starts Nov 11
+ribbon: Starts Nov 19
 title: Programming in Java | Blue Ridge Boost
 description: >-
   From beginner to programmer—learn Java at Blue Ridge Boost with step-by-step

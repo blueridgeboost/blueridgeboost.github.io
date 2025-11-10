@@ -10,10 +10,10 @@ price: 159.99
 price_unit: per month
 category: Ongoing
 duration: 2-3 mo
-weight: 30
+weight: 29
 page_title: 'Soar into STEM: Aerial Drone Class for Grades 5-6'
 page_subtitle: 'Sky High Challenge: Piloting and Coding '
-ribbon: Starts Nov 9
+ribbon: Starts Jan 11
 title: 'Soar into STEM: Aerial Drone Class for Grades 5-6 | Blue Ridge Boost'
 description: >-
   Sky High Challenge—piloting and coding drones for grades 5–6 at Blue Ridge

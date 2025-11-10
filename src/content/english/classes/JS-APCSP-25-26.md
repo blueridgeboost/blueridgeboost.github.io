@@ -10,7 +10,7 @@ price: 249.99
 price_unit: per month
 category: Ongoing
 duration: Flexible
-weight: 61
+weight: 59
 page_title: 'Group Tutoring: AP Computer Science Principles'
 page_subtitle: Get ready for AP Computer Science Principles
 ribbon: On Demand

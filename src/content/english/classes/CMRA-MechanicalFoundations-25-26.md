@@ -3,17 +3,17 @@ ecwid: 769259348
 product_id: CMRA-MechanicalFoundations-25-26
 layout: single
 schedule_tags:
-  - Join Now
+  - Starting Soon
 subject_tags:
   - Robotics
 price: 299.99
 price_unit: per month
 category: Ongoing
 duration: 2-3 mo
-weight: 43
+weight: 41
 page_title: 'Carnegie Mellon Robotics Academy: Mechanical Foundations'
 page_subtitle: Mastering Mechanical Design and Robotics with Hands-On REV DUO Projects
-ribbon: Join Now
+ribbon: Starts Dec 8
 title: 'Carnegie Mellon Robotics Academy: Mechanical Foundations | Blue Ridge Boost'
 description: >-
   Master mechanical design and robotics with hands-on REV DUO projects in Blue

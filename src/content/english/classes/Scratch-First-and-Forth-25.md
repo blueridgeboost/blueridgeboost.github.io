@@ -14,7 +14,7 @@ duration: 6 wk
 weight: 3
 page_title: Scratch Block Coding
 page_subtitle: Learn to code video games, animations, and more!
-ribbon: Starts Oct 27
+ribbon: Starts Jan 5
 title: Scratch Block Coding | Blue Ridge Boost
 description: >-
   Learn to code video games, animations, and more with Scratch at Blue Ridge

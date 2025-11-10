@@ -10,7 +10,7 @@ price: 149.99
 price_unit: per month
 category: Ongoing
 duration: Flexible
-weight: 28
+weight: 27
 page_title: Boost 5th Grade Math Skills
 page_subtitle: Math Support
 ribbon: On Demand

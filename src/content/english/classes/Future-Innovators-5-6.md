@@ -10,10 +10,10 @@ subject_tags:
 price: 169.99
 price_unit: per session
 category: One Time
-weight: 34
+weight: 33
 page_title: Future Innovators (Grades 5 to 7)
 page_subtitle: Empowering Young Minds
-ribbon: Starts Nov 9
+ribbon: Starts Nov 16
 title: Future Innovators (Grades 5 to 7) | Blue Ridge Boost
 description: >-
   Empower young minds with hands-on STEM projects, creativity, and

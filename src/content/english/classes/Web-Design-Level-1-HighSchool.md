@@ -9,7 +9,7 @@ subject_tags:
 price: 249.99
 price_unit: per session
 category: One Time
-weight: 53
+weight: 51
 page_title: Web Design 1
 page_subtitle: Preparation and Certification Exam
 ribbon: On Demand

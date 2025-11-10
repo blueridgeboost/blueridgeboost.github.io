@@ -10,7 +10,7 @@ price: 239.99
 price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 51
+weight: 49
 page_title: Introduction to Computer Science
 page_subtitle: Get started with Computer Science through Blue Ridge Boost and CodeHS!
 ribbon: On Demand

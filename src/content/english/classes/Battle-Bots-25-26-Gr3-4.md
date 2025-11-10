@@ -13,7 +13,7 @@ duration: 4 wk
 weight: 20
 page_title: VEX Battle Bots - Third and Fourth Grade
 page_subtitle: Design. Build. Code. BATTLE!
-ribbon: Starts Nov 2
+ribbon: Starts Jan 4
 title: VEX Battle Bots - Third and Fourth Grade | Blue Ridge Boost
 description: >-
   Design. Build. Code. BATTLE! Join VEX Battle Bots for 3rd–4th graders at Blue

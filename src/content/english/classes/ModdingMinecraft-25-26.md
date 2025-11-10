@@ -10,7 +10,7 @@ price: 179.99
 price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 52
+weight: 50
 page_title: 'Mod Craft: Code Your Own Minecraft Mods'
 page_subtitle: Craft your very own Minecraft Mods!
 ribbon: Starts Jan 10

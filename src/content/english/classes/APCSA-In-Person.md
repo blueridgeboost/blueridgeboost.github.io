@@ -10,7 +10,7 @@ price: 249.99
 price_unit: per month
 category: Ongoing
 duration: Flexible
-weight: 63
+weight: 61
 page_title: 'Group Tutoring: Java for AP Computer Science'
 page_subtitle: Get ready for AP CSA
 ribbon: On Demand
