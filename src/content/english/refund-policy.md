@@ -60,3 +60,5 @@ In the event that Blue Ridge Boost LLC cancels a event due to unforeseen circums
 <b>Exceptions to this policy may be made at the sole discretion of Blue Ridge Boost LLC. Such exceptions will be determined on a case-by-case basis and will require approval from a company director.</b>
 
 By enrolling your child in activities provided by Blue Ridge Boost LLC, you acknowledge and agree to this no refund policy. If you have any questions or concerns, please contact our office prior to enrolling.
+
+<script id="CookieDeclaration" src="https://consent.cookiebot.com/30dbd489-8a0c-4d55-a0c7-df0aa25bce64/cd.js" type="text/javascript" async></script>
