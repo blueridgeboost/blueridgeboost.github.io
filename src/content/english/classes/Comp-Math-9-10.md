@@ -10,7 +10,7 @@ price: 249.99
 price_unit: per month
 category: Ongoing
 duration: Flexible
-weight: 65
+weight: 56
 page_title: Competition Math 9-10
 page_subtitle: AMC 10 Prep
 ribbon: Starts on March 29

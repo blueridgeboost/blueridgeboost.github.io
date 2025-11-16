@@ -10,7 +10,7 @@ price: 149.99
 price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 12
+weight: 11
 page_title: Intro to FIRST LEGO League
 page_subtitle: Building Bright Futures
 ribbon: Join Now

@@ -10,7 +10,7 @@ price: 299.99
 price_unit: per month
 category: Ongoing
 duration: 2-3 mo
-weight: 43
+weight: 38
 page_title: 'Carnegie Mellon Robotics Academy: Electrical Foundations'
 page_subtitle: 'From Wires to Robots: Build and Program with Arduino!'
 ribbon: Starts Jan 6th

@@ -10,7 +10,7 @@ price: 139.99
 price_unit: per month
 category: Ongoing
 duration: Flexible
-weight: 10
+weight: 9
 page_title: Advanced Math Enrichment 3rd Grade
 page_subtitle: Exploring the Beauty of Mathematics
 ribbon: Join Now
@@ -21,11 +21,11 @@ description: >-
   explore the beauty of mathematics and foster critical thinking. Contact us at
   (434) 260-0636 or nora@blueridgeboost.com for details. Located at 2171 Ivy Rd.
 day_tags:
-  - Tue
-  - Thu
+  - Mon
+  - Wed
 grade_tags:
   - 3rd
-start_time: 3:45 PM
-end_time: 4:30 PM
+start_time: 2:45 PM
+end_time: 3:30 PM
 ---
 

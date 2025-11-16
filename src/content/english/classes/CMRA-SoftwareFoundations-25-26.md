@@ -11,7 +11,7 @@ price: 299.99
 price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 47
+weight: 42
 page_title: 'Carnegie Mellon Robotics Academy: Software Foundations'
 page_subtitle: From Beginner to Roboticist!
 ribbon: Starts Jan 7
