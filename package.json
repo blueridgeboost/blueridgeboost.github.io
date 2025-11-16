@@ -8,6 +8,7 @@
     "config": "node ./src/staticjs/config-generation.mjs",
     "aiGen": "node ./src/staticjs/keywords-and-topics.mjs",
     "camp-rosters": "node ./src/staticjs/rosters/camp-rosters.mjs",
+    "class-rosters": "node ./src/staticjs/rosters/all-classes.mjs",
     "clean": "rimraf docs",
     "html": "hugo --destination docs --source ./src/",
     "copy": "cpy --no-parents CNAME docs && cpy src/docs/**/* ./docs",

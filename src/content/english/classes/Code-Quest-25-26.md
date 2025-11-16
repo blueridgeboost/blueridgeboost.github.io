@@ -10,7 +10,7 @@ price: 149.99
 price_unit: per month
 category: Ongoing
 duration: 6+ mo
-weight: 18
+weight: 17
 page_title: Code Quest Grades 3 and 4
 page_subtitle: Adventures in Text Programming
 ribbon: Starts Jan 11

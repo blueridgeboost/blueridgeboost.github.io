@@ -9,7 +9,7 @@ subject_tags:
 price: 179.99
 price_unit: per session
 category: One Time
-weight: 16
+weight: 15
 page_title: Competition Math Grades 3 and 4
 page_subtitle: Get Ready for Math Kangaroo and Math Olympiad
 ribbon: Starts Dec 8

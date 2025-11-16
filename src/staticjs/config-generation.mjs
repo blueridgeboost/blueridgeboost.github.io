@@ -15,12 +15,12 @@ dotenv.config({ path: envPath });
 async function main() {
     const classesEcwid = await getAllClasses();
     const oneDayCamps = await getOneDayCamps();
-    // try {
-    //     await cleanUpHugoFiles();
-    //     console.log('cleanUpHugoFiles: done');
-    // } catch (err) {
-    //     console.error('cleanUpHugoFiles failed:', err);
-    // }
+    try {
+        await cleanUpHugoFiles();
+        console.log('cleanUpHugoFiles: done');
+    } catch (err) {
+        console.error('cleanUpHugoFiles failed:', err);
+    }
 
     try {
         await generateMDClassFiles(classesEcwid);

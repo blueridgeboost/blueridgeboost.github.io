@@ -1,10 +1,13 @@
 import dotenv from 'dotenv';
-dotenv.config({ path: '../../.env' });
-import {getOrdersByProductId, getCatalog} from '../../../../brb-utils/src/ecwid-commons.js';
+import {getOrdersByProductId, getCatalog} from '../ecwid.js';
 import Papa from 'papaparse';
+import path from 'path';
 import fs from 'fs';
+// Construct the path to the .env file
+const envPath = path.join(process.cwd(), '..', '.env');
+// Load the .env file
+dotenv.config({ path: envPath });
 
-const emailsOnly=false;
 const ROSTERS_DIR = "G:\\Shared drives\\BRB\\25-26 Classes\\rosters\\"
 
 function getAttributeValue(product, attributeName) {
@@ -62,12 +65,31 @@ async function main() {
         for (let order of orders) {
             if (order.fulfillmentStatus === IN_PROGRESS || order.fulfillmentStatus === NEW_ORDER) {
                 for (let item of order.items) {
-                    const name1 = order.orderExtraFields.find(field => field.title == "First Student's Name");
-                    const grade1 = order.orderExtraFields.find(field => field.title == "First Student's Grade");
-                    const name2 = order.orderExtraFields.find(field => field.title == "[Optional] Second Student's Name");
-                    const grade2 = order.orderExtraFields.find(field => field.title == "[Optional] Second Student's Grade");
-                    const notes = order.orderExtraFields.find(field => field.title == "[Optional] Please let us know of anything you think we should be aware of to best teach your student.");
+                    let name1 = order?.orderExtraFields?.find(field => field.title == "First Student's Name");
+                    let grade1 = order?.orderExtraFields?.find(field => field.title == "First Student's Grade");
+                    let name2 = order?.orderExtraFields?.find(field => field.title == "[Optional] Second Student's Name");
+                    let grade2 = order?.orderExtraFields?.find(field => field.title == "[Optional] Second Student's Grade");
+                    const notes = order?.orderExtraFields?.find(field => field.title == "[Optional] Please let us know of anything you think we should be aware of to best teach your student.");
                     if (item.productId === c.id) {
+                        // Helper to safely get an option value by name
+                        const getOptionValue = (options, name) =>
+                        options?.find(opt => opt?.name === name)?.value;
+                        const options = item?.selectedOptions;
+                        // Set only if currently undefined
+                        if (name1 === undefined) {
+                            name1 = getOptionValue(options, "Student's Name");
+                        }
+                        if (grade1 === undefined) {
+                            grade1 = getOptionValue(options, "Student's Grade");
+                        }
+                        if (name2 === undefined) {
+                            name2 = getOptionValue(options, "Additional Name (if signing up more than one)");
+                        }
+                        if (grade2 === undefined) {
+                            grade2 = getOptionValue(options, "Additional Grade");
+                        }
+                        const selections = options?.find(opt => opt?.name === 'Day of the week')?.selections;
+                        const daysOfWeek = (selections == undefined) ? getAttributeValue(c, "day_of_week") : selections.selectionTitle;
                         count += item.quantity;
                         class_data.push({
                             parentName: order.billingPerson.name,
@@ -75,6 +97,7 @@ async function main() {
                             parentPhone: order.billingPerson.phone,
                             childName: (name1) ? name1.value : "",
                             childGrade: (grade1) ? grade1.value : "",
+                            daysOfWeek: daysOfWeek,
                             selectedOptions: ( item.selectedOptions &&
                                 item.selectedOptions.length > 0) ? 
                                     JSON.stringify(item.selectedOptions[0].value) : "",
@@ -85,6 +108,7 @@ async function main() {
                                 parentName: order.billingPerson.name,
                                 parentEmail: order.email,
                                 parentPhone: order.billingPerson.phone,
+                                daysOfWeek: daysOfWeek,
                                 childName: (name2) ? name2.value : "",
                                 childGrade: (grade2) ? grade2.value : "",
                                 selectedOptions: (item.selectedOptions &&item.selectedOptions.length > 0) ? 
@@ -100,9 +124,9 @@ async function main() {
             const brbId = getAttributeValue(c, "brb_id");
             data.push({
                 brbId: brbId,
-                className: c.productName,
+                className: c.name,
                 count: count,
-                daysOfWeek: getAttributeValue(c, "days_of_week"),
+                daysOfWeek: getAttributeValue(c, "day_of_week"),
                 startDate: getAttributeValue(c, "start_date"),
                 endDate: getAttributeValue(c, "end_date"),
                 startTime: getAttributeValue(c, "start_time"),

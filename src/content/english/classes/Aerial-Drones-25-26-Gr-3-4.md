@@ -10,7 +10,7 @@ price: 159.99
 price_unit: per month
 category: Ongoing
 duration: 2-3 mo
-weight: 17
+weight: 16
 page_title: 'Soar into STEM: Aerial Drone Class for Grades 3-4'
 page_subtitle: 'Sky High Challenge: Piloting and Coding '
 ribbon: Starts Jan 11

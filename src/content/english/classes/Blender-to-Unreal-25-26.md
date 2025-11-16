@@ -10,7 +10,7 @@ price: 199.99
 price_unit: per month
 category: Ongoing
 duration: 6+ mo
-weight: 40
+weight: 36
 page_title: '3D Video Game Modeling: Blender to Unreal Engine'
 page_subtitle: Design and Create Dungeon Props!
 ribbon: Join Now
