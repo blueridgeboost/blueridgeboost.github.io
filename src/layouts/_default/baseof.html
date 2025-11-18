@@ -2,14 +2,11 @@
 <html lang="{{ site.LanguageCode | default `en-US` }}" itemscope itemtype="http://schema.org/WebPage">
 
 <head>
-	<!-- head (don't cache it) -->
 	{{ partial "head.html" . }}
-
-	<!-- cache partial only in production -->
 	{{ if hugo.IsProduction }}
-	{{ partialCached "style.html" . }}
+		{{ partialCached "style.html" . }}
 	{{ else }}
-	{{ partial "style.html" . }}
+		{{ partial "style.html" . }}
 	{{ end }}
 </head>
 
