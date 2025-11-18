@@ -1,0 +1,21 @@
+<script id="Cookiebot"
+
+src="https://consent.cookiebot.com/uc.js"
+
+data-cbid="30dbd489-8a0c-4d55-a0c7-df0aa25bce64"
+
+type="text/javascript"
+
+async></script>
+
+Optional: auto-close banner but keep privacy button
+
+<script>
+
+window.addEventListener('CookiebotOnDialogDisplay', function () {
+
+try { Cookiebot.dialog.close(); Cookiebot.widget?.show && Cookiebot.widget.show(); } catch(e){}
+
+});
+
+</script>

@@ -1,0 +1,29 @@
+<script>
+
+// Create dataLayer and gtag early
+
+window.dataLayer = window.dataLayer || [];
+
+function gtag(){ dataLayer.push(arguments); }
+
+// Consent Mode defaults: granted
+
+gtag('consent', 'default', {
+
+ad_storage: 'granted',
+
+analytics_storage: 'granted',
+
+functionality_storage: 'granted',
+
+security_storage: 'granted',
+
+personalization_storage: 'granted',
+
+ad_user_data: 'granted',
+
+ad_personalization: 'granted'
+
+});
+
+</script>
