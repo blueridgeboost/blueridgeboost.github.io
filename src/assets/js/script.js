@@ -147,30 +147,44 @@ function ecwid2gtm() {
   window.dataLayer = window.dataLayer || [];
   // Persistent snapshot of the last known cart
   var __brb_prevCart = null;
-  
+
   function pushEvent(name, detail) {
     var payload = Object.assign({ event: name }, detail || {});
     window.dataLayer.push(payload);
-    // Secondary envelope if you need to reference the raw detail separately
     window.dataLayer.push({ event: name, ecwid_event_detail: detail || {} });
   }
 
   function toItem(p) {
+    // Keep original helper used in your other events
+    const id = p?.sku ?? p?.id ?? p?.productId ?? '';
+    const name = p?.name ?? p?.product?.name ?? '';
+    const price = Number(p?.price ?? p?.product?.price ?? 0);
+    const qty = Number(p?.quantity ?? 1);
     return {
-      item_id: String(p?.sku || p?.id || ''),
-      item_name: String(p?.name || ''),
-      quantity: Number(p?.quantity || 1),
-      price: Number(p?.price || 0)
+      item_id: String(id),
+      item_name: String(name),
+      quantity: qty,
+      price: price
     };
   }
 
   function toGa4Item(p) {
+    const id = p?.sku ?? p?.id ?? p?.productId ?? '';
+    const name = p?.name ?? p?.product?.name ?? '';
+    // Ecwid sometimes keeps price at p.price; sometimes p.product.price
+    const price = Number(
+      p?.price ??
+      p?.product?.price ??
+      0
+    );
+    const qty = Number(p?.quantity ?? 1);
+    const variant = (p?.selectedOptions || []).map(o => o.name + ': ' + o.value).join(', ');
     return {
-      item_id: String(p?.sku || p?.id || ''),
-      item_name: String(p?.name || ''),
-      quantity: Number(p?.quantity || 1),
-      price: Number(p?.price || 0),
-      item_variant: (p?.selectedOptions || []).map(o => o.name + ': ' + o.value).join(', ')
+      item_id: String(id),
+      item_name: String(name),
+      quantity: qty,
+      price: price,
+      item_variant: variant
     };
   }
 
@@ -180,11 +194,13 @@ function ecwid2gtm() {
 
   function clearEcommerce(){ window.dataLayer.push({ ecommerce: null }); }
 
-  // Build a key for an item line. If variants/options matter, include them.
   function lineKey(it){
-    var opts = (it?.selectedOptions || []).map(o => o.name + '=' + o.value).join('|');
-    return String(it?.id ?? it?.productId ?? it?.sku ?? '') + '|' + (it?.sku || '') + '|' + opts;
+    const id = it?.id ?? it?.productId ?? it?.sku ?? '';
+    const sku = it?.sku ?? '';
+    const opts = (it?.selectedOptions || []).map(o => (o.name||'') + '=' + (o.value||'')).join('|');
+    return String(id) + '|' + String(sku) + '|' + opts;
   }
+
 
   // Convert a cart to a map key -> quantity
   function cartQtyMap(cart){
@@ -250,7 +266,7 @@ function ecwid2gtm() {
     if (onCartChanged) {
       Ecwid.OnCartChanged.add(function(cart){
         // Always emit raw change event
-        pushEvent('brb_ecwid_cart_changed', { cart });
+        // pushEvent('brb_ecwid_cart_changed', { cart });
 
         // If no previous cart yet, store and bail
         if (!__brb_prevCart) {
