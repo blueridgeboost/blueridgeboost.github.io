@@ -140,6 +140,218 @@ function get_class_options(id) {
     return ret_value;
 }
 
+// function ecwid2gtm() {
+    
+//     if (window.__ecwidToGtm) return;
+    
+//     window.__ecwidToGtm = true;
+    
+//     window.dataLayer = window.dataLayer || [];
+    
+//     function pushEvent(name, detail) {
+        
+//         window.dataLayer.push(Object.assign({ event: name }, detail || {}));
+        
+//         window.dataLayer.push({ event: 'ecwid_event', ecwid_event_name: name, ecwid_event_detail: detail || {} });
+        
+//     }
+    
+//     function toItem(p) {
+        
+//         return {
+            
+//             item_id: String(p?.sku || p?.id || ''),
+            
+//             item_name: String(p?.name || ''),
+            
+//             quantity: Number(p?.quantity || 1),
+            
+//             price: Number(p?.price || 0)
+            
+//         };
+        
+//     }
+    
+//     function getCurrency() {
+        
+//         try { return Ecwid?.getCurrency?.().currency || 'USD'; } catch(e){ return 'USD'; }
+        
+//     }
+    
+//     function clearEcommerce(){ window.dataLayer.push({ ecommerce: null }); }
+    
+//     // Waiter that resolves when a given path exists
+    
+//     function waitFor(pathGetter, maxMs = 8000, intervalMs = 100) {
+        
+//         return new Promise(resolve => {
+            
+//             const start = Date.now();
+            
+//             (function tick(){
+                
+//                 let val;
+                
+//                 try { val = pathGetter(); } catch(e) {}
+                
+//                 if (val) return resolve(val);
+                
+//                 if (Date.now() - start >= maxMs) return resolve(null);
+                
+//                 setTimeout(tick, intervalMs);
+                
+//             })();
+            
+//         });
+        
+//     }
+    
+//     async function bindEcwid() {
+        
+//         const ecwid = await waitFor(() => window.Ecwid);
+        
+//         if (!ecwid) return; // Ecwid not present in this context (likely parent page)
+        
+//         // Bind each hook only if it exists
+        
+//         const addToCart = await waitFor(() => Ecwid.OnAddToCart && Ecwid.OnAddToCart.add);
+        
+//         if (addToCart) {
+            
+//             Ecwid.OnAddToCart.add(function(product){
+                
+//                 const item = toItem(product);
+                
+//                 pushEvent('add_to_cart', {
+                    
+//                     ecommerce: { currency: getCurrency(), value: +(item.price * item.quantity).toFixed(2), items: [item] }
+                    
+//                 });
+                
+//                 clearEcommerce();
+                
+//             });
+            
+//         }
+        
+//         const onCartChanged = await waitFor(() => Ecwid.OnCartChanged && Ecwid.OnCartChanged.add);
+        
+//         if (onCartChanged) {
+            
+//             Ecwid.OnCartChanged.add(function(cart){
+                
+//                 pushEvent('ecwid_cart_changed', { cart });
+                
+//             });
+            
+//         }
+        
+//         const onProductViewed = await waitFor(() => Ecwid.OnProductViewed && Ecwid.OnProductViewed.add);
+        
+//         if (onProductViewed) {
+            
+//             Ecwid.OnProductViewed.add(function(product){
+                
+//                 pushEvent('view_item', { ecommerce: { currency: getCurrency(), items: [toItem(product)] } });
+                
+//                 clearEcommerce();
+                
+//             });
+            
+//         }
+        
+//         const onCategoryLoaded = await waitFor(() => Ecwid.OnCategoryLoaded && Ecwid.OnCategoryLoaded.add);
+        
+//         if (onCategoryLoaded) {
+            
+//             Ecwid.OnCategoryLoaded.add(function(category){
+                
+//                 pushEvent('ecwid_category_loaded', { category });
+                
+//             });
+            
+//         }
+        
+//         const onCheckoutStep = await waitFor(() => Ecwid.OnCheckoutStepChanged && Ecwid.OnCheckoutStepChanged.add);
+        
+//         if (onCheckoutStep) {
+            
+//             Ecwid.OnCheckoutStepChanged.add(function(step){
+                
+//                 pushEvent('ecwid_checkout_step', { step });
+                
+//             });
+            
+//         }
+        
+//         const onOrderPlaced = await waitFor(() => Ecwid.OnOrderPlaced && Ecwid.OnOrderPlaced.add);
+        
+//         if (onOrderPlaced) {
+            
+//             Ecwid.OnOrderPlaced.add(function(order){
+                
+//                 const items = (order?.items || []).map(it => ({
+                    
+//                     item_id: String(it.sku || it.productId || ''),
+                    
+//                     item_name: String(it.name || ''),
+                    
+//                     quantity: Number(it.quantity || 1),
+                    
+//                     price: Number(it.price || 0)
+                    
+//                 }));
+                
+//                 pushEvent('purchase', {
+                    
+//                     ecommerce: {
+                        
+//                         currency: order?.currency || getCurrency(),
+                        
+//                         transaction_id: String(order?.orderNumber || order?.id || ''),
+                        
+//                         value: Number(order?.total || 0),
+                        
+//                         shipping: Number(order?.shippingCost || 0),
+                        
+//                         tax: Number(order?.tax || 0),
+                        
+//                         items
+                        
+//                     },
+                    
+//                     order_raw: order
+                    
+//                 });
+                
+//                 clearEcommerce();
+                
+//             });
+            
+//         }
+        
+//     }
+    
+//     // Try various readiness signals, plus async wait
+    
+//     document.addEventListener('DOMContentLoaded', bindEcwid);
+    
+//     document.addEventListener('ecwid-ready', bindEcwid);
+    
+//     if (window.Ecwid?.OnAPILoaded?.add) {
+        
+//         // Some builds expose this signal
+        
+//         try { Ecwid.OnAPILoaded.add(bindEcwid); } catch(e){}
+        
+//     }
+    
+//     // Also kick off immediately
+    
+//     bindEcwid();
+    
+// }
+
 function ecwid2gtm() {
     
     if (window.__ecwidToGtm) return;
@@ -148,34 +360,23 @@ function ecwid2gtm() {
     
     window.dataLayer = window.dataLayer || [];
     
-    function pushEvent(name, detail) {
-        
+    function pushEvent(name, detail) {    
         window.dataLayer.push(Object.assign({ event: name }, detail || {}));
-        
         window.dataLayer.push({ event: 'ecwid_event', ecwid_event_name: name, ecwid_event_detail: detail || {} });
-        
     }
     
     function toItem(p) {
-        
         return {
-            
             item_id: String(p?.sku || p?.id || ''),
-            
             item_name: String(p?.name || ''),
-            
             quantity: Number(p?.quantity || 1),
-            
             price: Number(p?.price || 0)
-            
         };
         
     }
     
     function getCurrency() {
-        
         try { return Ecwid?.getCurrency?.().currency || 'USD'; } catch(e){ return 'USD'; }
-        
     }
     
     function clearEcommerce(){ window.dataLayer.push({ ecommerce: null }); }
@@ -183,53 +384,30 @@ function ecwid2gtm() {
     // Waiter that resolves when a given path exists
     
     function waitFor(pathGetter, maxMs = 8000, intervalMs = 100) {
-        
         return new Promise(resolve => {
-            
             const start = Date.now();
-            
             (function tick(){
-                
                 let val;
-                
                 try { val = pathGetter(); } catch(e) {}
-                
                 if (val) return resolve(val);
-                
                 if (Date.now() - start >= maxMs) return resolve(null);
-                
                 setTimeout(tick, intervalMs);
-                
             })();
-            
         });
-        
     }
     
     async function bindEcwid() {
-        
         const ecwid = await waitFor(() => window.Ecwid);
-        
         if (!ecwid) return; // Ecwid not present in this context (likely parent page)
-        
         // Bind each hook only if it exists
-        
         const addToCart = await waitFor(() => Ecwid.OnAddToCart && Ecwid.OnAddToCart.add);
-        
         if (addToCart) {
-            
             Ecwid.OnAddToCart.add(function(product){
-                
                 const item = toItem(product);
-                
-                pushEvent('add_to_cart', {
-                    
+                pushEvent('brb_add_to_cart', {
                     ecommerce: { currency: getCurrency(), value: +(item.price * item.quantity).toFixed(2), items: [item] }
-                    
                 });
-                
                 clearEcommerce();
-                
             });
             
         }
@@ -239,8 +417,8 @@ function ecwid2gtm() {
         if (onCartChanged) {
             
             Ecwid.OnCartChanged.add(function(cart){
-                
-                pushEvent('ecwid_cart_changed', { cart });
+                console.log(cart);    
+                pushEvent('brb_ecwid_cart_changed', { cart });
                 
             });
             
@@ -252,7 +430,7 @@ function ecwid2gtm() {
             
             Ecwid.OnProductViewed.add(function(product){
                 
-                pushEvent('view_item', { ecommerce: { currency: getCurrency(), items: [toItem(product)] } });
+                pushEvent('brb_view_item', { ecommerce: { currency: getCurrency(), items: [toItem(product)] } });
                 
                 clearEcommerce();
                 
@@ -266,7 +444,7 @@ function ecwid2gtm() {
             
             Ecwid.OnCategoryLoaded.add(function(category){
                 
-                pushEvent('ecwid_category_loaded', { category });
+                pushEvent('brb_category_loaded', { category });
                 
             });
             
@@ -278,7 +456,7 @@ function ecwid2gtm() {
             
             Ecwid.OnCheckoutStepChanged.add(function(step){
                 
-                pushEvent('ecwid_checkout_step', { step });
+                pushEvent('brb_checkout_step', { step });
                 
             });
             
@@ -302,7 +480,7 @@ function ecwid2gtm() {
                     
                 }));
                 
-                pushEvent('purchase', {
+                pushEvent('brb_purchase', {
                     
                     ecommerce: {
                         
