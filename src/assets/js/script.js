@@ -362,7 +362,7 @@ function ecwid2gtm() {
     
     function pushEvent(name, detail) {    
         window.dataLayer.push(Object.assign({ event: name }, detail || {}));
-        window.dataLayer.push({ event: 'ecwid_event', ecwid_event_name: name, ecwid_event_detail: detail || {} });
+        window.dataLayer.push({ event: name, ecwid_event_detail: detail || {} });
     }
     
     function toItem(p) {
