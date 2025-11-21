@@ -140,392 +140,238 @@ function get_class_options(id) {
     return ret_value;
 }
 
-// function ecwid2gtm() {
-    
-//     if (window.__ecwidToGtm) return;
-    
-//     window.__ecwidToGtm = true;
-    
-//     window.dataLayer = window.dataLayer || [];
-    
-//     function pushEvent(name, detail) {
-        
-//         window.dataLayer.push(Object.assign({ event: name }, detail || {}));
-        
-//         window.dataLayer.push({ event: 'ecwid_event', ecwid_event_name: name, ecwid_event_detail: detail || {} });
-        
-//     }
-    
-//     function toItem(p) {
-        
-//         return {
-            
-//             item_id: String(p?.sku || p?.id || ''),
-            
-//             item_name: String(p?.name || ''),
-            
-//             quantity: Number(p?.quantity || 1),
-            
-//             price: Number(p?.price || 0)
-            
-//         };
-        
-//     }
-    
-//     function getCurrency() {
-        
-//         try { return Ecwid?.getCurrency?.().currency || 'USD'; } catch(e){ return 'USD'; }
-        
-//     }
-    
-//     function clearEcommerce(){ window.dataLayer.push({ ecommerce: null }); }
-    
-//     // Waiter that resolves when a given path exists
-    
-//     function waitFor(pathGetter, maxMs = 8000, intervalMs = 100) {
-        
-//         return new Promise(resolve => {
-            
-//             const start = Date.now();
-            
-//             (function tick(){
-                
-//                 let val;
-                
-//                 try { val = pathGetter(); } catch(e) {}
-                
-//                 if (val) return resolve(val);
-                
-//                 if (Date.now() - start >= maxMs) return resolve(null);
-                
-//                 setTimeout(tick, intervalMs);
-                
-//             })();
-            
-//         });
-        
-//     }
-    
-//     async function bindEcwid() {
-        
-//         const ecwid = await waitFor(() => window.Ecwid);
-        
-//         if (!ecwid) return; // Ecwid not present in this context (likely parent page)
-        
-//         // Bind each hook only if it exists
-        
-//         const addToCart = await waitFor(() => Ecwid.OnAddToCart && Ecwid.OnAddToCart.add);
-        
-//         if (addToCart) {
-            
-//             Ecwid.OnAddToCart.add(function(product){
-                
-//                 const item = toItem(product);
-                
-//                 pushEvent('add_to_cart', {
-                    
-//                     ecommerce: { currency: getCurrency(), value: +(item.price * item.quantity).toFixed(2), items: [item] }
-                    
-//                 });
-                
-//                 clearEcommerce();
-                
-//             });
-            
-//         }
-        
-//         const onCartChanged = await waitFor(() => Ecwid.OnCartChanged && Ecwid.OnCartChanged.add);
-        
-//         if (onCartChanged) {
-            
-//             Ecwid.OnCartChanged.add(function(cart){
-                
-//                 pushEvent('ecwid_cart_changed', { cart });
-                
-//             });
-            
-//         }
-        
-//         const onProductViewed = await waitFor(() => Ecwid.OnProductViewed && Ecwid.OnProductViewed.add);
-        
-//         if (onProductViewed) {
-            
-//             Ecwid.OnProductViewed.add(function(product){
-                
-//                 pushEvent('view_item', { ecommerce: { currency: getCurrency(), items: [toItem(product)] } });
-                
-//                 clearEcommerce();
-                
-//             });
-            
-//         }
-        
-//         const onCategoryLoaded = await waitFor(() => Ecwid.OnCategoryLoaded && Ecwid.OnCategoryLoaded.add);
-        
-//         if (onCategoryLoaded) {
-            
-//             Ecwid.OnCategoryLoaded.add(function(category){
-                
-//                 pushEvent('ecwid_category_loaded', { category });
-                
-//             });
-            
-//         }
-        
-//         const onCheckoutStep = await waitFor(() => Ecwid.OnCheckoutStepChanged && Ecwid.OnCheckoutStepChanged.add);
-        
-//         if (onCheckoutStep) {
-            
-//             Ecwid.OnCheckoutStepChanged.add(function(step){
-                
-//                 pushEvent('ecwid_checkout_step', { step });
-                
-//             });
-            
-//         }
-        
-//         const onOrderPlaced = await waitFor(() => Ecwid.OnOrderPlaced && Ecwid.OnOrderPlaced.add);
-        
-//         if (onOrderPlaced) {
-            
-//             Ecwid.OnOrderPlaced.add(function(order){
-                
-//                 const items = (order?.items || []).map(it => ({
-                    
-//                     item_id: String(it.sku || it.productId || ''),
-                    
-//                     item_name: String(it.name || ''),
-                    
-//                     quantity: Number(it.quantity || 1),
-                    
-//                     price: Number(it.price || 0)
-                    
-//                 }));
-                
-//                 pushEvent('purchase', {
-                    
-//                     ecommerce: {
-                        
-//                         currency: order?.currency || getCurrency(),
-                        
-//                         transaction_id: String(order?.orderNumber || order?.id || ''),
-                        
-//                         value: Number(order?.total || 0),
-                        
-//                         shipping: Number(order?.shippingCost || 0),
-                        
-//                         tax: Number(order?.tax || 0),
-                        
-//                         items
-                        
-//                     },
-                    
-//                     order_raw: order
-                    
-//                 });
-                
-//                 clearEcommerce();
-                
-//             });
-            
-//         }
-        
-//     }
-    
-//     // Try various readiness signals, plus async wait
-    
-//     document.addEventListener('DOMContentLoaded', bindEcwid);
-    
-//     document.addEventListener('ecwid-ready', bindEcwid);
-    
-//     if (window.Ecwid?.OnAPILoaded?.add) {
-        
-//         // Some builds expose this signal
-        
-//         try { Ecwid.OnAPILoaded.add(bindEcwid); } catch(e){}
-        
-//     }
-    
-//     // Also kick off immediately
-    
-//     bindEcwid();
-    
-// }
 
 function ecwid2gtm() {
-    
-    if (window.__ecwidToGtm) return;
-    
-    window.__ecwidToGtm = true;
-    
-    window.dataLayer = window.dataLayer || [];
-    
-    function pushEvent(name, detail) {    
-        window.dataLayer.push(Object.assign({ event: name }, detail || {}));
-        window.dataLayer.push({ event: name, ecwid_event_detail: detail || {} });
+  if (window.__ecwidToGtm) return;
+  window.__ecwidToGtm = true;
+  window.dataLayer = window.dataLayer || [];
+  // Persistent snapshot of the last known cart
+  var __brb_prevCart = null;
+  
+  function pushEvent(name, detail) {
+    var payload = Object.assign({ event: name }, detail || {});
+    window.dataLayer.push(payload);
+    // Secondary envelope if you need to reference the raw detail separately
+    window.dataLayer.push({ event: name, ecwid_event_detail: detail || {} });
+  }
+
+  function toItem(p) {
+    return {
+      item_id: String(p?.sku || p?.id || ''),
+      item_name: String(p?.name || ''),
+      quantity: Number(p?.quantity || 1),
+      price: Number(p?.price || 0)
+    };
+  }
+
+  function toGa4Item(p) {
+    return {
+      item_id: String(p?.sku || p?.id || ''),
+      item_name: String(p?.name || ''),
+      quantity: Number(p?.quantity || 1),
+      price: Number(p?.price || 0),
+      item_variant: (p?.selectedOptions || []).map(o => o.name + ': ' + o.value).join(', ')
+    };
+  }
+
+  function getCurrency() {
+    try { return Ecwid?.getCurrency?.().currency || 'USD'; } catch(e){ return 'USD'; }
+  }
+
+  function clearEcommerce(){ window.dataLayer.push({ ecommerce: null }); }
+
+  // Build a key for an item line. If variants/options matter, include them.
+  function lineKey(it){
+    var opts = (it?.selectedOptions || []).map(o => o.name + '=' + o.value).join('|');
+    return String(it?.id ?? it?.productId ?? it?.sku ?? '') + '|' + (it?.sku || '') + '|' + opts;
+  }
+
+  // Convert a cart to a map key -> quantity
+  function cartQtyMap(cart){
+    var map = {};
+    var items = (cart && cart.items) ? cart.items : [];
+    for (var i=0;i<items.length;i++){
+      var k = lineKey(items[i]);
+      var q = Number(items[i].quantity || 0);
+      map[k] = (map[k] || 0) + q;
     }
-    
-    function toItem(p) {
-        return {
-            item_id: String(p?.sku || p?.id || ''),
-            item_name: String(p?.name || ''),
-            quantity: Number(p?.quantity || 1),
-            price: Number(p?.price || 0)
-        };
-        
+    return map;
+  }
+
+  // Find the first matching line by key in a cart
+  function findByKey(cart, key){
+    var items = (cart && cart.items) ? cart.items : [];
+    for (var i=0;i<items.length;i++){
+      if (lineKey(items[i]) === key) return items[i];
     }
-    
-    function getCurrency() {
-        try { return Ecwid?.getCurrency?.().currency || 'USD'; } catch(e){ return 'USD'; }
-    }
-    
-    function clearEcommerce(){ window.dataLayer.push({ ecommerce: null }); }
-    
-    // Waiter that resolves when a given path exists
-    
-    function waitFor(pathGetter, maxMs = 8000, intervalMs = 100) {
-        return new Promise(resolve => {
-            const start = Date.now();
-            (function tick(){
-                let val;
-                try { val = pathGetter(); } catch(e) {}
-                if (val) return resolve(val);
-                if (Date.now() - start >= maxMs) return resolve(null);
-                setTimeout(tick, intervalMs);
-            })();
+    return null;
+  }
+
+  // Waiter that resolves when a given path exists
+  function waitFor(pathGetter, maxMs = 8000, intervalMs = 100) {
+    return new Promise(resolve => {
+      const start = Date.now();
+      (function tick(){
+        let val;
+        try { val = pathGetter(); } catch(e) {}
+        if (val) return resolve(val);
+        if (Date.now() - start >= maxMs) return resolve(null);
+        setTimeout(tick, intervalMs);
+      })();
+    });
+  }
+
+  async function bindEcwid() {
+    const ecwid = await waitFor(() => window.Ecwid);
+    if (!ecwid) return; // Ecwid not present in this context
+
+    // Optionally listen if available (not all stores expose OnAddToCart)
+    const addToCart = await waitFor(() => Ecwid.OnAddToCart && Ecwid.OnAddToCart.add);
+    if (addToCart) {
+      Ecwid.OnAddToCart.add(function(product){
+        const item = toItem(product);
+        pushEvent('brb_add_to_cart', {
+          ecommerce: { currency: getCurrency(), value: +(item.price * item.quantity).toFixed(2), items: [item] }
         });
+        clearEcommerce();
+      });
     }
-    
-    async function bindEcwid() {
-        const ecwid = await waitFor(() => window.Ecwid);
-        if (!ecwid) return; // Ecwid not present in this context (likely parent page)
-        // Bind each hook only if it exists
-        const addToCart = await waitFor(() => Ecwid.OnAddToCart && Ecwid.OnAddToCart.add);
-        if (addToCart) {
-            Ecwid.OnAddToCart.add(function(product){
-                const item = toItem(product);
-                pushEvent('brb_add_to_cart', {
-                    ecommerce: { currency: getCurrency(), value: +(item.price * item.quantity).toFixed(2), items: [item] }
-                });
-                clearEcommerce();
-            });
-            
-        }
-        
-        const onCartChanged = await waitFor(() => Ecwid.OnCartChanged && Ecwid.OnCartChanged.add);
-        
-        if (onCartChanged) {
-            
-            Ecwid.OnCartChanged.add(function(cart){
-                console.log(cart);    
-                pushEvent('brb_ecwid_cart_changed', { cart });
-                
-            });
-            
-        }
-        
-        const onProductViewed = await waitFor(() => Ecwid.OnProductViewed && Ecwid.OnProductViewed.add);
-        
-        if (onProductViewed) {
-            
-            Ecwid.OnProductViewed.add(function(product){
-                
-                pushEvent('brb_view_item', { ecommerce: { currency: getCurrency(), items: [toItem(product)] } });
-                
-                clearEcommerce();
-                
-            });
-            
-        }
-        
-        const onCategoryLoaded = await waitFor(() => Ecwid.OnCategoryLoaded && Ecwid.OnCategoryLoaded.add);
-        
-        if (onCategoryLoaded) {
-            
-            Ecwid.OnCategoryLoaded.add(function(category){
-                
-                pushEvent('brb_category_loaded', { category });
-                
-            });
-            
-        }
-        
-        const onCheckoutStep = await waitFor(() => Ecwid.OnCheckoutStepChanged && Ecwid.OnCheckoutStepChanged.add);
-        
-        if (onCheckoutStep) {
-            
-            Ecwid.OnCheckoutStepChanged.add(function(step){
-                
-                pushEvent('brb_checkout_step', { step });
-                
-            });
-            
-        }
-        
-        const onOrderPlaced = await waitFor(() => Ecwid.OnOrderPlaced && Ecwid.OnOrderPlaced.add);
-        
-        if (onOrderPlaced) {
-            
-            Ecwid.OnOrderPlaced.add(function(order){
-                
-                const items = (order?.items || []).map(it => ({
-                    
-                    item_id: String(it.sku || it.productId || ''),
-                    
-                    item_name: String(it.name || ''),
-                    
-                    quantity: Number(it.quantity || 1),
-                    
-                    price: Number(it.price || 0)
-                    
-                }));
-                
-                pushEvent('brb_purchase', {
-                    
-                    ecommerce: {
-                        
-                        currency: order?.currency || getCurrency(),
-                        
-                        transaction_id: String(order?.orderNumber || order?.id || ''),
-                        
-                        value: Number(order?.total || 0),
-                        
-                        shipping: Number(order?.shippingCost || 0),
-                        
-                        tax: Number(order?.tax || 0),
-                        
-                        items
-                        
-                    },
-                    
-                    order_raw: order
-                    
-                });
-                
-                clearEcommerce();
-                
-            });
-            
-        }
-        
+
+    // Initialize previous cart snapshot once at start
+    if (Ecwid.Cart?.get) {
+      try {
+        Ecwid.Cart.get(function(cart){
+          __brb_prevCart = cart ? JSON.parse(JSON.stringify(cart)) : null;
+        });
+      } catch(e){}
     }
-    
-    // Try various readiness signals, plus async wait
-    
-    document.addEventListener('DOMContentLoaded', bindEcwid);
-    
-    document.addEventListener('ecwid-ready', bindEcwid);
-    
-    if (window.Ecwid?.OnAPILoaded?.add) {
-        
-        // Some builds expose this signal
-        
-        try { Ecwid.OnAPILoaded.add(bindEcwid); } catch(e){}
-        
+
+    const onCartChanged = await waitFor(() => Ecwid.OnCartChanged && Ecwid.OnCartChanged.add);
+    if (onCartChanged) {
+      Ecwid.OnCartChanged.add(function(cart){
+        // Always emit raw change event
+        pushEvent('brb_ecwid_cart_changed', { cart });
+
+        // If no previous cart yet, store and bail
+        if (!__brb_prevCart) {
+          __brb_prevCart = cart ? JSON.parse(JSON.stringify(cart)) : null;
+          return;
+        }
+
+        // Build qty maps
+        var prevMap = cartQtyMap(__brb_prevCart);
+        var currMap = cartQtyMap(cart);
+
+        // Compute adds and removals as deltas
+        var addedLines = [];
+        var removedLines = [];
+
+        // Additions/increases
+        Object.keys(currMap).forEach(function(k){
+          var delta = (currMap[k] || 0) - (prevMap[k] || 0);
+          if (delta > 0) {
+            var base = findByKey(cart, k) || findByKey(__brb_prevCart, k) || {};
+            var line = Object.assign({}, base, { quantity: delta });
+            addedLines.push(line);
+          }
+        });
+
+        // Removals/decreases
+        Object.keys(prevMap).forEach(function(k){
+          var delta = (prevMap[k] || 0) - (currMap[k] || 0);
+          if (delta > 0) {
+            var base = findByKey(__brb_prevCart, k) || findByKey(cart, k) || {};
+            var line = Object.assign({}, base, { quantity: delta });
+            removedLines.push(line);
+          }
+        });
+
+        // Push add_to_cart if needed
+        if (addedLines.length) {
+          var itemsA = addedLines.map(toGa4Item);
+          var valueA = addedLines.reduce((s, it) => s + Number(it.price || 0) * Number(it.quantity || 1), 0);
+          pushEvent('brb_add_to_cart', {
+            ecommerce: {
+              currency: (cart?.cost && cart.cost.currency) || cart?.currency || getCurrency(),
+              value: +valueA.toFixed(2),
+              items: itemsA
+            }
+          });
+          clearEcommerce();
+        }
+
+        // Push remove_from_cart if needed
+        if (removedLines.length) {
+          var itemsR = removedLines.map(toGa4Item);
+          var valueR = removedLines.reduce((s, it) => s + Number(it.price || 0) * Number(it.quantity || 1), 0);
+          pushEvent('brb_remove_from_cart', {
+            ecommerce: {
+              currency: (cart?.cost && cart.cost.currency) || cart?.currency || getCurrency(),
+              value: +valueR.toFixed(2),
+              items: itemsR
+            }
+          });
+          clearEcommerce();
+        }
+
+        // Update snapshot
+        __brb_prevCart = cart ? JSON.parse(JSON.stringify(cart)) : null;
+      });
     }
-    
-    // Also kick off immediately
-    
-    bindEcwid();
-    
+
+    const onProductViewed = await waitFor(() => Ecwid.OnProductViewed && Ecwid.OnProductViewed.add);
+    if (onProductViewed) {
+      Ecwid.OnProductViewed.add(function(product){
+        pushEvent('brb_view_item', { ecommerce: { currency: getCurrency(), items: [toItem(product)] } });
+        clearEcommerce();
+      });
+    }
+
+    const onCategoryLoaded = await waitFor(() => Ecwid.OnCategoryLoaded && Ecwid.OnCategoryLoaded.add);
+    if (onCategoryLoaded) {
+      Ecwid.OnCategoryLoaded.add(function(category){
+        pushEvent('brb_category_loaded', { category });
+      });
+    }
+
+    const onCheckoutStep = await waitFor(() => Ecwid.OnCheckoutStepChanged && Ecwid.OnCheckoutStepChanged.add);
+    if (onCheckoutStep) {
+      Ecwid.OnCheckoutStepChanged.add(function(step){
+        pushEvent('brb_checkout_step', { step });
+      });
+    }
+
+    const onOrderPlaced = await waitFor(() => Ecwid.OnOrderPlaced && Ecwid.OnOrderPlaced.add);
+    if (onOrderPlaced) {
+      Ecwid.OnOrderPlaced.add(function(order){
+        const items = (order?.items || []).map(it => ({
+          item_id: String(it.sku || it.productId || ''),
+          item_name: String(it.name || ''),
+          quantity: Number(it.quantity || 1),
+          price: Number(it.price || 0)
+        }));
+        pushEvent('brb_purchase', {
+          ecommerce: {
+            currency: order?.currency || getCurrency(),
+            transaction_id: String(order?.orderNumber || order?.id || ''),
+            value: Number(order?.total || 0),
+            shipping: Number(order?.shippingCost || 0),
+            tax: Number(order?.tax || 0),
+            items
+          },
+          order_raw: order
+        });
+        clearEcommerce();
+      });
+    }
+  }
+
+  // Try various readiness signals, plus async wait
+  document.addEventListener('DOMContentLoaded', bindEcwid);
+  document.addEventListener('ecwid-ready', bindEcwid);
+  if (window.Ecwid?.OnAPILoaded?.add) {
+    try { Ecwid.OnAPILoaded.add(bindEcwid); } catch(e){}
+  }
+  // Also kick off immediately
+  bindEcwid();
 }
