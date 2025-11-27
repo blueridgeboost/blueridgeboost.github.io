@@ -159,7 +159,7 @@ function courseInstances(item) {
 
 function pricePerUnit(item) {
     if (isSession(item)) {
-        return `for ${duration} sessions`;
+        return `for ${duration(item)} sessions`;
     } else if (isOngoing(item)) {
         return "per month";
     } else {
