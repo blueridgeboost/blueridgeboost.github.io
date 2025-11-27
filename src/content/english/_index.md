@@ -102,8 +102,8 @@ banner:
         label: "Open Houses"
         link: "/open-house"
         style: "btnleft"
-      - enable: false
-        label: "World Robot Olympiad"
+      - enable: true
+        label: "WRO"
         link: "/wro/"
         style: "btnleft"
       - enable: false

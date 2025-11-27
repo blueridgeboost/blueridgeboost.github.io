@@ -241,17 +241,17 @@ function ecwid2gtm() {
     const ecwid = await waitFor(() => window.Ecwid);
     if (!ecwid) return; // Ecwid not present in this context
 
-    // Optionally listen if available (not all stores expose OnAddToCart)
-    const addToCart = await waitFor(() => Ecwid.OnAddToCart && Ecwid.OnAddToCart.add);
-    if (addToCart) {
-      Ecwid.OnAddToCart.add(function(product){
-        const item = toItem(product);
-        pushEvent('brb_add_to_cart', {
-          ecommerce: { currency: getCurrency(), value: +(item.price * item.quantity).toFixed(2), items: [item] }
-        });
-        clearEcommerce();
-      });
-    }
+    // // Optionally listen if available (not all stores expose OnAddToCart)
+    // const addToCart = await waitFor(() => Ecwid.OnAddToCart && Ecwid.OnAddToCart.add);
+    // if (addToCart) {
+    //   Ecwid.OnAddToCart.add(function(product){
+    //     const item = toItem(product);
+    //     pushEvent('brb_add_to_cart', {
+    //       ecommerce: { currency: getCurrency(), value: +(item.price * item.quantity).toFixed(2), items: [item] }
+    //     });
+    //     clearEcommerce();
+    //   });
+    // }
 
     // Initialize previous cart snapshot once at start
     if (Ecwid.Cart?.get) {
@@ -263,77 +263,77 @@ function ecwid2gtm() {
     }
 
     const onCartChanged = await waitFor(() => Ecwid.OnCartChanged && Ecwid.OnCartChanged.add);
-    if (onCartChanged) {
-      Ecwid.OnCartChanged.add(function(cart){
-        // Always emit raw change event
-        // pushEvent('brb_ecwid_cart_changed', { cart });
+if (onCartChanged) {
+  Ecwid.OnCartChanged.add(function(cart){
+    // Take a local copy of the previous cart at the start
+    var oldCart = __brb_prevCart ? JSON.parse(JSON.stringify(__brb_prevCart)) : null;
 
-        // If no previous cart yet, store and bail
-        if (!__brb_prevCart) {
-          __brb_prevCart = cart ? JSON.parse(JSON.stringify(cart)) : null;
-          return;
-        }
+    // Overwrite the global snapshot immediately with the new cart
+    __brb_prevCart = cart ? JSON.parse(JSON.stringify(cart)) : null;
 
-        // Build qty maps
-        var prevMap = cartQtyMap(__brb_prevCart);
-        var currMap = cartQtyMap(cart);
-
-        // Compute adds and removals as deltas
-        var addedLines = [];
-        var removedLines = [];
-
-        // Additions/increases
-        Object.keys(currMap).forEach(function(k){
-          var delta = (currMap[k] || 0) - (prevMap[k] || 0);
-          if (delta > 0) {
-            var base = findByKey(cart, k) || findByKey(__brb_prevCart, k) || {};
-            var line = Object.assign({}, base, { quantity: delta });
-            addedLines.push(line);
-          }
-        });
-
-        // Removals/decreases
-        Object.keys(prevMap).forEach(function(k){
-          var delta = (prevMap[k] || 0) - (currMap[k] || 0);
-          if (delta > 0) {
-            var base = findByKey(__brb_prevCart, k) || findByKey(cart, k) || {};
-            var line = Object.assign({}, base, { quantity: delta });
-            removedLines.push(line);
-          }
-        });
-
-        // Push add_to_cart if needed
-        if (addedLines.length) {
-          var itemsA = addedLines.map(toGa4Item);
-          var valueA = addedLines.reduce((s, it) => s + Number(it.price || 0) * Number(it.quantity || 1), 0);
-          pushEvent('brb_add_to_cart', {
-            ecommerce: {
-              currency: (cart?.cost && cart.cost.currency) || cart?.currency || getCurrency(),
-              value: +valueA.toFixed(2),
-              items: itemsA
-            }
-          });
-          clearEcommerce();
-        }
-
-        // Push remove_from_cart if needed
-        if (removedLines.length) {
-          var itemsR = removedLines.map(toGa4Item);
-          var valueR = removedLines.reduce((s, it) => s + Number(it.price || 0) * Number(it.quantity || 1), 0);
-          pushEvent('brb_remove_from_cart', {
-            ecommerce: {
-              currency: (cart?.cost && cart.cost.currency) || cart?.currency || getCurrency(),
-              value: +valueR.toFixed(2),
-              items: itemsR
-            }
-          });
-          clearEcommerce();
-        }
-
-        // Update snapshot
-        __brb_prevCart = cart ? JSON.parse(JSON.stringify(cart)) : null;
-      });
+    // If there was no previous cart, nothing to compare yet
+    if (!oldCart) {
+      return;
     }
+
+    // Build qty maps
+    var prevMap = cartQtyMap(oldCart);
+    var currMap = cartQtyMap(cart);
+
+    // Compute adds and removals as deltas
+    var addedLines = [];
+    var removedLines = [];
+
+    // Additions/increases
+    Object.keys(currMap).forEach(function(k){
+      var delta = (currMap[k] || 0) - (prevMap[k] || 0);
+      if (delta > 0) {
+        var base = findByKey(cart, k) || findByKey(oldCart, k) || {};
+        var line = Object.assign({}, base, { quantity: delta });
+        addedLines.push(line);
+      }
+    });
+
+    // Removals/decreases
+    Object.keys(prevMap).forEach(function(k){
+      var delta = (prevMap[k] || 0) - (currMap[k] || 0);
+      if (delta > 0) {
+        var base = findByKey(oldCart, k) || findByKey(cart, k) || {};
+        var line = Object.assign({}, base, { quantity: delta });
+        removedLines.push(line);
+      }
+    });
+
+    // Push add_to_cart if needed
+    if (addedLines.length) {
+      var itemsA = addedLines.map(toGa4Item);
+      var valueA = addedLines.reduce((s, it) => s + Number(it.price ?? it.product?.price ?? 0) * Number(it.quantity || 1), 0);
+      alert('add_to_cart');
+      pushEvent('brb_add_to_cart', {
+        ecommerce: {
+          currency: (cart?.cost && cart.cost.currency) || cart?.currency || getCurrency(),
+          value: +valueA.toFixed(2),
+          items: itemsA
+        }
+      });
+      clearEcommerce();
+    }
+
+    // Push remove_from_cart if needed
+    if (removedLines.length) {
+      var itemsR = removedLines.map(toGa4Item);
+      var valueR = removedLines.reduce((s, it) => s + Number(it.price ?? it.product?.price ?? 0) * Number(it.quantity || 1), 0);
+      pushEvent('brb_remove_from_cart', {
+        ecommerce: {
+          currency: (cart?.cost && cart.cost.currency) || cart?.currency || getCurrency(),
+          value: +valueR.toFixed(2),
+          items: itemsR
+        }
+      });
+      clearEcommerce();
+    }
+  });
+}
 
     const onProductViewed = await waitFor(() => Ecwid.OnProductViewed && Ecwid.OnProductViewed.add);
     if (onProductViewed) {
