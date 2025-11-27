@@ -7,7 +7,7 @@ schedule_tags:
 subject_tags:
   - Science
 price: 144.99
-price_unit: "for function duration(item) {\r\n    const duration = getAttributeValue(item, 'Duration (in weeks)');\r\n    if (isSession(item)) {\r\n       return `${duration} wk`;\r\n    } else if (isOngoing(item)) {\r\n        if (duration === undefined) {\r\n            return \"Flexible\";\r\n        } else if (duration <= 12) {\r\n            return \"2-3 mo\";\r\n        } else if (duration <= 24) {\r\n            return \"4-6 mo\";\r\n        } else {\r\n            return \"6+ mo\";\r\n        }\r\n    } else if (isSingle(item)) {\r\n        return \"1 wk\";\r\n    }\r\n} sessions"
+price_unit: for 4 wk sessions
 category: Session
 duration: 4 wk
 weight: 23
