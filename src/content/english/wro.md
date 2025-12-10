@@ -30,19 +30,17 @@ robots: "index, follow"
 ---
 
 <strong>Blue Ridge Boost</strong> is proud to host two World Robot Olympiad events in 2026. The 2026 challenges will be announced on January 25, 2026.
-
+<!-- 
 <p>The dates for the WRO events in Charlottesville, Virginia, are: </p>
 <p><b>1. May 30-31:</b> Qualifier for the National Competition in late July in Ontario, California. The National competition is the only USA event for teams to qualify for the International Final.</p>
-<p><b>2. August 8-9 (tentative):</b> Qualifier for the WRO: Americas Open Championship.</p>
-
-  <!-- Save the Date Banner -->
+<p><b>2. August 8-9 (tentative):</b> Qualifier for the WRO: Americas Open Championship.</p>-->
   <div class="container mt-4">
     <div class="hero-section">
-      The registration for the May event opens on December 1, 2025, for the following categories: ROBO Mission (all levels), Future Engineers, and Future Innovators. 
+      Exciting news coming soon.
+      <!-- The registration for the May event opens on December 1, 2025, for the following categories: ROBO Mission (all levels), Future Engineers, and Future Innovators.  -->
     </div>
   </div>
-  <div >
-
+<!--
 <section id="register">
   <div class="gaming-store">
     <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code" charset="utf-8"></script>
@@ -55,5 +53,5 @@ robots: "index, follow"
       );
     </script>
   </div>
-</section>
+</section> -->
   
