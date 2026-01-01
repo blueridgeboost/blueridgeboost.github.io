@@ -10,7 +10,7 @@ price: 144.99
 price_unit: for 4 wk sessions
 category: Session
 duration: 4 wk
-weight: 12
+weight: 14
 page_title: Science Challenge Hour
 page_subtitle: Take on Science Challenges with Lain!
 ribbon: Starts Jan 7

@@ -4,6 +4,7 @@ import path from 'path';
 import dotenv from 'dotenv';
 // Construct the path to the .env file
 const envPath = path.join(process.cwd(), '..', '.env');
+console.log(`Loading environment variables from: ${envPath}`);
 // Load the .env file
 await dotenv.config({ path: envPath });
 

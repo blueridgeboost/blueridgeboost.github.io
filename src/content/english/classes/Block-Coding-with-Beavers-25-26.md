@@ -10,7 +10,7 @@ price: 199.99
 price_unit: for 6 wk sessions
 category: Session
 duration: 6 wk
-weight: 5
+weight: 6
 page_title: Block Coding with Beavers
 page_subtitle: Gamified coding course
 ribbon: Starts Jan 11

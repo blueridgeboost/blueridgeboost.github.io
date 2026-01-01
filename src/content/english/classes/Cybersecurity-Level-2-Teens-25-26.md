@@ -10,7 +10,7 @@ price: 249.99
 price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 51
+weight: 54
 page_title: Cybersecurity Level 2
 page_subtitle: Preparation and Certification Exam
 ribbon: On Demand

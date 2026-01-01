@@ -10,7 +10,7 @@ price: 159.99
 price_unit: for 4 wk sessions
 category: Session
 duration: 4 wk
-weight: 19
+weight: 21
 page_title: VEX Battle Bots - Third and Fourth Grade
 page_subtitle: Design. Build. Code. BATTLE!
 ribbon: Starts Jan 4

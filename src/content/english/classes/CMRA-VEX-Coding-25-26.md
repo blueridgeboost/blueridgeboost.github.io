@@ -10,7 +10,7 @@ price: 159.99
 price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 35
+weight: 38
 page_title: 'VEX IQ Coding: Certification Course'
 page_subtitle: Earn a Carnegie Mellon Robotics Academy Certification
 ribbon: On Demand
