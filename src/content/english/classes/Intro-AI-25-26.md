@@ -10,7 +10,7 @@ price: 149.99
 price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 27
+weight: 29
 page_title: Introduction to AI for Middle Schoolers
 page_subtitle: Your Journey Into Artificial Intelligence Starts Here!
 ribbon: Starts Jan 11

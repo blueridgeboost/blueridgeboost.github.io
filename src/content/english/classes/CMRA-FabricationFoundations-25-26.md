@@ -10,7 +10,7 @@ price: 499.99
 price_unit: for 8 wk sessions
 category: Session
 duration: 8 wk
-weight: 39
+weight: 42
 page_title: 'Carnegie Mellon Robotics Academy: Fabrication Foundations'
 page_subtitle: 'From Drawings to Reality: Fabricate, Measure, 3D Print!'
 ribbon: Starts Nov 14

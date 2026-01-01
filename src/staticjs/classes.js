@@ -221,6 +221,7 @@ export async function generateMDClassFiles(classesEcwid) {
     });
     // for each product, create a markdown file
     for (let i = 0; i < classesEcwid.length; i++) {
+        if (!classesEcwid[i].enabled) continue;
         console.log(`Processing product: ${classesEcwid[i].name}`);
         const item = classesEcwid[i];
         if (!item.enabled) continue;

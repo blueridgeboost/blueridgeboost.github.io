@@ -25,20 +25,19 @@
 
 [[main]]
     name        = "Camps"
-    url         = "/camps/"
     weight      = 3
 
-# [[main]]
-#     name        = "1-Day"
-#     url         = "/1-day-camps/"
-#     parent      = "Camps"
-#     weight      = 1
+[[main]]
+    name        = "1-Day"
+    url         = "/1-day-camps/"
+    parent      = "Camps"
+    weight      = 1
 
-# [[main]]
-#     name        = "Summer"
-#     url         = "/summer-camps/"
-#     parent      = "Camps"
-#     weight      = 4
+[[main]]
+    name        = "Summer"
+    url         = "/summer-camps/"
+    parent      = "Camps"
+    weight      = 4
 
 # [[main]]
 #     name        = "Winter Break"
@@ -46,11 +45,11 @@
 #     parent      = "Camps"
 #     weight      = 2
 
-# [[main]]
-#     name        = "Spring Break"
-#     url         = "/spring-break-camps/"
-#     parent      = "Camps"
-#     weight      = 3
+[[main]]
+    name        = "Spring Break"
+    url         = "/spring-break-camps/"
+    parent      = "Camps"
+    weight      = 3
 
 [[main]]
     name       = "Gaming"

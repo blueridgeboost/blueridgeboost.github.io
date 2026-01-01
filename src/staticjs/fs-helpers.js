@@ -1,7 +1,9 @@
 import yaml from "js-yaml";
 import { readdir, stat, unlink, readFile } from 'fs/promises';
 import path from 'path';
-import {createWriteStream, existsSync} from 'fs'
+import {createWriteStream, existsSync} from 'fs';
+import papaparse from 'papaparse';
+
 
 const keepers = [
     '_index.md', 'math.md', 'coding.md', 'robotics.md', 
@@ -11,6 +13,7 @@ const keepers = [
 const RICH_RESULTS_PATH = path.join( process.cwd(), 'src', 'layouts', 'partials', "rich-search-results");
 const CLASSES_MD_PATH = path.join(process.cwd(), 'src', 'content', 'english', 'classes');
 const AI_GEN_PATH = path.join(process.cwd(), 'src', 'staticjs', 'ai-gen');
+
 
 export async function cleanUpHugoFiles() {
     await deleteFiles(RICH_RESULTS_PATH);
@@ -130,3 +133,16 @@ export async function writePartialFile(fileName, content) {
     return filePath;
 }
 
+
+export function readCsvFile(file) {
+  return new Promise((resolve, reject) => {
+    if (!file) return reject(new Error('No file provided'));
+    papaparse.parse(file, {
+      header: true,
+      dynamicTyping: true,
+      skipEmptyLines: true,
+      complete: ({ data }) => resolve(data),
+      error: (err) => reject(err),
+    });
+  });
+}

@@ -32,7 +32,56 @@ robots: "index, follow"
 
 ---
 
-Thank you for your interest in our summer camps! Please check back with us in early January to explore our offerings for Summer 2026.
+Thank you for your interest in our summer camps! Please check back with us on January 6th to explore our offerings for Summer 2026.
+
+
+  <!-- Options and Pricing -->
+  <div class="camp-grid" style="margin-top:1rem;">
+    <div class="camp-card" aria-labelledby="regular-camps-title">
+      <h3 id="regular-camps-title" style="margin:0 0 0.5rem 0;">Regular Camps</h3>
+      <ul class="list">
+        <li><span class="price">Full-Day: $599.99</span></li>
+        <li><span class="price">Half-Day: $399.99</span> (AM or PM)</li>
+      </ul>
+      <div class="muted">
+        Includes all materials and use of computers/tablets.
+      </div>
+        <p><strong>Ages:</strong>6 to 13.</p>
+        <p><strong>Dates & Times:</strong>
+          AM 8:30–1:00 · PM 12:30–5:00 · Full-day 8:30–5:30
+        </p>
+        <p><strong>Location:</strong> Blue Ridge Boost, 2171 Ivy Rd, Ste 5, Charlottesville</p>
+        <p><strong>Cost & Includes:</strong>
+          See pricing below; includes all materials and devices. We provide computers and tablets.
+        </p>
+        <p><strong>Camper-to-Staff Ratio:</strong> 10:1</p>
+    </div>
+    <div class="camp-card" aria-labelledby="cmra-title">
+      <h3 id="cmra-title" style="margin:0 0 0.5rem 0;">Carnegie Mellon Robotics Academy and CodeHS  Programs</h3>
+      <ul class="list">
+        <li>Morning or Afternoon only — 2 weeks</li>
+        <li>All Day — 1 week</li>
+        <li><span class="price">Cost: $1,299.99</span></li>
+      </ul>
+      <div class="muted">
+        Includes certification, materials, and computers. Students may take home some projects;
+        specialized robotics sets remain with Blue Ridge Boost.
+      </div>
+    </div>
+  </div>
+
+  <!-- Discounts -->
+  <div class="camp-card" style="margin-top:1rem;" aria-labelledby="discounts-title">
+    <h3 id="discounts-title" style="margin:0 0 0.5rem 0;">Discounts</h3>
+    <ul class="list">
+      <li>15% off until April 1</li>
+      <li>10% off until May 31</li>
+      <li>5% off the week before the camp starts (if spots remain)</li>
+      <li>10% off until July 31 for our subscription customers (combined with one of the above)</li>
+    </ul>
+  </div>
+</section>
+
 
 <!-- <div class="container">
   <p>

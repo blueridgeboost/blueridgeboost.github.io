@@ -1,3 +1,4 @@
+
 export function fifthFridayDescription(dateLongFormat) {
     return `
       <header>
@@ -62,7 +63,7 @@ export function fifthFridayDescription(dateLongFormat) {
       </div>
     
       <div style="font-size: 0.95rem; color: #0f172a; line-height: 1.3;">
-        <div><strong>📅 ${formatIsoDateToLong(friday.date)}</strong> · 🕠 5:30–8:30 PM</div>
+        <div><strong>📅 ${dateLongFormat}</strong> · 🕠 5:30–8:30 PM</div>
         <div>📍 <strong>Blue Ridge Boost</strong>, 2171 Ivy Rd, Charlottesville, VA</div>
       </div>
     </div>

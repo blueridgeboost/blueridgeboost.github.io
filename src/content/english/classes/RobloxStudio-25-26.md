@@ -10,7 +10,7 @@ price: 249.99
 price_unit: for 6 wk sessions
 category: Session
 duration: 6 wk
-weight: 13
+weight: 15
 page_title: 'Roblox Studio: Make a game in 6 sessions'
 page_subtitle: Foundations to Game Creation
 ribbon: Starts Nov 16
