@@ -134,15 +134,16 @@ export async function writePartialFile(fileName, content) {
 }
 
 
-export function readCsvFile(file) {
-  return new Promise((resolve, reject) => {
-    if (!file) return reject(new Error('No file provided'));
-    papaparse.parse(file, {
-      header: true,
-      dynamicTyping: true,
-      skipEmptyLines: true,
-      complete: ({ data }) => resolve(data),
-      error: (err) => reject(err),
-    });
+export async function readCsvDataFromPath(path) {
+  const csv = await readFile(path, 'utf8');
+  const { data, errors, meta } = papaparse.parse(csv, {
+    header: true,
+    dynamicTyping: true,
+    skipEmptyLines: true,
   });
+  if (errors?.length) {
+    console.error('Papa errors:', errors);
+  }
+  return data;
 }
+

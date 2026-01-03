@@ -80,6 +80,15 @@ Thank you for your interest in our summer camps! Please check back with us on Ja
       <li>10% off until July 31 for our subscription customers (combined with one of the above)</li>
     </ul>
   </div>
+
+  <div class="container" id="summer">
+    <div>
+      <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
+      charset="utf-8"></script><script type="text/javascript">
+      xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041", "defaultCategoryId=175336884");</script>
+    </div>
+  </div>
+
 </section>
 
 
