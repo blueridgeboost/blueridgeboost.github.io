@@ -82,3 +82,32 @@ export async function extractTopics(description, maxTopics=5, extraGuidance="") 
     }
   
 }
+
+export async function extractSeo(description) {
+    const system = [
+       "You are an SEO assistant. From the given description, produce concise, high‑CTR metadata. Constraints:",
+        "Title: 48–65 chars (hard cap 65), Title Case, primary keywords first (topic + city/brand), natural (no stuffing), optionally include session type, ages, or certification. No emojis/brackets/ALL CAPS.",
+        "Description: 140–160 chars, compelling and specific; include key value props (AM/PM or Full‑Day, certification, materials/computers). No quotes.",
+        "Return strict JSON with keys: seoTitle, seoDescription. Do not include any extra text."
+    ].join(" ");
+    const user = `Description: ${description}`.trim();
+
+    const resp = await client.chat.completions.create({
+        model: "gpt-5",
+        messages: [
+            { role: "system", content: system },
+            { role: "user", content: user }
+        ],
+        temperature: 0.4,
+        max_tokens: 150,
+        response_format: { type: "json_object" }, 
+    });
+    const raw = resp.choices?.[0]?.message?.content?.trim() || "[]";
+    // Best-effort JSON parsing
+    try {
+        return JSON.parse(raw);
+    } catch {
+        const match = raw.match(/\[[\s\S]*\]/);
+        return match ? JSON.parse(match[0]) : [];  
+    }
+}

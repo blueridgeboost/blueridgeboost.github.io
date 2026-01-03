@@ -1,4 +1,3 @@
-import fs from 'node:fs/promises';
 import path from 'path';
 
 export const CLASSES_CATEGORY_ID = 175340602;
@@ -12,6 +11,18 @@ export const GAME_DEV_CATEGORY_ID = 187847606;
 export const MATH_CATEGORY_ID = 175336109;
 export const SCIENCE_CATEGORY_ID = 177442108;
 export const AI_CATEGORY_ID = 187847627;
+
+export const SUMMER_CAMPS_CATEGORY_ID = 175336884;
+const SUMMER_CAMPS_AGES_CATEGORY_ID = {
+    6: 175493384,
+    7: 175492887,
+    8: 175495638,
+    9: 177143083,
+    10: 193601873,
+    11: 193602383,
+    12: 193602115,
+    13: 193602116,
+};
 
 export const IN_PROGRESS_CATEGORY_ID = 187846081;
 export const STARTING_SOON_CATEGORY_ID = 187846083;
@@ -79,6 +90,11 @@ export const getAllClasses= async () => {
 export const getOneDayCamps = async () => {
     return await getCatalog([ONE_DAY_CAMPS_CATEGORY_ID]);
 }
+
+export const getSummerCamps = async () => {
+    return await getCatalog([SUMMER_CAMPS_CATEGORY_ID]);
+}
+
 
 export const getFridayGaming = async () => {
     return await getCatalog([GAMING_FRIDAYS_CATEGORY_ID]);
@@ -458,6 +474,9 @@ export async function updateEcwidProduct(product) {
 
 export async function createEcwidProduct(data) {
     const url = `https://app.ecwid.com/api/v3/${process.env.ECWID_STORE_ID}/products`; 
+    const params = new URLSearchParams({ 
+            saveCombinations: true,
+        });
     const options = {
         method: 'POST',
         headers: {
@@ -469,7 +488,7 @@ export async function createEcwidProduct(data) {
     };
     console.log(url);
     try {
-        const response = await fetch(url, options);
+        const response = await fetch(`${url}?${params.toString()}`, options);
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}\n ${await response.text()}`);
         }
@@ -612,4 +631,47 @@ export async function updateEcwidCategoryOrder(categoryId, sortedIdsList) {
     } catch (error) {
         console.error('Error updating products:', error);
     }
+}
+
+export async function deleteEcwidProduct(productId) {
+    const url = `https://app.ecwid.com/api/v3/${process.env.ECWID_STORE_ID}/products/${productId}`;
+    const options = {
+        method: 'DELETE',
+        headers: {
+            'Content-Type': 'application/json',
+            accept: 'application/json',
+            Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`
+        },
+    };
+    try {
+        const response = await fetch(url, options);
+    } catch (error) {
+        console.error('Error deleting product:', error);
+    }
+}
+
+export async function deleteSummerCamps() {
+    await deleteProductsByCategoryId(SUMMER_CAMPS_CATEGORY_ID);
+}
+
+async function deleteProductsByCategoryId(categoryId) {
+    const products = await getCatalog([categoryId], false, 100);
+    for (const product of products) {
+        console.log(`Deleting product ${product.id} - ${product.name}`);
+        await deleteEcwidProduct(product.id);
+    }
+}
+
+export function getSummerCampsCategoryIds(age1, age2) {
+    const categoryIds = [SUMMER_CAMPS_CATEGORY_ID];
+    const startAge = Math.min(age1, age2);
+    const endAge = Math.max(age1, age2);
+    if (startAge == 13) {
+        categoryIds.push(SUMMER_CAMPS_AGES_CATEGORY_ID[13]);
+        return categoryIds;
+    }
+    for (let age = startAge; age <= endAge; age++) {
+        categoryIds.push(SUMMER_CAMPS_AGES_CATEGORY_ID[age]);
+    }
+    return categoryIds;
 }
