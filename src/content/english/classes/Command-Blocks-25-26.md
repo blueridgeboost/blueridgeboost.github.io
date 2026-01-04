@@ -10,7 +10,7 @@ price: 229.99
 price_unit: for 6 wk sessions
 category: Session
 duration: 6 wk
-weight: 23
+weight: 16
 page_title: 'Command Craft: Minecraft Command Blocks'
 page_subtitle: Learn logic and coding concepts with Command Blocks!
 ribbon: Starts Jan 12

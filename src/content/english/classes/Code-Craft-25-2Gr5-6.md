@@ -9,7 +9,7 @@ price: 159.99
 price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 27
+weight: 18
 page_title: 'Code Craft: Minecraft Coding'
 page_subtitle: Learn to Code in Minecraft! Grades 5 and 6
 ribbon: Join Now
