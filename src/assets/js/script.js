@@ -308,7 +308,7 @@ if (onCartChanged) {
     if (addedLines.length) {
       var itemsA = addedLines.map(toGa4Item);
       var valueA = addedLines.reduce((s, it) => s + Number(it.price ?? it.product?.price ?? 0) * Number(it.quantity || 1), 0);
-      alert('add_to_cart');
+      // alert('add_to_cart');
       pushEvent('brb_add_to_cart', {
         ecommerce: {
           currency: (cart?.cost && cart.cost.currency) || cart?.currency || getCurrency(),
