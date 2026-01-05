@@ -78,15 +78,15 @@ robots: "index, follow"
     </ul>
   </div>
 
-  we are experiencing technical difficulties. Please come back at a later date.
+  <!-- we are experiencing technical difficulties. Please come back at a later date. -->
 
-  <!-- <div class="container" id="summer">
+  <div class="container" id="summer">
     <div>
       <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
       charset="utf-8"></script><script type="text/javascript">
       xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041", "defaultCategoryId=175336884");</script>
     </div>
-  </div> -->
+  </div>
 
 </section>
 
