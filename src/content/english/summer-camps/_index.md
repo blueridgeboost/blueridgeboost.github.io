@@ -32,9 +32,6 @@ robots: "index, follow"
 
 ---
 
-Thank you for your interest in our summer camps! Please check back with us on January 6th to explore our offerings for Summer 2026.
-
-
   <!-- Options and Pricing -->
   <div class="camp-grid" style="margin-top:1rem;">
     <div class="camp-card" aria-labelledby="regular-camps-title">
@@ -81,13 +78,15 @@ Thank you for your interest in our summer camps! Please check back with us on Ja
     </ul>
   </div>
 
-  <div class="container" id="summer">
+  we are experiencing technical difficulties. Please come back at a later date.
+
+  <!-- <div class="container" id="summer">
     <div>
       <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
       charset="utf-8"></script><script type="text/javascript">
       xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041", "defaultCategoryId=175336884");</script>
     </div>
-  </div>
+  </div> -->
 
 </section>
 
