@@ -35,7 +35,7 @@ owner:
   name: "Nora Evans"
   role: "Founder and CEO"
   photo: "/images/instructors/nora.jpg"
-  bio: "<p>Nora is originally from Bucharest, Romania. She earned a B.Sc. in Computer Science at the Polytechnic University of Bucharest and moved to Charlottesville in the Fall of 2004 to pursue graduate school at the University of Virginia where she earned a Master's in Computer Science in 2006, a Master of Science in Mathematics in 2014, and a Master of Teaching in 2022. Nora [published several research articles in computer science](https://scholar.google.com/citations?user=BTsjtmgAAAAJ&hl=en&oi=ao) and has several years of industry experience as a software developer. Nora has extensive teaching experience as Lecturer in the Mathematics Department at UVA, Algebra teacher at Peabody School, math student-teacher at Monticello High School, and a teaching assistant in Computer Science at UVA. </p><p>  At Blue Ridge Boost, Nora selects and develops class content, coaches the robotics competition teams, teaches advanced math and computer science classes, and tutors students in math and computer science.</p>
+  bio: "<p>Nora is originally from Bucharest, Romania. She earned a B.Sc. in Computer Science at the Polytechnic University of Bucharest and moved to Charlottesville in the Fall of 2004 to pursue graduate school at the University of Virginia where she earned a Master's in Computer Science in 2006, a Master of Science in Mathematics in 2014, and a Master of Teaching in 2022. Nora <a herf='https://scholar.google.com/citations?user=BTsjtmgAAAAJ&hl=en&oi=ao'>published several research articles in computer science</a> and has several years of industry experience as a software developer. Nora has extensive teaching experience as Lecturer in the Mathematics Department at UVA, Algebra teacher at Peabody School, math student-teacher at Monticello High School, and a teaching assistant in Computer Science at UVA. </p><p>  At Blue Ridge Boost, Nora selects and develops class content, coaches the robotics competition teams, teaches advanced math and computer science classes, and tutors students in math and computer science.</p>
   "
 
 coo:
@@ -53,6 +53,11 @@ troubadour:
   bio: "[David](https://www.cs.virginia.edu/evans/) is a Professor of Computer Science at the University of Virginia where he teaches classes in [Discrete Mathematics](https://uvadmt.github.io), [Computer Science](https://xplorecs.github.io/), [Theory of Computation](https://uvatoc.github.io), and [Artificial Intelligence](https://aipavilion.github.io/) (among [other topics](https://www.cs.virginia.edu/~evans/courses/)) and leads research on [computer security and privacy](https://uvasrg.github.io). He won an All-University Teaching Award and Outstanding Faculty Award from the State Council of Higher Education for Virginia. </p><p>  At Blue Ridge Boost, David helps instructors develop computing, math, and cryptography courses, teaches classes when he can, moves furniture, edits ChatGPT's writing, and makes sure there is yummy food for the CEO and Teaching Assistant."
 
 instructors:
+- enable : true
+  name: "Nathaneal Wattier"
+  role: "Math Teacher, Software Development Intern"
+  photo:  "/images/instructors/nophoto.png"
+  bio: "Nathaneal is a second year Math and Computer Science major at UVA who is originally from New Mexico. He is interested in most areas of math and has experience tutoring Algebra, Geometry, Precalculus and Calculus. Nathaneal did Quiz Bowl in high school and was Regionally Ranked, and was also a writer who placed 3rd at a UVA short fiction competition. <br> Eventually he hopes to pursue a postgraduate education, and at Blue Ridge Boost he coaches Math Kangaroo and AMC 8/10 prep courses. Over holidays he teaches Minecraft Coding and Roblox Studio camps. <br>Outside of his job and actuation, Nathaneal is an avid reader and especially enjoys Sci-Fi novels. He also enjoys playing chess casually, so feel free to challenge him to a game if you meet him."
 - enable : false
   name: "Scarlett Morse"
   role: "Camp Instructor<br>Coding and Robotics Teacher"
@@ -107,14 +112,9 @@ instructors:
   bio: ""
 - enable: true
   name: "Asher Saunders"
-  role: "Coding Teacher. Programmer."
+  role: "Coding Teacher."
   photo: "/images/instructors/asher.png"
-  bio: "As graduate from UVA's School of Engineering, Asher works at Blue Ridge Boost as an instructor & programmer. "
-- enable : true
-  name: "Nathaneal Wattier"
-  role: "Coding and Math Teacher"
-  photo:  "/images/instructors/nophoto.png"
-  bio: "Nathaneal is a second-year student at the University of Virginia."
+  bio: "As graduate from UVA's School of Engineering, Asher works at Blue Ridge Boost as an instructor. "
 - enable : true
   name: "Evan Xu"
   role: "Robotics Teacher"

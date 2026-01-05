@@ -5,9 +5,6 @@ page_title: "Coding and Robotics Certifications"
 description: "Earn industry-recognized coding and robotics certifications at Blue Ridge Boost in Charlottesville, VA! Using CodeHS and Carnegie Mellon Robotics Academy curricula, we offer in-person classes for advanced students and adults. Approved by the Virginia Department of Education."
 draft: false
 layout: single
-
-title: "Coding and Robotics Certifications | Blue Ridge Boost"
-description: "Earn industry-recognized coding and robotics certifications at Blue Ridge Boost in Charlottesville. Courses follow CodeHS and Carnegie Mellon Robotics Academy curriculums and are approved by the Virginia Department of Education."
 keywords:
   - coding certifications Charlottesville
   - robotics certifications Charlottesville

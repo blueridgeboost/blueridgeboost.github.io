@@ -1,8 +1,4 @@
 ---
-title: "Computer Coding, Math, and Robotics Classes in Charlottesville | Blue Ridge Boost"
-page_title: "Classes at Blue Ridge Boost"
-# meta description
-description: "Explore computer coding, math, and robotics classes at Blue Ridge Boost in Charlottesville, VA! Programs for ages 6-18 include beginner to advanced levels, monthly subscriptions, and session-based classes. Join anytime and ignite your curiosity!"
 draft: false
 # content section
 section: "classes"
