@@ -20,11 +20,11 @@ description: >-
   Learn core AI concepts, hands-on examples, and real-world applications.
   Charlottesville, VA. Contact (434) 260-0636 or nora@blueridgeboost.com .
 day_tags:
-  - Sat
+  - Sun
 grade_tags:
   - 5th
   - 6th
-start_time: 12:00 PM
-end_time: 3:00 PM
+start_time: 1:00 PM
+end_time: 2:00 PM
 ---
 

@@ -1,3 +1,4 @@
+import { type } from 'os';
 import path from 'path';
 
 export const CLASSES_CATEGORY_ID = 175340602;
@@ -500,6 +501,8 @@ export async function createEcwidProduct(data) {
     }
 }
 
+
+
 export async function getOrdersByProductId(id) {
     let offset = 0;
     let result = [];
@@ -515,8 +518,12 @@ export async function getOrdersByProductId(id) {
     while (!done) {
         const params = new URLSearchParams({ 
             offset: offset,
-            productId: id,
         });
+        if (typeof id === 'number') {
+            params.append('productId', id.toString());
+        } else if (Array.isArray(id)) {
+            params.append('productId', id.join(','));
+        }
         try {
             const response = await fetch(`${url}?${params.toString()}`, options);
             if (!response.ok) {
@@ -666,7 +673,7 @@ export function getSummerCampsCategoryIds(age1, age2) {
     const categoryIds = [SUMMER_CAMPS_CATEGORY_ID];
     const startAge = Math.min(age1, age2);
     const endAge = Math.max(age1, age2);
-    if (startAge == 13) {
+    if (startAge >= 13 ) {
         categoryIds.push(SUMMER_CAMPS_AGES_CATEGORY_ID[13]);
         return categoryIds;
     }
