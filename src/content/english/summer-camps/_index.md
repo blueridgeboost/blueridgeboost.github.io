@@ -32,53 +32,50 @@ robots: "index, follow"
 
 ---
 
-  <!-- Options and Pricing -->
-  <div class="camp-grid" style="margin-top:1rem;">
-    <div class="camp-card" aria-labelledby="regular-camps-title">
-      <h3 id="regular-camps-title" style="margin:0 0 0.5rem 0;">Regular Camps</h3>
-      <ul class="list">
-        <li><span class="price">Full-Day: $599.99</span></li>
-        <li><span class="price">Half-Day: $399.99</span> (AM or PM)</li>
+ <!-- Options and Pricing (HTML fragment with inline styles) -->
+<main aria-labelledby="options-pricing-title" style="max-width:64rem;margin:0 auto;padding:1rem;color:#0f172a;line-height:1.6;background:#ffffff;">
+  <section aria-label="Camp Options" style="margin-top:1rem;display:grid;gap:1rem;">
+    <article aria-labelledby="regular-camps-title" style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:1rem;">
+      <span id="regular-camps-title" style="margin:0 0 0.75rem 0;line-height:1.25;font-size:1.125rem;">Regular Camps</span>
+          <span style="display:inline-block;width:0.4rem;height:0.4rem;background:#0f766e;border-radius:50%;margin:0 0.5rem;"></span>
+          <span style="color:#0f766e;font-weight:700;white-space:nowrap;">Full-day: $599.99</span>
+          <span style="display:inline-block;width:0.4rem;height:0.4rem;background:#0f766e;border-radius:50%;margin:0 0.5rem;"></span>
+          <span style="color:#0f766e;font-weight:700;white-space:nowrap;">Half-day: $399.99</span> (AM or PM)
       </ul>
-      <div class="muted">
-        Includes all materials and use of computers/tablets.
+      <div aria-label="Camp details" style="margin-top:0.75rem;display:grid;gap:0.25rem;">
+        <p style="margin:0;"><strong>Ages:</strong> 6–13</p>
+        <p style="margin:0;"><strong>Dates & Times:</strong> Full-day 8:30–5:30 · AM 8:30–1:00 · PM 12:30–5:00</p>
+        <p style="margin:0;"><strong>Location:</strong> Blue Ridge Boost, 2171 Ivy Rd, Ste 5, Charlottesville</p>
+        <p style="margin:0;"><strong>Includes:</strong> Includes all materials and use of computers/tablets. </p>
+        <p style="margin:0;"><strong>Camper-to-Staff Ratio:</strong> 10:1</p>
       </div>
-        <p><strong>Ages:</strong>6 to 13.</p>
-        <p><strong>Dates & Times:</strong>
-          AM 8:30–1:00 · PM 12:30–5:00 · Full-day 8:30–5:30
-        </p>
-        <p><strong>Location:</strong> Blue Ridge Boost, 2171 Ivy Rd, Ste 5, Charlottesville</p>
-        <p><strong>Cost & Includes:</strong>
-          See pricing below; includes all materials and devices. We provide computers and tablets.
-        </p>
-        <p><strong>Camper-to-Staff Ratio:</strong> 10:1</p>
-    </div>
-    <div class="camp-card" aria-labelledby="cmra-title">
-      <h3 id="cmra-title" style="margin:0 0 0.5rem 0;">Carnegie Mellon Robotics Academy and CodeHS  Programs</h3>
-      <ul class="list">
-        <li>Morning or Afternoon only — 2 weeks</li>
-        <li>All Day — 1 week</li>
-        <li><span class="price">Cost: $1,299.99</span></li>
-      </ul>
-      <div class="muted">
-        Includes certification, materials, and computers. Students may take home some projects;
+    </article>
+    <article aria-labelledby="cmra-title" style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:1rem;">
+      <span id="cmra-title" style="margin:0 0 0.75rem 0;line-height:1.25;font-size:1.125rem;">Carnegie Mellon Robotics Academy and CodeHS Programs</span>
+      <div aria-label="Certifications" style="margin-top:0.75rem;display:grid;gap:0.25rem;">
+        <p style="margin:0;"><strong>Cost:</strong> $1,299.99$</p>
+        <p style="margin:0;"><strong>Length:</strong> Half-day — 2 weeks <span style="display:inline-block;width:0.4rem;height:0.4rem;background:#0f766e;border-radius:50%;margin:0 0.5rem;"></span> Full-day — 1 week </p>
+        <p style="margin:0;"><strong>Includes: </strong>certification, materials, and computer use. Students may take home some projects; 
         specialized robotics sets remain with Blue Ridge Boost.
+        </p>
+        <p style="margin:0;"><strong>Certification Conditions: </strong>students must complete all projects and score at least 70% on the certification exam.</br>
+      <b>Note:</b> All past BRB students earned their certificate. 
+      </p>
       </div>
-    </div>
-  </div>
+    </article>
+  </section>
 
-  <!-- Discounts -->
-  <div class="camp-card" style="margin-top:1rem;" aria-labelledby="discounts-title">
-    <h3 id="discounts-title" style="margin:0 0 0.5rem 0;">Discounts</h3>
-    <ul class="list">
-      <li>15% off until April 1</li>
-      <li>10% off until May 31</li>
-      <li>5% off the week before the camp starts (if spots remain)</li>
-      <li>10% off until July 31 for our subscription customers (combined with one of the above)</li>
+  <section aria-labelledby="discounts-title" style="margin-top:1rem;background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:1rem;">
+    <h3 id="discounts-title" style="margin:0 0 0.75rem 0;line-height:1.25;font-size:1.125rem;">Discounts</h3>
+    <ul aria-describedby="discounts-note" style="margin:0.25rem 0 0.5rem 1.25rem;padding:0;">
+      <li style="margin:0.25rem 0;">15% off until April 1</li>
+      <li style="margin:0.25rem 0;">10% off until May 31</li>
+      <li style="margin:0.25rem 0;">5% off the week before the camp starts (if spots remain)</li>
+      <li style="margin:0.25rem 0;">10% off until July 31 for subscription customers (can be combined with one of the above)</li>
     </ul>
-  </div>
-
-  <!-- we are experiencing technical difficulties. Please come back at a later date. -->
+    <p id="discounts-note" style="position:absolute !important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">See individual discount rules for stacking eligibility.</p>
+  </section>
+</main>
 
   <div class="container" id="summer">
     <div>

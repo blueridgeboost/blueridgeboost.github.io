@@ -3,7 +3,7 @@ import { readCsvDataFromPath } from "./fs-helpers.js"
 import { readFile } from "fs/promises"
 import { extractSeo } from "./ai-queries.js"
 import { toISODate } from "./date-helpers.js"
-import { createEcwidProduct, getSummerCampsCategoryIds, deleteSummerCamps } from "./ecwid.js"
+import { createEcwidProduct, getSummerCampsCategoryIds, deleteSummerCamps, getSummerCamps } from "./ecwid.js"
 
 const SUMMER_CAMPS_HOME_DIRECTORY = "G:\\Shared drives\\BRB\\Summer 2026\\"
 const SUMMER_CAMPS_LIST = path.join(SUMMER_CAMPS_HOME_DIRECTORY, "Summer Camps 2026 list.csv")
@@ -246,5 +246,29 @@ function slugify(s) {
     .slice(0, 60); // Ecwid limit-safe
 }
 
-await generateEcwidSummerCamps();
+// await generateEcwidSummerCamps();
 
+function updateSummerCampsStockLevel() {
+    const camps = getSummerCamps();
+    const orders = getCampOrders(camps);
+    const campsOrders = {};
+    for (const order of orders) {
+        for (const item of order.items) {
+            const brbIdAttr = item.attributes.find(a => a.name === 'brb_id');
+            if (brbIdAttr) {
+                const brbId = brbIdAttr.value;
+                if (!campsOrders[brbId]) {
+                    campsOrders[brbId] = 0;
+                }
+                // check the type of camp
+                campsOrders[brbId] += item.quantity;
+            }
+        }
+    }
+    for (const camp of camps) {
+        const brbIdAttr = camp.attributes.find(a => a.name === 'brb_id');
+        const brbId = brbIdAttr?.value;
+
+    }        
+
+}
