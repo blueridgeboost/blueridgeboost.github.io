@@ -3,7 +3,7 @@ ecwid: 770317241
 product_id: Python-Level-1-25-26
 layout: single
 schedule_tags:
-  - On-Demand
+  - Join Now
 subject_tags: []
 price: 179
 price_unit: per month
