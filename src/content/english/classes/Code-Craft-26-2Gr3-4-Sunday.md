@@ -1,6 +1,6 @@
 ---
 ecwid: 802304388
-product_id: Code-Craft-26-2Gr3-4
+product_id: Code-Craft-26-2Gr3-4-Sunday
 layout: single
 schedule_tags:
   - Join Now
