@@ -70,6 +70,10 @@ banner:
         link: "1-day-camps/"
         style: btnleft
       - enable: true
+        label: "Summer Camps"
+        link: "summer-camps/"
+        style: btnleft
+      - enable: true
         label: "Tutoring"
         link: "tutoring/"
         style: btnleft
