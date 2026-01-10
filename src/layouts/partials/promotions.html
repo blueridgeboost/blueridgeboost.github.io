@@ -1,13 +1,94 @@
-{{/*  <div style="max-width: 800px; margin: 20px auto; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; font-family: Arial, sans-serif;">
-  <div style="background: #ffcccb; padding: 20px; border-radius: 8px 8px 0 0;">
-    <h1 style="margin: 0; font-size: 2.5rem; color: #d62828;">Hoppy Easter Sale!</h1>
-    <p style="margin: 10px 0 0; font-size: 1.2rem; color: #333;">Celebrate with amazing discounts on your favorite items!</p>
+<section class="brb-band" aria-label="Summer Camps Early Bird Special">
+  <div class="brb-band-inner">
+    <div class="brb-left">
+      <div class="brb-eyebrow">Early Bird Special: Summer Camps</div>
+      <p class="brb-headline">Lock in your spot and save 15% today.</p>
+      <p class="brb-sub">Engaging, hands-on projects all summer in Math, Robotics, Game Development, AI, Coding, and Science.</p>
+    </div>
+    <div class="brb-right">
+      <div class="brb-actions">
+        <a class="brb-btn" href="/summer-camps">Explore Summer Camps</a>
+        <a class="brb-link" href="/contact">Contact Us</a>
+      </div>
+      <div class="brb-contact">
+        Charlottesville • 2171 Ivy Rd • (434) 260‑0636 • nora@blueridgeboost.com
+      </div>
+    </div>
   </div>
-  <div style="margin: 20px 0;">
-    <p style="font-size: 1.2rem; color: #555; margin: 10px 0;">🛍️ Get <span style="font-weight: bold; color: #d62828;">10% off</span> on orders over <span style="font-weight: bold;">$1,000</span></p>
-    <p style="font-size: 1.2rem; color: #555; margin: 10px 0;">🛍️ Enjoy <span style="font-weight: bold; color: #d62828;">15% off</span> on orders over <span style="font-weight: bold;">$1,500</span></p>
-    <p style="font-size: 1.2rem; color: #555; margin: 10px 0;">🛍️ Save <span style="font-weight: bold; color: #d62828;">20% off</span> on orders over <span style="font-weight: bold;">$2,000</span></p>
-  </div>
-  <a href="/summer-camps" style="display: inline-block; margin: 20px 0; padding: 15px 30px; background-color: #d62828; color: white; text-decoration: none; font-size: 1.1rem; font-weight: bold; border-radius: 5px; transition: background-color 0.3s ease;">Shop Now</a>
-  <p style="font-size: 1.1rem; color: #555; margin-top: 20px;">⏳ Offer ends April 21 — Don't miss out!</p>
-</div>  */}}
+</section>
+
+<style>
+  .brb-band {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    background: #0a2540;
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+  }
+  .brb-band a:hover {
+    color: inherit;              /* keep the original link color */
+    text-decoration: underline;  /* keep underline */
+  }
+  .brb-band-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    gap: 0.5rem;
+  }
+  .brb-eyebrow {
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-size: 0.95rem;
+    color: #ffd166;
+  }
+  .brb-headline {
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 1.35;
+    margin: 0;
+  }
+  .brb-sub {
+    font-size: 0.95rem;
+    opacity: 0.95;
+    margin: 0.15rem 0 0.25rem;
+  }
+  .brb-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .brb-btn {
+    background: #18a999;
+    color: #ffffff;
+    border: none;
+    padding: 0.55rem 0.9rem;
+    border-radius: 6px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+  .brb-btn:hover {
+    background: #139583;
+  }
+  .brb-link {
+    color: #ffd166;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+  .brb-contact {
+    font-size: 0.9rem;
+    opacity: 0.95;
+  }
+  @media (min-width: 800px) {
+    .brb-band-inner {
+      grid-template-columns: 1.2fr 1fr;
+      align-items: center;
+    }
+    .brb-left {
+      padding-right: 1rem;
+    }
+    .brb-headline {
+      font-size: 1.2rem;
+    }
+  }
+</style>
