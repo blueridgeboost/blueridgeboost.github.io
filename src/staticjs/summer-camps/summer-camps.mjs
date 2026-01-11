@@ -1,9 +1,9 @@
 import path from "path"
-import { readCsvDataFromPath } from "./fs-helpers.js"
+import { readCsvDataFromPath } from "../fs-helpers.js"
 import { readFile } from "fs/promises"
-import { extractSeo } from "./ai-queries.js"
-import { toISODate } from "./date-helpers.js"
-import { createEcwidProduct, getSummerCampsCategoryIds, deleteSummerCamps, getSummerCamps } from "./ecwid.js"
+import { extractSeo } from "../ai-queries.js"
+import { toISODate } from "../date-helpers.js"
+import { createEcwidProduct, getSummerCampsCategoryIds, deleteSummerCamps, getSummerCamps } from "../ecwid.js"
 
 const SUMMER_CAMPS_HOME_DIRECTORY = "G:\\Shared drives\\BRB\\Summer 2026\\"
 const SUMMER_CAMPS_LIST = path.join(SUMMER_CAMPS_HOME_DIRECTORY, "Summer Camps 2026 list.csv")
@@ -65,16 +65,16 @@ async function generateEcwidSummerCamps(camp) {
                     },
                     {
                         text: "AM",
-                        // value: "AM",
-                        priceModifier: -200.0,
-                        priceModifierType: "ABSOLUTE",
+                        // // value: "AM",
+                        // priceModifier: -200.0,
+                        // priceModifierType: "ABSOLUTE",
 
                     },
                     {
                         text: "PM",
-                        // value: "PM",
-                        priceModifier: -200.0,
-                        priceModifierType: "ABSOLUTE",
+                        // // value: "PM",
+                        // priceModifier: -200.0,
+                        // priceModifierType: "ABSOLUTE",
                     }
                 ],
                 defaultChoice: 0,
@@ -94,22 +94,22 @@ async function generateEcwidSummerCamps(camp) {
         }
         options.push(
                 {
-                    name: "Camper 1 Name",
+                    name: "Camper's Name",
                     type: "TEXTFIELD",
                     required: true,
                 });
         options.push(
                 {
-                    name: "Camper 2 Name",
+                    name: "Camper's Age",
                     type: "TEXTFIELD",
                     required: false,
                 });
-        options.push(
-                {
-                    name: "Camper 3 Name",
-                    type: "TEXTFIELD",
-                    required: false,
-                });
+        // options.push(
+        //         {
+        //             name: "Camper 3 Name",
+        //             type: "TEXTFIELD",
+        //             required: false,
+        //         });
         const quantity = parseInt(camp['Max'], 10);
         const campData = {
             name: camp['name'],
