@@ -78,7 +78,7 @@ aliases: ["/celebrations"]
   <h3>Basic Package</h3>
   <ul class="details">
     <li>2 hours of gaming or robot building for a maximum of 16 kids.</li>
-    <li><strong>$349.99</strong> for up to 8 guests <span class="addl">+ $10 per additional guest</span></li>
+    <li><strong>$349.99</strong> for up to 8 children <span class="addl">+ $10 per additional child</span></li>
   </ul>
   <style>
     .package { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.4; color: #1f2937; }
@@ -94,7 +94,7 @@ aliases: ["/celebrations"]
         <div class="theme-card col-lg">
             <!--super charged, gamer, pro, champion, vip-->
                 <h4>&#128640 Level-Up Party Package</h4>
-                <p>Cost: <strong>$499.99</strong> for up to 8 guests + $15 for each additional guest</p>
+                <p>Cost: <strong>$499.99</strong> for up to 8 children + $15 for each additional child</p>
                 <p>Everything in the Basic Party Package plus:</p>
                 <ul>
                     <h5>
@@ -108,23 +108,23 @@ aliases: ["/celebrations"]
         </div>
         <div class="theme-card col-lg">
                 <h4>&#127812 Power-Up Party Package</h4>
-                <p>Cost: <strong>$599.99</strong> for up to 8 guests + $18 for each additional guest</p>
+                <p>Cost: <strong>$599.99</strong> for up to 8 children + $18 for each additional child</p>
                 <ul><p>Everything in the Level-Up Package plus:</p>
                     <h5>
                     <li><strong>Themed</strong> Decorations, Plates, Cups, Napkins</li>
                     <li>Balloons</li>
                     <li>A choice of Cake or Cupcakes</li>
                     <li>A choice of Fruit Juice or Lemonade</li>
-                    <li>16 Goodie Bags</li>
+                    <li>Goodie Bags</li>
                     </h5>
                 </ul> 
         </div>
         <div class="theme-card col-lg">
                 <h4>&#127775 Super-Star Party Package</h4>
-                <p>Cost: <strong>$799.99</strong> for up to 8 guests + $25 for each additional guest</p>
+                <p>Cost: <strong>$799.99</strong> for up to 8 children + $25 for each additional child</p>
                 <ul><p>Everything in the Power-Up Package plus:</p>
                     <h5>
-                    <li>A choice of gourmet pizza or sushi platter</li>
+                    <li>A choice of Gourmet Pizza or Sushi Platter</li>
                     <li><strong>Organic</strong> Fruit Juice</li>
                     <li><strong>Organic</strong> Fruit Platter<li>
                     <li>Personalized Digital Invitation</li>
@@ -142,6 +142,8 @@ aliases: ["/celebrations"]
     <p>Grab your spot on the calendar below—pick a date and time.</p>
   <p style="font-size: 0.8rem;">
     Heads up: A deposit is required to hold your date. It’s not extra—it goes toward your total party price. The remaining balance is due the day of the party.
+    <br>
+    After you book your date, you will automatically be sent a form to fill out with details about your desired party package.</br>
   </p>
 </section>
 <section>
@@ -159,19 +161,19 @@ aliases: ["/celebrations"]
     </div>
 </section>
 <hr>
-<section class="d-flex-row align-items-center" aria-labelledby="party-details-title" style="max-width: 900px; margin: 0 auto; padding: 1rem;">
+<!-- <section class="d-flex-row align-items-center" aria-labelledby="party-details-title" style="max-width: 900px; margin: 0 auto; padding: 1rem;">
   <h3 id="party-details-title" style="margin-bottom: 0.5rem;">When You’re Ready, Tell Us All About Your Choices</h3>
   <p style="margin: 0 0 0.75rem;">
     Share your party picks—date, time, guest count, ages, themes, add‑ons, and any must‑haves—so we can craft a tech‑tastic celebration. 
     
-  </p>
+  <!-- </p>
   <div class="row justify-content-center">
     <div class="col-lg-4">
             <a class = "grb-btn grb-btn-primary col-1" href="https://form.jotform.com/252545218981160" target="_blank"> Here</a>
         </div>
     </div>
   
-</section>
+</section> -->
   <!-- <p>
   Please email <a href="mailto:birthdays@blueridgeboost.com">birthdays@blueridgeboost.com</a>
   </p> -->
