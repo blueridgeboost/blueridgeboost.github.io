@@ -21,7 +21,7 @@ day_tags:
 grade_tags:
   - 1st
   - 2nd
-start_time: 3:45 PM
-end_time: 4:30 PM
+start_time: 2:15 PM
+end_time: 3:00 PM
 ---
 

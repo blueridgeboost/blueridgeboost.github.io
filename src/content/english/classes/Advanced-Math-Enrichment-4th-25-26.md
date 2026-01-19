@@ -21,11 +21,11 @@ description: >-
   lessons that explore the beauty of mathematics. Contact us at (434) 260-0636
   or nora@blueridgeboost.com for more information. Located at 2171 Ivy Rd.
 day_tags:
-  - Tue
-  - Thu
+  - Mon
+  - Wed
 grade_tags:
   - 4th
-start_time: 4:30 PM
-end_time: 5:15 PM
+start_time: 5:00 PM
+end_time: 6:00 PM
 ---
 
