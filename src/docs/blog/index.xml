@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Latest News on Robotics - Math - Computer Coding - Chess in Charlottesville</title><link>https://blueridgeboost.com/blog/</link><description>Recent content in Latest News on Robotics - Math - Computer Coding - Chess in Charlottesville</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Tue, 18 Aug 2020 10:07:21 +0600</lastBuildDate><atom:link href="https://blueridgeboost.com/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Happy New Year!</title><link>https://blueridgeboost.com/blog/post-2025-01-01/</link><pubDate>Tue, 18 Aug 2020 10:07:21 +0600</pubDate><guid>https://blueridgeboost.com/blog/post-2025-01-01/</guid><description>&lt;details class="table-of-content">
+ &lt;summary>Table Of Contents&lt;/summary>
+ &lt;nav id="TableOfContents">
+ &lt;ol>
+ &lt;li>&lt;a href="#heading-2">Heading 2&lt;/a>
+ &lt;ol>
+ &lt;li>&lt;a href="#heading-3">Heading 3&lt;/a>
+ &lt;ol>
+ &lt;li>&lt;a href="#heading-4">Heading 4&lt;/a>
+ &lt;ol>
+ &lt;li>&lt;a href="#heading-5">Heading 5&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#emphasis">Emphasis&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#link">Link&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#paragraph">Paragraph&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#ordered-list">Ordered List&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#unordered-list">Unordered List&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#code-and-syntax-highlighting">Code and Syntax Highlighting&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#blockquote">Blockquote&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#inline-html">Inline HTML&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#tables">Tables&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#image">Image&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#youtube-video">Youtube video&lt;/a>&lt;/li>
+ &lt;/ol>
+ &lt;/li>
+ &lt;/ol>
+ &lt;/li>
+ &lt;/ol>
+ &lt;/li>
+ &lt;/ol>
+&lt;/nav>
+&lt;/details>
+
+&lt;p>Here is example of hedings. You can use this heading by following markdownify rules. For example: use &lt;code>#&lt;/code> for heading 1 and use &lt;code>######&lt;/code> for heading 6.&lt;/p>
+&lt;h1 id="heading-1">Heading 1&lt;/h1>
+&lt;h2 id="heading-2">Heading 2&lt;/h2>
+&lt;h3 id="heading-3">Heading 3&lt;/h3>
+&lt;h4 id="heading-4">Heading 4&lt;/h4>
+&lt;h5 id="heading-5">Heading 5&lt;/h5>
+&lt;h6 id="heading-6">Heading 6&lt;/h6>
+&lt;hr>
+&lt;h5 id="emphasis">Emphasis&lt;/h5>
+&lt;p>Emphasis, aka italics, with &lt;em>asterisks&lt;/em> or &lt;em>underscores&lt;/em>.&lt;/p></description></item></channel></rss>
