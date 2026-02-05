@@ -5,7 +5,21 @@
     <nav class="navbar navbar-expand-lg navbar-light">
       <!-- navbar brand/logo -->
       <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
-        {{ partial "logo.html" }}
+        {{/*  {{ partial "logo.html" }}  */}}
+        <style>.logo{
+      width: 38px;
+      height: 38px;
+      border-radius: 14px;
+      background:
+        radial-gradient(circle at 25% 25%, rgba(0,174,239,.98), rgba(0,174,239,0) 56%),
+        radial-gradient(circle at 80% 80%, rgba(29,79,255,.98), rgba(29,79,255,0) 56%),
+        radial-gradient(circle at 70% 18%, rgba(255,159,10,.92), rgba(255,159,10,0) 56%),
+        linear-gradient(135deg, rgba(255,255,255,0.92), rgba(255,255,255,0.45));
+      border: 1px solid rgba(29,79,255,0.22);
+      box-shadow: var(--shadow);
+      flex: 0 0 auto;
+    }</style>
+          <div class="logo" aria-hidden="true"></div>
       </a>
       <div class="d-flex align-items-center">
         <!-- Language List -->

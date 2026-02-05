@@ -4,6 +4,7 @@ product_id: Code-Craft-25-2Gr5-6
 layout: single
 schedule_tags: []
 subject_tags:
+  - Computer Coding
   - Game Development
 price: 159.99
 price_unit: per month

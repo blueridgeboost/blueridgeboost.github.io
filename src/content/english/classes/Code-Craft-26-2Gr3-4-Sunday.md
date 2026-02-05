@@ -5,6 +5,7 @@ layout: single
 schedule_tags:
   - Join Now
 subject_tags:
+  - Computer Coding
   - Game Development
 price: 159.99
 price_unit: per month
