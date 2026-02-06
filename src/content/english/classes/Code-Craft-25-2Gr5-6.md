@@ -4,12 +4,13 @@ product_id: Code-Craft-25-2Gr5-6
 layout: single
 schedule_tags: []
 subject_tags:
+  - Computer Coding
   - Game Development
 price: 159.99
 price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 18
+weight: 19
 page_title: 'Code Craft: Minecraft Coding'
 page_subtitle: Learn to Code in Minecraft! Grades 5 and 6
 ribbon: Join Now

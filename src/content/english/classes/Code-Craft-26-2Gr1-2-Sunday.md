@@ -5,6 +5,7 @@ layout: single
 schedule_tags:
   - Join Now
 subject_tags:
+  - Computer Coding
   - Game Development
 price: 159.99
 price_unit: per month
@@ -21,7 +22,7 @@ day_tags:
 grade_tags:
   - 1st
   - 2nd
-start_time: 3:45 PM
-end_time: 4:30 PM
+start_time: 2:15 PM
+end_time: 3:00 PM
 ---
 

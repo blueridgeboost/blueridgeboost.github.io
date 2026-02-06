@@ -1,18 +1,19 @@
 ---
 ecwid: 767154072
-product_id: Roblox-Lua-6-7
+product_id: C-Plus-Plus-Coding
 layout: single
 schedule_tags:
   - Join Now
 subject_tags:
+  - Computer Coding
   - Game Development
 price: 149.99
 price_unit: per session
 category: One Time
-weight: 25
-page_title: 'Create Your Own Roblox Games: Roblox and Lua Coding'
+weight: 26
+page_title: CodeHS Computer Coding with C++
 ribbon: Join Now
-title: 'Create Your Own Roblox Games: Roblox and Lua Coding | Blue Ridge Boost'
+title: CodeHS Computer Coding with C++ | Blue Ridge Boost
 description: >-
   Learn Roblox game development with Lua at Blue Ridge Boost. Build, script, and
   publish your own games with guided instruction and hands-on projects.
