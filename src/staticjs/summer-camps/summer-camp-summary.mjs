@@ -25,6 +25,11 @@ function getAttributeValue(product, attributeName) {
     }
 }
 
+async function campData(name, brbid, amCount, pmCount, fullCount, maxSeats) {
+    //function that compiles data for writing to the csv file and evaluates how many seats are left. 
+    
+}
+
 async function deleteCsvs(dir) {
   const entries = await fs.promises.readdir(dir, { withFileTypes: true });
   await Promise.all(entries.map(async e => {
@@ -67,7 +72,7 @@ const camps = await getSummerCamps(); //pulling summer camps
                 console.error(`No start_date attribute for product ${camp.id}`);
             } else {
                 const orders = await getOrdersByProductId(camp.id);
-                var full_enrollment =0;
+                var full_enrollment = 0;
                 var am_enrollment = 0;
                 var pm_enrollment = 0;
                 for (let order of orders) {
@@ -84,14 +89,14 @@ const camps = await getSummerCamps(); //pulling summer camps
                                 pm_enrollment += 1;
                             }
                         }
-                    }
-                }
-            }
-        }
+                    } //ends for let item of order items
+                } //ends for let order of orders
+            } //ends else
+        } //ends if camp enables
         
             await writeDataToCsv(class_data, brbId);
         
-    }
+    } //ends for camp of camps
     
 
     await writeDataToCsv(data, 'summary-classes');
