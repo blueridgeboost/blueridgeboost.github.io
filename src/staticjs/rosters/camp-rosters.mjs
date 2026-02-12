@@ -17,6 +17,11 @@ function getAttributeValue(product, attributeName) {
     }
 }
 
+async function campData(name, brbid, amCount, pmCount, fullCount, maxSeats) {
+    //function that compiles data for writing to the csv file and evaluates how many seats are left.
+    
+}
+
 async function writeDataToCsv(data, fileName) {
     // Convert data to CSV format using PapaParse
     const csv = Papa.unparse(data, {
@@ -103,19 +108,6 @@ async function main() {
                 }
             }
         }
-        if (count > 0) {
-            const brbId = getAttributeValue(c, "brb_id");
-            data.push({
-                brbId: brbId,
-                className: c.productName,
-                count: count,
-                daysOfWeek: getAttributeValue(c, "days_of_week"),
-                startDate: getAttributeValue(c, "start_date"),
-                endDate: getAttributeValue(c, "end_date"),
-                startTime: getAttributeValue(c, "start_time"),
-                endTime: getAttributeValue(c, "end_time"),
-            });
-            await writeDataToCsv(order_data, brbId);
         }
         
     }
