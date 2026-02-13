@@ -17,10 +17,6 @@ function getAttributeValue(product, attributeName) {
     }
 }
 
-async function campData(name, brbid, amCount, pmCount, fullCount, maxSeats) {
-    //function that compiles data for writing to the csv file and evaluates how many seats are left.
-    
-}
 
 async function writeDataToCsv(data, fileName) {
     // Convert data to CSV format using PapaParse
@@ -108,7 +104,7 @@ async function main() {
                 }
             }
         }
-        }
+        
         
     }
     await writeDataToCsv(data, 'summary-camps');
