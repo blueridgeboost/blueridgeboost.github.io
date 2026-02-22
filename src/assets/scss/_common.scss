@@ -20,6 +20,17 @@ body::-webkit-scrollbar-thumb {
   background-color: $color-primary;
 }
 
+// ── NEW: Gradient background + text color from new design system ──
+// In _common.scss — after the scrollbar styles
+body {
+  background:
+    radial-gradient(1200px 520px at 12% -10%, rgba(0,174,239,.22), transparent 56%),
+    radial-gradient(1100px 520px at 92% -10%, rgba(109,40,217,.18), transparent 56%),
+    radial-gradient(900px 520px at 50% 112%, rgba(255,159,10,.14), transparent 58%),
+    $body-bg;
+  line-height:1.5;
+}
+
 img {
   vertical-align: middle;
   border: 0;
@@ -28,14 +39,23 @@ img {
 }
 
 a,
-a:hover,
 a:visited,
 a:focus {
   text-decoration: none;
-  color: $darkest-blue;
+  color: $text-color;
 }
 
+a:hover {
+  text-decoration: underline;
+  color: $text-color;
+}
 
+// ── NEW: Accessible focus indicator ──
+a:focus-visible {
+  outline: none;
+  box-shadow: $focus-ring;
+  border-radius: 10px;
+}
 
 a.text-dark:hover {
   color: $color-primary !important;
@@ -50,6 +70,13 @@ select {
   &:focus {
     outline: 0;
   }
+}
+
+// ── NEW: Centered content wrapper (use in templates with class="wrap") ──
+.wrap {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 18px;
 }
 
 .section {
@@ -178,35 +205,40 @@ select {
   font-weight: 700 !important;
 }
 
-// rounded
+// rounded — updated to use new design tokens
 .rounded-1 {
   border-radius: 5px !important;
 }
 
 .rounded-2 {
-  border-radius: 0.8rem !important;
+  border-radius: $radius-sm !important; // was 0.8rem, now 14px
 }
 
 .rounded-3 {
-  border-radius: 1rem !important;
+  border-radius: $radius !important; // was 1rem, now 20px
 }
 
-// shadow
+// shadow — updated to use new design tokens
 .shadow {
-  box-shadow: 0 6px 24px -6px rgba(45, 67, 121, 0.15) !important;
+  box-shadow: $shadow !important; // was 0 6px 24px..., now richer
+}
+
+.shadow-lg {
+  box-shadow: $shadow-lg !important;
 }
 
 // form control
 .form-select,
 .form-control {
   padding: 1rem 1.2rem;
-  border: 1px solid rgba($black, 0.1);
+  border: 1px solid $border-color;
   height: 3rem;
   transition: 0.3s ease;
   border-radius: 4px;
 
   &:focus {
     border-color: rgba($color-primary, 0.5);
+    box-shadow: $focus-ring;
   }
 }
 
@@ -420,7 +452,7 @@ div.row.alt-table-header {
   font-weight: 700;
   color: $white;
 }
-  
+
 div.row.alt-dark-row {
   background-color: $lightest-blue;
 }
@@ -440,10 +472,6 @@ div.row.alt-light-row {
   color: white;
   text-align: center;
   line-height: 30px;
-  /*
-  transform: rotate(-5deg);
-  -webkit-transform: rotate(-5deg);
-  */
 }
 
 .ribbon span {

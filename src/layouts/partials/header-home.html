@@ -1,0 +1,52 @@
+
+{{/*
+  Homepage-only header: frosted glass nav + Ecwid cart
+  Other pages continue to use the default header.html (Bootstrap nav)
+*/}}
+
+{{/* ── Sticky header ── */}}
+<header class="site-header">
+  <div class="wrap">
+    <div class="nav">
+
+      {{/* ── Brand / Logo ── */}}
+      <a class="brand" href="{{ site.BaseURL | relLangURL }}" aria-label="{{ site.Params.brand_name | default site.Title }} Home">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <strong>Blue Ridge Boost</strong>
+          <span>Hands-on STEM learning</span>
+        </div>
+      </a>
+
+      {{/* ── Desktop navigation — top-level items as anchor links ── */}}
+      <nav aria-label="Primary">
+        <ul class="nav-list">
+          {{ range site.Menus.main }}
+          <li>
+            <a class="nav-link" href="#{{ .Name | urlize | lower}}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+        </ul>
+      </nav>
+
+      {{/* ── Right side actions ── */}}
+      <div class="actions">
+        {{/* CTA button */}}
+        {{ with site.Params.cta }}
+        <a class="btn-new primary" href="{{ .url | relURL }}">{{ .text }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</header>
+
+{{/* ── Ecwid Shopping Cart ── */}}
+<div class="ec-cart-widget" data-icon="CART" data-fixed="TRUE" data-fixed-position="TOP_RIGHT"></div>
+<script data-cfasync="false"
+    type="text/javascript"
+    data-cookieconsent="ignore"
+    src="https://app.ecwid.com/script.js?{{ .Site.Params.ecwid_store_id }}&data_platform=code"
+    charset="utf-8">
+</script>
+<script type="text/javascript">Ecwid.init();</script>
+<script type="text/javascript">ecwid2gtm();</script>

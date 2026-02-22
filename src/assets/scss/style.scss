@@ -1,45 +1,71 @@
 // Color Variables
 {{ with site.Params.variables }}
 
-$black: {{.black | default "#000"}};
+$black: {{.black | default "#071022"}};
 $white: {{.white | default "#fff"}};
-$light: {{.light | default "#EDF6F5"}};
-$dark: {{.dark | default "#1b2229"}};
+$light: {{.light | default "#F0F4FF"}};
+$dark: {{.dark | default "#071022"}};
 
-$darkest-blue: #003359;
-$dark-blue: #005172;
-$lighter-blue: #8FCAE7;
-$light-blue: #BED6DB;
-$lightest-blue: #EEFFFF;
+// ── Blue palette ──
+$darkest-blue: #1136C9;
+$dark-blue: #1D4FFF;
+$lighter-blue: #00AEEF;
+$light-blue: #8FCAE7;
+$lightest-blue: #EEF4FF;
 
+$color-primary: #1D4FFF;
+$color-secondary: #00AEEF;
 
-$color-primary: #005172;
-$color-secondary: #90CAE7;
-$text-color: #555;
-$text-dark: #222;
-$text-light: #555;
+// ── Accent colors ──
+$color-accent: #FF9F0A;
+$color-accent2: #FF2D55;
+$color-purple: #6D28D9;
+$color-mint: #00C389;
+
+// ── Text ──
+$text-color: rgba(7,16,34,0.74);
+$text-dark: #071022;
+$text-light: rgba(7,16,34,0.60);
 $body-bg: #fff;
-$border-color: #ECECEC;
-$dark-body-bg: #1e262c;
+$border-color: rgba(18, 32, 70, 0.16);
+
+// ── Surfaces & Layout ──
+$surface: rgba(255,255,255,0.92);
+$surface-solid: #ffffff;
+
+// ── Shadows ──
+$shadow: 0 12px 30px rgba(10, 20, 60, 0.12);
+$shadow-lg: 0 18px 55px rgba(10, 20, 60, 0.16);
+
+// ── Border Radius ──
+$radius: 20px;
+$radius-sm: 14px;
+
+// ── Focus ──
+$focus-ring: 0 0 0 4px rgba(29,79,255,.22);
+$ring-inset: 0 0 0 1px rgba(255,255,255,0.72) inset;
+
+// ── Max Width ──
+$max-width: 1120px;
+
+// ── Dark mode ──
+$dark-body-bg: #0C1222;
 $dark-text-color: #cbcbcb;
 $dark-text-dark: #999;
 $dark-text-light: #ddd;
-$dark-border-color: {{.dark_border_color | default "#ECECEC"}};
+$dark-border-color: {{.dark_border_color | default "rgba(18, 32, 70, 0.24)"}};
 
-$font-family-sans-serif: "Roboto", "Helvetica", "Arial", "sans-serif";
-$font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
+// ── Fonts ──
+$font-family-sans-serif: ui-sans-serif, system-ui, -apple-system, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
+$font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
+$font-size: 16px;
+$font-primary: ui-sans-serif, system-ui, -apple-system, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
+$font-secondary: ui-sans-serif, system-ui, -apple-system, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
+$font-icon: "Font Awesome 6 Free";
 
-// Font Variables
-$font-size: {{.font_size | default "32px"}};
-$font-scale: {{.font_scale | default "1.25"}};
-$font-primary: "Roboto", "Helvetica", "Arial", "sans-serif";
-$font-secondary: "Roboto", "Helvetica", "Arial", "sans-serif";
-$font-icon: '{{.font_icon | default "Font Awesome 6 Free"}}';
-
-// links
-$link-color: $darkest-blue;
+// ── Links ──
+$link-color: $dark-blue;
 $link-decoration: none;
-//$link-hover-decoration: webkit-transform(scale, 1.2);
 $link-hover-color: $darkest-blue;
 $link-hover-decoration: underline;
 
@@ -61,5 +87,9 @@ $link-hover-decoration: underline;
 @import 'tutoring';
 // @import 'gallery-slider';
 @import 'toc';
+@import 'topbar';
+@import 'homepage';
+@import 'header';
+@import 'pages';
 @import 'custom';
 @import 'preloader';

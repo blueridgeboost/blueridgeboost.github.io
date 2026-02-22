@@ -4,23 +4,35 @@
     url        = "/classes/"
     weight     = 2
 
-# [[main]]
-#     name       = "Kids and Teens"
-#     url        = "/classes/"
-#     weight     = 1
-#     parent     = "Classes"
+[[main]]
+    name       = "Kids"
+    url        = "/classes/kids"
+    weight     = 1
+    parent     = "Classes"
 
-# [[main]]
-#     parent     = "Classes"
-#     name       = "Adults"
-#     url        = "/adults/"
-#     weight     = 2
+[[main]]
+    name       = "Tweens"
+    url        = "/classes/tweens"
+    weight     = 2
+    parent     = "Classes"
 
-# [[main]]
-#     parent     = "Classes"
-#     name       = "Certifications"
-#     url        = "/certifications/"
-#     weight     = 3
+[[main]]
+    parent     = "Classes"
+    name       = "Teens"
+    url        = "/classes/teens"
+    weight     = 3
+
+[[main]]
+    parent     = "Classes"
+    name       = "Adults"
+    url        = "/adults"
+    weight     = 4
+
+[[main]]
+    parent      = "Classes"
+    name       = "Independent Learners"
+    url        = "/independent-learners/"
+    weight     = 11
 
 
 [[main]]
@@ -34,10 +46,22 @@
     weight      = 1
 
 [[main]]
-    name        = "Summer"
+    name        = "Spring Break"
+    url         = "/spring-break-camps/"
+    parent      = "Camps"
+    weight      = 3
+
+[[main]]
+    name        = "Summer - Ages 6 to 12"
     url         = "/summer-camps/"
     parent      = "Camps"
     weight      = 4
+
+[[main]]
+    name        = "Summer - Teens"
+    url         = "/summer-teens/"
+    parent      = "Camps"
+    weight      = 5
 
 # [[main]]
 #     name        = "Winter Break"
@@ -45,16 +69,7 @@
 #     parent      = "Camps"
 #     weight      = 2
 
-[[main]]
-    name        = "Spring Break"
-    url         = "/spring-break-camps/"
-    parent      = "Camps"
-    weight      = 3
 
-[[main]]
-    name       = "Gaming"
-    url        = "/gaming/"
-    weight     = 4
 
 [[main]]
     name        = "Birthdays"
@@ -67,21 +82,22 @@
     weight     = 10
 
 [[main]]
-    name       = "Homeschoolers"
-    url        = "/group-classes/"
-    weight     = 11
-
+    name        = "WRO"
+    url         = "/wro"
+    weight      = 11
 
 [[main]]
     name        = "More"
     weight      = 12
 
 
+
 [[main]]
-    name        = "WRO"
-    url         = "/wro"
-    weight      = 3
-    parent     = "More"
+    name       = "Gaming"
+    url        = "/gaming/"
+    weight     = 3
+    parent      = "More"
+
 
 [[main]]
     name        = "Open House"
@@ -99,10 +115,4 @@
     name       = "Contact"
     url        = "/contact/"
     weight     = 12
-    parent     = "More"
-
-[[main]]
-    name       = "Login"
-    url        = "#!/~/account"
-    weight     = 13
     parent     = "More"

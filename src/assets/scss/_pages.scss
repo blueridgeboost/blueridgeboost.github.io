@@ -1,0 +1,347 @@
+// ============================================================
+// Page-level styles (non-homepage inner pages)
+// ============================================================
+
+// ── Page header — colorful gradient like homepage hero ──
+.page-header {
+  padding: 40px 0 32px;
+  text-align: center;
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba($color-secondary, 0.12), transparent 60%),
+    radial-gradient(ellipse at 80% 50%, rgba($color-primary, 0.10), transparent 60%),
+    radial-gradient(ellipse at 50% 0%, rgba($color-accent, 0.06), transparent 50%),
+    linear-gradient(180deg, rgba($lightest-blue, 0.5) 0%, $white 100%);
+  border-bottom: 1px solid rgba(18, 32, 70, 0.08);
+
+  h1 {
+    font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+    font-weight: 800;
+    margin: 0 0 6px;
+    letter-spacing: -0.02em;
+    background: linear-gradient(90deg, $color-primary 0%, $color-secondary 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .page-subtitle {
+    font-size: 1.05rem;
+    color: $text-light;
+    margin: 0;
+    font-weight: 500;
+  }
+}
+
+// ── Classes page ──
+.classes-page {
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+  // Filter bar integration
+  .filter-wrap {
+    background: transparent;
+    padding: 0;
+    margin-bottom: 24px;
+  }
+
+  .filter-range {
+    border-color: rgba(18, 32, 70, 0.12);
+    box-shadow: 0 2px 8px rgba(10, 20, 60, 0.06);
+  }
+}
+
+// ── Card grid (Ecwid class cards) ──
+.class-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  justify-items: center;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 576px) {
+  .class-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 10px;
+  }
+}
+
+// ── Notes section ──
+.classes-notes {
+  margin-top: 8px;
+  padding: 20px 24px;
+  background: rgba($color-primary, 0.03);
+  border: 1px solid rgba(18, 32, 70, 0.08);
+  border-radius: $radius-sm;
+  font-size: 0.9rem;
+  color: $text-color;
+
+  p {
+    margin: 0 0 8px;
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  li {
+    margin-bottom: 4px;
+    line-height: 1.5;
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// ── Content area ──
+.classes-content {
+  margin-top: 24px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: $text-color;
+}
+
+// ── Policy links ──
+.classes-policies {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(18, 32, 70, 0.08);
+  text-align: center;
+  font-size: 0.85rem;
+  color: $text-light;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-primary;
+      text-decoration: underline;
+    }
+  }
+}
+
+// ============================================================
+// Programs overview (classes.md content)
+// ============================================================
+
+.programs-overview {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1.5rem 0 0;
+}
+
+.programs-intro {
+  font-size: 1.05rem;
+  color: $text-color;
+  max-width: 52ch;
+  margin: 0 0 1.5rem;
+  line-height: 1.6;
+}
+
+.programs-heading {
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin: 0 0 1rem;
+  letter-spacing: -0.01em;
+  padding-bottom: 8px;
+  display: inline-block;
+  background: linear-gradient(90deg, $color-primary, $color-secondary);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+// ── Program cards (age groups) — each gets a unique color accent ──
+.programs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.program-card {
+  border: 1px solid rgba(18, 32, 70, 0.08);
+  border-radius: $radius;
+  padding: 1.25rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
+  position: relative;
+  overflow: hidden;
+
+  // Subtle top color bar
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, $color-primary, $color-secondary);
+  }
+
+  // Default soft blue background
+  background:
+    radial-gradient(ellipse at 100% 0%, rgba($color-secondary, 0.06), transparent 70%),
+    $white;
+
+  &:hover {
+    border-color: rgba($color-primary, 0.24);
+    box-shadow: 0 8px 24px rgba(10, 20, 60, 0.10);
+    transform: translateY(-2px);
+  }
+
+  h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+    color: $text-dark;
+  }
+
+  .age-range {
+    font-weight: 500;
+    color: $color-primary;
+    font-size: 0.8rem;
+  }
+
+  ul {
+    margin: 0 0 0.75rem;
+    padding: 0 0 0 1.25rem;
+    color: $text-color;
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+
+  p {
+    margin: 0 0 0.75rem;
+    color: $text-color;
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+
+  // Color variants per card
+  &:nth-child(1)::before { background: linear-gradient(90deg, $color-primary, $color-secondary); }
+  &:nth-child(2)::before { background: linear-gradient(90deg, $color-secondary, $color-mint); }
+  &:nth-child(3)::before { background: linear-gradient(90deg, $color-purple, $color-primary); }
+  &:nth-child(4)::before { background: linear-gradient(90deg, $color-accent, $color-accent2); }
+
+  &:nth-child(1) { background: radial-gradient(ellipse at 100% 0%, rgba($color-primary, 0.06), transparent 70%), $white; }
+  &:nth-child(2) { background: radial-gradient(ellipse at 100% 0%, rgba($color-mint, 0.06), transparent 70%), $white; }
+  &:nth-child(3) { background: radial-gradient(ellipse at 100% 0%, rgba($color-purple, 0.06), transparent 70%), $white; }
+  &:nth-child(4) { background: radial-gradient(ellipse at 100% 0%, rgba($color-accent, 0.06), transparent 70%), $white; }
+}
+
+.program-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: $color-primary;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: rgba($color-primary, 0.06);
+  transition: background 0.15s ease;
+
+  &:hover {
+    background: rgba($color-primary, 0.12);
+    color: $darkest-blue;
+    text-decoration: none;
+  }
+}
+
+// ── Subject cards — color-coded ──
+.subjects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.subject-card {
+  border: 1px solid rgba(18, 32, 70, 0.08);
+  border-radius: $radius;
+  padding: 1.25rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
+  position: relative;
+  overflow: hidden;
+
+  // Top color bar
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+  }
+
+  &:nth-child(1) { background: radial-gradient(ellipse at 0% 0%, rgba($color-primary, 0.07), transparent 60%), $white; }
+  &:nth-child(2) { background: radial-gradient(ellipse at 0% 0%, rgba($color-secondary, 0.07), transparent 60%), $white; }
+  &:nth-child(3) { background: radial-gradient(ellipse at 0% 0%, rgba($color-mint, 0.07), transparent 60%), $white; }
+  &:nth-child(4) { background: radial-gradient(ellipse at 0% 0%, rgba($color-purple, 0.07), transparent 60%), $white; }
+
+  &:nth-child(1)::before { background: $color-primary; }
+  &:nth-child(2)::before { background: $color-secondary; }
+  &:nth-child(3)::before { background: $color-mint; }
+  &:nth-child(4)::before { background: $color-purple; }
+
+  &:hover {
+    border-color: rgba($color-primary, 0.22);
+    box-shadow: 0 8px 24px rgba(10, 20, 60, 0.10);
+    transform: translateY(-2px);
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+    color: $text-dark;
+  }
+
+  p {
+    margin: 0;
+    color: $text-color;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+}
+
+// ── Class details box ──
+.class-details-box {
+  background:
+    radial-gradient(ellipse at 0% 50%, rgba($color-primary, 0.06), transparent 50%),
+    radial-gradient(ellipse at 100% 50%, rgba($color-secondary, 0.06), transparent 50%),
+    $lightest-blue;
+  border: 1px solid rgba($color-primary, 0.12);
+  border-radius: $radius;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+
+  h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0 0 0.75rem;
+    color: $text-dark;
+  }
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+  font-size: 0.9rem;
+  color: $text-color;
+}
+
+.browse-cta {
+  font-size: 0.95rem;
+  color: $text-dark;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+}

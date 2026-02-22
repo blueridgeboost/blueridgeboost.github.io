@@ -454,3 +454,8 @@ font-size: 1.5em;
     margin-top: 5px; /* Add spacing between title and price */
   }
 }
+
+// ── Nav-link text color override (theme _navigation.scss uses $text-dark) ──
+.navigation .nav-item .nav-link {
+  color: rgba(7, 16, 34, 0.74) !important;
+}

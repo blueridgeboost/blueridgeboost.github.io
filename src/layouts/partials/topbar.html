@@ -1,0 +1,25 @@
+
+{{/* Top info bar with location, phone, email, and promo */}}
+<div class="topbar">
+  <div class="wrap">
+    <div class="topbar-row">
+      <div style="display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;">
+        <span class="pill">
+          <span class="dot" aria-hidden="true"></span>
+          {{ site.Params.address | default "Charlottesville • 2171 Ivy Rd" }}
+        </span>
+        <a class="pill" href="tel:{{ site.Params.phone_raw | default "+14342600636" }}">
+          {{ site.Params.phone | default "(434) 260‑0636" }}
+        </a>
+        <a class="pill" href="mailto:{{ site.Params.email | default "nora@blueridgeboost.com" }}">
+          {{ site.Params.email | default "nora@blueridgeboost.com" }}
+        </a>
+      </div>
+      {{ with site.Params.promo_text }}
+      <div style="display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;">
+        <span class="pill">{{ . | safeHTML }}</span>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>

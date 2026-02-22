@@ -1,185 +1,129 @@
- <!-- navigation -->
-<header class="navigation">
-  <div class="container">
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <!-- navbar brand/logo -->
-      <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
-        {{/*  {{ partial "logo.html" }}  */}}
-        <style>.logo{
-      width: 38px;
-      height: 38px;
-      border-radius: 14px;
-      background:
-        radial-gradient(circle at 25% 25%, rgba(0,174,239,.98), rgba(0,174,239,0) 56%),
-        radial-gradient(circle at 80% 80%, rgba(29,79,255,.98), rgba(29,79,255,0) 56%),
-        radial-gradient(circle at 70% 18%, rgba(255,159,10,.92), rgba(255,159,10,0) 56%),
-        linear-gradient(135deg, rgba(255,255,255,0.92), rgba(255,255,255,0.45));
-      border: 1px solid rgba(29,79,255,0.22);
-      box-shadow: var(--shadow);
-      flex: 0 0 auto;
-    }</style>
-          <div class="logo" aria-hidden="true"></div>
-      </a>
-      <div class="d-flex align-items-center">
-        <!-- Language List -->
-        {{ if .IsTranslated }}
-        <select class="me-3 border-0 d-inline-block d-lg-none" onchange="location = this.value;">
-          {{ $siteLanguages := site.Languages}}
-          {{ $pageLang := .Page.Lang}}
-          {{ range .Page.AllTranslations }}
-          {{ $translation := .}}
-          {{ range $siteLanguages }}
-          {{ if eq $translation.Lang .Lang }}
-          {{ $selected := false }}
-          {{ if eq $pageLang .Lang}}
-          <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}" selected>{{ .LanguageName }}
-          </option>
-          {{ else }}
-          <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}">{{ .LanguageName }}</option>
-          {{ end }}
-          {{ end }}
-          {{ end }}
-          {{ end }}
-        </select>
-        {{ end }}
-        <!-- navbar toggler -->
-        <button aria-label="navbar toggler" class="navbar-toggler border-0 h4 mb-0" type="button" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#navigation">
-          <i class="fas fa-bars"></i>
-          <i class="fa-solid fa-xmark"></i>
-        </button>
 
-        {{ if site.Params.theme_switcher }}
-        <div class="theme-switcher d-inline-block d-lg-none">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" width="20" height="20" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000">
-            <mask id="m">
-              <circle class="masker" cx="7.5" cy="7.5" r="8.5" fill="#fff" />
-            </mask>
-            <g mask="url(#m)">
-              <path class="sun" d="M7.5 1.5v-1m0 13.99v-.998m6-5.997h1m-13 0h-1m2-4.996l-1-1m12 0l-1 1m-10 9.993l-1 1m12 0l-1-1m-2-4.997a2.999 2.999 0 01-3 2.998 2.999 2.999 0 113-2.998z" />  
-            </g>
-            <path class="moon" fill="white" d="M1.66 11.362A6.5 6.5 0 007.693.502a7 7 0 11-6.031 10.86z" />  
-          </svg>
+{{/*
+  Combined header: New design (topbar + frosted glass nav) with old functionality
+  (active states, dropdowns, language selector, theme switcher, Ecwid cart)
+*/}}
+
+{{/* ── Sticky header ── */}}
+<header class="site-header">
+  <div class="wrap">
+    <div class="nav">
+
+      {{/* ── Brand / Logo ── */}}
+      <a class="brand" href="{{ site.BaseURL | relLangURL }}" aria-label="{{ site.Params.brand_name | default site.Title }} Home">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <strong>{{ site.Params.brand_name | default "Blue Ridge Boost" }}</strong>
+          <span>{{ site.Params.tagline | default "Hands-on STEM learning • Ages 6+" }}</span>
         </div>
-        {{ end }}
-      </div>
+      </a>
 
-      <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav mx-auto">
-          <!-- menu active -->
+      {{/* ── Desktop navigation ── */}}
+      <nav aria-label="Primary">
+        <ul class="nav-list">
           {{ $currentPage := . }}
           {{ range site.Menus.main }}
-          {{ $menuURL := .URL | absLangURL }}
-          {{ $pageURL:= $currentPage.Permalink | absLangURL }}
-          {{ $active := eq $menuURL $pageURL }}
-          {{ if .HasChildren }}
-          <li class="nav-item dropdown {{if .Params.isMenuLarge}}dropdown-lg {{end}}
-          {{- range .Children -}}
-          {{- $childURL := .URL | absLangURL -}}
-          {{- $active := eq $childURL $pageURL -}}
-          {{- if $active }}active{{ end -}}
-          {{- end -}}">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              {{ .Name }}
-            </a>
-            <ul class="dropdown-menu">
-              {{ range .Children }}
-              {{ $childURL := .URL | absLangURL }}
-              {{ $active := eq $childURL $pageURL }}
-              <li>
-                <a class="dropdown-item {{ if $active }}active{{ end }}" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
-                href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{.Pre}}{{ .Name }}{{.Post}}</a>
-              </li>
-              {{ end }}
-            </ul>
-          </li>
-          {{ else }}
-          <li class="nav-item {{ if $active }}active{{ end }}">
-            <a class="nav-link" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
-              href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{.Name}}</a>
-          </li>
+            {{ $menuURL := .URL | absLangURL }}
+            {{ $pageURL := $currentPage.Permalink | absLangURL }}
+            {{ $active := eq $menuURL $pageURL }}
+
+            {{ if .HasChildren }}
+            {{/* ── Dropdown menu item ── */}}
+            <li class="nav-dropdown{{ range .Children }}{{ $childURL := .URL | absLangURL }}{{ if eq $childURL $pageURL }} active{{ end }}{{ end }}">
+              <a class="nav-link has-dropdown{{ if $active }} active{{ end }}" href="{{ if .URL }}{{ .URL | relLangURL }}{{ else }}#{{ end }}" {{ if not .URL }}role="button"{{ end }}>
+                {{ .Name }}
+                <svg class="dropdown-arrow" viewBox="0 0 12 12" fill="none"><path d="M3 5l3 3 3-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <ul class="nav-sub">
+                {{ range .Children }}
+                {{ $childURL := .URL | absLangURL }}
+                {{ $childActive := eq $childURL $pageURL }}
+                <li>
+                  <a href="{{ if findRE `^http` .URL }}{{ .URL }}{{ else if findRE `^#` .URL }}{{ if not $currentPage.IsHome }}{{ site.BaseURL | relLangURL }}{{ end }}{{ .URL }}{{ else }}{{ .URL | relLangURL }}{{ end }}"
+                     {{ if findRE `^http` .URL }}target="_blank" rel="noopener"{{ end }}
+                     class="{{ if $childActive }}active{{ end }}">
+                    {{ .Pre }}{{ .Name }}{{ .Post }}
+                  </a>
+                </li>
+                {{ end }}
+              </ul>
+            </li>
+
+            {{ else }}
+            {{/* ── Simple menu item ── */}}
+            <li>
+              <a class="nav-link{{ if $active }} active{{ end }}"
+                 href="{{ if findRE `^http` .URL }}{{ .URL }}{{ else if findRE `^#` .URL }}{{ if not $currentPage.IsHome }}{{ site.BaseURL | relLangURL }}{{ end }}{{ .URL }}{{ else }}{{ .URL | relLangURL }}{{ end }}"
+                 {{ if findRE `^http` .URL }}target="_blank" rel="noopener"{{ end }}>
+                {{ .Name }}
+              </a>
+            </li>
+            {{ end }}
           {{ end }}
-          {{ end }}
+
         </ul>
+      </nav>
 
-        <!-- Language List -->
-        {{ if .IsTranslated }}
-        <select class="me-1 border-0 d-none d-lg-inline-block" id="select-language" onchange="location = this.value;">
-          {{ $siteLanguages := site.Languages}}
-          {{ $pageLang := .Page.Lang}}
-          {{ range .Page.AllTranslations }}
-          {{ $translation := .}}
-          {{ range $siteLanguages }}
-          {{ if eq $translation.Lang .Lang }}
-          {{ $selected := false }}
-          {{ if eq $pageLang .Lang}}
-          <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}" selected>{{ .LanguageName }}
-          </option>
-          {{ else }}
-          <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}">{{ .LanguageName }}</option>
-          {{ end }}
-          {{ end }}
-          {{ end }}
-          {{ end }}
-        </select>
-        {{ end }}
+      {{/* ── Right side actions ── */}}
+      <div class="actions">
+        {{/* Mobile menu button */}}
+        <button class="btn-new ghost small menuBtn" id="menuBtn" type="button"
+                aria-expanded="false" aria-controls="mobileMenu">
+          <i class="fas fa-bars"></i>
+        </button>
 
-        {{ if site.Params.navigation_button.enable }}
-        <!-- navigation btn -->
-        <a href="{{ site.Params.navigation_button.link | relLangURL }}"
-          class="btn btn-sm btn-primary ms-lg-4 mt-2 mt-lg-0">{{ site.Params.navigation_button.label }}</a>
-        {{ end }}
-
-        {{ if site.Params.theme_switcher }}
-        <!-- theme switcher -->
-        <div class="theme-switcher d-none d-lg-inline-block ">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" width="20" height="20" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000">
-            <mask id="m">
-              <circle class="masker" cx="7.5" cy="7.5" r="8.5" fill="#fff" />
-            </mask>
-            <g mask="url(#m)">
-              <path class="sun" d="M7.5 1.5v-1m0 13.99v-.998m6-5.997h1m-13 0h-1m2-4.996l-1-1m12 0l-1 1m-10 9.993l-1 1m12 0l-1-1m-2-4.997a2.999 2.999 0 01-3 2.998 2.999 2.999 0 113-2.998z" />  
-            </g>
-            <path class="moon" fill="white" d="M1.66 11.362A6.5 6.5 0 007.693.502a7 7 0 11-6.031 10.86z" />  
-          </svg>
-        </div>
-        {{ end }}
       </div>
-      <!-- Shopping Cart -->
-    </nav>
+    </div>
+
+    {{/* ── Mobile menu drawer ── */}}
+    <div class="drawer" id="mobileMenu" aria-label="Mobile menu">
+      {{ $currentPage := . }}
+      {{ range site.Menus.main }}
+        {{ if .HasChildren }}
+          {{ if .URL }}
+          <a href="{{ .URL | relLangURL }}"><strong>{{ .Name }}</strong></a>
+          {{ else }}
+          <div class="drawer-heading">{{ .Name }}</div>
+          {{ end }}
+          {{ range .Children }}
+          <a href="{{ if findRE `^http` .URL }}{{ .URL }}{{ else }}{{ .URL | relLangURL }}{{ end }}" class="drawer-sub"
+             {{ if findRE `^http` .URL }}target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a>
+          {{ end }}
+        {{ else }}
+        <a href="{{ if findRE `^http` .URL }}{{ .URL }}{{ else }}{{ .URL | relLangURL }}{{ end }}"
+           {{ if findRE `^http` .URL }}target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
   </div>
 </header>
-<!-- /navigation -->
 
-
-<!-- theme switcher -->
-{{ if site.Params.theme_switcher }}
+{{/* ── Mobile menu toggle script ── */}}
 <script>
-  var darkMode = {{if eq site.Params.theme_default "dark"}}true{{else}}false{{end}};
-  {{ if eq site.Params.theme_default "system" }}
-  if (window.matchMedia('(prefers-color-scheme: dark)').matches){darkMode = true}
-  {{ end }}
-  if (localStorage.getItem('theme') === 'dark'){darkMode = true}
-  else if (localStorage.getItem('theme') === 'light'){darkMode = false}
-  if (darkMode){document.body.classList.toggle('dark')}
   document.addEventListener('DOMContentLoaded', () => {
-    var themeSwitch = document.querySelectorAll('.theme-switcher');
-    [].forEach.call(themeSwitch, function (ts) {
-      ts.addEventListener('click', () => {
-        document.body.classList.toggle('dark');
-        localStorage.setItem('theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+    const btn = document.getElementById('menuBtn');
+    const menu = document.getElementById('mobileMenu');
+    if (btn && menu) {
+      btn.addEventListener('click', () => {
+        const isOpen = menu.classList.toggle('open');
+        btn.setAttribute('aria-expanded', String(isOpen));
+        // Toggle icon between bars and X
+        const barsIcon = btn.querySelector('.fa-bars');
+        const xIcon = btn.querySelector('.fa-xmark');
+        if (barsIcon) barsIcon.style.display = isOpen ? 'none' : '';
+        if (xIcon) xIcon.style.display = isOpen ? '' : 'none';
       });
-    })
+    }
   });
 </script>
-{{ end }}
-<!-- Shopping Cart -->
+
+{{/* ── Ecwid Shopping Cart ── */}}
 <div class="ec-cart-widget" data-icon="CART" data-fixed="TRUE" data-fixed-position="TOP_RIGHT"></div>
-<script data-cfasync="false" 
-    type="text/javascript" 
+<script data-cfasync="false"
+    type="text/javascript"
     data-cookieconsent="ignore"
-    src="https://app.ecwid.com/script.js?{{ .Site.Params.ecwid_store_id }}&data_platform=code" 
+    src="https://app.ecwid.com/script.js?{{ .Site.Params.ecwid_store_id }}&data_platform=code"
     charset="utf-8">
-  </script>
+</script>
 <script type="text/javascript">Ecwid.init();</script>
 <script type="text/javascript">ecwid2gtm();</script>

@@ -1,0 +1,56 @@
+// ── Top bar ──
+.topbar {
+  border-bottom: 1px solid $border-color;
+  background: linear-gradient(90deg,
+    rgba($color-primary, .10),
+    rgba($color-secondary, .10),
+    rgba($color-accent, .10)
+  );
+  position: relative;
+  overflow: hidden;
+
+  &:before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    background:
+      radial-gradient(900px 180px at 15% 0%, rgba($color-secondary, .34), transparent 60%),
+      radial-gradient(900px 180px at 85% 0%, rgba($color-purple, .28), transparent 60%),
+      radial-gradient(700px 180px at 50% 0%, rgba($color-accent, .26), transparent 65%);
+    pointer-events: none;
+  }
+
+  .topbar-row {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 0;
+    font-size: 14px;
+    color: $text-color;
+    flex-wrap: wrap;
+  }
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 11px;
+  border: 1px solid rgba(18, 32, 70, 0.14);
+  border-radius: 999px;
+  background: rgba($white, 0.86);
+  box-shadow: 0 10px 24px rgba(10, 20, 60, 0.08);
+  color: $text-color;
+  white-space: nowrap;
+  backdrop-filter: blur(10px);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, $color-secondary, $color-mint);
+  box-shadow: 0 0 0 3px rgba($color-secondary, .22);
+}

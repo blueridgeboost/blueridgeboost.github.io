@@ -1,0 +1,25 @@
+import { getAttributeValue, getAllClasses } from "../ecwid.js";
+import { cleanUpAiGen, writeJson } from "../fs-helpers.js";
+import { extractKeywords, extractTopics } from "./ai-queries.js";
+import path from "path";
+
+async function main() {
+    try {
+        // await cleanUpAiGen();
+        const classes = await getAllClasses();
+        const outputDir = path.join(process.cwd(), "scripts", "classes", "aiGen");
+        for (let c of classes) {
+            const brbId = await getAttributeValue(c, "brb_id");
+            // if (brbId == "Comp-Math-9-10") {
+                const keywords = await extractKeywords(c.name + ' ' + c.description);
+                writeJson(path.join(outputDir, `${brbId}.keywords`), keywords, false);
+                const topics = await extractTopics(c.description);
+                writeJson(path.join(outputDir, `${brbId}.topics`), topics, false);
+            // }
+        }
+    } catch (error) {
+        console.error('Error in main:', error);
+    }
+}
+
+main();
