@@ -32,7 +32,10 @@
 
         {{ with site.Params.promo_text }}
         <div class="promo">
-          <span class="badge"><span class="spark" aria-hidden="true"></span> {{ . | safeHTML }}</span>
+          <span class="badge">
+            <span class="spark" aria-hidden="true"></span> 
+            {{ . | safeHTML }}
+          </span>
           <span class="metaLine">{{ site.Params.promo_subtext | default "Lock in your spot and save today." }}</span>
         </div>
         {{ end }}
@@ -146,10 +149,9 @@
   <div class="wrap">
     <div class="sectionTitle">
       <div>
-        <h2>STEM Tutoring (Ages 6+)</h2>
-        <p>Personalized help across STEM—build confidence, strengthen fundamentals, and keep momentum.</p>
+        <h2>Tutoring (Ages 6+)</h2>
+        <p>Personalized help across STEM. Build confidence, strengthen fundamentals, and keep momentum.</p>
       </div>
-      <a class="btn-new primary small" href="/tutoring">Request Tutoring</a>
     </div>
     <div class="grid3" aria-label="Tutoring benefits">
       {{ range .Params.tutoring }}
@@ -157,7 +159,7 @@
         <h3>{{ .title }}</h3>
         <p>{{ .description }}</p>
         <div class="hp-row">
-          <a class="chip" href="{{ .url }}">{{ .cta_text }}</a>
+          <a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a>
         </div>
       </div>
       {{ end }}
@@ -165,30 +167,6 @@
   </div>
 </section>
 
-{{/* ── Subjects ── */}}
-<section class="hp-section" id="subjects">
-  <div class="wrap">
-    <div class="sectionTitle">
-      <div>
-        <h2>What we teach</h2>
-        <p>Explore STEM pathways across camps, classes, and tutoring.</p>
-      </div>
-    </div>
-    <div class="grid4" aria-label="Subjects grid">
-      {{ range .Params.subjects }}
-      <div class="hp-card">
-        <h3>{{ .title }}</h3>
-        <p>{{ .description }}</p>
-        <div class="hp-row">
-          {{ range .links }}
-          <a class="chip" href="{{ .url | relURL }}">{{ .text }}</a>
-          {{ end }}
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
 
 {{/* ── Events ── */}}
 <section class="hp-section" id="events">
@@ -204,6 +182,7 @@
       <div class="hp-card">
         <h3>{{ .title }}</h3>
         <p>{{ .description }}</p>
+
         <div class="hp-row">
           <a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a>
         </div>

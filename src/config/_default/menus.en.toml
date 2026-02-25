@@ -74,15 +74,15 @@
 [[main]]
     name        = "Birthdays"
     url         = "/birthdays/"
-    weight      = 5
+    weight      = 10
 
 [[main]]
     name       = "Tutoring"
     url        = "/tutoring/"
-    weight     = 10
+    weight     = 5
 
 [[main]]
-    name        = "WRO"
+    name        = "Robotics"
     url         = "/wro"
     weight      = 11
 
