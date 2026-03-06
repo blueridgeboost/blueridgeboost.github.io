@@ -3,7 +3,8 @@ import { google } from 'googleapis';
 import path from 'path';
 import dotenv from 'dotenv';
 
-// thhe .env must contain a path to a Google service account json keyfile with access to the target spreadsheet.
+// the .env must contain a path to a Google service account json keyfile with access to the target spreadsheet.
+// must also contain ATTENDANCE_SHEET_ID of the target spreadsheet. The spreadsheet should already be shared with the service account email.
 // Construct the path to the .env file
 const envPath = path.join(process.cwd(), '..', '.env');
 // Load the .env file
@@ -33,7 +34,7 @@ function colToA1(n) {
 
 
 async function main() {
-    const spreadsheetId = process.env.SPREADSHEET_ID;
+    const spreadsheetId = process.env.ATTENDANCE_SPREADSHEET_ID;
     if (!spreadsheetId) throw new Error('Missing ATTENDANCE_SHEET_ID in .env');
     if (!process.env.GOOGLE_KEYFILE) throw new Error('Missing GOOGLE_KEYFILE in .env');
 
