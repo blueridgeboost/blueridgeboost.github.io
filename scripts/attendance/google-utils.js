@@ -46,6 +46,13 @@ export async function overwriteTab(sheets, spreadsheetId, tabName,rows) {
 }
 
 
+export async function readHeaders(sheets, spreadsheetId, tabName) {
+  const res = await sheets.spreadsheets.values.get({spreadsheetId,range: `${tabName}!1:1`,});
+  const headers = (res.data.values?.[0] || []).map(h => (h || '').trim());
+  const idx = (name) => headers.indexOf(name);
+  return { headers, idx };
+}
+
 export async function readSheetTable(sheets, spreadsheetId, range) {
     const res = await sheets.spreadsheets.values.get({spreadsheetId,range,});
     const values = res.data.values || [];
