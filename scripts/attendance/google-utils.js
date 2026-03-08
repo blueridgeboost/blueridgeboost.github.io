@@ -1,4 +1,4 @@
-
+import { google } from 'googleapis';
 
 export function mustEnv(name) {
     const v = process.env[name];
@@ -10,7 +10,7 @@ export async function getClients(Scopes) {
     const auth = new google.auth.GoogleAuth({keyFile: mustEnv('GOOGLE_KEYFILE'),scopes: Scopes,});
     return {
         sheets: google.sheets({ version: 'v4', auth }),
-        forms: google.forms ? google.forms({ version: 'v1', auth }) : null,
+        forms: google.forms({ version: 'v1', auth }),
     };
 }
 
@@ -30,6 +30,19 @@ export async function writeCell(sheets, spreadsheetId, sheetName, colIndex0, row
     const colLetter = colToA1(colIndex0 + 1);
     const range = `${sheetName}!${colLetter}${rowIndex1}`;
     await sheets.spreadsheets.values.update({spreadsheetId,range,valueInputOption: 'RAW',requestBody: { values: [[value]] },});
+}
+
+export async function overwriteTab(sheets, spreadsheetId, tabName,rows) {
+  // Clear everything below the header row, then write new data starting A2.
+  await sheets.spreadsheets.values.clear({spreadsheetId,range: `${tabName}!A2:ZZ`,});
+  
+  if (!rows.length) return;
+
+  await sheets.spreadsheets.values.update({spreadsheetId,
+    range: `${tabName}!A2`,
+    valueInputOption: 'RAW',
+    requestBody: { values: rows },
+  });
 }
 
 
@@ -61,3 +74,24 @@ export async function readClassesTable(sheets, spreadsheetId) {
   return { headers, rows, idx };
 }
 
+export async function createAttendanceForm(forms, className, brbId) {
+  const res = await forms.forms.create({
+    requestBody: {
+        info: {
+            title: `${className} Attendance`,
+            description: `Internal class ID: ${brbId}`,
+        },
+        documentTitle: `${className} Attendance`,
+    },
+  });
+
+  const formId = res.data.formId;
+  const editUrl = `https://docs.google.com/forms/d/${formId}/edit`;
+  const viewUrl = `https://docs.google.com/forms/d/${formId}/viewform`;
+
+  return { formId, editUrl, viewUrl };
+}
+
+export async function getForm(forms, formId) {
+  return forms.forms.get({ formId });
+}
