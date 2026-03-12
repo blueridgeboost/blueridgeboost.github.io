@@ -3,7 +3,7 @@ import { readdir, stat, unlink, readFile } from 'fs/promises';
 import path from 'path';
 import {createWriteStream, existsSync} from 'fs';
 import papaparse from 'papaparse';
-
+import fs from 'fs';
 
 const keepers = [
     '_index.md', 'math.md', 'coding.md', 'robotics.md', 
@@ -144,5 +144,33 @@ export async function readCsvDataFromPath(path) {
     console.error('Papa errors:', errors);
   }
   return data;
+}
+
+export async function deleteCsvs(dir) {
+  const entries = await fs.promises.readdir(dir, { withFileTypes: true });
+  await Promise.all(entries.map(async e => {
+    if (e.isFile() && e.name.toLowerCase().endsWith('.csv')) {
+        await fs.promises.unlink(`${dir}${e.name}`);
+        console.log(`Deleted ${dir}${e.name}`);
+    }
+  }));
+}
+
+export async function writeDataToCsv(data, fileName) {
+    // Convert data to CSV format using PapaParse 
+    const csv = papaparse.unparse(data, {
+        header: true, // Include headers in the CSV
+        quotes: true, // Quote all fields for safety
+    });
+
+    // Write the CSV content to a file
+    fs.writeFileSync(fileName, csv, 'utf8', (err) => {
+        if (err) {
+            console.error('Error writing CSV file:', err);
+        } else {
+            console.log(`CSV file created at ${fileName}`);
+        }
+    });
+    console.log(`Wrote ${data.length} records to ${fileName}`);
 }
 

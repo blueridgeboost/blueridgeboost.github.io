@@ -345,3 +345,91 @@
   font-weight: 700;
   margin: 0 0 0.5rem;
 }
+
+.page-content {
+  padding: 24px 0 40px;
+  line-height: 1.7;
+  font-size: 0.95rem;
+
+  .heroGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .heroCard {
+    background: rgba($white, 0.96);
+
+    &:after {
+      display: none;
+    }
+  }
+
+  .paths {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .camp-promo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+}
+
+// ── Camp promo discount strip ──
+.camp-promo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  padding: 10px 16px;
+  border-radius: $radius-sm;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg,
+    rgba($color-primary, .10),
+    rgba($color-secondary, .10),
+    rgba($color-accent, .10)
+  );
+
+  &:before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    background:
+      radial-gradient(900px 180px at 15% 0%, rgba($color-secondary, .34), transparent 60%),
+      radial-gradient(900px 180px at 85% 0%, rgba($color-purple, .28), transparent 60%),
+      radial-gradient(700px 180px at 50% 0%, rgba($color-accent, .26), transparent 65%);
+    pointer-events: none;
+  }
+
+  .pill {
+    position: relative;
+    background: rgba($white, 0.86);
+    color: $text-color;
+    border: 1px solid rgba(18, 32, 70, 0.14);
+    box-shadow: 0 10px 24px rgba(10, 20, 60, 0.08);
+    backdrop-filter: blur(10px);
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 7px 11px;
+  }
+}
+
+.path .hp-row {
+  margin-top: 8px;
+}
+
+.path .chip {
+  font-size: 0.75rem;
+}
+
+.paths .path {
+  display: flex;
+  flex-direction: column;
+
+  .hp-row {
+    margin-top: auto;
+  }
+}

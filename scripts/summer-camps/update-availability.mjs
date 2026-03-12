@@ -1,5 +1,6 @@
-import { getSummerCamps, getOrdersByProductId, updateEcwidProduct } from '../ecwid.js';
+import { getSummerCamps, getOrdersByProductId, updateEcwidProduct, getAttributeValue } from '../ecwid.js';
 import path from 'path';
+import { pathToFileURL } from 'url';
 import dotenv from 'dotenv';
 // Construct the path to the .env file
 const envPath = path.join(process.cwd(), '..', '.env');
@@ -13,8 +14,9 @@ const FULL_DAY = "Full-Day";
 const AM_SESSION = "AM";
 const PM_SESSION = "PM"; 
 
-async function updateSummerCampSeats() {
+export async function updateSummerCampSeats() {
     const camps = await getSummerCamps();
+    const summary = [];
     for (const camp of camps) {
         if (camp.enabled) {
             const maxAttribute = camp?.attributes?.find(attribute => attribute?.name === "Max");
@@ -74,9 +76,23 @@ async function updateSummerCampSeats() {
                 }
                 console.log(`Updated combinations for camp ${camp.name} (${camp.id})`);
                 await updateEcwidProduct(camp);
+                summary.push({
+                    "ID": getAttributeValue(camp, "brb_id"),
+                    "Camp Name": camp.name,
+                    "Start Date": getAttributeValue(camp, "start_date"),
+                    "Booked Full-Day Seats": full_enrollment,
+                    "Booked AM Seats": am_enrollment,
+                    "Booked PM Seats": pm_enrollment,
+                    "Open Full-Day Seats": fullDaySeats,
+                    "Open AM Seats": amSeats,
+                    "Open PM Seats": pmSeats,
+                });
             }
         }
     }
+    return summary;
 }
 
-updateSummerCampSeats();
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+    updateSummerCampSeats();
+}

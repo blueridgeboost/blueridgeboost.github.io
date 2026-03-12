@@ -18,6 +18,15 @@
         </div>
       </div>
 
+      <div>
+        <h3>Connect</h3>
+        <ul>
+          <li><a href="{{ "/open-house/" | relURL }}">Open House</a></li>
+          <li><a href="{{ "/instructors/" | relURL }}">Meet the Team</a></li>
+          <li><a href="{{ "/contact/" | relURL }}">Contact Us</a></li>
+        </ul>
+      </div>
+
       {{ range site.Menus.footer }}
       {{/* Each top-level footer menu item becomes a column */}}
       {{ if .HasChildren }}

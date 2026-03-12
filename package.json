@@ -10,6 +10,7 @@
     "camp-rosters": "node ./scripts/rosters/camp-rosters.mjs",
     "create-summer-camps": "node ./scripts/summer-camps/summer-camps.mjs",
     "update-summer-camps": "node ./scripts/summer-camps/update-availability.mjs",
+    "summer-camps-summary": "node ./scripts/rosters/summer-camps-summary.mjs",
     "class-rosters": "node ./scripts/rosters/all-classes.mjs",
     "clean": "rimraf docs",
     "html": "hugo --destination docs --source ./src/",
@@ -32,7 +33,7 @@
     "rimraf": "^6.0.1"
   },
   "dependencies": {
-    "dotenv": "^17.2.3",
+    "dotenv": "^17.3.1",
     "form-data": "^4.0.4",
     "googleapis": "^171.4.0",
     "js-yaml": "^4.1.0",

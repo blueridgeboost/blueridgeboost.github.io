@@ -90,12 +90,7 @@ tutoring:
     url: "/tutoring"
     cta_text: "Request Tutoring"
 
-# Events section
 events:
-  # - title: "Gaming"
-  #   description: "Game-related learning experiences, including gaming-focused offerings."
-  #   url: "/gaming-fridays"
-  #   cta_text: "Gaming Fridays"
   - title: "Birthday Parties"
     description: "Celebrate with a STEM twist—hands-on fun kids remember."
     url: "/birthdays"
@@ -104,10 +99,35 @@ events:
     description: "Tour the space, meet the team, and find the right fit for your child."
     url: "/open-house"
     cta_text: "Next open house"
-  - title: "WRO"
-    description: "Explore robotics competition opportunities and team-based learning."
+
+robotics:
+  - title: "World Robot Olympiad"
+    description: "Blue Ridge Boost hosts the WRO-USEL Open Championship. Compete locally for a chance to qualify to World Robot Olympiad Open Championships."
     url: "/wro"
     cta_text: "WRO competition info"
+  - title: "FIRST Lego League"
+    description: 'No-cut, low-pressure classes for FIRST LEGO League Explore (Ages 6–10) and Challenge (Ages 9–14). Competitive teams organized by <a href="https://teamupforstem.org/">Team Up for STEM</a>.'
+    url: "/competition-robotics"
+    cta_text: "FIRST Lego League info"
+  - title: "Aerial Drone Competition"
+    description: 'No-cut, low-pressure classes for the Aerial Drone Competition challenge. Competitive teams organized by <a href="https://teamupforstem.org/">Team Up for STEM</a>.'
+    url: "/competition-robotics"
+    cta_text: "Drone competition info"
+
+math:
+  - title: "Math Olympiad for Elementary and Middle Schools"
+    description: 'A gentle introduction to math competitions for mathematicians trying out competitions for the first time. Recommended for grades 4 to 8. Competition organized by <a href="https://teamupforstem.org/">Team Up for STEM</a> and held at Blue Ridge Boost.'
+    url: "/math-competitions/moems"
+    cta_text: "Learn More"
+  - title: "Math Kangaroo"
+    description: 'International Competition for grades 1 to 12. Ideal for our youngest mathematicians and for all ages enyoing puzzle math. Competitions organized by <a href="https://teamupforstem.org/">Team Up for STEM</a> and held at Blue Ridge Boost.'
+    url: "/math-competitions/math-kangaroo"
+    cta_text: "AMC prep info"
+  - title: "AMC 8/10/12"
+    description: 'The premier math competition in US. Students performing at the hieghst level, are invitited to compete in higher level competitions. Competitions organized by <a href="https://teamupforstem.org/">Team Up for STEM</a> and held at Blue Ridge Boost.'
+    url: "/classes/competition-math"
+    cta_text: "AMC prep info"
+
 
 # Trust section
 trust:

@@ -1,8 +1,8 @@
 import dotenv from 'dotenv';
 import {getOrdersByProductId, getCatalog} from '../ecwid.js';
-import Papa from 'papaparse';
+
 import path from 'path';
-import fs from 'fs';
+
 // Construct the path to the .env file
 const envPath = path.join(process.cwd(), '..', '.env');
 // Load the .env file
@@ -19,36 +19,6 @@ function getAttributeValue(product, attributeName) {
     }
 }
 
-async function deleteCsvs(dir) {
-  const entries = await fs.promises.readdir(dir, { withFileTypes: true });
-  await Promise.all(entries.map(async e => {
-    if (e.isFile() && e.name.toLowerCase().endsWith('.csv')) {
-        await fs.promises.unlink(`${dir}${e.name}`);
-        console.log(`Deleted ${dir}${e.name}`);
-    }
-  }));
-}
-
-async function writeDataToCsv(data, fileName) {
-    // Convert data to CSV format using PapaParse 
-    const csv = Papa.unparse(data, {
-        header: true, // Include headers in the CSV
-        quotes: true, // Quote all fields for safety
-    });
-
-    // File path to save the CSV
-    const filePath = `${ROSTERS_DIR}${fileName}.csv`;
-
-    // Write the CSV content to a file
-    fs.writeFileSync(filePath, csv, 'utf8', (err) => {
-        if (err) {
-            console.error('Error writing CSV file:', err);
-        } else {
-            console.log(`CSV file created at ${filePath}`);
-        }
-    });
-    console.log(`Wrote ${data.length} records to ${filePath}`);
-}
 
 async function main() {
     const classes = await getCatalog([175340602]);

@@ -2,6 +2,14 @@
 // Homepage Styles
 // ============================================================
 
+:root {
+  --home-anchor-offset: 72px;
+}
+
+html {
+  scroll-padding-top: var(--home-anchor-offset);
+}
+
 // ── Sticky header ──
 .site-header {
   position: sticky;
@@ -443,6 +451,7 @@
 // ── Sections ──
 .hp-section {
   padding: 18px 0;
+  scroll-margin-top: var(--home-anchor-offset);
 }
 
 .sectionTitle {
@@ -538,21 +547,24 @@
   gap: 8px;
   padding: 8px 11px;
   border-radius: 999px;
-  background: $color-primary;
-  font-weight: 950;
+  background: rgba($color-primary, 0.08);
+  font-weight: 700;
   font-size: 0.75rem;
-  color: white;
-  border: none;
+  color: $text-dark !important;
+  border: 1px solid rgba(18, 32, 70, 0.14);
   box-shadow: 0 12px 26px rgba(10, 20, 60, 0.06);
+  text-decoration: none !important;
 
-  &, &:visited, &:focus {
-    color: white;
+  &:visited, &:focus {
+    color: $text-dark !important;
+    text-decoration: none !important;
   }
 
   &:hover {
-    text-decoration: none;
-    background: darken($color-primary, 10%);
-    color: white;
+    text-decoration: none !important;
+    background: rgba($color-primary, 0.14);
+    border-color: rgba($color-primary, 0.22);
+    color: $text-dark !important;
   }
 }
 
@@ -652,6 +664,10 @@
 
 // ── Responsive ──
 @media (max-width: 980px) {
+  :root {
+    --home-anchor-offset: 112px;
+  }
+
   .site-header .nav {
     flex-wrap: wrap !important;
   }
@@ -698,6 +714,10 @@
 }
 
 @media (max-width: 520px) {
+  :root {
+    --home-anchor-offset: 128px;
+  }
+
   .grid4 {
     grid-template-columns: 1fr;
   }

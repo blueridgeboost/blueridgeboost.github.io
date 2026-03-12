@@ -1,8 +1,10 @@
 # main menu
+
+############ Classes ############
 [[main]]
     name       = "Classes"
     url        = "/classes/"
-    weight     = 2
+    weight     = 3
 
 [[main]]
     name       = "Kids"
@@ -34,10 +36,11 @@
     url        = "/independent-learners/"
     weight     = 11
 
+############ Camps ############
 
 [[main]]
     name        = "Camps"
-    weight      = 3
+    weight      = 2
 
 [[main]]
     name        = "1-Day"
@@ -70,49 +73,36 @@
 #     weight      = 2
 
 
-
+############ Birthdays ############
 [[main]]
     name        = "Birthdays"
     url         = "/birthdays/"
-    weight      = 10
-
+    weight      = 4
+############ Gaming ############
+[[main]]
+    name       = "Gaming"
+    url        = "/gaming/"
+    weight     = 5
+############ Tutoring ############
 [[main]]
     name       = "Tutoring"
     url        = "/tutoring/"
     weight     = 5
+############ Competitions ############
+[[main]]
+    name        = "Competitions"
+    weight      = 10
 
 [[main]]
+    parent      = "Competitions"
     name        = "Robotics"
-    url         = "/wro"
-    weight      = 11
+    url         = "/competition-robotics"
+    weight      = 1
 
 [[main]]
-    name        = "More"
-    weight      = 12
+    parent      = "Competitions"
+    name        = "Math"
+    url         = "/competition-math"
+    weight      = 2
 
 
-
-[[main]]
-    name       = "Gaming"
-    url        = "/gaming/"
-    weight     = 3
-    parent      = "More"
-
-
-[[main]]
-    name        = "Open House"
-    url         = "/open-house/"
-    weight      = 4
-    parent     = "More"
-
-[[main]]
-    name       = "Team"
-    url        = "/instructors/"
-    weight     = 12
-    parent     = "More"
-
-[[main]]
-    name       = "Contact"
-    url        = "/contact/"
-    weight     = 12
-    parent     = "More"
