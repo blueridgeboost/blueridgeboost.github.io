@@ -144,47 +144,6 @@
   </div>
 </section>
 
-{{/* ── Robotics ── */}}
-<section class="hp-section" id="robotics">
-  <div class="wrap">
-    <div class="sectionTitle">
-      <div>
-        <h2>Robotics Competitions and Teams</h2>
-        <p>Ongoing weekly learning that builds skills over time—great for kids and teens who like consistency.</p>
-      </div>
-    </div>
-    <div class="grid3" aria-label="Robotics team highlights">
-      {{ range .Params.robotics }}
-      <div class="hp-card">
-        <h3>{{ .title }}</h3>
-        <p>{{ .description | safeHTML }}</p>
-        <a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-
-{{/* ── Math ── */}}
-<section class="hp-section" id="math">
-  <div class="wrap">
-    <div class="sectionTitle">
-      <div>
-        <h2>Math</h2>
-        <p>Ongoing weekly learning that builds skills over time—great for kids and teens who like consistency.</p>
-      </div>
-    </div>
-    <div class="grid3" aria-label="Math highlights">
-      {{ range .Params.math }}
-      <div class="hp-card">
-        <h3>{{ .title }}</h3>
-        <p>{{ .description | safeHTML }}</p>
-        <a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
 
 {{/* ── Tutoring ── */}}
 <section class="hp-section" id="tutoring">
@@ -210,29 +169,48 @@
 </section>
 
 
-{{/* ── Events ── */}}
-<section class="hp-section" id="events">
+{{/* ── Robotics Competitions ── */}}
+<section class="hp-section" id="robotics">
   <div class="wrap">
     <div class="sectionTitle">
       <div>
-        <h2>Events</h2>
-        <p>Extra ways to get involved—from birthdays to open houses and robotics community events.</p>
+        <h2>Robotics Competitions and Teams</h2>
+        <p>For students interested in robotics and STEM competitions.</p>
       </div>
     </div>
-    <div class="grid3" aria-label="Events grid">
-      {{ range .Params.events }}
+    <div class="grid3" aria-label="Robotics team highlights">
+      {{ range .Params.robotics }}
       <div class="hp-card">
         <h3>{{ .title }}</h3>
-        <p>{{ .description }}</p>
-
-        <div class="hp-row">
-          <a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a>
-        </div>
+        <p>{{ .description | safeHTML }}</p>
+        <a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a>
       </div>
       {{ end }}
     </div>
   </div>
 </section>
+
+{{/* ── Math ── */}}
+<section class="hp-section" id="math">
+  <div class="wrap">
+    <div class="sectionTitle">
+      <div>
+        <h2>Math Competitions</h2>
+        <p>Preparation and practice for math competitions.</p>
+      </div>
+    </div>
+    <div class="grid3" aria-label="Math highlights">
+      {{ range .Params.math }}
+      <div class="hp-card">
+        <h3>{{ .title }}</h3>
+        <p>{{ .description | safeHTML }}</p>
+        <a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
 
 {{/* ── Trust / About ── */}}
 <section class="hp-section" id="about">

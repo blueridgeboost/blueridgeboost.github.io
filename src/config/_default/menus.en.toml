@@ -4,7 +4,7 @@
 [[main]]
     name       = "Classes"
     url        = "/classes/"
-    weight     = 3
+    weight     = 4
 
 [[main]]
     name       = "Kids"
@@ -40,7 +40,7 @@
 
 [[main]]
     name        = "Camps"
-    weight      = 2
+    weight      = 3
 
 [[main]]
     name        = "1-Day"
@@ -72,17 +72,6 @@
 #     parent      = "Camps"
 #     weight      = 2
 
-
-############ Birthdays ############
-[[main]]
-    name        = "Birthdays"
-    url         = "/birthdays/"
-    weight      = 4
-############ Gaming ############
-[[main]]
-    name       = "Gaming"
-    url        = "/gaming/"
-    weight     = 5
 ############ Tutoring ############
 [[main]]
     name       = "Tutoring"
@@ -91,7 +80,7 @@
 ############ Competitions ############
 [[main]]
     name        = "Competitions"
-    weight      = 10
+    weight      = 6
 
 [[main]]
     parent      = "Competitions"
@@ -105,4 +94,14 @@
     url         = "/competition-math"
     weight      = 2
 
+############ Birthdays ############
+[[main]]
+    name        = "Birthdays"
+    url         = "/birthdays/"
+    weight      = 7
+############ Gaming ############
+[[main]]
+    name       = "Gaming"
+    url        = "/gaming/"
+    weight     = 8
 
