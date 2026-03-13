@@ -1,23 +1,32 @@
-
 {{/* Site footer */}}
 <footer class="site-footer">
   <div class="wrap">
     <div class="footerGrid">
-      <div>
-        <div class="brand" style="margin-bottom:10px;">
+
+      {{/* Brand column */}}
+      <div class="footer-brand">
+        <div class="brand">
           <div class="logo" aria-hidden="true"></div>
           <div>
             <strong>{{ site.Title | default "Blue Ridge Boost" }}</strong>
             <span>{{ site.Params.tagline | default "Hands-on STEM learning • Ages 6+" }}</span>
           </div>
         </div>
-        <div style="font-size:14px;">
-          {{ site.Params.address | default "Charlottesville • 2171 Ivy Rd" }}<br/>
-          <a href="tel:{{ site.Params.phone_raw | default "+14342600636" }}">{{ site.Params.phone | default "(434) 260‑0636" }}</a>
-          • <a href="mailto:{{ site.Params.email | default "nora@blueridgeboost.com" }}">{{ site.Params.email | default "nora@blueridgeboost.com" }}</a>
+        <address class="footer-contact">
+          {{ site.Params.address | default "2171 Ivy Rd, Charlottesville, VA 22903" }}<br/>
+          <a href="tel:{{ site.Params.phone_raw | default "+14342600636" }}">{{ site.Params.phone | default "(434) 260‑0636" }}</a><br/>
+          <a href="mailto:{{ site.Params.email | default "nora@blueridgeboost.com" }}">{{ site.Params.email | default "nora@blueridgeboost.com" }}</a>
+        </address>
+        <div class="footer-social">
+          {{ range site.Params.social }}
+          <a href="{{ .link }}" title="{{ .title }}" aria-label="{{ .title }}">
+            <i class="{{ .icon }}"></i>
+          </a>
+          {{ end }}
         </div>
       </div>
 
+      {{/* Connect column */}}
       <div>
         <h3>Connect</h3>
         <ul>
@@ -27,8 +36,8 @@
         </ul>
       </div>
 
+      {{/* Menu columns */}}
       {{ range site.Menus.footer }}
-      {{/* Each top-level footer menu item becomes a column */}}
       {{ if .HasChildren }}
       <div>
         <h3>{{ .Name }}</h3>
@@ -40,9 +49,21 @@
       </div>
       {{ end }}
       {{ end }}
+
+      {{/* Policies column */}}
+      <div>
+        <h3>Policies</h3>
+        <ul>
+          <li><a href="{{ "/terms/" | relURL }}">Terms of Service</a></li>
+          <li><a href="{{ "/privacy-policy/" | relURL }}">Privacy Policy</a></li>
+          <li><a href="{{ "/payment-policy/" | relURL }}">Payment Policy</a></li>
+          <li><a href="{{ "/refund-policy/" | relURL }}">Refund Policy</a></li>
+        </ul>
+      </div>
+
     </div>
 
-    <div style="margin-top:18px; padding-top:14px; border-top:1px solid rgba(18,32,70,0.14); font-size:13px; color:rgba(7,16,34,0.60);">
+    <div class="footer-bottom">
       © {{ now.Year }} {{ site.Title | default "Blue Ridge Boost" }} • 2171 Ivy Rd, Charlottesville, VA 22903
     </div>
   </div>

@@ -130,6 +130,35 @@ math:
     url: "/classes/competition-math"
     cta_text: "AMC details"
 
+# Birthdays section
+birthdays:
+  - title: "Gaming Parties"
+    description: "Minecraft, Roblox, Fortnite, Valorant, and more. 2 hours of multiplayer fun for up to 16 kids. Ages 6+."
+    url: "/birthdays#gaming"
+    cta_text: "Browse Gaming Themes"
+  - title: "Robotics Parties"
+    description: "Lego Robotics, Sphero Bots, Battle Bots, Sumo Bots, and Aerial Drones. Hands-on building and competition. Ages 6+."
+    url: "/birthdays#robotics"
+    cta_text: "Browse Robotics Themes"
+  - title: "Party Packages"
+    description: "4 packages from $349.99. Basic through Super-Star with catering, decorations, and goodie bags. Combo themes available. Saturdays & Sundays 4–6 PM."
+    url: "/birthdays#packages"
+    cta_text: "View Packages & Book"
+
+gaming:
+  - title: "Play Together"
+    description: "Team up in Minecraft, Fortnite, and Roblox. Kids build worlds, strategize, and solve challenges together — making friends along the way."
+    url: "/gaming"
+    cta_text: "See This Week's Game"
+  - title: "Safe & Supervised"
+    description: "Private servers, no in-app purchases, and background-checked instructors. Beginners get paired with supportive peers — everyone belongs."
+    url: "/gaming"
+    cta_text: "How It Works"
+  - title: "Every Friday Night"
+    description: "Fridays 5:30–8:30 PM. Ages 6–10 ($45) and 10+ ($65). Free pizza included. Rotating themes every week."
+    url: "/gaming"
+    cta_text: "Reserve a Spot"
+
 # Trust section
 trust:
   - title: "Hands-on learning"

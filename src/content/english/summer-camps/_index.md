@@ -64,3 +64,5 @@ Earn a CodeHS certification in a focused, small-group setting. All materials and
     xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041", "defaultCategoryId=175336884");</script>
   </div>
 </div>
+
+<script src="/js/camp-filters.js"></script>

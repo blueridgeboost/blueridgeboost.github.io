@@ -211,6 +211,51 @@
   </div>
 </section>
 
+{{/* ── Birthdays ── */}}
+<section class="hp-section" id="birthdays">
+  <div class="wrap">
+    <div class="sectionTitle">
+      <div>
+        <h2>Birthday Parties</h2>
+        <p>Tech-powered birthday adventures with gaming and robotics fun for up to 16 kids.</p>
+      </div>
+    </div>
+    <div class="grid3" aria-label="Birthday party options">
+      {{ range .Params.birthdays }}
+      <div class="hp-card">
+        <h3>{{ .title }}</h3>
+        <p>{{ .description | safeHTML }}</p>
+        {{ if .cta_text }}
+        <div class="hp-row"><a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a></div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{/* ── Gaming ── */}}
+<section class="hp-section" id="gaming">
+  <div class="wrap">
+    <div class="sectionTitle">
+      <div>
+        <h2>Gaming Fridays</h2>
+        <p>Cooperative, instructor-led gaming nights where kids team up, strategize, and have fun together.</p>
+      </div>
+    </div>
+    <div class="grid3" aria-label="Gaming Friday highlights">
+      {{ range .Params.gaming }}
+      <div class="hp-card">
+        <h3>{{ .title }}</h3>
+        <p>{{ .description | safeHTML }}</p>
+        {{ if .cta_text }}
+        <div class="hp-row"><a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a></div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
 
 {{/* ── Trust / About ── */}}
 <section class="hp-section" id="about">

@@ -19259,6 +19259,60 @@ html {
   .paths .path .hp-row {
     margin-top: auto; }
 
+.camp-filters {
+  max-width: 64rem;
+  margin: 16px auto;
+  padding: 16px 20px;
+  background: #fff;
+  border: 1px solid rgba(18, 32, 70, 0.08);
+  border-radius: 20px; }
+
+.filter-group {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 10px; }
+  .filter-group:last-of-type {
+    margin-bottom: 0; }
+
+.filter-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #071022;
+  min-width: 48px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em; }
+
+.filter-btn {
+  display: inline-flex !important;
+  width: auto !important;
+  padding: 5px 14px !important;
+  border-radius: 999px !important;
+  border: 1px solid rgba(18, 32, 70, 0.14) !important;
+  background: #fff !important;
+  color: #071022 !important;
+  font-size: 0.8rem !important;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+  text-align: center;
+  line-height: 1.4; }
+  .filter-btn:hover {
+    background: rgba(29, 79, 255, 0.06) !important;
+    border-color: rgba(18, 32, 70, 0.22) !important; }
+  .filter-btn.active {
+    background: #1D4FFF !important;
+    color: #fff !important;
+    border-color: #1D4FFF !important; }
+
+.filter-status {
+  font-size: 0.78rem;
+  color: rgba(7, 16, 34, 0.6);
+  margin-top: 8px;
+  min-height: 1.2em; }
+
 .btn-description {
   font-size: larger;
   font-weight: 1000; }
@@ -19689,3 +19743,47 @@ div.fullclass {
 
 .dark .preloader {
   background-color: #181818; }
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px 24px;
+  align-items: start; }
+  .footerGrid h3, .footerGrid .h3 {
+    font-size: 0.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #071022;
+    margin: 0 0 10px; }
+  .footerGrid ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .footerGrid li {
+    margin-bottom: 6px; }
+  .footerGrid a {
+    color: rgba(7, 16, 34, 0.74);
+    text-decoration: none; }
+    .footerGrid a:hover {
+      color: #071022;
+      text-decoration: underline; }
+
+.footer-brand strong {
+  font-size: 0.95rem;
+  display: block; }
+
+.footer-brand .brand span {
+  font-size: 0.8rem;
+  color: rgba(7, 16, 34, 0.6); }
+
+@media (max-width: 768px) {
+  .footerGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px 20px; }
+  .footer-brand {
+    grid-column: 1 / -1; } }
+
+@media (max-width: 480px) {
+  .footerGrid {
+    grid-template-columns: 1fr; } }

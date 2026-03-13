@@ -3,7 +3,7 @@ import { readCsvDataFromPath } from "../fs-helpers.js"
 import { readFile } from "fs/promises"
 import { extractSeo } from "../ai-queries.js"
 import { toISODate } from "../date-helpers.js"
-import { createEcwidProduct, getSummerCampsCategoryIds, deleteSummerCamps, getSummerCamps } from "../ecwid.js"
+import { getProductFilters, listProductTypes, updateProductTypeById, getProductTypeById, createEcwidProduct, getSummerCampsCategoryIds, deleteSummerCamps, getSummerCamps, getProductById } from "../ecwid.js"
 
 const SUMMER_CAMPS_HOME_DIRECTORY = "G:\\Shared drives\\BRB\\Summer 2026\\"
 const SUMMER_CAMPS_LIST = path.join(SUMMER_CAMPS_HOME_DIRECTORY, "Summer Camps 2026 list.csv")
@@ -272,3 +272,14 @@ function updateSummerCampsStockLevel() {
     }        
 
 }
+
+
+async function main() {
+const filters = await getProductFilters({
+    filterFields: "attribute_Age,attribute_Topic",
+    filterFacetLimit: "200",
+    enabled: "true"
+});
+console.log(JSON.stringify(filters, null, 2));
+}
+main();

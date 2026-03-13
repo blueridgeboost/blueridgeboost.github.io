@@ -682,3 +682,86 @@ export function getSummerCampsCategoryIds(age1, age2) {
     }
     return categoryIds;
 }
+
+export async function getProductTypeById(typeId) {
+    const url = `https://app.ecwid.com/api/v3/${process.env.ECWID_STORE_ID}/classes/${typeId}`;
+    const options = {
+      method: 'GET',
+      headers: {
+        accept: 'application/json',
+        Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`
+      }
+    };
+    try { 
+      const response = await fetch(`${url}`, options);
+      if (!response.ok) {
+        throw new Error(`Failed to fetch product type: ${response.statusText}`);
+      }
+      const responseJson = await response.json();
+    //   console.log(`Response ${JSON.stringify(responseJson)}`);
+      return responseJson;
+    } catch (error) {
+      console.error(error);
+      throw error;
+    }
+}
+
+export async function updateProductTypeById(typeId, productType) {
+    const url = `https://app.ecwid.com/api/v3/${process.env.ECWID_STORE_ID}/classes/${typeId}`;
+    const options = {
+      method: 'PUT',
+      headers: {
+        accept: 'application/json',
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`
+      },
+      body: JSON.stringify(productType)
+    };
+    console.log(url);
+    try { 
+      const response = await fetch(`${url}`, options);
+      if (!response.ok) {
+        throw new Error(`Failed to fetch product type: ${response.statusText}`);
+      }
+      const responseJson = await response.json();
+    //   console.log(`Response ${JSON.stringify(responseJson)}`);
+      return responseJson;
+    } catch (error) {
+      console.error(error);
+      throw error;
+    }
+}
+
+export async function listProductTypes() {
+    const url = `https://app.ecwid.com/api/v3/${process.env.ECWID_STORE_ID}/classes`;
+    const response = await fetch(url, {
+        method: 'GET',
+        headers: {
+            accept: 'application/json',
+            Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`
+        }
+    });
+    if (!response.ok) {
+        const text = await response.text();
+        throw new Error(`Failed to list product types: ${response.status} ${response.statusText} - ${text}`);
+    }
+    return await response.json();
+}
+
+export async function getProductFilters(params = {}) {
+    const url = `https://app.ecwid.com/api/v3/${process.env.ECWID_STORE_ID}/products/filters`;
+    const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+            accept: 'application/json',
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`
+        },
+        body: JSON.stringify({ params })
+    });
+    if (!response.ok) {
+        const text = await response.text();
+        throw new Error(`Failed to get product filters: ${response.status} ${response.statusText} - ${text}`);
+    }
+    return await response.json();
+}
