@@ -9,7 +9,7 @@ subject_tags:
 price: 249.99
 price_unit: per month
 category: Ongoing
-duration: Flexible
+duration: 6+ mo
 weight: 33
 page_title: Competition Math 9-10
 page_subtitle: AMC 10 Prep

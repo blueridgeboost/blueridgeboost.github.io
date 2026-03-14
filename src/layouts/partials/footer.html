@@ -1,45 +1,70 @@
-<footer class="section pb-2">
-<div class="container-fluid">
-  <div class="row">
-    <!-- Left Column: Shrinks to fit content -->
-    <div class="col-auto">
-      <a href="/vision">Vision</a><br>
-      <a href="/instructors">Meet the Instructors</a><br>
-      {{/*  <a href="/scholarships">Scholarships</a><br>  */}}
-      <a href="/contact">Contact</a><br>
-    </div>
+{{/* Site footer */}}
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footerGrid">
 
-    <div class="col-auto">
-      <a href="/terms">Terms of Service</a><br>
-      <a href="/privacy-policy">Privacy Policy</a><br>
-      <a href="/payment-policy">Payment Policy</a><br>
-      <a href="/refund-policy">Refund Policy</a><br>
-    </div>
+      {{/* Brand column */}}
+      <div class="footer-brand">
+        <div class="brand">
+          <div class="logo" aria-hidden="true"></div>
+          <div>
+            <strong>{{ site.Title | default "Blue Ridge Boost" }}</strong>
+            <span>{{ site.Params.tagline | default "Hands-on STEM learning • Ages 6+" }}</span>
+          </div>
+        </div>
+        <address class="footer-contact">
+          {{ site.Params.address | default "2171 Ivy Rd, Charlottesville, VA 22903" }}<br/>
+          <a href="tel:{{ site.Params.phone_raw | default "+14342600636" }}">{{ site.Params.phone | default "(434) 260‑0636" }}</a><br/>
+          <a href="mailto:{{ site.Params.email | default "nora@blueridgeboost.com" }}">{{ site.Params.email | default "nora@blueridgeboost.com" }}</a>
+        </address>
+        <div class="footer-social">
+          {{ range site.Params.social }}
+          <a href="{{ .link }}" title="{{ .title }}" aria-label="{{ .title }}">
+            <i class="{{ .icon }}"></i>
+          </a>
+          {{ end }}
+        </div>
+      </div>
 
-    <!-- Middle Column: Expands to occupy remaining space -->
-    <div class="col">
-      &nbsp;
-    </div>
+      {{/* Connect column */}}
+      <div>
+        <h3>Connect</h3>
+        <ul>
+          <li><a href="{{ "/open-house/" | relURL }}">Open House</a></li>
+          <li><a href="{{ "/instructors/" | relURL }}">Meet the Team</a></li>
+          <li><a href="{{ "/contact/" | relURL }}">Contact Us</a></li>
+        </ul>
+      </div>
 
-    <!-- Right Column: Shrinks to fit content -->
-    <div class="col-auto">
-      <a class="d-block h5" href="{{ site.BaseURL | absLangURL}}">
-        Blue Ridge Boost</a>
-      
-      <p class="mb-2">2171 Ivy Rd<br>Charlottesville, VA 22903 <br>
-        (434)260-0636<br>
-        <a href="mailto:nora@blueridgeboost.com">nora@blueridgeboost.com</a>
-      </p>
-      {{ with site.Params.social }}
-      <ul class="list-inline social-icons">
-        {{ range . }}
-        <li class="list-inline-item"><a href="{{ .link | safeURL }}" title="{{ .title }}"><i
-              class="{{ .icon }}"></i></a></li>
-        {{ end }}
-      </ul>
+      {{/* Menu columns */}}
+      {{ range site.Menus.footer }}
+      {{ if .HasChildren }}
+      <div>
+        <h3>{{ .Name }}</h3>
+        <ul>
+          {{ range .Children }}
+          <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
       {{ end }}
+      {{ end }}
+
+      {{/* Policies column */}}
+      <div>
+        <h3>Policies</h3>
+        <ul>
+          <li><a href="{{ "/terms/" | relURL }}">Terms of Service</a></li>
+          <li><a href="{{ "/privacy-policy/" | relURL }}">Privacy Policy</a></li>
+          <li><a href="{{ "/payment-policy/" | relURL }}">Payment Policy</a></li>
+          <li><a href="{{ "/refund-policy/" | relURL }}">Refund Policy</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © {{ now.Year }} {{ site.Title | default "Blue Ridge Boost" }} • 2171 Ivy Rd, Charlottesville, VA 22903
     </div>
   </div>
-</div>
-
 </footer>

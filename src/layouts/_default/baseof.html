@@ -14,41 +14,22 @@
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://load.metrics.blueridgeboost.com/ns.html?id=GTM-W5LVLXL5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-	<!-- cache partial only in production -->
-	{{ if hugo.IsProduction }}
-	{{ partialCached "preloader.html" . }}
-	{{ else }}
-	{{ partial "preloader.html" . }}
-	{{ end }}
-	
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-12">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<!-- header (don't cache it) -->
-							{{ partial "header.html" . }}
-						</div>
-					</div>
-					<div class="row">
-						<div class="col">
-							<main>
-								{{ block "main" . }}{{ end }}
-							</main>
-						</div>
-					</div>	
-				</div>
-			</div>
-		</div>
-		<div class="container-fluid bg-light">
-  			<div class="row p-3">
-				<!-- footer (don't cache it) -->
-				{{ partial "footer.html" . }}
-			</div>
-		</div>
-	</div>
 
+	{{ if hugo.IsProduction }}
+		{{ partialCached "preloader.html" . }}
+	{{ else }}
+		{{ partial "preloader.html" . }}
+	{{ end }}
+
+	{{ partial "header.html" . }}
+
+	<main>
+		{{ block "main" . }}{{ end }}
+	</main>
+
+	{{ partial "footer.html" . }}
+
+	{{ partial "script.html" . }}
 </body>
 
 </html>

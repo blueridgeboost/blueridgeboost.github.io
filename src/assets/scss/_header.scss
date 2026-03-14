@@ -1,0 +1,325 @@
+// ============================================================
+// Site-wide Header & Navigation
+// Styles for header.html (non-homepage pages with dropdowns)
+// ============================================================
+
+// ── Wrap container ──
+.wrap {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+// ── Sticky header ──
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  border-bottom: 1px solid rgba(18, 32, 70, 0.14);
+  background: rgba($white, 0.82);
+  backdrop-filter: blur(12px);
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    padding: 8px 0;
+    flex-wrap: nowrap !important;
+  }
+}
+
+// ── Brand ──
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  strong {
+    font-size: 1rem;
+    letter-spacing: 0.2px;
+    color: $text-dark;
+  }
+
+  span {
+    display: block;
+    font-size: 0.75rem;
+    color: $text-light;
+    margin-top: -2px;
+  }
+}
+
+.logo {
+  width: 38px;
+  height: 38px;
+  border-radius: 14px;
+  flex: 0 0 auto;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+
+// ── Nav list ──
+// Scoped under .site-header to beat Bootstrap specificity
+.site-header {
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    color: rgba(7, 16, 34, .74) !important;
+    border: 1px solid transparent;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    background: none;
+    font-size: 0.9rem !important;
+    font-family: inherit;
+    line-height: inherit;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+      background: linear-gradient(135deg, rgba($color-primary, 0.10), rgba($color-secondary, 0.08));
+      border-color: rgba($color-primary, 0.14);
+      color: $text-dark;
+      text-decoration: none;
+    }
+
+    &.active {
+      color: $color-primary;
+    }
+
+    &:focus-visible {
+      outline: none;
+      box-shadow: $focus-ring;
+    }
+  }
+
+  // ── Dropdowns ──
+  .nav-dropdown {
+    position: relative;
+    list-style: none;
+
+    &:hover > .nav-sub,
+    &:focus-within > .nav-sub {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+  }
+
+  .dropdown-arrow {
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+  }
+
+  .nav-dropdown:hover .dropdown-arrow {
+    transform: rotate(180deg);
+  }
+
+  .nav-sub {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    min-width: 180px;
+    margin: 4px 0 0;
+    padding: 6px 0;
+    list-style: none;
+    background: rgba($white, 0.96);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(18, 32, 70, 0.14);
+    border-radius: 12px;
+    box-shadow: 0 12px 32px rgba(10, 20, 60, 0.12);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(6px);
+    transition: opacity 0.15s ease, visibility 0.15s ease, transform 0.15s ease;
+
+    li {
+      margin: 0;
+    }
+
+    a {
+      display: block;
+      padding: 8px 16px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: rgba(7, 16, 34, 0.74);
+      text-decoration: none;
+      white-space: nowrap;
+
+      &:hover {
+        background: rgba($color-primary, 0.08);
+        color: $text-dark;
+        text-decoration: none;
+      }
+
+      &.active {
+        color: $color-primary;
+      }
+    }
+  }
+
+  // ── Actions (CTA + mobile toggle) ──
+  .actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+}
+
+// ── Buttons (shared across homepage + inner pages) ──
+.btn-new {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 11px 14px;
+  border-radius: 14px;
+  border: 1px solid rgba($color-primary, 0.22);
+  background: rgba($color-primary, 0.08);
+  color: $text-dark;
+  font-weight: 950;
+  cursor: pointer;
+  transition: transform .08s ease, background .2s ease, border-color .2s ease, box-shadow .2s ease;
+  user-select: none;
+
+  &:hover {
+    background: rgba($color-primary, 0.12);
+    text-decoration: none;
+    box-shadow: 0 16px 38px rgba(10, 20, 60, 0.12);
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: $focus-ring;
+  }
+
+  &.primary {
+    background: linear-gradient(135deg, #0a3ad1, #0090cc);
+    border-color: rgba($color-primary, 0.30);
+    color: $white;
+    font-weight: 700;
+    box-shadow: $shadow-lg, $ring-inset;
+
+    &:hover {
+      background: linear-gradient(135deg, #0830b5, #007db5);
+      color: $white;
+    }
+  }
+
+  &.ghost {
+    background: rgba($white, 0.72);
+    border-color: rgba(18, 32, 70, 0.16);
+    color: $text-color;
+    font-weight: 950;
+    backdrop-filter: blur(10px);
+  }
+
+  &.small {
+    padding: 9px 12px;
+    border-radius: 13px;
+    font-size: 0.875rem;
+  }
+}
+
+// ── Mobile drawer ──
+.drawer {
+  display: none;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 0;
+  border-top: 1px solid rgba(18, 32, 70, 0.10);
+
+  &.open {
+    display: flex;
+  }
+
+  a {
+    display: block;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgba(7, 16, 34, 0.74);
+    text-decoration: none;
+    border-radius: 8px;
+
+    &:hover {
+      background: rgba($color-primary, 0.08);
+      text-decoration: none;
+    }
+  }
+
+  .drawer-sub {
+    padding-left: 24px;
+    font-weight: 500;
+  }
+
+  .drawer-heading {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: $text-dark;
+  }
+}
+
+// ── No hamburger / drawer — force-hide in case of cached markup ──
+.menuBtn {
+  display: none !important;
+}
+
+// ── Responsive ──
+@media (max-width: 980px) {
+  .site-header .nav {
+    flex-wrap: wrap !important;
+  }
+
+  .site-header nav {
+    display: flex !important;
+    width: 100%;
+    order: 3;
+  }
+
+  .site-header .nav-list {
+    justify-content: flex-start;
+  }
+
+  .brand,
+  .actions {
+    min-width: auto;
+  }
+}

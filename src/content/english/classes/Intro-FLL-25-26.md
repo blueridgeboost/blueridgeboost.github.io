@@ -11,10 +11,10 @@ price_unit: per month
 category: Ongoing
 duration: 4-6 mo
 weight: 11
-page_title: Intro to FIRST LEGO League
+page_title: 'LEGO Robotics: World Robot Olympiad (WRO) Challenge'
 page_subtitle: Building Bright Futures
 ribbon: Join Now
-title: Intro to FIRST LEGO League | Blue Ridge Boost
+title: 'LEGO Robotics: World Robot Olympiad (WRO) Challenge | Blue Ridge Boost'
 description: >-
   Build bright futures with an introduction to FIRST LEGO League at Blue Ridge
   Boost. Hands-on LEGO robotics, teamwork, and problem-solving for aspiring

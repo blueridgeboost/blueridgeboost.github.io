@@ -9,7 +9,7 @@ subject_tags:
 price: 139.99
 price_unit: per month
 category: Ongoing
-duration: Flexible
+duration: 6+ mo
 weight: 8
 page_title: Advanced Math Enrichment 3rd Grade
 page_subtitle: Exploring the Beauty of Mathematics

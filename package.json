@@ -5,12 +5,13 @@
   "author": "Nora Evans",
   "type": "module",
   "scripts": {
-    "config": "node ./src/staticjs/config-generation.mjs",
-    "aiGen": "node ./src/staticjs/keywords-and-topics.mjs",
-    "camp-rosters": "node ./src/staticjs/rosters/camp-rosters.mjs",
-    "create-summer-camps": "node ./src/staticjs/summer-camps/summer-camps.mjs",
-    "update-summer-camps": "node ./src/staticjs/summer-camps/update-availability.mjs",
-    "class-rosters": "node ./src/staticjs/rosters/all-classes.mjs",
+    "config": "node ./scripts/config-generation.mjs",
+    "aiGen": "node ./scripts/classes/keywords-and-topics.mjs",
+    "camp-rosters": "node ./scripts/rosters/camp-rosters.mjs",
+    "create-summer-camps": "node ./scripts/summer-camps/summer-camps.mjs",
+    "update-summer-camps": "node ./scripts/summer-camps/update-availability.mjs",
+    "summer-camps-summary": "node ./scripts/rosters/summer-camps-summary.mjs",
+    "class-rosters": "node ./scripts/rosters/all-classes.mjs",
     "clean": "rimraf docs",
     "html": "hugo --destination docs --source ./src/",
     "copy": "cpy --no-parents CNAME docs && cpy src/docs/**/* ./docs",
@@ -29,11 +30,12 @@
     "postcss-cli": "^11.0.0",
     "prettier": "^3.3.3",
     "prettier-plugin-go-template": "0.0.15",
-    "rimraf": "^6.0.1"
+    "rimraf": "^6.1.3"
   },
   "dependencies": {
-    "dotenv": "^17.2.3",
+    "dotenv": "^17.3.1",
     "form-data": "^4.0.4",
+    "googleapis": "^171.4.0",
     "js-yaml": "^4.1.0",
     "openai": "^6.4.0",
     "papaparse": "^5.5.3"
