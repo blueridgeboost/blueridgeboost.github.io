@@ -19313,6 +19313,110 @@ html {
   margin-top: 8px;
   min-height: 1.2em; }
 
+.ec-horizontal-filters__container {
+  padding: 12px 0 !important;
+  border-bottom: 1px solid rgba(18, 32, 70, 0.08); }
+
+.ec-horizontal-filters__container--filters {
+  display: flex !important;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap; }
+
+.ec-horizontal-filters__title {
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  color: #071022 !important;
+  letter-spacing: 0.04em;
+  margin-right: 4px; }
+
+.ec-horizontal-filters__item .ec-filter__head .form-control--select-inline {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 14px !important;
+  border-radius: 999px !important;
+  border: 1px solid rgba(18, 32, 70, 0.14) !important;
+  background: #fff !important;
+  font-size: 0.82rem !important;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+  min-height: auto !important;
+  height: auto !important; }
+  .ec-horizontal-filters__item .ec-filter__head .form-control--select-inline:hover {
+    background: rgba(29, 79, 255, 0.06) !important;
+    border-color: rgba(18, 32, 70, 0.22) !important; }
+  .ec-horizontal-filters__item .ec-filter__head .form-control--select-inline .form-control__select-text {
+    font-size: 0.82rem !important;
+    font-weight: 600 !important;
+    color: #071022 !important;
+    text-transform: none !important; }
+  .ec-horizontal-filters__item .ec-filter__head .form-control--select-inline .form-control__arrow svg {
+    width: 10px;
+    height: 10px;
+    opacity: 0.5; }
+
+.ec-horizontal-filters__item .ec-filter__arrow,
+.ec-horizontal-filters__item .ec-filter__clear {
+  display: none !important; }
+
+.ec-horizontal-filters__item .ec-filter__items-applied {
+  font-size: 0.75rem;
+  margin-left: 2px; }
+
+.ec-horizontal-filters__item .ec-filter__body .ec-openable-block__wrap {
+  border-radius: 12px !important;
+  border: 1px solid rgba(18, 32, 70, 0.1) !important;
+  box-shadow: 0 8px 24px rgba(10, 20, 60, 0.12) !important;
+  overflow: hidden; }
+
+.ec-horizontal-filters__item .ec-filter__body .ec-filter__top {
+  padding: 12px 16px 8px !important;
+  border-bottom: 1px solid rgba(18, 32, 70, 0.06); }
+  .ec-horizontal-filters__item .ec-filter__body .ec-filter__top .ec-filter__title {
+    font-size: 0.9rem !important;
+    font-weight: 700 !important;
+    color: #071022 !important; }
+
+.ec-horizontal-filters__item .ec-filter__body .ec-filter-dropdown__subtitle {
+  display: none !important; }
+
+.ec-horizontal-filters__item .ec-filter__body .ec-form-choice-group__item {
+  padding: 4px 16px !important;
+  border-radius: 0 !important;
+  transition: background 0.1s ease; }
+  .ec-horizontal-filters__item .ec-filter__body .ec-form-choice-group__item:hover {
+    background: rgba(29, 79, 255, 0.04) !important; }
+  .ec-horizontal-filters__item .ec-filter__body .ec-form-choice-group__item .form-control__inline-label {
+    font-size: 0.84rem !important;
+    color: rgba(7, 16, 34, 0.74) !important; }
+  .ec-horizontal-filters__item .ec-filter__body .ec-form-choice-group__item .ec-filter__items-count {
+    font-size: 0.75rem !important;
+    opacity: 0.5; }
+
+.ec-horizontal-filters__item .ec-filter__body .form-control__checkbox-view {
+  border-radius: 4px !important;
+  border: 1.5px solid rgba(18, 32, 70, 0.2) !important;
+  width: 18px !important;
+  height: 18px !important; }
+
+.ec-horizontal-filters__item .ec-filter__body .form-control__checkbox:checked + .form-control__checkbox-view {
+  background: #1D4FFF !important;
+  border-color: #1D4FFF !important; }
+
+.ec-horizontal-filters__item .ec-filter__body .filter-section-button-container {
+  padding: 8px 16px 12px !important; }
+  .ec-horizontal-filters__item .ec-filter__body .filter-section-button-container .form-control--primary .form-control__button {
+    border-radius: 999px !important;
+    background: #1D4FFF !important;
+    font-size: 0.84rem !important;
+    font-weight: 700 !important;
+    padding: 8px 20px !important; }
+
+.filter-section-sticky-bar {
+  display: none !important; }
+
 .btn-description {
   font-size: larger;
   font-weight: 1000; }

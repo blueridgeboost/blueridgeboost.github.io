@@ -500,3 +500,157 @@
   margin-top: 8px;
   min-height: 1.2em;
 }
+
+// ── Ecwid horizontal filters ──
+.ec-horizontal-filters {
+  &__container {
+    padding: 12px 0 !important;
+    border-bottom: 1px solid rgba(18, 32, 70, 0.08);
+  }
+
+  &__container--filters {
+    display: flex !important;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  // "FILTER BY:" label
+  &__title {
+    font-size: 0.78rem !important;
+    font-weight: 700 !important;
+    color: $text-dark !important;
+    letter-spacing: 0.04em;
+    margin-right: 4px;
+  }
+
+  // Each filter dropdown trigger (CAMP WEEK, CAMP TOPIC, CAMPER'S AGE)
+  &__item {
+    .ec-filter__head {
+      .form-control--select-inline {
+        display: inline-flex !important;
+        align-items: center;
+        gap: 4px;
+        padding: 6px 14px !important;
+        border-radius: 999px !important;
+        border: 1px solid rgba(18, 32, 70, 0.14) !important;
+        background: $white !important;
+        font-size: 0.82rem !important;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.15s ease, border-color 0.15s ease;
+        min-height: auto !important;
+        height: auto !important;
+
+        &:hover {
+          background: rgba($color-primary, 0.06) !important;
+          border-color: rgba(18, 32, 70, 0.22) !important;
+        }
+
+        .form-control__select-text {
+          font-size: 0.82rem !important;
+          font-weight: 600 !important;
+          color: $text-dark !important;
+          text-transform: none !important;
+        }
+
+        .form-control__arrow svg {
+          width: 10px;
+          height: 10px;
+          opacity: 0.5;
+        }
+      }
+    }
+
+    // Hide the big right-arrow and clear link in the header
+    .ec-filter__arrow,
+    .ec-filter__clear {
+      display: none !important;
+    }
+
+    // When items are applied, show count badge
+    .ec-filter__items-applied {
+      font-size: 0.75rem;
+      margin-left: 2px;
+    }
+  }
+
+  // Dropdown panel
+  &__item .ec-filter__body {
+    .ec-openable-block__wrap {
+      border-radius: 12px !important;
+      border: 1px solid rgba(18, 32, 70, 0.10) !important;
+      box-shadow: 0 8px 24px rgba(10, 20, 60, 0.12) !important;
+      overflow: hidden;
+    }
+
+    // Dropdown header
+    .ec-filter__top {
+      padding: 12px 16px 8px !important;
+      border-bottom: 1px solid rgba(18, 32, 70, 0.06);
+
+      .ec-filter__title {
+        font-size: 0.9rem !important;
+        font-weight: 700 !important;
+        color: $text-dark !important;
+      }
+    }
+
+    // Hide subtitle duplicate
+    .ec-filter-dropdown__subtitle {
+      display: none !important;
+    }
+
+    // Checkbox items
+    .ec-form-choice-group__item {
+      padding: 4px 16px !important;
+      border-radius: 0 !important;
+      transition: background 0.1s ease;
+
+      &:hover {
+        background: rgba($color-primary, 0.04) !important;
+      }
+
+      .form-control__inline-label {
+        font-size: 0.84rem !important;
+        color: $text-color !important;
+      }
+
+      .ec-filter__items-count {
+        font-size: 0.75rem !important;
+        opacity: 0.5;
+      }
+    }
+
+    // Checkbox style
+    .form-control__checkbox-view {
+      border-radius: 4px !important;
+      border: 1.5px solid rgba(18, 32, 70, 0.20) !important;
+      width: 18px !important;
+      height: 18px !important;
+    }
+
+    .form-control__checkbox:checked + .form-control__checkbox-view {
+      background: $color-primary !important;
+      border-color: $color-primary !important;
+    }
+
+    // Apply button
+    .filter-section-button-container {
+      padding: 8px 16px 12px !important;
+
+      .form-control--primary .form-control__button {
+        border-radius: 999px !important;
+        background: $color-primary !important;
+        font-size: 0.84rem !important;
+        font-weight: 700 !important;
+        padding: 8px 20px !important;
+      }
+    }
+  }
+}
+
+// Hide the sticky bar duplicates
+.filter-section-sticky-bar {
+  display: none !important;
+}

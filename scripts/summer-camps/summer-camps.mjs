@@ -3,13 +3,103 @@ import { readCsvDataFromPath } from "../fs-helpers.js"
 import { readFile } from "fs/promises"
 import { extractSeo } from "../ai-queries.js"
 import { toISODate } from "../date-helpers.js"
-import { getProductFilters, listProductTypes, updateProductTypeById, getProductTypeById, createEcwidProduct, getSummerCampsCategoryIds, deleteSummerCamps, getSummerCamps, getProductById } from "../ecwid.js"
+import { getProductFilters, listProductTypes, updateProductTypeById, 
+        getProductTypeById, createEcwidProduct, getSummerCampsCategoryIds, 
+        deleteSummerCamps, getSummerCamps, getProductById, updateEcwidProduct } from "../ecwid.js"
 
 const SUMMER_CAMPS_HOME_DIRECTORY = "G:\\Shared drives\\BRB\\Summer 2026\\"
 const SUMMER_CAMPS_LIST = path.join(SUMMER_CAMPS_HOME_DIRECTORY, "Summer Camps 2026 list.csv")
 const SUMMER_CAMPS_DESCRIPTIONS_DIRECTORY = path.join(SUMMER_CAMPS_HOME_DIRECTORY, "descriptions")
 
 const OPTION_NAME = "Session Time"
+
+/**
+ * Parses a string with format "6/1/2026 - 6/5/2026 | Ages 6-8 | LEGO Robotics"
+ * and returns the trimmed middle token (the ages part)
+ * @param {string} inputString - The string to parse
+ * @returns {string} The trimmed middle token, or empty string if parsing fails
+ */
+export function parseMiddleToken(inputString) {
+    if (!inputString || typeof inputString !== 'string') {
+        return '';
+    }
+    
+    const tokens = inputString.split('|');
+    
+    if (tokens.length >= 2) {
+        // Return the middle token (index 1) trimmed of whitespace
+        return tokens[1].trim();
+    }
+    
+    return '';
+}
+
+/**
+ * Example usage and test function
+ */
+export function testParseMiddleToken() {
+    const testString = "6/1/2026 - 6/5/2026 | Ages 6-8 | LEGO Robotics";
+    const result = parseMiddleToken(testString);
+    console.log(`Input: "${testString}"`);
+    console.log(`Middle token: "${result}"`);
+    return result;
+}
+
+/**
+ * Checks if a string contains "Robotics", "Science", or "Math" (case-insensitive)
+ * @param {string} inputString - The string to check
+ * @returns {boolean} True if any of the keywords are found, false otherwise
+ */
+export function containsSTEMSubject(inputString) {
+    if (!inputString || typeof inputString !== 'string') {
+        return false;
+    }
+    
+    const stemKeywords = ['robotics', 'science', 'math'];
+    const lowerCaseInput = inputString.toLowerCase();
+    
+    return stemKeywords.some(keyword => lowerCaseInput.includes(keyword));
+}
+
+/**
+ * Gets the specific STEM subject found in a string
+ * @param {string} inputString - The string to check
+ * @returns {string|null} The STEM subject found ("Robotics", "Science", or "Math"), or null if none found
+ */
+export function isSTEMSubject(inputString) {
+    if (!inputString || typeof inputString !== 'string') {
+        return null;
+    }
+    
+    const lowerCaseInput = inputString.toLowerCase();
+    
+    if (lowerCaseInput.includes('robotics')) return true;
+    if (lowerCaseInput.includes('science')) return true;
+    if (lowerCaseInput.includes('math')) return true;
+    
+    return null;
+}
+
+/**
+ * Test function for STEM subject detection
+ */
+export function testSTEMSubjectDetection() {
+    const testStrings = [
+        "LEGO Robotics Camp",
+        "Science Exploration",
+        "Advanced Math Challenge", 
+        "Art and Crafts",
+        "Robotics and Engineering",
+        "Life Science Lab"
+    ];
+    
+    console.log("Testing STEM subject detection:");
+    testStrings.forEach(str => {
+        const contains = containsSTEMSubject(str);
+        const subject = getSTEMSubject(str);
+        console.log(`"${str}" -> Contains STEM: ${contains}, Subject: ${subject}`);
+    });
+}
 
 async function generateEcwidSummerCamps(camp) {
     await deleteSummerCamps();
@@ -274,12 +364,113 @@ function updateSummerCampsStockLevel() {
 }
 
 
-async function main() {
-const filters = await getProductFilters({
-    filterFields: "attribute_Age,attribute_Topic",
-    filterFacetLimit: "200",
-    enabled: "true"
-});
-console.log(JSON.stringify(filters, null, 2));
+// async function main() {
+// const filters = await getProductFilters({
+//     filterFields: "attribute_Age,attribute_Topic",
+//     filterFacetLimit: "200",
+//     enabled: "true"
+// });
+// console.log(JSON.stringify(filters, null, 2));
+// }
+// main();
+
+
+/**
+ * Updates all summer camp products to set their product type to 'Summer Camp'
+ * Reads camps from the summer camps category and modifies their productClass field
+ */
+export async function updateSummerCampsProductType() {
+    const startDate2Week = {
+        '2026-06-01': 'Week June 1-5',
+        '2026-06-08': 'Week June 8-12',
+        '2026-06-15': 'Week June 15-19',
+        '2026-06-22': 'Week June 22-26',
+        '2026-06-29': 'Week June 29 - July 3',
+        '2026-07-06': 'Week July 6-10',
+        '2026-07-13': 'Week July 13-17',
+        '2026-07-20': 'Week July 20-24',
+        '2026-07-27': 'Week July 27-31',
+        '2026-08-03': 'Week August 3-7',
+    }
+    try {
+        console.log('Fetching summer camps...');
+        
+        // Get all summer camps from the category
+        const summerCamps = await getSummerCamps();
+        
+        console.log(`Found ${summerCamps.length} summer camps to update.`);
+        
+        // Process each camp
+        for (const camp of summerCamps) {
+
+            if (camp.productClassId == 0) {
+
+                // console.log(`Updating camp: ${camp.name} (ID: ${camp.id})`);
+
+                const brbId = camp.attributes.find(a => a.name === 'brb_id')?.value;
+                const startDate = camp.attributes.find(a => a.name === 'start_date')?.value;
+                const max = camp.attributes.find(a => a.name === 'Max')?.value;
+                const topic = camp.attributes.find(a => a.name === 'Topic')?.value || "Unknown Topic";
+                
+                console.log(`Camp "${camp.name}" (ID: ${camp.id}) has BRB ID: ${brbId}, Start Date: ${startDate}, Max: ${max}`);
+
+                // // Clone the camp object and set the product type
+                const updatedCamp = {
+                    id: camp.id,
+                    googleProductCategory: 543,
+                    productClassId: 46004502,
+                    attributes: [
+                        {
+                            name: "brb_id",
+                            value: brbId,},
+                        {
+                            name: "Start Date",
+                            value: startDate,},
+                        {
+                            name: "Max",
+                            value: max,},
+                        { 
+                            name: "Camp Week",
+                            value: startDate2Week[startDate] || "Unknown Week",
+                        },
+                        {
+                            name: "Camper's Age",
+                            value: parseMiddleToken(camp.subtitle),
+                            
+                        },
+                        { name: "Gaming",
+                            value: isSTEMSubject(topic) ? "No gaming" : "With parent permission during Exploration Time",
+                        }
+                        
+                    ]
+                };
+
+                console.log(`Updated camp data for "${camp.name}":`, 
+                    JSON.stringify(updatedCamp, null, 2));
+                
+                // // Update the product in Ecwid
+                await updateEcwidProduct(updatedCamp);
+                
+                console.log(`✓ Updated "${camp.name}" product type to 'Summer Camp'`);
+            }
+        }
+        
+        // console.log(`✅ Successfully updated product type for ${summerCamps.length} summer camps.`);
+        
+    } catch (error) {
+        console.error('❌ Error updating summer camps product type:', error);
+        throw error;
+    }
 }
-main();
+
+/**
+ * Main function to run the update process
+ * Call this function to execute the summer camps product type update
+ */
+export async function main() {
+    console.log('🚀 Starting summer camps product type update...');
+    await updateSummerCampsProductType();
+    console.log('✨ Process completed!');
+}
+
+// await main();
