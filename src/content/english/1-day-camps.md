@@ -9,7 +9,6 @@ section: "1-day-camps"
 layout: "1-day-camps"
 
 aliases:
-  - /camps/
   - /one-day-camps/
 
 keywords:
