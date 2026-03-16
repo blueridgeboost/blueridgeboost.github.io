@@ -9,6 +9,7 @@ section: "1-day-camps"
 layout: "1-day-camps"
 
 aliases:
+  - /camps/
   - /one-day-camps/
 
 keywords:
@@ -35,67 +36,43 @@ robots: "index, follow"
 
 ---
 
-<section>
-  <div>
-    <p>Instructional programs during school breaks and days off.</p>
-  </div>
-  </div>
-  <div class="row justify-content-center">
-    <div class="col-sm-5">
-      <button class="grb-btn grb-btn-primary" id="camp-button">Book Now</button>
-      <script>
-        function scrollToCamps() {
-          window.scrollTo(0, document.querySelector(".grid__wrap-inner").offsetTop);
-        }
-        document.getElementById("camp-button").onclick = scrollToCamps;
-      </script>
+<div class="camp-promo"><span class="pill"><span class="dot"></span> <span class="highlight">Save 25%</span> — register 3+ days before camp</span><a class="pill" href="mailto:camps@blueridgeboost.com"><span class="dot"></span> Missing a school day? Let us know</a></div>
+
+<!-- 1-Day Camps Overview -->
+<section class="hp-section" id="overview">
+  <div class="wrap">
+    <div class="sectionTitle">
+      <div>
+        <h2>1-Day Camps</h2>
+        <p>Hands-on STEM programs during school breaks, snow days, and teacher workdays for ages 6–13. Half-day (8:30 AM–1:00 PM) and full-day (8:30 AM–5:00 PM) options — all materials included.</p>
+      </div>
+    </div>
+    <div class="grid3" aria-label="Camp overview">
+      <div class="hp-card">
+        <h3>Topics</h3>
+        <p><strong>Robotics</strong> — build and program robots<br><strong>Coding &amp; Game Design</strong> — Minecraft Education and Roblox Studio<br><strong>Strategic Games</strong> — board games and logic puzzles</p>
+      </div>
+      <div class="hp-card">
+        <h3>How It Works</h3>
+        <p><strong>Learning sessions:</strong> Topic-related activities<br><strong>Exploration sessions:</strong> Try a different topic or free play (with parent approval)<br><strong>Breaks:</strong> Screen-free snack and lunch — board games encouraged</p>
+      </div>
+      <div class="hp-card">
+        <h3>Logistics</h3>
+        <p><strong>Location:</strong> 2171 Ivy Rd, Charlottesville<br><strong>Ages:</strong> 6–13 (must be at least 6)<br><strong>Bring:</strong> Snack (half-day) · 2 snacks + lunch (full-day)</p>
+      </div>
+    </div>
+    <div class="hp-row">
+      <a class="chip" href="#camp1">Browse &amp; Register</a>
     </div>
   </div>
-  <div>
-    <h3>Choose Your Topic:</h3>
-    <ul>
-        <li>Robotics</li>
-        <li>Coding with Minecraft Education</li>
-        <li>Game design with Roblox Studio</li>
-        <li>Strategic games</li>
-    </ul>
-    <h3>Program Options:</h3>
-    <ul>
-        <li><strong>Half-day program:</strong> two learning sessions + one exploration session</li>
-        <li><strong>Full-day program:</strong> four learning sessions + two exploration sessions</li>
-    </ul>
-    <p>
-    <strong>Learning sessions:</strong> Campers participate in topic-related activities.<br>
-    <strong>Exploration sessions:</strong> Campers choose from continuing with the chosen topics, explore a different topic, or play Minecraft or Roblox (with parent approval).<br>
-    <strong>Break times:</strong> Screens are not allowed during snack and lunch breaks. Campers are encouraged to play board games.
-    </p>
-    <h3>Camp Details</h3>
-    <ul>
-        <li><strong>Location:</strong> Blue Ridge Boost, 2171 Ivy Road, Charlottesville, Virginia 22903</li>
-        <li><strong>Ages:</strong> 6 to 13 years old (all students must be at least 6 to attend)</li>
-        <li><strong>Half-day students:</strong> Please bring a snack</li>
-        <li><strong>Full-day students:</strong> Please bring two snacks and lunch</li>
-        <li><strong>Drop-off:</strong> Starts at 8:30 AM</li>
-        <li><strong>Pick-up:</strong> 1:00 PM for half-day, 5:00 PM for full-day</li>
-    </ul>
-    <h3>Early Bird Discount</h3>
-    <p>
-        Register early for our 1-day camps and <strong>save 25%</strong> on your registration fee! This offer is available until <strong>three days</strong> before the camp.
-    </p>
-    <h3>Additional Information</h3>
-    <p>
-        If you'd like us to add another school to our list or notice we've missed a day off from your school, please <a href="mailto:camps@blueridgeboost.com">contact us</a>.
-    </p>
-    <p>Click on the school name to see only the day off-school camps for that school.</p>
-</div>
 </section>
 
 <div class="container" id="camp1">
-    <div>
-        <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
-            charset="utf-8"></script>
-        <script type="text/javascript">
-            xProductBrowser("views=grid(25,5) list(60) table(60)","categoryView=grid","id=my-store-106136041", 
-            "defaultCategoryId=175336115");</script>
-    </div>
+  <div>
+    <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
+        charset="utf-8"></script>
+    <script type="text/javascript">
+        xProductBrowser("views=grid(25,5) list(60) table(60)","categoryView=grid","id=my-store-106136041",
+        "defaultCategoryId=175336115");</script>
+  </div>
 </div>

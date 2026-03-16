@@ -1,10 +1,8 @@
 ---
 title: "Camps | Blue Ridge Boost"
 page_title: "Camps"
-# meta description
-description: "Discover Blue Ridge Boost's comprehensive camp offerings in Charlottesville, VA! From 1-day camps to week-long summer programs, we provide engaging STEM education in robotics, coding, and science for ages 6+. Multiple scheduling options available." 
+description: "Discover Blue Ridge Boost's comprehensive camp offerings in Charlottesville, VA! From 1-day camps to week-long summer programs, we provide engaging STEM education in robotics, coding, and science for ages 6+."
 draft: false
-# content section
 section: "camps"
 layout: "page"
 
@@ -16,209 +14,109 @@ keywords:
   - summer camps Charlottesville
   - spring break camps
   - one day camps
-  - STEM education camps
-  - hands-on learning camps
-  - Blue Ridge Boost camp options
-  - full-day camps Charlottesville
-  - half-day camps Virginia
-  - school break camps
-  - winter break camps
 robots: "index, follow"
 
 ---
 
-# Camps at Blue Ridge Boost
+<section class="hp-section">
+  <div class="sectionTitle">
+    <div>
+      <h2>Camp Types</h2>
+      <p>Hands-on STEM camps throughout the year — from single-day experiences to week-long deep dives.</p>
+    </div>
+  </div>
+  <div class="grid3">
+    <div class="hp-card">
+      <h3>1-Day Camps</h3>
+      <p>Focused STEM learning on teacher workdays, snow days, and school holidays. Half-day and full-day options for ages 6–13. Robotics, coding, math, and science projects.</p>
+      <div class="hp-row"><a class="chip" href="/1-day-camps">View 1-Day Camps</a></div>
+    </div>
+    <div class="hp-card">
+      <h3>Spring Break Camps</h3>
+      <p>A full week of engaging STEM activities during spring break. Half-day and full-day options for ages 6–13. Drop-off starts at 8:30 AM.</p>
+      <div class="hp-row"><a class="chip" href="/spring-break-camps">Spring Break Camps</a></div>
+    </div>
+    <div class="hp-card">
+      <h3>Summer Camps</h3>
+      <p>Week-long deep dives into Robotics, Coding, AI, Game Dev, Math, and Science. Full-day, AM, or PM sessions for ages 6–13+. Early bird pricing available.</p>
+      <div class="hp-row"><a class="chip" href="/summer-camps">Explore Summer Camps</a></div>
+    </div>
+  </div>
+</section>
 
-Blue Ridge Boost offers a variety of camp experiences designed to engage students in hands-on STEM learning throughout the year. All camps are held at our location at **2171 Ivy Rd, Charlottesville, VA 22903**.
+<section class="hp-section">
+  <div class="sectionTitle">
+    <div>
+      <h2>Certification Bootcamps</h2>
+      <p>Advanced programs for ages 13+ with industry-recognized certifications.</p>
+    </div>
+  </div>
+  <div class="grid3">
+    <div class="hp-card">
+      <h3>Robotics Bootcamp</h3>
+      <p>Earn a Carnegie Mellon Robotics Academy SMART certification. 2-week half-day or 1-week full-day. All materials and exam fees included. $1,299.99.</p>
+      <div class="hp-row"><a class="chip" href="/summer-camps#summer">Explore Robotics Bootcamp</a></div>
+    </div>
+    <div class="hp-card">
+      <h3>Coding Bootcamp</h3>
+      <p>Earn a CodeHS certification in a focused, small-group setting. 2-week half-day or 1-week full-day. All materials and exam fees included. $999.99.</p>
+      <div class="hp-row"><a class="chip" href="/summer-camps#summer">Explore Coding Bootcamp</a></div>
+    </div>
+    <div class="hp-card">
+      <h3>Certification Details</h3>
+      <p>Complete all projects and score 70%+ on the exam. Endorsed by the ARM Institute and Virginia Department of Education. All past BRB students earned their certificate.</p>
+    </div>
+  </div>
+</section>
 
-## Camp Types
+<section class="hp-section">
+  <div class="sectionTitle">
+    <div>
+      <h2>Camp Details</h2>
+      <p>Everything you need to know before registering.</p>
+    </div>
+  </div>
+  <div class="grid3">
+    <div class="hp-card">
+      <h3>Schedule & Pricing</h3>
+      <p><strong>Full-day:</strong> 8:30 AM – 5:00 PM<br>
+      <strong>AM Session:</strong> 8:30 AM – 1:00 PM<br>
+      <strong>PM Session:</strong> 12:30 PM – 5:00 PM<br><br>
+      <strong>15% off</strong> early bird · <strong>10% off</strong> subscribers (combinable)</p>
+    </div>
+    <div class="hp-card">
+      <h3>What We Provide</h3>
+      <p>All technology, computers, and robotics kits. Expert instruction from certified educators. Age-appropriate curriculum. Small class sizes. Safe, supportive environment.</p>
+    </div>
+    <div class="hp-card">
+      <h3>What to Bring</h3>
+      <p>Water bottle, snacks, and lunch (full-day). Comfortable clothes and indoor-friendly shoes. A positive attitude and curiosity!</p>
+    </div>
+  </div>
+</section>
 
-
-### 1-Day Camps 📚
-
-Perfect for school breaks, teacher workdays, and snow days, our 1-day camps offer focused STEM learning in convenient single-day formats.
-
-**When We Offer 1-Day Camps:**
-- Teacher workdays and professional development days
-- Snow days and weather closures  
-- School holidays
-
-**Scheduling Options:**
-- **Half-Day**: Morning or afternoon sessions
-- **Full-Day**: Extended learning experiences
-
-**Ages:** 6–13 years old
-
-**What to Expect:**
-- Hands-on robotics and coding projects
-- Math challenges and problem-solving
-- Science experiments and exploration
-- Age-appropriate activities and instruction
-- Gaming only with parent approval.
-
-[**View 1-Day Camps →**](/1-day-camps)
-
----
-
-### Spring Break Camps 🌸
-
-Week-long camps during spring break combining the depth of summer camps with the convenience of break scheduling.
-
-**Features:**
-- Full week of engaging STEM activities
-- Robotics, coding, and hands-on science projects
-- Half-day and full-day options available
-- Ages 6–13
-
-**Schedule:**
-- **Drop-off**: Starts at 8:30 AM
-- **Half-Day Pick-up**: 1:00 PM
-- **Full-Day Pick-up**: 5:00 PM
-
-**What to Bring:**
-- Half-day students: One snack
-- Full-day students: Two snacks and lunch
-
-[**Learn About Spring Break Camps →**](/spring-break-camps)
-
----
-
-### Summer Camps 🌞
-
-Our flagship week-long summer camps offer immersive STEM experiences with **three flexible scheduling options** to fit your family's needs:
-
-**Scheduling Options:**
-- **Full-Day**: 8:30 AM–5:00 PM
-- **AM Session**: 8:30 AM–1:00 PM  
-- **PM Session**: 12:30 PM–5:00 PM
-
-**What Makes Our Summer Camps Special:**
-- Week-long deep dives into robotics, coding, AI, game development, and science
-- Project-based learning where campers build and create
-- Age-appropriate groups (typically separated into 6-8 and 9-12+ age ranges)
-- Small class sizes for personalized attention
-- Early bird pricing available (save 15%!)
-
-**What to Bring:**
-- Water bottle and lunch (full-day campers)
-- Light snacks
-- Comfortable clothes and indoor-friendly shoes
-
-[**Explore Summer Camps →**](/summer-camps)
-
----
-
-### Summer Robotics Bootcamps 🏆
-
-**Advanced 2-week robotics certification programs** for students ready to dive deep into professional-level robotics education.
-
-**Special Features:**
-- Industry-recognized **SMART Robotics Certifications**
-- Instructors certified through Carnegie Mellon Robotics Academy
-- Endorsed by the ARM Institute and Virginia Department of Education
-- Opportunity to earn multiple micro-certifications
-
-**Flexible Schedule Options:**
-- **Option 1**: 2-week half-day (8:30 to 1/ 12:30 to 5)
-- **Option 2**: 1- week full-day (8:30 –5:00 PM)
-
-**Certification Details:**
-- Complete up to 5 different micro-certifications
-- Must achieve 70% on final exams
-- Receive completion diploma from Blue Ridge Boost
-- Industry-recognized credentials for future careers
-
-[**Discover Quest for Excellence →**](/quest-for-excellence-camps)
-
----
-
-### Summer Coding Bootcamps 🏆
-
-## General Camp Information
-
-### Ages & Requirements
-- **Primary Age Range**: 12+ years old
-
-### What We Provide
-- All necessary technology (computers, robotics kits)
-- Expert instruction from certified educators
-- Age-appropriate curriculum and projects
-- Safe, supportive learning environment
-
-### What Families Bring
-- Water bottle (always)
-- Snacks and/or lunch (depending on camp length)
-- Positive attitude and curiosity!
-
-### Location & Contact
-**Blue Ridge Boost**  
-2171 Ivy Rd, Charlottesville, VA 22903  
-📧 camps@blueridgeboost.com  
-📞 (434) 260-0636
-
----
-
-### Summer Robotics Bootcamps 🏆
-
-**Advanced 2-week robotics certification programs** for students ready to dive deep into professional-level robotics education.
-
-**Special Features:**
-- Industry-recognized **SMART Robotics Certifications**
-- Instructors certified through Carnegie Mellon Robotics Academy
-- Endorsed by the ARM Institute and Virginia Department of Education
-- Opportunity to earn multiple micro-certifications
-
-**Flexible Schedule Options:**
-- **Option 1**: 2-week half-day (8:30 to 1/ 12:30 to 5)
-- **Option 2**: 1- week full-day (8:30 –5:00 PM)
-
-**Certification Details:**
-- Complete up to 5 different micro-certifications
-- Must achieve 70% on final exams
-- Receive completion diploma from Blue Ridge Boost
-- Industry-recognized credentials for future careers
-
-[**Discover Quest for Excellence →**](/quest-for-excellence-camps)
-
----
-
-## General Camp Information
-
-### Ages & Requirements
-- **Primary Age Range**: 12+ years old
-
-### What We Provide
-- All necessary technology (computers, robotics kits)
-- Expert instruction from certified educators
-- Age-appropriate curriculum and projects
-- Safe, supportive learning environment
-
-### What Families Bring
-- Water bottle (always)
-- Snacks and/or lunch (depending on camp length)
-- Positive attitude and curiosity!
-
-### Location & Contact
-**Blue Ridge Boost**  
-2171 Ivy Rd, Charlottesville, VA 22903  
-📧 camps@blueridgeboost.com  
-📞 (434) 260-0636
-
----
-
-## Registration & Pricing
-
-- **Early Bird Discounts**: Available for summer camps (save 15%!)
-- **Multiple Session Discounts**: Available for families enrolling in multiple camps
-- **Financial Assistance**: Contact us to discuss options
-
-### Ready to Register?
-
-Browse our current camp offerings and secure your spot today. Camps fill up quickly, especially during popular break periods.
-
-[**View All Available Camps →**](/camps)  
-[**Contact Us with Questions →**](/contact)
-
----
-
-*At Blue Ridge Boost, we believe learning happens best through hands-on exploration. Our camps combine rigorous STEM education with the joy of discovery, ensuring every camper leaves with new skills, confidence, and excitement about technology and science.*
+<section class="hp-section" id="register">
+  <div class="sectionTitle">
+    <div>
+      <h2>Ready to Register?</h2>
+      <p>Camps fill up quickly, especially during popular break periods. Secure your spot today.</p>
+    </div>
+  </div>
+  <div class="grid3">
+    <div class="hp-card">
+      <h3>Browse Camps</h3>
+      <p>See all available camp sessions with dates, topics, and pricing. Filter by age, week, and topic.</p>
+      <div class="hp-row"><a class="chip" href="/summer-camps">View All Camps</a></div>
+    </div>
+    <div class="hp-card">
+      <h3>Questions?</h3>
+      <p>2171 Ivy Rd, Charlottesville, VA 22903<br>(434) 260-0636<br>nora@blueridgeboost.com</p>
+      <div class="hp-row"><a class="chip" href="/contact">Contact Us</a></div>
+    </div>
+    <div class="hp-card">
+      <h3>Financial Assistance</h3>
+      <p>We want every student to have access to hands-on STEM learning. Contact us to discuss options that work for your family.</p>
+      <div class="hp-row"><a class="chip" href="/contact">Ask About Options</a></div>
+    </div>
+  </div>
+</section>

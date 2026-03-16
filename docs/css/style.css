@@ -19245,7 +19245,8 @@ html {
     backdrop-filter: blur(10px);
     font-size: 0.85rem;
     font-weight: 700;
-    padding: 7px 11px; }
+    padding: 7px 11px;
+    text-decoration: none; }
 
 .path .hp-row {
   margin-top: 8px; }
