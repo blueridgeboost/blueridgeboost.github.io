@@ -15,7 +15,7 @@ robots: "index, follow"
 
 ---
 
-<div class="camp-promo"><span class="pill"><span class="dot"></span> <span class="highlight">Save 15%</span> until April 1</span> <span class="pill"><span class="dot"></span> 10% off until May 31</span> <span class="pill"><span class="dot"></span> 10% off for subscribers (combinable)</span></div>
+<div class="camp-promo"><span class="pill"><span class="dot"></span> <span class="highlight">Save 15%</span> until April 1</span> <span class="dot"></span> 10% off for subscribers (combinable)</span></div>
 
 
 <section class="hero">

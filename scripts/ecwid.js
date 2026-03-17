@@ -1,4 +1,4 @@
-import { type } from 'os';
+// OBSOLETE - needs updating to the new structure
 import path from 'path';
 
 export const CLASSES_CATEGORY_ID = 175340602;
@@ -22,6 +22,7 @@ const SUMMER_CAMPS_AGES_CATEGORY_ID = {
     10: 193601873,
     11: 193602383,
     12: 193602115,
+
     13: 193602116,
 };
 
