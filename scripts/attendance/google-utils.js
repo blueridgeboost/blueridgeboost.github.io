@@ -6,12 +6,18 @@ export function mustEnv(name) {
     return v;
 }
 
-export async function getClients(Scopes) {
-    const auth = new google.auth.GoogleAuth({keyFile: mustEnv('GOOGLE_KEYFILE'),scopes: Scopes,});
-    return {
-        sheets: google.sheets({ version: 'v4', auth }),
-        forms: google.forms({ version: 'v1', auth }),
-    };
+export async function getClients(scopes) {
+  const auth = new google.auth.GoogleAuth({
+    keyFile: mustEnv('GOOGLE_KEYFILE'),
+    scopes,
+  });
+
+  const authClient = await auth.getClient();
+
+  return {
+    sheets: google.sheets({ version: 'v4', auth: authClient }),
+    forms: google.forms({ version: 'v1', auth: authClient }),
+  };
 }
 
 // logic for converting column count -> A1 column letter (1->A, 26->Z, 27->AA)
