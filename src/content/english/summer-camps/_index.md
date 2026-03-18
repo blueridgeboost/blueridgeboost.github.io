@@ -1,7 +1,8 @@
 ---
 title: "Summer Camps | Blue Ridge Boost"
-# page_title: "Summer Camps"
-description: "Discover engaging summer camps at Blue Ridge Boost in Charlottesville, VA! Offering robotics, coding, and math programs for kids and teens (ages 6+), with half-day, full-day, and 2-week options."
+page_title: "Summer Camps"
+# meta description
+description: "Discover engaging summer camps at Blue Ridge Boost in Charlottesville, VA! Week-long robotics, coding, math, and game design programs for ages 6–12 with half-day and full-day options."
 draft: false
 
 keywords:
@@ -11,58 +12,62 @@ keywords:
   - math summer camps
   - STEM camps Virginia
   - Blue Ridge Boost summer camps
+  - summer programs for kids Charlottesville
+  - hands-on STEM camps
+  - computer coding camps
+  - full-day summer camps
+  - half-day summer camps
+  - summer programs for teens
+  - robotics and math education
+  - STEM education camps
+  - Blue Ridge Boost STEM programs
+  - summer camps for elementary school students
+  - summer camps for middle school students
+  - summer camps for high school students
+  - Quest for Excellence summer camps
 robots: "index, follow"
 
 ---
 
-<div class="camp-promo"><span class="pill"><span class="dot"></span> <span class="highlight">Save 15%</span> until April 1</span> <span class="dot"></span> 10% off for subscribers (combinable)</span></div>
+<div class="camp-promo"><span class="pill"><span class="dot"></span> <span class="highlight">15% off</span> until April 1</span><span class="pill"><span class="dot"></span> 10% off until May 31</span><span class="pill"><span class="dot"></span> 10% off for subscribers (combinable)</span></div>
 
-
-<section class="hero">
-<div class="heroGrid">
-<div class="heroCard">
-
-## Hands-on STEM summer camps
-
-Seasonal, full-day and half-day camps in Robotics, Coding, Math, AI, Game Development, and Science.
-
-<div class="paths">
-<div class="path">
-
-### Summer Camps
-
-Week-long camps in Robotics, Coding, Math, AI, Game Dev, and Science for ages 6–13+. Full-day ($599.99) and half-day ($399.99) options available. All materials included.
-
-<div class="hp-row"><a class="chip" href="#summer">Explore Summer Camps</a></div>
-</div>
-<div class="path">
-
-### Robotics Bootcamp
-
-Earn a Carnegie Mellon Robotics Academy certification. Small-group, hands-on instruction with all materials and exam fees included. Full-day (1 week) or half-day (2 weeks) for ages 13+. $1,299.99.
-
-<div class="hp-row"><a class="chip" href="#robotics">Explore Robotics Bootcamps</a></div>
-</div>
-<div class="path">
-
-### Coding Bootcamp
-
-Earn a CodeHS certification in a focused, small-group setting. All materials and exam fees included — no computer needed. Full-day (1 week) or half-day (2 weeks) for ages 13+. $999.99.
-
-<div class="hp-row"><a class="chip" href="#coding">Explore Coding Bootcamps</a></div>
-</div>
-</div>
-
-</div>
-</div>
+<!-- Summer Camps — Ages 6–12 -->
+<section class="hp-section" id="camps">
+  <div class="wrap">
+    <div class="sectionTitle">
+      <div>
+        <h2>Summer Camps · Ages 6–12</h2>
+        <p>Week-long, hands-on STEM camps in robotics, coding, game design, math, and more. Full-day ($599.99) and half-day ($399.99) options — all materials included.</p>
+      </div>
+    </div>
+    <div class="grid3" aria-label="Summer camp details">
+      <div class="hp-card">
+        <h3>Topics</h3>
+        <p><strong>Robotics</strong> — build and program robots<br><strong>Coding &amp; Game Design</strong> — Minecraft Education and Roblox Studio<br><strong>Math &amp; Science</strong> — hands-on problem-solving<br><strong>Strategic Games</strong> — board games and logic puzzles</p>
+      </div>
+      <div class="hp-card">
+        <h3>Schedule</h3>
+        <p><strong>Full-day:</strong> 8:30 AM–5:30 PM<br><strong>Half-day AM:</strong> 8:30 AM–1:00 PM<br><strong>Half-day PM:</strong> 12:30–5:00 PM<br><strong>Ratio:</strong> 10:1 camper-to-staff</p>
+      </div>
+      <div class="hp-card">
+        <h3>Logistics</h3>
+        <p><strong>Location:</strong> 2171 Ivy Rd, Charlottesville<br><strong>Ages:</strong> 6–12 (<b>must be at least 6</b>)<br><strong>Includes:</strong> All materials &amp; computers<br><strong>Bring:</strong> Snack (half-day) · 2 snacks + lunch (full-day)</p>
+      </div>
+    </div>
+    <div class="camp-nav">
+      <span class="camp-nav__label">Also available:</span>
+      <a class="camp-nav__link" href="/advanced-stem-camps/">Advanced STEM Camps · Ages 13+</a>
+      <a class="camp-nav__link" href="/bootcamps/">Certification Bootcamps · Ages 13+</a>
+    </div>
+  </div>
 </section>
 
 <div class="container" id="summer">
   <div>
     <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
-    charset="utf-8"></script><script type="text/javascript">
-    xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041", "defaultCategoryId=175336884");</script>
+        charset="utf-8"></script>
+    <script type="text/javascript">
+        xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041",
+        "defaultCategoryId=175336884");</script>
   </div>
 </div>
-
-<script src="/js/camp-filters.js"></script>

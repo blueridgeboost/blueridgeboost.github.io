@@ -36,7 +36,7 @@ robots: "index, follow"
 
 ---
 
-<div class="camp-promo"><span class="pill"><span class="dot"></span> <span class="highlight">Save 25%</span> — register 3+ days before camp</span><a class="pill" href="mailto:camps@blueridgeboost.com"><span class="dot"></span> Missing a school day? Let us know</a></div>
+<div class="camp-promo"><span class="pill"><span class="dot"></span> <span class="highlight">Save 25%</span> — register 3+ days before camp</span><span class="pill"><span class="dot"></span> Missing a school day? <a href="mailto:camps@blueridgeboost.com">Let us know</a></span></div>
 
 <!-- 1-Day Camps Overview -->
 <section class="hp-section" id="overview">
@@ -60,9 +60,6 @@ robots: "index, follow"
         <h3>Logistics</h3>
         <p><strong>Location:</strong> 2171 Ivy Rd, Charlottesville<br><strong>Ages:</strong> 6–13 (must be at least 6)<br><strong>Bring:</strong> Snack (half-day) · 2 snacks + lunch (full-day)</p>
       </div>
-    </div>
-    <div class="hp-row">
-      <a class="chip" href="#camp1">Browse &amp; Register</a>
     </div>
   </div>
 </section>

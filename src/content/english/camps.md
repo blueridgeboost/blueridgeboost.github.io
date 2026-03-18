@@ -1,7 +1,7 @@
 ---
 title: "Camps | Blue Ridge Boost"
 page_title: "Camps"
-description: "Discover Blue Ridge Boost's comprehensive camp offerings in Charlottesville, VA! From 1-day camps to week-long summer programs, we provide engaging STEM education in robotics, coding, and science for ages 6+."
+description: "Explore all camp options at Blue Ridge Boost in Charlottesville, VA. Summer camps, advanced STEM camps, certification bootcamps, spring break, and 1-day camps for ages 6+."
 draft: false
 section: "camps"
 layout: "page"
@@ -14,109 +14,97 @@ keywords:
   - summer camps Charlottesville
   - spring break camps
   - one day camps
+  - advanced STEM camps for teens
+  - certification bootcamps
+  - STEM education camps
+  - hands-on learning camps
+  - Blue Ridge Boost camp options
 robots: "index, follow"
 
 ---
 
-<section class="hp-section">
-  <div class="sectionTitle">
-    <div>
-      <h2>Camp Types</h2>
-      <p>Hands-on STEM camps throughout the year — from single-day experiences to week-long deep dives.</p>
+<div class="camp-promo"><span class="pill"><span class="dot"></span> <span class="highlight">Summer: 15% off</span> until April 1</span><span class="pill"><span class="dot"></span> 10% off for subscribers (combinable)</span></div>
+
+<!-- Ages 6–12 -->
+<section class="hp-section" id="ages-6-12">
+  <div class="wrap">
+    <div class="sectionTitle">
+      <div>
+        <h2>Ages 6–12</h2>
+        <p>Hands-on STEM camps in robotics, coding, game design, math, and more. All materials and computer use included.</p>
+      </div>
     </div>
-  </div>
-  <div class="grid3">
-    <div class="hp-card">
-      <h3>1-Day Camps</h3>
-      <p>Focused STEM learning on teacher workdays, snow days, and school holidays. Half-day and full-day options for ages 6–13. Robotics, coding, math, and science projects.</p>
-      <div class="hp-row"><a class="chip" href="/1-day-camps">View 1-Day Camps</a></div>
-    </div>
-    <div class="hp-card">
-      <h3>Spring Break Camps</h3>
-      <p>A full week of engaging STEM activities during spring break. Half-day and full-day options for ages 6–13. Drop-off starts at 8:30 AM.</p>
-      <div class="hp-row"><a class="chip" href="/spring-break-camps">Spring Break Camps</a></div>
-    </div>
-    <div class="hp-card">
-      <h3>Summer Camps</h3>
-      <p>Week-long deep dives into Robotics, Coding, AI, Game Dev, Math, and Science. Full-day, AM, or PM sessions for ages 6–13+. Early bird pricing available.</p>
-      <div class="hp-row"><a class="chip" href="/summer-camps">Explore Summer Camps</a></div>
+    <div class="grid3" aria-label="Camps for ages 6–12">
+      <div class="hp-card">
+        <h3>Summer Camps</h3>
+        <p>Week-long camps with full-day ($599.99) and half-day ($399.99) options. Robotics, coding, game design, math, science, and strategic games.</p>
+        <div class="hp-row"><a class="chip" href="/summer-camps/">Explore Summer Camps</a></div>
+      </div>
+      <div class="hp-card">
+        <h3>Spring Break Camps</h3>
+        <p>A week of hands-on STEM fun during spring break. Half-day and full-day options available.</p>
+        <div class="hp-row"><a class="chip" href="/spring-break-camps/">View Spring Break</a></div>
+      </div>
+      <div class="hp-card">
+        <h3>1-Day Camps</h3>
+        <p>School breaks, snow days, and teacher workdays. Try robotics, coding, or game design for a day.</p>
+        <div class="hp-row"><a class="chip" href="/1-day-camps/">View 1-Day Camps</a></div>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="hp-section">
-  <div class="sectionTitle">
-    <div>
-      <h2>Certification Bootcamps</h2>
-      <p>Advanced programs for ages 13+ with industry-recognized certifications.</p>
+<!-- Ages 13+ -->
+<section class="hp-section" id="ages-13-plus">
+  <div class="wrap">
+    <div class="sectionTitle">
+      <div>
+        <h2>Ages 13+</h2>
+        <p>Advanced programs for teens ready to go deeper. Certification bootcamps and project-based camps with real-world skills.</p>
+      </div>
     </div>
-  </div>
-  <div class="grid3">
-    <div class="hp-card">
-      <h3>Robotics Bootcamp</h3>
-      <p>Earn a Carnegie Mellon Robotics Academy SMART certification. 2-week half-day or 1-week full-day. All materials and exam fees included. $1,299.99.</p>
-      <div class="hp-row"><a class="chip" href="/summer-camps#summer">Explore Robotics Bootcamp</a></div>
-    </div>
-    <div class="hp-card">
-      <h3>Coding Bootcamp</h3>
-      <p>Earn a CodeHS certification in a focused, small-group setting. 2-week half-day or 1-week full-day. All materials and exam fees included. $999.99.</p>
-      <div class="hp-row"><a class="chip" href="/summer-camps#summer">Explore Coding Bootcamp</a></div>
-    </div>
-    <div class="hp-card">
-      <h3>Certification Details</h3>
-      <p>Complete all projects and score 70%+ on the exam. Endorsed by the ARM Institute and Virginia Department of Education. All past BRB students earned their certificate.</p>
-    </div>
-  </div>
-</section>
-
-<section class="hp-section">
-  <div class="sectionTitle">
-    <div>
-      <h2>Camp Details</h2>
-      <p>Everything you need to know before registering.</p>
-    </div>
-  </div>
-  <div class="grid3">
-    <div class="hp-card">
-      <h3>Schedule & Pricing</h3>
-      <p><strong>Full-day:</strong> 8:30 AM – 5:00 PM<br>
-      <strong>AM Session:</strong> 8:30 AM – 1:00 PM<br>
-      <strong>PM Session:</strong> 12:30 PM – 5:00 PM<br><br>
-      <strong>15% off</strong> early bird · <strong>10% off</strong> subscribers (combinable)</p>
-    </div>
-    <div class="hp-card">
-      <h3>What We Provide</h3>
-      <p>All technology, computers, and robotics kits. Expert instruction from certified educators. Age-appropriate curriculum. Small class sizes. Safe, supportive environment.</p>
-    </div>
-    <div class="hp-card">
-      <h3>What to Bring</h3>
-      <p>Water bottle, snacks, and lunch (full-day). Comfortable clothes and indoor-friendly shoes. A positive attitude and curiosity!</p>
+    <div class="grid3" aria-label="Camps for ages 13+">
+      <div class="hp-card">
+        <h3>Advanced STEM Camps</h3>
+        <p>Week-long, project-based camps in advanced robotics, Python/AI, and game development. Advanced 11–12-year-olds welcome. $599.99 (full-day) · $399.99 (half-day).</p>
+        <div class="hp-row"><a class="chip" href="/advanced-stem-camps/">Explore Advanced Camps</a></div>
+      </div>
+      <div class="hp-card">
+        <h3>Robotics Bootcamp</h3>
+        <p>Earn a Carnegie Mellon Robotics Academy certification. Full-day (1 week) or half-day (2 weeks). All materials and exam fees included. $1,299.99.</p>
+        <div class="hp-row"><a class="chip" href="/bootcamps/">View Robotics Bootcamp</a></div>
+      </div>
+      <div class="hp-card">
+        <h3>Coding Bootcamp</h3>
+        <p>Earn a CodeHS certification in a focused, small-group setting. Full-day (1 week) or half-day (2 weeks). All materials and exam fees included. $1,299.99.</p>
+        <div class="hp-row"><a class="chip" href="/bootcamps/">View Coding Bootcamp</a></div>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="hp-section" id="register">
-  <div class="sectionTitle">
-    <div>
-      <h2>Ready to Register?</h2>
-      <p>Camps fill up quickly, especially during popular break periods. Secure your spot today.</p>
+<!-- Camp Details -->
+<section class="hp-section" id="details">
+  <div class="wrap">
+    <div class="sectionTitle">
+      <div>
+        <h2>All Camps</h2>
+        <p>What every camp has in common.</p>
+      </div>
     </div>
-  </div>
-  <div class="grid3">
-    <div class="hp-card">
-      <h3>Browse Camps</h3>
-      <p>See all available camp sessions with dates, topics, and pricing. Filter by age, week, and topic.</p>
-      <div class="hp-row"><a class="chip" href="/summer-camps">View All Camps</a></div>
-    </div>
-    <div class="hp-card">
-      <h3>Questions?</h3>
-      <p>2171 Ivy Rd, Charlottesville, VA 22903<br>(434) 260-0636<br>nora@blueridgeboost.com</p>
-      <div class="hp-row"><a class="chip" href="/contact">Contact Us</a></div>
-    </div>
-    <div class="hp-card">
-      <h3>Financial Assistance</h3>
-      <p>We want every student to have access to hands-on STEM learning. Contact us to discuss options that work for your family.</p>
-      <div class="hp-row"><a class="chip" href="/contact">Ask About Options</a></div>
+    <div class="grid3" aria-label="General camp information">
+      <div class="hp-card">
+        <h3>Location &amp; Contact</h3>
+        <p><strong>Where:</strong> 2171 Ivy Rd, Charlottesville, VA 22903<br><strong>Email:</strong> <a href="mailto:camps@blueridgeboost.com">camps@blueridgeboost.com</a><br><strong>Phone:</strong> (434) 260-0636</p>
+      </div>
+      <div class="hp-card">
+        <h3>What We Provide</h3>
+        <p>All technology (computers, tablets, robotics kits), expert instruction from certified educators, and a safe, supportive learning environment.</p>
+      </div>
+      <div class="hp-card">
+        <h3>Discounts</h3>
+        <p><strong>Summer:</strong> 15% off until April 1 · 10% off until May 31 · 5% off the week before camp<br><strong>Subscribers:</strong> 10% off (combinable)<br><strong>1-Day:</strong> 25% off 3+ days early</p>
+      </div>
     </div>
   </div>
 </section>
