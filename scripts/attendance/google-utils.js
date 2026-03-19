@@ -88,21 +88,38 @@ export async function readClassesTable(sheets, spreadsheetId) {
 }
 
 export async function createAttendanceForm(forms, className, brbId) {
-  const res = await forms.forms.create({
-    requestBody: {
-        info: {
+  let lastError;
+
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const res = await forms.forms.create({
+        requestBody: {
+          info: {
             title: `${className} Attendance`,
-            description: `Internal class ID: ${brbId}`,
+            documentTitle: `${className} Attendance`,
+          },
         },
-        documentTitle: `${className} Attendance`,
-    },
-  });
+      });
 
-  const formId = res.data.formId;
-  const editUrl = `https://docs.google.com/forms/d/${formId}/edit`;
-  const viewUrl = `https://docs.google.com/forms/d/${formId}/viewform`;
+      const formId = res.data.formId;
+      const editUrl = `https://docs.google.com/forms/d/${formId}/edit`;
+      const viewUrl = `https://docs.google.com/forms/d/${formId}/viewform`;
 
-  return { formId, editUrl, viewUrl };
+      return { formId, editUrl, viewUrl };
+    } catch (e) {
+      lastError = e;
+      const status = e?.response?.status;
+
+      if (attempt < 3 && (status === 500 || status === 502 || status === 503 || status === 504 || !status)) {
+        await new Promise((resolve) => setTimeout(resolve, attempt * 2000));
+        continue;
+      }
+
+      throw e;
+    }
+  }
+
+  throw lastError;
 }
 
 export async function getForm(forms, formId) {
