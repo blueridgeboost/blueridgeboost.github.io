@@ -1,8 +1,7 @@
 import { getCatalog, getOrdersByProductId } from '../ecwid.js';
-import { mustEnv, getClients, overwriteTab, readHeaders } from './google-utils.js';
+import { mustEnv, getClients, overwriteTab, readHeaders, readSheetTable } from './google-utils.js';
 import path from 'path';
 import dotenv from 'dotenv';
-
 
 // Construct the path to the .env file
 const envPath = path.join(process.cwd(), '..', '.env');
@@ -37,14 +36,21 @@ async function main() {
   const CATEGORY_IDS = [175340602];
   const classes = await getCatalog(CATEGORY_IDS);
 
-  // Build rows in Classes based on sheet headers
-  const { headers: classHeaders, idx: classIdx } = await readHeaders(sheets,spreadsheetId,'Classes');
+  // Build rows in Classes based on headers and rows
+  const { headers: classHeaders, rows: existingClassRows, idx: classIdx } = await readSheetTable(sheets,spreadsheetId,'Classes!A1:Z');
 
   const requiredClassCols = ['brb_id','ecwid_product_id','class_name','teacher_emails','day_of_week',
     'start_date','end_date','class_status'];
 
   for (const col of requiredClassCols) {
     if (classIdx(col) === -1) {throw new Error(`Missing required column ${col} in Classes tab`);}
+  }
+
+  const existingBRBIds = new Map();
+  for (const row of existingClassRows) {
+    const existingBRBId = String(row[classIdx('brb_id')] || '').trim();
+    if (!existingBRBId) continue;
+    existingBRBIds.set(existingBRBId, row);
   }
 
   const { headers: enrollmentHeaders, idx: enrollIdx } = await readHeaders(sheets,spreadsheetId,'Enrollments');
@@ -78,7 +84,10 @@ async function main() {
     const classStatus = getAttributeValue(c, 'class_status') || 'planned';
 
     // --- Classes row ---
-    const classRow = new Array(classHeaders.length).fill('');
+    // if we have existing row for this BRB ID, copy it and overwrite with new values, otherwise create new row
+    const classRow = existingBRBIds.has(brbId) 
+     ? [...existingBRBIds.get(brbId)] : new Array(classHeaders.length).fill('');
+
     classRow[classIdx('brb_id')] = brbId;
     classRow[classIdx('ecwid_product_id')] = String(c.id ?? '');
     classRow[classIdx('class_name')] = c.name || '';
