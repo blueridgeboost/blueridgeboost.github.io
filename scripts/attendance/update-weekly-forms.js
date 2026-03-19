@@ -237,7 +237,7 @@ async function replaceFormQuestions(forms, formId, { classId, className, weekSta
 
 // ---------- main ----------
 async function main() {
-  const spreadsheetId = mustEnv('ATTENDANCE_SHEET_ID');
+  const spreadsheetId = mustEnv('ATTENDANCE_SPREADSHEET_ID');
   const { sheets, forms } = await getClients();
 
   const classesTable = await readSheetTable(sheets, spreadsheetId, 'Classes!A1:Z');
