@@ -15,8 +15,8 @@ const SCOPES = [
 
 // ---------- main ----------
 async function main() {
-  const spreadsheetId = mustEnv('ATTENDANCE_SHEET_ID');
-  const { sheets, forms } = await getClients();
+  const spreadsheetId = mustEnv('ATTENDANCE_SPREADSHEET_ID');
+  const { sheets, forms } = await getClients(SCOPES);
 
   const { rows, idx } = await readClassesTable(sheets, spreadsheetId);
 
