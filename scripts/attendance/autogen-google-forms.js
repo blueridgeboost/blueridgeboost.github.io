@@ -60,9 +60,11 @@ async function main() {
 }
 
 main().catch((e) => {
-  console.error('Error:', e?.message || e);
+  console.error('Error message:', e?.message || e);
+  console.error('Error code:', e?.code);
+  console.error('Error status:', e?.response?.status);
+  console.error('Error data:', JSON.stringify(e?.response?.data, null, 2));
   process.exit(1);
 });
-    
 
 
