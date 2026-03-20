@@ -5,7 +5,8 @@ import path from 'path';
 import dotenv from 'dotenv';
 import { mustEnv } from './google-utils.js';
 
-const envPath = path.join(process.cwd(), '.env');
+// construct path to .env
+const envPath = path.join(process.cwd(),'..', '.env');
 dotenv.config({ path: envPath });
 
 // which google API's we need to use
