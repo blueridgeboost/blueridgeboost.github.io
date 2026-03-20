@@ -6,17 +6,42 @@ export function mustEnv(name) {
     return v;
 }
 
-export async function getClients(scopes) {
+function hasOAuthEnv() {
+  return !!(
+    process.env.GOOGLE_CLIENT_ID &&
+    process.env.GOOGLE_CLIENT_SECRET &&
+    process.env.GOOGLE_REDIRECT_URI &&
+    process.env.GOOGLE_REFRESH_TOKEN
+  );
+}
+
+export async function getAuthClient(scopes = []) {
+  if (hasOAuthEnv()) { // only if oAuth variables are set
+    const oauth2Client = new google.auth.OAuth2(
+      mustEnv('GOOGLE_CLIENT_ID'),
+      mustEnv('GOOGLE_CLIENT_SECRET'),
+      mustEnv('GOOGLE_REDIRECT_URI')
+    );
+
+    oauth2Client.setCredentials({refresh_token: mustEnv('GOOGLE_REFRESH_TOKEN'),});
+    return oauth2Client;
+  }
+  // else use service account
   const auth = new google.auth.GoogleAuth({
     keyFile: mustEnv('GOOGLE_KEYFILE'),
     scopes,
   });
 
-  const authClient = await auth.getClient();
+  return auth.getClient();
+}
+
+export async function getClients(scopes = []) {
+  const authClient = await getAuthClient(scopes);
 
   return {
     sheets: google.sheets({ version: 'v4', auth: authClient }),
     forms: google.forms({ version: 'v1', auth: authClient }),
+    drive: google.drive({ version: 'v3', auth: authClient }),
   };
 }
 
