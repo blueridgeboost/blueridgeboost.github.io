@@ -33,7 +33,7 @@ async function main() {
     const redirectUri = mustEnv('GOOGLE_REDIRECT_URI');
 
     const oAuth2Client = new google.auth.OAuth2(clientId, clientSecret, redirectUri);
-    const authUrl = oAuth2Client.generateAuthUrl({access_type: 'offline',promt: 'consent',scope: SCOPES,});
+    const authUrl = oAuth2Client.generateAuthUrl({access_type: 'offline',prompt: 'consent',scope: SCOPES,});
   
     console.log('Authorize this app by visiting this url:', authUrl);
     const code = await askQuestion('Enter the code from that page here: ');
@@ -42,12 +42,7 @@ async function main() {
 
     console.log('\nSuccess.\n');
     console.log('Add these to your .env:\n');
-
     console.log(`GOOGLE_REFRESH_TOKEN=${tokens.refresh_token || ''}`);
-    if (tokens.access_token) {
-    console.log(`GOOGLE_ACCESS_TOKEN=${tokens.access_token}`);
-    }
-
     console.log('\nFull token response:\n');
     console.log(JSON.stringify(tokens, null, 2));
 
