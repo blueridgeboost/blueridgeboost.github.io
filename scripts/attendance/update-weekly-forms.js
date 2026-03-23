@@ -306,12 +306,21 @@ async function main() {
       }))
       .filter((e) => String(e.brb_id).trim() === brbId);
 
+    /* Has issue with with Ecwis Api - returns: Failed to fetch orders: Forbidden
     const orders = await getOrdersByProductId(productId);
     const orderDaysMap = buildOrderDayLookup(Array.isArray(orders) ? orders : [], productId);
 
     const studentsByDay = buildStudentsPerDay({
       enrollments: classEnrollments,
       orderDaysMap,
+      classDefaultDays,
+    });
+    */
+
+   // for now just use the google sheet to build roster. 
+    const studentsByDay = buildStudentsPerDay({
+      enrollments: classEnrollments,
+      orderDaysMap: new Map(),
       classDefaultDays,
     });
 
