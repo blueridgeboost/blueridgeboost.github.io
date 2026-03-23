@@ -1,8 +1,8 @@
-import { google } from 'googleapis';
 import { getOrdersByProductId } from '../ecwid.js';
 import path from 'path';
 import dotenv from 'dotenv';
-import {mustEnv, getClients, colToA1, writeCell, readSheetTable} from './google-utils.js';
+import {mustEnv, getClients, writeCellsBatch, readSheetTable, colToA1,} from './google-utils.js';
+
 // Construct the path to the .env file
 const envPath = path.join(process.cwd(), '..', '.env');
 dotenv.config({ path: envPath });
@@ -45,13 +45,13 @@ function getWeekStartMonday(date = new Date()) {
 // possible day values in days_of_week
 const DAY_NAME_MAP = {
   sunday: 0, sun: 0,
-  monday: 1,mon: 1,
-  tuesday: 2,tue: 2,tues: 2,
-  wednesday: 3,wed: 3,
-  thursday: 4,thu: 4,
+  monday: 1, mon: 1,
+  tuesday: 2, tue: 2, tues: 2,
+  wednesday: 3, wed: 3,
+  thursday: 4, thu: 4,
   thur: 4, thurs: 4,
-  friday: 5,fri: 5,
-  saturday: 6,sat: 6,
+  friday: 5, fri: 5,
+  saturday: 6, sat: 6,
 };
 
 const DAY_LABELS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -104,7 +104,7 @@ function extractDaysOfWeekFromOrder(order, productId) {
         }
       }
     }
-}
+  }
 
   if (Array.isArray(order?.customFields)) {
     for (const field of order.customFields) {
@@ -163,7 +163,8 @@ function buildStudentsPerDay({ enrollments, orderDaysMap, classDefaultDays }) {
 
   for (const [dayIndex, students] of studentsByDay.entries()) {
     const seen = new Set();
-    const unique = students.filter((s) => {
+    const unique = students
+      .filter((s) => {
         const key = s.studentKey || s.studentName;
         if (seen.has(key)) return false;
         seen.add(key);
@@ -184,7 +185,12 @@ function buildWeekSessionsFromDayIndexes(dayIndexes, weekStart) {
     const offset = dayIndex - weekStartDow;
     const sessionDate = addDaysUTC(weekStart, offset);
 
-    return {dayIndex,dayName: DAY_LABELS[dayIndex],isoDate: toISODateUTC(sessionDate),questionTitle: DAY_LABELS[dayIndex],};
+    return {
+      dayIndex,
+      dayName: DAY_LABELS[dayIndex],
+      isoDate: toISODateUTC(sessionDate),
+      questionTitle: DAY_LABELS[dayIndex],
+    };
   });
 }
 
@@ -196,14 +202,18 @@ async function replaceFormQuestions(forms, formId, { classId, className, weekSta
   const formRes = await getForm(forms, formId);
   const items = formRes.data.items || [];
 
-  const deleteRequests = items.filter((item) => typeof item.index === 'number')
-    .map((item) => ({deleteItem: {location: { index: item.index },},}))
+  const deleteRequests = items
+    .filter((item) => typeof item.index === 'number')
+    .map((item) => ({
+      deleteItem: { location: { index: item.index } },
+    }))
     .sort((a, b) => b.deleteItem.location.index - a.deleteItem.location.index);
 
   const weekStartIso = toISODateUTC(weekStart);
   const weekEndIso = toISODateUTC(addDaysUTC(weekStart, 6));
 
-  const updateInfoRequest = {updateFormInfo: {
+  const updateInfoRequest = {
+    updateFormInfo: {
       info: {
         title: `${className} Attendance`,
         description: [
@@ -213,19 +223,31 @@ async function replaceFormQuestions(forms, formId, { classId, className, weekSta
         ].join('\n'),
       },
       updateMask: 'title,description',
-    },};
+    },
+  };
 
-  const createRequests = sessions.map((session, index) => ({createItem: {
+  const createRequests = sessions.map((session, index) => ({
+    createItem: {
       location: { index },
       item: {
         title: session.questionTitle,
         description: session.isoDate,
         questionItem: {
-          question: {required: false,choiceQuestion: {
+          question: {
+            required: false,
+            choiceQuestion: {
               type: 'CHECKBOX',
-              options: session.students.length? session.students.map((s) => ({value: `${s.studentName} [${s.studentKey}]`,})) : [{ value: '(No students scheduled)' }],
-            },}, },},
-    },}));
+              options: session.students.length
+                ? session.students.map((s) => ({
+                    value: `${s.studentName} [${s.studentKey}]`,
+                  }))
+                : [{ value: '(No students scheduled)' }],
+            },
+          },
+        },
+      },
+    },
+  }));
 
   const requests = [updateInfoRequest, ...deleteRequests, ...createRequests];
 
@@ -238,7 +260,7 @@ async function replaceFormQuestions(forms, formId, { classId, className, weekSta
 // ---------- main ----------
 async function main() {
   const spreadsheetId = mustEnv('ATTENDANCE_SPREADSHEET_ID');
-  const { sheets, forms } = await getClients();
+  const { sheets, forms } = await getClients(SCOPES);
 
   const classesTable = await readSheetTable(sheets, spreadsheetId, 'Classes!A1:Z');
   const enrollmentsTable = await readSheetTable(sheets, spreadsheetId, 'Enrollments!A1:Z');
@@ -314,7 +336,12 @@ async function main() {
 
     const sheetRow = r + 2;
     if (iLastSync !== -1) {
-      await writeCell(sheets, spreadsheetId, 'Classes', iLastSync, sheetRow, nowIso());
+      await writeCellsBatch(sheets, spreadsheetId, [
+        {
+          range: `Classes!${colToA1(iLastSync + 1)}${sheetRow}`,
+          values: [[nowIso()]],
+        },
+      ]);
     }
 
     console.log(`Updated formId=${formId}`);
