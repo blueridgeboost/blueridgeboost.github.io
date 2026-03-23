@@ -1,7 +1,7 @@
 import { google } from 'googleapis';
 import path from 'path';
 import dotenv from 'dotenv';
-import { mustEnv, getClients, writeCell, readClassesTable, createAttendanceForm, writeCellsBatch} from './google-utils.js';
+import { mustEnv, getClients, colToA1, readClassesTable, createAttendanceForm, writeCellsBatch} from './google-utils.js';
 
 // Construct the path to the .env file
 const envPath = path.join(process.cwd(), '..', '.env');
