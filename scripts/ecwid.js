@@ -14,17 +14,8 @@ export const SCIENCE_CATEGORY_ID = 177442108;
 export const AI_CATEGORY_ID = 187847627;
 
 export const SUMMER_CAMPS_CATEGORY_ID = 175336884;
-const SUMMER_CAMPS_AGES_CATEGORY_ID = {
-    6: 175493384,
-    7: 175492887,
-    8: 175495638,
-    9: 177143083,
-    10: 193601873,
-    11: 193602383,
-    12: 193602115,
-
-    13: 193602116,
-};
+export const ADVANCED_STEM_CAMPS_CATEGORY_ID = 198043781;
+export const BOOTCAMPS_CATEGORY_ID = 197739636;
 
 export const IN_PROGRESS_CATEGORY_ID = 187846081;
 export const STARTING_SOON_CATEGORY_ID = 187846083;
@@ -97,6 +88,13 @@ export const getSummerCamps = async () => {
     return await getCatalog([SUMMER_CAMPS_CATEGORY_ID]);
 }
 
+export const getAdvancedStemCamps = async () => {
+    return await getCatalog([ADVANCED_STEM_CAMPS_CATEGORY_ID]);
+}
+
+export const getBootcamps = async () => {
+    return await getCatalog([BOOTCAMPS_CATEGORY_ID]);
+}
 
 export const getFridayGaming = async () => {
     return await getCatalog([GAMING_FRIDAYS_CATEGORY_ID]);
@@ -132,6 +130,47 @@ export const getCatalog = async (categoryIds=[], enabledOnly=true, top=100) => {
       throw error;
     }
   };
+
+export const getAllProducts = async (enabledOnly = true) => {
+  const url = `https://app.ecwid.com/api/v3/${process.env.ECWID_STORE_ID}/products`;
+  const options = {
+    method: 'GET',
+    headers: {
+      accept: 'application/json',
+      Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`
+    }
+  };
+
+  let allItems = [];
+  let offset = 0;
+  const limit = 100;
+
+  while (true) {
+    const params = new URLSearchParams({ limit, offset });
+
+    if (enabledOnly) {
+      params.set('enabled', true);
+    }
+
+    const response = await fetch(`${url}?${params.toString()}`, options);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch products: ${response.statusText}`);
+    }
+
+    const responseJson = await response.json();
+    const items = responseJson.items || [];
+    allItems = allItems.concat(items);
+
+    // Stop when we've fetched everything
+    if (allItems.length >= responseJson.total || items.length === 0) {
+      break;
+    }
+
+    offset += limit;
+  }
+
+  return allItems;
+};
 
 
 export  async function getCategoryId(name) {
@@ -460,10 +499,10 @@ export async function updateEcwidProduct(product) {
         },
         body: JSON.stringify(productWithoutId)
     };
-    console.log(`Url ${url}`);
+    // console.log(`Url ${url}`);
     // console.log(`Attributes ${JSON.stringify(productWithoutId)}`);
     // console.log('Attributes:', productWithoutId.options ? productWithoutId.options.map(opt => ({ name: opt.name, type: opt.type })) : []);
-    console.log(prettyJsonText(productWithoutId));
+    // console.log(prettyJsonText(productWithoutId));
     try {
         const response = await fetch(url, options);
         if (!response.ok) {
@@ -668,20 +707,6 @@ async function deleteProductsByCategoryId(categoryId) {
         console.log(`Deleting product ${product.id} - ${product.name}`);
         await deleteEcwidProduct(product.id);
     }
-}
-
-export function getSummerCampsCategoryIds(age1, age2) {
-    const categoryIds = [SUMMER_CAMPS_CATEGORY_ID];
-    const startAge = Math.min(age1, age2);
-    const endAge = Math.max(age1, age2);
-    if (startAge >= 13 ) {
-        categoryIds.push(SUMMER_CAMPS_AGES_CATEGORY_ID[13]);
-        return categoryIds;
-    }
-    for (let age = startAge; age <= endAge; age++) {
-        categoryIds.push(SUMMER_CAMPS_AGES_CATEGORY_ID[age]);
-    }
-    return categoryIds;
 }
 
 export async function getProductTypeById(typeId) {

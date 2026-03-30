@@ -15,7 +15,9 @@ const AM_SESSION = "AM";
 const PM_SESSION = "PM"; 
 
 export async function updateSummerCampSeats() {
-    const camps = await getSummerCamps();
+    const summerCamps = await getSummerCamps();
+    const stemCamps = await getAdvancedStemCamps();
+    const camps = [...summerCamps, ...stemCamps];
     const summary = [];
     for (const camp of camps) {
         if (camp.enabled) {
