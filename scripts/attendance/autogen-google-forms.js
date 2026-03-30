@@ -1,7 +1,7 @@
 import { google } from 'googleapis';
 import path from 'path';
 import dotenv from 'dotenv';
-import { mustEnv, getClients, writeCell, readClassesTable, createAttendanceForm } from './google-utils.js';
+import { mustEnv, getClients, colToA1, readClassesTable, createAttendanceForm, writeCellsBatch} from './google-utils.js';
 
 // Construct the path to the .env file
 const envPath = path.join(process.cwd(), '..', '.env');
@@ -15,8 +15,8 @@ const SCOPES = [
 
 // ---------- main ----------
 async function main() {
-  const spreadsheetId = mustEnv('ATTENDANCE_SHEET_ID');
-  const { sheets, forms } = await getClients();
+  const spreadsheetId = mustEnv('ATTENDANCE_SPREADSHEET_ID');
+  const { sheets, forms } = await getClients(SCOPES);
 
   const { rows, idx } = await readClassesTable(sheets, spreadsheetId);
 
@@ -42,15 +42,26 @@ async function main() {
     const { formId, editUrl, viewUrl } = await createAttendanceForm(forms, className, brbId);
     const sheetRow = r + 2;
 
-    await writeCell(sheets, spreadsheetId, 'Classes', iFormId, sheetRow, formId);
+    const updates = [{
+    range: `Classes!${colToA1(iFormId + 1)}${sheetRow}`,
+    values: [[formId]],},
+    ];
 
     if (iEditUrl !== -1) {
-      await writeCell(sheets, spreadsheetId, 'Classes', iEditUrl, sheetRow, editUrl);
+      updates.push({
+      range: `Classes!${colToA1(iEditUrl + 1)}${sheetRow}`,
+      values: [[editUrl]],
+      });
     }
 
     if (iRespUrl !== -1) {
-      await writeCell(sheets, spreadsheetId, 'Classes', iRespUrl, sheetRow, viewUrl);
-    }
+      updates.push({
+      range: `Classes!${colToA1(iRespUrl + 1)}${sheetRow}`,
+      values: [[viewUrl]],
+      });
+      }
+
+await writeCellsBatch(sheets, spreadsheetId, updates);
 
     createdCount++;
     console.log(`Created formId=${formId}`);
@@ -60,9 +71,11 @@ async function main() {
 }
 
 main().catch((e) => {
-  console.error('Error:', e?.message || e);
+  console.error('Error message:', e?.message || e);
+  console.error('Error code:', e?.code);
+  console.error('Error status:', e?.response?.status);
+  console.error('Error data:', JSON.stringify(e?.response?.data, null, 2));
   process.exit(1);
 });
-    
 
 

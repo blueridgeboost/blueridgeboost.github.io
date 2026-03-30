@@ -12,7 +12,7 @@ pathways:
   - title: "Camps"
     description: "Engaging projects across STEM all season long, including spring, summer, and winter break."
     cta_text: "Explore Camps"
-    cta_url: "#camps"
+    cta_url: "/camps"
   - title: "Classes"
     description: "Weekly learning that builds real skills over time. Great for families who want consistency."
     cta_text: "Browse Classes"
@@ -59,6 +59,18 @@ camps:
     description: "Try a topic for a day—perfect for sampling robotics, coding, and more."
     url: "/1-day-camps"
     cta_text: "View 1‑Day Camps"
+  - title: "Advanced STEM Camps"
+    description: "Ages 13+ (advanced 11–12 welcome). Week-long, project-based camps in advanced robotics, Python/AI, and game development."
+    url: "/advanced-stem-camps"
+    cta_text: "Advanced STEM Camps"
+  - title: "Robotics Bootcamp"
+    description: "Ages 13+. Earn a Carnegie Mellon Robotics Academy certification. 1 week full-day or 2 weeks half-day. $1,299.99."
+    url: "/bootcamps"
+    cta_text: "Robotics Bootcamp"
+  - title: "Coding Bootcamp"
+    description: "Ages 13+. Earn a CodeHS certification in a focused, small-group setting. 1 week full-day or 2 weeks half-day. $1,299.99."
+    url: "/bootcamps"
+    cta_text: "Coding Bootcamp"
 
 # Classes section
 classes:

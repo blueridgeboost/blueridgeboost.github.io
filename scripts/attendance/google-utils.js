@@ -6,12 +6,43 @@ export function mustEnv(name) {
     return v;
 }
 
-export async function getClients(Scopes) {
-    const auth = new google.auth.GoogleAuth({keyFile: mustEnv('GOOGLE_KEYFILE'),scopes: Scopes,});
-    return {
-        sheets: google.sheets({ version: 'v4', auth }),
-        forms: google.forms({ version: 'v1', auth }),
-    };
+function hasOAuthEnv() {
+  return !!(
+    process.env.GOOGLE_CLIENT_ID &&
+    process.env.GOOGLE_CLIENT_SECRET &&
+    process.env.GOOGLE_REDIRECT_URI &&
+    process.env.GOOGLE_REFRESH_TOKEN
+  );
+}
+
+export async function getAuthClient(scopes = []) {
+  if (hasOAuthEnv()) { // only if oAuth variables are set
+    const oauth2Client = new google.auth.OAuth2(
+      mustEnv('GOOGLE_CLIENT_ID'),
+      mustEnv('GOOGLE_CLIENT_SECRET'),
+      mustEnv('GOOGLE_REDIRECT_URI')
+    );
+
+    oauth2Client.setCredentials({refresh_token: mustEnv('GOOGLE_REFRESH_TOKEN'),});
+    return oauth2Client;
+  }
+  // else use service account
+  const auth = new google.auth.GoogleAuth({
+    keyFile: mustEnv('GOOGLE_KEYFILE'),
+    scopes,
+  });
+
+  return auth.getClient();
+}
+
+export async function getClients(scopes = []) {
+  const authClient = await getAuthClient(scopes);
+
+  return {
+    sheets: google.sheets({ version: 'v4', auth: authClient }),
+    forms: google.forms({ version: 'v1', auth: authClient }),
+    drive: google.drive({ version: 'v3', auth: authClient }),
+  };
 }
 
 // logic for converting column count -> A1 column letter (1->A, 26->Z, 27->AA)
@@ -30,6 +61,34 @@ export async function writeCell(sheets, spreadsheetId, sheetName, colIndex0, row
     const colLetter = colToA1(colIndex0 + 1);
     const range = `${sheetName}!${colLetter}${rowIndex1}`;
     await sheets.spreadsheets.values.update({spreadsheetId,range,valueInputOption: 'RAW',requestBody: { values: [[value]] },});
+}
+
+// write cells at once to reduce number of API calls
+export async function writeCellsBatch(sheets, spreadsheetId, updates) {
+  let lastError;
+
+  // try multiple times so the script continues to run even if there are transient API errors or rate limits
+  for (let attempt = 1; attempt <= 5; attempt++) {
+    try {await sheets.spreadsheets.values.batchUpdate({spreadsheetId,
+        requestBody: {valueInputOption: 'RAW',data: updates,},
+      });
+      return;
+    }
+    catch (e) {
+      lastError = e;
+      const status = e?.response?.status;
+
+      // wait if getting rate limited, wait is longer for each attempt
+      if (attempt < 5 && (status === 429 || status === 500 || status === 502 || status === 503 || status === 504)) {
+        await new Promise((resolve) => setTimeout(resolve, attempt * 2000));
+        continue;
+      }
+
+      throw e;
+    }
+  }
+
+  throw lastError;
 }
 
 export async function overwriteTab(sheets, spreadsheetId, tabName,rows) {
@@ -82,21 +141,38 @@ export async function readClassesTable(sheets, spreadsheetId) {
 }
 
 export async function createAttendanceForm(forms, className, brbId) {
-  const res = await forms.forms.create({
-    requestBody: {
-        info: {
+  let lastError;
+
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const res = await forms.forms.create({
+        requestBody: {
+          info: {
             title: `${className} Attendance`,
-            description: `Internal class ID: ${brbId}`,
+            documentTitle: `${className} Attendance`,
+          },
         },
-        documentTitle: `${className} Attendance`,
-    },
-  });
+      });
 
-  const formId = res.data.formId;
-  const editUrl = `https://docs.google.com/forms/d/${formId}/edit`;
-  const viewUrl = `https://docs.google.com/forms/d/${formId}/viewform`;
+      const formId = res.data.formId;
+      const editUrl = `https://docs.google.com/forms/d/${formId}/edit`;
+      const viewUrl = `https://docs.google.com/forms/d/${formId}/viewform`;
 
-  return { formId, editUrl, viewUrl };
+      return { formId, editUrl, viewUrl };
+    } catch (e) {
+      lastError = e;
+      const status = e?.response?.status;
+
+      if (attempt < 3 && (status === 500 || status === 502 || status === 503 || status === 504 || !status)) {
+        await new Promise((resolve) => setTimeout(resolve, attempt * 2000));
+        continue;
+      }
+
+      throw e;
+    }
+  }
+
+  throw lastError;
 }
 
 export async function getForm(forms, formId) {

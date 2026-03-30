@@ -10,7 +10,7 @@ subject_tags:
 price: 149.99
 price_unit: per session
 category: One Time
-weight: 27
+weight: 21
 page_title: 'Create Your Own Roblox Games: Roblox and Lua Coding'
 ribbon: Join Now
 title: 'Create Your Own Roblox Games: Roblox and Lua Coding | Blue Ridge Boost'

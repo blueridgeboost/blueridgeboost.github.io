@@ -10,7 +10,7 @@ price: 149.99
 price_unit: per month
 category: Ongoing
 duration: 4-6 mo
-weight: 11
+weight: 9
 page_title: 'LEGO Robotics: World Robot Olympiad (WRO) Challenge'
 page_subtitle: Building Bright Futures
 ribbon: Join Now

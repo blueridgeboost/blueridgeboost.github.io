@@ -26,23 +26,40 @@ keywords:
 robots: "index, follow"
 ---
 
-<p>All camps are held at Blue Ridge Boost, 2171 Ivy Rd, Charlottesville.</p>
-<p>Half-day students should bring a snack. Full-day students should bring two snacks and lunch.</p>
-<p>Drop off starts at 8:30. Pick up ends at 1:00 for half-day and 5:00 for full day.</p>
-<p>Ages 6 to 13. Please note that Blue Ridge Boost is a single focus instructional program, not a day care program.
-  As such, <b>students must be at least six years old for camps.</b></p>
-<p></p>
-<div class="container darknote p-3">
-  <p></p>
-  We will open the sign ups by late October.
-  <p></p>
-</div>
+<!-- <div class="camp-promo"><span class="pill"><span class="dot"></span> Sign-ups open late October</span></div> -->
 
-<div class="container">
-    <div>
-        <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
-        charset="utf-8"></script><script type="text/javascript">
-        xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041", 
-        "defaultCategoryId=175628338");</script>
+<!-- Spring Break Camps Overview -->
+<section class="hp-section" id="overview">
+  <div class="wrap">
+    <div class="sectionTitle">
+      <div>
+        <h2>Spring Break Camps</h2>
+        <p>A week of hands-on STEM fun during spring break for ages 6–13. Half-day (8:30 AM–1:00 PM) and full-day (8:30 AM–5:00 PM) options — all materials included.</p>
+      </div>
     </div>
+    <div class="grid3" aria-label="Camp overview">
+      <div class="hp-card">
+        <h3>Topics</h3>
+        <p><strong>Robotics</strong> — build and program robots<br><strong>Coding &amp; Game Design</strong> — Minecraft Education </p>
+      </div>
+      <div class="hp-card">
+        <h3>How It Works</h3>
+        <p><strong>Learning sessions:</strong> Topic-related activities<br><strong>Screen-free activity:</strong> Try a robotics, science, or strategic games topic<br><strong>Exploration sessions:</strong> Try a different topic or gaming (with parent approval)<br><strong>Breaks:</strong> Screen-free snack and lunch — board games encouraged</p>
+      </div>
+      <div class="hp-card">
+        <h3>Logistics</h3>
+        <p><strong>Location:</strong> 2171 Ivy Rd, Charlottesville<br><strong>Ages:</strong> 6–13 (<b>must be at least 6</b>)<br><strong>Bring:</strong> Snack (half-day) · 2 snacks + lunch (full-day)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container" id="spring-break">
+  <div>
+    <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
+        charset="utf-8"></script>
+    <script type="text/javascript">
+        xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041",
+        "defaultCategoryId=175628338");</script>
+  </div>
 </div>

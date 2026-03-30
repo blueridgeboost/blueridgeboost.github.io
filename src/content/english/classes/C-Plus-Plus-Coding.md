@@ -10,7 +10,7 @@ subject_tags:
 price: 149.99
 price_unit: per session
 category: One Time
-weight: 26
+weight: 20
 page_title: CodeHS Computer Coding with C++
 ribbon: Join Now
 title: CodeHS Computer Coding with C++ | Blue Ridge Boost
