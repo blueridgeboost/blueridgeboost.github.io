@@ -63,6 +63,34 @@ export async function writeCell(sheets, spreadsheetId, sheetName, colIndex0, row
     await sheets.spreadsheets.values.update({spreadsheetId,range,valueInputOption: 'RAW',requestBody: { values: [[value]] },});
 }
 
+// write cells at once to reduce number of API calls
+export async function writeCellsBatch(sheets, spreadsheetId, updates) {
+  let lastError;
+
+  // try multiple times so the script continues to run even if there are transient API errors or rate limits
+  for (let attempt = 1; attempt <= 5; attempt++) {
+    try {await sheets.spreadsheets.values.batchUpdate({spreadsheetId,
+        requestBody: {valueInputOption: 'RAW',data: updates,},
+      });
+      return;
+    }
+    catch (e) {
+      lastError = e;
+      const status = e?.response?.status;
+
+      // wait if getting rate limited, wait is longer for each attempt
+      if (attempt < 5 && (status === 429 || status === 500 || status === 502 || status === 503 || status === 504)) {
+        await new Promise((resolve) => setTimeout(resolve, attempt * 2000));
+        continue;
+      }
+
+      throw e;
+    }
+  }
+
+  throw lastError;
+}
+
 export async function overwriteTab(sheets, spreadsheetId, tabName,rows) {
   // Clear everything below the header row, then write new data starting A2.
   await sheets.spreadsheets.values.clear({spreadsheetId,range: `${tabName}!A2:ZZ`,});
