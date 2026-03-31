@@ -6,7 +6,7 @@ schedule_tags:
   - Starting Soon
 subject_tags:
   - Robotics
-price: 235
+price: 275
 price_unit: per session
 category: One Time
 weight: 2
