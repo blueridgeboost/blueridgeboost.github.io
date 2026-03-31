@@ -254,22 +254,33 @@
             {{ end }}
           </div>
         </div>
-      {{ else }}
-        {{ if eq (lower $selectedGroups) "tweens" }}
+      {{ else if eq (lower $selectedGroups) "tweens" }}
           {{ range $g := (slice "5th" "6th") }}
             <label class="chip" style="display:none">
               <input type="checkbox" class="grade-filter" value="{{ $g | lower }}" checked onchange="toggleChip(this)">
               <span>{{ $g }}</span>
             </label>
           {{ end }}
-        {{ else }}
+      {{ else if eq (lower $selectedGroups) "teens" }}
             {{ range $g := (slice "7th" "8th" "9th" "10th" "11th" "12th") }}
             <label class="chip" style="display:none">
               <input type="checkbox" class="grade-filter" value="{{ $g | lower }}" checked onchange="toggleChip(this)">
               <span>{{ $g }}</span>
             </label>
           {{ end }}
-        {{ end }}
+      {{ else }}
+        {{/* No grade pre-selected — show all grades unchecked */}}
+        <div class="group-body inline-layout">
+          <div class="group-label inline">Grade:</div>
+          <div class="chips">
+            {{ range $g := (slice "1st" "2nd" "3rd" "4th" "5th" "6th" "7th" "8th" "9th" "10th" "11th" "12th") }}
+            <label class="chip">
+              <input type="checkbox" class="grade-filter" value="{{ $g | lower }}" onchange="toggleChip(this)">
+              <span>{{ $g }}</span>
+            </label>
+            {{ end }}
+          </div>
+        </div>
       {{end}}
     </div>
 

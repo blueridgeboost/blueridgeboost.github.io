@@ -1,6 +1,6 @@
 import { getAttributeValue, getAllClasses } from "../ecwid.js";
 import { cleanUpAiGen, writeJson } from "../fs-helpers.js";
-import { extractKeywords, extractTopics } from "./ai-queries.js";
+import { extractKeywords, extractTopics } from "../ai-queries.js";
 import path from "path";
 
 async function main() {
