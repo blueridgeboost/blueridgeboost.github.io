@@ -18,19 +18,29 @@
     const scheduleFilters = Array.from(document.querySelectorAll('.schedule-filter:checked')).map(cb => cb.value);
     const durationFilters = Array.from(document.querySelectorAll('.duration-filter:checked')).map(cb => cb.value);
 
+    // Helper: split data attribute by '#' and drop empty strings so that
+    // missing/empty tags yield an empty array instead of [""]
+    function parseTags(attr) {
+      return (attr || '').toLowerCase().split('#').filter(function(t) { return t !== ''; });
+    }
+
     const classes = document.querySelectorAll('div[id^="class-"]');
     classes.forEach(classCard => {
-      const dayTags = classCard.getAttribute('data-day').toLowerCase().split('#');
-      const gradeTags = classCard.getAttribute('data-grade').toLowerCase().split('#');
-      const subjectTags = classCard.getAttribute('data-subject').toLowerCase().split('#');
-      const scheduleTags = classCard.getAttribute('data-schedule').toLowerCase().split('#');
-      const durationTags = classCard.getAttribute('data-duration').toLowerCase().split('#');
+      const dayTags = parseTags(classCard.getAttribute('data-day'));
+      const gradeTags = parseTags(classCard.getAttribute('data-grade'));
+      const subjectTags = parseTags(classCard.getAttribute('data-subject'));
+      const scheduleTags = parseTags(classCard.getAttribute('data-schedule'));
+      const durationTags = parseTags(classCard.getAttribute('data-duration'));
 
-      const isDayMatch = !dayFilters.length || dayFilters.some(filter => dayTags.includes(filter));
-      const isGradeMatch = !gradeFilters.length || gradeFilters.some(filter => gradeTags.includes(filter));
-      const isSubjectMatch = !subjectFilters.length || subjectFilters.some(filter => subjectTags.includes(filter));
-      const isScheduleMatch = !scheduleFilters.length || scheduleFilters.some(filter => scheduleTags.includes(filter));
-      const isDurationMatch = !durationFilters.length || durationFilters.some(filter => durationTags.includes(filter));
+      // A card matches a filter category when:
+      //   - no filters are checked for that category, OR
+      //   - the card has no tags for that category (treat as uncategorised → always visible), OR
+      //   - at least one checked filter value appears in the card's tags
+      const isDayMatch = !dayFilters.length || !dayTags.length || dayFilters.some(filter => dayTags.includes(filter));
+      const isGradeMatch = !gradeFilters.length || !gradeTags.length || gradeFilters.some(filter => gradeTags.includes(filter));
+      const isSubjectMatch = !subjectFilters.length || !subjectTags.length || subjectFilters.some(filter => subjectTags.includes(filter));
+      const isScheduleMatch = !scheduleFilters.length || !scheduleTags.length || scheduleFilters.some(filter => scheduleTags.includes(filter));
+      const isDurationMatch = !durationFilters.length || !durationTags.length || durationFilters.some(filter => durationTags.includes(filter));
 
       if (isDayMatch && isGradeMatch && isSubjectMatch && isScheduleMatch && isDurationMatch) {
         classCard.style.display = '';

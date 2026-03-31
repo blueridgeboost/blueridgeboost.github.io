@@ -15,7 +15,7 @@
             {{ $pages = sort $pages ".Params.weight" "asc" }}
             {{ range $pages }}
                 {{ if eq .Params.layout "list" }}
-                {{ else }}
+                {{ else if .Params.ecwid }}
                     {{ partial "class-card" . }}
                 {{ end }}
             {{ end }}
