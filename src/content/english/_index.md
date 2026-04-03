@@ -24,7 +24,7 @@ pathways:
 
 # Popular right now
 popular:
-  - title: "Summer Camps (15% Early Bird)"
+  - title: "Summer Camps (10% Early Bird, expires May 31st)"
     description: "Hands-on projects in Math, Robotics, Coding, AI, Game Development, and Science."
     url: "/summer-camps"
     icon_path: "M12 2v4m0 12v4M4 12H2m20 0h-2M6 6l-1.5-1.5M19.5 19.5 18 18M18 6l1.5-1.5M4.5 19.5 6 18"
@@ -48,7 +48,7 @@ community_cards:
 # Camps section
 camps:
   - title: "Summer Camps"
-    description: '<b>Early Bird: Save 15%</b>. Engaging projects all summer across STEM topics.'
+    description: '<b>Early Bird: Save 10% until May 31st</b>. Engaging projects all summer across STEM topics.'
     url: "/summer-camps"
     cta_text: "Explore Summer Camps"
   - title: "Spring Break Camps"
