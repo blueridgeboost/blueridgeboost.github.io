@@ -43,12 +43,12 @@ async function main() {
         console.error('generateOneDayCampsRichResults failed:', err);
     }
 
-    try {
-        await updateGamingFridays();
-        console.log('updateGamingFridays: done');
-    } catch (err) {
-        console.error('updateGamingFridays failed:', err);
-    }
+    // try {
+    //     await updateGamingFridays();
+    //     console.log('updateGamingFridays: done');
+    // } catch (err) {
+    //     console.error('updateGamingFridays failed:', err);
+    // }
 
     try {
         await generateGamingRichResults();
