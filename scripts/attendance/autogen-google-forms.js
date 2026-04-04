@@ -16,7 +16,7 @@ const SCOPES = [
 // ---------- main ----------
 async function main() {
   const spreadsheetId = mustEnv('ATTENDANCE_SPREADSHEET_ID');
-  const { sheets, forms } = await getClients(SCOPES);
+  const { sheets, forms, drive } = await getClients(SCOPES);
 
   const { rows, idx } = await readClassesTable(sheets, spreadsheetId);
 
@@ -40,6 +40,11 @@ async function main() {
     console.log(`Creating form for ${brbId} - ${className}...`);
 
     const { formId, editUrl, viewUrl } = await createAttendanceForm(forms, className, brbId);
+
+    // move into specified folder
+    const folderId = mustEnv('ATTENDANCE_FORMS_FOLDER_ID');
+    await moveToFolder(drive, formId, folderId);
+
     const sheetRow = r + 2;
 
     const updates = [{
