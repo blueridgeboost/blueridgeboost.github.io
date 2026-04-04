@@ -366,14 +366,6 @@
   .paths {
     grid-template-columns: repeat(3, 1fr);
   }
-
-  .camp-promo {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex-wrap: wrap;
-    margin-bottom: 16px;
-  }
 }
 
 // ── Camp promo discount strip ──
@@ -387,6 +379,8 @@
   border-radius: $radius-sm;
   position: relative;
   overflow: hidden;
+  line-height: 1.2;
+  font-size: 0.85rem;
   background: linear-gradient(90deg,
     rgba($color-primary, .10),
     rgba($color-secondary, .10),
@@ -404,6 +398,19 @@
     pointer-events: none;
   }
 
+  .dot {
+    flex-shrink: 0;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+  }
+
+  .highlight {
+    font-weight: inherit;
+    color: inherit;
+    line-height: inherit;
+  }
+
   > .pill,
   > a.pill {
     all: unset;
@@ -413,18 +420,20 @@
     gap: 6px;
     box-sizing: border-box;
     margin: 0;
+    padding: 7px 11px;
     background: rgba($white, 0.86);
     color: $text-color;
     border: 1px solid rgba(18, 32, 70, 0.14);
     border-radius: 999px;
     box-shadow: 0 10px 24px rgba(10, 20, 60, 0.08);
     backdrop-filter: blur(10px);
+    font-family: inherit;
     font-size: 0.85rem;
     font-weight: 700;
-    padding: 7px 11px;
     text-decoration: none;
     line-height: 1.2;
     white-space: nowrap;
+    vertical-align: middle;
     cursor: default;
 
     a {
@@ -441,6 +450,7 @@
 }
 
 // ── Camp cross-navigation links ──
+// Nested inside .camp-nav so selectors beat .content a (0,1,1) and .content * (0,1,0)
 .camp-nav {
   display: flex;
   align-items: center;
@@ -451,38 +461,40 @@
   border-radius: $radius-sm;
   background: rgba($color-primary, 0.03);
   border: 1px solid rgba(18, 32, 70, 0.06);
-}
 
-.camp-nav__label {
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: $text-light;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  white-space: nowrap;
-}
+  .camp-nav__label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: $text-light;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+    margin-bottom: 0;
+  }
 
-.camp-nav__link {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 6px 14px;
-  border-radius: 999px;
-  background: $white;
-  border: 1px solid rgba(18, 32, 70, 0.12);
-  color: $color-primary;
-  font-size: 0.82rem;
-  font-weight: 600;
-  text-decoration: none;
-  transition: background 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
-  white-space: nowrap;
-
-  &:hover {
-    background: rgba($color-primary, 0.06);
-    border-color: rgba($color-primary, 0.3);
-    box-shadow: 0 2px 8px rgba(10, 20, 60, 0.08);
+  .camp-nav__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: $white;
+    border: 1px solid rgba(18, 32, 70, 0.12);
+    color: $color-primary;
+    font-size: 0.82rem;
+    font-weight: 600;
     text-decoration: none;
-    color: $darkest-blue;
+    transition: background 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+    white-space: nowrap;
+    margin-bottom: 0;
+
+    &:hover {
+      background: rgba($color-primary, 0.06);
+      border-color: rgba($color-primary, 0.3);
+      box-shadow: 0 2px 8px rgba(10, 20, 60, 0.08);
+      text-decoration: none;
+      color: $darkest-blue;
+    }
   }
 }
 

@@ -70,7 +70,6 @@ robots: "index, follow"
   </div>
 
   <h2 class="programs-heading">Competition Categories</h2>
-
   <div class="subjects-grid">
     <article class="subject-card">
       <h3>🤖 RoboMission</h3>
@@ -78,21 +77,18 @@ robots: "index, follow"
         Program autonomous robots to complete missions on a themed playing field. Available at Elementary, Junior, and Senior levels.
       </p>
     </article>
-
     <article class="subject-card">
       <h3>⚽ RoboSports</h3>
       <p>
         Build robots that compete head-to-head in sports-themed challenges. Teamwork, strategy, and engineering combined.
       </p>
     </article>
-
     <article class="subject-card">
       <h3>💡 Future Innovators</h3>
       <p>
         Design a robotics-based solution to a real-world problem. Combine creativity, research, and engineering in an open-ended project.
       </p>
     </article>
-
     <article class="subject-card">
       <h3>🏎️ Future Engineers</h3>
       <p>
@@ -119,12 +115,10 @@ robots: "index, follow"
       <h3>🎯 Direct Path to Championships</h3>
       <p>Top teams qualify for the Americas Open Championship and international events in Europe, Asia, and MENA regions.</p>
     </article>
-
     <article class="program-card">
       <h3>👥 Community-Centered</h3>
       <p>A welcoming, well-organized competition run by experienced STEM educators who care about every team's experience.</p>
     </article>
-
     <article class="program-card">
       <h3>📍 Local & Accessible</h3>
       <p>Compete right here in Charlottesville, VA — no long-distance travel required for teams in the Mid-Atlantic region.</p>

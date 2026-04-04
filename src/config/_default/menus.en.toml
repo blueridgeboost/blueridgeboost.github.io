@@ -55,10 +55,21 @@
     weight      = 3
 
 [[main]]
-    name        = "Summer Break"
+    name        = "Summer Camps"
     url         = "/summer-camps/"
     parent      = "Camps"
     weight      = 4
+[[main]]
+    name        = "Advanced STEM Camps"
+    url         = "/advanced-stem-camps/"
+    parent      = "Camps"
+    weight      = 5
+
+[[main]]
+    name        = "Bootcamps"
+    url         = "/bootcamps/"
+    parent      = "Camps"
+    weight      = 6
     
 # [[main]]
 #     name        = "Winter Break"

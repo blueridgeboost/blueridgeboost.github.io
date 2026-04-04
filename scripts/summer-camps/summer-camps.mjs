@@ -129,7 +129,7 @@ async function generateEcwidSummerCamps(camp) {
                     <li><strong>Tech Provided:</strong> Computers and robotics kits <em>(for in‑camp use only; equipment stays with us)</em>.</li>
                     <li><strong>Skill Level:</strong> Beginners welcome; no prior coding experience required</li>
                     <li><strong>Dress Code:</strong> Comfortable clothes; indoor‑friendly shoes</li>
-                    <li><strong>Contact:</strong> camps@yblueridgeboost.com • (434) 260‑0636</li>
+                    <li><strong>Contact:</strong> camps@blueridgeboost.com • (434) 260‑0636</li>
                     <li><strong>Allergies/Medical:</strong> Share details during registration; bring any necessary meds</li>
                     <li><strong>Behavior & Safety:</strong> Kindness first; follow staff directions; internet safety rules apply</li>
                 </ul>
@@ -335,45 +335,6 @@ function slugify(s) {
     .replace(/^-+|-+$/g, "")
     .slice(0, 60); // Ecwid limit-safe
 }
-
-// await generateEcwidSummerCamps();
-
-function updateSummerCampsStockLevel() {
-    const camps = getSummerCamps();
-    const orders = getCampOrders(camps);
-    const campsOrders = {};
-    for (const order of orders) {
-        for (const item of order.items) {
-            const brbIdAttr = item.attributes.find(a => a.name === 'brb_id');
-            if (brbIdAttr) {
-                const brbId = brbIdAttr.value;
-                if (!campsOrders[brbId]) {
-                    campsOrders[brbId] = 0;
-                }
-                // check the type of camp
-                campsOrders[brbId] += item.quantity;
-            }
-        }
-    }
-    for (const camp of camps) {
-        const brbIdAttr = camp.attributes.find(a => a.name === 'brb_id');
-        const brbId = brbIdAttr?.value;
-
-    }        
-
-}
-
-
-// async function main() {
-// const filters = await getProductFilters({
-//     filterFields: "attribute_Age,attribute_Topic",
-//     filterFacetLimit: "200",
-//     enabled: "true"
-// });
-// console.log(JSON.stringify(filters, null, 2));
-// }
-// main();
-
 
 /**
  * Updates all summer camp products to set their product type to 'Summer Camp'
