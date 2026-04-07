@@ -59,6 +59,6 @@ robots: "index, follow"
         charset="utf-8"></script>
     <script type="text/javascript">
         xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041",
-        "defaultCategoryId=175336884");</script>
+        "defaultCategoryId=106136041");</script>
   </div>
 </div>
