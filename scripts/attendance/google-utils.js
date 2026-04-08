@@ -178,3 +178,15 @@ export async function createAttendanceForm(forms, className, brbId) {
 export async function getForm(forms, formId) {
   return forms.forms.get({ formId });
 }
+
+// moves a file into a specified folder by changing parents fields
+export async function moveToFolder(drive, fileId, folderId) {
+  const file = await drive.files.get({fileId, fields: 'parents'});
+  const previousParents = (file.data.parents || []).join(',');
+
+  await drive.files.update({ fileId,
+    addParents: folderId,
+    removeParents: previousParents,
+    fields: 'id, parents',
+  })
+}
