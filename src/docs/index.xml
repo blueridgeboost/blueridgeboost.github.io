@@ -52,8 +52,7 @@
  &lt;div class="grid3" aria-label="Camp overview">
  &lt;div class="hp-card">
  &lt;h3>Topics&lt;/h3>
- &lt;p>&lt;strong>Robotics&lt;/strong> — build and program robots&lt;br>&lt;strong>Coding &amp;amp; Game Design&lt;/strong> — Minecraft Education and Roblox Studio&lt;br>&lt;strong>Strategic Games&lt;/strong> — board games and logic puzzles&lt;/p></description></item><item><title>Advanced STEM Camps | Blue Ridge Boost</title><link>https://blueridgeboost.com/advanced-stem-camps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/advanced-stem-camps/</guid><description>&lt;div class="camp-promo">&lt;span class="pill">&lt;span class="dot">&lt;/span> &lt;span class="highlight">15% off&lt;/span> until April 1&lt;/span>&lt;span class="pill">&lt;span class="dot">&lt;/span> 10% off until May 31&lt;/span>&lt;span class="pill">&lt;span class="dot">&lt;/span> 10% off for subscribers (combinable)&lt;/span>&lt;/div>
-&lt;!-- Advanced STEM Camps — Ages 13+ -->
+ &lt;p>&lt;strong>Robotics&lt;/strong> — build and program robots&lt;br>&lt;strong>Coding &amp;amp; Game Design&lt;/strong> — Minecraft Education and Roblox Studio&lt;br>&lt;strong>Strategic Games&lt;/strong> — board games and logic puzzles&lt;/p></description></item><item><title>Advanced STEM Camps | Blue Ridge Boost</title><link>https://blueridgeboost.com/advanced-stem-camps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/advanced-stem-camps/</guid><description>&lt;!-- Advanced STEM Camps — Ages 13+ -->
 &lt;section class="hp-section" id="advanced">
  &lt;div class="wrap">
  &lt;div class="sectionTitle">
@@ -64,8 +63,12 @@
  &lt;/div>
  &lt;div class="grid3" aria-label="Advanced STEM camp details">
  &lt;div class="hp-card">
- &lt;h3>Topics&lt;/h3>
- &lt;p>&lt;strong>Advanced Robotics&lt;/strong> — complex builds and programming&lt;br>&lt;strong>Coding &amp;amp; AI&lt;/strong> — Python, web dev, and machine learning&lt;br>&lt;strong>Game Development&lt;/strong> — Unity, Roblox Studio, and original projects&lt;/p></description></item><item><title>Artificial Intelligence Classes | Blue Ridge Boost</title><link>https://blueridgeboost.com/classes/ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/classes/ai/</guid><description/></item><item><title>Camps | Blue Ridge Boost</title><link>https://blueridgeboost.com/camps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/camps/</guid><description>&lt;div class="camp-promo">&lt;span class="pill">&lt;span class="dot">&lt;/span> &lt;span class="highlight">Summer: 15% off&lt;/span> until April 1&lt;/span>&lt;span class="pill">&lt;span class="dot">&lt;/span> 10% off for subscribers (combinable)&lt;/span>&lt;/div>
+ &lt;h3>Schedule&lt;/h3>
+ &lt;p>&lt;strong>Full-day:&lt;/strong> 8:30 AM–5:30 PM&lt;br>&lt;strong>Half-day AM:&lt;/strong> 8:30 AM–1:00 PM&lt;br>&lt;strong>Half-day PM:&lt;/strong> 12:30–5:00 PM&lt;br>&lt;strong>Ratio:&lt;/strong> 8:1 camper-to-staff&lt;/p>
+ &lt;/div>
+ &lt;div class="hp-card">
+ &lt;h3>Logistics&lt;/h3>
+ &lt;p>&lt;strong>Location:&lt;/strong> 2171 Ivy Rd, Charlottesville&lt;br>&lt;strong>Ages:&lt;/strong> 13+ (advanced 11–12 welcome)&lt;br>&lt;strong>Includes:&lt;/strong> All materials &amp;amp; computers&lt;br>&lt;strong>Bring:&lt;/strong> Snack (half-day) · 2 snacks + lunch (full-day)&lt;/p></description></item><item><title>Artificial Intelligence Classes | Blue Ridge Boost</title><link>https://blueridgeboost.com/classes/ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/classes/ai/</guid><description/></item><item><title>Camps | Blue Ridge Boost</title><link>https://blueridgeboost.com/camps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/camps/</guid><description>&lt;div class="camp-promo">&lt;span class="pill">&lt;span class="dot">&lt;/span> &lt;span class="highlight">Summer: 15% off&lt;/span> until April 1&lt;/span>&lt;span class="pill">&lt;span class="dot">&lt;/span> 10% off for subscribers (combinable)&lt;/span>&lt;/div>
 &lt;!-- Ages 6–12 -->
 &lt;section class="hp-section" id="ages-6-12">
  &lt;div class="wrap">

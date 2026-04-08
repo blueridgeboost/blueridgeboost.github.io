@@ -19,7 +19,7 @@ description: >-
   robots through hands-on challenges inspired by the World Robot Olympiad (WRO)
   Elementary division. Each week introduces new skills, building toward a
   mini-competition in the final session. Meetings on April 18 and 25, May 2,9,
-  16, and 25. ⏱️ Duration: 6 Weeks (1.5 hrs/class) 🎒 Ages: Upper Elementary
+  16, and 31. ⏱️ Duration: 6 Weeks (1.5 hrs/class) 🎒 Ages: Upper Elementary
   Students Week 1 — Meet Your Robot Start with the basics: how to build a sturdy
   robot base, connect motors, and make it move in a straight line. Students
   learn why structure matters — a wobbly robot is a slow robot! First challenge:

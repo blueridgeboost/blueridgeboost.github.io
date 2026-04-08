@@ -20,7 +20,6 @@ keywords:
 robots: "index, follow"
 ---
 
-<div class="camp-promo"><span class="pill"><span class="dot"></span> <span class="highlight">15% off</span> until April 1</span><span class="pill"><span class="dot"></span> 10% off until May 31</span><span class="pill"><span class="dot"></span> 10% off for subscribers (combinable)</span></div>
 
 <!-- Advanced STEM Camps — Ages 13+ -->
 <section class="hp-section" id="advanced">
@@ -33,12 +32,8 @@ robots: "index, follow"
     </div>
     <div class="grid3" aria-label="Advanced STEM camp details">
       <div class="hp-card">
-        <h3>Topics</h3>
-        <p><strong>Advanced Robotics</strong> — complex builds and programming<br><strong>Coding &amp; AI</strong> — Python, web dev, and machine learning<br><strong>Game Development</strong> — Unity, Roblox Studio, and original projects</p>
-      </div>
-      <div class="hp-card">
         <h3>Schedule</h3>
-        <p><strong>Full-day:</strong> 8:30 AM–5:30 PM<br><strong>Half-day AM:</strong> 8:30 AM–1:00 PM<br><strong>Half-day PM:</strong> 12:30–5:00 PM<br><strong>Ratio:</strong> 10:1 camper-to-staff</p>
+        <p><strong>Full-day:</strong> 8:30 AM–5:30 PM<br><strong>Half-day AM:</strong> 8:30 AM–1:00 PM<br><strong>Half-day PM:</strong> 12:30–5:00 PM<br><strong>Ratio:</strong> 8:1 camper-to-staff</p>
       </div>
       <div class="hp-card">
         <h3>Logistics</h3>
