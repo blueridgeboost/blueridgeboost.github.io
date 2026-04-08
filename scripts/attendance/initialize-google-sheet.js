@@ -15,7 +15,7 @@ dotenv.config({ path: envPath });
 // In the future, we could add logic to create the sheet, periodically making new ones if need be.
 
 const TAB_HEADERS = {
-    Classes: ['brb_id','ecwid_product_id','class_name','teacher_emails','day_of_week','start_date','end_date','class_status','form_id','form_edit_url','form_response_url','last_roster_sync_at'],
+    Classes: ['brb_id','ecwid_product_id','class_name','teacher_emails','day_of_week','start_date','end_date','class_status','form_id','form_edit_url','form_response_url','last_roster_sync_at', 'teacher_email'],
     Enrollments: ['brb_id','student_key','student_name','parent_name','parent_email','parent_phone','order_id','order_item_id','purchase_date','active','notes','last_sync_at'],
     AttendanceLedger: ['brb_id','class_date','student_key','present','source_timestamp','source_form_id','source_submission_row'],
 };
