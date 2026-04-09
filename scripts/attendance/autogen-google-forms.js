@@ -47,26 +47,17 @@ async function main() {
 
     const sheetRow = r + 2;
 
-    const updates = [{
-    range: `Classes!${colToA1(iFormId + 1)}${sheetRow}`,
-    values: [[formId]],},
-    ];
-
-    if (iEditUrl !== -1) {
-      updates.push({
-      range: `Classes!${colToA1(iEditUrl + 1)}${sheetRow}`,
-      values: [[editUrl]],
-      });
+    const updates = [{ range: `Classes!${colToA1(iFormId + 1)}${sheetRow}`, values: [[formId]],},];
+  
+    if (iEditUrl !== -1) { // push edit url
+      updates.push({ range: `Classes!${colToA1(iEditUrl + 1)}${sheetRow}`, values: [[editUrl]],});
     }
 
-    if (iRespUrl !== -1) {
-      updates.push({
-      range: `Classes!${colToA1(iRespUrl + 1)}${sheetRow}`,
-      values: [[viewUrl]],
-      });
+    if (iRespUrl !== -1) { // push  response url
+      updates.push({ range: `Classes!${colToA1(iRespUrl + 1)}${sheetRow}`, values: [[viewUrl]],});
       }
 
-await writeCellsBatch(sheets, spreadsheetId, updates);
+    await writeCellsBatch(sheets, spreadsheetId, updates); // write in batches
 
     createdCount++;
     console.log(`Created formId=${formId}`);
@@ -82,5 +73,3 @@ main().catch((e) => {
   console.error('Error data:', JSON.stringify(e?.response?.data, null, 2));
   process.exit(1);
 });
-
-
