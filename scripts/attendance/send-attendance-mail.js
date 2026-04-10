@@ -14,7 +14,7 @@ const client = new mailchimp(mustEnv('MAILCHIMP_KEY'));
 
 function sendAttendanceEmail(teacherEmail, classes) {
   const classListHtml = classes
-    .map(
+    .map( // each class gets its own row in the email table
       (c) =>
         `<tr>
           <td style="padding:8px 12px; border:1px solid #ddd;">${c.className}</td>
@@ -26,8 +26,8 @@ function sendAttendanceEmail(teacherEmail, classes) {
     .join('\n');
 
   const html = `
-    <p>Hi,</p>
-    <p>Here are your attendance forms. Please fill these out for each class session:</p>
+    <p>Hello,</p>
+    <p>Here are your attendance forms. Please fill these out for each class session you had this week:</p>
     <table style="border-collapse:collapse; margin:16px 0;">
       <thead>
         <tr>
@@ -36,7 +36,7 @@ function sendAttendanceEmail(teacherEmail, classes) {
         </tr>
       </thead>
       <tbody>
-        ${classListHtml}
+        ${classListHtml} 
       </tbody>
     </table>
     <p>Thank you,<br>Blue Ridge Boost</p>
@@ -56,7 +56,6 @@ function sendAttendanceEmail(teacherEmail, classes) {
 async function main() {
   const spreadsheetId = mustEnv('ATTENDANCE_SPREADSHEET_ID');
   const { sheets } = await getClients(SCOPES);
-
   const { rows, idx } = await readClassesTable(sheets, spreadsheetId);
 
   const iName = idx('class_name');
@@ -64,9 +63,7 @@ async function main() {
   const iRespUrl = idx('form_response_url');
   const iTeacherEmail = idx('teacher_email');
 
-  if (iTeacherEmail === -1) {
-    throw new Error('Classes sheet is missing "teacher_email" column');
-  }
+  if (iTeacherEmail === -1) { throw new Error('Classes sheet is missing "teacher_email" column'); }
 
   // Group classes by teacher email so each teacher gets one email
   const teacherMap = new Map();
@@ -77,17 +74,12 @@ async function main() {
     const formUrl = (row[iRespUrl] || '').trim();
     const teacherEmail = (row[iTeacherEmail] || '').trim().toLowerCase();
 
-    if (!teacherEmail || !formId || !className) continue;
+    if (!teacherEmail || !formId || !className) continue; // if missing, skiop this row
 
     const url = formUrl || `https://docs.google.com/forms/d/${formId}/viewform`;
 
-    if (!teacherMap.has(teacherEmail)) {
-      teacherMap.set(teacherEmail, []);
-    }
-    teacherMap.set(teacherEmail, [
-      ...teacherMap.get(teacherEmail),
-      { className, formUrl: url },
-    ]);
+    if (!teacherMap.has(teacherEmail)) { teacherMap.set(teacherEmail, []); }
+    teacherMap.set(teacherEmail, [...teacherMap.get(teacherEmail), { className, formUrl: url },]);
   }
 
   if (teacherMap.size === 0) {
@@ -104,10 +96,9 @@ async function main() {
       console.log(`  Sent to ${teacherEmail}:`, result?.[0]?.status || 'ok');
       sentCount++;
     } catch (err) {
-      console.error(`  Failed to send to ${teacherEmail}: ${err.message}`);
+      console.error(`  Failed to send to ${teacherEmail} because of: ${err.message}`);
     }
   }
-
   console.log(`Done. Sent emails to ${sentCount} teacher(s).`);
 }
 

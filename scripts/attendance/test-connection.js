@@ -31,41 +31,25 @@ async function main() {
   console.log('REFRESH_TOKEN OK');
 
   console.log('\n--- Creating OAuth client ---');
+  const auth = new google.auth.OAuth2(clientId ,clientSecret, redirectUri);
 
-  const auth = new google.auth.OAuth2(
-    clientId,
-    clientSecret,
-    redirectUri
-  );
-
-  auth.setCredentials({
-    refresh_token: refreshToken,
-  });
+  auth.setCredentials({ refresh_token: refreshToken,});
 
   console.log('OAuth client created');
-
   console.log('\n--- Testing token refresh ---');
 
   const accessToken = await auth.getAccessToken();
 
-  if (!accessToken?.token) {
-    throw new Error('Failed to obtain access token');
-  }
+  if (!accessToken?.token) { throw new Error('Failed to obtain access token');}
 
   console.log('Access token acquired');
-
   console.log('\n--- Testing Drive API ---');
 
   const drive = google.drive({ version: 'v3', auth });
-
-  const res = await drive.files.list({
-    pageSize: 5,
-    fields: 'files(id, name)',
-  });
+  const res = await drive.files.list({ pageSize: 5, fields: 'files(id, name)',});
 
   console.log('Drive API success');
   console.log('Sample files:', res.data.files);
-
   console.log('\n--- SUCCESS ---');
   console.log('OAuth + scopes are working correctly');
 }

@@ -19491,19 +19491,12 @@ html {
 
 .darknote {
   background-color: #001f3f;
-  /* Replace $darkest-blue with a real color code */
   color: #ffffff;
-  /* Use white text */
   display: block;
-  /* Full-width container instead of inline-block */
   padding: 10px;
-  /* Add padding for better spacing */
   margin: 10px 0;
-  /* Vertical margin to separate from other elements */
   text-align: center;
-  /* Center-align text */
-  border-radius: 5px;
-  /* Optional: Rounded corners for better aesthetics */ }
+  border-radius: 5px; }
 
 .darknote-link {
   color: #ffffff !important;
@@ -19513,14 +19506,11 @@ html {
 .container_frontpage {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  /* Space between columns */ }
+  gap: 1rem; }
 
 .column {
   padding: 1rem;
-  /* Each column takes equal space */
-  min-width: 200px;
-  /* Prevent columns from shrinking too much */ }
+  min-width: 200px; }
 
 .left {
   flex: 1; }
@@ -19532,21 +19522,15 @@ html {
   background-color: #005172;
   flex: 2.5;
   flex-basis: 50%;
-  /* Base width of the carousel */
   min-width: 300px;
-  /* Prevent the carousel from shrinking below 300px */
-  max-width: 600px;
-  /* Optional: Set a maximum width */ }
+  max-width: 600px; }
 
 .photo {
   background-color: #d0e7ff;
   flex: 2.5;
   flex-basis: 50%;
-  /* Base width of the carousel */
   min-width: 300px;
-  /* Prevent the carousel from shrinking below 300px */
-  max-width: 500px;
-  /* Optional: Set a maximum width */ }
+  max-width: 500px; }
 
 .filterleft {
   flex: 1;
@@ -19562,7 +19546,6 @@ html {
 @media (max-width: 992px) {
   .filterleft, .classesright {
     max-width: 100%;
-    /* Stacks columns vertically on smaller screens */
     flex: 1; } }
 
 .rowparty {
@@ -19594,7 +19577,6 @@ html {
 .class-content {
   padding-top: 1rem; }
 
-/* Variables */
 * {
   box-sizing: border-box; }
 
@@ -19617,7 +19599,6 @@ form {
 #payment-element {
   margin-bottom: 24px; }
 
-/* Buttons and links */
 button {
   background: #5469d4;
   font-family: Arial, sans-serif;
@@ -19644,7 +19625,6 @@ div.fullclass {
   text-align: center;
   background-color: lightpink; }
 
-/* spinner/processing state, errors */
 .spinner,
 .spinner:before,
 .spinner:after {
@@ -19813,6 +19793,46 @@ div.fullclass {
   padding: 20px;
   border-radius: 10px; }
 
+.details-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr; }
+  @media (min-width: 768px) {
+    .details-grid {
+      grid-template-columns: repeat(3, 1fr); } }
+.programs-overview .programs-grid {
+  display: grid !important;
+  gap: 1.5rem;
+  grid-template-columns: 1fr; }
+  @media (min-width: 768px) {
+    .programs-overview .programs-grid {
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      align-items: stretch; } }
+.programs-overview .subjects-grid {
+  display: grid !important;
+  gap: 1.5rem;
+  align-items: start;
+  grid-template-columns: 1fr; }
+  @media (min-width: 768px) {
+    .programs-overview .subjects-grid {
+      grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 992px) {
+    .programs-overview .subjects-grid {
+      grid-template-columns: repeat(4, 1fr); } }
+.programs-overview .program-card,
+.programs-overview .subject-card {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+  align-content: start; }
+  .programs-overview .program-card h3, .programs-overview .program-card .h3,
+  .programs-overview .subject-card h3,
+  .programs-overview .subject-card .h3 {
+    margin-bottom: 1rem; }
+  .programs-overview .program-card p,
+  .programs-overview .subject-card p {
+    margin: 0; }
+
 .tight-text p {
   margin-top: 0;
   margin-bottom: 0px;
@@ -19830,69 +19850,43 @@ div.fullclass {
 
 .pricing-list {
   list-style: none;
-  /* Remove default bullet points */
   padding: 0;
-  /* Remove default padding */
-  margin: 20px 0;
-  /* Add some spacing above and below the list */ }
+  margin: 20px 0; }
 
 .pricing-list li {
   background-color: #f4f4f4;
-  /* Light gray background for each item */
   border: 1px solid #ddd;
-  /* Subtle border for separation */
   border-radius: 8px;
-  /* Rounded corners */
   padding: 15px 20px;
-  /* Add spacing inside each item */
   margin-bottom: 10px;
-  /* Space between list items */
   display: flex;
-  /* Use flexbox for alignment */
   justify-content: space-between;
-  /* Distribute space between text and price */
   align-items: center;
-  /* Vertically align text and price */
-  font-size: 16px;
-  /* Font size for easy readability */ }
+  font-size: 16px; }
 
 .pricing-list li:last-child {
-  margin-bottom: 0;
-  /* Remove margin for the last item */ }
+  margin-bottom: 0; }
 
 .pricing-list li strong {
   font-weight: 600;
-  /* Slightly bold for the title */
-  color: #333;
-  /* Darker text for emphasis */ }
+  color: #333; }
 
 .pricing-list li span {
   font-weight: 700;
-  /* Bold for the price */
   color: #555;
-  /* Neutral color for the price */
-  font-size: 16px;
-  /* Same size as the rest of the text */ }
+  font-size: 16px; }
 
-/* Hover effect */
 .pricing-list li:hover {
   background-color: #e9ecef;
-  /* Slightly darker background on hover */
   border-color: #bbb;
-  /* Slightly darker border on hover */
-  cursor: pointer;
-  /* Add pointer cursor on hover */ }
+  cursor: pointer; }
 
-/* Responsive Design */
 @media (max-width: 600px) {
   .pricing-list li {
     flex-direction: column;
-    /* Stack content vertically on small screens */
-    align-items: flex-start;
-    /* Align text to the left */ }
+    align-items: flex-start; }
   .pricing-list li span {
-    margin-top: 5px;
-    /* Add spacing between title and price */ } }
+    margin-top: 5px; } }
 
 .navigation .nav-item .nav-link {
   color: rgba(7, 16, 34, 0.74) !important; }
