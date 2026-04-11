@@ -20,8 +20,6 @@ keywords:
 robots: "index, follow"
 ---
 
-<div class="camp-promo"><span class="pill"><span class="dot"></span> <span class="highlight">15% off</span> until April 1</span><span class="pill"><span class="dot"></span> 10% off until May 31</span><span class="pill"><span class="dot"></span> 10% off for subscribers (combinable)</span></div>
-
 <!-- Certification Bootcamps — Ages 13+ -->
 <section class="hp-section" id="bootcamps">
   <div class="wrap">

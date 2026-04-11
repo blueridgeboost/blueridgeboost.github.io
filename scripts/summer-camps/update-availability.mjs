@@ -1,4 +1,4 @@
-import { getSummerCamps, getOrdersByProductId, updateEcwidProduct, getAttributeValue } from '../ecwid.js';
+import { getSummerCamps, getOrdersByProductId, updateEcwidProduct, getAttributeValue, getAdvancedStemCamps } from '../ecwid.js';
 import path from 'path';
 import { pathToFileURL } from 'url';
 import dotenv from 'dotenv';

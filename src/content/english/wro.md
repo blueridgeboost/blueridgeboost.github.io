@@ -323,12 +323,12 @@ robots: "index, follow"
     <p>To register a team, please add the desired category to cart and complete the purchase.</p>
   </div>
 
-  <div class="container">
+<div class="container">
   <div>
     <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
         charset="utf-8"></script>
     <script type="text/javascript">
-        xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041",
+        xProductBrowser("views=grid(20,2) list(60) table(60)","categoryView=grid","id=my-store-106136041",
         "defaultCategoryId=187847609");</script>
   </div>
 </div>

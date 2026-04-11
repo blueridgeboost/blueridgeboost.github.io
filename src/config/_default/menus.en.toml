@@ -42,17 +42,17 @@
     name        = "Camps"
     weight      = 3
 
-[[main]]
-    name        = "1-Day"
-    url         = "/1-day-camps/"
-    parent      = "Camps"
-    weight      = 1
+# [[main]]
+#     name        = "1-Day"
+#     url         = "/1-day-camps/"
+#     parent      = "Camps"
+#     weight      = 1
 
-[[main]]
-    name        = "Spring Break"
-    url         = "/spring-break-camps/"
-    parent      = "Camps"
-    weight      = 3
+# [[main]]
+#     name        = "Spring Break"
+#     url         = "/spring-break-camps/"
+#     parent      = "Camps"
+#     weight      = 3
 
 [[main]]
     name        = "Summer Camps"
@@ -77,27 +77,22 @@
 #     parent      = "Camps"
 #     weight      = 2
 
-############ Tutoring ############
-[[main]]
-    name       = "Tutoring"
-    url        = "/tutoring/"
-    weight     = 5
 ############ Competitions ############
 [[main]]
-    name        = "Competitions"
+    name        = "World Robot Olympiad"
     weight      = 6
 
-[[main]]
-    parent      = "Competitions"
-    name        = "Robotics"
-    url         = "/competition-robotics"
-    weight      = 1
+# [[main]]
+#     parent      = "Competitions"
+#     name        = "Robotics"
+#     url         = "/competition-robotics"
+#     weight      = 1
 
-[[main]]
-    parent      = "Competitions"
-    name        = "Math"
-    url         = "/competition-math"
-    weight      = 2
+# [[main]]
+#     parent      = "Competitions"
+#     name        = "Math"
+#     url         = "/competition-math"
+#     weight      = 2
 
 ############ Birthdays ############
 [[main]]
@@ -109,4 +104,11 @@
     name       = "Gaming"
     url        = "/gaming/"
     weight     = 8
+
+
+############ Tutoring ############
+[[main]]
+    name       = "Tutoring"
+    url        = "/tutoring/"
+    weight     = 9
 

@@ -62,7 +62,6 @@ html {
   flex: 0 0 auto;
 }
 
-// Scoped under .site-header to beat Bootstrap's .nav-link specificity
 .site-header {
   .nav-list {
     list-style: none;
@@ -176,67 +175,36 @@ html {
   }
 }
 
-
 // ── Hero ──
 .hero {
   padding: 18px 0 18px;
-}
 
-.heroSubtitle { color: $text-dark; }
-
-.heroGrid {
-  display: grid;
-  grid-template-columns: 1.18fr 0.82fr;
-  gap: 18px;
-  align-items: stretch;
-}
-
-.heroCard {
-  padding: 26px;
-  border-radius: $radius;
-  border: 1px solid rgba(18, 32, 70, 0.14);
-  background: rgba($white, 0.96);
-  box-shadow: $shadow-lg;
-  position: relative;
-  overflow: hidden;
-
-  > * {
-    position: relative;
-    z-index: 1;
+  .wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
   }
+}
+
+.heroHeader {
+  margin: 0 auto 2rem auto;
 
   h1 {
-    margin: 0 0 10px;
-    font-size: clamp(28px, 4.2vw, 46px);
-    line-height: 1.10;
-    letter-spacing: -0.03em;
+    text-align: center;
+  }
+
+  .subhead {
+    max-width: 100%; 
+    text-align: left!important;
+  }
+
+  .promo {
+    text-align: center;
   }
 }
 
-.heroCard:nth-child(2) {
-  display: flex;
-  flex-direction: column;
-  padding: 8px;
-  gap: 8px;
-}
-.heroCard:nth-child(2) .grid3 .path {
-  padding: 8px 10px;
-  min-height: auto;
-
-  &:before {
-    display: none;
-  }
-
-  h3 {
-    font-size: 0.8rem;
-    margin: 0 0 2px;
-  }
-
-  p {
-    font-size: 0.72rem;
-    margin: 0;
-    line-height: 1.3;
-  }
+.heroSubtitle { 
+  color: $text-dark; 
 }
 
 .gradText {
@@ -258,6 +226,7 @@ html {
   flex-wrap: wrap;
   gap: 10px;
   align-items: center;
+  justify-content: center;
   margin: 14px 0 12px;
 }
 
@@ -274,6 +243,22 @@ html {
   font-size: 0.8125rem;
   white-space: nowrap;
   box-shadow: 0 14px 30px rgba(10, 20, 60, 0.18);
+  
+  a {
+    color: white;
+    text-decoration: underline;
+    font-weight: 950;
+    
+    &:hover {
+      color: white;
+      text-decoration: underline;
+      opacity: 0.9;
+    }
+    
+    &:visited {
+      color: white;
+    }
+  }
 }
 
 .spark {
@@ -295,6 +280,7 @@ html {
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;
   margin-top: 14px;
+  width: 100%;
 }
 
 .path {
@@ -312,17 +298,17 @@ html {
   &:before {
     content: "";
     position: absolute;
-    inset: -1px;
-    background: radial-gradient(420px 160px at 18% 0%, rgba($color-secondary, .22), transparent 60%);
+    inset: 0;
+    background: rgba($color-secondary, 0.08);
     pointer-events: none;
   }
 
   &:nth-child(2):before {
-    background: radial-gradient(420px 160px at 18% 0%, rgba($color-purple, .22), transparent 60%);
+    background: rgba($color-purple, 0.08);
   }
 
   &:nth-child(3):before {
-    background: radial-gradient(420px 160px at 18% 0%, rgba($color-accent, .22), transparent 60%);
+    background: rgba($color-accent, 0.08);
   }
 
   > * {
@@ -347,6 +333,39 @@ html {
     color: $text-color;
     font-size: 0.875rem;
   }
+
+  &:nth-child(1) .mini {
+    background: #2C7A9B;
+    border-color: rgba(44, 122, 155, 0.3);
+    color: white;
+
+    &:hover {
+      background: #236079;
+      color: white;
+    }
+  }
+
+  &:nth-child(2) .mini {
+    background: #8B5A99;
+    border-color: rgba(139, 90, 153, 0.3);
+    color: white;
+
+    &:hover {
+      background: #6E4678;
+      color: white;
+    }
+  }
+
+  &:nth-child(3) .mini {
+    background: #D97236;
+    border-color: rgba(217, 114, 54, 0.3);
+    color: white;
+
+    &:hover {
+      background: #B85A28;
+      color: white;
+    }
+  }
 }
 
 .ctaRow {
@@ -362,89 +381,39 @@ html {
   gap: 8px;
   padding: 8px 11px;
   border-radius: 999px;
-  border: 1px solid rgba($color-primary, 0.22);
-  background: linear-gradient(135deg, rgba($color-primary, 0.14), rgba($color-secondary, 0.12));
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #0a3ad1;
   font-weight: 950;
   font-size: 0.8125rem;
-  color: $text-dark;
+  color: white;
+  text-decoration: none;
+  transition: background .2s ease, transform .08s ease;
+
+  &:hover {
+    background: darken(#0a3ad1, 8%);
+    color: white;
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+
+  &:visited {
+    color: white;
+  }
 
   &.alt {
-    border-color: rgba(18, 32, 70, 0.16);
-    background: rgba($white, 0.92);
-    color: $text-color;
+    border-color: rgba(18, 32, 70, 0.20);
+    background: rgba(255, 255, 255, 0.92);
+    color: $text-dark;
     font-weight: 950;
-  }
-}
 
-// ── Right rail ──
-.rightRail {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
+    &:hover {
+      background: rgba(255, 255, 255, 1);
+      color: $text-dark;
+    }
 
-.railCard {
-  border-radius: $radius;
-  border: 1px solid rgba(18, 32, 70, 0.14);
-  background: rgba($white, 0.88);
-  padding: 16px;
-  box-shadow: $shadow;
-  backdrop-filter: blur(10px);
-
-  h2 {
-    margin: 0 0 10px;
-    font-size: 1rem;
-    letter-spacing: -0.01em;
-  }
-}
-
-.hp-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: grid;
-  gap: 10px;
-}
-
-.hp-item {
-  display: flex;
-  gap: 10px;
-  align-items: flex-start;
-  padding: 10px;
-  border-radius: 14px;
-  border: 1px solid rgba(18, 32, 70, 0.12);
-  background: rgba($white, 0.86);
-  box-shadow: 0 12px 28px rgba(10, 20, 60, 0.08);
-  backdrop-filter: blur(10px);
-
-  b {
-    display: block;
-    font-size: 0.875rem;
-  }
-
-  span {
-    display: block;
-    color: $text-color;
-    font-size: 0.8125rem;
-    margin-top: 2px;
-  }
-}
-
-.hp-icon {
-  width: 30px;
-  height: 30px;
-  border-radius: 12px;
-  border: 1px solid rgba($color-primary, 0.20);
-  background: linear-gradient(135deg, rgba($color-primary, 0.16), rgba($color-secondary, 0.14));
-  display: grid;
-  place-items: center;
-  flex: 0 0 auto;
-
-  svg {
-    width: 16px;
-    height: 16px;
-    opacity: 0.98;
-    color: $darkest-blue;
+    &:visited {
+      color: $text-dark;
+    }
   }
 }
 
@@ -461,6 +430,14 @@ html {
   gap: 14px;
   margin: 0 0 12px;
   flex-wrap: wrap;
+
+  div:first-child {
+    flex: 1;
+
+    p {
+      max-width: none;
+    }
+  }
 
   h2 {
     margin: 0;
@@ -487,17 +464,6 @@ html {
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;
 }
-
-.sectionTitle {
-  div:first-child {
-    flex: 1;
-
-    p {
-      max-width: none;
-    }
-  }
-}
-
 
 .hp-card {
   border-radius: $radius-sm;
@@ -535,6 +501,136 @@ html {
   }
 }
 
+// ── Make Camps section cards solid blue ──
+#camps {
+  .hp-card {
+    background: #E3F2FD;
+    
+    &:before {
+      display: none;
+    }
+  }
+  
+  .chip {
+    background: #2C7A9B !important;
+    border-color: rgba(44, 122, 155, 0.3) !important;
+    color: white !important;
+    font-weight: 950;
+
+    &:hover {
+      background: #236079 !important;
+      color: white !important;
+    }
+    
+    &:visited {
+      color: white !important;
+    }
+  }
+
+  .chip.alt {
+    background: rgba(255, 255, 255, 0.92) !important;
+    border-color: rgba(18, 32, 70, 0.20) !important;
+    color: $text-dark !important;
+    font-weight: 950;
+
+    &:hover {
+      background: rgba(255, 255, 255, 1) !important;
+      color: $text-dark !important;
+    }
+  }
+}
+
+// ── Make Classes section solid purple ──
+#classes {
+  .hp-card {
+    background: #F3E5F5;
+    
+    &:before {
+      display: none;
+    }
+  }
+  
+  .chip {
+    background: #8B5A99 !important;
+    border-color: rgba(139, 90, 153, 0.3) !important;
+    color: white !important;
+    font-weight: 950;
+
+    &:hover {
+      background: #6E4678 !important;
+      color: white !important;
+    }
+    
+    &:visited {
+      color: white !important;
+    }
+  }
+  
+  .chip.alt {
+    background: rgba(255, 255, 255, 0.92) !important;
+    border-color: rgba(18, 32, 70, 0.20) !important;
+    color: $text-dark !important;
+    font-weight: 950;
+
+    &:hover {
+      background: rgba(255, 255, 255, 1) !important;
+      color: $text-dark !important;
+    }
+  }
+}
+
+// ── Make WRO section solid orange ──
+#world-robot-olympiad {
+  .hp-card {
+    background: #FFF3E0;
+    
+    &:before {
+      display: none;
+    }
+  }
+  
+  .chip {
+    background: #D97236 !important;
+    border-color: rgba(217, 114, 54, 0.3) !important;
+    color: white !important;
+    font-weight: 950;
+
+    &:hover {
+      background: #B85A28 !important;
+      color: white !important;
+    }
+    
+    &:visited {
+      color: white !important;
+    }
+  }
+  
+  .chip.alt {
+    background: #D97236 !important;
+    border-color: rgba(217, 114, 54, 0.3) !important;
+    color: white !important;
+    font-weight: 950;
+
+    &:hover {
+      background: #B85A28 !important;
+      color: white !important;
+    }
+  }
+}
+
+// ── WRO section header button ──
+#world-robot-olympiad .sectionTitle .btn-new {
+  background: #D97236 !important;
+  border-color: rgba(217, 114, 54, 0.3) !important;
+  color: white !important;
+  
+  &:hover {
+    background: #B85A28 !important;
+    color: white !important;
+    box-shadow: 0 16px 38px rgba(217, 114, 54, 0.3) !important;
+  }
+}
+
 .hp-row {
   display: flex;
   gap: 10px;
@@ -568,34 +664,137 @@ html {
   }
 }
 
-// ── Trust section ──
+// ── Single card sections styling ──
+.hp-single-card {
+  padding: 24px 0;
+}
+
+.singleCard {
+  border-radius: $radius;
+  border: 1px solid rgba(18, 32, 70, 0.14);
+  padding: 24px 28px;
+  box-shadow: 0 14px 32px rgba(10, 20, 60, 0.08);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  
+  .cardContent {
+    flex: 1;
+    min-width: 300px;
+    
+    h2 {
+      margin: 0 0 8px;
+      font-size: 1.25rem;
+      letter-spacing: -0.01em;
+    }
+    
+    p {
+      margin: 0;
+      color: $text-color;
+      font-size: 0.9375rem;
+      line-height: 1.5;
+    }
+  }
+  
+  .cardAction {
+    flex-shrink: 0;
+  }
+}
+
+// Different background colors for each section
+#birthdays .singleCard {
+  background: #FFE8F0;
+}
+
+#gaming .singleCard {
+  background: #E8F5E9;
+}
+
+#tutoring .singleCard {
+  background: #E1F5FE;
+}
+
+// ── Trust section - solid color background ──
 .trust {
   border-radius: $radius;
   border: 1px solid rgba(18, 32, 70, 0.14);
-  background:
-    radial-gradient(1000px 260px at 12% 0%, rgba($color-secondary, .22), transparent 60%),
-    radial-gradient(900px 240px at 88% 0%, rgba($color-purple, .18), transparent 62%),
-    rgba($white, 0.88);
-  padding: 18px;
+  background: #F8F9FA; // Solid light gray, no gradients
+  padding: 32px;
   box-shadow: $shadow-lg;
-  backdrop-filter: blur(10px);
 }
 
-.trustGrid {
+.trustHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  
+  h2 {
+    margin: 0 0 8px;
+    font-size: 1.5rem;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 1rem;
+    color: $text-color;
+  }
+}
+
+.trustFeatures {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-  margin-top: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
-// ── Contact strip ──
+.trustFeature {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 16px;
+  border-radius: $radius-sm;
+  background: rgba($white, 0.8);
+  border: 1px solid rgba(18, 32, 70, 0.10);
+  
+  h3 {
+    margin: 0 0 6px;
+    font-size: 1.125rem;
+    color: $text-dark;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 0.9375rem;
+    color: $text-color;
+    line-height: 1.5;
+  }
+}
+
+.trustIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: $color-primary; // Solid blue, no gradient
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+// ── Contact strip - solid color ──
 .contactStrip {
   margin: 8px 0 24px;
   border-radius: $radius;
   border: 1px solid rgba(18, 32, 70, 0.14);
-  background:
-    linear-gradient(135deg, rgba($color-primary, .16), rgba($color-secondary, .14), rgba($color-accent, .12)),
-    rgba($white, 0.90);
+  background: #E3F2FD; // Solid light blue, no gradient
   padding: 18px;
   display: flex;
   align-items: center;
@@ -603,7 +802,6 @@ html {
   gap: 14px;
   flex-wrap: wrap;
   box-shadow: $shadow-lg;
-  backdrop-filter: blur(10px);
 
   b {
     display: block;
@@ -655,8 +853,7 @@ html {
   }
 }
 
-
-// ── No hamburger / drawer — force-hide in case of cached markup ──
+// ── No hamburger / drawer ──
 .menuBtn,
 .drawer {
   display: none !important;
@@ -672,7 +869,6 @@ html {
     flex-wrap: wrap !important;
   }
 
-  // Keep nav visible on all screens (no hamburger toggle)
   .site-header nav {
     display: flex !important;
     width: 100%;
@@ -681,10 +877,6 @@ html {
 
   .site-header .nav-list {
     justify-content: flex-start;
-  }
-
-  .heroGrid {
-    grid-template-columns: 1fr;
   }
 
   .paths {
@@ -710,6 +902,29 @@ html {
   .brand,
   .actions {
     min-width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .singleCard {
+    flex-direction: column;
+    align-items: flex-start;
+    
+    .cardAction {
+      width: 100%;
+      
+      .btn-new {
+        width: 100%;
+      }
+    }
+  }
+  
+  .trustFeatures {
+    grid-template-columns: 1fr;
+  }
+  
+  .trustHeader {
+    flex-direction: column;
   }
 }
 

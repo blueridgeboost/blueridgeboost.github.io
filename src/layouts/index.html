@@ -1,4 +1,3 @@
-
 {{/*
   Standalone homepage template — does NOT use baseof.html.
   By not using {{ define "main" }}, Hugo treats this as a complete page.
@@ -25,77 +24,37 @@
 {{/* ── Hero ── */}}
 <main class="hero">
   <div class="wrap">
-    <div class="heroGrid">
-      <div class="heroCard">
-        <h1>{{ .Params.hero_prefix | default "Hands-on" }} <span class="gradText">{{ .Params.hero_highlight | default "STEM learning" }}</span><br><span class="heroSubtitle">{{ .Params.hero_subtitle | default "for ages 6+ in Charlottesville." }}</span></h1>
-        <p class="subhead">{{ .Params.hero_description | default "Camps, classes, and STEM tutoring in Math, Robotics, Coding, AI, Game Development, and Science—built for kids and teens who learn by doing." }}</p>
+    {{/* Full-width title and description - centered at 75% width */}}
+    <div class="heroHeader">
+      {{ with .Params.promo_text }}
+      <div class="promo">
+        <span class="badge">
+          <span class="spark" aria-hidden="true"></span> 
+          {{ . | safeHTML }}
+        </span>
+        <!-- <span class="metaLine">{{ site.Params.promo_subtext | default "Lock in your spot and save today." }}</span> -->
+      </div>
+      {{ end }}
+      <h1 style="text-align: center;">{{ .Params.hero_prefix | default "Hands-on" }} <span class="gradText">{{ .Params.hero_highlight | default "STEM learning" }}</span><br><span class="heroSubtitle">{{ .Params.hero_subtitle | default "for ages 6+ in Charlottesville." }}</span></h1>
+      <p class="subhead" style="text-align: center;">{{ .Params.hero_description | default "Camps, classes, and STEM tutoring in Math, Robotics, Coding, AI, Game Development, and Science—built for kids and teens who learn by doing." }}</p>
 
-        {{ with site.Params.promo_text }}
-        <div class="promo">
-          <span class="badge">
-            <span class="spark" aria-hidden="true"></span> 
-            {{ . | safeHTML }}
-          </span>
-          <span class="metaLine">{{ site.Params.promo_subtext | default "Lock in your spot and save today." }}</span>
-        </div>
-        {{ end }}
+      
+    </div>
 
-        <div class="paths" aria-label="Primary pathways">
-          {{ range .Params.pathways }}
-          <div class="path">
-            <h3>{{ .title }}</h3>
-            <p>{{ .description }}</p>
-            <div class="ctaRow">
-              <a class="mini" href="{{ .cta_url | relURL }}">{{ .cta_text }}</a>
-              {{ if .badge_text }}
-              <span class="mini alt">{{ if .badge_url }}<a href="{{ .badge_url | relURL }}">{{ .badge_text }}</a>{{ else }}{{ .badge_text }}{{ end }}</span>
-              {{ end }}
-            </div>
-          </div>
+    {{/* Three cards in grid */}}
+    <div class="paths" aria-label="Primary pathways">
+      {{ range .Params.pathways }}
+      <div class="path">
+        <h3>{{ .title }}</h3>
+        <p>{{ .description }}</p>
+        <div class="ctaRow">
+          <a class="mini" href="{{ .cta_url | relURL }}">{{ .cta_text }}</a>
+          {{ if .badge_text }}
+          <span class="mini alt">{{ if .badge_url }}<a href="{{ .badge_url | relURL }}">{{ .badge_text }}</a>{{ else }}{{ .badge_text }}{{ end }}</span>
           {{ end }}
         </div>
-
-        <!-- <p class="metaLine" style="margin:14px 0 0;">
-          <b style="color:#071022;">{{ site.Params.brand_name | default "Blue Ridge Boost" }}</b>
-          • {{ site.Params.full_address | default "2171 Ivy Rd • Charlottesville, VA 22903" }}
-          {{ with site.Params.phone }}• <a href="tel:{{ site.Params.phone_raw }}">{{ . }}</a>{{ end }}
-          {{ with site.Params.email }}• <a href="mailto:{{ . }}">{{ . }}</a>{{ end }}
-        </p> -->
       </div>
-
-      {{/* ── Right rail ── */}}
-      <aside class="rightRail" aria-label="Quick links and highlights">
-        <div class="railCard">
-          <h2>Popular right now</h2>
-          <ul class="hp-list">
-            {{ range .Params.popular }}
-            <li class="hp-item">
-              <div class="hp-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none"><path d="{{ .icon_path }}" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-              </div>
-              <div>
-                <b><a href="{{ .url | relURL }}">{{ .title }}</a></b>
-                <span>{{ .description }}</span>
-              </div>
-            </li>
-            {{ end }}
-          </ul>
-        </div>
-
-        {{ with .Params.community_cards }}
-        <div class="railCard">
-          <h2>Events &amp; community</h2>
-          <div class="grid3" style="margin-top:10px;">
-            {{ range . }}
-            <div class="hp-card">
-              <h3><a href="{{ .url | relURL }}">{{ .title }}</a></h3>
-              <p>{{ .description }}</p>
-            </div>
-            {{ end }}
-          </div>
-        </div>
-        {{ end }}
-      </aside>
+      {{ end }}
     </div>
   </div>
 </main>
@@ -116,6 +75,9 @@
         <p>{{ .description | safeHTML }}</p>
         <div class="hp-row">
           <a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a>
+          {{ if .badge_text }}
+          <span class="chip alt">{{ .badge_text }}</span>
+          {{ end }}
         </div>
       </div>
       {{ end }}
@@ -144,115 +106,73 @@
   </div>
 </section>
 
-
-{{/* ── Tutoring ── */}}
-<section class="hp-section" id="tutoring">
+{{/* ── World Robot Olympiad ── */}}
+<section class="hp-section" id="world-robot-olympiad">
   <div class="wrap">
     <div class="sectionTitle">
       <div>
-        <h2>Tutoring (Ages 6+)</h2>
-        <p>Personalized help across STEM. Build confidence, strengthen fundamentals, and keep momentum.</p>
+        <h2>World Robot Olympiad 2026</h2>
+        <p>Blue Ridge Boost is hosting the WRO-USEL Regional Open Qualifier on September 5-6, 2026. Top teams advance to international championships!</p>
       </div>
+      <a class="btn-new small" href="/wro/">Full Competition Details</a>
     </div>
-    <div class="grid3" aria-label="Tutoring benefits">
-      {{ range .Params.tutoring }}
+    <div class="grid4" aria-label="WRO categories" style="grid-template-columns: repeat(2, 1fr);">
+      {{ range .Params.wro }}
       <div class="hp-card">
         <h3>{{ .title }}</h3>
-        <p>{{ .description }}</p>
+        <p>{{ .description | safeHTML }}</p>
         <div class="hp-row">
           <a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a>
+          {{ if .badge_text }}
+          <span class="chip alt">{{ .badge_text }}</span>
+          {{ end }}
         </div>
       </div>
       {{ end }}
     </div>
   </div>
 </section>
-
-
-{{/* ── Robotics Competitions ── */}}
-<section class="hp-section" id="robotics">
-  <div class="wrap">
-    <div class="sectionTitle">
-      <div>
-        <h2>Robotics Competitions and Teams</h2>
-        <p>For students interested in robotics and STEM competitions.</p>
-      </div>
-    </div>
-    <div class="grid3" aria-label="Robotics team highlights">
-      {{ range .Params.robotics }}
-      <div class="hp-card">
-        <h3>{{ .title }}</h3>
-        <p>{{ .description | safeHTML }}</p>
-        <a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-
-{{/* ── Math ── */}}
-<section class="hp-section" id="math">
-  <div class="wrap">
-    <div class="sectionTitle">
-      <div>
-        <h2>Math Competitions</h2>
-        <p>Preparation and practice for math competitions.</p>
-      </div>
-    </div>
-    <div class="grid3" aria-label="Math highlights">
-      {{ range .Params.math }}
-      <div class="hp-card">
-        <h3>{{ .title }}</h3>
-        <p>{{ .description | safeHTML }}</p>
-        <a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-
 {{/* ── Birthdays ── */}}
-<section class="hp-section" id="birthdays">
+<section class="hp-section hp-single-card" id="birthdays">
   <div class="wrap">
-    <div class="sectionTitle">
-      <div>
-        <h2>Birthday Parties</h2>
-        <p>Tech-powered birthday adventures with gaming and robotics fun for up to 16 kids.</p>
+    <div class="singleCard">
+      <div class="cardContent">
+        <h2>{{ .Params.birthdays.title }}</h2>
+        <p>{{ .Params.birthdays.description | safeHTML }}</p>
       </div>
-    </div>
-    <div class="grid3" aria-label="Birthday party options">
-      {{ range .Params.birthdays }}
-      <div class="hp-card">
-        <h3>{{ .title }}</h3>
-        <p>{{ .description | safeHTML }}</p>
-        {{ if .cta_text }}
-        <div class="hp-row"><a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a></div>
-        {{ end }}
+      <div class="cardAction">
+        <a class="btn-new primary" href="{{ .Params.birthdays.url | relURL }}">{{ .Params.birthdays.cta_text }}</a>
       </div>
-      {{ end }}
     </div>
   </div>
 </section>
 
 {{/* ── Gaming ── */}}
-<section class="hp-section" id="gaming">
+<section class="hp-section hp-single-card" id="gaming">
   <div class="wrap">
-    <div class="sectionTitle">
-      <div>
-        <h2>Gaming Fridays</h2>
-        <p>Cooperative, instructor-led gaming nights where kids team up, strategize, and have fun together.</p>
+    <div class="singleCard">
+      <div class="cardContent">
+        <h2>{{ .Params.gaming.title }}</h2>
+        <p>{{ .Params.gaming.description | safeHTML }}</p>
+      </div>
+      <div class="cardAction">
+        <a class="btn-new primary" href="{{ .Params.gaming.url | relURL }}">{{ .Params.gaming.cta_text }}</a>
       </div>
     </div>
-    <div class="grid3" aria-label="Gaming Friday highlights">
-      {{ range .Params.gaming }}
-      <div class="hp-card">
-        <h3>{{ .title }}</h3>
-        <p>{{ .description | safeHTML }}</p>
-        {{ if .cta_text }}
-        <div class="hp-row"><a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a></div>
-        {{ end }}
+  </div>
+</section>
+
+{{/* ── Tutoring ── */}}
+<section class="hp-section hp-single-card" id="tutoring">
+  <div class="wrap">
+    <div class="singleCard">
+      <div class="cardContent">
+        <h2>{{ .Params.tutoring.title }}</h2>
+        <p>{{ .Params.tutoring.description | safeHTML }}</p>
       </div>
-      {{ end }}
+      <div class="cardAction">
+        <a class="btn-new primary" href="{{ .Params.tutoring.url | relURL }}">{{ .Params.tutoring.cta_text }}</a>
+      </div>
     </div>
   </div>
 </section>
@@ -261,18 +181,21 @@
 <section class="hp-section" id="about">
   <div class="wrap">
     <div class="trust">
-      <div class="sectionTitle" style="margin-bottom: 0;">
+      <div class="trustHeader">
         <div>
           <h2>Why parents choose {{ site.Params.brand_name | default "Blue Ridge Boost" }}</h2>
           <p>Clear communication, hands-on learning, and a supportive environment for ages 6+—right here in Charlottesville.</p>
         </div>
-        <a class="btn-new ghost small" href="/instructors">Meet the Instructors</a>
+        <a class="btn-new primary" href="/instructors">Meet the Instructors</a>
       </div>
-      <div class="trustGrid" aria-label="Trust features">
+      <div class="trustFeatures">
         {{ range .Params.trust }}
-        <div class="hp-card">
-          <h3>{{ .title }}</h3>
-          <p>{{ .description }}</p>
+        <div class="trustFeature">
+          <div class="trustIcon">✓</div>
+          <div>
+            <h3>{{ .title }}</h3>
+            <p>{{ .description }}</p>
+          </div>
         </div>
         {{ end }}
       </div>
