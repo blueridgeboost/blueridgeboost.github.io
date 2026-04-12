@@ -25,6 +25,40 @@ function studentKey(parentEmail, studentName) {
   return `${normalizeKey(parentEmail)}|${normalizeKey(studentName)}`;
 }
 
+// Builds a row for the Enrollments sheet based on the provided enrollment data
+function buildEnrollmentRow(enrollIdx, enrollmentHeaders, { brbId, studentName, parentEmail, parentName, parentPhone, orderId, purchaseDate }) {
+  const sk = studentKey(parentEmail, studentName);
+  const row = new Array(enrollmentHeaders.length).fill('');
+
+  row[enrollIdx('brb_id')] = brbId;
+  row[enrollIdx('student_key')] = sk;
+  row[enrollIdx('student_name')] = studentName;
+
+  if (enrollIdx('parent_name') !== -1) row[enrollIdx('parent_name')] = parentName;
+  if (enrollIdx('parent_email') !== -1) row[enrollIdx('parent_email')] = parentEmail;
+  if (enrollIdx('parent_phone') !== -1) row[enrollIdx('parent_phone')] = parentPhone;
+  if (enrollIdx('order_id') !== -1) row[enrollIdx('order_id')] = orderId;
+  if (enrollIdx('purchase_date') !== -1) row[enrollIdx('purchase_date')] = purchaseDate;
+  if (enrollIdx('active') !== -1) row[enrollIdx('active')] = 'true';
+  if (enrollIdx('last_sync_at') !== -1) row[enrollIdx('last_sync_at')] = new Date().toISOString();
+
+  return row;
+}
+
+// utility function to process items concurrently with max limit. 
+async function mapWithConcurrency(items, fn, concurrency = 3) {
+  const results = [];
+  let i = 0;
+  async function next() {
+    while (i < items.length) {
+      const idx = i++;
+      results[idx] = await fn(items[idx], idx);
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(concurrency, items.length) }, () => next()));
+  return results;
+}
+
 // ---------- main logic ----------
 
 async function main() {
@@ -67,14 +101,26 @@ async function main() {
   const IN_PROGRESS = 'CUSTOM_FULFILLMENT_STATUS_1';
   const NEW_ORDER = 'AWAITING_PROCESSING';
 
-  for (const c of classes) {
-    if (!c?.enabled) continue;
-
+  const enabledClasses = classes.filter((c) => {
+    if (!c?.enabled) return false;
     const brbId = getAttributeValue(c, 'brb_id');
     if (!brbId) {
       console.warn(`Class ${c?.name || '(unnamed)'} is missing brb_id, skipping`);
-      continue;
+      return false;
     }
+    return true;
+  });
+
+  // Fetch orders for all classes concurrently (max 3 at a time to avoid rate limits)
+  const ordersPerClass = await mapWithConcurrency(
+    enabledClasses,
+    (c) => getOrdersByProductId(c.id),
+    3
+  );
+
+  for (let ci = 0; ci < enabledClasses.length; ci++) {
+    const c = enabledClasses[ci];
+    const brbId = getAttributeValue(c, 'brb_id');
 
     const classType = getAttributeValue(c, 'class_type');
     const teacherEmails = getAttributeValue(c, 'teacher_emails');
@@ -85,7 +131,7 @@ async function main() {
 
     // --- Classes row ---
     // if we have existing row for this BRB ID, copy it and overwrite with new values, otherwise create new row
-    const classRow = existingBRBIds.has(brbId) 
+    const classRow = existingBRBIds.has(brbId)
      ? [...existingBRBIds.get(brbId)] : new Array(classHeaders.length).fill('');
 
     classRow[classIdx('brb_id')] = brbId;
@@ -103,7 +149,7 @@ async function main() {
     classRows.push(classRow);
 
     // --- Pull orders for this class → build enrollment rows ---
-    const orders = await getOrdersByProductId(c.id);
+    const orders = ordersPerClass[ci];
 
     for (const order of orders || []) {
       if (![IN_PROGRESS, NEW_ORDER].includes(order?.fulfillmentStatus)) continue;
@@ -116,62 +162,29 @@ async function main() {
           order?.orderExtraFields?.find((f) => f?.title === title)?.value;
 
         let name1 = getExtra("First Student's Name");
-        let grade1 = getExtra("First Student's Grade");
         let name2 = getExtra("[Optional] Second Student's Name");
-        let grade2 = getExtra("[Optional] Second Student's Grade");
 
         const options = item?.selectedOptions || [];
         const getOpt = (name) => options.find((opt) => opt?.name === name)?.value;
 
         if (!name1) name1 = getOpt("Student's Name");
-        if (!grade1) grade1 = getOpt("Student's Grade");
         if (!name2) name2 = getOpt("Additional Name (if signing up more than one)");
-        if (!grade2) grade2 = getOpt("Additional Grade");
 
-        const parentEmail = order?.email || '';
-        const parentName = order?.billingPerson?.name || '';
-        const parentPhone = order?.billingPerson?.phone || '';
-        const orderId = order?.id ? String(order.id) : '';
-        const purchaseDate = order?.purchaseDate || '';
+        const shared = {
+          brbId,
+          parentEmail: order?.email || '',
+          parentName: order?.billingPerson?.name || '',
+          parentPhone: order?.billingPerson?.phone || '',
+          orderId: order?.id ? String(order.id) : '',
+          purchaseDate: order?.purchaseDate || '',
+        };
 
-        // add first student
         if (name1) {
-          const sk = studentKey(parentEmail, name1);
-          const row = new Array(enrollmentHeaders.length).fill('');
-
-          row[enrollIdx('brb_id')] = brbId;
-          row[enrollIdx('student_key')] = sk;
-          row[enrollIdx('student_name')] = name1;
-
-          if (enrollIdx('parent_name') !== -1) {row[enrollIdx('parent_name')] = parentName;}
-          if (enrollIdx('parent_email') !== -1) {row[enrollIdx('parent_email')] = parentEmail;}
-          if (enrollIdx('parent_phone') !== -1) {row[enrollIdx('parent_phone')] = parentPhone;}
-          if (enrollIdx('order_id') !== -1) {row[enrollIdx('order_id')] = orderId;}
-          if (enrollIdx('purchase_date') !== -1) {row[enrollIdx('purchase_date')] = purchaseDate;}
-          if (enrollIdx('active') !== -1) {row[enrollIdx('active')] = 'true';}
-          if (enrollIdx('last_sync_at') !== -1) {row[enrollIdx('last_sync_at')] = new Date().toISOString();}
-
-          enrollmentRows.push(row);
+          enrollmentRows.push(buildEnrollmentRow(enrollIdx, enrollmentHeaders, { ...shared, studentName: name1 }));
         }
 
-        // add second student if quantity > 1
         if ((item?.quantity || 0) > 1 && name2) {
-          const sk = studentKey(parentEmail, name2);
-          const row = new Array(enrollmentHeaders.length).fill('');
-
-          row[enrollIdx('brb_id')] = brbId;
-          row[enrollIdx('student_key')] = sk;
-          row[enrollIdx('student_name')] = name2;
-
-          if (enrollIdx('parent_name') !== -1) {row[enrollIdx('parent_name')] = parentName;}
-          if (enrollIdx('parent_email') !== -1) {row[enrollIdx('parent_email')] = parentEmail;}
-          if (enrollIdx('parent_phone') !== -1) {row[enrollIdx('parent_phone')] = parentPhone;}
-          if (enrollIdx('order_id') !== -1) {row[enrollIdx('order_id')] = orderId;}
-          if (enrollIdx('purchase_date') !== -1) {row[enrollIdx('purchase_date')] = purchaseDate;}
-          if (enrollIdx('active') !== -1) {row[enrollIdx('active')] = 'true';}
-          if (enrollIdx('last_sync_at') !== -1) {row[enrollIdx('last_sync_at')] = new Date().toISOString();}
-
-          enrollmentRows.push(row);
+          enrollmentRows.push(buildEnrollmentRow(enrollIdx, enrollmentHeaders, { ...shared, studentName: name2 }));
         }
       }
     }

@@ -1,6 +1,6 @@
-import mailchimp from '@mailchimp/mailchimp_transactional';
 import path from 'path';
 import dotenv from 'dotenv';
+import mailchimp from '@mailchimp/mailchimp_transactional';
 import { mustEnv, getClients, readClassesTable } from './google-utils.js';
 
 const envPath = path.join(process.cwd(), '..', '.env');
