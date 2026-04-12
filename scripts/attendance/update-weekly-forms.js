@@ -1,4 +1,3 @@
-import { getOrdersByProductId } from '../ecwid.js';
 import path from 'path';
 import dotenv from 'dotenv';
 import {mustEnv, getClients, writeCellsBatch, readSheetTable, colToA1,} from './google-utils.js';

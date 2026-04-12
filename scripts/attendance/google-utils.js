@@ -57,12 +57,6 @@ export function colToA1(n) {
 }
 
 
-export async function writeCell(sheets, spreadsheetId, sheetName, colIndex0, rowIndex1, value) {
-    const colLetter = colToA1(colIndex0 + 1);
-    const range = `${sheetName}!${colLetter}${rowIndex1}`;
-    await sheets.spreadsheets.values.update({spreadsheetId,range,valueInputOption: 'RAW',requestBody: { values: [[value]] },});
-}
-
 // write cells at once to reduce number of API calls
 export async function writeCellsBatch(sheets, spreadsheetId, updates) {
   let lastError;
@@ -87,7 +81,6 @@ export async function writeCellsBatch(sheets, spreadsheetId, updates) {
       throw e;
     }
   }
-
   throw lastError;
 }
 

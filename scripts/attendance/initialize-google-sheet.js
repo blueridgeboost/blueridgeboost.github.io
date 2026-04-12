@@ -1,18 +1,15 @@
-import 'dotenv/config';
 import { google } from 'googleapis';
 import path from 'path';
 import dotenv from 'dotenv';
+import { colToA1 } from './google-utils';
 
-// the .env must contain a path to a Google service account json keyfile with access to the target spreadsheet.
-// must also contain ATTENDANCE_SHEET_ID of the target spreadsheet. The spreadsheet should already be shared with the service account email.
+// the .env must contain google OAuth refresh token or service account keyfile path.
+// must also contain ATTENDANCE_SPREADSHEET_ID of the target spreadsheet. The spreadsheet should already be shared with the service account email.
 // Construct the path to the .env file
 const envPath = path.join(process.cwd(), '..', '.env');
 // Load the .env file
 dotenv.config({ path: envPath });
 
-
-// for now will assume the sheet is already created and shared with google service account.
-// In the future, we could add logic to create the sheet, periodically making new ones if need be.
 
 const TAB_HEADERS = {
     Classes: ['brb_id','ecwid_product_id','class_name','teacher_emails','day_of_week','start_date','end_date','class_status','form_id','form_edit_url','form_response_url','last_roster_sync_at', 'teacher_email'],
@@ -21,21 +18,9 @@ const TAB_HEADERS = {
 };
 
 
-// Convert column count -> A1 column letter (1->A, 26->Z, 27->AA)
-function colToA1(n) {
-  let s = '';
-  while (n > 0) {
-    const r = (n - 1) % 26;
-    s = String.fromCharCode(65 + r) + s;
-    n = Math.floor((n - 1) / 26);
-  }
-  return s;
-}
-
-
 async function main() {
     const spreadsheetId = process.env.ATTENDANCE_SPREADSHEET_ID;
-    if (!spreadsheetId) throw new Error('Missing ATTENDANCE_SHEET_ID in .env');
+    if (!spreadsheetId) throw new Error('Missing ATTENDANCE_SPREADSHEET_ID in .env');
     if (!process.env.GOOGLE_KEYFILE) throw new Error('Missing GOOGLE_KEYFILE in .env');
 
     const auth = new google.auth.GoogleAuth({

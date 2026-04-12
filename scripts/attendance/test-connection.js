@@ -1,15 +1,10 @@
 import path from 'path';
 import dotenv from 'dotenv';
 import { google } from 'googleapis';
+import { mustEnv } from './google-utils';
 
 // Load .env (adjust path if needed)
 dotenv.config({ path: path.join(process.cwd(),'..', '.env') });
-
-function mustEnv(name) {
-  const v = process.env[name];
-  if (!v) throw new Error(`Missing ${name} in .env`);
-  return v;
-}
 
 const SCOPES = [
   'https://www.googleapis.com/auth/spreadsheets',
