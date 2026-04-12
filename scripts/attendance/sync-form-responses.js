@@ -27,8 +27,7 @@ function buildQuestionDateMap(formItems) {
     const description = (item?.description || '').trim();
 
     if (questionId && /^\d{4}-\d{2}-\d{2}$/.test(description)) { // checks for validity of ISO date
-                                                                 // ie. xxxx-xx-xx where x is a digit
-      map.set(questionId, description);
+      map.set(questionId, description);                          // ie. xxxx-xx-xx where x is a digit
     }
   }
 
@@ -100,7 +99,7 @@ async function main() {
 
     console.log(`Processing responses for ${brbId} - ${className} (form=${formId})...`);
 
-    // 3 Get the form definition to map questionId -> date
+    // Get the form definition to map questionId -> date
     let formDef;
     try {
       const formRes = await forms.forms.get({ formId });
@@ -119,7 +118,7 @@ async function main() {
       continue;
     }
 
-    // 3 continued: Fetch all responses
+    // Fetch all responses
     let responses = [];
     let nextPageToken;
 
@@ -147,7 +146,7 @@ async function main() {
 
     console.log(`  Found ${responses.length} response(s).`);
 
-    // 3 continued: Parse each response
+    // Parse each response
     for (let rIdx = 0; rIdx < responses.length; rIdx++) {
       const response = responses[rIdx];
       const submissionTimestamp = response.lastSubmittedTime || response.createTime || '';
@@ -163,9 +162,7 @@ async function main() {
         for (const ta of textAnswers) {
           const studentKey = parseStudentKey(ta.value);
           if (!studentKey) continue;
-
           const key = ledgerKey(brbId, classDate, studentKey);
-
           if (existingKeys.has(key)) continue; // already recorded
 
           // Build the new row
@@ -184,7 +181,6 @@ async function main() {
           existingKeys.add(key); // prevent duplicates within this run
         }
       }
-
       totalResponsesProcessed++;
     }
   }
@@ -195,7 +191,6 @@ async function main() {
   } else {
     // Append starting after the last existing row
     const startRow = ledgerRows.length + 2; // +1 for header, +1 for 1-indexed
-
     // Batch the writes in chunks to stay within API limits
     const CHUNK_SIZE = 500;
 

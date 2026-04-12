@@ -1,182 +1,127 @@
 ---
-title: "Blue Ridge Boost — Hands-on STEM learning (Ages 6+) in Charlottesville"
-description: "Blue Ridge Boost in Charlottesville offers hands-on STEM camps, classes, and tutoring (ages 6+) in Math, Robotics, Coding, AI, Game Development, and Science."
+####################### Hero Section #########################
+hero_prefix: "Summer 2026"
+hero_highlight: "Camps & Competitions"
+hero_subtitle: "at Blue Ridge Boost in Charlottesville"
+hero_description: "Choose from summer STEM camps, coding and robotics bootcamps, summer classes with SAT Math Review, or compete in the WRO-USEL Regional Open Qualifier. Registration now open!"
 
-# Hero
-hero_title: "Hands-on STEM learning"
-hero_subtitle: "for ages 6+ in Charlottesville."
-hero_description: "Camps, classes, and tutoring in Math, Robotics, Science, and Coding for kids and teens who learn by doing."
+promo_text: 'Last 1-day camp of the Spring is on April 21, 2025. Register <a href="/1-day-camps/#!/1-Day-Camp-on-2026-04-21/p/827128805">now</a>!'
 
-# Pathway cards in hero
+####################### Pathways (Hero Cards) #########################
 pathways:
-  - title: "Camps"
-    description: "Engaging projects across STEM all season long, including spring, summer, and winter break."
-    cta_text: "Explore Camps"
-    cta_url: "/camps"
-  - title: "Classes"
-    description: "Weekly learning that builds real skills over time. Great for families who want consistency."
+  - title: "Summer Camps and Bootcamps"
+    description: "Week-long programs from beginner camps to intensive bootcamps. Explore coding, robotics, AI, game design, and engineering with hands-on projects!"
+    cta_url: "/camps/"
+    cta_text: "View All Camps"
+    badge_text: "Ages 6-18"
+    
+  - title: "Summer Classes"
+    description: "Weekly classes in math, coding, and robotics to keep skills sharp all summer. Featuring our new SAT Math Review course for high schoolers preparing for standardized tests!"
+    cta_url: "/classes/"
     cta_text: "Browse Classes"
-    cta_url: "/classes"
-  - title: "Tutoring"
-    description: "Personalized support to build confidence, strengthen fundamentals, and keep momentum."
-    cta_text: "Get Tutoring Help"
-    cta_url: "/tutoring"
+    badge_text: "Ages 6+"
+    
+  - title: "WRO-USEL Competition"
+    description: "Join the Regional Qualifier on September 5-6, 2026 at UVA. Compete in RoboMission, RoboSports, Future Innovators, or Future Engineers to advance internationally!"
+    cta_url: "/wro/"
+    cta_text: "Register Now"
+    badge_text: "Ages 8-19"
 
-# Popular right now
-popular:
-  - title: "Summer Camps (10% Early Bird, expires May 31st)"
-    description: "Hands-on projects in Math, Robotics, Coding, AI, Game Development, and Science."
-    url: "/summer-camps"
-    icon_path: "M12 2v4m0 12v4M4 12H2m20 0h-2M6 6l-1.5-1.5M19.5 19.5 18 18M18 6l1.5-1.5M4.5 19.5 6 18"
-  - title: "Tutoring (Math and Computer Science)"
-    description: "Personalized help to strengthen foundations."
-    url: "/tutoring"
-    icon_path: "M12 2a10 10 0 1 0 10 10 M12 6v6l4 2"
-
-# Events & community sidebar
-community_cards:
-  - title: "Gaming Fridays"
-    description: "Game-focused learning and fun."
-    url: "/gaming-fridays"
-  - title: "Birthday Parties"
-    description: "STEM-themed celebrations."
-    url: "/birthdays"
-  - title: "World Robot Olympiad"
-    description: "Compete in Charlottesville."
-    url: "/wro"
-
-# Camps section
+####################### Camps #########################
 camps:
   - title: "Summer Camps"
-    description: '<b>Early Bird: Save 10% until May 31st</b>. Engaging projects all summer across STEM topics.'
-    url: "/summer-camps"
-    cta_text: "Explore Summer Camps"
-  - title: "Spring Break Camps"
-    description: "Great for school breaks. Hands-on STEM projects in a fun environment."
-    url: "/spring-break-camps"
-    cta_text: "View Spring Break"
-  - title: "1‑Day Camps"
-    description: "Try a topic for a day—perfect for sampling robotics, coding, and more."
-    url: "/1-day-camps"
-    cta_text: "View 1‑Day Camps"
+    description: "Creative tech camps for beginners: coding, robotics, game design, Minecraft, and science."
+    url: "/summer-camps/"
+    cta_text: "Browse Summer Camps"
+    badge_text: "Ages 6-12"
+    
   - title: "Advanced STEM Camps"
-    description: "Ages 13+ (advanced 11–12 welcome). Week-long, project-based camps in advanced robotics, Python/AI, and game development."
-    url: "/advanced-stem-camps"
-    cta_text: "Advanced STEM Camps"
-  - title: "Robotics Bootcamp"
-    description: "Ages 13+. Earn a Carnegie Mellon Robotics Academy certification. 1 week full-day or 2 weeks half-day. $1,299.99."
-    url: "/bootcamps"
-    cta_text: "Robotics Bootcamp"
-  - title: "Coding Bootcamp"
-    description: "Ages 13+. Earn a CodeHS certification in a focused, small-group setting. 1 week full-day or 2 weeks half-day. $1,299.99."
-    url: "/bootcamps"
-    cta_text: "Coding Bootcamp"
+    description: "Deep technical learning for experienced students: robotics, coding, and game design."
+    url: "/advanced-stem-camps/"
+    cta_text: "View Advanced Camps"
+    badge_text: "Ages 13-18"
+    
+  - title: "Bootcamps"
+    description: "Intensive skill-building programs: Python, Java, Web Development, and robotics."
+    url: "/bootcamps/"
+    cta_text: "Explore Bootcamps"
+    badge_text: "Ages 13-18"
 
-# Classes section
+####################### Classes #########################
 classes:
-  - title: "For kids & teens (Ages 6+)"
-    description: "Programs designed to be engaging and age-appropriate for a wide range of learners."
-    url: "/classes"
-    cta_text: "Find the right level"
-  - title: "For independent learners"
-    description: "Options for independent learners and families looking for flexible math, science, and engineering in-person classes."
-    url: "/independent-learners"
-    cta_text: "Independent learners info"
-  - title: "Classes for Adults"
-    description: "Practical, project-based STEM for adults. From beginner-friendly introductions to advanced skill-building tracks."
-    url: "/adults"
-    cta_text: "Browse adult classes"
+  - title: "ACT & SAT Math Review"
+    description: "Summer intensive for high schoolers. Comprehensive review of algebra, geometry, and problem-solving strategies for SAT success."
+    url: "/classes/teens/"
+    cta_text: "ACT/SAT Math Info"
+    
+  - title: "Summer Competition Math"
+    description: "Ongoing weekly classes, from first to tenth grade with a focus on Math Kangaroo and AMC 8/10 style problems and topics."
+    url: "/classes/math"
+    cta_text: "View Classes"
+    
+  - title: "Summer Robotics Classes"
+    description: "Build, program, and compete with robots. Weekly classes and competition prep for WRO. Ages 8 to 18."
+    url: "/classses/robotics"
+    cta_text: "View Robotics Classes"
 
+####################### World Robot Olympiad #########################
+wro:
+  - title: "RoboMission"
+    description: "Autonomous robot challenges on themed playing fields—similar to FIRST LEGO League robot game but with more creative freedom. Teams program robots to complete missions while adapting to surprise rule changes. Elementary, Junior, and Senior divisions available."
+    url: "/wro/#robomission"
+    cta_text: "Learn More"
+    badge_text: "Ages 8-19"
+    
+  - title: "RoboSports"
+    description: "Head-to-head robot competitions combining strategy and engineering. Build robots that compete in sports-themed challenges like tennis doubles. Fast-paced action meets technical precision!"
+    url: "/wro/#robosports"
+    cta_text: "Learn More"
+    badge_text: "Ages 8-19"
+    
+  - title: "Future Innovators"
+    description: "Design and present robotics solutions to real-world problems—like FIRST LEGO League Innovation Project or Science Fair Engineering but on an international stage. Perfect for creative problem-solvers who want to make an impact with technology."
+    url: "/wro/#future-innovators"
+    cta_text: "Learn More"
+    badge_text: "Ages 8-19"
+    
+  - title: "Future Engineers"
+    description: "Build self-driving vehicles that navigate tracks autonomously—the ultimate challenge in sensors, AI, and precision control. Similar to autonomous vehicle competitions but specifically designed for student teams."
+    url: "/wro/#future-engineers"
+    cta_text: "Learn More"
+    badge_text: "Ages 14-19"
+
+####################### Birthdays #########################
 birthdays:
-  - title: "STEM Birthday Parties"
+  title: "STEM Birthday Parties"
+  description: "Tech-powered birthday adventures with gaming, robotics, and science fun. Choose from three exciting themes for kids ages 6+. We handle everything—up to 16 kids, 2 hours of hands-on activities!"
+  url: "/birthdays/"
+  cta_text: "Plan Your Party"
 
-# Tutoring section
-tutoring:
-  - title: "What we tutor"
-    description: "Math (all levels), AP Calculus AB/BC, AP Statistics, AP Physics (C), AP Computer Science"
-    url: "/tutoring"
-    cta_text: "All subjects"
-  - title: "How it works"
-    description: "1-on-1 support that helps students understand the \"why,\" with real problems, code, and projects."
-    url: "/tutoring"
-    cta_text: "Learn more"
-  - title: "Get started"
-    description: "Easy contact and clear next steps to find a plan that fits your schedule."
-    url: "/tutoring"
-    cta_text: "Request Tutoring"
-
-# events:
-#   - title: "Birthday Parties"
-#     description: "Celebrate with a STEM twist—hands-on fun kids remember."
-#     url: "/birthdays"
-#     cta_text: "Ask about parties"
-#   - title: "Open House"
-#     description: "Tour the space, meet the team, and find the right fit for your child."
-#     url: "/open-house"
-#     cta_text: "Next open house"
-
-robotics:
-  - title: "World Robot Olympiad"
-    description: "Blue Ridge Boost hosts the WRO-USEL Open Championship. Compete locally for a chance to advance to the World Robot Olympiad Open Championships."
-    url: "/wro"
-    cta_text: "WRO details"
-  - title: "FIRST LEGO League"
-    description: 'Beginner-friendly classes for FIRST LEGO League Explore (Ages 6–10) and Challenge (Ages 9–14). No tryouts required. Competitive teams organized by <a href="https://teamupforstem.org/">Team Up for STEM</a>.'
-    url: "/first"
-    cta_text: "FLL details"
-  - title: "Aerial Drone Competition"
-    description: 'Learn to fly and program drones through the annual Aerial Drone Competition challenge. No tryouts required. Competitive teams organized by <a href="https://teamupforstem.org/">Team Up for STEM</a>.'
-    url: "/drones"
-    cta_text: "ADC details"
-math:
-  - title: "Math Olympiad (MOEMS)"
-    description: 'A welcoming introduction to math competitions, ideal for students trying competitions for the first time. Grades 4–8. Organized by <a href="https://teamupforstem.org/">Team Up for STEM</a> and held at Blue Ridge Boost.'
-    url: "/math-competitions/moems"
-    cta_text: "MOEMS details"
-  - title: "Math Kangaroo"
-    description: 'International puzzle-style math competition for grades 1–12 — perfect for our youngest mathematicians and anyone who enjoys creative problem-solving. Organized by <a href="https://teamupforstem.org/">Team Up for STEM</a> and held at Blue Ridge Boost.'
-    url: "/math-competitions/math-kangaroo"
-    cta_text: "Math Kangaroo details"
-  - title: "AMC 8/10/12"
-    description: 'The premier U.S. math competition series. Top performers are invited to advance to AIME and beyond. Organized by <a href="https://teamupforstem.org/">Team Up for STEM</a> and held at Blue Ridge Boost.'
-    url: "/classes/competition-math"
-    cta_text: "AMC details"
-
-# Birthdays section
-birthdays:
-  - title: "Gaming Parties"
-    description: "Minecraft, Roblox, Fortnite, Valorant, and more. 2 hours of multiplayer fun for up to 16 kids. Ages 6+."
-    url: "/birthdays#gaming"
-    cta_text: "Browse Gaming Themes"
-  - title: "Robotics Parties"
-    description: "Lego Robotics, Sphero Bots, Battle Bots, Sumo Bots, and Aerial Drones. Hands-on building and competition. Ages 6+."
-    url: "/birthdays#robotics"
-    cta_text: "Browse Robotics Themes"
-  - title: "Party Packages"
-    description: "4 packages from $349.99. Basic through Super-Star with catering, decorations, and goodie bags. Combo themes available. Saturdays & Sundays 4–6 PM."
-    url: "/birthdays#packages"
-    cta_text: "View Packages & Book"
-
+####################### Gaming #########################
 gaming:
-  - title: "Play Together"
-    description: "Team up in Minecraft, Fortnite, and Roblox. Kids build worlds, strategize, and solve challenges together — making friends along the way."
-    url: "/gaming"
-    cta_text: "See This Week's Game"
-  - title: "Safe & Supervised"
-    description: "Private servers, no in-app purchases, and background-checked instructors. Beginners get paired with supportive peers — everyone belongs."
-    url: "/gaming"
-    cta_text: "How It Works"
-  - title: "Every Friday Night"
-    description: "Fridays 5:30–8:30 PM. Ages 6–10 ($45) and 10+ ($65). Free pizza included. Rotating themes every week."
-    url: "/gaming"
-    cta_text: "Reserve a Spot"
+  title: "Gaming Fridays"
+  description: "Cooperative, instructor-led gaming nights where kids team up, strategize, and have fun together. Minecraft, Among Us, and team strategy games every Friday 5:30-7:30 PM. Plus Minecraft education classes for coding and creative building!"
+  url: "/gaming/"
+  cta_text: "Join Gaming Fridays"
 
-# Trust section
+####################### Tutoring #########################
+tutoring:
+  title: "Private Tutoring (Ages 6+)"
+  description: "Personalized help across STEM subjects including coding, math, robotics, SAT/ACT prep, and competition coaching. Build confidence, strengthen fundamentals, and keep momentum with 1-on-1 or small group instruction customized to your student's pace and goals."
+  url: "/tutoring/"
+  cta_text: "Learn About Tutoring"
+
+####################### Trust / Why Choose Us #########################
 trust:
-  - title: "Hands-on learning"
-    description: "Students learn by building, coding, experimenting, and creating—not just watching."
-  - title: "Local & reachable"
-    description: "2171 Ivy Rd, Charlottesville • Call or email anytime with questions."
-  - title: "Clear options"
-    description: "Camps, classes, tutoring, and events—choose what fits your family's goals and schedule."
+  - title: "Expert Instructors"
+    description: "Our teachers are experienced engineers, educators, and competition coaches who love working with kids."
+    
+  - title: "Small Class Sizes"
+    description: "Maximum 8-10 students per class ensures personalized attention and hands-on learning."
+    
+  - title: "Proven Results"
+    description: "Students advance to state and national competitions, build real projects, and develop lasting skills."
+    
+  - title: "Welcoming Community"
+    description: "A supportive environment where kids make friends, explore interests, and grow confidence."
 ---

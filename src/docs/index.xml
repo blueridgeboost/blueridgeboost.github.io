@@ -133,8 +133,7 @@
  &lt;h4>Combo (+99.99)&lt;/h4>
  &lt;body>Your Choice of Gaming Theme&lt;/body> 
  &lt;!-- &lt;h6>Rec. Ages: 6+&lt;/h6> -->
- &lt;p>&lt;/p></description></item><item><title>Certification Bootcamps | Blue Ridge Boost</title><link>https://blueridgeboost.com/bootcamps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/bootcamps/</guid><description>&lt;div class="camp-promo">&lt;span class="pill">&lt;span class="dot">&lt;/span> &lt;span class="highlight">15% off&lt;/span> until April 1&lt;/span>&lt;span class="pill">&lt;span class="dot">&lt;/span> 10% off until May 31&lt;/span>&lt;span class="pill">&lt;span class="dot">&lt;/span> 10% off for subscribers (combinable)&lt;/span>&lt;/div>
-&lt;!-- Certification Bootcamps — Ages 13+ -->
+ &lt;p>&lt;/p></description></item><item><title>Certification Bootcamps | Blue Ridge Boost</title><link>https://blueridgeboost.com/bootcamps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/bootcamps/</guid><description>&lt;!-- Certification Bootcamps — Ages 13+ -->
 &lt;section class="hp-section" id="bootcamps">
  &lt;div class="wrap">
  &lt;div class="sectionTitle">
@@ -146,7 +145,11 @@
  &lt;div class="grid3" aria-label="Bootcamp options">
  &lt;div class="hp-card">
  &lt;h3>Robotics Academy&lt;/h3>
- &lt;p>&lt;strong>Cert:&lt;/strong> Carnegie Mellon Robotics Academy&lt;br>&lt;strong>Full-day:&lt;/strong> 1 week&lt;br>&lt;strong>Half-day:&lt;/strong> 2 weeks&lt;br>Students may take home some projects; specialized robotics sets remain with Blue Ridge Boost.&lt;/p></description></item><item><title>Chess Club and Classes | Blue Ridge Boost</title><link>https://blueridgeboost.com/classes/chess/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/classes/chess/</guid><description/></item><item><title>Coding and Robotics Certifications | Blue Ridge Boost</title><link>https://blueridgeboost.com/certifications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/certifications/</guid><description>&lt;section>
+ &lt;p>&lt;strong>Cert:&lt;/strong> Carnegie Mellon Robotics Academy&lt;br>&lt;strong>Full-day:&lt;/strong> 1 week&lt;br>&lt;strong>Half-day:&lt;/strong> 2 weeks&lt;br>Students may take home some projects; specialized robotics sets remain with Blue Ridge Boost.&lt;/p>
+ &lt;/div>
+ &lt;div class="hp-card">
+ &lt;h3>Coding Bootcamp&lt;/h3>
+ &lt;p>&lt;strong>Cert:&lt;/strong> CodeHS Certification&lt;br>&lt;strong>Full-day:&lt;/strong> 1 week&lt;br>&lt;strong>Half-day:&lt;/strong> 2 weeks&lt;br>Focused, small-group instruction — no computer needed.&lt;/p></description></item><item><title>Chess Club and Classes | Blue Ridge Boost</title><link>https://blueridgeboost.com/classes/chess/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/classes/chess/</guid><description/></item><item><title>Coding and Robotics Certifications | Blue Ridge Boost</title><link>https://blueridgeboost.com/certifications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/certifications/</guid><description>&lt;section>
 &lt;div class="container">
  &lt;div>
  &lt;script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&amp;data_platform=code"
