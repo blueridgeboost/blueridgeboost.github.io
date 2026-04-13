@@ -2,8 +2,7 @@
 ecwid: 767154072
 product_id: C-Plus-Plus-Coding
 layout: single
-schedule_tags:
-  - Join Now
+schedule_tags: []
 subject_tags:
   - Computer Coding
   - Game Development

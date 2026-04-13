@@ -2,8 +2,7 @@
 ecwid: 826574374
 product_id: Brick-Bots-And-Code-Blocks
 layout: single
-schedule_tags:
-  - Starting Soon
+schedule_tags: []
 subject_tags:
   - Robotics
 price: 275

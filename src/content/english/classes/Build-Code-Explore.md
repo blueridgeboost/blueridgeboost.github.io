@@ -2,8 +2,7 @@
 ecwid: 826653198
 product_id: Build-Code-Explore
 layout: single
-schedule_tags:
-  - Starting Soon
+schedule_tags: []
 subject_tags:
   - Robotics
 price: 275
