@@ -243,17 +243,16 @@
         <span class="chevron">▸</span>
       </div>
       {{ if eq (lower $selectedGroups) "kids"}}
-        <div class="group-body inline-layout">
-          <div class="group-label inline">Grade:</div>
-          <div class="chips">
-            {{ range $g := (slice "1st" "2nd" "3rd" "4th") }}
-            <label class="chip">
-              <input type="checkbox" class="grade-filter" value="{{ $g | lower }}" onchange="toggleChip(this)">
-              <span>{{ $g }}</span>
-            </label>
-            {{ end }}
+          <div class="group-body inline-layout">
+            <div class="chips" style="display:none">
+              {{ range $g := (slice "1st" "2nd" "3rd" "4th") }}
+              <label class="chip">
+                <input type="checkbox" class="grade-filter" value="{{ $g | lower }}" checked onchange="toggleChip(this)">
+                <span>{{ $g }}</span>
+              </label>
+              {{ end }}
+            </div>
           </div>
-        </div>
       {{ else if eq (lower $selectedGroups) "tweens" }}
           {{ range $g := (slice "5th" "6th") }}
             <label class="chip" style="display:none">
@@ -311,31 +310,6 @@
               </div>
             </div>
           </div>
-
-          <!-- Schedule subgroup -->
-          <div class="subgroup open" data-subgroup="schedule">
-            <div class="subgroup-header" role="button" tabindex="0" aria-expanded="true">
-              <span>Schedule</span>
-              <span class="chevron">▸</span>
-            </div>
-            <div class="subgroup-body">
-              <div class="group-label inline">Schedule:</div>
-              <div class="chips">
-                {{ range $s := (slice "Starting Soon" "Join Now" "On-Demand") }}
-                {{ if eq (lower $s) (lower $selectedSubject) }}
-                <label class="chip active">
-                  <input type="checkbox" class="schedule-filter" value="{{ $s | lower }}" onchange="toggleChip(this)" checked>
-                {{ else }}
-                  <label class="chip ">
-                  <input type="checkbox" class="schedule-filter" value="{{ $s | lower }}" onchange="toggleChip(this)" >
-                {{ end }}
-                  <span>{{ $s }}</span>
-                </label>
-                {{ end }}
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
     </div>
