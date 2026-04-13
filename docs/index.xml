@@ -52,41 +52,23 @@
  &lt;div class="grid3" aria-label="Camp overview">
  &lt;div class="hp-card">
  &lt;h3>Topics&lt;/h3>
- &lt;p>&lt;strong>Robotics&lt;/strong> — build and program robots&lt;br>&lt;strong>Coding &amp;amp; Game Design&lt;/strong> — Minecraft Education and Roblox Studio&lt;br>&lt;strong>Strategic Games&lt;/strong> — board games and logic puzzles&lt;/p></description></item><item><title>Advanced STEM Camps | Blue Ridge Boost</title><link>https://blueridgeboost.com/advanced-stem-camps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/advanced-stem-camps/</guid><description>&lt;!-- Advanced STEM Camps — Ages 13+ -->
-&lt;section class="hp-section" id="advanced">
+ &lt;p>&lt;strong>Robotics&lt;/strong> — build and program robots&lt;br>&lt;strong>Coding &amp;amp; Game Design&lt;/strong> — Minecraft Education and Roblox Studio&lt;br>&lt;strong>Strategic Games&lt;/strong> — board games and logic puzzles&lt;/p></description></item><item><title>Advanced STEM Camps | Blue Ridge Boost</title><link>https://blueridgeboost.com/advanced-stem-camps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/advanced-stem-camps/</guid><description>&lt;!-- Advanced STEM Camps — Ages 13–18 -->
+&lt;section class="hp-section" id="advanced-stem-camps">
  &lt;div class="wrap">
- &lt;div class="sectionTitle">
- &lt;div>
- &lt;h2>Advanced STEM Camps · Ages 13+&lt;/h2>
- &lt;p>Week-long, project-based camps for teens ready to go deeper. Advanced 11 and 12-year-olds are welcome. Full-day ($599.99) and half-day ($399.99) — all materials included.&lt;/p>
+ &lt;div class="class-details-box" style="background: #F3E5F5; border-left: 4px solid #8B5A99;">
+ &lt;div style="margin-bottom: 1.5rem;">
+ &lt;p style="margin: 0 0 1rem; font-size: 1rem; color: rgba(7, 16, 34, 0.76);">Week-long technical camps for experienced students. AI projects, advanced game development, and cybersecurity challenges. Full-day ($599.99) and half-day ($399.99) options — all materials included.&lt;/p>
+ &lt;div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+ &lt;div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+ &lt;a href="#advanced" style="display: inline-flex; align-items: center; justify-content: center; background: #8B5A99; color: white; padding: 10px 18px; border-radius: 999px; text-decoration: none; font-weight: 700; font-size: 0.875rem; line-height: 1;">Browse Advanced Camps&lt;/a>
+ &lt;span style="display: inline-flex; align-items: center; justify-content: center; background: rgba(255,255,255,0.92); padding: 10px 18px; border-radius: 999px; border: 1px solid rgba(18, 32, 70, 0.20); font-weight: 700; font-size: 0.875rem; line-height: 1;">Ages 13-18&lt;/span>
+&lt;/div>
+&lt;/div>
  &lt;/div>
- &lt;/div>
- &lt;div class="grid3" aria-label="Advanced STEM camp details">
- &lt;div class="hp-card">
- &lt;h3>Schedule&lt;/h3>
- &lt;p>&lt;strong>Full-day:&lt;/strong> 8:30 AM–5:30 PM&lt;br>&lt;strong>Half-day AM:&lt;/strong> 8:30 AM–1:00 PM&lt;br>&lt;strong>Half-day PM:&lt;/strong> 12:30–5:00 PM&lt;br>&lt;strong>Ratio:&lt;/strong> 8:1 camper-to-staff&lt;/p>
- &lt;/div>
- &lt;div class="hp-card">
- &lt;h3>Logistics&lt;/h3>
- &lt;p>&lt;strong>Location:&lt;/strong> 2171 Ivy Rd, Charlottesville&lt;br>&lt;strong>Ages:&lt;/strong> 13+ (advanced 11–12 welcome)&lt;br>&lt;strong>Includes:&lt;/strong> All materials &amp;amp; computers&lt;br>&lt;strong>Bring:&lt;/strong> Snack (half-day) · 2 snacks + lunch (full-day)&lt;/p></description></item><item><title>Artificial Intelligence Classes | Blue Ridge Boost</title><link>https://blueridgeboost.com/classes/ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/classes/ai/</guid><description/></item><item><title>Camps | Blue Ridge Boost</title><link>https://blueridgeboost.com/camps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/camps/</guid><description>&lt;div class="camp-promo">&lt;span class="pill">&lt;span class="dot">&lt;/span> &lt;span class="highlight">Summer: 15% off&lt;/span> until April 1&lt;/span>&lt;span class="pill">&lt;span class="dot">&lt;/span> 10% off for subscribers (combinable)&lt;/span>&lt;/div>
-&lt;!-- Ages 6–12 -->
-&lt;section class="hp-section" id="ages-6-12">
- &lt;div class="wrap">
- &lt;div class="sectionTitle">
- &lt;div>
- &lt;h2>Ages 6–12&lt;/h2>
- &lt;p>Hands-on STEM camps in robotics, coding, game design, math, and more. All materials and computer use included.&lt;/p>
- &lt;/div>
- &lt;/div>
- &lt;div class="grid3" aria-label="Camps for ages 6–12">
- &lt;div class="hp-card">
- &lt;h3>Summer Camps&lt;/h3>
- &lt;p>Week-long camps with full-day ($599.99) and half-day ($399.99) options. Robotics, coding, game design, math, science, and strategic games.&lt;/p>
- &lt;div class="hp-row">&lt;a class="chip" href="https://blueridgeboost.com/summer-camps/">Explore Summer Camps&lt;/a>&lt;/div>
- &lt;/div>
- &lt;div class="hp-card">
- &lt;h3>Spring Break Camps&lt;/h3>
- &lt;p>A week of hands-on STEM fun during spring break. Half-day and full-day options available.&lt;/p></description></item><item><title>Celebrations | Blue Ridge Boost</title><link>https://blueridgeboost.com/birthdays/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/birthdays/</guid><description>&lt;p>At Blue Ridge Boost, we turn your child's birthday into a tech-powered adventure with robotics and gaming fun!&lt;/p>
+ &lt;div class="programs-grid">
+ &lt;article class="program-card" style="background: rgba(255,255,255,0.7);">
+ &lt;h3>📚 Topics&lt;/h3>
+ &lt;p>&lt;strong>Advanced Game Dev&lt;/strong> — Unity &amp; Unreal Engine&lt;/p></description></item><item><title>Artificial Intelligence Classes | Blue Ridge Boost</title><link>https://blueridgeboost.com/classes/ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/classes/ai/</guid><description/></item><item><title>Celebrations | Blue Ridge Boost</title><link>https://blueridgeboost.com/birthdays/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/birthdays/</guid><description>&lt;p>At Blue Ridge Boost, we turn your child's birthday into a tech-powered adventure with robotics and gaming fun!&lt;/p>
 &lt;!-- &lt;img src="images/wideroom.webp" alt="BRB Gaming Room"> -->
 &lt;!--&lt;img src="images/fullroom.jpg" alt="BRB Gaming Room" width="500">-->
  &lt;h3>Party Details&lt;/h3>
@@ -404,7 +386,17 @@ Email &lt;strong>&lt;a href="mailto:nora@blueridgeboost.com"
  &lt;/div>
  &lt;div class="hp-card">
  &lt;h3>How It Works&lt;/h3>
- &lt;p>&lt;strong>Learning sessions:&lt;/strong> Topic-related activities&lt;br>&lt;strong>Screen-free activity:&lt;/strong> Try a robotics, science, or strategic games topic&lt;br>&lt;strong>Exploration sessions:&lt;/strong> Try a different topic or gaming (with parent approval)&lt;br>&lt;strong>Breaks:&lt;/strong> Screen-free snack and lunch — board games encouraged&lt;/p></description></item><item><title>Teens Classes | Blue Ridge Boost</title><link>https://blueridgeboost.com/classes/teens/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/classes/teens/</guid><description/></item><item><title>Terms and Conditions | Blue Ridge Boost</title><link>https://blueridgeboost.com/terms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/terms/</guid><description>&lt;ol>
+ &lt;p>&lt;strong>Learning sessions:&lt;/strong> Topic-related activities&lt;br>&lt;strong>Screen-free activity:&lt;/strong> Try a robotics, science, or strategic games topic&lt;br>&lt;strong>Exploration sessions:&lt;/strong> Try a different topic or gaming (with parent approval)&lt;br>&lt;strong>Breaks:&lt;/strong> Screen-free snack and lunch — board games encouraged&lt;/p></description></item><item><title>Summer 2026 Camps | Blue Ridge Boost</title><link>https://blueridgeboost.com/camps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/camps/</guid><description>&lt;div class="programs-overview">
+ &lt;div class="class-details-box" style="background: linear-gradient(135deg, rgba(10, 58, 209, 0.1), rgba(0, 144, 204, 0.1)); text-align: center; padding: 1.5rem;">
+ &lt;p style="margin: 0; font-size: 1.125rem;">
+ &lt;strong>Spring 1-Day Camp:&lt;/strong> Last camp of spring on &lt;strong>April 21, 2026&lt;/strong> • 
+ &lt;a href="https://blueridgeboost.com/1-day-camps/#!/1-Day-Camp-on-2026-04-21/p/827128805" style="color: #1D4FFF; font-weight: 700; text-decoration: underline;">Register Now →&lt;/a>
+ &lt;/p>
+ &lt;/div>
+ &lt;h1 style="text-align: center; margin: 2rem 0 1rem;">Summer 2026 Camps&lt;/h1>
+ &lt;p style="text-align: center; font-size: 1.125rem; color: rgba(7, 16, 34, 0.76); max-width: 800px; margin: 0 auto 3rem;">
+ Choose from week-long creative camps, advanced STEM deep-dives, or intensive certification bootcamps. All camps include expert instruction, hands-on projects, and all materials.
+ &lt;/p></description></item><item><title>Teens Classes | Blue Ridge Boost</title><link>https://blueridgeboost.com/classes/teens/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/classes/teens/</guid><description/></item><item><title>Terms and Conditions | Blue Ridge Boost</title><link>https://blueridgeboost.com/terms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/terms/</guid><description>&lt;ol>
 &lt;li>Enrollment
 By enrolling your child in classes provided by Blue Ridge Boost LLC (&amp;ldquo;the Company&amp;rdquo;), you agree to these terms and conditions. The Company reserves the right to refuse service to anyone for any reason at any time.&lt;/li>
 &lt;li>Age Requirements

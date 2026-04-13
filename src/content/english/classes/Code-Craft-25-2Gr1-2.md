@@ -2,15 +2,13 @@
 ecwid: 770296997
 product_id: Code-Craft-25-2Gr1-2
 layout: single
-schedule_tags:
-  - Join Now
+schedule_tags: []
 subject_tags:
   - Computer Coding
   - Game Development
 price: 159.99
-price_unit: per month
-category: Ongoing
-duration: 2-3 mo
+price_unit: per session
+category: One Time
 weight: 1
 page_title: 'Code Craft: Minecraft Coding'
 page_subtitle: Learn to Code in Minecraft! Grades 1 and 2

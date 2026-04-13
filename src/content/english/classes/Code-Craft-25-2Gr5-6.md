@@ -7,9 +7,8 @@ subject_tags:
   - Computer Coding
   - Game Development
 price: 159.99
-price_unit: per month
-category: Ongoing
-duration: 4-6 mo
+price_unit: per session
+category: One Time
 weight: 5
 page_title: 'Code Craft: Minecraft Coding'
 page_subtitle: Learn to Code in Minecraft! Grades 5 and 6
