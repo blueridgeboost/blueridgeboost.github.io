@@ -6,7 +6,6 @@ draft: false
 
 keywords:
   - advanced STEM camps Charlottesville
-  - robotics camps for teens
   - coding camps for teenagers
   - AI camps for students
   - advanced game development camps
@@ -23,14 +22,14 @@ robots: "index, follow"
 <section class="hp-section" id="advanced-stem-camps">
   <div class="wrap">
     <div class="class-details-box" style="background: #F3E5F5; border-left: 4px solid #8B5A99;">
-      <div style="margin-bottom: 1.5rem;">
-        <p style="margin: 0 0 1rem; font-size: 1rem; color: rgba(7, 16, 34, 0.76);">Week-long technical camps for experienced students. AI projects, advanced game development, and cybersecurity challenges. Full-day ($599.99) and half-day ($399.99) options — all materials included.</p>
-        <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
-  <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
-  <a href="#advanced" style="display: inline-flex; align-items: center; justify-content: center; background: #8B5A99; color: white; padding: 10px 18px; border-radius: 999px; text-decoration: none; font-weight: 700; font-size: 0.875rem; line-height: 1;">Browse Advanced Camps</a>
-  <span style="display: inline-flex; align-items: center; justify-content: center; background: rgba(255,255,255,0.92); padding: 10px 18px; border-radius: 999px; border: 1px solid rgba(18, 32, 70, 0.20); font-weight: 700; font-size: 0.875rem; line-height: 1;">Ages 13-18</span>
-</div>
-</div>
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem;">
+        <div>
+          <p style="margin: 0; font-size: 1rem; color: rgba(7, 16, 34, 0.76);">Week-long technical camps for experienced students. AI projects, advanced game development, and cybersecurity challenges. Full-day ($599.99) and half-day ($399.99) options — all materials included.</p>
+        </div>
+        <div style="display: flex; gap: 10px; align-items: center;">
+          <a href="#advanced" style="display: inline-block; background: #8B5A99; color: white; padding: 10px 18px; border-radius: 999px; text-decoration: none; font-weight: 700; font-size: 0.875rem; line-height: 1.2;">Browse Advanced Camps</a>
+          <span style="display: inline-block; background: rgba(255,255,255,0.92); padding: 10px 18px; border-radius: 999px; border: 1px solid rgba(18, 32, 70, 0.20); font-weight: 700; font-size: 0.875rem; line-height: 1.2;">Ages 13-18</span>
+        </div>
       </div>
       <div class="programs-grid">
         <article class="program-card" style="background: rgba(255,255,255,0.7);">

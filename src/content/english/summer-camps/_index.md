@@ -54,12 +54,12 @@ robots: "index, follow"
       </div>
       <div class="programs-grid">
         <article class="program-card" style="background: rgba(255,255,255,0.7);">
-  <h3>📚 Topics</h3>
-  <p><strong>Robotics</strong> — Build & program robots</p>
-  <p><strong>Game Design</strong> — Minecraft & Roblox</p>
-  <p><strong>Math & Science</strong> — Problem-solving</p>
-  <p><strong>Coding & Typing</strong> — Scratch & more</p>
-</article>
+          <h3>📚 Topics</h3>
+          <p><strong>Robotics</strong> — build and program robots</p>
+          <p><strong>Game Design</strong> — Minecraft Education and Roblox Studio</p>
+          <p><strong>Math & Science</strong> — hands-on problem-solving</p>
+          <p><strong>Coding & Typing</strong> — </p>
+        </article>
         <article class="program-card" style="background: rgba(255,255,255,0.7);">
           <h3>📅 Schedule</h3>
           <p><strong>Full-day:</strong> 8:30 AM–5:30 PM</p>
