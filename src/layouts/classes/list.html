@@ -1,57 +1,36 @@
 {{ define "main" }}
 
 {{ partial "page-header.html" . }}
+
 <div class="container">
-    
-    {{ partial "class-filters.html" . }}
-    
-    <p>&nbsp;</p>
-
-    <div class="container" >
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-4 row-cols-xl-5 g-3"  
-        style="column-gap: 0.33rem; row-gap: 0.33rem; display: flex; justify-content: center;"
-        >
-            {{ $pages :=  (where .Site.Pages "Section" "classes") }}
-            {{ $pages = sort $pages ".Params.weight" "asc" }}
-            {{ range $pages }}
-                {{ if eq .Params.layout "list" }}
-                {{ else if .Params.ecwid }}
-                    {{ partial "class-card" . }}
-                {{ end }}
-            {{ end }}
-        </div>
+  <div class="row mt-4">
+    <div class="col-12">
+      {{ .Content }}
     </div>
+  </div>
 
-    {{ partial "rich-search-results/classes.html" . }}
-
-    <!-- Notes Section -->
-    <div class="row mt-4">
-        <div class="col-12">
-            <p>Please note:</p>
-            <ul>
-                <li>If you select a subscription, your card will be charged now and monthly starting with the first day of the second month of classes.</li>
-                <li>Subscriptions can be canceled at any time.</li>
-                <li>Subscriptions can be rescheduled or transferred to another class.</li>
-                <li>Make-ups can be scheduled on teacher workdays and other times based on instructor availability.</li>
-            </ul>
-        </div>
+  <div class="row mt-4">
+    <div class="col-12">
+      <div id="all-classes">
+        <script
+          data-cfasync="false"
+          type="text/javascript"
+          src="https://app.ecwid.com/script.js?106136041&data_platform=code"
+          charset="utf-8"
+        ></script>
+        <script type="text/javascript">
+          xProductBrowser(
+            "views=grid(20,5) list(60) table(60)",
+            "categoryView=grid",
+            "id=my-store-106136041",
+            "defaultCategoryId={{ .Params.category }}"
+          );
+        </script>
+      </div>
     </div>
+  </div>
 
-    <div class="row mt-4">
-        <div class="col-12">
-                {{ .Content }}
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <div class="row mt-4">
-        <div class="col-12 text-center">
-            <p>
-                <a href="/privacy-policy">Privacy Policy</a> &middot;
-                <a href="/payment-policy">Payment Policy</a> &middot;
-                <a href="/refund-policy">Refund Policy</a>.
-            </p>
-        </div>
-    </div>
+  {{ partial "rich-search-results/classes.html" . }}
 </div>
-{{end}}
+
+{{ end }}
