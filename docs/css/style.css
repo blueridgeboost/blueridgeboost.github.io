@@ -20027,6 +20027,78 @@ div.fullclass {
 .navigation .nav-item .nav-link {
   color: rgba(7, 16, 34, 0.74) !important; }
 
+/* Filter bar wrapper */
+#all-classes .ec-store .ec-filters {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 24px; }
+
+/* "FILTER BY:" label */
+#all-classes .ec-store .ec-filters__label,
+#all-classes .ec-store .ec-filter__label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #111827;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-right: 6px; }
+
+/* Each filter block */
+#all-classes .ec-store .ec-filter,
+#all-classes .ec-store .ec-filter__body {
+  margin: 0; }
+
+/* Select / dropdown pill style */
+#all-classes .ec-store select,
+#all-classes .ec-store .form-control,
+#all-classes .ec-store .ec-filter select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 9999px;
+  height: 42px;
+  min-width: 140px;
+  padding: 0 42px 0 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0f172a;
+  box-shadow: none;
+  outline: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 20 20' fill='none'><path d='M5 7.5L10 12.5L15 7.5' stroke='%236b7280' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  background-size: 16px 16px; }
+
+/* Hover/focus */
+#all-classes .ec-store select:hover,
+#all-classes .ec-store .form-control:hover,
+#all-classes .ec-store .ec-filter select:hover {
+  border-color: #9ca3af; }
+
+#all-classes .ec-store select:focus,
+#all-classes .ec-store .form-control:focus,
+#all-classes .ec-store .ec-filter select:focus {
+  border-color: #94a3b8;
+  box-shadow: 0 0 0 3px rgba(148, 163, 184, 0.15); }
+
+/* Optional: make all filter controls similar width */
+#all-classes .ec-store .ec-filter select {
+  width: 180px; }
+
+/* Mobile */
+@media (max-width: 768px) {
+  #all-classes .ec-store .ec-filters {
+    gap: 10px; }
+  #all-classes .ec-store .ec-filter select,
+  #all-classes .ec-store select,
+  #all-classes .ec-store .form-control {
+    width: 100%;
+    min-width: 0; } }
+
 .preloader {
   position: fixed;
   top: 0;
