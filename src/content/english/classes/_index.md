@@ -30,7 +30,13 @@ robots: "index, follow"
 category: 175340602
 ---
 
+
+
 <div class="programs-overview">
+
+  <p align="left" style="margin: 2rem 0;">
+  <a href="#classes-list" class="program-link" style="font-size: 1.2rem; font-weight: bold;">View All Classes Below →</a>
+</p>
 
   <h2 class="programs-heading">Programs by Age Group</h2>
 
@@ -102,14 +108,15 @@ category: 175340602
     </article>
   </div>
 </div>
-  <!-- <div class="class-details-box">
-    <h3>Class Details</h3>
-    <div class="details-grid">
-      <div><strong>Class size:</strong> 1–8 students (4:1 ratio for math)</div>
-      <div><strong>Location:</strong> 2171 Ivy Rd, Ste 5, Charlottesville</div>
-      <div><strong>Join anytime:</strong> New students welcome mid-session</div>
-      <div><strong>Subscriptions:</strong> Cancel or transfer at any time</div>
-    </div>
-  </div> -->
 
-  <p class="browse-cta">Browse all classes below. Use the filters to find the right fit.</p>
+<!-- <div class="class-details-box">
+  <h3>Class Details</h3>
+  <div class="details-grid">
+    <div><strong>Class size:</strong> 1–8 students (4:1 ratio for math)</div>
+    <div><strong>Location:</strong> 2171 Ivy Rd, Ste 5, Charlottesville</div>
+    <div><strong>Join anytime:</strong> New students welcome mid-session</div>
+    <div><strong>Subscriptions:</strong> Cancel or transfer at any time</div>
+  </div>
+</div> -->
+
+<p class="browse-cta">Browse all classes below. Use the filters to find the right fit.</p>

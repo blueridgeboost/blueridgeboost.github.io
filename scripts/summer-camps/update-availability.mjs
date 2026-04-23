@@ -2,6 +2,7 @@ import { getSummerCamps, getOrdersByProductId, updateEcwidProduct, getAttributeV
 import path from 'path';
 import { pathToFileURL } from 'url';
 import dotenv from 'dotenv';
+import { writeDataToCsv } from '../fs-helpers.js';
 // Construct the path to the .env file
 const envPath = path.join(process.cwd(), '..', '.env');
 console.log(`Loading environment variables from: ${envPath}`);
@@ -95,6 +96,7 @@ export async function updateSummerCampSeats() {
     return summary;
 }
 
-if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
-    updateSummerCampSeats();
-}
+// if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+
+    writeDataToCsv( updateSummerCampSeats(), "G:\\Shared drives\\BRB\\Summer 2026\\summer-camps-count.csv");
+// }
