@@ -183,8 +183,8 @@ export  async function getCategoryId(name) {
             Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`
         }
     };
-    console.log(`${url}?${params.toString()}`);
-    console.log(`Options ${JSON.stringify(options)}`);
+    // console.log(`${url}?${params.toString()}`);
+    // console.log(`Options ${JSON.stringify(options)}`);
     try {
         const response = await fetch(`${url}?${params.toString()}`, options);
         if (!response.ok) {
@@ -237,7 +237,7 @@ export async function getProductById(productId) {
             Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`
         }
     };
-    console.log(url)
+    // console.log(url)
     try {
         const response = await fetch(`${url}`, options);
         if (!response.ok) {
@@ -304,7 +304,7 @@ export async function updateEcwidCategory(category) {
 
 export async function unassignCategory(categoryId, productIds) {
     const url = `https://app.ecwid.com/api/v3/${process.env.ECWID_STORE_ID}/categories/${categoryId}/unassignProducts`;
-    console.log(productIds);
+    // console.log(productIds);
     const options = {
         method: 'POST',
         headers: {
@@ -527,7 +527,7 @@ export async function createEcwidProduct(data) {
         },
         body: JSON.stringify(data)
     };
-    console.log(url);
+    // console.log(url);
     try {
         const response = await fetch(`${url}?${params.toString()}`, options);
         if (!response.ok) {
@@ -596,7 +596,7 @@ export async function getOrders() {
             Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`
         }
     };
-    console.log(`Getting orders from ${url}`);
+    // console.log(`Getting orders from ${url}`);
     while (!done) {
         const params = new URLSearchParams({ 
             offset: offset,
@@ -609,7 +609,7 @@ export async function getOrders() {
             const responseJson = await response.json();
             result = result.concat(responseJson.items);
             offset += 100;
-            console.log(`Offset ${offset} Total ${responseJson.total}`);
+            // console.log(`Offset ${offset} Total ${responseJson.total}`);
             if (offset > responseJson.total) {
                 done = true;
             }
@@ -640,7 +640,7 @@ export async function updateEcwidCategoryProducts(categoryId, products) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
         await response.json();
-        console.log(`response ${response}`);
+        // console.log(`response ${response}`);
     } catch (error) {
         console.error('Error updating products:', error);
     }
@@ -743,7 +743,7 @@ export async function updateProductTypeById(typeId, productType) {
       },
       body: JSON.stringify(productType)
     };
-    console.log(url);
+    // console.log(url);
     try { 
       const response = await fetch(`${url}`, options);
       if (!response.ok) {

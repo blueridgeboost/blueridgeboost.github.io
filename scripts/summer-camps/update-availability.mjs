@@ -2,7 +2,6 @@ import { getSummerCamps, getOrdersByProductId, updateEcwidProduct, getAttributeV
 import path from 'path';
 import { pathToFileURL } from 'url';
 import dotenv from 'dotenv';
-import { writeDataToCsv } from '../fs-helpers.js';
 // Construct the path to the .env file
 const envPath = path.join(process.cwd(), '..', '.env');
 console.log(`Loading environment variables from: ${envPath}`);
@@ -19,19 +18,22 @@ export async function updateSummerCampSeats() {
     const summerCamps = await getSummerCamps();
     const stemCamps = await getAdvancedStemCamps();
     const camps = [...summerCamps, ...stemCamps];
-    const summary = [];
     for (const camp of camps) {
         if (camp.enabled) {
             const maxAttribute = camp?.attributes?.find(attribute => attribute?.name === "Max");
             const maxSeats = parseInt(maxAttribute.value, 10);
             if (!maxAttribute || !maxAttribute.value?.trim()) {
-                console.error(`No start_date attribute for product ${camp.id}`);
+                console.error(`No max attribute for product ${camp.id}`);
             } else {
                 const orders = await getOrdersByProductId(camp.id);
                 var full_enrollment =0;
                 var am_enrollment = 0;
                 var pm_enrollment = 0;
+                if (orders.length == 0 ) {
+                    console.log(`WARNING!! No orders for camp ${camp.name}`);
+                }
                 for (let order of orders) {
+                    // console.log(order);
                     for (let item of order.items) {
                         if (item.productId === camp.id) { 
                             const selectedSession = item?.selectedOptions?.find(
@@ -47,6 +49,7 @@ export async function updateSummerCampSeats() {
                         }
                     }
                 }
+                // get the names from the camp
                 console.log(`Enrollments for camp ${camp.name} (${camp.id}): Full-Day: ${full_enrollment}, 
                     AM: ${am_enrollment}, PM: ${pm_enrollment}`);
                 if (am_enrollment > pm_enrollment) {
@@ -64,7 +67,7 @@ export async function updateSummerCampSeats() {
                 const pmSeats = maxSeats - (full_enrollment + pm_enrollment);
                 console.log(`Camp: ${camp.name} (${camp.id}) - Full-Day Seats Available: ${fullDaySeats}, AM Seats Available: ${amSeats}, PM Seats Available: ${pmSeats}`);
                 for (const combination of camp.combinations) {
-                    console.log(combination);
+                    // console.log(combination);
                     const sessionOption = combination?.options?.find(
                         opt => opt?.name === SESSION_TIME);
                     if (sessionOption) {
@@ -77,26 +80,10 @@ export async function updateSummerCampSeats() {
                         }
                     }
                 }
-                console.log(`Updated combinations for camp ${camp.name} (${camp.id})`);
                 await updateEcwidProduct(camp);
-                summary.push({
-                    "ID": getAttributeValue(camp, "brb_id"),
-                    "Camp Name": camp.name,
-                    "Start Date": getAttributeValue(camp, "start_date"),
-                    "Booked Full-Day Seats": full_enrollment,
-                    "Booked AM Seats": am_enrollment,
-                    "Booked PM Seats": pm_enrollment,
-                    "Open Full-Day Seats": fullDaySeats,
-                    "Open AM Seats": amSeats,
-                    "Open PM Seats": pmSeats,
-                });
             }
         }
     }
-    return summary;
 }
 
-// if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
-
-    writeDataToCsv( updateSummerCampSeats(), "G:\\Shared drives\\BRB\\Summer 2026\\summer-camps-count.csv");
-// }
+updateSummerCampSeats();
