@@ -7,7 +7,8 @@
   "scripts": {
     "config": "node ./scripts/config-generation.mjs",
     "aiGen": "node ./scripts/classes/keywords-and-topics.mjs",
-    "camp-rosters": "node ./scripts/rosters/camp-rosters.mjs",
+    "one-day-camp-rosters": "node ./scripts/rosters/camp-rosters.mjs",
+    "summer-camp-rosters": "node ./scripts/rosters/summer-camps.mjs",
     "create-summer-camps": "node ./scripts/summer-camps/summer-camps.mjs",
     "update-summer-camps": "node ./scripts/summer-camps/update-availability.mjs",
     "summer-camps-summary": "node ./scripts/rosters/summer-camps-summary.mjs",

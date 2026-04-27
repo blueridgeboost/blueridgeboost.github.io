@@ -183,3 +183,29 @@ export async function moveToFolder(drive, fileId, folderId) {
     fields: 'id, parents',
   })
 }
+
+
+export async function createSpreadsheet(sheets, title, tabs = ['Sheet1']) {
+  const res = await sheets.spreadsheets.create({
+    requestBody: {
+      properties: {
+        title,
+      },
+      sheets: tabs.map((tabName) => ({
+        properties: {
+          title: tabName,
+        },
+      })),
+    },
+  });
+
+  const spreadsheetId = res.data.spreadsheetId;
+  const spreadsheetUrl = res.data.spreadsheetUrl;
+
+  return {
+    spreadsheetId,
+    spreadsheetUrl,
+    title: res.data.properties?.title || title,
+    sheets: res.data.sheets || [],
+  };
+}

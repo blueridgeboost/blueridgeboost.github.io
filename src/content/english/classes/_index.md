@@ -27,9 +27,16 @@ keywords:
   - hands-on STEM education
   - WRO robotics practice
 robots: "index, follow"
+category: 175340602
 ---
 
+
+
 <div class="programs-overview">
+
+  <p align="left" style="margin: 2rem 0;">
+  <a href="#classes-list" class="program-link" style="font-size: 1.2rem; font-weight: bold;">View All Classes Below →</a>
+</p>
 
   <h2 class="programs-heading">Programs by Age Group</h2>
 
@@ -44,7 +51,7 @@ robots: "index, follow"
       <a href="/classes/kids/" class="program-link">View Kids Classes →</a>
     </article>
     <article class="program-card">
-      <h3>Tweens <span class="age-range">Grades 5–8 · Ages 10–14</span></h3>
+      <h3>Tweens <span class="age-range">Grades 5–6 · Ages 11–12</span></h3>
       <ul>
         <li><strong>Math:</strong> Competition Math (Grades 5–6, 7–8)</li>
         <li><strong>Coding:</strong> Python with Tracy the Turtle, Minecraft Coding, Command Blocks, Roblox &amp; Lua, C++</li>
@@ -54,7 +61,7 @@ robots: "index, follow"
       <a href="/classes/tweens/" class="program-link">View Tween Classes →</a>
     </article>
     <article class="program-card">
-      <h3>Teens <span class="age-range">Grades 7–12 · Ages 12–18</span></h3>
+      <h3>Teens <span class="age-range">Grades 7–12 · Ages 13–18</span></h3>
       <ul>
         <li><strong>Math:</strong> Competition Math 9–10 (AMC 10 prep)</li>
         <li><strong>Coding:</strong> Python Level 1 (with certification), Minecraft Modding</li>
@@ -100,16 +107,16 @@ robots: "index, follow"
       </p>
     </article>
   </div>
-  <div class="class-details-box">
-    <h3>Class Details</h3>
-    <div class="details-grid">
-      <div><strong>Class size:</strong> 1–8 students (4:1 ratio for math)</div>
-      <div><strong>Location:</strong> 2171 Ivy Rd, Ste 5, Charlottesville</div>
-      <div><strong>Join anytime:</strong> New students welcome mid-session</div>
-      <div><strong>Subscriptions:</strong> Cancel or transfer at any time</div>
-    </div>
-  </div>
-
-  <p class="browse-cta">Browse all classes below. Use the filters to find the right fit.</p>
-
 </div>
+
+<!-- <div class="class-details-box">
+  <h3>Class Details</h3>
+  <div class="details-grid">
+    <div><strong>Class size:</strong> 1–8 students (4:1 ratio for math)</div>
+    <div><strong>Location:</strong> 2171 Ivy Rd, Ste 5, Charlottesville</div>
+    <div><strong>Join anytime:</strong> New students welcome mid-session</div>
+    <div><strong>Subscriptions:</strong> Cancel or transfer at any time</div>
+  </div>
+</div> -->
+
+<p class="browse-cta">Browse all classes below. Use the filters to find the right fit.</p>

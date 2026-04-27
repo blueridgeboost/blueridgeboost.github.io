@@ -5,7 +5,7 @@ hero_highlight: "Camps & Competitions"
 hero_subtitle: "at Blue Ridge Boost in Charlottesville"
 hero_description: "Choose from summer STEM camps, coding and robotics bootcamps, summer classes with SAT Math Review, or compete in the WRO-USEL Regional Open Qualifier. Registration now open!"
 
-promo_text: 'Last 1-day camp of the Spring is on April 21, 2025. Register <a href="/1-day-camps/#!/1-Day-Camp-on-2026-04-21/p/827128805">now</a>!'
+promo_text: 'Last change to save on summer camps! Book before May 31 for 10% off.'
 
 ####################### Pathways (Hero Cards) #########################
 pathways:
@@ -51,17 +51,17 @@ camps:
 classes:
   - title: "ACT & SAT Math Review"
     description: "Summer intensive for high schoolers. Comprehensive review of algebra, geometry, and problem-solving strategies for SAT success."
-    url: "/classes/teens/"
+    url: "/classes/teens/#!/c/199579306/attribute_Subject=SAT+Math&limit=100"
     cta_text: "ACT/SAT Math Info"
     
   - title: "Summer Competition Math"
     description: "Ongoing weekly classes, from first to tenth grade with a focus on Math Kangaroo and AMC 8/10 style problems and topics."
-    url: "/classes/math"
+    url: "/classes/#!/c/175340602/attribute_Subject=Math&limit=100"
     cta_text: "View Classes"
     
   - title: "Summer Robotics Classes"
     description: "Build, program, and compete with robots. Weekly classes and competition prep for WRO. Ages 8 to 18."
-    url: "/classses/robotics"
+    url: "/classes/#!/c/175340602/attribute_Subject=Robotics&limit=100"
     cta_text: "View Robotics Classes"
 
 ####################### World Robot Olympiad #########################
