@@ -1,18 +1,26 @@
-import { getSummerCamps, getOrdersByProductId, updateEcwidProduct, getAttributeValue, getAdvancedStemCamps } from '../ecwid.js';
+import { 
+    getSummerCamps,
+    getOrdersByProductId,
+    updateEcwidProduct,
+    getAttributeValue,
+    getAdvancedStemCamps,
+    getBootcamps,
+ } from '../ecwid.js';
 import path from 'path';
 import { pathToFileURL } from 'url';
 import dotenv from 'dotenv';
+
 // Construct the path to the .env file
 const envPath = path.join(process.cwd(), '..', '.env');
 console.log(`Loading environment variables from: ${envPath}`);
-// Load the .env file
 await dotenv.config({ path: envPath });
-
 
 const SESSION_TIME = "Session Time";
 const FULL_DAY = "Full-Day";
 const AM_SESSION = "AM";
 const PM_SESSION = "PM"; 
+const BOOTCAMP_OPTION = "Session";
+const FULL_PREFIX = "Full-day";
 
 export async function updateSummerCampSeats() {
     const summerCamps = await getSummerCamps();
@@ -82,6 +90,26 @@ export async function updateSummerCampSeats() {
                 }
                 await updateEcwidProduct(camp);
             }
+        }
+    }
+}
+
+function buildBootcampSessionMap(camp) {
+    const option = camp?.options?.find(opt => opt?.name === BOOTCAMP_OPTION);
+
+    const map = {};
+    if (!option) return map;
+
+    let fullSeen = 0;
+    for (const choice of option.choices) {
+        const text = choice?.text || '';
+        if (text.startsWith(FULL_PREFIX)) {
+            fullSeen++;
+            map[text] = fullSeen === 1 ? 'fullW1' : 'fullW2';
+        } else if (text.startsWith(AM_PREFIX)) {
+            map[text] = 'am';
+        } else if (text.startsWith(PM_PREFIX_)) {
+            map[text] = 'pm';
         }
     }
 }
