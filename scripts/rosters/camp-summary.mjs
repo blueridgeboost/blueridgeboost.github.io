@@ -112,6 +112,27 @@ async function sessionRow(camp, type) {
     ];
 }
 
+function styleWeekHeader(sheet, row) {
+    sheet.mergeCells(row.number, 1, row.number, 9);
+    const cell = row.getCell(1);
+    cell.font = { bold: true, size: 14 };
+    cell.fill = {
+        type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFB0C4DE' }, // LightSteelBlue
+    };
+    cell.alignment = { horizontal: 'left', vertical: 'middle' };
+}
+
+function styleColumnHeader(row) {
+    row.font = { bold: true };
+    row.eachCell(cell => {
+        cell.fill = {
+            type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFD3D3D3' }, // LightGray
+        };
+        cell.border = { bottom: { style: 'thick', color: { argb: 'FF000000' } } };
+        cell.alignment = { horizontal: 'center', vertical: 'middle' };
+    });
+}
+
 async function main() {
     const buckets = SUMMER_WEEKS.map(() => []);
 
@@ -185,15 +206,24 @@ async function main() {
         { width: 14 }, { width: 14 }, { width: 14 },
     ];
 
-    sheet.addRow(['Camp Summary']).font = { bold: true, size : 14 };
+    const titleRow = sheet.addRow(['Camp Summary']);
+    titleRow.font = { bold: true, size: 22 };
+    sheet.mergeCells(titleRow.number, 1, titleRow.number, 9);
     sheet.addRow([]);
 
     // add each row from buckets 
     for (let i = 0; i < SUMMER_WEEKS.length; i++) {
         if (buckets[i].length === 0) continue;
-        sheet.addRow([SUMMER_WEEKS[i].label]).font = { bold: true };
-        sheet.addRow(HEADER).font = { bold: true };
-        for (const row of buckets[i]) sheet.addRow(row);
+
+        const headerRow = sheet.addRow([SUMMER_WEEKS[i].label]);
+        styleWeekHeader(sheet, headerRow);
+
+        const columnHeaderRow = sheet.addRow(HEADER);
+        styleColumnHeader(columnHeaderRow);
+
+        for (const row of buckets[i]) {
+            sheet.addRow(row);
+        }
         sheet.addRow([]);
     }
 
