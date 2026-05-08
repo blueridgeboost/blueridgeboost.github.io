@@ -45,12 +45,12 @@ robots: "index, follow"
       <span class="price">From $75 <small>/ hour</small></span>
     </div>
     <div class="tier" role="listitem">
-      <h3>Middle & High School</h3>
-      <span class="price">From $95 <small>/ hour</small></span>
+      <h3>Middle School</h3>
+      <span class="price">From $85 <small>/ hour</small></span>
     </div>
     <div class="tier" role="listitem">
-      <h3>AP & College</h3>
-      <span class="price">From $125 <small>/ hour</small></span>
+      <h3>High School</h3>
+      <span class="price">From $95 <small>/ hour</small></span>
     </div>
   </div>
 </section>
