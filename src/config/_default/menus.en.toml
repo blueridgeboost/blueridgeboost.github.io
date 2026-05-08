@@ -78,9 +78,6 @@
 #     weight      = 2
 
 ############ Competitions ############
-[[main]]
-    name        = "World Robot Olympiad"
-    weight      = 6
 
 # [[main]]
 #     parent      = "Competitions"
