@@ -68,6 +68,31 @@ export function fridayOrdinalInMonth(date) {
 	return Math.floor(diffDays / 7) + 1;
 }
 
+/**
+ * Finds the first next satruday which is the first saturday of the month, starting from today.
+ * @returns {{date: String}[]}
+ */
+export function nextFirstSaturdayOfMonth(count = 3, fromDate = new Date()) {
+    const today = atLocalMidnight(fromDate);
+    const result = [];
+    let year = today.getFullYear();
+    let month = today.getMonth();
+
+    while (result.length < count) {
+        let candidate = new Date(year, month, 1);
+        while (candidate.getDay() !== 6) {
+            candidate = addDays(candidate, 1);
+        }
+        if (candidate >= today) {
+            result.push({ date: toISODate(candidate) });
+        }
+        month++;
+        if (month > 11) { month = 0; year++; }
+    }
+
+    return result;
+}
+
 // Helpers
 const DAY_MS = 24 * 60 * 60 * 1000;
 
