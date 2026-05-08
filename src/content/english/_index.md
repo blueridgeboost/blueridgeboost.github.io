@@ -59,6 +59,18 @@ classes:
     url: "/classes/#!/c/175340602/attribute_Subject=Robotics&limit=100"
     cta_text: "View Robotics Classes"
 
+####################### Test Prep ######################### 
+test_prep: 
+  - title: "AP Test Prep"
+    description: "The best prep for classes including AP Physics, AP Calc AB/BC, AP Comp Sci, and AP Precalc."
+    url: "/test-prep/"
+    cta_text: "View Test Prep"
+
+  - title: "SAT and ACT Math"
+    description: "THe best prep for SAT and ACT math sections, including personalized review and practice tests."
+    url: "/test-prep/"
+    cta_text: "Learn More"
+
 
 ####################### Birthdays #########################
 birthdays:

@@ -106,6 +106,27 @@
   </div>
 </section>
 
+{{/* ── Test Prep ── */}}
+<section class="hp-section" id="test-prep">
+  <div class="wrap">
+    <div class="sectionTitle">
+      <div>
+        <h2>Test Prep</h2>
+        <p>Targeted preparation for AP exams and other standardized tests.</p>
+      </div>
+    </div>
+    <div class="grid3" aria-label="Test prep options">
+      {{ range .Params.test_prep }}
+      <div class="hp-card">
+        <h3>{{ .title }}</h3>
+        <p>{{ .description }}</p>
+        <a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
 {{/* ── Birthdays ── */}}
 <section class="hp-section hp-single-card" id="birthdays">
   <div class="wrap">
