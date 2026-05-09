@@ -21,6 +21,11 @@ pathways:
     cta_text: "Browse Classes"
     badge_text: "Ages 6+"
     
+  - title: "WRO-USEL Competition"
+    description: "Join the Regional Qualifier on September 5-6, 2026 at UVA. Compete in RoboMission, RoboSports, Future Innovators, or Future Engineers to advance internationally!"
+    cta_url: "/wro/"
+    cta_text: "Register Now"
+    badge_text: "Ages 8-19"
 
 ####################### Camps #########################
 camps:
@@ -59,6 +64,7 @@ classes:
     url: "/classes/#!/c/175340602/attribute_Subject=Robotics&limit=100"
     cta_text: "View Robotics Classes"
 
+<<<<<<< HEAD
 ####################### Test Prep ######################### 
 test_prep: 
   - title: "AP Test Prep"
@@ -71,6 +77,33 @@ test_prep:
     url: "/test-prep/"
     cta_text: "Learn More"
 
+=======
+####################### World Robot Olympiad #########################
+wro:
+  - title: "RoboMission"
+    description: "Autonomous robot challenges on themed playing fields—similar to FIRST LEGO League robot game but with more creative freedom. Teams program robots to complete missions while adapting to surprise rule changes. Elementary, Junior, and Senior divisions available."
+    url: "/wro/#robomission"
+    cta_text: "Learn More"
+    badge_text: "Ages 8-19"
+    
+  - title: "RoboSports"
+    description: "Head-to-head robot competitions combining strategy and engineering. Build robots that compete in sports-themed challenges like tennis doubles. Fast-paced action meets technical precision!"
+    url: "/wro/#robosports"
+    cta_text: "Learn More"
+    badge_text: "Ages 8-19"
+    
+  - title: "Future Innovators"
+    description: "Design and present robotics solutions to real-world problems—like FIRST LEGO League Innovation Project or Science Fair Engineering but on an international stage. Perfect for creative problem-solvers who want to make an impact with technology."
+    url: "/wro/#future-innovators"
+    cta_text: "Learn More"
+    badge_text: "Ages 8-19"
+    
+  - title: "Future Engineers"
+    description: "Build self-driving vehicles that navigate tracks autonomously—the ultimate challenge in sensors, AI, and precision control. Similar to autonomous vehicle competitions but specifically designed for student teams."
+    url: "/wro/#future-engineers"
+    cta_text: "Learn More"
+    badge_text: "Ages 14-19"
+>>>>>>> parent of f8d678f98 (Removed instances of WRO from the main page)
 
 ####################### Birthdays #########################
 birthdays:
