@@ -64,7 +64,6 @@ classes:
     url: "/classes/#!/c/175340602/attribute_Subject=Robotics&limit=100"
     cta_text: "View Robotics Classes"
 
-<<<<<<< HEAD
 ####################### Test Prep ######################### 
 test_prep: 
   - title: "AP Test Prep"
@@ -77,7 +76,6 @@ test_prep:
     url: "/test-prep/"
     cta_text: "Learn More"
 
-=======
 ####################### World Robot Olympiad #########################
 wro:
   - title: "RoboMission"
@@ -103,7 +101,6 @@ wro:
     url: "/wro/#future-engineers"
     cta_text: "Learn More"
     badge_text: "Ages 14-19"
->>>>>>> parent of f8d678f98 (Removed instances of WRO from the main page)
 
 ####################### Birthdays #########################
 birthdays:
