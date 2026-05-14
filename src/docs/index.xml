@@ -391,17 +391,15 @@ Email &lt;strong>&lt;a href="mailto:nora@blueridgeboost.com"
  &lt;/div>
  &lt;div class="hp-card">
  &lt;h3>How It Works&lt;/h3>
- &lt;p>&lt;strong>Learning sessions:&lt;/strong> Topic-related activities&lt;br>&lt;strong>Screen-free activity:&lt;/strong> Try a robotics, science, or strategic games topic&lt;br>&lt;strong>Exploration sessions:&lt;/strong> Try a different topic or gaming (with parent approval)&lt;br>&lt;strong>Breaks:&lt;/strong> Screen-free snack and lunch — board games encouraged&lt;/p></description></item><item><title>Summer 2026 Camps | Blue Ridge Boost</title><link>https://blueridgeboost.com/camps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/camps/</guid><description>&lt;div class="programs-overview">
- &lt;div class="class-details-box" style="background: linear-gradient(135deg, rgba(10, 58, 209, 0.1), rgba(0, 144, 204, 0.1)); text-align: center; padding: 1.5rem;">
- &lt;p style="margin: 0; font-size: 1.125rem;">
- &lt;strong>Spring 1-Day Camp:&lt;/strong> Last camp of spring on &lt;strong>April 21, 2026&lt;/strong> • 
- &lt;a href="https://blueridgeboost.com/1-day-camps/#!/1-Day-Camp-on-2026-04-21/p/827128805" style="color: #1D4FFF; font-weight: 700; text-decoration: underline;">Register Now →&lt;/a>
- &lt;/p>
- &lt;/div>
- &lt;h1 style="text-align: center; margin: 2rem 0 1rem;">Summer 2026 Camps&lt;/h1>
+ &lt;p>&lt;strong>Learning sessions:&lt;/strong> Topic-related activities&lt;br>&lt;strong>Screen-free activity:&lt;/strong> Try a robotics, science, or strategic games topic&lt;br>&lt;strong>Exploration sessions:&lt;/strong> Try a different topic or gaming (with parent approval)&lt;br>&lt;strong>Breaks:&lt;/strong> Screen-free snack and lunch — board games encouraged&lt;/p></description></item><item><title>Summer 2026 Camps | Blue Ridge Boost</title><link>https://blueridgeboost.com/camps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/camps/</guid><description>&lt;h1 style="text-align: center; margin: 2rem 0 1rem;">Summer 2026 Camps&lt;/h1>
  &lt;p style="text-align: center; font-size: 1.125rem; color: rgba(7, 16, 34, 0.76); max-width: 800px; margin: 0 auto 3rem;">
  Choose from week-long creative camps, advanced STEM deep-dives, or intensive certification bootcamps. All camps include expert instruction, hands-on projects, and all materials.
- &lt;/p></description></item><item><title>Teens Classes | Blue Ridge Boost</title><link>https://blueridgeboost.com/classes/teens/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/classes/teens/</guid><description/></item><item><title>Terms and Conditions | Blue Ridge Boost</title><link>https://blueridgeboost.com/terms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/terms/</guid><description>&lt;ol>
+ &lt;/p>
+ &lt;h2 class="programs-heading">Summer Camps&lt;/h2>
+ &lt;div class="class-details-box" style="background: #E3F2FD; border-left: 4px solid #2C7A9B;">
+ &lt;h3>Week-Long Creative Tech Camps&lt;/h3>
+ &lt;p>&lt;strong>Ages 6-12&lt;/strong> • Full-day and half-day morning and afternoon options available&lt;/p>
+ &lt;p>Creative technology camps designed for beginners. Students explore coding, robotics, game design, Minecraft education, and science through hands-on projects in a fun, supportive environment.&lt;/p></description></item><item><title>Teens Classes | Blue Ridge Boost</title><link>https://blueridgeboost.com/classes/teens/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/classes/teens/</guid><description/></item><item><title>Terms and Conditions | Blue Ridge Boost</title><link>https://blueridgeboost.com/terms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/terms/</guid><description>&lt;ol>
 &lt;li>Enrollment
 By enrolling your child in classes provided by Blue Ridge Boost LLC (&amp;ldquo;the Company&amp;rdquo;), you agree to these terms and conditions. The Company reserves the right to refuse service to anyone for any reason at any time.&lt;/li>
 &lt;li>Age Requirements
@@ -441,12 +439,12 @@ By enrolling your child in classes provided by Blue Ridge Boost LLC, you agree t
  &lt;span class="price">From $75 &lt;small>/ hour&lt;/small>&lt;/span>
  &lt;/div>
  &lt;div class="tier" role="listitem">
- &lt;h3>Middle &amp; High School&lt;/h3>
- &lt;span class="price">From $95 &lt;small>/ hour&lt;/small>&lt;/span>
+ &lt;h3>Middle School&lt;/h3>
+ &lt;span class="price">From $85 &lt;small>/ hour&lt;/small>&lt;/span>
  &lt;/div>
  &lt;div class="tier" role="listitem">
- &lt;h3>AP &amp; College&lt;/h3>
- &lt;span class="price">From $125 &lt;small>/ hour&lt;/small>&lt;/span>
+ &lt;h3>High School&lt;/h3>
+ &lt;span class="price">From $95 &lt;small>/ hour&lt;/small>&lt;/span>
  &lt;/div>
  &lt;/div>
 &lt;/section>
