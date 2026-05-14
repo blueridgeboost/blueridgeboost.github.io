@@ -45,12 +45,12 @@ robots: "index, follow"
       <span class="price">From $75 <small>/ hour</small></span>
     </div>
     <div class="tier" role="listitem">
-      <h3>Middle & High School</h3>
-      <span class="price">From $95 <small>/ hour</small></span>
+      <h3>Middle School</h3>
+      <span class="price">From $85 <small>/ hour</small></span>
     </div>
     <div class="tier" role="listitem">
-      <h3>AP & College</h3>
-      <span class="price">From $125 <small>/ hour</small></span>
+      <h3>High School</h3>
+      <span class="price">From $95 <small>/ hour</small></span>
     </div>
   </div>
 </section>
@@ -102,7 +102,6 @@ robots: "index, follow"
 
 <h3>About Our Sessions</h3>
     <p>Tutoring sessions are available both virtually and in person at the Blue Ridge Boost office, located at 2171 Ivy Road, Charlottesville. Our team of experienced teachers and qualified University of Virginia students is dedicated to helping your child excel in a variety of subjects, including mathematics, physics, chemistry, reading, and writing. We focus on nurturing problem-solving abilities, critical thinking skills, and fostering a deep understanding of core concepts, rather than just memorizing facts or formulas.</p>
-      <p>We provide both individual one-on-one tutoring and <strong><u><a class="" href="/classes/on-demand"> small group classes (available here)</a></u></strong>.</p>
 
 
 <script>

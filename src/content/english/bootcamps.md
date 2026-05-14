@@ -20,6 +20,16 @@ keywords:
 robots: "index, follow"
 ---
 
+<div class="heroHeader">
+      <div class="promo">
+        <span class="badge">
+          <span class="spark" aria-hidden="true"></span> 
+           Use code KNFF3XP385IG at checkout for 15% off bootcamps.
+        </span>
+        <!-- <span class="metaLine">{{ site.Params.promo_subtext | default "Lock in your spot and save today." }}</span> -->
+      </div>
+</div>
+
 <!-- Certification Bootcamps — Ages 13+ -->
 <section class="hp-section" id="bootcamps">
   <div class="wrap">

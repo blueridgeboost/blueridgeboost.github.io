@@ -17,13 +17,6 @@ keywords:
 robots: "index, follow"
 ---
 
-<div class="programs-overview">
-  <div class="class-details-box" style="background: linear-gradient(135deg, rgba(10, 58, 209, 0.1), rgba(0, 144, 204, 0.1)); text-align: center; padding: 1.5rem;">
-    <p style="margin: 0; font-size: 1.125rem;">
-      <strong>Spring 1-Day Camp:</strong> Last camp of spring on <strong>April 21, 2026</strong> • 
-      <a href="/1-day-camps/#!/1-Day-Camp-on-2026-04-21/p/827128805" style="color: #1D4FFF; font-weight: 700; text-decoration: underline;">Register Now →</a>
-    </p>
-  </div>
 
   <h1 style="text-align: center; margin: 2rem 0 1rem;">Summer 2026 Camps</h1>
   <p style="text-align: center; font-size: 1.125rem; color: rgba(7, 16, 34, 0.76); max-width: 800px; margin: 0 auto 3rem;">

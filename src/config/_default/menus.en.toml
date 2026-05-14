@@ -77,6 +77,13 @@
 #     parent      = "Camps"
 #     weight      = 2
 
+############ Test Prep  ############
+
+[[main]]
+      name        = "Test Prep"
+      url         = "/test-prep/"
+      weight      = 5
+
 ############ Competitions ############
 [[main]]
     name        = "World Robot Olympiad"

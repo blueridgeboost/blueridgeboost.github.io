@@ -26,6 +26,8 @@ export const ONE_DAY_CAMPS_CATEGORY_ID = 175336115;
 export const GAMING_FRIDAYS_CATEGORY_ID = 175336875;
 
 export const ELEMENTARY_CATEGORY_ID = 187847127;
+
+export const OPEN_HOUSE_CATEGORY_ID = 187847608;
      
 
 export function isInProgress(c) {

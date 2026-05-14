@@ -1,18 +1,26 @@
-import { getSummerCamps, getOrdersByProductId, updateEcwidProduct, getAttributeValue, getAdvancedStemCamps } from '../ecwid.js';
+import { 
+    getSummerCamps,
+    getOrdersByProductId,
+    updateEcwidProduct,
+    getAttributeValue,
+    getAdvancedStemCamps,
+    getBootcamps,
+ } from '../ecwid.js';
 import path from 'path';
 import { pathToFileURL } from 'url';
 import dotenv from 'dotenv';
+
 // Construct the path to the .env file
 const envPath = path.join(process.cwd(), '..', '.env');
 console.log(`Loading environment variables from: ${envPath}`);
-// Load the .env file
 await dotenv.config({ path: envPath });
-
 
 const SESSION_TIME = "Session Time";
 const FULL_DAY = "Full-Day";
 const AM_SESSION = "AM";
 const PM_SESSION = "PM"; 
+const BOOTCAMP_OPTION = "Session";
+const FULL_PREFIX = "Full-day";
 
 export async function updateSummerCampSeats() {
     const summerCamps = await getSummerCamps();
@@ -86,4 +94,88 @@ export async function updateSummerCampSeats() {
     }
 }
 
+function buildBootcampSessionMap(camp) {
+    const option = camp?.options?.find(opt => opt?.name === BOOTCAMP_OPTION);
+
+    const map = {};
+    if (!option) return map;
+
+    let fullSeen = 0;
+    for (const choice of option.choices) {
+        // takes the form Full-day (June 1-5), each bootcamp has two weeks 
+        const text = choice?.text || '';
+        if (text.startsWith(FULL_PREFIX)) {
+            fullSeen++;
+            map[text] = fullSeen === 1 ? 'fullW1' : 'fullW2';
+        } else if (text.startsWith(AM_PREFIX)) {
+            map[text] = 'am';
+        } else if (text.startsWith(PM_PREFIX_)) {
+            map[text] = 'pm';
+        }
+    }
+    return map;
+}
+
+export async function updateBootcampSeats() {
+    const bootcamps = await getBootcamps();
+    for (const camp of bootcamps) {
+        if (!camp.enabled) continue;
+
+        const maxAttribute = camp?.attributes?.find(a => a?.name === "Max");
+        if (!maxAttribute || !maxAttribute.value?.trim()) {
+            console.error(`No max attribute for product ${camp.id}`);
+            continue;
+        }
+        const maxSeats = parseInt(maxAttribute.value, 10);
+
+        const sessionMap = buildBootcampSessionMap(camp);
+        const orders = await getOrdersByProductId(camp.id);
+        if (orders.length == 0) {
+            console.log(`WARNING!! No orders for bootcamp ${camp.name}`);
+        }
+
+        var fullW1_enrollment = 0;
+        var fullW2_enrollment = 0;
+        var am_enrollment = 0;
+        var pm_enrollment = 0;
+
+        for (let order of orders) {
+            // console.log(order);
+            for (let item of order.items) {
+                if (item.productId !== camp.id) continue;
+                const selected = item?.selectedOptions?.find(
+                    opt => opt?.name === BOOTCAMP_SESSION)?.value || '';
+                const bucket = sessionMap[selected];
+                if (bucket === 'fullW1') fullW1_enrollment += 1;
+                else if (bucket === 'fullW2') fullW2_enrollment += 1;
+                else if (bucket === 'am') am_enrollment += 1;
+                else if (bucket === 'pm') pm_enrollment += 1;
+            }
+        }
+        console.log(`Enrollments for bootcamp ${camp.name} (${camp.id}): Full Wk1: ${fullW1_enrollment},
+             Full Wk2: ${fullW2_enrollment}, AM: ${am_enrollment}, PM: ${pm_enrollment}`);
+
+        // per-week binding pair: full + max(am, pm) <= max
+        const fullW1Seats = maxSeats - (fullW1_enrollment + Math.max(am_enrollment, pm_enrollment));
+        const fullW2Seats = maxSeats - (fullW2_enrollment + Math.max(am_enrollment, pm_enrollment));
+        // half-day spans both weeks; bounded by the more-constrained week
+        const amSeats = maxSeats - (Math.max(fullW1_enrollment, fullW2_enrollment) + am_enrollment);
+        const pmSeats = maxSeats - (Math.max(fullW1_enrollment, fullW2_enrollment) + pm_enrollment);
+        console.log(`Bootcamp: ${camp.name} (${camp.id}) - Full Wk1: ${fullW1Seats}, Full Wk2: ${fullW2Seats}, AM: ${amSeats}, PM: ${pmSeats}`);
+
+        for (const combination of camp.combinations || []) {
+            const sessionOption = combination?.options?.find(
+                opt => opt?.name === BOOTCAMP_SESSION);
+            if (!sessionOption) continue;
+            const bucket = sessionMap[sessionOption.value || ''];
+            if (bucket === 'fullW1') combination.quantity = fullW1Seats;
+            else if (bucket === 'fullW2') combination.quantity = fullW2Seats;
+            else if (bucket === 'am') combination.quantity = amSeats;
+            else if (bucket === 'pm') combination.quantity = pmSeats;
+        }
+        await updateEcwidProduct(camp);
+    }
+}
+
 updateSummerCampSeats();
+// updateBootcampSeats();
