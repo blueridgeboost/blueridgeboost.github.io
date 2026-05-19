@@ -2,7 +2,7 @@
 title: "Terms and Conditions | Blue Ridge Boost"
 page_title: "Terms and Conditions for Blue Ridge Boost LLC"
 # meta description
-description: "Review the Terms and Conditions for Blue Ridge Boost, including enrollment policies, attendance limits, payment, refunds, conduct, liability waivers, and intellectual property. Contact us at nora@blueridgeboost.com or (434)260-0636 for questions."
+description: "Review the Terms and Conditions for Blue Ridge Boost, including enrollment policies, attendance limits, payment, refunds, conduct, liability waivers, and intellectual property. Contact us at {{< email >}} or (434)260-0636 for questions."
 draft: false
 
 keywords:

@@ -49,7 +49,7 @@ At our Open House, you’ll have the opportunity to:
 
 
 
-🎉 RSVP Today: "buy" one of the products below, call (434) 260-0636, or email nora@blueridgeboost.com.
+🎉 RSVP Today: "buy" one of the products below, call (434) 260-0636, or email {{< email >}}
 
 We look forward to welcoming you! 🚀
 

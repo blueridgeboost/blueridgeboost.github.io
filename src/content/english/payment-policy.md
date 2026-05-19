@@ -2,7 +2,7 @@
 title: "Payment Policy | Blue Ridge Boost"
 page_title: "Payment Policy for Blue Ridge Boost LLC"
 # meta description
-description: "Learn about Blue Ridge Boost's payment policy, including accepted methods, due dates, subscriptions, late fees, refunds, and financial assistance. For questions, contact us at nora@blueridgeboost.com or call (434)260-0636."
+description: "Learn about Blue Ridge Boost's payment policy, including accepted methods, due dates, subscriptions, late fees, refunds, and financial assistance. For questions, contact us at {{< email >}} or call (434)260-0636."
 draft: false
 
 keywords:

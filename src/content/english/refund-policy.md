@@ -2,7 +2,7 @@
 title: "Refund Policy | Blue Ridge Boost"
 page_title: "Refund Policy for Blue Ridge Boost LLC"
 # meta description
-description: "Review Blue Ridge Boost's refund policy, including no-refund guidelines, transfer options, subscription cancellations, and event rescheduling. Contact us at nora@blueridgeboost.com or (434)260-0636 for more information."
+description: "Review Blue Ridge Boost's refund policy, including no-refund guidelines, transfer options, subscription cancellations, and event rescheduling. Contact us at {{< email >}} or (434)260-0636 for more information."
 draft: false
 
 keywords:

@@ -149,7 +149,7 @@ keywords:
 
 <section class="gaming-contact">
   <h2>Questions?</h2>
-  <p>Call <a href="tel:+14342600636">(434) 260-0636</a> or email <a href="mailto:nora@blueridgeboost.com">nora@blueridgeboost.com</a>.</p>
+  <p>Call <a href="tel:+14342600636">(434) 260-0636</a> or email {{< email >}}.</p>
   <p><a href="/refund-policy/">Refund Policy</a> · <a href="/payment-policy/">Payment Policy</a> · <a href="/privacy-policy/">Privacy Policy</a> · <a href="/terms-of-service/">Terms of Service</a></p>
   <address>Blue Ridge Boost, 2171 Ivy Rd, Charlottesville, VA 22903</address>
 </section>
