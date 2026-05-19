@@ -33,6 +33,7 @@ tagline = "Hands-on STEM learning • Ages 6+"
 
 # other email params
 birthdayemail = "birthdays@blueridgeboost.com"
+campemail = "camps@blueridgeboost.com"
 
 [cta]
 text = "Explore Summer Camps"
