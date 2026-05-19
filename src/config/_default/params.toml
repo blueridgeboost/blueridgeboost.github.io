@@ -31,6 +31,9 @@ phone_raw = "+14342600636"
 email = "info@blueridgeboost.com"
 tagline = "Hands-on STEM learning • Ages 6+"
 
+# other email params
+birthdayemail = "birthdays@blueridgeboost.com"
+
 [cta]
 text = "Explore Summer Camps"
 url = "/summer-camps"
