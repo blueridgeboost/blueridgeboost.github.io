@@ -9,7 +9,12 @@ import { isPastDate, formatIsoDateToLong } from '../date-helpers.js';
 import path from 'path';
 import { audience, gamingURL, location, provider } from '../classes/rich-results-helpers.js';
 import { writePartialFile } from '../fs-helpers.js';
+import dotenv from 'dotenv';
+// Construct the path to the .env file
+const envPath = path.join(process.cwd(), '..', '.env');
+dotenv.config({ path: envPath });
 
+console.log("Gaming Fridays script running...", process.env.ECWID_REST_SECRET);
 
 const skipDates = ["2025-10-31", "2025-11-28", "2025-12-26", "2026-01-02"];
 
@@ -30,11 +35,7 @@ async function getRelatedProducts() {
 	// one day camp
 	// one game development class
 	// one robotics class
-	const products = [ (await getCatalog([ONE_DAY_CAMPS_CATEGORY_ID], true, 1))[0],
-		shuffleInPlace(await getCatalog([GAME_DEV_CATEGORY_ID, ELEMENTARY_CATEGORY_ID], true, 100))[0],
-		shuffleInPlace(await getCatalog([CODING_CATEGORY_ID, ELEMENTARY_CATEGORY_ID], true, 100))[0],
-	];
-	return products.map(p => p.id);
+	return [];
 }
 
 
@@ -146,7 +147,7 @@ function imageURL(friday) {
 
 async function productSort() {
 	
-	const products = await getCatalog([GAMING_FRIDAYS_CATEGORY_ID], false);
+	const products = await getCatalog([GAMING_FRIDAYS_CATEGORY_ID], true);
 
 	// sort the products from this category by their start_date
 	const cat_sorted = products.sort( (p1, p2) => {
@@ -169,7 +170,7 @@ export async function updateGamingFridays() {
 	const nextFridays = getNext5FridaysWithOrdinal().filter( f => !skipDates.includes(f.date) );
 	console.log("Next 5 Fridays:", nextFridays);
 	const startDates = [];
-	const products = await getCatalog([GAMING_FRIDAYS_CATEGORY_ID, false]);
+	const products = await getCatalog([GAMING_FRIDAYS_CATEGORY_ID], false);
 	for (const p of products) {
 		// if start_date in the past, disable it and remove it from the category
 		const startDateStr = getAttributeValue(p, "start_date");
