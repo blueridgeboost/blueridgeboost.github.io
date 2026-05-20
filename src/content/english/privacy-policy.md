@@ -2,7 +2,7 @@
 title: "Privacy Policy | Blue Ridge Boost"
 page_title: "Privacy Policy for Blue Ridge Boost LLC"
 # meta description
-description: "Read Blue Ridge Boost's Privacy Policy to learn how we collect, use, and protect personal information, including video monitoring in classrooms. Contact us at nora@blueridgeboost.com or (434)260-0636 for questions or concerns."
+description: "Read Blue Ridge Boost's Privacy Policy to learn how we collect, use, and protect personal information, including video monitoring in classrooms. Contact us at {{< email >}} or (434)260-0636 for questions or concerns."
 draft: false
 
 keywords:
@@ -74,6 +74,6 @@ If you have any questions about this Privacy Policy, please contact us at:
 Blue Ridge Boost LLC
 2171 Ivy Rd, 
 Charlottesville, VA 22903
-nora@blueridgeboost.com
+{{< email >}}
 
 This Privacy Policy was last updated on 7/11/2024.

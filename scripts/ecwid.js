@@ -119,6 +119,7 @@ export const getCatalog = async (categoryIds=[], enabledOnly=true, top=100) => {
         Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`
       }
     };
+    console.log(`Fetching catalog with params: ${params.toString()}`);
     try { 
       const response = await fetch(`${url}?${params.toString()}`, options);
       if (!response.ok) {

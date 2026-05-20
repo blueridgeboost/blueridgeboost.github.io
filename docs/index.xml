@@ -30,6 +30,7 @@
 &lt;/nav&gt;
 &lt;/details&gt;
 
+<<<<<<< HEAD
 &lt;p&gt;Here is example of hedings. You can use this heading by following markdownify rules. For example: use &lt;code&gt;#&lt;/code&gt; for heading 1 and use &lt;code&gt;######&lt;/code&gt; for heading 6.&lt;/p&gt;
 &lt;h1 id="heading-1"&gt;Heading 1&lt;/h1&gt;
 &lt;h2 id="heading-2"&gt;Heading 2&lt;/h2&gt;
@@ -139,6 +140,112 @@
  &lt;p&gt;&lt;strong&gt;Cert:&lt;/strong&gt; Carnegie Mellon Robotics Academy&lt;br&gt;&lt;strong&gt;Full-day:&lt;/strong&gt; 1 week&lt;br&gt;&lt;strong&gt;Half-day:&lt;/strong&gt; 2 weeks&lt;br&gt;Students may take home some projects; specialized robotics sets remain with Blue Ridge Boost.&lt;/p&gt;</description></item><item><title>Coding and Robotics Certifications | Blue Ridge Boost</title><link>https://blueridgeboost.com/certifications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/certifications/</guid><description>&lt;section&gt;
 &lt;div class="container"&gt;
  &lt;div&gt;
+=======
+&lt;p>Here is example of hedings. You can use this heading by following markdownify rules. For example: use &lt;code>#&lt;/code> for heading 1 and use &lt;code>######&lt;/code> for heading 6.&lt;/p>
+&lt;h1 id="heading-1">Heading 1&lt;/h1>
+&lt;h2 id="heading-2">Heading 2&lt;/h2>
+&lt;h3 id="heading-3">Heading 3&lt;/h3>
+&lt;h4 id="heading-4">Heading 4&lt;/h4>
+&lt;h5 id="heading-5">Heading 5&lt;/h5>
+&lt;h6 id="heading-6">Heading 6&lt;/h6>
+&lt;hr>
+&lt;h5 id="emphasis">Emphasis&lt;/h5>
+&lt;p>Emphasis, aka italics, with &lt;em>asterisks&lt;/em> or &lt;em>underscores&lt;/em>.&lt;/p></description></item><item><title>1-Day Camps | Blue Ridge Boost</title><link>https://blueridgeboost.com/1-day-camps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/1-day-camps/</guid><description>&lt;div class="camp-promo">&lt;span class="pill">&lt;span class="dot">&lt;/span> &lt;span class="highlight">Save 25%&lt;/span> — register 3+ days before camp&lt;/span>&lt;span class="pill">&lt;span class="dot">&lt;/span> Missing a school day? &lt;a href="mailto:camps@blueridgeboost.com">Let us know&lt;/a>&lt;/span>&lt;/div>
+&lt;!-- 1-Day Camps Overview -->
+&lt;section class="hp-section" id="overview">
+ &lt;div class="wrap">
+ &lt;div class="sectionTitle">
+ &lt;div>
+ &lt;h2>1-Day Camps&lt;/h2>
+ &lt;p>Hands-on STEM programs during school breaks, snow days, and teacher workdays for ages 6–13. Half-day (8:30 AM–1:00 PM) and full-day (8:30 AM–5:00 PM) options — all materials included.&lt;/p>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="grid3" aria-label="Camp overview">
+ &lt;div class="hp-card">
+ &lt;h3>Topics&lt;/h3>
+ &lt;p>&lt;strong>Robotics&lt;/strong> — build and program robots&lt;br>&lt;strong>Coding &amp;amp; Game Design&lt;/strong> — Minecraft Education and Roblox Studio&lt;br>&lt;strong>Strategic Games&lt;/strong> — board games and logic puzzles&lt;/p></description></item><item><title>Advanced STEM Camps | Blue Ridge Boost</title><link>https://blueridgeboost.com/advanced-stem-camps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/advanced-stem-camps/</guid><description>&lt;!-- Advanced STEM Camps — Ages 13–18 -->
+&lt;section class="hp-section" id="advanced-stem-camps">
+ &lt;div class="wrap">
+ &lt;div class="class-details-box" style="background: #F3E5F5; border-left: 4px solid #8B5A99;">
+ &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem;">
+ &lt;div>
+ &lt;p style="margin: 0; font-size: 1rem; color: rgba(7, 16, 34, 0.76);">Week-long technical camps for experienced students. AI projects, advanced game development, and cybersecurity challenges. Full-day ($599.99) and half-day ($399.99) options — all materials included.&lt;/p>
+ &lt;/div>
+ &lt;div style="display: flex; gap: 10px; align-items: center;">
+ &lt;a href="#advanced" style="display: inline-block; background: #8B5A99; color: white; padding: 10px 18px; border-radius: 999px; text-decoration: none; font-weight: 700; font-size: 0.875rem; line-height: 1.2;">Browse Advanced Camps&lt;/a>
+ &lt;span style="display: inline-block; background: rgba(255,255,255,0.92); padding: 10px 18px; border-radius: 999px; border: 1px solid rgba(18, 32, 70, 0.20); font-weight: 700; font-size: 0.875rem; line-height: 1.2;">Ages 13-18&lt;/span>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="programs-grid">
+ &lt;article class="program-card" style="background: rgba(255,255,255,0.7);">
+ &lt;h3>📚 Topics&lt;/h3>
+ &lt;p>&lt;strong>Advanced Game Dev&lt;/strong> — Unity &amp; Unreal Engine&lt;/p></description></item><item><title>Celebrations | Blue Ridge Boost</title><link>https://blueridgeboost.com/birthdays/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/birthdays/</guid><description>&lt;p>At Blue Ridge Boost, we turn your child's birthday into a tech-powered adventure with robotics and gaming fun!&lt;/p>
+&lt;!-- &lt;img src="images/wideroom.webp" alt="BRB Gaming Room"> -->
+&lt;!--&lt;img src="images/fullroom.jpg" alt="BRB Gaming Room" width="500">-->
+ &lt;h3>Party Details&lt;/h3>
+ &lt;p>&lt;strong>Max 15 Guests + 1 Birthday Kid&lt;/strong>&lt;/p>
+ &lt;p>&lt;strong>2 hours&lt;/strong> of tech-empowered birthday fun!&lt;/p> 
+&lt;hr>
+&lt;div class="container section">
+ &lt;!--This needs to be in a row-->
+ &lt;h3>Find Their Perfect Birthday Theme&lt;/h3>
+ &lt;!--Make this a banner-->
+ &lt;div class="row row-cols-3 justify-content-center">
+ &lt;div class="theme-card col-md">
+ &lt;h4>Gaming Themes&lt;/h4>
+ &lt;!--Subtitle Needed-->
+ &lt;body>Minecraft&lt;/body> 
+ &lt;h6>Rec. Ages: 6+&lt;/h6>
+ &lt;body>Roblox&lt;/body> 
+ &lt;h6>Rec. Ages: 8+&lt;/h6>
+ &lt;body>Fortnite&lt;/body>
+ &lt;h6>Rec. Ages: 10+&lt;/h6>
+ &lt;body>Call of Duty&lt;/body>
+ &lt;h6>Rec. Ages: 12+&lt;/h6>
+ &lt;body>Valorant&lt;/body>
+ &lt;h6>Rec. Ages: 12+&lt;/h6>
+ &lt;body>Other Games&lt;/body> 
+ &lt;h6>Upon Request&lt;/h6>
+ &lt;/div>
+ &lt;div class="theme-card col-md">
+ &lt;h4>Robotics Themes&lt;/h4>
+ &lt;body>Lego Robotics&lt;/body> 
+ &lt;h6>Rec. Ages: 6+&lt;/h6>
+ &lt;body>Sphero Bots&lt;/body> 
+ &lt;h6>Rec. Ages: 6+&lt;/h6>
+ &lt;body>Lego Battle Bots&lt;/body>
+ &lt;h6>Rec. Ages: 6+&lt;/h6>
+ &lt;body>Sumo Bots&lt;/body> 
+ &lt;h6>Rec. Ages: 8+&lt;/h6>
+ &lt;body>VexIQ Battle Bots&lt;/body>
+ &lt;h6>Rec. Ages: 10+&lt;/h6>
+ &lt;body>Aerial Drones&lt;/body> 
+ &lt;h6>Rec. Ages: 10+&lt;/h6>
+ &lt;/div>
+ &lt;div class="theme-card col-md align-middle">
+ &lt;h4>Combo (+99.99)&lt;/h4>
+ &lt;body>Your Choice of Gaming Theme&lt;/body> 
+ &lt;!-- &lt;h6>Rec. Ages: 6+&lt;/h6> -->
+ &lt;p>&lt;/p></description></item><item><title>Certification Bootcamps | Blue Ridge Boost</title><link>https://blueridgeboost.com/bootcamps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/bootcamps/</guid><description>&lt;!-- Certification Bootcamps — Ages 13+ -->
+&lt;section class="hp-section" id="bootcamps">
+ &lt;div class="wrap">
+ &lt;div class="sectionTitle">
+ &lt;div>
+ &lt;h2>Certification Bootcamps · Ages 13+&lt;/h2>
+ &lt;p>Earn an industry-recognized certification in a small-group, intensive program. All materials, computer use, and exam fees included. $1,299.99.&lt;/p>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="grid3" aria-label="Bootcamp options">
+ &lt;div class="hp-card">
+ &lt;h3>Robotics Academy&lt;/h3>
+ &lt;p>&lt;strong>Cert:&lt;/strong> Carnegie Mellon Robotics Academy&lt;br>&lt;strong>Full-day:&lt;/strong> 1 week&lt;br>&lt;strong>Half-day:&lt;/strong> 2 weeks&lt;br>Students may take home some projects; specialized robotics sets remain with Blue Ridge Boost.&lt;/p>
+ &lt;/div>
+ &lt;div class="hp-card">
+ &lt;h3>Coding Bootcamp&lt;/h3>
+ &lt;p>&lt;strong>Cert:&lt;/strong> CodeHS Certification&lt;br>&lt;strong>Full-day:&lt;/strong> 1 week&lt;br>&lt;strong>Half-day:&lt;/strong> 2 weeks&lt;br>Focused, small-group instruction — no computer needed.&lt;/p></description></item><item><title>Coding and Robotics Certifications | Blue Ridge Boost</title><link>https://blueridgeboost.com/certifications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/certifications/</guid><description>&lt;section>
+&lt;div class="container">
+ &lt;div>
+>>>>>>> aa001655253d1b9f27845383946d5504e8ef3996
  &lt;script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&amp;data_platform=code"
  charset="utf-8"&gt;&lt;/script&gt;&lt;script type="text/javascript"&gt;
  xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041", 
@@ -175,6 +282,7 @@
  charset="utf-8"&gt;&lt;/script&gt; --&gt;
 &lt;script type="text/javascript"&gt;
  xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041", 
+<<<<<<< HEAD
  "defaultCategoryId=180055311");&lt;/script&gt;&lt;/div&gt;
 &lt;h3 id="request-a-class-not-offered"&gt;Request a Class Not Offered&lt;/h3&gt;
 &lt;p&gt;Is there a class you&amp;rsquo;d like to take but it&amp;rsquo;s not available? Let us know!&lt;br&gt;
@@ -196,6 +304,23 @@ Email &lt;strong&gt;&lt;a href="mailto:nora@blueridgeboost.com"
  Get &lt;strong&gt;$75 off 1-week camps&lt;/strong&gt; and &lt;strong&gt;$250 off 2-week camps&lt;/strong&gt;! 
  &lt;/p&gt;
  &lt;p style="color: #d84315; font-size: 16px; font-weight: bold; margin-bottom: 20px;"&gt;
+=======
+ "defaultCategoryId=180055311");&lt;/script>&lt;/div>
+&lt;h3 id="request-a-class-not-offered">Request a Class Not Offered&lt;/h3>
+&lt;p>Is there a class you&amp;rsquo;d like to take but it&amp;rsquo;s not available? Let us know!&lt;br>
+Email 
+&lt;a href="mailto:info@blueridgeboost.com">info@blueridgeboost.com&lt;/a> with the following details:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Topic&lt;/strong>: What subject or skill would you like to learn?&lt;/li>
+&lt;li>&lt;strong>Level&lt;/strong>: Beginner, intermediate, or advanced?&lt;/li>
+&lt;li>&lt;strong>Preferred Times&lt;/strong>: Let us know what days and times work best for you.&lt;/li>
+&lt;/ul>
+&lt;p>We look forward to hearing from you!&lt;/p></description></item><item><title>Coding and Robotics Classes on Sale | Blue Ridge Boost</title><link>https://blueridgeboost.com/fire-sale/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/fire-sale/</guid><description>&lt;div style="background-color: #ffedd5; border: 2px solid #ff5722; padding: 20px; border-radius: 8px; text-align: center; font-family: Arial, sans-serif;">
+ &lt;p style="color: #333; font-size: 18px; margin-bottom: 15px;">
+ Get &lt;strong>$75 off 1-week camps&lt;/strong> and &lt;strong>$250 off 2-week camps&lt;/strong>! 
+ &lt;/p>
+ &lt;p style="color: #d84315; font-size: 16px; font-weight: bold; margin-bottom: 20px;">
+>>>>>>> aa001655253d1b9f27845383946d5504e8ef3996
  Limited-time offer – enroll now and save big!
  &lt;/p&gt;
 &lt;/div&gt;
@@ -284,6 +409,7 @@ Email &lt;strong&gt;&lt;a href="mailto:nora@blueridgeboost.com"
  "id=my-store-106136041",
  "defaultCategoryId=175336875"
  );
+<<<<<<< HEAD
  &lt;/script&gt;
  &lt;/div&gt;
 &lt;/section&gt;
@@ -333,6 +459,52 @@ Email &lt;strong&gt;&lt;a href="mailto:nora@blueridgeboost.com"
  	&lt;p&gt;To accommodate busy summer schedules, we offer two convenient options:&lt;br&gt;
  	&lt;b&gt;Option 1:&lt;/b&gt; Drop off at 10:30 AM and pick up at 3:30 PM&lt;br&gt;
  	&lt;b&gt;Option 2:&lt;/b&gt; Drop off at 12:30 PM and pick up at 5:30 PM&lt;br&gt;
+=======
+ &lt;/script>
+ &lt;/div>
+&lt;/section>
+&lt;section id="details" class="gaming-details">
+ &lt;h2>🎮 Level Up Your Friday!&lt;/h2>
+ &lt;p>
+ Whether you're a Fortnite fan, Robloxian, Crafter, or just love gaming — this is your night to shine! Dive into thrilling multiplayer battles, explore immersive worlds, or take on challenges as a team with our &lt;strong>fully-decked-out gaming setups&lt;/strong>. Plus, &lt;strong>free pizza included!&lt;/strong>
+ &lt;/p></description></item><item><title>Kids Classes | Blue Ridge Boost</title><link>https://blueridgeboost.com/classes/kids/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/classes/kids/</guid><description/></item><item><title>Nora Evans</title><link>https://blueridgeboost.com/author/nora-evans/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/author/nora-evans/</guid><description/></item><item><title>Open House | Blue Ridge Boost</title><link>https://blueridgeboost.com/open-house/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/open-house/</guid><description>&lt;p>Join Us for the Blue Ridge Boost Monthly Open House!&lt;/p>
+&lt;p>Join us on the first Sunday of every month to explore our engaging programs in Computer Coding, Robotics, Science, and Math for kids, teens, and adults.&lt;/p>
+&lt;p>📅 When: The 1st Sunday of every month &lt;br>
+🕒 Time: 3:30 PM - 5:30 PM&lt;br>
+📍 Where: 2171 Ivy Rd, Charlottesville, VA 22903 &lt;br>&lt;/p>
+&lt;p>At our Open House, you’ll have the opportunity to:&lt;/p>
+&lt;ul>
+&lt;li>Learn about our classes and camps for grades 1-12&lt;/li>
+&lt;li>Explore our gaming clubs like Minecraft, Roblox, and Fortnite&lt;/li>
+&lt;li>Get details on our certifications in coding and robotics for teens and adults&lt;/li>
+&lt;li>Meet our expert instructors and see how we inspire and empower students through robotics competitions and innovative enrichment programs!
+&lt;/li>
+&lt;!-- i think i would like to edit the last point eventually, cant figure out the wording rn -Lain -->
+&lt;/ul>
+&lt;p>🎉 RSVP Today: &amp;ldquo;buy&amp;rdquo; one of the products below, call (434) 260-0636, or email 
+&lt;a href="mailto:info@blueridgeboost.com">info@blueridgeboost.com&lt;/a>&lt;/p></description></item><item><title>Payment Error | Blue Ridge Boost</title><link>https://blueridgeboost.com/payment-error/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/payment-error/</guid><description>&lt;p>Dear Blue Ridge Boost Customer,&lt;/p>
+&lt;p>We regret to inform you that we encountered an error while processing your order. We understand this is inconvenient, and we appreciate your patience.&lt;/p>
+&lt;p>Our team is working diligently to resolve the issue. We will update you on the status of your order as soon as possible.&lt;/p>
+&lt;p>If you have any questions or concerns, please don't hesitate to contact our customer support team at 
+&lt;a href="mailto:info@blueridgeboost.com">info@blueridgeboost.com&lt;/a>.&lt;/p>
+&lt;p>Thank you for your understanding.&lt;/p></description></item><item><title>Payment Policy | Blue Ridge Boost</title><link>https://blueridgeboost.com/payment-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/payment-policy/</guid><description>&lt;h2 id="accepted-payment-methods">Accepted Payment Methods&lt;/h2>
+&lt;p>Blue Ridge Boost LLC accepts the following payment methods:&lt;/p>
+&lt;ol>
+&lt;li>Credit Cards (Visa, Mastercard, American Express, Discover)&lt;/li>
+&lt;li>Debit Cards&lt;/li>
+&lt;li>Electronic Funds Transfer (EFT)&lt;/li>
+&lt;li>Checks (personal or cashier&amp;rsquo;s)&lt;/li>
+&lt;/ol>
+&lt;h2 id="payment-due-date">Payment Due Date&lt;/h2>
+&lt;p>All payments for classes are due upon registration. Your child&amp;rsquo;s spot in the class will not be reserved until payment is received in full. Subscriptions will be charged on the current date. Future payments will be drawn at the beginning of each month, starting with the second class.&lt;/p></description></item><item><title>Privacy Policy | Blue Ridge Boost</title><link>https://blueridgeboost.com/privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/privacy-policy/</guid><description>&lt;p>Blue Ridge Boost LLC (&amp;ldquo;Blue Ridge Boost,&amp;rdquo; &amp;ldquo;we,&amp;rdquo; &amp;ldquo;us,&amp;rdquo; or &amp;ldquo;our&amp;rdquo;) is committed to protecting the privacy of the children enrolled in our classes and their parents/guardians. This Privacy Policy explains how we collect, use, and disclose personal information through the use of Ring video cameras in our classrooms. By enrolling your child in our classes, you consent to the practices described in this policy.&lt;/p>
+&lt;h2 id="information-collection">Information Collection&lt;/h2>
+&lt;p>To ensure the safety and security of the children in our care, we use Ring video cameras to monitor and record activity in our classrooms during class sessions. The video footage may capture the name, likeness, image, voice, and actions of children, staff, and visitors present in the classroom.&lt;/p></description></item><item><title>Quest for Excellence Camps | Blue Ridge Boost</title><link>https://blueridgeboost.com/quest-for-excellence-camps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blueridgeboost.com/quest-for-excellence-camps/</guid><description>&lt;!-- top of the page -->
+&lt;div class="container">
+ &lt;p>All camps are held at Blue Ridge Boost, 2171 Ivy Rd, Charlottesville.&lt;/p>
+ 	&lt;p>To accommodate busy summer schedules, we offer two convenient options:&lt;br>
+ 	&lt;b>Option 1:&lt;/b> Drop off at 10:30 AM and pick up at 3:30 PM&lt;br>
+ 	&lt;b>Option 2:&lt;/b> Drop off at 12:30 PM and pick up at 5:30 PM&lt;br>
+>>>>>>> aa001655253d1b9f27845383946d5504e8ef3996
  	Before and after care available.
  	&lt;/p&gt;
 	&lt;p&gt;At Blue Ridge Boost, all instructors are fully certified through the Carnegie Mellon Robotics Academy, 

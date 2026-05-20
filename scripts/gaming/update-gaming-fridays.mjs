@@ -9,7 +9,12 @@ import { isPastDate, formatIsoDateToLong } from '../date-helpers.js';
 import path from 'path';
 import { audience, gamingURL, location, provider } from '../classes/rich-results-helpers.js';
 import { writePartialFile } from '../fs-helpers.js';
+import dotenv from 'dotenv';
+// Construct the path to the .env file
+const envPath = path.join(process.cwd(), '..', '.env');
+dotenv.config({ path: envPath });
 
+console.log("Gaming Fridays script running...", process.env.ECWID_REST_SECRET);
 
 const skipDates = ["2025-10-31", "2025-11-28", "2025-12-26", "2026-01-02"];
 
@@ -30,11 +35,7 @@ async function getRelatedProducts() {
 	// one day camp
 	// one game development class
 	// one robotics class
-	const products = [ (await getCatalog([ONE_DAY_CAMPS_CATEGORY_ID], true, 1))[0],
-		shuffleInPlace(await getCatalog([GAME_DEV_CATEGORY_ID, ELEMENTARY_CATEGORY_ID], true, 100))[0],
-		shuffleInPlace(await getCatalog([CODING_CATEGORY_ID, ELEMENTARY_CATEGORY_ID], true, 100))[0],
-	];
-	return products.map(p => p.id);
+	return [];
 }
 
 
@@ -48,7 +49,7 @@ async function createProduct(friday) {
 		productName = "Second Friday: Exploration + Free Pizza!";
 		description = secondFridayDescription(formatIsoDateToLong(friday.date));
 	} else if ( friday.ordinalInMonth === 3 ) {
-		productName = "Fortnite + Free Pizza!";
+		productName = "Game Night: Fortnite + Free Pizza!";
 		description = fortniteDescription(formatIsoDateToLong(friday.date));
 	} else if ( friday.ordinalInMonth === 4 ) {
 		productName = "Game Night: Roblox + Free Pizza!";
@@ -118,30 +119,35 @@ function imageURL(friday) {
 	if ( friday.ordinalInMonth == 1 ) {
 		// Minecraft
 		// return "https://drive.google.com/file/d/1B5CjmH5OgY5FZprqhZsiF8IxyYXpMNeu/view?usp=sharing";
-		return "https://drive.google.com/uc?export=download&id=1B5CjmH5OgY5FZprqhZsiF8IxyYXpMNeu";
+		//return "https://drive.google.com/uc?export=download&id=1B5CjmH5OgY5FZprqhZsiF8IxyYXpMNeu";
+		return "gaming-friday-images/minecraftplaceholder.png"
 	} else if (friday.ordinalInMonth == 2) {
 		// free choice
 		// return "https://drive.google.com/file/d/1-NjSULjmKcz2x9PGOpSruUt-HpmPLlUE/view?usp=sharing";
-		return "https://drive.google.com/uc?export=download&id=1-NjSULjmKcz2x9PGOpSruUt-HpmPLlUE";
+		//return "https://drive.google.com/uc?export=download&id=1-NjSULjmKcz2x9PGOpSruUt-HpmPLlUE";
+		return "gaming-friday-images/explorationplaceholder.png"
 	} else if (friday.ordinalInMonth == 3) {
 		// Fortnite
 		// return "https://drive.google.com/file/d/1D7ElLbTQrjG0Gjl6fvCVjfB2Zy-HBNuc/view?usp=sharing";
-		return "https://drive.google.com/uc?export=download&id=1D7ElLbTQrjG0Gjl6fvCVjfB2Zy-HBNuc";
+		// return "https://drive.google.com/uc?export=download&id=1D7ElLbTQrjG0Gjl6fvCVjfB2Zy-HBNuc";
+		return "gaming-friday-images/fortniteplaceholder.png"
 	} else if (friday.ordinalInMonth == 4) {
 		// Roblox
 		// return "https://drive.google.com/file/d/1OJ-kHmq0abJfXaOoWimMgmJ1J46CqQyS/view?usp=sharing";
-		return "https://drive.google.com/uc?export=download&id=1OJ-kHmq0abJfXaOoWimMgmJ1J46CqQyS";
+		// return "https://drive.google.com/uc?export=download&id=1OJ-kHmq0abJfXaOoWimMgmJ1J46CqQyS";
+		return "gaming-friday-images/robloxplaceholder.png"
 	} else {
 		// Fifth Friday
 		// return "https://drive.google.com/file/d/1-NjSULjmKcz2x9PGOpSruUt-HpmPLlUE/view?usp=sharing";
-		return "https://drive.google.com/uc?export=download&id=1-NjSULjmKcz2x9PGOpSruUt-HpmPLlUE";
+		// return "https://drive.google.com/uc?export=download&id=1-NjSULjmKcz2x9PGOpSruUt-HpmPLlUE";
+		return "gaming-friday-images/chooseplaceholder.png"
 	}
 	
 }
 
 async function productSort() {
 	
-	const products = await getCatalog([GAMING_FRIDAYS_CATEGORY_ID], false);
+	const products = await getCatalog([GAMING_FRIDAYS_CATEGORY_ID], true);
 
 	// sort the products from this category by their start_date
 	const cat_sorted = products.sort( (p1, p2) => {
@@ -184,6 +190,8 @@ export async function updateGamingFridays() {
 	}
 	// check if we have to create new products
 	for (const friday of nextFridays) {
+		console.log("found one")
+		console.log(friday)
 		if ( !(startDates.includes(friday.date)) ) {
 			// Create a new product for this Friday
 			console.log(`Creating new product for ${friday.date}`);
@@ -279,3 +287,5 @@ export async function generateGamingRichResults() {
 	}
 	await writePartialFile('gaming-fridays.html', JSON.stringify(webPage, null, 2));
 }
+
+await updateGamingFridays();

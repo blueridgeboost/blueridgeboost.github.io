@@ -201,7 +201,7 @@ aliases: ["/celebrations"]
   </a> -->
 </section>
     <hr>
-    <h5>If you have any questions, email <a href="mailto:birthdays@blueridgeboost.com">birthdays@blueridgeboost.com</a>!</h5>
+    <h5>If you have any questions, email {{< birthdayemail >}}!</h5>
     <h5>See you at the party!</h5>
     <br>
     </div>

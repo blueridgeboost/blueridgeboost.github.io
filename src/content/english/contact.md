@@ -3,7 +3,7 @@ title: "Contact Us"
 page_title: ""
 subtitle: ""
 # meta description
-description: "Get in touch with Blue Ridge Boost in Charlottesville, VA! Contact us for questions about classes, camps, tutoring, certifications, WRO, parties, and more. Call (434)260-0636 or email nora@blueridgeboost.com. Sign up for our newsletter today!"
+description: "Get in touch with Blue Ridge Boost in Charlottesville, VA! Contact us for questions about classes, camps, tutoring, certifications, WRO, parties, and more. Call (434)260-0636 or email {{< birthdayemail >}}. Sign up for our newsletter today!"
 draft: false
 layout: "contact"
 
