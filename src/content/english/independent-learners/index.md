@@ -1,52 +1,46 @@
 ---
-title: For You | Blue Ridge Boost"
-page_title: "Classes just For You"
-# meta description
-description: "For You classes are designed to be a flexible and tailored option for your group of students. "
+title: "For You | Blue Ridge Boost"
+page_title: "Flexible STEM Classes for Your Group"
+description: "Flexible, hands-on STEM classes for homeschool groups, learning pods, field trip groups, and study groups."
 draft: false
 layout: single
 style: justify-text-center
 ---
+
 <div class="container px-3 px-md-4 px-lg-5">
 	<div class="row align-items-center py-1 mb-2">
 		<div class="col-12">
-      		Group Classes, just for you! Our on‑demand Group Classes are designed to be flexible and tailored to your group—schedule between 9:00 AM and 3:00 PM, or later, to fit your day.
-
-    	</div>
-  	</div>
- 	<div class="row align-items-start g-4 d-none d-md-flex mt-2">
+			<p class="mb-0">
+				Our on-demand group classes are designed around your schedule and tailored to your students’ needs. Whether you’re organizing a homeschool group, learning pod, field trip, or study group, we make it easy to bring engaging STEM learning to your students.
+			</p>
+			<p class="mb-0 mt-2">
+				<strong>Available from 9:00 AM to 3:00 PM—or later by request.</strong>
+			</p>
+		</div>
+	</div>
+ 	<div class="row align-items-start g-4 mt-2">
     	<div class="col-12 col-md-6">
       		<img
         		src="images/here.jpg"
         		class="img-fluid rounded"
-        		alt="Dorina and Maxwell working on Fortnite game development in Unreal Engine"
+        		alt="Students engaged in a hands-on STEM learning activity"
       		/>
 		</div>
     	<div class="col-12 col-md-6 mt-0">
-			<h4>Perfect for</h4>
+			<h4>Ideal for</h4>
 			<ul class="feature-list mb-0">
 				<li>Homeschool Groups</li>
-				<li>Education Pods</li>
-				<li>Series of Field Trips</li>
+				<li>Learning Pods</li>
+				<li>Field Trip Groups</li>
 				<li>Study Groups</li>
 			</ul>
 		</div>
   	</div>
-<div class="row mt-5">
+	<div class="row mt-5">
 		<div class="col-12 text-center">
-			<h2>Programs Designed for Real Learning</h2>
+			<h2>Programs That Build Real Skills</h2>
 			<p class="mt-3">
-			Flexible STEM programs designed for homeschool groups,
-			learning pods, and students looking for deeper academic enrichment.
-			</p>
-		</div>
-	</div>
-<div class="row mt-5">
-		<div class="col-12 text-center">
-			<h2>Programs Designed for Real Learning</h2>
-			<p class="mt-3">
-			Flexible STEM programs designed for homeschool groups,
-			learning pods, and students looking for deeper academic enrichment.
+				Hands-on STEM classes in robotics, coding, computer science, and math—designed to keep students engaged while building problem-solving, critical thinking, and academic confidence.
 			</p>
 		</div>
 	</div>
@@ -55,20 +49,10 @@ style: justify-text-center
 			<div class="border rounded p-4 h-100">
 				<h3 class="mb-3">Middle School Program</h3>
 				<p>
-				Our middle school classes include Robotics,
-				Singapore Math, and Coding — designed to build
-				real skills through hands-on, project-based learning.
-				</p>
-				<p>
-				Students develop problem-solving abilities,
-				logical thinking, and a strong foundation in STEM
-				that prepares them for high school and beyond.
+					Middle school students explore Robotics, Singapore Math, and Coding through hands-on, project-based learning.
 				</p>
 				<p class="mb-0">
-				Whether they're building and programming robots,
-				working through math concepts step by step,
-				or creating their own programs from scratch,
-				every class is built to keep students engaged and challenged.
+					Each class is designed to strengthen problem-solving, logical thinking, and foundational STEM skills while keeping students engaged, challenged, and excited to learn.
 				</p>
 			</div>
 		</div>
@@ -76,18 +60,10 @@ style: justify-text-center
 			<div class="border rounded p-4 h-100">
 				<h3 class="mb-3">High School Program</h3>
 				<p>
-				High schoolers can choose from Robotics,
-				Computer Science, and Math courses including
-				Algebra 1 & 2, Geometry, and Pre-Calculus.
-				</p>
-				<p>
-				Students interested in science can also take
-				Biology, Chemistry, and Physics 1 & 2.
+					High school students can choose from advanced courses in Robotics, Computer Science, Math, and Science—including Algebra 1 & 2, Geometry, Pre-Calculus, Biology, Chemistry, and Physics 1 & 2.
 				</p>
 				<p class="mb-0">
-				Science courses feature virtual labs with VR headsets
-				that bring concepts to life in an immersive,
-				hands-on environment while building college readiness.
+					With immersive virtual labs and hands-on instruction, students deepen their understanding, strengthen critical thinking, and build confidence for college-level learning.
 				</p>
 			</div>
 		</div>
@@ -95,12 +71,12 @@ style: justify-text-center
 	<div class="row mt-5">
 		<div class="col-12">
 			<div class="border rounded p-4">
-				<h3 class="mb-3">For All Classes</h3>
+				<h3 class="mb-3">Included in Every Program</h3>
 				<ul class="mb-0">
-					<li>Full academic year programs</li>
-					<li>2-hour weekly sessions</li>
-					<li>Small class sizes (3–12 students)</li>
-					<li>Weekly homework and exams that are graded by parents at home</li>
+					<li>Full academic-year programs</li>
+					<li>Weekly 2-hour class sessions</li>
+					<li>Small class sizes of 3–12 students</li>
+					<li>Weekly homework and assessments for at-home review</li>
 				</ul>
 			</div>
 		</div>
@@ -111,7 +87,7 @@ style: justify-text-center
 				<h4 class="mb-2">Middle School</h4>
 				<h2 class="mb-3">$159.99<small class="fs-6 text-muted"> /month</small></h2>
 				<p class="mb-0">
-				$9 discount for each additional student beyond the third.
+					Starting with 4 students, each additional student increases the monthly per-student discount by $9.
 				</p>
 			</div>
 		</div>
@@ -120,16 +96,16 @@ style: justify-text-center
 				<h4 class="mb-2">High School</h4>
 				<h2 class="mb-3">$169.99<small class="fs-6 text-muted"> /month</small></h2>
 				<p class="mb-0">
-				$5 discount for each additional student beyond the third.
+					Starting with 4 students, each additional student increases the monthly per-student discount by $5.
 				</p>
 			</div>
 		</div>
 	</div>
-
   	<div class="row mt-0">
 		<div class="col-12">
-			If you have any questions, or are interested in bringing your group to Blue Ridge Boost, please fill in the form below.
-			We can't wait to make a course, just for you!<br>
+			<p>
+				Have questions or want to create a class for your group? Fill out the form below—we’d love to help you find the best fit.
+			</p>
 			<iframe
 				id="JotFormIFrame-252767528606063"
 				title="Homeschooling Class/Field Trip Interest Form"
@@ -142,8 +118,8 @@ style: justify-text-center
 			<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
 			<script>
 				window.jotformEmbedHandler(
-				"iframe[id='JotFormIFrame-252767528606063']",
-				"https://form.jotform.com/"
+					"iframe[id='JotFormIFrame-252767528606063']",
+					"https://form.jotform.com/"
 				);
 			</script>
     	</div>
@@ -151,13 +127,13 @@ style: justify-text-center
 </div>
 
 <style>
-  /* Tighten title spacing only on small screens (below 768px) */
   @media (max-width: 767.98px) {
     .section-title-sm-tight {
       margin-top: 0.25rem !important;
       margin-bottom: 0.25rem !important;
       line-height: 1.2;
     }
+
     .feature-list {
       margin-top: 0.25rem !important;
     }
