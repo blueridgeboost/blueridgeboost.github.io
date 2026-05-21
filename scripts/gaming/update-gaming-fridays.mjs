@@ -16,7 +16,7 @@ dotenv.config({ path: envPath });
 
 console.log("Gaming Fridays script running...", process.env.ECWID_REST_SECRET);
 
-const skipDates = ["2025-10-31", "2025-11-28", "2025-12-26", "2026-01-02"];
+const skipDates = ["2025-10-31", "2025-11-28", "2025-12-26", "2026-01-02", "2026-06-19"];
 
 function getAttributeValue(item, name) {
     const attribute = item.attributes?.find(attr => attr.name === name);
@@ -114,35 +114,18 @@ async function createProduct(friday) {
   		}
 	};
 }
-
 function imageURL(friday) {
 	if ( friday.ordinalInMonth == 1 ) {
-		// Minecraft
-		// return "https://drive.google.com/file/d/1B5CjmH5OgY5FZprqhZsiF8IxyYXpMNeu/view?usp=sharing";
-		//return "https://drive.google.com/uc?export=download&id=1B5CjmH5OgY5FZprqhZsiF8IxyYXpMNeu";
-		return "gaming-friday-images/minecraftplaceholder.png"
+		return "gaming-friday-images/minecraft.png"
 	} else if (friday.ordinalInMonth == 2) {
-		// free choice
-		// return "https://drive.google.com/file/d/1-NjSULjmKcz2x9PGOpSruUt-HpmPLlUE/view?usp=sharing";
-		//return "https://drive.google.com/uc?export=download&id=1-NjSULjmKcz2x9PGOpSruUt-HpmPLlUE";
-		return "gaming-friday-images/explorationplaceholder.png"
+		return "gaming-friday-images/exploration.png"
 	} else if (friday.ordinalInMonth == 3) {
-		// Fortnite
-		// return "https://drive.google.com/file/d/1D7ElLbTQrjG0Gjl6fvCVjfB2Zy-HBNuc/view?usp=sharing";
-		// return "https://drive.google.com/uc?export=download&id=1D7ElLbTQrjG0Gjl6fvCVjfB2Zy-HBNuc";
-		return "gaming-friday-images/fortniteplaceholder.png"
+		return "gaming-friday-images/fortnite.png"
 	} else if (friday.ordinalInMonth == 4) {
-		// Roblox
-		// return "https://drive.google.com/file/d/1OJ-kHmq0abJfXaOoWimMgmJ1J46CqQyS/view?usp=sharing";
-		// return "https://drive.google.com/uc?export=download&id=1OJ-kHmq0abJfXaOoWimMgmJ1J46CqQyS";
-		return "gaming-friday-images/robloxplaceholder.png"
+		return "gaming-friday-images/roblox.png"
 	} else {
-		// Fifth Friday
-		// return "https://drive.google.com/file/d/1-NjSULjmKcz2x9PGOpSruUt-HpmPLlUE/view?usp=sharing";
-		// return "https://drive.google.com/uc?export=download&id=1-NjSULjmKcz2x9PGOpSruUt-HpmPLlUE";
-		return "gaming-friday-images/chooseplaceholder.png"
+		return "gaming-friday-images/chooseyourgame.png"
 	}
-	
 }
 
 async function productSort() {
