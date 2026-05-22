@@ -68,6 +68,6 @@ robots: "index, follow"
   </ul>
   <p>
     <strong>Questions?</strong> Call <a href="tel:4342600636">(434) 260-0636</a> or email
-    <a href="mailto:nora@blueridgeboost.com">nora@blueridgeboost.com</a>.
+    {{< email >}}
   </p>
 </div>

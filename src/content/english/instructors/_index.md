@@ -39,11 +39,11 @@ owner:
   "
 
 coo:
-  enable : true
-  name: "Lain Bowman"
+  enable: true
+  name: "Seth Genson"
   role: "Head of Operations"
-  photo: "/images/instructors/lain.jpg"
-  bio: "<p>Lain graduated from the University of Virginia in 2024 with a double major in Computer Science and Physics. They are interested in the use of programming and simulation to expand our understanding of the physical universe. Originally from Appalachia, they care deeply about accessibility of education, and the importance of inclusivity in STEM. Lain is the oldest of five siblings, and has spent years supporting their education and encouraging their love for learning. </p><p>At Blue Ridge Boost, Lain is involved with web development and programs custom professional tools. They design and create class content, provide one-on-one tutoring in math and physics, and teach math, robotics, and computer science both at Blue Ridge Boost and on-site at local schools.</p>"
+  photo: ""
+  bio: "Originally from Charlottesville, Seth is a graduate of James Madison University with a degree in GIS. As Head of Operations at Blue Ridge Boost, he helps keep everything running smoothly — from payroll, scheduling, and event coordination to website editing, logistics, and supporting counselors and instructors behind the scenes. Seth is passionate about helping students succeed and grow in confidence, especially through mentorship and teamwork. Outside of work, Seth enjoys playing Minecraft, building LEGO sets, listening to rock and roll, and talking basketball whenever possible. He also firmly believes he could still hit a game-winning shot if given the opportunity."
 
 troubadour:
   enable : true
@@ -58,13 +58,19 @@ instructors:
   role: "Math Teacher, Software Development Intern"
   photo:  "/images/instructors/nophoto.png"
   bio: "Nathaneal is a second year Math and Computer Science major at UVA who is originally from New Mexico. He is interested in most areas of math and has experience tutoring Algebra, Geometry, Precalculus and Calculus. Nathaneal did Quiz Bowl in high school and was Regionally Ranked, and was also a writer who placed 3rd at a UVA short fiction competition. <br> Eventually he hopes to pursue a postgraduate education, and at Blue Ridge Boost he coaches Math Kangaroo and AMC 8/10 prep courses. Over holidays he teaches Minecraft Coding and Roblox Studio camps. <br>Outside of his job and actuation, Nathaneal is an avid reader and especially enjoys Sci-Fi novels. He also enjoys playing chess casually, so feel free to challenge him to a game if you meet him."
+
+- enable : true
+  name: "Lain Bowman"
+  role: "STEM Instructor and Tutor"
+  photo: "/images/instructors/lain.jpg"
+  bio: "<p>Lain graduated from the University of Virginia in 2024 with a double major in Computer Science and Physics. They are interested in the use of programming and simulation to expand our understanding of the physical universe. Originally from Appalachia, they care deeply about accessibility of education, and the importance of inclusivity in STEM. Lain is the oldest of five siblings, and has spent years supporting their education and encouraging their love for learning. </p><p>At Blue Ridge Boost, Lain is involved with web development and programs custom professional tools. They design and create class content, provide one-on-one tutoring in math and physics, and teach math, robotics, and computer science both at Blue Ridge Boost and on-site at local schools.</p>"
 - enable : false
   name: "Scarlett Morse"
   role: "Camp Instructor<br>Coding and Robotics Teacher"
   photo:  "/images/instructors/nophoto.png"
   bio: "Scarlett is currently a first year student at the University of Virginia, and intends to major in physics and mathematics. Beyond that, she is interested in creative writing, which she would like to minor in along with environmental science. She graduated in 2024 from Albemarle High School’s Math, Engineering, and Science Academy and has a strong passion for STEM. Scarlett founded Mathemagicians, a math club through the JMRL Library, and completed an internship in Arzens, France, where she managed a pharmaceutical robot. Whether tutoring peers, tinkering with 3D printers, or working with robots, Scarlett is dedicated to inspiring others through technology and science. <p></p>  At Blue Ridge Boost, Scarlett is a beloved summer camp instructor and the coach of the Aerial Drones Teams. Under Scarlett's leadership, both Blue Ridge Boost teams qualified for the Regional Championship in May 2025."
 
-- enable : false
+- enable : true
   name: "Carter Earles"
   role: "Camp Instructor<br>Coding and Robotics Teacher"
   photo:  "/images/instructors/nophoto.png"
@@ -79,7 +85,7 @@ instructors:
   role: "Robotics and Math Teacher"
   photo:  "/images/instructors/nophoto.png"
   bio: "<p>Aayush is a second-year student at the University of Virginia majoring in Neuroscience with a minor in General Business. He has experience as a math instructor, a research assistant in neuroscience, and a volunteer EMT with Tuckahoe Rescue Squad. In middle and high school, he was a VEX IQ and FIRST Robotics World Championship qualifier, where he developed strong skills in engineering, coding, and collaboration that continue to shape his teaching style today.</p><p>Outside of academics, Aayush loves playing pickleball and videogames. Most importantly, he enjoys working with students to help them grow both their skills and their confidence.</p>"
-- enable : true
+- enable : false
   name: "Ouzman Cisse"
   role: "Robotics Teacher"
   photo:  "/images/instructors/ouzman.jpg"
@@ -90,12 +96,12 @@ instructors:
   role: ""
   photo:  "/images/instructors/nophoto.png"
   bio: "1st year at PVCC, pursuing associates of CS and planning on transferring to a 4 year for computer science. Grew up in little ol' Greene County just north of Charlottesville. Coder and former coding captain of FTC Team Monroe Robotics."
-- enable : true
+- enable : false
   name: "Melissa George"
   role: "Robotics and Drones Teacher"
   photo:  "/images/instructors/melissa.jpg"
   bio: ""
-- enable : true
+- enable : false
   name: "Joseph Johnson"
   role: "Math Teacher"
   photo:  "/images/instructors/joseph.jpg"
@@ -119,7 +125,19 @@ instructors:
   name: "Evan Xu"
   role: "Robotics Teacher"
   photo:  "/images/instructors/nophoto.png"
-  bio: "Evan is a senior at Western Albemarle High School and a Community Scholar at the University of Virginia, with interests in mechanical engineering and applied mathematics. He began his journey in FIRST through FLL, where he also founded the YouTube channel Wordynerd48 to share robotics mechanisms and tutorials. He later competed in FTC for two years, earning a 1st Place Design Award with his team. <br><br>  Currently, Evan competes in FRC as the Build Captain of Team 619, Cavalier Robotics. At Blue Ridge Boost, he mentors FLL and FTC teams, teaching robot design and game strategy. Outside of robotics, Evan enjoys boxing, playing the piano, and baking."
+  bio: "Evan is a graduate of University of Virginia with a degree in Computer Science and a strong background in robotics, engineering, and STEM mentorship. His journey in FIRST Robotics began in FLL, where he also created the YouTube channel Wordynerd48 to share robotics tutorials, mechanisms, and design ideas with students and teams around the world. He later competed in FTC, where his team earned a 1st Place Design Award, before continuing into FRC as the Build Captain of Team 619, Cavalier Robotics. At Blue Ridge Boost, Evan mentors FLL and FTC teams, helping students develop skills in robot design, engineering, and game strategy while encouraging creativity and teamwork. Outside of robotics and programming, Evan enjoys boxing, playing piano, baking, and finding new engineering projects to take apart and rebuild."
+
+- enable: false
+  name: "Charlotte Thomasclarke"
+  role: "STEM Teacher"
+  photo: ""
+  bio: "Graduate of James Madison University's College of Arts and Sciences as well as College of Business. She has a passion for STEM education, hands-on learning, and helping students build confidence through problem solving. "
+
+- enable: false
+  name: "Julia Wall"
+  role: "STEM Instructor"
+  photo: ""
+  bio: "Education student at University of Virginia with a strong passion for working with children and helping students grow both academically and personally through engaging, supportive learning experiences. "
 
 
 ---

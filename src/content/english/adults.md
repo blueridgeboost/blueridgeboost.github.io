@@ -3,7 +3,7 @@
 title: "Coding and Robotics Classes for Adults | Blue Ridge Boost"
 page_title: "Learn coding and robotics at your own pace"
 # meta description
-description: "Explore coding and robotics classes for adults at Blue Ridge Boost in Charlottesville, VA! Learn at your own pace with beginner, intermediate, and advanced levels. Request custom classes by emailing nora@blueridgeboost.com."
+description: "Explore coding and robotics classes for adults at Blue Ridge Boost in Charlottesville, VA! Learn at your own pace with beginner, intermediate, and advanced levels. Request custom classes by emailing {{< email >}}"
 draft: false
 # content section
 section: "adults"
@@ -48,7 +48,7 @@ These are classes for adults. Classes for children are available <a href="/class
 ### Request a Class Not Offered
 
 Is there a class you'd like to take but it's not available? Let us know!  
-Email **nora@blueridgeboost.com** with the following details:
+Email {{< email >}} with the following details:
 
 - **Topic**: What subject or skill would you like to learn?  
 - **Level**: Beginner, intermediate, or advanced?  

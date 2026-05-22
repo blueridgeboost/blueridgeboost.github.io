@@ -5,7 +5,6 @@
   "author": "Nora Evans",
   "type": "module",
   "scripts": {
-    "config": "node ./scripts/config-generation.mjs",
     "aiGen": "node ./scripts/classes/keywords-and-topics.mjs",
     "one-day-camp-rosters": "node ./scripts/rosters/camp-rosters.mjs",
     "summer-camp-rosters": "node ./scripts/rosters/summer-camps.mjs",
@@ -14,10 +13,11 @@
     "summer-camps-summary": "node ./scripts/rosters/camp-summary.mjs",
     "update-skus": "node ./scripts/update-skus.mjs",
     "class-rosters": "node ./scripts/rosters/all-classes.mjs",
+    "update-gaming-fridays": "node ./scripts/gaming/update-gaming-fridays.mjs",
     "clean": "rimraf docs",
     "html": "hugo --destination docs --source ./src/",
-    "copy": "cpy --no-parents CNAME docs && cpy src/docs/**/* ./docs",
-    "github": "npm run clean && npm run config && npm run build && npm run copy && git add -A :/ && git commit -m '$npm_config_message' && git push",
+    "copy": "rm -rf docs && mkdir docs && cp CNAME docs/ && cp -r src/docs/* docs/",
+    "github": "npm run clean && npm run build && npm run copy && git add -A :/ && git commit -m 'no-message' && git push",
     "githubdev": "npm run github",
     "dev": "hugo server --disableFastRender --buildDrafts --watch --destination docs --source ./src/",
     "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic --source ./src/ --destination ./docs",
@@ -27,6 +27,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^6.0.0",
     "cpy-cli": "^5.0.0",
+    "hugo-extended": "^0.161.1",
     "open-cli": "^6.0.0",
     "postcss": "^8.4.41",
     "postcss-cli": "^11.0.0",
@@ -37,6 +38,7 @@
   "dependencies": {
     "date-fns": "^4.1.0",
     "dotenv": "^17.3.1",
+    "exceljs": "^4.4.0",
     "form-data": "^4.0.4",
     "googleapis": "^171.4.0",
     "js-yaml": "^4.1.0",
