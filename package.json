@@ -16,7 +16,7 @@
     "update-gaming-fridays": "node ./scripts/gaming/update-gaming-fridays.mjs",
     "clean": "rimraf docs",
     "html": "hugo --destination docs --source ./src/",
-    "copy": "mkdir -p docs && cp CNAME docs/ && cp -r src/docs/* docs/",
+    "copy": "rm -rf docs && mkdir docs && cp CNAME docs/ && cp -r src/docs/* docs/",
     "github": "npm run clean && npm run build && npm run copy && git add -A :/ && git commit -m 'no-message' && git push",
     "githubdev": "npm run github",
     "dev": "hugo server --disableFastRender --buildDrafts --watch --destination docs --source ./src/",
