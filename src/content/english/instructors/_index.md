@@ -121,19 +121,19 @@ instructors:
   role: "Coding Teacher."
   photo: "/images/instructors/asher.png"
   bio: "As graduate from UVA's School of Engineering, Asher works at Blue Ridge Boost as an instructor. "
-- enable : true
+- enable : false
   name: "Evan Xu"
   role: "Robotics Teacher"
   photo:  "/images/instructors/nophoto.png"
   bio: "Evan is a graduate of University of Virginia with a degree in Computer Science and a strong background in robotics, engineering, and STEM mentorship. His journey in FIRST Robotics began in FLL, where he also created the YouTube channel Wordynerd48 to share robotics tutorials, mechanisms, and design ideas with students and teams around the world. He later competed in FTC, where his team earned a 1st Place Design Award, before continuing into FRC as the Build Captain of Team 619, Cavalier Robotics. At Blue Ridge Boost, Evan mentors FLL and FTC teams, helping students develop skills in robot design, engineering, and game strategy while encouraging creativity and teamwork. Outside of robotics and programming, Evan enjoys boxing, playing piano, baking, and finding new engineering projects to take apart and rebuild."
 
-- enable: false
+- enable: true
   name: "Charlotte Thomasclarke"
   role: "STEM Teacher"
   photo: ""
   bio: "Graduate of James Madison University's College of Arts and Sciences as well as College of Business. She has a passion for STEM education, hands-on learning, and helping students build confidence through problem solving. "
 
-- enable: false
+- enable: true
   name: "Julia Wall"
   role: "STEM Instructor"
   photo: ""
