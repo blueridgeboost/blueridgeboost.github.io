@@ -133,6 +133,32 @@ function styleColumnHeader(row) {
     });
 }
 
+function styleRow(row) {
+    // if between 2-5 students enrolled, color the row orange
+    // if less 0 or 1, color red
+    const am = row.getCell(4).value || 0;
+    const pm = row.getCell(5).value || 0;
+    const full = row.getCell(6).value || 0;
+
+    // most amount of students at any time
+    const num_students = full + Math.max(am, pm);
+
+    let color = null;
+
+    if (num_students <= 1) color = 'FFE57373'; // Coral Red
+    else if (num_students <= 5) color = 'FFFFB74D'; // Amber Orange
+
+    if (color) { 
+        row.eachCell( { includeEmpty: true }, (cell) => {
+            cell.fill = {
+                type: 'pattern',
+                pattern: 'solid',
+                 fgColor: { argb: color },
+            }
+        })
+    }
+}
+
 async function main() {
     const buckets = SUMMER_WEEKS.map(() => []);
 
@@ -222,7 +248,7 @@ async function main() {
         styleColumnHeader(columnHeaderRow);
 
         for (const row of buckets[i]) {
-            sheet.addRow(row);
+            styleRow(sheet.addRow(row));
         }
         sheet.addRow([]);
     }
