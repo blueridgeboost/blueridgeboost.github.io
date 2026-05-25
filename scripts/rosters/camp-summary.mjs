@@ -6,6 +6,7 @@ import {
     getAttributeValue,
 } from '../ecwid.js';
 import path from 'path';
+import os from 'os';
 import dotenv from 'dotenv';
 import ExcelJS from 'exceljs';
 
@@ -252,8 +253,7 @@ async function main() {
         }
         sheet.addRow([]);
     }
-
-    const outputPath = path.join(process.cwd(), 'Summer-Camp-Quick-Summary.xlsx');
+    const outputPath = path.join(os.homedir(), 'OneDrive - Blue Ridge Boost', 'Rosters - Documents', 'Summer-Camp-Quick-Summary.xlsx');
     await workbook.xlsx.writeFile(outputPath);
 
     console.log('Created Excel file:', outputPath);

@@ -3,6 +3,7 @@ import {getOrdersByProductId, getCatalog} from '../ecwid.js';
 import Papa from 'papaparse';
 import fs from 'fs';
 import path from 'path';
+import os from 'os';
 
 // Construct the path to the .env file
 const envPath = path.join(process.cwd(), '..', '.env');
@@ -25,16 +26,16 @@ async function writeDataToCsv(data, fileName) {
     });
 
     // File path to save the CSV
-    const filePath = `G:\\Shared drives\\BRB\\25-26 Camps\\${fileName}.csv`;
+    const filePath = path.join(os.homedir(), 'OneDrive - Blue Ridge Boost', 'Rosters - Documents', `${fileName}.csv`);
 
     // Write the CSV content to a file
-    fs.writeFileSync(filePath, csv, 'utf8', (err) => {
-        if (err) {
-            console.error('Error writing CSV file:', err);
-        } else {
-            console.log(`CSV file created at ${filePath}`);
-        }
-    });
+    try { 
+        fs.writeFileSync(filePath, csv, 'utf8');
+        console.log
+    }
+    catch (err) {
+        console.errror('Error writing CSV file:', err);
+    }
 }
 
 function isWithinNextMonth(dateStr) {
