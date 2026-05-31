@@ -38,7 +38,8 @@ const BOOTCAMP_OPTION = 'Session';
 const HEADER = [
     'Camp Name', 'Type', 'Ages',
     'AM Seats', 'PM Seats', 'Full-Day Seats',
-    'AM available', 'PM available', 'Required staff',
+    'AM available', 'PM available', 'Full-Day available',
+    'Required staff',
 ];
 
 // bootcamps have max
@@ -108,13 +109,13 @@ async function sessionRow(camp, type) {
     return [
         camp.name, type, getAges(camp),
         am, pm, full,
-        max - (full + am), max - (full + pm),
+        max - (full + am), max - (full + pm), max - full - Math.max(am, pm),
         staff(am, pm, full),
     ];
 }
 
 function styleWeekHeader(sheet, row, weekColor) {
-    sheet.mergeCells(row.number, 1, row.number, 9);
+    sheet.mergeCells(row.number, 1, row.number, 10);
     const cell = row.getCell(1);
     let fillColor = weekColor === 'green' ? 'FF81C784' : 'FF64B5F6'; // LightGreen or LightBlue
     cell.font = { bold: true, size: 14 };
@@ -213,7 +214,7 @@ async function main() {
         buckets[idx].push([
             c.name, 'Bootcamp', ages,
             amHalf, pmHalf, fullW1,
-            max - (fullW1 + amHalf), max - (fullW1 + pmHalf),
+            max - (fullW1 + amHalf), max - (fullW1 + pmHalf), max - fullW1 - Math.max(amHalf, pmHalf),
             staff(amHalf, pmHalf, fullW1),
         ]);
 
@@ -221,7 +222,7 @@ async function main() {
         buckets[idx + 1].push([
             c.name, 'Bootcamp', ages,
             amHalf, pmHalf, fullW2,
-            max - (fullW2 + amHalf), max - (fullW2 + pmHalf),
+            max - (fullW2 + amHalf), max - (fullW2 + pmHalf), max - fullW2 - Math.max(amHalf, pmHalf),
             staff(amHalf, pmHalf, fullW2),
         ]);
     }
@@ -233,11 +234,12 @@ async function main() {
         { width: 32 }, { width: 14 }, { width: 16 },
         { width: 10 }, { width: 10 }, { width: 14 },
         { width: 14 }, { width: 14 }, { width: 14 },
+        { width: 14 },
     ];
 
     const titleRow = sheet.addRow(['Camp Summary']);
     titleRow.font = { bold: true, size: 22 };
-    sheet.mergeCells(titleRow.number, 1, titleRow.number, 9);
+    sheet.mergeCells(titleRow.number, 1, titleRow.number, 10);
     sheet.addRow([]);
 
     // add each row from buckets 
@@ -257,7 +259,8 @@ async function main() {
         sheet.addRow([]);
         sheet.addRow([]);
     }
-    const outputPath = path.join(os.homedir(), 'OneDrive - Blue Ridge Boost', 'Rosters - Documents', 'Summer-Camp-Quick-Summary.xlsx');
+
+    const outputPath = path.join(os.homedir(), 'OneDrive - Blue Ridge Boost', 'Rosters - Documents', `Summer-Camp-Quick-Summary-${new Date().toISOString().slice(0, 10)}.xlsx`);
     await workbook.xlsx.writeFile(outputPath);
 
     console.log('Created Excel file:', outputPath);
