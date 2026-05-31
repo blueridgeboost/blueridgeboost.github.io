@@ -113,28 +113,30 @@ async function sessionRow(camp, type) {
     ];
 }
 
-function styleWeekHeader(sheet, row) {
+function styleWeekHeader(sheet, row, weekColor) {
     sheet.mergeCells(row.number, 1, row.number, 9);
     const cell = row.getCell(1);
+    let fillColor = weekColor === 'green' ? 'FF81C784' : 'FF64B5F6'; // LightGreen or LightBlue
     cell.font = { bold: true, size: 14 };
     cell.fill = {
-        type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFB0C4DE' }, // LightSteelBlue
+        type: 'pattern', pattern: 'solid', fgColor: { argb: fillColor }, 
     };
     cell.alignment = { horizontal: 'left', vertical: 'middle' };
 }
 
-function styleColumnHeader(row) {
+function styleColumnHeader(row, weekColor) {
     row.font = { bold: true };
+    let fillColor = weekColor === 'green' ? 'FF81C784' : 'FF64B5F6'; // LightGreen or LightBlue
     row.eachCell(cell => {
         cell.fill = {
-            type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFD3D3D3' }, // LightGray
+            type: 'pattern', pattern: 'solid', fgColor: { argb: fillColor },
         };
         cell.border = { bottom: { style: 'thick', color: { argb: 'FF000000' } } };
         cell.alignment = { horizontal: 'center', vertical: 'middle' };
     });
 }
 
-function styleRow(row) {
+function styleRow(row, weekColor) {
     // if between 2-5 students enrolled, color the row orange
     // if less 0 or 1, color red
     const am = row.getCell(4).value || 0;
@@ -144,7 +146,7 @@ function styleRow(row) {
     // most amount of students at any time
     const num_students = full + Math.max(am, pm);
 
-    let color = null;
+    let color = weekColor === 'green' ? 'FFC8E6C9' : 'FFBBDEFB'; // LightGreen or LightBlue
 
     if (num_students <= 1) color = 'FFE57373'; // Coral Red
     else if (num_students <= 5) color = 'FFFFB74D'; // Amber Orange
@@ -242,18 +244,20 @@ async function main() {
     for (let i = 0; i < SUMMER_WEEKS.length; i++) {
         if (buckets[i].length === 0) continue;
 
+        // colors alternate green and blue for each week
         const headerRow = sheet.addRow([SUMMER_WEEKS[i].label]);
-        styleWeekHeader(sheet, headerRow);
+        styleWeekHeader(sheet, headerRow, i % 2 === 0 ? 'green' : 'blue');
 
         const columnHeaderRow = sheet.addRow(HEADER);
-        styleColumnHeader(columnHeaderRow);
+        styleColumnHeader(columnHeaderRow, i % 2 === 0 ? 'green' : 'blue');
 
         for (const row of buckets[i]) {
-            styleRow(sheet.addRow(row));
+            styleRow(sheet.addRow(row), i % 2 === 0 ? 'green' : 'blue'); // styleRow handles orange/red color logic based on enrollment
         }
         sheet.addRow([]);
+        sheet.addRow([]);
     }
-    const outputPath = path.join(os.homedir(), 'OneDrive - Blue Ridge Boost', 'Rosters - Documents', 'Summer-Camp-Quick-Summary.xlsx');
+    const outputPath = path.join(os.homedir(), 'OneDrive - Blue Ridge Boost', 'Rosters - Documents', 'Summer-Camp-Quick-Summary_test.xlsx');
     await workbook.xlsx.writeFile(outputPath);
 
     console.log('Created Excel file:', outputPath);
