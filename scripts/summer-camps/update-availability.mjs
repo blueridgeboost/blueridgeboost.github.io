@@ -48,11 +48,11 @@ export async function updateSummerCampSeats() {
                                 opt => opt?.name === SESSION_TIME).value;
                             // console.log(`Order ${order.id} - Selected Session: ${selectedSession}`);
                             if (selectedSession === FULL_DAY) {
-                                full_enrollment += 1;
+                                full_enrollment += item.quantity; // changed to adding quanity of items
                             } else if (selectedSession === AM_SESSION) {
-                                am_enrollment += 1;
+                                am_enrollment += item.quantity;
                             } else if (selectedSession === PM_SESSION) {
-                                pm_enrollment += 1;
+                                pm_enrollment += item.quantity;
                             }
                         }
                     }
@@ -73,7 +73,9 @@ export async function updateSummerCampSeats() {
                 const fullDaySeats = maxSeats - (full_enrollment + Math.max(am_enrollment, pm_enrollment)); ;
                 const amSeats = maxSeats - (full_enrollment + am_enrollment);
                 const pmSeats = maxSeats - (full_enrollment + pm_enrollment);
+
                 console.log(`Camp: ${camp.name} (${camp.id}) - Full-Day Seats Available: ${fullDaySeats}, AM Seats Available: ${amSeats}, PM Seats Available: ${pmSeats}`);
+
                 for (const combination of camp.combinations) {
                     // console.log(combination);
                     const sessionOption = combination?.options?.find(
@@ -87,6 +89,16 @@ export async function updateSummerCampSeats() {
                             combination.quantity = pmSeats;
                         }
                     }
+                }
+
+                if (fullDaySeats <= 0) {
+                    camp.ribbon = "Sold Out";
+                } else if (fullDaySeats == 1) {
+                    camp.ribbon = "1 Spot Left";
+                } else if (fullDaySeats <= 5) {
+                    camp.ribbon = `${fullDaySeats} Spots Left`; 
+                } else {
+                    camp.ribbon = null; // no ribbon
                 }
                 await updateEcwidProduct(camp);
             }
@@ -104,12 +116,12 @@ function buildBootcampSessionMap(camp) {
     for (const choice of option.choices) {
         // takes the form Full-day (June 1-5), each bootcamp has two weeks 
         const text = choice?.text || '';
-        if (text.startsWith(FULL_PREFIX)) {
+        if (text.startsWith(FULL_DAY)) {
             fullSeen++;
             map[text] = fullSeen === 1 ? 'fullW1' : 'fullW2';
-        } else if (text.startsWith(AM_PREFIX)) {
+        } else if (text.startsWith(AM_SESSION)) {
             map[text] = 'am';
-        } else if (text.startsWith(PM_PREFIX_)) {
+        } else if (text.startsWith(PM_SESSION)) {
             map[text] = 'pm';
         }
     }
@@ -146,10 +158,10 @@ export async function updateBootcampSeats() {
                 const selected = item?.selectedOptions?.find(
                     opt => opt?.name === BOOTCAMP_SESSION)?.value || '';
                 const bucket = sessionMap[selected];
-                if (bucket === 'fullW1') fullW1_enrollment += 1;
-                else if (bucket === 'fullW2') fullW2_enrollment += 1;
-                else if (bucket === 'am') am_enrollment += 1;
-                else if (bucket === 'pm') pm_enrollment += 1;
+                if (bucket === 'fullW1') fullW1_enrollment += item.quantity;
+                else if (bucket === 'fullW2') fullW2_enrollment += item.quantity;
+                else if (bucket === 'am') am_enrollment += item.quantity;
+                else if (bucket === 'pm') pm_enrollment += item.quantity;
             }
         }
         console.log(`Enrollments for bootcamp ${camp.name} (${camp.id}): Full Wk1: ${fullW1_enrollment},
@@ -173,6 +185,21 @@ export async function updateBootcampSeats() {
             else if (bucket === 'am') combination.quantity = amSeats;
             else if (bucket === 'pm') combination.quantity = pmSeats;
         }
+        // After updating combinations, add ribbon logic
+        const minFullSeats = Math.min(fullW1Seats, fullW2Seats);
+        const minHalfDaySeats = Math.min(amSeats, pmSeats);
+        const overallMin = Math.min(minFullSeats, minHalfDaySeats);
+
+        if (overallMin <= 0) {
+            camp.ribbon = "Sold Out";
+        } else if (overallMin === 1) {
+            camp.ribbon = "1 Spot Left";
+        } else if (overallMin <= 5) {
+            camp.ribbon = `${overallMin} Spots Left`;
+        } else {
+            camp.ribbon = null;
+        }
+
         await updateEcwidProduct(camp);
     }
 }
