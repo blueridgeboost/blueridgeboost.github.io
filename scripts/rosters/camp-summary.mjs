@@ -257,7 +257,7 @@ async function main() {
         sheet.addRow([]);
         sheet.addRow([]);
     }
-    const outputPath = path.join(os.homedir(), 'OneDrive - Blue Ridge Boost', 'Rosters - Documents', 'Summer-Camp-Quick-Summary_test.xlsx');
+    const outputPath = path.join(os.homedir(), 'OneDrive - Blue Ridge Boost', 'Rosters - Documents', 'Summer-Camp-Quick-Summary.xlsx');
     await workbook.xlsx.writeFile(outputPath);
 
     console.log('Created Excel file:', outputPath);
