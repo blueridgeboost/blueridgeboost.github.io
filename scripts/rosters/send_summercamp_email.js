@@ -37,6 +37,13 @@ const SUMMER_WEEKS = [
 const SESSION_TIME = 'Session Time';   // option name for summer / STEM camps
 const BOOTCAMP_OPTION = 'Session';     // option name for bootcamps
 
+// Session option -> time range, shown in the Registration Details table.
+const SESSION_TIMES = {
+    'Full-Day': '8:30 AM – 5:00 PM',
+    'AM':       '8:30 AM – 1:00 PM',
+    'PM':       '12:30 PM – 5:00 PM',
+};
+
 // YYYY-MM-DD
 function todayISO() {
     const d = new Date();
@@ -54,7 +61,7 @@ function formatDate(isoDate) {
     });
 }
 
-// takes an item and returns the camper's name 
+// takes an item and returns the camper's name
 function getChildName(item) {
     return item.selectedOptions?.find(o => o?.name === "Camper's Name")?.value || null;
 }
@@ -75,6 +82,7 @@ async function collectRegistrations(camp, week) {
                 parentEmail,
                 childName: getChildName(item) || 'your child',
                 campName: camp.name,
+                campDescription: camp.description || '',
                 sessionLabel: item.selectedOptions?.find(o => o?.name === SESSION_TIME)?.value || '',
                 startDate: week.startDate,
                 weekLabel: week.label,
@@ -114,6 +122,7 @@ async function collectBootcampRegistrations(camp, week, nextWeek) {
                 parentEmail,
                 childName: getChildName(item) || 'your child',
                 campName: camp.name,
+                campDescription: camp.description || '',
                 sessionLabel: selected,
                 startDate,
                 weekLabel,
@@ -124,30 +133,61 @@ async function collectBootcampRegistrations(camp, week, nextWeek) {
 }
 
 // html email content
-// TODO - need to add AM / PM logic  
-function sendEmail({ parentEmail, childName, campName, sessionLabel, startDate, weekLabel}) {
+// html email content
+function sendEmail({ parentEmail, childName, campName, sessionLabel, startDate, weekLabel }) {
+    const sessionTime = SESSION_TIMES[sessionLabel] || null;
+
     const html = `
     <p>Hello,</p>
-    <p>Your child <strong>${childName}</strong> has been registered for
-       <strong>${campName}</strong>.</p>
-    <p><strong>${weekLabel}</strong><br/>
-       Starts ${formatDate(startDate)} for the ${sessionLabel ? ` (${sessionLabel})` : ''} session </p>
-    <p>We look forward to seeing them there!</p>
+    <p><strong>${childName}</strong> is registered for <strong>${campName}</strong>. We look forward to having them join us.</p>
+
+    <h3 style="margin-bottom:4px; font-weight:600;">Registration Details</h3>
+    <table style="border-collapse:collapse; font-size:15px;">
+      <tr><td style="padding:4px 12px 4px 0;"><strong>Camp</strong></td><td>${campName}</td></tr>
+      <tr><td style="padding:4px 12px 4px 0;"><strong>Week</strong></td><td>${weekLabel}</td></tr>
+      <tr><td style="padding:4px 12px 4px 0;"><strong>Starts</strong></td><td>${formatDate(startDate)}</td></tr>
+      ${sessionLabel ? `<tr><td style="padding:4px 12px 4px 0;"><strong>Session</strong></td><td>${sessionLabel}${sessionTime ? ` &nbsp;(${sessionTime})` : ''}</td></tr>` : ''}
+    </table>
+
+    <hr style="margin:20px 0;"/>
+
+    <h3 style="margin-bottom:4px; font-weight:600;">What to Bring</h3>
+    <ul style="margin:0; padding-left:20px;">
+      <li>Water bottle</li>
+      <li>Lunch</li>
+      <li>1–2 light snacks</li>
+      <li>Any necessary medications (please share allergy or medical details with staff on arrival)</li>
+    </ul>
+
+    <h3 style="margin-top:20px; margin-bottom:4px; font-weight:600;">Location</h3>
+    <p style="margin:0;">2171 Ivy Rd, Charlottesville, VA 22903</p>
+
+    <h3 style="margin-top:20px; margin-bottom:4px; font-weight:600;">Dress Code</h3>
+    <p style="margin:0;">Comfortable clothes and indoor-friendly shoes.</p>
+
+    <h3 style="margin-top:20px; margin-bottom:4px; font-weight:600;">Questions?</h3>
+    <p style="margin:0;">
+      <a href="mailto:camps@blueridgeboost.com">camps@blueridgeboost.com</a>
+      &nbsp;•&nbsp;
+      <a href="tel:+14342600636">(434) 260-0636</a>
+    </p>
+
+    <hr style="margin:20px 0;"/>
+    <p>We look forward to a great week with ${childName}.</p>
     <p>Thank you,<br/>Blue Ridge Boost</p>
   `;
 
-    if (DRY_RUN) { // for this to be false, DRY_RUN must be set to 'false'
+    if (DRY_RUN) {
         console.log(`[DRY RUN] -> ${parentEmail} | ${childName} | ${campName}${sessionLabel ? ` (${sessionLabel})` : ''} | ${weekLabel} (starts ${formatDate(startDate)})`);
         return Promise.resolve({ dryRun: true });
     }
 
-    
     return client.messages.send({
         message: {
             from_email: 'lain@blueridgeboost.com',
             from_name: 'Blue Ridge Boost',
             to: [{ email: parentEmail, type: 'to' }],
-            subject: `Registration Confirmation for ${childName} — ${campName}`,
+            subject: `${campName} — Registration confirmed for ${childName}`,
             html,
         },
     });
