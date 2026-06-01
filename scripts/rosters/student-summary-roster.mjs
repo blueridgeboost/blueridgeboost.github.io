@@ -116,6 +116,15 @@ async function collectRows(camp) {
             ]);
         }
     }
+
+    // sort by session time 
+    const SESSION_ORDER = { 'AM': 0, 'PM': 1, 'Full-Day': 2 };
+    rows.sort((a, b) => {
+        const timeA = a[4] ?? 100;
+        const timeB = b[4] ?? 100;
+        return SESSION_ORDER[timeA] - SESSION_ORDER[timeB];
+    });
+    
     return rows;
 }
 
@@ -128,7 +137,7 @@ async function collectBootcampRows(camp) {
             const selected = getOptionValue(item, BOOTCAMP_OPTION);
             const isWeek1FullDay = selected.startsWith('Full-Day Week1');
             const isWeek2FullDay = selected.startsWith('Full-Day Week2');
-            const isHalfDay = selected.startsWith('AM ') || selected.startsWith('PM ');
+            const isHalfDay = selected.includes('AM') || selected.includes('PM');
             if (isWeek2FullDay) continue;
             if (!isWeek1FullDay && !isHalfDay) continue;
             rows.push([
@@ -141,6 +150,15 @@ async function collectBootcampRows(camp) {
             ]);
         }
     }
+
+    // sort by session time 
+    const SESSION_ORDER = { 'Half-Day AM': 0, 'Half-Day PM': 1, 'Full-Day': 2 };
+    rows.sort((a, b) => {
+        const timeA = a[4] ?? 100;
+        const timeB = b[4] ?? 100;
+        return SESSION_ORDER[timeA] - SESSION_ORDER[timeB];
+    });
+
     return rows;
 }
 
@@ -215,6 +233,7 @@ function appendCampSection(sheet, campName, rows, campIndex, isFirst) {
     sectionCell.font = { bold: true, size: 14, name: 'Arial' };
     sectionCell.alignment = { horizontal: 'left', vertical: 'middle' };
     sectionCell.border = CELL_BORDER;
+    
 
     rows.forEach(row => {
         const r = sheet.addRow(row);
@@ -268,6 +287,8 @@ async function main() {
             const rows = type === 'bootcamp'
                 ? await collectBootcampRows(c)
                 : await collectRows(c);
+            
+
 
             appendCampSection(sheet, c.name, rows, campIndex, campIndex === 0);
             totalCampers += rows.length;
@@ -287,7 +308,7 @@ async function main() {
         os.homedir(),
         'OneDrive - Blue Ridge Boost',
         'Rosters - Documents',
-        `Admin-Roster-${week.startDate}-${dateStr}.xlsx`,
+        `Admin-Roster-${week.startDate}-${dateStr}-test.xlsx`,
     );
 
     await workbook.xlsx.writeFile(outputPath);

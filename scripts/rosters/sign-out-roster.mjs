@@ -98,6 +98,15 @@ async function collectRows(camp) {
             ]);
         }
     }
+
+    // sort by session time 
+    const SESSION_ORDER = { 'AM': 0, 'PM': 1, 'Full-Day': 2 };
+    rows.sort((a, b) => {
+        const timeA = a[3] ?? 100;
+        const timeB = b[3] ?? 100;
+        return SESSION_ORDER[timeA] - SESSION_ORDER[timeB];
+    });
+    
     return rows;
 }
 
@@ -130,6 +139,15 @@ async function collectBootcampRows(camp) {
             ]);
         }
     }
+
+     // sort by session time 
+    const SESSION_ORDER = { 'Half-Day AM': 0, 'Half-Day PM': 1, 'Full-Day': 2 };
+    rows.sort((a, b) => {
+        const timeA = a[3] ?? 100;
+        const timeB = b[3] ?? 100;
+        return SESSION_ORDER[timeA] - SESSION_ORDER[timeB];
+    });
+
     return rows;
 }
 
