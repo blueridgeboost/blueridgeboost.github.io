@@ -1,12 +1,11 @@
 import path from 'path';
+import crypto from 'node:crypto';
 import dotenv from 'dotenv';
 import mailchimp from '@mailchimp/mailchimp_transactional';
 import {
-    getSummerCamps,
-    getAdvancedStemCamps,
-    getBootcamps,
-    getOrdersByProductId,
-    getAttributeValue,
+    SUMMER_CAMPS_CATEGORY_ID,
+    ADVANCED_STEM_CAMPS_CATEGORY_ID,
+    BOOTCAMPS_CATEGORY_ID
 } from '../ecwid.js';
 
 const envPath = path.join(process.cwd(), '..', '.env');
@@ -14,43 +13,14 @@ dotenv.config({ path: envPath });
 
 const client = new mailchimp(process.env.MAILCHIMP_KEY);
 
-// SAFETY: defaults to a dry run so you can verify recipients
-// run with DRY_RUN=false 
-const DRY_RUN = process.env.DRY_RUN !== 'false';
-const SEND_DELAY_MS = 0; // editable for API rate limits
+const DRY_RUN = process.env.DRY_RUN !== 'false'; // runs dry by default
+const SEND_DELAY_MS = 0; // in case of API limit
 
-const SUMMER_WEEKS = [
-    { startDate: '2026-06-01', label: 'Week June 1-5' },
-    { startDate: '2026-06-08', label: 'Week June 8-12' },
-    { startDate: '2026-06-15', label: 'Week June 15-19' },
-    { startDate: '2026-06-22', label: 'Week June 22-26' },
-    { startDate: '2026-06-29', label: 'Week June 29 - July 3' },
-    { startDate: '2026-07-06', label: 'Week July 6-10' },
-    { startDate: '2026-07-13', label: 'Week July 13-17' },
-    { startDate: '2026-07-20', label: 'Week July 20-24' },
-    { startDate: '2026-07-27', label: 'Week July 27-31' },
-    { startDate: '2026-08-03', label: 'Week August 3-7' },
+// List of recipients: each entry is { email, name }.
+// Add real recipients here, e.g. { email: 'parent@example.com', name: 'Jordan' }
+const EMAIL_LIST = [
+    // { email: 'parent@example.com', name: 'Parent Name' },
 ];
-
-const SESSION_TIME = 'Session Time';   // option name for summer / STEM camps
-const BOOTCAMP_OPTION = 'Session';     // option name for bootcamps
-
-// Session option -> time range, shown in the Registration Details table.
-const SESSION_TIMES = {
-    'Full-Day': '8:30 AM - 5:00 PM',
-    'AM':       '8:30 AM - 1:00 PM',
-    'PM':       '12:30 PM - 5:00 PM',
-};
-
-// Resolve a session time range from a label.
-// Regular camps use exact labels ("Full-Day", "AM", "PM"); bootcamps use
-// extended labels ("Full-Day Week2", "AM Week1", ...), so match on the prefix.
-function getSessionTime(sessionLabel = '') {
-    if (sessionLabel.startsWith('Full-Day')) return SESSION_TIMES['Full-Day'];
-    if (sessionLabel.includes('AM')) return SESSION_TIMES['AM'];
-    if (sessionLabel.includes('PM')) return SESSION_TIMES['PM'];
-    return SESSION_TIMES[sessionLabel] || null;
-}
 
 // Escape user-provided text before injecting into HTML.
 function escapeHtml(str = '') {
@@ -62,216 +32,234 @@ function escapeHtml(str = '') {
         .replace(/'/g, '&#39;');
 }
 
-// YYYY-MM-DD
-function todayISO() {
-    const d = new Date();
-    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-}
+// Creates a percent-off discount coupon in Ecwid.
+async function createDiscount(discountName, discountCode, discountValue) {
+    if (DRY_RUN) {
+        console.log(`[DRY RUN] Would create coupon "${discountName}" (code ${discountCode}, ${discountValue}% off)`);
+        return { dryRun: true };
+    }
 
-function getNextWeek(referenceDate = todayISO()) {
-    return SUMMER_WEEKS.find(w => w.startDate > referenceDate) || null;
-}
+    const url = `https://app.ecwid.com/api/v3/${process.env.ECWID_STORE_ID}/discount_coupons`;
+    const requestBody = {
+        name:           discountName,
+        code:           discountCode,
+        discountType:   'PERCENT',
+        status:         'ACTIVE',
+        discount:       discountValue,
+        launchDate:     new Date().toISOString(),                               // applies immediately
+        expirationDate: new Date(Date.now() + 60 * 24 * 60 * 60 * 1000).toISOString(), // expires in 60 days
+        usesLimit:      'ONCEPERCUSTOMER',
+        catalogLimit: {
+            products: [],
+            categories: [
+                SUMMER_CAMPS_CATEGORY_ID,
+                ADVANCED_STEM_CAMPS_CATEGORY_ID,
+                BOOTCAMPS_CATEGORY_ID
+            ]
+        }
+    };
 
-// "June 1, 2026" — formatting only
-function formatDate(isoDate) {
-    return new Date(isoDate + 'T00:00:00').toLocaleDateString('en-US', {
-        year: 'numeric', month: 'long', day: 'numeric',
+    const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+            accept: 'application/json',
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`
+        },
+        body: JSON.stringify(requestBody)
     });
-}
 
-// takes an item and returns the camper's name
-function getChildName(item) {
-    return item.selectedOptions?.find(o => o?.name === "Camper's Name")?.value || null;
-}
-
-// Regular weekly camps (summer + advanced STEM)
-async function collectRegistrations(camp, week) {
-    const orders = await getOrdersByProductId(camp.id);
-    const regs = [];
-
-    for (const order of orders) {
-        const parentEmail = order.email;
-        if (!parentEmail) continue;
-
-        for (const item of order.items || []) {
-            if (item.productId !== camp.id) continue;
-
-            regs.push({
-                parentEmail,
-                childName: getChildName(item) || 'your child',
-                campName: camp.name,
-                campDescription: camp.description || '',
-                sessionLabel: item.selectedOptions?.find(o => o?.name === SESSION_TIME)?.value || '',
-                startDate: week.startDate,
-                weekLabel: week.label,
-            });
-        }
+    const data = await response.json();
+    if (!response.ok) {
+        throw new Error(`Ecwid coupon creation failed (${response.status}): ${JSON.stringify(data)}`);
     }
-    return regs;
+    console.log('Discount created:', data);
+    return data;
 }
 
-// Bootcamps: full-day is one week (week 1 or week 2); AM/PM half-day spans both weeks.
-async function collectBootcampRegistrations(camp, week, nextWeek) {
-    const orders = await getOrdersByProductId(camp.id);
-    const regs = [];
-
-    for (const order of orders) {
-        const parentEmail = order.email;
-        if (!parentEmail) continue;
-
-        for (const item of order.items || []) {
-            if (item.productId !== camp.id) continue;
-
-            const selected = item.selectedOptions?.find(o => o?.name === BOOTCAMP_OPTION)?.value || '';
-
-            // default: week 1
-            let startDate = week.startDate;
-            let weekLabel = week.label;
-
-            if (selected.startsWith('Full-Day Week2') && nextWeek) {
-                startDate = nextWeek.startDate;
-                weekLabel = nextWeek.label;
-            } else if ((selected.includes('AM') || selected.includes('PM') || selected.startsWith('Half-Day')) && nextWeek) {
-                // half-day sessions run across both weeks
-                weekLabel = `${week.label} and ${nextWeek.label}`;
-            }
-
-
-            regs.push({
-                parentEmail,
-                childName: getChildName(item) || 'your child',
-                campName: camp.name,
-                campDescription: camp.description || '',
-                sessionLabel: selected,
-                startDate,
-                weekLabel,
-            });
-        }
+// Generates a random uppercase alphanumeric code.
+function generateRandomCode(length = 10) {
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    const bytes = crypto.randomBytes(length);
+    let code = '';
+    for (let i = 0; i < length; i++) {
+        code += chars[bytes[i] % chars.length];
     }
-    return regs;
+    return code;
 }
 
-// html email content
-function sendEmail({ parentEmail, childName, campName, sessionLabel, startDate, weekLabel }) {
-    const sessionTime = getSessionTime(sessionLabel);
+function buildEmailHtml({ parentName, discountCode }) {
+    const safeName = escapeHtml(parentName);
+    const safeCode = escapeHtml(discountCode);
+    return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Share Blue Ridge Boost &amp; Get Rewarded</title>
+</head>
+<body style="margin:0; padding:0; background-color:#eef2ef; -webkit-text-size-adjust:100%;">
+  <!-- Preview text (hidden) -->
+  <div style="display:none; max-height:0; overflow:hidden; opacity:0;">
+    Refer a friend and you both save 10% on Blue Ridge Boost camps.
+  </div>
 
-    // Escape all user-derived values before injecting into HTML.
-    const safeChild = escapeHtml(childName);
-    const safeCamp = escapeHtml(campName);
-    const safeSession = escapeHtml(sessionLabel);
-    const safeWeek = escapeHtml(weekLabel);
-    const safeSessionTime = sessionTime ? escapeHtml(sessionTime) : null;
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#eef2ef;">
+    <tr>
+      <td align="center" style="padding:24px 12px;">
+        <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:600px; max-width:600px; background-color:#ffffff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(30,58,52,0.08);">
 
-    const html = `
-    <p>Hello,</p>
-    <p><strong>${safeChild}</strong> is registered for <strong>${safeCamp}</strong>. We look forward to having them join us.</p>
+          <!-- Header -->
+          <tr>
+            <td style="background-color:#1e4d40; padding:32px 40px; text-align:center;">
+              <div style="font-family:Georgia,'Times New Roman',serif; font-size:24px; font-weight:bold; color:#ffffff; letter-spacing:0.5px;">
+                Blue Ridge Boost
+              </div>
+              <div style="font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#a7cabb; letter-spacing:2px; text-transform:uppercase; margin-top:6px;">
+                Summer &amp; STEM Camps
+              </div>
+            </td>
+          </tr>
 
-    <h3 style="margin-bottom:4px; font-weight:600;">Registration Details</h3>
-    <table style="border-collapse:collapse; font-size:15px;">
-      <tr><td style="padding:4px 12px 4px 0;"><strong>Camp</strong></td><td>${safeCamp}</td></tr>
-      <tr><td style="padding:4px 12px 4px 0;"><strong>Week</strong></td><td>${safeWeek}</td></tr>
-      <tr><td style="padding:4px 12px 4px 0;"><strong>Starts</strong></td><td>${formatDate(startDate)}</td></tr>
-      ${sessionLabel ? `<tr><td style="padding:4px 12px 4px 0;"><strong>Session</strong></td><td>${safeSession}${safeSessionTime ? ` &nbsp;(${safeSessionTime})` : ''}</td></tr>` : ''}
-    </table>
+          <!-- Body -->
+          <tr>
+            <td style="padding:36px 40px 8px 40px; font-family:Arial,Helvetica,sans-serif; color:#333333; font-size:16px; line-height:1.6;">
+              <p style="margin:0 0 16px 0; font-size:18px; color:#1e4d40;"><strong>Hi ${safeName},</strong></p>
+              <p style="margin:0 0 16px 0;">Thank you for being part of Blue Ridge Boost Camps!</p>
+              <p style="margin:0 0 16px 0;">
+                We're excited to offer you a special referral reward. Invite a friend to sign up for a
+                <strong>new</strong> camp with Blue Ridge Boost and they'll receive
+                <strong>10% off</strong> their camp purchase &mdash; and you'll get
+                <strong>10% back as store credit</strong> to use toward future Blue Ridge Boost purchases.
+              </p>
+              <p style="margin:0 0 24px 0;">
+                It's our way of saying thank you for spreading the word and helping more families join the fun.
+              </p>
+            </td>
+          </tr>
 
-    <hr style="margin:20px 0;"/>
+          <!-- Discount code -->
+          <tr>
+            <td style="padding:0 40px 8px 40px;" align="center">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="center" style="background-color:#f4f8f5; border:2px dashed #2f8f6e; border-radius:10px; padding:20px;">
+                    <div style="font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#5a7a6e; text-transform:uppercase; letter-spacing:1.5px; margin-bottom:8px;">
+                      Your Referral Code
+                    </div>
+                    <div style="font-family:'Courier New',Courier,monospace; font-size:28px; font-weight:bold; color:#1e4d40; letter-spacing:3px;">
+                      ${safeCode}
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
 
-    <h3 style="margin-bottom:4px; font-weight:600;">What to Bring</h3>
-    <ul style="margin:0; padding-left:20px;">
-      <li>Water bottle</li>
-      <li>Lunch</li>
-      <li>1–2 light snacks</li>
-      <li>Any necessary medications (please share allergy or medical details with staff on arrival)</li>
-    </ul>
+          <!-- How to redeem -->
+          <tr>
+            <td style="padding:24px 40px 8px 40px; font-family:Arial,Helvetica,sans-serif; color:#333333; font-size:16px; line-height:1.6;">
+              <p style="margin:0 0 16px 0;">
+                To redeem the offer, simply share your referral code with a friend and have them use it when
+                they register for a new camp.
+              </p>
+            </td>
+          </tr>
 
-    <h3 style="margin-top:20px; margin-bottom:4px; font-weight:600;">Location</h3>
-    <p style="margin:0;">2171 Ivy Rd, Charlottesville, VA 22903</p>
+          <!-- Sign-off -->
+          <tr>
+            <td style="padding:8px 40px 36px 40px; font-family:Arial,Helvetica,sans-serif; color:#333333; font-size:16px; line-height:1.6;">
+              <p style="margin:0 0 24px 0;">Thanks again for being part of the Blue Ridge Boost community!</p>
+              <p style="margin:0; color:#555555;">
+                Best,<br>
+                <strong style="color:#1e4d40;">Nora Evans</strong>, Owner<br>
+                Blue Ridge Boost
+              </p>
+            </td>
+          </tr>
 
-    <h3 style="margin-top:20px; margin-bottom:4px; font-weight:600;">Dress Code</h3>
-    <p style="margin:0;">Comfortable clothes and indoor-friendly shoes.</p>
+          <!-- Footer -->
+          <tr>
+            <td style="background-color:#1e4d40; padding:20px 40px; text-align:center; font-family:Arial,Helvetica,sans-serif;">
+              <div style="font-size:12px; color:#a7cabb; line-height:1.5;">
+                &copy; ${new Date().getFullYear()} Blue Ridge Boost. All rights reserved.<br>
+                This code is valid for one use per customer and expires in 60 days.
+              </div>
+            </td>
+          </tr>
 
-    <h3 style="margin-top:20px; margin-bottom:4px; font-weight:600;">Questions?</h3>
-    <p style="margin:0;">
-      <a href="mailto:camps@blueridgeboost.com">camps@blueridgeboost.com</a>
-      &nbsp;•&nbsp;
-      <a href="tel:+14342600636">(434) 260-0636</a>
-    </p>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>`;
+}
 
-    <hr style="margin:20px 0;"/>
-    <p>We look forward to a great week with ${safeChild}.</p>
-    <p>Thank you,<br/>Blue Ridge Boost</p>
-  `;
+function buildEmailText({ parentName, discountCode }) {
+    return `Hi ${parentName},
+
+Thank you for being part of Blue Ridge Boost Camps!
+
+We're excited to offer you a special referral reward. Invite a friend to sign up for a new camp with Blue Ridge Boost and they'll receive 10% off their camp purchase, and you'll get 10% back as store credit to use toward future Blue Ridge Boost purchases.
+
+It's our way of saying thank you for spreading the word and helping more families join the fun.
+
+Share this referral code with your friends: ${discountCode}
+
+To redeem, have your friend enter the code when they register for a new camp.
+
+Thanks again for being part of the Blue Ridge Boost community!
+
+Best,
+Nora Evans, Owner
+Blue Ridge Boost
+
+This code is valid for one use per customer and expires in 60 days.`;
+}
+
+function sendEmail({ parentEmail, parentName, discountCode }) {
+    const html = buildEmailHtml({ parentName, discountCode });
+    const text = buildEmailText({ parentName, discountCode });
 
     if (DRY_RUN) {
-        console.log(`[DRY RUN] -> ${parentEmail} | ${childName} | ${campName}${sessionLabel ? ` (${sessionLabel})` : ''} | ${weekLabel} (starts ${formatDate(startDate)})`);
+        console.log(`[DRY RUN] Would send email to ${parentEmail} with code ${discountCode}`);
         return Promise.resolve({ dryRun: true });
     }
 
     return client.messages.send({
         message: {
-            from_email: 'office@blueridgeboost.com',
+            from_email: 'lain@blueridgeboost.com',
             from_name: 'Blue Ridge Boost',
             to: [{ email: parentEmail, type: 'to' }],
-            subject: `${campName} — Registration confirmed for ${childName}`,
+            subject: 'Share Blue Ridge Boost Camp with a Friend & Get Rewarded',
             html,
-        },
+            text
+        }
     });
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function main() {
-    const week = getNextWeek();
-    if (!week) {
-        console.log('No upcoming camp week found. Nothing to send.');
+    if (EMAIL_LIST.length === 0) {
+        console.warn('EMAIL_LIST is empty — nothing to send. Add recipients to EMAIL_LIST.');
         return;
     }
 
-    console.log(`Processing next week: ${week.label} (starts ${week.startDate})`);
-    if (DRY_RUN) console.log('DRY RUN — no emails will be sent. Set DRY_RUN=false to send.\n');
+    console.log(`Starting referral run (${DRY_RUN ? 'DRY RUN' : 'LIVE'}) for ${EMAIL_LIST.length} recipient(s).`);
 
-    // Week after the one we're processing — used for bootcamp week 2 / half-day spans.
-    const nextWeek = SUMMER_WEEKS[SUMMER_WEEKS.indexOf(week) + 1] || null;
-
-    const registrations = [];
-
-    const summer = await getSummerCamps();
-    for (const c of summer) {
-        if (!c.enabled) continue;
-        if (getAttributeValue(c, 'Start Date') !== week.startDate) continue;
-        registrations.push(...await collectRegistrations(c, week));
+    for (const { email, name } of EMAIL_LIST) {
+        const discountCode = generateRandomCode();
+        await createDiscount(`${name}-Referral-Discount`, discountCode, 10);
+        await sendEmail({ parentEmail: email, parentName: name, discountCode });
+        await sleep(SEND_DELAY_MS);
     }
 
-    const stem = await getAdvancedStemCamps();
-    for (const c of stem) {
-        if (!c.enabled) continue;
-        if (getAttributeValue(c, 'Start Date') !== week.startDate) continue;
-        registrations.push(...await collectRegistrations(c, week));
-    }
-
-    // Bootcamps are sent when the bootcamp's Start Date falls in this week.
-    const bootcamps = await getBootcamps();
-    for (const c of bootcamps) {
-        if (!c.enabled) continue;
-        if (getAttributeValue(c, 'Start Date') !== week.startDate) continue;
-        registrations.push(...await collectBootcampRegistrations(c, week, nextWeek));
-    }
-
-    console.log(`Found ${registrations.length} registration(s) to confirm.\n`);
-
-    let sent = 0, failed = 0;
-    for (const reg of registrations) {
-        try {
-            await sendEmail(reg);
-            sent++;
-            if (SEND_DELAY_MS) await sleep(SEND_DELAY_MS);
-        } catch (err) {
-            failed++;
-            console.error(`Failed: ${reg.parentEmail} (${reg.childName} / ${reg.campName}):`, err?.message || err);
-        }
-    }
-
-    console.log(`\nDone. ${DRY_RUN ? 'Would send' : 'Sent'}: ${sent}, Failed: ${failed}`);
+    console.log('Done.');
 }
 
-main().catch(console.error);
+main().catch((err) => {
+    console.error('Fatal error in main:', err);
+    process.exitCode = 1;
+});
