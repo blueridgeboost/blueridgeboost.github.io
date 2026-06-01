@@ -13,6 +13,7 @@ dotenv.config({ path: envPath });
 
 const client = new mailchimp(process.env.MAILCHIMP_KEY);
 
+// run with DRY_RUN=false to create coupons + send emails 
 const DRY_RUN = process.env.DRY_RUN !== 'false'; // runs dry by default
 const SEND_DELAY_MS = 0; // in case of API limit
 
@@ -48,7 +49,9 @@ async function createDiscount(discountName, discountCode, discountValue) {
         discount:       discountValue,
         launchDate:     new Date().toISOString(),                               // applies immediately
         expirationDate: new Date(Date.now() + 60 * 24 * 60 * 60 * 1000).toISOString(), // expires in 60 days
-        usesLimit:      'ONCEPERCUSTOMER',
+        usesLimit:      'ONCEPERCUSTOMER', 
+        // the api only supports: ONCEPERCUSTOMER, UNLIMITED, or SINGLE 
+        // Manually creating shows a range of uses we can speficify 
         catalogLimit: {
             products: [],
             categories: [
@@ -229,7 +232,7 @@ function sendEmail({ parentEmail, parentName, discountCode }) {
 
     return client.messages.send({
         message: {
-            from_email: 'lain@blueridgeboost.com',
+            from_email: 'office@blueridgeboost.com',
             from_name: 'Blue Ridge Boost',
             to: [{ email: parentEmail, type: 'to' }],
             subject: 'Share Blue Ridge Boost Camp with a Friend & Get Rewarded',
