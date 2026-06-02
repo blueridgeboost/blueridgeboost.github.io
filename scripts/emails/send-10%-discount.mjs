@@ -1,11 +1,24 @@
+// will send discount emails with discoutns to all current paid orders
+// discount names in ecwid will have the format Name-Referral-Discount
+// saves output to a referrals json in the same folder 
+
+// WILL AUTOMATICALLY RUN DRY 
+// use DRY_RUN=false node scripts/emails/send-10%-discount.mjs to run 
+
 import path from 'path';
+import fs from 'fs';
 import crypto from 'node:crypto';
 import dotenv from 'dotenv';
 import mailchimp from '@mailchimp/mailchimp_transactional';
 import {
     SUMMER_CAMPS_CATEGORY_ID,
     ADVANCED_STEM_CAMPS_CATEGORY_ID,
-    BOOTCAMPS_CATEGORY_ID
+    BOOTCAMPS_CATEGORY_ID,
+    createDiscount,
+    getSummerCamps,
+    getAdvancedStemCamps,
+    getBootcamps,
+    getOrdersByProductId,
 } from '../ecwid.js';
 
 const envPath = path.join(process.cwd(), '..', '.env');
@@ -14,16 +27,20 @@ dotenv.config({ path: envPath });
 const client = new mailchimp(process.env.MAILCHIMP_KEY);
 
 // run with DRY_RUN=false to create coupons + send emails 
-const DRY_RUN = process.env.DRY_RUN !== 'false'; // runs dry by default
-const SEND_DELAY_MS = 0; // in case of API limit
+const DRY_RUN = process.env.DRY_RUN !== 'false';
+const SEND_DELAY_MS = 0; // add in case of API limit
 
 // List of recipients: each entry is { email, name }.
-// Add real recipients here, e.g. { email: 'parent@example.com', name: 'Jordan' }
 const EMAIL_LIST = [
+    { email: 'nathaneal@blueridgeboost.com', name: 'Nathan' }, 
     // { email: 'parent@example.com', name: 'Parent Name' },
 ];
 
-// Escape user-provided text before injecting into HTML.
+const PAID_STATUSES = ['PAID', 'PARTIALLY_REFUNDED']; // for filtering orders by paymentStatus 
+
+const SUMMER_WEEKS = []; // get only parents emails who have enrolled in this week of class 
+
+// Escape user-provided text before HTML 
 function escapeHtml(str = '') {
     return String(str)
         .replace(/&/g, '&amp;')
@@ -31,53 +48,6 @@ function escapeHtml(str = '') {
         .replace(/>/g, '&gt;')
         .replace(/"/g, '&quot;')
         .replace(/'/g, '&#39;');
-}
-
-// Creates a percent-off discount coupon in Ecwid.
-async function createDiscount(discountName, discountCode, discountValue) {
-    if (DRY_RUN) {
-        console.log(`[DRY RUN] Would create coupon "${discountName}" (code ${discountCode}, ${discountValue}% off)`);
-        return { dryRun: true };
-    }
-
-    const url = `https://app.ecwid.com/api/v3/${process.env.ECWID_STORE_ID}/discount_coupons`;
-    const requestBody = {
-        name:           discountName,
-        code:           discountCode,
-        discountType:   'PERCENT',
-        status:         'ACTIVE',
-        discount:       discountValue,
-        launchDate:     new Date().toISOString(),                               // applies immediately
-        expirationDate: new Date(Date.now() + 60 * 24 * 60 * 60 * 1000).toISOString(), // expires in 60 days
-        usesLimit:      'ONCEPERCUSTOMER', 
-        // the api only supports: ONCEPERCUSTOMER, UNLIMITED, or SINGLE 
-        // Manually creating shows a range of uses we can speficify 
-        catalogLimit: {
-            products: [],
-            categories: [
-                SUMMER_CAMPS_CATEGORY_ID,
-                ADVANCED_STEM_CAMPS_CATEGORY_ID,
-                BOOTCAMPS_CATEGORY_ID
-            ]
-        }
-    };
-
-    const response = await fetch(url, {
-        method: 'POST',
-        headers: {
-            accept: 'application/json',
-            'Content-Type': 'application/json',
-            Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`
-        },
-        body: JSON.stringify(requestBody)
-    });
-
-    const data = await response.json();
-    if (!response.ok) {
-        throw new Error(`Ecwid coupon creation failed (${response.status}): ${JSON.stringify(data)}`);
-    }
-    console.log('Discount created:', data);
-    return data;
 }
 
 // Generates a random uppercase alphanumeric code.
@@ -225,11 +195,6 @@ function sendEmail({ parentEmail, parentName, discountCode }) {
     const html = buildEmailHtml({ parentName, discountCode });
     const text = buildEmailText({ parentName, discountCode });
 
-    if (DRY_RUN) {
-        console.log(`[DRY RUN] Would send email to ${parentEmail} with code ${discountCode}`);
-        return Promise.resolve({ dryRun: true });
-    }
-
     return client.messages.send({
         message: {
             from_email: 'office@blueridgeboost.com',
@@ -244,22 +209,76 @@ function sendEmail({ parentEmail, parentName, discountCode }) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function main() {
-    if (EMAIL_LIST.length === 0) {
-        console.warn('EMAIL_LIST is empty — nothing to send. Add recipients to EMAIL_LIST.');
-        return;
+// Collect one { email, name } per parent who has at least one paid order across
+// all enabled summer, STEM, and bootcamp products. Deduplicated by email so each
+// parent is contacted only once, even if they booked multiple camps.
+async function buildEmailList() {
+  const campGroups = [getSummerCamps, getAdvancedStemCamps, getBootcamps];
+  const byEmail = new Map(); // lowercased email -> { email, name }
+
+  for (const fetchCamps of campGroups) {
+    const camps = await fetchCamps();
+    for (const camp of camps) {
+      if (!camp.enabled) continue;
+
+      const orders = await getOrdersByProductId(camp.id);
+      for (const order of orders) {
+        if (!PAID_STATUSES.includes(order.paymentStatus)) continue;
+
+        const email = order.email?.trim();
+        if (!email) continue;
+
+        const key = email.toLowerCase();
+        if (byEmail.has(key)) continue; // already captured this parent
+
+        const name = order.billingPerson?.name?.trim() || 'there'; // eg. Hi there! instead of Hi parent_name
+        byEmail.set(key, { email, name });
+      }
     }
+  }
+    return [...byEmail.values()];
+}
 
-    console.log(`Starting referral run (${DRY_RUN ? 'DRY RUN' : 'LIVE'}) for ${EMAIL_LIST.length} recipient(s).`);
+async function main() {
+  const recipients = await buildEmailList();
 
-    for (const { email, name } of EMAIL_LIST) {
-        const discountCode = generateRandomCode();
+  if (recipients.length === 0) {
+      console.warn('No parents with paid orders found — nothing to send.');
+      return;
+  }
+
+  console.log(`Starting referral run (${DRY_RUN ? 'DRY RUN' : 'LIVE'}) for ${recipients.length} recipient(s).`);
+
+  const results = [];
+  for (const { email, name } of recipients) {
+    const discountCode = generateRandomCode();
+    try {
+      if (DRY_RUN) {
+        console.log(`Would create discount ${discountCode} and email ${name} <${email}>`);
+      } else {
         await createDiscount(`${name}-Referral-Discount`, discountCode, 10);
         await sendEmail({ parentEmail: email, parentName: name, discountCode });
-        await sleep(SEND_DELAY_MS);
+        console.log(`Sent ${discountCode} to ${name} <${email}>`);
+      }
+      results.push({ email, name, discountCode, sentAt: new Date().toISOString() });
+    } catch (err) {
+      console.error(`Failed for ${email}:`, err.message);
     }
+    await sleep(SEND_DELAY_MS);
+  }
 
-    console.log('Done.');
+  // Write a record of successful sends to JSON
+  const dateStr = new Date().toISOString().slice(0, 10);
+  const outPath = path.join(
+    process.cwd(),
+    '/scripts',
+    '/emails',
+    `referrals-${dateStr}${DRY_RUN ? '-dryrun' : ''}.json`,
+  );
+  await fs.promises.writeFile(outPath, JSON.stringify(results, null, 2));
+
+  console.log(`Done. ${DRY_RUN ? 'Would have processed' : 'Processed'} ${results.length}/${recipients.length} recipient(s).`);
+  console.log(`Wrote ${results.length} record(s) to ${outPath}`);
 }
 
 main().catch((err) => {
