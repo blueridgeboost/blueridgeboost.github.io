@@ -5,8 +5,6 @@ hero_highlight: "Camps & Competitions"
 hero_subtitle: "at Blue Ridge Boost in Charlottesville"
 hero_description: "Choose from summer STEM camps, coding and robotics bootcamps, summer classes with SAT Math Review, or compete in the WRO-USEL Regional Open Qualifier. Registration now open!"
 
-promo_text: 'Book before May 31 for 10% off summer programs.'
-
 ####################### Pathways (Hero Cards) #########################
 pathways:
   - title: "Summer Camps and Bootcamps"
