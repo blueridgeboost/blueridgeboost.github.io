@@ -56,11 +56,11 @@ classes:
     description: "Ongoing weekly classes, from first to tenth grade with a focus on Math Kangaroo and AMC 8/10 style problems and topics."
     url: "/classes/#!/c/175340602/attribute_Subject=Math&limit=100"
     cta_text: "View Classes"
-    
-  - title: "Summer Robotics Classes"
-    description: "Build, program, and compete with robots. Weekly classes and competition prep for WRO. Ages 8 to 18."
-    url: "/classes/#!/c/175340602/attribute_Subject=Robotics&limit=100"
-    cta_text: "View Robotics Classes"
+   
+  - title: "Independent Learners"
+    description: "Our on-demand classes are designed around your schedule and tailored to your student's unique learning style and pace, because no two learners are the same."
+    url: "/independent-learners/"
+    cta_text: "View Opportunities"
 
 ####################### Test Prep ######################### 
 test_prep: 
