@@ -19,8 +19,7 @@ const SESSION_TIME = "Session Time";
 const FULL_DAY = "Full-Day";
 const AM_SESSION = "AM";
 const PM_SESSION = "PM"; 
-const BOOTCAMP_OPTION = "Session";
-const FULL_PREFIX = "Full-day";
+const BOOTCAMP_SESSION = "Session";
 
 export async function updateSummerCampSeats() {
     const summerCamps = await getSummerCamps();
@@ -29,10 +28,10 @@ export async function updateSummerCampSeats() {
     for (const camp of camps) {
         if (camp.enabled) {
             const maxAttribute = camp?.attributes?.find(attribute => attribute?.name === "Max");
-            const maxSeats = parseInt(maxAttribute.value, 10);
             if (!maxAttribute || !maxAttribute.value?.trim()) {
                 console.error(`No max attribute for product ${camp.id}`);
             } else {
+                const maxSeats = parseInt(maxAttribute.value, 10);
                 const orders = await getOrdersByProductId(camp.id);
                 var full_enrollment =0;
                 var am_enrollment = 0;
@@ -42,6 +41,7 @@ export async function updateSummerCampSeats() {
                 }
                 for (let order of orders) {
                     // console.log(order);
+                    if (!["PAID", "PARTIALLY_REFUNDED"].includes(order.paymentStatus)) continue;
                     for (let item of order.items) {
                         if (item.productId === camp.id) { 
                             const selectedSession = item?.selectedOptions?.find(
@@ -69,10 +69,10 @@ export async function updateSummerCampSeats() {
                     pm_enrollment -= am_enrollment;
                     am_enrollment = 0;
                 }
-                // update to seats available
-                const fullDaySeats = maxSeats - (full_enrollment + Math.max(am_enrollment, pm_enrollment)); ;
-                const amSeats = maxSeats - (full_enrollment + am_enrollment);
-                const pmSeats = maxSeats - (full_enrollment + pm_enrollment);
+                // update to seats available, not including negative values 
+                const fullDaySeats = Math.max(0, maxSeats - (full_enrollment + Math.max(am_enrollment, pm_enrollment)));
+                const amSeats = Math.max(0,maxSeats - (full_enrollment + am_enrollment));
+                const pmSeats = Math.max(0,maxSeats - (full_enrollment + pm_enrollment));
 
                 console.log(`Camp: ${camp.name} (${camp.id}) - Full-Day Seats Available: ${fullDaySeats}, AM Seats Available: ${amSeats}, PM Seats Available: ${pmSeats}`);
 
@@ -92,13 +92,13 @@ export async function updateSummerCampSeats() {
                 }
 
                 if (fullDaySeats <= 0) {
-                    camp.ribbon = "Sold Out";
-                } else if (fullDaySeats == 1) {
-                    camp.ribbon = "1 Spot Left";
+                    camp.ribbon = { text: "Sold Out", color: "#0A175E" };
+                } else if (fullDaySeats === 1) {
+                    camp.ribbon = { text: "1 Spot Left", color: "#0A175E" };
                 } else if (fullDaySeats <= 5) {
-                    camp.ribbon = `${fullDaySeats} Spots Left`; 
+                    camp.ribbon = { text: `${fullDaySeats} Spots Left`, color: "#0A175E" };
                 } else {
-                    camp.ribbon = null; // no ribbon
+                    camp.ribbon = null; // clears the ribbon
                 }
                 await updateEcwidProduct(camp);
             }
@@ -107,14 +107,14 @@ export async function updateSummerCampSeats() {
 }
 
 function buildBootcampSessionMap(camp) {
-    const option = camp?.options?.find(opt => opt?.name === BOOTCAMP_OPTION);
+    const option = camp?.options?.find(opt => opt?.name === BOOTCAMP_SESSION);
 
     const map = {};
     if (!option) return map;
 
     let fullSeen = 0;
     for (const choice of option.choices) {
-        // takes the form Full-day (June 1-5), each bootcamp has two weeks 
+        // takes the form Full-Day (June 1-5), each bootcamp has two weeks 
         const text = choice?.text || '';
         if (text.startsWith(FULL_DAY)) {
             fullSeen++;
@@ -153,6 +153,7 @@ export async function updateBootcampSeats() {
 
         for (let order of orders) {
             // console.log(order);
+            if (!["PAID", "PARTIALLY_REFUNDED"].includes(order.paymentStatus)) continue; // added a skip for cancelled orders 
             for (let item of order.items) {
                 if (item.productId !== camp.id) continue;
                 const selected = item?.selectedOptions?.find(
@@ -168,11 +169,11 @@ export async function updateBootcampSeats() {
              Full Wk2: ${fullW2_enrollment}, AM: ${am_enrollment}, PM: ${pm_enrollment}`);
 
         // per-week binding pair: full + max(am, pm) <= max
-        const fullW1Seats = maxSeats - (fullW1_enrollment + Math.max(am_enrollment, pm_enrollment));
-        const fullW2Seats = maxSeats - (fullW2_enrollment + Math.max(am_enrollment, pm_enrollment));
+        const fullW1Seats = Math.max(0, maxSeats - (fullW1_enrollment + Math.max(am_enrollment, pm_enrollment)));
+        const fullW2Seats = Math.max(0, maxSeats - (fullW2_enrollment + Math.max(am_enrollment, pm_enrollment)));
         // half-day spans both weeks; bounded by the more-constrained week
-        const amSeats = maxSeats - (Math.max(fullW1_enrollment, fullW2_enrollment) + am_enrollment);
-        const pmSeats = maxSeats - (Math.max(fullW1_enrollment, fullW2_enrollment) + pm_enrollment);
+        const amSeats = Math.max(0, maxSeats - (Math.max(fullW1_enrollment, fullW2_enrollment) + am_enrollment));
+        const pmSeats = Math.max(0, maxSeats - (Math.max(fullW1_enrollment, fullW2_enrollment) + pm_enrollment));
         console.log(`Bootcamp: ${camp.name} (${camp.id}) - Full Wk1: ${fullW1Seats}, Full Wk2: ${fullW2Seats}, AM: ${amSeats}, PM: ${pmSeats}`);
 
         for (const combination of camp.combinations || []) {
@@ -191,13 +192,13 @@ export async function updateBootcampSeats() {
         const overallMin = Math.min(minFullSeats, minHalfDaySeats);
 
         if (overallMin <= 0) {
-            camp.ribbon = "Sold Out";
+            camp.ribbon = { text: "Sold Out", color: "#0A175E" };
         } else if (overallMin === 1) {
-            camp.ribbon = "1 Spot Left";
+            camp.ribbon = { text: "1 Spot Left", color: "#0A175E" };
         } else if (overallMin <= 5) {
-            camp.ribbon = `${overallMin} Spots Left`;
+            camp.ribbon = { text: `${overallMin} Spots Left`, color: "#0A175E" };
         } else {
-            camp.ribbon = null;
+            camp.ribbon = null; // clears the ribbon
         }
 
         await updateEcwidProduct(camp);
@@ -205,4 +206,4 @@ export async function updateBootcampSeats() {
 }
 
 updateSummerCampSeats();
-// updateBootcampSeats();
+updateBootcampSeats();
