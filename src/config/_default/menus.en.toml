@@ -86,7 +86,7 @@
 
 ############ Competitions ############
 [[main]]
-    name        = "World Robot Olympiad"
+    name        = "WRO"
     weight      = 6
 
 # [[main]]
@@ -118,4 +118,10 @@
     name       = "Tutoring"
     url        = "/tutoring/"
     weight     = 9
+
+############ Homeschool ############
+[[main]]
+    name       = "Homeschool"
+    url        = "/independent-learners/"
+    weight     = 10
 

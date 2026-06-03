@@ -6,6 +6,7 @@ import {
   getBootcamps,
 } from '../ecwid.js';
 import path from 'path';
+import os from 'os';
 import dotenv from 'dotenv';
 import ExcelJS from 'exceljs';
 
@@ -158,8 +159,7 @@ async function main() {
   const bootCamps = await getBootcamps();
   await processCamps(sheet3, stemCamps);
 
-
-  const outputPath = path.join(process.cwd(), 'Summer-Camp-Summary.xlsx');
+  const outputPath = path.join(os.homedir(), 'OneDrive - Blue Ridge Boost', 'Rosters - Documents', 'Summer-Camp-Summary.xlsx');
   await workbook.xlsx.writeFile(outputPath);
 
   console.log('Created Excel file:', outputPath);

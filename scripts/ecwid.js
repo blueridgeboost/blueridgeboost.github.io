@@ -794,3 +794,74 @@ export async function getProductFilters(params = {}) {
     }
     return await response.json();
 }
+
+export async function listDiscountIds() {
+    const url = `https://app.ecwid.com/api/v3/${process.env.ECWID_STORE_ID}/discount_coupons`;
+    const response = await fetch(url, {
+        method: 'GET',
+        headers: {
+            accept: 'application/json',
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`,
+        },
+        body: null,
+    });
+
+    return await response.json();
+}
+
+export async function getDiscount(discountId) {
+    const url = `https://app.ecwid.com/api/v3/${process.env.ECWID_STORE_ID}/discount_coupons/${discountId}`;
+    const response = await fetch(url, {
+        method: 'GET',
+        headers: {
+            accept: 'application/json',
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`,
+        },
+        body: null,
+    });
+
+    return await response.json();
+}
+
+// Creates a percent-off discount coupon in Ecwid.
+export async function createDiscount(discountName, discountCode, discountValue) {
+    const url = `https://app.ecwid.com/api/v3/${process.env.ECWID_STORE_ID}/discount_coupons`;
+    const requestBody = {
+        name:           discountName,
+        code:           discountCode,
+        discountType:   'PERCENT',
+        status:         'ACTIVE',
+        discount:       discountValue,
+        launchDate:     new Date().toISOString(),                               // applies immediately
+        expirationDate: new Date(Date.now() + 60 * 24 * 60 * 60 * 1000).toISOString(), // expires in 60 days
+        // options for usesLimits are: UNLIMITED, ONCEPERCUSTOMER, or SINGLE
+        usesLimit:      'ONCEPERCUSTOMER', 
+        catalogLimit: {
+            products: [],
+            categories: [
+                SUMMER_CAMPS_CATEGORY_ID,
+                ADVANCED_STEM_CAMPS_CATEGORY_ID,
+                BOOTCAMPS_CATEGORY_ID
+            ]
+        }
+    };
+
+    const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+            accept: 'application/json',
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`
+        },
+        body: JSON.stringify(requestBody)
+    });
+
+    const data = await response.json(); 
+    if (!response.ok) {
+        throw new Error(`Ecwid coupon creation failed (${response.status}): ${JSON.stringify(data)}`);
+    }
+    console.log('Discount created:', data); // response should include { id: number, code: string }
+    return data;
+}

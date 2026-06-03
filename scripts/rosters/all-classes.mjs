@@ -2,13 +2,15 @@ import dotenv from 'dotenv';
 import {getOrdersByProductId, getCatalog} from '../ecwid.js';
 
 import path from 'path';
+import os from 'os';
 
 // Construct the path to the .env file
 const envPath = path.join(process.cwd(), '..', '.env');
 // Load the .env file
 dotenv.config({ path: envPath });
 
-const ROSTERS_DIR = "G:\\Shared drives\\BRB\\25-26 Classes\\rosters\\"
+// const ROSTERS_DIR = "G:\\Shared drives\\BRB\\25-26 Classes\\rosters\\"
+const ROSTERS_DIR = path.join(os.homedir(), 'OneDrive - Blue Ridge Boost', 'Rosters - Documents');
 
 function getAttributeValue(product, attributeName) {
     const attribute = product.attributes.find(attribute => attribute.name === attributeName);
