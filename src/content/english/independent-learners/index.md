@@ -13,9 +13,14 @@ style: justify-text-center
 			<p class="mb-3">
 				Our on-demand group classes are designed around your schedule and tailored to your students’ needs. Whether you’re organizing a homeschool group, learning pod, field trip, or study group, we make it easy to bring engaging STEM learning to your students. We offer hands-on robotics classes and rigorous math instruction—from elementary enrichment all the way through high school calculus.
 			</p>
-			<p class="mb-0">
+			<p class="mb-3">
 				<strong>Available from 9:00 AM to 3:00 PM—or later by request.</strong>
 			</p>
+			<div class="intro-jump-pills">
+				<span class="intro-jump-label">Jump to:</span>
+				<a href="#short-term-classes" class="intro-jump-pill">Short-Term Classes</a>
+				<a href="#year-long-classes" class="intro-jump-pill">Year-Long Classes</a>
+			</div>
 		</div>
 		<div class="col-12 col-md-5">
 			<img
@@ -58,7 +63,7 @@ style: justify-text-center
 		</div>
 	</div>
 	<hr class="my-5" />
-	<div class="row">
+	<div id="short-term-classes" class="row scroll-target">
 		<div class="col-12 text-center">
 			<h2>Short-Term Classes <small class="text-muted">(1–6 Months)</small></h2>
 			<p class="mt-3">
@@ -131,7 +136,7 @@ style: justify-text-center
 		</div>
 	</div>
 	<hr class="my-5" />
-	<div class="row">
+	<div id="year-long-classes" class="row scroll-target">
 		<div class="col-12 text-center">
 			<h2>Year-Long Classes <small class="text-muted">(High School)</small></h2>
 			<p class="mt-3">
@@ -224,7 +229,6 @@ style: justify-text-center
     top: auto !important;
     align-self: stretch !important;
   }
-
   /* Intro image — fills the column, keeps a pleasant aspect ratio,
      and subtly lifts off the page. */
   .intro-image {
@@ -236,6 +240,49 @@ style: justify-text-center
   .intro-image:hover {
     transform: translateY(-2px);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15) !important;
+  }
+  /* Smooth-scroll for the intro jump links, with extra top offset so the
+     target heading isn't clipped behind the sticky site header. */
+  html { scroll-behavior: smooth; }
+  .scroll-target { scroll-margin-top: 120px; }
+
+  /* Intro "Jump to:" pills — each link is its own rounded pill.
+     Both pills share identical box styling, so they align perfectly. */
+  .intro-jump-pills {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    max-width: 100%;
+  }
+  .intro-jump-pills .intro-jump-label {
+    color: #334155;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  a.intro-jump-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background: #0a3d8f;
+    border: 1px solid #0a3d8f;
+    border-radius: 999px;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  a.intro-jump-pill:hover,
+  a.intro-jump-pill:focus {
+    background: #082f6e;
+    border-color: #082f6e;
+    color: #ffffff;
+    text-decoration: none;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(10, 61, 143, 0.25);
   }
   @media (max-width: 767.98px) {
     .section-title-sm-tight {
