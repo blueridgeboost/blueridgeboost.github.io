@@ -8617,6 +8617,8 @@ readers do not read off random characters that represent icons */
   white-space: nowrap;
   border-width: 0; }
 @charset "UTF-8";
+/*  */
+/*  */
 /*!
    * Bootstrap  v5.3.2 (https://getbootstrap.com/)
    * Copyright 2011-2023 The Bootstrap Authors
@@ -18161,6 +18163,50 @@ body.dark {
   border-radius: 999px;
   background: linear-gradient(135deg, #00AEEF, #00C389);
   box-shadow: 0 0 0 2px rgba(0, 174, 239, 0.3); }
+
+.secondbar {
+  border-bottom: 1px solid rgba(18, 32, 70, 0.16);
+  background: #b71c1c;
+  color: #fff8e1;
+  position: relative;
+  overflow: hidden; }
+  .secondbar .secondbar-row {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff8e1;
+    flex-wrap: wrap;
+    text-align: center; }
+  .secondbar .text {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffeb3b;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+    animation: secondbar-pulse 2s ease-in-out infinite;
+    transition: color 0.2s ease, transform 0.2s ease; }
+    .secondbar .text:hover {
+      color: #fff;
+      transform: scale(1.03);
+      animation-play-state: paused; }
+  .secondbar .spark {
+    background: linear-gradient(135deg, #ffeb3b, #ffc107);
+    box-shadow: 0 0 0 3px rgba(255, 235, 59, 0.4); }
+
+@keyframes secondbar-pulse {
+  0%, 100% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.04); } }
 
 :root {
   --home-anchor-offset: 72px; }
