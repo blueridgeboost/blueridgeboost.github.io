@@ -8,125 +8,235 @@ style: justify-text-center
 ---
 
 <div class="container px-3 px-md-4 px-lg-5">
-	<div class="row align-items-center py-1 mb-2">
-		<div class="col-12">
-			<p class="mb-0">
-				Our on-demand group classes are designed around your schedule and tailored to your students’ needs. Whether you’re organizing a homeschool group, learning pod, field trip, or study group, we make it easy to bring engaging STEM learning to your students.
+	<div class="row py-1 mb-3 align-items-center g-4">
+		<div class="col-12 col-md-7">
+			<p class="mb-3">
+				Our on-demand group classes are designed around your schedule and tailored to your students’ needs. Whether you’re organizing a homeschool group, learning pod, field trip, or study group, we make it easy to bring engaging STEM learning to your students. We offer hands-on robotics classes and rigorous math instruction—from elementary enrichment all the way through high school calculus.
 			</p>
-			<p class="mb-0 mt-2">
+			<p class="mb-0">
 				<strong>Available from 9:00 AM to 3:00 PM—or later by request.</strong>
 			</p>
 		</div>
+		<div class="col-12 col-md-5">
+			<img
+				src="images/here.jpg"
+				class="img-fluid rounded-4 shadow intro-image"
+				alt="Students engaged in a hands-on STEM learning activity"
+				loading="lazy"
+			/>
+		</div>
 	</div>
- 	<div class="row align-items-start g-4 mt-2">
-    	<div class="col-12 col-md-6">
-      		<img
-        		src="images/here.jpg"
-        		class="img-fluid rounded"
-        		alt="Students engaged in a hands-on STEM learning activity"
-      		/>
-		</div>
-    	<div class="col-12 col-md-6 mt-0">
-			<h4>Ideal for</h4>
-			<ul class="feature-list mb-0">
-				<li>Homeschool Groups</li>
-				<li>Learning Pods</li>
-				<li>Field Trip Groups</li>
-				<li>Study Groups</li>
-			</ul>
-		</div>
-  	</div>
-	<div class="row mt-5">
+	<hr class="my-5" />
+	<!-- Pricing (applies to both Short-Term and Year-Long programs) -->
+	<div class="row">
 		<div class="col-12 text-center">
-			<h2>Programs That Build Real Skills</h2>
-			<p class="mt-3">
-				Hands-on STEM classes in robotics, coding, computer science, and math—designed to keep students engaged while building problem-solving, critical thinking, and academic confidence.
+			<h2>Pricing</h2>
+			<p class="mt-3 mb-2">
+				The same monthly per-student rate applies whether you choose a short-term class or a full year-long program. Pricing is set by grade level.
+				All programs meet <strong>weekly for 2 hours</strong> in <strong>small classes of 3–12 students</strong>.
 			</p>
 		</div>
 	</div>
-	<div class="row g-4 mt-2">
-		<div class="col-12 col-lg-6">
-			<div class="border rounded p-4 h-100">
-				<h3 class="mb-3">Middle School Program</h3>
-				<p>
-					Middle school students explore Robotics, Singapore Math, and Coding through hands-on, project-based learning.
-				</p>
-				<p class="mb-0">
-					Each class is designed to strengthen problem-solving, logical thinking, and foundational STEM skills while keeping students engaged, challenged, and excited to learn.
-				</p>
-			</div>
-		</div>
-		<div class="col-12 col-lg-6">
-			<div class="border rounded p-4 h-100">
-				<h3 class="mb-3">High School Program</h3>
-				<p>
-					High school students can choose from advanced courses in Robotics, Computer Science, Math, and Science—including Algebra 1 & 2, Geometry, Pre-Calculus, Biology, Chemistry, and Physics 1 & 2.
-				</p>
-				<p class="mb-0">
-					With immersive virtual labs and hands-on instruction, students deepen their understanding, strengthen critical thinking, and build confidence for college-level learning.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="row mt-5">
-		<div class="col-12">
-			<div class="border rounded p-4">
-				<h3 class="mb-3">Included in Every Program</h3>
-				<ul class="mb-0">
-					<li>Full academic-year programs</li>
-					<li>Weekly 2-hour class sessions</li>
-					<li>Small class sizes of 3–12 students</li>
-					<li>Weekly homework and assessments for at-home review</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="row g-4 mt-5 mb-4 align-items-stretch">
+	<div class="row g-4 mt-2 mb-4 align-items-stretch programs-row">
 		<div class="col-12 col-md-6 d-flex">
-			<div class="border rounded p-4 w-100 text-center">
+			<div class="program-card border rounded p-4 w-100 text-center">
 				<h4 class="mb-2">Middle School</h4>
 				<h2 class="mb-3">$159.99<small class="fs-6 text-muted"> /month</small></h2>
 				<p class="mb-0">
-					Starting with 4 students, each additional student increases the monthly per-student discount by $9.
+					Starting with 4 students, each additional student decreases the monthly per-student discount by $9.
 				</p>
 			</div>
 		</div>
 		<div class="col-12 col-md-6 d-flex">
-			<div class="border rounded p-4 w-100 text-center">
+			<div class="program-card border rounded p-4 w-100 text-center">
 				<h4 class="mb-2">High School</h4>
 				<h2 class="mb-3">$169.99<small class="fs-6 text-muted"> /month</small></h2>
 				<p class="mb-0">
-					Starting with 4 students, each additional student increases the monthly per-student discount by $5.
+					Starting with 4 students, each additional student decreases the monthly per-student discount by $5.
 				</p>
 			</div>
 		</div>
 	</div>
-  	<div class="row mt-0">
+	<hr class="my-5" />
+	<div class="row">
+		<div class="col-12 text-center">
+			<h2>Short-Term Classes <small class="text-muted">(1–6 Months)</small></h2>
+			<p class="mt-3">
+				Flexible, hands-on classes for <strong>Grades 1–12</strong>. Designed around your group’s schedule and interests.
+			</p>
+		</div>
+	</div>
+	<div class="row g-4 mt-2 align-items-stretch justify-content-center programs-row">
+		<div class="col-12 col-sm-6 col-lg-4 d-flex">
+			<div class="program-card border rounded p-4 w-100 h-100">
+				<h3 class="mb-3">Custom Classes</h3>
+				<p class="mb-0">
+					Tailored to your group’s interests, schedule, and goals. We build the curriculum around your students.
+				</p>
+			</div>
+		</div>
+		<div class="col-12 col-sm-6 col-lg-4 d-flex">
+			<div class="program-card border rounded p-4 w-100 h-100">
+				<h3 class="mb-3">Test Prep</h3>
+				<p class="mb-0">
+					Targeted prep for Math Kangaroo, Math Olympiad, AMC 8/10, and other competitions and standardized tests.
+				</p>
+			</div>
+		</div>
+		<div class="col-12 col-sm-6 col-lg-4 d-flex">
+			<div class="program-card border rounded p-4 w-100 h-100">
+				<h3 class="mb-3">Robotics</h3>
+				<p class="mb-0">
+					Hands-on robotics with VEX, LEGO, and FIRST LEGO League platforms—build, program, and compete.
+				</p>
+			</div>
+		</div>
+		<div class="col-12 col-sm-6 col-lg-4 d-flex">
+			<div class="program-card border rounded p-4 w-100 h-100">
+				<h3 class="mb-3">Robotics Certificates</h3>
+				<p class="mb-0">
+					Earn industry-recognized robotics certifications through structured short-course programs.
+				</p>
+			</div>
+		</div>
+		<div class="col-12 col-sm-6 col-lg-4 d-flex">
+			<div class="program-card border rounded p-4 w-100 h-100">
+				<h3 class="mb-3">Coding</h3>
+				<p class="mb-0">
+					Block-based coding and beginner Python through Minecraft, Scratch, and other kid-friendly platforms, plus certification-track classes.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="row mt-4">
 		<div class="col-12">
 			<p>
-				Have questions or want to create a class for your group? Fill out the form below—we’d love to help you find the best fit.
+				Interested in a short-term class for your group? Fill out the form below—we’d love to help you find the best fit.
 			</p>
 			<iframe
 				id="JotFormIFrame-252767528606063"
-				title="Homeschooling Class/Field Trip Interest Form"
+				title="Short-Term Class Interest Form"
 				allow="geolocation; microphone; camera; fullscreen; payment"
 				src="https://form.jotform.com/252767528606063"
 				frameborder="0"
-				style="min-width:100%; max-width:100%; height:700px; border:none;"
+				style="min-width:100%; max-width:100%; height:1500px; border:none;"
+				scrolling="auto"
+			></iframe>
+			<!--
+				Load the JotForm embed-handler library for the year-long form below.
+				We intentionally do NOT call jotformEmbedHandler() on this iframe —
+				the auto-resize was oscillating and clipping the submit button.
+			-->
+			<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+		</div>
+	</div>
+	<hr class="my-5" />
+	<div class="row">
+		<div class="col-12 text-center">
+			<h2>Year-Long Classes <small class="text-muted">(High School)</small></h2>
+			<p class="mt-3">
+				Full academic-year programs for <strong>High School students</strong>. Weekly sessions designed for depth, rigor, and college-readiness.
+			</p>
+		</div>
+	</div>
+	<div class="row g-4 mt-2 align-items-stretch justify-content-center programs-row">
+		<div class="col-12 col-sm-6 col-lg-4 d-flex">
+			<div class="program-card border rounded p-4 w-100 h-100">
+				<h3 class="mb-3">Math</h3>
+				<p class="mb-0">
+					Algebra 1 &amp; 2, Geometry, Pre-Calculus, and Calculus.
+				</p>
+			</div>
+		</div>
+		<div class="col-12 col-sm-6 col-lg-4 d-flex">
+			<div class="program-card border rounded p-4 w-100 h-100">
+				<h3 class="mb-3">Physics</h3>
+				<p class="mb-0">
+					Conceptual and AP-style physics with hands-on labs and problem-solving practice.
+				</p>
+			</div>
+		</div>
+		<div class="col-12 col-sm-6 col-lg-4 d-flex">
+			<div class="program-card border rounded p-4 w-100 h-100">
+				<h3 class="mb-3">Coding</h3>
+				<p class="mb-0">
+					A full computer science curriculum delivered through <strong>CodeHS</strong>—from intro programming through advanced topics.
+				</p>
+			</div>
+		</div>
+		<div class="col-12 col-sm-6 col-lg-4 d-flex">
+			<div class="program-card border rounded p-4 w-100 h-100">
+				<h3 class="mb-3">Custom Science</h3>
+				<p class="mb-0">
+					Any other science subject your group wants to dive into—Biology, Chemistry, Earth Science, and more, built around your students.
+				</p>
+			</div>
+		</div>
+		<div class="col-12 col-sm-6 col-lg-4 d-flex">
+			<div class="program-card border rounded p-4 w-100 h-100">
+				<h3 class="mb-3">Carnegie Mellon Robotics</h3>
+				<p class="mb-0">
+					Carnegie Mellon Robotics Academy curriculum: Fabrication Foundations and advanced robotics certification tracks.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="row mt-4">
+		<div class="col-12">
+			<p>
+				Interested in year-long high school classes? Fill out the form below.
+			</p>
+			<iframe
+				id="JotFormIFrame-261535042817152-hs"
+				title="Year-Long High School Class Interest Form"
+				allow="geolocation; microphone; camera; fullscreen; payment"
+				src="https://form.jotform.com/261535042817152"
+				frameborder="0"
+				style="min-width:100%; max-width:100%; min-height:900px; height:auto; border:none;"
 				scrolling="no"
 			></iframe>
-			<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
 			<script>
 				window.jotformEmbedHandler(
-					"iframe[id='JotFormIFrame-252767528606063']",
+					"iframe[id='JotFormIFrame-261535042817152-hs']",
 					"https://form.jotform.com/"
 				);
 			</script>
-    	</div>
-  	</div>
+		</div>
+	</div>
 </div>
-
 <style>
+  /* Cancel the homepage's staggered hero-card offset AND force the
+     cards in these rows to equal height (aligned top and bottom). */
+  .programs-row {
+    align-items: stretch !important;
+  }
+  .programs-row > [class*="col-"] {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-top: 0 !important;
+  }
+  .programs-row > [class*="col-"] > .program-card {
+    flex: 1 1 auto !important;
+    width: 100% !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    transform: none !important;
+    top: auto !important;
+    align-self: stretch !important;
+  }
+
+  /* Intro image — fills the column, keeps a pleasant aspect ratio,
+     and subtly lifts off the page. */
+  .intro-image {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  .intro-image:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15) !important;
+  }
   @media (max-width: 767.98px) {
     .section-title-sm-tight {
       margin-top: 0.25rem !important;
