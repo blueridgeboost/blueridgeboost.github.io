@@ -1,0 +1,268 @@
+
+=== Camp Cargo Connect: LEGO Delivery Designers (805442776) — 4 order(s) ===
+  Order HPZ92 | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order 9JYWZ | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order OVOQE | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order PKKXP | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+
+=== Roblox Adventure Quest Camp: Build, Script, and Play (805440613) — 16 order(s) ===
+  Order GMZ4I | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order TGNNO | payment: PAID | fulfillment: AWAITING_PROCESSING | PM x1
+  Order NMSWT | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1, AM x1
+  Order 3TUWG | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order LWOVD | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order COOU9 | payment: PAID | fulfillment: AWAITING_PROCESSING | PM x1
+  Order VN7ZS | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1, Full-Day x1
+  Order Q6AOB | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order 7X9ZY | payment: PAID | fulfillment: AWAITING_PROCESSING | PM x1
+  Order KG3U8 | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order IWJT0 | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order V9BKX | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order M6NFU | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order LE1EP | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1, Full-Day x1, Full-Day x1
+  Order PKKXP | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order YUXF5 | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+
+=== Wind Energy Engineers (827480726) — 3 order(s) ===
+  Order CIFGN | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order 9JYWZ | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order WTIUZ | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+
+=== Redstone Runners: 5‑Day Minecraft Education Parkour Game (805440615) — 9 order(s) ===
+  Order YHS8M | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order J3QED | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1, AM x1
+  Order BLHVS | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1, AM x1
+  Order BD0FS | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order C7FVA | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order NGVWO | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order TDAYZ | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order EVOTQ | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order ADV3O | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | PM x1, PM x1
+
+=== Redstone Logic Lab (805442777) — 6 order(s) ===
+  Order SH1JP | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order BGCHF | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order A74VU | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order EGKJU | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1, AM x1
+  Order HF5BD | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1, Full-Day x1
+  Order EVOTQ | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+
+=== 3D Design & Print Lab (827588536) — 6 order(s) ===
+  Order OCRHJ | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order DGS6M | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order CED99 | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order OCYMS | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order 3C66M | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order QSBTY | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+
+=== Roblox Studio Obby Lab (805440390) — 7 order(s) ===
+  Order O0X45 | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1, Full-Day x1
+  Order 591MT | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order CTOLB | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1, Full-Day x1
+  Order LE1EP | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1, Full-Day x1, Full-Day x1
+  Order L7MMJ | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_2 | Full-Day x1
+  Order RMVGN | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1, Full-Day x1
+  Order FDY7A | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | PM x1, PM x1
+
+=== Battle Bots Builder Camp (805441824) — 13 order(s) ===
+  Order ECMXW | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order QISK8 | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order SRIR0 | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order NNZNR | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order PKLRY | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order 2TRMV | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | AM x1
+  Order B1GV1 | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | AM x1
+  Order QYM7Y | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | AM x1
+  Order XBHPS | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | AM x1
+  Order QTQ8E | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | AM x1
+  Order EVOTQ | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order KBCHX | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order VLC0G | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+
+=== Tiny Titans: LEGO WeDo Battle Bots (805442778) — 6 order(s) ===
+  Order OYRFX | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order GCMNS | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order SRIR0 | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order 4XLCS | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | PM x1
+  Order EVOTQ | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order KBCHX | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+
+=== Submerged: FLL Explore Camp (805440616) — 6 order(s) ===
+  Order LW5JV | payment: PAID | fulfillment: AWAITING_PROCESSING | PM x1
+  Order L7OBH | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order V1T4Y | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order 1PQUQ | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order EPI4N | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order J95ER | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+
+=== Superpowered: FLL Robot Game Camp (805439432) — 6 order(s) ===
+  Order RQQTY | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order H54BU | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order 4KBCT | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order PRWL4 | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order ZNVOW | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order IBN1P | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+
+=== Keys & Code Camp (827588576) — 2 order(s) ===
+  Order YOO3P | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order FQC47 | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+
+=== Spark & Scratch (805439433) — 5 order(s) ===
+  Order MJPSB | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order IJLAA | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order HGWRZ | payment: PAID | fulfillment: AWAITING_PROCESSING | PM x1, PM x1
+  Order N7WZB | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order VCFGS | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+
+=== Treasure Temple Quest Camp (805441826) — 14 order(s) ===
+  Order UXBJ5 | payment: PAID | fulfillment: AWAITING_PROCESSING | PM x1
+  Order 5RKYV | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order TKKNI | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order P7XFF | payment: PAID | fulfillment: AWAITING_PROCESSING | PM x1, PM x1
+  Order IVIR6 | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order JU1XU | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order DAMRW | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order TDAYZ | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order HEVM3 | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order X20BL | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order CTOLB | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order DRL2W | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order K1BBP | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order WUUFU | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+
+=== City Shaper: FLL Robot Game Camp (805435453) — 5 order(s) ===
+  Order HI74Y | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order HXWHN | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order T3X9B | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order ZNVOW | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order VLC0G | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+
+=== Brain Builders (805435454) — 6 order(s) ===
+  Order CUVSO | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order JY9ND | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order ATDDM | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | AM x1
+  Order HYBZJ | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | PM x1
+  Order 6DMEB | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order B75TT | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | AM x1
+
+=== Skybuilders: Floating-Island Quest Camp (805440391) — 5 order(s) ===
+  Order XFRPD | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order AHXHI | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order SEJGU | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order CTOLB | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order L1JYA | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | AM x2
+
+=== micro:bit Makers Week (805435455) — 8 order(s) ===
+  Order OCRHJ | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order HI74Y | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order SH1JP | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order TIBJP | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order 0KJR7 | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order NNZNR | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order ZNVOW | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order VLC0G | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+
+=== Indi Park Rangers (805442779) — 3 order(s) ===
+  Order LA2SA | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order 6DMEB | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order PKKXP | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+
+=== STEM Build Week (805442780) — 10 order(s) ===
+  Order JA5ZP | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order IT8UD | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order YXU6W | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order 6QZVK | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | PM x1
+  Order THEK9 | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order 4X35L | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order PFXTX | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order UMK4V | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order Z61MK | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order PKKXP | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+
+=== Science Sprint (805440392) — 10 order(s) ===
+  Order Y1EFL | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order YM30N | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order OEVPS | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1, Full-Day x1, Full-Day x1
+  Order 87N16 | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order K5AIX | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order XNNPC | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order ZNVOW | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order X5C0V | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order VLC0G | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order 3DMOL | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | AM x2
+
+=== Boomtown Build: FLL Explore Camp (805440393) — 7 order(s) ===
+  Order F84MK | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order 1VO2E | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order 9JYWZ | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order O0X45 | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1, Full-Day x1
+  Order DIR9F | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order HEC4Z | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order 6DMEB | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+
+=== Mystery Manor Escape (805435457) — 14 order(s) ===
+  Order 2BCKD | payment: PAID | fulfillment: AWAITING_PROCESSING | PM x1
+  Order RQMNT | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order TA1FQ | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order JQ66V | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order HT259 | payment: PAID | fulfillment: AWAITING_PROCESSING | PM x1
+  Order KT00O | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | AM x1
+  Order PO6SC | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order TTYUR | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1, Full-Day x1
+  Order PLI53 | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order GA93S | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order 1OCAS | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | AM x1
+  Order YP15Q | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order HEC4Z | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order 4YZKO | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x2
+
+=== Sumo Bots Camp (805442782) — 6 order(s) ===
+  Order YQHE3 | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order HI74Y | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order 9JYWZ | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order PC5YX | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order O0X45 | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order OKYDZ | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1, Full-Day x1
+
+=== VEX 123 Spark & Move (805435458) — 2 order(s) ===
+  Order 9JYWZ | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order QLJVB | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | PM x1
+
+=== Cozy Farm Tycoon (805440394) — 6 order(s) ===
+  Order XCRZU | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1, AM x1
+  Order A2A9O | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order EPI4N | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order IWNRX | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | AM x1
+  Order CTOLB | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order SA1YH | payment: CANCELLED | fulfillment: WILL_NOT_DELIVER | AM x1, AM x1
+
+=== Hands-On Science (805439435) — 6 order(s) ===
+  Order XAICL | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order 9JYWZ | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order MLG0I | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1, Full-Day x1
+  Order A74VU | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order 8HWCA | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+  Order V8DRB | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+
+=== Unity Game Development (805439430) — 2 order(s) ===
+  Order P9VFE | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+  Order Y4F1E | payment: PAID | fulfillment: CUSTOM_FULFILLMENT_STATUS_1 | Full-Day x1
+
+=== Video Game Design with Python (827671255) — 1 order(s) ===
+  Order CGXQ2 | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1
+
+=== JavaScript Code Academy (827665781) — 0 order(s) ===
+  (no orders)
+
+=== Generative AI Lab (828248611) — 2 order(s) ===
+  Order L1FKR | payment: PAID | fulfillment: AWAITING_PROCESSING | AM x1
+  Order MCA1A | payment: PAID | fulfillment: AWAITING_PROCESSING | Full-Day x1, Full-Day x1
+
+=== Computer Vision Lab (828249106) — 0 order(s) ===
+  (no orders)
+
+=== Cybersecurity Fundamentals (828318365) — 0 order(s) ===
+  (no orders)
+
+=== Cyber Defense Lab (828318382) — 0 order(s) ===
+  (no orders)
