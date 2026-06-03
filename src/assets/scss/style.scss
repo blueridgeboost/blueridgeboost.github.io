@@ -1,5 +1,5 @@
 // Color Variables
-{{ with site.Params.variables }}
+/* {{ with site.Params.variables }} */
 
 $black: {{.black | default "#071022"}};
 $white: {{.white | default "#fff"}};
@@ -69,7 +69,7 @@ $link-decoration: none;
 $link-hover-color: $darkest-blue;
 $link-hover-decoration: underline;
 
-{{ end }}
+/* {{ end }} */
 
 @import 'templates/bootstrap';
 @import 'mixins';
