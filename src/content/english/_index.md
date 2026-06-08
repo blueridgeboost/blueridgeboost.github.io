@@ -14,7 +14,7 @@ pathways:
     badge_text: "Ages 6-18"
     
   - title: "Summer Classes"
-    description: "Weekly classes in math, coding, and robotics to keep skills sharp all summer. Featuring our new SAT Math Review course for high schoolers preparing for standardized tests!"
+    description: "Weekly classes in math, coding, and robotics to keep skills sharp all summer. Featuring our new SAT Math Review course and Competition Math for grades 1–12, including preparation for AMC 8, AMC 10, and AMC 12."
     cta_url: "/classes/"
     cta_text: "Browse Classes"
     badge_text: "Ages 6+"
@@ -70,7 +70,7 @@ test_prep:
     cta_text: "View Test Prep"
 
   - title: "SAT and ACT Math"
-    description: "THe best prep for SAT and ACT math sections, including personalized review and practice tests."
+    description: "The best prep for SAT and ACT math sections, including personalized review and practice tests."
     url: "/test-prep/"
     cta_text: "Learn More"
 
