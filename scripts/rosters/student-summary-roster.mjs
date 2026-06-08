@@ -134,10 +134,15 @@ async function collectBootcampRows(camp) {
     for (const order of orders) {
         for (const item of order.items || []) {
             if (item.productId !== camp.id) continue;
-            const selected = getOptionValue(item, BOOTCAMP_OPTION);
+            // After
+            const selected = getOptionValue(item, BOOTCAMP_OPTION)
+                || getOptionValue(item, 'Type')
+                || getOptionValue(item, 'Time')
+                || "";
             const isWeek1FullDay = selected.startsWith('Full-Day Week1');
             const isWeek2FullDay = selected.startsWith('Full-Day Week2');
-            const isHalfDay = selected.includes('AM') || selected.includes('PM');
+            const isHalfDay = selected.includes('AM') || selected.includes('PM')
+                || selected.toLowerCase().includes('half-day');
             if (isWeek2FullDay) continue;
             if (!isWeek1FullDay && !isHalfDay) continue;
             rows.push([
@@ -308,7 +313,7 @@ async function main() {
         os.homedir(),
         'OneDrive - Blue Ridge Boost',
         'Rosters - Documents',
-        `Admin-Roster-${week.startDate}-${dateStr}-test.xlsx`,
+        `Admin-Roster-${week.startDate}-${dateStr}.xlsx`,
     );
 
     await workbook.xlsx.writeFile(outputPath);

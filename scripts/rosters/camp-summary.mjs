@@ -84,6 +84,10 @@ async function countSessions(camp) {
     return { am, pm, full };
 }
 
+function getOptionValue(item, optionName) {
+    return item.selectedOptions?.find(o => o?.name === optionName)?.value || "";
+}
+
 // Bootcamps have either 2 weeks of half days or one week of fulldays 
 async function countBootcampSessions(camp) {
     const orders = await getOrdersByProductId(camp.id);
@@ -92,12 +96,16 @@ async function countBootcampSessions(camp) {
     for (const order of orders) {
         for (const item of order.items || []) {
             if (item.productId !== camp.id) continue;
-            const selected = item.selectedOptions?.find(o => o?.name === BOOTCAMP_OPTION)?.value || '';
+            const selected = getOptionValue(item, BOOTCAMP_OPTION)
+                || getOptionValue(item, 'Type')
+                || getOptionValue(item, 'Time')
+                || '';
             const quant = item.quantity || 1;
             if (selected.startsWith('Full-Day Week1')) fullW1 += quant;
             else if (selected.startsWith('Full-Day Week2')) fullW2 += quant;
-            else if (selected.startsWith('AM ')) amHalf += quant;
-            else if (selected.startsWith('PM ')) pmHalf += quant;
+            else if (selected.includes('AM')) amHalf += quant;
+            else if (selected.includes('PM')) pmHalf += quant;
+            else if (selected.toLowerCase().includes('half-day')) amHalf += quant; // autoassigns to AM for now 
         }
     }
     return { amHalf, pmHalf, fullW1, fullW2 };
