@@ -35,7 +35,7 @@ robots: "index, follow"
     <p>All camps are held at Blue Ridge Boost, 2171 Ivy Rd, Charlottesville.</p>
   	<p>To accommodate busy summer schedules, we offer two convenient options:<br>
     	<b>Option 1:</b> Drop off at 10:30 AM and pick up at 3:30 PM<br>
-    	<b>Option 2:</b> Drop off at 12:30 PM and pick up at 5:30 PM<br>
+    	<b>Option 2:</b> Drop off at 12:30 PM and pick up at 5:00 PM<br>
     	Before and after care available.
   	</p>
 	<p>At Blue Ridge Boost, all instructors are fully certified through the Carnegie Mellon Robotics Academy, 

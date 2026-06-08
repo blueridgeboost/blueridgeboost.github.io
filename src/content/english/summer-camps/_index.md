@@ -62,7 +62,7 @@ robots: "index, follow"
         </article>
         <article class="program-card" style="background: rgba(255,255,255,0.7);">
           <h3>📅 Schedule</h3>
-          <p><strong>Full-day:</strong> 8:30 AM–5:30 PM</p>
+          <p><strong>Full-day:</strong> 8:30 AM–5:00 PM</p>
           <p><strong>Half-day AM:</strong> 8:30 AM–1:00 PM</p>
           <p><strong>Half-day PM:</strong> 12:30–5:00 PM</p>
           <p><strong>Ratio:</strong> 10:1 camper-to-staff</p>
