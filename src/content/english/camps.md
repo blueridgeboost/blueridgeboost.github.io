@@ -89,11 +89,11 @@ robots: "index, follow"
       <p>All technology provided (computers, tablets, robotics kits), expert instruction from certified educators, small group sizes, and a safe, supportive learning environment.</p>
     </article>
     <article class="program-card">
-      <h3>💰 Early Bird Discounts</h3>
+      <h3>💰 Current Discounts</h3>
       <p><strong>Summer 2026:</strong></p>
       <ul style="margin: 0; padding-left: 1.2rem;">
-        <li>10% off until May 31</li>
-        <li>5% off the week before camp</li>
+        <li>10% off with a referall code from a friend!</li>
+        <li>25% off select camps!</li>
         <li>Class subscribers: Additional 10% (combinable!)</li>
       </ul>
     </article>
