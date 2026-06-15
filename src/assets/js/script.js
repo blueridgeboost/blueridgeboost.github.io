@@ -345,6 +345,140 @@ if (onCartChanged) {
   });
 }
 
+// tracking checkout, category, etc.
+// OnPageLoaded returns a page, the options belong to the switch 
+// statement below, up to date with ecwid as of 06/15/26
+// First make sure DOM is loaded
+document.addEventListener('DOMContentLoaded', async function () {
+  //console.log('DOM fully loaded'); 
+
+  // Wait for Ecwid.OnPageLoaded to be initialized properly
+  const onPageLoaded = await waitFor(() => Ecwid.OnPageLoaded && Ecwid.OnPageLoaded.add);
+  if (onPageLoaded) {
+    // console.log('Ecwid.OnPageLoaded is ready'); 
+    // Add listener to Ecwid.OnPageLoaded
+    Ecwid.OnPageLoaded.add(function (page) {
+      // console.log('Ecwid page loaded:', page);
+      // Add handling cases for every page type
+      switch (page.type) {
+        case 'SIGN_IN': {
+          // console.log('SIGN_IN page detected'); 
+          pushEvent('brb_sign_in', {});
+          break;
+        }
+        case 'ACCOUNT_SETTINGS': {
+          // console.log('ACCOUNT_SETTINGS page detected'); 
+          pushEvent('brb_account_settings', {});
+          break;
+        }
+        case 'ORDERS': {
+          // console.log('ORDERS page detected'); 
+          pushEvent('brb_orders', {});
+          break;
+        }
+        case 'ACCOUNT_SUBSCRIPTION': {
+          // console.log('ACCOUNT_SUBSCRIPTION page detected');
+          pushEvent('brb_account_subscription', {});
+          break;
+        }
+        case 'ADDRESS_BOOK': {
+          // console.log('ADDRESS_BOOK page detected');
+          pushEvent('brb_address_book', {});
+          break;
+        }
+        case 'FAVORITES': {
+          // console.log('FAVORITES page detected'); // Debug point: FAVORITES
+          pushEvent('brb_favorites', {});
+          break;
+        }
+        case 'RESET_PASSWORD': {
+          // console.log('RESET_PASSWORD page detected'); // Debug point: RESET_PASSWORD
+          pushEvent('brb_reset_password', {});
+          break;
+        }
+        case 'CATEGORY': {
+          // console.log('CATEGORY page detected'); // Debug point: CATEGORY
+          pushEvent('brb_category_loaded', {
+            category_id: page.categoryId,
+            category_name: page.name,
+          });
+          // console.log('CATEGORY event pushed', {
+          //   category_id: page.categoryId,
+          //   category_name: page.name,
+          // });
+          break;
+        }
+        case 'PRODUCT': {
+          // console.log('PRODUCT page detected'); // Debug point: PRODUCT
+          pushEvent('brb_view_item', {
+            ecommerce: {
+              currency: getCurrency(), // Ensure that getCurrency is defined
+              items: [
+                {
+                  item_id: String(page.productId),
+                  item_name: String(page.name || ''),
+                },
+              ],
+            },
+          });
+          // console.log('PRODUCT event pushed', {
+          //   product_id: page.productId,
+          //   product_name: page.name,
+          // });
+          clearEcommerce();
+          break;
+        }
+        case 'SEARCH': {
+          // console.log('SEARCH page detected'); // Debug point: SEARCH
+          pushEvent('brb_search', {
+            query: page.query || '',
+          });
+          break;
+        }
+        case 'CART': {
+          // console.log('CART page detected'); // Debug point: CART
+          pushEvent('brb_cart_viewed', {});
+          break;
+        }
+        case 'CHECKOUT_ADDRESS':
+        case 'CHECKOUT_DELIVERY':
+        case 'CHECKOUT_ADDRESS_BOOK': {
+          // console.log('CHECKOUT step detected:', page.type); // Debug point: Checkout step
+          pushEvent('brb_checkout_step', { step: page.type });
+          break;
+        }
+        case 'CHECKOUT_PAYMENT_DETAILS': {
+          // console.log('CHECKOUT_PAYMENT_DETAILS page detected'); // Debug point: PAYMENT DETAILS
+          pushEvent('brb_payment_details', {});
+          break;
+        }
+        case 'ORDER_CONFIRMATION': {
+          // console.log('ORDER_CONFIRMATION page detected'); // Debug point: ORDER_CONFIRMATION
+          pushEvent('brb_order_confirmation', {});
+          break;
+        }
+        case 'ORDER_FAILURE': {
+          // console.log('ORDER_FAILURE page detected'); // Debug point: ORDER_FAILURE
+          pushEvent('brb_order_failure', {});
+          break;
+        }
+        case 'DOWNLOADS_ERROR': {
+          // console.log('DOWNLOADS_ERROR page detected'); // Debug point: DOWNLOADS_ERROR
+          pushEvent('brb_downloads_error', {});
+          break;
+        }
+        default: {
+          // console.warn('Unhandled page type:', page.type); // Debug point: Unhandled case
+        }
+      }
+    });
+  } else {
+    console.error('Ecwid.OnPageLoaded is not available'); // Debug point 4: OnPageLoaded unavailable
+  }
+});
+
+    /*
+    ======= DEPRECATED: Use page return types to fire events as Ecwid.OnProductViewed etc. not supported or not reliable =======
     const onProductViewed = await waitFor(() => Ecwid.OnProductViewed && Ecwid.OnProductViewed.add);
     if (onProductViewed) {
       Ecwid.OnProductViewed.add(function(product){
@@ -366,6 +500,7 @@ if (onCartChanged) {
         pushEvent('brb_checkout_step', { step });
       });
     }
+    */
 
     const onOrderPlaced = await waitFor(() => Ecwid.OnOrderPlaced && Ecwid.OnOrderPlaced.add);
     if (onOrderPlaced) {
