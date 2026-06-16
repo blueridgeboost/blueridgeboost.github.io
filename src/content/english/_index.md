@@ -5,8 +5,6 @@ hero_highlight: "Camps & Competitions"
 hero_subtitle: "at Blue Ridge Boost in Charlottesville"
 hero_description: "Choose from summer STEM camps, coding and robotics bootcamps, summer classes with SAT Math Review, or compete in the WRO-USEL Regional Open Qualifier. Registration now open!"
 
-promo_text: 'Book before May 31 for 10% off summer programs.'
-
 ####################### Pathways (Hero Cards) #########################
 pathways:
   - title: "Summer Camps and Bootcamps"
@@ -16,7 +14,7 @@ pathways:
     badge_text: "Ages 6-18"
     
   - title: "Summer Classes"
-    description: "Weekly classes in math, coding, and robotics to keep skills sharp all summer. Featuring our new SAT Math Review course for high schoolers preparing for standardized tests!"
+    description: "Weekly classes in math, coding, and robotics to keep skills sharp all summer. Featuring our new SAT Math Review course and Competition Math for grades 1–12, including preparation for AMC 8, AMC 10, and AMC 12."
     cta_url: "/classes/"
     cta_text: "Browse Classes"
     badge_text: "Ages 6+"
@@ -58,11 +56,11 @@ classes:
     description: "Ongoing weekly classes, from first to tenth grade with a focus on Math Kangaroo and AMC 8/10 style problems and topics."
     url: "/classes/#!/c/175340602/attribute_Subject=Math&limit=100"
     cta_text: "View Classes"
-    
-  - title: "Summer Robotics Classes"
-    description: "Build, program, and compete with robots. Weekly classes and competition prep for WRO. Ages 8 to 18."
-    url: "/classes/#!/c/175340602/attribute_Subject=Robotics&limit=100"
-    cta_text: "View Robotics Classes"
+   
+  - title: "Independent Learners"
+    description: "Our on-demand classes are designed around your schedule and tailored to your student's unique learning style and pace, because no two learners are the same."
+    url: "/independent-learners/"
+    cta_text: "View Opportunities"
 
 ####################### Test Prep ######################### 
 test_prep: 
@@ -72,7 +70,7 @@ test_prep:
     cta_text: "View Test Prep"
 
   - title: "SAT and ACT Math"
-    description: "THe best prep for SAT and ACT math sections, including personalized review and practice tests."
+    description: "The best prep for SAT and ACT math sections, including personalized review and practice tests."
     url: "/test-prep/"
     cta_text: "Learn More"
 

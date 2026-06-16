@@ -26,9 +26,8 @@ robots: "index, follow"
 
 <!-- Description / overview block -->
 <div class="rates-header">
-  <h2 id="rates-heading">AP & SAT Test Prep</h2>
   <p>
-    For help with AP or SAT exams, our expert teachers provide personalized review tailored to
+    For help with AP, ACT, or SAT exams, our expert teachers provide personalized review tailored to
     each student's target score and exam timeline. Sessions include diagnostic assessments,
     full-length practice tests, and targeted review of high-yield topics — building both
     conceptual understanding and exam-day strategy.

@@ -38,7 +38,8 @@ const BOOTCAMP_OPTION = 'Session';
 const HEADER = [
     'Camp Name', 'Type', 'Ages',
     'AM Seats', 'PM Seats', 'Full-Day Seats',
-    'AM available', 'PM available', 'Required staff',
+    'AM available', 'PM available', 'Full-Day available',
+    'Required staff',
 ];
 
 // bootcamps have max
@@ -83,6 +84,10 @@ async function countSessions(camp) {
     return { am, pm, full };
 }
 
+function getOptionValue(item, optionName) {
+    return item.selectedOptions?.find(o => o?.name === optionName)?.value || "";
+}
+
 // Bootcamps have either 2 weeks of half days or one week of fulldays 
 async function countBootcampSessions(camp) {
     const orders = await getOrdersByProductId(camp.id);
@@ -91,12 +96,16 @@ async function countBootcampSessions(camp) {
     for (const order of orders) {
         for (const item of order.items || []) {
             if (item.productId !== camp.id) continue;
-            const selected = item.selectedOptions?.find(o => o?.name === BOOTCAMP_OPTION)?.value || '';
+            const selected = getOptionValue(item, BOOTCAMP_OPTION)
+                || getOptionValue(item, 'Type')
+                || getOptionValue(item, 'Time')
+                || '';
             const quant = item.quantity || 1;
             if (selected.startsWith('Full-Day Week1')) fullW1 += quant;
             else if (selected.startsWith('Full-Day Week2')) fullW2 += quant;
-            else if (selected.startsWith('AM ')) amHalf += quant;
-            else if (selected.startsWith('PM ')) pmHalf += quant;
+            else if (selected.includes('AM')) amHalf += quant;
+            else if (selected.includes('PM')) pmHalf += quant;
+            else if (selected.toLowerCase().includes('half-day')) amHalf += quant; // autoassigns to AM for now 
         }
     }
     return { amHalf, pmHalf, fullW1, fullW2 };
@@ -108,33 +117,35 @@ async function sessionRow(camp, type) {
     return [
         camp.name, type, getAges(camp),
         am, pm, full,
-        max - (full + am), max - (full + pm),
+        max - (full + am), max - (full + pm), max - full - Math.max(am, pm),
         staff(am, pm, full),
     ];
 }
 
-function styleWeekHeader(sheet, row) {
-    sheet.mergeCells(row.number, 1, row.number, 9);
+function styleWeekHeader(sheet, row, weekColor) {
+    sheet.mergeCells(row.number, 1, row.number, 10);
     const cell = row.getCell(1);
+    let fillColor = weekColor === 'green' ? 'FF81C784' : 'FF64B5F6'; // LightGreen or LightBlue
     cell.font = { bold: true, size: 14 };
     cell.fill = {
-        type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFB0C4DE' }, // LightSteelBlue
+        type: 'pattern', pattern: 'solid', fgColor: { argb: fillColor }, 
     };
     cell.alignment = { horizontal: 'left', vertical: 'middle' };
 }
 
-function styleColumnHeader(row) {
+function styleColumnHeader(row, weekColor) {
     row.font = { bold: true };
+    let fillColor = weekColor === 'green' ? 'FF81C784' : 'FF64B5F6'; // LightGreen or LightBlue
     row.eachCell(cell => {
         cell.fill = {
-            type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFD3D3D3' }, // LightGray
+            type: 'pattern', pattern: 'solid', fgColor: { argb: fillColor },
         };
         cell.border = { bottom: { style: 'thick', color: { argb: 'FF000000' } } };
         cell.alignment = { horizontal: 'center', vertical: 'middle' };
     });
 }
 
-function styleRow(row) {
+function styleRow(row, weekColor) {
     // if between 2-5 students enrolled, color the row orange
     // if less 0 or 1, color red
     const am = row.getCell(4).value || 0;
@@ -144,7 +155,7 @@ function styleRow(row) {
     // most amount of students at any time
     const num_students = full + Math.max(am, pm);
 
-    let color = null;
+    let color = weekColor === 'green' ? 'FFC8E6C9' : 'FFBBDEFB'; // LightGreen or LightBlue
 
     if (num_students <= 1) color = 'FFE57373'; // Coral Red
     else if (num_students <= 5) color = 'FFFFB74D'; // Amber Orange
@@ -211,7 +222,7 @@ async function main() {
         buckets[idx].push([
             c.name, 'Bootcamp', ages,
             amHalf, pmHalf, fullW1,
-            max - (fullW1 + amHalf), max - (fullW1 + pmHalf),
+            max - (fullW1 + amHalf), max - (fullW1 + pmHalf), max - fullW1 - Math.max(amHalf, pmHalf),
             staff(amHalf, pmHalf, fullW1),
         ]);
 
@@ -219,7 +230,7 @@ async function main() {
         buckets[idx + 1].push([
             c.name, 'Bootcamp', ages,
             amHalf, pmHalf, fullW2,
-            max - (fullW2 + amHalf), max - (fullW2 + pmHalf),
+            max - (fullW2 + amHalf), max - (fullW2 + pmHalf), max - fullW2 - Math.max(amHalf, pmHalf),
             staff(amHalf, pmHalf, fullW2),
         ]);
     }
@@ -231,29 +242,33 @@ async function main() {
         { width: 32 }, { width: 14 }, { width: 16 },
         { width: 10 }, { width: 10 }, { width: 14 },
         { width: 14 }, { width: 14 }, { width: 14 },
+        { width: 14 },
     ];
 
     const titleRow = sheet.addRow(['Camp Summary']);
     titleRow.font = { bold: true, size: 22 };
-    sheet.mergeCells(titleRow.number, 1, titleRow.number, 9);
+    sheet.mergeCells(titleRow.number, 1, titleRow.number, 10);
     sheet.addRow([]);
 
     // add each row from buckets 
     for (let i = 0; i < SUMMER_WEEKS.length; i++) {
         if (buckets[i].length === 0) continue;
 
+        // colors alternate green and blue for each week
         const headerRow = sheet.addRow([SUMMER_WEEKS[i].label]);
-        styleWeekHeader(sheet, headerRow);
+        styleWeekHeader(sheet, headerRow, i % 2 === 0 ? 'green' : 'blue');
 
         const columnHeaderRow = sheet.addRow(HEADER);
-        styleColumnHeader(columnHeaderRow);
+        styleColumnHeader(columnHeaderRow, i % 2 === 0 ? 'green' : 'blue');
 
         for (const row of buckets[i]) {
-            styleRow(sheet.addRow(row));
+            styleRow(sheet.addRow(row), i % 2 === 0 ? 'green' : 'blue'); // styleRow handles orange/red color logic based on enrollment
         }
         sheet.addRow([]);
+        sheet.addRow([]);
     }
-    const outputPath = path.join(os.homedir(), 'OneDrive - Blue Ridge Boost', 'Rosters - Documents', 'Summer-Camp-Quick-Summary.xlsx');
+
+    const outputPath = path.join(os.homedir(), 'OneDrive - Blue Ridge Boost', 'Rosters - Documents', `Summer-Camp-Quick-Summary-${new Date().toISOString().slice(0, 10)}.xlsx`);
     await workbook.xlsx.writeFile(outputPath);
 
     console.log('Created Excel file:', outputPath);

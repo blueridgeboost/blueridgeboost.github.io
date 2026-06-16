@@ -70,6 +70,15 @@ category: 175340602
       </ul>
       <a href="/classes/teens/" class="program-link">View Teen Classes →</a>
     </article>
+    <article class="program-card">
+      <h3>Independent Learners <span class="age-range">Grades 5-12 · Ages 10–18</span></h3>
+      <ul>
+        <li><strong>Custom Schedule:</strong> Designed to your schedule. Open on weekends.</li>
+        <li><strong>Programs:</strong> Middle School and High School</li>
+        <li><strong>Classes:</strong> Full year, weekly 2-hour classes, 3-12 students, home assessments included.
+      </ul>
+      <a href="/independent-learners" class="program-link">View Opportunities →</a>
+    </article>
     <article class="program-card card-accent">
       <h3>Adults</h3>
       <p>
