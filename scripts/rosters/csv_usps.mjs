@@ -125,22 +125,18 @@ async function collectRecipients(camps, dedupeMap) {
         for (const order of orders) {
             const billing = order.billingPerson ?? {};
             const email = (order.email ?? '').toLowerCase().trim();
+            // make sure to only collect items of the correct camp 
+            const qualifyingQty = (order.items ?? [])
+                .filter(item => item.productId === camp.id)
+                .reduce((sum, item) => sum + (item.quantity ?? 1), 0);
+            if (qualifyingQty === 0) continue;
 
             if (dedupeMap.has(email)) {
-                // Already have this parent — just add up their quantities.
-                const existing = dedupeMap.get(email);
-                for (const item of order.items ?? []) {
-                    existing.totalQuantity += item.quantity ?? 1;
-                }
-                continue;
+                dedupeMap.get(email).totalQuantity += qualifyingQty;
+                continue; 
             }
 
             const { first, last } = parseName(billing.name);
-
-            // Sum quantities across all items in this first-seen order.
-            const totalQuantity = (order.items ?? []).reduce(
-                (sum, item) => sum + (item.quantity ?? 1), 0
-            );
 
             dedupeMap.set(email, {
                 firstName:    first,
@@ -152,7 +148,7 @@ async function collectRecipients(camps, dedupeMap) {
                 country:      billing.countryCode ?? 'US',
                 email:        order.email ?? '',
                 phone:        billing.phone ?? '',
-                totalQuantity,
+                totalQuantity: qualifyingQty,
             });
         }
     }
@@ -173,7 +169,7 @@ async function main() {
     await collectRecipients(stem, dedupeMap);
 
     console.log('Fetching bootcamps…');
-    const bootcamps = await getCatalog([ADVANCED_STEM_CAMPS_CATEGORY_ID], false);
+    const bootcamps = await getCatalog([BOOTCAMPS_CATEGORY_ID], false);
     await collectRecipients(bootcamps, dedupeMap);
 
     console.log(`Collected ${dedupeMap.size} unique recipients.`);
