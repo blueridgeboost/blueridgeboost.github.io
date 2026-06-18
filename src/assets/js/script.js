@@ -57,6 +57,16 @@ async function sha256hex(str) {
   return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
 }
 
+// Generate a unique event ID. The SAME id must be sent to both the browser
+// Pixel (fbq eventID) and the server CAPI call so Meta can deduplicate the
+// two copies of the same event. the fallback covers older/insecure-context cases.
+function generateEventId() {
+  try {
+    if (crypto?.randomUUID) return crypto.randomUUID();
+  } catch (e) {}
+  return 'eid-' + Date.now() + '-' + Math.random().toString(16).slice(2);
+}
+
 // Read a cookie value by name; returns null if not found.
 function getCookie(name) {
   // Escape regex-special characters in the cookie name
@@ -73,7 +83,7 @@ function getFbcFromUrl() {
     if (!fbclid) return null;
 
     // Format required by Meta: version.subdomainIndex.creationTime.<fbclid>
-    // Unix in milliseconds 
+    // Unix in milliseconds
     const fbc = 'fb.1.' + Date.now() + '.' + fbclid;
     document.cookie = '_fbc=' + fbc + '; path=/; max-age=' + (90 * 24 * 60 * 60) + '; SameSite=Lax';
     return fbc;
@@ -150,11 +160,14 @@ function ecwid2gtm() {
   // Persistent snapshot of the last known cart (for add/remove deltas)
   var __brb_prevCart = null;
 
-  // Push an event to the dataLayer, enriching every payload with Meta click IDs.
-  // Pass `userPii` (already hashed via hashUserData) to attach user_data.
+  // Push an event to the dataLayer, enriching every payload with Meta click IDs
+  // and a unique event_id for Pixel and CAPI dedupe.
+  // Pass hashed `userPii` to attach user_data. Returns the event_id for reuse
   function pushEvent(name, detail, userPii) {
     const { fbp, fbc } = getMetaClickIds();
-    const metaIds = {};
+    const eventId = generateEventId();
+
+    const metaIds = { event_id: eventId };
     if (fbp) metaIds.fbp = fbp;
     if (fbc) metaIds.fbc = fbc;
 
@@ -165,6 +178,8 @@ function ecwid2gtm() {
     window.dataLayer.push(payload);
     // Legacy duplicate push kept for backward-compat with existing GTM triggers
     window.dataLayer.push({ event: name, ecwid_event_detail: detail || {} });
+
+    return eventId;
   }
 
   function toGa4Item(p) {
@@ -399,7 +414,9 @@ function ecwid2gtm() {
     });
 
     // -----------------------------------------------------------------------
-    // Purchase -> richest PII signal; hash everything available on the order
+    // Purchase has the richest PII signal. Hash everything available.
+    // If a pixel is fired, it must have the same event_id so that
+    // deduplication occurs correctly 
     // -----------------------------------------------------------------------
     const onOrderPlaced = await waitFor(() => Ecwid.OnOrderPlaced && Ecwid.OnOrderPlaced.add);
     if (onOrderPlaced) {
@@ -421,7 +438,10 @@ function ecwid2gtm() {
           lastName: nameParts.slice(1).join(' '),
         });
 
-        pushEvent('brb_purchase', {
+        // Reuse Ecwid's order number as a stable transaction id; event_id stays
+        // possible change: use some sort of transaction id for event_id 
+        // so that page reloads never duplicate 
+        const eventId = pushEvent('brb_purchase', {
           ecommerce: {
             currency: order?.currency || getCurrency(),
             transaction_id: String(order?.orderNumber || order?.id || ''),
@@ -432,6 +452,14 @@ function ecwid2gtm() {
           },
           order_raw: order,
         }, userPii);
+
+        // Uncomment for firing browser side Pixel 
+        // if (window.fbq) {
+        //   fbq('track', 'Purchase', {
+        //     value: Number(order?.total || 0),
+        //     currency: order?.currency || getCurrency(),
+        //   }, { eventID: eventId });
+        // }
 
         clearEcommerce();
       });
