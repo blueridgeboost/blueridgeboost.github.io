@@ -1,245 +1,222 @@
 // Toggle chip active state
-  function toggleChip(inputEl) {
-    const label = inputEl.closest('.chip');
-    if (!label) return;
+function toggleChip(inputEl) {
+  const label = inputEl.closest('.chip');
+  if (!label) return;
+  label.classList.toggle('active', inputEl.checked);
+  filterClasses();
+}
 
-    // Toggle checkbox checked state
-    label.classList.toggle('active', inputEl.checked);
+// Filter classes based on selected filters
+function filterClasses() {
+  const dayFilters = Array.from(document.querySelectorAll('.day-filter:checked')).map(cb => cb.value);
+  const gradeFilters = Array.from(document.querySelectorAll('.grade-filter:checked')).map(cb => cb.value);
+  const subjectFilters = Array.from(document.querySelectorAll('.subject-filter:checked')).map(cb => cb.value);
+  const scheduleFilters = Array.from(document.querySelectorAll('.schedule-filter:checked')).map(cb => cb.value);
+  const durationFilters = Array.from(document.querySelectorAll('.duration-filter:checked')).map(cb => cb.value);
 
-    // Trigger filtering
-    filterClasses();
+  // Split data attribute by '#' and drop empty strings so that
+  // missing/empty tags yield an empty array instead of [""]
+  function parseTags(attr) {
+    return (attr || '').toLowerCase().split('#').filter(function(t) { return t !== ''; });
   }
 
-  // Filter classes based on selected filters
-  function filterClasses() {
-    const dayFilters = Array.from(document.querySelectorAll('.day-filter:checked')).map(cb => cb.value);
-    const gradeFilters = Array.from(document.querySelectorAll('.grade-filter:checked')).map(cb => cb.value);
-    const subjectFilters = Array.from(document.querySelectorAll('.subject-filter:checked')).map(cb => cb.value);
-    const scheduleFilters = Array.from(document.querySelectorAll('.schedule-filter:checked')).map(cb => cb.value);
-    const durationFilters = Array.from(document.querySelectorAll('.duration-filter:checked')).map(cb => cb.value);
+  const classes = document.querySelectorAll('div[id^="class-"]');
+  classes.forEach(classCard => {
+    const dayTags = parseTags(classCard.getAttribute('data-day'));
+    const gradeTags = parseTags(classCard.getAttribute('data-grade'));
+    const subjectTags = parseTags(classCard.getAttribute('data-subject'));
+    const scheduleTags = parseTags(classCard.getAttribute('data-schedule'));
+    const durationTags = parseTags(classCard.getAttribute('data-duration'));
 
-    // Helper: split data attribute by '#' and drop empty strings so that
-    // missing/empty tags yield an empty array instead of [""]
-    function parseTags(attr) {
-      return (attr || '').toLowerCase().split('#').filter(function(t) { return t !== ''; });
-    }
+    // A card matches a filter category when:
+    //   - no filters are checked for that category, OR
+    //   - the card has no tags for that category (treat as uncategorised → always visible), OR
+    //   - at least one checked filter value appears in the card's tags
+    const isDayMatch = !dayFilters.length || !dayTags.length || dayFilters.some(filter => dayTags.includes(filter));
+    const isGradeMatch = !gradeFilters.length || !gradeTags.length || gradeFilters.some(filter => gradeTags.includes(filter));
+    const isSubjectMatch = !subjectFilters.length || !subjectTags.length || subjectFilters.some(filter => subjectTags.includes(filter));
+    const isScheduleMatch = !scheduleFilters.length || !scheduleTags.length || scheduleFilters.some(filter => scheduleTags.includes(filter));
+    const isDurationMatch = !durationFilters.length || !durationTags.length || durationFilters.some(filter => durationTags.includes(filter));
 
-    const classes = document.querySelectorAll('div[id^="class-"]');
-    classes.forEach(classCard => {
-      const dayTags = parseTags(classCard.getAttribute('data-day'));
-      const gradeTags = parseTags(classCard.getAttribute('data-grade'));
-      const subjectTags = parseTags(classCard.getAttribute('data-subject'));
-      const scheduleTags = parseTags(classCard.getAttribute('data-schedule'));
-      const durationTags = parseTags(classCard.getAttribute('data-duration'));
+    classCard.style.display = (isDayMatch && isGradeMatch && isSubjectMatch && isScheduleMatch && isDurationMatch) ? '' : 'none';
+  });
+}
 
-      // A card matches a filter category when:
-      //   - no filters are checked for that category, OR
-      //   - the card has no tags for that category (treat as uncategorised → always visible), OR
-      //   - at least one checked filter value appears in the card's tags
-      const isDayMatch = !dayFilters.length || !dayTags.length || dayFilters.some(filter => dayTags.includes(filter));
-      const isGradeMatch = !gradeFilters.length || !gradeTags.length || gradeFilters.some(filter => gradeTags.includes(filter));
-      const isSubjectMatch = !subjectFilters.length || !subjectTags.length || subjectFilters.some(filter => subjectTags.includes(filter));
-      const isScheduleMatch = !scheduleFilters.length || !scheduleTags.length || scheduleFilters.some(filter => scheduleTags.includes(filter));
-      const isDurationMatch = !durationFilters.length || !durationTags.length || durationFilters.some(filter => durationTags.includes(filter));
-
-      if (isDayMatch && isGradeMatch && isSubjectMatch && isScheduleMatch && isDurationMatch) {
-        classCard.style.display = '';
-      } else {
-        classCard.style.display = 'none';
-      }
-    });
-  }
-  
 document.addEventListener('DOMContentLoaded', filterClasses);
 
-// function ecwid_add_product_to_cart( product_id, product_options ) {
-//     if (typeof Ecwid == 'undefined' ||  !Ecwid.Cart) {
-//         Ecwid.OnAPILoaded.add(function () {
-//             aux_ecwid_add_product_to_cart(product_id, product_options);
-//         });
-//     } else {
-//         aux_ecwid_add_product_to_cart(product_id, product_options);
-//     }
-// }
+// ---------------------------------------------------------------------------
+// META Data Helpers
+// ---------------------------------------------------------------------------
 
-// function aux_ecwid_add_product_to_cart( product_id, product_options ) {
-//     Ecwid.Cart.addProduct({
-//         id: product_id,
-//         quantity: 1,
-//         options: product_options,
-//         // categoryIds: [category_id],
-//         // defaultCategoryId: category_id,
-//         // recurringChargeSettings: undefined,
-//         callback(success, product, cart, error) {
-//           if (success) {
-//             Ecwid.openPage('cart');
-//           } else {
-//             console.error(error); // error message or null
-//           }
-//         },
-//       });
-// }
+// Meta / GTM require PII (personally identifiable info) to be hashed
+// before it reaches the dataLayer. Input is trimmed + lowercased per Meta
+async function sha256hex(str) {
+  if (!str) return undefined;
+  const normalised = str.trim().toLowerCase();
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(normalised));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+}
 
-// function ecwid_add_subscription_to_cart( product_id ) {
-//     if (typeof Ecwid == 'undefined' ||  !Ecwid.Cart) {
-//         Ecwid.OnPageLoaded.add(function () {
-//             aux_ecwid_add_subscription_to_cart(product_id);
-//         });
-//     } else {
-//         aux_ecwid_add_subscription_to_cart(product_id);
-//     }
-// }
+// Read a cookie value by name; returns null if not found.
+function getCookie(name) {
+  // Escape regex-special characters in the cookie name
+  const match = document.cookie.match(new RegExp('(?:^|;\\s*)' + name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '=([^;]*)'));
+  return match ? decodeURIComponent(match[1]) : null;
+}
 
-// function aux_ecwid_add_subscription_to_cart( product_id, product_options ) {
-//     Ecwid.Cart.addProduct({
-//         id: product_id,
-//         quantity: 1,   
-//         options: product_options, 
-//         recurringChargeSettings: { 
-//             recurringInterval: "month",
-//             recurringIntervalCount: 1,
-//             },
-//         callback: function(success, product, cart, error){
-//             if (!success) {
-//                 console.error(error) // error message or null
-//             }
-//         }
-//     });
-//     Ecwid.openPage('cart');
-// }
+// Derive _fbc from the URL's fbclid param, e.g. https://example.com/?fbclid=...
+// Persists it as a cookie so later pages keep the click ID.
+function getFbcFromUrl() {
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const fbclid = params.get('fbclid');
+    if (!fbclid) return null;
 
-function get_radio_selected( formId, name) {
-    const form = document.getElementById(formId);
-    if (!form) {
-        console.error(`Form with ID "${formId}" not found.`);
-        return "None";
+    // Format required by Meta: version.subdomainIndex.creationTime.<fbclid>
+    // Unix in milliseconds 
+    const fbc = 'fb.1.' + Date.now() + '.' + fbclid;
+    document.cookie = '_fbc=' + fbc + '; path=/; max-age=' + (90 * 24 * 60 * 60) + '; SameSite=Lax';
+    return fbc;
+  } catch (e) { return null; }
+}
+
+// Collect Meta click identifiers from cookies / URL. Both may be undefined.
+function getMetaClickIds() {
+  return {
+    fbp: getCookie('_fbp') || undefined,
+    fbc: getCookie('_fbc') || getFbcFromUrl() || undefined,
+  };
+}
+
+// Hash whichever PII fields are supplied; returns { em, ph, fn, ln } subset.
+async function hashUserData({ email, phone, firstName, lastName } = {}) {
+  const [em, ph, fn_, ln] = await Promise.all([
+    sha256hex(email),
+    sha256hex(phone ? phone.replace(/\D/g, '') : undefined),
+    sha256hex(firstName),
+    sha256hex(lastName),
+  ]);
+  const result = {};
+  if (em)  result.em = em;
+  if (ph)  result.ph = ph;
+  if (fn_) result.fn = fn_;
+  if (ln)  result.ln = ln;
+  return result;
+}
+
+// ---------------------------------------------------------------------------
+// FORM OPTION HELPERS (camps / classes)
+// ---------------------------------------------------------------------------
+
+function get_radio_selected(formId, name) {
+  const form = document.getElementById(formId);
+  if (!form) {
+    console.error(`Form with ID "${formId}" not found.`);
+    return "None";
+  }
+  const radioButtons = form.querySelectorAll(`input[type="radio"][name="${name}"]`);
+  let value = "None";
+  for (const radioButton of radioButtons) {
+    if (radioButton.checked) {
+      value = radioButton.value;
+      break;
     }
-    // Use querySelectorAll to find all radio buttons with the given name within the form.
-    const radioButtons = form.querySelectorAll(`input[type="radio"][name="${name}"]`);
-    let value = "None";
-    for (const radioButton of radioButtons) {
-        if (radioButton.checked) {
-            value = radioButton.value;
-            break;
-        }
-    }
-    return value;
+  }
+  return value;
 }
 
 function get_camp_options(id) {
-    camp_type = get_radio_selected( "camp-"+id,"type-"+id);
-    payment_type = get_radio_selected("camp-"+id, "payment-"+id);
-    if (payment_type == "None") {
-        payment_type = "Now";
-    }
-    if (camp_type == "None") {
-        camp_type = "Full-Day";
-    }
-    var ret_value = {
-        "Payment Type": payment_type,
-        "Type": camp_type,
-    };
-    return ret_value;
+  let camp_type = get_radio_selected("camp-" + id, "type-" + id);
+  let payment_type = get_radio_selected("camp-" + id, "payment-" + id);
+  if (payment_type === "None") payment_type = "Now";
+  if (camp_type === "None") camp_type = "Full-Day";
+  return { "Payment Type": payment_type, "Type": camp_type };
 }
 
 function get_class_options(id) {
-    payment_type = get_radio_selected( "class-"+id, "payment-"+id);
-    var ret_value = {
-        "Session": payment_type,
-    };
-    return ret_value;
+  const payment_type = get_radio_selected("class-" + id, "payment-" + id);
+  return { "Session": payment_type };
 }
 
+// ---------------------------------------------------------------------------
+// ECWID -> GTM / dataLayer
+// ---------------------------------------------------------------------------
 
 function ecwid2gtm() {
   if (window.__ecwidToGtm) return;
   window.__ecwidToGtm = true;
   window.dataLayer = window.dataLayer || [];
-  // Persistent snapshot of the last known cart
+
+  // Persistent snapshot of the last known cart (for add/remove deltas)
   var __brb_prevCart = null;
 
-  function pushEvent(name, detail) {
-    var payload = Object.assign({ event: name }, detail || {});
-    window.dataLayer.push(payload);
-    window.dataLayer.push({ event: name, ecwid_event_detail: detail || {} });
-  }
+  // Push an event to the dataLayer, enriching every payload with Meta click IDs.
+  // Pass `userPii` (already hashed via hashUserData) to attach user_data.
+  function pushEvent(name, detail, userPii) {
+    const { fbp, fbc } = getMetaClickIds();
+    const metaIds = {};
+    if (fbp) metaIds.fbp = fbp;
+    if (fbc) metaIds.fbc = fbc;
 
-  function toItem(p) {
-    // Keep original helper used in your other events
-    const id = p?.sku ?? p?.id ?? p?.productId ?? '';
-    const name = p?.name ?? p?.product?.name ?? '';
-    const price = Number(p?.price ?? p?.product?.price ?? 0);
-    const qty = Number(p?.quantity ?? 1);
-    return {
-      item_id: String(id),
-      item_name: String(name),
-      quantity: qty,
-      price: price
-    };
+    const payload = Object.assign({ event: name }, detail || {}, metaIds);
+    if (userPii && Object.keys(userPii).length) {
+      payload.user_data = userPii;
+    }
+    window.dataLayer.push(payload);
+    // Legacy duplicate push kept for backward-compat with existing GTM triggers
+    window.dataLayer.push({ event: name, ecwid_event_detail: detail || {} });
   }
 
   function toGa4Item(p) {
     const id = p?.sku ?? p?.id ?? p?.productId ?? '';
     const name = p?.name ?? p?.product?.name ?? '';
     // Ecwid sometimes keeps price at p.price; sometimes p.product.price
-    const price = Number(
-      p?.price ??
-      p?.product?.price ??
-      0
-    );
+    const price = Number(p?.price ?? p?.product?.price ?? 0);
     const qty = Number(p?.quantity ?? 1);
     const variant = (p?.selectedOptions || []).map(o => o.name + ': ' + o.value).join(', ');
-    return {
-      item_id: String(id),
-      item_name: String(name),
-      quantity: qty,
-      price: price,
-      item_variant: variant
-    };
+    return { item_id: String(id), item_name: String(name), quantity: qty, price, item_variant: variant };
   }
 
   function getCurrency() {
-    try { return Ecwid?.getCurrency?.().currency || 'USD'; } catch(e){ return 'USD'; }
+    try { return Ecwid?.getCurrency?.().currency || 'USD'; } catch (e) { return 'USD'; }
   }
 
-  function clearEcommerce(){ window.dataLayer.push({ ecommerce: null }); }
+  function clearEcommerce() { window.dataLayer.push({ ecommerce: null }); }
 
-  function lineKey(it){
+  function lineKey(it) {
     const id = it?.id ?? it?.productId ?? it?.sku ?? '';
     const sku = it?.sku ?? '';
-    const opts = (it?.selectedOptions || []).map(o => (o.name||'') + '=' + (o.value||'')).join('|');
+    const opts = (it?.selectedOptions || []).map(o => (o.name || '') + '=' + (o.value || '')).join('|');
     return String(id) + '|' + String(sku) + '|' + opts;
   }
 
-
-  // Convert a cart to a map key -> quantity
-  function cartQtyMap(cart){
+  // Convert a cart to a map of lineKey -> quantity
+  function cartQtyMap(cart) {
     var map = {};
     var items = (cart && cart.items) ? cart.items : [];
-    for (var i=0;i<items.length;i++){
+    for (var i = 0; i < items.length; i++) {
       var k = lineKey(items[i]);
-      var q = Number(items[i].quantity || 0);
-      map[k] = (map[k] || 0) + q;
+      map[k] = (map[k] || 0) + Number(items[i].quantity || 0);
     }
     return map;
   }
 
   // Find the first matching line by key in a cart
-  function findByKey(cart, key){
+  function findByKey(cart, key) {
     var items = (cart && cart.items) ? cart.items : [];
-    for (var i=0;i<items.length;i++){
+    for (var i = 0; i < items.length; i++) {
       if (lineKey(items[i]) === key) return items[i];
     }
     return null;
   }
 
-  // Waiter that resolves when a given path exists
+  // Resolve once a given path exists, or null after maxMs
   function waitFor(pathGetter, maxMs = 8000, intervalMs = 100) {
     return new Promise(resolve => {
       const start = Date.now();
-      (function tick(){
+      (function tick() {
         let val;
-        try { val = pathGetter(); } catch(e) {}
+        try { val = pathGetter(); } catch (e) {}
         if (val) return resolve(val);
         if (Date.now() - start >= maxMs) return resolve(null);
         setTimeout(tick, intervalMs);
@@ -247,270 +224,203 @@ function ecwid2gtm() {
     });
   }
 
+  // Fetch the logged-in Ecwid customer and return hashed PII (or {} for guests)
+  async function getCustomerPii() {
+    try {
+      const profile = await new Promise(res => {
+        if (Ecwid?.Customer?.get) Ecwid.Customer.get(res);
+        else res(null);
+      });
+      if (profile?.email) {
+        const name = profile.billingPerson?.name || '';
+        return await hashUserData({
+          email: profile.email,
+          phone: profile.billingPerson?.phone,
+          firstName: name.split(' ')[0],
+          lastName: name.split(' ').slice(1).join(' '),
+        });
+      }
+    } catch (e) {}
+    return {};
+  }
+
   async function bindEcwid() {
     const ecwid = await waitFor(() => window.Ecwid);
     if (!ecwid) return; // Ecwid not present in this context
 
-    // // Optionally listen if available (not all stores expose OnAddToCart)
-    // const addToCart = await waitFor(() => Ecwid.OnAddToCart && Ecwid.OnAddToCart.add);
-    // if (addToCart) {
-    //   Ecwid.OnAddToCart.add(function(product){
-    //     const item = toItem(product);
-    //     pushEvent('brb_add_to_cart', {
-    //       ecommerce: { currency: getCurrency(), value: +(item.price * item.quantity).toFixed(2), items: [item] }
-    //     });
-    //     clearEcommerce();
-    //   });
-    // }
-
-    // Initialize previous cart snapshot once at start
+    // Seed the previous-cart snapshot once at start
     if (Ecwid.Cart?.get) {
       try {
-        Ecwid.Cart.get(function(cart){
+        Ecwid.Cart.get(function(cart) {
           __brb_prevCart = cart ? JSON.parse(JSON.stringify(cart)) : null;
         });
-      } catch(e){}
+      } catch (e) {}
     }
 
+    // -----------------------------------------------------------------------
+    // Cart changed -> add_to_cart / remove_from_cart (with customer PII)
+    // -----------------------------------------------------------------------
     const onCartChanged = await waitFor(() => Ecwid.OnCartChanged && Ecwid.OnCartChanged.add);
-if (onCartChanged) {
-  Ecwid.OnCartChanged.add(function(cart){
-    // Take a local copy of the previous cart at the start
-    var oldCart = __brb_prevCart ? JSON.parse(JSON.stringify(__brb_prevCart)) : null;
+    if (onCartChanged) {
+      Ecwid.OnCartChanged.add(async function(cart) {
+        var oldCart = __brb_prevCart ? JSON.parse(JSON.stringify(__brb_prevCart)) : null;
+        // Overwrite the snapshot immediately with the new cart
+        __brb_prevCart = cart ? JSON.parse(JSON.stringify(cart)) : null;
+        if (!oldCart) return; // nothing to compare yet
 
-    // Overwrite the global snapshot immediately with the new cart
-    __brb_prevCart = cart ? JSON.parse(JSON.stringify(cart)) : null;
+        var prevMap = cartQtyMap(oldCart);
+        var currMap = cartQtyMap(cart);
+        var addedLines = [];
+        var removedLines = [];
 
-    // If there was no previous cart, nothing to compare yet
-    if (!oldCart) {
+        // Additions / increases
+        Object.keys(currMap).forEach(function(k) {
+          var delta = (currMap[k] || 0) - (prevMap[k] || 0);
+          if (delta > 0) {
+            var base = findByKey(cart, k) || findByKey(oldCart, k) || {};
+            addedLines.push(Object.assign({}, base, { quantity: delta }));
+          }
+        });
+
+        // Removals / decreases
+        Object.keys(prevMap).forEach(function(k) {
+          var delta = (prevMap[k] || 0) - (currMap[k] || 0);
+          if (delta > 0) {
+            var base = findByKey(oldCart, k) || findByKey(cart, k) || {};
+            removedLines.push(Object.assign({}, base, { quantity: delta }));
+          }
+        });
+
+        const customerPii = await getCustomerPii();
+
+        if (addedLines.length) {
+          var itemsA = addedLines.map(toGa4Item);
+          var valueA = addedLines.reduce((s, it) => s + Number(it.price ?? it.product?.price ?? 0) * Number(it.quantity || 1), 0);
+          pushEvent('brb_add_to_cart', {
+            ecommerce: {
+              currency: (cart?.cost && cart.cost.currency) || cart?.currency || getCurrency(),
+              value: +valueA.toFixed(2),
+              items: itemsA,
+            },
+          }, customerPii);
+          clearEcommerce();
+        }
+
+        if (removedLines.length) {
+          var itemsR = removedLines.map(toGa4Item);
+          var valueR = removedLines.reduce((s, it) => s + Number(it.price ?? it.product?.price ?? 0) * Number(it.quantity || 1), 0);
+          pushEvent('brb_remove_from_cart', {
+            ecommerce: {
+              currency: (cart?.cost && cart.cost.currency) || cart?.currency || getCurrency(),
+              value: +valueR.toFixed(2),
+              items: itemsR,
+            },
+          }, customerPii);
+          clearEcommerce();
+        }
+      });
+    }
+
+    // -----------------------------------------------------------------------
+    // Page-level events. OnPageLoaded returns a page; the switch handles each
+    // page type. Up to date with Ecwid as of 06/15/26.
+    // -----------------------------------------------------------------------
+    const onPageLoaded = await waitFor(() => Ecwid.OnPageLoaded && Ecwid.OnPageLoaded.add);
+    if (!onPageLoaded) {
+      console.error('Ecwid.OnPageLoaded is not available');
       return;
     }
 
-    // Build qty maps
-    var prevMap = cartQtyMap(oldCart);
-    var currMap = cartQtyMap(cart);
-
-    // Compute adds and removals as deltas
-    var addedLines = [];
-    var removedLines = [];
-
-    // Additions/increases
-    Object.keys(currMap).forEach(function(k){
-      var delta = (currMap[k] || 0) - (prevMap[k] || 0);
-      if (delta > 0) {
-        var base = findByKey(cart, k) || findByKey(oldCart, k) || {};
-        var line = Object.assign({}, base, { quantity: delta });
-        addedLines.push(line);
-      }
-    });
-
-    // Removals/decreases
-    Object.keys(prevMap).forEach(function(k){
-      var delta = (prevMap[k] || 0) - (currMap[k] || 0);
-      if (delta > 0) {
-        var base = findByKey(oldCart, k) || findByKey(cart, k) || {};
-        var line = Object.assign({}, base, { quantity: delta });
-        removedLines.push(line);
-      }
-    });
-
-    // Push add_to_cart if needed
-    if (addedLines.length) {
-      var itemsA = addedLines.map(toGa4Item);
-      var valueA = addedLines.reduce((s, it) => s + Number(it.price ?? it.product?.price ?? 0) * Number(it.quantity || 1), 0);
-      // alert('add_to_cart');
-      pushEvent('brb_add_to_cart', {
-        ecommerce: {
-          currency: (cart?.cost && cart.cost.currency) || cart?.currency || getCurrency(),
-          value: +valueA.toFixed(2),
-          items: itemsA
-        }
-      });
-      clearEcommerce();
-    }
-
-    // Push remove_from_cart if needed
-    if (removedLines.length) {
-      var itemsR = removedLines.map(toGa4Item);
-      var valueR = removedLines.reduce((s, it) => s + Number(it.price ?? it.product?.price ?? 0) * Number(it.quantity || 1), 0);
-      pushEvent('brb_remove_from_cart', {
-        ecommerce: {
-          currency: (cart?.cost && cart.cost.currency) || cart?.currency || getCurrency(),
-          value: +valueR.toFixed(2),
-          items: itemsR
-        }
-      });
-      clearEcommerce();
-    }
-  });
-}
-
-// tracking checkout, category, etc.
-// OnPageLoaded returns a page, the options belong to the switch 
-// statement below, up to date with ecwid as of 06/15/26
-// First make sure DOM is loaded
-document.addEventListener('DOMContentLoaded', async function () {
-  //console.log('DOM fully loaded'); 
-
-  // Wait for Ecwid.OnPageLoaded to be initialized properly
-  const onPageLoaded = await waitFor(() => Ecwid.OnPageLoaded && Ecwid.OnPageLoaded.add);
-  if (onPageLoaded) {
-    // console.log('Ecwid.OnPageLoaded is ready'); 
-    // Add listener to Ecwid.OnPageLoaded
-    Ecwid.OnPageLoaded.add(function (page) {
-      // console.log('Ecwid page loaded:', page);
-      // Add handling cases for every page type
+    Ecwid.OnPageLoaded.add(function(page) {
       switch (page.type) {
-        case 'SIGN_IN': {
-          // console.log('SIGN_IN page detected'); 
+        case 'SIGN_IN':
           pushEvent('brb_sign_in', {});
           break;
-        }
-        case 'ACCOUNT_SETTINGS': {
-          // console.log('ACCOUNT_SETTINGS page detected'); 
+        case 'ACCOUNT_SETTINGS':
           pushEvent('brb_account_settings', {});
           break;
-        }
-        case 'ORDERS': {
-          // console.log('ORDERS page detected'); 
+        case 'ORDERS':
           pushEvent('brb_orders', {});
           break;
-        }
-        case 'ACCOUNT_SUBSCRIPTION': {
-          // console.log('ACCOUNT_SUBSCRIPTION page detected');
+        case 'ACCOUNT_SUBSCRIPTION':
           pushEvent('brb_account_subscription', {});
           break;
-        }
-        case 'ADDRESS_BOOK': {
-          // console.log('ADDRESS_BOOK page detected');
+        case 'ADDRESS_BOOK':
           pushEvent('brb_address_book', {});
           break;
-        }
-        case 'FAVORITES': {
-          // console.log('FAVORITES page detected'); // Debug point: FAVORITES
+        case 'FAVORITES':
           pushEvent('brb_favorites', {});
           break;
-        }
-        case 'RESET_PASSWORD': {
-          // console.log('RESET_PASSWORD page detected'); // Debug point: RESET_PASSWORD
+        case 'RESET_PASSWORD':
           pushEvent('brb_reset_password', {});
           break;
-        }
-        case 'CATEGORY': {
-          // console.log('CATEGORY page detected'); // Debug point: CATEGORY
+        case 'CATEGORY':
           pushEvent('brb_category_loaded', {
             category_id: page.categoryId,
             category_name: page.name,
           });
-          // console.log('CATEGORY event pushed', {
-          //   category_id: page.categoryId,
-          //   category_name: page.name,
-          // });
           break;
-        }
-        case 'PRODUCT': {
-          // console.log('PRODUCT page detected'); // Debug point: PRODUCT
+        case 'PRODUCT':
           pushEvent('brb_view_item', {
             ecommerce: {
-              currency: getCurrency(), // Ensure that getCurrency is defined
-              items: [
-                {
-                  item_id: String(page.productId),
-                  item_name: String(page.name || ''),
-                },
-              ],
+              currency: getCurrency(),
+              items: [{ item_id: String(page.productId), item_name: String(page.name || '') }],
             },
           });
-          // console.log('PRODUCT event pushed', {
-          //   product_id: page.productId,
-          //   product_name: page.name,
-          // });
           clearEcommerce();
           break;
-        }
-        case 'SEARCH': {
-          // console.log('SEARCH page detected'); // Debug point: SEARCH
-          pushEvent('brb_search', {
-            query: page.query || '',
-          });
+        case 'SEARCH':
+          pushEvent('brb_search', { query: page.query || '' });
           break;
-        }
-        case 'CART': {
-          // console.log('CART page detected'); // Debug point: CART
+        case 'CART':
           pushEvent('brb_cart_viewed', {});
           break;
-        }
         case 'CHECKOUT_ADDRESS':
         case 'CHECKOUT_DELIVERY':
-        case 'CHECKOUT_ADDRESS_BOOK': {
-          // console.log('CHECKOUT step detected:', page.type); // Debug point: Checkout step
+        case 'CHECKOUT_ADDRESS_BOOK':
           pushEvent('brb_checkout_step', { step: page.type });
           break;
-        }
-        case 'CHECKOUT_PAYMENT_DETAILS': {
-          // console.log('CHECKOUT_PAYMENT_DETAILS page detected'); // Debug point: PAYMENT DETAILS
+        case 'CHECKOUT_PAYMENT_DETAILS':
           pushEvent('brb_payment_details', {});
           break;
-        }
-        case 'ORDER_CONFIRMATION': {
-          // console.log('ORDER_CONFIRMATION page detected'); // Debug point: ORDER_CONFIRMATION
+        case 'ORDER_CONFIRMATION':
           pushEvent('brb_order_confirmation', {});
           break;
-        }
-        case 'ORDER_FAILURE': {
-          // console.log('ORDER_FAILURE page detected'); // Debug point: ORDER_FAILURE
+        case 'ORDER_FAILURE':
           pushEvent('brb_order_failure', {});
           break;
-        }
-        case 'DOWNLOADS_ERROR': {
-          // console.log('DOWNLOADS_ERROR page detected'); // Debug point: DOWNLOADS_ERROR
+        case 'DOWNLOADS_ERROR':
           pushEvent('brb_downloads_error', {});
           break;
-        }
-        default: {
-          // console.warn('Unhandled page type:', page.type); // Debug point: Unhandled case
-        }
+        default:
+          // Unhandled page type
+          break;
       }
     });
-  } else {
-    console.error('Ecwid.OnPageLoaded is not available'); // Debug point 4: OnPageLoaded unavailable
-  }
-});
 
-    /*
-    ======= DEPRECATED: Use page return types to fire events as Ecwid.OnProductViewed etc. not supported or not reliable =======
-    const onProductViewed = await waitFor(() => Ecwid.OnProductViewed && Ecwid.OnProductViewed.add);
-    if (onProductViewed) {
-      Ecwid.OnProductViewed.add(function(product){
-        pushEvent('brb_view_item', { ecommerce: { currency: getCurrency(), items: [toItem(product)] } });
-        clearEcommerce();
-      });
-    }
-
-    const onCategoryLoaded = await waitFor(() => Ecwid.OnCategoryLoaded && Ecwid.OnCategoryLoaded.add);
-    if (onCategoryLoaded) {
-      Ecwid.OnCategoryLoaded.add(function(category){
-        pushEvent('brb_category_loaded', { category });
-      });
-    }
-
-    const onCheckoutStep = await waitFor(() => Ecwid.OnCheckoutStepChanged && Ecwid.OnCheckoutStepChanged.add);
-    if (onCheckoutStep) {
-      Ecwid.OnCheckoutStepChanged.add(function(step){
-        pushEvent('brb_checkout_step', { step });
-      });
-    }
-    */
-
+    // -----------------------------------------------------------------------
+    // Purchase -> richest PII signal; hash everything available on the order
+    // -----------------------------------------------------------------------
     const onOrderPlaced = await waitFor(() => Ecwid.OnOrderPlaced && Ecwid.OnOrderPlaced.add);
     if (onOrderPlaced) {
-      Ecwid.OnOrderPlaced.add(function(order){
+      Ecwid.OnOrderPlaced.add(async function(order) {
         const items = (order?.items || []).map(it => ({
           item_id: String(it.sku || it.productId || ''),
           item_name: String(it.name || ''),
           quantity: Number(it.quantity || 1),
-          price: Number(it.price || 0)
+          price: Number(it.price || 0),
         }));
+
+        // Ecwid populates billingPerson on the order object
+        const billing = order?.billingPerson || {};
+        const nameParts = (billing.name || '').trim().split(/\s+/);
+        const userPii = await hashUserData({
+          email: order?.email || billing.email,
+          phone: billing.phone,
+          firstName: nameParts[0],
+          lastName: nameParts.slice(1).join(' '),
+        });
+
         pushEvent('brb_purchase', {
           ecommerce: {
             currency: order?.currency || getCurrency(),
@@ -518,20 +428,21 @@ document.addEventListener('DOMContentLoaded', async function () {
             value: Number(order?.total || 0),
             shipping: Number(order?.shippingCost || 0),
             tax: Number(order?.tax || 0),
-            items
+            items,
           },
-          order_raw: order
-        });
+          order_raw: order,
+        }, userPii);
+
         clearEcommerce();
       });
     }
   }
 
-  // Try various readiness signals, plus async wait
+  // Bind on every available readiness signal to avoid race conditions
   document.addEventListener('DOMContentLoaded', bindEcwid);
   document.addEventListener('ecwid-ready', bindEcwid);
   if (window.Ecwid?.OnAPILoaded?.add) {
-    try { Ecwid.OnAPILoaded.add(bindEcwid); } catch(e){}
+    try { Ecwid.OnAPILoaded.add(bindEcwid); } catch (e) {}
   }
   // Also kick off immediately
   bindEcwid();
