@@ -163,9 +163,9 @@ function ecwid2gtm() {
   // Push an event to the dataLayer, enriching every payload with Meta click IDs
   // and a unique event_id for Pixel and CAPI dedupe.
   // Pass hashed `userPii` to attach user_data. Returns the event_id for reuse
-  function pushEvent(name, detail, userPii) {
+  function pushEvent(name, detail, userPii, fixedEventId) {
     const { fbp, fbc } = getMetaClickIds();
-    const eventId = generateEventId();
+    const eventId = fixedEventId || generateEventId();
 
     const metaIds = { event_id: eventId };
     if (fbp) metaIds.fbp = fbp;
@@ -177,7 +177,7 @@ function ecwid2gtm() {
     }
     window.dataLayer.push(payload);
     // Legacy duplicate push kept for backward-compat with existing GTM triggers
-    window.dataLayer.push({ event: name, ecwid_event_detail: detail || {} });
+    // window.dataLayer.push({ event: name, ecwid_event_detail: detail || {} });
 
     return eventId;
   }
@@ -438,20 +438,20 @@ function ecwid2gtm() {
           lastName: nameParts.slice(1).join(' '),
         });
 
-        // Reuse Ecwid's order number as a stable transaction id; event_id stays
-        // possible change: use some sort of transaction id for event_id 
-        // so that page reloads never duplicate 
+        // Use transaction ID as event_id unless its missing, then 
+        // default to generating a unique one
+        const txnId = String(order?.orderNumber || order?.id || '');
         const eventId = pushEvent('brb_purchase', {
           ecommerce: {
             currency: order?.currency || getCurrency(),
-            transaction_id: String(order?.orderNumber || order?.id || ''),
+            transaction_id: txnId,
             value: Number(order?.total || 0),
             shipping: Number(order?.shippingCost || 0),
             tax: Number(order?.tax || 0),
             items,
           },
           order_raw: order,
-        }, userPii);
+        }, userPii, txnId);
 
         // Uncomment for firing browser side Pixel 
         // if (window.fbq) {
