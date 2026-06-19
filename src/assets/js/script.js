@@ -421,50 +421,55 @@ function ecwid2gtm() {
     const onOrderPlaced = await waitFor(() => Ecwid.OnOrderPlaced && Ecwid.OnOrderPlaced.add);
     if (onOrderPlaced) {
       Ecwid.OnOrderPlaced.add(async function(order) {
-        const items = (order?.items || []).map(it => ({
-          item_id: String(it.sku || it.productId || ''),
-          item_name: String(it.name || ''),
-          quantity: Number(it.quantity || 1),
-          price: Number(it.price || 0),
-        }));
+      // TEMP: log the real shape of YOUR order object, then prune the paths below
+      // to only the ones that actually exist. Remove this line once confirmed.
+      console.log('ORDER SHAPE', JSON.stringify(order, null, 2));
 
-        // Ecwid populates billingPerson on the order object
-        const billing = order?.billingPerson || {};
-        const nameParts = (billing.name || '').trim().split(/\s+/);
-        const userPii = await hashUserData({
-          email: order?.email || billing.email,
-          phone: billing.phone,
-          firstName: nameParts[0],
-          lastName: nameParts.slice(1).join(' '),
-        });
+      const items = (order?.items || []).map(it => ({
+        item_id: String(it.sku || it.productId || it.id || ''),
+        item_name: String(it.name || ''),
+        quantity: Number(it.quantity || 1),
+        price: Number(it.price || 0),
+      }));
 
-        // Use transaction ID as event_id unless its missing, then 
-        // default to generating a unique one
-        const txnId = String(order?.orderNumber || order?.id || '');
-        const eventId = pushEvent('brb_purchase', {
-          ecommerce: {
-            currency: order?.currency || getCurrency(),
-            transaction_id: txnId,
-            value: Number(order?.total || 0),
-            shipping: Number(order?.shippingCost || 0),
-            tax: Number(order?.tax || 0),
-            items,
-          },
-          order_raw: order,
-        }, userPii, txnId);
+      // Email confirmed at order.customer.email; keep fallbacks for safety.
+      const email = order?.customer?.email || order?.email || order?.billingPerson?.email;
 
-        // Uncomment for firing browser side Pixel 
-        // if (window.fbq) {
-        //   fbq('track', 'Purchase', {
-        //     value: Number(order?.total || 0),
-        //     currency: order?.currency || getCurrency(),
-        //   }, { eventID: eventId });
-        // }
+      const billing = order?.billingPerson || {};
+      const fullName = order?.customer?.name || billing.name || '';
+      const nameParts = fullName.trim().split(/\s+/);
+      const phone = order?.customer?.phone || billing.phone;
 
-        clearEcommerce();
+      const userPii = await hashUserData({
+        email: email,
+        phone: phone,
+        firstName: nameParts[0],
+        lastName: nameParts.slice(1).join(' '),
       });
-    }
+
+      // CONFIRM these against the logged shape — your test showed them undefined,
+      // so orderNumber/total are NOT where the old code looked.
+      const txnId = String(
+        order?.orderNumber || order?.id || order?.vendorOrderNumber || ''
+      );
+      const value = Number(order?.total ?? order?.totalWithoutTax ?? order?.subtotal ?? 0);
+
+      const eventId = pushEvent('brb_purchase', {
+        ecommerce: {
+          currency: order?.currency || getCurrency(),
+          transaction_id: txnId,
+          value: value,
+          shipping: Number(order?.shippingCost ?? 0),
+          tax: Number(order?.tax ?? 0),
+          items,
+        },
+        order_raw: order,
+      }, userPii, txnId || undefined);
+
+      clearEcommerce();
+    });
   }
+}
 
   // Bind on every available readiness signal to avoid race conditions
   document.addEventListener('DOMContentLoaded', bindEcwid);
