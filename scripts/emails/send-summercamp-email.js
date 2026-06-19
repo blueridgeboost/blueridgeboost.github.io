@@ -1,3 +1,12 @@
+// How to Use
+// For each order that is in a camp in the next week, (startade > today for summer camps)
+// this script will send an email reminding them of what to bring + time (see html email)
+// the extra_recipients constant is to send to employees to catch bugs and whatnot 
+// ---------------------------------------------------------------------------
+// SAFETY: defaults to a dry run so you can verify recipients before sending.
+// Run for real with:  DRY_RUN=false node send-next-week-confirmations.js
+// ---------------------------------------------------------------------------
+
 import path from 'path';
 import dotenv from 'dotenv';
 import mailchimp from '@mailchimp/mailchimp_transactional';
@@ -13,11 +22,12 @@ const envPath = path.join(process.cwd(), '..', '.env');
 dotenv.config({ path: envPath });
 
 const client = new mailchimp(process.env.MAILCHIMP_KEY);
+const extra_recipients = [
+    "nathaneal@blueridgeboost.com",
+    "nora@blueridgeboost.com",
+    "seth@blueridgeboost.com"
+];
 
-// ---------------------------------------------------------------------------
-// SAFETY: defaults to a dry run so you can verify recipients before sending.
-// Run for real with:  DRY_RUN=false node send-next-week-confirmations.js
-// ---------------------------------------------------------------------------
 const DRY_RUN = process.env.DRY_RUN !== 'false';
 const SEND_DELAY_MS = 0; // editable for API rate limits
 
@@ -234,6 +244,18 @@ async function main() {
 
     console.log(`Found ${registrations.length} registration(s) to confirm.\n`);
 
+    for (const email of extra_recipients) {
+        registrations.push({
+            parentEmail: email,
+            childName: 'placeholder-for-childname',
+            campName: 'placeholder-for-campname',
+            campDescription: 'placeholder-for-camp-Description',
+            sessionLabel: 'placeholder-for-session',
+            startDate: week.startDate,
+            weekLabel: 'placeholder-for-week-label',
+        });
+    }
+
     let sent = 0, failed = 0;
     for (const reg of registrations) {
         try {
@@ -246,7 +268,7 @@ async function main() {
         }
     }
 
-    console.log(`\nDone. ${DRY_RUN ? 'Would send' : 'Sent'}: ${sent}, Failed: ${failed}`);
+    console.log(`\nDone. ${DRY_RUN ? 'Would send' : 'Sent'}: ${sent} (including extra_recipients), Failed: ${failed}`);
 }
 
 main().catch(console.error);

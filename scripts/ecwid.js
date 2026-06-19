@@ -797,7 +797,7 @@ export async function getProductFilters(params = {}) {
 
 export async function listDiscountIds() {
     const url = `https://app.ecwid.com/api/v3/${process.env.ECWID_STORE_ID}/discount_coupons`;
-    const response = await fetch(url, {
+    const options = {
         method: 'GET',
         headers: {
             accept: 'application/json',
@@ -805,9 +805,27 @@ export async function listDiscountIds() {
             Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`,
         },
         body: null,
-    });
+    };
 
-    return await response.json();
+    // paginate to retrieve >100 discounts 
+    const allItems = [];
+    let offset = 0;
+    const limit = 100;
+
+    while (true) {
+        const params = new URLSearchParams({ limit: '100', offset: String(offset) });
+        const response = await fetch(`${url}?${params.toString()}`, options);
+        if (!response.ok) {
+            throw new Error(`Failed to fetch discounts: ${response.statusText}`);
+        }
+        const responseJson = await response.json();
+        allItems.push(...responseJson.items);
+
+        if (allItems.length >= responseJson.total) break;
+        offset += limit;
+    }
+
+    return { items: allItems };
 }
 
 export async function getDiscount(discountId) {

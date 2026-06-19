@@ -119,11 +119,15 @@ async function collectBootcampRows(camp) {
         for (const item of order.items || []) {
             if (item.productId !== camp.id) continue;
 
-            const selected = getOptionValue(item, BOOTCAMP_OPTION);
+            const selected = getOptionValue(item, BOOTCAMP_OPTION)
+                || getOptionValue(item, 'Type')
+                || getOptionValue(item, 'Time')
+                || "";
 
             const isWeek1FullDay = selected.startsWith('Full-Day Week1');
             const isWeek2FullDay = selected.startsWith('Full-Day Week2');
-            const isHalfDay = selected.startsWith('AM ') || selected.startsWith('PM ');
+            const isHalfDay = selected.includes('AM') || selected.includes('PM')
+                || selected.toLowerCase().includes('half-day');
 
             if (isWeek2FullDay) continue;              // shown in the next week's sheet
             if (!isWeek1FullDay && !isHalfDay) continue; // unrecognised option — skip
