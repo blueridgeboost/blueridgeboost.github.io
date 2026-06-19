@@ -421,9 +421,6 @@ function ecwid2gtm() {
     const onOrderPlaced = await waitFor(() => Ecwid.OnOrderPlaced && Ecwid.OnOrderPlaced.add);
     if (onOrderPlaced) {
       Ecwid.OnOrderPlaced.add(async function(order) {
-      // TEMP: log the real shape of YOUR order object, then prune the paths below
-      // to only the ones that actually exist. Remove this line once confirmed.
-      console.log('ORDER SHAPE', JSON.stringify(order, null, 2));
 
       const items = (order?.items || []).map(it => ({
         item_id: String(it.sku || it.productId || it.id || ''),
@@ -447,8 +444,7 @@ function ecwid2gtm() {
         lastName: nameParts.slice(1).join(' '),
       });
 
-      // CONFIRM these against the logged shape — your test showed them undefined,
-      // so orderNumber/total are NOT where the old code looked.
+      // orderNumber is correct, but keeping fallbacks in case of change 
       const txnId = String(
         order?.orderNumber || order?.id || order?.vendorOrderNumber || ''
       );
