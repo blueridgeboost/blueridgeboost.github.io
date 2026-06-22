@@ -423,10 +423,10 @@ function ecwid2gtm() {
       Ecwid.OnOrderPlaced.add(async function(order) {
 
       const items = (order?.items || []).map(it => ({
-        item_id: String(it.sku || it.productId || it.id || ''),
-        item_name: String(it.name || ''),
+        item_id: String(it.product.sku || it.product.id || ''),
+        item_name: String(it.product.name || ''),
         quantity: Number(it.quantity || 1),
-        price: Number(it.price || 0),
+        price: Number(it.product.price || 0),
       }));
 
       // Email confirmed at order.customer.email; keep fallbacks for safety.
