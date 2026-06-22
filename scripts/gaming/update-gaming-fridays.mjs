@@ -4,8 +4,7 @@ import { secondFridayDescription } from './second-friday.js';
 import { fortniteDescription } from './fortnite.js';
 import { robloxDescription } from './roblox.js';
 import { fifthFridayDescription } from './fifth-friday.js';
-import { getNext5FridaysWithOrdinal } from '../date-helpers.js'
-import { isPastDate, formatIsoDateToLong } from '../date-helpers.js';
+import { getNext5FridaysWithOrdinal, isPastDate, formatIsoDateToLong } from '../date-helpers.js'
 import path from 'path';
 import { audience, gamingURL, location, provider } from '../classes/rich-results-helpers.js';
 import { writePartialFile } from '../fs-helpers.js';
@@ -16,7 +15,7 @@ dotenv.config({ path: envPath });
 
 console.log("Gaming Fridays script running...", process.env.ECWID_REST_SECRET);
 
-const skipDates = ["2025-10-31", "2025-11-28", "2025-12-26", "2026-01-02", "2026-06-19"];
+const skipDates = ["2025-10-31", "2025-11-28", "2025-12-26", "2026-01-02", "2026-06-19", "2026-07-03"];
 
 function getAttributeValue(item, name) {
     const attribute = item.attributes?.find(attr => attr.name === name);
@@ -122,9 +121,9 @@ function imageURL(friday) {
 	} else if (friday.ordinalInMonth == 3) {
 		return "https://blueridgeboost.github.io/gaming-friday-images/Fortnite.png"
 	} else if (friday.ordinalInMonth == 4) {
-		return "https://blueridgeboost.github.io/gaming-friday-images/Choose.png"
-	} else {
 		return "https://blueridgeboost.github.io/gaming-friday-images/roblox.png"
+	} else {
+		return "https://blueridgeboost.github.io/gaming-friday-images/Choose.png"
 	}
 }
 
@@ -183,7 +182,7 @@ export async function updateGamingFridays() {
 			await updateProductMedia( productId, imageURL(friday) )
 		} 
 	}
-	productSort()
+	await productSort()
 }
 
 function offer() {
@@ -192,7 +191,7 @@ function offer() {
         "priceCurrency": "USD",
         "highPrice": 65.00,
         "lowPrice": 45.00,
-        "validFom": "2025-09-12",
+        "validFrom": "2025-09-12",
         "availability": "https://schema.org/InStock",
         "offers": [
             {
@@ -252,7 +251,7 @@ export async function generateGamingRichResults() {
 				"name": camp.name,
 				"eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
 				"eventStatus": "https://schema.org/EventScheduled",
-				"startDate": `${getAttributeValue(camp, 'start_date')}T017:30:00-04:00`,
+				"startDate": `${getAttributeValue(camp, 'start_date')}T17:30:00-04:00`,
 				"endDate": `${getAttributeValue(camp, 'start_date')}T20:30:00-04:00`,
 				"location": location(),
 				"organizer": provider(),
