@@ -376,13 +376,27 @@ function ecwid2gtm() {
           });
           break;
         case 'PRODUCT':
-          pushEvent('brb_view_item', {
-            ecommerce: {
-              currency: getCurrency(),
-              items: [{ item_id: String(page.productId), item_name: String(page.name || '') }],
-            },
-          });
-          clearEcommerce();
+          // for tiktok params on ViewContent
+          const storeId = Ecwid.getOwnerId();
+          const productId = page.productId;
+          const public_token = 'public_uQruPNdayZXaCDtf2unGiKfHDYqxTGME'
+          // retrieve product from ecwid 
+          fetch(`https://app.ecwid.com/api/v3/${storeId}/products/${productId}?token=${public_token}`)
+            .then(r => r.json())
+            .then(product => {
+              pushEvent('brb_view_item', {
+                ecommerce: {
+                  currency: getCurrency(),
+                  value: Number(product.price ?? 0),
+                  items: [{
+                    item_id: String(product.sku || product.id || ''),
+                    item_name: String(product.name || ''),
+                    price: Number(product.price ?? 0),
+                  }],
+                },
+              });
+              clearEcommerce();
+            });
           break;
         case 'SEARCH':
           pushEvent('brb_search', { query: page.query || '' });
