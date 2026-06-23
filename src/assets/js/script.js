@@ -199,8 +199,8 @@ function ecwid2gtm() {
   function clearEcommerce() { window.dataLayer.push({ ecommerce: null }); }
 
   function lineKey(it) {
-    const id = it?.id ?? it?.productId ?? it?.sku ?? '';
-    const sku = it?.sku ?? '';
+    const id = it?.id ?? it?.productId ?? it?.sku ?? it?.product.sku ?? it?.product.Id ?? '';
+    const sku = it?.sku ?? it?.product.sku ?? '';
     const opts = (it?.selectedOptions || []).map(o => (o.name || '') + '=' + (o.value || '')).join('|');
     return String(id) + '|' + String(sku) + '|' + opts;
   }
