@@ -1,0 +1,33 @@
+[TPI 4.0 Map]
+Vendor,Vendor
+Transaction Date,Transaction Date
+RefNumber,RefNumber
+Bill Due,Bill Due
+Terms,Terms
+Memo,Memo
+Address Line1,Address Line1
+Address Line2,Address Line2
+Address Line3,Address Line3
+Address Line4,Address Line4
+Address City,Address City
+Address State,Address State
+Address PostalCode,Address PostalCode
+Address Country,Address Country
+Vendor Acct No,Vendor Acct No
+Expenses Account,Expenses Account
+Expenses Amount,Expenses Amount
+Expenses Memo,Expenses Memo
+Expenses Class,Expenses Class
+Expenses Customer,Expenses Customer
+Expenses Billable,Expenses Billable
+Items Item,Items Item
+Items Qty,Items Qty
+Items Description,Items Description
+Items Cost,Items Cost
+Items Class,Items Class
+Items Customer,Items Customer
+Items Billable,Items Billable
+Unit of Measure,Unit of Measure
+AP Account,AP Account
+Currency,Currency
+Exchange Rate,Exchange Rate

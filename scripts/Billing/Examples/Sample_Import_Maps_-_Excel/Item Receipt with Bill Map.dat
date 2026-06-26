@@ -1,0 +1,15 @@
+[TPI 4.0 Map]
+Vendor,Vendor
+Transaction Date,Transaction Date
+RefNumber,RefNumber
+Memo,Memo
+Vendor Acct No,Vendor Acct No
+Receive Against PO #,Receive Against PO .
+Items Item,Items Item
+Items Qty,Items Qty
+Items Description,Items Description
+Items Cost,Items Cost
+Items Class,Items Class
+Items Customer,Items Customer
+Items Billable,Items Billable
+AP Account,AP Account

@@ -1,0 +1,49 @@
+[TPI 4.0 Map]
+Vendor,Vendor
+Transaction Date,Transaction Date
+PO Number,PO Number
+Class,Class
+ShipTo Entity,ShipTo Entity
+BillTo Line1,BillTo Line1
+BillTo Line2,BillTo Line2
+BillTo Line3,BillTo Line3
+BillTo Line4,BillTo Line4
+BillTo City,BillTo City
+BillTo State,BillTo State
+BillTo PostalCode,BillTo PostalCode
+BillTo Country,BillTo Country
+ShipTo Line1,ShipTo Line1
+ShipTo Line2,ShipTo Line2
+ShipTo Line3,ShipTo Line3
+ShipTo Line4,ShipTo Line4
+ShipTo City,ShipTo City
+ShipTo State,ShipTo State
+ShipTo PostalCode,ShipTo PostalCode
+ShipTo Country,ShipTo Country
+Terms,Terms
+Due Date,Due Date
+Expected,Expected
+Ship Method,Ship Method
+FOB,FOB
+Vendor Message,Vendor Message
+Memo,Memo
+Vendor Acct No,Vendor Acct No
+Item,Item
+Quantity,Quantity
+Description,Description
+Rate,Rate
+Customer,Customer
+Service Date,Service Date
+To Be Printed,To Be Printed
+Template Name,Template Name
+Vendor Email,Vendor Email
+To Be E-Mailed,To Be E-Mailed
+Items Class,Items Class
+Other1_Header,Other1_Header
+Other2_Header,Other2_Header
+Other1,Other1
+Other2,Other2
+Unit of Measure,Unit of Measure
+Manuf Part Number,Manuf Part Number
+Currency,Currency
+Exchange Rate,Exchange Rate

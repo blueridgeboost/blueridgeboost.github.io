@@ -1,0 +1,12 @@
+[TPI 4.0 Map]
+Customer,Customer
+Transaction Date,Transaction Date
+RefNumber,RefNumber
+Item,Item
+Description,Description
+Quantity,Quantity
+Price,Price
+Bill Date,Bill Date
+Due Date,Due Date
+Class,Class
+AR Account,AR Account
