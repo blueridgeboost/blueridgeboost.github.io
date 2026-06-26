@@ -123,4 +123,5 @@ async function main() {
     await writeDataToCsv(data, 'summary-camps');
 }
 
+
 main();
