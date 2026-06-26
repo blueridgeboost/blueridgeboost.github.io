@@ -199,8 +199,8 @@ function ecwid2gtm() {
   function clearEcommerce() { window.dataLayer.push({ ecommerce: null }); }
 
   function lineKey(it) {
-    const id = it?.id ?? it?.productId ?? it?.sku ?? '';
-    const sku = it?.sku ?? '';
+    const id = it?.id ?? it?.productId ?? it?.sku ?? it?.product.sku ?? it?.product.Id ?? '';
+    const sku = it?.sku ?? it?.product.sku ?? '';
     const opts = (it?.selectedOptions || []).map(o => (o.name || '') + '=' + (o.value || '')).join('|');
     return String(id) + '|' + String(sku) + '|' + opts;
   }
@@ -376,13 +376,27 @@ function ecwid2gtm() {
           });
           break;
         case 'PRODUCT':
-          pushEvent('brb_view_item', {
-            ecommerce: {
-              currency: getCurrency(),
-              items: [{ item_id: String(page.productId), item_name: String(page.name || '') }],
-            },
-          });
-          clearEcommerce();
+          // for tiktok params on ViewContent
+          const storeId = Ecwid.getOwnerId();
+          const productId = page.productId;
+          const public_token = 'public_uQruPNdayZXaCDtf2unGiKfHDYqxTGME'
+          // retrieve product from ecwid 
+          fetch(`https://app.ecwid.com/api/v3/${storeId}/products/${productId}?token=${public_token}`)
+            .then(r => r.json())
+            .then(product => {
+              pushEvent('brb_view_item', {
+                ecommerce: {
+                  currency: getCurrency(),
+                  value: Number(product.price ?? 0),
+                  items: [{
+                    item_id: String(product.sku || product.id || ''),
+                    item_name: String(product.name || ''),
+                    price: Number(product.price ?? 0),
+                  }],
+                },
+              });
+              clearEcommerce();
+            });
           break;
         case 'SEARCH':
           pushEvent('brb_search', { query: page.query || '' });
@@ -423,10 +437,10 @@ function ecwid2gtm() {
       Ecwid.OnOrderPlaced.add(async function(order) {
 
       const items = (order?.items || []).map(it => ({
-        item_id: String(it.sku || it.productId || it.id || ''),
-        item_name: String(it.name || ''),
+        item_id: String(it.product.sku || it.product.id || ''),
+        item_name: String(it.product.name || ''),
         quantity: Number(it.quantity || 1),
-        price: Number(it.price || 0),
+        price: Number(it.product.price || 0),
       }));
 
       // Email confirmed at order.customer.email; keep fallbacks for safety.

@@ -5,6 +5,7 @@ import {
     getOrdersByProductId,
     getAttributeValue,
 } from '../ecwid.js';
+import { SUMMER_WEEKS } from './roster-helpers.mjs';
 import path from 'path';
 import os from 'os';
 import dotenv from 'dotenv';
@@ -13,20 +14,6 @@ import ExcelJS from 'exceljs';
 const envPath = path.join(process.cwd(), '..', '.env');
 console.log(`Loaded environment variables from: ${envPath}`);
 await dotenv.config({ path: envPath });
-
-// hard-coded weeks
-const SUMMER_WEEKS = [
-    { startDate: '2026-06-01', label: 'Week June 1-5' },
-    { startDate: '2026-06-08', label: 'Week June 8-12' },
-    { startDate: '2026-06-15', label: 'Week June 15-19' },
-    { startDate: '2026-06-22', label: 'Week June 22-26' },
-    { startDate: '2026-06-29', label: 'Week June 29 - July 3' },
-    { startDate: '2026-07-06', label: 'Week July 6-10' },
-    { startDate: '2026-07-13', label: 'Week July 13-17' },
-    { startDate: '2026-07-20', label: 'Week July 20-24' },
-    { startDate: '2026-07-27', label: 'Week July 27-31' },
-    { startDate: '2026-08-03', label: 'Week August 3-7' },
-];
 
 const SESSION_TIME = 'Session Time';
 const FULL_DAY = 'Full-Day';

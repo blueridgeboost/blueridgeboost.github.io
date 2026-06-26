@@ -7,6 +7,7 @@ import {
     getOrdersByProductId,
     getAttributeValue,
 } from '../ecwid.js';
+import { SUMMER_WEEKS, todayISO, getCurrentWeek} from './roster-helpers.mjs';
 import path from 'path';
 import os from 'os';
 import dotenv from 'dotenv';
@@ -15,19 +16,6 @@ import ExcelJS from 'exceljs';
 const envPath = path.join(process.cwd(), '..', '.env');
 console.log(`Loaded environment variables from: ${envPath}`);
 await dotenv.config({ path: envPath });
-
-const SUMMER_WEEKS = [
-    { startDate: '2026-06-01', label: 'Week June 1-5' },
-    { startDate: '2026-06-08', label: 'Week June 8-12' },
-    { startDate: '2026-06-15', label: 'Week June 15-19' },
-    { startDate: '2026-06-22', label: 'Week June 22-26' },
-    { startDate: '2026-06-29', label: 'Week June 29 - July 3' },
-    { startDate: '2026-07-06', label: 'Week July 6-10' },
-    { startDate: '2026-07-13', label: 'Week July 13-17' },
-    { startDate: '2026-07-20', label: 'Week July 20-24' },
-    { startDate: '2026-07-27', label: 'Week July 27-31' },
-    { startDate: '2026-08-03', label: 'Week August 3-7' },
-];
 
 const SESSION_TIME = 'Session Time';
 const BOOTCAMP_OPTION = 'Session';
@@ -45,25 +33,6 @@ const COLUMNS = [
     { header: 'Sign In',                            key: 'signIn',      width: 18 },
     { header: 'Sign Out',                           key: 'signOut',     width: 18 },
 ];
-
-function todayISO() {
-    const d = new Date();
-    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-}
-
-// prints the current week 
-function getCurrentWeek(referenceDate = todayISO()) {
-    const today = referenceDate; // ISO 'YYYY-MM-DD' strings compare lexicographically
-
-    for (const w of SUMMER_WEEKS) {
-        const friday = new Date(w.startDate + 'T00:00:00Z');
-        friday.setUTCDate(friday.getUTCDate() + 4);
-        const fridayISO = friday.toISOString().slice(0, 10);
-        if (today >= w.startDate && today <= fridayISO) return w;
-    }
-
-    return SUMMER_WEEKS.find(w => w.startDate >= today) || null;
-}
 
 function getOptionValue(item, optionName) {
     return item.selectedOptions?.find(o => o?.name === optionName)?.value || '';
