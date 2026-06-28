@@ -1,5 +1,5 @@
 import { createRequire } from 'module';
-import { writeDataToCsv } from './fs-helpers.js';
+import { writeDataToCsv } from '../fs-helpers.js';
 // import { parse } from 'path';
 
 const require = createRequire(import.meta.url);

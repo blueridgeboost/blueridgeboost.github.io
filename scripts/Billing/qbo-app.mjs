@@ -5,7 +5,7 @@ import axios from 'axios';
 import qs from 'qs';
 import cookieSession from 'cookie-session';
 import crypto from 'crypto';
-import {deleteUnusedItems, deleteStripeReceiptsInRange, qboQuery} from './qbo-commons.mjs'
+import { deleteUnusedItems, deleteAllInAccount, qboQuery } from './qbo-commons.mjs';
 
 dotenv.config({ path: path.join('..', '.env') });
 
@@ -18,145 +18,66 @@ app.use(cookieSession({
     secure: true }));
 app.set('trust proxy', 1);
 
-app.get('/deleteUnusedItems', async (req, res, next) => {
-  const { realmId } = req.session || {};
-  let { tokens } = req.session || {};
-  if (!tokens) return res.redirect('/auth/connect');
-  if (!realmId) return res.status(400).send('Missing realmId in session. Reconnect.');
-  if (needsRefresh(tokens)) {
-      try {
-        const newTokens = await refreshTokens(tokens.refresh_token);
-        req.session.tokens = newTokens; // persist
-        tokens = newTokens;
-      } catch (err) {
-        // If refresh fails, force reconnect
-        if (err.response?.status === 400) {
-          return res.status(401).send('QBO session expired. Please reconnect at /auth/connect');
-        }
-        throw err;
-      }
-    }
-
-  try {
-    const items = await deleteUnusedItems({ tokens, realmId, apiBase: process.env.API_BASE });
-    res.json(items);
-  } catch (e) {
-    next(e);
-  }
-});
-
-app.get('/', (req, res) => {
-  res.send(`
-    <h1>BRB </h1>
-    <p><a href="/auth/connect">Connect to QuickBooks</a></p>
-    <p><a href="/deleteUnusedItems">Delete Unused Products/Services</a></p>
-    <p><a href="/logout">Logout</a></p>
-  `);
-});
+// ─── Auth ─────────────────────────────────────────────────────────────────────
 
 app.get('/auth/connect', (req, res) => {
   const state = b64url(crypto.randomBytes(16));
   req.session.state = state;
-
   const scope = encodeURIComponent('com.intuit.quickbooks.accounting');
-
   const authUrl =
-    `${process.env.AUTH_URL}?client_id=${encodeURIComponent(process.env.QBO_CLIENT_ID)}`+
-    `&scope=${scope}`+
-    `&redirect_uri=${encodeURIComponent(process.env.QBO_REDIRECT_URI)}`+
-    `&response_type=code`+
+    `${process.env.AUTH_URL}?client_id=${encodeURIComponent(process.env.QBO_CLIENT_ID)}` +
+    `&scope=${scope}` +
+    `&redirect_uri=${encodeURIComponent(process.env.QBO_REDIRECT_URI)}` +
+    `&response_type=code` +
     `&state=${state}`;
-
-  // console.log('/auth/connect', authUrl);
   res.redirect(authUrl);
 });
 
 app.get('/auth/callback', async (req, res) => {
-  // console.log('Processing /auth/callback');
-  // console.log('callback query:', req.query);
-  // console.log('session before:', req.session);
   const { code, state, realmId, error, error_description } = req.query;
   if (error) {
     console.error('OAuth error:', error, error_description);
     return res.status(400).send(`${error}: ${error_description || ''}`);
   }
-
-
   if (!code || !state) return res.status(400).send('Missing code or state');
   if (state !== req.session.state) return res.status(400).send('Invalid state');
 
-  const clientId = (process.env.QBO_CLIENT_ID || '').trim();
+  const clientId     = (process.env.QBO_CLIENT_ID     || '').trim();
   const clientSecret = (process.env.QBO_CLIENT_SECRET || '').trim();
-  const redirectUri = (process.env.QBO_REDIRECT_URI || '').trim();
+  const redirectUri  = (process.env.QBO_REDIRECT_URI  || '').trim();
 
   try {
-    const body = qs.stringify({
-      grant_type: 'authorization_code',
-      code,
-      redirect_uri: redirectUri
-    });
+    const tokenRes = await axios.post(
+      process.env.TOKEN_URL,
+      qs.stringify({ grant_type: 'authorization_code', code, redirect_uri: redirectUri }),
+      {
+        headers: {
+          Authorization: 'Basic ' + Buffer.from(`${clientId}:${clientSecret}`).toString('base64'),
+          'Content-Type': 'application/x-www-form-urlencoded',
+          Accept: 'application/json'
+        },
+        timeout: 15000
+      }
+    );
 
-    const tokenRes = await axios.post(process.env.TOKEN_URL, body, {
-      headers: {
-        Authorization: 'Basic ' + Buffer.from(`${clientId}:${clientSecret}`).toString('base64'),
-        'Content-Type': 'application/x-www-form-urlencoded',
-        Accept: 'application/json'
-      },
-      timeout: 15000
-    });
+    if (!realmId) return res.status(400).send('Missing realmId in callback (no company selected).');
 
-    req.session.tokens = tokenRes.data;
+    const d = tokenRes.data;
+    req.session.tokens = {
+      access_token:  d.access_token,
+      refresh_token: d.refresh_token,
+      expires_at:    Date.now() + d.expires_in * 1000
+    };
     req.session.realmId = realmId;
-
-    console.log('Token exchange OK (Basic). realmId:', realmId || '(missing)');
-    if (!realmId) {
-      return res.status(400).send('Missing realmId in callback (no company selected).');
-    }
-    // console.log('session after token:', req.session);
+    console.log('Token exchange OK. realmId:', realmId);
     res.redirect('/me');
   } catch (e) {
-    // Axios-style error details
     const status = e.response?.status;
-    const statusText = e.response?.statusText;
-    const data = e.response?.data;
-    const headers = e.response?.headers;
-    // Fallbacks
-    const message = e.message;
-    const stack = e.stack;
-
-    console.error('Token exchange failed:');
-    if (status) console.error('  HTTP:', status, statusText || '');
-    if (headers) console.error('  Headers:', headers);
-    if (data) {
-      console.error('  Response data:', typeof data === 'object' ? JSON.stringify(data, null, 2) : data);
-    } else {
-      console.error('  Message:', message);
-    }
+    const data   = e.response?.data;
+    console.error('Token exchange failed:', status, data || e.message);
     res.status(500).send('Token exchange failed');
   }
 });
-
-app.get('/me', async (req, res) => {
-  const { tokens, realmId } = req.session;
-  if (!tokens) return res.redirect('/auth/connect');
-  if (!realmId) return res.status(400).send('Missing realmId in session. Reconnect.');
-
-  try {
-    const url = `${process.env.API_BASE}/v3/company/${realmId}/companyinfo/${realmId}?minorversion=70`;
-    const r = await axios.get(url, {
-      headers: {
-        Authorization: `Bearer ${tokens.access_token}`,
-        Accept: 'application/json'
-      }
-    });
-    res.json({ realmId, data: r.data });
-  } catch (e) {
-    console.error('API error:', e.response?.data || e.message);
-    res.status(500).json(e.response?.data || { error: e.message });
-    console.error('/me error:', e, e.error_description);
-  }
-});
-
 
 app.get('/logout', (req, res) => {
   res.clearCookie('sess', { path: '/', sameSite: 'lax', secure: true });
@@ -164,18 +85,45 @@ app.get('/logout', (req, res) => {
   res.redirect('/');
 });
 
+// ─── Info ─────────────────────────────────────────────────────────────────────
+
+app.get('/', (req, res) => {
+  res.send(`
+    <h1>BRB</h1>
+    <p><a href="/auth/connect">Connect to QuickBooks</a></p>
+    <p><a href="/me">Company Info</a></p>
+    <p><a href="/accounts">All Accounts</a></p>
+    <p><a href="/findAccount?name=stripe">Find Stripe Accounts</a></p>
+    <p><a href="/deleteUnusedItems">Delete Unused Products/Services</a></p>
+    <p><a href="/deleteStripeReceipts?start=2025-01-01&end=2025-01-31">Preview Stripe Clearing Deletions</a></p>
+    <p><a href="/logout">Logout</a></p>
+  `);
+});
+
+app.get('/me', async (req, res, next) => {
+  const { tokens, realmId } = req.session || {};
+  if (!tokens) return res.redirect('/auth/connect');
+  if (!realmId) return res.status(400).send('Missing realmId. Reconnect.');
+  try {
+    const url = `${process.env.API_BASE}/v3/company/${realmId}/companyinfo/${realmId}?minorversion=70`;
+    const r = await axios.get(url, {
+      headers: { Authorization: `Bearer ${tokens.access_token}`, Accept: 'application/json' }
+    });
+    res.json({ realmId, data: r.data });
+  } catch (e) { next(e); }
+});
+
 app.get('/accounts', async (req, res, next) => {
   const { realmId } = req.session || {};
   let { tokens } = req.session || {};
   if (!tokens) return res.redirect('/auth/connect');
-
   try {
     const resp = await qboQuery(
-      `SELECT ID, Name, AccountType, AccountSubType, Active FROM Account ORDER BY Name`,
-      { tokens, realmId, apiBase: process.env.API_BASE}
+      `SELECT Id, Name, AccountType, AccountSubType, Active FROM Account ORDER BY Name`,
+      { tokens, realmId, apiBase: process.env.API_BASE }
     );
-    res.json(resp.Account || []); 
-  } catch (err) { next(err); }
+    res.json(resp.Account || []);
+  } catch (e) { next(e); }
 });
 
 app.get('/findAccount', async (req, res, next) => {
@@ -185,58 +133,66 @@ app.get('/findAccount', async (req, res, next) => {
   try {
     const resp = await qboQuery(
       `SELECT Id, Name, FullyQualifiedName, AccountType, AccountSubType, Active, ParentRef FROM Account WHERE Active = true`,
-      { tokens, realmId, apiBase: process.env.API_BASE}
+      { tokens, realmId, apiBase: process.env.API_BASE }
     );
     const accounts = resp.Account || [];
-    
     const search = (req.query.name || '').toLowerCase();
-    const filtered = search ? accounts.filter(a => 
-      a.Name?.toLowerCase().includes(search) ||
-      a.FullyQualifiedName?.toLowerCase().includes(search)
-    ) : accounts;
+    const filtered = search
+      ? accounts.filter(a =>
+          a.Name?.toLowerCase().includes(search) ||
+          a.FullyQualifiedName?.toLowerCase().includes(search)
+        )
+      : accounts;
     res.json(filtered);
-  } catch (err) { next(err); }
+  } catch (e) { next(e); }
 });
 
+// ─── Actions ──────────────────────────────────────────────────────────────────
+
+app.get('/deleteUnusedItems', async (req, res, next) => {
+  const { realmId } = req.session || {};
+  let { tokens } = req.session || {};
+  if (!tokens) return res.redirect('/auth/connect');
+  if (!realmId) return res.status(400).send('Missing realmId. Reconnect.');
+  tokens = await maybeRefresh(req, tokens);
+  try {
+    const items = await deleteUnusedItems({ tokens, realmId, apiBase: process.env.API_BASE });
+    res.json(items);
+  } catch (e) { next(e); }
+});
+
+// Preview:  ?start=2025-03-01&end=2025-03-31
+// Delete:   ?start=2025-03-01&end=2025-03-31&confirm=yes
+// Account:  ?start=2025-03-01&end=2025-03-31&account=Stripe Clearing
 app.get('/deleteStripeReceipts', async (req, res, next) => {
   const { realmId } = req.session || {};
   let { tokens } = req.session || {};
   if (!tokens) return res.redirect('/auth/connect');
-  if (!realmId) return res.status(400).send('Missing realmId in session. Reconnect.');
-  if (needsRefresh(tokens)) {
-    const newTokens = await refreshTokens(tokens.refresh_token);
-    req.session.tokens = newTokens;
-    tokens = newTokens;
-  }
-
-  console.log("Req query:",req.query);
-
+  if (!realmId) return res.status(400).send('Missing realmId. Reconnect.');
+  tokens = await maybeRefresh(req, tokens);
   try {
-    const result = await deleteStripeReceiptsInRange(
+    const result = await deleteAllInAccount(
       { tokens, realmId, apiBase: process.env.API_BASE },
       {
-        startDate: req.query.start,
-        endDate:   req.query.end,
-        entityType: req.query.type || 'SalesReceipt',
-        dryRun:    req.query.confirm !== 'yes'
+        startDate:   req.query.start,
+        endDate:     req.query.end,
+        accountName: req.query.account || 'Stripe Clearing',
+        dryRun:      req.query.confirm !== 'yes'
       }
     );
     res.json(result);
   } catch (e) { next(e); }
 });
 
+// ─── Error handler ────────────────────────────────────────────────────────────
+
 app.use((err, req, res, next) => {
   const status = err.status || err.statusCode || err.response?.status || 500;
-
-  // Minimal but useful context
   const log = {
     method: req.method,
     url: req.originalUrl,
-    requestId: req.headers['x-request-id'],
     message: err.message,
   };
-
-  // If it's an Axios error, capture key details (no secrets)
   if (err.isAxiosError) {
     log.axios = {
       method: (err.config?.method || 'GET').toUpperCase(),
@@ -247,15 +203,12 @@ app.use((err, req, res, next) => {
         : err.response?.data
     };
   }
-
-  if (process.env.NODE_ENV !== 'production' && err.stack) {
-    log.stack = err.stack;
-  }
-
+  if (process.env.NODE_ENV !== 'production' && err.stack) log.stack = err.stack;
   console.error('Error:', log);
   res.status(status).json({ error: 'Internal Server Error' });
 });
 
+// ─── Start ────────────────────────────────────────────────────────────────────
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
@@ -263,39 +216,45 @@ app.listen(PORT, () => {
   console.log('Public (set in QBO_REDIRECT_URI):', process.env.QBO_REDIRECT_URI);
 });
 
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+
 function b64url(buf) {
-  return buf.toString('base64').replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/,'');
+  return buf.toString('base64').replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
 }
 
 function needsRefresh(tokens) {
-  // refresh if missing or expiring within 60 seconds
   return !tokens?.access_token || !tokens?.expires_at || Date.now() > tokens.expires_at - 60_000;
 }
 
-async function refreshTokens(refreshToken) {
-  const body = new URLSearchParams({
-    grant_type: 'refresh_token',
-    refresh_token: refreshToken
-  });
+async function maybeRefresh(req, tokens) {
+  if (!needsRefresh(tokens)) return tokens;
+  try {
+    const newTokens = await refreshTokens(tokens.refresh_token);
+    req.session.tokens = newTokens;
+    return newTokens;
+  } catch (err) {
+    if (err.response?.status === 400) throw Object.assign(new Error('QBO session expired. Please reconnect at /auth/connect'), { status: 401 });
+    throw err;
+  }
+}
 
+async function refreshTokens(refreshToken) {
   const r = await axios.post(
     'https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer',
-    body.toString(),
+    new URLSearchParams({ grant_type: 'refresh_token', refresh_token: refreshToken }).toString(),
     {
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
-        Authorization:
-          'Basic ' + Buffer.from(
-            process.env.QBO_CLIENT_ID + ':' + process.env.QBO_CLIENT_SECRET
-          ).toString('base64')
+        Authorization: 'Basic ' + Buffer.from(
+          process.env.QBO_CLIENT_ID + ':' + process.env.QBO_CLIENT_SECRET
+        ).toString('base64')
       }
     }
   );
-
-  const d = r.data; // { access_token, refresh_token, expires_in, ... }
+  const d = r.data;
   return {
-    access_token: d.access_token,
+    access_token:  d.access_token,
     refresh_token: d.refresh_token || refreshToken,
-    expires_at: Date.now() + d.expires_in * 1000
+    expires_at:    Date.now() + d.expires_in * 1000
   };
 }
