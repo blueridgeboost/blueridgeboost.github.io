@@ -113,6 +113,39 @@ app.get('/me', async (req, res, next) => {
   } catch (e) { next(e); }
 });
 
+app.get('/debugQuery', async (req, res, next) => {
+  const { realmId } = req.session || {};
+  let { tokens } = req.session || {};
+  if (!tokens) return res.redirect('/auth/connect');
+  if (!realmId) return res.status(400).send('Missing realmId. Reconnect.');
+  tokens = await maybeRefresh(req, tokens);
+
+  // Extract query params
+  const { entity = 'Purchase', startDate, endDate, rawQuery } = req.query;
+
+  // Construct the query
+  let query;
+  if (rawQuery) {
+    query = rawQuery; // Allow user to pass a fully custom query
+  } else if (startDate && endDate) {
+    query = `SELECT * FROM ${entity} WHERE TxnDate >= '${startDate}' AND TxnDate <= '${endDate}'`;
+  } else {
+    return res.status(400).send("Either 'rawQuery' or 'startDate' and 'endDate' are required.");
+  }
+
+  try {
+    // Execute the query
+    console.log(`Executing QB query: ${query}`);
+    const resp = await qboQuery(query, { tokens, realmId, apiBase: process.env.API_BASE });
+
+    // Respond with raw results for debugging
+    console.log(`Query Response:`, JSON.stringify(resp, null, 2));
+    res.json(resp);
+  } catch (e) {
+    next(e); // Let the error handler take care of failures
+  }
+});
+
 app.get('/accounts', async (req, res, next) => {
   const { realmId } = req.session || {};
   let { tokens } = req.session || {};

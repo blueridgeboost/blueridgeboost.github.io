@@ -107,7 +107,7 @@ export async function deleteUnusedItems(ctx) {
 
 // These are the QBO transaction types that support hard delete
 // and are commonly deposited to a clearing account
-const DELETABLE_TYPES = ['SalesReceipt', 'Payment', 'Transfer', 'Deposit'];
+const DELETABLE_TYPES = ['SalesReceipt', 'Payment', 'Transfer', 'Deposit', 'Purchase',];
 
 export async function findAccountId(ctx, name) {
   const resp = await qboQuery(
