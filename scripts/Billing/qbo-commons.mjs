@@ -155,15 +155,13 @@ function touchesAccount(txn, entityType, accountId) {
   const id = String(accountId);
   switch (entityType) {
     case 'Transfer':
-      // Transfer has From and To — match either side
       return txn.FromAccountRef?.value === id || txn.ToAccountRef?.value === id;
-    case 'Deposit':
-      // Deposit posts to a specific account
-      return txn.DepositToAccountRef?.value === id;
+    case 'Purchase': 
+      return txn.AccountRef?.value === id;
     case 'SalesReceipt':
     case 'Payment':
-      return txn.DepositToAccountRef?.value === id;
-    default:
+    case 'Deposit':
+    default: 
       return txn.DepositToAccountRef?.value === id;
   }
 }

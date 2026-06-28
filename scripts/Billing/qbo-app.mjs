@@ -1,3 +1,27 @@
+/* Documentation 
+
+  === How To Use ===
+  To access the quickbooks online app, first run this script with node, then in a seperate terminal 
+  run ngrok with ngrok http 3000 --domain=brb.ngrok.app. Then open brb.ngrok.app/auth/connect in browser 
+  and connect the business intuit account. 
+
+  From here each url corresponds to an action, and actions will show jsons of the queried information 
+  or the results of the action performed.
+
+  === Params ===
+  start=YYYY-MM-DD start date for query
+  end=YYYY-MM-DD end date for query
+  account=account name to delete from (default)
+  confirm=yes to actually delete, or else it will simply display a preview of what would be deleted.
+
+  === Examples === 
+  http://brb.ngrok.app/deleteStripeReceipts?start=2025-01-01&end=2025-01-31&account=Stripe Clearing
+  this will preview all transactions in the Stripe Clearing account between Jan 1 and Jan 31, 2025.
+
+  http://brb.ngrok.app/debugQuery?query=SELECT * FROM SalesReceipt WHERE TxnDate >= '2025-01-01' AND TxnDate <= '2025-01-31'
+  pass custom queries for debugging, its basically sql with minor differences.
+*/
+
 import path from 'path';
 import dotenv from 'dotenv';
 import express from 'express';
@@ -210,11 +234,11 @@ app.get('/deleteStripeReceipts', async (req, res, next) => {
         startDate:   req.query.start,
         endDate:     req.query.end,
         accountName: req.query.account || 'Stripe Clearing',
-        dryRun:      req.query.confirm !== 'yes'
+        dryRun:      req.query.confirm !== 'yes',
       }
     );
     res.json(result);
-  } catch (e) { next(e); }
+  } catch (e) { /* console.log(e); */ next(e); }
 });
 
 // ─── Error handler ────────────────────────────────────────────────────────────
