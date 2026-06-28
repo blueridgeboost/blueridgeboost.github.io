@@ -1,0 +1,14 @@
+[TPI 4.0 Map]
+Customer,Customer
+Check Number,Check Number
+Transaction Date,Transaction Date
+Payment Method,Payment Method
+Memo,Memo
+Apply to Invoice (blank auto-applies),Apply to Invoice (blank auto-applies)
+Amount,Amount
+Deposit To,Deposit To
+Discount Amount,Discount Amount
+Discount Account,Discount Account
+Discount Class,Discount Class
+AR Account,AR Account
+Exchange Rate,Exchange Rate
