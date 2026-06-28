@@ -5,7 +5,7 @@ import axios from 'axios';
 import qs from 'qs';
 import cookieSession from 'cookie-session';
 import crypto from 'crypto';
-import {deleteUnusedItems, deleteStripeReceiptsInRange} from './qbo-commons.mjs'
+import {deleteUnusedItems, deleteStripeReceiptsInRange, qboQuery} from './qbo-commons.mjs'
 
 dotenv.config({ path: path.join('..', '.env') });
 
@@ -164,6 +164,40 @@ app.get('/logout', (req, res) => {
   res.redirect('/');
 });
 
+app.get('/accounts', async (req, res, next) => {
+  const { realmId } = req.session || {};
+  let { tokens } = req.session || {};
+  if (!tokens) return res.redirect('/auth/connect');
+
+  try {
+    const resp = await qboQuery(
+      `SELECT ID, Name, AccountType, AccountSubType, Active FROM Account ORDER BY Name`,
+      { tokens, realmId, apiBase: process.env.API_BASE}
+    );
+    res.json(resp.Account || []); 
+  } catch (err) { next(err); }
+});
+
+app.get('/findAccount', async (req, res, next) => {
+  const { realmId } = req.session || {};
+  let { tokens } = req.session || {};
+  if (!tokens) return res.redirect('/auth/connect');
+  try {
+    const resp = await qboQuery(
+      `SELECT Id, Name, FullyQualifiedName, AccountType, AccountSubType, Active, ParentRef FROM Account WHERE Active = true`,
+      { tokens, realmId, apiBase: process.env.API_BASE}
+    );
+    const accounts = resp.Account || [];
+    
+    const search = (req.query.name || '').toLowerCase();
+    const filtered = search ? accounts.filter(a => 
+      a.Name?.toLowerCase().includes(search) ||
+      a.FullyQualifiedName?.toLowerCase().includes(search)
+    ) : accounts;
+    res.json(filtered);
+  } catch (err) { next(err); }
+});
+
 app.get('/deleteStripeReceipts', async (req, res, next) => {
   const { realmId } = req.session || {};
   let { tokens } = req.session || {};
@@ -174,12 +208,16 @@ app.get('/deleteStripeReceipts', async (req, res, next) => {
     req.session.tokens = newTokens;
     tokens = newTokens;
   }
+
+  console.log("Req query:",req.query);
+
   try {
     const result = await deleteStripeReceiptsInRange(
       { tokens, realmId, apiBase: process.env.API_BASE },
       {
         startDate: req.query.start,
         endDate:   req.query.end,
+        entityType: req.query.type || 'SalesReceipt',
         dryRun:    req.query.confirm !== 'yes'
       }
     );

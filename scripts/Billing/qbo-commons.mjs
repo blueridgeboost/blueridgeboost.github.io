@@ -132,18 +132,18 @@ export async function findAccountId(ctx, name) {
     return accounts[0].Id;
 }
 
-export async function fetchReceiptsForAccount(ctx, { startDate, endDate, accountId }) {
+export async function fetchReceiptsForAccount(ctx, { startDate, endDate, accountId, entityType = 'SalesReceipt' }) {
     const matched = [];
     let start = 1;
     const page = 1000;
     while (true) {
         const resp = await qboQuery(
-            `SELECT * FROM SalesReceipt ` +
+            `SELECT * FROM ${entityType} ` +
             `WHERE TxnDate >= '${startDate}' AND TxnDate <= '${endDate}' ` +
             `STARTPOSITION ${start} MAXRESULTS ${page}`,
             ctx
         );
-        const chunk = resp.SalesReceipt || [];
+        const chunk = resp[entityType] || [];
         if (chunk.length === 0) break;
 
         // QBO doesn't support WHERE on DepositToAccountRef in IDS queries
@@ -160,7 +160,7 @@ export async function fetchReceiptsForAccount(ctx, { startDate, endDate, account
     return matched;
 }
 
-async function deleteReceiptsBatch(receipts, { tokens, realmId, apiBase = process.env.API_BASE, minor = 70 }) {
+async function deleteReceiptsBatch(receipts, { tokens, realmId, apiBase = process.env.API_BASE, minor = 70 }, entityType = 'SalesReceipt') {
     const url = `${apiBase}/v3/company/${realmId}/batch?minorversion=${minor}`;
     const headers = {
         Authorization: `Bearer ${tokens.access_token}`,
@@ -173,7 +173,7 @@ async function deleteReceiptsBatch(receipts, { tokens, realmId, apiBase = proces
         const BatchItemRequest = group.map((sr, idx) => ({
             bId: String(idx + 1),
             operation: 'delete',
-            SalesReceipt: { Id: sr.Id, SyncToken: sr.SyncToken }
+            [entityType]: { Id: sr.Id, SyncToken: sr.SyncToken }
         }));
         const res = await axios.post(url, { BatchItemRequest }, { headers });
         const batch = res.data?.BatchItemResponse || [];
@@ -188,7 +188,7 @@ async function deleteReceiptsBatch(receipts, { tokens, realmId, apiBase = proces
 // Main export: call this from your Express route
 // dryRun: true  → preview only, nothing deleted
 // dryRun: false → permanent delete
-export async function deleteStripeReceiptsInRange(ctx, { startDate, endDate, dryRun = true }) {
+export async function deleteStripeReceiptsInRange(ctx, { startDate, endDate, entityType = 'SalesReceipt', dryRun = true }) {
     if (!startDate || !endDate) throw new Error("startDate and endDate ('YYYY-MM-DD') are required");
 
     const accountId = await findAccountId(ctx, 'Stripe Clearing');
@@ -203,16 +203,17 @@ export async function deleteStripeReceiptsInRange(ctx, { startDate, endDate, dry
         DepositTo: sr.DepositToAccountRef?.name
     }));
 
-    console.log(`Matched ${receipts.length} receipts deposited to "Stripe Clearing"`);
+    console.log(`Matched ${receipts.length} ${entityType} receipts deposited to "Stripe Clearing"`);
 
     if (dryRun) {
-        return { dryRun: true, matchedCount: receipts.length, receipts: preview };
+        return { dryRun: true, entityType, matchedCount: receipts.length, receipts: preview };
     }
 
-    const results  = await deleteReceiptsBatch(receipts, ctx);
+    const results  = await deleteReceiptsBatch(receipts, ctx, entityType);
     const failures = results.filter(r => r.Fault);
     return {
         dryRun:       false,
+        entityType,
         matchedCount: receipts.length,
         deletedCount: results.length - failures.length,
         failureCount: failures.length,
