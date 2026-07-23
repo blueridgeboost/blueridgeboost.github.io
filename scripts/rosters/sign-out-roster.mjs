@@ -7,7 +7,7 @@ import {
     getOrdersByProductId,
     getAttributeValue,
 } from '../ecwid.js';
-import { SUMMER_WEEKS, todayISO, getCurrentWeek} from './roster-helpers.mjs';
+import { SUMMER_WEEKS, todayISO, getCurrentWeek, getNextWeek} from './roster-helpers.mjs';
 import path from 'path';
 import os from 'os';
 import dotenv from 'dotenv';
@@ -241,7 +241,9 @@ function estimateLines(text, colWidth) {
 }
 
 async function main() {
-    const week = getCurrentWeek();
+    // switch between this and next week 
+    const week = getNextWeek();
+    // const week = getCurrentWeek();
     if (!week) {
         console.log('No upcoming camp week found. Nothing to generate.');
         return;

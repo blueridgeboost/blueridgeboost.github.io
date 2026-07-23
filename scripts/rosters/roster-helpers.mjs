@@ -27,3 +27,10 @@ export function getCurrentWeek(referenceDate = todayISO()) {
     }
     return SUMMER_WEEKS.find(w => w.startDate >= today) || null;
 }
+
+export function getNextWeek(referenceDate = todayISO()) {
+    const current = getCurrentWeek(referenceDate);
+    if (!current) return null;
+    const idx = SUMMER_WEEKS.indexOf(current);
+    return SUMMER_WEEKS[idx + 1] || null;
+}
