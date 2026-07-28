@@ -1,0 +1,15 @@
+[TPI 4.0 Map]
+Payee,Payee
+Transaction Date,Transaction Date
+Apply to Bill RefNumber,Apply to Bill RefNumber
+Payment Method,Payment method
+Bank Account,Bank Account
+Credit Card Account,Credit Card Account
+RefNumber,RefNumber
+Amount,Amount
+Memo,Memo
+Discount Amount,Discount Amount
+Discount Account,Discount Account
+Discount Class,Discount Class
+To Be Printed,To Be Printed
+Exchange Rate,Exchange Rate

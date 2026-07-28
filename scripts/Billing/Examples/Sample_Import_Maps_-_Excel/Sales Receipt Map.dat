@@ -1,0 +1,57 @@
+[TPI 4.0 Map]
+Customer,Customer
+Transaction Date,Transaction Date
+RefNumber,RefNumber
+Payment Method,Payment Method
+Check Number,Check Number
+Class,Class
+Template Name,Template Name
+To Be Printed,To Be Printed
+Ship Date,Ship Date
+BillTo Line1,BillTo Line1
+BillTo Line2,BillTo Line2
+BillTo Line3,BillTo Line3
+BillTo Line4,BillTo Line4
+BillTo City,BillTo City
+BillTo State,BillTo State
+BillTo PostalCode,BillTo PostalCode
+BillTo Country,BillTo Country
+ShipTo Line1,ShipTo Line1
+ShipTo Line2,ShipTo Line2
+ShipTo Line3,ShipTo Line3
+ShipTo Line4,ShipTo Line4
+ShipTo City,ShipTo City
+ShipTo State,ShipTo State
+ShipTo PostalCode,ShipTo PostalCode
+ShipTo Country,ShipTo Country
+Phone,Phone
+Fax,Fax
+Email,Email
+Contact Name,Contact Name
+First Name,First Name
+Last Name,Last Name
+Rep,Rep
+Due Date,Due Date
+Ship Method,Ship Method
+Customer Message,Customer Message
+Memo,Memo
+Cust. Tax Code,Cust. Tax Code
+Item,Item
+Quantity,Quantity
+Description,Description
+Price,Price
+Deposit To,Deposit To
+Is Pending,Is Pending
+Item Line Class,Item Line Class
+Service Date,Service Date
+FOB,FOB
+Customer Acct No,Customer Acct No
+Sales Tax Item,Sales Tax Item
+To Be E-Mailed,To Be E-Mailed
+Other,Other
+Other1,Other1
+Other2,Other2
+Unit of Measure,Unit of Measure
+Currency,Currency
+Exchange Rate,Exchange Rate
+Sales Tax Code,Sales Tax Code

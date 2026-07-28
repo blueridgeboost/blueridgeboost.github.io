@@ -1,0 +1,12 @@
+[TPI 4.0 Map]
+RefNumber,RefNumber
+Account,Account
+Transaction Date,Transaction Date
+Memo,Memo
+Item,Item
+New Qty,New Qty
+New Value,New Value
+Adj Qty,Adj Qty
+Adj Value,Adj Value
+Customer,Customer
+Class,Class

@@ -1,0 +1,17 @@
+[TPI 4.0 Map]
+Item Name,Item Name
+Item Type,Item Type
+Is Active,Is Active
+Sales Description,Sales Description
+Purchase Description,Purchase Description
+Tax Code,Tax Code
+Account/Income Account,Account/Income Account
+Expense/COGS Account,Expense/COGS Account
+Asset Account,Asset Account
+Cost,Cost
+Preferred Vendor,Preferred Vendor
+Price or %,Price or %
+Reorder Point,Reorder Point
+Manuf Part Number,Manuf Part Number
+Unit of Measure,Unit of Measure
+Max,Max

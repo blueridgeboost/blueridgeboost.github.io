@@ -530,7 +530,7 @@ export async function createEcwidProduct(data) {
         },
         body: JSON.stringify(data)
     };
-    // console.log(url);
+    console.log(url);
     try {
         const response = await fetch(`${url}?${params.toString()}`, options);
         if (!response.ok) {

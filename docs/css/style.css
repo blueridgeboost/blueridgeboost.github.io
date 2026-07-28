@@ -20145,6 +20145,14 @@ div.fullclass {
     width: 100%;
     min-width: 0; } }
 
+.camp-list {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.camp-list li {
+  margin-bottom: 0.5rem; }
+
 .preloader {
   position: fixed;
   top: 0;

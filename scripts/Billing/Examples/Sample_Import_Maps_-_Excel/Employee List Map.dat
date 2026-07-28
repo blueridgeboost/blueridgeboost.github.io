@@ -1,0 +1,26 @@
+[TPI 4.0 Map]
+First Name,First Name
+Last Name,Last Name
+Middle Name,Middle Name
+Is Active,Is Active
+Salutation,Salutation
+Print on Check,Print on Check
+SS No,SS No
+Gender,Gender
+Date of Birth,Date of Birth
+Date Hired,Date Hired
+Date Released,Date Released
+Address Line1,Address Line1
+Address Line2,Address Line2
+Address City,Address City
+Address State,Address State
+Address PostalCode,Address PostalCode
+Phone,Phone
+Cellular,Cellular
+Alt. Phone,Alt. Phone
+Fax,Fax
+Email,Email
+Pager,Pager
+PIN (Pager),PIN (Pager)
+Account Number,Account Number
+Notes,Notes

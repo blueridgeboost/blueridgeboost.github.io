@@ -1,0 +1,15 @@
+[TPI 4.0 Map]
+RefNumber,RefNumber
+Transaction Date,Transaction Date
+Account,Account
+Debit,Debit
+Credit,Credit
+Memo,Memo
+Name,Name
+Class,Class
+Billable,Billable
+Is Adjustment,Is Adjustment
+Currency,Currency
+Exchange Rate,Exchange Rate
+Home Currency Adjustment,Home Currency Adjustment
+Amounts In Home Currency,Amounts in Home Currency

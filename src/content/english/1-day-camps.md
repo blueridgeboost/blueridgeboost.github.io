@@ -36,7 +36,7 @@ robots: "index, follow"
 
 ---
 
-<div class="camp-promo"><span class="pill"><span class="dot"></span> <span class="highlight">Save 25%</span> — register 3+ days before camp</span><span class="pill"><span class="dot"></span> Missing a school day? <a href="mailto:camps@blueridgeboost.com">Let us know</a></span></div>
+<div class="camp-promo"><span class="pill"><span class="dot"></span> <span class="highlight">Save 25%</span>when you register 3 or more days before camp</span><span class="pill"><span class="dot"></span> Missing a school day? <a href="mailto:camps@blueridgeboost.com">Let us know</a></span></div>
 
 <!-- 1-Day Camps Overview -->
 <section class="hp-section" id="overview">
@@ -44,24 +44,47 @@ robots: "index, follow"
     <div class="sectionTitle">
       <div>
         <h2>1-Day Camps</h2>
-        <p>Hands-on STEM programs during school breaks, snow days, and teacher workdays for ages 6–13. Half-day (8:30 AM–1:00 PM) and full-day (8:30 AM–5:00 PM) options — all materials included.</p>
+        <p>Hands-on STEM camps for ages 6–13 during school breaks, snow days, and teacher workdays. We make serious learning feel like play.</p>
       </div>
     </div>
     <div class="grid3" aria-label="Camp overview">
-      <div class="hp-card">
-        <h3>Topics</h3>
-        <p><strong>Robotics</strong> — build and program robots<br><strong>Coding &amp; Game Design</strong> — Minecraft Education and Roblox Studio<br><strong>Strategic Games</strong> — board games and logic puzzles</p>
-      </div>
-      <div class="hp-card">
-        <h3>How It Works</h3>
-        <p><strong>Learning sessions:</strong> Topic-related activities<br><strong>Exploration sessions:</strong> Try a different topic or free play (with parent approval)<br><strong>Breaks:</strong> Screen-free snack and lunch — board games encouraged</p>
-      </div>
-      <div class="hp-card">
-        <h3>Logistics</h3>
-        <p><strong>Location:</strong> 2171 Ivy Rd, Charlottesville<br><strong>Ages:</strong> 6–13 (must be at least 6)<br><strong>Bring:</strong> Snack (half-day) · 2 snacks + lunch (full-day)</p>
-      </div>
-    </div>
+  <div class="hp-card">
+    <h3>At a Glance</h3>
+    <ul class="camp-list">
+      <li><strong>Ages:</strong> 6–13</li>
+      <li><strong>Location:</strong> 2171 Ivy Rd, Charlottesville</li>
+      <li><strong>Options:</strong> Half-day and full-day camps</li>
+      <li><strong>Arrival:</strong> 8:30 AM–9:00 AM</li>
+      <li><strong>Pickup:</strong> Half-day 12:30 PM–1:00 PM · Full-day 4:30 PM–5:00 PM</li>
+      <li><strong>Materials:</strong> All camp materials included</li>
+      <li><strong>Bring:</strong> Snack for half-day camps; 2 snacks and lunch for full-day camps</li>
+    </ul>
   </div>
+
+  <div class="hp-card">
+    <h3>Morning Schedule</h3>
+    <ul class="camp-list">
+      <li><strong>9:00 AM:</strong> Learning session 1</li>
+      <li><strong>10:00 AM:</strong> Screen-free snack break</li>
+      <li><strong>10:20 AM:</strong> Learning session 2</li>
+      <li><strong>11:20 AM:</strong> Water Break</li>
+      <li><strong>11:30 AM:</strong>Exploration session (gaming with parent approval)</li>
+      <li><strong>12:30 PM:</strong> Lunch</li>
+    </ul>
+  </div>
+
+  <div class="hp-card">
+    <h3>Afternoon Schedule</h3>
+    <ul class="camp-list">
+      <li><strong>1:00 PM:</strong> Learning session 3</li>
+      <li><strong>2:00 PM:</strong> Water break</li>
+      <li><strong>2:20 PM:</strong> Learning session 4</li>
+      <li><strong>3:20 PM:</strong> Screen-free snack break</li>
+      <li><strong>3:40 PM:</strong> Exploration session (gaming with parent approval)</li>
+      <li><strong>4:30 PM:</strong> Clean up</li>
+    </ul>
+  </div>
+</div>
 </section>
 
 <div class="container" id="camp1">
