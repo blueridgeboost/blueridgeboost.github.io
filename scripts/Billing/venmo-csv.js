@@ -22,8 +22,8 @@ const require = createRequire(import.meta.url);
 const papaparse = require('papaparse');
 
 // Config -- overidable with cli args
-const INPUT_DIR = process.argv[2] || './scripts/Billing/venmo-statements/';
-const OUTPUT_DIR = process.argv[3] || './scripts/Billing/output/';
+const INPUT_DIR = process.argv[2] || 'C:\\Users\\NoraEvans\\OneDrive - Blue Ridge Boost\\BRB Finances - Documents\\VenmoStatements\\2025';
+const OUTPUT_DIR = process.argv[3] || 'C:\\Users\\NoraEvans\\OneDrive - Blue Ridge Boost\\BRB Finances - Documents\\VenmoStatements\\';
 const SR_ITEM = 'Tutoring'; // generic QuickBooks line item for every receipt
 const SR_PAYEE = 'Ana Evans'; // venomo "to" value to flag a sale 
 
@@ -42,8 +42,8 @@ async function parseVenmoFile(filePath) {
     return { accountName: '', rows: [] };
   }
   // acoutn name from title 
-  const handleMatch = titleText.match(/\(@?([^)]+)\)/);
-  const accountName = handleMatch ? `@${handleMatch[1].replace(/^@/, '')}` : '';
+  // const handleMatch = titleText.match(/\(@?([^)]+)\)/);
+  // const accountName = handleMatch ? `@${handleMatch[1].replace(/^@/, '')}` : '';
 
   const body = lines.slice(headerIdx).join('\n');
   const { data, errors } = papaparse.parse(body, {
@@ -53,7 +53,7 @@ async function parseVenmoFile(filePath) {
   if (errors?.length) {
     console.error(`Papa errors in ${path.basename(filePath)}:`, errors);
   }
-  return { accountName, rows: data };
+  return { accountName: '', rows: data };
 }
 
 function cleanAmount(value) {
@@ -125,13 +125,17 @@ async function main() {
   transfers.sort(byDate);
   salesReceipts.sort(byDate);
 
-  await mkdir(OUTPUT_DIR, { recursive: true });
-  await writeDataToCsv(transfers, path.join(OUTPUT_DIR, 'transfers.csv'));
-  await writeDataToCsv(salesReceipts, path.join(OUTPUT_DIR, 'sales-receipts.csv'));
+  // await mkdir(OUTPUT_DIR, { recursive: true });
+  // await writeDataToCsv(transfers, path.join(OUTPUT_DIR, 'transfers.csv'));
+  // await writeDataToCsv(salesReceipts, path.join(OUTPUT_DIR, 'sales-receipts.csv'));
 
+  const totalPrice = salesReceipts.reduce((sum, receipt) => {
+  return sum + Number(receipt.Price || 0);
+  }, 0);
   console.log(
     `Done: ${transfers.length} transfer(s), ${salesReceipts.length} sales receipt(s) from ${csvFiles.length} file(s).`
   );
+  console.log('Total Price:', totalPrice);
 }
 
 main().catch((err) => {
