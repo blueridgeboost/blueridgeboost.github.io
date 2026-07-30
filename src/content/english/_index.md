@@ -1,29 +1,29 @@
 ---
 ####################### Hero Section #########################
-hero_prefix: "Summer 2026"
-hero_highlight: "Camps & Competitions"
+hero_prefix: "Fall 2026"
+hero_highlight: "Day Camps & Classes"
 hero_subtitle: "at Blue Ridge Boost in Charlottesville"
-hero_description: "Choose from summer STEM camps, coding and robotics bootcamps, summer classes with SAT Math Review, or compete in the WRO-USEL Regional Open Qualifier. Registration now open!"
+hero_description: "Choose from one-day camps during school breaks, weekly enrichment classes, STEM tutoring—including AP support—SAT Math Review, birthday parties, Gaming Fridays, and the WRO–USEL Regional Open Qualifier. Registration is now open."
 
 ####################### Pathways (Hero Cards) #########################
 pathways:
-  - title: "Summer Camps and Bootcamps"
-    description: "Week-long programs from beginner camps to intensive bootcamps. Explore coding, robotics, AI, game design, and engineering with hands-on projects!"
-    cta_url: "/camps/"
-    cta_text: "View All Camps"
-    badge_text: "Ages 6-18"
-    
-  - title: "Summer Classes"
-    description: "Weekly classes in math, coding, and robotics to keep skills sharp all summer. Featuring our new SAT Math Review course and Competition Math for grades 1–12, including preparation for AMC 8, AMC 10, and AMC 12."
+  - title: "Weekly Enrichment Classes"
+    description: "Hands-on after-school and weekend classes in math, coding, robotics, and engineering that help students build skills and confidence year-round."
     cta_url: "/classes/"
     cta_text: "Browse Classes"
-    badge_text: "Ages 6+"
-    
-  - title: "WRO-USEL Competition"
-    description: "Join the Regional Qualifier on September 5-6, 2026 at UVA. Compete in RoboMission, RoboSports, Future Innovators, or Future Engineers to advance internationally!"
-    cta_url: "/wro/"
-    cta_text: "Register Now"
-    badge_text: "Ages 8-19"
+    badge_text: "Ages 6-18"
+
+  - title: "STEM for Homeschoolers"
+    description: "Flexible daytime programs for homeschool students featuring hands-on learning in robotics, coding, math, and creative problem solving."
+    cta_url: "/homeschool/"
+    cta_text: "Learn More"
+    badge_text: "Daytime STEM"
+
+  - title: "STEM Tutoring"
+    description: "Personalized tutoring in math and STEM, from school support and enrichment to advanced coursework, including AP-level preparation."
+    cta_url: "/tutoring/"
+    cta_text: "Explore Tutoring"
+    badge_text: "1-on-1 or Small Group"
 
 ####################### Camps #########################
 camps:
