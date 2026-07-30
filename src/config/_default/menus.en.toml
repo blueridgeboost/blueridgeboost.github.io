@@ -88,7 +88,7 @@
 ############ Competitions ############
 [[main]]
     name        = "WRO"
-    weight      = 6
+    weight      = 7
 
 # [[main]]
 #     parent      = "Competitions"
@@ -106,23 +106,23 @@
 [[main]]
     name        = "Birthdays"
     url         = "/birthdays/"
-    weight      = 7
+    weight      = 5
 ############ Gaming ############
 [[main]]
     name       = "Gaming"
     url        = "/gaming/"
-    weight     = 8
+    weight     = 6
 
 
 ############ Tutoring ############
 [[main]]
     name       = "Tutoring"
     url        = "/tutoring/"
-    weight     = 9
+    weight     = 3
 
 ############ Homeschool ############
 [[main]]
     name       = "Homeschool"
-    url        = "/independent-learners/"
-    weight     = 10
+    url        = "/homeschool/"
+    weight     = 4
 
