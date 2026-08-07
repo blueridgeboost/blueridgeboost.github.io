@@ -7,6 +7,7 @@
   "scripts": {
     "aiGen": "node ./scripts/classes/keywords-and-topics.mjs",
     "one-day-camp-rosters": "node ./scripts/rosters/camp-rosters.mjs",
+    "create-one-day-camps": "node ./scripts/one-day-camps/one-day-camps.js",
     "summer-camp-rosters": "node ./scripts/rosters/summer-camps.mjs",
     "create-summer-camps": "node ./scripts/summer-camps/summer-camps.mjs",
     "update-summer-camps": "node ./scripts/summer-camps/update-availability.mjs",
