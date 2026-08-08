@@ -4,44 +4,38 @@
 [[main]]
     name       = "Classes"
     url        = "/classes/"
-    weight     = 4
+    weight     = 3
 
 [[main]]
     name       = "Kids"
-    url        = "/classes/kids"
+    url        = "/classes/kids/"
     weight     = 1
     parent     = "Classes"
 
 [[main]]
     name       = "Preteens"
-    url        = "/classes/preteens"
+    url        = "/classes/preteens/"
     weight     = 2
     parent     = "Classes"
 
 [[main]]
     parent     = "Classes"
     name       = "Teens"
-    url        = "/classes/teens"
+    url        = "/classes/teens/"
     weight     = 3
 
 [[main]]
     parent     = "Classes"
     name       = "Adults"
-    url        = "/adults"
+    url        = "/adults/"
     weight     = 4
-
-[[main]]
-    parent      = "Classes"
-    name       = "Independent Learners"
-    url        = "/independent-learners/"
-    weight     = 11
 
 ############ Camps ############
 
 [[main]]
     name        = "Camps"
-    url         = "/camps"
-    weight      = 3
+    url         = "/camps/"
+    weight      = 1
 
 [[main]]
     name        = "1-Day"
@@ -83,12 +77,13 @@
 [[main]]
       name        = "Test Prep"
       url         = "/test-prep/"
-      weight      = 5
+      weight      = 6
 
 ############ Competitions ############
 [[main]]
     name        = "WRO"
-    weight      = 7
+    url         = "/#world-robot-olympiad"
+    weight      = 8
 
 # [[main]]
 #     parent      = "Competitions"
@@ -111,14 +106,14 @@
 [[main]]
     name       = "Gaming"
     url        = "/gaming/"
-    weight     = 6
+    weight     = 7
 
 
 ############ Tutoring ############
 [[main]]
     name       = "Tutoring"
     url        = "/tutoring/"
-    weight     = 3
+    weight     = 2
 
 ############ Homeschool ############
 [[main]]
