@@ -60,6 +60,27 @@
   </div>
 </main>
 
+{{/* ── Classes ── */}}
+<section class="hp-section" id="classes">
+  <div class="wrap">
+    <div class="sectionTitle">
+      <div>
+        <h2>Classes</h2>
+        <p>Ongoing weekly learning that builds skills over time—great for kids and teens who like consistency.</p>
+      </div>
+    </div>
+    <div class="grid3" aria-label="Class highlights">
+      {{ range .Params.classes }}
+      <div class="hp-card">
+        <h3>{{ .title }}</h3>
+        <p>{{ .description }}</p>
+        <a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
 {{/* ── Camps ── */}}
 <section class="hp-section" id="camps">
   <div class="wrap">
@@ -80,27 +101,6 @@
           <span class="chip alt">{{ .badge_text }}</span>
           {{ end }}
         </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-
-{{/* ── Classes ── */}}
-<section class="hp-section" id="classes">
-  <div class="wrap">
-    <div class="sectionTitle">
-      <div>
-        <h2>Classes</h2>
-        <p>Ongoing weekly learning that builds skills over time—great for kids and teens who like consistency.</p>
-      </div>
-    </div>
-    <div class="grid3" aria-label="Class highlights">
-      {{ range .Params.classes }}
-      <div class="hp-card">
-        <h3>{{ .title }}</h3>
-        <p>{{ .description }}</p>
-        <a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a>
       </div>
       {{ end }}
     </div>
