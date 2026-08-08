@@ -60,37 +60,57 @@
   </div>
 </main>
 
-{{/* ── Classes ── */}}
+{{/* ── Enrichment Classes ── */}}
 <section class="hp-section" id="classes">
   <div class="wrap">
     <div class="sectionTitle">
       <div>
-        <h2>Classes</h2>
+        <h2>Enrichment Classes</h2>
         <p>Ongoing weekly learning that builds skills over time—great for kids and teens who like consistency.</p>
       </div>
     </div>
-    <div class="grid3" aria-label="Class highlights">
+    <div class="grid3" aria-label="Enrichment classes by age">
       {{ range .Params.classes }}
       <div class="hp-card">
         <h3>{{ .title }}</h3>
         <p>{{ .description }}</p>
-        <a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a>
+        <div class="hp-row">
+          <a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a>
+          {{ if .badge_text }}
+          <span class="chip alt">{{ .badge_text }}</span>
+          {{ end }}
+        </div>
       </div>
       {{ end }}
     </div>
   </div>
 </section>
 
-{{/* ── Camps ── */}}
+{{/* ── Tutoring ── */}}
+<section class="hp-section hp-single-card" id="tutoring">
+  <div class="wrap">
+    <div class="singleCard">
+      <div class="cardContent">
+        <h2>{{ .Params.tutoring.title }}</h2>
+        <p>{{ .Params.tutoring.description | safeHTML }}</p>
+      </div>
+      <div class="cardAction">
+        <a class="btn-new primary" href="{{ .Params.tutoring.url | relURL }}">{{ .Params.tutoring.cta_text }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* ── One-Day Camps ── */}}
 <section class="hp-section" id="camps">
   <div class="wrap">
     <div class="sectionTitle">
       <div>
-        <h2>Camps</h2>
-        <p>Seasonal, hands-on camps that keep kids engaged—plus 1‑Day options.</p>
+        <h2>One-Day Camps</h2>
+        <p>Hands-on STEM camps for ages 6–13 on school breaks, snow days, and teacher workdays. Half-day and full-day options.</p>
       </div>
     </div>
-    <div class="grid3" aria-label="Camp types">
+    <div class="grid3" aria-label="One-day camp topics">
       {{ range .Params.camps }}
       <div class="hp-card">
         <h3>{{ .title }}</h3>
@@ -180,21 +200,6 @@
       </div>
       <div class="cardAction">
         <a class="btn-new primary" href="{{ .Params.gaming.url | relURL }}">{{ .Params.gaming.cta_text }}</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-{{/* ── Tutoring ── */}}
-<section class="hp-section hp-single-card" id="tutoring">
-  <div class="wrap">
-    <div class="singleCard">
-      <div class="cardContent">
-        <h2>{{ .Params.tutoring.title }}</h2>
-        <p>{{ .Params.tutoring.description | safeHTML }}</p>
-      </div>
-      <div class="cardAction">
-        <a class="btn-new primary" href="{{ .Params.tutoring.url | relURL }}">{{ .Params.tutoring.cta_text }}</a>
       </div>
     </div>
   </div>
