@@ -51,14 +51,14 @@ category: 175340602
       <a href="/classes/kids/" class="program-link">View Kids Classes →</a>
     </article>
     <article class="program-card">
-      <h3>Tweens <span class="age-range">Grades 5–6 · Ages 11–12</span></h3>
+      <h3>Preteens <span class="age-range">Grades 5–6 · Ages 11–12</span></h3>
       <ul>
         <li><strong>Math:</strong> Competition Math (Grades 5–6, 7–8)</li>
         <li><strong>Coding:</strong> Python with Tracy the Turtle, Minecraft Coding, Command Blocks, Roblox &amp; Lua, C++</li>
         <li><strong>Robotics:</strong> VEX Battle Bots</li>
         <li><strong>AI:</strong> Introduction to AI for Middle Schoolers</li>
       </ul>
-      <a href="/classes/tweens/" class="program-link">View Tween Classes →</a>
+      <a href="/classes/preteens/" class="program-link">View Preteens Classes →</a>
     </article>
     <article class="program-card">
       <h3>Teens <span class="age-range">Grades 7–12 · Ages 13–18</span></h3>

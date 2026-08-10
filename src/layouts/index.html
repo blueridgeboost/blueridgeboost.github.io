@@ -60,6 +60,32 @@
   </div>
 </main>
 
+{{/* ── One-Day Camps ── */}}
+<section class="hp-section" id="camps">
+  <div class="wrap">
+    <div class="sectionTitle">
+      <div>
+        <h2>One-Day Camps</h2>
+        <p>Hands-on STEM camps for ages 6–13 on school breaks, snow days, and teacher workdays. Half-day and full-day options.</p>
+      </div>
+    </div>
+    <div class="grid3" aria-label="One-day camp topics">
+      {{ range .Params.camps }}
+      <div class="hp-card">
+        <h3>{{ .title }}</h3>
+        <p>{{ .description | safeHTML }}</p>
+        <div class="hp-row">
+          <a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a>
+          {{ if .badge_text }}
+          <span class="chip alt">{{ .badge_text }}</span>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
 {{/* ── Enrichment Classes ── */}}
 <section class="hp-section" id="classes">
   <div class="wrap">
@@ -97,32 +123,6 @@
       <div class="cardAction">
         <a class="btn-new primary" href="{{ .Params.tutoring.url | relURL }}">{{ .Params.tutoring.cta_text }}</a>
       </div>
-    </div>
-  </div>
-</section>
-
-{{/* ── One-Day Camps ── */}}
-<section class="hp-section" id="camps">
-  <div class="wrap">
-    <div class="sectionTitle">
-      <div>
-        <h2>One-Day Camps</h2>
-        <p>Hands-on STEM camps for ages 6–13 on school breaks, snow days, and teacher workdays. Half-day and full-day options.</p>
-      </div>
-    </div>
-    <div class="grid3" aria-label="One-day camp topics">
-      {{ range .Params.camps }}
-      <div class="hp-card">
-        <h3>{{ .title }}</h3>
-        <p>{{ .description | safeHTML }}</p>
-        <div class="hp-row">
-          <a class="chip" href="{{ .url | relURL }}">{{ .cta_text }}</a>
-          {{ if .badge_text }}
-          <span class="chip alt">{{ .badge_text }}</span>
-          {{ end }}
-        </div>
-      </div>
-      {{ end }}
     </div>
   </div>
 </section>
