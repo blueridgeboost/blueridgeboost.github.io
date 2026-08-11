@@ -57,13 +57,14 @@ instructors:
   name: "Nathaneal Wattier"
   role: "Math Teacher, Software Development Intern"
   photo:  "/images/instructors/nophoto.png"
-  bio: "Nathaneal is a second year Math and Computer Science major at UVA who is originally from New Mexico. He is interested in most areas of math and has experience tutoring Algebra, Geometry, Precalculus and Calculus. Nathaneal did Quiz Bowl in high school and was Regionally Ranked, and was also a writer who placed 3rd at a UVA short fiction competition. <br> Eventually he hopes to pursue a postgraduate education, and at Blue Ridge Boost he coaches Math Kangaroo and AMC 8/10 prep courses. Over holidays he teaches Minecraft Coding and Roblox Studio camps. <br>Outside of his job and actuation, Nathaneal is an avid reader and especially enjoys Sci-Fi novels. He also enjoys playing chess casually, so feel free to challenge him to a game if you meet him."
+  bio: "Nathaneal is a third year Math and Computer Science major at UVA who is originally from New Mexico. He is interested in theoretical cryptography and has experience tutoring Algebra, Geometry, Precalculus and Calculus. <br> Eventually he hopes to pursue a postgraduate education, and at Blue Ridge Boost he works on backend integrations and web development, as well as coaching competition math classes. <br>Outside of his job, Nathaneal is an avid reader and especially enjoys Sci-Fi novels. He also enjoys playing chess casually, so feel free to challenge him to a game if you meet him."
 
 - enable : true
   name: "Lain Bowman"
   role: "STEM Instructor and Tutor"
   photo: "/images/instructors/lain.jpg"
   bio: "<p>Lain graduated from the University of Virginia in 2024 with a double major in Computer Science and Physics. They are interested in the use of programming and simulation to expand our understanding of the physical universe. Originally from Appalachia, they care deeply about accessibility of education, and the importance of inclusivity in STEM. Lain is the oldest of five siblings, and has spent years supporting their education and encouraging their love for learning. </p><p>At Blue Ridge Boost, Lain is involved with web development and programs custom professional tools. They design and create class content, provide one-on-one tutoring in math and physics, and teach math, robotics, and computer science both at Blue Ridge Boost and on-site at local schools.</p>"
+
 - enable : false
   name: "Scarlett Morse"
   role: "Camp Instructor<br>Coding and Robotics Teacher"
@@ -75,21 +76,30 @@ instructors:
   role: "Camp Instructor<br>Coding and Robotics Teacher"
   photo:  "/images/instructors/nophoto.png"
   bio: "<p>Carter is a senior at Albemarle High School, and a Community Scholar at the University of Virginia. He is a Field Captain in the Albemarle marching band, a lead programmer on Cavalier Robotics, and is taking Game Design and Entrepreneurship at Ace Academy. He has also attained official Unity certifications in game design and programming. Carter has experience teaching Unity and C#, Unreal Engine, JavaScript, Roblox Studio, Python, and VEX IQ. </p><p>Having never studied it in school, programming has always been a passion and hobby for him. Carter hopes to share this passion and knowledge with the next generation.</p>"
+
 - enable : true
   name: "Dorina Evans"
   role: "Teaching Assistant<br>Coding, Robotics, and Math"
   photo:  "/images/instructors/dorina.jpg"
   bio: "<p>Dorina is a eight-grader at St. Anne’s-Bellfield School. She is passionate about robotics and mathematics.</p><p>Dorina is a member of the <i>Next Level</i> FLL Challenge Team, which won the Robot Design Award at the 24-25 FIRST Championship. Dorina leads the Blue Ridge Robotics FIRST Tech Challenge Team, which earned a Control Award for programming and robot design in January 2025, and co-leads the Aerial Drone Team, which qualified for the Northeast Regional Championship in 2025. At the 2024 <i>Girls Excelling in Math</i> (GEM) competition, Dorina earned first place in the individual competitions, first overall in team rankings, and third place in team engineering."
+
 - enable : false
   name: "Aaush Kulkarni"
   role: "Robotics and Math Teacher"
   photo:  "/images/instructors/nophoto.png"
   bio: "<p>Aayush is a second-year student at the University of Virginia majoring in Neuroscience with a minor in General Business. He has experience as a math instructor, a research assistant in neuroscience, and a volunteer EMT with Tuckahoe Rescue Squad. In middle and high school, he was a VEX IQ and FIRST Robotics World Championship qualifier, where he developed strong skills in engineering, coding, and collaboration that continue to shape his teaching style today.</p><p>Outside of academics, Aayush loves playing pickleball and videogames. Most importantly, he enjoys working with students to help them grow both their skills and their confidence.</p>"
+
 - enable : false
   name: "Ouzman Cisse"
   role: "Robotics Teacher"
   photo:  "/images/instructors/ouzman.jpg"
   bio: "Ouzman is a second year at the University of Virginia. He is studying for a bachelor’s degree in mechanical engineering. Ouzman has great interest in Rocketry, CAD, and robotics."
+
+- enable: true
+  name: "Thomas Traber"
+  role: "Robotics/Coding Instructor and Network Admin"
+  photo: "/images/instructors/nophot.png"
+  bio: ""
 
 - enable : true
   name: "Jacob Dulin"

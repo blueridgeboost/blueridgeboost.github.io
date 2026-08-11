@@ -23,6 +23,7 @@ import mailchimp from '@mailchimp/mailchimp_transactional';
 const envPath = path.join(process.cwd(), '..', '.env');
 console.log(`Loaded environment variables from: ${envPath}`);
 dotenv.config({ path: envPath });
+console.log('MAILCHIMP_KEY:', process.env.MAILCHIMP_KEY ? '***' : 'MISSING');
 
 // ── Recipients ───────────────────────────────────────────────────────────────
 const RECIPIENTS = [
@@ -229,9 +230,9 @@ async function sendSummaryEmail(week, filePath) {
         return;
     }
 
-    await client.messages.send({
+    const result = await client.messages.send({
         message: {
-            from_email: 'nathaneal@blueridgeboost.com',
+            from_email: 'office@blueridgeboost.com',
             from_name:  'Blue Ridge Boost',
             to: RECIPIENTS.map(email => ({ email, type: 'to' })),
             subject: `Camp Summary — ${week.label}`,
@@ -245,6 +246,8 @@ async function sendSummaryEmail(week, filePath) {
             ],
         },
     });
+
+    console.log(`\nSent email with response:`, JSON.stringify(result, null, 2));
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────

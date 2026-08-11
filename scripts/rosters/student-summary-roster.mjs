@@ -8,7 +8,7 @@ import {
     getOrdersByProductId,
     getAttributeValue,
 } from '../ecwid.js';
-import { SUMMER_WEEKS, todayISO, getCurrentWeek } from './roster-helpers.mjs';
+import { SUMMER_WEEKS, todayISO, getCurrentWeek, getNextWeek } from './roster-helpers.mjs';
 import path from 'path';
 import os from 'os';
 import dotenv from 'dotenv';
@@ -232,7 +232,8 @@ function appendCampSection(sheet, campName, rows, campIndex, isFirst) {
 }
 
 async function main() {
-    const week = getCurrentWeek();
+    // const week = getCurrentWeek();
+    const week = getNextWeek();
     if (!week) {
         console.log('No upcoming camp week found. Nothing to generate.');
         return;

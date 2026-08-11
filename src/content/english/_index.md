@@ -1,9 +1,9 @@
 ---
 ####################### Hero Section #########################
 hero_prefix: "Fall 2026"
-hero_highlight: "Day Camps & Classes"
+hero_highlight: "Classes & Day Camps"
 hero_subtitle: "at Blue Ridge Boost in Charlottesville"
-hero_description: "Choose from one-day camps during school breaks, weekly enrichment classes, STEM tutoring—including AP support—SAT Math Review, birthday parties, Gaming Fridays, and the WRO–USEL Regional Open Qualifier. Registration is now open."
+hero_description: "Choose from weekly enrichment classes, one-day camps on school holidays, STEM tutoring—including AP support—SAT Math Review, birthday parties, Gaming Fridays, and the WRO–USEL Regional Open Qualifier. Fall registration is now open."
 
 ####################### Pathways (Hero Cards) #########################
 pathways:
@@ -25,45 +25,48 @@ pathways:
     cta_text: "Explore Tutoring"
     badge_text: "1-on-1 or Small Group"
 
-####################### Camps #########################
-camps:
-  - title: "Summer Camps"
-    description: "Creative tech camps for beginners: coding, robotics, game design, Minecraft, and science."
-    url: "/summer-camps/"
-    cta_text: "Browse Summer Camps"
-    badge_text: "Ages 6-12"
-    
-  - title: "Advanced STEM Camps"
-    description: "Deep technical learning for experienced students: robotics, coding, and game design."
-    url: "/advanced-stem-camps/"
-    cta_text: "View Advanced Camps"
-    badge_text: "Ages 13-18"
-    
-  - title: "Bootcamps"
-    description: "Intensive skill-building programs: Python, Java, Web Development, and robotics."
-    url: "/bootcamps/"
-    cta_text: "Explore Bootcamps"
-    badge_text: "Ages 13-18"
-
 ####################### Classes #########################
 classes:
-  - title: "ACT & SAT Math Review"
-    description: "Summer intensive for high schoolers. Comprehensive review of algebra, geometry, and problem-solving strategies for SAT success."
-    url: "/classes/teens/#!/c/199579306/attribute_Subject=SAT+Math&limit=100"
-    cta_text: "ACT/SAT Math Info"
-    
-  - title: "Summer Competition Math"
-    description: "Ongoing weekly classes, from first to tenth grade with a focus on Math Kangaroo and AMC 8/10 style problems and topics."
-    url: "/classes/#!/c/175340602/attribute_Subject=Math&limit=100"
-    cta_text: "View Classes"
-   
-  - title: "Independent Learners"
-    description: "Our on-demand classes are designed around your schedule and tailored to your student's unique learning style and pace, because no two learners are the same."
-    url: "/independent-learners/"
-    cta_text: "View Opportunities"
+  - title: "Classes for Kids"
+    description: "Minecraft coding, Scratch, LEGO robotics, and math. Weekly classes that turn screen time into real skills."
+    url: "/classes/kids/"
+    cta_text: "View Kids Classes"
+    badge_text: "Ages 6-10"
 
-####################### Test Prep ######################### 
-test_prep: 
+  - title: "Classes for Preteens"
+    description: "Roblox Studio, coding, competition math, and cryptography for students ready to build and problem-solve on their own."
+    url: "/classes/preteens/"
+    cta_text: "View Preteen Classes"
+    badge_text: "Ages 10-13"
+
+  - title: "Classes for Teens"
+    description: "SAT Math preparation and review. "
+    url: "/classes/teens/"
+    cta_text: "View Teen Classes"
+    badge_text: "Ages 14-18"
+
+####################### One-Day Camps #########################
+camps:
+  - title: "Drones & Robotics"
+    description: "Build, program, and fly. A full day of robotics and drone challenges on days off school."
+    url: "/1-day-camps/"
+    cta_text: "See Camp Dates"
+    badge_text: "One-Day Camp"
+
+  - title: "3D Printing & Design"
+    description: "Design and print in house. A hands-on intro to CAD and 3D printing."
+    url: "/1-day-camps/"
+    cta_text: "See Camp Dates"
+    badge_text: "One-Day Camp"
+
+  - title: "Renewable Energy"
+    description: "Real engineering with real problems."
+    url: "/1-day-camps/"
+    cta_text: "See Camp Dates"
+    badge_text: "One-Day Camp"
+
+####################### Test Prep #########################
+test_prep:
   - title: "AP Test Prep"
     description: "The best prep for classes including AP Physics, AP Calc AB/BC, AP Comp Sci, and AP Precalc."
     url: "/test-prep/"
@@ -81,19 +84,19 @@ wro:
     url: "/wro/#robomission"
     cta_text: "Learn More"
     badge_text: "Ages 8-19"
-    
+
   - title: "RoboSports"
     description: "Head-to-head robot competitions combining strategy and engineering. Build robots that compete in sports-themed challenges like tennis doubles. Fast-paced action meets technical precision!"
     url: "/wro/#robosports"
     cta_text: "Learn More"
     badge_text: "Ages 8-19"
-    
+
   - title: "Future Innovators"
     description: "Design and present robotics solutions to real-world problems—like FIRST LEGO League Innovation Project or Science Fair Engineering but on an international stage. Perfect for creative problem-solvers who want to make an impact with technology."
     url: "/wro/#future-innovators"
     cta_text: "Learn More"
     badge_text: "Ages 8-19"
-    
+
   - title: "Future Engineers"
     description: "Build self-driving vehicles that navigate tracks autonomously—the ultimate challenge in sensors, AI, and precision control. Similar to autonomous vehicle competitions but specifically designed for student teams."
     url: "/wro/#future-engineers"
@@ -125,13 +128,13 @@ tutoring:
 trust:
   - title: "Expert Instructors"
     description: "Our teachers are experienced engineers, educators, and competition coaches who love working with kids."
-    
+
   - title: "Small Class Sizes"
     description: "Maximum 8-10 students per class ensures personalized attention and hands-on learning."
-    
+
   - title: "Proven Results"
     description: "Students advance to state and national competitions, build real projects, and develop lasting skills."
-    
+
   - title: "Welcoming Community"
     description: "A supportive environment where kids make friends, explore interests, and grow confidence."
 ---
