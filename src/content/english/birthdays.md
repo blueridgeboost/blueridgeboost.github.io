@@ -15,6 +15,7 @@ aliases: ["/celebrations"]
 
 <div class="container section">
   <p>At Blue Ridge Boost, we turn your child's birthday into a tech-powered adventure with robotics and gaming fun!</p>
+  <p class="text-center"><a class="btn btn-primary btn-sm book-now" href="#book">&#128197; Ready to Book? &#8595;</a></p>
   <h3>Party Details</h3>
   <p><strong>Max 15 Guests + 1 Birthday Kid</strong></p>
   <p><strong>2 hours</strong> of tech-empowered birthday fun!</p>
@@ -111,7 +112,7 @@ aliases: ["/celebrations"]
 </div>
 
 <div class="container section">
-  <section aria-labelledby="save-the-date-title">
+  <section id="book" aria-labelledby="save-the-date-title">
     <h3 id="save-the-date-title">Save the Date!</h3>
     <p> Choose the date and fill out the form below! Heads up: a deposit is required to hold your date. The deposit will go towards your total party price, and the remaining balance is due the day of the party.</p>
   </section>
@@ -163,4 +164,10 @@ aliases: ["/celebrations"]
   .theme-card h6 { margin-bottom: 0.75rem; }
   .form-embed { width: 100%; }
   .form-embed iframe { width: 100%; display: block; }
+  /* Smooth jump to the booking form, minus a bit of headroom so a fixed
+     navbar doesn't cover the heading on landing. Tune 5rem to your header. */
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  #book { scroll-margin-top: 5rem; }
+  .book-now { margin-bottom: 1rem; }
 </style>
