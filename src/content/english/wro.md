@@ -239,8 +239,8 @@ robots: "index, follow"
         <tr>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>3:30 PM -  3:45 PM</strong></td>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Round 3.2</strong><br>
-          • Robomission Elementary: Judging Session 3
-          • Robomission Junior: Judging Session 3
+          • Robomission Elementary: Judging Session 3<br>
+          • Robomission Junior: Judging Session 3<br>
           • Future Engineers: Obstacle Challenge</td>
         </tr>
         <tr>
@@ -250,7 +250,7 @@ robots: "index, follow"
         </tr>
         <tr>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>4:45 PM </strong></td>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Event Concludes</strong><br>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Event Concludes</strong><br></td>
         </tr>
       </tbody>
     </table>
@@ -340,14 +340,21 @@ robots: "index, follow"
     <p>To register a team, please add the desired category to cart and complete the purchase.</p>
   </div>
 
-<div class="container">
+  <div class="container">
+    <div id="my-store-106136041"></div>
   <div>
-    <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
-        charset="utf-8"></script>
+    <script 
+      data-cfasync="false" 
+      type="text/javascript" 
+     src="https://app.ecwid.com/script.js?106136041&data_platform=code"
+      charset="utf-8">
+    </script>
     <script type="text/javascript">
-        xProductBrowser("views=grid(20,2) list(60) table(60)","categoryView=grid","id=my-store-106136041",
-        "defaultCategoryId=187847609");</script>
+      xProductBrowser(
+        "views=grid(20,2) list(60) table(60)","categoryView=grid",
+        "id=my-store-106136041",
+        "defaultCategoryId=187847609"
+      );
+    </script>
+    </div>
   </div>
-</div>
-
-</div>
