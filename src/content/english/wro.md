@@ -245,8 +245,10 @@ robots: "index, follow"
         </tr>
         <tr>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>4:15 PM</strong></td>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Closing Ceremony</strong></td>
-          Medals, trophies, and announcement of teams advancing to International Championships.</td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;">
+          <strong>Closing Ceremony</strong><br>
+          Medals, trophies, and announcement of teams advancing to International Championships.
+          </td>
         </tr>
         <tr>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>4:45 PM </strong></td>
@@ -342,7 +344,6 @@ robots: "index, follow"
 
   <div class="container">
     <div id="my-store-106136041"></div>
-  <div>
     <script 
       data-cfasync="false" 
       type="text/javascript" 
@@ -356,5 +357,7 @@ robots: "index, follow"
         "defaultCategoryId=187847609"
       );
     </script>
-    </div>
   </div>
+
+  
+</div>
