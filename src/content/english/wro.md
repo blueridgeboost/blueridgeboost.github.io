@@ -88,7 +88,8 @@ robots: "index, follow"
         <tr>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>6:00 PM - 8:00 PM</strong></td>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Early Team Check-In (Optional)</strong><br>
-          Pick up badges, find your pit table or booth, and drop off equipment. Note: Practice on official fields is not permitted on Friday evening.</td>
+          Pick up badges, find your pit table or booth, and drop off equipment. 
+          Note: Practice on official fields is not permitted on Friday evening.</td>
         </tr>
       </tbody>
     </table>
@@ -190,7 +191,8 @@ robots: "index, follow"
         <tr>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>8:40 AM - 10:40 AM</strong></td>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Programming & Practice Time</strong><br>
-          Teams have 2 hours to adjust robots and code. Coaches are not permitted in pit areas during this time. Future engineers teams submit Eng. doc and judge questions teams.</td>
+          Teams have 2 hours to adjust robots and code. Coaches are not permitted in pit areas during this time. 
+          Future engineers teams submit Eng. doc and judge questions teams.</td>
         </tr>
         <tr>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>10:40 AM</strong></td>
