@@ -147,7 +147,7 @@ robots: "index, follow"
         </tr>
         <tr>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>3:15 PM - 3:30 PM</strong></td>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Offical Round 2</strong><br>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Official Round 2</strong></br>
           • Robomission Elementary: Judging Session 2<br>
           • Robomission Junior: Judging Session 2</td>
         </tr>
@@ -157,7 +157,7 @@ robots: "index, follow"
         </tr>
         <tr>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>4:45 PM - 5:00 PM</strong></td>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Offical Round 3</strong><br>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Official Round 3</strong></br>
           • Robomission Elementary: Judging Session 3<br>
           • Robomission Junior: Judging Session 3</td>
         </tr>
@@ -359,5 +359,5 @@ robots: "index, follow"
     </script>
   </div>
 
-  
+
 </div>
