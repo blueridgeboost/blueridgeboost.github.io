@@ -133,7 +133,7 @@ robots: "index, follow"
         </tr>
         <tr>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>1:30 PM - 1:45 PM</strong></td>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Robot Inspection</strong><br>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Robot Inspection</strong><br></td>
         </tr>
         <tr>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>1:45 PM - 2:00 PM</strong></td>
