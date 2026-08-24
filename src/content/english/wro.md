@@ -88,7 +88,8 @@ robots: "index, follow"
         <tr>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>6:00 PM - 8:00 PM</strong></td>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Early Team Check-In (Optional)</strong><br>
-          Pick up badges, find your pit table or booth, and drop off equipment. Note: Practice on official fields is not permitted on Friday evening.</td>
+          Pick up badges, find your pit table or booth, and drop off equipment. 
+          Note: Practice on official fields is not permitted on Friday evening.</td>
         </tr>
       </tbody>
     </table>
@@ -104,49 +105,67 @@ robots: "index, follow"
         <tr>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>8:30 AM</strong></td>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Team Check-In Opens</strong><br>
-          All teams receive badges. Future Innovators teams may begin setting up project booths.</td>
+          All teams receive badges.</td>
         </tr>
         <tr>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>9:30 AM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>9:00 AM</strong></td>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Coaches & Team Captains Meeting</strong><br>
           Mandatory meeting to review rules, schedule, and procedures.</td>
         </tr>
         <tr>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>10:00 AM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>9:30 AM</strong></td>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Opening Ceremony</strong><br>
           Welcome remarks and event kickoff.</td>
         </tr>
         <tr>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>10:30 AM - 12:30 PM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>10:00 AM - 12:00 PM</strong></td>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Practice & Calibration</strong><br>
-          Teams test robots on official competition fields. Future Innovators test booth displays.</td>
+          Teams test robots on official competition fields. Robomission challenge announcement.</td>
         </tr>
         <tr>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>12:30 PM - 1:30 PM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>12:00 PM - 1:00 PM</strong></td>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Lunch Break</strong><br>
           Pits closed and secured.</td>
         </tr>
         <tr>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>1:30 PM - 3:00 PM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>1:00 PM - 1:30 PM</strong></td>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Additional Practice Time</strong><br>
           Final adjustments before inspection.</td>
         </tr>
         <tr>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>3:00 PM</strong></td>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Robot Inspection</strong><br>
-          All RoboMission, RoboSports, and Future Engineers robots must pass inspection and enter quarantine (Parc Fermé).</td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>1:30 PM - 1:45 PM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Robot Inspection</strong><br></td>
         </tr>
         <tr>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>3:30 PM - 5:30 PM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>1:45 PM - 2:00 PM</strong></td>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Official Round 1</strong><br>
-          • RoboMission & Future Engineers: Round 1<br>
-          • RoboSports: Match Block 1<br>
-          • Future Innovators: Judging Session 1</td>
+          • Robomission Elementary: Judging Session 1<br>
+          • Robomission Junior: Judging Session 1</td>
         </tr>
         <tr>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>5:30 PM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>2:00 PM - 3:00 PM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Practice</strong><br>
+        </tr>
+        <tr>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>3:15 PM - 3:30 PM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Official Round 2</strong></br>
+          • Robomission Elementary: Judging Session 2<br>
+          • Robomission Junior: Judging Session 2</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>3:45 PM - 4:45 PM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Practice</strong><br>
+        </tr>
+        <tr>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>4:45 PM - 5:00 PM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Official Round 3</strong></br>
+          • Robomission Elementary: Judging Session 3<br>
+          • Robomission Junior: Judging Session 3</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>4:45 PM - 5:00 PM</strong></td>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Day 1 Concludes</strong><br>
-          Scores posted. Venue closes for the evening.</td>
+          Scores posted. Venue closes for the night.</td>
         </tr>
       </tbody>
     </table>
@@ -167,68 +186,82 @@ robots: "index, follow"
         <tr>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>8:30 AM</strong></td>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Surprise Rule Announced</strong><br>
-          RoboMission surprise modifications and Future Engineers obstacle randomization revealed.</td>
+          RoboMission surprise challenge and Future Engineers obstacle randomization revealed.</td>
         </tr>
         <tr>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>8:45 AM - 10:45 AM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>8:40 AM - 10:40 AM</strong></td>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Programming & Practice Time</strong><br>
-          Teams have 2 hours to adjust robots and code. Coaches are not permitted in pit areas during this time.</td>
+          Teams have 2 hours to adjust robots and code. Coaches are not permitted in pit areas during this time. 
+          Future engineers teams submit Eng. doc and judge questions teams.</td>
         </tr>
         <tr>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>10:45 AM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>10:40 AM</strong></td>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Robot Inspection</strong><br>
           Robots are reinspected and returned to quarantine.</td>
         </tr>
         <tr>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>11:15 AM - 12:45 PM</strong></td>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Official Round 2</strong><br>
-          • RoboMission & Future Engineers: Round 2<br>
-          • RoboSports: Match Block 2<br>
-          • Future Innovators: Judging Session 2</td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>10:50 AM - 11:05 PM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Official Round 1.2</strong><br>
+          • Future Engineers: Open Challenge<br>
+          • Robomission Elementary: Judging Session 1<br>
+          • Robomission Junior: Judging Session 1</td>
         </tr>
         <tr>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>12:45 PM - 1:30 PM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>11:05 AM - 12:05</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Practice</strong><br>
+          Additional practice window.</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>12:05 PM - 1:05 PM</strong></td>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Lunch Break</strong><br>
           Pits closed and secured.</td>
         </tr>
         <tr>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>1:30 PM - 2:00 PM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>1:15 PM - 1:45 PM</strong></td>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Maintenance Window</strong><br>
           Brief window for battery changes or final code adjustments.</td>
         </tr>
         <tr>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>2:00 PM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>1:45 PM</strong></td>
           <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Final Quarantine</strong><br>
           Robots enter Parc Fermé for the final time.</td>
         </tr>
         <tr>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>2:15 PM - 3:45 PM</strong></td>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Official Round 3 & Finals</strong><br>
-          • RoboMission & Future Engineers: Round 3<br>
-          • RoboSports: Match Block 3 / Finals<br>
-          • Future Innovators: Judging Session 3</td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>2:00 PM - 2:15 PM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Official Round 2.2</strong><br>
+          • Future Engineers: Open Challenge<br>
+          • Robomission Elementary: Judging Session 2<br>
+          • Robomission Junior: Judging Session 2</td>
         </tr>
         <tr>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>3:45 PM</strong></td>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Competition Ends</strong><br>
-          Teams may begin packing up pit areas and booths.</td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>2:30 PM - 3:30 pm</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Practice</strong><br>
+          Additional practice window.</td>
         </tr>
         <tr>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>4:30 PM</strong></td>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Awards & Closing Ceremony</strong><br>
-          Medals, trophies, and announcement of teams advancing to International Championships.</td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>3:30 PM -  3:45 PM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Round 3.2</strong><br>
+          • Robomission Elementary: Judging Session 3<br>
+          • Robomission Junior: Judging Session 3<br>
+          • Future Engineers: Obstacle Challenge</td>
         </tr>
         <tr>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>5:30 PM</strong></td>
-          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Event Concludes</strong><br>
-          Teams depart with equipment.</td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>4:15 PM</strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;">
+          <strong>Closing Ceremony</strong><br>
+          Medals, trophies, and announcement of teams advancing to International Championships.
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>4:45 PM </strong></td>
+          <td style="padding: 0.75rem; border: 1px solid #ddd;"><strong>Event Concludes</strong><br></td>
         </tr>
       </tbody>
     </table>
     <p style="background-color: #fff3cd; padding: 1rem; border-left: 4px solid #ffc107; margin-top: 1rem;">
       <strong>📌 Important Notes:</strong><br>
-      • Coaches must attend the mandatory meeting on Saturday at 9:30 AM<br>
-      • Coaches are not permitted in pit areas during Sunday's 2-hour programming session (8:45-10:45 AM)<br>
+      • Coaches must attend the mandatory meeting on Saturday at 9:00M<br>
+      • Coaches are not permitted in pit areas during Sunday's 2-hour programming session (8:40 AM - 10:40 AM)<br>
       • All times are subject to minor adjustments based on competition flow
     </p>
   </div>
@@ -239,18 +272,6 @@ robots: "index, follow"
       <h3>🤖 RoboMission</h3>
       <p>
         Program autonomous robots to complete missions on a themed playing field. Available at Elementary, Junior, and Senior levels.
-      </p>
-    </article>
-    <article class="subject-card">
-      <h3>⚽ RoboSports</h3>
-      <p>
-        Build robots that compete head-to-head in sports-themed challenges. Teamwork, strategy, and engineering combined.
-      </p>
-    </article>
-    <article class="subject-card">
-      <h3>💡 Future Innovators</h3>
-      <p>
-        Design a robotics-based solution to a real-world problem. Combine creativity, research, and engineering in an open-ended project.
       </p>
     </article>
     <article class="subject-card">
@@ -323,14 +344,22 @@ robots: "index, follow"
     <p>To register a team, please add the desired category to cart and complete the purchase.</p>
   </div>
 
-<div class="container">
-  <div>
-    <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code"
-        charset="utf-8"></script>
+  <div class="container">
+    <div id="my-store-106136041"></div>
+    <script 
+      data-cfasync="false" 
+      type="text/javascript" 
+     src="https://app.ecwid.com/script.js?106136041&data_platform=code"
+      charset="utf-8">
+    </script>
     <script type="text/javascript">
-        xProductBrowser("views=grid(20,2) list(60) table(60)","categoryView=grid","id=my-store-106136041",
-        "defaultCategoryId=187847609");</script>
+      xProductBrowser(
+        "views=grid(20,2) list(60) table(60)","categoryView=grid",
+        "id=my-store-106136041",
+        "defaultCategoryId=187847609"
+      );
+    </script>
   </div>
-</div>
+
 
 </div>
