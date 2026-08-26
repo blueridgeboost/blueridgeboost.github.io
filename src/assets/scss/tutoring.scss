@@ -1,143 +1,142 @@
 // ============================================================
-// Tutoring pages (layout: "tutoring")
-// Used by content/english/tutoring.md and content/english/test-prep/_index.md
+// Tutoring and test-prep pages
 // ============================================================
 
-// `_common.scss` puts `margin-bottom: 1rem` on every `.content *` and strips it
-// from `:last-child`. Grid items stretch to the row height, so that rule leaves
-// the last card in a row 1rem taller than its siblings. These blocks opt out and
-// set their own rhythm below.
-.tutoring-rates,
-.tutoring-about,
-.tutoring-request,
-.rates-header,
-.tiers {
-  &,
-  & *,
-  & *:last-child {
-    margin-bottom: 0;
-  }
-}
-
-// ── Section rhythm ──
 .tutoring-rates,
 .tutoring-about,
 .tutoring-request {
-  max-width: 880px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 960px;
+  margin-inline: auto;
 
   + section {
-    margin-top: 3rem;
+    margin-top: clamp(2.5rem, 6vw, 4rem);
   }
 
   > h2,
   > h3 {
-    font-size: clamp(1.2rem, 2.4vw, 1.5rem);
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    color: $text-dark;
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.65rem;
   }
 
   > p {
+    max-width: 72ch;
     color: $text-color;
-    font-size: 1rem;
-    line-height: 1.65;
   }
 }
 
 .rates-header {
+  max-width: 720px;
   margin-bottom: 1.5rem;
 
   h2 {
-    font-size: clamp(1.2rem, 2.4vw, 1.5rem);
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    color: $text-dark;
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.55rem;
   }
 
   p {
     color: $text-color;
-    font-size: 1rem;
-    line-height: 1.65;
   }
 }
 
-// ── Rate cards ──
 .tiers {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
   align-items: stretch;
+  gap: 1rem;
   margin-top: 1.5rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .tier {
+  position: relative;
   display: flex;
+  height: 100%;
+  min-height: 230px;
   flex-direction: column;
   gap: 0.75rem;
-  padding: 1.25rem;
-  background: linear-gradient(180deg, rgba($lightest-blue, 0.6) 0%, $surface-solid 70%);
+  padding: 1.4rem;
+  overflow: hidden;
+  background: linear-gradient(180deg, $lightest-blue, $surface-solid 55%);
   border: 1px solid $border-color;
-  border-radius: $radius-sm;
-  box-shadow: 0 1px 2px rgba(10, 20, 60, 0.05);
-  transition:
-    transform 0.18s ease,
-    box-shadow 0.18s ease,
-    border-color 0.18s ease;
+  border-radius: $radius;
+  box-shadow: $shadow-sm;
+  @include interactive-lift;
 
-  &:hover {
-    transform: translateY(-2px);
-    border-color: rgba($color-primary, 0.35);
-    box-shadow: 0 10px 24px rgba(10, 20, 60, 0.1);
+  &::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 5px;
+    background: linear-gradient(90deg, $color-primary, $color-secondary);
+    content: "";
   }
 
   h3 {
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 1.35;
-    letter-spacing: -0.01em;
-    color: $text-dark;
+    margin: 0;
+    font-size: 1.12rem;
   }
 
   .desc {
-    color: $text-light;
-    font-size: 0.925rem;
-    line-height: 1.5;
+    color: $text-color;
+    font-size: 0.92rem;
+    line-height: 1.6;
   }
 }
 
-// Price sits flush with the bottom of the card so every row of prices lines up
-// regardless of how many lines the heading above it takes.
+.tier:nth-child(2)::before {
+  background: linear-gradient(90deg, $color-purple, $color-primary);
+}
+
+.tier:nth-child(3)::before {
+  background: linear-gradient(90deg, $color-accent, $color-accent2);
+}
+
 .price {
   display: flex;
   align-items: baseline;
-  flex-wrap: wrap;
   gap: 0.35rem;
   margin-top: auto;
-  font-size: clamp(1.35rem, 2.6vw, 1.6rem);
-  font-weight: 800;
-  letter-spacing: -0.02em;
   color: $color-primary;
-  line-height: 1.2;
+  font-size: clamp(1.45rem, 3vw, 1.9rem);
+  font-weight: 850;
+  line-height: 1.15;
+  flex-wrap: wrap;
 
-  .price-prefix {
-    font-size: 0.8rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: $text-light;
-  }
-
+  .price-prefix,
   small,
   .price-unit {
-    font-size: 0.85rem;
-    font-weight: 600;
     color: $text-light;
-    letter-spacing: 0;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
   }
+
+  .price-prefix {
+    text-transform: uppercase;
+  }
+}
+
+.tutoring-about {
+  padding: clamp(1.3rem, 4vw, 2rem);
+  background: linear-gradient(135deg, $lightest-blue, $surface-solid);
+  border: 1px solid rgba($color-primary, 0.16);
+  border-radius: $radius;
+  box-shadow: $shadow-xs;
+}
+
+.form-embed {
+  margin-top: 1.5rem;
+  overflow: hidden;
+  background: $surface-solid;
+  border: 1px solid $border-color;
+  border-radius: $radius;
+  box-shadow: $shadow-sm;
+}
+
+.tutoring-selected {
+  color: $white !important;
+  background: linear-gradient(135deg, $darkest-blue, $color-primary) !important;
+  border-color: $darkest-blue !important;
+  box-shadow: $shadow !important;
+  transform: translateY(-3px);
 }
 
 @media (max-width: 860px) {
@@ -146,43 +145,12 @@
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 575px) {
   .tiers {
     grid-template-columns: 1fr;
   }
-}
 
-// ── About panel ──
-.tutoring-about {
-  padding: 1.5rem;
-  background: $lightest-blue;
-  border: 1px solid rgba($color-primary, 0.12);
-  border-radius: $radius-sm;
-}
-
-// ── Embedded Jotform ──
-// Height is driven by Jotform's own embed handler script.
-.form-embed {
-  margin-top: 1.5rem;
-  border: 1px solid $border-color;
-  border-radius: $radius-sm;
-  overflow: hidden;
-  background: $surface-solid;
-  box-shadow: 0 1px 6px rgba(10, 20, 60, 0.06);
-}
-
-// ── Selected state for the schedule-picker buttons on the test prep page ──
-.tutoring-selected {
-  box-shadow: 0px 20px 0px $darkest-blue !important;
-  transform: translateY(-20px);
-  background-color: $darkest-blue !important;
-  color: white !important;
-  border: none !important;
-}
-
-@media (max-width: 820px) {
   .tutoring-selected {
-    box-shadow: 20px 0px 0px $darkest-blue !important;
-    transform: translateX(-20px) !important;
+    transform: none !important;
   }
 }

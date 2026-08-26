@@ -1,580 +1,1108 @@
-.btn-description {
-  font-size:larger;
-  font-weight: 1000;
-}
-
-.darknote {
-  background-color: #001f3f;
-  color: #ffffff;
-  display: block;
-  padding: 10px;
-  margin: 10px 0;
-  text-align: center;
-  border-radius: 5px;
-}
-
-.darknote-link{
-  color: #ffffff !important;
-  text-decoration: underline !important;
-  font-weight: 700 !important;
-}
-
-.container_frontpage {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.column {
-    padding: 1rem;
-    min-width: 200px;
-}
-
-.left {
-    flex: 1;
-    
-}
-.right {
-  flex: .75;
-  
-}
-
-.middle {
-    background-color: #005172;
-    flex: 2.5;
-    flex-basis: 50%;
-    min-width: 300px;
-    max-width: 600px;
-}
-.photo {
-  background-color: #d0e7ff;
-  flex: 2.5;
-  flex-basis: 50%;
-  min-width: 300px;
-  max-width: 500px;
-}
-.filterleft {
-  flex: 1;
-  max-width: 15%; 
-  padding: 10px;
-}
-
-.classesright {
-  flex: 1;
-  max-width: 75%; 
-  padding: 10px;
-  flex-wrap: wrap;
-}
-
-@media (max-width: 992px) {
-  .filterleft, .classesright {
-    max-width: 100%;
-    flex: 1;
-  }
-}
-
-.rowparty {
-  display: flex;
-}
+/* ==========================================================
+   CUSTOM.SCSS
+   Header, desktop navigation, dropdowns, cart and mobile menu
+   ========================================================== */
 
 
-.columnparty {
-  flex: 50%;
-}
+/* ----------------------------------------------------------
+   1. Design variables
+   ---------------------------------------------------------- */
 
-.block-display {
-  display:block
-}
+$header-background: #ffffff;
+$header-border: #e7edf5;
 
-.divider {
-  height: 4px;
-  width: 800px;
-  flex: 1;
-  background-color: #0056b3;
-  margin: 1.5rem 0;
-}
+$text-primary: #172b4d;
+$text-secondary: #52647d;
 
-.learn-list {
-list-style-type: "🔔";
-background-color: aqua;
-list-style: none;
-margin-left: 0;
-padding-left: 0;
-}
+$brand-blue: #1463df;
+$brand-blue-dark: #0d4fbd;
+$brand-blue-light: #edf5ff;
 
-.small-spacer {
-padding-top: 20px;
-}
+$hover-background: #f4f7fb;
+$active-background: #eaf2ff;
 
-.class-content {
-padding-top: 1rem;
-}
+$dropdown-border: #dfe7f1;
 
-* {
-box-sizing: border-box;
-}
+$mobile-breakpoint: 900px;
 
-form {
-align-self: center;
-box-shadow: 0px 0px 0px 0.5px rgba(50, 50, 93, 0.1),
-  0px 2px 5px 0px rgba(50, 50, 93, 0.1), 0px 1px 1.5px 0px rgba(0, 0, 0, 0.07);
-border-radius: 7px;
-padding: 40px;
-}
 
-.hidden {
-display: none;
-}
+/* ----------------------------------------------------------
+   2. Header container
+   ---------------------------------------------------------- */
 
-#payment-message {
-color: rgb(105, 115, 134);
-font-size: 1rem;
-line-height: 20px;
-padding-top: 12px;
-text-align: center;
-}
+.site-header {
+  position: relative;
+  z-index: 1000;
 
-#payment-element {
-margin-bottom: 24px;
-}
-
-button {
-background: #5469d4;
-font-family: Arial, sans-serif;
-color: #ffffff;
-border-radius: 4px;
-border: 0;
-padding: 12px 16px;
-font-size: 1rem;
-font-weight: 600;
-cursor: pointer;
-display: block;
-transition: all 0.2s ease;
-box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
-width: 100%;
-}
-button:hover {
-filter: contrast(115%);
-}
-button:disabled {
-opacity: 0.5;
-cursor: default;
-}
-
-div.fullclass {
-text-align: center;
-background-color: lightpink;
-}
-
-.spinner,
-.spinner:before,
-.spinner:after {
-border-radius: 50%;
-}
-.spinner {
-color: #ffffff;
-font-size: 1.2rem;
-text-indent: -99999px;
-margin: 0px auto;
-position: relative;
-width: 20px;
-height: 20px;
-box-shadow: inset 0 0 0 2px;
--webkit-transform: translateZ(0);
--ms-transform: translateZ(0);
-transform: translateZ(0);
-}
-.spinner:before,
-.spinner:after {
-position: absolute;
-content: "";
-}
-.spinner:before {
-width: 10.4px;
-height: 20.4px;
-background: #5469d4;
-border-radius: 20.4px 0 0 20.4px;
-top: -0.2px;
-left: -0.2px;
--webkit-transform-origin: 10.4px 10.2px;
-transform-origin: 10.4px 10.2px;
--webkit-animation: loading 2s infinite ease 1.5s;
-animation: loading 2s infinite ease 1.5s;
-}
-.spinner:after {
-width: 10.4px;
-height: 10.2px;
-background: #5469d4;
-border-radius: 0 10.2px 10.2px 0;
-top: -0.1px;
-left: 10.2px;
--webkit-transform-origin: 0px 10.2px;
-transform-origin: 0px 10.2px;
--webkit-animation: loading 2s infinite ease;
-animation: loading 2s infinite ease;
-}
-
-@-webkit-keyframes loading {
-0% {
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
-}
-100% {
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
-}
-}
-@keyframes loading {
-0% {
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
-}
-100% {
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
-}
-}
-
-@media only screen and (max-width: 600px) {
-form {
-  width: auto;
-  min-width: initial;
-}
-}
-
-.special-button {
-background-color:aquamarine; 
-border-radius: 0px;
-padding: 0.5em;
-transition: 0.3 ease;
-color: #005172;
-border-color: #005172;
-border: 2px solid;
-line-height: 1;
-font-size: 1.5em;
-}
-
-.mb-5 {
-  margin-bottom: 1rem !important; 
-}
-
-.mb-4 {
-  margin-bottom: .5rem !important;
-}
-
-.theme-section {
-  margin-bottom: 2rem;
-}
-.theme-card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 10px;
-  background-color: #f9f9f9;
-}
-.theme-card h3 {
-  margin: 0 0 0.5rem 0;
-}
-.theme-card h5 {
-  font-size: smaller;
-  margin: 0 0 0.5rem 0;
-}
-.theme-card h6 {
-  font-size: medium;
-  margin: 0 0 0.2rem 0;
-}
-.price-table {
   width: 100%;
-  border-collapse: collapse;
-  margin-top: 1rem;
-}
-.price-table th, .price-table td {
-  border: 1px solid #ccc;
-  padding: 0.5rem;
-  text-align: left;
-}
-.price-table th {
-  background-color: #e6f2f8;
-  color: #003359;
-}
-.price-table td {
-  background-color: #eef7fb;
+
+  background: $header-background;
+  border-top: 2px solid #f47b37;
+  border-bottom: 1px solid $header-border;
+
+  box-shadow: 0 2px 10px rgba(23, 43, 77, 0.04);
 }
 
-.group-section {
-  margin-bottom: 2rem;
-}
-.group-card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 10px;
-  background-color: #f9f9f9;
-  flex: 1 1 calc(25% - 20px);
-}
-.group-card h3 {
-  margin: 0 0 0.5rem 0;
-}
-.group-card h5 {
-  font-size: smaller;
-  margin: 0 0 0.5rem 0;
-}
-.group-card h6 {
-  font-size: medium;
-  margin: 0 0 0.2rem 0;
+.site-header *,
+.site-header *::before,
+.site-header *::after {
+  box-sizing: border-box;
 }
 
-.hero-section {
-  background-color: $darkest-blue;
-  color: white;
-  padding: 20px 10px;
-  text-align: center;
-}
-.tournament-banner {
-  background-color: $lightest-blue;
-  padding: 10px;
-  text-align: center;
-  border-radius: 10px;
-  margin-top: 10px;
-}
-.details-section {
-  margin: 40px 0;
-}
-.event-highlights {
-  background-color: #f8f9fa;
-  padding: 20px;
-  border-radius: 10px;
+.site-header .wrap {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
-// Event Details Grid - 3 columns on medium+ screens
-.details-grid {
-  display: grid;
-  gap: 1rem;
-  
-  // Mobile: 1 column
-  grid-template-columns: 1fr;
-  
-  // Medium screens and above: 3 columns
-  @media (min-width: 768px) {
-    grid-template-columns: repeat(3, 1fr);
-  }
+
+/* ----------------------------------------------------------
+   3. Main header row
+   ---------------------------------------------------------- */
+
+.site-header .nav {
+  display: flex !important;
+  flex-flow: row nowrap !important;
+  align-items: center !important;
+
+  width: 100%;
+  min-height: 68px;
+  margin: 0;
 }
 
-// Fix equal height for ALL programs-grid sections
-.programs-overview .programs-grid {
-  display: grid !important;
-  gap: 1.5rem;
-  
-  // Mobile: 1 column
-  grid-template-columns: 1fr;
-  
-  // Tablet/Desktop: auto-fit with equal widths
-  @media (min-width: 768px) {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    align-items: stretch;
-  }
-}
-
-// Competition Categories: 4 columns on medium+ screens
-.programs-overview .subjects-grid {
-  display: grid !important;
-  gap: 1.5rem;
-  align-items: start;
-  
-  // Mobile: 1 column
-  grid-template-columns: 1fr;
-  
-  // Tablet and above: 2 columns
-  @media (min-width: 768px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  // Medium screens and above: 4 columns
-  @media (min-width: 992px) {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-// Make all cards equal height using grid
-.programs-overview .program-card,
-.programs-overview .subject-card {
-  display: grid;
-  grid-template-rows: auto 1fr;
-  height: 100%;
-  align-content: start;
-  
-  h3 {
-    margin-bottom: 1rem;
-  }
-  
-  p {
-    margin: 0;
-  }
-}
-
-.tight-text p {
-  margin-top: 0;
-  margin-bottom: 0px;
-  line-height: 1.0;
-}
-
-.tight-list { 
-  margin: 0; 
-  padding-left: 0;  
-  list-style: none  !important;
-}
-
-.tight-list li { 
-  margin: 0; 
-  line-height: 1.2;
-  list-style: none
-}
-
-.pricing-list {
-  list-style: none;
-  padding: 0;
-  margin: 20px 0;
-}
-
-.pricing-list li {
-  background-color: #f4f4f4;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 15px 20px;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
+.site-header .brand {
+  display: inline-flex;
+  flex: 0 0 auto;
   align-items: center;
-  font-size: 16px;
+
+  margin: 0;
+  padding: 0;
+
+  color: $text-primary;
+  text-decoration: none;
 }
 
-.pricing-list li:last-child {
-  margin-bottom: 0;
+.site-header .brand img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: 48px;
 }
 
-.pricing-list li strong {
-  font-weight: 600;
-  color: #333;
+
+/* ----------------------------------------------------------
+   4. Desktop navigation wrapper
+   ---------------------------------------------------------- */
+
+.site-header .nav > nav {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+
+  min-width: 0;
+  margin: 0;
+  padding: 0 10px;
 }
 
-.pricing-list li span {
-  font-weight: 700;
-  color: #555;
-  font-size: 16px;
+.site-header .nav-list {
+  display: flex !important;
+  flex-flow: row nowrap !important;
+  align-items: center !important;
+
+  gap: 2px;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  list-style: none !important;
 }
 
-.pricing-list li:hover {
-  background-color: #e9ecef;
-  border-color: #bbb;
+.site-header .nav-list > li {
+  position: relative;
+
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  list-style: none !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+
+/* ----------------------------------------------------------
+   5. All desktop top-level links
+   ---------------------------------------------------------- */
+
+.site-header .nav-list > li > a,
+.site-header .nav-list > li > .nav-link,
+.site-header .nav-list > li > button,
+.site-header .nav-list > li > .has-dropdown {
+  position: relative;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  gap: 7px;
+
+  min-height: 42px;
+  margin: 0 !important;
+  padding: 0 11px !important;
+
+  color: $text-primary !important;
+  background: transparent !important;
+
+  border: 1px solid transparent !important;
+  border-radius: 9px !important;
+
+  font-family: inherit;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  letter-spacing: -0.1px;
+  text-align: center;
+  text-decoration: none !important;
+  white-space: nowrap;
+
   cursor: pointer;
-}
-
-@media (max-width: 600px) {
-  .pricing-list li {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .pricing-list li span {
-    margin-top: 5px;
-  }
-}
-
-.navigation .nav-item .nav-link {
-  color: rgba(7, 16, 34, 0.74) !important;
-}
-
-/* Filter bar wrapper */
-#all-classes .ec-store .ec-filters {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 14px;
-  margin-bottom: 24px;
-}
-
-/* "FILTER BY:" label */
-#all-classes .ec-store .ec-filters__label,
-#all-classes .ec-store .ec-filter__label {
-  font-size: 14px;
-  font-weight: 700;
-  color: #111827;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
-  margin-right: 6px;
-}
-
-/* Each filter block */
-#all-classes .ec-store .ec-filter,
-#all-classes .ec-store .ec-filter__body {
-  margin: 0;
-}
-
-/* Select / dropdown pill style */
-#all-classes .ec-store select,
-#all-classes .ec-store .form-control,
-#all-classes .ec-store .ec-filter select {
+  box-shadow: none !important;
   appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  background: #fff;
-  border: 1px solid #d1d5db;
-  border-radius: 9999px;
-  height: 42px;
-  min-width: 140px;
-  padding: 0 42px 0 16px;
+
+  transition:
+    color 160ms ease,
+    background-color 160ms ease,
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+
+/* Remove permanent boxes from dropdown triggers. */
+
+.site-header .nav-list > li > .has-dropdown,
+.site-header .nav-list > li > .nav-link.has-dropdown,
+.site-header .nav-list > li.nav-dropdown > .nav-link {
+  color: $text-primary !important;
+  background: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+
+/* ----------------------------------------------------------
+   6. Top-level hover and keyboard states
+   ---------------------------------------------------------- */
+
+.site-header .nav-list > li > a:hover,
+.site-header .nav-list > li > .nav-link:hover,
+.site-header .nav-list > li > button:hover,
+.site-header .nav-list > li:hover > .nav-link {
+  color: $brand-blue !important;
+  background: $hover-background !important;
+  border-color: #e2e9f2 !important;
+
+  box-shadow: 0 3px 10px rgba(23, 43, 77, 0.06) !important;
+  transform: translateY(-1px);
+}
+
+.site-header .nav-list > li > a:focus-visible,
+.site-header .nav-list > li > .nav-link:focus-visible,
+.site-header .nav-list > li > button:focus-visible {
+  color: $brand-blue !important;
+  background: $hover-background !important;
+  border-color: #8eb6f3 !important;
+
+  outline: 3px solid rgba(20, 99, 223, 0.16) !important;
+  outline-offset: 2px !important;
+}
+
+
+/* ----------------------------------------------------------
+   7. Current-page state
+   ---------------------------------------------------------- */
+
+.site-header .nav-list > li > a.active,
+.site-header .nav-list > li > a[aria-current="page"],
+.site-header .nav-list > li > .nav-link.active,
+.site-header .nav-list > li.active > .nav-link {
+  color: $brand-blue-dark !important;
+  background: $active-background !important;
+  border-color: #c9daf5 !important;
+  box-shadow: none !important;
+}
+
+
+/* Small active indicator beneath the current link. */
+
+.site-header .nav-list > li > a.active::after,
+.site-header .nav-list > li > a[aria-current="page"]::after,
+.site-header .nav-list > li > .nav-link.active::after,
+.site-header .nav-list > li.active > .nav-link::after {
+  position: absolute;
+  right: 11px;
+  bottom: 4px;
+  left: 11px;
+
+  height: 2px;
+
+  content: "";
+
+  background: $brand-blue;
+  border-radius: 10px;
+}
+
+
+/* ----------------------------------------------------------
+   8. Emoji and menu icons
+   ---------------------------------------------------------- */
+
+.site-header .nav-list .nav-icon,
+.site-header .nav-list .menu-icon,
+.site-header .nav-list .emoji {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+
   font-size: 14px;
-  font-weight: 600;
-  color: #0f172a;
-  box-shadow: none;
-  outline: none;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 20 20' fill='none'><path d='M5 7.5L10 12.5L15 7.5' stroke='%236b7280' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/></svg>");
-  background-repeat: no-repeat;
-  background-position: right 14px center;
-  background-size: 16px 16px;
+  line-height: 1;
 }
 
-/* Hover/focus */
-#all-classes .ec-store select:hover,
-#all-classes .ec-store .form-control:hover,
-#all-classes .ec-store .ec-filter select:hover {
-  border-color: #9ca3af;
+
+/* ----------------------------------------------------------
+   9. Dropdown arrow
+   ---------------------------------------------------------- */
+
+.site-header .dropdown-arrow {
+  display: block !important;
+  flex: 0 0 auto;
+
+  width: 10px !important;
+  height: 10px !important;
+  margin: 0 0 0 1px !important;
+
+  color: currentColor;
+
+  transition: transform 180ms ease;
 }
 
-#all-classes .ec-store select:focus,
-#all-classes .ec-store .form-control:focus,
-#all-classes .ec-store .ec-filter select:focus {
-  border-color: #94a3b8;
-  box-shadow: 0 0 0 3px rgba(148, 163, 184, 0.15);
+.site-header .nav-dropdown:hover > .nav-link .dropdown-arrow,
+.site-header .nav-dropdown:focus-within > .nav-link .dropdown-arrow,
+.site-header .nav-dropdown.open > .nav-link .dropdown-arrow,
+.site-header .nav-dropdown > .nav-link[aria-expanded="true"] .dropdown-arrow {
+  transform: rotate(180deg);
 }
 
-/* Optional: make all filter controls similar width */
-#all-classes .ec-store .ec-filter select {
-  width: 180px;
+
+/* Support Font Awesome arrows as well. */
+
+.site-header .nav-dropdown > .nav-link .fa-chevron-down,
+.site-header .nav-dropdown > .nav-link .fa-angle-down {
+  flex: 0 0 auto;
+
+  margin-left: 1px;
+
+  font-size: 9px;
+
+  transition: transform 180ms ease;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-  #all-classes .ec-store .ec-filters {
-    gap: 10px;
-  }
-
-  #all-classes .ec-store .ec-filter select,
-  #all-classes .ec-store select,
-  #all-classes .ec-store .form-control {
-    width: 100%;
-    min-width: 0;
-  }
+.site-header .nav-dropdown:hover > .nav-link .fa-chevron-down,
+.site-header .nav-dropdown:hover > .nav-link .fa-angle-down,
+.site-header .nav-dropdown:focus-within > .nav-link .fa-chevron-down,
+.site-header .nav-dropdown:focus-within > .nav-link .fa-angle-down,
+.site-header .nav-dropdown.open > .nav-link .fa-chevron-down,
+.site-header .nav-dropdown.open > .nav-link .fa-angle-down {
+  transform: rotate(180deg);
 }
 
-.camp-list {
-  list-style: none;
+
+/* ----------------------------------------------------------
+   10. Desktop dropdown panels
+   ---------------------------------------------------------- */
+
+.site-header .nav-dropdown {
+  position: relative;
+}
+
+.site-header .nav-dropdown > .nav-sub {
+  position: absolute !important;
+  z-index: 2000;
+
+  top: calc(100% + 9px) !important;
+  left: 0 !important;
+
+  display: block !important;
+
+  width: max-content;
+  min-width: 230px;
+  max-width: 320px;
+
+  margin: 0 !important;
+  padding: 8px !important;
+
+  list-style: none !important;
+
+  background: rgba(255, 255, 255, 0.99) !important;
+  border: 1px solid $dropdown-border !important;
+  border-radius: 14px !important;
+
+  box-shadow:
+    0 20px 50px rgba(23, 43, 77, 0.14),
+    0 5px 16px rgba(23, 43, 77, 0.08) !important;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  transform: translateY(-6px);
+
+  transition:
+    opacity 160ms ease,
+    visibility 160ms ease,
+    transform 160ms ease;
+}
+
+
+/* Invisible bridge between the link and dropdown. */
+
+.site-header .nav-dropdown > .nav-sub::before {
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+  left: 0;
+
+  height: 10px;
+
+  content: "";
+}
+
+
+/* Optional small dropdown pointer. */
+
+.site-header .nav-dropdown > .nav-sub::after {
+  position: absolute;
+  top: -5px;
+  left: 24px;
+
+  width: 10px;
+  height: 10px;
+
+  content: "";
+
+  background: #ffffff;
+  border-top: 1px solid $dropdown-border;
+  border-left: 1px solid $dropdown-border;
+
+  transform: rotate(45deg);
+}
+
+
+/* Open dropdown states. */
+
+.site-header .nav-dropdown:hover > .nav-sub,
+.site-header .nav-dropdown:focus-within > .nav-sub,
+.site-header .nav-dropdown.open > .nav-sub,
+.site-header .nav-dropdown.is-open > .nav-sub {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+
+  transform: translateY(0);
+}
+
+
+/* ----------------------------------------------------------
+   11. Dropdown list items
+   ---------------------------------------------------------- */
+
+.site-header .nav-sub > li {
+  position: relative;
+
+  display: block !important;
+
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+
+  list-style: none !important;
+}
+
+.site-header .nav-sub > li + li {
+  margin-top: 2px !important;
+}
+
+.site-header .nav-sub > li > a {
+  display: flex !important;
+  align-items: center !important;
+
+  gap: 9px;
+
+  width: 100%;
+  min-height: 40px;
+
+  margin: 0 !important;
+  padding: 9px 11px !important;
+
+  color: #263b5b !important;
+  background: transparent !important;
+
+  border: 0 !important;
+  border-radius: 9px !important;
+
+  font-family: inherit;
+  font-size: 13px !important;
+  font-weight: 650 !important;
+  line-height: 1.3;
+  text-align: left;
+  text-decoration: none !important;
+
+  box-shadow: none !important;
+
+  transition:
+    color 150ms ease,
+    background-color 150ms ease,
+    padding-left 150ms ease;
+}
+
+.site-header .nav-sub > li > a:hover,
+.site-header .nav-sub > li > a:focus-visible {
+  padding-left: 14px !important;
+
+  color: $brand-blue-dark !important;
+  background: $brand-blue-light !important;
+
+  outline: none !important;
+}
+
+.site-header .nav-sub > li > a.active,
+.site-header .nav-sub > li > a[aria-current="page"] {
+  color: $brand-blue-dark !important;
+  background: $active-background !important;
+}
+
+
+/* ----------------------------------------------------------
+   12. Header action area
+   ---------------------------------------------------------- */
+
+.site-header .actions {
+  display: flex !important;
+  flex: 0 0 auto !important;
+  flex-flow: row nowrap !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+
+  gap: 8px;
+
+  margin: 0 0 0 auto !important;
+  padding: 0 !important;
+}
+
+
+/* ----------------------------------------------------------
+   13. Ecwid cart widget
+   ---------------------------------------------------------- */
+
+.site-header .ec-cart-widget {
+  position: static !important;
+
+  display: inline-flex !important;
+  flex: 0 0 auto !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  width: auto !important;
+  min-width: 42px;
+  min-height: 42px;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  color: $text-primary;
+
+  border-radius: 10px;
+
+  transition:
+    color 160ms ease,
+    background-color 160ms ease;
+}
+
+.site-header .ec-cart-widget:hover {
+  color: $brand-blue;
+  background: $hover-background;
+}
+
+.site-header .ec-cart-widget > div {
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+/* ----------------------------------------------------------
+   14. Hamburger menu button
+   ---------------------------------------------------------- */
+
+.site-header .menuBtn {
+  display: none !important;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+
+  width: 42px;
+  height: 42px;
+  margin: 0 !important;
+  padding: 0 !important;
+
+  color: $text-primary !important;
+  background: #ffffff !important;
+
+  border: 1px solid #dce5f0 !important;
+  border-radius: 10px !important;
+
+  font-size: 18px;
+
+  cursor: pointer;
+  box-shadow: none !important;
+
+  transition:
+    color 160ms ease,
+    background-color 160ms ease,
+    border-color 160ms ease,
+    transform 160ms ease;
+}
+
+.site-header .menuBtn:hover {
+  color: $brand-blue !important;
+  background: $hover-background !important;
+  border-color: #c8d8ee !important;
+
+  transform: translateY(-1px);
+}
+
+.site-header .menuBtn:focus-visible {
+  outline: 3px solid rgba(20, 99, 223, 0.16) !important;
+  outline-offset: 2px !important;
+}
+
+.site-header .menuBtn i {
+  line-height: 1;
+}
+
+
+/* ----------------------------------------------------------
+   15. Mobile menu container
+   Supports #mobileMenu, .mobile-menu and .mobileMenu.
+   ---------------------------------------------------------- */
+
+#mobileMenu,
+.site-header .mobile-menu,
+.site-header .mobileMenu {
+  display: none;
+
+  width: 100%;
+  margin: 0;
+  padding: 10px 16px 18px;
+
+  background: #ffffff;
+  border-top: 1px solid $header-border;
+}
+
+#mobileMenu.open,
+#mobileMenu.is-open,
+#mobileMenu[aria-hidden="false"],
+.site-header .mobile-menu.open,
+.site-header .mobile-menu.is-open,
+.site-header .mobileMenu.open,
+.site-header .mobileMenu.is-open {
+  display: block;
+}
+
+#mobileMenu ul,
+.site-header .mobile-menu ul,
+.site-header .mobileMenu ul {
   margin: 0;
   padding: 0;
+
+  list-style: none;
 }
 
-.camp-list li {
-  margin-bottom: 0.5rem;
+#mobileMenu li,
+.site-header .mobile-menu li,
+.site-header .mobileMenu li {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+#mobileMenu li + li,
+.site-header .mobile-menu li + li,
+.site-header .mobileMenu li + li {
+  margin-top: 4px;
+}
+
+#mobileMenu a,
+.site-header .mobile-menu a,
+.site-header .mobileMenu a {
+  display: flex;
+  align-items: center;
+
+  gap: 9px;
+
+  width: 100%;
+  min-height: 46px;
+
+  padding: 10px 12px;
+
+  color: $text-primary;
+  background: transparent;
+
+  border-radius: 10px;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-decoration: none;
+
+  transition:
+    color 150ms ease,
+    background-color 150ms ease;
+}
+
+#mobileMenu a:hover,
+#mobileMenu a:focus-visible,
+.site-header .mobile-menu a:hover,
+.site-header .mobile-menu a:focus-visible,
+.site-header .mobileMenu a:hover,
+.site-header .mobileMenu a:focus-visible {
+  color: $brand-blue-dark;
+  background: $brand-blue-light;
+
+  outline: none;
+}
+
+#mobileMenu a.active,
+#mobileMenu a[aria-current="page"],
+.site-header .mobile-menu a.active,
+.site-header .mobile-menu a[aria-current="page"],
+.site-header .mobileMenu a.active,
+.site-header .mobileMenu a[aria-current="page"] {
+  color: $brand-blue-dark;
+  background: $active-background;
+}
+
+
+/* Indented mobile submenu links. */
+
+#mobileMenu ul ul,
+.site-header .mobile-menu ul ul,
+.site-header .mobileMenu ul ul {
+  margin: 3px 0 8px 14px;
+  padding-left: 9px;
+
+  border-left: 2px solid #dce8fa;
+}
+
+#mobileMenu ul ul a,
+.site-header .mobile-menu ul ul a,
+.site-header .mobileMenu ul ul a {
+  min-height: 40px;
+  padding: 8px 11px;
+
+  color: $text-secondary;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
+/* ----------------------------------------------------------
+   16. Medium desktop adjustments
+   ---------------------------------------------------------- */
+
+@media screen and (min-width: $mobile-breakpoint) and (max-width: 1180px) {
+  .site-header .wrap {
+    padding-right: 9px;
+    padding-left: 9px;
+  }
+
+  .site-header .nav > nav {
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+
+  .site-header .nav-list {
+    gap: 0;
+  }
+
+  .site-header .nav-list > li > a,
+  .site-header .nav-list > li > .nav-link,
+  .site-header .nav-list > li > button,
+  .site-header .nav-list > li > .has-dropdown {
+    gap: 5px;
+
+    padding-right: 8px !important;
+    padding-left: 8px !important;
+
+    font-size: 12.5px !important;
+  }
+}
+
+
+/* ----------------------------------------------------------
+   17. Mobile header
+   ---------------------------------------------------------- */
+
+@media screen and (max-width: $mobile-breakpoint - 0.02px) {
+  .site-header .wrap {
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+
+  .site-header .nav {
+    min-height: 64px;
+  }
+
+  /* Hide the desktop menu. */
+  .site-header .nav > nav {
+    display: none !important;
+  }
+
+  .site-header .brand img {
+    max-height: 42px;
+  }
+
+  .site-header .actions {
+    display: flex !important;
+    margin-left: auto !important;
+  }
+
+  .site-header .ec-cart-widget {
+    display: inline-flex !important;
+    min-width: 40px;
+    min-height: 40px;
+  }
+
+  .site-header .menuBtn {
+    display: inline-flex !important;
+    width: 40px;
+    height: 40px;
+  }
+
+  #mobileMenu,
+  .site-header .mobile-menu,
+  .site-header .mobileMenu {
+    max-height: calc(100vh - 64px);
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+
+
+/* ----------------------------------------------------------
+   18. Small phones
+   ---------------------------------------------------------- */
+
+@media screen and (max-width: 480px) {
+  .site-header .wrap {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .site-header .brand img {
+    max-width: 190px;
+    max-height: 38px;
+  }
+
+  .site-header .actions {
+    gap: 5px;
+  }
+
+  .site-header .ec-cart-widget,
+  .site-header .menuBtn {
+    min-width: 38px;
+    width: 38px;
+    height: 38px;
+  }
+
+  #mobileMenu,
+  .site-header .mobile-menu,
+  .site-header .mobileMenu {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+
+/* ----------------------------------------------------------
+   19. Reduced-motion accessibility
+   ---------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .site-header *,
+  .site-header *::before,
+  .site-header *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+/* ==========================================================
+   FINAL DROPDOWN TRIGGER RESET
+   Must remain at the absolute bottom of custom.scss
+   ========================================================== */
+
+/* Reset dropdown list-item styling */
+.site-header .nav-list > li.nav-dropdown,
+.site-header .nav-list > li:has(> .has-dropdown) {
+  margin: 0 !important;
+  padding: 0 !important;
+
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Force dropdown triggers to match ordinary navigation links */
+.site-header .nav-list > li > a.has-dropdown,
+.site-header .nav-list > li > .nav-link.has-dropdown,
+.site-header .nav-list > li.nav-dropdown > a,
+.site-header .nav-list > li.nav-dropdown > .nav-link {
+  position: relative !important;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px !important;
+
+  width: auto !important;
+  min-width: 0 !important;
+  min-height: 38px !important;
+  height: 38px !important;
+
+  margin: 0 !important;
+  padding: 0 10px !important;
+
+  color: #172b4d !important;
+  background-color: transparent !important;
+  background-image: none !important;
+
+  border: 1px solid transparent !important;
+  border-top-color: transparent !important;
+  border-right-color: transparent !important;
+  border-bottom-color: transparent !important;
+  border-left-color: transparent !important;
+  border-radius: 8px !important;
+
+  font-family: inherit !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+
+  outline: none !important;
+  box-shadow: none !important;
+  transform: none !important;
+  appearance: none !important;
+}
+
+/* Remove theme-generated blue bars and indicators */
+.site-header .nav-list > li > a.has-dropdown::before,
+.site-header .nav-list > li > a.has-dropdown::after,
+.site-header .nav-list > li > .nav-link.has-dropdown::before,
+.site-header .nav-list > li > .nav-link.has-dropdown::after,
+.site-header .nav-list > li.nav-dropdown > a::before,
+.site-header .nav-list > li.nav-dropdown > a::after,
+.site-header .nav-list > li.nav-dropdown > .nav-link::before,
+.site-header .nav-list > li.nav-dropdown > .nav-link::after {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+
+  content: none !important;
+
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Neutralize open/expanded/focus states */
+.site-header .nav-list > li > a.has-dropdown:active,
+.site-header .nav-list > li > a.has-dropdown:focus,
+.site-header .nav-list > li > a.has-dropdown[aria-expanded="true"],
+.site-header .nav-list > li > .nav-link.has-dropdown:active,
+.site-header .nav-list > li > .nav-link.has-dropdown:focus,
+.site-header .nav-list > li > .nav-link.has-dropdown[aria-expanded="true"],
+.site-header .nav-list > li.nav-dropdown.open > .nav-link,
+.site-header .nav-list > li.nav-dropdown.is-open > .nav-link,
+.site-header .nav-list > li.nav-dropdown:focus-within > .nav-link {
+  color: #172b4d !important;
+  background-color: transparent !important;
+  background-image: none !important;
+
+  border-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+/* Use the same subtle hover treatment as ordinary links */
+.site-header .nav-list > li > a.has-dropdown:hover,
+.site-header .nav-list > li > .nav-link.has-dropdown:hover,
+.site-header .nav-list > li.nav-dropdown:hover > a,
+.site-header .nav-list > li.nav-dropdown:hover > .nav-link {
+  color: #1463df !important;
+  background-color: #f4f7fb !important;
+  background-image: none !important;
+
+  border-color: #e2e9f2 !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+/* Only show an active background when explicitly marked current */
+.site-header .nav-list > li > a.has-dropdown[aria-current="page"],
+.site-header .nav-list > li > .nav-link.has-dropdown[aria-current="page"] {
+  color: #0d4fbd !important;
+  background-color: #eaf2ff !important;
+  border-color: #c9daf5 !important;
+}
+
+/* Keep dropdown arrows visible */
+/* ==========================================================
+   FIX OVERSIZED DROPDOWN ARROWS
+   Keep this at the absolute bottom of custom.scss
+   ========================================================== */
+
+.site-header .nav-list .has-dropdown .dropdown-arrow,
+.site-header .nav-list .nav-dropdown .dropdown-arrow,
+.site-header .nav-list .nav-link .dropdown-arrow {
+  display: inline-block !important;
+  flex: 0 0 10px !important;
+
+  width: 10px !important;
+  min-width: 10px !important;
+  max-width: 10px !important;
+
+  height: 10px !important;
+  min-height: 10px !important;
+  max-height: 10px !important;
+
+  margin: 0 0 0 2px !important;
+  padding: 0 !important;
+
+  color: currentColor !important;
+  background: transparent !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  box-shadow: none !important;
+  object-fit: contain !important;
+  overflow: visible !important;
+
+  vertical-align: middle !important;
+
+  transition: transform 180ms ease !important;
+}
+
+/* Ensure nested SVG elements cannot expand the arrow. */
+.site-header .nav-list .dropdown-arrow svg {
+  display: block !important;
+
+  width: 10px !important;
+  min-width: 10px !important;
+  max-width: 10px !important;
+
+  height: 10px !important;
+  min-height: 10px !important;
+  max-height: 10px !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Font Awesome arrow sizing. */
+.site-header .nav-list .has-dropdown .fa-chevron-down,
+.site-header .nav-list .has-dropdown .fa-angle-down,
+.site-header .nav-list .nav-dropdown .fa-chevron-down,
+.site-header .nav-list .nav-dropdown .fa-angle-down,
+.site-header .nav-list .nav-dropdown svg[data-icon="chevron-down"],
+.site-header .nav-list .nav-dropdown svg[data-icon="angle-down"] {
+  display: inline-block !important;
+  flex: 0 0 10px !important;
+
+  width: 10px !important;
+  min-width: 10px !important;
+  max-width: 10px !important;
+
+  height: 10px !important;
+  min-height: 10px !important;
+  max-height: 10px !important;
+
+  margin: 0 0 0 2px !important;
+  padding: 0 !important;
+
+  font-size: 10px !important;
+  line-height: 10px !important;
+
+  color: currentColor !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+
+  transition: transform 180ms ease !important;
+}
+
+/* Keep the trigger content aligned after correcting the arrows. */
+.site-header .nav-list > li > a.has-dropdown,
+.site-header .nav-list > li > .nav-link.has-dropdown,
+.site-header .nav-list > li.nav-dropdown > a,
+.site-header .nav-list > li.nav-dropdown > .nav-link {
+  display: inline-flex !important;
+  flex-flow: row nowrap !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  gap: 5px !important;
+
+  width: auto !important;
+  min-width: 0 !important;
+  height: 38px !important;
+  min-height: 38px !important;
+
+  padding: 0 10px !important;
+
+  overflow: visible !important;
+  white-space: nowrap !important;
+}
+
+/* Rotate only the small arrow when the menu opens. */
+.site-header .nav-dropdown:hover > .nav-link .dropdown-arrow,
+.site-header .nav-dropdown:focus-within > .nav-link .dropdown-arrow,
+.site-header .nav-dropdown.open > .nav-link .dropdown-arrow,
+.site-header
+  .nav-dropdown
+  > .nav-link[aria-expanded="true"]
+  .dropdown-arrow,
+.site-header .nav-dropdown:hover > .nav-link .fa-chevron-down,
+.site-header .nav-dropdown:focus-within > .nav-link .fa-chevron-down,
+.site-header .nav-dropdown.open > .nav-link .fa-chevron-down,
+.site-header .nav-dropdown:hover > .nav-link .fa-angle-down,
+.site-header .nav-dropdown:focus-within > .nav-link .fa-angle-down,
+.site-header .nav-dropdown.open > .nav-link .fa-angle-down {
+  transform: rotate(180deg) !important;
 }
