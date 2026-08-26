@@ -546,7 +546,7 @@ export async function createEcwidProduct(data) {
 
 
 
-export async function getOrdersByProductId(id) {
+export async function getOrdersByProductId(id, createdFrom=undefined) {
     let offset = 0;
     let result = [];
     let done = false;
@@ -567,6 +567,9 @@ export async function getOrdersByProductId(id) {
         } else if (Array.isArray(id)) {
             params.append('productId', id.join(','));
         }
+        if (createdFrom !== undefined) {
+            params.append('createdFrom', createdFrom);
+        }
         try {
             const response = await fetch(`${url}?${params.toString()}`, options);
             if (!response.ok) {
@@ -585,6 +588,29 @@ export async function getOrdersByProductId(id) {
         }
     }
     return result;
+}
+
+
+export async function getOrderById(orderId) {
+    const url = `https://app.ecwid.com/api/v3/${process.env.ECWID_STORE_ID}/orders/${orderId}`;
+    const options = {
+        method: 'GET',
+        headers: {
+            accept: 'application/json',
+            Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`
+        }
+    };
+    try {
+         const response = await fetch(`${url}`, options);
+        if (!response.ok) {
+            throw new Error(`Failed to fetch order: ${response.statusText}`);
+        }
+        const responseJson = await response.json();
+        return responseJson;
+    } catch (error) {
+        console.error(error);
+        throw error;
+    }
 }
 
 export async function getOrders() {
@@ -612,7 +638,7 @@ export async function getOrders() {
             const responseJson = await response.json();
             result = result.concat(responseJson.items);
             offset += 100;
-            // console.log(`Offset ${offset} Total ${responseJson.total}`);
+            console.log(`Offset ${offset} Total ${responseJson.total}`);
             if (offset > responseJson.total) {
                 done = true;
             }
@@ -637,6 +663,32 @@ export async function updateEcwidCategoryProducts(categoryId, products) {
     };
     // console.log(`Url ${url}`);
     // console.log(`Attributes ${JSON.stringify(product.attributes)}`);
+    try {
+        const response = await fetch(url, options);
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        await response.json();
+        // console.log(`response ${response}`);
+    } catch (error) {
+        console.error('Error updating products:', error);
+    }
+}
+
+
+export async function updateOrderStatus(orderId, status) {
+    const url = `https://app.ecwid.com/api/v3/${process.env.ECWID_STORE_ID}/orders/${orderId}`; 
+    const options = {
+        method: 'PUT',
+        headers: {
+            'Content-Type': 'application/json',
+            accept: 'application/json',
+            Authorization: `Bearer ${process.env.ECWID_REST_SECRET}`
+        },
+        body: JSON.stringify({
+            "fulfillmentStatus": status,
+        })
+    };
     try {
         const response = await fetch(url, options);
         if (!response.ok) {
