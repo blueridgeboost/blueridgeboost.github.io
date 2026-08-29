@@ -3,127 +3,103 @@
 ############ Classes ############
 [[main]]
     identifier = "classes"
-    name       = "🧩 Classes"
+    name       = "🧩 Fall Classes"
     url        = "/classes/"
-    weight     = 3
+    weight     = 1
 
 [[main]]
-    name       = "Kids"
-    url        = "/classes/kids/"
+    name       = "Ages 6-8: Lower Elementary Explorers"
+    url        = "/classes/lower-elementary-explorers/"
     weight     = 1
     parent     = "classes"
 
 [[main]]
-    name       = "Preteens"
-    url        = "/classes/preteens/"
+    name       = "Ages 8-10: Upper Elementary Builders"
+    url        = "/classes/upper-elementary-builders/"
     weight     = 2
     parent     = "classes"
 
 [[main]]
     parent     = "classes"
-    name       = "Teens"
-    url        = "/classes/teens/"
+    name       = "Ages 10-13: Middle School Innovators"
+    url        = "/classes/middle-school-innovators/"
     weight     = 3
 
 [[main]]
     parent     = "classes"
-    name       = "Adults"
-    url        = "/adults/"
+    name       = "Ages 14-18: High School Scholars"
+    url        = "/classes/high-school-scholars/"
     weight     = 4
 
 ############ Camps ############
 
 [[main]]
-    name        = "⛺ 1-Day Camps"
-    url         = "/1-day-camps/"
-    weight      = 1
+    name        = "⛺ One-Day Camps"
+    url         = "/one-day-camps/"
+    weight      = 2
 
-# Camps is a single link while the site focuses on one-day camps.
-# To bring the dropdown back, restore a parent item named "Camps" and
-# re-add these children with parent = "Camps".
-#
-# [[main]]
-#     name        = "1-Day"
-#     url         = "/1-day-camps/"
-#     parent      = "Camps"
-#     weight      = 1
-
-# [[main]]
-#     name        = "Spring Break"
-#     url         = "/spring-break-camps/"
-#     parent      = "Camps"
-#     weight      = 3
-
-# [[main]]
-#     name        = "Summer Camps"
-#     url         = "/summer-camps/"
-#     parent      = "Camps"
-#     weight      = 4
-
-# [[main]]
-#     name        = "Advanced STEM Camps"
-#     url         = "/advanced-stem-camps/"
-#     parent      = "Camps"
-#     weight      = 5
-
-# [[main]]
-#     name        = "Bootcamps"
-#     url         = "/bootcamps/"
-#     parent      = "Camps"
-#     weight      = 6
-
-# [[main]]
-#     name        = "Winter Break"
-#     url         = "/winter-break-camps/"
-#     parent      = "Camps"
-#     weight      = 2
-
-############ Test Prep  ############
-
+############ Birthdays and Gaming ############
 [[main]]
-      name        = "📝 Test Prep"
-      url         = "/test-prep/"
-      weight      = 6
-
-############ Competitions ############
-[[main]]
-    name        = "🤖 WRO"
-    url         = "/#world-robot-olympiad"
-    weight      = 8
-
-# [[main]]
-#     parent      = "Competitions"
-#     name        = "Robotics"
-#     url         = "/competition-robotics"
-#     weight      = 1
-
-# [[main]]
-#     parent      = "Competitions"
-#     name        = "Math"
-#     url         = "/competition-math"
-#     weight      = 2
-
+    identifier  = "fun"
+    name        = "🎉 Parties & Gaming"
+    # url         = "/fun/"
+    weight      = 3
 ############ Birthdays ############
 [[main]]
-    name        = "🎂 Birthdays"
+    name        = "🎂 Birthday Parties"
     url         = "/birthdays/"
-    weight      = 5
+    parent      = "fun"
+    weight      = 1
 ############ Gaming ############
 [[main]]
-    name       = "🎮 Gaming"
+    name       = "🎮 Gaming Fridays"
     url        = "/gaming/"
-    weight     = 7
-
-
-############ Tutoring ############
-[[main]]
-    name       = "✏️ Tutoring"
-    url        = "/tutoring/"
+    parent     = "fun"
     weight     = 2
+
+############ Tutoring & Test Prep ############
+
+[[main]]
+    identifier = "academic-support"
+    name       = "✏️ Tutoring & Test Prep"
+    # url        = "/tutoring/"
+    weight     = 4
+
+[[main]]
+    parent     = "academic-support"
+    name       = "STEM Tutoring"
+    url        = "/tutoring/"
+    weight     = 1
+
+[[main]]
+    parent     = "academic-support"
+    name       = "SAT & ACT Math Prep"
+    url        = "/test-prep/sat-act-math/"
+    weight     = 2
+
+[[main]]
+    parent     = "academic-support"
+    name       = "AP Test Prep"
+    url        = "/test-prep/ap/"
+    weight     = 3
 
 ############ Homeschool ############
 [[main]]
     name       = "🏠 Homeschool"
     url        = "/homeschool/"
-    weight     = 4
+    weight     = 5
+
+############ Competitions ############
+[[main]]
+    name        = "🤖 WRO"
+    url         = "/world-robot-olympiad/"
+    weight      = 6
+
+
+
+
+
+
+
+
 

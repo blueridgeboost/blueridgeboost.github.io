@@ -1,98 +1,104 @@
-.preloader {
-  z-index: 9898989 !important;
-  background-color: $body-bg;
+// ============================================================
+// Global elements and utilities
+// ============================================================
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  scroll-padding-top: 96px;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at 8% 0%, rgba($color-secondary, 0.1), transparent 28rem),
+    radial-gradient(circle at 92% 3%, rgba($color-purple, 0.08), transparent 30rem),
+    $body-bg;
 }
 
 ::selection {
-  background-color: darken($color: $color-primary, $amount: 10);
   color: $white;
+  background: $color-primary;
 }
 
 body::-webkit-scrollbar {
-  width: 0.8rem;
+  width: 0.7rem;
 }
 
 body::-webkit-scrollbar-track {
-  background-color: #eee;
+  background: $surface-muted;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: $color-primary;
+  background: linear-gradient($color-primary, $color-secondary);
+  border: 2px solid $surface-muted;
+  border-radius: $radius-pill;
 }
 
-// ── NEW: Gradient background + text color from new design system ──
-// In _common.scss — after the scrollbar styles
-body {
-  background:
-    radial-gradient(1200px 520px at 12% -10%, rgba(0,174,239,.22), transparent 56%),
-    radial-gradient(1100px 520px at 92% -10%, rgba(109,40,217,.18), transparent 56%),
-    radial-gradient(900px 520px at 50% 112%, rgba(255,159,10,.14), transparent 58%),
-    $body-bg;
-  line-height:1.5;
+img,
+svg,
+video {
+  display: block;
+  max-width: 100%;
 }
 
 img {
-  vertical-align: middle;
-  border: 0;
-  max-width: 100%;
   height: auto;
 }
 
-a,
-a:visited,
-a:focus {
-  text-decoration: none;
-  color: $text-color;
+a {
+  color: $link-color;
+  text-decoration: $link-decoration;
+  text-underline-offset: 0.18em;
+  transition: color 160ms ease;
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: $link-hover-decoration;
+  }
+
+  &:focus-visible {
+    border-radius: 5px;
+    outline: 3px solid rgba($color-primary, 0.3);
+    outline-offset: 3px;
+  }
 }
 
-a:hover {
-  text-decoration: underline;
-  color: $text-color;
+button,
+input,
+select,
+textarea {
+  font: inherit;
 }
 
-// ── NEW: Accessible focus indicator ──
-a:focus-visible {
-  outline: none;
-  box-shadow: $focus-ring;
-  border-radius: 10px;
-}
-
-a.text-dark:hover {
-  color: $color-primary !important;
-}
-
-a,
 button,
 select {
   cursor: pointer;
-  transition: 0.2s ease;
-
-  &:focus {
-    outline: 0;
-  }
 }
 
-// ── NEW: Centered content wrapper (use in templates with class="wrap") ──
 .wrap {
-  max-width: $max-width;
-  margin: 0 auto;
-  padding: 0 18px;
+  @include container;
 }
 
 .section {
-  padding-top: 0.2rem;
-  padding-bottom: 2.0rem;
+  padding-block: clamp(2.5rem, 6vw, 5rem);
+}
 
-  @include tablet {
-    padding-top: 4.5rem;
-    padding-bottom: 4.5rem;
-  }
+.section-sm {
+  padding-block: clamp(1.5rem, 4vw, 3rem);
 }
 
 .bg-cover {
-  background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .fit-cover {
@@ -103,81 +109,8 @@ select {
   border-color: $border-color !important;
 }
 
-// pagination
-.pagination {
-  margin-top: 1.8rem;
-  justify-content: center;
-
-  .page-item {
-    .page-link {
-      display: inline-block;
-      width: 2.8rem;
-      height: 2.8rem;
-      line-height: 2.8rem;
-      font-weight: 600;
-      border-radius: 5px;
-      background: $light;
-      text-align: center;
-      padding: 0;
-      margin-right: 0.8rem;
-      border: 0;
-      color: $color-primary;
-
-      &.active,
-      &:hover {
-        background: $color-primary;
-        color: $white;
-      }
-
-      &:focus {
-        box-shadow: none;
-      }
-    }
-
-    &:first-child,
-    &:last-child {
-      .page-link {
-        border-radius: 5px;
-      }
-    }
-
-    &.active {
-      .page-link {
-        background: $color-primary;
-        color: $white;
-      }
-    }
-  }
-}
-
-// swiper setting
-.swiper-horizontal > .swiper-pagination-bullets {
-  bottom: -8px;
-}
-
-.swiper-pagination-bullet {
-  height: 0.8rem;
-  width: 0.8rem;
-  border-radius: 50%;
-  color: transparent;
-  margin: 0 6px !important;
-  padding: 7px;
-  border: 1px solid $color-primary;
-  background-color: transparent;
-  transition: 0.2s ease;
-
-  &-active {
-    background-color: $color-primary;
-  }
-}
-
-// helper classes
 .text-primary {
   color: $color-primary !important;
-}
-
-.bg-primary {
-  background-color: $color-primary !important;
 }
 
 .text-default {
@@ -188,11 +121,14 @@ select {
   color: $text-dark !important;
 }
 
+.bg-primary {
+  background-color: $color-primary !important;
+}
+
 .bg-light {
   background-color: $light !important;
 }
 
-// font weight
 .fw-500 {
   font-weight: 500 !important;
 }
@@ -205,312 +141,217 @@ select {
   font-weight: 700 !important;
 }
 
-// rounded — updated to use new design tokens
 .rounded-1 {
-  border-radius: 5px !important;
+  border-radius: $radius-xs !important;
 }
 
 .rounded-2 {
-  border-radius: $radius-sm !important; // was 0.8rem, now 14px
+  border-radius: $radius-sm !important;
 }
 
 .rounded-3 {
-  border-radius: $radius !important; // was 1rem, now 20px
+  border-radius: $radius !important;
 }
 
-// shadow — updated to use new design tokens
 .shadow {
-  box-shadow: $shadow !important; // was 0 6px 24px..., now richer
+  box-shadow: $shadow !important;
 }
 
 .shadow-lg {
   box-shadow: $shadow-lg !important;
 }
 
-// form control
-.form-select,
-.form-control {
-  padding: 1rem 1.2rem;
+.form-control,
+.form-select {
+  min-height: 3.15rem;
+  padding: 0.75rem 1rem;
+  color: $text-dark;
+  background-color: $surface-solid;
   border: 1px solid $border-color;
-  height: 3rem;
-  transition: 0.3s ease;
-  border-radius: 4px;
+  border-radius: 12px;
+  box-shadow: $shadow-xs;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease;
+
+  &:hover {
+    border-color: rgba($color-primary, 0.35);
+  }
 
   &:focus {
-    border-color: rgba($color-primary, 0.5);
+    border-color: $color-primary;
+    outline: none;
     box-shadow: $focus-ring;
   }
-}
 
-.dark {
-  // form control
-  .form-select,
-  .form-control {
-    &::placeholder {
-      color: rgba($white, 0.5);
-    }
+  &::placeholder {
+    color: $text-light;
   }
-}
-
-.input-group {
-  position: relative;
-
-  .form-control {
-    padding-left: 45px;
-    background-color: transparent;
-  }
-
-  .input-group-text {
-    border: 0;
-    top: 11px;
-    @extend .px-3;
-    z-index: 3;
-    background-color: transparent;
-    position: absolute;
-  }
-}
-
-.form-select {
-  padding-top: 0;
-  padding-bottom: 0;
 }
 
 textarea.form-control {
-  height: auto;
-}
-
-.form-control[type="file"] {
-  padding: 11px 14px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  min-height: 9rem;
+  resize: vertical;
 }
 
 form label {
-  font-weight: 500;
-  @extend .text-dark;
+  display: inline-block;
+  margin-bottom: 0.35rem;
+  color: $text-dark;
+  font-weight: 700;
 }
 
-// list-unstyled
-.list-unstyled {
-  li {
-    margin-bottom: 0.8rem;
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 2rem;
+
+  .page-link {
+    display: grid;
+    width: 2.75rem;
+    height: 2.75rem;
+    padding: 0;
+    place-items: center;
+    color: $text-dark;
+    background: $surface-solid;
+    border: 1px solid $border-color;
+    border-radius: 10px;
+  }
+
+  .page-link:hover,
+  .active .page-link {
+    color: $white;
+    background: $color-primary;
+    border-color: $color-primary;
+    text-decoration: none;
   }
 }
 
-// check-mark
-.check-mark {
-  position: relative;
-  padding-left: 38px;
-
-  &::before {
-    position: absolute;
-    content: "\f058";
-    color: $color-primary;
-    font-size: 1.7rem;
-    font-family: $font-icon;
-    font-weight: 900;
-    left: 0;
-    top: 0;
-  }
-
-  svg {
-    position: absolute;
-    color: $color-primary;
-    font-size: 1.7rem;
-    left: -30px;
-    top: 3px;
-  }
-}
-
-// content style
 .content {
-  * {
-    word-break: break-word;
-    overflow-wrap: break-word;
-    margin-bottom: 1rem;
+  color: $text-color;
 
-    &:first-child {
-      margin-top: 0;
-    }
+  > *:first-child {
+    margin-top: 0;
+  }
 
-    &:last-child {
-      margin-bottom: 0;
-    }
+  > *:last-child {
+    margin-bottom: 0;
+  }
+
+  h2,
+  h3 {
+    margin-top: 1.75em;
+  }
+
+  p,
+  li {
+    max-width: 78ch;
+  }
+
+  ul,
+  ol {
+    padding-left: 1.4rem;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
   }
 
   a {
-    color: $text-color;
+    color: $color-primary;
+    font-weight: 600;
     text-decoration: underline;
-
-    &:hover {
-      color: $color-primary;
-    }
   }
 
-
-  ol,
-  ul {
-    padding-left: 1.2rem;
-
-    li {
-      margin-bottom: 0.8rem !important;
-    }
-  }
-
-  ul {
-    padding-left: 0;
-    margin-bottom: 1.2rem;
-    list-style-type: none;
-
-    li {
-      padding-left: 1.2rem;
-      position: relative;
-
-      &::before {
-        position: absolute;
-        content: "";
-        height: 8px;
-        width: 8px;
-        border-radius: 50%;
-        background: $color-primary;
-        left: 3px;
-        top: 8px;
-      }
-    }
-  }
-  pre {
-    padding: 1rem;
+  blockquote {
+    margin: 2rem 0;
+    padding: 1.25rem 1.5rem;
+    color: $text-dark;
+    background: $surface-solid;
+    border: 1px solid $border-color;
+    border-left: 5px solid $color-secondary;
+    border-radius: $radius-sm;
+    box-shadow: $shadow-xs;
   }
 
   table {
     width: 100%;
-    max-width: 100%;
-    margin-bottom: 1rem;
+    margin: 1.5rem 0;
+    overflow: hidden;
     border: 1px solid $border-color;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: $radius-sm;
   }
 
-  table td,
-  table th {
-    padding: 0.75rem;
-    vertical-align: top;
-    margin-bottom: 0;
-  }
-
-  tr:not(:last-child) {
+  th,
+  td {
+    padding: 0.8rem 1rem;
     border-bottom: 1px solid $border-color;
   }
 
   th {
-    font-weight: 500;
+    color: $text-dark;
+    background: $lightest-blue;
+    font-weight: 750;
   }
 
-  thead {
-    background: $light;
-    margin-bottom: 0;
-
-    tr {
-      border-bottom: 1px solid $border-color;
-    }
-  }
-
-  tbody {
-    background: lighten($color: $light, $amount: 5);
-    margin-bottom: 0;
-  }
-
-  blockquote {
-    color: $text-color;
-    padding: 1.2rem 30px;
-    border: 1px solid #eee;
-    border-left: 2px solid $color-primary;
-    margin: 2rem 0;
-    background: $white;
-    @extend .rounded-2;
-
-    p {
-      margin-bottom: 0 !important;
-    }
-
-    cite {
-      display: inline-block;
-      margin-top: 1rem;
-    }
-  }
-
-  .notice {
-    svg {
-      margin-bottom: 0 !important;
-    }
+  tr:last-child td {
+    border-bottom: 0;
   }
 }
 
+.check-mark {
+  position: relative;
+  padding-left: 2rem;
 
+  &::before {
+    position: absolute;
+    top: 0.05rem;
+    left: 0;
+    color: $color-mint;
+    content: "\f058";
+    font-family: $font-icon;
+    font-size: 1.3rem;
+    font-weight: 900;
+  }
+}
 
-div.row.alt-table-header {
-  background-color: $darkest-blue;
-  font-weight: 700;
+.ribbon,
+.newribbon,
+.joinribbon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 0.9rem;
   color: $white;
-}
-
-div.row.alt-dark-row {
-  background-color: $lightest-blue;
-}
-
-div.row.alt-light-row {
-  background-color: $white;
-}
-
-.ribbon {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  position: absolute;
-  top: -22px;
-  padding-top: 0px;
-  left: 5px;
-  width: 100px;
-  background-color:deepskyblue;
-  color: white;
-  text-align: center;
-  line-height: 30px;
-}
-
-.ribbon span {
-  display: block;
-  width: 100%;
+  background: $color-primary;
+  border-radius: $radius-pill;
+  box-shadow: $shadow-sm;
+  font-size: 0.75rem;
+  font-weight: 800;
 }
 
 .newribbon {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  position: absolute;
-  top: -22px;
-  padding-top: 5px;
-  left: 5px;
-  width: 80px;
-  background-color: #800fe3;
-  color: white;
-  text-align: center;
-  line-height: 30px;
-}
-
-.timeribbon span {
-  display: block;
-  width: 100%;
+  background: $color-purple;
 }
 
 .joinribbon {
-  position: absolute;
-  top: -20px;
-  left: -10px;
-  width: 150px;
-  background-color: #0f9f35;
-  color: white;
-  text-align: center;
-  line-height: 30px;
-  transform: rotate(-5deg);
-  -webkit-transform: rotate(-5deg);
+  background: $color-mint;
 }
 
-.joinribbon span {
-  display: block;
-  width: 100%;
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
 }

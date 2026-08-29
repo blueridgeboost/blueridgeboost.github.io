@@ -55,10 +55,11 @@ export async function readJson(fileName) {
     }
 }
 
-async function deleteFiles(folderPath) {
+async function deleteFiles(folderPath, extension = "") {
     try {
         const files = await readdir(folderPath);
         for (const file of files) {
+            if (extension != undefined && extension != "" && path.extname() != extension) continue;
             if (!keepers.includes(file)) {
                 console.log(`Deleting file: ${file}`);
                 const filePath = path.join(folderPath, file);

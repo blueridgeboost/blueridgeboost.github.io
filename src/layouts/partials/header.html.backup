@@ -1,0 +1,128 @@
+
+{{/*
+  Combined header: New design (topbar + frosted glass nav) with old functionality
+  (active states, dropdowns, language selector, theme switcher, Ecwid cart)
+*/}}
+
+{{/* ── Sticky header ── */}}
+<header class="site-header">
+  <div class="wrap">
+    <div class="nav">
+
+       {{/* ── Brand / Logo ── */}}
+     {{ $logo := resources.Get "images/brand/logo_notext.png" }}
+      <a class="brand" href="{{ "/" | relLangURL }}" aria-label="{{ site.Params.brand_name | default site.Title }} Home">
+          <div class="logo"><img src="{{ $logo.RelPermalink }}" alt="{{ site.Params.brand_name | default site.Title }}"></div>
+          <div>
+            <strong>Blue Ridge Boost</strong>
+            <span>Hands-on STEM learning</span>
+          </div>
+      </a>
+
+      {{/* ── Desktop navigation ── */}}
+      <nav aria-label="Primary">
+        <ul class="nav-list">
+          {{ $currentPage := . }}
+          {{ range site.Menus.main }}
+            {{ $menuURL := .URL | absLangURL }}
+            {{ $pageURL := $currentPage.Permalink | absLangURL }}
+            {{ $active := eq $menuURL $pageURL }}
+
+            {{ if .HasChildren }}
+            {{/* ── Dropdown menu item ── */}}
+            <li class="nav-dropdown{{ range .Children }}{{ $childURL := .URL | absLangURL }}{{ if eq $childURL $pageURL }} active{{ end }}{{ end }}">
+              <a class="nav-link has-dropdown{{ if $active }} active{{ end }}" href="{{ if .URL }}{{ .URL | relLangURL }}{{ else }}#{{ end }}" {{ if not .URL }}role="button"{{ end }}>
+                {{ .Name }}
+                <svg class="dropdown-arrow" viewBox="0 0 12 12" fill="none"><path d="M3 5l3 3 3-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <ul class="nav-sub">
+                {{ range .Children }}
+                {{ $childURL := .URL | absLangURL }}
+                {{ $childActive := eq $childURL $pageURL }}
+                <li>
+                  <a href="{{ if findRE `^http` .URL }}{{ .URL }}{{ else if findRE `^#` .URL }}{{ if not $currentPage.IsHome }}{{ site.BaseURL | relLangURL }}{{ end }}{{ .URL }}{{ else }}{{ .URL | relLangURL }}{{ end }}"
+                     {{ if findRE `^http` .URL }}target="_blank" rel="noopener"{{ end }}
+                     class="{{ if $childActive }}active{{ end }}">
+                    {{ .Pre }}{{ .Name }}{{ .Post }}
+                  </a>
+                </li>
+                {{ end }}
+              </ul>
+            </li>
+
+            {{ else }}
+            {{/* ── Simple menu item ── */}}
+            <li>
+              <a class="nav-link{{ if $active }} active{{ end }}"
+                 href="{{ if findRE `^http` .URL }}{{ .URL }}{{ else if findRE `^#` .URL }}{{ if not $currentPage.IsHome }}{{ site.BaseURL | relLangURL }}{{ end }}{{ .URL }}{{ else }}{{ .URL | relLangURL }}{{ end }}"
+                 {{ if findRE `^http` .URL }}target="_blank" rel="noopener"{{ end }}>
+                {{ .Name }}
+              </a>
+            </li>
+            {{ end }}
+          {{ end }}
+
+        </ul>
+      </nav>
+
+      {{/* ── Right side actions ── */}}
+      <div class="actions">
+        <div class="ec-cart-widget" data-icon="CART" data-fixed="FALSE"></div>
+        {{/* Mobile menu button */}}
+        <button class="btn-new ghost small menuBtn" id="menuBtn" type="button"
+                aria-expanded="false" aria-controls="mobileMenu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    {{/* ── Mobile menu drawer ── */}}
+    <div class="drawer" id="mobileMenu" aria-label="Mobile menu">
+      {{ $currentPage := . }}
+      {{ range site.Menus.main }}
+        {{ if .HasChildren }}
+          {{ if .URL }}
+          <a href="{{ .URL | relLangURL }}"><strong>{{ .Name }}</strong></a>
+          {{ else }}
+          <div class="drawer-heading">{{ .Name }}</div>
+          {{ end }}
+          {{ range .Children }}
+          <a href="{{ if findRE `^http` .URL }}{{ .URL }}{{ else }}{{ .URL | relLangURL }}{{ end }}" class="drawer-sub"
+             {{ if findRE `^http` .URL }}target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a>
+          {{ end }}
+        {{ else }}
+        <a href="{{ if findRE `^http` .URL }}{{ .URL }}{{ else }}{{ .URL | relLangURL }}{{ end }}"
+           {{ if findRE `^http` .URL }}target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</header>
+
+{{/* ── Mobile menu toggle script ── */}}
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('menuBtn');
+    const menu = document.getElementById('mobileMenu');
+    if (btn && menu) {
+      btn.addEventListener('click', () => {
+        const isOpen = menu.classList.toggle('open');
+        btn.setAttribute('aria-expanded', String(isOpen));
+        // Toggle icon between bars and X
+        const barsIcon = btn.querySelector('.fa-bars');
+        const xIcon = btn.querySelector('.fa-xmark');
+        if (barsIcon) barsIcon.style.display = isOpen ? 'none' : '';
+        if (xIcon) xIcon.style.display = isOpen ? '' : 'none';
+      });
+    }
+  });
+</script>
+
+<script data-cfasync="false"
+    type="text/javascript"
+    data-cookieconsent="ignore"
+    src="https://app.ecwid.com/script.js?{{ .Site.Params.ecwid_store_id }}&data_platform=code"
+    charset="utf-8">
+</script>
+<script type="text/javascript">Ecwid.init();</script>
+<script type="text/javascript">ecwid2gtm();</script>

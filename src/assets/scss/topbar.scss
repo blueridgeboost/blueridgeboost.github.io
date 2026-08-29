@@ -1,58 +1,63 @@
+// ============================================================
+// Top information bar
+// ============================================================
+
 .topbar {
-  border-bottom: 1px solid $border-color;
-  background: url('/images/topbar_bg.png') center/cover no-repeat;
-  color: white;
   position: relative;
   overflow: hidden;
-
-  &:before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.25);
-    pointer-events: none;
-  }
+  color: $white;
+  background:
+    linear-gradient(90deg, rgba($darkest-blue, 0.96), rgba($color-primary, 0.91)),
+    url("/images/topbar_bg.png") center / cover no-repeat;
+  border-bottom: 1px solid rgba($white, 0.12);
 
   .topbar-row {
     position: relative;
+    z-index: 1;
     display: flex;
+    min-height: 34px;
     align-items: center;
     justify-content: space-between;
-    gap: 8px;
-    padding: 6px 0;
-    font-size: 12px;
-    color: white;
+    gap: 0.65rem;
+    padding-block: 0.35rem;
+    color: $white;
+    font-size: 0.75rem;
     flex-wrap: wrap;
   }
-}
 
-.topbar .highlight {
-  background: rgba(255, 255, 255, 0.95); 
-  color: #0a3d8f;
-  padding: 1px 6px;
-  border-radius: 4px;
-  font-weight: 700;
+  a {
+    color: $white;
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  .highlight {
+    padding: 0.15rem 0.45rem;
+    color: $darkest-blue;
+    background: $white;
+    border-radius: 6px;
+    font-weight: 800;
+  }
 }
 
 .pill {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
-  padding: 3px 9px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.15);
-  box-shadow: none;
-  color: white;
+  gap: 0.4rem;
+  padding: 0.25rem 0.6rem;
+  color: $white;
+  background: rgba($white, 0.12);
+  border: 1px solid rgba($white, 0.2);
+  border-radius: $radius-pill;
+  font-size: 0.72rem;
   white-space: nowrap;
-  backdrop-filter: blur(6px);
-  font-size: 11px;
 }
 
-.dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 999px;
-  background: linear-gradient(135deg, $color-secondary, $color-mint);
-  box-shadow: 0 0 0 2px rgba($color-secondary, .3);
+@media (max-width: 575px) {
+  .topbar .topbar-row {
+    justify-content: center;
+    text-align: center;
+  }
 }

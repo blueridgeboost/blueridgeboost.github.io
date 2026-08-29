@@ -1,80 +1,81 @@
-/* Container: 2 equal columns sized by the longest label */
-  .grb-ctas-equal {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(max-content, 1fr));
-    gap: 0.75rem;
-    justify-content: center;
+// ============================================================
+// Gaming Fridays
+// ============================================================
+
+.grb-ctas-equal {
+  display: grid;
+  max-width: 46rem;
+  margin: 1.5rem auto;
+  gap: 0.8rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grb-btn {
+  display: inline-flex;
+  width: 100%;
+  min-height: 3rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1rem;
+  color: $white !important;
+  background: $color-primary;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  box-shadow: $shadow-sm;
+  font-family: $font-primary;
+  font-weight: 750;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none !important;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    background-color 160ms ease;
+
+  &:hover {
+    color: $white !important;
+    box-shadow: $shadow;
+    text-decoration: none !important;
+    transform: translateY(-3px);
   }
 
-  @media (min-width: 640px) {
-    .grb-ctas-equal {
-      max-width: 42rem;
-      margin-inline: auto;
-    }
+  &:focus-visible {
+    outline: none;
+    box-shadow: $focus-ring;
   }
+}
 
-  /* Buttons */
-  .grb-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.7rem 1rem;
-    border-radius: 8px;
-    font-weight: 600;
-    line-height: 1.2;
-    box-sizing: border-box;
-    border: 2px solid transparent;
-    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, transform 0.05s ease;
-    width: 100%;
-    color: #ffffff !important;             /* links white */
-    text-decoration: none !important;      /* no underline */
-  }
-  .grb-btn:hover {
-    text-decoration: underline !important;
-  }
+.grb-btn-primary {
+  background: linear-gradient(135deg, $color-primary, $color-purple);
 
-  .grb-btn:focus {
-    outline: 3px solid #94c0ff;
-    outline-offset: 2px;
+  &:hover {
+    background: linear-gradient(135deg, $darkest-blue, #5b21b6);
   }
+}
 
-  /* Variants matched to site colors */
-  .grb-btn-primary {
-    background: $dark-blue;        /* darker hover */
-    border-color: $dark-blue;
-    box-shadow: 0 6px 16px rgba(45, 108, 223, 0.25);
-  }
-  .grb-btn-primary:hover {
-    
-    background: $darkest-blue;        /* site blue */
-    border-color: $darkest-blue;
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(37, 86, 176, 0.28);
-  }
+.grb-btn-secondary {
+  color: $text-dark !important;
+  background: $surface-solid;
+  border-color: $border-color;
 
-  .grb-btn-secondary {
-    background: #eef2ff;        /* site light indigo */
-    border-color: #eef2ff;
-    color: #243b53;             /* dark slate for contrast */
-    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+  &:hover {
+    color: $color-primary !important;
+    background: $lightest-blue;
+    border-color: rgba($color-primary, 0.25);
   }
-  .grb-btn-secondary:hover {
-    background: #e2e8ff;
-    border-color: #e2e8ff;
-    transform: translateY(-1px);
-    box-shadow: 0 6px 16px rgba(15, 23, 42, 0.08);
-  }
-
-  /* Mobile: stack */
-  @media (max-width: 520px) {
-    .grb-ctas-equal {
-      grid-template-columns: 1fr;
-    }
-  }
+}
 
 .game-options {
-  opacity:80%;
-  
-  span:not(:last-child):after { content: " \00b7";  }
+  padding: 1.25rem;
+  background: linear-gradient(135deg, #f5f3ff, $surface-solid);
+  border: 1px solid rgba($color-purple, 0.16);
+  border-radius: $radius;
+  box-shadow: $shadow-sm;
+  opacity: 1;
+}
+
+@media (max-width: 520px) {
+  .grb-ctas-equal {
+    grid-template-columns: 1fr;
+  }
 }

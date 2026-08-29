@@ -1,7 +1,7 @@
 ################################### English language #####################################
 [en]
 languageName = "EN"
-languageCode = "en-US"
+locale = "en-US"
 contentDir = "content/english"
 weight = 1
 [en.params]
