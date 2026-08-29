@@ -1,9 +1,8 @@
 {{/*
   Blue Ridge Boost homepage.
 
-  This is a standalone Hugo homepage template and intentionally does
-  not use baseof.html. Other pages can continue using the existing
-  theme layout.
+  Standalone homepage template. Inner pages continue using the
+  existing base layout and theme templates.
 */}}
 
 {{ partial "head.html" . }}
@@ -20,38 +19,25 @@
 
 <main id="main-content" class="homepage">
 
-  {{/* =====================================================
+  {{/* =========================================================
      Hero
-  ====================================================== */}}
+  ========================================================== */}}
 
   <section class="home-hero" aria-labelledby="home-hero-title">
-    <div class="home-hero__container">
+    <div class="home-shell home-hero__grid">
 
       <div class="home-hero__content">
-
-        {{ with .Params.promo_text }}
-          <p class="home-hero__promo">
-            <span class="home-hero__promo-dot" aria-hidden="true"></span>
-            <span>{{ . }}</span>
+        {{ with .Params.hero_eyebrow }}
+          <p class="home-eyebrow home-hero__eyebrow">
+            <span class="home-eyebrow__dot" aria-hidden="true"></span>
+            {{ . }}
           </p>
         {{ end }}
 
-        <div class="home-hero__heading">
-          <h1 id="home-hero-title" class="home-hero__title">
-            <span class="home-hero__title-prefix">
-              {{ .Params.hero_prefix }}
-            </span>
-            <span class="home-hero__title-highlight">
-              {{ .Params.hero_highlight }}
-            </span>
-          </h1>
-
-          {{ with .Params.hero_subtitle }}
-            <p class="home-hero__subtitle">
-              {{ . }}
-            </p>
-          {{ end }}
-        </div>
+        <h1 id="home-hero-title" class="home-hero__title">
+          <span>{{ .Params.hero_title }}</span>
+          <strong>{{ .Params.hero_highlight }}</strong>
+        </h1>
 
         {{ with .Params.hero_description }}
           <p class="home-hero__description">
@@ -60,293 +46,421 @@
         {{ end }}
 
         <div class="home-hero__actions">
-          {{ with .Params.hero_primary_text }}
-            <a
-              class="button button--primary"
-              href="{{ $.Params.hero_primary_url }}"
-            >
-              {{ . }}
-            </a>
-          {{ end }}
+          <a
+            class="home-button home-button--primary"
+            href="{{ .Params.hero_primary_url }}"
+          >
+            {{ .Params.hero_primary_text }}
+            <span aria-hidden="true">→</span>
+          </a>
 
-          {{ with .Params.hero_secondary_text }}
-            <a
-              class="button button--secondary"
-              href="{{ $.Params.hero_secondary_url | relURL }}"
+          <a
+            class="home-button home-button--secondary"
+            href="{{ .Params.hero_secondary_url | relURL }}"
+          >
+            {{ .Params.hero_secondary_text }}
+          </a>
+        </div>
+
+        {{ with .Params.hero_points }}
+          <ul class="home-hero__points" aria-label="Program highlights">
+            {{ range . }}
+              <li>
+                <span class="home-check" aria-hidden="true">✓</span>
+                {{ . }}
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </div>
+
+      <div class="home-hero__visual">
+        {{ with resources.Get .Params.hero_image }}
+          {{ $large := .Fill "920x760 webp q82 Center" }}
+          {{ $small := .Fill "640x560 webp q80 Center" }}
+
+          <picture class="home-hero__picture">
+            <source
+              media="(max-width: 700px)"
+              srcset="{{ $small.RelPermalink }}"
             >
-              {{ . }}
-            </a>
+            <img
+              src="{{ $large.RelPermalink }}"
+              width="{{ $large.Width }}"
+              height="{{ $large.Height }}"
+              alt="{{ $.Params.hero_image_alt }}"
+              loading="eager"
+              fetchpriority="high"
+            >
+          </picture>
+        {{ end }}
+
+        {{ with .Params.hero_secondary_image }}
+          {{ with resources.Get . }}
+            {{ $image := .Fill "420x330 webp q80 Center" }}
+
+            <div class="home-hero__floating-photo">
+              <img
+                src="{{ $image.RelPermalink }}"
+                width="{{ $image.Width }}"
+                height="{{ $image.Height }}"
+                alt="{{ $.Params.hero_secondary_image_alt }}"
+                loading="eager"
+              >
+            </div>
+          {{ end }}
+        {{ end }}
+
+        <div class="home-hero__visual-card home-hero__visual-card--top">
+          <span class="home-hero__visual-icon" aria-hidden="true">⚙</span>
+          <span>
+            <strong>Learn by doing</strong>
+            <small>Real projects, real skills</small>
+          </span>
+        </div>
+
+        <div class="home-hero__visual-card home-hero__visual-card--bottom">
+          <strong>Ages 6–18</strong>
+          <span>Programs for every stage</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-hero__shape home-hero__shape--one" aria-hidden="true"></div>
+    <div class="home-hero__shape home-hero__shape--two" aria-hidden="true"></div>
+  </section>
+
+
+  {{/* =========================================================
+     Quick trust strip
+  ========================================================== */}}
+
+  {{ with .Params.quick_facts }}
+    <section class="home-facts" aria-label="Blue Ridge Boost at a glance">
+      <div class="home-shell home-facts__grid">
+        {{ range . }}
+          <div class="home-fact">
+            <strong>{{ .value }}</strong>
+            <span>{{ .label }}</span>
+          </div>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+
+
+  {{/* =========================================================
+     Program finder
+  ========================================================== */}}
+
+  {{ with .Params.programs }}
+    <section
+      id="programs"
+      class="home-section home-programs"
+      aria-labelledby="programs-heading"
+    >
+      <div class="home-shell">
+        <header class="home-section__header home-section__header--center">
+          <p class="home-section__eyebrow">
+            Find your next challenge
+          </p>
+
+          <h2 id="programs-heading" class="home-section__title">
+            A place for every kind of learner
+          </h2>
+
+          <p class="home-section__description">
+            Choose a path based on your student's interests, schedule,
+            age, and goals.
+          </p>
+        </header>
+
+        <div class="home-program-grid">
+          {{ range . }}
+            <article class="home-program-card home-program-card--{{ .accent }}">
+              <a
+                class="home-program-card__image-link"
+                href="{{ .url | relURL }}"
+                tabindex="-1"
+                aria-hidden="true"
+              >
+                {{ with resources.Get .image }}
+                  {{ $image := .Fill "720x470 webp q80 Center" }}
+
+                  <img
+                    src="{{ $image.RelPermalink }}"
+                    width="{{ $image.Width }}"
+                    height="{{ $image.Height }}"
+                    alt=""
+                    loading="lazy"
+                  >
+                {{ end }}
+              </a>
+
+              <div class="home-program-card__content">
+                <div class="home-program-card__meta">
+                  <span class="home-program-card__icon" aria-hidden="true">
+                    {{ .icon }}
+                  </span>
+
+                  <span class="home-program-card__badge">
+                    {{ .badge }}
+                  </span>
+                </div>
+
+                <h3 class="home-program-card__title">
+                  <a href="{{ .url | relURL }}">
+                    {{ .title }}
+                  </a>
+                </h3>
+
+                <p class="home-program-card__description">
+                  {{ .description }}
+                </p>
+
+                <a
+                  class="home-text-link"
+                  href="{{ .url | relURL }}"
+                >
+                  {{ .cta_text }}
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </article>
           {{ end }}
         </div>
       </div>
+    </section>
+  {{ end }}
 
-      {{ with .Params.pathways }}
-        <div
-          id="programs"
-          class="home-pathways"
-          aria-label="Featured STEM programs"
-        >
-          {{ range . }}
-            <article class="home-pathway-card">
-              <div class="home-pathway-card__content">
-                <h2 class="home-pathway-card__title">
-                  {{ .title }}
-                </h2>
 
-                <p class="home-pathway-card__description">
-                  {{ .description }}
-                </p>
-              </div>
+  {{/* =========================================================
+     Main spotlight
+  ========================================================== */}}
 
-              <footer class="home-pathway-card__footer">
-                <a
-                  class="home-pathway-card__link"
-                  href="{{ .cta_url | relURL }}"
-                >
-                  {{ .cta_text }}
-                </a>
+  {{ with .Params.spotlight }}
+    <section class="home-section home-spotlight">
+      <div class="home-shell">
+        <div class="home-spotlight__panel">
+          <div class="home-spotlight__image">
+            {{ with resources.Get .image }}
+              {{ $image := .Fill "1000x760 webp q82 Center" }}
 
-                {{ with .badge_text }}
-                  <span class="home-pathway-card__badge">
+              <img
+                src="{{ $image.RelPermalink }}"
+                width="{{ $image.Width }}"
+                height="{{ $image.Height }}"
+                alt="{{ $.Params.spotlight.image_alt }}"
+                loading="lazy"
+              >
+            {{ end }}
+          </div>
+
+          <div class="home-spotlight__content">
+            <p class="home-section__eyebrow">
+              {{ .eyebrow }}
+            </p>
+
+            <h2 class="home-section__title">
+              {{ .title }}
+            </h2>
+
+            <p class="home-spotlight__description">
+              {{ .description }}
+            </p>
+
+            {{ with .points }}
+              <ul class="home-spotlight__list">
+                {{ range . }}
+                  <li>
+                    <span class="home-check" aria-hidden="true">✓</span>
                     {{ . }}
-                  </span>
+                  </li>
                 {{ end }}
-              </footer>
+              </ul>
+            {{ end }}
+
+            <a
+              class="home-button home-button--primary"
+              href="{{ .url | relURL }}"
+            >
+              {{ .cta_text }}
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+
+
+  {{/* =========================================================
+     Age pathways
+  ========================================================== */}}
+
+  {{ with .Params.age_groups }}
+    <section
+      class="home-section home-age-groups"
+      aria-labelledby="age-groups-heading"
+    >
+      <div class="home-shell">
+        <header class="home-section__header">
+          <div>
+            <p class="home-section__eyebrow">
+              Start at the right level
+            </p>
+
+            <h2 id="age-groups-heading" class="home-section__title">
+              Programs that grow with students
+            </h2>
+          </div>
+
+          <a class="home-button home-button--secondary" href="/classes/">
+            Browse every class
+          </a>
+        </header>
+
+        <div class="home-age-grid">
+          {{ range . }}
+            <article class="home-age-card">
+              <span class="home-age-card__number" aria-hidden="true">
+                {{ .number }}
+              </span>
+
+              <p class="home-age-card__ages">
+                {{ .ages }}
+              </p>
+
+              <h3>{{ .title }}</h3>
+
+              <p>{{ .description }}</p>
+
+              <a class="home-text-link" href="{{ .url | relURL }}">
+                {{ .cta_text }}
+                <span aria-hidden="true">→</span>
+              </a>
             </article>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+
+
+  {{/* =========================================================
+     Experience/gallery
+  ========================================================== */}}
+
+  <section
+    class="home-section home-experience"
+    aria-labelledby="experience-heading"
+  >
+    <div class="home-shell home-experience__grid">
+      <div class="home-experience__content">
+        <p class="home-section__eyebrow">
+          Inside Blue Ridge Boost
+        </p>
+
+        <h2 id="experience-heading" class="home-section__title">
+          More building. More experimenting. More discovery.
+        </h2>
+
+        <p class="home-section__description">
+          Students do more than watch demonstrations. They design,
+          program, test, troubleshoot, collaborate, and turn ideas into
+          working projects.
+        </p>
+
+        {{ with .Params.trust_points }}
+          <div class="home-trust-list">
+            {{ range . }}
+              <article class="home-trust-item">
+                <span class="home-trust-item__icon" aria-hidden="true">
+                  {{ .icon }}
+                </span>
+
+                <div>
+                  <h3>{{ .title }}</h3>
+                  <p>{{ .description }}</p>
+                </div>
+              </article>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+
+      {{ with .Params.gallery }}
+        <div class="home-gallery">
+          {{ range $index, $item := . }}
+            {{ with resources.Get $item.image }}
+              {{ $image := .Fill "720x620 webp q80 Center" }}
+
+              <figure class="home-gallery__item home-gallery__item--{{ add $index 1 }}">
+                <img
+                  src="{{ $image.RelPermalink }}"
+                  width="{{ $image.Width }}"
+                  height="{{ $image.Height }}"
+                  alt="{{ $item.alt }}"
+                  loading="lazy"
+                >
+              </figure>
+            {{ end }}
           {{ end }}
         </div>
       {{ end }}
     </div>
-
-    <div
-      class="home-hero__decoration home-hero__decoration--top"
-      aria-hidden="true"
-    ></div>
-
-    <div
-      class="home-hero__decoration home-hero__decoration--bottom"
-      aria-hidden="true"
-    ></div>
   </section>
 
 
-  {{/* =====================================================
-     One-Day Camps
-  ====================================================== */}}
+  {{/* =========================================================
+     Featured event
+  ========================================================== */}}
 
-  {{ with .Params.camps }}
-    <section
-      id="one-day-camps"
-      class="home-section home-section--camps"
-      aria-labelledby="camps-heading"
-    >
-      <div class="home-section__container">
-        <header class="home-section__header">
-          <div class="home-section__heading-group">
-            <p class="home-section__eyebrow">
-              Build, experiment, and explore
-            </p>
+  {{ with .Params.featured_event }}
+    <section class="home-event" aria-labelledby="event-heading">
+      <div class="home-shell home-event__grid">
+        <div class="home-event__content">
+          <p class="home-event__eyebrow">
+            {{ .eyebrow }}
+          </p>
 
-            <h2 id="camps-heading" class="home-section__title">
-              {{ $.Params.camps_heading }}
-            </h2>
-
-            <p class="home-section__description">
-              {{ $.Params.camps_description }}
-            </p>
-          </div>
-
-          <a
-            class="button button--secondary"
-            href="{{ "/1-day-camps/" | relURL }}"
-          >
-            View All Day Camps
-          </a>
-        </header>
-
-        <div class="home-card-grid">
-          {{ range . }}
-            <article class="home-card">
-              {{ with .badge_text }}
-                <p class="home-card__badge">
-                  {{ . }}
-                </p>
-              {{ end }}
-
-              <h3 class="home-card__title">
-                {{ .title }}
-              </h3>
-
-              <div class="home-card__description">
-                {{ .description | safeHTML }}
-              </div>
-
-              <a
-                class="home-card__link"
-                href="{{ .url | relURL }}"
-              >
-                {{ .cta_text }}
-              </a>
-            </article>
-          {{ end }}
-        </div>
-      </div>
-    </section>
-  {{ end }}
-
-
-  {{/* =====================================================
-     Enrichment Classes
-  ====================================================== */}}
-
-  {{ with .Params.classes }}
-    <section
-      id="enrichment-classes"
-      class="home-section home-section--classes"
-      aria-labelledby="classes-heading"
-    >
-      <div class="home-section__container">
-        <header class="home-section__header">
-          <div class="home-section__heading-group">
-            <p class="home-section__eyebrow">
-              Learn something new every week
-            </p>
-
-            <h2 id="classes-heading" class="home-section__title">
-              {{ $.Params.classes_heading }}
-            </h2>
-
-            <p class="home-section__description">
-              {{ $.Params.classes_description }}
-            </p>
-          </div>
-
-          <a
-            class="button button--secondary"
-            href="{{ "/classes/" | relURL }}"
-          >
-            Browse Every Class
-          </a>
-        </header>
-
-        <div class="home-card-grid">
-          {{ range . }}
-            <article class="home-card">
-              {{ with .badge_text }}
-                <p class="home-card__badge">
-                  {{ . }}
-                </p>
-              {{ end }}
-
-              <h3 class="home-card__title">
-                {{ .title }}
-              </h3>
-
-              <p class="home-card__description">
-                {{ .description }}
-              </p>
-
-              <a
-                class="home-card__link"
-                href="{{ .url | relURL }}"
-              >
-                {{ .cta_text }}
-              </a>
-            </article>
-          {{ end }}
-        </div>
-      </div>
-    </section>
-  {{ end }}
-
-
-  {{/* =====================================================
-     Tutoring
-  ====================================================== */}}
-
-  {{ with .Params.tutoring }}
-    <section
-      id="tutoring"
-      class="home-feature home-feature--tutoring"
-      aria-labelledby="tutoring-heading"
-    >
-      <div class="home-feature__container">
-        <div class="home-feature__content">
-          {{ with .eyebrow }}
-            <p class="home-feature__eyebrow">
-              {{ . }}
-            </p>
-          {{ end }}
-
-          <h2 id="tutoring-heading" class="home-feature__title">
+          <h2 id="event-heading" class="home-event__title">
             {{ .title }}
           </h2>
 
-          <div class="home-feature__description">
-            {{ .description | safeHTML }}
+          <p class="home-event__description">
+            {{ .description }}
+          </p>
+
+          <div class="home-event__details">
+            {{ range .details }}
+              <span>
+                <strong>{{ .value }}</strong>
+                {{ .label }}
+              </span>
+            {{ end }}
           </div>
 
           <a
-            class="button button--primary"
+            class="home-button home-button--light"
             href="{{ .url | relURL }}"
           >
             {{ .cta_text }}
+            <span aria-hidden="true">→</span>
           </a>
         </div>
 
-        <div class="home-feature__visual" aria-hidden="true">
-          <span class="home-feature__visual-mark">∑</span>
-        </div>
-      </div>
-    </section>
-  {{ end }}
+        <div class="home-event__image">
+          {{ with resources.Get .image }}
+            {{ $image := .Fill "860x650 webp q82 Center" }}
 
-
-  {{/* =====================================================
-     Test Preparation
-  ====================================================== */}}
-
-  {{ with .Params.test_prep }}
-    <section
-      id="test-preparation"
-      class="home-section home-section--test-prep"
-      aria-labelledby="test-prep-heading"
-    >
-      <div class="home-section__container">
-        <header class="home-section__header">
-          <div class="home-section__heading-group">
-            <p class="home-section__eyebrow">
-              Prepare with confidence
-            </p>
-
-            <h2 id="test-prep-heading" class="home-section__title">
-              {{ $.Params.test_prep_heading }}
-            </h2>
-
-            <p class="home-section__description">
-              {{ $.Params.test_prep_description }}
-            </p>
-          </div>
-        </header>
-
-        <div class="home-card-grid">
-          {{ range . }}
-            <article class="home-card">
-              <h3 class="home-card__title">
-                {{ .title }}
-              </h3>
-
-              <p class="home-card__description">
-                {{ .description }}
-              </p>
-
-              <a
-                class="home-card__link"
-                href="{{ .url | relURL }}"
-              >
-                {{ .cta_text }}
-              </a>
-            </article>
+            <img
+              src="{{ $image.RelPermalink }}"
+              width="{{ $image.Width }}"
+              height="{{ $image.Height }}"
+              alt="{{ $.Params.featured_event.image_alt }}"
+              loading="lazy"
+            >
           {{ end }}
         </div>
       </div>
@@ -354,205 +468,40 @@
   {{ end }}
 
 
-  {{/* =====================================================
-     World Robot Olympiad
-  ====================================================== */}}
+  {{/* =========================================================
+     Additional offerings
+  ========================================================== */}}
 
-  {{ with .Params.wro }}
+  {{ with .Params.additional_offerings }}
     <section
-      id="world-robot-olympiad"
-      class="home-section home-section--wro"
-      aria-labelledby="wro-heading"
+      class="home-section home-offerings"
+      aria-labelledby="offerings-heading"
     >
-      <div class="home-section__container">
-        <header class="home-section__header">
-          <div class="home-section__heading-group">
-            <p class="home-section__eyebrow">
-              International robotics competition
-            </p>
+      <div class="home-shell">
+        <header class="home-section__header home-section__header--center">
+          <p class="home-section__eyebrow">
+            More ways to learn and connect
+          </p>
 
-            <h2 id="wro-heading" class="home-section__title">
-              {{ $.Params.wro_heading }}
-            </h2>
-
-            <p class="home-section__description">
-              {{ $.Params.wro_description }}
-            </p>
-          </div>
-
-          <a
-            class="button button--primary"
-            href="{{ $.Params.wro_url | relURL }}"
-          >
-            {{ $.Params.wro_cta_text }}
-          </a>
-        </header>
-
-        <div class="home-card-grid home-card-grid--four">
-          {{ range . }}
-            <article class="home-card home-card--wro">
-              {{ with .badge_text }}
-                <p class="home-card__badge">
-                  {{ . }}
-                </p>
-              {{ end }}
-
-              <h3 class="home-card__title">
-                {{ .title }}
-              </h3>
-
-              <div class="home-card__description">
-                {{ .description | safeHTML }}
-              </div>
-
-              <a
-                class="home-card__link"
-                href="{{ .url | relURL }}"
-              >
-                {{ .cta_text }}
-              </a>
-            </article>
-          {{ end }}
-        </div>
-      </div>
-    </section>
-  {{ end }}
-
-
-  {{/* =====================================================
-     Birthday Parties
-  ====================================================== */}}
-
-  {{ with .Params.birthdays }}
-    <section
-      id="birthday-parties"
-      class="home-feature home-feature--birthdays"
-      aria-labelledby="birthdays-heading"
-    >
-      <div class="home-feature__container">
-        <div class="home-feature__visual" aria-hidden="true">
-          <span class="home-feature__visual-mark">★</span>
-        </div>
-
-        <div class="home-feature__content">
-          {{ with .eyebrow }}
-            <p class="home-feature__eyebrow">
-              {{ . }}
-            </p>
-          {{ end }}
-
-          <h2 id="birthdays-heading" class="home-feature__title">
-            {{ .title }}
+          <h2 id="offerings-heading" class="home-section__title">
+            Support for school, celebrations, and community
           </h2>
-
-          <div class="home-feature__description">
-            {{ .description | safeHTML }}
-          </div>
-
-          <a
-            class="button button--primary"
-            href="{{ .url | relURL }}"
-          >
-            {{ .cta_text }}
-          </a>
-        </div>
-      </div>
-    </section>
-  {{ end }}
-
-
-  {{/* =====================================================
-     Gaming Fridays
-  ====================================================== */}}
-
-  {{ with .Params.gaming }}
-    <section
-      id="gaming-fridays"
-      class="home-feature home-feature--gaming"
-      aria-labelledby="gaming-heading"
-    >
-      <div class="home-feature__container">
-        <div class="home-feature__content">
-          {{ with .eyebrow }}
-            <p class="home-feature__eyebrow">
-              {{ . }}
-            </p>
-          {{ end }}
-
-          <h2 id="gaming-heading" class="home-feature__title">
-            {{ .title }}
-          </h2>
-
-          <div class="home-feature__description">
-            {{ .description | safeHTML }}
-          </div>
-
-          <a
-            class="button button--primary"
-            href="{{ .url | relURL }}"
-          >
-            {{ .cta_text }}
-          </a>
-        </div>
-
-        <div class="home-feature__visual" aria-hidden="true">
-          <span class="home-feature__visual-mark">+</span>
-        </div>
-      </div>
-    </section>
-  {{ end }}
-
-
-  {{/* =====================================================
-     Why Families Choose Blue Ridge Boost
-  ====================================================== */}}
-
-  {{ with .Params.trust }}
-    <section
-      id="why-blue-ridge-boost"
-      class="home-section home-section--trust"
-      aria-labelledby="trust-heading"
-    >
-      <div class="home-section__container">
-        <header class="home-section__header">
-          <div class="home-section__heading-group">
-            <p class="home-section__eyebrow">
-              Learn, build, and belong
-            </p>
-
-            <h2 id="trust-heading" class="home-section__title">
-              {{ $.Params.trust_heading }}
-            </h2>
-
-            <p class="home-section__description">
-              {{ $.Params.trust_description }}
-            </p>
-          </div>
-
-          <a
-            class="button button--secondary"
-            href="{{ "/about/" | relURL }}"
-          >
-            Meet the Instructors
-          </a>
         </header>
 
-        <div class="home-trust-grid">
+        <div class="home-offering-grid">
           {{ range . }}
-            <article class="home-trust-item">
-              <span class="home-trust-item__icon" aria-hidden="true">
-                ✓
+            <article class="home-offering-card">
+              <span class="home-offering-card__icon" aria-hidden="true">
+                {{ .icon }}
               </span>
 
-              <div class="home-trust-item__content">
-                <h3 class="home-trust-item__title">
-                  {{ .title }}
-                </h3>
+              <h3>{{ .title }}</h3>
+              <p>{{ .description }}</p>
 
-                <p class="home-trust-item__description">
-                  {{ .description }}
-                </p>
-              </div>
+              <a class="home-text-link" href="{{ .url | relURL }}">
+                {{ .cta_text }}
+                <span aria-hidden="true">→</span>
+              </a>
             </article>
           {{ end }}
         </div>
@@ -561,38 +510,36 @@
   {{ end }}
 
 
-  {{/* =====================================================
-     Final Call to Action
-  ====================================================== */}}
+  {{/* =========================================================
+     Final CTA
+  ========================================================== */}}
 
   {{ with .Params.final_cta }}
-    <section
-      class="home-final-cta"
-      aria-labelledby="final-cta-heading"
-    >
-      <div class="home-final-cta__container">
-        <p class="home-final-cta__eyebrow">
-          Questions?
-        </p>
+    <section class="home-final-cta" aria-labelledby="final-cta-heading">
+      <div class="home-shell home-final-cta__panel">
+        <div>
+          <p class="home-final-cta__eyebrow">
+            {{ .eyebrow }}
+          </p>
 
-        <h2 id="final-cta-heading" class="home-final-cta__title">
-          {{ .title }}
-        </h2>
+          <h2 id="final-cta-heading">
+            {{ .title }}
+          </h2>
 
-        <p class="home-final-cta__description">
-          {{ .description }}
-        </p>
+          <p>{{ .description }}</p>
+        </div>
 
         <div class="home-final-cta__actions">
           <a
-            class="button button--primary"
+            class="home-button home-button--light"
             href="{{ .primary_url | relURL }}"
           >
             {{ .primary_text }}
+            <span aria-hidden="true">→</span>
           </a>
 
           <a
-            class="button button--secondary"
+            class="home-button home-button--outline-light"
             href="{{ .secondary_url | relURL }}"
           >
             {{ .secondary_text }}

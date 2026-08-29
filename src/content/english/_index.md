@@ -1,261 +1,252 @@
 ---
 title: "Blue Ridge Boost | STEM Classes, Camps, and Tutoring"
-description: "Hands-on STEM classes, camps, tutoring, robotics, coding, math, test prep, birthday parties, and gaming programs in Charlottesville, Virginia."
+description: "Hands-on coding, robotics, engineering, mathematics, camps, tutoring, birthday parties, and gaming programs for students in Charlottesville, Virginia."
 
-####################### Hero #######################
+######################## Hero ########################
 
-promo_text: "Fall 2026 registration is open"
-
-hero_prefix: "Build skills."
-hero_highlight: "Create boldly."
-hero_subtitle: "Discover what you can do."
+hero_eyebrow: "Fall 2026 registration is open"
+hero_title: "Where curious kids"
+hero_highlight: "build what’s next."
 hero_description: >-
-  Hands-on STEM classes, day camps, tutoring, robotics, coding, math,
-  test preparation, birthday parties, and gaming programs for students
-  ages 6+ in Charlottesville.
+  Hands-on coding, robotics, engineering, mathematics, and creative
+  technology programs for students ages 6–18 in Charlottesville.
 
-hero_primary_text: "Explore Programs"
+hero_primary_text: "Find a Program"
 hero_primary_url: "#programs"
-
-hero_secondary_text: "View All Classes"
+hero_secondary_text: "View Fall Classes"
 hero_secondary_url: "/classes/"
 
-####################### Primary Pathways #######################
+hero_image: "images/classes/build.jpg"
+hero_image_alt: "Students building and experimenting during a hands-on STEM program"
 
-pathways:
-  - title: "Weekly Enrichment Classes"
+hero_secondary_image: "images/classes/coach.jpg"
+hero_secondary_image_alt: "An instructor helping a student with a STEM project"
+
+hero_points:
+  - "Small-group instruction"
+  - "Projects students can be proud of"
+  - "Beginner through advanced programs"
+
+######################## Quick facts ########################
+
+quick_facts:
+  - value: "Ages 6–18"
+    label: "Programs for growing learners"
+  - value: "Charlottesville"
+    label: "Locally taught and supported"
+  - value: "Hands-on"
+    label: "Build, program, test, and create"
+  - value: "Small groups"
+    label: "More individual attention"
+
+######################## Programs ########################
+
+programs:
+  - title: "Weekly STEM Classes"
     description: >-
       After-school and weekend classes in coding, robotics, mathematics,
-      engineering, and creative technology.
-    cta_url: "/classes/"
-    cta_text: "Browse Classes"
-    badge_text: "Ages 6–18"
+      engineering, game design, and creative technology.
+    badge: "Ages 6–18"
+    icon: "⌘"
+    accent: "blue"
+    image: "images/classes/legobots.jpg"
+    url: "/classes/"
+    cta_text: "Browse weekly classes"
 
-  - title: "STEM for Homeschoolers"
+  - title: "One-Day Camps"
     description: >-
-      Flexible daytime programs that bring robotics, coding, mathematics,
-      and collaborative problem-solving to homeschool students.
-    cta_url: "/homeschool/"
-    cta_text: "Explore Homeschool Programs"
-    badge_text: "Daytime STEM"
-
-  - title: "Private STEM Tutoring"
-    description: >-
-      Personalized support for mathematics, coding, robotics, advanced
-      coursework, test preparation, and academic enrichment.
-    cta_url: "/tutoring/"
-    cta_text: "Explore Tutoring"
-    badge_text: "Individual or Small Group"
-
-####################### One-Day Camps #######################
-
-camps_heading: "One-Day STEM Camps"
-camps_description: >-
-  Turn a day away from school into a day of building, experimenting,
-  programming, and discovery.
-
-camps:
-  - title: "Drones & Robotics"
-    description: >-
-      Build, program, test, and fly through a full day of robotics and
-      drone engineering challenges.
+      Turn a school holiday into a full day of robotics, drones, design,
+      programming, science, and engineering challenges.
+    badge: "School holidays"
+    icon: "↗"
+    accent: "orange"
+    image: "images/drone.jpg"
     url: "/1-day-camps/"
-    cta_text: "See Camp Dates"
-    badge_text: "One-Day Camp"
+    cta_text: "View upcoming camps"
 
-  - title: "3D Printing & Design"
+  - title: "Homeschool Programs"
     description: >-
-      Learn the foundations of computer-aided design, create an original
-      model, and bring it to life with 3D printing.
-    url: "/1-day-camps/"
-    cta_text: "See Camp Dates"
-    badge_text: "Design & Build"
+      Flexible daytime STEM experiences with robotics, coding,
+      mathematics, engineering, and collaborative problem-solving.
+    badge: "Daytime STEM"
+    icon: "◇"
+    accent: "green"
+    image: "images/sidebyside.jpg"
+    url: "/homeschool/"
+    cta_text: "Explore homeschool STEM"
 
-  - title: "Renewable Energy"
+  - title: "Private Tutoring"
     description: >-
-      Investigate real engineering problems while designing and testing
-      creative renewable-energy solutions.
-    url: "/1-day-camps/"
-    cta_text: "See Camp Dates"
-    badge_text: "Hands-On Engineering"
-
-####################### Enrichment Classes #######################
-
-classes_heading: "Enrichment Classes"
-classes_description: >-
-  Consistent weekly programs that help students develop practical skills,
-  confidence, and lasting curiosity.
-
-classes:
-  - title: "Classes for Kids"
-    description: >-
-      Minecraft coding, Scratch programming, LEGO robotics, mathematics,
-      and creative engineering for young builders.
-    url: "/classes/kids/"
-    cta_text: "View Kids Classes"
-    badge_text: "Ages 6–10"
-
-  - title: "Classes for Preteens"
-    description: >-
-      Roblox Studio, programming, competition mathematics, robotics, and
-      cryptography for independent problem-solvers.
-    url: "/classes/preteens/"
-    cta_text: "View Preteen Classes"
-    badge_text: "Ages 10–13"
-
-  - title: "Classes for Teens"
-    description: >-
-      Advanced academic and technology programs, including mathematics
-      review, test preparation, and project-based learning.
-    url: "/classes/teens/"
-    cta_text: "View Teen Classes"
-    badge_text: "Ages 14–18"
-
-####################### Tutoring #######################
-
-tutoring:
-  eyebrow: "Personalized Learning"
-  title: "Private STEM Tutoring"
-  description: >-
-    One-on-one and small-group instruction customized to each student's
-    goals. Strengthen fundamentals, work through advanced material,
-    prepare for an exam, or explore a subject beyond the classroom.
-  url: "/tutoring/"
-  cta_text: "Learn About Tutoring"
-
-####################### Test Preparation #######################
-
-test_prep_heading: "Test Preparation"
-test_prep_description: >-
-  Focused instruction, targeted review, and guided practice for
-  challenging courses and standardized exams.
-
-test_prep:
-  - title: "AP Exam Preparation"
-    description: >-
-      Personalized support for AP Calculus AB/BC, AP Physics,
-      AP Computer Science, AP Precalculus, and related advanced coursework.
-    url: "/test-prep/"
-    cta_text: "Explore AP Preparation"
-
-  - title: "SAT & ACT Mathematics"
-    description: >-
-      Build speed, accuracy, confidence, and problem-solving strategies
-      through targeted review and realistic practice.
-    url: "/test-prep/"
-    cta_text: "Explore SAT & ACT Prep"
-
-  - title: "Academic Mathematics Support"
-    description: >-
-      Close learning gaps, strengthen core concepts, and prepare for
-      upcoming assessments with individualized instruction.
+      Personalized mathematics, programming, robotics, test preparation,
+      and academic support for individual students or small groups.
+    badge: "Personalized"
+    icon: "∑"
+    accent: "purple"
+    image: "images/classes/coach.jpg"
     url: "/tutoring/"
-    cta_text: "Explore Math Tutoring"
+    cta_text: "Learn about tutoring"
 
-####################### World Robot Olympiad #######################
-
-wro_heading: "World Robot Olympiad 2026"
-wro_description: >-
-  Blue Ridge Boost is hosting the WRO–USEL Regional Open Qualifier in
-  Charlottesville on September 5–6, 2026. Student teams can compete in
-  four international robotics categories.
-wro_url: "/wro/"
-wro_cta_text: "View Competition Details"
-
-wro:
-  - title: "RoboMission"
+  - title: "STEM Birthday Parties"
     description: >-
-      Design and program an autonomous robot to complete missions on a
-      themed playing field while adapting to surprise challenges.
-    url: "/wro/#robomission"
-    cta_text: "Explore RoboMission"
-    badge_text: "Ages 8–19"
+      Celebrate with instructor-led gaming, robotics, engineering, or
+      science activities designed around your child's interests.
+    badge: "Celebrate differently"
+    icon: "★"
+    accent: "pink"
+    image: "images/gamenight.jpg"
+    url: "/birthdays/"
+    cta_text: "Plan a STEM party"
 
-  - title: "RoboSports"
+  - title: "Gaming Fridays"
     description: >-
-      Combine engineering, programming, teamwork, and match strategy in
-      a fast-paced head-to-head robot competition.
-    url: "/wro/#robosports"
-    cta_text: "Explore RoboSports"
-    badge_text: "Ages 8–19"
+      Welcoming, instructor-led gaming events where students collaborate,
+      communicate, develop strategies, and connect with peers.
+    badge: "Play together"
+    icon: "+"
+    accent: "cyan"
+    image: "images/computersibs.jpg"
+    url: "/gaming/"
+    cta_text: "Explore Gaming Fridays"
 
-  - title: "Future Innovators"
-    description: >-
-      Develop and present an original robotics solution addressing a
-      meaningful real-world problem.
-    url: "/wro/#future-innovators"
-    cta_text: "Explore Future Innovators"
-    badge_text: "Ages 8–19"
+######################## Spotlight ########################
 
-  - title: "Future Engineers"
-    description: >-
-      Build an autonomous vehicle capable of navigating a changing course
-      using sensors, programming, and precision control.
-    url: "/wro/#future-engineers"
-    cta_text: "Explore Future Engineers"
-    badge_text: "Ages 14–19"
-
-####################### Birthday Parties #######################
-
-birthdays:
-  eyebrow: "Celebrate Differently"
-  title: "STEM Birthday Parties"
+spotlight:
+  eyebrow: "Learning that feels different"
+  title: "A workshop, computer lab, and creative studio in one place"
   description: >-
-    Give your child a technology-powered birthday adventure featuring
-    gaming, robotics, engineering, or science. We lead the activities
-    so families can enjoy the celebration.
-  url: "/birthdays/"
-  cta_text: "Plan a Birthday Party"
+    Blue Ridge Boost gives students room to explore ambitious ideas.
+    They can write code, build robots, create games, solve challenging
+    mathematics problems, design objects, and learn how technology works.
+  image: "images/fullroom.jpg.jpg"
+  image_alt: "The Blue Ridge Boost learning space prepared for STEM activities"
+  points:
+    - "Friendly instruction with meaningful individual feedback"
+    - "Practical skills taught through memorable projects"
+    - "Programs for beginners, experienced students, and competitors"
+  url: "/classes/"
+  cta_text: "Explore current classes"
 
-####################### Gaming #######################
+######################## Age groups ########################
 
-gaming:
-  eyebrow: "Play, Collaborate, Connect"
-  title: "Gaming Fridays"
+age_groups:
+  - number: "01"
+    ages: "Ages 6–10"
+    title: "Young Builders"
+    description: >-
+      Introduce coding, LEGO robotics, mathematics, science, and
+      engineering through playful, highly visual projects.
+    url: "/classes/kids/"
+    cta_text: "Classes for kids"
+
+  - number: "02"
+    ages: "Ages 10–13"
+    title: "Independent Creators"
+    description: >-
+      Build confidence through programming, robotics, game development,
+      competition mathematics, cryptography, and design.
+    url: "/classes/preteens/"
+    cta_text: "Classes for preteens"
+
+  - number: "03"
+    ages: "Ages 14–18"
+    title: "Advanced Problem-Solvers"
+    description: >-
+      Take on advanced technology, mathematics, exam preparation,
+      independent projects, and competition-level challenges.
+    url: "/classes/teens/"
+    cta_text: "Classes for teens"
+
+######################## Experience ########################
+
+trust_points:
+  - icon: "◎"
+    title: "Experienced instructors"
+    description: >-
+      Learn from educators, engineers, programmers, and competition coaches.
+
+  - icon: "◫"
+    title: "Small learning groups"
+    description: >-
+      Limited class sizes create more opportunities for guidance and feedback.
+
+  - icon: "△"
+    title: "Real projects"
+    description: >-
+      Students build, program, test, revise, present, and solve real challenges.
+
+  - icon: "∞"
+    title: "A welcoming community"
+    description: >-
+      Students can explore interests, meet peers, and take creative risks.
+
+gallery:
+  - image: "images/computersibs.jpg"
+    alt: "Students working together at computers"
+
+  - image: "images/toolbench.jpg"
+    alt: "Tools and equipment used for student engineering projects"
+
+  - image: "images/classes/computerroom.jpg"
+    alt: "Students participating in a computer-based class"
+
+######################## Featured event ########################
+
+featured_event:
+  eyebrow: "World Robot Olympiad"
+  title: "Build a robot. Join a team. Take on the world."
   description: >-
-    Instructor-led gaming events where students work together, practice
-    communication, develop strategies, and enjoy a welcoming social
-    environment.
-  url: "/gaming/"
-  cta_text: "Explore Gaming Fridays"
+    Blue Ridge Boost hosts and supports World Robot Olympiad teams and
+    competition programs in Charlottesville. Students combine engineering,
+    programming, strategy, creativity, and teamwork.
+  image: "images/classes/wrotable.jpg"
+  image_alt: "Students preparing robots on a World Robot Olympiad competition table"
+  url: "/wro/"
+  cta_text: "Explore World Robot Olympiad"
+  details:
+    - value: "4"
+      label: "competition categories"
+    - value: "Ages 8–19"
+      label: "student divisions"
+    - value: "Team-based"
+      label: "engineering challenges"
 
-####################### Why Blue Ridge Boost #######################
+######################## Additional offerings ########################
 
-trust_heading: "Why families choose Blue Ridge Boost"
-trust_description: >-
-  Serious skill-building delivered through welcoming, hands-on
-  experiences that students look forward to.
-
-trust:
-  - title: "Experienced Instructors"
+additional_offerings:
+  - icon: "∑"
+    title: "Mathematics and STEM Tutoring"
     description: >-
-      Students learn from engineers, educators, programmers, and
-      competition coaches who enjoy helping young people grow.
+      Strengthen fundamentals, work through advanced material, prepare
+      for an exam, or explore a subject beyond the classroom.
+    url: "/tutoring/"
+    cta_text: "Explore tutoring"
 
-  - title: "Small Learning Groups"
+  - icon: "✦"
+    title: "Test Preparation"
     description: >-
-      Limited class sizes allow instructors to provide meaningful
-      feedback, encouragement, and individual attention.
+      Focused support for SAT and ACT mathematics, AP courses, academic
+      assessments, problem-solving, speed, and confidence.
+    url: "/test-prep/"
+    cta_text: "Explore test preparation"
 
-  - title: "Real Projects"
+  - icon: "★"
+    title: "Parties and Group Events"
     description: >-
-      Students learn by building, programming, testing, revising,
-      presenting, and solving authentic challenges.
+      Bring students together for a technology-powered celebration
+      featuring games, robotics, engineering, or science.
+    url: "/birthdays/"
+    cta_text: "Plan an event"
 
-  - title: "A Welcoming Community"
-    description: >-
-      Students can explore their interests, meet like-minded peers,
-      take creative risks, and develop confidence.
-
-####################### Final CTA #######################
+######################## Final CTA ########################
 
 final_cta:
+  eyebrow: "Need help choosing?"
   title: "Find the right STEM experience"
   description: >-
-    Not sure which class, camp, or tutoring option is the best fit?
-    Tell us about your student's interests and goals.
+    Tell us about your student's age, interests, experience, and goals.
+    We will help you choose a class, camp, team, or tutoring option.
   primary_text: "Contact Blue Ridge Boost"
   primary_url: "/contact/"
-  secondary_text: "Browse All Classes"
+  secondary_text: "Browse all classes"
   secondary_url: "/classes/"
 ---
