@@ -5,7 +5,7 @@
 .page-header {
   position: relative;
   overflow: hidden;
-  padding: clamp(2.5rem, 7vw, 5rem) 0;
+  padding: clamp(1.25rem, 3.5vw, 2.5rem) 0;
   text-align: center;
   background:
     radial-gradient(circle at 15% 30%, rgba($color-secondary, 0.13), transparent 26rem),
@@ -303,3 +303,2490 @@
     }
   }
 }
+
+// ============================================================
+// Quick Facts Bar
+// ============================================================
+
+.quick-facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  margin-bottom: 1.5rem;
+  background: $border-color;
+  border: 1px solid $border-color;
+  border-radius: $radius;
+  overflow: hidden;
+}
+
+.quick-fact {
+  padding: 1rem 0.75rem;
+  text-align: center;
+  background: $surface-solid;
+
+  strong {
+    display: block;
+    color: $text-dark;
+    font-size: 0.95rem;
+    font-weight: 800;
+  }
+
+  span {
+    display: block;
+    margin-top: 0.2rem;
+    color: $text-light;
+    font-size: 0.78rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .quick-facts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+// ============================================================
+// Promo Banner
+// ============================================================
+
+.promo-banner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem 1.25rem;
+  background: linear-gradient(135deg, rgba($color-mint, 0.08), rgba($color-primary, 0.06));
+  border: 1px solid rgba($color-mint, 0.2);
+  border-radius: $radius-sm;
+
+  .promo-badge {
+    display: inline-block;
+    padding: 0.35rem 0.7rem;
+    color: $white;
+    background: $color-mint;
+    border-radius: $radius-pill;
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  p {
+    margin: 0;
+    color: $text-dark;
+    font-size: 0.95rem;
+
+    strong {
+      color: $color-mint;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .promo-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+// ============================================================
+// Camp Price Tag
+// ============================================================
+
+.camp-price {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.4rem 0.9rem;
+  color: $color-primary;
+  background: $lightest-blue;
+  border-radius: $radius-pill;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+// ============================================================
+// Schedule Grid
+// ============================================================
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.schedule-block {
+  padding: 1.5rem;
+  background: $surface-solid;
+  border: 1px solid $border-color;
+  border-radius: $radius;
+  box-shadow: $shadow-xs;
+
+  h3 {
+    margin: 0 0 1rem;
+    padding-bottom: 0.75rem;
+    color: $text-dark;
+    font-size: 1rem;
+    font-weight: 800;
+    border-bottom: 2px solid $color-primary;
+  }
+
+  &--morning h3 {
+    border-bottom-color: $color-secondary;
+  }
+
+  &--afternoon h3 {
+    border-bottom-color: $color-purple;
+  }
+}
+
+.schedule-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.schedule-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid rgba($border-color, 0.5);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.schedule-time {
+  flex: 0 0 85px;
+  color: $color-primary;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.schedule-activity {
+  color: $text-color;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 700px) {
+  .schedule-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+// ============================================================
+// Ecwid Carousel
+// ============================================================
+
+.carousel-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto 3rem;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  // Fade effect on edges
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 12%,
+    black 88%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 12%,
+    black 88%,
+    transparent 100%
+  );
+
+  // Target the Ecwid store wrapper
+  > div {
+    display: block;
+  }
+
+  // Override Ecwid grid to be horizontal
+  .ec-wrapper,
+  .ec-store,
+  [class*="ec-store"] {
+    overflow: visible !important;
+  }
+
+  .ec-grid,
+  .grid-product__wrap,
+  [class*="grid__products"],
+  [class*="ec-grid"],
+  .ec-store__content-wrapper,
+  .ec-store__content-wrapper > div {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    gap: 1.5rem;
+    padding: 1.5rem calc(50% - 180px);
+    overflow: visible !important;
+  }
+
+  // Individual product cards - only control width, let height be natural
+  .grid-product,
+  .ec-grid__cell,
+  [class*="grid-product"],
+  [class*="grid__product"],
+  [data-product-id] {
+    flex: 0 0 340px;
+    width: 340px;
+    min-width: 340px;
+    scroll-snap-align: center;
+  }
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  color: $text-dark;
+  background: $surface-solid;
+  border: 1px solid $border-color;
+  border-radius: 50%;
+  box-shadow: $shadow;
+  cursor: pointer;
+  transform: translateY(-50%);
+  transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover:not(:disabled) {
+    color: $color-primary;
+    background: $lightest-blue;
+    border-color: $color-primary;
+    box-shadow: $shadow-lg;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  &--prev {
+    left: 1rem;
+  }
+
+  &--next {
+    right: 1rem;
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .carousel-arrow {
+    width: 40px;
+    height: 40px;
+
+    &--prev {
+      left: 0.5rem;
+    }
+
+    &--next {
+      right: 0.5rem;
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .carousel-container {
+    .grid-product,
+    .ec-grid__cell,
+    [class*="grid-product"],
+    [class*="grid__product"],
+    [data-product-id] {
+      flex: 0 0 260px !important;
+      width: 260px !important;
+      min-width: 260px !important;
+      max-width: 260px !important;
+    }
+
+    .ec-grid,
+    .grid-product__wrap,
+    [class*="grid__products"],
+    [class*="ec-grid"],
+    .ec-store__content-wrapper,
+    .ec-store__content-wrapper > div {
+      padding: 1.5rem calc(50% - 140px);
+    }
+
+    .grid-product,
+    .ec-grid__cell,
+    [class*="grid-product"],
+    [class*="grid__product"],
+    [data-product-id] {
+      flex: 0 0 280px;
+      width: 280px;
+      min-width: 280px;
+    }
+
+    mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      black 8%,
+      black 92%,
+      transparent 100%
+    );
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      black 8%,
+      black 92%,
+      transparent 100%
+    );
+  }
+}
+
+
+// ============================================================
+// Camp & Program Page Styles
+// ============================================================
+
+// Container for camp pages
+.camp-page-container {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+// Quick Facts Bar - Camp variant with enhanced blue theme
+.camp-quick-facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, $color-primary, $color-secondary);
+  border-radius: $radius;
+  overflow: hidden;
+  box-shadow: $shadow-sm;
+}
+
+.camp-fact {
+  padding: 1.25rem 1rem;
+  text-align: center;
+  background: $surface-solid;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 3px;
+    background: linear-gradient(90deg, $color-primary, $color-secondary);
+    border-radius: 2px;
+    opacity: 0;
+    transition: opacity 200ms ease;
+  }
+
+  &:hover::after {
+    opacity: 1;
+  }
+
+  strong {
+    display: block;
+    color: $darkest-blue;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: 0.25rem;
+  }
+
+  span {
+    display: block;
+    color: $text-light;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 700px) {
+  .camp-quick-facts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 400px) {
+  .camp-quick-facts {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Promo Banner - Camp variant with vibrant styling
+.camp-promo-banner {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+  padding: 1.25rem 1.5rem;
+  background: linear-gradient(135deg, rgba($lightest-blue, 0.9), rgba($color-secondary, 0.08));
+  border: 1px solid rgba($color-primary, 0.15);
+  border-left: 4px solid $color-secondary;
+  border-radius: $radius-sm;
+  box-shadow: $shadow-xs;
+}
+
+.camp-promo-badge {
+  display: inline-block;
+  padding: 0.4rem 0.85rem;
+  color: $white;
+  background: linear-gradient(135deg, $color-secondary, $color-mint);
+  border-radius: $radius-pill;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  box-shadow: 0 2px 8px rgba($color-mint, 0.3);
+  white-space: nowrap;
+}
+
+.camp-promo-banner p {
+  margin: 0;
+  color: $text-dark;
+  font-size: 0.98rem;
+  line-height: 1.5;
+
+  strong {
+    color: $color-mint;
+    font-weight: 800;
+  }
+}
+
+@media (max-width: 550px) {
+  .camp-promo-banner {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.75rem;
+  }
+}
+
+// Notice Banner for announcements
+.camp-notice {
+  margin-bottom: 2rem;
+  padding: 1rem 1.25rem;
+  background: linear-gradient(135deg, rgba($color-purple, 0.08), rgba($color-primary, 0.05));
+  border: 1px solid rgba($color-purple, 0.2);
+  border-left: 4px solid $color-purple;
+  border-radius: $radius-sm;
+  text-align: center;
+
+  p {
+    margin: 0;
+    color: $text-dark;
+    font-size: 0.95rem;
+
+    strong {
+      color: $color-purple;
+    }
+  }
+}
+
+// Info Card Grid
+.camp-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+// Individual Info Cards with gradient accents
+.camp-info-card {
+  position: relative;
+  background: $surface-solid;
+  border: 1px solid $border-color;
+  border-radius: $radius;
+  box-shadow: $shadow-sm;
+  overflow: hidden;
+  @include interactive-lift;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, $color-primary, $color-secondary);
+  }
+
+  // Alternate gradient colors for visual variety
+  &:nth-child(2)::before {
+    background: linear-gradient(90deg, $color-secondary, $color-mint);
+  }
+
+  &:nth-child(3)::before {
+    background: linear-gradient(90deg, $color-purple, $color-primary);
+  }
+
+  &:nth-child(4)::before {
+    background: linear-gradient(90deg, $color-mint, $color-secondary);
+  }
+}
+
+.camp-info-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.25rem 1.25rem 0;
+
+  h2 {
+    margin: 0;
+    color: $darkest-blue;
+    font-size: 1.1rem;
+    font-weight: 800;
+  }
+}
+
+.camp-info-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: $lightest-blue;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+
+// Details List
+.camp-details-list {
+  margin: 1rem 0 0;
+  padding: 0 1.25rem 1.25rem;
+  list-style: none;
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.65rem 0;
+    border-bottom: 1px solid rgba($border-color, 0.7);
+
+    &:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+  }
+}
+
+.detail-label {
+  color: $text-color;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.detail-value {
+  color: $color-primary;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-align: right;
+}
+
+// Schedule within cards
+.camp-schedule {
+  padding: 1rem 1.25rem 1.25rem;
+}
+
+.schedule-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid rgba($border-color, 0.5);
+
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+.schedule-row .time {
+  flex: 0 0 55px;
+  color: $color-primary;
+  font-size: 0.85rem;
+  font-weight: 750;
+}
+
+.schedule-row .activity {
+  color: $text-color;
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+// Store Section
+.camp-store-section {
+  margin: 3rem 0;
+  padding: 2.5rem 0;
+  background: linear-gradient(180deg, $lightest-blue, rgba($white, 0.5));
+  border-top: 1px solid rgba($color-primary, 0.1);
+  border-bottom: 1px solid rgba($color-primary, 0.1);
+}
+
+.camp-store-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+
+  h2 {
+    margin: 0 0 0.5rem;
+    color: $darkest-blue;
+    font-size: clamp(1.5rem, 3vw, 1.85rem);
+    font-weight: 850;
+  }
+
+  p {
+    margin: 0;
+    color: $text-color;
+    font-size: 0.95rem;
+
+    a {
+      color: $color-primary;
+      font-weight: 600;
+    }
+  }
+}
+
+.camp-store-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+// Help Banner / CTA
+.camp-help-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin: 2.5rem 0;
+  padding: 1.5rem 2rem;
+  background: linear-gradient(135deg, $darkest-blue, darken($color-primary, 8%));
+  border-radius: $radius;
+  box-shadow: $shadow;
+}
+
+.camp-help-content {
+  color: $white;
+
+  strong, h4 {
+    display: block;
+    margin: 0 0 0.35rem;
+    font-size: 1.05rem;
+    font-weight: 800;
+  }
+
+  p {
+    margin: 0;
+    opacity: 0.9;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  a {
+    color: $white;
+    text-decoration: underline;
+  }
+}
+
+.camp-help-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  color: $darkest-blue;
+  background: $white;
+  border-radius: $radius-pill;
+  font-size: 0.88rem;
+  font-weight: 750;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color: $color-primary;
+  }
+}
+
+@media (max-width: 600px) {
+  .camp-help-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .camp-help-btn {
+    width: 100%;
+  }
+}
+
+// Birthday/Celebration Theme Cards
+.theme-card {
+  position: relative;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  background: $surface-solid;
+  border: 1px solid $border-color;
+  border-radius: $radius;
+  box-shadow: $shadow-sm;
+  overflow: hidden;
+  @include interactive-lift;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, $color-primary, $color-secondary);
+  }
+
+  h4 {
+    margin: 0 0 1rem;
+    padding-bottom: 0.75rem;
+    color: $darkest-blue;
+    font-size: 1.15rem;
+    font-weight: 800;
+    border-bottom: 2px solid $lightest-blue;
+  }
+
+  h6 {
+    margin: 0 0 0.75rem;
+    color: $text-light;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  p {
+    margin: 0 0 0.5rem;
+    color: $text-color;
+    font-size: 0.92rem;
+    line-height: 1.5;
+
+    strong {
+      color: $color-primary;
+      font-weight: 800;
+    }
+  }
+
+  ul {
+    margin: 0.75rem 0 0;
+    padding-left: 1.25rem;
+
+    li {
+      margin-bottom: 0.4rem;
+      color: $text-color;
+      font-size: 0.88rem;
+    }
+  }
+}
+
+// Alternate theme card colors
+.row > .theme-card:nth-child(2)::before {
+  background: linear-gradient(90deg, $color-secondary, $color-mint);
+}
+
+.row > .theme-card:nth-child(3)::before {
+  background: linear-gradient(90deg, $color-purple, $color-primary);
+}
+
+.row > .theme-card:nth-child(4)::before {
+  background: linear-gradient(90deg, $color-mint, $color-secondary);
+}
+
+// Party booking section
+.party-booking {
+  margin-top: 1.5rem;
+}
+
+// Event highlights card
+.event-highlights {
+  margin-bottom: 1.5rem;
+
+  h3 {
+    margin: 0 0 1rem;
+    color: $darkest-blue;
+    font-size: 1.15rem;
+    font-weight: 800;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      position: relative;
+      padding-left: 1.75rem;
+      margin-bottom: 0.6rem;
+      color: $text-color;
+      font-size: 0.92rem;
+
+      &::before {
+        content: "\f00c";
+        font-family: $font-icon;
+        font-weight: 900;
+        position: absolute;
+        left: 0;
+        color: $color-mint;
+      }
+    }
+  }
+}
+
+// ============================================================
+// Policy & Info Pages (contact, scholarships, refund, payment, privacy, terms)
+// ============================================================
+
+.policy-page,
+.contact-page,
+.scholarships-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.policy-page {
+  max-width: 800px;
+}
+
+// Policy Summary Card
+.policy-summary {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, rgba($color-primary, 0.06), rgba($darkest-blue, 0.04));
+  border: 1px solid $border-color;
+  border-left: 4px solid $color-primary;
+  border-radius: $radius-sm;
+}
+
+.policy-summary-icon {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.policy-summary-content h3 {
+  margin: 0 0 0.5rem;
+  color: $text-dark;
+  font-size: 1.1rem;
+}
+
+.policy-summary-content p {
+  margin: 0;
+  color: $text-color;
+  line-height: 1.6;
+}
+
+// Policy Sections
+.policy-section {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid $border-color;
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+
+  h2 {
+    margin: 0 0 1rem;
+    color: $text-dark;
+    font-size: 1.25rem;
+    font-weight: 800;
+  }
+
+  p {
+    color: $text-color;
+    line-height: 1.7;
+    margin: 0 0 1rem;
+  }
+
+  a {
+    color: $color-primary;
+    font-weight: 600;
+  }
+}
+
+.policy-list {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+
+  li {
+    color: $text-color;
+    line-height: 1.7;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.policy-highlight {
+  background: linear-gradient(135deg, rgba($color-mint, 0.08), rgba($color-mint, 0.04));
+  border: 1px solid rgba($color-mint, 0.2);
+  border-radius: $radius-sm;
+  padding: 1.5rem !important;
+
+  h2 {
+    color: #047857;
+  }
+}
+
+.policy-highlight-warning {
+  background: linear-gradient(135deg, rgba($color-accent, 0.08), rgba($color-accent, 0.04));
+  border: 1px solid rgba($color-accent, 0.2);
+
+  h2 {
+    color: #b45309;
+  }
+}
+
+.policy-notice {
+  padding: 1rem 1.25rem;
+  background: $surface-solid;
+  border: 1px solid $border-color;
+  border-radius: $radius-xs;
+  margin-bottom: 2rem;
+
+  p {
+    margin: 0;
+    color: $text-color;
+    font-size: 0.92rem;
+    line-height: 1.6;
+  }
+}
+
+// Policy Cards Grid
+.policy-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.policy-card {
+  background: $surface-solid;
+  border: 1px solid $border-color;
+  border-radius: $radius-sm;
+  overflow: hidden;
+  box-shadow: $shadow-xs;
+}
+
+.policy-card-header {
+  padding: 0.85rem 1.25rem;
+  background: $darkest-blue;
+  color: $white;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.policy-card-warning .policy-card-header {
+  background: linear-gradient(135deg, $color-red, darken($color-red, 8%));
+}
+
+.policy-card-body {
+  padding: 1.25rem;
+
+  p {
+    margin: 0;
+    color: $text-color;
+    font-size: 0.92rem;
+    line-height: 1.65;
+  }
+}
+
+// Contact/Policy Page Quick Facts - simpler style than camp pages
+.contact-facts {
+  background: $border-color;
+  border: 1px solid $border-color;
+  box-shadow: $shadow-sm;
+}
+
+.camp-fact {
+  padding: 1.25rem 1rem;
+  text-align: center;
+  background: $surface-solid;
+
+  strong {
+    display: block;
+    color: $text-dark;
+    font-size: 1.05rem;
+    font-weight: 800;
+    margin-bottom: 0.35rem;
+  }
+
+  span {
+    display: block;
+    color: $text-color;
+    font-size: 0.88rem;
+    line-height: 1.5;
+  }
+
+  a {
+    color: $color-primary;
+    text-decoration: none;
+    font-weight: 600;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Contact Cards Grid
+.contact-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.camp-info-card {
+  background: $surface-solid;
+  border: 1px solid $border-color;
+  border-radius: $radius;
+  overflow: hidden;
+  box-shadow: $shadow-sm;
+}
+
+.camp-info-header {
+  padding: 1rem 1.25rem;
+  background: linear-gradient(135deg, $darkest-blue, lighten($darkest-blue, 12%));
+  color: $white;
+  font-weight: 800;
+  font-size: 1.05rem;
+}
+
+.camp-info-body {
+  padding: 1.25rem;
+
+  p {
+    margin: 0.5rem 0;
+    color: $text-color;
+    font-size: 0.92rem;
+    line-height: 1.6;
+  }
+
+  a {
+    color: $color-primary;
+    font-weight: 600;
+  }
+}
+
+// Help Banner
+.camp-help-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 1.5rem 2rem;
+  background: linear-gradient(135deg, $darkest-blue, lighten($darkest-blue, 12%));
+  border-radius: $radius;
+  text-align: center;
+  box-shadow: $shadow;
+}
+
+.camp-help-content {
+  h4 {
+    margin: 0 0 0.5rem;
+    color: $white;
+    font-size: 1.25rem;
+  }
+
+  p {
+    margin: 0.25rem 0;
+    color: rgba($white, 0.85);
+  }
+
+  a {
+    color: lighten($color-primary, 25%);
+    font-weight: 600;
+  }
+}
+
+// Scholarships Page
+.scholarship-intro {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  text-align: center;
+  color: $text-color;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.memorial-section {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, rgba($darkest-blue, 0.03), rgba($color-primary, 0.03));
+  border-radius: $radius;
+  border: 1px solid $border-color;
+}
+
+.memorial-name {
+  margin: 0.5rem 0;
+  color: $text-dark;
+  font-size: 1rem;
+}
+
+.scholarship-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.scholarship-card {
+  background: $surface-solid;
+  border: 1px solid $border-color;
+  border-radius: $radius;
+  overflow: hidden;
+  box-shadow: $shadow-sm;
+  display: flex;
+  flex-direction: column;
+  @include interactive-lift;
+}
+
+.scholarship-photo {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid $border-color;
+}
+
+.scholarship-content {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  h3 {
+    margin: 0 0 0.75rem;
+    color: $text-dark;
+    font-size: 1.15rem;
+    font-weight: 800;
+  }
+
+  p {
+    color: $text-color;
+    font-size: 0.92rem;
+    line-height: 1.65;
+    margin: 0 0 1rem;
+    flex-grow: 1;
+  }
+}
+
+.scholarship-badge {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  margin-bottom: 0.75rem;
+  background: linear-gradient(135deg, $color-primary, lighten($color-primary, 10%));
+  color: $white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: $radius-pill;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  width: fit-content;
+}
+
+.scholarship-meta {
+  padding-top: 0.75rem;
+  margin-bottom: 1rem;
+  border-top: 1px solid $border-color;
+  color: $text-color;
+  font-size: 0.85rem;
+
+  strong {
+    color: $text-dark;
+  }
+}
+
+.scholarship-apply-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, $color-mint, darken($color-mint, 5%));
+  color: $white !important;
+  font-weight: 700;
+  font-size: 0.92rem;
+  text-decoration: none !important;
+  border-radius: $radius-xs;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba($color-mint, 0.3);
+  }
+}
+
+.tribute-section {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  padding: 2rem;
+  background: $surface-solid;
+  border: 1px solid $border-color;
+  border-radius: $radius;
+  box-shadow: $shadow-sm;
+
+  h3 {
+    margin: 0 0 1rem;
+    color: $text-dark;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  p {
+    color: $text-color;
+    line-height: 1.75;
+    margin: 0 0 1rem;
+  }
+}
+
+.tribute-closing {
+  text-align: center;
+  color: $text-dark;
+  font-size: 1.1rem;
+  margin-top: 1.5rem !important;
+}
+
+// Terms Page Grid
+.terms-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.terms-card {
+  display: flex;
+  gap: 1rem;
+  padding: 1.25rem;
+  background: $surface-solid;
+  border: 1px solid $border-color;
+  border-radius: $radius-sm;
+  box-shadow: $shadow-xs;
+}
+
+.terms-card-highlight {
+  grid-column: span 2;
+  background: linear-gradient(135deg, rgba($color-primary, 0.04), rgba($darkest-blue, 0.02));
+  border-color: rgba($color-primary, 0.15);
+}
+
+.terms-card-warning {
+  grid-column: span 2;
+  background: linear-gradient(135deg, rgba($color-accent, 0.06), rgba($color-accent, 0.02));
+  border-color: rgba($color-accent, 0.2);
+}
+
+.terms-number {
+  flex: 0 0 36px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, $darkest-blue, lighten($darkest-blue, 12%));
+  color: $white;
+  font-weight: 800;
+  font-size: 0.95rem;
+  border-radius: $radius-xs;
+}
+
+.terms-card-highlight .terms-number {
+  background: linear-gradient(135deg, $color-primary, lighten($color-primary, 10%));
+}
+
+.terms-card-warning .terms-number {
+  background: linear-gradient(135deg, $color-accent, darken($color-accent, 5%));
+}
+
+.terms-content {
+  flex: 1;
+  min-width: 0;
+
+  h3 {
+    margin: 0 0 0.5rem;
+    color: $text-dark;
+    font-size: 1.05rem;
+    font-weight: 800;
+  }
+
+  p {
+    margin: 0;
+    color: $text-color;
+    font-size: 0.92rem;
+    line-height: 1.65;
+  }
+
+  a {
+    color: $color-primary;
+    font-weight: 600;
+  }
+}
+
+// Contact Card (Privacy page)
+.contact-card {
+  background: $surface-solid;
+  border: 1px solid $border-color;
+  border-radius: $radius;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: $shadow-sm;
+
+  h3 {
+    margin: 0 0 1rem;
+    color: $text-dark;
+    font-size: 1.15rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid $color-primary;
+  }
+
+  > p {
+    color: $text-color;
+    margin: 0 0 1rem;
+  }
+}
+
+.contact-details {
+  background: $lightest-blue;
+  border-radius: $radius-xs;
+  padding: 1rem 1.25rem;
+
+  p {
+    margin: 0.35rem 0;
+    color: $text-color;
+    font-size: 0.95rem;
+  }
+
+  a {
+    color: $color-primary;
+    font-weight: 600;
+  }
+}
+
+// Responsive Adjustments for Policy Pages
+@media (max-width: 900px) {
+  .scholarship-cards-grid {
+    grid-template-columns: 1fr;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .policy-cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .terms-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .terms-card-highlight,
+  .terms-card-warning {
+    grid-column: span 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .camp-quick-facts,
+  .contact-quick-facts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .policy-summary {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .terms-card {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .camp-help-banner {
+    flex-direction: column;
+    padding: 1.25rem;
+  }
+
+  .tribute-section {
+    padding: 1.25rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .camp-quick-facts,
+  .contact-quick-facts {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+// ============================================================
+// Camp Quick Facts & Event Styling
+// ============================================================
+
+.camp-quick-facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, $color-primary, $color-secondary);
+  border: none;
+  border-radius: $radius;
+  overflow: hidden;
+  box-shadow: 0 12px 35px rgba(11, 47, 107, 0.15);
+
+  @media (max-width: 700px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 420px) {
+    grid-template-columns: 1fr;
+    border-radius: $radius-sm;
+  }
+}
+
+.camp-fact {
+  padding: 1.5rem 1.25rem;
+  text-align: center;
+  background: $surface-solid;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background: linear-gradient(90deg, $color-primary, $color-secondary);
+    border-radius: 2px;
+    transition: width 250ms ease;
+  }
+
+  &:hover::after {
+    width: 50px;
+  }
+
+  strong {
+    display: block;
+    color: $darkest-blue;
+    font-size: 1.1rem;
+    font-weight: 850;
+    margin-bottom: 0.35rem;
+  }
+
+  span, br + br ~ * {
+    display: block;
+    color: $text-light;
+    font-size: 0.88rem;
+    line-height: 1.4;
+  }
+
+  a {
+    color: $color-primary;
+    text-decoration: none;
+    font-weight: 600;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.camp-promo-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-bottom: 2.25rem;
+  padding: 1.25rem 1.75rem;
+  background: linear-gradient(135deg, rgba($lightest-blue, 0.95), rgba($color-secondary, 0.08));
+  border: 1px solid rgba($color-primary, 0.12);
+  border-left: 4px solid $color-mint;
+  border-radius: $radius-sm;
+  text-align: center;
+
+  p {
+    margin: 0;
+    color: $text-dark;
+    font-size: 1rem;
+    line-height: 1.5;
+
+    strong {
+      color: $color-mint;
+      font-weight: 800;
+    }
+  }
+
+  @media (max-width: 550px) {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
+
+.camp-promo-badge {
+  display: inline-block;
+  padding: 0.45rem 0.9rem;
+  color: $white;
+  background: linear-gradient(135deg, $color-secondary, $color-mint);
+  border-radius: $radius-pill;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  box-shadow: 0 2px 10px rgba($color-mint, 0.3);
+}
+
+// Notice Banner
+.camp-notice {
+  margin-bottom: 2rem;
+  padding: 1.15rem 1.5rem;
+  background: linear-gradient(135deg, rgba($color-purple, 0.08), rgba($color-primary, 0.04));
+  border: 1px solid rgba($color-purple, 0.18);
+  border-left: 4px solid $color-purple;
+  border-radius: $radius-sm;
+  text-align: center;
+
+  p {
+    margin: 0;
+    color: $text-dark;
+    font-size: 0.95rem;
+
+    strong {
+      color: $color-purple;
+      font-weight: 750;
+    }
+  }
+}
+
+.camp-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.camp-info-card {
+  position: relative;
+  padding: 0;
+  background: $surface-solid;
+  border: 1px solid $border-color;
+  border-radius: $radius;
+  box-shadow: $shadow-sm;
+  overflow: hidden;
+  @include interactive-lift;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 4px;
+    background: linear-gradient(90deg, $color-primary, $color-secondary);
+    content: "";
+  }
+
+  .camp-info-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1.25rem 1.5rem 1rem;
+
+    .camp-info-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 38px;
+      height: 38px;
+      background: linear-gradient(135deg, $lightest-blue, rgba($color-primary, 0.1));
+      border-radius: 10px;
+      font-size: 1.15rem;
+      flex-shrink: 0;
+    }
+
+    h2 {
+      margin: 0;
+      color: $darkest-blue;
+      font-size: 1.1rem;
+      font-weight: 800;
+    }
+  }
+
+  .camp-details-list {
+    margin: 0;
+    padding: 0 1.5rem 1.5rem;
+    list-style: none;
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.7rem 0;
+      border-bottom: 1px solid rgba($border-color, 0.7);
+
+      &:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+    }
+
+    .detail-label {
+      color: $text-color;
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+
+    .detail-value {
+      color: $color-primary;
+      font-size: 0.88rem;
+      font-weight: 700;
+      text-align: right;
+    }
+  }
+
+  .camp-schedule {
+    padding: 0 1.5rem 1.5rem;
+
+    .schedule-row {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.6rem 0;
+      border-bottom: 1px solid rgba($border-color, 0.5);
+
+      &:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+
+      .time {
+        flex: 0 0 55px;
+        color: $color-primary;
+        font-size: 0.85rem;
+        font-weight: 750;
+      }
+
+      .activity {
+        color: $text-color;
+        font-size: 0.88rem;
+        line-height: 1.4;
+      }
+    }
+  }
+
+  h4 {
+    margin: 0 0 0.5rem;
+    color: $darkest-blue;
+    font-size: 1.05rem;
+    font-weight: 800;
+  }
+
+  p {
+    margin: 0;
+    color: $text-color;
+    font-size: 0.92rem;
+    line-height: 1.6;
+  }
+}
+
+.camp-info-card:nth-child(2)::before {
+  background: linear-gradient(90deg, $color-secondary, $color-mint);
+}
+
+.camp-info-card:nth-child(3)::before {
+  background: linear-gradient(90deg, $color-purple, $color-primary);
+}
+
+.camp-info-card:nth-child(4)::before {
+  background: linear-gradient(90deg, $color-mint, $color-secondary);
+}
+
+.camp-help-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 2.5rem 0;
+  padding: 2rem 2.5rem;
+  background: linear-gradient(135deg, $darkest-blue, $color-primary, lighten($color-secondary, 5%));
+  border-radius: $radius;
+  box-shadow: 0 12px 40px rgba($darkest-blue, 0.3);
+
+  @media (max-width: 650px) {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    gap: 1.25rem;
+  }
+}
+
+.camp-help-content {
+  strong, h4 {
+    display: block;
+    margin: 0 0 0.5rem;
+    color: $white;
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+
+  p {
+    margin: 0;
+    color: rgba($white, 0.9);
+    font-size: 0.95rem;
+    line-height: 1.5;
+
+    a {
+      color: $white;
+      font-weight: 700;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+
+      &:hover {
+        color: $light-blue;
+      }
+    }
+  }
+
+  address {
+    color: rgba($white, 0.85);
+    font-style: normal;
+    font-size: 0.9rem;
+  }
+}
+
+.camp-help-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 1.75rem;
+  color: $darkest-blue;
+  background: $white;
+  border-radius: $radius-pill;
+  font-size: 0.9rem;
+  font-weight: 750;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+  transition: transform 200ms ease, box-shadow 200ms ease, background 200ms ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+    background: $lightest-blue;
+    color: $color-primary;
+    text-decoration: none;
+  }
+
+  @media (max-width: 650px) {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+// Store Section
+.camp-store-section {
+  margin: 3rem 0;
+  padding: 3rem 0;
+  background: linear-gradient(180deg, $lightest-blue 0%, rgba($white, 0.7) 50%, $lightest-blue 100%);
+  border-top: 1px solid rgba($color-primary, 0.12);
+  border-bottom: 1px solid rgba($color-primary, 0.12);
+}
+
+.camp-store-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  padding: 0 1rem;
+
+  h2 {
+    margin: 0 0 0.6rem;
+    color: $darkest-blue;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 850;
+  }
+
+  p {
+    margin: 0;
+    color: $text-color;
+    font-size: 1rem;
+
+    a {
+      color: $color-primary;
+      font-weight: 600;
+    }
+  }
+}
+
+.camp-store-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.event-details {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  padding: 1.5rem 2rem;
+  background: linear-gradient(180deg, $lightest-blue, $surface-solid);
+  border: 1px solid rgba($color-primary, 0.12);
+  border-radius: $radius;
+  text-align: center;
+
+  p {
+    margin: 0 0 0.75rem;
+    color: $text-color;
+    font-size: 1.05rem;
+    line-height: 1.7;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    strong {
+      color: $darkest-blue;
+    }
+  }
+}
+
+.class-details-box {
+  margin: 1.5rem 0;
+  padding: 1.5rem 2rem;
+  background: $surface-solid;
+  border: 1px solid $border-color;
+  border-radius: $radius;
+  box-shadow: $shadow-sm;
+
+  h3 {
+    margin: 0 0 1rem;
+    color: $darkest-blue;
+    font-size: 1.25rem;
+    font-weight: 800;
+  }
+
+  h4 {
+    margin: 1.5rem 0 0.75rem;
+    color: $color-primary;
+    font-size: 1rem;
+    font-weight: 750;
+  }
+
+  p {
+    margin: 0 0 0.75rem;
+    color: $text-color;
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  table {
+    width: 100%;
+    margin: 1rem 0;
+    border-collapse: collapse;
+
+    th, td {
+      padding: 0.75rem;
+      border: 1px solid $border-color;
+      text-align: left;
+    }
+
+    th {
+      background: $lightest-blue;
+      color: $darkest-blue;
+      font-weight: 750;
+    }
+
+    td {
+      background: $surface-solid;
+      color: $text-color;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .camp-quick-facts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .camp-promo-banner {
+    flex-direction: column;
+  }
+
+  .camp-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .event-details {
+    padding: 1.25rem;
+  }
+
+  .class-details-box {
+    padding: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .camp-quick-facts {
+    grid-template-columns: 1fr;
+    border-radius: $radius-sm;
+  }
+
+  .camp-fact {
+    padding: 1rem;
+  }
+
+  .camp-help-banner {
+    padding: 1.5rem;
+  }
+}
+
+// ============================================================
+// WRO Schedule Styling
+// ============================================================
+
+.wro-schedule {
+  table {
+    margin: 1.5rem 0 2rem;
+
+    td:first-child {
+      width: 140px;
+      white-space: nowrap;
+      vertical-align: top;
+    }
+
+    td:last-child {
+      line-height: 1.6;
+    }
+  }
+
+  h4 {
+    margin-top: 2rem !important;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid $color-primary;
+  }
+}
+
+// ============================================================
+// Birthday Page Components
+// ============================================================
+
+.birthday-hero-intro {
+  max-width: 700px;
+  margin: 1.5rem auto 2rem;
+  padding: 2rem 2.5rem;
+  text-align: center;
+  background: linear-gradient(135deg, rgba($lightest-blue, 0.6), rgba($color-secondary, 0.08));
+  border: 1px solid rgba($color-primary, 0.15);
+  border-radius: $radius;
+  box-shadow: $shadow-sm;
+}
+
+.birthday-tagline {
+  margin: 0;
+  color: $text-dark;
+  font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+  line-height: 1.6;
+
+  strong {
+    color: $color-primary;
+    background: linear-gradient(90deg, $color-primary, $color-secondary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+}
+
+.birthday-cta-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.birthday-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 3rem;
+  color: $darkest-blue !important;
+  background: linear-gradient(135deg, $lightest-blue, $white);
+  border: 2px solid $color-primary;
+  border-radius: $radius-pill;
+  box-shadow: 0 6px 20px rgba($color-primary, 0.35);
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-decoration: none;
+  transition: transform 200ms ease, box-shadow 200ms ease, background 200ms ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba($color-primary, 0.45);
+    background: linear-gradient(135deg, $color-primary, $color-secondary);
+    color: $white !important;
+    text-decoration: none;
+  }
+}
+
+.birthday-section-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+
+  h3 {
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 0.5rem;
+    color: $text-dark;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 850;
+    border-bottom: 4px solid transparent;
+    background: linear-gradient($white, $white) padding-box, linear-gradient(90deg, $color-primary, $color-secondary) border-box;
+  }
+}
+
+.save-the-date-section {
+  margin-bottom: 2rem;
+}
+
+.save-the-date-box {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 2.5rem;
+  text-align: center;
+  background: linear-gradient(135deg, $lightest-blue, rgba($color-purple, 0.08));
+  border: 1px solid rgba($color-primary, 0.15);
+  border-radius: $radius;
+  box-shadow: $shadow-sm;
+
+  h3 {
+    margin: 0 0 1rem;
+    color: $darkest-blue;
+    font-size: 1.75rem;
+    font-weight: 850;
+  }
+
+  p {
+    margin: 0;
+    color: $text-color;
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+}
+
+// ============================================================
+// Birthday Pricing Comparison Table
+// ============================================================
+
+.pricing-comparison-wrapper {
+  margin: 1.5rem 0 2.5rem;
+}
+
+.pricing-comparison-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: $radius;
+  box-shadow: $shadow;
+
+  &::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $surface-muted;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, $color-primary, $color-secondary);
+    border-radius: 4px;
+  }
+}
+
+.pricing-comparison {
+  width: 100%;
+  min-width: 700px;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: $surface-solid;
+  border: 1px solid $border-color;
+  border-radius: $radius;
+  overflow: hidden;
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  thead tr {
+    background: linear-gradient(180deg, $lightest-blue, rgba($lightest-blue, 0.5));
+  }
+
+  th, td {
+    padding: 0.85rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid $border-color;
+    font-size: 0.92rem;
+  }
+
+  thead th {
+    padding: 1.25rem 1rem;
+    vertical-align: bottom;
+  }
+
+  .feature-col {
+    width: 180px;
+    min-width: 150px;
+    text-align: left;
+    background: $lightest-blue;
+  }
+
+  .pkg-col {
+    min-width: 130px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+    }
+  }
+
+  .pkg-basic::before { background: linear-gradient(90deg, $color-primary, $color-secondary); }
+  .pkg-levelup::before { background: linear-gradient(90deg, $color-secondary, $color-mint); }
+  .pkg-powerup::before { background: linear-gradient(90deg, $color-purple, $color-primary); }
+  .pkg-superstar::before { background: linear-gradient(90deg, $color-mint, $color-secondary); }
+
+  .pkg-icon {
+    display: block;
+    font-size: 1.75rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .pkg-name {
+    display: block;
+    color: $text-dark;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+
+  .pkg-price {
+    display: block;
+    margin-top: 0.25rem;
+    color: $color-primary;
+    font-size: 1.1rem;
+    font-weight: 850;
+  }
+
+  .pkg-badge {
+    display: inline-block;
+    margin-bottom: 0.35rem;
+    padding: 0.2rem 0.6rem;
+    color: $white;
+    background: $color-mint;
+    border-radius: $radius-pill;
+    font-size: 0.65rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  tbody th {
+    text-align: left;
+    font-weight: 700;
+    color: $text-dark;
+    background: rgba($lightest-blue, 0.4);
+  }
+
+  tbody tr:nth-child(even) {
+    background: rgba($lightest-blue, 0.2);
+  }
+
+  tbody tr:hover {
+    background: rgba($color-primary, 0.06);
+  }
+
+  .row-pricing {
+    th, td {
+      font-weight: 700;
+    }
+    td {
+      color: $text-dark;
+    }
+  }
+
+  .row-divider {
+    th {
+      padding: 0.65rem 1rem;
+      color: $white;
+      background: linear-gradient(90deg, $darkest-blue, $color-primary);
+      font-size: 0.85rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      text-align: center;
+    }
+  }
+
+  .check {
+    color: $color-mint;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+
+  .dash {
+    color: $text-light;
+    font-size: 1rem;
+  }
+
+  td strong {
+    color: $color-primary;
+  }
+
+  // Highlight the Super-Star column
+  .pkg-superstar {
+    background: rgba($color-mint, 0.08);
+  }
+
+  tbody td:last-child {
+    background: rgba($color-mint, 0.05);
+  }
+}
+
+// Mobile cards (hidden on desktop)
+.pricing-mobile-cards {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  // Hide table on mobile
+  .pricing-comparison-scroll {
+    display: none;
+  }
+
+  // Show mobile cards
+  .pricing-mobile-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .pricing-mobile-card {
+    position: relative;
+    background: $surface-solid;
+    border: 1px solid $border-color;
+    border-radius: $radius;
+    overflow: hidden;
+    box-shadow: $shadow-sm;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+    }
+  }
+
+  .pkg-basic-card::before { background: linear-gradient(90deg, $color-primary, $color-secondary); }
+  .pkg-levelup-card::before { background: linear-gradient(90deg, $color-secondary, $color-mint); }
+  .pkg-powerup-card::before { background: linear-gradient(90deg, $color-purple, $color-primary); }
+  .pkg-superstar-card::before { background: linear-gradient(90deg, $color-mint, $color-secondary); }
+
+  .pkg-superstar-card {
+    border-color: rgba($color-mint, 0.4);
+    box-shadow: 0 4px 20px rgba($color-mint, 0.15);
+  }
+
+  .pmc-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 0.25rem 0.6rem;
+    color: $white;
+    background: $color-mint;
+    border-radius: $radius-pill;
+    font-size: 0.65rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .pmc-header {
+    padding: 1.25rem 1.25rem 1rem;
+    text-align: center;
+    background: linear-gradient(180deg, $lightest-blue, rgba($lightest-blue, 0.3));
+    border-bottom: 1px solid $border-color;
+  }
+
+  .pmc-icon {
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .pmc-name {
+    display: block;
+    color: $text-dark;
+    font-size: 1.25rem;
+    font-weight: 850;
+  }
+
+  .pmc-price {
+    display: block;
+    margin-top: 0.25rem;
+    color: $color-primary;
+    font-size: 1.5rem;
+    font-weight: 850;
+  }
+
+  .pmc-details {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: rgba($lightest-blue, 0.3);
+  }
+
+  .pmc-details li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.65rem 1.25rem;
+    border-bottom: 1px solid rgba($border-color, 0.6);
+    font-size: 0.9rem;
+
+    span {
+      color: $text-color;
+    }
+
+    strong {
+      color: $text-dark;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .pmc-features {
+    padding: 1rem 1.25rem;
+  }
+
+  .pmc-feature {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.4rem 0;
+    color: $text-color;
+    font-size: 0.88rem;
+
+    .check {
+      color: $color-mint;
+      font-weight: 700;
+    }
+
+    strong {
+      color: $color-primary;
+    }
+  }
+}
+
+.birthday-help-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5rem;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, $darkest-blue, $color-primary);
+  border-radius: $radius;
+  box-shadow: 0 8px 30px rgba($darkest-blue, 0.25);
+}
+
+.birthday-help-content {
+  max-width: 500px;
+  margin: 0 auto;
+
+  h4 {
+    margin: 0 0 1rem;
+    color: $white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  p {
+    margin: 0.6rem 0;
+    color: rgba($white, 0.9);
+    font-size: 1.05rem;
+    line-height: 1.6;
+    text-align: center;
+
+    a {
+      color: $lightest-blue;
+      font-weight: 600;
+      text-decoration: underline;
+
+      &:hover {
+        color: $white;
+      }
+    }
+
+    strong {
+      color: $white;
+    }
+  }
+}
+

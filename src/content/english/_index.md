@@ -130,31 +130,40 @@ spotlight:
 
 age_groups:
   - number: "01"
-    ages: "Ages 6–10"
-    title: "Young Builders"
+    ages: "Ages 6–8 · Grades 1–3"
+    title: "Lower Elementary Explorers"
     description: >-
-      Introduce coding, LEGO robotics, mathematics, science, and
-      engineering through playful, highly visual projects.
-    url: "/classes/kids/"
-    cta_text: "Classes for kids"
+      Introduce coding, LEGO robotics, mathematics, and science
+      through playful, hands-on projects.
+    url: "/classes/lower-elementary-explorers/"
+    cta_text: "View classes"
 
   - number: "02"
-    ages: "Ages 10–13"
-    title: "Independent Creators"
+    ages: "Ages 9–11 · Grades 4–5"
+    title: "Upper Elementary Builders"
     description: >-
-      Build confidence through programming, robotics, game development,
-      competition mathematics, cryptography, and design.
-    url: "/classes/preteens/"
-    cta_text: "Classes for preteens"
+      Build on foundational skills with more advanced coding, robotics,
+      and engineering challenges.
+    url: "/classes/upper-elementary-builders/"
+    cta_text: "View classes"
 
   - number: "03"
-    ages: "Ages 14–18"
-    title: "Advanced Problem-Solvers"
+    ages: "Ages 11–14 · Grades 6–8"
+    title: "Middle School Innovators"
+    description: >-
+      Develop confidence through programming, robotics, game development,
+      competition math, and design.
+    url: "/classes/middle-school-innovators/"
+    cta_text: "View classes"
+
+  - number: "04"
+    ages: "Ages 14–18 · Grades 9–12"
+    title: "High School Scholars"
     description: >-
       Take on advanced technology, mathematics, exam preparation,
-      independent projects, and competition-level challenges.
-    url: "/classes/teens/"
-    cta_text: "Classes for teens"
+      and competition-level challenges.
+    url: "/classes/high-school-scholars/"
+    cta_text: "View classes"
 
 ######################## Experience ########################
 

@@ -1,10 +1,9 @@
 ---
 title: "Winter Break Camps | Blue Ridge Boost"
 page_title: "Winter Break Camps"
-# meta description
 description: "Enroll your child (ages 6-13) in Winter Break Camps at Blue Ridge Boost in Charlottesville, VA! Hands-on learning in robotics, coding, and STEM activities. Half-day and full-day options available."
 draft: false
-# content section
+layout: camp-page
 section: "winter-camps"
 
 keywords:
@@ -27,93 +26,131 @@ keywords:
 robots: "index, follow"
 ---
 
-<p>All camps are held at Blue Ridge Boost, 2171 Ivy Rd, Charlottesville.</p>
-<p>Half-day students should bring a snack. Full-day students should bring two snacks and lunch.</p>
-<p>Drop off starts at 8:30. Pick up ends at 1:00 for half-day and 5:00 for full day.</p>
-<p>Ages 6 to 13. Please note that Blue Ridge Boost is a single focus instructional program, not a day care program.
-  As such, <b>students must be at least six years old for camps.</b></p>
-<p></p>
-<div class="container darknote p-3">
-  <p></p>
-  We will open the sign ups by late October.
-  <p></p>
+<!-- Quick Facts Bar -->
+<div class="camp-quick-facts">
+  <div class="camp-fact">
+    <strong>Ages 6-13</strong>
+    <span>Must be at least 6</span>
+  </div>
+  <div class="camp-fact">
+    <strong>Charlottesville</strong>
+    <span>2171 Ivy Road</span>
+  </div>
+  <div class="camp-fact">
+    <strong>Half & Full Day</strong>
+    <span>Flexible options</span>
+  </div>
+  <div class="camp-fact">
+    <strong>All Materials</strong>
+    <span>Included in price</span>
+  </div>
 </div>
 
-<!-- <section class="section">
-  <div class="container">
-    <p>Blue Ridge Boosts offers instructional programs in robotics, coding, and math during the school breaks
-      and days off school. We also offer camps on days with unexpected school closings such as "snow days".
-    <br>Blue Ridge Boost is a single focus instructional program, not a day care program.
-      As such, <b>students must be at least six years old for camps.</b>
-    <br>All camps are held at Blue Ridge Boost, 2171 Ivy Rd, Charlottesville.</p>
-    <p>Half-day students should bring a snack. Full-day students should bring two snacks and lunch.</p>
+<!-- Notice Banner -->
+<div class="camp-notice">
+  <p><strong>Sign-ups open late October</strong> - Check back soon for winter break camp dates!</p>
+</div>
+
+<!-- Info Cards -->
+<div class="camp-info-grid">
+  
+  <div class="camp-info-card">
+    <div class="camp-info-header">
+      <span class="camp-info-icon">📋</span>
+      <h2>Camp Details</h2>
+    </div>
+    <ul class="camp-details-list">
+      <li>
+        <span class="detail-label">Drop-off</span>
+        <span class="detail-value">8:30 AM</span>
+      </li>
+      <li>
+        <span class="detail-label">Half-day pickup</span>
+        <span class="detail-value">1:00 PM</span>
+      </li>
+      <li>
+        <span class="detail-label">Full-day pickup</span>
+        <span class="detail-value">5:00 PM</span>
+      </li>
+      <li>
+        <span class="detail-label">Bring (half-day)</span>
+        <span class="detail-value">1 snack</span>
+      </li>
+      <li>
+        <span class="detail-label">Bring (full-day)</span>
+        <span class="detail-value">Lunch + 2 snacks</span>
+      </li>
+    </ul>
   </div>
-  <div class="container" id="winter">
-    {{/*  <h4>Winter Break 2-Day Camps</h4>  */}}
-    <div class="container">
-      <div class="class-cards">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rows-cols-lg-3 row-cols-xl-3 g-3">
-          {{ range sort (where .Site.Pages ".Params.category" "Winter Break") ".Params.page_rank" "asc" }}
-            {{ if strings.Contains .Params.page_title "1-Day" }}
-              {{ partial "1-day-camp-card" . }}
-            {{ else }}
-              {{ partial "2-day-camp-card" . }}
-            {{ end }}
-          {{ end }}
-        </div>
+
+  <div class="camp-info-card">
+    <div class="camp-info-header">
+      <span class="camp-info-icon">🌅</span>
+      <h2>Morning Schedule</h2>
+    </div>
+    <div class="camp-schedule">
+      <div class="schedule-row">
+        <span class="time">8:30</span>
+        <span class="activity">Free play, getting to know each other</span>
+      </div>
+      <div class="schedule-row">
+        <span class="time">10:30</span>
+        <span class="activity">Snack break</span>
+      </div>
+      <div class="schedule-row">
+        <span class="time">11:00</span>
+        <span class="activity">Guided learning session</span>
+      </div>
+      <div class="schedule-row">
+        <span class="time">12:30</span>
+        <span class="activity">Lunch</span>
       </div>
     </div>
   </div>
-  <p></p>
-  <div class="container">
-    <p>
-      Join us for an exhilarating exploration of robotics, coding, chess, and math. Teamwork and collaboration
-      are at the heart of our camp experience. Students will have the opportunity to work together, share ideas,
-      and solve challenges. Through hands-on activities and group projects, students will develop critical
-      thinking skills and learn the importance of effective communication.</p>
-    <p>
-      Typical camp day:<center>
-        <style>
-          tr:nth-child(odd) {
-            background-color: #D6EEEE;
-          }
 
-          td {
-            padding-left: 12px;
-            padding-right: 12px;
-          }
-        </style>
-        <table>
-          <tr>
-            <td width="35%">8:30&ndash;10:30am</td>
-            <td>Free play, getting to know each other</td>
-          </tr>
-          <tr>
-            <td>10:30&ndash;11am</td>
-            <td>Snack</td>
-          </tr>
-          <tr>
-            <td>11am&ndash;12:30pm</td>
-            <td>Guided learning session</td>
-          </tr>
-          <tr>
-            <td>12:30&ndash;1pm</td>
-            <td>Lunch</td>
-          </tr>
-          <tr>
-            <td>1&ndash;2:30pm</td>
-            <td>Guided learning session</td>
-          </tr>
-          <tr>
-            <td>2:30&ndash;3pm</td>
-            <td>Snack</td>
-          </tr>
-          <tr>
-            <td>3&ndash;5pm</td>
-            <td>Individual and group exploration</td>
-          </tr>
-        </table>
-      </center>
-    </p>
+  <div class="camp-info-card">
+    <div class="camp-info-header">
+      <span class="camp-info-icon">🌇</span>
+      <h2>Afternoon Schedule</h2>
+    </div>
+    <div class="camp-schedule">
+      <div class="schedule-row">
+        <span class="time">1:00</span>
+        <span class="activity">Guided learning session</span>
+      </div>
+      <div class="schedule-row">
+        <span class="time">2:30</span>
+        <span class="activity">Snack break</span>
+      </div>
+      <div class="schedule-row">
+        <span class="time">3:00</span>
+        <span class="activity">Individual and group exploration</span>
+      </div>
+      <div class="schedule-row">
+        <span class="time">5:00</span>
+        <span class="activity">Pickup</span>
+      </div>
+    </div>
   </div>
-</section> -->
+
+</div>
+
+<!-- Store Section (hidden until signups open) -->
+<section class="camp-store-section" id="camp-store" style="display: none;">
+  <div class="camp-store-header">
+    <h2>Winter Break Camps</h2>
+    <p>Select a camp below to register. Questions? <a href="mailto:camps@blueridgeboost.com">Contact us</a></p>
+  </div>
+  <div class="camp-store-container">
+    <!-- Store will be enabled when signups open -->
+  </div>
+</section>
+
+<!-- Help Banner -->
+<div class="camp-help-banner">
+  <div class="camp-help-content">
+    <strong>Want to be notified when sign-ups open?</strong>
+    <p>Drop us a note and we'll let you know when winter break camps are available.</p>
+  </div>
+  <a href="mailto:camps@blueridgeboost.com" class="camp-help-btn">Get Notified</a>
+</div>

@@ -35,7 +35,7 @@
 
 [[main]]
     name        = "⛺ One-Day Camps"
-    url         = "/one-day-camps/"
+    url         = "/1-day-camps/"
     weight      = 2
 
 ############ Birthdays and Gaming ############
@@ -80,7 +80,7 @@
 [[main]]
     parent     = "academic-support"
     name       = "AP Test Prep"
-    url        = "/test-prep/ap/"
+    url        = "/test-prep/"
     weight     = 3
 
 ############ Homeschool ############
@@ -92,7 +92,7 @@
 ############ Competitions ############
 [[main]]
     name        = "🤖 WRO"
-    url         = "/world-robot-olympiad/"
+    url         = "/wro/"
     weight      = 6
 
 

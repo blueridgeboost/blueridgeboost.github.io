@@ -335,10 +335,18 @@
 
               <p>{{ .description }}</p>
 
-              <a class="home-text-link" href="{{ .url | relURL }}">
-                {{ .cta_text }}
-                <span aria-hidden="true">→</span>
-              </a>
+              <div class="home-age-card__links">
+                <a class="home-text-link" href="{{ .url | relURL }}">
+                  {{ .cta_text }}
+                  <span aria-hidden="true">→</span>
+                </a>
+                {{ if .url2 }}
+                <a class="home-text-link" href="{{ .url2 | relURL }}">
+                  {{ .cta_text2 }}
+                  <span aria-hidden="true">→</span>
+                </a>
+                {{ end }}
+              </div>
             </article>
           {{ end }}
         </div>

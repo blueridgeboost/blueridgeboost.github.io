@@ -25,38 +25,88 @@ keywords:
 robots: "index, follow"
 ---
 
-## Accepted Payment Methods
-Blue Ridge Boost LLC accepts the following payment methods:
-1. Credit Cards (Visa, Mastercard, American Express, Discover)
-2. Debit Cards
-3. Electronic Funds Transfer (EFT)
-4. Checks (personal or cashier's)
+<div class="policy-page">
 
-## Payment Due Date
-All payments for classes are due upon registration. Your child's spot in the class will not be reserved until payment is received in full. Subscriptions will be charged on the current date. Future payments will be drawn at the beginning of each month, starting with the second class.
+<div class="camp-quick-facts">
+<div class="camp-fact"><strong>Credit Cards</strong><span>Visa, MC, Amex, Discover</span></div>
+<div class="camp-fact"><strong>Debit Cards</strong><span>All major banks</span></div>
+<div class="camp-fact"><strong>EFT</strong><span>Electronic transfer</span></div>
+<div class="camp-fact"><strong>Checks</strong><span>Personal or cashier's</span></div>
+</div>
 
-## Recurring Payments (Subscriptions)
-For your convenience, we offer subscription-based enrollment. By enrolling in a subscription, you authorize Blue Ridge Boost LLC to automatically charge your chosen payment method on a recurring basis (e.g., monthly or quarterly). Subscription payments will be processed on the same day of each billing period.
+<div class="policy-section">
+<h2>Accepted Payment Methods</h2>
+<p>Blue Ridge Boost LLC accepts the following payment methods:</p>
+<ul class="policy-list">
+<li>Credit Cards (Visa, Mastercard, American Express, Discover)</li>
+<li>Debit Cards</li>
+<li>Electronic Funds Transfer (EFT)</li>
+<li>Checks (personal or cashier's)</li>
+</ul>
+</div>
 
-## Returned Checks and Insufficient Funds
-If a check is returned due to insufficient funds or any other reason, a $25 fee will be assessed. You will be notified of the returned check and the outstanding balance, which must be paid within 10 business days. Failure to pay the outstanding balance may result in your child's dismissal from the program.
+<div class="policy-section">
+<h2>Payment Due Date</h2>
+<p>All payments for classes are due upon registration. Your child's spot in the class will not be reserved until payment is received in full. Subscriptions will be charged on the current date. Future payments will be drawn at the beginning of each month, starting with the second class.</p>
+</div>
 
-## Late Payments
-If payment is not received by the due date, a late fee of $25 will be assessed. If payment is not received within 10 business days of the due date, your child may be dismissed from the program.
+<div class="policy-section">
+<h2>Recurring Payments (Subscriptions)</h2>
+<p>For your convenience, we offer subscription-based enrollment. By enrolling in a subscription, you authorize Blue Ridge Boost LLC to automatically charge your chosen payment method on a recurring basis (e.g., monthly or quarterly). Subscription payments will be processed on the same day of each billing period.</p>
+</div>
 
-## Refunds
-Refunds will be issued in accordance with our Refunds and Cancellations policy outlined in the Terms and Conditions. In the event of a refund, the original payment method will be credited.
+<div class="policy-cards-grid">
+<div class="policy-card policy-card-warning">
+<div class="policy-card-header">Returned Checks</div>
+<div class="policy-card-body">
+<p>If a check is returned due to insufficient funds or any other reason, a <strong>$25 fee</strong> will be assessed. You will be notified of the returned check and the outstanding balance, which must be paid within <strong>10 business days</strong>. Failure to pay may result in your child's dismissal from the program.</p>
+</div>
+</div>
 
-## Subscription Cancellation
-You may cancel your subscription at any time. However, no refund will be issued for the remaining portion of the current payment period. Cancellations must be submitted in writing at least 10 business days prior to the next billing date to avoid being charged for the upcoming period.
+<div class="policy-card policy-card-warning">
+<div class="policy-card-header">Late Payments</div>
+<div class="policy-card-body">
+<p>If payment is not received by the due date, a <strong>late fee of $25</strong> will be assessed. If payment is not received within <strong>10 business days</strong> of the due date, your child may be dismissed from the program.</p>
+</div>
+</div>
+</div>
 
-## Price Changes
-Blue Ridge Boost LLC reserves the right to adjust class prices at any time. You will be notified of any price changes at least 30 days in advance. If you do not wish to continue with the new pricing, you may cancel your enrollment or subscription in accordance with our cancellation policy.
+<div class="policy-section">
+<h2>Refunds</h2>
+<p>Refunds will be issued in accordance with our <a href="/refund-policy">Refunds and Cancellations policy</a>. In the event of a refund, the original payment method will be credited.</p>
+</div>
 
-## Financial Assistance
-We offer financial assistance to families who qualify. Please contact our office for more information on how to apply for financial assistance.
+<div class="policy-section">
+<h2>Subscription Cancellation</h2>
+<p>You may cancel your subscription at any time. However, no refund will be issued for the remaining portion of the current payment period. Cancellations must be submitted in writing at least <strong>10 business days</strong> prior to the next billing date to avoid being charged for the upcoming period.</p>
+</div>
 
-## Payment Disputes
-If you believe there is an error on your account or you have a dispute regarding a payment, please contact our office immediately. We will investigate the issue and make any necessary corrections.
+<div class="policy-section">
+<h2>Price Changes</h2>
+<p>Blue Ridge Boost LLC reserves the right to adjust class prices at any time. You will be notified of any price changes at least <strong>30 days</strong> in advance. If you do not wish to continue with the new pricing, you may cancel your enrollment or subscription in accordance with our cancellation policy.</p>
+</div>
 
-By enrolling your child in classes provided by Blue Ridge Boost LLC, you agree to adhere to this payment policy. If you have any questions or concerns regarding payments, please contact our office for assistance.
+<div class="policy-section policy-highlight">
+<h2>Financial Assistance</h2>
+<p>We offer financial assistance to families who qualify. Please contact our office for more information on how to apply for financial assistance. You can also explore our <a href="/scholarships">scholarship opportunities</a>.</p>
+</div>
+
+<div class="policy-section">
+<h2>Payment Disputes</h2>
+<p>If you believe there is an error on your account or you have a dispute regarding a payment, please contact our office immediately. We will investigate the issue and make any necessary corrections.</p>
+</div>
+
+<div class="policy-notice">
+<p>By enrolling your child in classes provided by Blue Ridge Boost LLC, you agree to adhere to this payment policy. If you have any questions or concerns regarding payments, please contact our office for assistance.</p>
+</div>
+
+<div class="camp-help-banner">
+<div class="camp-help-content">
+<h4>Questions About Payment?</h4>
+<p>We're here to help with billing inquiries.</p>
+<p>Email {{< email >}} or call <a href="tel:+14342600636">(434) 260-0636</a></p>
+</div>
+</div>
+
+</div>
+

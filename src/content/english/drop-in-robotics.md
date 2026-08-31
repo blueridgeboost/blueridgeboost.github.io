@@ -31,24 +31,33 @@ robots: "index, follow"
 
 ---
 
+<div class="programs-overview">
+
+<div class="camp-quick-facts">
+  <div class="camp-fact"><strong>Ages</strong><span>6-13</span></div>
+  <div class="camp-fact"><strong>When</strong><span>1st Saturday Monthly</span></div>
+  <div class="camp-fact"><strong>Time</strong><span>10:00 AM - 12:00 PM</span></div>
+  <div class="camp-fact"><strong>Location</strong><span>2171 Ivy Rd</span></div>
+</div>
+
+<div class="camp-promo-banner">
+  <span class="camp-promo-badge">Drop-In</span>
+  <p>No registration required in advance - just drop in on the day! <strong>$49.99 per session</strong></p>
+</div>
+
 <div class="event-details">
   <p>
     Bring your young innovators to <strong>Blue Ridge Boost</strong> for a fun and creative
     <strong>Robotics Play Time</strong>! Perfect for kids ages 6 to 13, this drop-in session is held
-    <strong>first Saturday of every month</strong> and offers hands-on exploration with
+    the <strong>first Saturday of every month</strong> and offers hands-on exploration with
     robotics in a playful, low-pressure environment.
   </p>
   <p>
-    No prior experience is needed—just bring your imagination and curiosity!
-  </p>
-  <ul>
-    <li><strong>Time:</strong> 10:00 AM - 12:00 PM</li>
-    <li><strong>Where:</strong> At Blue Ridge Boost - 2171 Ivy Rd, Charlottesville</li>
-  </ul>
-  <p>
-    Come drop in and watch your child’s creativity soar! 🚀
+    No prior experience is needed - just bring your imagination and curiosity!
   </p>
 </div>
+
+<h2 class="programs-heading">Reserve Your Spot</h2>
 
 <div class="container">
     <div>
@@ -59,15 +68,29 @@ robots: "index, follow"
     </div>
 </div>
 
-<div>
-  <p>Your child will:</p>
-  <ul>
-    <li>Build, program, and play with robots</li>
-    <li>Explore STEM concepts through engaging, kid-friendly activities</li>
-    <li>Develop teamwork and problem-solving skills while having fun!</li>
-  </ul>
-  <p>
-    <strong>Questions?</strong> Call <a href="tel:4342600636">(434) 260-0636</a> or email
-    {{< email >}}
-  </p>
+<h2 class="programs-heading">What to Expect</h2>
+
+<div class="camp-info-grid">
+  <div class="camp-info-card">
+    <h4>Build & Program</h4>
+    <p>Build, program, and play with robots using a variety of platforms.</p>
+  </div>
+  <div class="camp-info-card">
+    <h4>Explore STEM</h4>
+    <p>Explore STEM concepts through engaging, kid-friendly activities.</p>
+  </div>
+  <div class="camp-info-card">
+    <h4>Learn Skills</h4>
+    <p>Develop teamwork and problem-solving skills while having fun!</p>
+  </div>
+</div>
+
+<div class="camp-help-banner">
+  <div class="camp-help-content">
+    <h4>Questions About Drop-In Robotics?</h4>
+    <p>We would love to see your young innovator at our next session!</p>
+    <p>Call <a href="tel:+14342600636">(434) 260-0636</a> or email {{< email >}}</p>
+  </div>
+</div>
+
 </div>
