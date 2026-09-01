@@ -1,0 +1,645 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+<section class="section test-page-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-11 mx-auto">
+        <!-- Big Centered Buy Now Button -->
+        <div class="buy-now-hero">
+          <a href="#camp-store" class="buy-now-btn" id="buyNowBtn">
+            <span class="buy-now-icon">🛒</span>
+            Buy Now!
+          </a>
+        </div>
+        <div class="content test-page-content">{{ .Content }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+/* ==========================================================================
+   Test Page - Improved Camp Layout
+   ========================================================================== */
+
+.test-page-section {
+  padding-block: clamp(1.5rem, 4vw, 2.5rem);
+  transition: background-color 0.3s ease;
+}
+
+.test-page-content {
+  --camp-blue: #0b6ff4;
+  --camp-blue-dark: #0758c7;
+  --camp-navy: #0b1f3f;
+  --camp-green: #119b73;
+  --camp-orange: #f08a25;
+  --camp-text: #2e4567;
+  --camp-muted: #60728c;
+  --camp-border: #dbe5f0;
+  --camp-soft: #f4f8fd;
+  --camp-bg: #ffffff;
+}
+
+/* Big Centered Buy Now Hero */
+.buy-now-hero {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+/* Buy Now Button - Large and prominent */
+.buy-now-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1.1rem 2.5rem;
+  color: #ffffff;
+  background: linear-gradient(135deg, #f08a25, #e95b85);
+  border: none;
+  border-radius: 999px;
+  font-size: 1.35rem;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: 0 8px 28px rgba(240, 138, 37, 0.4);
+  transition: all 0.2s ease;
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.buy-now-btn:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 12px 36px rgba(240, 138, 37, 0.5);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.buy-now-icon {
+  font-size: 1.4rem;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 8px 28px rgba(240, 138, 37, 0.4);
+  }
+  50% {
+    box-shadow: 0 8px 36px rgba(240, 138, 37, 0.55);
+  }
+}
+
+/* Header Dark Mode Toggle */
+.header-dark-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.85rem;
+  color: #0b1f3f;
+  background: #ffffff;
+  border: 1px solid #dbe5f0;
+  border-radius: 999px;
+  box-shadow: 0 2px 8px rgba(11, 31, 63, 0.08);
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  margin-left: 0.5rem;
+}
+
+.header-dark-toggle:hover {
+  background: #f4f8fd;
+  border-color: #0b6ff4;
+}
+
+.header-dark-toggle .toggle-icon {
+  font-size: 0.95rem;
+}
+
+.header-dark-toggle .toggle-icon--dark {
+  display: none;
+}
+
+.header-dark-toggle .toggle-label--dark {
+  display: none;
+}
+
+body.test-page-dark .header-dark-toggle {
+  color: #f0f4f8;
+  background: #1a2a40;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+body.test-page-dark .header-dark-toggle:hover {
+  background: #243750;
+  border-color: #5fa8ff;
+}
+
+body.test-page-dark .header-dark-toggle .toggle-icon--light {
+  display: none;
+}
+
+body.test-page-dark .header-dark-toggle .toggle-icon--dark {
+  display: inline;
+}
+
+body.test-page-dark .header-dark-toggle .toggle-label--light {
+  display: none;
+}
+
+body.test-page-dark .header-dark-toggle .toggle-label--dark {
+  display: inline;
+}
+
+/* Quick Facts Bar - Bigger */
+.camp-quick-facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  margin-bottom: 1.75rem;
+  background: var(--camp-border);
+  border: 1px solid var(--camp-border);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(11, 31, 63, 0.1);
+}
+
+.camp-fact {
+  padding: 1.5rem 1.25rem;
+  text-align: center;
+  background: var(--camp-bg);
+}
+
+.camp-fact strong {
+  display: block;
+  color: var(--camp-navy);
+  font-size: 1.2rem;
+  font-weight: 850;
+}
+
+.camp-fact span {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--camp-muted);
+  font-size: 0.88rem;
+}
+
+/* Promo Banner - Centered */
+.camp-promo-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+  padding: 1.1rem 1.5rem;
+  background: linear-gradient(135deg, rgba(17, 155, 115, 0.08), rgba(11, 111, 244, 0.05));
+  border: 1px solid rgba(17, 155, 115, 0.2);
+  border-radius: 12px;
+}
+
+.camp-promo-badge {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  color: #fff;
+  background: var(--camp-green);
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.camp-promo-banner p {
+  margin: 0;
+  color: var(--camp-text);
+  font-size: 1rem;
+}
+
+.camp-promo-banner strong {
+  color: var(--camp-green);
+}
+
+/* Info Grid */
+.camp-info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.camp-info-card {
+  background: var(--camp-bg);
+  border: 1px solid var(--camp-border);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(11, 31, 63, 0.06);
+}
+
+.camp-info-header {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 1rem 1.25rem;
+  background: var(--camp-soft);
+  border-bottom: 1px solid var(--camp-border);
+}
+
+.camp-info-icon {
+  font-size: 1.1rem;
+}
+
+.camp-info-header h2 {
+  margin: 0;
+  color: var(--camp-navy);
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+/* Details List */
+.camp-details-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.camp-details-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1.25rem;
+  border-bottom: 1px solid rgba(219, 229, 240, 0.6);
+}
+
+.camp-details-list li:last-child {
+  border-bottom: none;
+}
+
+.detail-label {
+  color: var(--camp-muted);
+  font-size: 0.88rem;
+}
+
+.detail-value {
+  color: var(--camp-navy);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+/* Schedule */
+.camp-schedule {
+  padding: 0.5rem 0;
+}
+
+.schedule-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.6rem 1.25rem;
+}
+
+.schedule-row .time {
+  flex: 0 0 50px;
+  color: var(--camp-blue);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.schedule-row .activity {
+  color: var(--camp-text);
+  font-size: 0.88rem;
+}
+
+/* Store Section */
+.camp-store-section {
+  margin-bottom: 2rem;
+}
+
+.camp-store-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.camp-store-header h2 {
+  margin: 0 0 0.5rem;
+  color: var(--camp-navy);
+  font-size: 1.75rem;
+  font-weight: 850;
+  text-align: center;
+}
+
+.camp-store-header p {
+  margin: 0 auto;
+  color: var(--camp-muted);
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.camp-store-header a {
+  color: var(--camp-blue);
+  font-weight: 600;
+}
+
+.camp-store-container {
+  background: #f4f8fd !important;
+  border: 1px solid #dbe5f0 !important;
+  border-radius: 16px;
+  padding: 1.5rem;
+  min-height: 400px;
+}
+
+/* Help Banner - Centered with proper text colors */
+.camp-help-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1.5rem 2rem;
+  background: linear-gradient(135deg, #0b1f3f, #173763);
+  border-radius: 14px;
+}
+
+.camp-help-content {
+  text-align: center;
+}
+
+.camp-help-content strong {
+  display: block;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.camp-help-content p {
+  margin: 0.3rem 0 0;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.92rem;
+}
+
+.camp-help-btn {
+  display: inline-flex;
+  padding: 0.75rem 1.35rem;
+  color: #0b1f3f;
+  background: #fff;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.camp-help-btn:hover {
+  background: #edf6ff;
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: #0758c7;
+}
+
+/* ==========================================================================
+   Dark Mode Styles - Full Page
+   ========================================================================== */
+
+/* Body-level dark mode */
+body.test-page-dark {
+  background: #0a1525 !important;
+}
+
+body.test-page-dark .page-header {
+  background:
+    radial-gradient(circle at 15% 30%, rgba(95, 168, 255, 0.15), transparent 26rem),
+    radial-gradient(circle at 85% 20%, rgba(139, 92, 246, 0.12), transparent 26rem),
+    linear-gradient(180deg, #12243a, #0a1525) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+body.test-page-dark .page-header h1 {
+  background: linear-gradient(100deg, #5fa8ff, #7dd3fc, #a78bfa) !important;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+}
+
+body.test-page-dark .page-header .page-subtitle {
+  color: #8a9bb0 !important;
+}
+
+body.test-page-dark .test-page-section {
+  background: #0a1525;
+}
+
+/* Buy Now button in dark mode */
+body.test-page-dark .buy-now-btn {
+  background: linear-gradient(135deg, #f59e0b, #ec4899);
+  box-shadow: 0 8px 28px rgba(245, 158, 11, 0.45);
+}
+
+body.test-page-dark .buy-now-btn:hover {
+  box-shadow: 0 12px 36px rgba(245, 158, 11, 0.55);
+}
+
+body.test-page-dark .test-page-content {
+  --camp-navy: #f0f4f8;
+  --camp-text: #c8d4e0;
+  --camp-muted: #8a9bb0;
+  --camp-border: rgba(255, 255, 255, 0.12);
+  --camp-soft: #1a2a40;
+  --camp-bg: #0f1c2e;
+  --camp-blue: #5fa8ff;
+  --camp-blue-dark: #7eb8ff;
+  --camp-green: #3dd9a0;
+}
+
+body.test-page-dark .camp-quick-facts {
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+body.test-page-dark .camp-promo-banner {
+  background: linear-gradient(135deg, rgba(61, 217, 160, 0.12), rgba(95, 168, 255, 0.08));
+  border-color: rgba(61, 217, 160, 0.25);
+}
+
+body.test-page-dark .camp-info-card {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+body.test-page-dark .camp-details-list li {
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+body.test-page-dark .camp-help-banner {
+  background: linear-gradient(135deg, #1a3a5c, #0f2744);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Site Header dark mode - targeting .site-header structure */
+body.test-page-dark .site-header {
+  background: #0f1c2e !important;
+  border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+}
+
+body.test-page-dark .site-header::before {
+  background: transparent !important;
+}
+
+/* Brand / Logo text */
+body.test-page-dark .site-header .brand strong {
+  color: #f0f4f8 !important;
+}
+
+body.test-page-dark .site-header .brand span {
+  color: #8a9bb0 !important;
+}
+
+/* Navigation links - need high specificity to override !important in base styles */
+body.test-page-dark .site-header .nav .nav-list .nav-link,
+body.test-page-dark .site-header .nav .nav-list > li > a,
+body.test-page-dark .site-header .nav .nav-list > li > a.nav-link,
+body.test-page-dark .site-header .nav .nav-list .nav-dropdown > a,
+body.test-page-dark .site-header .nav .nav-list .nav-dropdown > a.nav-link,
+body.test-page-dark .site-header .nav-link,
+body.test-page-dark .site-header .nav-list a,
+body.test-page-dark .site-header a.nav-link,
+body.test-page-dark .site-header a.nav-link.has-dropdown {
+  color: #c8d4e0 !important;
+}
+
+body.test-page-dark .site-header .nav .nav-list .nav-link:hover,
+body.test-page-dark .site-header .nav .nav-list > li > a:hover,
+body.test-page-dark .site-header .nav .nav-list .nav-dropdown > a:hover,
+body.test-page-dark .site-header .nav-link:hover,
+body.test-page-dark .site-header .nav-list a:hover,
+body.test-page-dark .site-header a.nav-link:hover,
+body.test-page-dark .site-header a.nav-link.has-dropdown:hover {
+  color: #5fa8ff !important;
+  background: rgba(95, 168, 255, 0.1) !important;
+}
+
+body.test-page-dark .site-header .nav-link.active,
+body.test-page-dark .site-header a.nav-link.active {
+  color: #5fa8ff !important;
+  background: rgba(95, 168, 255, 0.1) !important;
+}
+
+/* Dropdown arrow icon */
+body.test-page-dark .site-header .dropdown-arrow {
+  color: #c8d4e0 !important;
+}
+
+/* Dropdown menus */
+body.test-page-dark .site-header .nav-sub {
+  background: #1a2a40 !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4) !important;
+}
+
+body.test-page-dark .site-header .nav-sub a {
+  color: #c8d4e0 !important;
+}
+
+body.test-page-dark .site-header .nav-sub a:hover {
+  color: #5fa8ff !important;
+  background: rgba(95, 168, 255, 0.1) !important;
+}
+
+/* Mobile drawer */
+body.test-page-dark .site-header .drawer {
+  background: #0f1c2e !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+body.test-page-dark .site-header .drawer a,
+body.test-page-dark .site-header .drawer .drawer-heading {
+  color: #c8d4e0 !important;
+}
+
+body.test-page-dark .site-header .drawer a:hover {
+  color: #5fa8ff !important;
+}
+
+/* Menu button */
+body.test-page-dark .site-header .menuBtn {
+  color: #c8d4e0 !important;
+  background: #1a2a40 !important;
+  border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Footer dark mode */
+body.test-page-dark footer,
+body.test-page-dark .footer {
+  background: #0a1525 !important;
+  border-top-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+body.test-page-dark footer,
+body.test-page-dark footer p,
+body.test-page-dark footer a,
+body.test-page-dark footer h4,
+body.test-page-dark footer h5,
+body.test-page-dark .footer,
+body.test-page-dark .footer p,
+body.test-page-dark .footer a {
+  color: #8a9bb0 !important;
+}
+
+body.test-page-dark footer a:hover,
+body.test-page-dark .footer a:hover {
+  color: #5fa8ff !important;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .camp-info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 650px) {
+  .buy-now-btn {
+    padding: 0.9rem 2rem;
+    font-size: 1.15rem;
+  }
+
+  .camp-quick-facts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .camp-promo-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .camp-help-banner {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .header-dark-toggle .toggle-label {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .camp-quick-facts {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<script>
+// Smooth scroll for Buy Now button
+document.addEventListener('DOMContentLoaded', function() {
+  const buyNowBtn = document.getElementById('buyNowBtn');
+  if (buyNowBtn) {
+    buyNowBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      const target = document.getElementById('camp-store');
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  }
+});
+</script>
+
+{{end}}

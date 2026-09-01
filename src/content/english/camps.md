@@ -3,7 +3,7 @@ title: "One-Day Camps | Blue Ridge Boost"
 page_title: "One-Day Camps"
 description: "One-day STEM camps at Blue Ridge Boost in Charlottesville, VA. Hands-on robotics, coding, and engineering camps for ages 6-13 on school breaks, snow days, and teacher workdays."
 draft: false
-layout: single
+layout: camp-page
 
 keywords:
   - one-day camps Charlottesville
@@ -17,121 +17,131 @@ keywords:
 robots: "index, follow"
 ---
 
-<div class="container">
-
-  <div style="background: var(--color-background-primary); border: 0.5px solid rgba(18,32,70,0.15); border-left: 3px solid #2C7A9B; border-radius: 12px; padding: 1rem 1.25rem; margin-bottom: 1.25rem; max-width: 900px; margin-left: auto; margin-right: auto;">
-    <p style="margin: 0 0 0.5rem; font-size: 1rem; font-weight: 700; color: rgba(7,16,34,0.9);">🎁 Refer a friend — you both save</p>
-    <p style="margin: 0 0 0.75rem; font-size: 0.9375rem; color: rgba(7,16,34,0.70); line-height: 1.6;">
-      Already enrolled? Check your confirmation email for your unique referral code. Share it with friends and they'll get <strong>10% off</strong> any camp. When they use it, you'll earn <strong>10% of their order back as credit</strong> toward future camps.
-    </p>
-    <div style="display: flex; gap: 10px; flex-wrap: wrap; font-size: 0.875rem; color: rgba(7,16,34,0.60);">
-      <span style="background: rgba(255,255,255,0.85); border: 1px solid rgba(18,32,70,0.15); border-radius: 999px; padding: 5px 12px;">📧 Find your code in your enrollment confirmation email</span>
-    </div>
+<!-- Quick Facts Bar -->
+<div class="camp-quick-facts">
+  <div class="camp-fact">
+    <strong>Ages 6-13</strong>
+    <span>Elementary & middle school</span>
   </div>
+  <div class="camp-fact">
+    <strong>Charlottesville</strong>
+    <span>2171 Ivy Road</span>
+  </div>
+  <div class="camp-fact">
+    <strong>Half & Full Day</strong>
+    <span>Flexible options</span>
+  </div>
+  <div class="camp-fact">
+    <strong>All Materials</strong>
+    <span>Included in price</span>
+  </div>
+</div>
 
-  <p style="text-align: center; font-size: 1.125rem; color: rgba(7, 16, 34, 0.76); max-width: 800px; margin: 0 auto 3rem;">
-    Hands-on STEM camps for a single day off school — no multi-week commitment. All camps include expert instruction, hands-on projects, and all materials.
-  </p>
+<!-- Promo Banner -->
+<div class="camp-promo-banner">
+  <span class="camp-promo-badge">Early Bird</span>
+  <p><strong>Save 25%</strong> when you register 3+ days before camp</p>
+</div>
 
-  <h2 class="programs-heading">One-Day Camps</h2>
-
-  <div class="class-details-box" style="background: #E3F2FD; border-left: 4px solid #2C7A9B;">
-    <h3>School Breaks, Snow Days &amp; Teacher Workdays</h3>
-    <p><strong>Ages 6-13</strong> • Half-day and full-day options</p>
-    <p>Single-day camps that turn a day off school into a day of building, coding, and problem solving. Drop-off 8:30-9:00 AM; pickup 12:30-1:00 PM for half-day or 4:30-5:00 PM for full-day. All camp materials are included.</p>
-    <p style="margin-top: 1.5rem;"><strong>Topics Include:</strong></p>
-    <ul style="column-count: 2; column-gap: 2rem; margin-bottom: 1.5rem;">
-      <li>Drones &amp; Robotics</li>
-      <li>3D Printing &amp; Design</li>
-      <li>Renewable Energy</li>
+<!-- Info Cards -->
+<div class="camp-info-grid">
+  
+  <div class="camp-info-card">
+    <div class="camp-info-header">
+      <span class="camp-info-icon">📋</span>
+      <h2>Camp Details</h2>
+    </div>
+    <ul class="camp-details-list">
+      <li>
+        <span class="detail-label">Drop-off</span>
+        <span class="detail-value">8:30-9:00 AM</span>
+      </li>
+      <li>
+        <span class="detail-label">Half-day pickup</span>
+        <span class="detail-value">12:30-1:00 PM</span>
+      </li>
+      <li>
+        <span class="detail-label">Full-day pickup</span>
+        <span class="detail-value">4:30-5:00 PM</span>
+      </li>
+      <li>
+        <span class="detail-label">Bring (half-day)</span>
+        <span class="detail-value">1 snack</span>
+      </li>
+      <li>
+        <span class="detail-label">Bring (full-day)</span>
+        <span class="detail-value">Lunch + 2 snacks</span>
+      </li>
     </ul>
-    <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
-      <a href="/1-day-camps/" style="display: inline-block; background: #2C7A9B; color: white; padding: 12px 20px; border-radius: 999px; text-decoration: none; font-weight: 700;">See Camp Dates &amp; Register</a>
-    </div>
   </div>
 
-  <!-- Summer camps, advanced STEM camps, and certification bootcamps are paused while
-       this page focuses on one-day camps. Uncomment to bring them back.
-
-  <h2 class="programs-heading" style="margin-top: 3rem;">Summer Camps</h2>
-
-  <div class="class-details-box" style="background: #E3F2FD; border-left: 4px solid #2C7A9B;">
-    <h3>Week-Long Creative Tech Camps</h3>
-    <p><strong>Ages 6-12</strong> • Full-day and half-day morning and afternoon options available</p>
-    <p>Creative technology camps designed for beginners. Students explore coding, robotics, game design, Minecraft Education, and science through hands-on projects in a fun, supportive environment.</p>
-    <p style="margin-top: 1.5rem;"><strong>Topics Include:</strong></p>
-    <ul style="column-count: 2; column-gap: 2rem; margin-bottom: 1.5rem;">
-      <li>Robotics &amp; LEGO Engineering</li>
-      <li>Scratch &amp; Block Coding</li>
-      <li>Game Design Basics with Roblox Studio</li>
-      <li>Minecraft Education</li>
-      <li>Science Experiments</li>
+  <div class="camp-info-card">
+    <div class="camp-info-header">
+      <span class="camp-info-icon">🔬</span>
+      <h2>Topics</h2>
+    </div>
+    <ul class="camp-details-list">
+      <li>
+        <span class="detail-label">Robotics</span>
+        <span class="detail-value">Build & program</span>
+      </li>
+      <li>
+        <span class="detail-label">Drones</span>
+        <span class="detail-value">Flight & coding</span>
+      </li>
+      <li>
+        <span class="detail-label">3D Printing</span>
+        <span class="detail-value">Design & create</span>
+      </li>
+      <li>
+        <span class="detail-label">Renewable Energy</span>
+        <span class="detail-value">Solar & wind</span>
+      </li>
     </ul>
-    <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
-      <a href="/summer-camps/" style="display: inline-block; background: #2C7A9B; color: white; padding: 12px 20px; border-radius: 999px; text-decoration: none; font-weight: 700;">Browse Summer Camps</a>
-    </div>
   </div>
 
-  <h2 class="programs-heading" style="margin-top: 3rem;">Advanced STEM Camps</h2>
-
-  <div class="class-details-box" style="background: #F3E5F5; border-left: 4px solid #8B5A99;">
-    <h3>Week-Long Technical Deep-Dives</h3>
-    <p><strong>Ages 13-18</strong> (Advanced 11-12 year-olds welcome) • Full-day and half-day morning and afternoon options</p>
-    <p>Project-based camps for students from beginners to advanced. Develop AI projects, create advanced games, and master cybersecurity.</p>
-    <p style="margin-top: 1.5rem;"><strong>Topics Include:</strong></p>
-    <ul style="column-count: 2; column-gap: 2rem; margin-bottom: 1.5rem;">
-      <li>Advanced Game Development in Unity</li>
-      <li>Python and JavaScript Programming</li>
-      <li>Generative AI and Computer Vision</li>
-      <li>Cybersecurity Foundations and Advanced</li>
+  <div class="camp-info-card">
+    <div class="camp-info-header">
+      <span class="camp-info-icon">🎁</span>
+      <h2>Discounts</h2>
+    </div>
+    <ul class="camp-details-list">
+      <li>
+        <span class="detail-label">Early Bird</span>
+        <span class="detail-value">25% off</span>
+      </li>
+      <li>
+        <span class="detail-label">Referral Code</span>
+        <span class="detail-value">10% off</span>
+      </li>
+      <li>
+        <span class="detail-label">Your Referrals</span>
+        <span class="detail-value">10% credit back</span>
+      </li>
     </ul>
-    <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
-      <a href="/advanced-stem-camps/" style="display: inline-block; background: #8B5A99; color: white; padding: 12px 20px; border-radius: 999px; text-decoration: none; font-weight: 700;">View Advanced Camps</a>
-    </div>
   </div>
 
-  <h2 class="programs-heading" style="margin-top: 3rem;">Certification Bootcamps</h2>
+</div>
 
-  <div class="class-details-box" style="background: #FFF3E0; border-left: 4px solid #D97236;">
-    <h3>Intensive Skill-Building with Industry Certification</h3>
-    <p><strong>Ages 13-18</strong> • Full-day (1 week) or Half-day (2 weeks) formats</p>
-    <p>Earn professional certifications from Carnegie Mellon Robotics Academy or CodeHS. Intensive, focused programs that prepare students for college coursework and industry careers. All materials, instruction, and exam fees included.</p>
-    <p style="margin-top: 1.5rem;"><strong>Certification Options:</strong></p>
-    <ul style="margin-bottom: 1.5rem;">
-      <li><strong>Robotics Bootcamp</strong> — Carnegie Mellon certification in robotics engineering</li>
-      <li><strong>Python Programming Bootcamp</strong> — CodeHS certification in Python</li>
-      <li><strong>Java Programming Bootcamp</strong> — CodeHS certification in Java</li>
-      <li><strong>Web Development Bootcamp</strong> — CodeHS certification in web development</li>
-    </ul>
-    <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
-      <a href="/bootcamps/" style="display: inline-block; background: #D97236; color: white; padding: 12px 20px; border-radius: 999px; text-decoration: none; font-weight: 700;">Explore Bootcamps</a>
-    </div>
+<!-- Store Section -->
+<section class="camp-store-section" id="camp-store">
+  <div class="camp-store-header">
+    <h2>Available Camps</h2>
+    <p>Select a camp below to register. Questions? <a href="mailto:camps@blueridgeboost.com">Contact us</a></p>
   </div>
-
-  -->
-
-  <h2 class="programs-heading" style="margin-top: 4rem;">Camp Information</h2>
-  <div class="programs-grid">
-    <article class="program-card">
-      <h3>📍 Location &amp; Contact</h3>
-      <p><strong>Address:</strong> 2171 Ivy Rd, Charlottesville, VA 22903</p>
-      <p><strong>Email:</strong> {{< campemail >}}</p>
-      <p><strong>Phone:</strong> (434) 260-0636</p>
-    </article>
-    <article class="program-card">
-      <h3>✨ What's Included</h3>
-      <p>All technology provided (computers, tablets, robotics kits), expert instruction from certified educators, small group sizes, and a safe, supportive learning environment.</p>
-    </article>
-    <article class="program-card">
-      <h3>💰 Current Discounts</h3>
-      <ul style="margin: 0; padding-left: 1.2rem;">
-        <li>Save 25% when you register 3 or more days before camp!</li>
-        <li>10% off with a referral code from a friend!</li>
-      </ul>
-      <!-- Summer 2026 offer, paused for now 
-        <li>Class subscribers: Additional 10% (combinable!)</li>
-      -->
-    </article>
+  <div class="camp-store-container">
+    <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code" charset="utf-8"></script>
+    <script type="text/javascript">
+      xProductBrowser("views=grid(25,5) list(60) table(60)","categoryView=grid","id=my-store-106136041","defaultCategoryId=175336115");
+    </script>
   </div>
+</section>
 
+<!-- Help Banner -->
+<div class="camp-help-banner">
+  <div class="camp-help-content">
+    <strong>Missing a school day we don't have listed?</strong>
+    <p>Let us know and we may be able to add it.</p>
+  </div>
+  <a href="mailto:camps@blueridgeboost.com" class="camp-help-btn">Request a Date</a>
 </div>

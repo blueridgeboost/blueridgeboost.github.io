@@ -88,7 +88,7 @@ select {
 }
 
 .section {
-  padding-block: clamp(2.5rem, 6vw, 5rem);
+  padding-block: clamp(1.5rem, 4vw, 3rem);
 }
 
 .section-sm {
@@ -230,6 +230,7 @@ form label {
 
 .content {
   color: $text-color;
+  line-height: 1.7;
 
   > *:first-child {
     margin-top: 0;
@@ -239,40 +240,159 @@ form label {
     margin-bottom: 0;
   }
 
-  h2,
-  h3 {
-    margin-top: 1.75em;
+  h2 {
+    position: relative;
+    margin-top: 2.25em;
+    margin-bottom: 1rem;
+    padding-bottom: 0.6rem;
+    color: $text-dark;
+    font-weight: 800;
+
+    &::after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, $dark-blue, $color-secondary);
+      border-radius: $radius-pill;
+      content: "";
+    }
   }
 
-  p,
+  h3 {
+    margin-top: 1.75em;
+    margin-bottom: 0.75rem;
+    color: $darkest-blue;
+    font-weight: 750;
+  }
+
+  h4 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5rem;
+    color: $dark-blue;
+    font-weight: 700;
+  }
+
+  p {
+    margin-bottom: 1.25rem;
+    max-width: 78ch;
+  }
+
   li {
     max-width: 78ch;
+    margin-bottom: 0.5rem;
   }
 
   ul,
   ol {
     padding-left: 1.4rem;
+    margin-bottom: 1.5rem;
   }
 
-  li {
-    margin-bottom: 0.5rem;
+  // Enhanced list styling
+  ul:not(.unstyled) {
+    li {
+      position: relative;
+      padding-left: 0.25rem;
+
+      &::marker {
+        color: $dark-blue;
+      }
+    }
+  }
+
+  ol {
+    li::marker {
+      color: $dark-blue;
+      font-weight: 700;
+    }
   }
 
   a {
     color: $color-primary;
     font-weight: 600;
     text-decoration: underline;
+    text-decoration-color: rgba($color-primary, 0.4);
+    text-underline-offset: 0.15em;
+    transition: color 150ms ease, text-decoration-color 150ms ease;
+
+    &:hover {
+      color: $darkest-blue;
+      text-decoration-color: $darkest-blue;
+    }
+  }
+
+  strong {
+    color: $text-dark;
+    font-weight: 700;
   }
 
   blockquote {
+    position: relative;
     margin: 2rem 0;
-    padding: 1.25rem 1.5rem;
+    padding: 1.25rem 1.5rem 1.25rem 1.75rem;
     color: $text-dark;
-    background: $surface-solid;
-    border: 1px solid $border-color;
-    border-left: 5px solid $color-secondary;
-    border-radius: $radius-sm;
+    background:
+      linear-gradient(135deg, rgba($lightest-blue, 0.6), rgba($light-blue, 0.15)),
+      $surface-solid;
+    border: 1px solid rgba($dark-blue, 0.1);
+    border-left: 5px solid;
+    border-left-color: $color-secondary;
+    border-radius: 0 $radius-sm $radius-sm 0;
     box-shadow: $shadow-xs;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    cite {
+      display: block;
+      margin-top: 0.75rem;
+      color: $text-light;
+      font-size: 0.9rem;
+      font-style: normal;
+
+      &::before {
+        content: "\2014\00a0";
+      }
+    }
+  }
+
+  // Code styling
+  code {
+    padding: 0.2rem 0.45rem;
+    color: $darkest-blue;
+    background: rgba($lightest-blue, 0.8);
+    border: 1px solid rgba($dark-blue, 0.1);
+    border-radius: 5px;
+    font-family: "JetBrains Mono", "Fira Code", Consolas, monospace;
+    font-size: 0.88em;
+  }
+
+  pre {
+    margin: 1.5rem 0;
+    padding: 1.25rem;
+    overflow-x: auto;
+    background: $darkest-blue;
+    border-radius: $radius-sm;
+    box-shadow: $shadow-sm;
+
+    code {
+      padding: 0;
+      color: $light-blue;
+      background: transparent;
+      border: none;
+      font-size: 0.85rem;
+    }
+  }
+
+  // Horizontal rule
+  hr {
+    margin: 2.5rem 0;
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgba($dark-blue, 0.2), transparent);
   }
 
   table {
@@ -283,6 +403,7 @@ form label {
     border-collapse: separate;
     border-spacing: 0;
     border-radius: $radius-sm;
+    box-shadow: $shadow-xs;
   }
 
   th,
@@ -293,12 +414,39 @@ form label {
 
   th {
     color: $text-dark;
-    background: $lightest-blue;
+    background: linear-gradient(180deg, $lightest-blue, rgba($light-blue, 0.2));
     font-weight: 750;
+    text-align: left;
+  }
+
+  tr:nth-child(even) {
+    background: rgba($lightest-blue, 0.3);
+  }
+
+  tr:hover {
+    background: rgba($light-blue, 0.15);
   }
 
   tr:last-child td {
     border-bottom: 0;
+  }
+
+  // Image captions
+  figure {
+    margin: 2rem 0;
+
+    img {
+      border-radius: $radius-sm;
+      box-shadow: $shadow-sm;
+    }
+
+    figcaption {
+      margin-top: 0.75rem;
+      color: $text-light;
+      font-size: 0.88rem;
+      text-align: center;
+      font-style: italic;
+    }
   }
 }
 
@@ -354,4 +502,222 @@ form label {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
   }
+}
+
+// ============================================================
+// Blue Theme Utility Classes
+// ============================================================
+
+// Text color variations
+.text-blue-dark {
+  color: $darkest-blue !important;
+}
+
+.text-blue-light {
+  color: $lighter-blue !important;
+}
+
+.text-blue-vibrant {
+  color: $dark-blue !important;
+}
+
+// Background gradients
+.bg-blue-gradient {
+  background: linear-gradient(135deg, $darkest-blue 0%, $dark-blue 50%, $color-secondary 100%);
+  color: $white;
+}
+
+.bg-blue-gradient-soft {
+  background: linear-gradient(135deg, $lightest-blue 0%, rgba($light-blue, 0.4) 100%);
+}
+
+.bg-blue-gradient-radial {
+  background:
+    radial-gradient(circle at 20% 20%, rgba($color-secondary, 0.15), transparent 40%),
+    radial-gradient(circle at 80% 80%, rgba($dark-blue, 0.12), transparent 40%),
+    linear-gradient(180deg, $lightest-blue, $white);
+}
+
+// Card variations
+.card-blue {
+  position: relative;
+  padding: 1.5rem;
+  background: $surface-solid;
+  border: 2px solid rgba($dark-blue, 0.2);
+  border-radius: $radius;
+  box-shadow: $shadow-sm;
+  transition:
+    transform 200ms ease,
+    box-shadow 200ms ease,
+    border-color 200ms ease;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: inherit;
+    box-shadow: inset 0 0 0 1px rgba($dark-blue, 0.08);
+    content: "";
+    pointer-events: none;
+  }
+
+  &:hover {
+    transform: translateY(-4px);
+    border-color: $dark-blue;
+    box-shadow: $shadow, 0 0 0 3px rgba($dark-blue, 0.1);
+  }
+}
+
+.card-gradient {
+  position: relative;
+  padding: 1.5rem;
+  background:
+    linear-gradient(135deg, rgba($lightest-blue, 0.9), rgba($light-blue, 0.25)),
+    $surface-solid;
+  border: 1px solid rgba($dark-blue, 0.12);
+  border-radius: $radius;
+  box-shadow: $shadow-sm;
+  transition:
+    transform 200ms ease,
+    box-shadow 200ms ease;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 4px;
+    background: linear-gradient(90deg, $dark-blue, $color-secondary, $lighter-blue);
+    border-radius: $radius $radius 0 0;
+    content: "";
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: $shadow;
+  }
+}
+
+.card-gradient-vibrant {
+  position: relative;
+  padding: 1.5rem;
+  overflow: hidden;
+  background:
+    linear-gradient(135deg, rgba($dark-blue, 0.04), rgba($color-secondary, 0.06)),
+    $surface-solid;
+  border: 1px solid rgba($dark-blue, 0.15);
+  border-radius: $radius;
+  box-shadow: $shadow-sm;
+
+  &::before {
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba($lighter-blue, 0.15), transparent 60%);
+    content: "";
+    pointer-events: none;
+  }
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, $darkest-blue, $dark-blue, $lighter-blue);
+    content: "";
+  }
+}
+
+// Accent bar
+.accent-bar {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, $darkest-blue, $dark-blue, $color-secondary, $lighter-blue);
+  border-radius: $radius-pill;
+
+  &--thick {
+    height: 6px;
+  }
+
+  &--thin {
+    height: 2px;
+  }
+
+  &--short {
+    width: 80px;
+  }
+
+  &--medium {
+    width: 160px;
+  }
+
+  &--centered {
+    margin-inline: auto;
+  }
+}
+
+// Accent bar variations
+.accent-bar-vertical {
+  display: inline-block;
+  width: 4px;
+  height: 100%;
+  min-height: 2rem;
+  background: linear-gradient(180deg, $darkest-blue, $dark-blue, $color-secondary);
+  border-radius: $radius-pill;
+}
+
+// Blue highlight box
+.highlight-blue {
+  padding: 1.25rem 1.5rem;
+  background: linear-gradient(135deg, rgba($lightest-blue, 0.8), rgba($light-blue, 0.3));
+  border-left: 4px solid $dark-blue;
+  border-radius: 0 $radius-sm $radius-sm 0;
+}
+
+// Blue badge/tag
+.badge-blue {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.85rem;
+  color: $dark-blue;
+  background: $lightest-blue;
+  border: 1px solid rgba($dark-blue, 0.15);
+  border-radius: $radius-pill;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.badge-blue-solid {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.85rem;
+  color: $white;
+  background: linear-gradient(135deg, $dark-blue, $color-secondary);
+  border-radius: $radius-pill;
+  font-size: 0.8rem;
+  font-weight: 700;
+  box-shadow: $shadow-xs;
+}
+
+// Blue divider
+.divider-blue {
+  width: 100%;
+  height: 1px;
+  margin: 1.5rem 0;
+  background: linear-gradient(90deg, transparent, rgba($dark-blue, 0.3), transparent);
+  border: none;
+}
+
+// Blue glow effect (for special emphasis)
+.glow-blue {
+  box-shadow:
+    $shadow-sm,
+    0 0 20px rgba($dark-blue, 0.15),
+    0 0 40px rgba($color-secondary, 0.1);
 }
