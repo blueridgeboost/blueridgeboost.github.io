@@ -35,7 +35,7 @@ robots: "index, follow"
   <p class="wro-hero-tagline">Compete in Charlottesville for a chance to represent the USA at international championships</p>
   <div class="wro-hero-highlights">
     <span class="highlight-pill">📅 Sept 5-6, 2026</span>
-    <span class="highlight-pill">📍 UVA Grounds</span>
+    <span class="highlight-pill">📍 2171 Ivy Rd, Charlottesville</span>
     <span class="highlight-pill">👥 Teams of 2-3 + Coach</span>
   </div>
   <div class="hero-cta-group">
@@ -314,7 +314,7 @@ robots: "index, follow"
   <h4>Questions About WRO?</h4>
   <p>We're here to help teams prepare for a great competition experience.</p>
   <p class="contact-line">Call <a href="tel:+14342600636">(434) 260-0636</a> or email {{< email >}}</p>
-  <p class="address">📍 Blue Ridge Boost, Charlottesville, VA</p>
+  <p class="address">📍 2171 Ivy Rd, Charlottesville, VA 22903</p>
 </div>
 
 </div>
