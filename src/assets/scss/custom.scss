@@ -519,9 +519,12 @@ $mobile-breakpoint: 900px;
   align-items: center !important;
   justify-content: center !important;
 
-  width: auto !important;
-  min-width: 42px;
-  min-height: 42px;
+  // Reserve a stable slot BEFORE Ecwid injects the cart button, so its
+  // late arrival on window.load doesn't shift the header layout (CLS).
+  width: 44px !important;
+  height: 44px !important;
+  min-width: 44px !important;
+  min-height: 44px !important;
 
   margin: 0 !important;
   padding: 0 !important;
@@ -788,8 +791,10 @@ $mobile-breakpoint: 900px;
 
   .site-header .ec-cart-widget {
     display: inline-flex !important;
-    min-width: 40px;
-    min-height: 40px;
+    width: 40px !important;
+    height: 40px !important;
+    min-width: 40px !important;
+    min-height: 40px !important;
   }
 
   .site-header .menuBtn {

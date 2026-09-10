@@ -8,7 +8,7 @@
   color: $white;
   background:
     linear-gradient(90deg, rgba($darkest-blue, 0.96), rgba($color-primary, 0.91)),
-    url("/images/topbar_bg.png") center / cover no-repeat;
+    url("/images/topbar_bg.webp") center / cover no-repeat;
   border-bottom: 1px solid rgba($white, 0.12);
 
   .topbar-row {

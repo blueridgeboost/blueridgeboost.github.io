@@ -1,4 +1,7 @@
 #################### default parameters ################################
+# Strip unused CSS in production builds. Wired to hugo_stats.json via
+# postcss.config.js, applied only when hugo.IsProduction is true.
+purge_css = true
 # favicon
 favicon = "images/brand/blue-ridge-highlands-cropped.png"
 # logo

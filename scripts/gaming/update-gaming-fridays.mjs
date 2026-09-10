@@ -115,15 +115,15 @@ async function createProduct(friday) {
 }
 function imageURL(friday) {
 	if ( friday.ordinalInMonth == 1 ) {
-		return "https://blueridgeboost.github.io/gaming-friday-images/minecraft.png"
+		return "https://blueridgeboost.github.io/gaming-friday-images/minecraft.webp"
 	} else if (friday.ordinalInMonth == 2) {
-		return "https://blueridgeboost.github.io/gaming-friday-images/Explore.png"
+		return "https://blueridgeboost.github.io/gaming-friday-images/Explore.webp"
 	} else if (friday.ordinalInMonth == 3) {
-		return "https://blueridgeboost.github.io/gaming-friday-images/Fortnite.png"
+		return "https://blueridgeboost.github.io/gaming-friday-images/Fortnite.webp"
 	} else if (friday.ordinalInMonth == 4) {
-		return "https://blueridgeboost.github.io/gaming-friday-images/roblox.png"
+		return "https://blueridgeboost.github.io/gaming-friday-images/roblox.webp"
 	} else {
-		return "https://blueridgeboost.github.io/gaming-friday-images/Choose.png"
+		return "https://blueridgeboost.github.io/gaming-friday-images/Choose.webp"
 	}
 }
 

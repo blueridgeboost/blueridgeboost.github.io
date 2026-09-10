@@ -205,8 +205,8 @@ function makeSafeSheetName(name) {
 
 
 async function main() {
-	changeOrderStatus();
-	//await exportClassesToExcel();
+	// changeOrderStatus();
+	await exportClassesToExcel();
 }
 
 
