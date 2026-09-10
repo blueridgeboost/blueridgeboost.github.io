@@ -7,6 +7,17 @@
 
 {{ partial "head.html" . }}
 
+{{/* Preload the LCP hero image so the browser fetches it in parallel with CSS
+     rather than waiting to discover it in the body. Wide + narrow variants use
+     imagesrcset/imagesizes to match the <picture> media query below. */}}
+{{ with resources.Get .Params.hero_image }}
+  {{ $large := .Fill "920x760 webp q82 Center" }}
+  {{ $small := .Fill "640x560 webp q80 Center" }}
+  <link rel="preload" as="image" fetchpriority="high"
+    imagesrcset="{{ $small.RelPermalink }} 640w, {{ $large.RelPermalink }} 920w"
+    imagesizes="(max-width: 700px) 100vw, 920px">
+{{ end }}
+
 {{ if hugo.IsProduction }}
   {{ partialCached "style.html" . }}
 {{ else }}

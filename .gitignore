@@ -1,3 +1,13 @@
 ./src/docs/**
 ./node_modules/
 **/node_modules/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Customer/referral exports — never commit PII lists
+scripts/emails/referrals-*.json
+scripts/emails/*-customers.json
+scripts/emails/*-contacts.json

@@ -1,6 +1,6 @@
 ################################### English language #####################################
 [en]
-languageName = "EN"
+label = "EN"
 locale = "en-US"
 contentDir = "content/english"
 weight = 1

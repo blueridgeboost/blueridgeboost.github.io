@@ -1,0 +1,62 @@
+name: Send waiver-link emails
+
+# Runs daily at 10:17 UTC (~6:17am EDT in summer, ~5:17am EST in winter).
+# Also manually triggerable from the Actions tab — the workflow_dispatch input
+# lets you flip DRY_RUN for a one-off real send without editing this file.
+
+on:
+  schedule:
+    - cron: '17 10 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run only (true) or actually send emails (false)?'
+        type: choice
+        required: true
+        default: 'true'
+        options:
+          - 'true'
+          - 'false'
+      order:
+        description: 'Optional: single order id / vendor code to process'
+        required: false
+        default: ''
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    env:
+      # For scheduled runs this stays "true" (dry-run). For manual runs, the
+      # workflow_dispatch input wins.
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'true' }}
+      # Ecwid
+      ECWID_STORE_ID:    ${{ secrets.ECWID_STORE_ID }}
+      ECWID_REST_SECRET: ${{ secrets.ECWID_REST_SECRET }}
+      ECWID_TOKEN:       ${{ secrets.ECWID_TOKEN }}
+      # Jotform
+      JOTFORM_API_KEY:         ${{ secrets.JOTFORM_API_KEY }}
+      JOTFORM_STUDENT_FORM_ID: ${{ secrets.JOTFORM_STUDENT_FORM_ID }}
+      JOTFORM_WAIVER_FORM_ID:  ${{ secrets.JOTFORM_WAIVER_FORM_ID }}
+      JOTFORM_Media_FORM_ID:   ${{ secrets.JOTFORM_Media_FORM_ID }}
+      JOTFORM_COPPA_FORM_ID:   ${{ secrets.JOTFORM_COPPA_FORM_ID }}
+      # Mailchimp Transactional (Mandrill)
+      MAILCHIMP_KEY: ${{ secrets.MAILCHIMP_KEY }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run send-waiver-links
+        run: |
+          if [ -n "${{ inputs.order }}" ]; then
+            node scripts/rosters/send-waiver-links.mjs --order "${{ inputs.order }}"
+          else
+            node scripts/rosters/send-waiver-links.mjs
+          fi

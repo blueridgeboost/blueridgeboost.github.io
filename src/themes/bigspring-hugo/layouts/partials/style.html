@@ -40,11 +40,14 @@
 
 <!-- Purge CSS in Production -->
 {{ if and hugo.IsProduction site.Params.purge_css }}
-  {{ $styles = $styles | css.PostCSS | fingerprint "sha256" }}
+<!-- DEBUG: purge branch taken; hugo.IsProduction={{ hugo.IsProduction }} purge_css={{ site.Params.purge_css }} -->
+  {{ $styles = $styles | css.PostCSS | minify | fingerprint "sha256" }}
   {{ $styles = $styles | resources.PostProcess }}
+{{ else }}
+<!-- DEBUG: purge branch skipped; hugo.IsProduction={{ hugo.IsProduction }} purge_css={{ site.Params.purge_css }} -->
 {{ end }}
 
 
-<link rel="stylesheet" href="{{ $styles.RelPermalink }}" /> 
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
 
 {{/*  <style type="text/css">{{$styles.Content | safeCSS}}</style>  */}}
