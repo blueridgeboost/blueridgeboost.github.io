@@ -36,12 +36,6 @@ robots: "index, follow"
   </div>
 </div>
 
-<!-- Promo Banner -->
-<div class="camp-promo-banner">
-  <span class="camp-promo-badge">Early Bird</span>
-  <p><strong>Save 25%</strong> when you register 3+ days before camp</p>
-</div>
-
 <!-- Two Column Layout: Info + Schedule -->
 <div class="camp-info-grid">
   
