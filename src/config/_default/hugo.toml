@@ -80,11 +80,14 @@ taxonomy = ["HTML"]
 term = ["HTML"]
 
 ############################# Imaging ############################
-[imaging]
-# See https://github.com/disintegration/imaging
-# Default JPEG or WebP quality setting. Default is 75.
-quality = 90
-resampleFilter = "Lanczos"
+[imaging.jpeg]
+quality = 85
+
+[imaging.webp]
+quality = 85
+
+[imaging.avif]
+quality = 85
 
 ############################# Caches ###############################
 [caches]
