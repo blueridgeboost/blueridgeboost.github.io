@@ -6,7 +6,8 @@ description: "Save 25% on select robotics and coding certificate camps at Blue R
 draft: false
 section: "25-off"
 layout: "single"
-robots: "index, follow"
+robots: "noindex, follow"
+sitemap_exclude: true
 ---
 
 <div class="container">

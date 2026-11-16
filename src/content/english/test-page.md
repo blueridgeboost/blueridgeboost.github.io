@@ -13,7 +13,8 @@ keywords:
   - robotics day camps
   - coding day camps
   - STEM camps for kids
-robots: "index, follow"
+robots: "noindex, nofollow"
+sitemap_exclude: true
 
 ---
 

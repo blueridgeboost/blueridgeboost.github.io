@@ -4,7 +4,7 @@ page_title: "One-Day Camps"
 description: "Join Blue Ridge Boost's 1-Day Camps in Charlottesville, VA! Engaging robotics, coding, and math programs for kids aged 6-13 during school breaks, snow days, and teacher workdays." 
 draft: false
 section: "1-day-camps"
-layout: "1-day-camps"
+layout: camp-page
 aliases: ["/one-day-camps/"]
 keywords:
   - 1-day camps Charlottesville
@@ -51,11 +51,11 @@ robots: "index, follow"
       </li>
       <li>
         <span class="detail-label">Half-day pickup</span>
-        <span class="detail-value">12:30–1:00 PM</span>
+        <span class="detail-value">1:00 PM</span>
       </li>
       <li>
         <span class="detail-label">Full-day pickup</span>
-        <span class="detail-value">4:30–5:00 PM</span>
+        <span class="detail-value">5:00 PM</span>
       </li>
       <li>
         <span class="detail-label">Bring (half-day)</span>
@@ -71,31 +71,35 @@ robots: "index, follow"
   <div class="camp-info-card">
     <div class="camp-info-header">
       <span class="camp-info-icon">🌅</span>
-      <h2>Morning</h2>
+      <h2>Morning Schedule</h2>
     </div>
     <div class="camp-schedule">
       <div class="schedule-row">
-        <span class="time">9:00 AM</span>
-        <span class="activity">Learning session 1</span>
+        <span class="time">8:30</span>
+        <span class="activity">Arrival</span>
       </div>
       <div class="schedule-row">
-        <span class="time">10:00 AM</span>
-        <span class="activity">Snack break (screen-free)</span>
+        <span class="time">9:00</span>
+        <span class="activity">Learning Session</span>
       </div>
       <div class="schedule-row">
-        <span class="time">10:20 AM</span>
-        <span class="activity">Learning session 2</span>
+        <span class="time">10:00</span>
+        <span class="activity">Snack Break</span>
       </div>
       <div class="schedule-row">
-        <span class="time">11:20 AM</span>
-        <span class="activity">Water break</span>
+        <span class="time">10:30</span>
+        <span class="activity">Learning Session</span>
       </div>
       <div class="schedule-row">
-        <span class="time">11:30 AM</span>
-        <span class="activity">Exploration time</span>
+        <span class="time">11:20</span>
+        <span class="activity">Water &amp; Movement Break</span>
       </div>
       <div class="schedule-row">
-        <span class="time">12:30 PM</span>
+        <span class="time">11:45</span>
+        <span class="activity">Exploration</span>
+      </div>
+      <div class="schedule-row">
+        <span class="time">12:30</span>
         <span class="activity">Lunch</span>
       </div>
     </div>
@@ -104,32 +108,32 @@ robots: "index, follow"
   <div class="camp-info-card">
     <div class="camp-info-header">
       <span class="camp-info-icon">🌇</span>
-      <h2>Afternoon</h2>
+      <h2>Afternoon Schedule</h2>
     </div>
     <div class="camp-schedule">
       <div class="schedule-row">
-        <span class="time">1:00 PM</span>
-        <span class="activity">Learning session 3</span>
+        <span class="time">1:00</span>
+        <span class="activity">Learning Session</span>
       </div>
       <div class="schedule-row">
-        <span class="time">2:00 PM</span>
-        <span class="activity">Water break</span>
+        <span class="time">2:00</span>
+        <span class="activity">Water &amp; Movement Break</span>
       </div>
       <div class="schedule-row">
-        <span class="time">2:20 PM</span>
-        <span class="activity">Learning session 4</span>
+        <span class="time">2:30</span>
+        <span class="activity">Learning Session</span>
       </div>
       <div class="schedule-row">
-        <span class="time">3:20 PM</span>
-        <span class="activity">Snack break (screen-free)</span>
+        <span class="time">3:30</span>
+        <span class="activity">Snack Break</span>
       </div>
       <div class="schedule-row">
-        <span class="time">3:40 PM</span>
-        <span class="activity">Exploration time</span>
+        <span class="time">4:00</span>
+        <span class="activity">Exploration</span>
       </div>
       <div class="schedule-row">
-        <span class="time">4:30 PM</span>
-        <span class="activity">Clean up & pickup</span>
+        <span class="time">5:00</span>
+        <span class="activity">Pick up</span>
       </div>
     </div>
   </div>

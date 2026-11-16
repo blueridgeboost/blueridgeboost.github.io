@@ -4,23 +4,18 @@ description: "Hands-on coding, robotics, engineering, mathematics, camps, tutori
 
 ######################## Hero ########################
 
-hero_eyebrow: "Fall 2026 registration is open"
-hero_title: "Where curious kids"
-hero_highlight: "build what’s next."
+hero_title: "Big ideas start with"
+hero_highlight: "curious kids."
 hero_description: >-
-  Hands-on coding, robotics, engineering, mathematics, and creative
-  technology programs for students ages 6–18 in Charlottesville.
+  Hands-on coding, robotics, and engineering for ages 6–18 in Charlottesville.
+hero_description_two: >-
+  Find your child's next class, camp, or tutoring program.
 
-hero_primary_text: "Find a Program"
+hero_primary_text: "Explore Programs"
 hero_primary_url: "#programs"
-hero_secondary_text: "View Fall Classes"
-hero_secondary_url: "/classes/"
 
-hero_image: "images/classes/build.jpg"
-hero_image_alt: "Students building and experimenting during a hands-on STEM program"
-
-hero_secondary_image: "images/classes/coach.jpg"
-hero_secondary_image_alt: "An instructor helping a student with a STEM project"
+hero_image: "images/classes/coach.jpg"
+hero_image_alt: "An instructor helping a student with a hands-on STEM project"
 
 hero_points:
   - "Small-group instruction"
@@ -42,71 +37,77 @@ quick_facts:
 ######################## Programs ########################
 
 programs:
-  - title: "Weekly STEM Classes"
+  - title: "Winter Break Camps"
     description: >-
-      After-school and weekend classes in coding, robotics, mathematics,
-      engineering, game design, and creative technology.
-    badge: "Ages 6–18"
-    icon: "⌘"
+      A week of hands-on robotics, coding, game design, and engineering
+      challenges during winter break.
+    age_range: "Ages 6–13"
+    schedule: "Winter break"
+    icon: "❅"
     accent: "blue"
     image: "images/classes/legobots.jpg"
-    url: "/classes/"
-    cta_text: "Browse weekly classes"
-
-  - title: "One-Day Camps"
-    description: >-
-      Turn a school holiday into a full day of robotics, drones, design,
-      programming, science, and engineering challenges.
-    badge: "School holidays"
-    icon: "↗"
-    accent: "orange"
-    image: "images/drone.jpg"
-    url: "/1-day-camps/"
-    cta_text: "View upcoming camps"
-
-  - title: "Homeschool Programs"
-    description: >-
-      Flexible daytime STEM experiences with robotics, coding,
-      mathematics, engineering, and collaborative problem-solving.
-    badge: "Daytime STEM"
-    icon: "◇"
-    accent: "green"
-    image: "images/sidebyside.jpg"
-    url: "/homeschool/"
-    cta_text: "Explore homeschool STEM"
-
-  - title: "Private Tutoring"
-    description: >-
-      Personalized mathematics, programming, robotics, test preparation,
-      and academic support for individual students or small groups.
-    badge: "Personalized"
-    icon: "∑"
-    accent: "purple"
-    image: "images/classes/coach.jpg"
-    url: "/tutoring/"
-    cta_text: "Learn about tutoring"
+    url: "/winter-break-camps/"
+    cta_text: "See Camp Dates"
 
   - title: "STEM Birthday Parties"
     description: >-
       Celebrate with instructor-led gaming, robotics, engineering, or
       science activities designed around your child's interests.
-    badge: "Celebrate differently"
+    age_range: "Ages 6+"
+    schedule: "Weekends by request"
     icon: "★"
     accent: "pink"
     image: "images/gamenight.jpg"
     url: "/birthdays/"
-    cta_text: "Plan a STEM party"
+    cta_text: "Plan a Party"
+
+  - title: "Private Tutoring"
+    description: >-
+      Personalized mathematics, programming, robotics, test preparation,
+      and academic support for individual students or small groups.
+    age_range: "Ages 8–18"
+    schedule: "By appointment"
+    icon: "∑"
+    accent: "purple"
+    image: "images/classes/coach.jpg"
+    url: "/tutoring/"
+    cta_text: "Explore Tutoring"
 
   - title: "Gaming Fridays"
     description: >-
       Welcoming, instructor-led gaming events where students collaborate,
       communicate, develop strategies, and connect with peers.
-    badge: "Play together"
+    age_range: "Ages 8–16"
+    schedule: "Friday evenings"
     icon: "+"
     accent: "cyan"
     image: "images/computersibs.jpg"
     url: "/gaming/"
     cta_text: "Explore Gaming Fridays"
+
+  - title: "Weekly STEM Classes"
+    description: >-
+      After-school and weekend classes in coding, robotics, mathematics,
+      engineering, game design, and creative technology.
+    age_range: "Ages 6–18"
+    schedule: "After-school & weekends"
+    icon: "⌘"
+    accent: "orange"
+    image: "images/classes/computerroom.jpg"
+    url: "/classes/"
+    cta_text: "View Classes"
+
+  - title: "Homeschool Programs"
+    description: >-
+      Flexible daytime STEM experiences with robotics, coding,
+      mathematics, engineering, and collaborative problem-solving.
+    age_range: "Ages 6–14"
+    schedule: "Weekday afternoons"
+    icon: "◇"
+    accent: "green"
+    image: "images/sidebyside.jpg"
+    url: "/homeschool/"
+    cta_text: "Explore Homeschool"
 
 ######################## Spotlight ########################
 

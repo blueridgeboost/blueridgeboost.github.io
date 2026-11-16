@@ -25,6 +25,10 @@ theme_copyright = true
 copyright = "Copyright by Blue Ridge Boost"
 math=true
 
+# Site-wide default description (used as a fallback for <meta description>,
+# og:description, and twitter:description when a page has none of its own).
+description = "Hands-on STEM classes, robotics, coding, math, and summer camps for students ages 6–18 in Charlottesville, Virginia."
+
 # ── New homepage params ──
 brand_name = "Blue Ridge Boost"
 address = "Charlottesville • 2171 Ivy Rd"
@@ -37,6 +41,56 @@ tagline = "Hands-on STEM learning • Ages 6+"
 # other email params
 birthdayemail = "birthdays@blueridgeboost.com"
 campemail = "camps@blueridgeboost.com"
+
+# Promo strip (full-width band under topbar). Shown when promo_text is set.
+# Clear promo_text to hide. promo_expires and promo_url are optional.
+promo_text = "🦃 Thanksgiving savings: 10% off $250+ · 15% off $500+"
+promo_expires = "Ends Nov 30"
+promo_url = "#"
+promo_url_text = "Details"
+
+######################### site variables ##############################
+# customize your color and font from here.
+# Palette: deep navy + warm amber.
+[variables]
+color_primary = "#0B2545"    # navy
+color_secondary = "#3B6BA5"  # mid blue
+body_color = "#fff"
+text_color = "#4A5A72"       # muted blue-gray body copy
+text_dark = "#0F1B2D"        # near-black for strong text
+text_light = "#8794A8"
+border_color = "#D9E1EC"
+dark_body_color = "#1E262C"
+dark_text_color = "#cbcbcb"
+dark_text_light = "#959595"
+dark_text_dark = "#fff"
+dark_border_color = "#4e4e4e"
+black = "#0F1B2D"
+white = "#fff"
+light = "#F5F1E8"            # warm cream surface
+dark = "#0B2545"
+
+# base font size for full website
+font_size = "16px" # default is 16px
+
+# Font Scale Sizes
+# "minorSecond": 1.067,
+# "majorSecond": 1.125,
+# "minorThird": 1.2,
+# "majorThird": 1.25,
+# "perfectFourth": 1.333,
+# "augmentedFourth": 1.414,
+# "perfectFifth": 1.5,
+# "goldenRatio": 1.618
+font_scale = "1.25" # default is "majorThird": 1.25
+
+# go to https://fonts.google.com/ to find the font you want to use. select your font and copy only the bold part from the URL. and paste it here.
+# example: "Work+Sans:wght@400;500;600"
+font_primary = "Urbanist:wght@500;600;700"
+font_primary_type = "sans-serif"           # [serif/sans-serif]
+font_secondary = "Poppins:wght@400;500"
+font_secondary_type = "sans-serif"         # [serif/sans-serif]
+font_icon = "Font Awesome 6 Free"          # https://fontawesome.com/v5.15/icons/
 
 [cta]
 text = "Explore Summer Camps"

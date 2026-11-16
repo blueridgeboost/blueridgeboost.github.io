@@ -1,1 +1,16 @@
 User-agent: *
+Allow: /
+
+# Pages we don't want crawled or indexed.
+# Keep in sync with layouts/sitemap.xml $excludePaths.
+Disallow: /test-page/
+Disallow: /payment-error/
+Disallow: /25-off/
+Disallow: /fire-sale/
+Disallow: /past-classes/
+
+# Keep Ecwid storefront iframes/widgets out of the index.
+Disallow: /*?*ecwid*
+Disallow: /*&*ecwid*
+
+Sitemap: https://blueridgeboost.com/sitemap.xml

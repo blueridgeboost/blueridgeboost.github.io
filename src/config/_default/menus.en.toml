@@ -3,9 +3,9 @@
 ############ Classes ############
 [[main]]
     identifier = "classes"
-    name       = "🧩 Fall Classes"
+    name       = "🧩 Winter Classes"
     url        = "/classes/"
-    weight     = 1
+    weight     = 4
 
 [[main]]
     name       = "Ages 6-8: Lower Elementary Explorers"
@@ -34,16 +34,41 @@
 ############ Camps ############
 
 [[main]]
-    name        = "⛺ One-Day Camps"
+    identifier  = "camps"
+    name        = "⛺ Camps"
+    url         = "/camps/"
+    weight      = 1
+
+[[main]]
+    parent      = "camps"
+    name        = "One-Day Camps"
     url         = "/1-day-camps/"
+    weight      = 1
+
+[[main]]
+    parent      = "camps"
+    name        = "Winter Break Camps"
+    url         = "/winter-break-camps/"
     weight      = 2
+
+[[main]]
+    parent      = "camps"
+    name        = "Spring Break Camps"
+    url         = "/spring-break-camps/"
+    weight      = 3
+
+[[main]]
+    parent      = "camps"
+    name        = "Summer Camps"
+    url         = "/summer-camps/"
+    weight      = 4
 
 ############ Birthdays and Gaming ############
 [[main]]
     identifier  = "fun"
     name        = "🎉 Parties & Gaming"
     # url         = "/fun/"
-    weight      = 3
+    weight      = 2
 ############ Birthdays ############
 [[main]]
     name        = "🎂 Birthday Parties"
@@ -63,7 +88,7 @@
     identifier = "academic-support"
     name       = "✏️ Tutoring & Test Prep"
     # url        = "/tutoring/"
-    weight     = 4
+    weight     = 3
 
 [[main]]
     parent     = "academic-support"
@@ -91,7 +116,7 @@
 
 ############ Competitions ############
 [[main]]
-    name        = "🤖 WRO"
+    name        = "🤖 Robotics Teams"
     url         = "/wro/"
     weight      = 6
 

@@ -1,25 +1,34 @@
-
-{{/* Top info bar with location, phone, email, and promo */}}
+{{/* Top bar: slim contact row + optional centered promo strip */}}
 <div class="topbar">
   <div class="wrap">
     <div class="topbar-row">
-      <div style="display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;">
-        <span class="pill">
-          <span class="dot" aria-hidden="true"></span>
-          {{ site.Params.address | default "Charlottesville • 2171 Ivy Rd" }}
-        </span>
-        <a class="pill" href="tel:{{ site.Params.phone_raw | default "+14342600636" }}">
-          {{ site.Params.phone | default "(434) 260‑0636" }}
-        </a>
-        <a class="pill" href="mailto:{{ site.Params.email | default "info@blueridgeboost.com" }}">
-          {{ site.Params.email | default "info@blueridgeboost.com" }}
-        </a>
-      </div>
-      {{ with site.Params.promo_text }}
-      <div style="display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;">
-        <span class="highlight">{{ . | safeHTML }}</span> 
-      </div>
+      <span class="topbar-item">
+        {{ site.Params.address | default "Charlottesville • 2171 Ivy Rd" }}
+      </span>
+      <span class="topbar-sep" aria-hidden="true">·</span>
+      <a class="topbar-item" href="tel:{{ site.Params.phone_raw | default "+14342600636" }}">
+        {{ site.Params.phone | default "(434) 260‑0636" }}
+      </a>
+      <span class="topbar-sep" aria-hidden="true">·</span>
+      <a class="topbar-item" href="mailto:{{ site.Params.email | default "info@blueridgeboost.com" }}">
+        {{ site.Params.email | default "info@blueridgeboost.com" }}
+      </a>
+    </div>
+  </div>
+
+  {{ with site.Params.promo_text }}
+  <div class="promo-strip" role="region" aria-label="Current promotion">
+    <div class="wrap promo-strip__inner">
+      <span class="promo-strip__text">{{ . | safeHTML }}</span>
+      {{ with site.Params.promo_expires }}
+      <span class="promo-strip__meta">· {{ . }}</span>
+      {{ end }}
+      {{ with site.Params.promo_url }}
+      <a class="promo-strip__link" href="{{ . }}">
+        {{ site.Params.promo_url_text | default "Details" }}
+      </a>
       {{ end }}
     </div>
   </div>
+  {{ end }}
 </div>

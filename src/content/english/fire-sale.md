@@ -23,7 +23,8 @@ keywords:
     - Special Discount
     - Book Your Spot
     - Final Opportunity
-robots: "index, follow"
+robots: "noindex, follow"
+sitemap_exclude: true
 ---
 
 <div style="background-color: #ffedd5; border: 2px solid #ff5722; padding: 20px; border-radius: 8px; text-align: center; font-family: Arial, sans-serif;">

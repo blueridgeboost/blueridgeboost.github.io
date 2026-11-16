@@ -1,0 +1,48 @@
+{{ printf `<?xml version="1.0" encoding="utf-8" standalone="yes"?>` | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {{- /*
+    Paths that should never appear in the sitemap. Match on the page's RelPermalink.
+    Keep in sync with layouts/robots.txt. Prefer excluding pages via
+    `sitemap_exclude: true` or `robots: "noindex, nofollow"` in their front matter;
+    this list is for pages we can't easily edit (taxonomy roots we don't curate yet).
+  */ -}}
+  {{- $excludePaths := slice
+    "/test-page/"
+    "/payment-error/"
+    "/25-off/"
+    "/fire-sale/"
+    "/author/"
+    "/categories/"
+    "/tags/"
+  -}}
+  {{- range .Data.Pages -}}
+    {{- $exclude := false -}}
+    {{- if .Params.sitemap_exclude -}}{{- $exclude = true -}}{{- end -}}
+    {{- with .Params.robots -}}
+      {{- if or (in (lower .) "noindex") (in (lower .) "none") -}}
+        {{- $exclude = true -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $rp := .RelPermalink -}}
+    {{- range $excludePaths -}}
+      {{- if eq $rp . -}}{{- $exclude = true -}}{{- end -}}
+    {{- end -}}
+    {{- if not $exclude -}}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    {{- $lm := .Lastmod -}}
+    {{- if $lm.IsZero -}}{{- $lm = .Date -}}{{- end -}}
+    {{- if not $lm.IsZero }}
+    <lastmod>{{ $lm.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</lastmod>
+    {{- end }}
+    {{- with .Sitemap.ChangeFreq }}
+    <changefreq>{{ . }}</changefreq>
+    {{- end }}
+    {{- if ge .Sitemap.Priority 0.0 }}
+    <priority>{{ .Sitemap.Priority }}</priority>
+    {{- end }}
+  </url>
+    {{- end -}}
+  {{- end }}
+</urlset>

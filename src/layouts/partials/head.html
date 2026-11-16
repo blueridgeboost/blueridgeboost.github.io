@@ -1,15 +1,103 @@
 <meta charset="utf-8">
 
 <!-- Consent Mode defaults: must be in head -->
-
 {{ partial "consent-defaults.html" . }}
 
-<!-- responsive meta -->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<!--
+  Responsive meta
+  Omitting maximum-scale / user-scalable so visitors can pinch-zoom
+  (WCAG 1.4.4 — text resize / zoom must not be disabled).
+-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="theme-name" content="bigspring-hugo" />
+{{/* ---------------- SEO metadata ---------------- */}}
+{{/* Title: per-page title + site-name suffix, or site name alone on home. */}}
+{{- $siteName := site.Title -}}
+{{- $brandName := site.Params.brand_name | default "Blue Ridge Boost" -}}
+{{- $pageTitle := "" -}}
+{{- if .IsHome -}}
+  {{- $pageTitle = $siteName -}}
+{{- else if .Params.seo_title -}}
+  {{- $pageTitle = .Params.seo_title -}}
+{{- else if .Title -}}
+  {{- /* Avoid double-appending the brand if the page title already contains it. */ -}}
+  {{- if or (in .Title $brandName) (in .Title "|") -}}
+    {{- $pageTitle = .Title -}}
+  {{- else -}}
+    {{- $pageTitle = printf "%s | %s" .Title $brandName -}}
+  {{- end -}}
+{{- else -}}
+  {{- $pageTitle = $siteName -}}
+{{- end -}}
+<title>{{ $pageTitle }}</title>
 
-<link rel="alternate" href="{{ .Permalink }}" hreflang="en-us" />
+{{/* Description: page front matter → site description. */}}
+{{- $siteDescription := site.Params.description | default "Hands-on STEM classes, robotics, coding, math, and summer camps for students ages 6–18 in Charlottesville, Virginia." -}}
+{{- $description := "" -}}
+{{- with .Description -}}{{- $description = . -}}{{- end -}}
+{{- if not $description -}}{{- with .Params.description -}}{{- $description = . -}}{{- end -}}{{- end -}}
+{{- if not $description -}}{{- with .Summary -}}{{- $description = (. | plainify | truncate 180) -}}{{- end -}}{{- end -}}
+{{- if not $description -}}{{- $description = $siteDescription -}}{{- end -}}
+<meta name="description" content="{{ $description }}">
+
+{{/* Canonical */}}
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{/* Robots: let per-page `robots` front matter override the default. */}}
+{{- $robots := .Params.robots | default "index, follow, max-image-preview:large" -}}
+<meta name="robots" content="{{ $robots }}">
+
+{{/* Keywords (if provided in front matter). */}}
+{{- with .Params.keywords -}}
+<meta name="keywords" content="{{ delimit . ", " }}">
+{{- end }}
+
+{{/* Open Graph */}}
+{{- $ogImage := "" -}}
+{{- with .Params.og_image -}}{{- $ogImage = . -}}{{- end -}}
+{{- if not $ogImage -}}{{- with .Params.image -}}{{- $ogImage = . -}}{{- end -}}{{- end -}}
+{{- if not $ogImage -}}{{- $ogImage = site.Params.metadata.image -}}{{- end -}}
+{{- $ogImageURL := "" -}}
+{{- if $ogImage -}}
+  {{- if or (hasPrefix $ogImage "http://") (hasPrefix $ogImage "https://") -}}
+    {{- $ogImageURL = $ogImage -}}
+  {{- else -}}
+    {{- $ogImageURL = printf "%s%s" site.BaseURL (strings.TrimPrefix "/" $ogImage) -}}
+  {{- end -}}
+{{- end -}}
+<meta property="og:site_name" content="{{ $siteName }}">
+<meta property="og:title" content="{{ $pageTitle }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:type" content="{{ if or .IsHome .IsSection }}website{{ else if eq .Section "blog" }}article{{ else }}website{{ end }}">
+<meta property="og:locale" content="en_US">
+{{- if $ogImageURL }}
+<meta property="og:image" content="{{ $ogImageURL }}">
+<meta property="og:image:alt" content="{{ $brandName }}">
+{{- end }}
+{{- if eq .Section "blog" }}
+  {{- with .Date }}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+  {{- with .Lastmod }}<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+{{- end }}
+
+{{/* Twitter Card */}}
+<meta name="twitter:card" content="{{ if $ogImageURL }}summary_large_image{{ else }}summary{{ end }}">
+<meta name="twitter:title" content="{{ $pageTitle }}">
+<meta name="twitter:description" content="{{ $description }}">
+{{- if $ogImageURL }}
+<meta name="twitter:image" content="{{ $ogImageURL }}">
+{{- end }}
+
+{{/* Hreflang (single English locale for now) */}}
+<link rel="alternate" href="{{ .Permalink }}" hreflang="en-us">
+
+{{/* Site verification */}}
+{{- with site.Params.site_verification.google -}}
+<meta name="google-site-verification" content="{{ . }}">
+{{- end }}
+{{- with site.Params.site_verification.bing -}}
+<meta name="msvalidate.01" content="{{ . }}">
+{{- end }}
 
 <!-- favicon -->
 {{ partialCached "favicon" . }}
@@ -18,7 +106,7 @@
 {{ partialCached "manifest" . }}
 
 
-<meta name="facebook-domain-verification" content="zct97ytf6qsp98kn8sipiejnluq10z" />
+<meta name="facebook-domain-verification" content="zct97ytf6qsp98kn8sipiejnluq10z">
 <script>
 
 window.dataLayer = window.dataLayer || [];
@@ -32,4 +120,3 @@ window.dataLayer = window.dataLayer || [];
 <script id="mcjs">addEventListener("load",function(){!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/a3e5cd8bfd87915fee9250407/c1f12740495332c8d01cead10.js")});</script>
 
 <!-- custom script is loaded at end of body via baseof.html; loading it here would ship it twice -->
-
