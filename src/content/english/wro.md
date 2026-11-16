@@ -23,7 +23,8 @@ keywords:
   - STEM education competitions
   - autonomous robots competition
   - WRO qualifier Virginia
-robots: "index, follow"
+robots: "noindex, follow"
+sitemap_exclude: true
 ---
 
 <div class="wro-page">

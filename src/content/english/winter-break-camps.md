@@ -46,11 +46,6 @@ robots: "index, follow"
   </div>
 </div>
 
-<!-- Notice Banner -->
-<div class="camp-notice">
-  <p><strong>Sign-ups open late October</strong> - Check back soon for winter break camp dates!</p>
-</div>
-
 <!-- Info Cards -->
 <div class="camp-info-grid">
   
@@ -91,15 +86,27 @@ robots: "index, follow"
     <div class="camp-schedule">
       <div class="schedule-row">
         <span class="time">8:30</span>
-        <span class="activity">Free play, getting to know each other</span>
+        <span class="activity">Arrival</span>
+      </div>
+      <div class="schedule-row">
+        <span class="time">9:00</span>
+        <span class="activity">Learning Session</span>
+      </div>
+      <div class="schedule-row">
+        <span class="time">10:00</span>
+        <span class="activity">Snack Break</span>
       </div>
       <div class="schedule-row">
         <span class="time">10:30</span>
-        <span class="activity">Snack break</span>
+        <span class="activity">Learning Session</span>
       </div>
       <div class="schedule-row">
-        <span class="time">11:00</span>
-        <span class="activity">Guided learning session</span>
+        <span class="time">11:20</span>
+        <span class="activity">Water &amp; Movement Break</span>
+      </div>
+      <div class="schedule-row">
+        <span class="time">11:45</span>
+        <span class="activity">Exploration</span>
       </div>
       <div class="schedule-row">
         <span class="time">12:30</span>
@@ -116,41 +123,52 @@ robots: "index, follow"
     <div class="camp-schedule">
       <div class="schedule-row">
         <span class="time">1:00</span>
-        <span class="activity">Guided learning session</span>
+        <span class="activity">Learning Session</span>
+      </div>
+      <div class="schedule-row">
+        <span class="time">2:00</span>
+        <span class="activity">Water &amp; Movement Break</span>
       </div>
       <div class="schedule-row">
         <span class="time">2:30</span>
-        <span class="activity">Snack break</span>
+        <span class="activity">Learning Session</span>
       </div>
       <div class="schedule-row">
-        <span class="time">3:00</span>
-        <span class="activity">Individual and group exploration</span>
+        <span class="time">3:30</span>
+        <span class="activity">Snack Break</span>
+      </div>
+      <div class="schedule-row">
+        <span class="time">4:00</span>
+        <span class="activity">Exploration</span>
       </div>
       <div class="schedule-row">
         <span class="time">5:00</span>
-        <span class="activity">Pickup</span>
+        <span class="activity">Pick up</span>
       </div>
     </div>
   </div>
 
 </div>
 
-<!-- Store Section (hidden until signups open) -->
-<section class="camp-store-section" id="camp-store" style="display: none;">
+<!-- Store Section -->
+<section class="camp-store-section" id="camp-store">
   <div class="camp-store-header">
     <h2>Winter Break Camps</h2>
     <p>Select a camp below to register. Questions? <a href="mailto:camps@blueridgeboost.com">Contact us</a></p>
   </div>
   <div class="camp-store-container">
-    <!-- Store will be enabled when signups open -->
+    <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code" charset="utf-8"></script>
+    <script type="text/javascript">
+      xProductBrowser("views=grid(20,5) list(60) table(60)","categoryView=grid","id=my-store-106136041","defaultCategoryId=175336882");
+    </script>
   </div>
 </section>
 
 <!-- Help Banner -->
 <div class="camp-help-banner">
   <div class="camp-help-content">
-    <strong>Want to be notified when sign-ups open?</strong>
-    <p>Drop us a note and we'll let you know when winter break camps are available.</p>
+    <strong>Questions about Winter Break Camps?</strong>
+    <p>We're happy to help with scheduling, topics, or anything else.</p>
   </div>
-  <a href="mailto:camps@blueridgeboost.com" class="camp-help-btn">Get Notified</a>
+  <a href="mailto:camps@blueridgeboost.com" class="camp-help-btn">Contact Us</a>
 </div>

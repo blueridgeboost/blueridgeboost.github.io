@@ -24,6 +24,7 @@ keywords:
   - failed transaction Blue Ridge Boost
   - Blue Ridge Boost customer service
 robots: "noindex, follow"
+sitemap_exclude: true
 
 ---
 

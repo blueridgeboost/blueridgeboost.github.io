@@ -3,20 +3,23 @@
    ========================================================================== */
 
 .homepage {
-  --home-navy: #0b1f3f;
-  --home-navy-light: #173763;
-  --home-blue: #0b6ff4;
-  --home-blue-dark: #0758c7;
-  --home-cyan: #10b7d5;
-  --home-purple: #7357e8;
-  --home-green: #119b73;
-  --home-orange: #f08a25;
-  --home-pink: #e95b85;
-  --home-text: #2e4567;
-  --home-muted: #60728c;
-  --home-border: #dbe5f0;
-  --home-soft: #f4f8fd;
-  --home-cream: #fffaf2;
+  /* Palette: deep navy + warm amber. Card-accent slots
+     (cyan/purple/green/pink) are kept as names but tuned to tonal
+     variants so program cards vary without clashing with the palette. */
+  --home-navy: #0b2545;
+  --home-navy-light: #1a365d;
+  --home-blue: #3b6ba5;
+  --home-blue-dark: #0b2545;
+  --home-cyan: #5a8dc2;
+  --home-purple: #4a5f8c;
+  --home-green: #4a7c8c;
+  --home-orange: #f4a261;
+  --home-pink: #e08b5c;
+  --home-text: #0f1b2d;
+  --home-muted: #6b7a91;
+  --home-border: #d9e1ec;
+  --home-soft: #f0f4fa;
+  --home-cream: #f5f1e8;
   --home-white: #ffffff;
 
   color: var(--home-text);
@@ -41,8 +44,8 @@
 }
 
 .home-shell {
-  width: calc(100% - 3rem);
-  max-width: 1180px;
+  width: calc(100% - 2rem);
+  max-width: 1360px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -87,12 +90,12 @@
 }
 
 .home-section {
-  padding: clamp(4.75rem, 8vw, 7.25rem) 0;
+  padding: clamp(2.5rem, 5vw, 4.5rem) 0;
 }
 
 .home-section__header {
   display: flex;
-  margin-bottom: 2.6rem;
+  margin-bottom: 2.25rem;
   gap: 2rem;
   align-items: flex-end;
   justify-content: space-between;
@@ -104,7 +107,7 @@
   margin-left: auto;
   text-align: center;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 1rem;
   align-items: center;
 }
 
@@ -118,19 +121,19 @@
   margin: 0;
 
   color: var(--home-navy);
-  font-size: clamp(2.1rem, 4vw, 3.75rem);
+  font-size: clamp(1.75rem, 2.8vw, 2.75rem);
   font-weight: 850;
-  line-height: 1.06;
-  letter-spacing: -0.045em;
+  line-height: 1.1;
+  letter-spacing: -0.035em;
 }
 
 .home-section__description {
   max-width: 680px;
-  margin: 1rem 0 0;
+  margin: 0;
 
   color: var(--home-muted);
   font-size: 1.05rem;
-  line-height: 1.75;
+  line-height: 1.6;
 }
 
 
@@ -274,7 +277,8 @@
 .home-hero {
   position: relative;
   isolation: isolate;
-  padding: clamp(4rem, 7vw, 7rem) 0 clamp(4.5rem, 8vw, 7rem);
+  overflow: hidden;
+  padding: clamp(0.5rem, 1vw, 1rem) 0 clamp(2rem, 3vw, 3rem);
 
   background:
     radial-gradient(
@@ -297,7 +301,7 @@
   display: grid;
   grid-template-columns: minmax(0, 0.92fr) minmax(430px, 1.08fr);
   gap: clamp(3rem, 6vw, 6rem);
-  align-items: center;
+  align-items: start;
 }
 
 .home-hero__content {
@@ -305,13 +309,13 @@
 }
 
 .home-hero__title {
-  margin: 1.4rem 0 0;
+  margin: 0;
 
   color: var(--home-navy);
-  font-size: clamp(3.25rem, 6vw, 5.8rem);
+  font-size: clamp(1.9rem, 3vw, 2.75rem);
   font-weight: 900;
-  line-height: 0.96;
-  letter-spacing: -0.065em;
+  line-height: 1.05;
+  letter-spacing: -0.035em;
 }
 
 .home-hero__title span,
@@ -325,26 +329,40 @@
 }
 
 .home-hero__description {
-  max-width: 590px;
-  margin: 1.55rem 0 0;
+  max-width: 640px;
+  margin: 0.65rem 0 0;
 
-  color: var(--home-muted);
-  font-size: clamp(1.05rem, 1.7vw, 1.23rem);
-  line-height: 1.72;
+  color: #52657A;
+  font-size: clamp(1rem, 1.5vw, 1.1rem);
+  line-height: 1.5;
+}
+
+.home-hero__description--two {
+  margin-top: 0.5rem;
+}
+
+.home-hero__tagline {
+  margin: 0.4rem 0 0;
+
+  color: var(--home-navy-light);
+  font-size: 0.9rem;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.01em;
 }
 
 .home-hero__actions {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1.2rem;
   gap: 0.8rem;
   flex-wrap: wrap;
 }
 
 .home-hero__points {
   display: flex;
-  margin: 2rem 0 0;
+  margin: 0.6rem 0 0;
   padding: 0;
-  gap: 0.8rem 1.3rem;
+  gap: 0.2rem 1rem;
   flex-wrap: wrap;
 
   list-style: none;
@@ -362,13 +380,14 @@
 
 .home-hero__visual {
   position: relative;
-  min-height: 590px;
+  min-height: 520px;
+  padding-top: 3rem;
 }
 
 .home-hero__picture {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 2rem;
   width: 86%;
   height: 88%;
   overflow: hidden;
@@ -555,6 +574,7 @@
 
 .home-programs {
   background: #ffffff;
+  scroll-margin-top: 80px;
 }
 
 .home-program-grid {
@@ -696,12 +716,25 @@
 }
 
 .home-program-card__description {
-  min-height: 96px;
-  margin: 0.8rem 0 1.25rem;
+  min-height: 72px;
+  margin: 0.8rem 0 0.7rem;
 
   color: var(--home-muted);
   font-size: 0.93rem;
-  line-height: 1.65;
+  line-height: 1.6;
+}
+
+.home-program-card__schedule {
+  margin: 0 0 1rem;
+
+  color: var(--home-navy-light);
+  font-size: 0.85rem;
+  font-weight: 650;
+
+  &::before {
+    content: "📅 ";
+    margin-right: 0.15rem;
+  }
 }
 
 
@@ -1274,11 +1307,11 @@
 @media (max-width: 650px) {
   .home-shell {
     width: calc(100% - 2rem);
-    max-width: 1180px;
+    max-width: 1360px;
   }
 
   .home-section {
-    padding: 4.5rem 0;
+    padding: 2.5rem 0;
   }
 
   .home-section__header {
@@ -1287,11 +1320,11 @@
   }
 
   .home-hero {
-    padding-top: 3.5rem;
+    padding-top: 0.5rem;
   }
 
   .home-hero__title {
-    font-size: clamp(2.85rem, 14vw, 4.2rem);
+    font-size: clamp(1.7rem, 7vw, 2.35rem);
   }
 
   .home-hero__actions {
@@ -1341,6 +1374,10 @@
 
   .home-program-card__description {
     min-height: 0;
+  }
+
+  .home-program-card__schedule {
+    margin-bottom: 0.9rem;
   }
 
   .home-spotlight__image {

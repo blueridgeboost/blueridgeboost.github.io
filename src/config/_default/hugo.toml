@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://blueridgeboost.com"
-title = "Blue Ridge Boost — Hands-on STEM learning (Ages 6+) in Charlottesville"
+title = "Blue Ridge Boost — STEM Camps, Robotics & Coding in Charlottesville, VA"
 theme = "bigspring-hugo"
 timeZone = "America/New_York"
 # post pagination
@@ -10,7 +10,7 @@ summaryLength = 70 # see https://gohugo.io/content-management/excerpts/
 # disable language
 disableLanguages = [
 ] # example: ["de"] for disable deutsch language. see https://gohugo.io/content-management/multilingual/
-hasCJKLanguage = false # If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content.
+hasCJKLanguage = false # No CJK content; disabling auto-detection avoids unnecessary processing.
 disableLiveReload = true
 enableRobotsTXT = true
 cleanDestinationDir = true

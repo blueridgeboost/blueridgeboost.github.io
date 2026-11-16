@@ -733,11 +733,6 @@ $mobile-breakpoint: 900px;
    ---------------------------------------------------------- */
 
 @media screen and (min-width: $mobile-breakpoint) and (max-width: 1180px) {
-  .site-header .wrap {
-    padding-right: 9px;
-    padding-left: 9px;
-  }
-
   .site-header .nav > nav {
     padding-right: 4px;
     padding-left: 4px;
