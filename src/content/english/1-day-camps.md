@@ -1,8 +1,8 @@
 ---
 title: "1-Day Camps | Blue Ridge Boost"
 page_title: "One-Day STEM Camps"
-page_subtitle: "Hands-on coding, robotics, and engineering for ages 6–13 in Charlottesville."
-description: "Join Blue Ridge Boost's 1-Day Camps in Charlottesville, VA! Engaging robotics, coding, and math programs for kids aged 6-13 during school breaks, snow days, and teacher workdays." 
+page_subtitle: "Hands-on coding, robotics, and engineering for ages 6–12 in Charlottesville."
+description: "Join Blue Ridge Boost's 1-Day Camps in Charlottesville, VA! Engaging robotics, coding, and math programs for kids aged 6-12 during school breaks, snow days, and teacher workdays." 
 draft: false
 section: "1-day-camps"
 layout: camp-page
@@ -19,7 +19,7 @@ robots: "index, follow"
 
 <!-- Compact facts strip -->
 <div class="camp-quick-facts camp-quick-facts--slim">
-  <div class="camp-fact"><strong>Ages 6–13</strong></div>
+  <div class="camp-fact"><strong>Ages 6–12</strong></div>
   <div class="camp-fact"><strong>Half &amp; Full Day</strong></div>
   <div class="camp-fact"><strong>2171 Ivy Road</strong></div>
   <div class="camp-fact"><strong>Materials Included</strong></div>
