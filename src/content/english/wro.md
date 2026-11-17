@@ -1,49 +1,65 @@
 ---
-title: "WRO Regional Open Qualifier 2026 | Blue Ridge Boost"
-page_title: "WRO-USEL Regional Open Qualifier 2026"
-description: "Blue Ridge Boost is an official WRO-USEL Regional Open Qualifier host for the 2026 WRO USA season. Compete in Charlottesville, VA, and qualify for the Americas and international Open Championships!"
+title: "Robotics Teams | Blue Ridge Boost"
+page_title: "Robotics Teams"
+description: "Join a Blue Ridge Boost robotics team and compete in World Robot Olympiad. Teams for all ages, all levels, all WRO events in Charlottesville, VA."
 draft: false
 layout: single
 
 keywords:
-  - World Robot Olympiad
-  - WRO 2026
-  - WRO USA
-  - USEL Regional Open Qualifier
-  - robotics competition Charlottesville
-  - Blue Ridge Boost robotics
-  - WRO Open Championship Americas
+  - robotics teams Charlottesville
+  - World Robot Olympiad teams
+  - WRO team Blue Ridge Boost
+  - join a robotics team Virginia
+  - robotics competition for kids
+  - WRO Elementary Junior Senior
+  - RoboMission team
+  - Future Engineers team
+  - Future Innovators team
+  - robotics club Charlottesville
   - STEM robotics competition
   - robotics for kids and teens
-  - RoboMission competition
-  - RoboSports competition
-  - Future Innovators competition
-  - Future Engineers competition
+  - WRO 2026 Regional Open Qualifier
   - robotics events in Virginia
-  - STEM education competitions
   - autonomous robots competition
-  - WRO qualifier Virginia
-robots: "noindex, follow"
-sitemap_exclude: true
+robots: "index, follow"
 ---
 
 <div class="wro-page">
 
+<!-- Program intro -->
+<header class="wro-program-intro">
+<h1 class="wro-program-title">Robotics Teams</h1>
+<p class="wro-program-subtitle">Join a Blue Ridge Boost team and compete in the World Robot Olympiad.</p>
+<div class="wro-program-facts">
+<span class="wro-program-fact"><strong>All Ages</strong></span>
+<span class="wro-program-fact"><strong>All WRO Levels</strong></span>
+<span class="wro-program-fact"><strong>All WRO Events</strong></span>
+<span class="wro-program-fact"><strong>2171 Ivy Rd</strong></span>
+</div>
+<div class="wro-program-cta-row">
+<a class="wro-program-cta" href="mailto:info@blueridgeboost.com?subject=Robotics%20Team%20Interest">Join a Team</a>
+<a class="wro-program-cta wro-program-cta--secondary" href="#wro-events">See WRO Events</a>
+</div>
+<p class="wro-program-note">Not sure which level or event fits? Contact us and we'll walk you through the options.</p>
+</header>
+
+<!-- WRO events we've hosted (past seasons) -->
+<section class="wro-event-recap" id="wro-events">
 <div class="wro-hero">
-  <div class="wro-hero-badge">2026 Season</div>
-  <h1 class="wro-hero-title">World Robot Olympiad</h1>
-  <p class="wro-hero-subtitle">Regional Open Qualifier</p>
-  <p class="wro-hero-tagline">Compete in Charlottesville for a chance to represent the USA at international championships</p>
+  <div class="wro-hero-badge">We hosted · 2025 &amp; 2026 Seasons</div>
+  <h2 class="wro-hero-title">WRO-USEL Regional Open Qualifier</h2>
+  <p class="wro-hero-subtitle">Charlottesville · Official host for two consecutive WRO USA seasons</p>
+  <p class="wro-hero-tagline">Blue Ridge Boost hosted the official WRO-USEL Regional Open Qualifier in both the 2025 and 2026 WRO USA seasons — a representative snapshot of the events our teams train for. The 2026 event details below show what a qualifier weekend looks like.</p>
   <div class="wro-hero-highlights">
-    <span class="highlight-pill">📅 Sept 5-6, 2026</span>
     <span class="highlight-pill">📍 2171 Ivy Rd, Charlottesville</span>
-    <span class="highlight-pill">👥 Teams of 2-3 + Coach</span>
+    <span class="highlight-pill">👥 Teams of 2–3 + Coach</span>
+    <span class="highlight-pill">🏆 Americas &amp; International paths</span>
   </div>
   <div class="hero-cta-group">
-    <a href="#registration" class="wro-cta-btn">Register Your Team</a>
-    <a href="https://wro-association.org/competition/2026-season/" target="_blank" rel="noopener noreferrer" class="wro-cta-btn wro-cta-btn--alt">View Official Rules</a>
+    <a href="https://wro-association.org/competition/2026-season/" target="_blank" rel="noopener noreferrer" class="wro-cta-btn wro-cta-btn--alt">View Official WRO Rules</a>
   </div>
 </div>
+</section>
 
 <section class="wro-section">
   <h2 class="wro-section-title">Qualify for International Championships</h2>
@@ -51,7 +67,7 @@ sitemap_exclude: true
     <div class="championship-card">
       <div class="championship-icon">🌎</div>
       <h3>Americas Open Championship</h3>
-      <p class="championship-location">Ontario, California — Sept 25-26, 2026</p>
+      <p class="championship-location">Hosted annually in the Americas region</p>
       <ul>
         <li><strong>Categories:</strong> All WRO competition categories</li>
         <li><strong>Age groups:</strong> All age groups</li>
@@ -61,20 +77,13 @@ sitemap_exclude: true
     <div class="championship-card">
       <div class="championship-icon">🌍</div>
       <h3>Non-Americas Open Championships</h3>
-      <p class="championship-location">Europe, Asia, Middle East & North Africa</p>
+      <p class="championship-location">Europe, Asia, Middle East &amp; North Africa</p>
       <ul>
         <li><strong>Regions:</strong> Europe, Asia, MENA</li>
         <li><strong>Categories:</strong> All categories and age groups</li>
         <li><strong>Spots:</strong> Minimum 1 per placement</li>
       </ul>
     </div>
-  </div>
-</section>
-
-<section class="wro-section wro-section--alt">
-  <h2 class="wro-section-title">2026 Theme: Robots Meet Culture</h2>
-  <div class="theme-banner">
-    <p>Teams will explore how robots can help shape, protect, and grow art and culture in today's world. From ancient cave paintings to modern digital art, robots are becoming creative partners and protectors of our cultural history.</p>
   </div>
 </section>
 
@@ -91,159 +100,6 @@ sitemap_exclude: true
       <h4>Future Engineers</h4>
       <p>Build a self-driving vehicle that navigates a track autonomously. Focuses on sensors, AI, and precision control.</p>
     </div>
-  </div>
-</section>
-
-<section class="wro-section wro-section--alt">
-  <h2 class="wro-section-title">Event Schedule</h2>
-  
-  <div class="schedule-day">
-    <div class="schedule-day-header schedule-day-header--optional">
-      <span class="day-badge">Optional</span>
-      <h3>Friday, September 4</h3>
-    </div>
-    <div class="schedule-item">
-      <span class="schedule-time">6:00 – 8:00 PM</span>
-      <div class="schedule-content">
-        <strong>Early Team Check-In</strong>
-        <p>Pick up badges, find your pit table, drop off equipment. Practice on official fields is not permitted Friday evening.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="schedule-day">
-    <div class="schedule-day-header">
-      <span class="day-badge">Day 1</span>
-      <h3>Saturday, September 5</h3>
-    </div>
-    <div class="schedule-grid">
-      <div class="schedule-item">
-        <span class="schedule-time">8:30 AM</span>
-        <div class="schedule-content"><strong>Team Check-In Opens</strong><p>All teams receive badges.</p></div>
-      </div>
-      <div class="schedule-item">
-        <span class="schedule-time">9:00 AM</span>
-        <div class="schedule-content"><strong>Coaches & Team Captains Meeting</strong><p>Mandatory meeting to review rules, schedule, and procedures.</p></div>
-      </div>
-      <div class="schedule-item">
-        <span class="schedule-time">9:30 AM</span>
-        <div class="schedule-content"><strong>Opening Ceremony</strong><p>Welcome remarks and event kickoff.</p></div>
-      </div>
-      <div class="schedule-item">
-        <span class="schedule-time">10:00 AM – 12:00 PM</span>
-        <div class="schedule-content"><strong>Practice & Calibration</strong><p>Teams test robots on official competition fields. RoboMission challenge announcement.</p></div>
-      </div>
-      <div class="schedule-item">
-        <span class="schedule-time">12:00 – 1:00 PM</span>
-        <div class="schedule-content"><strong>Lunch Break</strong><p>Pits closed and secured.</p></div>
-      </div>
-      <div class="schedule-item">
-        <span class="schedule-time">1:00 – 1:30 PM</span>
-        <div class="schedule-content"><strong>Additional Practice Time</strong><p>Final adjustments before inspection.</p></div>
-      </div>
-      <div class="schedule-item">
-        <span class="schedule-time">1:30 – 1:45 PM</span>
-        <div class="schedule-content"><strong>Robot Inspection</strong></div>
-      </div>
-      <div class="schedule-item schedule-item--round">
-        <span class="schedule-time">1:45 – 2:00 PM</span>
-        <div class="schedule-content"><strong>Official Round 1</strong><p>RoboMission Elementary & Junior: Judging Session 1</p></div>
-      </div>
-      <div class="schedule-item">
-        <span class="schedule-time">2:00 – 3:00 PM</span>
-        <div class="schedule-content"><strong>Practice</strong></div>
-      </div>
-      <div class="schedule-item schedule-item--round">
-        <span class="schedule-time">3:15 – 3:30 PM</span>
-        <div class="schedule-content"><strong>Official Round 2</strong><p>RoboMission Elementary & Junior: Judging Session 2</p></div>
-      </div>
-      <div class="schedule-item">
-        <span class="schedule-time">3:45 – 4:45 PM</span>
-        <div class="schedule-content"><strong>Practice</strong></div>
-      </div>
-      <div class="schedule-item schedule-item--round">
-        <span class="schedule-time">4:45 – 5:00 PM</span>
-        <div class="schedule-content"><strong>Official Round 3</strong><p>RoboMission Elementary & Junior: Judging Session 3</p></div>
-      </div>
-      <div class="schedule-item">
-        <span class="schedule-time">5:00 PM</span>
-        <div class="schedule-content"><strong>Day 1 Concludes</strong><p>Scores posted. Venue closes for the night.</p></div>
-      </div>
-    </div>
-  </div>
-
-  <div class="schedule-day">
-    <div class="schedule-day-header">
-      <span class="day-badge">Day 2</span>
-      <h3>Sunday, September 6</h3>
-    </div>
-    <div class="schedule-grid">
-      <div class="schedule-item">
-        <span class="schedule-time">8:00 AM</span>
-        <div class="schedule-content"><strong>Venue Opens</strong><p>Teams arrive and settle into pits/booths.</p></div>
-      </div>
-      <div class="schedule-item schedule-item--highlight">
-        <span class="schedule-time">8:30 AM</span>
-        <div class="schedule-content"><strong>Surprise Rule Announced</strong><p>RoboMission surprise challenge and Future Engineers obstacle randomization revealed.</p></div>
-      </div>
-      <div class="schedule-item">
-        <span class="schedule-time">8:40 – 10:40 AM</span>
-        <div class="schedule-content"><strong>Programming & Practice Time</strong><p>Teams have 2 hours to adjust robots and code. Coaches are not permitted in pit areas during this time. Future Engineers teams submit engineering doc and answer judge questions.</p></div>
-      </div>
-      <div class="schedule-item">
-        <span class="schedule-time">10:40 AM</span>
-        <div class="schedule-content"><strong>Robot Inspection</strong><p>Robots are reinspected and returned to quarantine.</p></div>
-      </div>
-      <div class="schedule-item schedule-item--round">
-        <span class="schedule-time">10:50 – 11:05 AM</span>
-        <div class="schedule-content"><strong>Official Round 1.2</strong><p>Future Engineers: Open Challenge • RoboMission Elementary & Junior: Judging Session 1</p></div>
-      </div>
-      <div class="schedule-item">
-        <span class="schedule-time">11:05 AM – 12:05 PM</span>
-        <div class="schedule-content"><strong>Practice</strong><p>Additional practice window.</p></div>
-      </div>
-      <div class="schedule-item">
-        <span class="schedule-time">12:05 – 1:05 PM</span>
-        <div class="schedule-content"><strong>Lunch Break</strong><p>Pits closed and secured.</p></div>
-      </div>
-      <div class="schedule-item">
-        <span class="schedule-time">1:15 – 1:45 PM</span>
-        <div class="schedule-content"><strong>Maintenance Window</strong><p>Brief window for battery changes or final code adjustments.</p></div>
-      </div>
-      <div class="schedule-item">
-        <span class="schedule-time">1:45 PM</span>
-        <div class="schedule-content"><strong>Final Quarantine</strong><p>Robots enter Parc Fermé for the final time.</p></div>
-      </div>
-      <div class="schedule-item schedule-item--round">
-        <span class="schedule-time">2:00 – 2:15 PM</span>
-        <div class="schedule-content"><strong>Official Round 2.2</strong><p>Future Engineers: Open Challenge • RoboMission Elementary & Junior: Judging Session 2</p></div>
-      </div>
-      <div class="schedule-item">
-        <span class="schedule-time">2:30 – 3:30 PM</span>
-        <div class="schedule-content"><strong>Practice</strong><p>Additional practice window.</p></div>
-      </div>
-      <div class="schedule-item schedule-item--round">
-        <span class="schedule-time">3:30 – 3:45 PM</span>
-        <div class="schedule-content"><strong>Official Round 3.2</strong><p>RoboMission Elementary & Junior: Judging Session 3 • Future Engineers: Obstacle Challenge</p></div>
-      </div>
-      <div class="schedule-item schedule-item--ceremony">
-        <span class="schedule-time">4:15 PM</span>
-        <div class="schedule-content"><strong>Closing Ceremony</strong><p>Medals, trophies, and announcement of teams advancing to International Championships.</p></div>
-      </div>
-      <div class="schedule-item">
-        <span class="schedule-time">4:45 PM</span>
-        <div class="schedule-content"><strong>Event Concludes</strong></div>
-      </div>
-    </div>
-  </div>
-
-  <div class="schedule-notes">
-    <strong>Important Notes:</strong>
-    <ul>
-      <li>Coaches must attend the mandatory meeting Saturday at 9:00 AM</li>
-      <li>Coaches not permitted in pits during Sunday's 2-hour programming session</li>
-      <li>All times subject to minor adjustments based on competition flow</li>
-    </ul>
   </div>
 </section>
 
@@ -285,30 +141,18 @@ sitemap_exclude: true
 <section class="wro-section">
   <h2 class="wro-section-title">Resources</h2>
   <div class="resource-cards">
-    <a href="https://wro-association.org/competition/2026-season/" target="_blank" rel="noopener noreferrer" class="resource-card">
+    <a href="https://wro-association.org/competition/" target="_blank" rel="noopener noreferrer" class="resource-card">
       <div class="resource-icon">📋</div>
-      <h4>Official Game Manuals & Rules</h4>
-      <p>Access field descriptions, building instructions, and Q&A for all categories.</p>
+      <h4>Official Game Manuals &amp; Rules</h4>
+      <p>Access field descriptions, building instructions, and Q&amp;A for all categories.</p>
     </a>
     <a href="https://www.uselyouthrobotics.com/store-front" target="_blank" rel="noopener noreferrer" class="resource-card">
       <div class="resource-icon">🛒</div>
-      <h4>Competition Mats & Models</h4>
+      <h4>Competition Mats &amp; Models</h4>
       <p>Purchase official WRO game mats, LEGO models, and challenge kits.</p>
     </a>
   </div>
-  <p class="resource-note"><strong>Note:</strong> Teams must provide their own robots. All robot systems are now allowed in all WRO categories for 2026!</p>
-</section>
-
-<section class="wro-section wro-section--alt" id="registration">
-  <h2 class="wro-section-title">Register Your Team</h2>
-  <p class="section-subtitle">Select your category below to complete registration</p>
-  <div class="store-container">
-    <div id="my-store-106136041"></div>
-    <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?106136041&data_platform=code" charset="utf-8"></script>
-    <script type="text/javascript">
-      xProductBrowser("views=grid(20,2) list(60) table(60)","categoryView=grid","id=my-store-106136041","defaultCategoryId=187847609");
-    </script>
-  </div>
+  <p class="resource-note"><strong>Note:</strong> Teams must provide their own robots. All robot systems are allowed across WRO categories.</p>
 </section>
 
 <div class="wro-footer">
@@ -323,7 +167,33 @@ sitemap_exclude: true
 <style>
   /* WRO Page Layout */
   .wro-page { max-width: 950px; margin: 0 auto; padding: 0 1rem; }
-  
+
+  /* ---- Program intro (new "Robotics Teams" header) ---- */
+  .wro-program-intro { max-width: 720px; margin: 2rem auto 2rem; padding: clamp(1.5rem, 2.5vw, 2rem) 1rem; text-align: center; }
+  .wro-program-title { margin: 0 0 0.75rem; color: #0b2545; font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 900; line-height: 1.1; letter-spacing: -0.035em; }
+  .wro-program-subtitle { margin: 0 0 1.25rem; color: #52657a; font-size: 1.1rem; line-height: 1.55; }
+  .wro-program-facts { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem 1rem; margin: 0 0 1.5rem; color: #0f1b2d; font-size: 0.95rem; font-weight: 600; }
+  .wro-program-fact strong { color: #0b2545; font-weight: 800; }
+  .wro-program-cta-row { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: 0.6rem; margin: 0 0 1rem; }
+  .wro-program-cta {
+    display: inline-flex; align-items: center;
+    padding: 0.85rem 1.4rem;
+    background: #0866E8; color: #FFFFFF !important;
+    border: 2px solid #0866E8; border-radius: 10px;
+    font-size: 1.05rem; font-weight: 700; text-decoration: none !important;
+    box-shadow: 0 2px 6px rgba(8, 102, 232, 0.15);
+    transition: background 0.2s ease, transform 0.15s ease;
+  }
+  .wro-program-cta:hover { background: #0552c3; border-color: #0552c3; color: #FFFFFF !important; text-decoration: none !important; transform: translateY(-1px); }
+  .wro-program-cta:focus-visible { outline: 3px solid rgba(8, 102, 232, 0.5); outline-offset: 2px; }
+  .wro-program-cta--secondary { background: #FFFFFF; color: #0b2545 !important; border: 2px solid #0b2545; box-shadow: none; }
+  .wro-program-cta--secondary:hover { background: #f5f8fc; color: #0b2545 !important; border-color: #0b2545; }
+  .wro-program-cta--secondary:focus-visible { outline: 3px solid rgba(11, 37, 69, 0.4); outline-offset: 2px; }
+  .wro-program-note { margin: 0; color: #52657a; font-size: 0.9rem; }
+
+  /* Event recap wrapper — adds a bit of separation from program intro */
+  .wro-event-recap { margin-top: 1rem; }
+
   /* Hero Section */
   .wro-hero { text-align: center; padding: 2.5rem 2rem; margin-top: 2rem; margin-bottom: 2.5rem; background: linear-gradient(135deg, #14532d 0%, #166534 40%, #22c55e 100%); border-radius: 24px; color: white; position: relative; overflow: hidden; }
   .wro-hero::before { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.06'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }

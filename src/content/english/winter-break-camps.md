@@ -1,8 +1,8 @@
 ---
 title: "Winter Break Camps | Blue Ridge Boost"
 page_title: "Winter Break STEM Camps"
-page_subtitle: "A week of hands-on coding, robotics, and engineering for ages 6–13 in Charlottesville."
-description: "Enroll your child (ages 6-13) in Winter Break Camps at Blue Ridge Boost in Charlottesville, VA! Hands-on learning in robotics, coding, and STEM activities. Half-day and full-day options available."
+page_subtitle: "A week of hands-on coding, robotics, and engineering for ages 6–12 in Charlottesville."
+description: "Enroll your child (ages 6-12) in Winter Break Camps at Blue Ridge Boost in Charlottesville, VA! Hands-on learning in robotics, coding, and STEM activities. Half-day and full-day options available."
 draft: false
 layout: camp-page
 section: "winter-camps"
@@ -13,7 +13,7 @@ keywords:
   - STEM camps for kids
   - robotics camps for kids
   - coding camps Charlottesville
-  - winter camps for ages 6-13
+  - winter camps for ages 6-12
   - half-day winter camps
   - full-day winter camps Charlottesville
   - STEM learning during winter break
@@ -29,7 +29,7 @@ robots: "index, follow"
 
 <!-- Compact facts strip -->
 <div class="camp-quick-facts camp-quick-facts--slim">
-  <div class="camp-fact"><strong>Ages 6–13</strong></div>
+  <div class="camp-fact"><strong>Ages 6–12</strong></div>
   <div class="camp-fact"><strong>Half &amp; Full Day</strong></div>
   <div class="camp-fact"><strong>2171 Ivy Road</strong></div>
   <div class="camp-fact"><strong>Materials Included</strong></div>

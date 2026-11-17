@@ -41,7 +41,7 @@ programs:
     description: >-
       A week of hands-on robotics, coding, game design, and engineering
       challenges during winter break.
-    age_range: "Ages 6–13"
+    age_range: "Ages 6–12"
     schedule: "Winter break"
     icon: "❅"
     accent: "blue"
@@ -49,17 +49,41 @@ programs:
     url: "/winter-break-camps/"
     cta_text: "See Camp Dates"
 
-  - title: "STEM Birthday Parties"
+  - title: "All Camps"
     description: >-
-      Celebrate with instructor-led gaming, robotics, engineering, or
-      science activities designed around your child's interests.
-    age_range: "Ages 6+"
-    schedule: "Weekends by request"
-    icon: "★"
-    accent: "pink"
-    image: "images/gamenight.jpg"
-    url: "/birthdays/"
-    cta_text: "Plan a Party"
+      One-day, winter, spring break, and summer STEM camps for every
+      school break and teacher workday.
+    age_range: "Ages 6–12"
+    schedule: "School breaks & workdays"
+    icon: "⛺"
+    accent: "orange"
+    image: "images/drone.jpg"
+    url: "/camps/"
+    cta_text: "Browse All Camps"
+
+  - title: "Weekly STEM Classes"
+    description: >-
+      After-school and weekend classes in coding, robotics, mathematics,
+      engineering, game design, and creative technology.
+    age_range: "Ages 6–18"
+    schedule: "After-school & weekends"
+    icon: "⌘"
+    accent: "green"
+    image: "images/classes/computerroom.jpg"
+    url: "/classes/"
+    cta_text: "View Classes"
+
+  - title: "Robotics Teams"
+    description: >-
+      Competition-focused robotics teams including World Robot Olympiad —
+      engineering, programming, strategy, and teamwork.
+    age_range: "Ages 8–19"
+    schedule: "Weekly practice & events"
+    icon: "🤖"
+    accent: "cyan"
+    image: "images/classes/wrotable.jpg"
+    url: "/wro/"
+    cta_text: "Join a Team"
 
   - title: "Private Tutoring"
     description: >-
@@ -80,22 +104,22 @@ programs:
     age_range: "Ages 8–16"
     schedule: "Friday evenings"
     icon: "+"
-    accent: "cyan"
+    accent: "pink"
     image: "images/computersibs.jpg"
     url: "/gaming/"
     cta_text: "Explore Gaming Fridays"
 
-  - title: "Weekly STEM Classes"
+  - title: "STEM Birthday Parties"
     description: >-
-      After-school and weekend classes in coding, robotics, mathematics,
-      engineering, game design, and creative technology.
-    age_range: "Ages 6–18"
-    schedule: "After-school & weekends"
-    icon: "⌘"
-    accent: "orange"
-    image: "images/classes/computerroom.jpg"
-    url: "/classes/"
-    cta_text: "View Classes"
+      Celebrate with instructor-led gaming, robotics, engineering, or
+      science activities designed around your child's interests.
+    age_range: "Ages 6+"
+    schedule: "Weekends by request"
+    icon: "★"
+    accent: "blue"
+    image: "images/gamenight.jpg"
+    url: "/birthdays/"
+    cta_text: "Plan a Party"
 
   - title: "Homeschool Programs"
     description: >-
@@ -257,6 +281,6 @@ final_cta:
     We will help you choose a class, camp, team, or tutoring option.
   primary_text: "Contact Blue Ridge Boost"
   primary_url: "/contact/"
-  secondary_text: "Browse all classes"
+  secondary_text: "Browse every class"
   secondary_url: "/classes/"
 ---

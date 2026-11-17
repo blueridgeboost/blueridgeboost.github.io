@@ -14,14 +14,14 @@
     parent     = "classes"
 
 [[main]]
-    name       = "Ages 8-10: Upper Elementary Builders"
+    name       = "Ages 9-11: Upper Elementary Builders"
     url        = "/classes/upper-elementary-builders/"
     weight     = 2
     parent     = "classes"
 
 [[main]]
     parent     = "classes"
-    name       = "Ages 10-13: Middle School Innovators"
+    name       = "Ages 11-14: Middle School Innovators"
     url        = "/classes/middle-school-innovators/"
     weight     = 3
 

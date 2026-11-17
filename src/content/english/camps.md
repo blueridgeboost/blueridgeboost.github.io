@@ -1,7 +1,7 @@
 ---
 title: "STEM Camps in Charlottesville | Blue Ridge Boost"
 page_title: "Camps"
-description: "Hands-on STEM camps in Charlottesville, VA for ages 6–13. Choose a one-day camp or a school-break adventure in robotics, coding, and engineering."
+description: "Hands-on STEM camps in Charlottesville, VA for ages 6–12. Choose a one-day camp or a school-break adventure in robotics, coding, and engineering."
 draft: false
 layout: camps-hub
 section: "camps"
@@ -22,53 +22,73 @@ robots: "index, follow"
 
 <header class="camps-hub__intro">
 <h1>STEM Camps in Charlottesville</h1>
-<p>Hands-on coding, robotics, and engineering for ages 6–13. Choose a one-day camp or a school-break adventure.</p>
+<p class="camps-hub__intro-tagline">Build robots. Create games. Explore engineering.</p>
+<p class="camps-hub__intro-desc">Camps for ages 6–12 on school days off, during school breaks, and throughout summer.</p>
+<p class="camps-hub__intro-meta"><span><strong>Half day:</strong> 8:30 AM – 1 PM</span><span class="camps-hub__intro-sep" aria-hidden="true">|</span><span><strong>Full day:</strong> 8:30 AM – 5 PM</span></p>
+<p class="camps-hub__intro-reassure">Equipment included · No experience needed</p>
 </header>
+
+<section class="camps-hub__price-panel" aria-label="Camp pricing">
+<table class="camps-hub__price-table">
+<thead>
+<tr><th scope="col">Duration</th><th scope="col">Half day</th><th scope="col">Full day</th></tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Per day</th>
+<td><span class="was">$115</span><span class="now">$92</span></td>
+<td><span class="was">$165</span><span class="now">$132</span></td>
+</tr>
+<tr>
+<th scope="row">Per week</th>
+<td><span class="was">$399</span><span class="now">$319.20</span></td>
+<td><span class="was">$599</span><span class="now">$479.20</span></td>
+</tr>
+</tbody>
+</table>
+<p class="camps-hub__price-note">Book by Nov. 30, 2026. Discounted prices shown. Applied automatically at checkout.</p>
+</section>
 
 <div class="camps-hub__grid">
 
 <article class="camps-hub__card">
 <h2>One-Day Camps</h2>
-<p class="camps-hub__blurb">Full days of robotics, drones, and engineering challenges on school breaks and teacher workdays.</p>
+<p class="camps-hub__blurb">Turn a day off school into a day of discovery.</p>
 <dl class="camps-hub__facts">
-<div><dt>Ages</dt><dd>6–13</dd></div>
-<div><dt>Dates</dt><dd>Teacher workdays &amp; single days, 2026–27</dd></div>
-<div><dt>Hours</dt><dd>Half or full day</dd></div>
+<div><dt>Dates</dt><dd>Jan. 4, 18 &amp; 19, 2027 · More dates available</dd></div>
+<div><dt>Booking</dt><dd>Individual days</dd></div>
 </dl>
-<a class="camps-hub__action" href="/1-day-camps/">View One-Day Camps</a>
+<a class="camps-hub__action" href="/1-day-camps/">View Dates &amp; Register</a>
 </article>
 
 <article class="camps-hub__card">
 <h2>Winter Break Camps</h2>
-<p class="camps-hub__blurb">A week of robotics, coding, and engineering challenges during winter break.</p>
+<p class="camps-hub__blurb">Keep curious minds engaged over winter break.</p>
 <dl class="camps-hub__facts">
-<div><dt>Ages</dt><dd>6–13</dd></div>
-<div><dt>Dates</dt><dd>Dec 22, 2026 – Jan 2, 2027</dd></div>
-<div><dt>Hours</dt><dd>Half or full day</dd></div>
+<div><dt>Dates</dt><dd>Dec. 21–24 &amp; 26–31, 2026</dd></div>
+<div><dt>Booking</dt><dd>Daily or weekly (5 days)</dd></div>
 </dl>
-<a class="camps-hub__action" href="/winter-break-camps/">View Winter Dates</a>
+<a class="camps-hub__action" href="/winter-break-camps/">View Dates &amp; Register</a>
 </article>
 
 <article class="camps-hub__card">
 <h2>Spring Break Camps</h2>
-<p class="camps-hub__blurb">A week of hands-on STEM fun during spring break — robotics, coding, and Minecraft Education.</p>
+<p class="camps-hub__blurb">Make new friends and bring fresh ideas to life.</p>
 <dl class="camps-hub__facts">
-<div><dt>Ages</dt><dd>6–13</dd></div>
-<div><dt>Dates</dt><dd>Spring Break 2027</dd></div>
-<div><dt>Hours</dt><dd>Half or full day</dd></div>
+<div><dt>Dates</dt><dd>Apr. 5–9, 2027</dd></div>
+<div><dt>Booking</dt><dd>Daily or weekly (5 days)</dd></div>
 </dl>
-<a class="camps-hub__action" href="/spring-break-camps/">View Spring Dates</a>
+<a class="camps-hub__action" href="/spring-break-camps/">View Dates &amp; Register</a>
 </article>
 
 <article class="camps-hub__card">
 <h2>Summer Camps</h2>
-<p class="camps-hub__blurb">Weekly themed camps across robotics, coding, game design, and creative technology.</p>
+<p class="camps-hub__blurb">Find new interests and grow your confidence all summer.</p>
 <dl class="camps-hub__facts">
-<div><dt>Ages</dt><dd>6–13</dd></div>
-<div><dt>Dates</dt><dd>June – August 2027</dd></div>
-<div><dt>Hours</dt><dd>Full day</dd></div>
+<div><dt>Dates</dt><dd>May 31 – August 2027</dd></div>
+<div><dt>Booking</dt><dd>Weekly sessions</dd></div>
 </dl>
-<a class="camps-hub__action" href="/summer-camps/">View Summer Dates</a>
+<a class="camps-hub__action" href="/summer-camps/">View Dates &amp; Register</a>
 </article>
 
 </div>
@@ -89,7 +109,7 @@ robots: "index, follow"
    ========================================================================== */
 
 .camps-hub-section {
-  padding-block: clamp(2.5rem, 5vw, 4rem);
+  padding: 1.5rem 0 0.5rem;
 }
 
 .camps-hub {
@@ -105,38 +125,175 @@ robots: "index, follow"
 }
 
 .camps-hub__intro {
-  max-width: 720px;
-  margin: 0 auto 2.5rem;
+  margin: 0 auto 0;
   text-align: center;
 }
 
 .camps-hub__intro h1 {
-  margin: 0 0 0.6rem;
+  max-width: 1100px;
+  margin: 0 auto 1rem;
   color: var(--hub-navy);
-  font-size: clamp(1.75rem, 3vw, 2.5rem);
-  font-weight: 850;
-  line-height: 1.1;
-  letter-spacing: -0.03em;
+  font-size: clamp(1.75rem, 2.4vw, 2.25rem) !important;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
 }
 
-.camps-hub__intro p {
-  margin: 0;
+.camps-hub__intro-tagline {
+  margin: 0 auto 0.75rem !important;
+  color: var(--hub-navy);
+  font-size: 1rem !important;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.camps-hub__intro-desc {
+  max-width: 950px;
+  margin: 0 auto 1rem !important;
   color: var(--hub-muted);
-  font-size: 1.05rem;
-  line-height: 1.55;
+  font-size: 1rem !important;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.camps-hub__intro-meta {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0.25rem 1rem;
+  margin: 0 !important;
+  color: var(--hub-muted);
+  font-size: 0.9375rem !important;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.camps-hub__intro-meta strong {
+  color: var(--hub-navy);
+  font-weight: 700;
+}
+
+.camps-hub__intro-sep {
+  color: var(--hub-border);
+}
+
+.camps-hub__intro-reassure {
+  margin: 0.6rem 0 0 !important;
+  color: var(--hub-muted);
+  font-size: 0.875rem !important;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 560px) {
+  .camps-hub__intro-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .camps-hub__intro-sep { display: none; }
 }
 
 .camps-hub__grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.25rem;
-  margin-bottom: 2.5rem;
+  gap: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+/* Pricing panel */
+.camps-hub__price-panel {
+  max-width: 850px;
+  margin: 1.5rem auto 1.75rem;
+  padding: 1.25rem 1.5rem;
+  background: #ffffff;
+  border: 1px solid var(--hub-border);
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(11, 31, 63, 0.05);
+  text-align: center;
+}
+
+.camps-hub__price-title {
+  margin: 0 0 0.75rem !important;
+  color: #0866E8;
+  font-size: 0.9375rem !important;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.camps-hub__price-table {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  font-size: 0.9375rem !important;
+  line-height: 1.4;
+}
+
+.camps-hub__price-table th,
+.camps-hub__price-table td {
+  padding: 0.75rem 0.65rem;
+  border-bottom: 1px solid #e3e9f1;
+}
+
+.camps-hub__price-table thead th {
+  color: var(--hub-muted);
+  font-size: 0.875rem !important;
+  font-weight: 600;
+  text-align: center;
+}
+
+.camps-hub__price-table thead th:first-child {
+  text-align: left;
+}
+
+.camps-hub__price-table tbody th {
+  color: var(--hub-navy);
+  font-size: 0.875rem !important;
+  font-weight: 600;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.camps-hub__price-table tbody td {
+  color: var(--hub-navy);
+  text-align: center;
+  line-height: 1.2;
+}
+
+.camps-hub__price-table .was {
+  display: block;
+  margin-bottom: 0.1rem;
+  color: var(--hub-muted);
+  font-size: 0.8125rem !important;
+  font-weight: 400;
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.camps-hub__price-table .now {
+  display: block;
+  color: var(--hub-navy);
+  font-size: 1.125rem !important;
+  font-weight: 800;
+}
+
+.camps-hub__price-table tbody tr:last-child th,
+.camps-hub__price-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.camps-hub__price-note {
+  margin: 0.75rem 0 0 !important;
+  color: var(--hub-muted);
+  font-size: 0.8125rem !important;
+  line-height: 1.45;
 }
 
 .camps-hub__card {
   display: flex;
   flex-direction: column;
-  padding: 1.5rem 1.4rem 1.4rem;
+  padding: 2rem;
   background: var(--hub-surface);
   border: 1px solid var(--hub-border);
   border-radius: 14px;
@@ -144,24 +301,25 @@ robots: "index, follow"
 }
 
 .camps-hub__card h2 {
-  margin: 0 0 0.6rem;
+  margin: 0 0 0.6rem !important;
   color: var(--hub-navy);
-  font-size: 1.2rem;
+  font-size: 1.25rem !important;
   font-weight: 800;
   line-height: 1.25;
+  letter-spacing: -0.015em;
 }
 
 .camps-hub__blurb {
-  margin: 0 0 1rem;
+  margin: 0 0 0.9rem !important;
   color: var(--hub-muted);
-  font-size: 0.93rem;
+  font-size: 0.9375rem !important;
   line-height: 1.5;
 }
 
 .camps-hub__facts {
   display: grid;
   margin: 0 0 1.25rem;
-  gap: 0.35rem;
+  gap: 0.625rem;
   padding: 0.75rem 0;
   border-top: 1px solid var(--hub-border);
   border-bottom: 1px solid var(--hub-border);
@@ -169,9 +327,9 @@ robots: "index, follow"
 
 .camps-hub__facts > div {
   display: grid;
-  grid-template-columns: 70px 1fr;
-  gap: 0.5rem;
-  font-size: 0.85rem;
+  grid-template-columns: 90px minmax(0, 1fr);
+  gap: 0.75rem;
+  font-size: 0.9375rem !important;
   line-height: 1.4;
 }
 
@@ -186,17 +344,33 @@ robots: "index, follow"
   font-weight: 650;
 }
 
+.camps-hub__facts s {
+  margin-right: 0.15rem;
+  color: var(--hub-muted);
+  font-weight: 400;
+  opacity: 0.75;
+}
+
+.camps-hub__promo {
+  margin: -0.4rem 0 1rem !important;
+  color: #0866E8;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
 .camps-hub__action {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   margin-top: auto;
-  padding: 0.7rem 1.1rem;
+  padding: 0.85rem 1.3rem;
   color: #fff;
   background: var(--hub-navy);
   border-radius: 10px;
-  font-size: 0.92rem;
+  font-size: 1rem !important;
   font-weight: 700;
+  line-height: 1.2;
   text-decoration: none;
   transition: background 0.2s ease, transform 0.15s ease;
 }
