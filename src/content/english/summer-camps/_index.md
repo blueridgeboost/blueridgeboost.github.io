@@ -28,111 +28,68 @@ keywords:
 robots: "index, follow"
 ---
 
-<!-- Quick Facts Bar -->
-<div class="camp-quick-facts">
-  <div class="camp-fact">
-    <strong>Ages 6–12</strong>
-    <span>Must be at least 6</span>
+<!-- Compact facts strip -->
+<div class="camp-quick-facts camp-quick-facts--slim">
+  <div class="camp-fact"><strong>Ages 6–12</strong></div>
+  <div class="camp-fact"><strong>Half &amp; Full Day</strong></div>
+  <div class="camp-fact"><strong>2171 Ivy Road</strong></div>
+  <div class="camp-fact"><strong>Materials Included</strong></div>
+</div>
+
+<!-- Primary CTA scrolls to store -->
+<div class="camp-cta-row">
+  <a class="camp-cta" href="#camp-store">View Upcoming Weeks →</a>
+</div>
+
+<!-- Two sections: Essentials (40%) + A Typical Camp Day (60%) -->
+<div class="camp-info-grid camp-info-grid--split">
+
+  <div class="camp-info-card">
+    <div class="camp-info-header">
+      <span class="camp-info-icon">📋</span>
+      <h2>Essentials</h2>
+    </div>
+    <ul class="camp-details-list">
+      <li><span class="detail-label">Full-day</span><span class="detail-value">8:30 AM – 5:00 PM</span></li>
+      <li><span class="detail-label">Half-day AM</span><span class="detail-value">8:30 AM – 1:00 PM</span></li>
+      <li><span class="detail-label">Half-day PM</span><span class="detail-value">12:30 – 5:00 PM</span></li>
+      <li><span class="detail-label">Full-day week</span><span class="detail-value">$599.99</span></li>
+      <li><span class="detail-label">Half-day week</span><span class="detail-value">$399.99</span></li>
+      <li><span class="detail-label">Ratio</span><span class="detail-value">10:1 camper-to-staff</span></li>
+      <li><span class="detail-label">Bring (half-day)</span><span class="detail-value">1 snack</span></li>
+      <li><span class="detail-label">Bring (full-day)</span><span class="detail-value">Lunch + 2 snacks</span></li>
+    </ul>
   </div>
-  <div class="camp-fact">
-    <strong>Charlottesville</strong>
-    <span>2171 Ivy Road</span>
+
+  <div class="camp-info-card">
+    <div class="camp-info-header">
+      <span class="camp-info-icon">🕐</span>
+      <h2>A Typical Camp Day</h2>
+    </div>
+    <p class="camp-day-summary">
+      Instructor-led learning in robotics, game design (Minecraft &amp; Roblox),
+      math &amp; science, and coding — balanced with snack breaks, movement breaks,
+      and exploration time.
+    </p>
+    <details class="camp-timeline">
+      <summary>View full schedule</summary>
+      <div class="camp-schedule">
+        <div class="schedule-row"><span class="time">8:30 AM</span><span class="activity">Arrival</span></div>
+        <div class="schedule-row"><span class="time">9:00 AM</span><span class="activity">Learning Session</span></div>
+        <div class="schedule-row"><span class="time">10:00 AM</span><span class="activity">Snack Break</span></div>
+        <div class="schedule-row"><span class="time">10:30 AM</span><span class="activity">Learning Session</span></div>
+        <div class="schedule-row"><span class="time">11:20 AM</span><span class="activity">Water &amp; Movement Break</span></div>
+        <div class="schedule-row"><span class="time">11:45 AM</span><span class="activity">Exploration</span></div>
+        <div class="schedule-row"><span class="time">12:30 PM</span><span class="activity">Lunch</span></div>
+        <div class="schedule-row"><span class="time">1:00 PM</span><span class="activity">Learning Session</span></div>
+        <div class="schedule-row"><span class="time">2:00 PM</span><span class="activity">Water &amp; Movement Break</span></div>
+        <div class="schedule-row"><span class="time">2:30 PM</span><span class="activity">Learning Session</span></div>
+        <div class="schedule-row"><span class="time">3:30 PM</span><span class="activity">Snack Break</span></div>
+        <div class="schedule-row"><span class="time">4:00 PM</span><span class="activity">Exploration</span></div>
+        <div class="schedule-row"><span class="time">5:00 PM</span><span class="activity">Pick up</span></div>
+      </div>
+    </details>
   </div>
-  <div class="camp-fact">
-    <strong>Half & Full Day</strong>
-    <span>AM, PM, or full-day</span>
-  </div>
-  <div class="camp-fact">
-    <strong>All Materials</strong>
-    <span>Computers included</span>
-  </div>
-</div>
-
-<!-- Promo Banner -->
-<div class="camp-promo-banner">
-  <span class="camp-promo-badge">Save</span>
-  <p><strong>10% off</strong> for email subscribers</p>
-</div>
-
-<!-- Info Cards -->
-<div class="camp-info-grid">
-
-<div class="camp-info-card">
-<div class="camp-info-header">
-<span class="camp-info-icon">📋</span>
-<h2>Camp Details</h2>
-</div>
-<ul class="camp-details-list">
-<li><span class="detail-label">Full-day</span><span class="detail-value">8:30 AM – 5:00 PM</span></li>
-<li><span class="detail-label">Half-day AM</span><span class="detail-value">8:30 AM – 1:00 PM</span></li>
-<li><span class="detail-label">Half-day PM</span><span class="detail-value">12:30 – 5:00 PM</span></li>
-<li><span class="detail-label">Ratio</span><span class="detail-value">10:1 camper-to-staff</span></li>
-<li><span class="detail-label">Bring (half-day)</span><span class="detail-value">1 snack</span></li>
-<li><span class="detail-label">Bring (full-day)</span><span class="detail-value">Lunch + 2 snacks</span></li>
-</ul>
-</div>
-
-<div class="camp-info-card">
-<div class="camp-info-header">
-<span class="camp-info-icon">🔬</span>
-<h2>Topics</h2>
-</div>
-<ul class="camp-details-list">
-<li><span class="detail-label">Robotics</span><span class="detail-value">Build & program</span></li>
-<li><span class="detail-label">Game Design</span><span class="detail-value">Minecraft & Roblox</span></li>
-<li><span class="detail-label">Math & Science</span><span class="detail-value">Hands-on problem-solving</span></li>
-<li><span class="detail-label">Coding & Typing</span><span class="detail-value">Foundational skills</span></li>
-</ul>
-</div>
-
-<div class="camp-info-card">
-<div class="camp-info-header">
-<span class="camp-info-icon">🎁</span>
-<h2>Pricing</h2>
-</div>
-<ul class="camp-details-list">
-<li><span class="detail-label">Full-day week</span><span class="detail-value">$599.99</span></li>
-<li><span class="detail-label">Half-day week</span><span class="detail-value">$399.99</span></li>
-<li><span class="detail-label">Email subscribers</span><span class="detail-value">10% off</span></li>
-<li><span class="detail-label">Materials</span><span class="detail-value">Included</span></li>
-</ul>
-</div>
-
-</div>
-
-<!-- Morning + Afternoon Schedule -->
-<div class="camp-info-grid">
-
-<div class="camp-info-card">
-<div class="camp-info-header">
-<span class="camp-info-icon">🌅</span>
-<h2>Morning Schedule</h2>
-</div>
-<div class="camp-schedule">
-<div class="schedule-row"><span class="time">8:30</span><span class="activity">Arrival</span></div>
-<div class="schedule-row"><span class="time">9:00</span><span class="activity">Learning Session</span></div>
-<div class="schedule-row"><span class="time">10:00</span><span class="activity">Snack Break</span></div>
-<div class="schedule-row"><span class="time">10:30</span><span class="activity">Learning Session</span></div>
-<div class="schedule-row"><span class="time">11:20</span><span class="activity">Water &amp; Movement Break</span></div>
-<div class="schedule-row"><span class="time">11:45</span><span class="activity">Exploration</span></div>
-<div class="schedule-row"><span class="time">12:30</span><span class="activity">Lunch</span></div>
-</div>
-</div>
-
-<div class="camp-info-card">
-<div class="camp-info-header">
-<span class="camp-info-icon">🌇</span>
-<h2>Afternoon Schedule</h2>
-</div>
-<div class="camp-schedule">
-<div class="schedule-row"><span class="time">1:00</span><span class="activity">Learning Session</span></div>
-<div class="schedule-row"><span class="time">2:00</span><span class="activity">Water &amp; Movement Break</span></div>
-<div class="schedule-row"><span class="time">2:30</span><span class="activity">Learning Session</span></div>
-<div class="schedule-row"><span class="time">3:30</span><span class="activity">Snack Break</span></div>
-<div class="schedule-row"><span class="time">4:00</span><span class="activity">Exploration</span></div>
-<div class="schedule-row"><span class="time">5:00</span><span class="activity">Pick up</span></div>
-</div>
-</div>
 
 </div>
 
