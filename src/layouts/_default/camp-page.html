@@ -339,9 +339,59 @@
   transform: translateY(-1px);
 }
 
+/* ---- Compact variants (opt-in via class names) ---- */
+
+/* Slim facts strip — 4 bold cells, no secondary lines */
+.camp-quick-facts--slim .camp-fact { padding: 0.7rem 0.75rem; }
+.camp-quick-facts--slim .camp-fact strong { font-size: 0.95rem; }
+
+/* Primary CTA row above the info section */
+.camp-cta-row { text-align: center; margin: 0 0 1.5rem; }
+.camp-cta {
+  display: inline-flex; align-items: center;
+  padding: 0.75rem 1.4rem;
+  background: #0866E8; color: #FFFFFF !important;
+  border: 2px solid #0866E8; border-radius: 10px;
+  font-size: 1rem; font-weight: 700; text-decoration: none !important;
+  box-shadow: 0 2px 6px rgba(8, 102, 232, 0.15);
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+.camp-cta:hover { background: #0552c3; border-color: #0552c3; color: #FFFFFF !important; text-decoration: none !important; transform: translateY(-1px); }
+.camp-cta:focus-visible { outline: 3px solid rgba(8, 102, 232, 0.5); outline-offset: 2px; }
+
+/* Two-column 40 / 60 info split */
+.camp-info-grid--split { grid-template-columns: minmax(0, 0.4fr) minmax(0, 0.6fr); gap: 1.25rem; }
+.camp-info-grid--split .camp-info-card { padding: 1.75rem; }
+.camp-info-grid--split .camp-info-header { margin: 0 0 1.25rem; padding: 0; background: transparent; border-bottom: none; }
+.camp-info-grid--split .camp-info-header h2 { font-size: 1.4rem; font-weight: 800; color: var(--camp-navy); }
+.camp-info-grid--split .camp-details-list { border-top: 1px solid #e3e9f1; border-bottom: 1px solid #e3e9f1; padding: 0.3rem 0; }
+.camp-info-grid--split .camp-details-list li { padding: 0.5rem 0; }
+
+/* Day summary + expandable timeline */
+.camp-day-summary { margin: 0 0 1rem; color: var(--camp-muted); font-size: 0.95rem; line-height: 1.55; }
+.camp-timeline { margin: 0; padding: 0.6rem 0 0; border-top: 1px solid #e3e9f1; }
+.camp-timeline > summary { cursor: pointer; padding: 0.4rem 0; color: #0866E8; font-size: 0.92rem; font-weight: 700; list-style: none; }
+.camp-timeline > summary::before { content: "▸ "; display: inline-block; margin-right: 0.2rem; transition: transform 0.15s ease; }
+.camp-timeline[open] > summary::before { transform: rotate(90deg); }
+.camp-timeline[open] > summary { margin-bottom: 0.4rem; }
+.camp-timeline .camp-schedule { padding: 0; border: none; }
+.camp-timeline .schedule-row {
+  display: grid; grid-template-columns: 80px 1fr; gap: 0.75rem;
+  padding: 0.3rem 0; font-size: 0.9rem; line-height: 1.4;
+  border-top: 1px solid #f0f3f8;
+}
+.camp-timeline .schedule-row:first-child { border-top: none; }
+.camp-timeline .time { color: var(--camp-blue); font-weight: 700; font-variant-numeric: tabular-nums; }
+.camp-timeline .activity { color: var(--camp-text); }
+
+@media (max-width: 760px) {
+  .camp-info-grid--split { grid-template-columns: 1fr; }
+  .camp-quick-facts--slim { grid-template-columns: repeat(2, 1fr); }
+}
+
 /* Responsive */
 @media (max-width: 900px) {
-  .camp-info-grid {
+  .camp-info-grid:not(.camp-info-grid--split) {
     grid-template-columns: 1fr;
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: "1-Day Camps | Blue Ridge Boost"
-page_title: "One-Day Camps"
+page_title: "One-Day STEM Camps"
+page_subtitle: "Hands-on coding, robotics, and engineering for ages 6–13 in Charlottesville."
 description: "Join Blue Ridge Boost's 1-Day Camps in Charlottesville, VA! Engaging robotics, coding, and math programs for kids aged 6-13 during school breaks, snow days, and teacher workdays." 
 draft: false
 section: "1-day-camps"
@@ -16,129 +17,68 @@ robots: "index, follow"
 
 ---
 
-<!-- Quick Facts Bar -->
-<div class="camp-quick-facts">
-  <div class="camp-fact">
-    <strong>Ages 6–13</strong>
-    <span>Elementary & middle school</span>
-  </div>
-  <div class="camp-fact">
-    <strong>Charlottesville</strong>
-    <span>2171 Ivy Road</span>
-  </div>
-  <div class="camp-fact">
-    <strong>Half & Full Day</strong>
-    <span>Flexible options</span>
-  </div>
-  <div class="camp-fact">
-    <strong>All Materials</strong>
-    <span>Included in price</span>
-  </div>
+<!-- Compact facts strip -->
+<div class="camp-quick-facts camp-quick-facts--slim">
+  <div class="camp-fact"><strong>Ages 6–13</strong></div>
+  <div class="camp-fact"><strong>Half &amp; Full Day</strong></div>
+  <div class="camp-fact"><strong>2171 Ivy Road</strong></div>
+  <div class="camp-fact"><strong>Materials Included</strong></div>
 </div>
 
-<!-- Two Column Layout: Info + Schedule -->
-<div class="camp-info-grid">
-  
+<!-- Primary CTA scrolls to store -->
+<div class="camp-cta-row">
+  <a class="camp-cta" href="#camp-store">View Upcoming Dates →</a>
+</div>
+
+<!-- Two sections: Essentials (40%) + A Typical Camp Day (60%) -->
+<div class="camp-info-grid camp-info-grid--split">
+
   <div class="camp-info-card">
     <div class="camp-info-header">
       <span class="camp-info-icon">📋</span>
-      <h2>Camp Details</h2>
+      <h2>Essentials</h2>
     </div>
     <ul class="camp-details-list">
-      <li>
-        <span class="detail-label">Drop-off</span>
-        <span class="detail-value">8:30–9:00 AM</span>
-      </li>
-      <li>
-        <span class="detail-label">Half-day pickup</span>
-        <span class="detail-value">1:00 PM</span>
-      </li>
-      <li>
-        <span class="detail-label">Full-day pickup</span>
-        <span class="detail-value">5:00 PM</span>
-      </li>
-      <li>
-        <span class="detail-label">Bring (half-day)</span>
-        <span class="detail-value">1 snack</span>
-      </li>
-      <li>
-        <span class="detail-label">Bring (full-day)</span>
-        <span class="detail-value">Lunch + 2 snacks</span>
-      </li>
+      <li><span class="detail-label">Drop-off</span><span class="detail-value">8:30–9:00 AM</span></li>
+      <li><span class="detail-label">Half-day pickup</span><span class="detail-value">1:00 PM</span></li>
+      <li><span class="detail-label">Full-day pickup</span><span class="detail-value">5:00 PM</span></li>
+      <li><span class="detail-label">Bring (half-day)</span><span class="detail-value">1 snack</span></li>
+      <li><span class="detail-label">Bring (full-day)</span><span class="detail-value">Lunch + 2 snacks</span></li>
     </ul>
   </div>
 
   <div class="camp-info-card">
     <div class="camp-info-header">
-      <span class="camp-info-icon">🌅</span>
-      <h2>Morning Schedule</h2>
+      <span class="camp-info-icon">🕐</span>
+      <h2>A Typical Camp Day</h2>
     </div>
-    <div class="camp-schedule">
-      <div class="schedule-row">
-        <span class="time">8:30</span>
-        <span class="activity">Arrival</span>
+    <p class="camp-day-summary">
+      Instructor-led learning sessions in robotics, coding, and engineering,
+      balanced with snack breaks, movement breaks, and exploration time.
+    </p>
+    <details class="camp-timeline">
+      <summary>View full schedule</summary>
+      <div class="camp-schedule">
+        <div class="schedule-row"><span class="time">8:30 AM</span><span class="activity">Arrival</span></div>
+        <div class="schedule-row"><span class="time">9:00 AM</span><span class="activity">Learning Session</span></div>
+        <div class="schedule-row"><span class="time">10:00 AM</span><span class="activity">Snack Break</span></div>
+        <div class="schedule-row"><span class="time">10:30 AM</span><span class="activity">Learning Session</span></div>
+        <div class="schedule-row"><span class="time">11:20 AM</span><span class="activity">Water &amp; Movement Break</span></div>
+        <div class="schedule-row"><span class="time">11:45 AM</span><span class="activity">Exploration</span></div>
+        <div class="schedule-row"><span class="time">12:30 PM</span><span class="activity">Lunch</span></div>
+        <div class="schedule-row"><span class="time">1:00 PM</span><span class="activity">Learning Session</span></div>
+        <div class="schedule-row"><span class="time">2:00 PM</span><span class="activity">Water &amp; Movement Break</span></div>
+        <div class="schedule-row"><span class="time">2:30 PM</span><span class="activity">Learning Session</span></div>
+        <div class="schedule-row"><span class="time">3:30 PM</span><span class="activity">Snack Break</span></div>
+        <div class="schedule-row"><span class="time">4:00 PM</span><span class="activity">Exploration</span></div>
+        <div class="schedule-row"><span class="time">5:00 PM</span><span class="activity">Pick up</span></div>
       </div>
-      <div class="schedule-row">
-        <span class="time">9:00</span>
-        <span class="activity">Learning Session</span>
-      </div>
-      <div class="schedule-row">
-        <span class="time">10:00</span>
-        <span class="activity">Snack Break</span>
-      </div>
-      <div class="schedule-row">
-        <span class="time">10:30</span>
-        <span class="activity">Learning Session</span>
-      </div>
-      <div class="schedule-row">
-        <span class="time">11:20</span>
-        <span class="activity">Water &amp; Movement Break</span>
-      </div>
-      <div class="schedule-row">
-        <span class="time">11:45</span>
-        <span class="activity">Exploration</span>
-      </div>
-      <div class="schedule-row">
-        <span class="time">12:30</span>
-        <span class="activity">Lunch</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="camp-info-card">
-    <div class="camp-info-header">
-      <span class="camp-info-icon">🌇</span>
-      <h2>Afternoon Schedule</h2>
-    </div>
-    <div class="camp-schedule">
-      <div class="schedule-row">
-        <span class="time">1:00</span>
-        <span class="activity">Learning Session</span>
-      </div>
-      <div class="schedule-row">
-        <span class="time">2:00</span>
-        <span class="activity">Water &amp; Movement Break</span>
-      </div>
-      <div class="schedule-row">
-        <span class="time">2:30</span>
-        <span class="activity">Learning Session</span>
-      </div>
-      <div class="schedule-row">
-        <span class="time">3:30</span>
-        <span class="activity">Snack Break</span>
-      </div>
-      <div class="schedule-row">
-        <span class="time">4:00</span>
-        <span class="activity">Exploration</span>
-      </div>
-      <div class="schedule-row">
-        <span class="time">5:00</span>
-        <span class="activity">Pick up</span>
-      </div>
-    </div>
+    </details>
   </div>
 
 </div>
+
+<!-- shared compact styles now live in layouts/_default/camp-page.html -->
 
 <!-- Store Section -->
 <section class="camp-store-section" id="camp-store">

@@ -44,10 +44,8 @@ campemail = "camps@blueridgeboost.com"
 
 # Promo strip (full-width band under topbar). Shown when promo_text is set.
 # Clear promo_text to hide. promo_expires and promo_url are optional.
-promo_text = "🦃 Thanksgiving savings: 10% off $250+ · 15% off $500+"
+promo_text = "🦃 Thanksgiving savings: 20% off everything"
 promo_expires = "Ends Nov 30"
-promo_url = "#"
-promo_url_text = "Details"
 
 ######################### site variables ##############################
 # customize your color and font from here.
