@@ -73,17 +73,17 @@ programs:
     url: "/classes/"
     cta_text: "View Classes"
 
-  - title: "Robotics Teams"
+  - title: "Robotics Lab"
     description: >-
-      Competition-focused robotics teams including World Robot Olympiad —
-      engineering, programming, strategy, and teamwork.
+      Equipment, practice space, and activities to support competition
+      teams — engineering, programming, strategy, and teamwork.
     age_range: "Ages 8–19"
-    schedule: "Weekly practice & events"
+    schedule: "Weekly lab sessions"
     icon: "🤖"
     accent: "cyan"
     image: "images/classes/wrotable.jpg"
-    url: "/wro/"
-    cta_text: "Join a Team"
+    url: "/robotics-lab/"
+    cta_text: "Join the Lab"
 
   - title: "Private Tutoring"
     description: >-
