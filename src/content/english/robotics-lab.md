@@ -54,10 +54,10 @@ robots: "index, follow"
 <li>Staff supervision and facility support</li>
 <li>Scheduled, supervised use of 3D printers</li>
 <li>Small, standard PLA prints for lab projects</li>
-<li>Access to selected CMRA classes during lab sessions</li>
+<li>Access to materials for selected Carnegie Mellon Robotics Academy courses during lab sessions</li>
 </ul>
 <p class="lab-note">
-Coaching, equipment rental, CMRA materials packages, and competition fees are separate (see below).
+Coaching, equipment rental, Carnegie Mellon Robotics Academy materials packages, and competition fees are separate (see below).
 </p>
 </div>
 
@@ -80,7 +80,7 @@ Discount applied automatically at checkout. Refunds issued as store credit.
 <tr><th scope="col">Coaching option</th><th scope="col">Price</th><th scope="col">What's included</th></tr>
 </thead>
 <tbody>
-<tr><th scope="row">Bring Your Own Coach</th><td class="lab-price-cell">No additional fee</td><td>Your coach leads your team during scheduled lab sessions.</td></tr>
+<tr><th scope="row">Bring Your Own Coach</th><td class="lab-price-cell">No additional fee</td><td>Your coach leads your team during scheduled lab sessions. The coach is responsible for the team.</td></tr>
 <tr><th scope="row">Shared Coaching Support</th><td class="lab-price-cell">$25 / student / month</td><td>Occasional help with building, programming, and troubleshooting. Staff support is shared among teams.</td></tr>
 <tr><th scope="row">Private Team Coaching</th><td class="lab-price-cell">$50 / student / hour</td><td>Dedicated coaching for a group of at least three students.</td></tr>
 <tr><th scope="row">One-on-One Coaching</th><td class="lab-price-cell">$75 / student / hour</td><td>Individual instruction focused on the student's skills and goals.</td></tr>
@@ -150,7 +150,7 @@ Robotics kits are shared by teams of up to four students. Programming devices ma
 </tr>
 </thead>
 <tbody>
-<tr><th scope="rowgroup" rowspan="8">World Robot Olympiad (WRO)</th><td>RoboMission — Elementary</td><td>8–12</td><td>January</td></tr>
+<tr><th scope="rowgroup" rowspan="8"><a href="https://wro-association.org/" target="_blank" rel="noopener noreferrer">World Robot Olympiad (WRO)</a></th><td>RoboMission — Elementary</td><td>8–12</td><td>January</td></tr>
 <tr><td>RoboMission — Junior</td><td>11–15</td><td>January</td></tr>
 <tr><td>RoboMission — Senior</td><td>14–19</td><td>January</td></tr>
 <tr><td>Future Innovators — Elementary</td><td>8–12</td><td>January</td></tr>
@@ -158,13 +158,13 @@ Robotics kits are shared by teams of up to four students. Programming devices ma
 <tr><td>Future Innovators — Senior</td><td>14–19</td><td>January</td></tr>
 <tr><td>RoboSports</td><td>11–19</td><td>January</td></tr>
 <tr><td>Future Engineers</td><td>14–22</td><td>January</td></tr>
-<tr><th scope="rowgroup" rowspan="2">VEX IQ Robotics Competition</th><td>Elementary School</td><td>Through grade 5; typically ages 8–11</td><td>Spring, typically April–May</td></tr>
+<tr><th scope="rowgroup" rowspan="2"><a href="https://www.vexrobotics.com/iq/competition" target="_blank" rel="noopener noreferrer">VEX IQ Robotics Competition</a></th><td>Elementary School</td><td>Through grade 5; typically ages 8–11</td><td>Spring, typically April–May</td></tr>
 <tr><td>Middle School</td><td>Through grade 8; typically ages 11–14</td><td>Spring, typically April–May</td></tr>
-<tr><th scope="row">FIRST K–8 Robotics</th><td>Program and division details coming over the summer</td><td>Grades K–8, approximately ages 5–14; division eligibility to be announced</td><td>August</td></tr>
-<tr><th scope="row">FIRST Tech Challenge (FTC)</th><td>Main competition</td><td>12–18, typically grades 7–12</td><td>September</td></tr>
-<tr><th scope="rowgroup" rowspan="3">RoboCupJunior</th><td>Soccer</td><td>International: 14–19; U.S. eligibility varies by event</td><td>Varies by organizer</td></tr>
-<tr><td>Rescue</td><td>International: 14–19; U.S. eligibility varies by event</td><td>Varies by organizer</td></tr>
-<tr><td>OnStage</td><td>International: 14–19; U.S. eligibility varies by event</td><td>Varies by organizer</td></tr>
+<tr><th scope="row"><a href="https://www.firstinspires.org/robotics/fll" target="_blank" rel="noopener noreferrer">FIRST K–8 Robotics (FLL)</a></th><td>Program and division details coming over the summer</td><td>Grades K–8, approximately ages 5–14; division eligibility to be announced</td><td>August</td></tr>
+<tr><th scope="row"><a href="https://www.firstinspires.org/robotics/ftc" target="_blank" rel="noopener noreferrer">FIRST Tech Challenge (FTC)</a></th><td>Main competition</td><td>12–18, typically grades 7–12</td><td>September</td></tr>
+<tr><th scope="rowgroup" rowspan="3"><a href="https://junior.robocup.org/" target="_blank" rel="noopener noreferrer">RoboCupJunior</a></th><td>Soccer</td><td>Ages 8–19 (international); U.S. teams qualify via the <a href="https://junior.robocup.org/americas-super-regional/" target="_blank" rel="noopener noreferrer">Americas Super Regional</a> (hosted in Canada)</td><td>Varies by organizer</td></tr>
+<tr><td>Rescue</td><td>Ages 8–19 (international); U.S. teams qualify via the Americas Super Regional</td><td>Varies by organizer</td></tr>
+<tr><td>OnStage</td><td>Ages 8–19 (international); U.S. teams qualify via the Americas Super Regional</td><td>Varies by organizer</td></tr>
 </tbody>
 </table>
 </div>
@@ -177,7 +177,7 @@ Robotics kits are shared by teams of up to four students. Programming devices ma
 <li><strong>WRO:</strong> Age is based on the age the student turns during the competition calendar year. U.S. event offerings and rules may differ.</li>
 <li><strong>VEX IQ:</strong> Grade and age ranges above are general guidance. Official division eligibility uses the current season's birthdate cutoffs.</li>
 <li><strong>FIRST K–8 Robotics:</strong> Specific offerings and age divisions will be added when details become available over the summer.</li>
-<li><strong>RoboCupJunior:</strong> International eligibility is based on age on July 1 of the competition year. Check U.S. event rules for younger participants.</li>
+<li><strong>RoboCupJunior:</strong> International eligibility is based on age on July 1 of the competition year. There is no current national U.S. organizing body; U.S. teams typically qualify through the <a href="https://junior.robocup.org/americas-super-regional/" target="_blank" rel="noopener noreferrer">RoboCup Americas Super Regional</a> (hosted in Canada — the closest regional qualifier for U.S. teams), with the global pathway managed via <a href="https://junior.robocup.org/" target="_blank" rel="noopener noreferrer">junior.robocup.org</a>. Age minimums can be lower at qualifying events; check each organizer's rules for younger participants.</li>
 </ul>
 <p class="lab-note">Equipment suitability depends on the competition, category, and current rules.</p>
 </details>
@@ -416,6 +416,18 @@ Robotics kits are shared by teams of up to four students. Programming devices ma
   font-weight: 700;
   text-align: left;
   background: #fbfcfe;
+}
+.lab-table tbody th a,
+.lab-table tbody td a {
+  color: #0866E8;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(8, 102, 232, 0.35);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.lab-table tbody th a:hover,
+.lab-table tbody td a:hover {
+  color: #0552c3;
+  border-bottom-color: #0552c3;
 }
 .lab-table tbody tr:last-child th,
 .lab-table tbody tr:last-child td {
