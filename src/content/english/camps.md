@@ -46,8 +46,15 @@ robots: "index, follow"
 </tr>
 </tbody>
 </table>
-<p class="camps-hub__price-note">Book by Nov. 30, 2026. Discounted prices shown. Applied automatically at checkout.</p>
 </section>
+
+<aside class="promo-callout">
+<p class="promo-callout__title">🦃 Thanksgiving savings — 20% off through Nov. 30, 2026</p>
+<p class="promo-callout__body">
+Applies to every purchase while the promotion is active — <strong>book now to lock in the discount.</strong>
+Discount applied automatically at checkout. Refunds issued as store credit.
+</p>
+</aside>
 
 <div class="camps-hub__grid">
 

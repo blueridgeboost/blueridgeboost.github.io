@@ -2,6 +2,35 @@
 // Global elements and utilities
 // ============================================================
 
+// ---- Shared Thanksgiving-savings callout (same on every pricing page) ----
+.promo-callout {
+  max-width: 900px;
+  margin: 1.25rem auto;
+  padding: 1rem 1.25rem;
+  background: rgba(8, 102, 232, 0.07);
+  border: 1px solid rgba(8, 102, 232, 0.25);
+  border-left: 4px solid #0866E8;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.promo-callout__title {
+  margin: 0 0 0.35rem;
+  color: #0866E8;
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 0.005em;
+}
+
+.promo-callout__body {
+  margin: 0;
+  color: #0f1b2d;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.promo-callout__body strong { color: #0b2545; }
+
 *,
 *::before,
 *::after {

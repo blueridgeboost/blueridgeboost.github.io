@@ -1,25 +1,22 @@
 ---
-title: "Robotics Teams | Blue Ridge Boost"
-page_title: "Robotics Teams"
-description: "Join a Blue Ridge Boost robotics team and compete in World Robot Olympiad. Teams for all ages, all levels, all WRO events in Charlottesville, VA."
+title: "World Robot Olympiad 2027 | Blue Ridge Boost"
+page_title: "World Robot Olympiad"
+description: "Blue Ridge Boost is organizing the WRO School Competition in May 2027 and the WRO Open Championship in summer 2027 in Charlottesville, VA."
 draft: false
 layout: single
 
 keywords:
-  - robotics teams Charlottesville
-  - World Robot Olympiad teams
-  - WRO team Blue Ridge Boost
-  - join a robotics team Virginia
+  - World Robot Olympiad 2027
+  - WRO School Competition
+  - WRO Open Championship
+  - WRO Charlottesville
+  - robotics competition Virginia
+  - Blue Ridge Boost WRO
+  - RoboMission
+  - Future Engineers
+  - WRO qualifier Virginia
+  - WRO USA
   - robotics competition for kids
-  - WRO Elementary Junior Senior
-  - RoboMission team
-  - Future Engineers team
-  - Future Innovators team
-  - robotics club Charlottesville
-  - STEM robotics competition
-  - robotics for kids and teens
-  - WRO 2026 Regional Open Qualifier
-  - robotics events in Virginia
   - autonomous robots competition
 robots: "index, follow"
 ---
@@ -28,64 +25,65 @@ robots: "index, follow"
 
 <!-- Program intro -->
 <header class="wro-program-intro">
-<h1 class="wro-program-title">Robotics Teams</h1>
-<p class="wro-program-subtitle">Join a Blue Ridge Boost team and compete in the World Robot Olympiad.</p>
+<h1 class="wro-program-title">World Robot Olympiad</h1>
+<p class="wro-program-subtitle">Blue Ridge Boost is organizing two WRO events in Charlottesville in 2027.</p>
 <div class="wro-program-facts">
-<span class="wro-program-fact"><strong>All Ages</strong></span>
-<span class="wro-program-fact"><strong>All WRO Levels</strong></span>
-<span class="wro-program-fact"><strong>All WRO Events</strong></span>
+<span class="wro-program-fact"><strong>May 2027</strong> — School Competition</span>
+<span class="wro-program-fact"><strong>Summer 2027</strong> — Open Championship</span>
 <span class="wro-program-fact"><strong>2171 Ivy Rd</strong></span>
 </div>
 <div class="wro-program-cta-row">
-<a class="wro-program-cta" href="mailto:info@blueridgeboost.com?subject=Robotics%20Team%20Interest">Join a Team</a>
-<a class="wro-program-cta wro-program-cta--secondary" href="#wro-events">See WRO Events</a>
+<a class="wro-program-cta" href="mailto:info@blueridgeboost.com?subject=WRO%202027%20Interest">Register Interest</a>
+<a class="wro-program-cta wro-program-cta--secondary" href="#events-2027">Event Details</a>
 </div>
-<p class="wro-program-note">Not sure which level or event fits? Contact us and we'll walk you through the options.</p>
+<p class="wro-program-note">Dates, locations, and registration details are being finalized. Contact us to be notified.</p>
 </header>
 
-<!-- WRO events we've hosted (past seasons) -->
-<section class="wro-event-recap" id="wro-events">
+<!-- 2027 Events we're organizing -->
+<section class="wro-section" id="events-2027">
+  <h2 class="wro-section-title">Upcoming 2027 Events</h2>
+  <div class="championship-cards">
+    <div class="championship-card">
+      <div class="championship-icon">🏫</div>
+      <h3>WRO School Competition</h3>
+      <p class="championship-location">May 2027 · Charlottesville</p>
+      <ul>
+        <li><strong>Who:</strong> School teams from the region</li>
+        <li><strong>Format:</strong> WRO RoboMission and Future Engineers categories</li>
+        <li><strong>Register:</strong> Contact us for school registration</li>
+      </ul>
+    </div>
+    <div class="championship-card">
+      <div class="championship-icon">🏆</div>
+      <h3>WRO Open Championship</h3>
+      <p class="championship-location">Summer 2027 · Charlottesville</p>
+      <ul>
+        <li><strong>Who:</strong> WRO teams qualifying for international championships</li>
+        <li><strong>Format:</strong> All WRO competition categories and age groups</li>
+        <li><strong>Register:</strong> Open to qualifying teams; contact us for details</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Past hosting as credential -->
+<section class="wro-event-recap">
 <div class="wro-hero">
   <div class="wro-hero-badge">We hosted · 2025 &amp; 2026 Seasons</div>
   <h2 class="wro-hero-title">WRO-USEL Regional Open Qualifier</h2>
   <p class="wro-hero-subtitle">Charlottesville · Official host for two consecutive WRO USA seasons</p>
-  <p class="wro-hero-tagline">Blue Ridge Boost hosted the official WRO-USEL Regional Open Qualifier in both the 2025 and 2026 WRO USA seasons — a representative snapshot of the events our teams train for. The 2026 event details below show what a qualifier weekend looks like.</p>
+  <p class="wro-hero-tagline">Blue Ridge Boost hosted the official WRO-USEL Regional Open Qualifier in both the 2025 and 2026 WRO USA seasons, welcoming competition teams from across the region.</p>
   <div class="wro-hero-highlights">
     <span class="highlight-pill">📍 2171 Ivy Rd, Charlottesville</span>
     <span class="highlight-pill">👥 Teams of 2–3 + Coach</span>
     <span class="highlight-pill">🏆 Americas &amp; International paths</span>
   </div>
   <div class="hero-cta-group">
-    <a href="https://wro-association.org/competition/2026-season/" target="_blank" rel="noopener noreferrer" class="wro-cta-btn wro-cta-btn--alt">View Official WRO Rules</a>
+    <a href="https://wro-association.org/competition/" target="_blank" rel="noopener noreferrer" class="wro-cta-btn wro-cta-btn--alt">View Official WRO Rules</a>
   </div>
 </div>
 </section>
 
-<section class="wro-section">
-  <h2 class="wro-section-title">Qualify for International Championships</h2>
-  <div class="championship-cards">
-    <div class="championship-card">
-      <div class="championship-icon">🌎</div>
-      <h3>Americas Open Championship</h3>
-      <p class="championship-location">Hosted annually in the Americas region</p>
-      <ul>
-        <li><strong>Categories:</strong> All WRO competition categories</li>
-        <li><strong>Age groups:</strong> All age groups</li>
-        <li><strong>Spots:</strong> 1 per age group / category</li>
-      </ul>
-    </div>
-    <div class="championship-card">
-      <div class="championship-icon">🌍</div>
-      <h3>Non-Americas Open Championships</h3>
-      <p class="championship-location">Europe, Asia, Middle East &amp; North Africa</p>
-      <ul>
-        <li><strong>Regions:</strong> Europe, Asia, MENA</li>
-        <li><strong>Categories:</strong> All categories and age groups</li>
-        <li><strong>Spots:</strong> Minimum 1 per placement</li>
-      </ul>
-    </div>
-  </div>
-</section>
 
 <section class="wro-section">
   <h2 class="wro-section-title">Competition Categories</h2>
@@ -168,7 +166,7 @@ robots: "index, follow"
   /* WRO Page Layout */
   .wro-page { max-width: 950px; margin: 0 auto; padding: 0 1rem; }
 
-  /* ---- Program intro (new "Robotics Teams" header) ---- */
+  /* ---- Program intro ---- */
   .wro-program-intro { max-width: 720px; margin: 2rem auto 2rem; padding: clamp(1.5rem, 2.5vw, 2rem) 1rem; text-align: center; }
   .wro-program-title { margin: 0 0 0.75rem; color: #0b2545; font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 900; line-height: 1.1; letter-spacing: -0.035em; }
   .wro-program-subtitle { margin: 0 0 1.25rem; color: #52657a; font-size: 1.1rem; line-height: 1.55; }

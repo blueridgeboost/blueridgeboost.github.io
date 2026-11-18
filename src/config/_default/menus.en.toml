@@ -5,7 +5,7 @@
     identifier = "classes"
     name       = "🧩 Winter Classes"
     url        = "/classes/"
-    weight     = 4
+    weight     = 6
 
 [[main]]
     name       = "Ages 6-8: Lower Elementary Explorers"
@@ -68,7 +68,7 @@
     identifier  = "fun"
     name        = "🎉 Parties & Gaming"
     # url         = "/fun/"
-    weight      = 2
+    weight      = 4
 ############ Birthdays ############
 [[main]]
     name        = "🎂 Birthday Parties"
@@ -88,7 +88,7 @@
     identifier = "academic-support"
     name       = "✏️ Tutoring & Test Prep"
     # url        = "/tutoring/"
-    weight     = 3
+    weight     = 5
 
 [[main]]
     parent     = "academic-support"
@@ -112,13 +112,18 @@
 [[main]]
     name       = "🏠 Homeschool"
     url        = "/homeschool/"
-    weight     = 5
+    weight     = 7
 
-############ Competitions ############
+############ Robotics / Competitions ############
 [[main]]
-    name        = "🤖 Robotics Teams"
+    name        = "🤖 Robotics Lab"
+    url         = "/robotics-lab/"
+    weight      = 2
+
+[[main]]
+    name        = "🏆 WRO"
     url         = "/wro/"
-    weight      = 6
+    weight      = 3
 
 
 

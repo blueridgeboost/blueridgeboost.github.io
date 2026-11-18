@@ -93,6 +93,14 @@ aliases: ["/celebrations"]
 <h3>Pick Your Package</h3>
 <p>Every package includes 8 children (the birthday child counts as one), a dedicated instructor, and your chosen theme.</p>
 </div>
+<aside class="promo-callout">
+<p class="promo-callout__title">🦃 Thanksgiving savings — 20% off through Nov. 30, 2026</p>
+<p class="promo-callout__body">
+Applies to every purchase while the promotion is active — <strong>book your party now to lock in the discount.</strong>
+Discount applied automatically at checkout. Refunds issued as store credit.
+</p>
+</aside>
+
 <div class="package-cards">
 <article class="package-card">
 <div class="package-card__head">
